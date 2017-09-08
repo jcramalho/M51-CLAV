@@ -2,14 +2,18 @@
 //      2017-08-13: criado
 //          by jcr
 
+const fs = require('fs')
+
 // Notas de aplicação
-function migraNA(jsonObj, classCode)
+exports.migraNA = function(jsonObj, classCode, fout)
 {
+    var naList = []
     // tratamento das notas de aplicação
         if (jsonObj['Notas de aplicação'] && (jsonObj['Notas de aplicação'] != "")) {
             var textoNA = jsonObj['Notas de aplicação']
-            var naList = textoNA.replace(/(\r\n|\n|\r)/gm,"").split("#")
+            naList = textoNA.replace(/(\r\n|\n|\r)/gm,"").split("#")
             var naCount = 1
+            var naTriples = ""
                     
             for(var na=0, len = naList.length; na<len; na++)
                 {
@@ -17,25 +21,36 @@ function migraNA(jsonObj, classCode)
                         // criar as instâncias das notas de aplicação
                         var naCode = "na_" + classCode + "_" + naCount
                         naCount++
-                        console.log("###  http://jcr.di.uminho.pt/m51-clav#" + naCode)
-                        console.log(":" + naCode + " rdf:type owl:NamedIndividual ,")
-                        console.log("\t:NotaAplicacao ;")
+                        naTriples = ""
+                        naTriples += "###  http://jcr.di.uminho.pt/m51-clav#" + naCode + "\n"
+                        naTriples += ":" + naCode + " rdf:type owl:NamedIndividual ,\n"
+                        naTriples += "\t:NotaAplicacao ;\n"
+    
                         var naLimpa = naList[na].replace(/\"/g,"\\\"")
-                        console.log("\t:conteudo " + "\"" + naLimpa + "\".\n")
+                        naTriples += "\t:conteudo " + "\"" + naLimpa + "\".\n\n"
+
+                        fs.appendFile(fout, naTriples , function(err){
+                            if(err)
+                                console.error(err);
+                            console.log(naCode);
+                        });
                     }
         
                 }
         }
+    return naList;
 }
 
 // --------------------------------------------------------------------------
-
-function migraExNA(jsonObj, classCode)
+exports.migraExNA = function(jsonObj, classCode, fout)
 {
+    var exNAList = []
+
     if (jsonObj['Exemplos de NA']) {
             var textoExNA = jsonObj['Exemplos de NA']
-            var exNAList = textoExNA.replace(/(\r\n|\n|\r)/gm,"").split("#")
+            exNAList = textoExNA.replace(/(\r\n|\n|\r)/gm,"").split("#")
             var exNACount = 1
+            var exNATriples = ""
                     
             for(var exna=0, len = exNAList.length; exna<len; exna++)
                 {
@@ -43,24 +58,33 @@ function migraExNA(jsonObj, classCode)
                         // criar as instâncias para os exemplos das notas de aplicação
                         var exnaCode = "exna_" + classCode + "_" + exNACount
                         exNACount++
-                        console.log("###  http://jcr.di.uminho.pt/m51-clav#" + exnaCode)
-                        console.log(":" + exnaCode + " rdf:type owl:NamedIndividual ,")
-                        console.log("\t:ExemploNotaAplicacao ;")
-                        console.log("\t:conteudo " + "\"" + exNAList[exna] + "\".\n")
+                        exNATriples = ""
+                        exNATriples += "###  http://jcr.di.uminho.pt/m51-clav#" + exnaCode + "\n"
+                        exNATriples += ":" + exnaCode + " rdf:type owl:NamedIndividual ,\n"
+                        exNATriples += "\t:ExemploNotaAplicacao ;\n"
+                        exNATriples += "\t:conteudo " + "\"" + exNAList[exna] + "\".\n\n"
+                        
+                        fs.appendFile(fout, exNATriples , function(err){
+                            if(err)
+                                console.error(err);
+                            console.log(exnaCode);
+                        });
                     }
         
                 }
         }
+    return exNAList
 }
 
 // ------------------------------------------------------------------------------------
-
-function migraNE(jsonObj, classCode)
+exports.migraNE = function(jsonObj, classCode, fout)
 {
+    var neList = []
     if (jsonObj['Notas de exclusão']) {
             var textoNE = jsonObj['Notas de exclusão']
-            var neList = textoNE.replace(/(\r\n|\n|\r)/gm,"").split("#")
+            neList = textoNE.replace(/(\r\n|\n|\r)/gm,"").split("#")
             var neCount = 1
+            var neTriples = ""
                     
             for(var ne=0, len = neList.length; ne<len; ne++)
                 {
@@ -68,13 +92,22 @@ function migraNE(jsonObj, classCode)
                         // criar as instâncias das notas de exclusão
                         var neCode = "ne_" + classCode + "_" + neCount
                         neCount++
-                        console.log("###  http://jcr.di.uminho.pt/m51-clav#" + neCode)
-                        console.log(":" + neCode + " rdf:type owl:NamedIndividual ,")
-                        console.log("\t:NotaExclusao ;")
+                        neTriples = ""
+                        neTriples += "###  http://jcr.di.uminho.pt/m51-clav#" + neCode + "\n"
+                        neTriples += ":" + neCode + " rdf:type owl:NamedIndividual ,\n"
+                        neTriples += "\t:NotaExclusao ;\n"
+                        
                         var neLimpa = neList[ne].replace(/\"/g,"\\\"")
-                        console.log("\t:conteudo " + "\"" + neLimpa + "\".\n")
+                        neTriples += "\t:conteudo " + "\"" + neLimpa + "\".\n\n"
+                        
+                        fs.appendFile(fout, neTriples , function(err){
+                            if(err)
+                                console.error(err);
+                            console.log(neCode);
+                        });
                     }
         
                 }
         }
+    return neList
 }

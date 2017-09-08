@@ -1,4 +1,4 @@
-exports.migraleg = function(callback)
+exports.migraLeg = function(callback)
 {
     const csv = require('csvtojson')
     const fs = require('fs')

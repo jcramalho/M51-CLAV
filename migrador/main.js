@@ -5,20 +5,27 @@ const async = require('async');
 var org = require("./mod-org.js")
 var ti = require("./mod-ti.js")
 var leg = require("./mod-leg.js")
+var classe = require("./mod-classe.js")
+
+var myOrgs = []
 
 // ------------------ Controlador principal ----------------------------------
 
 async.series([
+    function(callback) {
+        myOrgs = org.migraOrg(callback)  //Organizações
+    },
+
     /*function(callback) {
-        var myOrgs = org.migraOrg(callback)
+       ti.migraTI(callback)                 //Termos de Índice
     },
 
     function(callback) {
-       ti.migraTI(callback)
+        leg.migraLeg(callback)              //Legislação
     },*/
 
-    function(callback) {
-        leg.migraleg(callback)
+    function(callback){
+        classe.migraClasse(callback, myOrgs)                                    //Classes
     }
 ],
 // optional callback
