@@ -3,12 +3,13 @@ exports.migraLeg = function(callback)
     const csv = require('csvtojson')
     const fs = require('fs')
 
+    // Os documentos legislativos vão ser carregados num array para validações posteriores
+    var legs = []
+
      // Processamento da Legislação ....................
         var csvFilePath = "../dados/leg-utf8.csv"
         // Ficheiro de saída
         var fout = '../dados/ontologia/leg.ttl'
-        // Contador de documentos legislativos para os identificadores
-        var count = 1
 
         // Header
         fs.writeFile(fout, '### Legislação\n', function(err){
@@ -20,8 +21,14 @@ exports.migraLeg = function(callback)
         csv({delimiter:";"})
             .fromFile(csvFilePath)
             .on('json', (jsonObj, rowIndex)=> {
-                var currentStatements = "###  http://jcr.di.uminho.pt/m51-clav#leg_" + count + '\n'
-                currentStatements += ":leg_" + count + " rdf:type owl:NamedIndividual ,\n"
+                var lcode = "leg_" + jsonObj['Tipo de diploma'].replace(/ /g,"_") + "_" + jsonObj['Numero do diploma']
+                if(legs.indexOf(lcode) === -1)
+                    legs.push(lcode)
+                else
+                    console.error("ERRO: Duplicação de id na legislação [" + lcode + "]  " + legs.indexOf(lcode) + "/" + legs.length )
+
+                var currentStatements = "###  http://jcr.di.uminho.pt/m51-clav#" + lcode + '\n'
+                currentStatements += ":" + lcode + " rdf:type owl:NamedIndividual ,\n"
                 currentStatements += "\t:Legislacao ;\n"
                 currentStatements += "\t:diplomaAno :" + "\"" + jsonObj['Ano do diploma'] + "\";\n"
                 currentStatements += "\t:diplomaTipo :" + "\"" + jsonObj['Tipo de diploma'] + "\";\n"
@@ -29,9 +36,6 @@ exports.migraLeg = function(callback)
                 currentStatements += "\t:diplomaData :" + "\"" + jsonObj['Data do diploma'] + "\";\n"
                 currentStatements += "\t:diplomaTitulo :" + "\"" + jsonObj['Título / âmbito do diploma'] + "\";\n"
 
-                console.log(currentStatements)
-                console.dir(jsonObj)
-                console.log("..................................................")
                 // Atenção ao último triplo, tem que terminar em .
                 currentStatements += "\t:diplomaLink " + "\"" + jsonObj['Link'] + "\".\n"
 
@@ -40,8 +44,6 @@ exports.migraLeg = function(callback)
                         console.error(err);
                     console.log(jsonObj['Tipo de diploma'] + jsonObj['Numero do diploma']);
                 });
-    
-                count++
     
             })
             .on('done', (error)=> {
