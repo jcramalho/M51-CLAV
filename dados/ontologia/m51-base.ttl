@@ -1,0 +1,467 @@
+@prefix : <http://jcr.di.uminho.pt/m51-clav#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://jcr.di.uminho.pt/m51-clav> .
+
+<http://jcr.di.uminho.pt/m51-clav> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://jcr.di.uminho.pt/m51-clav#eAntecessorDe
+:eAntecessorDe rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :temRelProc ;
+               owl:inverseOf :eSucessorDe .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#eComplementarDe
+:eComplementarDe rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :temRelProc ;
+                 rdf:type owl:SymmetricProperty .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#eCruzadoCom
+:eCruzadoCom rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :temRelProc .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#eDonoProcesso
+:eDonoProcesso rdf:type owl:ObjectProperty ;
+               owl:inverseOf :temDono .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#eSinteseDe
+:eSinteseDe rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :temRelProc ;
+            owl:inverseOf :eSintetizadoPor .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#eSintetizadoPor
+:eSintetizadoPor rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :temRelProc .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#eSucessorDe
+:eSucessorDe rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :temRelProc .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#eSuplementoDe
+:eSuplementoDe rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :temRelProc .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#especificaDe
+:especificaDe rdf:type owl:ObjectProperty ;
+              rdfs:comment "Relação a ser estabelecida entre uma nota de aplicação ou de exclusão e uma organização ou tipologia de organização que indica que a nota é específica daquele conjunto de organizações."^^xsd:string .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#estaAssocClasse
+:estaAssocClasse rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :temTI .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#naPertenceClasse
+:naPertenceClasse rdf:type owl:ObjectProperty ;
+                  owl:inverseOf :temNotaAplicacao .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#nePertenceClasse
+:nePertenceClasse rdf:type owl:ObjectProperty ;
+                  owl:inverseOf :temNotaExclusao .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#objeto
+:objeto rdf:type owl:ObjectProperty ;
+        rdfs:domain :RelacaoPesada .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#participaEm
+:participaEm rdf:type owl:ObjectProperty ;
+             owl:inverseOf :temParticipante .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#participaEmApreciando
+:participaEmApreciando rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :participaEm ;
+                       owl:inverseOf :temParticipanteApreciador .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#participaEmAssessorando
+:participaEmAssessorando rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf :participaEm ;
+                         owl:inverseOf :temParticipanteAssessor .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#participaEmComunicando
+:participaEmComunicando rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf :participaEm ;
+                        owl:inverseOf :temParticipanteComunicador .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#participaEmDecidindo
+:participaEmDecidindo rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf :participaEm ;
+                      owl:inverseOf :temParticipanteDecisor .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#participaEmExecutando
+:participaEmExecutando rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :participaEm ;
+                       owl:inverseOf :temParticipanteExecutor .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#participaEmIniciando
+:participaEmIniciando rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf :participaEm ;
+                      owl:inverseOf :temParticipanteIniciador .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#pertenceLC
+:pertenceLC rdf:type owl:ObjectProperty ;
+            owl:inverseOf :temClasseTopo .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#sujeito
+:sujeito rdf:type owl:ObjectProperty ;
+         rdfs:domain :RelacaoPesada .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temClasseTopo
+:temClasseTopo rdf:type owl:ObjectProperty ;
+               rdfs:domain :ListaConsolidada ;
+               rdfs:range :Classe_N1 .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temDono
+:temDono rdf:type owl:ObjectProperty .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temFilho
+:temFilho rdf:type owl:ObjectProperty ;
+          owl:inverseOf :temPai .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temNotaAplicacao
+:temNotaAplicacao rdf:type owl:ObjectProperty ;
+                  rdfs:domain [ rdf:type owl:Class ;
+                                owl:unionOf ( :Classe_N1
+                                              :Classe_N2
+                                              :Classe_N3
+                                              :Classe_N4
+                                            )
+                              ] ;
+                  rdfs:range :NotaAplicacao .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temNotaExclusao
+:temNotaExclusao rdf:type owl:ObjectProperty ;
+                 rdfs:domain [ rdf:type owl:Class ;
+                               owl:unionOf ( :Classe_N1
+                                             :Classe_N2
+                                             :Classe_N3
+                                             :Classe_N4
+                                           )
+                             ] ;
+                 rdfs:range :NotaExclusao .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temPai
+:temPai rdf:type owl:ObjectProperty ,
+                 owl:FunctionalProperty .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temParticipante
+:temParticipante rdf:type owl:ObjectProperty .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temParticipanteApreciador
+:temParticipanteApreciador rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf :temParticipante .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temParticipanteAssessor
+:temParticipanteAssessor rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf :temParticipante .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temParticipanteComunicador
+:temParticipanteComunicador rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf :temParticipante .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temParticipanteDecisor
+:temParticipanteDecisor rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf :temParticipante .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temParticipanteExecutor
+:temParticipanteExecutor rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf :temParticipante .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temParticipanteIniciador
+:temParticipanteIniciador rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf :temParticipante .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temRelProc
+:temRelProc rdf:type owl:ObjectProperty .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temTI
+:temTI rdf:type owl:ObjectProperty ;
+       rdfs:domain [ rdf:type owl:Class ;
+                     owl:unionOf ( :Classe_N1
+                                   :Classe_N2
+                                   :Classe_N3
+                                   :Classe_N4
+                                 )
+                   ] ;
+       rdfs:range :TermoIndice .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#usarClasse
+:usarClasse rdf:type owl:ObjectProperty ;
+            rdfs:domain :NotaExclusao ;
+            rdfs:range [ rdf:type owl:Class ;
+                         owl:unionOf ( :Classe_N1
+                                       :Classe_N2
+                                       :Classe_N3
+                                       :Classe_N4
+                                     )
+                       ] ;
+            rdfs:comment "Esta propriedade deve ser usada para associar a uma nota de exclusão a classe que deve ser usada na classificação em substituição da atual." .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://jcr.di.uminho.pt/m51-clav#classeStatus
+:classeStatus rdf:type owl:DatatypeProperty .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#codigo
+:codigo rdf:type owl:DatatypeProperty ,
+                 owl:FunctionalProperty ;
+        rdfs:domain [ rdf:type owl:Class ;
+                      owl:unionOf ( :Classe_N1
+                                    :Classe_N2
+                                    :Classe_N3
+                                    :Classe_N4
+                                  )
+                    ] ;
+        rdfs:range xsd:string ;
+        rdfs:comment "O código é constituído por um identificador numérico que é único e por isso identifica univocamente a classe"^^xsd:string .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#conteudo
+:conteudo rdf:type owl:DatatypeProperty ;
+          rdfs:domain [ rdf:type owl:Class ;
+                        owl:unionOf ( :NotaAplicacao
+                                      :NotaExclusao
+                                    )
+                      ] ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Data Property que deve ser usada para guardar o conteúdo duma nota de aplicação ou de exclusão."^^xsd:string .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#descricao
+:descricao rdf:type owl:DatatypeProperty ;
+           rdfs:domain [ rdf:type owl:Class ;
+                         owl:unionOf ( :Classe_N1
+                                       :Classe_N2
+                                       :Classe_N3
+                                       :Classe_N4
+                                       :ListaConsolidada
+                                     )
+                       ] ;
+           rdfs:range xsd:string .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#diplomaAno
+:diplomaAno rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Legislacao .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#diplomaData
+:diplomaData rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Legislacao .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#diplomaLink
+:diplomaLink rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Legislacao .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#diplomaNumero
+:diplomaNumero rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Legislacao .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#diplomaTipo
+:diplomaTipo rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Legislacao .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#diplomaTitulo
+:diplomaTitulo rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Legislacao .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#exemploNA
+:exemploNA rdf:type owl:DatatypeProperty ;
+           rdfs:comment "Exemplo de uma nota de aplicação." .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#orgNome
+:orgNome rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Organizacao .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#orgSigla
+:orgSigla rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Organizacao .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#processoTipo
+:processoTipo rdf:type owl:DatatypeProperty .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#processoTransversal
+:processoTransversal rdf:type owl:DatatypeProperty .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#termo
+:termo rdf:type owl:DatatypeProperty ;
+       rdfs:domain :TermoIndice ;
+       rdfs:range xsd:string .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#teste
+:teste rdf:type owl:DatatypeProperty .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#testeA
+:testeA rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf :teste .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#testeB
+:testeB rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf :teste .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#titulo
+:titulo rdf:type owl:DatatypeProperty ;
+        rdfs:domain [ rdf:type owl:Class ;
+                      owl:unionOf ( :Classe_N1
+                                    :Classe_N2
+                                    :Classe_N3
+                                    :Classe_N4
+                                    :ListaConsolidada
+                                  )
+                    ] ;
+        rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://jcr.di.uminho.pt/m51-clav#AtributoComposto
+:AtributoComposto rdf:type owl:Class .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#Classe_N1
+:Classe_N1 rdf:type owl:Class ;
+           rdfs:subClassOf :ListaConsolidada ;
+           rdfs:comment "As classes de nível 1 coorespondem a Funções"^^xsd:string .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#Classe_N2
+:Classe_N2 rdf:type owl:Class ;
+           rdfs:subClassOf :Classe_N1 ;
+           rdfs:comment "As classes de nível 2 correspondem a subfunções"^^xsd:string .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#Classe_N3
+:Classe_N3 rdf:type owl:Class ;
+           rdfs:subClassOf :Classe_N2 ;
+           rdfs:comment "As classes de nível 3 correpondem a Processos de Negócio"^^xsd:string .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#Classe_N4
+:Classe_N4 rdf:type owl:Class ;
+           rdfs:subClassOf :Classe_N3 ;
+           rdfs:comment "As classes de nível 4 correspondem a subdivisões dos processos de negócio"^^xsd:string .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#ExemploNotaAplicacao
+:ExemploNotaAplicacao rdf:type owl:Class ;
+                      rdfs:subClassOf :AtributoComposto .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#Legislacao
+:Legislacao rdf:type owl:Class .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#ListaConsolidada
+:ListaConsolidada rdf:type owl:Class .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#NotaAplicacao
+:NotaAplicacao rdf:type owl:Class ;
+               rdfs:subClassOf :AtributoComposto .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#NotaExclusao
+:NotaExclusao rdf:type owl:Class ;
+              rdfs:subClassOf :AtributoComposto .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#Organizacao
+:Organizacao rdf:type owl:Class .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#RelacaoPesada
+:RelacaoPesada rdf:type owl:Class .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#TermoIndice
+:TermoIndice rdf:type owl:Class .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#TesteClasse
+:TesteClasse rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://jcr.di.uminho.pt/m51-clav#lc1
+:lc1 rdf:type owl:NamedIndividual ,
+              :ListaConsolidada ;
+     :titulo "Lista Consolidada" .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#teste1
+:teste1 rdf:type owl:NamedIndividual ,
+                 :TesteClasse ;
+        :testeA "A experiment" ;
+        :testeB "B experiment" .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#teste2
+:teste2 rdf:type owl:NamedIndividual ,
+                 :TesteClasse ;
+        :testeB "Bt2 experiment" .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
