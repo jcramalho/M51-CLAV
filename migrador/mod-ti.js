@@ -32,7 +32,6 @@ exports.migraTI = function(callback)
                 fs.appendFile(fout, currentStatements , function(err){
                     if(err)
                         console.error(err);
-                    console.log(jsonObj['Termo']);
                 });
     
                 count++

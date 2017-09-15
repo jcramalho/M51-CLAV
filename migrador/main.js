@@ -12,21 +12,24 @@ var myOrgs = []
 // ------------------ Controlador principal ----------------------------------
 
 async.series([
-    /*function(callback) {
+    function(callback) {
         myOrgs = org.migraOrg(callback)  //Organizações
     },
 
     function(callback) {
        ti.migraTI(callback)                 //Termos de Índice
-    },*/
+    },
 
     function(callback) {
         leg.migraLeg(callback)              //Legislação
-    }/*,
+    },
 
     function(callback){
-        classe.migraClasse(callback, myOrgs)                                    //Classes
-    }*/
+        classe.migraClasse(callback, myOrgs, '100')                                    //Classes
+    },
+    function(callback){
+        classe.migraClasse(callback, myOrgs, '150')                                    //Classes
+    }
 ],
 // optional callback
 function(err, results) {

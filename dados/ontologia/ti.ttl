@@ -79,16 +79,16 @@
 	:TermoIndice ;
 	:estaAssocClasse :c100.10.001;
 	:termo "Projeto de lei".
-###  http://jcr.di.uminho.pt/m51-clav#ti_17
-:ti_17 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c100.10.001;
-	:termo "Promulgação de diploma".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_18
 :ti_18 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
 	:estaAssocClasse :c100.10.001;
 	:termo "Proposta de lei".
+###  http://jcr.di.uminho.pt/m51-clav#ti_17
+:ti_17 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c100.10.001;
+	:termo "Promulgação de diploma".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_19
 :ti_19 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -119,11 +119,6 @@
 	:TermoIndice ;
 	:estaAssocClasse :c100.10.002;
 	:termo "Depósito de instrumento de regulação".
-###  http://jcr.di.uminho.pt/m51-clav#ti_25
-:ti_25 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c100.10.002;
-	:termo "Ratificação de convenção internacional".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_26
 :ti_26 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -134,16 +129,21 @@
 	:TermoIndice ;
 	:estaAssocClasse :c100.10.002;
 	:termo "Tratado internacional, aprovação e comunicação de".
-###  http://jcr.di.uminho.pt/m51-clav#ti_28
-:ti_28 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c100.10.003;
-	:termo "Acórdão de declaração da inconstitucionalidade com força obrigatória legal".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_29
 :ti_29 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
 	:estaAssocClasse :c100.10.003;
 	:termo "Declaração da inconstitucionalidade com força obrigatória legal".
+###  http://jcr.di.uminho.pt/m51-clav#ti_28
+:ti_28 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c100.10.003;
+	:termo "Acórdão de declaração da inconstitucionalidade com força obrigatória legal".
+###  http://jcr.di.uminho.pt/m51-clav#ti_25
+:ti_25 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c100.10.002;
+	:termo "Ratificação de convenção internacional".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_30
 :ti_30 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -279,16 +279,6 @@
 	:TermoIndice ;
 	:estaAssocClasse :c100.10.600;
 	:termo "Protocolo institucional".
-###  http://jcr.di.uminho.pt/m51-clav#ti_57
-:ti_57 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c100.10.600;
-	:termo "Referencial".
-###  http://jcr.di.uminho.pt/m51-clav#ti_58
-:ti_58 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c100.10.600;
-	:termo "Regimento".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_59
 :ti_59 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -424,6 +414,11 @@
 	:TermoIndice ;
 	:estaAssocClasse :c100.20.400;
 	:termo "FAQ - Frequently Asked Question, produção de orientação ou parecer para".
+###  http://jcr.di.uminho.pt/m51-clav#ti_57
+:ti_57 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c100.10.600;
+	:termo "Referencial".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_86
 :ti_86 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -654,6 +649,11 @@
 	:TermoIndice ;
 	:estaAssocClasse :c150.10.100;
 	:termo "Política da responsabilidade por danos ambientais".
+###  http://jcr.di.uminho.pt/m51-clav#ti_58
+:ti_58 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c100.10.600;
+	:termo "Regimento".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_132
 :ti_132 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -854,6 +854,21 @@
 	:TermoIndice ;
 	:estaAssocClasse :c150.10.400;
 	:termo "Plano diretor intermunicipal de ordenamento do território".
+###  http://jcr.di.uminho.pt/m51-clav#ti_172
+:ti_172 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c150.10.400;
+	:termo "Plano municipal de defesa da floresta contra incêndios".
+###  http://jcr.di.uminho.pt/m51-clav#ti_173
+:ti_173 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c150.10.400;
+	:termo "Plano municipal de emergência".
+###  http://jcr.di.uminho.pt/m51-clav#ti_174
+:ti_174 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c150.10.400;
+	:termo "Plano municipal de emergência e proteção civil".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_175
 :ti_175 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -1389,21 +1404,6 @@
 	:TermoIndice ;
 	:estaAssocClasse :c150.10.701.02;
 	:termo "Reunião de Conselho de Administração (realização)".
-###  http://jcr.di.uminho.pt/m51-clav#ti_172
-:ti_172 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c150.10.400;
-	:termo "Plano municipal de defesa da floresta contra incêndios".
-###  http://jcr.di.uminho.pt/m51-clav#ti_173
-:ti_173 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c150.10.400;
-	:termo "Plano municipal de emergência".
-###  http://jcr.di.uminho.pt/m51-clav#ti_174
-:ti_174 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c150.10.400;
-	:termo "Plano municipal de emergência e proteção civil".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_282
 :ti_282 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -5069,11 +5069,6 @@
 	:TermoIndice ;
 	:estaAssocClasse :c250.20.603;
 	:termo "Compensação".
-###  http://jcr.di.uminho.pt/m51-clav#ti_1015
-:ti_1015 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c250.20.603;
-	:termo "Mobilidade especial".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_1016
 :ti_1016 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -5084,6 +5079,11 @@
 	:TermoIndice ;
 	:estaAssocClasse :c250.20.604;
 	:termo "Processamento de pedidos de reclassificação profissional".
+###  http://jcr.di.uminho.pt/m51-clav#ti_1015
+:ti_1015 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c250.20.603;
+	:termo "Mobilidade especial".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_1018
 :ti_1018 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -8534,16 +8534,16 @@
 	:TermoIndice ;
 	:estaAssocClasse :c300.40.511;
 	:termo "Participação de responsabilidade civil extracontratual".
-###  http://jcr.di.uminho.pt/m51-clav#ti_1709
-:ti_1709 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c300.40.511;
-	:termo "Pedido de Indemnização".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_1708
 :ti_1708 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
 	:estaAssocClasse :c300.40.511;
 	:termo "Participação de roubo".
+###  http://jcr.di.uminho.pt/m51-clav#ti_1709
+:ti_1709 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c300.40.511;
+	:termo "Pedido de Indemnização".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_1710
 :ti_1710 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -11693,16 +11693,16 @@
 	:TermoIndice ;
 	:estaAssocClasse :c400.10.050;
 	:termo "Registo de operador económico no Sistema EORI - Sistema de identificação e registo dos operadores económico".
-###  http://jcr.di.uminho.pt/m51-clav#ti_2340
-:ti_2340 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c400.10.051;
-	:termo "Guarda-noturno, registo de".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_2339
 :ti_2339 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
 	:estaAssocClasse :c400.10.051;
 	:termo "Agente desportivo de alto rendimento, registo de".
+###  http://jcr.di.uminho.pt/m51-clav#ti_2340
+:ti_2340 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c400.10.051;
+	:termo "Guarda-noturno, registo de".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_2341
 :ti_2341 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -19258,16 +19258,16 @@
 	:TermoIndice ;
 	:estaAssocClasse :c500.10.600;
 	:termo "Descarga de efluente e de rejeição de águas residuais, monitorização sistemática da".
-###  http://jcr.di.uminho.pt/m51-clav#ti_3853
-:ti_3853 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c500.10.600;
-	:termo "Mercado lícito de estupefacientes, substâncias psicotrópicas e suas preparações".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_3852
 :ti_3852 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
 	:estaAssocClasse :c500.10.600;
 	:termo "Eliminação de documentos, monitorização sistemática de".
+###  http://jcr.di.uminho.pt/m51-clav#ti_3853
+:ti_3853 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c500.10.600;
+	:termo "Mercado lícito de estupefacientes, substâncias psicotrópicas e suas preparações".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_3854
 :ti_3854 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -22488,16 +22488,16 @@
 	:TermoIndice ;
 	:estaAssocClasse :c600.10.506.02;
 	:termo "Testemunha especialmente vulnerável (destruição judiciária dos documentos de identificação)".
-###  http://jcr.di.uminho.pt/m51-clav#ti_4499
-:ti_4499 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c600.10.507;
-	:termo "Ação encoberta, pedido de cooperação internacional para".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_4498
 :ti_4498 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
 	:estaAssocClasse :c600.10.506.02;
 	:termo "Testemunha, proteção de (destruição judiciária dos documentos de identificação)".
+###  http://jcr.di.uminho.pt/m51-clav#ti_4499
+:ti_4499 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c600.10.507;
+	:termo "Ação encoberta, pedido de cooperação internacional para".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_4500
 :ti_4500 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -25237,16 +25237,16 @@
 	:TermoIndice ;
 	:estaAssocClasse :c650.10.204;
 	:termo "Revisão da concessão de pensão social de velhice".
-###  http://jcr.di.uminho.pt/m51-clav#ti_5047
-:ti_5047 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c650.10.204;
-	:termo "velhice, concessão de pensão social de velhice".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_5048
 :ti_5048 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
 	:estaAssocClasse :c650.10.205;
 	:termo "Atribuição rendimento social de inserção".
+###  http://jcr.di.uminho.pt/m51-clav#ti_5047
+:ti_5047 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c650.10.204;
+	:termo "velhice, concessão de pensão social de velhice".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_5049
 :ti_5049 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
@@ -30892,16 +30892,16 @@
 	:TermoIndice ;
 	:estaAssocClasse :c900.10.002.01;
 	:termo "Educação física militar (conceção)".
-###  http://jcr.di.uminho.pt/m51-clav#ti_6174
-:ti_6174 rdf:type owl:NamedIndividual ,
-	:TermoIndice ;
-	:estaAssocClasse :c900.10.002.01;
-	:termo "Exibição de filmes (conceção)".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_6175
 :ti_6175 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;
 	:estaAssocClasse :c900.10.002.01;
 	:termo "Festa (conceção)".
+###  http://jcr.di.uminho.pt/m51-clav#ti_6174
+:ti_6174 rdf:type owl:NamedIndividual ,
+	:TermoIndice ;
+	:estaAssocClasse :c900.10.002.01;
+	:termo "Exibição de filmes (conceção)".
 ###  http://jcr.di.uminho.pt/m51-clav#ti_6176
 :ti_6176 rdf:type owl:NamedIndividual ,
 	:TermoIndice ;

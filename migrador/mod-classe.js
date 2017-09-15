@@ -1,18 +1,18 @@
-exports.migraClasse = function(callback, orgCatalog)
+exports.migraClasse = function(callback, orgCatalog, classe)
 {
     const csv = require('csvtojson')
     const fs = require('fs')
 
     // Processamento do ficheiro de classes ...........................
-    const csvFilePath = "../dados/c150-utf8.csv"
+    const csvFilePath = "../dados/" + classe + "-utf8.csv"
     // Ficheiro de saída
-    var fout = '../dados/ontologia/classe.ttl'
+    var fout = '../dados/ontologia/c' + classe + '.ttl'
 
     // Header
-    fs.writeFile(fout, '### Classes\n', function(err){
+    fs.writeFile(fout, '### Classe' + classe + '\n', function(err){
         if(err)
             console.error(err);
-        console.log('Classes: Comecei a processar');
+        console.log('Classe ' + classe + ': Comecei a processar');
     });
 
     // Por omissão, a primeira linha é a lista de chaves
@@ -51,6 +51,7 @@ exports.migraClasse = function(callback, orgCatalog)
                 // tratamento das notas de exclusão
                 var neList = m.migraNE(jsonObj, classCode, fout)
 
+                // Geração dos triplos da classe
                 classTriples += "###  http://jcr.di.uminho.pt/m51-clav#" + classCode + "\n"
                 classTriples += ":" + classCode + " rdf:type owl:NamedIndividual ,\n"
                 classTriples += "\t:Classe_N" + classe + ";\n"
@@ -208,11 +209,11 @@ exports.migraClasse = function(callback, orgCatalog)
             }
         })
     .on('done', (error)=> {
-        fs.appendFile(fout, '\n### Classes terminam aqui.\n\n' , function(err){
+        fs.appendFile(fout, '\n### Classes' + classe + ' termina aqui.\n\n' , function(err){
                     if(err)
                         console.error(err);
                 });
   })
 
-  callback(null, '::Classes');
+  callback(null, '::Classe ' + classe);
 }

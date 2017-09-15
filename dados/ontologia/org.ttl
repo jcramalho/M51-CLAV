@@ -139,16 +139,16 @@
 	:Organizacao ;
 	:orgSigla "APAV";
 	:orgNome "Associação Portuguesa de Apoio à Vítima".
-###  http://jcr.di.uminho.pt/m51-clav#org_APEL
-:org_APEL rdf:type owl:NamedIndividual ,
-	:Organizacao ;
-	:orgSigla "APEL";
-	:orgNome "Associação Portuguesa de Editores e Livreiros".
 ###  http://jcr.di.uminho.pt/m51-clav#org_AR
 :org_AR rdf:type owl:NamedIndividual ,
 	:Organizacao ;
 	:orgSigla "AR";
 	:orgNome "Assembleia da República".
+###  http://jcr.di.uminho.pt/m51-clav#org_APEL
+:org_APEL rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "APEL";
+	:orgNome "Associação Portuguesa de Editores e Livreiros".
 ###  http://jcr.di.uminho.pt/m51-clav#org_ARS
 :org_ARS rdf:type owl:NamedIndividual ,
 	:Organizacao ;
