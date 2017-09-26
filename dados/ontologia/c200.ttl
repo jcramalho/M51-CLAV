@@ -1,0 +1,1396 @@
+### Classe200
+###  http://jcr.di.uminho.pt/m51-clav#na_c200_2
+:na_c200_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento dos compromissos institucionais e a realização de projetos e ações de execução da política externa concretizadas por organismos da Administração Central, Regional ou Local".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200_1
+:na_c200_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento político e diplomático das relações internacionais bilaterais e multilaterais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200_1
+:ne_c200_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A produção de informações no âmbito do SIRP deve ser considerada em \"Planeamento e gestão estratégica/ Produção de informações estratégicas e de segurança\" (150.30)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200_2
+:ne_c200_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A componente protocolar da organização de cerimónias e receções oficiais deve ser considerada no âmbito do evento a que diz respeito".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200
+:c200 rdf:type owl:NamedIndividual ,
+	:Classe_N1;
+	:codigo "200";
+	:titulo "EXECUÇÃO DA POLÍTICA EXTERNA";
+	:pertenceLC :lc1 ;
+	:temNotaAplicacao :na_c200_1 ;
+	:temNotaAplicacao :na_c200_2 ;
+	:temNotaExclusao :ne_c200_1 ;
+	:temNotaExclusao :ne_c200_2 ;
+	:classeStatus "A" ;
+	:descricao "Relativo à definição e acompanhamento das políticas conjuntas de Portugal com outros Estados bem como à definição e acompanhamento das políticas de organismos internacionais de que Portugal é membro.
+Relativo, ainda, à definição e acompanhamento da execução de acordos, protocolos ou outros compromissos de cooperação interinstitucional celebrados no quadro das relações internacionais estabelecidas pelo Estado português.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10_1
+:na_c200.10_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atividades preparatórias de cimeiras, encontros e reuniões políticas ou técnicas, e na representação nacional nas mesmas cimeiras ou encontros de chefes de Estado e de Governo, reuniões e conselhos de ministros de diferentes Estados, reuniões de dirigentes, de comités e de grupos de peritos internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10_2
+:na_c200.10_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Participação política e técnica (de quaisquer entidades de âmbito nacional, regional ou local) na elaboração de tratados, acordos, protocolos, tomadas de posição comuns, memorandos de entendimento, cartas de princípios e instrumentos similares que regulam as relações internacionais, bilaterais ou multilaterais. Inclui os acordos de geminação estabelecidos no quadro das relações internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10_3
+:na_c200.10_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Trabalhos preparatórios da participação portuguesa na defesa das posições nacionais sobre as políticas da União Europeia em qualquer domínio, e a participação política e/ou técnica na elaboração de políticas comuns, programas-quadro, recomendações, diretivas, regulamentos ou outros instrumentos políticos e regulamentares de âmbito comunitário".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10_4
+:na_c200.10_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Trabalhos preparatórios da participação portuguesa em organismos de normalização europeus ou internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10_1
+:ne_c200.10_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A definição da política externa portuguesa, tal como a definição das demais políticas, deve ser considerada em \"Planeamento e gestão estratégica/ Definição e avaliação de políticas\" (150.10);Os processos de vinculação do Estado português a tratados e acordos internacionais, a respetiva publicitação e a publicitação da vinculação de outros Estados-parte, bem como os processos de transposição para o ordenamento nacional de diretivas comunitárias e de normas técnicas europeias ou internacionais, devem ser considerados em \"Ordenamento jurídico e normativo/ Elaboração de diplomas jurídico-normativos e de normas técnicas\" (100.10);A celebração de acordos e protocolos de cooperação interinstitucional em que não participem organismos estrangeiros ou internacionais não está subordinada à política externa, pelo que deve ser considerada em \"Planeamento e gestão estratégica/ Definição e avaliação de políticas\" (150.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.10
+:c200.10 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "200.10";
+	:titulo "Definição de políticas conjuntas e dos instrumentos de regulação";
+	:temPai :c200 ;
+	:temNotaAplicacao :na_c200.10_1 ;
+	:temNotaAplicacao :na_c200.10_2 ;
+	:temNotaAplicacao :na_c200.10_3 ;
+	:temNotaAplicacao :na_c200.10_4 ;
+	:temNotaExclusao :ne_c200.10_1 ;
+	:classeStatus "A" ;
+	:descricao "Compreende as atividades que consubstanciam a participação na negociação, preparação e fixação de instrumentos reguladores das relações internacionais, de decisões tomadas no âmbito da cooperação intergovernamental da União Europeia, bem como de instrumentos de regulação comunitária.
+Compreende, igualmente, a participação na elaboração de normas técnicas europeias e internacionais.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.001_1
+:na_c200.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Relações bilaterais ou multilaterais (com países de fora da União Europeia ou com Estados-Membros da União Europeia)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.001_2
+:na_c200.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração de contributos para as cimeiras internacionais e reuniões ministeriais no quadro internacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.001_3
+:na_c200.10.001_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento no âmbito de processos multilaterais".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_1
+:exna_c200.10.001_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Relações bilaterais / multilaterais  em matéria consular".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_2
+:exna_c200.10.001_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Relações bilaterais / multilaterais em matéria de ambiente".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_3
+:exna_c200.10.001_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Relações bilaterais / multilaterais em matéria de educaçãor".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_4
+:exna_c200.10.001_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Relações bilaterais / multilaterais em matéria de justiçar".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_5
+:exna_c200.10.001_5 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Relações bilaterais / multilaterais em matéria de culturar".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_6
+:exna_c200.10.001_6 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Relações bilaterais / multilaterais em matéria de saúder".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_7
+:exna_c200.10.001_7 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Relações bilaterais / multilaterais em matéria de segurançar".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_8
+:exna_c200.10.001_8 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Relações bilaterais / multilaterais em matéria de defesar".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_9
+:exna_c200.10.001_9 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Relações bilaterais / multilaterais em matéria de económicar".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_10
+:exna_c200.10.001_10 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Relações bilaterais / multilaterais em matéria de empregor".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_11
+:exna_c200.10.001_11 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Relações bilaterais / multilaterais em matéria de formação profissionar".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_12
+:exna_c200.10.001_12 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Relações bilaterais / multilaterais em matéria de relações e condições de trabalho, incluindo a segurança e saúde no trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.001_1
+:ne_c200.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A definição de políticas nacionais setoriais deve ser considerada em 150.10.100 – Definição de políticas setoriais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.001_2
+:ne_c200.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A definição de posições nacionais e de tomada de posição conjunta no âmbito da União Europeia devem ser classificadas em 200.10.400 – Definição conjunta das opções estratégicas da União Europeia e em 200.10.501 – Definição e coordenação das políticas setoriais pelos Estados Membros da União Europeia, respetivamente".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.001_3
+:ne_c200.10.001_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo " ".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.10.001
+:c200.10.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.10.001";
+	:titulo "Definição e acompanhamento de posições nacionais no âmbito das relações bilaterais e multilaterais entre países";
+	:temPai :c200.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_CM ;
+	:temParticipanteAssessor :org_AP ;
+	:temParticipanteDecisor :org_AR ;
+	:temNotaAplicacao :na_c200.10.001_1 ;
+	:temNotaAplicacao :na_c200.10.001_2 ;
+	:temNotaAplicacao :na_c200.10.001_3 ;
+	:temNotaExclusao :ne_c200.10.001_1 ;
+	:temNotaExclusao :ne_c200.10.001_2 ;
+	:temNotaExclusao :ne_c200.10.001_3 ;
+	:temLegislacao :leg_457 ;
+	:classeStatus "A" ;
+	:exemploNA "Relações bilaterais / multilaterais  em matéria consular" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de ambiente" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de educaçãor" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de justiçar" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de culturar" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de saúder" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de segurançar" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de defesar" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de económicar" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de empregor" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de formação profissionar" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de relações e condições de trabalho, incluindo a segurança e saúde no trabalho" ;
+	:descricao "Preparação e apresentação da posição de Portugal no âmbito das negociações, nas reuniões de organismos ou em instâncias multilaterais/bilaterais.
+Inicia com o envio da agenda e termina com a remessa do contributo.
+Inclui os contributos de embaixadas e de ministérios setoriais, demonstrativos da posição assumida por Portugal e do processo negocial empreendido nos vários grupos de trabalho preparatórios das reuniões.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.002_1
+:na_c200.10.002_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Participação de entidades da administração central (direta e indireta), local e do setor empresarial em reuniões que envolvam organismos e instituições internacionais congéneres".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.002_1
+:exna_c200.10.002_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Elaboração de contributos para as estruturas da Organização das Nações Unidas (ONU)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.002_2
+:exna_c200.10.002_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Elaboração de contributos para as estruturas da Organização do Tratatdo do Atlântico Norte (NATO)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.002_3
+:exna_c200.10.002_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo " Elaboração de contributos para as estruturas da Comunidade dos Países de Lingua Portuguesa (CPLP)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.002_4
+:exna_c200.10.002_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Elaboração de contributos para as estruturas da Organização para a Segurança e Cooperação na Europa (OSCE)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.002_5
+:exna_c200.10.002_5 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Elaboração de contributos para reuniões no âmbito do controlo de armamento".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.10.002
+:c200.10.002 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.10.002";
+	:titulo "Representação e participação em organizações internacionais
+
+";
+	:temPai :c200.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteAssessor :org_AP ;
+	:temNotaAplicacao :na_c200.10.002_1 ;
+	:temLegislacao :leg_410 ;
+	:temLegislacao :leg_411 ;
+	:classeStatus "A" ;
+	:exemploNA "Elaboração de contributos para as estruturas da Organização das Nações Unidas (ONU)" ;
+	:exemploNA "Elaboração de contributos para as estruturas da Organização do Tratatdo do Atlântico Norte (NATO)" ;
+	:exemploNA " Elaboração de contributos para as estruturas da Comunidade dos Países de Lingua Portuguesa (CPLP)" ;
+	:exemploNA "Elaboração de contributos para as estruturas da Organização para a Segurança e Cooperação na Europa (OSCE)" ;
+	:exemploNA "Elaboração de contributos para reuniões no âmbito do controlo de armamento" ;
+	:descricao "Concretização de ações nas quais o Estado tem interesse e direito de participação, enviando representantes portugueses que tomam parte e intervêm em reuniões ou encontros de organismos e estruturas internacionais.
+Inicia com o convite ou convocatória e termina com a realização de relatório final.
+Inclui compilação de documentação de suporte, eventual consulta de entidades.".
+###  http://jcr.di.uminho.pt/m51-clav#c200.10.002.01
+:c200.10.002.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "200.10.002.01";
+	:titulo "Representação e participação em organizações internacionais: preparação";
+	:classeStatus "A" ;
+	:descricao "Inicia com o agendamento da reunião / encontro e termina com o envio de convocatória.
+Inclui apresentação de propostas para discussão, apresentação de moções, preparação de propostas de deliberação, produção de recomendações, e definição de ordem de trabalhos.".
+###  http://jcr.di.uminho.pt/m51-clav#c200.10.002.02
+:c200.10.002.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "200.10.002.02";
+	:titulo "Representação e participação em organizações internacionais: realização";
+	:classeStatus "A" ;
+	:descricao "Inicia com o controlo de presenças e termina com a redação definitiva da ata / relatório.
+Inclui gestão de intervenções, registo da discussão, registo das votações e das declarações de voto e elaboração da ata em minuta.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.100_1
+:na_c200.10.100_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Violação de normas internacionais ratificadas por Portugal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.100_2
+:na_c200.10.100_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Incumprimento de convenções, protocolos, regulamentos, ou outros instrumentos normativos internacionais ratificados por Portugal".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.10.100
+:c200.10.100 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.10.100";
+	:titulo "Reivindicação do cumprimento de instrumentos ratificados por Portugal";
+	:temPai :c200.10 ;
+	:temNotaAplicacao :na_c200.10.100_1 ;
+	:temNotaAplicacao :na_c200.10.100_2 ;
+	:classeStatus "A" ;
+	:descricao "Ações de reclamação ou queixa junto de organizações internacionais, por parte de Governos, organizações internacionais, respeitante ao não cumprimento de instrumentos normativos a que Portugal se encontra vinculado.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.200_1
+:na_c200.10.200_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Preparação e negociação de Tratados da União Europeia e respetiva revisão".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.200_2
+:na_c200.10.200_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração de Regulamentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.200_3
+:na_c200.10.200_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Preparaçao e negociação de Decisões e Diretivas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.10.200
+:c200.10.200 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.10.200";
+	:titulo "Preparação e negociação de atos legislativos vinculativos da União Europeia";
+	:temPai :c200.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_DGAE ;
+	:temParticipanteApreciador :org_ACE ;
+	:temNotaAplicacao :na_c200.10.200_1 ;
+	:temNotaAplicacao :na_c200.10.200_2 ;
+	:temNotaAplicacao :na_c200.10.200_3 ;
+	:temLegislacao :leg_619 ;
+	:temLegislacao :leg_891 ;
+	:classeStatus "A" ;
+	:descricao "Estabelecimento e revisão de acordos vinculativos entre os países da UE, onde se encontram consagrados os objetivos da UE, as regras por que se regem as instituições europeias, o processo de tomada de decisões e a relação entre a UE e os países que a constituem, e ao abrigo dos quais as instituições europeias adotam a legislação a aplicar (Tratados), bem como de atos legislativos obrigatórios, de alcance geral  (Regulamento e Diretiva) ou específico (Decisão), que as instituições da UE adotam para exercer as suas competências e atribuições e através dos quais se procura, por um lado a unificação do direito, por outro, a necessária conciliação da unidade do direito da União com a manutenção das diversas peculiaridades nacionais, com uma aproximação das diversas legislações.
+Inicia com o pedido remetido pela entidade proponente e termina com a aprovação.
+Inclui a compilação de pareceres dos serviços, das versões provisórias e definitiva dos articulados, de documentos técnicos, apontamentos, pontos de situação, pareceres dos ministérios setoriais, memorandos e notas verbais atestando a conclusão do processo de aprovação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.201_1
+:na_c200.10.201_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Preparação de Recomendações UE".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.201_2
+:na_c200.10.201_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Preparação de Pareceres UE".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.10.201
+:c200.10.201 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.10.201";
+	:titulo "Preparação e negociação de atos legislativos não vinculativos da União Europeia";
+	:temPai :c200.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_DGAE ;
+	:temParticipanteApreciador :org_ACE ;
+	:temNotaAplicacao :na_c200.10.201_1 ;
+	:temNotaAplicacao :na_c200.10.201_2 ;
+	:temLegislacao :leg_619 ;
+	:temLegislacao :leg_891 ;
+	:classeStatus "A" ;
+	:descricao "Elaboração de atos legislativos de alcance geral ou específico, não vinculativos.
+Inicia com o pedido remetido pela entidade proponente e termina com a aprovação.
+Inclui compilação de pareceres dos serviços, de versões provisórias e definitiva dos articulados, de documentos técnicos, apontamentos, pontos de situação, pareceres dos ministérios setoriais, memorandos e notas verbais atestando a conclusão do processo de aprovação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.300_1
+:na_c200.10.300_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Constatação da existência de uma violação grave e persistente formulada por um terço dos Estados-Membros ou pela Comissão".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.300_2
+:na_c200.10.300_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Fundamentação da existência de risco evidente de violação grave dos princípios da União por um Estado-Membro (por iniciativa da Comissão, do Parlamento ou de um terço dos Estados-Membros)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.300_3
+:na_c200.10.300_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Processos no âmbito das plataformas da Comissão Europeia EU PILOT e Rede SOLVIT".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.300_1
+:ne_c200.10.300_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A aplicação de sanções a países terceiros deve ser considerada em 200.10.200 – Preparação e negociação de atos jurídicos vinculativos da EU".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.10.300
+:c200.10.300 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.10.300";
+	:titulo "Ações de controlo da aplicação do Direito da União Europeia";
+	:temPai :c200.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_DGAE ;
+	:temParticipanteApreciador :org_ACE ;
+	:temNotaAplicacao :na_c200.10.300_1 ;
+	:temNotaAplicacao :na_c200.10.300_2 ;
+	:temNotaAplicacao :na_c200.10.300_3 ;
+	:temNotaExclusao :ne_c200.10.300_1 ;
+	:temLegislacao :leg_619 ;
+	:temLegislacao :leg_891 ;
+	:classeStatus "A" ;
+	:descricao "Coordenação da posição nacional relativa à má aplicação do direito da UE e à falta de transposição de diretivas na fase pré contenciosa formal e informal. 
+Inicia com o pedido de informação requerido pela Comissão Europeia, oficiosamente ou na sequência de queixas, ou nos casos da transposição de diretivas com a notificação de incumprimento da Comissão e termina com o arquivamento da ação ou a sua passagem à fase contenciosa.
+Inclui diligências efetuadas junto do Ministério setorial competente.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.400_1
+:na_c200.10.400_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Coordenação da participação portuguesa no Conselho Europeu".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.10.400
+:c200.10.400 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.10.400";
+	:titulo "Definição conjunta das opções estratégicas da União Europeia";
+	:temPai :c200.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_DGAE ;
+	:temParticipanteApreciador :org_ACE ;
+	:temNotaAplicacao :na_c200.10.400_1 ;
+	:temLegislacao :leg_619 ;
+	:temLegislacao :leg_891 ;
+	:classeStatus "A" ;
+	:descricao "Preparação e apresentação da posição de Portugal no âmbito das diretrizes políticas gerais da União Europeia.
+Inicia com a proposta e termina com a aprovação.
+Inclui os contributos setoriais, demonstrativos da posição assumida por Portugal e do processo negocial preparatório das reuniões. ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.501_1
+:na_c200.10.501_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Coordenação da participação portuguesa nas  diversas formações do Conselho da União Europeia".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.10.501
+:c200.10.501 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.10.501";
+	:titulo "Definição e coordenação das políticas setoriais pelos Estados Membros da União Europeia";
+	:temPai :c200.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_DGAE ;
+	:temParticipanteApreciador :org_ACE ;
+	:temNotaAplicacao :na_c200.10.501_1 ;
+	:temLegislacao :leg_619 ;
+	:temLegislacao :leg_891 ;
+	:classeStatus "A" ;
+	:descricao "Preparação e apresentação da posição de Portugal no âmbito das negociações desenvolvidas nos conselhos de ministros da União Europeia.
+Inicia com a proposta e termina com a produção de uma versão final.
+Inclui a compilação de contributos demonstrativos da posição assumida por Portugal e do processo negocial empreendido nos vários grupos de trabalho preparatórios das reuniões.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.600_1
+:na_c200.10.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de diretores políticos e de diretores da política de segurança".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.600_2
+:na_c200.10.600_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atos delegados, no âmbito do trabalho desenvolvido pelos grupos de peritos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.600_3
+:na_c200.10.600_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atos de execução, no âmbito do trabalho desenvolvido pelos Comités".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.10.600
+:c200.10.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.10.600";
+	:titulo "Preparação e implementação de políticas e atos da União Europeia
+";
+	:temPai :c200.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_DGAE ;
+	:temParticipanteApreciador :org_ACE ;
+	:temNotaAplicacao :na_c200.10.600_1 ;
+	:temNotaAplicacao :na_c200.10.600_2 ;
+	:temNotaAplicacao :na_c200.10.600_3 ;
+	:temLegislacao :leg_619 ;
+	:temLegislacao :leg_891 ;
+	:classeStatus "A" ;
+	:descricao "Processo legislativo ordinário ou especial, de iniciativa da Comissão Europeia.
+Inicia com uma proposta da Comissão e termina com a sua rejeição (e consequente não adoção) ou com a  assinatura conjunta pelos presidentes e secretários gerais do Parlamento e do Conselho.
+Inclui a complilação de contributos para a preparação das reuniões, provenientes de embaixadas e de ministérios setoriais, documentos técnicos, apontamentos, pontos de situação, notas e memorandos e expediente e relatos da COREPER.
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.700_1
+:na_c200.10.700_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de fundos europeus estruturais e de investimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.700_2
+:na_c200.10.700_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de instrumentos e programas de apoio dirigidos a Estados-Membros".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.700_3
+:na_c200.10.700_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Definição de Instrumentos de Cooperação Externa (ICE) destinados a países terceiros".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.700_1
+:exna_c200.10.700_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Definição do Quadro Financeiro Plurianual (QFP)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.700_2
+:exna_c200.10.700_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Fundo Europeu Agrícola de Desenvolvimento Rural (FEADER)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.700_3
+:exna_c200.10.700_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Fundo Social Europeu (FSE)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.700_4
+:exna_c200.10.700_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Fundo Europeu dos Assuntos Marítimos e das Pescas (FEAMP)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.700_5
+:exna_c200.10.700_5 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Fundo Europeu de Desenvolvimento Regional (FEDER)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.700_6
+:exna_c200.10.700_6 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo " Fundo de Coesão (FC)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.10.700
+:c200.10.700 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.10.700";
+	:titulo "Preparação e negociação do Quadro Plurianual e dos instrumentos financeiros da União Europeia";
+	:temPai :c200.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_DGAE ;
+	:temParticipanteApreciador :org_ACE ;
+	:temNotaAplicacao :na_c200.10.700_1 ;
+	:temNotaAplicacao :na_c200.10.700_2 ;
+	:temNotaAplicacao :na_c200.10.700_3 ;
+	:temLegislacao :leg_619 ;
+	:temLegislacao :leg_891 ;
+	:classeStatus "A" ;
+	:exemploNA "Definição do Quadro Financeiro Plurianual (QFP)" ;
+	:exemploNA "Fundo Europeu Agrícola de Desenvolvimento Rural (FEADER)" ;
+	:exemploNA "Fundo Social Europeu (FSE)" ;
+	:exemploNA "Fundo Europeu dos Assuntos Marítimos e das Pescas (FEAMP)" ;
+	:exemploNA "Fundo Europeu de Desenvolvimento Regional (FEDER)" ;
+	:exemploNA " Fundo de Coesão (FC)" ;
+	:descricao "Coordenação da posição nacional na negociação de atos legislativos e outras iniciativas da UE, bem como acompanhamento das decisões da Comissão Europeia na área do Quadro Plurianual e dos instrumentos financeiros da UE.
+Inclui a complilação dos contributos de ministérios setoriais, dos contributos de e para as Embaixadas, documentos técnicos, apontamentos, pontos de situação, notas, memorandos, relatos, informações, expediente e qualquer outra documentação de apoio considerada útil à tomada de decisão.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_1
+:na_c200.10.800_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acordos no âmbito do desenvolvimento de projetos ou ações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_2
+:na_c200.10.800_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acordos no âmbito do financiamento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_3
+:na_c200.10.800_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acordos expressos apenas por troca de notas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_4
+:na_c200.10.800_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acordos em que Portugal ou as instâncias setoriais nacionais são parte".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_5
+:na_c200.10.800_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acordos entre regiões transfronteiriças, transnacionais e interregionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.800_1
+:ne_c200.10.800_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A aprovação de convenções internacionais (tratados e acordos aprovados por Resolução da Assembleia da República ou por Decreto do Governo), respetiva ratificação ou assinatura pelo Presidente da República, referenda, publicação, avisos de depósito dos instrumentos de vinculação e demais avisos a eles respeitantes devem ser considerados em 100.10.002 – Aprovação e comunicação de convenções internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.800_2
+:ne_c200.10.800_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os acordos e protocolos realizados com entidades nacionais devem ser considerados em 150.10.500 – Elaboração de instrumentos de cooperação interinstitucional".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.800_3
+:ne_c200.10.800_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os projetos decorrentes dos acordos, protocolos e outros atos internacionais devem ser considerados em 200.30.302 – Execução de projetos de cooperação e de ajuda pública ao desenvolvimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.10.800
+:c200.10.800 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.10.800";
+	:titulo "Celebração de acordos e outros atos internacionais";
+	:temPai :c200.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteDecisor :org_AP ;
+	:temNotaAplicacao :na_c200.10.800_1 ;
+	:temNotaAplicacao :na_c200.10.800_2 ;
+	:temNotaAplicacao :na_c200.10.800_3 ;
+	:temNotaAplicacao :na_c200.10.800_4 ;
+	:temNotaAplicacao :na_c200.10.800_5 ;
+	:temNotaExclusao :ne_c200.10.800_1 ;
+	:temNotaExclusao :ne_c200.10.800_2 ;
+	:temNotaExclusao :ne_c200.10.800_3 ;
+	:temLegislacao :leg_376 ;
+	:temLegislacao :leg_99 ;
+	:classeStatus "A" ;
+	:descricao "Concretização de ações que traduzem a convergência das vontades das partes num acordo ou contrato para a realização de um  programa, projeto ou ação comum com entidades internacionais, estados-membros da União Europeia ou  de países terceiros.
+Inicia com a proposta e termina com a assinatura que formaliza o acordo.
+Inclui negociação e elaboração do protocolo ou acordo.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20_1
+:na_c200.20_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento das relações bilaterais e multilaterais do país, realizado centralmente e através das missões diplomáticas em países estrangeiros e em organismos internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20_2
+:na_c200.20_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Processamento de privilégios e imunidades diplomáticas e consulares".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20_3
+:na_c200.20_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Organização de visitas de Estado".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20_4
+:na_c200.20_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento das relações externas da União Europeia e do funcionamento das instituições e organismos da União Europeia".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20_5
+:na_c200.20_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio e/ou acompanhamento ao recrutamento de portugueses para organismos internacionais, bem como para instituições e agências EU no que se inclui o registo de portugueses em instituições da EU".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_1
+:exna_c200.20_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Acompanhamento do funcionamento do Parlamento Europeu".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_2
+:exna_c200.20_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Acompanhamento do funcionamento da Comissão Europeia".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_3
+:exna_c200.20_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Acompanhamento do funcionamento do Tribunal de Justiça da EU".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_4
+:exna_c200.20_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Acompanhamento do funcionamento do Banco Central Europeu".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_5
+:exna_c200.20_5 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Acompanhamento do funcionamento do Tribunal de Contas Europeu".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_6
+:exna_c200.20_6 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Acompanhamento do funcionamento do Provedor de Justiça Europeu".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_7
+:exna_c200.20_7 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Acompanhamento do funcionamento do Comité das Regiões".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_8
+:exna_c200.20_8 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Acompanhamento do funcionamento do Comité Económico e Social Europeu".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_9
+:exna_c200.20_9 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Apoio e/ou acompanhamento ao recrutamento de portugueses para a ONU".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_10
+:exna_c200.20_10 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Apoio e/ou acompanhamento ao recrutamento de portugueses para a UNESCO".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.20_1
+:ne_c200.20_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os despachos de nomeação para cargos diplomáticos ou outros cargos de representação nacional em organismos internacionais devem ser considerados em \"Administração de relações de trabalho/ Estabelecimento e cessação de relações de trabalho\" (250.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.20_2
+:ne_c200.20_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As funções específicas dos consulados devem ser consideradas nas classes correspondentes por exemplo, o registo civil deve ser considerado em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.20
+:c200.20 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "200.20";
+	:titulo "Coordenação e acompanhamento político e diplomático";
+	:temPai :c200 ;
+	:temNotaAplicacao :na_c200.20_1 ;
+	:temNotaAplicacao :na_c200.20_2 ;
+	:temNotaAplicacao :na_c200.20_3 ;
+	:temNotaAplicacao :na_c200.20_4 ;
+	:temNotaAplicacao :na_c200.20_5 ;
+	:temNotaExclusao :ne_c200.20_1 ;
+	:temNotaExclusao :ne_c200.20_2 ;
+	:classeStatus "A" ;
+	:exemploNA "Acompanhamento do funcionamento do Parlamento Europeu" ;
+	:exemploNA "Acompanhamento do funcionamento da Comissão Europeia" ;
+	:exemploNA "Acompanhamento do funcionamento do Tribunal de Justiça da EU" ;
+	:exemploNA "Acompanhamento do funcionamento do Banco Central Europeu" ;
+	:exemploNA "Acompanhamento do funcionamento do Tribunal de Contas Europeu" ;
+	:exemploNA "Acompanhamento do funcionamento do Provedor de Justiça Europeu" ;
+	:exemploNA "Acompanhamento do funcionamento do Comité das Regiões" ;
+	:exemploNA "Acompanhamento do funcionamento do Comité Económico e Social Europeu" ;
+	:exemploNA "Apoio e/ou acompanhamento ao recrutamento de portugueses para a ONU" ;
+	:exemploNA "Apoio e/ou acompanhamento ao recrutamento de portugueses para a UNESCO" ;
+	:descricao "Compreende as atividades de coordenação da ação do Estado no domínio das relações internacionais bilaterais e multilaterais, bem como as atividades de acompanhamento da situação internacional (podendo a coordenação e o acompanhamento incidirem sobre relações políticas, comerciais, culturais, consulares ou outras).".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20.001_1
+:na_c200.20.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento das relações bilaterais e multilaterais do país, realizado centralmente ou através das missões diplomáticas em países estrangeiros e em organismos internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.20.001_1
+:ne_c200.20.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O intercâmbio de informação estratégica para combate ao terrorismo e agitações sociais e políticas deve ser considerada em 150.30.001 – Produção e intercâmbio de informação estratégica para segurança interna e defesa".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.20.001
+:c200.20.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.20.001";
+	:titulo "Acompanhamento da situação internacional";
+	:temPai :c200.20 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_DGACCP ;
+	:temDono :org_DGAE ;
+	:temDono :org_DGPE ;
+	:temNotaAplicacao :na_c200.20.001_1 ;
+	:temNotaExclusao :ne_c200.20.001_1 ;
+	:classeStatus "A" ;
+	:descricao "Análise da situação internacional no âmbito das relações políticas, comerciais, culturais, consulares ou outras, por solicitação da tutela, de outros departamentos governamentais, de outros países, da União Europeia ou de organizações internacionais.
+Inicia com o pedido e termina com o envio da informação.
+Inclui recolha de informação, análise e tratamento de dados, produção de informação classificada, se necessário.  
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20.002_1
+:na_c200.20.002_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Missões em países terceiros, tanto no âmbito diplomático, como económico, como no quadro da cooperação para o desenvolvimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20.002_2
+:na_c200.20.002_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Missões de observação eleitoral".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.20.002_1
+:ne_c200.20.002_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As missões de ajuda humanitária devem ser consideradas em 200.30.001 – Coordenação e execução de ações de ajuda humanitária e de emergência".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.20.002_2
+:ne_c200.20.002_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As missões de ajuda ao desenvolvimento devem ser consideradas em 200.30.302 – Execução de projetos de cooperação e de ajuda pública ao desenvolvimento, quando são realizadas no quadro desses projetos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.20.002
+:c200.20.002 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.20.002";
+	:titulo "Organização de missões internacionais";
+	:temPai :c200.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_DGPE ;
+	:temParticipanteAssessor :org_AP ;
+	:temNotaAplicacao :na_c200.20.002_1 ;
+	:temNotaAplicacao :na_c200.20.002_2 ;
+	:temNotaExclusao :ne_c200.20.002_1 ;
+	:temNotaExclusao :ne_c200.20.002_2 ;
+	:temLegislacao :leg_268 ;
+	:classeStatus "A" ;
+	:descricao "Preparação e execução de deslocações no âmbito do acompanhamento político e diplomático, nomeadamente no âmbito da participação em eventos, das relações institucionais ou da cooperação para o desenvolvimento, desde que não enquadrado em processo específico.
+Inicia com a solicitação e termina com o relatório de missão.
+Inclui preparação de deslocações, recolha de informação, programação e contactos institucionais.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20.500_1
+:na_c200.20.500_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Deslocação de representantes e dirigentes de países estrangeiros a Portugal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20.500_2
+:na_c200.20.500_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Deslocação de representantes do Estado português a países estrangeiros".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20.500_3
+:na_c200.20.500_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Organização de cerimónias protocolares e de homenagem no âmbito das visitas de Estado ou equiparadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20.500_4
+:na_c200.20.500_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Visitas de Chefes de Estado e Primeiros-Ministros (de e ao estrangeiro)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20.500_5
+:na_c200.20.500_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Visitas de Presidentes de Câmara e de outros membros de executivos municipais (de e ao estrangeiro)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.20.500_1
+:ne_c200.20.500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As visitas institucionais de âmbito nacional devem ser consideradas em 900.20.602 – Organização de visitas institucionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.20.500
+:c200.20.500 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.20.500";
+	:titulo "Organização de visitas de Estado ou equiparadas";
+	:temPai :c200.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteAssessor :org_AP ;
+	:temNotaAplicacao :na_c200.20.500_1 ;
+	:temNotaAplicacao :na_c200.20.500_2 ;
+	:temNotaAplicacao :na_c200.20.500_3 ;
+	:temNotaAplicacao :na_c200.20.500_4 ;
+	:temNotaAplicacao :na_c200.20.500_5 ;
+	:temNotaExclusao :ne_c200.20.500_1 ;
+	:temLegislacao :leg_510 ;
+	:classeStatus "A" ;
+	:descricao "Preparação de deslocações e visitas de Chefes de Estado e de governo, membros de governo ou equiparados, representantes e dirigentes de organizações internacionais e Presidentes de Câmara ou altos representantes da Administração Central, Local ou Regional.
+Inicia com convite e termina com elaboração de relatório final.
+Inclui identificação do país visitado ou visitante, do objeto da visita e das respetivas delegações, realização de pontos de situação relativos ao objeto da visita e sistematização de toda a informação pertinente e disponível sobre o âmbito da visita, complilação da informação trocada com as entidades envolvidas, elaboração das versões provisórias e finais do programa e da lista de participantes, compilação dos relatos das reuniões realizadas com diferentes entidades, a recolha de dados e elementos informativos necessários à realização da visita e à sua organização técnica e logística.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20.501_1
+:na_c200.20.501_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Concessão de imunidades, dispensas e privilégios ao corpo diplomático acreditado em Portugal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20.501_2
+:na_c200.20.501_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Concessão de imunidades, dispensas e privilégios às representações nacionais no estrangeiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.20.501
+:c200.20.501 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.20.501";
+	:titulo "Concessão de imunidades, dispensas e privilégios";
+	:temPai :c200.20 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_SGMNE ;
+	:temNotaAplicacao :na_c200.20.501_1 ;
+	:temNotaAplicacao :na_c200.20.501_2 ;
+	:temLegislacao :leg_520 ;
+	:classeStatus "A" ;
+	:descricao "Atribuição de regime de proteção e de isenção especiais a membros do corpo consular e diplomático, enquadrada no disposto pela Convenção de Viena sobre as relações diplomáticas e consulares.
+Inicia com o pedido e termina com a concessão de imunidade e privilégio.
+Inclui a análise e processamento do pedido de imunidade e privilégio e a proposta de decisão.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20.502_1
+:na_c200.20.502_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atribuição de cartas de acreditação, nomeadamente, os documentos relativos às instalações da representação e aos procedimentos de acreditação dos titulares".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20.502_2
+:na_c200.20.502_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Identificação de agentes diplomáticos e consulares (Anterior PN 400.10.030)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.20.502_3
+:na_c200.20.502_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Identificação de pessoal administrativo e doméstico, ou equiparado, em missões diplomáticas ou de organizações internacionais e aos membros das respetivas famílias".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.20.502_1
+:ne_c200.20.502_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A Concessão de imunidades e privilégios deve ser considerada em 200.20.501 –  Concessão de imunidades, dispensas e privilégios".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.20.502_2
+:ne_c200.20.502_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A formalização do direito de residência em Portugal de cidadão da União Europeia, da Islândia, do Liechtenstein, da Noruega e da Suíça deve ser considerado em 400.10.004 – Registo de cidadãos da União Europeia".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.20.502_3
+:ne_c200.20.502_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A autorização de residência deve ser considerada em 550.10.303 – Autorização de residência".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.20.502_4
+:ne_c200.20.502_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A identificação de estrangeiros de países terceiros deve ser considerada em 400.10.029 – Emissão de título de residente".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.20.502
+:c200.20.502 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.20.502";
+	:titulo "Acreditação de agentes diplomáticos";
+	:temPai :c200.20 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_SGMNE ;
+	:temParticipanteApreciador :org_SEF ;
+	:temNotaAplicacao :na_c200.20.502_1 ;
+	:temNotaAplicacao :na_c200.20.502_2 ;
+	:temNotaAplicacao :na_c200.20.502_3 ;
+	:temNotaExclusao :ne_c200.20.502_1 ;
+	:temNotaExclusao :ne_c200.20.502_2 ;
+	:temNotaExclusao :ne_c200.20.502_3 ;
+	:temNotaExclusao :ne_c200.20.502_4 ;
+	:temLegislacao :leg_520 ;
+	:classeStatus "A" ;
+	:descricao "Ato através do qual um Estado acredita determinada pessoa como agente diplomático ao seu serviço para, nessa qualidade, atuar perante outro Estado ou perante uma organização internacional.
+Inicia com o pedido e termina com a emissão de cartas credenciais, cartas de plenos poderes, cartas de gabinete e/ou de cartões.
+Inclui instrução do processo e consulta ao Serviço de Estrangeiros e Fronteiras para visar a emissão de cartões, o qual confere antecedentes e insere dados no sistema informático.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30_1
+:na_c200.30_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Os projetos de execução da política externa podem manifestar-se através de relações de cooperação interinstitucional mas são, por princípio, politicamente enquadrados por acordos de Estado.".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_1
+:exna_c200.30_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Projetos de ajuda pública ao desenvolvimento (também designados de cooperação para o desenvolvimento)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_2
+:exna_c200.30_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Missões de ajuda humanitária no estrangeiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_3
+:exna_c200.30_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Missões de observação eleitoral no estrangeiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_4
+:exna_c200.30_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Atribuição de prémios estabelecidos em acordos bilaterais ou multilaterais".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_5
+:exna_c200.30_5 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Homenagens atribuídas a representantes de outros Estados ou de entidades externas, ou recebidas por entidades portuguesas, enquanto atos de política externa".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_6
+:exna_c200.30_6 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Ações de promoção do país no estrangeiro, de caráter geral ou específico (com incidência comercial, cultural ou outra), no que se inclui a organização da representação nacional em feiras e outros eventos internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_7
+:exna_c200.30_7 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Apoio logístico à internacionalização das empresas e dos agentes culturais portugueses".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_8
+:exna_c200.30_8 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Apoio e acompanhamento ao recrutamento de funcionários e agentes portugueses para instituições EU e agências EU no que se inclui o registo de portugueses em instituições da EU".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_9
+:exna_c200.30_9 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Colaboração em ações de promoção de países estrangeiros em Portugal".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30_1
+:ne_c200.30_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Nem todos os projetos de cooperação internacional devem ser aqui considerados. Concretamente, os projetos e ações que dão execução a outras funções do Estado deverão ser considerados na área funcional correspondente, ainda que sejam implementados ao abrigo de acordos internacionais de cooperação.".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30_2
+:ne_c200.30_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Participação em operações de manutenção da paz considerar em \"Execução de operações de segurança, proteção ou defesa/ Missões de defesa e apoio à paz\" (550.30)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30_3
+:ne_c200.30_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Candidatura a programa de cooperação transfronteiriça no quadro europeu considerar em \"Execução de programas e de ações de incentivo/ Atribuição e controlo de financiamentos e de ajudas diretas\" (850.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30_4
+:ne_c200.30_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Solicitação e execução de pedidos apresentados pelos tribunais nacionais para outros Estados ou de outros Estados para Portugal (execução de cartas rogatórias, detenção ao abrigo de mandato europeu ou internacional, extradição, entre outros), devem ser consideradas em \"Administração da Justiça\" (600)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30_5
+:ne_c200.30_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O auxílio judiciário prestado pelo Estado português a uma entidade estrangeira deve ser considerado em \"Prestação de serviços de proteção e inclusão social/ Serviços e equipamentos sociais\" (650.20)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30_6
+:ne_c200.30_6 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As ações para a definição da posição portuguesa em todos os casos de pré-contencioso e contencioso comunitário devem ser consideradas em \"Administração da Justiça\" (600)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30_7
+:ne_c200.30_7 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os Pareceres sobre compatibilidade dos diplomas nacionais com o direito comunitário e as notificações à Comissão Europeia sobre a transposição de diretivas devem ser considerados em \"Ordenamento jurídico e normativo\" (100)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.30
+:c200.30 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "200.30";
+	:titulo "Projetos de execução da política externa";
+	:temPai :c200 ;
+	:temNotaAplicacao :na_c200.30_1 ;
+	:temNotaExclusao :ne_c200.30_1 ;
+	:temNotaExclusao :ne_c200.30_2 ;
+	:temNotaExclusao :ne_c200.30_3 ;
+	:temNotaExclusao :ne_c200.30_4 ;
+	:temNotaExclusao :ne_c200.30_5 ;
+	:temNotaExclusao :ne_c200.30_6 ;
+	:temNotaExclusao :ne_c200.30_7 ;
+	:classeStatus "A" ;
+	:exemploNA "Projetos de ajuda pública ao desenvolvimento (também designados de cooperação para o desenvolvimento)" ;
+	:exemploNA "Missões de ajuda humanitária no estrangeiro" ;
+	:exemploNA "Missões de observação eleitoral no estrangeiro" ;
+	:exemploNA "Atribuição de prémios estabelecidos em acordos bilaterais ou multilaterais" ;
+	:exemploNA "Homenagens atribuídas a representantes de outros Estados ou de entidades externas, ou recebidas por entidades portuguesas, enquanto atos de política externa" ;
+	:exemploNA "Ações de promoção do país no estrangeiro, de caráter geral ou específico (com incidência comercial, cultural ou outra), no que se inclui a organização da representação nacional em feiras e outros eventos internacionais" ;
+	:exemploNA "Apoio logístico à internacionalização das empresas e dos agentes culturais portugueses" ;
+	:exemploNA "Apoio e acompanhamento ao recrutamento de funcionários e agentes portugueses para instituições EU e agências EU no que se inclui o registo de portugueses em instituições da EU" ;
+	:exemploNA "Colaboração em ações de promoção de países estrangeiros em Portugal" ;
+	:descricao "Compreende o conjunto das atividades que concretizam projetos de política externa realizados no país ou no estrangeiro, no que se inclui o respetivo planeamento operacional, controlo e avaliação.
+Consideram-se projetos de execução da política externa aqueles que cumprem objetivos políticos que o Estado português pretende alcançar nas suas relações com outros países.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.001_1
+:na_c200.30.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ajuda humanitária internacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.001_2
+:na_c200.30.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio a ações concretas desenvolvidas no terreno por Organizações da Sociedade Civil (OSC)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.001_3
+:na_c200.30.001_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Deslocação de técnicos para zonas carenciadas de ajuda humanitária ou de emergência".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.001_4
+:na_c200.30.001_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Envio de bens materiais ou equipamento específico necessários".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30.001_1
+:ne_c200.30.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A aquisição de bens no âmbito da resposta a catástrofes deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30.001_2
+:ne_c200.30.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A cabimentação de verbas necessárias para as ações de ajuda humanitária e de emergência, devem ser consideradas em 350.10.600 – Lançamento de receitas e de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.30.001
+:c200.30.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.30.001";
+	:titulo "Coordenação e execução de ações de ajuda humanitária e de emergência";
+	:temPai :c200.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_DGPE ;
+	:temParticipanteAssessor :org_ANPC ;
+	:temParticipanteAssessor :org_FA ;
+	:temParticipanteAssessor :org_FS ;
+	:temParticipanteAssessor :org_INMLCF ;
+	:temParticipanteAssessor :org_PJ ;
+	:temParticipanteAssessor :org_Camões ;
+	:temParticipanteAssessor :org_DGS ;
+	:temParticipanteAssessor :org_ANPC ;
+	:temParticipanteAssessor :org_AL ;
+	:temNotaAplicacao :na_c200.30.001_1 ;
+	:temNotaAplicacao :na_c200.30.001_2 ;
+	:temNotaAplicacao :na_c200.30.001_3 ;
+	:temNotaAplicacao :na_c200.30.001_4 ;
+	:temNotaExclusao :ne_c200.30.001_1 ;
+	:temNotaExclusao :ne_c200.30.001_2 ;
+	:temLegislacao :leg_508 ;
+	:temLegislacao :leg_1248 ;
+	:temLegislacao :leg_1292 ;
+	:classeStatus "A" ;
+	:descricao "Organização de respostas a situações de calamidade ou de emergência identificadas pelos serviços, organizadas em função de uma decisão da tutela ou decorrentes de apelos das Nações Unidas, das missões afetadas ou das representações diplomáticas nacionais nos países beneficiários.
+Inicia com a informação da situação de calamidade ou emergência e termina com o envio de apoio.
+Inclui a receção dos pedidos de apoio, informação da solicitação de elementos adicionais às entidades envolvidas, análise da viabilidade do empreendimento e de apuramento dos encargos deles resultantes, autorização, notificação da decisão à embaixada.
+A participação da Administração Local neste processo ocorre nas fases de solicitação de contributos e de planeamento da organização logística, em articulação com outras entidades.".
+###  http://jcr.di.uminho.pt/m51-clav#c200.30.001.01
+:c200.30.001.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "200.30.001.01";
+	:titulo "Coordenação e execução de ações de ajuda humanitária e de emergência: coordenação";
+	:classeStatus "A" ;
+	:descricao "Inicia com o pedido de ajuda internacional (ECHO) e termina com a notificação da decisão à embaixada.
+Inclui o planeamento da organização logística desde a receção dos pedidos de apoio, informação da solicitação de elementos adicionais às entidades envolvidas, análise da viabilidade do empreendimento e de apuramento dos encargos deles resultantes, autorização, notificação da decisão à embaixada.
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#c200.30.001.02
+:c200.30.001.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "200.30.001.02";
+	:titulo "Coordenação e execução de ações de ajuda humanitária e de emergência: execução";
+	:classeStatus "A" ;
+	:descricao "Inicia com o envio de apoio e termina com o fim da ação de ajuda humanitária e de emergência.
+Incluí a deslocação de técnicos para zonas carenciadas de ajuda humanitária ou de emergência e o respectivo envio de bens materiais ou equipamento específico para a concretização de ações no terreno.
+".
+###  http://jcr.di.uminho.pt/m51-clav#c200.30.300
+:c200.30.300 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.30.300";
+	:titulo "Aprovação de projetos da sociedade civil";
+	:temPai :c200.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_Camões ;
+	:classeStatus "A" ;
+	:descricao "Seleção, contratação e acompanhamento de projetos de cooperação para o desenvolvimento e de educação para o desenvolvimento no âmbito da Sociedade Civil, controlo e fiscalização da respetiva execução  material e financeira.
+Inicia com a apresentação do projeto e termina com a comunicação da decisão.
+Inclui a análise e a consulta de outras entidades.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.301_1
+:na_c200.30.301_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Conceção de programas de cooperação e ajuda pública ao desenvolvimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.301_2
+:na_c200.30.301_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Revisão de programas já existentes".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30.301_1
+:ne_c200.30.301_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A celebração de acordos, tratados e protocolos deve ser considerada em 200.10.800 – Celebração de acordos e outros atos internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30.301_2
+:ne_c200.30.301_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A execução de projetos decorrentes de programas de cooperação, acordos, protocolos e outros atos internacionais devem ser classificados em 200.30.302 – Execução de projetos de cooperação para o desenvolvimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.30.301
+:c200.30.301 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.30.301";
+	:titulo "Conceção de programas de cooperação e de ajuda pública ao desenvolvimento";
+	:temPai :c200.30 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_Camões ;
+	:temDono :org_AL ;
+	:temParticipanteAssessor :org_AP ;
+	:temNotaAplicacao :na_c200.30.301_1 ;
+	:temNotaAplicacao :na_c200.30.301_2 ;
+	:temNotaExclusao :ne_c200.30.301_1 ;
+	:temNotaExclusao :ne_c200.30.301_2 ;
+	:temLegislacao :leg_1202 ;
+	:classeStatus "A" ;
+	:descricao "Elaboração dos instrumentos de orientação estratégica que estabelecem os critérios, os objetivos e os atores envolvidos, bem como os mecanismos e os recursos necessários à prossecução das políticas de cooperação para o desenvolvimento, normalmente designados por programas de cooperação.
+Inicia com proposta e termina com aprovação de programa de cooperação e ajuda pública ao desenvolvimento.
+Inclui articulação com autoridades de países parceiros, recolha de contributos para a elaboração do programa, consulta de informação relativa a anteriores programas de cooperação, articulação com organizações não-governamentais, constituição e mandatos de grupos de trabalho, nomeação de representantes, elaboração e análise de planos de ação, de quadros de caracterização das medidas e de ações de implementação e elaboração de proposta de programa.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.302_1
+:na_c200.30.302_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Execução de projetos de cooperação ao abrigo de acordos e protocolos de geminação de municípios portugueses com estrangeiros".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.302_2
+:na_c200.30.302_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Execução de projetos no âmbito de acordos entre regiões transfronteiriças, transnacionais e interregionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.302_3
+:na_c200.30.302_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Execução de projetos no âmbito de programas de cooperação e ajuda pública ao desenvolvimento em parceria com a Sociedade Civil ou Organizações Internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.302_4
+:na_c200.30.302_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Execução de projetos no âmbito de programas de cooperação e assistência militar de natureza bilateral e multilateral ".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30.302_1
+:exna_c200.30.302_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Ações de formação e treino, âmbito de programas de cooperação e assistência militar de natureza bilateral e multilateral ".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30.302_2
+:exna_c200.30.302_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Assistência militar a fim de apoiar a politica externa do Estado no quadro das relações internacionais de cooperação, nomeadamente no âmbito CPLP, da NATO e EU".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30.302_1
+:ne_c200.30.302_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A formalização de acordos ou protocolos internacionais deve ser considerada em 200.10.800 – Celebração de acordos e outros atos internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30.302_2
+:ne_c200.30.302_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A conceção de programas no âmbito dos quais se desenvolvem projetos de cooperação para o desenvolvimento, deve ser considerada em 200.30.301 – Conceção de programas de cooperação e de ajuda pública ao desenvolvimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.30.302
+:c200.30.302 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.30.302";
+	:titulo "Execução de projetos de cooperação e de ajuda pública ao desenvolvimento";
+	:temPai :c200.30 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteComunicador :org_Camões ;
+	:temNotaAplicacao :na_c200.30.302_1 ;
+	:temNotaAplicacao :na_c200.30.302_2 ;
+	:temNotaAplicacao :na_c200.30.302_3 ;
+	:temNotaAplicacao :na_c200.30.302_4 ;
+	:temNotaExclusao :ne_c200.30.302_1 ;
+	:temNotaExclusao :ne_c200.30.302_2 ;
+	:temLegislacao :leg_1202 ;
+	:classeStatus "A" ;
+	:exemploNA "Ações de formação e treino, âmbito de programas de cooperação e assistência militar de natureza bilateral e multilateral " ;
+	:exemploNA "Assistência militar a fim de apoiar a politica externa do Estado no quadro das relações internacionais de cooperação, nomeadamente no âmbito CPLP, da NATO e EU" ;
+	:descricao "Concretização de projetos decorrentes de acordos e protocolos de cooperação.
+Inicia com apresentação de proposta de projeto específico e termina com aprovação de relatório final de execução técnica e financeira.
+Inclui discussão de propostas apresentadas, caracterização das ações a desenvolver, aprovação do projeto, preparação dos meios necessários para o desenvolvimento do projeto e acompanhamento da sua execução.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.303_1
+:na_c200.30.303_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Avaliação de projetos no âmbito de acordos e protocolos de geminação de municípios portugueses com estrangeiros".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.303_2
+:na_c200.30.303_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Exames a Portugal, no âmbito da OCDE, assim como os exames de outros estados-membros nos quais Portugal é avaliador".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.303_3
+:na_c200.30.303_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Produção de recomendações no âmbito dos processos de avaliação das políticas de cooperação para o desenvolvimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.303_4
+:na_c200.30.303_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Verificação da adequação do sistema aos compromissos internacionais e aos objetivos nacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.303_5
+:na_c200.30.303_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Verificação da implementação de recomendações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.303_6
+:na_c200.30.303_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento de projetos de cooperação internacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30.303_1
+:ne_c200.30.303_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A celebração de acordos e outros atos internacionais deve ser considerada em 200.10.800 – Celebração de acordos e outros atos internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30.303_2
+:ne_c200.30.303_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os projetos decorrentes de programas de cooperação, acordos, protocolos e outros atos internacionais devem ser considerados em 200.30.302 – Execução de projetos de cooperação e de ajuda pública ao desenvolvimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.30.303
+:c200.30.303 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.30.303";
+	:titulo "Acompanhamento e avaliação da execução de projetos de cooperação e de ajuda pública ao desenvolvimento";
+	:temPai :c200.30 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_Camões ;
+	:temDono :org_AL ;
+	:temParticipanteAssessor :org_AP ;
+	:temNotaAplicacao :na_c200.30.303_1 ;
+	:temNotaAplicacao :na_c200.30.303_2 ;
+	:temNotaAplicacao :na_c200.30.303_3 ;
+	:temNotaAplicacao :na_c200.30.303_4 ;
+	:temNotaAplicacao :na_c200.30.303_5 ;
+	:temNotaAplicacao :na_c200.30.303_6 ;
+	:temNotaExclusao :ne_c200.30.303_1 ;
+	:temNotaExclusao :ne_c200.30.303_2 ;
+	:temLegislacao :leg_1202 ;
+	:classeStatus "A" ;
+	:descricao "Avaliação dos programas de cooperação e de ajuda ao desenvolvimento, executados por entidades públicas e privadas
+Inicia com verificação de procedimentos previamente estabelecidos e termina com a apresentação de relatório final.
+Inclui, quando devido, apresentação de caderno de encargos, convite ou candidatura do avaliador, apresentação do memorando da cooperação em análise, compilação de informação de referência, análise da matriz de seguimento das recomendações, produção de relatórios das reuniões, avaliação do seguimento das recomendações e do respetivo plano de implementação e produção de um relatório final da avaliação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.600_1
+:na_c200.30.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio à participação nacional em feiras, certames, festivais e plataformas internacionais de promoção do país".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.600_2
+:na_c200.30.600_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Divulgação internacional de produtos e marcas portuguesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.600_3
+:na_c200.30.600_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atração de investimento estrangeiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.600_4
+:na_c200.30.600_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Fomento de intercâmbio cultural".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.600_5
+:na_c200.30.600_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Fomento de intercâmbio empresarial".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.600_6
+:na_c200.30.600_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Divulgação internacional de autores e criadores de língua portuguesa".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.600_7
+:na_c200.30.600_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Promoção da língua portuguesa".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.600_8
+:na_c200.30.600_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Promoção de projetos e conteúdos ligados à criação portuguesa".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.600_9
+:na_c200.30.600_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio à circulação de agentes culturais no estrangeiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.600_10
+:na_c200.30.600_10 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio à internacionalização de entidades privadas no estrangeiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.600_11
+:na_c200.30.600_11 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Participação em organismos multilaterais, através de atividades de natureza cultural, de promoção do país".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30.600_1
+:ne_c200.30.600_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A aquisição de bens e serviços no âmbito da organização de eventos e respetivo apoio logístico deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30.600_2
+:ne_c200.30.600_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As ações de dinamização da sociedade em Portugal devem ser consideradas em 900.10 – Execução de atividades de dinamização da sociedade".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30.600_3
+:ne_c200.30.600_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pedidos de informação sobre oportunidades de negócio e de investimento que se esgotam na pergunta e resposta, nunca se consubstanciando em ações concretas, devem ser considerados em 900.20.604 – Processamento de pedidos de informação e de esclarecimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#c200.30.600
+:c200.30.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "200.30.600";
+	:titulo "Apoio à internacionalização e à promoção do país";
+	:temPai :c200.30 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_Camões ;
+	:temDono :org_AL ;
+	:temDono :org_IAPMEI ;
+	:temDono :org_Cinemateca ;
+	:temDono :org_DGLAB ;
+	:temDono :org_AICEP ;
+	:temParticipanteAssessor :org_AP ;
+	:temNotaAplicacao :na_c200.30.600_1 ;
+	:temNotaAplicacao :na_c200.30.600_2 ;
+	:temNotaAplicacao :na_c200.30.600_3 ;
+	:temNotaAplicacao :na_c200.30.600_4 ;
+	:temNotaAplicacao :na_c200.30.600_5 ;
+	:temNotaAplicacao :na_c200.30.600_6 ;
+	:temNotaAplicacao :na_c200.30.600_7 ;
+	:temNotaAplicacao :na_c200.30.600_8 ;
+	:temNotaAplicacao :na_c200.30.600_9 ;
+	:temNotaAplicacao :na_c200.30.600_10 ;
+	:temNotaAplicacao :na_c200.30.600_11 ;
+	:temNotaExclusao :ne_c200.30.600_1 ;
+	:temNotaExclusao :ne_c200.30.600_2 ;
+	:temNotaExclusao :ne_c200.30.600_3 ;
+	:temLegislacao :leg_411 ;
+	:classeStatus "A" ;
+	:descricao "Realização de ações de promoção da imagem de Portugal no estrangeiro e de apoio à internacionalização de empresas, ou agentes culturais, portugueses. 
+Inicia com contacto entre entidades e termina com a realização de eventos de promoção e de apoio à internacionalização. 
+Inclui compilação de dados e informação, realização de estudos de natureza social, cultural e económica, programação e calendarização de iniciativas, definição de recursos a afetar e planeamento das ações a desenvolver. ".
+
+### Classes200 termina aqui.
+
