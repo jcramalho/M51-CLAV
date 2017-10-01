@@ -181,15 +181,15 @@ Inclui a produção de informações estratégicas e de segurança e a produçã
 	:NotaExclusao ;
 	:conteudo "Os instrumentos de política que resultam de entendimentos supranacionais (por exemplo, com incidência nos países da União Europeia, ou com incidência em Portugal e outro país) devem ser considerados em \"Execução da política externa/ Definição de políticas conjuntas e dos instrumentos de regulação\" (200.10)".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10_2
-:ne_c150.10_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A negociação e celebração de acordos de cooperação interinstitucional estabelecidos no quadro das relações internacionais devem ser considerados em \"Execução da política externa/ Definição de políticas conjuntas e dos instrumentos de regulação\" (200.10), ainda que celebrados entre organizações congéneres".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10_3
 :ne_c150.10_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A execução de projetos de cooperação interinstitucional deve ser considerada no âmbito da função que cumpre (por exemplo, projetos de investigação científica devem ser considerados em \"Prestação de Serviços técnicos e científicos, investigação e desenvolvimento\" (800), projetos de formação em \"Prestação de serviços de ensino e formação\" (750), projetos de cooperação para o desenvolvimento em \"Execução da política externa\" (200))".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10_2
+:ne_c150.10_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A negociação e celebração de acordos de cooperação interinstitucional estabelecidos no quadro das relações internacionais devem ser considerados em \"Execução da política externa/ Definição de políticas conjuntas e dos instrumentos de regulação\" (200.10), ainda que celebrados entre organizações congéneres".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c150.10
 :c150.10 rdf:type owl:NamedIndividual ,
@@ -1226,11 +1226,6 @@ Inclui gestão de intervenções, registo da discussão, registo das votações 
 	:exemploNA "Planeamento operacional de articulação de respostas a uma situação de crise" ;
 	:descricao "Compreende o planeamento e avaliação dos serviços, no que se inclui a análise e melhoria das estruturas e das formas de organização do trabalho, a definição e avaliação do cumprimento de objetivos organizacionais, a elaboração de planos e de relatórios de atividades, gerais e setoriais - abrangendo o diagnóstico de necessidades, o planeamento da afetação e o planeamento do desenvolvimento de recursos (humanos, materiais e financeiros).
 Compreende, igualmente, a definição e avaliação de planos operacionais transversais a vários organismos, de planos de emergência, ou de qualquer instrumento de planeamento e coordenação operacional.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_3
-:na_c150.20.001_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Elaboração de manuais de procedimentos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_2
 :na_c150.20.001_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1240,6 +1235,11 @@ Compreende, igualmente, a definição e avaliação de planos operacionais trans
 :na_c150.20.001_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Definição de formulários e respetivas regras de utilização".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_3
+:na_c150.20.001_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração de manuais de procedimentos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_4
 :na_c150.20.001_4 rdf:type owl:NamedIndividual ,

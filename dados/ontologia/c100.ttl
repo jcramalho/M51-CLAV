@@ -70,15 +70,15 @@ Inclui os processos de vinculação do Estado português a convenções internac
 	:NotaAplicacao ;
 	:conteudo "Normas informais ou recomendações técnicas emitidas organismos de coordenação ou superintendência técnica".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_2
-:exna_c100.10_2 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Atos legislativos: Decretos regulamentares, portarias, posturas, despachos normativos, qualquer despacho com diretrizes gerais e abstratas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_1
 :exna_c100.10_1 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Diplomas jurídico-administrativos: leis, decretos-lei e decretos legislativos regionais, bem como eventuais declarações de retificação".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_2
+:exna_c100.10_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Atos legislativos: Decretos regulamentares, portarias, posturas, despachos normativos, qualquer despacho com diretrizes gerais e abstratas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_3
 :exna_c100.10_3 rdf:type owl:NamedIndividual ,

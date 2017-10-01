@@ -206,69 +206,39 @@ Inclui todos os procedimentos para liquidação do imposto, nomeadamente a valid
 	:descricao "Apuramento do Imposto Sobre o Rendimento de Pessoas Coletivas (IRC) dos sujeitos passivos.
 Inicia com a apresentação da declaração anual de IRC pelos sujeitos passivos ou mediante iniciativa da Administração Tributária, e termina com a notificação do resultado da liquidação.
 Inclui todos os procedimentos para liquidação do imposto, nomeadamente a validação da declaração e o cálculo do imposto.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.102
-
-_1
-:na_c350.10.102
-
-_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.102_1
+:na_c350.10.102_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Revisão normal e excecional do lucro tributável fixado por métodos indiretos tendo em vista a discussão dos pressupostos ou a quantificação da matéria coletável".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.102
-
-_2
-:na_c350.10.102
-
-_2 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.102_2
+:na_c350.10.102_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Casos em que ainda não se efetuou a liquidação, exceto no caso da revisão excecional do lucro tributável que pode ser efetuada nos três anos posteriores à liquidação".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.102
-
-_1
-:ne_c350.10.102
-
-_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.102_1
+:ne_c350.10.102_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "As correções técnicas e as questões de direito são consideradas em 350.10.100 – Liquidação de Imposto Sobre o Rendimento de Pessoas Singulares (IRS) ou em 350.10.101 – Liquidação de Imposto sobre o Rendimento de Pessoas Coletivas (IRC)".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.102
-
-_2
-:ne_c350.10.102
-
-_2 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.102_2
+:ne_c350.10.102_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A revisão dos atos tributários deve ser considerada em 350.10.515 – Revisão de atos tributários".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c350.10.102
-
-
-:c350.10.102
-
- rdf:type owl:NamedIndividual ,
+:c350.10.102 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
-	:codigo "350.10.102
-
-";
+	:codigo "350.10.102";
 	:titulo "Revisão do lucro tributável determinado por métodos indiretos";
 	:temPai :c350.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
 	:temDono :org_AT ;
-	:temNotaAplicacao :na_c350.10.102
-
-_1 ;
-	:temNotaAplicacao :na_c350.10.102
-
-_2 ;
-	:temNotaExclusao :ne_c350.10.102
-
-_1 ;
-	:temNotaExclusao :ne_c350.10.102
-
-_2 ;
+	:temNotaAplicacao :na_c350.10.102_1 ;
+	:temNotaAplicacao :na_c350.10.102_2 ;
+	:temNotaExclusao :ne_c350.10.102_1 ;
+	:temNotaExclusao :ne_c350.10.102_2 ;
 	:classeStatus "A" ;
 	:descricao "Procedimento de revisão do lucro tributável fixado por métodos indiretos visando o estabelecimento de um acordo quanto ao valor da matéria coletável a considerar para efeitos de liquidação.
 Inicia com o pedido de revisão, devidamente fundamentado, a apresentar pelo sujeito passivo, com a indicação do perito que o representa, e termina com a notificação do acordo entre os peritos ou, na sua falta, com a notificação da decisão do órgão competente para a fixação da matéria coletável.
@@ -588,105 +558,57 @@ Inclui todos os procedimentos para liquidação do imposto, nomeadamente a valid
 	:descricao "Apuramento do Imposto Sobre o Valor Acrescentado (IVA).
 Inicia com a apresentação de uma declaração periódica (DP) por transmissão eletrónica de dados, efetuada pelos sujeitos passivos ou mediante iniciativa da Administração Tributária, e termina com a notificação aos sujeitos passivos para efeitos de pagamento ou com a submissão da declaração periódica do imposto.
 Inclui todos os procedimentos para liquidação do imposto, nomeadamente a validação da declaração e o cálculo do imposto.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.301
-
-_1
-:na_c350.10.301
-
-_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.301_1
+:na_c350.10.301_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Liquidação do Imposto sobre o Álcool e as Bebidas Alcoólicas (IABA)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.301
-
-_2
-:na_c350.10.301
-
-_2 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.301_2
+:na_c350.10.301_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Liquidação do Imposto sobre os Produtos Petrolíferos e Energéticos (ISPPE)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.301
-
-_3
-:na_c350.10.301
-
-_3 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.301_3
+:na_c350.10.301_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Liquidação do Imposto Sobre o Tabaco (IT)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.301
-
-_4
-:na_c350.10.301
-
-_4 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.301_4
+:na_c350.10.301_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Liquidação do Imposto Sobre Sacos de Plástico Leves".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.301
-
-_5
-:na_c350.10.301
-
-_5 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.301_5
+:na_c350.10.301_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo " Liquidação do Imposto Especial Sobre Bebidas Açucaradas".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.301
-
-_1
-:ne_c350.10.301
-
-_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.301_1
+:ne_c350.10.301_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O pagamento do imposto deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.301
-
-_2
-:ne_c350.10.301
-
-_2 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.301_2
+:ne_c350.10.301_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A revisão oficiosa da liquidação deve ser considerada em 350.10.515 – Revisão de atos tributários".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c350.10.301
-
-
-:c350.10.301
-
- rdf:type owl:NamedIndividual ,
+:c350.10.301 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
-	:codigo "350.10.301
-
-";
+	:codigo "350.10.301";
 	:titulo "Liquidação dos Impostos Especiais Sobre o Consumo";
 	:temPai :c350.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
 	:temDono :org_AT ;
-	:temNotaAplicacao :na_c350.10.301
-
-_1 ;
-	:temNotaAplicacao :na_c350.10.301
-
-_2 ;
-	:temNotaAplicacao :na_c350.10.301
-
-_3 ;
-	:temNotaAplicacao :na_c350.10.301
-
-_4 ;
-	:temNotaAplicacao :na_c350.10.301
-
-_5 ;
-	:temNotaExclusao :ne_c350.10.301
-
-_1 ;
-	:temNotaExclusao :ne_c350.10.301
-
-_2 ;
+	:temNotaAplicacao :na_c350.10.301_1 ;
+	:temNotaAplicacao :na_c350.10.301_2 ;
+	:temNotaAplicacao :na_c350.10.301_3 ;
+	:temNotaAplicacao :na_c350.10.301_4 ;
+	:temNotaAplicacao :na_c350.10.301_5 ;
+	:temNotaExclusao :ne_c350.10.301_1 ;
+	:temNotaExclusao :ne_c350.10.301_2 ;
 	:temLegislacao :leg_834 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento dos impostos especiais sobre o consumo, tendo por base os elementos declarados pelos sujeitos passivos.
@@ -820,69 +742,39 @@ Inclui o registo.".
 	:descricao "Processamento da despesa relativa a acidentes de trabalho e doenças profissionais.
 Inicia com a receção do pedido de pagamento das despesas e termina com a decisão sobre o mesmo.
 Inclui a a análise e qualificação do acidente de trabalho ou da doença profissional, verificação dos documentos comprovativos, nomeadamente do boletim de acompanhamento médico, da declaração de formalidades, da relação de despesas e respetivos documentos de despesa.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.504
-
-_1
-:na_c350.10.504
-
-_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.504_1
+:na_c350.10.504_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Processos de isenção, de redução de taxa e de suspensão do benefício ou incentivo fiscal".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.504
-
-_2
-:na_c350.10.504
-
-_2 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.504_2
+:na_c350.10.504_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Benefícios fiscais associados à Lei de Liberdade Religiosa".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.504
-
-_3
-:na_c350.10.504
-
-_3 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.504_3
+:na_c350.10.504_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Benefícios fiscais previstos na fiscalidade verde".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.504
-
-_1
-:ne_c350.10.504
-
-_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.504_1
+:ne_c350.10.504_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O processamento de benefícios e incentivos fiscais e aduaneiros contratuais deve ser considerado em 850.30.002 – Processamento de benefícios e incentivos contratuais ao investimento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c350.10.504
-
-
-:c350.10.504
-
- rdf:type owl:NamedIndividual ,
+:c350.10.504 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
-	:codigo "350.10.504
-
-";
+	:codigo "350.10.504";
 	:titulo "Processamento de benefícios e incentivos fiscais e aduaneiros não contratuais";
 	:temPai :c350.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
 	:temDono :org_AT ;
-	:temNotaAplicacao :na_c350.10.504
-
-_1 ;
-	:temNotaAplicacao :na_c350.10.504
-
-_2 ;
-	:temNotaAplicacao :na_c350.10.504
-
-_3 ;
-	:temNotaExclusao :ne_c350.10.504
-
-_1 ;
+	:temNotaAplicacao :na_c350.10.504_1 ;
+	:temNotaAplicacao :na_c350.10.504_2 ;
+	:temNotaAplicacao :na_c350.10.504_3 ;
+	:temNotaExclusao :ne_c350.10.504_1 ;
 	:temLegislacao :leg_1136 ;
 	:temLegislacao :leg_1171 ;
 	:temLegislacao :leg_85 ;
@@ -1156,102 +1048,42 @@ Inclui todo o procedimento para a análise e cálculo das anulações.".
 	:descricao "Processamento da despesa relativa a acidentes escolares.
 Inicia com a análise e qualificação do acidente escolar e termina com a autorização das despesas.
 Inclui a apresentação do boletim de acompanhamento médico, a declaração de formalidades, a relação de despesas e respetivos documentos de despesa.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.515
-
-
-
-_1
-:na_c350.10.515
-
-
-
-_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.515_1
+:na_c350.10.515_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Revisão da liquidação dos diversos tributos".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.515
-
-
-
-_2
-:na_c350.10.515
-
-
-
-_2 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.515_2
+:na_c350.10.515_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Revisão por erro na autoliquidação".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.515
-
-
-
-_1
-:ne_c350.10.515
-
-
-
-_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.515_1
+:ne_c350.10.515_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A revisão do lucro tributável determinado por métodos indiretos deve ser considerada em 350.10.102 – Revisão do lucro tributável determinado por métodos indiretos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c350.10.515
-
-
-
-
-:c350.10.515
-
-
-
- rdf:type owl:NamedIndividual ,
+:c350.10.515 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
-	:codigo "350.10.515
-
-
-
-";
+	:codigo "350.10.515";
 	:titulo "Revisão de atos tributários";
 	:temPai :c350.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temDono :org_AT ;
 	:temParticipanteIniciador :org_SPE ;
-	:temNotaAplicacao :na_c350.10.515
-
-
-
-_1 ;
-	:temNotaAplicacao :na_c350.10.515
-
-
-
-_2 ;
-	:temNotaExclusao :ne_c350.10.515
-
-
-
-_1 ;
+	:temNotaAplicacao :na_c350.10.515_1 ;
+	:temNotaAplicacao :na_c350.10.515_2 ;
+	:temNotaExclusao :ne_c350.10.515_1 ;
 	:classeStatus "A" ;
 	:descricao "Processamento da revisão de atos tributários pela entidade que os praticou.
 Inicia com pedido do sujeito passivo, com fundamento em qualquer ilegalidade, ou com a iniciativa da administração tributária, com fundamento em erro imputável aos serviços, e termina com a notificação do resultado da revisão efetuada.
 Inclui o exercício do direito de audição quando o pedido é objeto de indeferimento total ou parcial.".
 ###  http://jcr.di.uminho.pt/m51-clav#c350.10.516
-
-
-
-
-:c350.10.516
-
-
-
- rdf:type owl:NamedIndividual ,
+:c350.10.516 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
-	:codigo "350.10.516
-
-
-
-";
+	:codigo "350.10.516";
 	:titulo "Apuramento dos recursos próprios tradicionais da União Europeia";
 	:temPai :c350.10 ;
 	:processoTipo "PE" ;
@@ -1727,45 +1559,27 @@ Inclui o registo da operação.".
 	:descricao "Conferência entre os movimentos dos extratos bancários e os lançamentos efetuados pela entidade.
 Inicia com a receção de informação dos movimentos bancários e termina com uma informação contendo os saldos dos registos bancários e da entidade e, quando for o caso, os valores não reconciliados.
 Inclui a análise comparativa dos registos bancários e dos registos da entidade.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.30.006
-
-_1
-:na_c350.30.006
-
-_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.30.006_1
+:na_c350.30.006_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Conta corrente do recluso no que diz respeito aos procedimentos relacionados com as remunerações de trabalho, as entregas de valores pelas visitas ou pelo correio, bem como os procedimentos relacionados com as aquisições de bens e produtos efetuados pelos reclusos na cantina do estabelecimento prisional ou outras aquisições por ele solicitadas".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.30.006
-
-_2
-:na_c350.30.006
-
-_2 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.30.006_2
+:na_c350.30.006_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Pecúlio do jovem em centro educativo no que diz respeito aos procedimentos relacionados com o dinheiro de bolso, prémios, bolsas de formação, remunerações por trabalho, prestações sociais, donativos de famíliares ou de outras pessoas idóneas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c350.30.006
-
-
-:c350.30.006
-
- rdf:type owl:NamedIndividual ,
+:c350.30.006 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
-	:codigo "350.30.006
-
-";
+	:codigo "350.30.006";
 	:titulo "Gestão da conta corrente de pessoa privada da liberdade e de pessoa institucionalizada";
 	:temPai :c350.30 ;
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
 	:temDono :org_DGRSP ;
-	:temNotaAplicacao :na_c350.30.006
-
-_1 ;
-	:temNotaAplicacao :na_c350.30.006
-
-_2 ;
+	:temNotaAplicacao :na_c350.30.006_1 ;
+	:temNotaAplicacao :na_c350.30.006_2 ;
 	:temLegislacao :leg_879 ;
 	:temLegislacao :leg_777 ;
 	:temLegislacao :leg_283 ;

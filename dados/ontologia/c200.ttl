@@ -542,10 +542,10 @@ Inclui a complilação dos contributos de ministérios setoriais, dos contributo
 	:NotaAplicacao ;
 	:conteudo "Acordos no âmbito do desenvolvimento de projetos ou ações".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_3
-:na_c200.10.800_3 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_5
+:na_c200.10.800_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Acordos expressos apenas por troca de notas".
+	:conteudo "Acordos entre regiões transfronteiriças, transnacionais e interregionais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_2
 :na_c200.10.800_2 rdf:type owl:NamedIndividual ,
@@ -557,15 +557,15 @@ Inclui a complilação dos contributos de ministérios setoriais, dos contributo
 	:NotaAplicacao ;
 	:conteudo "Acordos em que Portugal ou as instâncias setoriais nacionais são parte".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_5
-:na_c200.10.800_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Acordos entre regiões transfronteiriças, transnacionais e interregionais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.800_1
 :ne_c200.10.800_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A aprovação de convenções internacionais (tratados e acordos aprovados por Resolução da Assembleia da República ou por Decreto do Governo), respetiva ratificação ou assinatura pelo Presidente da República, referenda, publicação, avisos de depósito dos instrumentos de vinculação e demais avisos a eles respeitantes devem ser considerados em 100.10.002 – Aprovação e comunicação de convenções internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_3
+:na_c200.10.800_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acordos expressos apenas por troca de notas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.800_2
 :ne_c200.10.800_2 rdf:type owl:NamedIndividual ,
@@ -626,15 +626,15 @@ Inclui negociação e elaboração do protocolo ou acordo.".
 	:NotaAplicacao ;
 	:conteudo "Apoio e/ou acompanhamento ao recrutamento de portugueses para organismos internacionais, bem como para instituições e agências EU no que se inclui o registo de portugueses em instituições da EU".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_1
-:exna_c200.20_1 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Acompanhamento do funcionamento do Parlamento Europeu".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_2
 :exna_c200.20_2 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Acompanhamento do funcionamento da Comissão Europeia".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_1
+:exna_c200.20_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Acompanhamento do funcionamento do Parlamento Europeu".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_3
 :exna_c200.20_3 rdf:type owl:NamedIndividual ,
