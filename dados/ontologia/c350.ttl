@@ -1,13 +1,13 @@
 ### Classe350
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350_1
-:ne_c350_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Os procedimentos de preparação do orçamento e das alterações orçamentais, cativação/descativação de verbas, e a prestação de contas, devem ser considerados em \"Planeamento e gestão estratégica/Planeamento, avaliação e melhoria dos serviços\" (150.20);O exercício de direitos de acionista deve ser considerado na área a que diz respeito o exercício de cada processo em concreto – \"Planeamento e gestão estratégia\" (150), \"Ordenamento jurídico e normativo\" (100), entre outras;O controlo da emissão e circulação de moeda deve ser considerado no âmbito da \"Supervisão, controlo e responsabilização\" (500) ou do \"Ordenamento jurídico e normativo\" (100), de acordo com o processo em causa.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350_1
 :na_c350_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Abrange a execução do conjunto dos orçamentos de receita e de despesa (correntes e de capital) dos serviços públicos e fundos autónomos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c350_1
+:ne_c350_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os procedimentos de preparação do orçamento e das alterações orçamentais, cativação/descativação de verbas, e a prestação de contas, devem ser considerados em \"Planeamento e gestão estratégica/Planeamento, avaliação e melhoria dos serviços\" (150.20);O exercício de direitos de acionista deve ser considerado na área a que diz respeito o exercício de cada processo em concreto – \"Planeamento e gestão estratégia\" (150), \"Ordenamento jurídico e normativo\" (100), entre outras;O controlo da emissão e circulação de moeda deve ser considerado no âmbito da \"Supervisão, controlo e responsabilização\" (500) ou do \"Ordenamento jurídico e normativo\" (100), de acordo com o processo em causa.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c350
 :c350 rdf:type owl:NamedIndividual ,
@@ -64,10 +64,10 @@
 	:ExemploNotaAplicacao ;
 	:conteudo "Processamento das despesas de aquisição (cálculo e lançamento da despesa corrente, proveniente da aquisição de bens e serviços, bem como a despesa de investimento; inclui o processamento da despesa tida com os fundos de maneio)".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.001_1
-:ne_c350.10.001_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10_1
+:ne_c350.10_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
-	:conteudo "A revisão orçamental deve ser considerada em 150.20.202 – Preparação do orçamento".
+	:conteudo "A elaboração do orçamento e a prestação de contas devem ser considerados em \"Planeamento e gestão estratégica/ Planeamento, avaliação e melhoria de serviços\" (150.20);O pagamento e o recebimento/cobrança, enquanto fluxos financeiro, deve ser considerado em \"Administração financeira/ Gestão de tesouraria\" (350.30);O controlo dos montantes em dívida deve ser considerado em \"Administração financeira/ Gestão da dívida e dos créditos públicos\" (350.40);O processamento de contraordenações e reclamações graciosas deve ser considerado em \"Supervisão, controlo e responsabilização/ Ação sancionatória e cautelar\" (500.30);As penhoras judiciais e consequentes execuções devem ser consideradas em \"Administração da Justiça/ Execução de penas, medidas e títulos executivos\" (600.40);O registo de contribuintes deve ser considerado em \"Identificação e registo/Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c350.10
 :c350.10 rdf:type owl:NamedIndividual ,
@@ -91,10 +91,10 @@ Considerar aqui a operação orçamental de reconhecimento dos direitos dos cred
 Considerar igualmente aqui no âmbito da gestão de imposto, as atividades relacionadas com o ato declarativo, o controlo de faltosos, o controlo de divergências e a liquidação.
 Compreende ainda o calculo e/ou lançamento de receitas provenientes da prestação de serviços (taxas) e da venda de produtos.
 Inclui o processamento de isenção, redução ou fracionamento.".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10_1
-:ne_c350.10_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.001_1
+:ne_c350.10.001_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
-	:conteudo "A elaboração do orçamento e a prestação de contas devem ser considerados em \"Planeamento e gestão estratégica/ Planeamento, avaliação e melhoria de serviços\" (150.20);O pagamento e o recebimento/cobrança, enquanto fluxos financeiro, deve ser considerado em \"Administração financeira/ Gestão de tesouraria\" (350.30);O controlo dos montantes em dívida deve ser considerado em \"Administração financeira/ Gestão da dívida e dos créditos públicos\" (350.40);O processamento de contraordenações e reclamações graciosas deve ser considerado em \"Supervisão, controlo e responsabilização/ Ação sancionatória e cautelar\" (500.30);As penhoras judiciais e consequentes execuções devem ser consideradas em \"Administração da Justiça/ Execução de penas, medidas e títulos executivos\" (600.40);O registo de contribuintes deve ser considerado em \"Identificação e registo/Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
+	:conteudo "A revisão orçamental deve ser considerada em 150.20.202 – Preparação do orçamento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c350.10.001
 :c350.10.001 rdf:type owl:NamedIndividual ,
@@ -1285,15 +1285,15 @@ Inclui a análise dos mapas elaborados pelas Alfândegas e a elaboração de map
 Inicia com a comunicação da Alfândega, tendo por base a contabilidade aduaneira, do montante considerado ou declarado incobrável e termina com a comunicação da decisão da Comissão Europeia.
 Inclui instrução, análise e acompanhamento de processos relativos a pedidos de dispensa de colocação à disposição de recursos próprios tradicionais apresentados por Portugal.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.518_2
-:na_c350.10.518_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Cálculo da taxa aeroportuária".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.518_1
 :na_c350.10.518_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Cálculo da taxa de recursos hídricos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.518_2
+:na_c350.10.518_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Cálculo da taxa aeroportuária".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.518_3
 :na_c350.10.518_3 rdf:type owl:NamedIndividual ,
@@ -1460,6 +1460,11 @@ Inclui classificação da receita ou da despesa, autorização de despesa e de a
 
 
 ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.700_1
+:na_c350.10.700_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Solicitações de crédito para fazer face aos encargos assumidos com pessoal".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c350.10.700
 :c350.10.700 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1476,11 +1481,6 @@ Inclui classificação da receita ou da despesa, autorização de despesa e de a
 Inicia com o pedido e termina com a comunicação da decisão e libertação da verba pedida, em caso de aceitação do pedido.
 Inclui o envio e análise dos documentos justificativos, com indicação rigorosa das formalidades realizadas e sua fundamentação legal, o processamento e autorização ou recusa de libertação de crédito.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.700_1
-:na_c350.10.700_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Solicitações de crédito para fazer face aos encargos assumidos com pessoal".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.30_1
 :na_c350.30_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1932,11 +1932,6 @@ Inclui a gestão e controlo dos processamentos no Aforro, as informações e esc
 	:NotaAplicacao ;
 	:conteudo "Regularização da procura e da oferta dos títulos da dívida pública no mercado secundário através do Fundo de Regularização da Dívida Pública (FRDP), bem como do Fundo da Renda Vitalícia".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.40.200_1
-:na_c350.40.200_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Emréstimos concedidos a empresas e a países terceiros".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c350.40.003
 :c350.40.003 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1956,6 +1951,11 @@ Inclui a gestão e controlo dos processamentos no Aforro, as informações e esc
 	:descricao "Estabilização de oferta e procura de títulos de dívida pública no mercado secundário, através do Fundo de Regularização da Dívida Pública (FRDP), resultante de alienação de partes sociais que o Estado detém em quaisquer sociedades anónimas resultantes da transformação de empresas públicas em sociedades anónimas de maioria ou exclusivamente de capitais públicos#
 Inicia com a aquisição de dívida e entrada de capitais oriundos das nacionalizações e termina com o abatimento da dívida#
 ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.40.200_1
+:na_c350.40.200_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emréstimos concedidos a empresas e a países terceiros".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c350.40.200
 :c350.40.200 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -2019,11 +2019,6 @@ Inclui planos de pagamento, pedidos de alteração de planos de pagamentos, part
 	:NotaAplicacao ;
 	:conteudo "Créditos adquiridos à Segurança Social".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.40.203_1
-:na_c350.40.203_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Restituição de apoios financeiros concedidos no âmbito do emprego e da formação, por incumprimento das entidades beneficiárias".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c350.40.202
 :c350.40.202 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -2052,6 +2047,11 @@ Inicia com o contrato de aquisição/cessão de créditos e termina com a regula
 Inclui contratos, relações das dívidas, pedidos de regularização da dívida, decisões proferidas sobre a regularização da dívida, planos prestacionais da dívida, expediente com os devedores, serviços de finanças, tribunais, Segurança Social, administradores de insolvência, assim como informações dos serviços relacionadas com os créditos adquiridos.
 
 ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.40.203_1
+:na_c350.40.203_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Restituição de apoios financeiros concedidos no âmbito do emprego e da formação, por incumprimento das entidades beneficiárias".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.40.203_2
 :na_c350.40.203_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;

@@ -1,13 +1,13 @@
 ### Classe200
-###  http://jcr.di.uminho.pt/m51-clav#na_c200_2
-:na_c200_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Acompanhamento dos compromissos institucionais e a realização de projetos e ações de execução da política externa concretizadas por organismos da Administração Central, Regional ou Local".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c200_1
 :na_c200_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Acompanhamento político e diplomático das relações internacionais bilaterais e multilaterais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200_2
+:na_c200_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento dos compromissos institucionais e a realização de projetos e ações de execução da política externa concretizadas por organismos da Administração Central, Regional ou Local".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c200_1
 :ne_c200_1 rdf:type owl:NamedIndividual ,
@@ -542,15 +542,15 @@ Inclui a complilação dos contributos de ministérios setoriais, dos contributo
 	:NotaAplicacao ;
 	:conteudo "Acordos no âmbito do desenvolvimento de projetos ou ações".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_2
-:na_c200.10.800_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Acordos no âmbito do financiamento".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_3
 :na_c200.10.800_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Acordos expressos apenas por troca de notas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_2
+:na_c200.10.800_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acordos no âmbito do financiamento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_4
 :na_c200.10.800_4 rdf:type owl:NamedIndividual ,

@@ -866,30 +866,30 @@ Inclui registo dos atos ocorridos em sessão.
 	:NotaAplicacao ;
 	:conteudo "Reuniões da Comissão Executiva Metropolitana".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.701_4
-:na_c150.10.701_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Reuniões de Conselho de Administração de Serviços Municipalizados".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.701_3
 :na_c150.10.701_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reuniões de Conselho de Administração de Empresas Municipais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.701_4
+:na_c150.10.701_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de Conselho de Administração de Serviços Municipalizados".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.701_5
 :na_c150.10.701_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reuniões de Conselho Executivo de Comunidades Intermunicipais".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.701_7
-:na_c150.10.701_7 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Reuniões da Mesa Administrativa".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.701_6
 :na_c150.10.701_6 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reuniões de Junta de Freguesia".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.701_7
+:na_c150.10.701_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões da Mesa Administrativa".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c150.10.701
 :c150.10.701 rdf:type owl:NamedIndividual ,
@@ -1226,15 +1226,15 @@ Inclui gestão de intervenções, registo da discussão, registo das votações 
 	:exemploNA "Planeamento operacional de articulação de respostas a uma situação de crise" ;
 	:descricao "Compreende o planeamento e avaliação dos serviços, no que se inclui a análise e melhoria das estruturas e das formas de organização do trabalho, a definição e avaliação do cumprimento de objetivos organizacionais, a elaboração de planos e de relatórios de atividades, gerais e setoriais - abrangendo o diagnóstico de necessidades, o planeamento da afetação e o planeamento do desenvolvimento de recursos (humanos, materiais e financeiros).
 Compreende, igualmente, a definição e avaliação de planos operacionais transversais a vários organismos, de planos de emergência, ou de qualquer instrumento de planeamento e coordenação operacional.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_2
-:na_c150.20.001_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo " Elaboração de carta da qualidade".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_3
 :na_c150.20.001_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Elaboração de manuais de procedimentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_2
+:na_c150.20.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Elaboração de carta da qualidade".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_1
 :na_c150.20.001_1 rdf:type owl:NamedIndividual ,
@@ -1914,15 +1914,15 @@ Inclui a recolha, o tratamento e a análise de dados e identificação de proble
 	:descricao "Controlo sistemático das ações e atividades. 
 Inicia com a sistematização dos dados e termina com o reporte.
 Inclui análise, conferência e processamento dos dados.".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.400_2
-:ne_c150.20.400_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A gestão da tesouraria deve ser considerada em Administração financeira / Gestão da tesouraria (350.30)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.400_1
 :ne_c150.20.400_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A execução orçamental deve ser considerada em Administração financeira / Execução orçamental (350.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.400_2
+:ne_c150.20.400_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A gestão da tesouraria deve ser considerada em Administração financeira / Gestão da tesouraria (350.30)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c150.20.400
 :c150.20.400 rdf:type owl:NamedIndividual ,

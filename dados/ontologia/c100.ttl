@@ -70,6 +70,11 @@ Inclui os processos de vinculação do Estado português a convenções internac
 	:NotaAplicacao ;
 	:conteudo "Normas informais ou recomendações técnicas emitidas organismos de coordenação ou superintendência técnica".
 
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_2
+:exna_c100.10_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Atos legislativos: Decretos regulamentares, portarias, posturas, despachos normativos, qualquer despacho com diretrizes gerais e abstratas".
+
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_1
 :exna_c100.10_1 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
@@ -79,11 +84,6 @@ Inclui os processos de vinculação do Estado português a convenções internac
 :exna_c100.10_3 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Atos regulamentares: decretos regulamentares, portarias, posturas, despachos normativos".
-
-###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_2
-:exna_c100.10_2 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Atos legislativos: Decretos regulamentares, portarias, posturas, despachos normativos, qualquer despacho com diretrizes gerais e abstratas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_4
 :exna_c100.10_4 rdf:type owl:NamedIndividual ,
@@ -461,15 +461,15 @@ Inclui verificação jurídica e apreciação.".
 	:ExemploNotaAplicacao ;
 	:conteudo "Plano Diretor Municipal".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.400_3
-:exna_c100.10.400_3 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Regulamento de Horários de Funcionamento dos Estabelecimentos Comerciais na área do Município".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.400_2
 :exna_c100.10.400_2 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Regulamento Municipal de Toponímia e Numeração de Polícia".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.400_3
+:exna_c100.10.400_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Regulamento de Horários de Funcionamento dos Estabelecimentos Comerciais na área do Município".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.400_4
 :exna_c100.10.400_4 rdf:type owl:NamedIndividual ,
@@ -724,7 +724,7 @@ Inclui verificação jurídica e apreciação.
 	:temLegislacao :leg_935 ;
 	:classeStatus "A" ;
 	:exemploNA "Normas STANAG" ;
-	:descricao "Elaboração (formalização e estabelecimento de  prescrições) de  disposições destinadas à utilização comum e repetida, visando a obtenção de normas técnicas, ações e procedimentos normalizados num dado contexto, podendo revestir a forma de norma padrão (standard), isto é norma técnica que foi adotada "de facto", sem necessariamente ter havido uma ratificação formal, ou de norma produzida por um órgão oficialmente acreditado para tal (norma "de jure").
+	:descricao "Elaboração (formalização e estabelecimento de  prescrições) de  disposições destinadas à utilização comum e repetida, visando a obtenção de normas técnicas, ações e procedimentos normalizados num dado contexto, podendo revestir a forma de norma padrão (standard), isto é norma técnica que foi adotada \"de facto\", sem necessariamente ter havido uma ratificação formal, ou de norma produzida por um órgão oficialmente acreditado para tal (norma \"de jure\").
 Inicia com a identificação da necessidade (da norma técnica) do documento normativo e termina com o envio para publicação e publicitação.
 Inclui  elaboração de pareceres  técnicos especializados na área, redação dos documentos, traduções técnicas e elaboração de projetos de documentos normativos, com consulta nacional e europeia incluindo  consulta às entidades reguladoras, análise dos contributos recebidos, elaboração/redação final do  documento normativo.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c100.20_1
