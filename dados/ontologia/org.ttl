@@ -514,10 +514,10 @@
 	:Organizacao ;
 	:orgSigla "DGV";
 	:orgNome "Direção-Geral de Alimentação e Veterinária".
-###  http://jcr.di.uminho.pt/m51-clav#org_DNS.PT
-:org_DNS.PT rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#org_DNS_PT
+:org_DNS_PT rdf:type owl:NamedIndividual ,
 	:Organizacao ;
-	:orgSigla "DNS.PT";
+	:orgSigla "DNS_PT";
 	:orgNome "Associação DNS.PT".
 ###  http://jcr.di.uminho.pt/m51-clav#org_DRADR
 :org_DRADR rdf:type owl:NamedIndividual ,
