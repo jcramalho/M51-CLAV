@@ -1,4 +1,4 @@
-exports.migraClasse = function(callback, orgCatalog, classe)
+exports.migraClasse = function(orgCatalog, legCatalog, classe)
 {
     const csv = require('csvtojson')
     const fs = require('fs')
@@ -19,7 +19,7 @@ exports.migraClasse = function(callback, orgCatalog, classe)
     csv({delimiter:";"})
         .fromFile(csvFilePath)
         .on('json', (jsonObj, rowIndex)=> {
-            var cod = "" + jsonObj['Código']
+            var cod = "" + jsonObj['Código'].replace(/(\r\n|\n|\r)/gm,"")
             var classe = 0
             var classTriples = ""
 
@@ -182,6 +182,22 @@ exports.migraClasse = function(callback, orgCatalog, classe)
                     }
                 }
 
+                // Relações com a Legislação
+                if (jsonObj['Diplomas jurídico-administrativos REF']) {
+                    var legRefs = jsonObj['Diplomas jurídico-administrativos REF']
+                    var legRefsSplit = legRefs.replace(/(\r\n|\n|\r)/gm,"").split("#")
+                    
+                    for(var l=0, len = legRefsSplit.length; l<len; l++)
+                    {
+                        if(legRefsSplit[l])
+                            // Verificação da existência no catálogo legislativo
+                            if(legCatalog.indexOf(legRefsSplit[l])!= -1)
+                                classTriples += "\t:temLegislacao " + ":leg_" + legCatalog.indexOf(legRefsSplit[l]) + " ;\n"
+                            else
+                                console.error( classCode + " :: Referência a legislação inexistente no catálogo: " + legRefsSplit[l])
+                    }
+                }
+
                 // Atributos fixos de todas as classes
                 classTriples += "\t:classeStatus " + "\"A\" ;\n"
 
@@ -199,21 +215,20 @@ exports.migraClasse = function(callback, orgCatalog, classe)
                     }
                 }
                 // Atenção ao último triplo, tem que terminar em .
-                classTriples += "\t:descricao " + "\"" + jsonObj['Descrição'] + "\"" + ".\n"
+                var mydesc = jsonObj['Descrição'].replace(/\"/gm,"\\\"")
+                classTriples += "\t:descricao " + "\"" + mydesc + "\"" + ".\n"
 
                 fs.appendFile(fout, classTriples , function(err){
                     if(err)
                         console.error(err);
-                    console.log(jsonObj['Tipo de diploma'] + jsonObj['Numero do diploma']);
                 });
             }
         })
     .on('done', (error)=> {
         fs.appendFile(fout, '\n### Classes' + classe + ' termina aqui.\n\n' , function(err){
-                    if(err)
-                        console.error(err);
-                });
+            if(err)
+                console.error(err);
+        });
+        console.log('Classe ' + classe + ': terminei.');
   })
-
-  callback(null, '::Classe ' + classe);
 }
