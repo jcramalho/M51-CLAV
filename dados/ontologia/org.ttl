@@ -139,16 +139,16 @@
 	:Organizacao ;
 	:orgSigla "APAV";
 	:orgNome "Associação Portuguesa de Apoio à Vítima".
-###  http://jcr.di.uminho.pt/m51-clav#org_AR
-:org_AR rdf:type owl:NamedIndividual ,
-	:Organizacao ;
-	:orgSigla "AR";
-	:orgNome "Assembleia da República".
 ###  http://jcr.di.uminho.pt/m51-clav#org_APEL
 :org_APEL rdf:type owl:NamedIndividual ,
 	:Organizacao ;
 	:orgSigla "APEL";
 	:orgNome "Associação Portuguesa de Editores e Livreiros".
+###  http://jcr.di.uminho.pt/m51-clav#org_AR
+:org_AR rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "AR";
+	:orgNome "Assembleia da República".
 ###  http://jcr.di.uminho.pt/m51-clav#org_ARS
 :org_ARS rdf:type owl:NamedIndividual ,
 	:Organizacao ;
@@ -514,10 +514,10 @@
 	:Organizacao ;
 	:orgSigla "DGV";
 	:orgNome "Direção-Geral de Alimentação e Veterinária".
-###  http://jcr.di.uminho.pt/m51-clav#org_DNS.PT
-:org_DNS.PT rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#org_DNS_PT
+:org_DNS_PT rdf:type owl:NamedIndividual ,
 	:Organizacao ;
-	:orgSigla "DNS.PT";
+	:orgSigla "DNS_PT";
 	:orgNome "Associação DNS.PT".
 ###  http://jcr.di.uminho.pt/m51-clav#org_DRADR
 :org_DRADR rdf:type owl:NamedIndividual ,

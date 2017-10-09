@@ -1,4 +1,877 @@
 ### Classe100
+###  http://jcr.di.uminho.pt/m51-clav#na_c100_1
+:na_c100_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Os atos de caráter dispositivo podem incidir sobre a sociedade portuguesa em geral, sobre determinados setores de atividade, sobre determinadas parcelas do território ou, ainda, sobre organismos ou serviços singulares".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100_1
+:ne_c100_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A negociação de convenções internacionais (tratados, acordos) e a participação na elaboração de normas técnicas internacionais, bem como a participação na elaboração de diretivas e de regulamentos comunitários, devem ser consideradas em \"Execução da política externa/ Definição de políticas conjuntas e dos instrumentos de regulação\" (200.10) - ou seja, na área funcional 100 devem ser considerados apenas os procedimentos de ratificação, transposição e interpretação daquelas disposições comunitárias ou internacionais.".
+
+###  http://jcr.di.uminho.pt/m51-clav#c100
+:c100 rdf:type owl:NamedIndividual ,
+	:Classe_N1;
+	:codigo "100";
+	:titulo "ORDENAMENTO JURÍDICO E NORMATIVO";
+	:pertenceLC :lc1 ;
+	:temNotaAplicacao :na_c100_1 ;
+	:temNotaExclusao :ne_c100_1 ;
+	:classeStatus "A" ;
+	:descricao "Relativo à construção e interpretação das Normas, no sentido lato do termo (com e sem caráter coercivo): elaboração, aprovação e publicitação dos atos de caráter dispositivo e de caráter orientador que regulam as ações e relações entre os diversos atores sociais - da legislação aos regulamentos, regras internas de funcionamento, instruções procedimentais e normas técnicas.
+Inclui os processos de vinculação do Estado português a convenções internacionais, bem como os avisos relativos à vinculação dos restantes Estados-parte naquelas convenções.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10_1
+:na_c100.10_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "No que respeita à elaboração de diplomas jurídico-normativos, deve ser sempre considerada nesta área a iniciativa (sob a forma de projeto ou de proposta) e os procedimentos orientados à fixação da respetiva redação final e publicitação oficial, no que se inclui, na generalidade, a verificação jurídica, consulta pública e recolha de pareceres a que a lei obrigue, aprovação, ratificação, promulgação e publicação, sem prejuízo de outros procedimentos próprios da produção de cada norma".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10_2
+:na_c100.10_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atos legislativos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10_3
+:na_c100.10_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atos regulamentares, independentemente da forma ou da competência para a sua emissão".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10_4
+:na_c100.10_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Qualquer despacho com diretrizes gerais e abstratas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10_5
+:na_c100.10_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atos administrativos individuais e abstratos que alterem ou complementem os termos de aplicação de lei ou regulamento vigente".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10_6
+:na_c100.10_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Resoluções do Conselho de Ministros, independentemente de se revestirem de natureza regulamentar ou de natureza política".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10_7
+:na_c100.10_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Decretos e outras formas de aprovação/ratificação de convenções internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10_8
+:na_c100.10_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Decisões dos Tribunais a que a lei confira força obrigatória geral".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10_9
+:na_c100.10_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "No que respeita às normas técnicas, deve ser aqui considerada a elaboração de normas formais emitidas pelo organismo nacional de normalização (NP)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10_10
+:na_c100.10_10 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Normas informais ou recomendações técnicas emitidas organismos de coordenação ou superintendência técnica".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_1
+:exna_c100.10_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Diplomas jurídico-administrativos: leis, decretos-lei e decretos legislativos regionais, bem como eventuais declarações de retificação".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_2
+:exna_c100.10_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Atos legislativos: Decretos regulamentares, portarias, posturas, despachos normativos, qualquer despacho com diretrizes gerais e abstratas".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_3
+:exna_c100.10_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Atos regulamentares: decretos regulamentares, portarias, posturas, despachos normativos".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_4
+:exna_c100.10_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Despachos de delegação de competências".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_5
+:exna_c100.10_5 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Aprovação do Regimento do Conselho do Ministros".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_6
+:exna_c100.10_6 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Aprovação de linhas gerais para plano estratégico".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_7
+:exna_c100.10_7 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Recomendação da AR ao Governo".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_8
+:exna_c100.10_8 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Declarações de inconstitucionalidade emitidas pelo Tribunal Constitucional".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_9
+:exna_c100.10_9 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Declarações de ilegalidade emitidas pelos tribunais administrativos".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_10
+:exna_c100.10_10 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "NP".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10_1
+:ne_c100.10_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Devem ser considerados noutras áreas os procedimentos administrativos autonomizáveis do processo legislativo, bem como os trabalhos técnicos, estudos e relatórios preliminares ou acessórios à elaboração ou atualização dos diplomas jurídico-normativos. Por exemplo:- Trabalhos técnicos de comissões ou outras estruturas envolvidas na definição de políticas, planos e programas devem ser considerados em \"Planeamento e gestão estratégica/ Definição e avaliação de políticas\" (150.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10_2
+:ne_c100.10_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "- Estudos e trabalhos técnicos orientados à (re)definição de estruturas e/ou funcionamento dos serviços, ou ainda trabalhos preparatórios para a elaboração do Orçamento de Estado, devem ser considerados em \"Planeamento e gestão estratégica/ Planeamento, avaliação e melhoria de serviços\" (150.20)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10_3
+:ne_c100.10_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "- Trabalhos técnicos preparatórios de planos de classificação e de tabelas de seleção devem ser considerados em \"Administração de direitos, bens e serviços/ Identificação e caracterização de bens\" (300.30)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10_4
+:ne_c100.10_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "- Procedimentos administrativos de classificação do património cultural devem ser considerados em \"Reconhecimentos e permissões/ Classificação e declaração de interesse ou utilidade pública\" (450.20)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10_5
+:ne_c100.10_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Considerar em \"Execução da política externa/ Definição de políticas conjuntas e dos instrumentos de regulação\" (200.10) a participação na elaboração de diretivas e de regulamentos comunitários, bem como a participação na elaboração de tratados ou acordos comunitários ou internacionais e, ainda, a participação na elaboração de normas técnicas europeias e internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c100.10
+:c100.10 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "100.10";
+	:titulo "Elaboração de diplomas jurídico-normativos e de normas técnicas";
+	:temPai :c100 ;
+	:temNotaAplicacao :na_c100.10_1 ;
+	:temNotaAplicacao :na_c100.10_2 ;
+	:temNotaAplicacao :na_c100.10_3 ;
+	:temNotaAplicacao :na_c100.10_4 ;
+	:temNotaAplicacao :na_c100.10_5 ;
+	:temNotaAplicacao :na_c100.10_6 ;
+	:temNotaAplicacao :na_c100.10_7 ;
+	:temNotaAplicacao :na_c100.10_8 ;
+	:temNotaAplicacao :na_c100.10_9 ;
+	:temNotaAplicacao :na_c100.10_10 ;
+	:temNotaExclusao :ne_c100.10_1 ;
+	:temNotaExclusao :ne_c100.10_2 ;
+	:temNotaExclusao :ne_c100.10_3 ;
+	:temNotaExclusao :ne_c100.10_4 ;
+	:temNotaExclusao :ne_c100.10_5 ;
+	:classeStatus "A" ;
+	:exemploNA "Diplomas jurídico-administrativos: leis, decretos-lei e decretos legislativos regionais, bem como eventuais declarações de retificação" ;
+	:exemploNA "Atos legislativos: Decretos regulamentares, portarias, posturas, despachos normativos, qualquer despacho com diretrizes gerais e abstratas" ;
+	:exemploNA "Atos regulamentares: decretos regulamentares, portarias, posturas, despachos normativos" ;
+	:exemploNA "Despachos de delegação de competências" ;
+	:exemploNA "Aprovação do Regimento do Conselho do Ministros" ;
+	:exemploNA "Aprovação de linhas gerais para plano estratégico" ;
+	:exemploNA "Recomendação da AR ao Governo" ;
+	:exemploNA "Declarações de inconstitucionalidade emitidas pelo Tribunal Constitucional" ;
+	:exemploNA "Declarações de ilegalidade emitidas pelos tribunais administrativos" ;
+	:exemploNA "NP" ;
+	:descricao "Compreende os processos de elaboração/alteração de legislação, de regulamentos e de diretivas políticas ou operacionais portuguesas, independentemente da forma, do assunto ou do tipo de participação no processo.
+Inclui o depósito dos instrumentos de regulação (por exemplo, instrumentos de gestão territorial) nas entidades competentes.
+Abrange os diplomas jurídico-normativos da competência dos órgãos de soberania (Presidente da República, Assembleia da República, Governo e Tribunais) ou dos órgãos de poder político (regiões autónomas e autarquias), bem como os atos da Administração que têm caráter normativo.
+Compreende, igualmente, a elaboração ou colaboração na elaboração de normas técnicas nacionais.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.001_1
+:na_c100.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Iniciativa legislativa por parte de cidadãos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.001_2
+:na_c100.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Leis".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.001_3
+:na_c100.10.001_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Decretos-Lei".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.001_4
+:na_c100.10.001_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Decretos Legislativos regionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.001_5
+:na_c100.10.001_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Transposição de diretivas da União Europeia".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.001_1
+:exna_c100.10.001_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Código da Estrada".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.001_2
+:exna_c100.10.001_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Código Civil".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.001_3
+:exna_c100.10.001_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Regime de acesso à informação administrativa e ambiental e de reutilização dos documentos administrativos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.001_1
+:ne_c100.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os procedimentos administrativos, trabalhos preparatórios ou elaboração de estudos preliminares, por exemplo quando a regulamentação seja necessária para dar forma legal a instrumentos de planeamento, devem ser considerados em “Planeamento e gestão estratégica / Definição e avaliação de políticas” (150.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.001_2
+:ne_c100.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O impulso legiferante, quando reveste a forma de petição pública sem apresentação de projeto de lei, deve ser considerado em 950.20.001 – Processamento de petições, reclamações e sugestões".
+
+###  http://jcr.di.uminho.pt/m51-clav#c100.10.001
+:c100.10.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "100.10.001";
+	:titulo "Produção e comunicação de atos legislativos";
+	:temPai :c100.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AR ;
+	:temDono :org_ALR ;
+	:temDono :org_Gov ;
+	:temParticipanteAssessor :org_CEJUR ;
+	:temParticipanteAssessor :org_SGPCM ;
+	:temParticipanteAssessor :org_AP ;
+	:temParticipanteDecisor :org_PR ;
+	:temParticipanteComunicador :org_INCM ;
+	:temNotaAplicacao :na_c100.10.001_1 ;
+	:temNotaAplicacao :na_c100.10.001_2 ;
+	:temNotaAplicacao :na_c100.10.001_3 ;
+	:temNotaAplicacao :na_c100.10.001_4 ;
+	:temNotaAplicacao :na_c100.10.001_5 ;
+	:temNotaExclusao :ne_c100.10.001_1 ;
+	:temNotaExclusao :ne_c100.10.001_2 ;
+	:temLegislacao :leg_457 ;
+	:temLegislacao :leg_1111 ;
+	:temLegislacao :leg_1162 ;
+	:classeStatus "A" ;
+	:exemploNA "Código da Estrada" ;
+	:exemploNA "Código Civil" ;
+	:exemploNA "Regime de acesso à informação administrativa e ambiental e de reutilização dos documentos administrativos" ;
+	:descricao "Elaboração ou participação na elaboração de atos legislativos conduzidos por iniciativa das autoridades competentes para a definição do regime jurídico aplicável.
+Inicia com a apresentação de um projeto acompanhado dos documentos que o fundamentam e justificam à entidade com competência para legislar e termina com a respetiva publicação ou publicitação.
+Inclui verificação jurídica, apreciação, discussão e votação conducentes à elaboração do texto final, aprovação da iniciativa, ratificação pelas entidades competentes e promulgação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.002_1
+:na_c100.10.002_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Aprovação, ratificação e publicação de convenções internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.002_2
+:na_c100.10.002_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Avisos respeitantes às convenções internacionais e relativos a outros Estados contratantes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.002_3
+:na_c100.10.002_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Depósito de diploma em entidade designada para efeitos da vinculação do Estado português e dos seus termos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.002_4
+:na_c100.10.002_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " ".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.002_1
+:ne_c100.10.002_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os trabalhos relativos à celebração das convenções internacionais (preparação, compromisso entre as partes, assinatura) devem ser considerados em 200.10.800 – Celebração de acordos e outros atos internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c100.10.002
+:c100.10.002 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "100.10.002";
+	:titulo "Aprovação e comunicação de convenções internacionais";
+	:temPai :c100.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_AR ;
+	:temDono :org_Gov ;
+	:temParticipanteAssessor :org_SGPCM ;
+	:temParticipanteDecisor :org_PR ;
+	:temParticipanteComunicador :org_INCM ;
+	:temParticipanteApreciador :org_DGERT ;
+	:temNotaAplicacao :na_c100.10.002_1 ;
+	:temNotaAplicacao :na_c100.10.002_2 ;
+	:temNotaAplicacao :na_c100.10.002_3 ;
+	:temNotaAplicacao :na_c100.10.002_4 ;
+	:temNotaExclusao :ne_c100.10.002_1 ;
+	:temLegislacao :leg_457 ;
+	:temLegislacao :leg_1111 ;
+	:temLegislacao :leg_1162 ;
+	:classeStatus "A" ;
+	:descricao "Manifestação do consentimento à vinculação nacional de convenções (tratados e acordos) internacionais, entrando no ordenamento jurídico português.
+Inicia com a necessidade ou vontade de vinculação e termina com a publicação.
+Inclui a aprovação parlamentar ou governamental, através de resolução ou decreto, respetivamente, a vinculação internacional mediante assinatura ou ratificação presidencial e a comunicação dos avisos de depósito de instrumento de vinculação ou outros respeitantes às convenções.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.003_1
+:na_c100.10.003_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Declaração de inconstitucionalidade ou de ilegalidade com força obrigatória geral pelo Tribunal Constitucional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.003_2
+:na_c100.10.003_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Declaração de ilegalidade com força obrigatória geral de normas regulamentares pelos Tribunais Administrativos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.003_3
+:na_c100.10.003_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Declarações do Tribunal de Contas que se dirijam a um número indeterminado ou indeterminável de serviços, organismos ou pessoas singulares, exteriores ao mesmo Tribunal, impondo regras de observância vinculativa".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.003_1
+:ne_c100.10.003_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O processo de fiscalização (prévia ou sucessiva) da constitucionalidade da norma, incluindo a audição do autor da norma para pronúncia, deve ser considerado em “Administração da justiça/ Produção de prova e decisão judicial” (600.30)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c100.10.003
+:c100.10.003 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "100.10.003";
+	:titulo "Comunicação de decisões dos tribunais a que a lei confira força obrigatória geral";
+	:temPai :c100.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_TC ;
+	:temDono :org_STA ;
+	:temDono :org_STJ ;
+	:temParticipanteComunicador :org_AP ;
+	:temParticipanteComunicador :org_INCM ;
+	:temNotaAplicacao :na_c100.10.003_1 ;
+	:temNotaAplicacao :na_c100.10.003_2 ;
+	:temNotaAplicacao :na_c100.10.003_3 ;
+	:temNotaExclusao :ne_c100.10.003_1 ;
+	:temLegislacao :leg_457 ;
+	:temLegislacao :leg_963 ;
+	:classeStatus "A" ;
+	:descricao "Declaração de inconstitucionalidade ou outras decisões de Tribunais, a que a lei confira força obrigatória geral.
+Inicia com o envio aos órgãos competentes e termina com a publicação.
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.200_1
+:na_c100.10.200_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atos regulamentares da competência do governo, mesmo quando tenham por objeto uma área geográfica determinada".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.200_2
+:na_c100.10.200_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Decretos regulamentares".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.200_3
+:na_c100.10.200_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Decretos regulamentares regionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.200_4
+:na_c100.10.200_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Portarias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.200_5
+:na_c100.10.200_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Resoluções do Conselho de Ministros".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.200_1
+:exna_c100.10.200_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Decreto Regulamentar que aprova o Plano da Bacia Hidrográfica do Guadiana".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.200_2
+:exna_c100.10.200_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Decreto Regulamentar que classifica como monumento natural as Portas de Rodão".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.200_1
+:ne_c100.10.200_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os regulamentos municipais de aplicação à respetiva circunscrição territorial deverão ser considerados em 100.10.400 – Produção e comunicação de atos regulamentares locais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.200_2
+:ne_c100.10.200_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os regulamentos de funcionamento dos serviços devem ser considerados em 100.10.600 – Produção e comunicação de regras institucionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.200_3
+:ne_c100.10.200_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os procedimentos administrativos, trabalhos preparatórios ou elaboração de estudos preliminares, por exemplo quando a regulamentação seja necessária para dar forma legal a instrumentos de planeamento, devem ser considerados em “Planeamento e gestão estratégica / Elaboração de diplomas jurídico-normativos e de normas técnicas” (150.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c100.10.200
+:c100.10.200 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "100.10.200";
+	:titulo "Produção e comunicação de atos regulamentares gerais";
+	:temPai :c100.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_Gov ;
+	:temDono :org_GovReg ;
+	:temParticipanteAssessor :org_CEJUR ;
+	:temParticipanteAssessor :org_SGPCM ;
+	:temParticipanteAssessor :org_AP ;
+	:temParticipanteComunicador :org_INCM ;
+	:temNotaAplicacao :na_c100.10.200_1 ;
+	:temNotaAplicacao :na_c100.10.200_2 ;
+	:temNotaAplicacao :na_c100.10.200_3 ;
+	:temNotaAplicacao :na_c100.10.200_4 ;
+	:temNotaAplicacao :na_c100.10.200_5 ;
+	:temNotaExclusao :ne_c100.10.200_1 ;
+	:temNotaExclusao :ne_c100.10.200_2 ;
+	:temNotaExclusao :ne_c100.10.200_3 ;
+	:temLegislacao :leg_457 ;
+	:temLegislacao :leg_1111 ;
+	:temLegislacao :leg_1162 ;
+	:classeStatus "A" ;
+	:exemploNA "Decreto Regulamentar que aprova o Plano da Bacia Hidrográfica do Guadiana" ;
+	:exemploNA "Decreto Regulamentar que classifica como monumento natural as Portas de Rodão" ;
+	:descricao "Elaboração e formalização de regulamentos gerais, que se destinam a vigorar em todo o território nacional, em todo o território do continente ou em todo o território de uma região autónoma.
+Inicia com a apresentação do projeto de regulamentação da lei, de criação de regulamento independente ou autónomo destinado à boa execução das leis, ou de alteração de regulamentos existentes e termina com a aprovação final ou ratificação pelos órgãos competentes e consequente publicitação.
+Inclui verificação jurídica e apreciação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.400_1
+:na_c100.10.400_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atos regulamentares da competência dos órgãos autárquicos, mesmo quando necessitam de ratificação do Governo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.400_2
+:na_c100.10.400_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Depósito do diploma em entidade designada".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.400_3
+:na_c100.10.400_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Posturas e regulamentos municipais que não tenham incidência sobre o funcionamento dos serviços dependentes da autarquia".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.400_1
+:exna_c100.10.400_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Plano Diretor Municipal".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.400_2
+:exna_c100.10.400_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Regulamento Municipal de Toponímia e Numeração de Polícia".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.400_3
+:exna_c100.10.400_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Regulamento de Horários de Funcionamento dos Estabelecimentos Comerciais na área do Município".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.400_4
+:exna_c100.10.400_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Regulamento Municipal de Publicidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.400_5
+:exna_c100.10.400_5 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Plano de Circulação do Município".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.400_1
+:ne_c100.10.400_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os regulamentos de funcionamento dos serviços devem ser considerados em 100.10.600 – Produção e comunicação de regras institucionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.400_2
+:ne_c100.10.400_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os procedimentos administrativos, trabalhos preparatórios ou elaboração de estudos preliminares, por exemplo quando a regulamentação seja necessária para dar forma legal a instrumentos de planeamento, devem ser considerados em “Planeamento e gestão estratégica / Elaboração de diplomas jurídico-normativos e de normas técnicas” (150.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c100.10.400
+:c100.10.400 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "100.10.400";
+	:titulo "Produção e comunicação de atos regulamentares locais";
+	:temPai :c100.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_AL ;
+	:temParticipanteAssessor :org_CEJUR ;
+	:temParticipanteAssessor :org_SGPCM ;
+	:temParticipanteComunicador :org_INCM ;
+	:temNotaAplicacao :na_c100.10.400_1 ;
+	:temNotaAplicacao :na_c100.10.400_2 ;
+	:temNotaAplicacao :na_c100.10.400_3 ;
+	:temNotaExclusao :ne_c100.10.400_1 ;
+	:temNotaExclusao :ne_c100.10.400_2 ;
+	:temLegislacao :leg_261 ;
+	:temLegislacao :leg_107 ;
+	:classeStatus "A" ;
+	:exemploNA "Plano Diretor Municipal" ;
+	:exemploNA "Regulamento Municipal de Toponímia e Numeração de Polícia" ;
+	:exemploNA "Regulamento de Horários de Funcionamento dos Estabelecimentos Comerciais na área do Município" ;
+	:exemploNA "Regulamento Municipal de Publicidade" ;
+	:exemploNA "Plano de Circulação do Município" ;
+	:descricao "Elaboração e formalização de atos regulamentares que têm o seu domínio de aplicação limitado ao território sob a jurisdição de uma autarquia local.
+Inicia com a apresentação do projeto de regulamento ou de atualização de regulamento e termina com a aprovação pelos órgãos territorialmente competentes, eventual ratificação, e consequente publicitação.
+Inclui verificação jurídica e apreciação.
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.600_1
+:na_c100.10.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atos administrativos individuais que alteram os termos de aplicação de lei ou regulamento vigente".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.600_2
+:na_c100.10.600_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atos regulamentares relativos ao funcionamento de uma instituição, independentemente de ser da competência da própria instituição ou de membro(s) do Governo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.600_3
+:na_c100.10.600_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Regulamentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.600_4
+:na_c100.10.600_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Despachos normativos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.600_5
+:na_c100.10.600_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ordens de serviço".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.600_1
+:exna_c100.10.600_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Despacho de delegação de competências".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.600_2
+:exna_c100.10.600_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Regimentos da Assembleia da República, do Conselho de Estado e das Assembleias Legislativas das Regiões Autónomas".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.600_3
+:exna_c100.10.600_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Regimentos de órgãos colegiais".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.600_4
+:exna_c100.10.600_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Regulamento municipal da Biblioteca".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.600_5
+:exna_c100.10.600_5 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Regulamento de taxas municipais".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.600_6
+:exna_c100.10.600_6 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Diplomas que regulamentam a lei orgânica (Estatutos, Decreto Regulamentar, portaria ou despacho de organização dos serviços)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.600_7
+:exna_c100.10.600_7 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Regulamentos de horário de funcionamento".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.600_8
+:exna_c100.10.600_8 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Regulamentos relativos a relações de trabalho: horários de trabalho, contratação de docentes convidados, procedimentos concursais, avaliação de docentes, acumulação de funções".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.600_9
+:exna_c100.10.600_9 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Regulamentos relativos a serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.600_10
+:exna_c100.10.600_10 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Regulamentos relativos à área académica: acesso e ingresso no ensino superior, avaliação de conhecimentos e aproveitamento, faltas, vigilância de provas, estatutos especiais, emolumentos, propinas, estágio, creditação, estudante internacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.600_11
+:exna_c100.10.600_11 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Regulamentos relativos a concursos/prémios".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.600_1
+:ne_c100.10.600_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A preparação das regras e orientações internas deve ser consideradas em 150.20.001 - Preparação de regras e orientações internas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.600_2
+:ne_c100.10.600_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os projetos de reengenharia de processos, simplificação de procedimentos, ou melhoria no funcionamento dos serviços, devem ser considerados em 150.20.500 – Análise e melhoria de processos ou 150.20.501 - Análise e melhoria de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.600_3
+:ne_c100.10.600_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As nomeações devem ser consideradas em 250.10.400 – Nomeação para cargos de direção, coordenação e controlo ou 250.10.401 – Nomeação para postos de trabalho (exemplos: nomeação de embaixadores, chefe de estado das forças armadas, diretores-gerais, diretores de serviço, trabalhadores, funcionários públicos)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.600_4
+:ne_c100.10.600_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os trabalhos preparatórios ou estudos preliminares quando integram processo específico, como por exemplo os desenvolvidos no âmbito da definição do sistema de qualidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.600_5
+:ne_c100.10.600_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os avisos que não incidem sobre a publicitação das regras de funcionamento devem ser considerados na área correspondente, por exemplo, um aviso para abertura de concurso de pessoal deve ser considerado no respetivo processo em “Administração das relações de trabalho/ Estabelecimento e cessação de relações de trabalho” (250.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c100.10.600
+:c100.10.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "100.10.600";
+	:titulo "Produção e comunicação de regras institucionais";
+	:temPai :c100.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteDecisor :org_AP ;
+	:temParticipanteApreciador :org_AP ;
+	:temNotaAplicacao :na_c100.10.600_1 ;
+	:temNotaAplicacao :na_c100.10.600_2 ;
+	:temNotaAplicacao :na_c100.10.600_3 ;
+	:temNotaAplicacao :na_c100.10.600_4 ;
+	:temNotaAplicacao :na_c100.10.600_5 ;
+	:temNotaExclusao :ne_c100.10.600_1 ;
+	:temNotaExclusao :ne_c100.10.600_2 ;
+	:temNotaExclusao :ne_c100.10.600_3 ;
+	:temNotaExclusao :ne_c100.10.600_4 ;
+	:temNotaExclusao :ne_c100.10.600_5 ;
+	:temLegislacao :leg_457 ;
+	:temLegislacao :leg_1207 ;
+	:temLegislacao :leg_927 ;
+	:temLegislacao :leg_587 ;
+	:classeStatus "A" ;
+	:exemploNA "Despacho de delegação de competências" ;
+	:exemploNA "Regimentos da Assembleia da República, do Conselho de Estado e das Assembleias Legislativas das Regiões Autónomas" ;
+	:exemploNA "Regimentos de órgãos colegiais" ;
+	:exemploNA "Regulamento municipal da Biblioteca" ;
+	:exemploNA "Regulamento de taxas municipais" ;
+	:exemploNA "Diplomas que regulamentam a lei orgânica (Estatutos, Decreto Regulamentar, portaria ou despacho de organização dos serviços)" ;
+	:exemploNA "Regulamentos de horário de funcionamento" ;
+	:exemploNA "Regulamentos relativos a relações de trabalho: horários de trabalho, contratação de docentes convidados, procedimentos concursais, avaliação de docentes, acumulação de funções" ;
+	:exemploNA "Regulamentos relativos a serviços" ;
+	:exemploNA "Regulamentos relativos à área académica: acesso e ingresso no ensino superior, avaliação de conhecimentos e aproveitamento, faltas, vigilância de provas, estatutos especiais, emolumentos, propinas, estágio, creditação, estudante internacional" ;
+	:exemploNA "Regulamentos relativos a concursos/prémios" ;
+	:descricao "Elaboração e formalização de atos regrantes do funcionamento de uma instituição.
+Inicia com a apresentação do projeto de regra, quando houver lugar ao mesmo, e termina com a sua publicitação ou comunicação direta aos visados.
+Inclui verificação jurídica e apreciação.
+
+
+
+
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.800_1
+:na_c100.10.800_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Documentos normativos, editados  pelo Organismo Nacional de Normalização".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.800_2
+:na_c100.10.800_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Documentos normativos, editados por Organismos Europeus ou Internacionais de Normalização".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.800_3
+:na_c100.10.800_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Documentos normativos elaborados por Organismos de Normalização Setorial".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.800_4
+:na_c100.10.800_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Documentos normativos elaborados por Organismos Gestores de Comissão Técnica e por Comissões Técnicas (Qualificados pelo IPQ)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.800_5
+:na_c100.10.800_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Normas técnicas de iniciativa institucional".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10.800_1
+:exna_c100.10.800_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Normas STANAG".
+
+###  http://jcr.di.uminho.pt/m51-clav#c100.10.800
+:c100.10.800 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "100.10.800";
+	:titulo "Produção e comunicação de normas técnicas";
+	:temPai :c100.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_IPQ ;
+	:temDono :org_AP ;
+	:temParticipanteAssessor :org_AP ;
+	:temParticipanteAssessor :org_ONS ;
+	:temParticipanteAssessor :org_OGCT ;
+	:temParticipanteAssessor :org_CT ;
+	:temNotaAplicacao :na_c100.10.800_1 ;
+	:temNotaAplicacao :na_c100.10.800_2 ;
+	:temNotaAplicacao :na_c100.10.800_3 ;
+	:temNotaAplicacao :na_c100.10.800_4 ;
+	:temNotaAplicacao :na_c100.10.800_5 ;
+	:temLegislacao :leg_935 ;
+	:classeStatus "A" ;
+	:exemploNA "Normas STANAG" ;
+	:descricao "Elaboração (formalização e estabelecimento de  prescrições) de  disposições destinadas à utilização comum e repetida, visando a obtenção de normas técnicas, ações e procedimentos normalizados num dado contexto, podendo revestir a forma de norma padrão (standard), isto é norma técnica que foi adotada \"de facto\", sem necessariamente ter havido uma ratificação formal, ou de norma produzida por um órgão oficialmente acreditado para tal (norma \"de jure\").
+Inicia com a identificação da necessidade (da norma técnica) do documento normativo e termina com o envio para publicação e publicitação.
+Inclui  elaboração de pareceres  técnicos especializados na área, redação dos documentos, traduções técnicas e elaboração de projetos de documentos normativos, com consulta nacional e europeia incluindo  consulta às entidades reguladoras, análise dos contributos recebidos, elaboração/redação final do  documento normativo.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.20_1
+:na_c100.20_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Os pareceres, obrigatórios ou facultativos, que fundamentem a evolução de um qualquer caso/processo devem ser considerados no processo a que respeitam (por exemplo, processos de elaboração de diplomas legais, processos de auditoria, processos judiciais)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c100.20
+:c100.20 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "100.20";
+	:titulo "Interpretação da legislação e das normas";
+	:temPai :c100 ;
+	:temNotaAplicacao :na_c100.20_1 ;
+	:classeStatus "A" ;
+	:descricao "Compreende os processos de assessoria/consulta jurídico-normativa e técnico-normativa, solicitada ou prestada por serviços próprios ou externos à Administração, quando não integrados em processos específicos de que sejam parte indissociável.
+Compreende, igualmente, os acórdãos de uniformização de jurisprudência emitidos pelos tribunais.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.20.001_1
+:na_c100.20.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Produção de pareceres emitidos pelas entidades reguladoras para esclarecimento do sentido da lei".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.20.001_2
+:na_c100.20.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emissão de informações vinculativas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.20.001_1
+:ne_c100.20.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pareceres elaborados no âmbito de processos específicos relativos ao apoio à decisão individual e concreta devem ser considerados nos respetivos processos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c100.20.001
+:c100.20.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "100.20.001";
+	:titulo "Produção de pareceres técnico-jurídicos de interpretação de diplomas jurídico-normativos";
+	:temPai :c100.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteIniciador :org_AP ;
+	:temNotaAplicacao :na_c100.20.001_1 ;
+	:temNotaAplicacao :na_c100.20.001_2 ;
+	:temNotaExclusao :ne_c100.20.001_1 ;
+	:temLegislacao :leg_2 ;
+	:temLegislacao :leg_203 ;
+	:temLegislacao :leg_802 ;
+	:classeStatus "A" ;
+	:descricao "Elaboração de parecer de interpretação de diplomas jurídico-normativos de forma abstrata e geral, podendo ser válida para a decisão de casos concretos.
+Inicia com o pedido e termina com a entrega do parecer técnico-jurídico.
+Inclui trabalhos de consulta de elementos e fundamentação do parecer.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.20.200_1
+:na_c100.20.200_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Circulares interpretativas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.20.200_2
+:na_c100.20.200_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Instruções administrativas emanadas das entidades competentes".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.20.200_1
+:exna_c100.20.200_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Pauta de serviço (Pauta Aduaneira)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.20.200_1
+:ne_c100.20.200_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Devem ser excluídos pareceres efetuados pelos serviços ou solicitados a entidades externas sobre a aplicação genérica da norma jurídica e pedidos de interpretação de casos concretos, os quais devem ser considerados no âmbito dos processos específicos a que dizem respeito".
+
+###  http://jcr.di.uminho.pt/m51-clav#c100.20.200
+:c100.20.200 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "100.20.200";
+	:titulo "Produção e comunicação de instruções para aplicação de diplomas jurídico-normativos";
+	:temPai :c100.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteAssessor :org_AP ;
+	:temNotaAplicacao :na_c100.20.200_1 ;
+	:temNotaAplicacao :na_c100.20.200_2 ;
+	:temNotaExclusao :ne_c100.20.200_1 ;
+	:classeStatus "A" ;
+	:exemploNA "Pauta de serviço (Pauta Aduaneira)" ;
+	:descricao "Elaboração e divulgação de instruções gerais, emitidas por entidades de coordenação setorial acerca do sentido como devem ser entendidas determinadas normas ou princípios jurídicos, que a essas entidades cabe interpretar ou integrar.
+Inicia com a identificação da necessidade de emissão de instruções para aplicação de normas e termina com a comunicação aos órgãos e agentes responsáveis pela aplicação das instruções.
+Inclui, quando devido, elaboração de diversos esquemas sintetizadores para mais fácil apreensão das regras instituídas e elaboração de orientações práticas para a aplicação da regra.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.20.400_1
+:na_c100.20.400_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Produção de pareceres técnicos de interpretação da norma".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.20.400_2
+:na_c100.20.400_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Prestação de informações sobre instrumentos de regulamentação coletiva de trabalho aplicáveis aos diversos setores e entidades empregadoras".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.20.400_1
+:exna_c100.20.400_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Produção de FAQ’s (Frequently Asked Questions)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c100.20.400
+:c100.20.400 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "100.20.400";
+	:titulo "Produção de orientações e pareceres para a interpretação da norma técnica";
+	:temPai :c100.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteAssessor :org_AP ;
+	:temNotaAplicacao :na_c100.20.400_1 ;
+	:temNotaAplicacao :na_c100.20.400_2 ;
+	:temLegislacao :leg_759 ;
+	:classeStatus "A" ;
+	:exemploNA "Produção de FAQ’s (Frequently Asked Questions)" ;
+	:descricao "Elaboração e comunicação de orientações para a explicitação dos conteúdos das normas técnicas.
+Inicia com a necessidade ou vontade de emitir uma interpretação da norma e termina com a entrega da orientação.
+Inclui consulta de elementos e fundamentação do proposto.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.20.600_1
+:na_c100.20.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acórdãos de uniformização de jurisprudência".
+
+###  http://jcr.di.uminho.pt/m51-clav#c100.20.600
+:c100.20.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "100.20.600";
+	:titulo "Produção e comunicação de decisões de uniformização de jurisprudência";
+	:temPai :c100.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_STA ;
+	:temDono :org_STJ ;
+	:temParticipanteApreciador :org_Trb ;
+	:temParticipanteIniciador :org_AP ;
+	:temNotaAplicacao :na_c100.20.600_1 ;
+	:temLegislacao :leg_67 ;
+	:temLegislacao :leg_1050 ;
+	:classeStatus "A" ;
+	:descricao "Produção e comunicação de orientação jurisprudencial uniformizada, sem força vinculativa. 
+Inicia com o pedido para decisão quando relativamente à mesma questão de direito sejam proferidas soluções opostas e termina com a publicação da decisão.
+Inclui conferência para admissibilidade do pedido, alegações, julgamento e proferição do acórdão.".
 
 ### Classes100 termina aqui.
 

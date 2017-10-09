@@ -32,7 +32,6 @@ exports.migraNA = function(jsonObj, classCode, fout)
                         fs.appendFile(fout, naTriples , function(err){
                             if(err)
                                 console.error(err);
-                            console.log(naCode);
                         });
                     }
         
@@ -67,7 +66,6 @@ exports.migraExNA = function(jsonObj, classCode, fout)
                         fs.appendFile(fout, exNATriples , function(err){
                             if(err)
                                 console.error(err);
-                            console.log(exnaCode);
                         });
                     }
         
@@ -103,7 +101,6 @@ exports.migraNE = function(jsonObj, classCode, fout)
                         fs.appendFile(fout, neTriples , function(err){
                             if(err)
                                 console.error(err);
-                            console.log(neCode);
                         });
                     }
         

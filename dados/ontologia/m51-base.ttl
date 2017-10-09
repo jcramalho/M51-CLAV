@@ -146,6 +146,10 @@
           owl:inverseOf :temPai .
 
 
+###  http://jcr.di.uminho.pt/m51-clav#temLegislacao
+:temLegislacao rdf:type owl:ObjectProperty .
+
+
 ###  http://jcr.di.uminho.pt/m51-clav#temNotaAplicacao
 :temNotaAplicacao rdf:type owl:ObjectProperty ;
                   rdfs:domain [ rdf:type owl:Class ;

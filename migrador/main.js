@@ -1,40 +1,36 @@
 const csv = require('csvtojson')
 const fs = require('fs')
 const async = require('async');
-// Migradores modulares
-var org = require("./mod-org.js")
-var ti = require("./mod-ti.js")
-var leg = require("./mod-leg.js")
-var classe = require("./mod-classe.js")
 
-var myOrgs = []
+// Migradores modulares
+var org = require("./mod-org2.js")
+var ti = require("./mod-ti.js")
+var leg = require("./mod-leg2.js")
+var classe = require("./mod-classe.js")
 
 // ------------------ Controlador principal ----------------------------------
 
 async.series([
-    function(callback) {
-        myOrgs = org.migraOrg(callback)  //Organizações
-    },
-
-    function(callback) {
-       ti.migraTI(callback)                 //Termos de Índice
-    },
-
-    function(callback) {
-        leg.migraLeg(callback)              //Legislação
-    },
-
     function(callback){
-        classe.migraClasse(callback, myOrgs, '100')                                    //Classes
-    },
+        ti.migraTI(callback)
+    }
+    ,
     function(callback){
-        classe.migraClasse(callback, myOrgs, '150')                                    //Classes
+        org.migraOrg(callback)
+    }
+    ,
+    function(callback){
+        leg.migraLeg(callback)
     }
 ],
-// optional callback
-function(err, results) {
-    // results is now equal to ['one', 'two']
-});
+    function(err, results){
+        console.dir(results[1])
+        console.log("#########################################")
+        console.dir(results[2])
+    }
+    
+)
+
 
 // ------------------ Fim do Controlador principal ----------------------------------
 

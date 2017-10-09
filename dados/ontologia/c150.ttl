@@ -1,4 +1,2358 @@
 ### Classe150
+###  http://jcr.di.uminho.pt/m51-clav#na_c150_1
+:na_c150_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Todos os processos de planeamento, incluindo os que incidem sobre a gestão de recursos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150_2
+:na_c150_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Os planos, programas e orientações de política são frequentemente fixados, na sua versão final, em diplomas jurídico-normativos (o próprio orçamento do Estado, aprovado pelo Governo, é presente à Assembleia da República como projeto de Lei). Quando se verifique este tipo de situação, devem ser aqui considerados apenas os trabalhos técnicos preparatórios do plano, programa ou política em causa".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150_1
+:ne_c150_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A apresentação, à entidade competente, de qualquer iniciativa jurídico-normativa, bem como os subsequentes procedimentos inerentes à produção da norma, até à respetiva publicação oficial, devem ser considerados em \"Ordenamento jurídico e normativo/ Elaboração de diplomas jurídico-normativos e de normas técnicas\" (100.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150
+:c150 rdf:type owl:NamedIndividual ,
+	:Classe_N1;
+	:codigo "150";
+	:titulo "PLANEAMENTO E GESTÃO ESTRATÉGICA";
+	:pertenceLC :lc1 ;
+	:temNotaAplicacao :na_c150_1 ;
+	:temNotaAplicacao :na_c150_2 ;
+	:temNotaExclusao :ne_c150_1 ;
+	:classeStatus "A" ;
+	:descricao "Relativo à definição e monitorização/avaliação de políticas, planos e programas, tanto de âmbito nacional, regional ou local, como de âmbito organizacional, no que se inclui a elaboração de estudos e relatórios de apoio à decisão política e de avaliação dos instrumentos de planeamento estratégico.
+Inclui a produção de informações estratégicas e de segurança e a produção de informação estatística.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10_1
+:na_c150.10_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração de instrumentos de definição de políticas organizacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10_2
+:na_c150.10_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Relatórios de execução de programas operacionais, de planos e de medidas concretas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10_3
+:na_c150.10_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração de instrumentos de ordenamento territorial".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10_4
+:na_c150.10_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Estudos ou relatórios de observação/monitorização de políticas públicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10_5
+:na_c150.10_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias para reformas da Administração".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10_6
+:na_c150.10_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Processos de reuniões de conselhos diretivos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10_7
+:na_c150.10_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Processos de reuniões de conselhos administrativos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10_8
+:na_c150.10_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Processos de reuniões de órgãos autárquicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10_9
+:na_c150.10_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Processos de reuniões de órgãos de gestão e administração".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10_10
+:na_c150.10_10 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Processos de reuniões de Conselhos setoriais".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_1
+:exna_c150.10_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Estratégia Nacional para o Desenvolvimento Sustentável".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_2
+:exna_c150.10_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Grandes Opções do Plano".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_3
+:exna_c150.10_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Quadro de Referência Estratégico Nacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_4
+:exna_c150.10_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Plano Tecnológico".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_5
+:exna_c150.10_5 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Plano Nacional de Saúde".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_6
+:exna_c150.10_6 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Programa Nacional de Vacinação".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_7
+:exna_c150.10_7 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Plano Nacional Rodoviário".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_8
+:exna_c150.10_8 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Plano Regional de Ordenamento do Território".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_9
+:exna_c150.10_9 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Plano Diretor Municipal".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_10
+:exna_c150.10_10 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Plano de Pormenor".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_11
+:exna_c150.10_11 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "PRACE".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_12
+:exna_c150.10_12 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "PREMAC".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_13
+:exna_c150.10_13 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Reuniões do Conselho de Ministros".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_14
+:exna_c150.10_14 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Reuniões de secretários de Estado".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_15
+:exna_c150.10_15 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Reuniões de assembleias municipais".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_16
+:exna_c150.10_16 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Conselho Nacional de Educação".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_17
+:exna_c150.10_17 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Conselho Municipal de Educação".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_18
+:exna_c150.10_18 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Comissão de Toponímia".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_19
+:exna_c150.10_19 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Processos de negociação e celebração de acordos de concertação social".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10_20
+:exna_c150.10_20 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Celebração, acompanhamento e avaliação de acordos e protocolos de cooperação interinstitucional (excluídas as relações internacionais)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10_1
+:ne_c150.10_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os instrumentos de política que resultam de entendimentos supranacionais (por exemplo, com incidência nos países da União Europeia, ou com incidência em Portugal e outro país) devem ser considerados em \"Execução da política externa/ Definição de políticas conjuntas e dos instrumentos de regulação\" (200.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10_3
+:ne_c150.10_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A execução de projetos de cooperação interinstitucional deve ser considerada no âmbito da função que cumpre (por exemplo, projetos de investigação científica devem ser considerados em \"Prestação de Serviços técnicos e científicos, investigação e desenvolvimento\" (800), projetos de formação em \"Prestação de serviços de ensino e formação\" (750), projetos de cooperação para o desenvolvimento em \"Execução da política externa\" (200))".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10_2
+:ne_c150.10_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A negociação e celebração de acordos de cooperação interinstitucional estabelecidos no quadro das relações internacionais devem ser considerados em \"Execução da política externa/ Definição de políticas conjuntas e dos instrumentos de regulação\" (200.10), ainda que celebrados entre organizações congéneres".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.10
+:c150.10 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "150.10";
+	:titulo "Definição e avaliação de políticas";
+	:temPai :c150 ;
+	:temNotaAplicacao :na_c150.10_1 ;
+	:temNotaAplicacao :na_c150.10_2 ;
+	:temNotaAplicacao :na_c150.10_3 ;
+	:temNotaAplicacao :na_c150.10_4 ;
+	:temNotaAplicacao :na_c150.10_5 ;
+	:temNotaAplicacao :na_c150.10_6 ;
+	:temNotaAplicacao :na_c150.10_7 ;
+	:temNotaAplicacao :na_c150.10_8 ;
+	:temNotaAplicacao :na_c150.10_9 ;
+	:temNotaAplicacao :na_c150.10_10 ;
+	:temNotaExclusao :ne_c150.10_1 ;
+	:temNotaExclusao :ne_c150.10_2 ;
+	:temNotaExclusao :ne_c150.10_3 ;
+	:classeStatus "A" ;
+	:exemploNA "Estratégia Nacional para o Desenvolvimento Sustentável" ;
+	:exemploNA "Grandes Opções do Plano" ;
+	:exemploNA "Quadro de Referência Estratégico Nacional" ;
+	:exemploNA "Plano Tecnológico" ;
+	:exemploNA "Plano Nacional de Saúde" ;
+	:exemploNA "Programa Nacional de Vacinação" ;
+	:exemploNA "Plano Nacional Rodoviário" ;
+	:exemploNA "Plano Regional de Ordenamento do Território" ;
+	:exemploNA "Plano Diretor Municipal" ;
+	:exemploNA "Plano de Pormenor" ;
+	:exemploNA "PRACE" ;
+	:exemploNA "PREMAC" ;
+	:exemploNA "Reuniões do Conselho de Ministros" ;
+	:exemploNA "Reuniões de secretários de Estado" ;
+	:exemploNA "Reuniões de assembleias municipais" ;
+	:exemploNA "Conselho Nacional de Educação" ;
+	:exemploNA "Conselho Municipal de Educação" ;
+	:exemploNA "Comissão de Toponímia" ;
+	:exemploNA "Processos de negociação e celebração de acordos de concertação social" ;
+	:exemploNA "Celebração, acompanhamento e avaliação de acordos e protocolos de cooperação interinstitucional (excluídas as relações internacionais)" ;
+	:descricao "Compreende a elaboração, monitorização e revisão dos planos ou programas que definem as políticas públicas globais e setoriais, da competência do Governo ou dos organismos, no que se incluem os trabalhos técnicos de Comissões ou outras estruturas envolvidas na elaboração destes instrumentos.
+Inclui os processos de diálogo social normalmente protagonizados pelas confederações patronais, confederações sindicais e Governo, conducentes à celebração de acordos no quadro da concertação social.
+Inclui, igualmente, os processos de reuniões de órgãos de Direção, de gestão, de administração e de aconselhamento.
+Inclui, ainda, a celebração e acompanhamento de acordos de cooperação interinstitucional não subordinados à execução da política externa.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.001_1
+:na_c150.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição da estratégia de topo para o desenvolvimento de vários domínios, vertida num único documento".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.001_1
+:ne_c150.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A aprovação, promulgação e publicação das Grandes Opções do Plano do Estado (GOP's) devem ser consideradas em 100.10.001 – Produção e comunicação de atos legislativos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.001_2
+:ne_c150.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A aquisição de planos estratégicos municipais a entidades privadas deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.001
+:c150.10.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.10.001";
+	:titulo "Definição de políticas globais";
+	:temPai :c150.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_CM ;
+	:temDono :org_RA ;
+	:temDono :org_AL ;
+	:temParticipanteAssessor :org_AP ;
+	:temNotaAplicacao :na_c150.10.001_1 ;
+	:temNotaExclusao :ne_c150.10.001_1 ;
+	:temNotaExclusao :ne_c150.10.001_2 ;
+	:temLegislacao :leg_1059 ;
+	:temLegislacao :leg_1058 ;
+	:temLegislacao :leg_340 ;
+	:temLegislacao :leg_220 ;
+	:temLegislacao :leg_111 ;
+	:temLegislacao :leg_110 ;
+	:classeStatus "A" ;
+	:descricao "Elaboração das linhas de desenvolvimento estratégico de âmbito nacional, regional e local, com os projetos e ações a realizar a médio e longo prazo e respetiva previsão da despesa e das atividades mais relevantes da gestão.
+Inicia com a elaboração da proposta e termina com o envio da versão aprovada para publicitação.
+Inclui propostas de alteração apresentadas pelo órgão executivo, revisões,  remissão de cópia às entidades competentes e submissão da versão final à entidade competente para decisão.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_1
+:na_c150.10.100_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo para o domínio da agricultura".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_2
+:na_c150.10.100_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo para o domínio do comércio".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_3
+:na_c150.10.100_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo para o domínio das comunicações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_4
+:na_c150.10.100_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo para o domínio do desporto".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_5
+:na_c150.10.100_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo para o domínio da educação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_6
+:na_c150.10.100_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo para o domínio da energia e recursos geológicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_7
+:na_c150.10.100_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo para o domínio das florestas e ambiente".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_8
+:na_c150.10.100_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo para o domínio da habitação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_9
+:na_c150.10.100_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo para o domínio da indústria".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_10
+:na_c150.10.100_10 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo para o domínio da saúde".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_11
+:na_c150.10.100_11 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo para o domínio dos transportes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_12
+:na_c150.10.100_12 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo para o domínio do turismo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_13
+:na_c150.10.100_13 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo para o ordenamento do território".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_14
+:na_c150.10.100_14 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo no domínio das pescas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_15
+:na_c150.10.100_15 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo no domínio da defesa e segurança do território".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_16
+:na_c150.10.100_16 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo no domínio da cultura e património".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.100_17
+:na_c150.10.100_17 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de estratégias de topo no domínio da economia e finanças".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.100_1
+:ne_c150.10.100_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A elaboração de instrumentos de operacionalização deve ser considerada, respetivamente em 150.10.200 – Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito nacional, 150.10.300 – Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito regional e 150.10.400 – Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito municipal e intermunicipal".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.100
+:c150.10.100 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.10.100";
+	:titulo "Definição de políticas setoriais
+";
+	:temPai :c150.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteAssessor :org_AP ;
+	:temNotaAplicacao :na_c150.10.100_1 ;
+	:temNotaAplicacao :na_c150.10.100_2 ;
+	:temNotaAplicacao :na_c150.10.100_3 ;
+	:temNotaAplicacao :na_c150.10.100_4 ;
+	:temNotaAplicacao :na_c150.10.100_5 ;
+	:temNotaAplicacao :na_c150.10.100_6 ;
+	:temNotaAplicacao :na_c150.10.100_7 ;
+	:temNotaAplicacao :na_c150.10.100_8 ;
+	:temNotaAplicacao :na_c150.10.100_9 ;
+	:temNotaAplicacao :na_c150.10.100_10 ;
+	:temNotaAplicacao :na_c150.10.100_11 ;
+	:temNotaAplicacao :na_c150.10.100_12 ;
+	:temNotaAplicacao :na_c150.10.100_13 ;
+	:temNotaAplicacao :na_c150.10.100_14 ;
+	:temNotaAplicacao :na_c150.10.100_15 ;
+	:temNotaAplicacao :na_c150.10.100_16 ;
+	:temNotaAplicacao :na_c150.10.100_17 ;
+	:temNotaExclusao :ne_c150.10.100_1 ;
+	:temLegislacao :leg_1059 ;
+	:temLegislacao :leg_1058 ;
+	:temLegislacao :leg_353 ;
+	:temLegislacao :leg_340 ;
+	:temLegislacao :leg_220 ;
+	:temLegislacao :leg_111 ;
+	:temLegislacao :leg_110 ;
+	:temLegislacao :leg_759 ;
+	:classeStatus "A" ;
+	:descricao "Definição de estratégias, princípios e programas de topo para o desenvolvimento de políticas específicas da administração nacional, regional e local, aplicados a todos os setores de atividade, independentemente da sua natureza jurídica, a realizar a médio e longo prazo.
+Inicia com a proposta de elaboração ou revisão e termina com o envio da versão aprovada para publicitação.
+Inclui diagnóstico da situação sobre o qual incide a política setorial definida, previsão das formas de operacionalização das políticas, consulta de entidades, discussão pública (quando devido) e redação da versão ou proposta final e submissão da versão final à entidade competente para a decisão.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.200_1
+:na_c150.10.200_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração, revisão e alteração de planos especiais e setoriais de ordenamento do território de âmbito nacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.200_2
+:na_c150.10.200_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração, revisão e alteração de planos operacionais relativos a qualquer setor de atividade de âmbito nacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.200_1
+:ne_c150.10.200_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A aprovação pelo órgão deliberativo, bem como a publicação dos instrumentos de planeamento que assumem a forma de regulamento geral, devem ser consideradas em 100.10.200 – Produção e comunicação de atos regulamentares gerais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.200
+:c150.10.200 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.10.200";
+	:titulo "Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito nacional";
+	:temPai :c150.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_CM ;
+	:temParticipanteApreciador :org_AP ;
+	:temNotaAplicacao :na_c150.10.200_1 ;
+	:temNotaAplicacao :na_c150.10.200_2 ;
+	:temNotaExclusao :ne_c150.10.200_1 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_485 ;
+	:temLegislacao :leg_508 ;
+	:temLegislacao :leg_329 ;
+	:temLegislacao :leg_238 ;
+	:classeStatus "A" ;
+	:descricao "Definição de planos ou outras ferramentas operacionais que regulam a organização do território e de todos os setores de atividade nele desenvolvido de forma direta ou indireta pelas entidades competentes a nível nacional.
+Inicia com a decisão da elaboração do instrumento e termina com a elaboração da versão final da proposta ou comunicação da aprovação pelo órgão competente.
+Inclui elaboração de versões do instrumento, concertação com entidades, discussão pública e divulgação do resultado da discussão pública.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.300_1
+:na_c150.10.300_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração, revisão e alteração de planos especiais e setoriais de ordenamento do território de âmbito regional".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.300_1
+:ne_c150.10.300_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A aprovação pelo órgão deliberativo, bem como a publicação dos instrumentos de planeamento que assumem a forma de regulamento geral devem ser consideradas em 100.10.200 – Produção e comunicação de atos regulamentares gerais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.300
+:c150.10.300 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.10.300";
+	:titulo "Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito regional";
+	:temPai :c150.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_CM ;
+	:temParticipanteApreciador :org_AP ;
+	:temNotaAplicacao :na_c150.10.300_1 ;
+	:temNotaExclusao :ne_c150.10.300_1 ;
+	:temLegislacao :leg_238 ;
+	:classeStatus "A" ;
+	:descricao "Definição de planos ou outras ferramentas operacionais que regulam a organização do território e de todos os setores de atividade nele desenvolvido de forma direta ou indireta pelas entidades competentes a nível regional.
+Inicia com a decisão da elaboração do instrumento e termina com a elaboração da versão final da proposta (no caso de instrumentos que originam regulamento) ou comunicação da aprovação pelo órgão competente.
+Inclui elaboração de versões do instrumento, concertação com entidades, discussão pública e divulgação do resultado da discussão pública.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.400_1
+:na_c150.10.400_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração, revisão e alteração de planos especiais e setoriais de ordenamento do território de âmbito municipal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.400_2
+:na_c150.10.400_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração, revisão e alteração de planos operacionais relativos a qualquer setor de atividade de âmbito municipal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.400_3
+:na_c150.10.400_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Mapas estratégicos de ruídos e planos de ação municipal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.400_4
+:na_c150.10.400_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração, revisão e alteração de planos operacionais relativos a qualquer setor de atividade de âmbito intermunicipal".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.400_1
+:ne_c150.10.400_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A aprovação pelo órgão deliberativo, bem como a publicação dos instrumentos de planeamento que assumem a forma de regulamento geral devem ser consideradas em 100.10.400 – Produção e comunicação de atos regulamentares locais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.400_2
+:ne_c150.10.400_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A suspensão do plano diretor municipal deverá ser considerada em 100.10.400 – Produção e comunicação de atos regulamentares locais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.400
+:c150.10.400 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.10.400";
+	:titulo "Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito municipal e intermunicipal";
+	:temPai :c150.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_AL ;
+	:temParticipanteApreciador :org_ACE ;
+	:temNotaAplicacao :na_c150.10.400_1 ;
+	:temNotaAplicacao :na_c150.10.400_2 ;
+	:temNotaAplicacao :na_c150.10.400_3 ;
+	:temNotaAplicacao :na_c150.10.400_4 ;
+	:temNotaExclusao :ne_c150.10.400_1 ;
+	:temNotaExclusao :ne_c150.10.400_2 ;
+	:temLegislacao :leg_1155 ;
+	:temLegislacao :leg_608 ;
+	:temLegislacao :leg_590 ;
+	:temLegislacao :leg_238 ;
+	:classeStatus "A" ;
+	:descricao "Definição de planos ou outras ferramentas operacionais que regulam a organização do território e de todos os setores de atividade nele desenvolvido de forma direta ou indireta pelas entidades competentes a nível municipal e intermunicipal.
+Inicia com a decisão da elaboração do instrumento e termina com a elaboração da versão final da proposta (no caso de instrumentos que originam regulamento) ou comunicação da aprovação pelo órgão competente.
+Inclui elaboração de versões do instrumento, concertação com entidades, discussão pública e divulgação do resultado da discussão pública.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.500_1
+:na_c150.10.500_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Protocolos de cooperação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.500_2
+:na_c150.10.500_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Protocolos de colaboração".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.500_3
+:na_c150.10.500_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " ".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10.500_1
+:exna_c150.10.500_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Protocolos de cooperação na área técnica e/ou científica".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10.500_2
+:exna_c150.10.500_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Protocolos de cooperação na área da Segurança Pública".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10.500_3
+:exna_c150.10.500_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Protocolos de cooperação com Organizações Não Governamentais de Ambiente (ONGA)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10.500_4
+:exna_c150.10.500_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo " Protocolos de cooperação com Associações Mutualistas no âmbito de situações de emergência radiológica e nuclear".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10.500_5
+:exna_c150.10.500_5 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo " Protocolos de colaboração para a criação e divulgação de conteúdos institucionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.10.500_6
+:exna_c150.10.500_6 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo " ".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.500_1
+:ne_c150.10.500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os acordos entre instituições internacionais devem ser considerados em 200.10.800 – Celebração de acordos e outros atos internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.500_2
+:ne_c150.10.500_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os acordos relativos à prestação de serviços, ainda que intitulados acordo de colaboração ou protocolo de colaboração, devem ser considerados em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.500_3
+:ne_c150.10.500_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O estabelecimento de convenções com operadores privados deve ser considerados em 300.10.008 – Estabelecimento de convenções com operadores privadosA cerimónia de assinatura formal do documento deve ser considerada em 900.20.601 – Organização de cerimónias de tomada de posse e assinatura de documentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.500
+:c150.10.500 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.10.500";
+	:titulo "Elaboração de instrumentos de cooperação interinstitucional";
+	:temPai :c150.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteAssessor :org_AP ;
+	:temNotaAplicacao :na_c150.10.500_1 ;
+	:temNotaAplicacao :na_c150.10.500_2 ;
+	:temNotaAplicacao :na_c150.10.500_3 ;
+	:temNotaExclusao :ne_c150.10.500_1 ;
+	:temNotaExclusao :ne_c150.10.500_2 ;
+	:temNotaExclusao :ne_c150.10.500_3 ;
+	:temLegislacao :leg_1059 ;
+	:temLegislacao :leg_340 ;
+	:temLegislacao :leg_266 ;
+	:classeStatus "A" ;
+	:exemploNA "Protocolos de cooperação na área técnica e/ou científica" ;
+	:exemploNA "Protocolos de cooperação na área da Segurança Pública" ;
+	:exemploNA "Protocolos de cooperação com Organizações Não Governamentais de Ambiente (ONGA)" ;
+	:exemploNA " Protocolos de cooperação com Associações Mutualistas no âmbito de situações de emergência radiológica e nuclear" ;
+	:exemploNA " Protocolos de colaboração para a criação e divulgação de conteúdos institucionais" ;
+	:descricao "Negociação e formalização de protocolos, acordos, convénios, parcerias e outros instrumentos de cooperação institucional com entidades nacionais.
+Inicia com a proposta de celebração e termina com a assinatura formal do acordo.
+Inclui proposta do texto, discussão, negociação e redação final.
+".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.501_1
+:ne_c150.10.501_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As reuniões do Conselho Permanente de Concertação Social devem ser consideradas em 150.10.702 – Reunião de órgãos e estruturas operacionais e de aconselhamento".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.501_2
+:ne_c150.10.501_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os acordos de negociação coletiva de trabalho devem ser considerados em 250.30.001 – Negociação de convenções coletivas de trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.501_3
+:ne_c150.10.501_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pareceres do Conselho Económico e Social (CES) devem ser classificados no âmbito dos respetivos processos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.501
+:c150.10.501 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.10.501";
+	:titulo "Negociação e celebração de acordos de concertação social";
+	:temPai :c150.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_CES ;
+	:temParticipanteApreciador :org_Gov ;
+	:temParticipanteApreciador :org_AL ;
+	:temNotaExclusao :ne_c150.10.501_1 ;
+	:temNotaExclusao :ne_c150.10.501_2 ;
+	:temNotaExclusao :ne_c150.10.501_3 ;
+	:temLegislacao :leg_114 ;
+	:temLegislacao :leg_111 ;
+	:classeStatus "A" ;
+	:descricao "Promoção do diálogo tripartido e concertação entre os parceiros sociais e o Governo com vista à celebração de pactos e compromissos.
+Inicia com a apresentação da proposta por parte do Governo e termina com a celebração do acordo ou compromisso.
+Inclui consulta de entidades, apresentação de contrapropostas dos parceiros sociais e negociação.
+".
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.600
+:c150.10.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.10.600";
+	:titulo "Avaliação de políticas e instrumentos de operacionalização";
+	:temPai :c150.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteAssessor :org_AP ;
+	:temLegislacao :leg_1059 ;
+	:temLegislacao :leg_340 ;
+	:temLegislacao :leg_266 ;
+	:temLegislacao :leg_1016 ;
+	:classeStatus "A" ;
+	:descricao "Apreciação, verificação e medição periódica do impacto e do grau de cumprimento de metas e dos objetivos previstos em políticas, programas e planos que norteiam e regulam a organização do território e de todos os setores de atividade nele desenvolvido de forma direta ou indireta pelas entidades competentes a nível nacional, regional e municipal.
+Inicia com a elaboração de relatório sobre o balanço da execução e dos níveis de articulação das políticas e dos instrumentos operacionais implementados e termina com a remissão à entidade competente para a apreciação dos resultados.
+Inclui recolha e tratamento de informação relevante, aprovação do relatório e discussão pública, quando devido.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.601_1
+:na_c150.10.601_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Sistema de Informação da Organização do Estado".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.601_2
+:na_c150.10.601_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Relatório anual referente à informação sobre a atividade social de entidades empresariais (Relatório Único)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.601_3
+:na_c150.10.601_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Caracterização de entidades (Anterior PN 150.20.402)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.601_1
+:ne_c150.10.601_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A caracterização de entidades no âmbito da prestação de bens e serviços deve ser considerada em 300.50.803 – Identificação de fornecedores e de prestadores de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.601_2
+:ne_c150.10.601_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A criação e atualização de contactos institucionais deve ser considerada em 900.20.600 – Criação e atualização de contactos institucionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.601
+:c150.10.601 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.10.601";
+	:titulo "Caracterização de entidades para apoio à definição de políticas
+
+
+";
+	:temPai :c150.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_DGAEP ;
+	:temParticipanteComunicador :org_AP ;
+	:temNotaAplicacao :na_c150.10.601_1 ;
+	:temNotaAplicacao :na_c150.10.601_2 ;
+	:temNotaAplicacao :na_c150.10.601_3 ;
+	:temNotaExclusao :ne_c150.10.601_1 ;
+	:temNotaExclusao :ne_c150.10.601_2 ;
+	:temLegislacao :leg_898 ;
+	:temLegislacao :leg_854 ;
+	:classeStatus "A" ;
+	:descricao "Identificação e atualização periódica de entidades públicas ou privadas com vista a habilitar os órgãos de governo próprios com a informação indispensável para a definição das políticas de Estado.
+Inicia com o carregamento e atualização de dados pelas entidades competentes e termina com a organização e tratamento de dados.
+Inclui a gestão da base de dados.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_1
+:na_c150.10.700_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões ordinárias, extraordinárias e descentralizadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_2
+:na_c150.10.700_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho de Ministros".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_3
+:na_c150.10.700_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões dos Secretários de Estado".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_4
+:na_c150.10.700_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de Assembleia Intermunicipal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_5
+:na_c150.10.700_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de Assembleia de Freguesia".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_6
+:na_c150.10.700_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de Assembleia Municipal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_7
+:na_c150.10.700_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho Metropolitano".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_8
+:na_c150.10.700_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho Diretivo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_9
+:na_c150.10.700_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho Fiscal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_10
+:na_c150.10.700_10 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões da Assembleia Geral".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_11
+:na_c150.10.700_11 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho Geral".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_12
+:na_c150.10.700_12 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho Pedagógico".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_13
+:na_c150.10.700_13 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho Disciplinar".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_14
+:na_c150.10.700_14 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho Superior".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.700_15
+:na_c150.10.700_15 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho Diretivo".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.700_1
+:ne_c150.10.700_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A comunicação das decisões deve ser considerada no âmbito dos respetivos processos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.700_2
+:ne_c150.10.700_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As reuniões de participação nos planos: Plano de Ordenamento de Estuário (POE), Plano de Ordenamento da Orla Costeira (POOC), Plano de Gestão de Região Hidrográfica (PGRH), Plano de Bacia Hidrográfica PBH), Plano de Ordenamento das Albufeiras e Águas Públicas (POAAP), Plano Diretor Municipal (PDM), entre outros, deverão ser considerados no respetivo processo dos planos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.700
+:c150.10.700 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.10.700";
+	:titulo "Reunião de órgãos deliberativos";
+	:temPai :c150.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c150.10.700_1 ;
+	:temNotaAplicacao :na_c150.10.700_2 ;
+	:temNotaAplicacao :na_c150.10.700_3 ;
+	:temNotaAplicacao :na_c150.10.700_4 ;
+	:temNotaAplicacao :na_c150.10.700_5 ;
+	:temNotaAplicacao :na_c150.10.700_6 ;
+	:temNotaAplicacao :na_c150.10.700_7 ;
+	:temNotaAplicacao :na_c150.10.700_8 ;
+	:temNotaAplicacao :na_c150.10.700_9 ;
+	:temNotaAplicacao :na_c150.10.700_10 ;
+	:temNotaAplicacao :na_c150.10.700_11 ;
+	:temNotaAplicacao :na_c150.10.700_12 ;
+	:temNotaAplicacao :na_c150.10.700_13 ;
+	:temNotaAplicacao :na_c150.10.700_14 ;
+	:temNotaAplicacao :na_c150.10.700_15 ;
+	:temNotaExclusao :ne_c150.10.700_1 ;
+	:temNotaExclusao :ne_c150.10.700_2 ;
+	:temLegislacao :leg_1059 ;
+	:temLegislacao :leg_1207 ;
+	:classeStatus "A" ;
+	:descricao "Apresentação, discussão e deliberação de todas as matérias e propostas submetidas aos órgãos com funções deliberativas.
+Inicia com a apresentação de propostas e termina com aprovação das decisões.
+Inclui convocatória, convite ou autorização para participar na reunião, definição da ordem de trabalhos, apresentação de pedidos de informação adicional, preparação de propostas de deliberação, produção de recomendações, apresentação de moções, controlo de presenças, gestão das intervenções, registo da discussão, das votações e das declarações de voto e elaboração da ata em minuta.
+".
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.700.01
+:c150.10.700.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "150.10.700.01";
+	:titulo "Reunião de órgãos deliberativos: preparação";
+	:classeStatus "A" ;
+	:descricao "Inicia com o agendamento da reunião e termina com o envio de convocatória.
+Inclui a definição de ordem de trabalhos e a apresentação de propostas para discussão.".
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.700.02
+:c150.10.700.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "150.10.700.02";
+	:titulo "Reunião de órgãos deliberativos: realização";
+	:classeStatus "A" ;
+	:descricao "Inicia com a redação da ata e termina com a sua aprovação.
+Inclui registo dos atos ocorridos em sessão.
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.701_1
+:na_c150.10.701_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de Câmara Municipal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.701_2
+:na_c150.10.701_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões da Comissão Executiva Metropolitana".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.701_3
+:na_c150.10.701_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de Conselho de Administração de Empresas Municipais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.701_4
+:na_c150.10.701_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de Conselho de Administração de Serviços Municipalizados".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.701_5
+:na_c150.10.701_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de Conselho Executivo de Comunidades Intermunicipais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.701_6
+:na_c150.10.701_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de Junta de Freguesia".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.701_7
+:na_c150.10.701_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões da Mesa Administrativa".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.701
+:c150.10.701 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.10.701";
+	:titulo "Reunião de órgãos executivos";
+	:temPai :c150.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c150.10.701_1 ;
+	:temNotaAplicacao :na_c150.10.701_2 ;
+	:temNotaAplicacao :na_c150.10.701_3 ;
+	:temNotaAplicacao :na_c150.10.701_4 ;
+	:temNotaAplicacao :na_c150.10.701_5 ;
+	:temNotaAplicacao :na_c150.10.701_6 ;
+	:temNotaAplicacao :na_c150.10.701_7 ;
+	:temLegislacao :leg_1059 ;
+	:temLegislacao :leg_1207 ;
+	:classeStatus "A" ;
+	:descricao "Apresentação, discussão e deliberação de todas as matérias e propostas submetidas aos órgãos com funções executivas.
+Inicia com a apresentação de propostas e termina com aprovação das decisões.
+Inclui convocatória, convite ou autorização para participar na reunião, definição da ordem de trabalhos, apresentação de pedidos de informação adicional, preparação de propostas de deliberação, produção de recomendações, apresentação de moções, controlo de presença, gestão das intervenções, registo da discussão, das votações e das declarações de voto e elaboração da ata em minuta.".
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.701.01
+:c150.10.701.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "150.10.701.01";
+	:titulo "Reunião de órgãos executivos: preparação";
+	:classeStatus "A" ;
+	:descricao "Inicia com o agendamento da reunião e termina com o envio de convocatória.
+Inclui apresentação de propostas para discussão, apresentação de moções, preparação de propostas de deliberação, produção de recomendações, e definição de ordem de trabalhos.".
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.701.02
+:c150.10.701.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "150.10.701.02";
+	:titulo "Reunião de órgãos executivos: realização";
+	:classeStatus "A" ;
+	:descricao "Inicia com a redação da ata e termina com a sua aprovação.
+Inclui registo dos atos ocorridos em sessão.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_1
+:na_c150.10.702_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de órgãos consultivos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_2
+:na_c150.10.702_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de grupos de trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_3
+:na_c150.10.702_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de órgãos consultivos de comunidades intermunicipais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_4
+:na_c150.10.702_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de órgãos consultivos de áreas Metropolitanas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_5
+:na_c150.10.702_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho de Região Hidrográfica (CRH)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_6
+:na_c150.10.702_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho consultivo parar a responsabilidade ambiental".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_7
+:na_c150.10.702_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões da Comissão Permanente de Acompanhamento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_8
+:na_c150.10.702_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões da Comissão de Ética".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_9
+:na_c150.10.702_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Reuniões do Conselho Consultivo da Justiça".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_10
+:na_c150.10.702_10 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho de Coordenação Técnica".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_11
+:na_c150.10.702_11 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho Médico-Legal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_12
+:na_c150.10.702_12 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho Superior de Polícia Judiciária".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_13
+:na_c150.10.702_13 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho Técnico".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_14
+:na_c150.10.702_14 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Reuniões dos Grupos de Trabalho e outras Comissões nomeadas pelo(s) membro(s) do Governo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_15
+:na_c150.10.702_15 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões do Conselho Institucional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_16
+:na_c150.10.702_16 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Reuniões do Conselho de Curadores".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.10.702_17
+:na_c150.10.702_17 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reuniões de aconselhamento nas áreas do emprego, da formação profissional, da certificação das entidades formadoras, das relações e condições de trabalho, e das relações profissionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10.702_1
+:ne_c150.10.702_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As reuniões de grupos de trabalho desenvolvidadas no âmbito do desenvolvimento produtos e serviços específicos, deverão ser considerados no respetivo processo".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.702
+:c150.10.702 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.10.702";
+	:titulo "Reunião de órgãos e estruturas operacionais e de aconselhamento";
+	:temPai :c150.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteAssessor :org_AP ;
+	:temNotaAplicacao :na_c150.10.702_1 ;
+	:temNotaAplicacao :na_c150.10.702_2 ;
+	:temNotaAplicacao :na_c150.10.702_3 ;
+	:temNotaAplicacao :na_c150.10.702_4 ;
+	:temNotaAplicacao :na_c150.10.702_5 ;
+	:temNotaAplicacao :na_c150.10.702_6 ;
+	:temNotaAplicacao :na_c150.10.702_7 ;
+	:temNotaAplicacao :na_c150.10.702_8 ;
+	:temNotaAplicacao :na_c150.10.702_9 ;
+	:temNotaAplicacao :na_c150.10.702_10 ;
+	:temNotaAplicacao :na_c150.10.702_11 ;
+	:temNotaAplicacao :na_c150.10.702_12 ;
+	:temNotaAplicacao :na_c150.10.702_13 ;
+	:temNotaAplicacao :na_c150.10.702_14 ;
+	:temNotaAplicacao :na_c150.10.702_15 ;
+	:temNotaAplicacao :na_c150.10.702_16 ;
+	:temNotaAplicacao :na_c150.10.702_17 ;
+	:temNotaExclusao :ne_c150.10.702_1 ;
+	:temLegislacao :leg_759 ;
+	:temLegislacao :leg_1264 ;
+	:temLegislacao :leg_1059 ;
+	:temLegislacao :leg_940 ;
+	:classeStatus "A" ;
+	:descricao "Apresentação, apreciação e deliberação de matérias em órgãos e entidades com funções operacionais, de coordenação e consultivas.
+Inicia com a proposta de reunião ou convocatória e termina com a apresentação de proposta, relatório, recomendação ou parecer.
+Inclui controlo de presença, gestão de intervenções, pedidos de documento de apoio, votação de propostas, análise e aprovação de relatório, o registo da decisão ou elaboração de ata.
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.702.01
+:c150.10.702.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "150.10.702.01";
+	:titulo "Reunião de órgãos e estruturas operacionais e de aconselhamento: preparação";
+	:classeStatus "A" ;
+	:descricao "Inicia com o agendamento da reunião e termina com o envio de convocatória.
+Inclui apresentação de propostas para discussão, apresentação de moções, preparação de propostas de deliberação, produção de recomendações e definição de ordem de trabalhos.".
+###  http://jcr.di.uminho.pt/m51-clav#c150.10.702.02
+:c150.10.702.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "150.10.702.02";
+	:titulo "Reunião de órgãos e estruturas operacionais e de aconselhamento: realização";
+	:classeStatus "A" ;
+	:descricao "Inicia com o controlo de presenças e termina com a redação definitiva da ata.
+Inclui gestão de intervenções, registo da discussão, registo das votações e das declarações de voto e elaboração da ata em minuta.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20_1
+:na_c150.20_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Projetos de análise e reengenharia de processos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20_2
+:na_c150.20_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Trabalhos preparatórios para a (re)definição de formas de organização dos serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20_3
+:na_c150.20_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Processos de autoavaliação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20_4
+:na_c150.20_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Trabalhos preparatórios de certificação na qualidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20_5
+:na_c150.20_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Projetos de simplificação e modernização administrativa".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20_6
+:na_c150.20_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Definição e avaliação de objetivos organizacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20_7
+:na_c150.20_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Preparação de planos de atividades e respetivos relatórios de avaliação de cumprimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20_8
+:na_c150.20_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Preparação dos orçamentos de receita e despesa pública".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20_9
+:na_c150.20_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Procedimentos de alterações orçamentais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20_10
+:na_c150.20_10 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Procedimentos de cativação/descativação e reafectação de verbas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20_11
+:na_c150.20_11 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento político e administrativo da realização dos planos de atividades e da execução orçamental".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.20_1
+:exna_c150.20_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "CAF".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.20_2
+:exna_c150.20_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "SIMPLEX".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.20_3
+:exna_c150.20_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "QUAR".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.20_4
+:exna_c150.20_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "SIADAP 1".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.20_5
+:exna_c150.20_5 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Elaboração da conta de gerência".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.20_6
+:exna_c150.20_6 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Elaboração do balanço social".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.20_7
+:exna_c150.20_7 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Elaboração de escalas de serviço".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.20_8
+:exna_c150.20_8 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Diagnóstico de necessidades de formação".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.20_9
+:exna_c150.20_9 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Planeamento estratégico de sistemas de informação".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.20_10
+:exna_c150.20_10 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Planeamento operacional de articulação de respostas a uma situação de crise".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20_1
+:ne_c150.20_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Quando haja lugar à apresentação de candidaturas de projetos a programas de incentivo financeiro, utilizar a classe \"Execução de programas e de ações de incentivo/ Atribuição e controlo de financiamentos e de ajudas diretas\" (850.10), para o processo de relacionamento entre a entidade beneficiária e a entidade financiadora".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20_2
+:ne_c150.20_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pedidos de certificação na qualidade devem ser considerados em \"Reconhecimentos e permissões/ Licenciamentos, certificações e outras autorizações\" (450.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20_3
+:ne_c150.20_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A realização de estatísticas deve ser considerada em \"Planeamento e gestão estratégica/ Produção de informação estatística\" (150.40)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20
+:c150.20 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "150.20";
+	:titulo "Planeamento, avaliação e melhoria de serviços";
+	:temPai :c150 ;
+	:temNotaAplicacao :na_c150.20_1 ;
+	:temNotaAplicacao :na_c150.20_2 ;
+	:temNotaAplicacao :na_c150.20_3 ;
+	:temNotaAplicacao :na_c150.20_4 ;
+	:temNotaAplicacao :na_c150.20_5 ;
+	:temNotaAplicacao :na_c150.20_6 ;
+	:temNotaAplicacao :na_c150.20_7 ;
+	:temNotaAplicacao :na_c150.20_8 ;
+	:temNotaAplicacao :na_c150.20_9 ;
+	:temNotaAplicacao :na_c150.20_10 ;
+	:temNotaAplicacao :na_c150.20_11 ;
+	:temNotaExclusao :ne_c150.20_1 ;
+	:temNotaExclusao :ne_c150.20_2 ;
+	:temNotaExclusao :ne_c150.20_3 ;
+	:classeStatus "A" ;
+	:exemploNA "CAF" ;
+	:exemploNA "SIMPLEX" ;
+	:exemploNA "QUAR" ;
+	:exemploNA "SIADAP 1" ;
+	:exemploNA "Elaboração da conta de gerência" ;
+	:exemploNA "Elaboração do balanço social" ;
+	:exemploNA "Elaboração de escalas de serviço" ;
+	:exemploNA "Diagnóstico de necessidades de formação" ;
+	:exemploNA "Planeamento estratégico de sistemas de informação" ;
+	:exemploNA "Planeamento operacional de articulação de respostas a uma situação de crise" ;
+	:descricao "Compreende o planeamento e avaliação dos serviços, no que se inclui a análise e melhoria das estruturas e das formas de organização do trabalho, a definição e avaliação do cumprimento de objetivos organizacionais, a elaboração de planos e de relatórios de atividades, gerais e setoriais - abrangendo o diagnóstico de necessidades, o planeamento da afetação e o planeamento do desenvolvimento de recursos (humanos, materiais e financeiros).
+Compreende, igualmente, a definição e avaliação de planos operacionais transversais a vários organismos, de planos de emergência, ou de qualquer instrumento de planeamento e coordenação operacional.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_2
+:na_c150.20.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Elaboração de carta da qualidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_1
+:na_c150.20.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de formulários e respetivas regras de utilização".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_3
+:na_c150.20.001_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração de manuais de procedimentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_4
+:na_c150.20.001_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração de plano de emergência interna".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_5
+:na_c150.20.001_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração de plano de preservação digital".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_6
+:na_c150.20.001_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração de plano de prevenção de riscos de corrupção".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_7
+:na_c150.20.001_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planos específicos de utilização de recursos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.001_1
+:ne_c150.20.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A formalização de orientações em regras institucionais deve ser considerada em 100.10.600 – Produção e comunicação de regras institucionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.001_2
+:ne_c150.20.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A formalização de regras em norma técnica deve ser considerada em 100.10.800 – Produção e comunicação de normas técnicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.001_3
+:ne_c150.20.001_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As ações de sensibilização devem ser consideradas em 900.10.502 – Organização e participação em iniciativas de prevenção e sensibilização".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.001_4
+:ne_c150.20.001_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A divulgação de documentos deve ser considerada em 900.20.201 – Edição e publicação de conteúdos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.001
+:c150.20.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.001";
+	:titulo "Preparação de regras e orientações internas";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c150.20.001_1 ;
+	:temNotaAplicacao :na_c150.20.001_2 ;
+	:temNotaAplicacao :na_c150.20.001_3 ;
+	:temNotaAplicacao :na_c150.20.001_4 ;
+	:temNotaAplicacao :na_c150.20.001_5 ;
+	:temNotaAplicacao :na_c150.20.001_6 ;
+	:temNotaAplicacao :na_c150.20.001_7 ;
+	:temNotaExclusao :ne_c150.20.001_1 ;
+	:temNotaExclusao :ne_c150.20.001_2 ;
+	:temNotaExclusao :ne_c150.20.001_3 ;
+	:temNotaExclusao :ne_c150.20.001_4 ;
+	:temLegislacao :leg_1290 ;
+	:temLegislacao :leg_1207 ;
+	:temLegislacao :leg_1118 ;
+	:temLegislacao :leg_1192 ;
+	:temLegislacao :leg_1159 ;
+	:temLegislacao :leg_1027 ;
+	:temLegislacao :leg_1001 ;
+	:temLegislacao :leg_1002 ;
+	:temLegislacao :leg_901 ;
+	:temLegislacao :leg_895 ;
+	:temLegislacao :leg_773 ;
+	:temLegislacao :leg_742 ;
+	:temLegislacao :leg_748 ;
+	:temLegislacao :leg_816 ;
+	:temLegislacao :leg_727 ;
+	:temLegislacao :leg_674 ;
+	:temLegislacao :leg_692 ;
+	:temLegislacao :leg_612 ;
+	:temLegislacao :leg_539 ;
+	:temLegislacao :leg_587 ;
+	:temLegislacao :leg_571 ;
+	:temLegislacao :leg_497 ;
+	:temLegislacao :leg_475 ;
+	:temLegislacao :leg_454 ;
+	:temLegislacao :leg_398 ;
+	:temLegislacao :leg_411 ;
+	:temLegislacao :leg_410 ;
+	:temLegislacao :leg_323 ;
+	:temLegislacao :leg_315 ;
+	:temLegislacao :leg_78 ;
+	:classeStatus "A" ;
+	:descricao "Definição de formas de atuação com vista ao eficaz funcionamento dos serviços.
+Inicia com a determinação da necessidade de regra ou orientação e termina com a apresentação da versão final.
+Inclui recolha de contributos, consulta de especialistas e de entidades, redação de documento, revisão e elaboração da versão final.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.100_1
+:na_c150.20.100_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição ou redefinição da missão e visão da organização".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.100_2
+:na_c150.20.100_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de objectivos anuais e plurianuais organizacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.20.100_1
+:exna_c150.20.100_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Elaboração do Quadro de Avaliação e Responsabilização (QUAR)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.20.100_2
+:exna_c150.20.100_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Elaboração do plano estratégico da organização".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.100_1
+:ne_c150.20.100_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O Planeamento estratégico de atividades deve ser considerado em 150.20.101 – Planeamento estratégico de atividades".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.100_2
+:ne_c150.20.100_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A definição de objetivos individuais dos dirigentes e dos trabalhadores deve ser considerada em 250.20.800 – Avaliação individual do desempenho".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.100_3
+:ne_c150.20.100_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A divulgação de metas e objetivos organizacionais deve ser considerada em 900.20.201 – Edição e publicação de conteúdos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.100
+:c150.20.100 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.100";
+	:titulo "Definição de metas e objetivos organizacionais";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c150.20.100_1 ;
+	:temNotaAplicacao :na_c150.20.100_2 ;
+	:temNotaExclusao :ne_c150.20.100_1 ;
+	:temNotaExclusao :ne_c150.20.100_2 ;
+	:temNotaExclusao :ne_c150.20.100_3 ;
+	:temLegislacao :leg_1130 ;
+	:temLegislacao :leg_1131 ;
+	:temLegislacao :leg_711 ;
+	:temLegislacao :leg_592 ;
+	:temLegislacao :leg_227 ;
+	:classeStatus "A" ;
+	:exemploNA "Elaboração do Quadro de Avaliação e Responsabilização (QUAR)" ;
+	:exemploNA "Elaboração do plano estratégico da organização" ;
+	:descricao "Determinação dos objetivos estratégicos globais dos serviços tendo em conta as suas competências e os objetivos estratégicos definidos pelo órgão executivo.
+Inicia  com a solicitação de contributos e termina com a aprovação pelo órgão competente.
+Inclui definição e revisão de objetivos, definição de metas e indicadores de desempenho, envio para aprovação pelo órgão executivo.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.101_1
+:na_c150.20.101_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planeamento estratégico de atividades".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.101_2
+:na_c150.20.101_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planeamento estratégico de comunicação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.101_3
+:na_c150.20.101_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planeamento anual de auditorias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.101_4
+:na_c150.20.101_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planeamento anual de formação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.101_5
+:na_c150.20.101_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planeamento anual de incorporações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.101_6
+:na_c150.20.101_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planeamento anual da fiscalização".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.101_7
+:na_c150.20.101_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planeamento anual da monitorização".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.101_1
+:ne_c150.20.101_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A publicitação dos planos de atividades deve ser considerada em 900.20.201 – Edição e publicação de conteúdos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.101
+:c150.20.101 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.101";
+	:titulo "Planeamento estratégico de atividades";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c150.20.101_1 ;
+	:temNotaAplicacao :na_c150.20.101_2 ;
+	:temNotaAplicacao :na_c150.20.101_3 ;
+	:temNotaAplicacao :na_c150.20.101_4 ;
+	:temNotaAplicacao :na_c150.20.101_5 ;
+	:temNotaAplicacao :na_c150.20.101_6 ;
+	:temNotaAplicacao :na_c150.20.101_7 ;
+	:temNotaExclusao :ne_c150.20.101_1 ;
+	:temLegislacao :leg_1160 ;
+	:temLegislacao :leg_999 ;
+	:temLegislacao :leg_191 ;
+	:temLegislacao :leg_73 ;
+	:temLegislacao :leg_116 ;
+	:temLegislacao :leg_166 ;
+	:classeStatus "A" ;
+	:descricao "Definição, organização e programação de atividades, decorrente dos objetivos fixados em planeamento estratégico e tendo em conta as competências de cada unidade orgânica e os recursos envolvidos e necessários para a sua realização.
+Inicia com a solicitação de propostas de atividades e termina com o envio do plano para aprovação.
+Inclui definição da natureza, do âmbito, da extensão e do calendário da aplicação dos procedimentos necessários ao cumprimento dos objetivos, receção de contributos setoriais, revisão e redação de versão final.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.102_1
+:na_c150.20.102_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planeamento de sistemas de gestão de arquivos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.102_2
+:na_c150.20.102_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planeamento de sistemas de gestão da qualidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.102_3
+:na_c150.20.102_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planeamento de sistemas de informação e comunicação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.102_4
+:na_c150.20.102_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planeamento de sistemas de segurança, higiene e saúde no trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.102_5
+:na_c150.20.102_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planeamento de sistemas de gestão ambiental".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.102_1
+:ne_c150.20.102_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A aquisição de bens e serviços deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.102_2
+:ne_c150.20.102_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O desenvolvimento de aplicações tecnológicas deve ser considerado em 800.20.500 – Desenvolvimento experimental e aplicacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.102_3
+:ne_c150.20.102_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A divulgação de informação sobre a implementação do plano deve ser considerada em 900.20.201 – Edição e publicação de conteúdos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.102
+:c150.20.102 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.102";
+	:titulo "Planeamento de sistemas";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteAssessor :org_AP ;
+	:temNotaAplicacao :na_c150.20.102_1 ;
+	:temNotaAplicacao :na_c150.20.102_2 ;
+	:temNotaAplicacao :na_c150.20.102_3 ;
+	:temNotaAplicacao :na_c150.20.102_4 ;
+	:temNotaAplicacao :na_c150.20.102_5 ;
+	:temNotaExclusao :ne_c150.20.102_1 ;
+	:temNotaExclusao :ne_c150.20.102_2 ;
+	:temNotaExclusao :ne_c150.20.102_3 ;
+	:temLegislacao :leg_1028 ;
+	:temLegislacao :leg_692 ;
+	:temLegislacao :leg_654 ;
+	:temLegislacao :leg_673 ;
+	:temLegislacao :leg_479 ;
+	:temLegislacao :leg_254 ;
+	:temLegislacao :leg_231 ;
+	:temLegislacao :leg_1231 ;
+	:temLegislacao :leg_962 ;
+	:classeStatus "A" ;
+	:descricao "Definição de um conjunto ordenado de elementos que se encontram interligados e que interagem entre si no desempenho de uma função ou atividade.
+Inicia com a identificação da necessidade e termina com a aprovação do plano.
+Inclui identificação da missão do negócio, diagnóstico de situação, identificação da estratégia e dos objetivos do negócio, construção da arquitetura do sistema, identificação e planeamento de projetos e elaboração do orçamento de execução.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.103_1
+:na_c150.20.103_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Calendarização de  tarefas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.103_2
+:na_c150.20.103_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Planos de operacionalização de atividades concretas".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.20.103_1
+:exna_c150.20.103_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Elaboração de escalas de serviço".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.103_1
+:ne_c150.20.103_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A monitorização de atividades deve ser considerada em 150.20.303 –  Monitorização de atividades".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.103
+:c150.20.103 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.103";
+	:titulo "Planeamento operacional de atividades";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c150.20.103_1 ;
+	:temNotaAplicacao :na_c150.20.103_2 ;
+	:temNotaExclusao :ne_c150.20.103_1 ;
+	:classeStatus "A" ;
+	:exemploNA "Elaboração de escalas de serviço" ;
+	:descricao "Definição de tarefas necessárias ao desenvolvimento prático de atividades e afetação dos recursos necessários.
+Inicia com a identificação da necessidade e termina com a comunicação do plano.
+Inclui caracterização da tarefa a realizar, identificação dos recursos necessários e disponíveis, afetação de recursos, calendarização das tarefas e aprovação do plano, quando necessário.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.200_1
+:na_c150.20.200_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração do mapa de pessoal".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.200_1
+:ne_c150.20.200_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A publicitação dos instrumentos de planeamento de recursos humanos deve ser considerada em 900.20.201 – Edição e publicação de conteúdos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.200
+:c150.20.200 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.200";
+	:titulo "Planeamento de necessidades de recursos humanos";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteAssessor :org_DGO ;
+	:temNotaAplicacao :na_c150.20.200_1 ;
+	:temNotaExclusao :ne_c150.20.200_1 ;
+	:temLegislacao :leg_1158 ;
+	:temLegislacao :leg_1060 ;
+	:temLegislacao :leg_739 ;
+	:temLegislacao :leg_660 ;
+	:temLegislacao :leg_759 ;
+	:temLegislacao :leg_411 ;
+	:temLegislacao :leg_418 ;
+	:classeStatus "A" ;
+	:descricao "Elaboração de instrumento de gestão anual com a indicação do número de postos de trabalho de que o órgão ou serviço carece para o desenvolvimento de atividades.
+Inicia com o levantamento de necessidades e termina com a aprovação pelo órgão competente.
+Inclui análise de dados, recolha de pareceres, discussão e validação de propostas.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.201_1
+:na_c150.20.201_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planeamento dos requisitos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.201_2
+:na_c150.20.201_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Planeamento de necessidades de materiais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.201
+:c150.20.201 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.201";
+	:titulo "Planeamento de necessidades de recursos materiais";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c150.20.201_1 ;
+	:temNotaAplicacao :na_c150.20.201_2 ;
+	:classeStatus "A" ;
+	:descricao "Elaboração de instrumento de gestão com a indicação previsional dos bens materiais que o órgão ou serviço carece para o desenvolvimento de atividades.
+Inicia com o levantamento de necessidades e termina com a aprovação do plano.
+Inclui a análise dos recursos em depósito e validação de propostas.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.202_1
+:na_c150.20.202_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Revisão de orçamento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.202_2
+:na_c150.20.202_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Preparação do orçamento participativo".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.202_1
+:ne_c150.20.202_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A aprovação, promulgação e publicação do orçamento do Estado deverão ser consideradas em 100.10.001 – Produção e comunicação de atos legislativos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.202_2
+:ne_c150.20.202_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A execução orçamental deve ser considerada em Administração financeira/ Execução orçamental (350.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.202_3
+:ne_c150.20.202_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A alteração orçamental deve ser considerada em 350.10.001 – Alteração orçamental".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.202_4
+:ne_c150.20.202_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A publicitação do orçamento deve ser considerada em 900.20.201 – Edição e publicação de conteúdos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.202
+:c150.20.202 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.202";
+	:titulo "Preparação do orçamento";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteAssessor :org_DGO ;
+	:temParticipanteComunicador :org_PCM ;
+	:temNotaAplicacao :na_c150.20.202_1 ;
+	:temNotaAplicacao :na_c150.20.202_2 ;
+	:temNotaExclusao :ne_c150.20.202_1 ;
+	:temNotaExclusao :ne_c150.20.202_2 ;
+	:temNotaExclusao :ne_c150.20.202_3 ;
+	:temNotaExclusao :ne_c150.20.202_4 ;
+	:temLegislacao :leg_1058 ;
+	:temLegislacao :leg_325 ;
+	:temLegislacao :leg_220 ;
+	:classeStatus "A" ;
+	:descricao "Elaboração de instrumento anual de gestão financeira com a previsão das receitas e despesas, por rubrica orçamental ou unidade orgânica, para a prossecução de atividades.
+Inicia com o levantamento de necessidades e termina com a pronúncia sobre o orçamento pela tutela ou órgão competente.
+Inclui definição de regras e de procedimentos, proposta de orçamento inicial e negociação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.203_1
+:na_c150.20.203_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Criação de empresas públicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.203_2
+:na_c150.20.203_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Criação de empresas de capitais públicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.203_3
+:na_c150.20.203_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Criação de empresas de capitais maioritariamente públicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.203_4
+:na_c150.20.203_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Criação de empresas participadas por entidades públicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.203_5
+:na_c150.20.203_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Transformação, fusão ou cisão de empresas públicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.203_1
+:ne_c150.20.203_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A escritura de constituição da entidade deve ser considerada em 400.30.001 – Celebração de contratos, escrituras, títulos equivalentes e testamentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.203
+:c150.20.203 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.203";
+	:titulo "Acompanhamento de criação de entidades";
+	:temPai :c150.20 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_AL ;
+	:temDono :org_CM ;
+	:temNotaAplicacao :na_c150.20.203_1 ;
+	:temNotaAplicacao :na_c150.20.203_2 ;
+	:temNotaAplicacao :na_c150.20.203_3 ;
+	:temNotaAplicacao :na_c150.20.203_4 ;
+	:temNotaAplicacao :na_c150.20.203_5 ;
+	:temNotaExclusao :ne_c150.20.203_1 ;
+	:classeStatus "A" ;
+	:descricao "Acompanhamento da criação de instituições públicas e de empresas do setor público, bem como de outros organismos que tenham participação direta ou indireta do Estado.
+Inicia com a proposta de criação da entidade e termina com a preparação do ato de formalização.
+Inclui definição do objetivo e âmbito de atuação da entidade, elaboração dos estatutos, definição e atribuição de património, definição do capital social e tipos de participação, identificação dos órgãos sociais, definição da designação.
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.300_1
+:na_c150.20.300_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Avaliação intermédia".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.300_2
+:na_c150.20.300_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Avaliação final".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.300_1
+:ne_c150.20.300_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A publicitação do relatório de atividades deve ser considerada em 900.20.201 – Edição e publicação de conteúdos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.300_2
+:ne_c150.20.300_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A monitorização de atividades deve ser considerada em 150.20.303 – Monitorização de atividades".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.300
+:c150.20.300 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.300";
+	:titulo "Avaliação de atividades";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c150.20.300_1 ;
+	:temNotaAplicacao :na_c150.20.300_2 ;
+	:temNotaExclusao :ne_c150.20.300_1 ;
+	:temNotaExclusao :ne_c150.20.300_2 ;
+	:temLegislacao :leg_580 ;
+	:temLegislacao :leg_587 ;
+	:temLegislacao :leg_166 ;
+	:classeStatus "A" ;
+	:descricao "Análise e avaliação da execução global do plano de atividades.
+Inicia com pedido de relatório de atividades e termina com a aprovação pelo órgão competente.
+Inclui verificação, reporte dos níveis de concretização das atividades e produção de recomendações.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.301_1
+:na_c150.20.301_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Sistemas de avaliação de desempenho de unidades orgânicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c150.20.301_1
+:exna_c150.20.301_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "SIADAP 1".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.301_1
+:ne_c150.20.301_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A avaliação de desempenho dos dirigentes e dos trabalhadores deve ser considerada em 250.20.800 – Avaliação individual do desempenho".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.301
+:c150.20.301 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.301";
+	:titulo "Avaliação do desempenho das organizações";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c150.20.301_1 ;
+	:temNotaExclusao :ne_c150.20.301_1 ;
+	:temLegislacao :leg_1097 ;
+	:temLegislacao :leg_711 ;
+	:temLegislacao :leg_592 ;
+	:temLegislacao :leg_580 ;
+	:temLegislacao :leg_167 ;
+	:classeStatus "A" ;
+	:exemploNA "SIADAP 1" ;
+	:descricao "Apreciação, verificação e medição periódica do impacto e do grau de cumprimento de metas e dos objetivos definidos para cada serviço ou instituição.
+Inicia com a análise dos dados disponíveis e termina com a homologação da avaliação de desempenho.
+Inclui elaboração de relatórios intercalares e de relatório final de desempenho.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.302_1
+:na_c150.20.302_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Avaliação de sistemas no âmbito da gestão organizacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.302_1
+:ne_c150.20.302_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A realização de perícias a sistemas de informação e comunicação deve ser considerada em 800.10.603 – Realização de perícias".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.302_2
+:ne_c150.20.302_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A monitorização da conformidade, no âmbito do Sistema da Gestão da Qualidade, deve ser considerada em 500.10.600 – Monitorização sistemática da conformidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.302
+:c150.20.302 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.302";
+	:titulo "Avaliação de sistemas";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c150.20.302_1 ;
+	:temNotaExclusao :ne_c150.20.302_1 ;
+	:temNotaExclusao :ne_c150.20.302_2 ;
+	:temLegislacao :leg_1157 ;
+	:temLegislacao :leg_1148 ;
+	:temLegislacao :leg_1081 ;
+	:temLegislacao :leg_1047 ;
+	:temLegislacao :leg_976 ;
+	:temLegislacao :leg_964 ;
+	:temLegislacao :leg_715 ;
+	:temLegislacao :leg_667 ;
+	:temLegislacao :leg_658 ;
+	:temLegislacao :leg_580 ;
+	:temLegislacao :leg_565 ;
+	:temLegislacao :leg_571 ;
+	:temLegislacao :leg_475 ;
+	:temLegislacao :leg_470 ;
+	:temLegislacao :leg_449 ;
+	:temLegislacao :leg_420 ;
+	:temLegislacao :leg_415 ;
+	:temLegislacao :leg_231 ;
+	:temLegislacao :leg_442 ;
+	:temLegislacao :leg_211 ;
+	:classeStatus "A" ;
+	:descricao "Apreciação, verificação e medição periódica do impacto dos objetivos alcançados pelo sistema na prossecução das metas organizacionais.
+Inicia com a definição de métodos e técnicas de avaliação e termina com a produção de recomendações.
+Inclui a recolha, o tratamento e a análise de dados e identificação de problemas ou oportunidades ainda não detetadas.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.303_1
+:na_c150.20.303_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Monitorização no âmbito do controlo e avaliação de atividades".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.303_2
+:na_c150.20.303_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Controlo da atribuição dos incentivos financeiros por programa (Anterior PN 850.10.004)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.303_1
+:ne_c150.20.303_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A avaliação de atividades deve ser considerada em 150.20.300 3 – Avaliação de atividades".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.303_2
+:ne_c150.20.303_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O controlo da execução orçamental deve ser considerado em 150.20.4003 – Acompanhamento da execução orçamental".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.303_3
+:ne_c150.20.303_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O controlo da execução de projeto ou operação  financiadas deve ser considerado no PN 850.10.002 Formalização de candidaturas e acompanhamento de apoios regulares ou no PN 850.10.0033 – Formalização de candidaturas e acompanhamento de apoios pontuais, consoante o caso".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.303_4
+:ne_c150.20.303_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo " A monitorização da conformidade, no âmbito do Sistema da Gestão da Qualidade, deve ser considerada em 500.10.600 – Monitorização sistemática da conformidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.303
+:c150.20.303 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.303";
+	:titulo "Monitorização de atividades";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c150.20.303_1 ;
+	:temNotaAplicacao :na_c150.20.303_2 ;
+	:temNotaExclusao :ne_c150.20.303_1 ;
+	:temNotaExclusao :ne_c150.20.303_2 ;
+	:temNotaExclusao :ne_c150.20.303_3 ;
+	:temNotaExclusao :ne_c150.20.303_4 ;
+	:temLegislacao :leg_580 ;
+	:temLegislacao :leg_587 ;
+	:temLegislacao :leg_166 ;
+	:classeStatus "A" ;
+	:descricao "Controlo sistemático das ações e atividades. 
+Inicia com a sistematização dos dados e termina com o reporte.
+Inclui análise, conferência e processamento dos dados.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.400_1
+:ne_c150.20.400_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A execução orçamental deve ser considerada em Administração financeira / Execução orçamental (350.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.400_2
+:ne_c150.20.400_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A gestão da tesouraria deve ser considerada em Administração financeira / Gestão da tesouraria (350.30)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.400
+:c150.20.400 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.400";
+	:titulo "Acompanhamento da execução orçamental";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteComunicador :org_AP ;
+	:temNotaExclusao :ne_c150.20.400_1 ;
+	:temNotaExclusao :ne_c150.20.400_2 ;
+	:temLegislacao :leg_1058 ;
+	:temLegislacao :leg_325 ;
+	:temLegislacao :leg_220 ;
+	:classeStatus "A" ;
+	:descricao "Elaboração periódica de instrumentos de controlo e monitorização da execução orçamental para salientar os principais pontos evolutivos a nível dos montantes orçados e executados dos documentos de gestão corrente da entidade.
+Inicia com a recolha de elementos e termina com o tratamento dos dados inseridos.
+Inclui elaboração de relatório, conferência e validação de dados e gestão de base de dados.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.401_1
+:na_c150.20.401_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Liquidação de autarquias e associações municipais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.401_2
+:na_c150.20.401_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Liquidação de empresas públicas detidas pelo Estado ou por outras entidades públicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.401_3
+:na_c150.20.401_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Liquidação de entidades sem fins lucrativos, incluindo fundações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.401_4
+:na_c150.20.401_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Liquidação de sociedades comerciais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.401_5
+:na_c150.20.401_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Liquidação de sociedades comerciais em que o Estado ou outras entidades públicas detêm a participação no capital ou direito de voto".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.401_6
+:na_c150.20.401_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Liquidação de sociedades em que o Estado detém o direito de designar ou destituir a maioria dos membros dos órgãos de gestão".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.401_1
+:ne_c150.20.401_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O cálculo dos ativos e passivos na sequência da dissolução ou extinção de entidades deve ser considerado em 350.40.602 – Liquidação de entidades".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.401
+:c150.20.401 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.401";
+	:titulo "Acompanhamento de liquidação de entidades";
+	:temPai :c150.20 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_AL ;
+	:temDono :org_DGTF ;
+	:temNotaAplicacao :na_c150.20.401_1 ;
+	:temNotaAplicacao :na_c150.20.401_2 ;
+	:temNotaAplicacao :na_c150.20.401_3 ;
+	:temNotaAplicacao :na_c150.20.401_4 ;
+	:temNotaAplicacao :na_c150.20.401_5 ;
+	:temNotaAplicacao :na_c150.20.401_6 ;
+	:temNotaExclusao :ne_c150.20.401_1 ;
+	:temLegislacao :leg_1058 ;
+	:temLegislacao :leg_476 ;
+	:temLegislacao :leg_209 ;
+	:classeStatus "A" ;
+	:descricao "Acompanhamento, no âmbito da função acionista do Estado e do exercício da tutela financeira, da liquidação ou dissolução de sociedades em que o Estado participa direta ou indiretamente.
+Inicia com a comunicação da decisão da liquidação e termina com a comunicação da extinção definitiva da pessoa coletiva.
+Inclui troca de informação referente à definição dos liquidatários, à alienação de ativos, ao pagamento das dívidas da sociedade, à cobrança de créditos a apreciação e votação de prestação de contas anuais e de contas finais de liquidação e partilha e da celebração dos autos de entrega do património residual das entidades extintas.
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.403_1
+:na_c150.20.403_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração de balanço social".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.403_2
+:na_c150.20.403_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Submissão de dados no sistema de informação da organização do Estado".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.403
+:c150.20.403 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.403";
+	:titulo "Caracterização de recursos humanos";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteComunicador :org_DGAEP ;
+	:temParticipanteComunicador :org_AL ;
+	:temNotaAplicacao :na_c150.20.403_1 ;
+	:temNotaAplicacao :na_c150.20.403_2 ;
+	:temLegislacao :leg_898 ;
+	:temLegislacao :leg_167 ;
+	:classeStatus "A" ;
+	:descricao "Sistematização periódica de dados referentes à realidade social dos recursos humanos.
+Inicia com a recolha de dados e termina com a organização e tratamento de dados.
+Inclui compilação, carregamento, tratamento e remissão de dados aos órgãos competentes.
+Inclui, ainda, para a elaboração do balanço social, a recolha de pareceres de comissões de trabalhadores e de organizações sindicais.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.404_1
+:na_c150.20.404_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Análise da execução orçamental e patrimonial".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.404
+:c150.20.404 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.404";
+	:titulo "Prestação de contas";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteApreciador :org_TC ;
+	:temParticipanteComunicador :org_DGAL ;
+	:temParticipanteAssessor :org_DGO ;
+	:temNotaAplicacao :na_c150.20.404_1 ;
+	:temLegislacao :leg_1058 ;
+	:temLegislacao :leg_325 ;
+	:temLegislacao :leg_220 ;
+	:classeStatus "A" ;
+	:descricao "Demonstração da execução orçamental e patrimonial.
+Inicia com a recolha de dados contabilísticos e termina com envio às entidades para conhecimento.
+Inclui elaboração da proposta e submissão à aprovação pelo órgão competente.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.500_1
+:na_c150.20.500_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reengenharia de processos no âmbito da Gestão organizacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.500_2
+:na_c150.20.500_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Análise e melhoria de processos no âmbito do sistema de gestão de qualidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.500_1
+:ne_c150.20.500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A certificação da qualidade deve ser considerada em 450.10.648 – Reconhecimento das  características e origem de bens, produtos e serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.500
+:c150.20.500 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.500";
+	:titulo "Análise e melhoria de processos";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c150.20.500_1 ;
+	:temNotaAplicacao :na_c150.20.500_2 ;
+	:temNotaExclusao :ne_c150.20.500_1 ;
+	:temLegislacao :leg_564 ;
+	:temLegislacao :leg_498 ;
+	:temLegislacao :leg_525 ;
+	:temLegislacao :leg_468 ;
+	:temLegislacao :leg_429 ;
+	:classeStatus "A" ;
+	:descricao "Definição de procedimentos e processos administrativos com vista à implementação de boas práticas e melhoria da qualidade dos serviços.
+Inicia com o estudo do processo e termina com implementação de circuito estruturado, independentemente do suporte de informação.
+Inclui identificação de etapas do processo administrativo, estudo de regulamentos e de legislação relacionada, definição de requisitos e normalização de formulários.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.501_1
+:ne_c150.20.501_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A formalização da reestruturação orgânica e funcional deve ser considerada em 100.10.001 – Produção e comunicação de atos legislativos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.20.501
+:c150.20.501 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.20.501";
+	:titulo "Análise e melhoria de serviços";
+	:temPai :c150.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaExclusao :ne_c150.20.501_1 ;
+	:temLegislacao :leg_771 ;
+	:classeStatus "A" ;
+	:descricao "Definição e regulação da organização, estrutura e funcionamento dos serviços, princípios e níveis de direção e hierarquia que os articulam com o objetivo de assegurar o cumprimento de competências legalmente atribuídas.
+Inicia com a decisão ou determinação da necessidade da reestruturação orgânica e termina com a submissão da proposta ao órgão deliberativo.
+Inclui análise e avaliação da estrutura orgânica e funcional existente, recolha de contributos e elaboração da proposta de versão final.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.30_1
+:na_c150.30_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração e transmissão de relatórios de informações, no âmbito das finalidades do Sistema de Informações da República Portuguesa (SIRP)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.30_1
+:ne_c150.30_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A elaboração de estudos ou relatórios de monitorização das políticas públicas deve ser considerada em \"Planeamento e gestão estratégica/ Definição e avaliação de políticas\" (150.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.30
+:c150.30 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "150.30";
+	:titulo "Produção de informações estratégicas e de segurança";
+	:temPai :c150 ;
+	:temNotaAplicacao :na_c150.30_1 ;
+	:temNotaExclusao :ne_c150.30_1 ;
+	:classeStatus "A" ;
+	:descricao "Compreende as atividades específicamente orientadas à produção de informações estratégicas para salvaguarda da independência nacional e dos interesses nacionais e garantia da segurança interna e externa do Estado português (intelligence).".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.30.001_1
+:na_c150.30.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Tratamento e troca de informação estratégica com os serviços de informação congéneres nacionais e estrangeiros para a segurança interna".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.30.001_2
+:na_c150.30.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Produção e intercâmbio de informação estratégica sobre movimentos migratórios, terrorismo, sabotagem, espionagem, criminalidade grave e violenta, nacional e transnacional, económica, financeira, segurança radiológica e nuclear".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.30.001_1
+:ne_c150.30.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O processamento de informação criminal deverá ser considerada em 600.10.007 – Processamento de informação criminal".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.30.001
+:c150.30.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.30.001";
+	:titulo "Produção e intercâmbio de informação estratégica para segurança interna e defesa";
+	:temPai :c150.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_FS ;
+	:temDono :org_FA ;
+	:temDono :org_SIRP ;
+	:temDono :org_SEF ;
+	:temDono :org_APA ;
+	:temNotaAplicacao :na_c150.30.001_1 ;
+	:temNotaAplicacao :na_c150.30.001_2 ;
+	:temNotaExclusao :ne_c150.30.001_1 ;
+	:temLegislacao :leg_1289 ;
+	:temLegislacao :leg_379 ;
+	:temLegislacao :leg_1150 ;
+	:temLegislacao :leg_999 ;
+	:temLegislacao :leg_379 ;
+	:classeStatus "A" ;
+	:descricao "Elaboração, identificação, tratamento e intercâmbio de informação estratégica para combate ao terrorismo e agitações sociais e políticas.
+Inicia com a elaboração de estudo ou com a receção ou envio de informação das congéneres nacionais e estrangeiras e termina com análise da informação ou produção de orientações.
+Inclui recolha e tratamento da informação estratégica.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.40_1
+:na_c150.40_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Realização ou participação na realização de qualquer operação estatística, independentemente do respetivo âmbito estatísticas nacionais, internacionais, institucionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.40_1
+:ne_c150.40_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A divulgação de informação estatística deve ser considerada em \"Dinamização e comunicação institucional/ Execução de atividades de comunicação institucional\" (900.20)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.40
+:c150.40 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "150.40";
+	:titulo "Produção de informação estatística
+";
+	:temPai :c150 ;
+	:temNotaAplicacao :na_c150.40_1 ;
+	:temNotaExclusao :ne_c150.40_1 ;
+	:classeStatus "A" ;
+	:descricao "Compreende as atividades de planeamento da operação estatística (incluindo os respetivos estudos de viabilidade e estudos metodológicos), recolha de dados (por inquérito, entrevista ou outra forma), tratamento, análise e apresentação dos dados recolhidos em tabelas, gráficos ou relatórios.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.40.001_1
+:na_c150.40.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de instrumentos para a recolha de dados".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.40.001_2
+:na_c150.40.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Gestão das não-respostas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.40.001_3
+:na_c150.40.001_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Gestão dos ficheiros e da base de amostragem e dos meios de divulgação dos resultados".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.40.001_1
+:ne_c150.40.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A edição e publicação de informação estatística devem ser consideradas em 900.20.201 – Edição e publicação de conteúdos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.40.001
+:c150.40.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.40.001";
+	:titulo "Realização de operações estatísticas oficiais";
+	:temPai :c150.40 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_INE ;
+	:temDono :org_SEN ;
+	:temParticipanteExecutor :org_SEN ;
+	:temParticipanteComunicador :org_AP ;
+	:temNotaAplicacao :na_c150.40.001_1 ;
+	:temNotaAplicacao :na_c150.40.001_2 ;
+	:temNotaAplicacao :na_c150.40.001_3 ;
+	:temNotaExclusao :ne_c150.40.001_1 ;
+	:temLegislacao :leg_994 ;
+	:temLegislacao :leg_942 ;
+	:temLegislacao :leg_664 ;
+	:temLegislacao :leg_211 ;
+	:classeStatus "A" ;
+	:descricao "Conceção, planeamento e execução de operações de recolha, tratamento, análise e apresentação de dados estatísticos oficiais no âmbito da atividade das autoridades estatísticas do Sistema Estatístico Nacional.
+Inicia com o estudo de viabilidade e termina com a apresentação dos dados recolhidos.
+Inclui aprovação técnica da operação estatística, definição da metodologia, preparação da recolha, análise da amostra, gestão integrada do respondente (fornecedor da informação estatística), análise da coerência dos dados, aferição dos resultados e preparação da informação para divulgação.".
+###  http://jcr.di.uminho.pt/m51-clav#c150.40.001.01
+:c150.40.001.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "150.40.001.01";
+	:titulo "Realização de operações estatísticas oficiais: conceção, planeamento e execução";
+	:classeStatus "A" ;
+	:descricao "Inicia com o planeamento da operação estatística e termina com a apresentação dos dados para divulgação.
+Inclui a definição de metodologia e o tratamento dos dados recolhidos.".
+###  http://jcr.di.uminho.pt/m51-clav#c150.40.001.02
+:c150.40.001.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "150.40.001.02";
+	:titulo "Realização de operações estatísticas oficiais: recolha de informação";
+	:classeStatus "A" ;
+	:descricao "Inicia com pedido dos questionários ou outros instrumentos e termina com o envio dos dados para tratamento.
+Inclui a receção dos questionários.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.40.500_1
+:na_c150.40.500_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Estatísticas operacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.40.500_2
+:na_c150.40.500_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Estatística de adoções de canídeos e gatídeos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.40.500_3
+:na_c150.40.500_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Estatística de utilizadores de sala de leitura".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.40.500_4
+:na_c150.40.500_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Estatísticas organizacionais e operacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.40.500_5
+:na_c150.40.500_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Estatísticas de requisições internas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.40.500_6
+:na_c150.40.500_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Estatísticas de tráfico e consumo de droga".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.40.500_7
+:na_c150.40.500_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Estatísticas do Observatório de Segurança Rodoviária".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.40.500_1
+:ne_c150.40.500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A gestão de entidades respondentes (atualização de dados) deve ser considerada em 900.20.600 – Criação e atualização de contactos institucionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.40.500_2
+:ne_c150.40.500_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A definição de formulários utilizados na recolha devem ser considerados em 150.20.001 – Preparação de regras e orientações internas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.40.500_3
+:ne_c150.40.500_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os estudos, projetos técnicos científicos e de projeções e de cenarizações resultantes de recolhas de dados estatísticos deverão ser considerados em 800.10.602 – Realização de estudos técnicos de apoio a políticas públicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c150.40.500
+:c150.40.500 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "150.40.500";
+	:titulo "Recolha e tratamento de dados estatísticos de apoio à gestão";
+	:temPai :c150.40 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temDono :org_AP ;
+	:temParticipanteAssessor :org_AP ;
+	:temNotaAplicacao :na_c150.40.500_1 ;
+	:temNotaAplicacao :na_c150.40.500_2 ;
+	:temNotaAplicacao :na_c150.40.500_3 ;
+	:temNotaAplicacao :na_c150.40.500_4 ;
+	:temNotaAplicacao :na_c150.40.500_5 ;
+	:temNotaAplicacao :na_c150.40.500_6 ;
+	:temNotaAplicacao :na_c150.40.500_7 ;
+	:temNotaExclusao :ne_c150.40.500_1 ;
+	:temNotaExclusao :ne_c150.40.500_2 ;
+	:temNotaExclusao :ne_c150.40.500_3 ;
+	:temLegislacao :leg_920 ;
+	:temLegislacao :leg_994 ;
+	:temLegislacao :leg_942 ;
+	:temLegislacao :leg_664 ;
+	:temLegislacao :leg_211 ;
+	:classeStatus "A" ;
+	:descricao "Conceção, planeamento e execução das operações de recolha, tratamento, análise e apresentação de dados  estatísticos de suporte à tomada de decisão.
+Inicia com a definição da metodologia e termina com a apresentação dos dados recolhidos.
+Inclui preparação da recolha, contabilização de dados e preparação da informação.".
+###  http://jcr.di.uminho.pt/m51-clav#c150.40.500.01
+:c150.40.500.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "150.40.500.01";
+	:titulo "Recolha e tratamento de dados estatísticos de apoio à gestão: definição da metodologia e recolha";
+	:classeStatus "A" ;
+	:descricao "Inicia com a definição da metodologia e termina com  o tratamento dos dados.
+Inclui a preparação da recolha, a receção dos questionários e a contabilização dos dados.".
+###  http://jcr.di.uminho.pt/m51-clav#c150.40.500.02
+:c150.40.500.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "150.40.500.02";
+	:titulo "Recolha e tratamento de dados estatísticos de apoio à gestão: apuramento e apresentação dos dados";
+	:classeStatus "A" ;
+	:descricao "Inicia com o apuramento dos dados e termina com a apresentação dos dados para divulgação.
+Inclui a análise e preparação da informação para divulgação.
+".
 
 ### Classes150 termina aqui.
 
