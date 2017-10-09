@@ -1,0 +1,988 @@
+### Classe850
+###  http://jcr.di.uminho.pt/m51-clav#na_c850_1
+:na_c850_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Usualmente os incentivos revestem a forma de apoios financeiros, mas tal não é imperativo.".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850_2
+:na_c850_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Aplicável às entidades que efetuam a gestão de fundos ou programas de incentivo, bem como às entidades beneficiárias e/ou destinatárias daqueles programas e, ainda, às entidades que participam apenas na apreciação das candidaturas a apoios.".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850_1
+:ne_c850_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A concessão de apoios de caráter social (prestações sociais, rendimento social de inserção, bolsa de estudo, etc.) dever ser considerada em \"Prestação de serviços de proteção e inclusão social/Atribuição de prestações sociais e auxílios económicos\" (650.10);A contratualização da concessão de indemnizações compensatórias a entidades que prestam serviços de interesse geral deve ser considerada em \"Administração de direitos, bens e serviços\" (300).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850
+:c850 rdf:type owl:NamedIndividual ,
+	:Classe_N1;
+	:codigo "850";
+	:titulo "EXECUÇÃO DE PROGRAMAS E DE AÇÕES DE INCENTIVO";
+	:pertenceLC :lc1 ;
+	:temNotaAplicacao :na_c850_1 ;
+	:temNotaAplicacao :na_c850_2 ;
+	:temNotaExclusao :ne_c850_1 ;
+	:classeStatus "A" ;
+	:descricao "Relativo à execução de programas regulares ou ações eventuais de incentivo estratégico a pessoas, organismos ou projetos, no quadro das políticas de promoção e fomento de atividades económicas, culturais e sociais.
+Inclui a atribuição de incentivos diretos e indiretos, bem como o acompanhamento ou controlo de projetos apoiados.
+Relativo, ainda, à captação de apoios de entidades privadas e serviços públicos.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10_1
+:na_c850.10_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "As entidades que administram fundos comunitários ou gerem programas de apoio deverão utilizar esta classe para os processos de gestão de cada concurso, incluindo a constituição de júris e respetivos trabalhos, bem como para todos os procedimentos de relacionamento com as entidades beneficiárias/destinatárias, no que se inclui a receção de candidaturas, a celebração de acordos/contratos de apoio, o acompanhamento e a avaliação dos projetos apoiados.".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10_2
+:na_c850.10_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "As entidades posicionadas para receber os apoios deverão utilizar esta classe para a gestão da respetiva candidatura, ou seja, para a documentação necessária ao relacionamento com as entidades que concedem financiamentos ou ajudas diretas (apresentação de candidatura, relatórios da execução material e financeira, avaliação, encerramento de contas), podendo imputar a restante documentação técnica/administrativa à função sobre a qual o projeto incide (melhoramento de infraestruturas, desenvolvimento de sistemas de informação, organização de eventos, investigação científica, etc.).".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10_3
+:na_c850.10_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Quando haja lugar à apresentação de candidaturas a programas de incentivo geridos por entidades da União Europeia, as mesmas devem ser aqui consideradas.".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.10
+:c850.10 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "850.10";
+	:titulo "Atribuição e controlo de financiamentos e de ajudas diretas";
+	:temPai :c850 ;
+	:temNotaAplicacao :na_c850.10_1 ;
+	:temNotaAplicacao :na_c850.10_2 ;
+	:temNotaAplicacao :na_c850.10_3 ;
+	:classeStatus "A" ;
+	:descricao "Compreende as atividades relacionadas com a gestão e acesso aos programas que disponibilizam apoio financeiro ou outras ajudas diretas às entidades beneficiárias, destinatárias ou elegíveis em cada medida de apoio, bem como as atividades de acompanhamento e controlo de projetos apoiados.
+Compreende, igualmente, as ações que revestem a forma de apoios diretos eventuais não submetidos a concurso, bem como de atribuição de prémios com ou sem expressão financeira, sujeitos ou não a concurso, instituídos por entidades nacionais, regionais ou locais, públicas ou privadas.
+Compreende, ainda, as atividades de captação de mecenas e gestão de apoios mecenáticos, bem como o processamento de pedidos de patrocínio.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.001_1
+:na_c850.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Pedidos de pagamento de subsídios de exploração e indemnizações compensatórias".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.001_1
+:ne_c850.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O valor e a periodicidade dos pagamentos devem ser considerados em 150.20.202 – Preparação do orçamento".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.001_2
+:ne_c850.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pagamentos aos beneficiários deverão ser considerados em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.10.001
+:c850.10.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "850.10.001";
+	:titulo "Atribuição de subsídios à exploração de serviços públicos";
+	:temPai :c850.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_Gov ;
+	:temDono :org_DGTF ;
+	:temDono :org_AL ;
+	:temNotaAplicacao :na_c850.10.001_1 ;
+	:temNotaExclusao :ne_c850.10.001_1 ;
+	:temNotaExclusao :ne_c850.10.001_2 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.500 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.10.700 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c350.30.004 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c500.10.002 ;
+	:temLegislacao :leg_1251 ;
+	:temLegislacao :leg_982 ;
+	:temLegislacao :leg_650 ;
+	:classeStatus "A" ;
+	:descricao "Pagamento compensatório dos custos ou perdas resultantes da exploração e prestação de serviços de interesse público que não são economicamente rentáveis.
+Inicia com o pedido de pagamento do subsídio ou por iniciativa da entidade pagadora e termina com a decisão de deferimento ou indeferimento do respetivo pedido.
+Inclui demonstração dos valores das transferências efetuadas ou a efetuar.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.002_1
+:na_c850.10.002_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Candidaturas recebidas por entidades que concedem  apoios".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.002_2
+:na_c850.10.002_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Candidaturas apresentadas por entidades que beneficiam de apoios".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.002_3
+:na_c850.10.002_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Eventual suspensão ou rescisão do contrato de apoio".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.002_1
+:ne_c850.10.002_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A definição dos programas operacionais e outros programas de apoio deve ser considerada em 150.10.200 – Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito nacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.002_2
+:ne_c850.10.002_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A monitorização e avaliação dos programas operacionais e outros programas de apoio devem ser consideradas em 150.10.600 – Avaliação de políticas e instrumentos de operacionalização".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.002_3
+:ne_c850.10.002_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A contratação de serviços ou aquisição de bens deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.002_4
+:ne_c850.10.002_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pagamentos aos beneficiários devem ser considerados em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.002_5
+:ne_c850.10.002_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os empréstimos no âmbito de programas de apoio financeiro para regularização do pagamento de dívidas devem ser considerados em 350.40.401 – Contração e amortização de empréstimos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.002_6
+:ne_c850.10.002_6 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A atribuição de prestações sociais e auxílios económicos dever ser considerada em “Prestação de serviços de proteção e inclusão social/Atribuição de prestações sociais e auxílios económicos” (650.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.002_7
+:ne_c850.10.002_7 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A concretização do projeto deverá ser considerada na função respetiva".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.10.002
+:c850.10.002 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "850.10.002";
+	:titulo "Formalização de candidaturas e acompanhamento de apoios regulares";
+	:temPai :c850.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_AP ;
+	:temDono :org_EGAP ;
+	:temNotaAplicacao :na_c850.10.002_1 ;
+	:temNotaAplicacao :na_c850.10.002_2 ;
+	:temNotaAplicacao :na_c850.10.002_3 ;
+	:temNotaExclusao :ne_c850.10.002_1 ;
+	:temNotaExclusao :ne_c850.10.002_2 ;
+	:temNotaExclusao :ne_c850.10.002_3 ;
+	:temNotaExclusao :ne_c850.10.002_4 ;
+	:temNotaExclusao :ne_c850.10.002_5 ;
+	:temNotaExclusao :ne_c850.10.002_6 ;
+	:temNotaExclusao :ne_c850.10.002_7 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.300 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c150.10.600 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c200.30.302 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c400.10.052 ;
+	:temRelProc :c400.10.053 ;
+	:temRelProc :c400.30.001 ;
+	:temRelProc :c450.10.076 ;
+	:temRelProc :c450.20.505 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c800.20.001 ;
+	:temRelProc :c800.20.002 ;
+	:temRelProc :c800.20.500 ;
+	:temRelProc :c900.10.001 ;
+	:temLegislacao :leg_1210 ;
+	:temLegislacao :leg_1212 ;
+	:temLegislacao :leg_1145 ;
+	:temLegislacao :leg_1142 ;
+	:temLegislacao :leg_1207 ;
+	:temLegislacao :leg_1114 ;
+	:temLegislacao :leg_1103 ;
+	:temLegislacao :leg_1109 ;
+	:temLegislacao :leg_1108 ;
+	:temLegislacao :leg_1107 ;
+	:temLegislacao :leg_1106 ;
+	:temLegislacao :leg_1105 ;
+	:classeStatus "A" ;
+	:descricao "Atribuição de estímulos no âmbito de programas e acompanhamento da execução dos projetos ou ações financiadas.
+Inicia com a submissão da candidatura e termina com a análise e avaliação do relatório final de execução da operação ou projeto apoiado.
+Inclui instrução da candidatura, decisão, comunicação da atribuição do apoio, contratualização, acompanhamento e controlo da execução do projeto ou operação, apresentação de comprovativos de despesa, reajustamentos ao programa e elaboração de relatórios intercalares e relatório final, análise e avaliação dos relatórios, aprovação do encerramento do processo de apoio.
+Inclui ainda a eventual suspensão ou rescisão do contrato de apoio.
+
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#c850.10.002.01
+:c850.10.002.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "850.10.002.01";
+	:titulo "Formalização de candidaturas e acompanhamento de apoios regulares: candidatura, decisão e execução";
+	:temPai :c850.10.002 ;
+	:classeStatus "A" ;
+	:descricao "Fases de candidatura, decisão e avaliação final de apoios regulares.  
+Inicia com a submissão de candidatura e termina com a análise e avaliação do relatório final/relatório de atividades/produto final.
+Inclui instrução de candidatura, análise da elegibilidade da candidatura, avaliação da candidatura, comunicação da decisão final, contratualização com a entidade/sujeito proponente, elaboração de relatório final/relatório de atividades/produto final e avaliação final do apoio atribuído.
+".
+###  http://jcr.di.uminho.pt/m51-clav#c850.10.002.02
+:c850.10.002.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "850.10.002.02";
+	:titulo "Formalização de candidaturas e acompanhamento de apoios regulares: controlo de informação financeira";
+	:temPai :c850.10.002 ;
+	:classeStatus "A" ;
+	:descricao "Fase de execução e acompanhamento financeiro de apoios regulares.
+Inclui solicitação de pagamento, com os respetivos documentos comprovativos,  análise e verificação, proposta para pagamento, bem como acompanhamento da execução financeira de apoios regulares.
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.003_1
+:na_c850.10.003_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoios em situações de catástrofes naturais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.003_2
+:na_c850.10.003_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoios que saiam do âmbito dos programas de apoio estabelecidos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.003_1
+:ne_c850.10.003_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A contratação de serviços ou aquisição de bens devem ser considerados em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.003_2
+:ne_c850.10.003_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pagamentos aos beneficiários devem ser considerados em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.003_3
+:ne_c850.10.003_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os empréstimos no âmbito de programas de apoio financeiro para regularização do pagamento de dívidas devem ser considerados em 350.40.401 – Contração e amortização de empréstimos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.003_4
+:ne_c850.10.003_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A atribuição de prestações sociais e auxílios económicos deve ser considerada em “Prestação de serviços de proteção e inclusão social/Atribuição de prestações sociais e auxílios económicos” (650.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.003_5
+:ne_c850.10.003_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A concretização do projeto deve ser considerada na função respetiva".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.10.003
+:c850.10.003 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "850.10.003";
+	:titulo "Formalização de candidaturas e acompanhamento de apoios pontuais";
+	:temPai :c850.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_AP ;
+	:temDono :org_EGAP ;
+	:temNotaAplicacao :na_c850.10.003_1 ;
+	:temNotaAplicacao :na_c850.10.003_2 ;
+	:temNotaExclusao :ne_c850.10.003_1 ;
+	:temNotaExclusao :ne_c850.10.003_2 ;
+	:temNotaExclusao :ne_c850.10.003_3 ;
+	:temNotaExclusao :ne_c850.10.003_4 ;
+	:temNotaExclusao :ne_c850.10.003_5 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.300 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c150.10.600 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c200.30.302 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c400.10.052 ;
+	:temRelProc :c400.10.053 ;
+	:temRelProc :c400.30.001 ;
+	:temRelProc :c400.10.076 ;
+	:temRelProc :c450.20.505 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c800.20.001 ;
+	:temRelProc :c800.20.002 ;
+	:temRelProc :c800.20.500 ;
+	:temRelProc :c900.10.001 ;
+	:temLegislacao :leg_1026 ;
+	:temLegislacao :leg_821 ;
+	:classeStatus "A" ;
+	:descricao "Atribuição e acompanhamento de estímulos ou compensações a projetos ou situações não enquadráveis num plano de continuidade.
+Inicia com a submissão da candidatura e termina com a análise e avaliação do relatório final de execução da operação ou projeto apoiado.
+Inclui preparação e apresentação do pedido formal de apoio ou da candidatura, decisão, eventual contratualização, comunicação da atribuição do apoio e eventual apresentação de comprovativos de despesa.".
+###  http://jcr.di.uminho.pt/m51-clav#c850.10.003.01
+:c850.10.003.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "850.10.003.01";
+	:titulo "Formalização de candidaturas e acompanhamento de apoios pontuais: candidatura, decisão e execução";
+	:temPai :c850.10.003 ;
+	:classeStatus "A" ;
+	:descricao "Fases de candidatura, decisão e de execução e acompanhamento material de apoios pontuais.
+Inicia com a submissão de candidatura e termina com a análise e avaliação do relatório final/relatório de atividades/produto final.
+Inclui instrução de candidatura, análise da elegibilidade da candidatura, avaliação científica individual e final da candidatura, comunicação ao beneficiário da decisão final, contratualização com a entidade/sujeito proponente, acompanhamento e controlo da componente material do apoio, processos de atribuição de bolsas no âmbito do projeto (se aplicável), elaboração de relatório final/relatório de atividades/produto final e avaliação científica final do apoio atribuído.
+".
+###  http://jcr.di.uminho.pt/m51-clav#c850.10.003.02
+:c850.10.003.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "850.10.003.02";
+	:titulo "Formalização de candidaturas e acompanhamento de apoios pontuais: controlo de informação financeira";
+	:temPai :c850.10.003 ;
+	:classeStatus "A" ;
+	:descricao "Fase de execução e acompanhamento financeiro de apoios pontuais.
+Inclui solicitação de pagamento, com os respetivos documentos comprovativos,  análise e verificação, proposta para pagamento, bem como acompanhamento da execução financeira de apoios pontuais.
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.005_1
+:na_c850.10.005_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ajudas diretas ao setor primário".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.10.005
+:c850.10.005 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "850.10.005";
+	:titulo "Formalização de candidaturas a ajudas diretas";
+	:temPai :c850.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_DRAP ;
+	:temDono :org_IFAP ;
+	:temNotaAplicacao :na_c850.10.005_1 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c150.10.600 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c200.30.302 ;
+	:temRelProc :c300.30.008 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c400.30.001 ;
+	:temRelProc :c450.10.076 ;
+	:temRelProc :c450.10.444 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c800.20.001 ;
+	:temRelProc :c800.20.002 ;
+	:temRelProc :c800.20.500 ;
+	:temLegislacao :leg_185 ;
+	:classeStatus "A" ;
+	:descricao "Atribuição de ajudas diretas como forma de garantir a estabilidade nos rendimentos, no âmbito de programas financiados.
+Inicia com a submissão da candidatura e termina com decisão de concessão do apoio.
+Inclui a instrução da candidatura, decisão, comunicação da atribuição do apoio, contratualização e controlo.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.500_1
+:ne_c850.10.500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os prémios de desempenho profissional devem ser considerados em 250.20.803 – Atribuição de prémios de desempenho, louvores ou medalhas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.500_2
+:ne_c850.10.500_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pagamentos aos beneficiários devem ser considerados em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.500_3
+:ne_c850.10.500_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A cerimónia de atribuição do prémio deve ser considerada em 900.10.500 – Organização e participação em homenagens e cerimónias comemorativas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.500_4
+:ne_c850.10.500_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os prémios atribuídos por atos de natureza cívica devem ser considerados em 950.30.001 – Reconhecimento por mérito e serviços prestados".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.10.500
+:c850.10.500 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "850.10.500";
+	:titulo "Atribuição de prémios";
+	:temPai :c850.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_AP ;
+	:temDono :org_AP ;
+	:temNotaExclusao :ne_c850.10.500_1 ;
+	:temNotaExclusao :ne_c850.10.500_2 ;
+	:temNotaExclusao :ne_c850.10.500_3 ;
+	:temNotaExclusao :ne_c850.10.500_4 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c150.10.600 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c800.20.001 ;
+	:temRelProc :c800.20.002 ;
+	:temRelProc :c800.20.500 ;
+	:temRelProc :c900.10.500 ;
+	:temLegislacao :leg_185 ;
+	:classeStatus "A" ;
+	:descricao "Reconhecimento do valor de ações, trabalhos, projetos e resultados.
+Inicia com a abertura do período de apresentação de candidaturas ou com a apresentação de propostas, ou com a identificação das ações, trabalhos, projetos de investigação e resultados passíveis de reconhecimento e termina com a decisão de atribuição do prémio.
+Inclui avaliação e seleção de trabalhos, ações, projetos e desempenhos passíveis de serem premiados.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.600_1
+:na_c850.10.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Patrocínio a atividades artística".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.600_2
+:na_c850.10.600_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Patrocínio a atividades culturais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.600_3
+:na_c850.10.600_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Patrocínio a atividades desportivas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.600_4
+:na_c850.10.600_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Patrocínio a atividades sociais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.600_5
+:na_c850.10.600_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Patrocínio institucional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.600_6
+:na_c850.10.600_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Patrocínio promocional".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.600_1
+:ne_c850.10.600_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A disponibilização efetiva dos bens materiais deve ser considerada em 300.50.203 – Aluguer ou cedência de utilização de bens móveis não culturais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.600_2
+:ne_c850.10.600_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O pagamento do valor patrocinado deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.10.600
+:c850.10.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "850.10.600";
+	:titulo "Atribuição de patrocínios
+
+
+
+";
+	:temPai :c850.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_AP ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c850.10.600_1 ;
+	:temNotaAplicacao :na_c850.10.600_2 ;
+	:temNotaAplicacao :na_c850.10.600_3 ;
+	:temNotaAplicacao :na_c850.10.600_4 ;
+	:temNotaAplicacao :na_c850.10.600_5 ;
+	:temNotaAplicacao :na_c850.10.600_6 ;
+	:temNotaExclusao :ne_c850.10.600_1 ;
+	:temNotaExclusao :ne_c850.10.600_2 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c300.30.008 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c800.20.001 ;
+	:temRelProc :c800.20.002 ;
+	:temRelProc :c800.20.500 ;
+	:temRelProc :c900.10.500 ;
+	:temLegislacao :leg_185 ;
+	:classeStatus "A" ;
+	:descricao "Disponibilização de qualquer tipo de recurso (financeiro ou material) para apoio ou suporte direto à realização de uma atividade ou entidade patrocinada, com o propósito de associar o nome da entidade patrocinadora, bem como outras  contrapartidas de caracter comercial.
+Inicia com o pedido e termina com a decisão quanto à atribuição de patrocínio.
+Inclui análise do pedido e negociação entre patrocinador e beneficiário, contrato de patrocínio, quando aplicável.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.601_1
+:na_c850.10.601_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio mecenático na área ambiental".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.601_2
+:na_c850.10.601_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio mecenático na área científica ou tecnológica".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.601_3
+:na_c850.10.601_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio mecenático na área cultural".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.601_4
+:na_c850.10.601_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio mecenático na área desportiva".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.601_5
+:na_c850.10.601_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio mecenático na área educacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.601_6
+:na_c850.10.601_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio mecenático na área social".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.601_1
+:ne_c850.10.601_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O registo do bem doado deve ser considerado em “Administração de direitos, bens e serviços/Identificação e caracterização de bens” (300.30)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.601_2
+:ne_c850.10.601_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O fluxo financeiro relativo ao apoio de mecenato deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.10.601
+:c850.10.601 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "850.10.601";
+	:titulo "Captação e aplicação de apoios mecenáticos
+";
+	:temPai :c850.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c850.10.601_1 ;
+	:temNotaAplicacao :na_c850.10.601_2 ;
+	:temNotaAplicacao :na_c850.10.601_3 ;
+	:temNotaAplicacao :na_c850.10.601_4 ;
+	:temNotaAplicacao :na_c850.10.601_5 ;
+	:temNotaAplicacao :na_c850.10.601_6 ;
+	:temNotaExclusao :ne_c850.10.601_1 ;
+	:temNotaExclusao :ne_c850.10.601_2 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c300.30.002 ;
+	:temRelProc :c300.30.003 ;
+	:temRelProc :c300.30.008 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c800.20.001 ;
+	:temRelProc :c800.20.002 ;
+	:temRelProc :c800.20.500 ;
+	:temLegislacao :leg_320 ;
+	:temLegislacao :leg_390 ;
+	:temLegislacao :leg_644 ;
+	:temLegislacao :leg_746 ;
+	:temLegislacao :leg_1065 ;
+	:temLegislacao :leg_1174 ;
+	:temLegislacao :leg_1213 ;
+	:classeStatus "A" ;
+	:descricao "Desenvolvimento de atividades de recolha e gestão de donativos em dinheiro ou em espécie, concedidos sem haver lugar a contrapartidas que configurem obrigações de caracter pecuniário ou comercial, às entidades públicas ou privadas, para a realização de iniciativas de diversa natureza. 
+Inicia com pedido e termina com a concessão do apoio.
+Inclui análise do pedido, negociação entre o mecenas e o beneficiário.
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.30_1
+:na_c850.30_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Bonificação de juros no crédito à habitação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.30_2
+:na_c850.30_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Bonificação ao gasóleo utilizado na atividade agrícola".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.30_3
+:na_c850.30_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Benefícios fiscais ao investimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.30
+:c850.30 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "850.30";
+	:titulo "Atribuição e controlo de bonificações e benefícios";
+	:temPai :c850 ;
+	:temNotaAplicacao :na_c850.30_1 ;
+	:temNotaAplicacao :na_c850.30_2 ;
+	:temNotaAplicacao :na_c850.30_3 ;
+	:classeStatus "A" ;
+	:descricao "Compreende as atividades de atribuição e controlo das bonificações e benefícios ao investimento concedidas pelo Estado.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.30.001_1
+:na_c850.30.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Crédito à habitação bonificado".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.30.001_2
+:na_c850.30.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Linhas de crédito destinadas à agricultura".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.30.001_3
+:na_c850.30.001_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Linhas de crédito destinadas à pecuária".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.30.001_4
+:na_c850.30.001_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Linhas de crédito destinadas às pescas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.30.001_1
+:ne_c850.30.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A celebração de protocolos deve ser considerada em 150.10.500 – Elaboração de instrumentos de cooperação interinstitucional".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.30.001_2
+:ne_c850.30.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pagamentos aos beneficiários devem ser considerados em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.30.001
+:c850.30.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "850.30.001";
+	:titulo "Atribuição de bonificações";
+	:temPai :c850.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_DGTF ;
+	:temDono :org_DGADR ;
+	:temNotaAplicacao :na_c850.30.001_1 ;
+	:temNotaAplicacao :na_c850.30.001_2 ;
+	:temNotaAplicacao :na_c850.30.001_3 ;
+	:temNotaAplicacao :na_c850.30.001_4 ;
+	:temNotaExclusao :ne_c850.30.001_1 ;
+	:temNotaExclusao :ne_c850.30.001_2 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c300.30.008 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temLegislacao :leg_580 ;
+	:temLegislacao :leg_512 ;
+	:temLegislacao :leg_185 ;
+	:classeStatus "A" ;
+	:descricao "Concessão de bonificações a entidades nacionais e estrangeiras, através de linhas de crédito bonificadas e criadas por diploma próprio, nos setores do arrendamento urbano, eventos nacionais, intempéries, calamidades, crédito de ajuda, entre outros.
+Inicia com um pedido e termina com a decisão de atribuição da bonificação.
+Inclui a análise dos elementos e a elaboração de pareceres.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.30.002_1
+:na_c850.30.002_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Todos os tipos de benefícios ou incentivos fiscais ou aduaneiros, objeto de contratualização com o Estado Português para projetos de investimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.30.002_2
+:na_c850.30.002_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Medidas fiscais que obedeçam às caraterísticas enunciadas no nº 1 do artº 2º do Estatuto dos Benefícios Fiscais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.30.002_1
+:ne_c850.30.002_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O processamento de benefícios e incentivos fiscais e aduaneiros não contratuais deve ser considerado em 350.10.504 – Processamento de benefícios e incentivos fiscais e aduaneiros não contratuais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.30.002
+:c850.30.002 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "850.30.002";
+	:titulo "Processamento de benefícios e incentivos contratuais ao investimento";
+	:temPai :c850.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_AT ;
+	:temNotaAplicacao :na_c850.30.002_1 ;
+	:temNotaAplicacao :na_c850.30.002_2 ;
+	:temNotaExclusao :ne_c850.30.002_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c300.30.008 ;
+	:temRelProc :c350.10.100 ;
+	:temRelProc :c350.10.101 ;
+	:temRelProc :c350.10.200 ;
+	:temRelProc :c350.10.201 ;
+	:temRelProc :c350.10.202 ;
+	:temRelProc :c350.10.203 ;
+	:temRelProc :c350.10.204 ;
+	:temRelProc :c350.10.205 ;
+	:temRelProc :c350.10.206 ;
+	:temRelProc :c350.10.300 ;
+	:temRelProc :c350.10.301 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1140 ;
+	:temLegislacao :leg_85 ;
+	:classeStatus "A" ;
+	:descricao "Aplicação do regime de benefícios ao investimento produtivo a entidades contratualizadas.
+Inicia com a negociação contratual entre as partes e termina com a aplicação do contrato.
+Inclui todos os procedimentos para a análise e cálculo dos benefícios e incentivos.
+".
+###  http://jcr.di.uminho.pt/m51-clav#c850.30.003
+:c850.30.003 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "850.30.003";
+	:titulo "Gestão de suspensões e de contingentes pautais
+";
+	:temPai :c850.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_AT ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c300.30.008 ;
+	:temRelProc :c350.10.400 ;
+	:temRelProc :c450.10.062 ;
+	:temLegislacao :leg_524 ;
+	:classeStatus "A" ;
+	:descricao "Aplicação de mecanismo comunitário que permite a importação de matérias-primas ou produtos semi-acabados com a aplicação de um direito aduaneiro reduzido ou nulo, durante um determinado período e relativo a uma quantidade ilimitada (suspensão pautal) ou a uma quantidade limitada (contingente pautal), permitindo às empresas abastecerem-se a preços mais baixos, estimulando a atividade económica na União Europeia, e possibilitando a existência de empresas mais competitivas e o fomento à criação de emprego.
+Inicia com pedido de candidatura a suspensões e contingentes pautais na importação de mercadorias, formulado por operador económico e termina com a comunicação do resultado da proposta ou do pedido de candidatura, ou ainda com a emissão de certificado, quando aplicável.
+Inclui a análise dos pedidos de suspensões e de contingentes pautais, produção de prova, prestação de garantia, quando aplicável, comunicação às Alfândegas sobre o estado dos contingentes pautais, comunicação com os Estados Membros.
+
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.30.004_1
+:ne_c850.30.004_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O acompanhamento e avaliação do Programa, nomeadamente o reporte trimestral e o relatório geral do impacto das ações, devem ser considerados em 150.10.600 – Avaliação de políticas e instrumentos de operacionalização".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.30.004_2
+:ne_c850.30.004_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A concessão de ajudas ao abastecimento das regiões ultraperiféricas deve ser considerada em 850.10.002 - Formalização de candidaturas e acompanhamento de apoios regulares".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.30.004
+:c850.30.004 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "850.30.004";
+	:titulo "Processamento de isenção de direitos em regime específico de abastecimento nas regiões ultraperiféricas";
+	:temPai :c850.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_AT ;
+	:temNotaExclusao :ne_c850.30.004_1 ;
+	:temNotaExclusao :ne_c850.30.004_2 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c300.30.008 ;
+	:temLegislacao :leg_1203 ;
+	:temLegislacao :leg_1200 ;
+	:temLegislacao :leg_1102 ;
+	:temLegislacao :leg_1069 ;
+	:temLegislacao :leg_346 ;
+	:temLegislacao :leg_345 ;
+	:classeStatus "A" ;
+	:descricao "Aplicação de isenção de direitos de importação a produtos agrícolas essenciais importados de países terceiros para regiões ultraperiféricas da União Europeia.     
+Inicia com a solicitação do operador e termina com a decisão.                                                                       Inclui a validação face a alterações/transferências efetuadas às estimativas durante a campanha.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.30.500_1
+:ne_c850.30.500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A fiscalização dos incentivos deve ser considerada em 500.10.300 – Realização de fiscalização".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.30.500_2
+:ne_c850.30.500_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A avaliação dos programas deve ser considerada em 150.10.600 – Avaliação de políticas e instrumentos de operacionalização".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.30.500
+:c850.30.500 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "850.30.500";
+	:titulo "Controlo de bonificações";
+	:temPai :c850.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_DGTF ;
+	:temNotaExclusao :ne_c850.30.500_1 ;
+	:temNotaExclusao :ne_c850.30.500_2 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temLegislacao :leg_185 ;
+	:classeStatus "A" ;
+	:descricao "Registo e controlo dos pagamentos das bonificações de juros e incentivos.
+Inicia com a receção de comprovativos de despesa e termina com a decisão sobre a conformidade da despesa.
+Inclui a análise dos mapas de valores a pagar por classificação económica, das reclamações conferidas e não conferidas, dos mapas de execução orçamental anual e da lista de valores pagos por atividade.
+
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.40_1
+:na_c850.40_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Garantias que assegurem a realização de operações de crédito ou de outras operações financeiras, nacionais ou internacionais, de que sejam beneficiárias entidades públicas, empresas nacionais ou outras empresas que legalmente gozem de igualdade de tratamento.".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.40_2
+:na_c850.40_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Garantias que assegurem a viabilidade financeira de empresas em situação financeira difícil.".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.40_3
+:na_c850.40_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Garantias que assegurem o cumprimento das obrigações assumidas em contratos de financiamento, incluindo a renovação das respetivas operações por parte das instituições de crédito sedeadas em Portugal.".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.40
+:c850.40 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "850.40";
+	:titulo "Atribuição e controlo de garantias financeiras prestadas pelo Estado";
+	:temPai :c850 ;
+	:temNotaAplicacao :na_c850.40_1 ;
+	:temNotaAplicacao :na_c850.40_2 ;
+	:temNotaAplicacao :na_c850.40_3 ;
+	:classeStatus "A" ;
+	:descricao "Compreende os processos da iniciativa do Estado na concessão de garantias com caráter de exceção e de acordo com o plafond estabelecido na Lei do Orçamento de Estado, em operações financeiras celebradas por entidades nacionais e com países terceiros.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.40.001_1
+:ne_c850.40.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A celebração de protocolos deve ser considerada em 150.10.500 – Elaboração de instrumentos de cooperação interinstitucional".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.40.001_2
+:ne_c850.40.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pagamentos aos beneficiários deverão ser considerados em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.40.001
+:c850.40.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "850.40.001";
+	:titulo "Concessão, gestão e execução de garantias pessoais";
+	:temPai :c850.40 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteApreciador :org_IGCP ;
+	:temParticipanteAssessor :org_BdP ;
+	:temParticipanteDecisor :org_SEATF ;
+	:temNotaExclusao :ne_c850.40.001_1 ;
+	:temNotaExclusao :ne_c850.40.001_2 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temLegislacao :leg_694 ;
+	:temLegislacao :leg_681 ;
+	:classeStatus "A" ;
+	:descricao "Concessão, gestão e execução de garantias pessoais a entidades externas e internas, sob a forma de fiança ou aval, no âmbito de empreendimentos ou projetos de interesse para a economia nacional.
+Inicia com o pedido dos beneficiários da garantia do Estado ou de um membro do Governo para análise da entidade responsável pelas garantias e subsequente pedido de parecer ao à entidade responsável pela dívida pública e à tutela setorial e termina com a execução da garantia.
+Inclui pedidos de autorização/manutenção de garantia, minutas dos contratos de empréstimo ou da operação financeira, planos de utilização do financiamento e esquemas de reembolso, propostas de concessão de garantia, pareceres com despachos ministeriais, despacho do membro do Governo competente a autorizar a emissão da garantia, contratos com garantia do Estado e respetivos aditamentos, assim como mapas dos planos de amortização de capital, definição de juros e comissões de garantia, programas, declarações de garantia, entre outros.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.40.500_1
+:na_c850.40.500_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Garantias sobre o seguro de colheita e de fabrico".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.40.500_2
+:na_c850.40.500_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Garantias de operações individuais de crédito ou de investimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.40.500_3
+:na_c850.40.500_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Garantias de operações de apólices globais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.40.500_4
+:na_c850.40.500_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Garantias de operações individuais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.40.500_5
+:na_c850.40.500_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Garantias de seguro-caução".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.40.500_6
+:na_c850.40.500_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Garantias de linhas de crédito a estabelecer com países da cooperação portuguesa".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.40.500_7
+:na_c850.40.500_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Pedidos de posição de princípio sobre cobertura da exportação de bens e serviços de origem portuguesa".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.40.500_8
+:na_c850.40.500_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Garantias às exportações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.40.500_9
+:na_c850.40.500_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Garantias ao financiamento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.40.500_10
+:na_c850.40.500_10 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reportes semestrais sobre garantias a operações de seguro do risco".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.40.500_1
+:ne_c850.40.500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A celebração de protocolos deve ser considerada em 150.10.500 – Elaboração de instrumentos de cooperação interinstitucional".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.40.500_2
+:ne_c850.40.500_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pagamentos aos beneficiários deverão ser considerados em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c850.40.500
+:c850.40.500 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "850.40.500";
+	:titulo "Concessão e gestão de garantias a operações de seguro de risco";
+	:temPai :c850.40 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_DGTF ;
+	:temNotaAplicacao :na_c850.40.500_1 ;
+	:temNotaAplicacao :na_c850.40.500_2 ;
+	:temNotaAplicacao :na_c850.40.500_3 ;
+	:temNotaAplicacao :na_c850.40.500_4 ;
+	:temNotaAplicacao :na_c850.40.500_5 ;
+	:temNotaAplicacao :na_c850.40.500_6 ;
+	:temNotaAplicacao :na_c850.40.500_7 ;
+	:temNotaAplicacao :na_c850.40.500_8 ;
+	:temNotaAplicacao :na_c850.40.500_9 ;
+	:temNotaAplicacao :na_c850.40.500_10 ;
+	:temNotaExclusao :ne_c850.40.500_1 ;
+	:temNotaExclusao :ne_c850.40.500_2 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temLegislacao :leg_185 ;
+	:temLegislacao :leg_512 ;
+	:temLegislacao :leg_580 ;
+	:temLegislacao :leg_706 ;
+	:temLegislacao :leg_707 ;
+	:temLegislacao :leg_818 ;
+	:temLegislacao :leg_733 ;
+	:classeStatus "A" ;
+	:descricao "Concessão e gestão de garantias a operações de seguro do risco de crédito, de produção e de investimento com a garantia do Estado, nomeadamente no contexto da exportação de bens ou serviços de origem portuguesa ou de investimento português no estrangeiro.
+Inicia com o pedido da seguradora ao Estado para emissão da garantia, sob a forma de seguro, e termina com a eventual autorização do membro do Governo a efetivar a emissão da garantia.
+Inclui garantias de operações individuais de crédito ou de investimento, de apólices globais, de seguro-caução, de linhas de crédito a estabelecer com países da cooperação portuguesa, pedidos de posição de princípio sobre cobertura da exportação de bens e serviços de origem portuguesa, despachos de autorização de garantia, incluindo os da tutela, prorrogações de prazos de utilização das operações seguras, cobranças de prémios, pedidos de indemnização e respetivos pagamentos.
+
+
+
+
+".
+
+### Classes850 termina aqui.
+

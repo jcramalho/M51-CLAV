@@ -1,0 +1,761 @@
+### Classe950
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950_1
+:ne_c950_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A audição pública no âmbito de um determinado processo, deve ser considerada junto do processo respetivo - por exemplo, a audição pública no âmbito da elaboração de uma lei ou regulamento deve ser considerada em \"Ordenamento jurídico e normativo/ Elaboração de diplomas jurídico-normativos e de normas técnicas\" (100.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950
+:c950 rdf:type owl:NamedIndividual ,
+	:Classe_N1;
+	:codigo "950";
+	:titulo "ADMINISTRAÇÃO DA PARTICIPAÇÃO CÍVICA";
+	:pertenceLC :lc1 ;
+	:temNotaExclusao :ne_c950_1 ;
+	:classeStatus "A" ;
+	:descricao "Relativo à realização processos eleitorais para escolha dos representantes dos cidadãos (sufrágio universal), à realização de processos referendários, ao processamento de outros atos de participação dos cidadãos na gestão de assuntos públicos e, ainda, à atribuição de distinções honoríficas.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10_1
+:na_c950.10_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Expediente administrativo produzido no âmbito da organização dos processos eleitoral e referendário".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.10_1
+:ne_c950.10_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A eleição para estruturas internas de serviços públicos (por exemplo, para órgãos de administração e gestão de escolas, para Conselhos, Comissões ou outros) deve ser considerada em \"Administração de relações de trabalho/ Estabelecimento e cessação de relações de trabalho\" (250.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.10_2
+:ne_c950.10_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O registo de cidadãos eleitores e o registo de eleitos devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.10_3
+:ne_c950.10_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os processos de atualização do recenseamento eleitoral, incluindo o processamento de pedidos de atualização de dados individuais, devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.10
+:c950.10 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "950.10";
+	:titulo "Administração eleitoral";
+	:temPai :c950 ;
+	:temNotaAplicacao :na_c950.10_1 ;
+	:temNotaExclusao :ne_c950.10_1 ;
+	:temNotaExclusao :ne_c950.10_2 ;
+	:temNotaExclusao :ne_c950.10_3 ;
+	:classeStatus "A" ;
+	:descricao "Compreende as atividades de organização dos processos de sufrágio universal (nacional, regional e local) para eleições e para referendos, bem como o respetivo apuramento, transmissão e difusão de resultados.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_1
+:na_c950.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Referendos nacionais, regionais e locais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_2
+:na_c950.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Eleições legislativas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_3
+:na_c950.10.001_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Eleições para a presidência da república".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_4
+:na_c950.10.001_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Eleições regionais e autárquicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_5
+:na_c950.10.001_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Eleições dos orgãos de soberania, das regiões autónomas, do poder local e do Conselho das Comunidades Portuguesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.001
+:c950.10.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "950.10.001";
+	:titulo "Marcação de atos eleitorais e referendários";
+	:temPai :c950.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_CNE ;
+	:temParticipanteComunicador :org_SGMAI ;
+	:temParticipanteAssessor :org_Cns ;
+	:temDono :org_PR ;
+	:temDono :org_Gov ;
+	:temDono :org_GovReg ;
+	:temNotaAplicacao :na_c950.10.001_1 ;
+	:temNotaAplicacao :na_c950.10.001_2 ;
+	:temNotaAplicacao :na_c950.10.001_3 ;
+	:temNotaAplicacao :na_c950.10.001_4 ;
+	:temNotaAplicacao :na_c950.10.001_5 ;
+	:temRelProc :c950.10.200 ;
+	:temRelProc :c950.10.201 ;
+	:temRelProc :c950.10.400 ;
+	:temRelProc :c950.10.402 ;
+	:temRelProc :c950.10.600 ;
+	:temLegislacao :leg_14 ;
+	:temLegislacao :leg_29 ;
+	:temLegislacao :leg_32 ;
+	:temLegislacao :leg_517 ;
+	:temLegislacao :leg_317 ;
+	:temLegislacao :leg_71 ;
+	:temLegislacao :leg_1283 ;
+	:classeStatus "A" ;
+	:descricao "Definição de data para a realização de atos eleitorais e referendários.
+Inicia com a apresentação da proposta de data e termina com a publicação da decisão.
+Inclui consulta de entidades, decisão e comunicação da data.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.200_1
+:na_c950.10.200_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Situações de substituição e desistência de candidaturas e de candidatos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.200
+:c950.10.200 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "950.10.200";
+	:titulo "Apreciação e admissão de candidaturas a atos eleitorais";
+	:temPai :c950.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_PR ;
+	:temDono :org_TC ;
+	:temNotaAplicacao :na_c950.10.200_1 ;
+	:temRelProc :c950.10.001 ;
+	:temRelProc :c950.10.400 ;
+	:temLegislacao :leg_14 ;
+	:temLegislacao :leg_29 ;
+	:temLegislacao :leg_32 ;
+	:temLegislacao :leg_517 ;
+	:temLegislacao :leg_317 ;
+	:temLegislacao :leg_71 ;
+	:temLegislacao :leg_1283 ;
+	:classeStatus "A" ;
+	:descricao "Análise e aceitação de candidaturas apresentadas por partidos políticos, coligações eleitorais, candidaturas independentes e grupos de cidadãos.
+Inicia com a apresentação das candidaturas e termina com a publicitação das listas.
+Inclui verificação da legalidade e regularidade das candidaturas, notificação de aceitação ou de rejeição de candidaturas, reclamação da decisão e sorteio das listas apresentadas.".
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.200.01
+:c950.10.200.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "950.10.200.01";
+	:titulo "Apreciação e admissão de candidaturas a atos eleitorais: apresentação de candidaturas";
+	:temPai :c950.10.200 ;
+	:classeStatus "A" ;
+	:descricao "Receção de candidaturas a atos eleitorais.
+Inicia com a apresentação das candidaturas e termina com a emissão de recibos ou comprovativos de receção.
+Inclui a conferência das assinaturas.".
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.200.02
+:c950.10.200.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "950.10.200.02";
+	:titulo "Apreciação e admissão de candidaturas a atos eleitorais: apreciação e decisão de candidaturas";
+	:temPai :c950.10.200 ;
+	:classeStatus "A" ;
+	:descricao "Análise e deliberação sobre as candidaturas apresentadas.
+Inicia com a verificação das condições de admissibilidade e termina com a publicitação das listas.
+Inclui verificação da legalidade e regularidade das candidaturas, notificação de aceitação ou de rejeição de candidaturas, reclamação da decisão e sorteio das listas apresentadas.
+Inclui ainda o sorteio das listas apresentadas a constar nos boletins de voto.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.201_1
+:na_c950.10.201_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Admissão de propostas para referendos nacionais, regionais e locais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.201_2
+:na_c950.10.201_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Propostas da iniciativa de deputados, de grupos parlamentares, do Governo ou de grupos de cidadãos eleitores".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.10.201_1
+:ne_c950.10.201_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A fiscalização preventiva das iniciativas de referendo, ou da verificação da sua constitucionalidade e legalidade, deve ser considerada em “Administração da justiça” (600.30)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.201
+:c950.10.201 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "950.10.201";
+	:titulo "Apreciação e admissão de propostas de referendo";
+	:temPai :c950.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_PR ;
+	:temParticipanteIniciador :org_AR ;
+	:temParticipanteIniciador :org_ALR ;
+	:temParticipanteIniciador :org_AM ;
+	:temParticipanteIniciador :org_AF ;
+	:temParticipanteIniciador :org_CM ;
+	:temDono :org_TC ;
+	:temNotaAplicacao :na_c950.10.201_1 ;
+	:temNotaAplicacao :na_c950.10.201_2 ;
+	:temNotaExclusao :ne_c950.10.201_1 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c600.30.712 ;
+	:temRelProc :c950.10.001 ;
+	:temRelProc :c950.10.400 ;
+	:temLegislacao :leg_206 ;
+	:temLegislacao :leg_285 ;
+	:temLegislacao :leg_1238 ;
+	:temLegislacao :leg_14 ;
+	:temLegislacao :leg_29 ;
+	:temLegislacao :leg_71 ;
+	:temLegislacao :leg_307 ;
+	:temLegislacao :leg_32 ;
+	:temLegislacao :leg_502 ;
+	:temLegislacao :leg_206 ;
+	:temLegislacao :leg_285 ;
+	:classeStatus "A" ;
+	:descricao "Análise e aceitação de propostas de referendo.
+Inicia com a apresentação das iniciativas de proposta e termina com o envio da resolução para convocação de referendo.
+Inclui análise da proposta de referendo, consulta de entidades, notificação de interessados, discussão e votação, elaboração de projeto de resolução e decisão.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.400_1
+:na_c950.10.400_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Preparação e entrega de boletins de voto".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.400_2
+:na_c950.10.400_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Preparação e entrega de cadernos de eleitorais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.400_3
+:na_c950.10.400_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Preparação e entrega de manuais de procedimentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.10.400_1
+:ne_c950.10.400_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A elaboração gráfica dos manuais de procedimentos deverá ser considerada em 900.20.201 – Edição e publicação de conteúdos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.400
+:c950.10.400 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "950.10.400";
+	:titulo "Apoio técnico e logístico ao processo eleitoral e referendário";
+	:temPai :c950.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_AL ;
+	:temParticipanteAssessor :org_Cns ;
+	:temDono :org_SGMAI ;
+	:temNotaAplicacao :na_c950.10.400_1 ;
+	:temNotaAplicacao :na_c950.10.400_2 ;
+	:temNotaAplicacao :na_c950.10.400_3 ;
+	:temNotaExclusao :ne_c950.10.400_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c400.10.001 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c900.20.201 ;
+	:temRelProc :c950.10.001 ;
+	:temRelProc :c950.10.200 ;
+	:temRelProc :c950.10.201 ;
+	:temRelProc :c950.10.401 ;
+	:temRelProc :c950.10.600 ;
+	:temRelProc :c950.10.601 ;
+	:temRelProc :c950.10.602 ;
+	:temLegislacao :leg_14 ;
+	:temLegislacao :leg_29 ;
+	:temLegislacao :leg_71 ;
+	:temLegislacao :leg_317 ;
+	:temLegislacao :leg_32 ;
+	:temLegislacao :leg_517 ;
+	:temLegislacao :leg_206 ;
+	:temLegislacao :leg_288 ;
+	:temLegislacao :leg_1267 ;
+	:temLegislacao :leg_592 ;
+	:temLegislacao :leg_1283 ;
+	:classeStatus "A" ;
+	:descricao "Organização, conceção e disponibilização de impressos, equipamentos e outros materiais necessários à realização dos atos eleitorais e referendários.
+Inicia com a definição do calendário eleitoral e referendário e termina com a entrega dos materiais a utilizar.
+Inclui definição do formato e da cor dos boletins de voto, organização dos cadernos de recenseamento eleitoral atendendo às mesas de voto, verificação do estado do material disponibilizado e comunicação dos procedimentos a observar.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.401_1
+:na_c950.10.401_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Constituição das assembleias de voto".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.401_2
+:na_c950.10.401_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Constituição das mesas de voto".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.401
+:c950.10.401 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "950.10.401";
+	:titulo "Constituição de assembleias de voto";
+	:temPai :c950.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_SGMAI ;
+	:temDono :org_AL ;
+	:temDono :org_DGACCP ;
+	:temNotaAplicacao :na_c950.10.401_1 ;
+	:temNotaAplicacao :na_c950.10.401_2 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c400.10.001 ;
+	:temRelProc :c950.10.400 ;
+	:temRelProc :c950.10.602 ;
+	:temLegislacao :leg_14 ;
+	:temLegislacao :leg_29 ;
+	:temLegislacao :leg_71 ;
+	:temLegislacao :leg_317 ;
+	:temLegislacao :leg_32 ;
+	:temLegislacao :leg_517 ;
+	:temLegislacao :leg_288 ;
+	:temLegislacao :leg_1267 ;
+	:classeStatus "A" ;
+	:descricao "Composição das assembleias e mesas de voto.
+Inicia com a determinação do local de funcionamento da assembleia de voto e termina com a afixação do mapa definitivo das assembleias e secções de voto através de edital.
+Inclui determinação do número de secções de voto, escolha dos membros das mesas, designação e credenciação dos delegados das candidaturas concorrentes, afixação dos desdobramentos e anexações de secções de voto.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.402_1
+:na_c950.10.402_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atribuição de tempos de antena e relações com os partidos políticos, no âmbito do desenrolar dos processos eleitorais e referendários".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.402
+:c950.10.402 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "950.10.402";
+	:titulo "Definição e atribuição de meios para propaganda eleitoral";
+	:temPai :c950.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_AL ;
+	:temDono :org_CNE ;
+	:temNotaAplicacao :na_c950.10.402_1 ;
+	:temRelProc :c950.10.001 ;
+	:temLegislacao :leg_29 ;
+	:temLegislacao :leg_317 ;
+	:temLegislacao :leg_377 ;
+	:classeStatus "A" ;
+	:descricao "Determinação e concessão de meios necessários ao desenvolvimento das atividades de propaganda eleitoral.
+Inicia com a determinação dos espaços e meios reservados para a propaganda eleitoral e termina com o estabelecimento de prazos para a remoção dos materiais utilizados.
+Inclui estabelecimento e distribuição dos tempos reservados para o exercício do direito de antena, comunicação à entidade competente da publicação nos média de matérias respeitantes à campanha eleitoral, requisição de espaços e comunicação da sua disponibilização para ações de campanha eleitoral, estabelecimento de locais para afixação de materiais de propaganda eleitoral.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.600_1
+:na_c950.10.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atividade desenvolvida pela Assembleia de apuramento distrital de resultados".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.600
+:c950.10.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "950.10.600";
+	:titulo "Controlo de operações de votação e apuramento parcial de resultados";
+	:temPai :c950.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteExecutor :org_AV ;
+	:temParticipanteExecutor :org_AADR ;
+	:temParticipanteExecutor :org_AL ;
+	:temDono :org_Trb ;
+	:temNotaAplicacao :na_c950.10.600_1 ;
+	:temRelProc :c950.10.001 ;
+	:temRelProc :c950.10.400 ;
+	:temRelProc :c950.10.602 ;
+	:temLegislacao :leg_317 ;
+	:temLegislacao :leg_29 ;
+	:classeStatus "A" ;
+	:descricao "Verificação do regular funcionamento das assembleias de voto e apuramento dos resultados nelas obtidos.
+Inicia com a declaração de abertura das assembleias e mesas de voto e termina com a entrega da documentação e comunicação dos resultados do escrutínio parcial à assembleia de apuramento geral.
+Inclui descarga nos cadernos eleitorais, contagem de votos antecipados, requisições de forças de segurança, quando necessário, receção de dúvidas, reclamações, protestos e contraprotestos relacionados com as operações eleitorais, contagem e devolução de boletins de voto não utilizados e inutilizados, contagem do número de votos introduzidos em urna, contagem e separação dos votos brancos, votos nulos e votos nas diferentes listas, envio dos votos nulos e votos sob protesto ou reclamação à assembleia de apuramento geral, elaboração das atas das operações de votação e apuramento e publicação em edital dos resultados do escrutínio parcial.".
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.600.01
+:c950.10.600.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "950.10.600.01";
+	:titulo "Controlo de operações de votação e apuramento parcial de resultados: controlo nas assembleias e mesas de voto";
+	:temPai :c950.10.600 ;
+	:classeStatus "A" ;
+	:descricao "Acompanhamento do funcionamento das assembleias de voto.
+Inicia com a declaração de abertura das assembleias e mesas de voto e termina com o envio dos votos nulos e votos sob protesto ou reclamação à assembleia de apuramento geral.
+Inclui descarga nos cadernos eleitorais, contagem de votos antecipados, requisições de forças de segurança, quando necessário, receção de dúvidas, reclamações, protestos e contraprotestos relacionados com as operações eleitorais, contagem e devolução de boletins de voto não utilizados e inutilizados, contagem do número de votos introduzidos em urna, contagem e separação dos votos brancos, votos nulos e votos nas diferentes listas.".
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.600.02
+:c950.10.600.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "950.10.600.02";
+	:titulo "Controlo de operações de votação e apuramento parcial de resultados: apuramento e comunicação";
+	:temPai :c950.10.600 ;
+	:classeStatus "A" ;
+	:descricao "Apuramento parcial de resultados.
+Inicia com a elaboração das atas das operações de votação e apuramento termina com a comunicação dos resultados do escrutínio parcial à assembleia de apuramento geral.
+Inclui a elaboração do edital com os resultados do escrutínio parcial.".
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.601
+:c950.10.601 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "950.10.601";
+	:titulo "Constituição de assembleias de apuramento geral";
+	:temPai :c950.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_CSM ;
+	:temParticipanteComunicador :org_AL ;
+	:temDono :org_SGMAI ;
+	:temDono :org_DGACCP ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c400.10.001 ;
+	:temRelProc :c400.10.004 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c900.20.201 ;
+	:temRelProc :c950.10.400 ;
+	:temLegislacao :leg_14 ;
+	:temLegislacao :leg_29 ;
+	:temLegislacao :leg_71 ;
+	:temLegislacao :leg_317 ;
+	:temLegislacao :leg_32 ;
+	:temLegislacao :leg_517 ;
+	:temLegislacao :leg_206 ;
+	:temLegislacao :leg_288 ;
+	:temLegislacao :leg_1267 ;
+	:classeStatus "A" ;
+	:descricao "Composição de assembleias responsáveis pela validação de todas as operações de votação.
+Inicia com a designação dos elementos que constituem a assembleia de apuramento geral e termina com a divulgação da sua constituição através de edital.
+Inclui notificação dos designados para a assembleia de apuramento geral e indicação de representantes das diferentes candidaturas.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.602_1
+:na_c950.10.602_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Abertura e lançamento em urna dos votos dos emigrantes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.602_2
+:na_c950.10.602_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Assembleias de apuramento geral da votação dos emigrantes (círculo da Europa e fora da Europa)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.602
+:c950.10.602 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "950.10.602";
+	:titulo "Apuramento geral de resultados";
+	:temPai :c950.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_CNE ;
+	:temParticipanteAssessor :org_SGMAI ;
+	:temParticipanteAssessor :org_AL ;
+	:temDono :org_TC ;
+	:temDono :org_Trb ;
+	:temNotaAplicacao :na_c950.10.602_1 ;
+	:temNotaAplicacao :na_c950.10.602_2 ;
+	:temRelProc :c400.10.031 ;
+	:temRelProc :c400.10.032 ;
+	:temRelProc :c950.10.400 ;
+	:temRelProc :c950.10.401 ;
+	:temRelProc :c950.10.600 ;
+	:temLegislacao :leg_14 ;
+	:temLegislacao :leg_29 ;
+	:temLegislacao :leg_71 ;
+	:temLegislacao :leg_317 ;
+	:temLegislacao :leg_32 ;
+	:temLegislacao :leg_517 ;
+	:temLegislacao :leg_288 ;
+	:temLegislacao :leg_1267 ;
+	:classeStatus "A" ;
+	:descricao "Verificação da contagem de votos e proclamação dos resultados obtidos em atos eleitorais e referendários.
+Inicia com a receção da documentação enviada pelas assembleias de apuramento parcial e termina com a proclamação e publicitação dos resultados finais.
+Inclui verificação do número total de eleitores inscritos e de votantes, verificação do número total de votos em branco e votos nulos, verificação dos números totais de votos obtidos por cada lista, distribuição dos mandatos pelas diversas listas, determinação dos candidatos eleitos por cada lista, decisão sobre as reclamações e protestos, elaboração da ata do apuramento geral, envio de exemplares da ata à entidade competente, elaboração do mapa dos resultados oficiais das eleições e o seu envio para publicação em Diário da República.".
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.602.01
+:c950.10.602.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "950.10.602.01";
+	:titulo "Apuramento geral de resultados: tratamento dos resultados";
+	:temPai :c950.10.602 ;
+	:classeStatus "A" ;
+	:descricao "Verificação, contagem de votos e distribuição de mandatos.
+Inicia com a receção da documentação enviada pelas assembleias de voto e termina com a indicação dos candidatos eleitos por cada lista
+Inclui verificação do número total de eleitores inscritos e de votantes, verificação do número total de votos em branco e votos nulos, verificação dos números totais de votos obtidos por cada lista, distribuição dos mandatos pelas diversas listas, decisão sobre as reclamações e protestos.".
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.602.02
+:c950.10.602.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "950.10.602.02";
+	:titulo "Apuramento geral de resultados: publicitação";
+	:temPai :c950.10.602 ;
+	:classeStatus "A" ;
+	:descricao "Proclamação dos resultados obtidos em atos eleitorais e referendários.
+Inicia com a elaboração da ata do apuramento geral e termina com o envio dos resultados oficiais para publicação em Diário da República.
+Inclui o envio de exemplares da ata à entidade competente, elaboração do mapa dos resultados oficiais das eleições.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.20_1
+:na_c950.20_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reclamações e queixas expressas no \"livro amarelo\" ou equivalente;".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.20_2
+:na_c950.20_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Opiniões expressas em \"livro de agradecimentos\";".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.20_3
+:na_c950.20_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Participações, petições, abaixo-assinados, sugestões ou interpelações de cidadãos individuais ou constituídos em entidades jurídicas.".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.20_1
+:ne_c950.20_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As denúncias, notícias ou queixas de crime apresentadas aos órgãos de polícia criminal ou comunicadas ao Ministério Público devem ser consideradas em \"Administração da justiça/ Prevenção e investigação criminal\" (600.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.20_2
+:ne_c950.20_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As reclamações que ocorram no quadro de um determinado procedimento administrativo devem ser consideradas no processo em causa (por exemplo, reclamação da avaliação do desempenho individual deve ser considerada em \"Administração de relações de trabalho/ Gestão de relações individuais de trabalho\" (250.20).".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.20_3
+:ne_c950.20_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As iniciativas legislativas de grupos de cidadãos devem ser consideradas em \"Ordenamento jurídico e normativo/ Elaboração de diplomas jurídico-normativos e de normas técnicas\" (100.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.20
+:c950.20 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "950.20";
+	:titulo "Processamento de ações peticionárias, reclamações e manifestações de congratulação";
+	:temPai :c950 ;
+	:temNotaAplicacao :na_c950.20_1 ;
+	:temNotaAplicacao :na_c950.20_2 ;
+	:temNotaAplicacao :na_c950.20_3 ;
+	:temNotaExclusao :ne_c950.20_1 ;
+	:temNotaExclusao :ne_c950.20_2 ;
+	:temNotaExclusao :ne_c950.20_3 ;
+	:classeStatus "A" ;
+	:descricao "Compreende as atividades de processamento dos atos em que a sociedade toma a iniciativa de se manifestar espontaneamente relativamente a serviços, atos ou políticas públicas.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_1
+:na_c950.20.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reclamações em Livro Amarelo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_2
+:na_c950.20.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reclamações em Livro Vermelho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_3
+:na_c950.20.001_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Queixas ou denúncias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_4
+:na_c950.20.001_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Sugestões e opiniões".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_5
+:na_c950.20.001_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reclamações setoriais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.20.001_1
+:ne_c950.20.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As reclamações, protestos e contraprotestos relacionadas com os atos eleitorais devem ser consideradas em 950.10.602 – Apuramento geral dos resultados".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.20.001_2
+:ne_c950.20.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As reclamações efetuadas no âmbito de procedimentos concursais e em fase de audiência de interessados devem ser considerados no respetivo processo".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.20.001_3
+:ne_c950.20.001_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As reclamações efetuadas no âmbito de candidaturas devem ser considerados no respetivo processo".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.20.001
+:c950.20.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "950.20.001";
+	:titulo "Processamento de petições, reclamações e sugestões";
+	:temPai :c950.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_AP ;
+	:temDono :org_ER ;
+	:temDono :org_AL ;
+	:temNotaAplicacao :na_c950.20.001_1 ;
+	:temNotaAplicacao :na_c950.20.001_2 ;
+	:temNotaAplicacao :na_c950.20.001_3 ;
+	:temNotaAplicacao :na_c950.20.001_4 ;
+	:temNotaAplicacao :na_c950.20.001_5 ;
+	:temNotaExclusao :ne_c950.20.001_1 ;
+	:temNotaExclusao :ne_c950.20.001_2 ;
+	:temNotaExclusao :ne_c950.20.001_3 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c300.10.002 ;
+	:temRelProc :c300.30.008 ;
+	:temRelProc :c500.10.300 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c500.20 ;
+	:temLegislacao :leg_1211 ;
+	:classeStatus "A" ;
+	:descricao "Tratamento de petições, reclamações e sugestões relativas ao funcionamento dos serviços, ou sobre as áreas de atuação da organização.
+Inicia com a receção da reclamação ou sugestão e termina com resposta ao interessado.
+Inclui análise da situação exposta e articulação com os responsáveis do serviço, envio ao organismo de tutela do serviço, reencaminhamento das reclamações para as entidades reguladoras e fiscalizadoras competentes (quando devido).".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.300_1
+:na_c950.20.300_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Registos efetuados em \"Livro de agradecimentos\"".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.300_2
+:na_c950.20.300_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Registos efetuados em formulários de elogio disponibilizados aos cidadãos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.20.300_1
+:ne_c950.20.300_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os louvores decorrentes do desempenho profissional devem ser considerados em 250.20.803 – Atribuição de prémios de desempenho, louvores ou medalhas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.20.300
+:c950.20.300 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "950.20.300";
+	:titulo "Processamento de elogios e agradecimentos";
+	:temPai :c950.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temParticipanteApreciador :org_AP ;
+	:temParticipanteComunicador :org_AP ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c950.20.300_1 ;
+	:temNotaAplicacao :na_c950.20.300_2 ;
+	:temNotaExclusao :ne_c950.20.300_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.301 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c250.20.800 ;
+	:temRelProc :c300.30.008 ;
+	:temLegislacao :leg_1211 ;
+	:classeStatus "A" ;
+	:descricao "Receção e tratamento dos elogios e agradecimentos pelo funcionamento dos serviços.
+Inicia com a receção do elogio, agradecimento ou louvor, e termina com a resposta a esses mesmos elogios, agradecimentos e louvores.
+Inclui a análise da situação exposta e articulação com os responsáveis dos serviços.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.20.600_1
+:ne_c950.20.600_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os avisos relacionados com o exercício do direito de greve, reuniões e manifestações de trabalhadores deverão ser considerados em 250.30.300 – Ações coletivas de defesa e promoção de interesses sócio-profissionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.20.600
+:c950.20.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "950.20.600";
+	:titulo "Processamento de avisos de exercício do direito de reunião em locais públicos";
+	:temPai :c950.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_AP ;
+	:temDono :org_FS ;
+	:temDono :org_AL ;
+	:temNotaExclusao :ne_c950.20.600_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c300.30.008 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c550.10.001 ;
+	:temRelProc :c550.10.002 ;
+	:temRelProc :c550.10.004 ;
+	:temRelProc :c550.20.004 ;
+	:temLegislacao :leg_9 ;
+	:classeStatus "A" ;
+	:descricao "Receção e tratamento de avisos apresentados por pessoas ou entidades que pretendem a realização de reuniões, comícios, manifestações ou desfiles em lugares públicos ou abertos ao público.
+Inicia com a comunicação da data, hora e local das reuniões, manifestações e desfiles, e termina com a comunicação de concordância ou dos eventuais constrangimentos relativos à realização dessas ações.
+Inclui análise do pedido.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.30_1
+:na_c950.30_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Distinções honoríficas atribuídas a qualquer cidadão, a militares, a atletas, entre outros".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.30_1
+:ne_c950.30_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As distinções atribuídas no âmbito do processo de avaliação do desempenho individual de trabalhador devem ser consideradas em \"Administração de relações de trabalho/ Gestão de relações individuais de trabalho\" (250.20)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.30_2
+:ne_c950.30_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As distinções atribuídas a representantes de outros Estados ou entidades externas, enquanto atos de política externa, devem ser consideradas em \"Execução da política externa/ Projetos de execução da política externa\" (200.30)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.30_3
+:ne_c950.30_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo " O mesmo se aplica a distinções atribuídas por outros países ou organismos internacionais a entidades públicas nacionais ou representantes do Estado português".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.30_4
+:ne_c950.30_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A organização de cerimónias deve ser considerada em \"Dinamização e comunicação institucional/ Execução de atividades de dinamização da sociedade\" (900.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.30
+:c950.30 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "950.30";
+	:titulo "Atribuição de distinções honoríficas";
+	:temPai :c950 ;
+	:temNotaAplicacao :na_c950.30_1 ;
+	:temNotaExclusao :ne_c950.30_1 ;
+	:temNotaExclusao :ne_c950.30_2 ;
+	:temNotaExclusao :ne_c950.30_3 ;
+	:temNotaExclusao :ne_c950.30_4 ;
+	:classeStatus "A" ;
+	:descricao "Compreende as atividades relativas à seleção de pessoas ou outras entidades a distinguir e atribuição de condecorações, ordens honoríficas ou qualquer outra distinção ou recompensa atribuída a título honorífico.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.30.001_1
+:na_c950.30.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atribuição de medalhas de serviços distintos e de mérito de segurança pública".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.30.001_2
+:na_c950.30.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Atribuição de medalha comemorativa".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.30.001_1
+:ne_c950.30.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os louvores decorrentes do desempenho profissional devem ser considerados em 250.20.803 – Atribuição de prémios de desempenho, louvores ou medalhas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.30.001_2
+:ne_c950.30.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pagamentos devidos aos agraciados das ordens devem ser considerados em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.30.001_3
+:ne_c950.30.001_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As cerimónias de entrega das distinções devem ser consideradas em 900.10.500 – Organização e participação em homenagens e cerimónias comemorativas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c950.30.001
+:c950.30.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "950.30.001";
+	:titulo "Reconhecimento por mérito e serviços prestados";
+	:temPai :c950.30 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_AP ;
+	:temDono :org_PR ;
+	:temDono :org_AL ;
+	:temDono :org_FA ;
+	:temDono :org_FS ;
+	:temDono :org_IPDJ ;
+	:temDono :org_GEPAC ;
+	:temNotaAplicacao :na_c950.30.001_1 ;
+	:temNotaAplicacao :na_c950.30.001_2 ;
+	:temNotaExclusao :ne_c950.30.001_1 ;
+	:temNotaExclusao :ne_c950.30.001_2 ;
+	:temNotaExclusao :ne_c950.30.001_3 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c150.20.301 ;
+	:temRelProc :c250.20.800 ;
+	:temRelProc :c900.10.500 ;
+	:temRelProc :c900.20.601 ;
+	:temRelProc :c900.20.602 ;
+	:temLegislacao :leg_895 ;
+	:temLegislacao :leg_337 ;
+	:classeStatus "A" ;
+	:descricao "Distinção de pessoas naturais, residentes ou sediadas em determinado território e cidadãos, empresas, grupo e coletividades que, por atos praticados, tenham, de forma notória e perene, contribuído para a valorização desse mesmo território ou de uma atividade específica.
+Inicia com a apresentação da proposta de distinção e termina com a atribuição de medalha ou outro elemento distintivo.
+Inclui elaboração da nota biográfica, avaliação do mérito, aprovação da distinção, solicitação de cunhagem de medalha ou elaboração de diploma, quando devido, e informação aos distinguidos.".
+
+### Classes950 termina aqui.
+

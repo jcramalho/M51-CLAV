@@ -181,15 +181,15 @@ Inclui a produção de informações estratégicas e de segurança e a produçã
 	:NotaExclusao ;
 	:conteudo "Os instrumentos de política que resultam de entendimentos supranacionais (por exemplo, com incidência nos países da União Europeia, ou com incidência em Portugal e outro país) devem ser considerados em \"Execução da política externa/ Definição de políticas conjuntas e dos instrumentos de regulação\" (200.10)".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10_3
-:ne_c150.10_3 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A execução de projetos de cooperação interinstitucional deve ser considerada no âmbito da função que cumpre (por exemplo, projetos de investigação científica devem ser considerados em \"Prestação de Serviços técnicos e científicos, investigação e desenvolvimento\" (800), projetos de formação em \"Prestação de serviços de ensino e formação\" (750), projetos de cooperação para o desenvolvimento em \"Execução da política externa\" (200))".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10_2
 :ne_c150.10_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A negociação e celebração de acordos de cooperação interinstitucional estabelecidos no quadro das relações internacionais devem ser considerados em \"Execução da política externa/ Definição de políticas conjuntas e dos instrumentos de regulação\" (200.10), ainda que celebrados entre organizações congéneres".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.10_3
+:ne_c150.10_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A execução de projetos de cooperação interinstitucional deve ser considerada no âmbito da função que cumpre (por exemplo, projetos de investigação científica devem ser considerados em \"Prestação de Serviços técnicos e científicos, investigação e desenvolvimento\" (800), projetos de formação em \"Prestação de serviços de ensino e formação\" (750), projetos de cooperação para o desenvolvimento em \"Execução da política externa\" (200))".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c150.10
 :c150.10 rdf:type owl:NamedIndividual ,
@@ -259,15 +259,34 @@ Inclui, ainda, a celebração e acompanhamento de acordos de cooperação interi
 	:temPai :c150.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_AP ;
 	:temDono :org_CM ;
 	:temDono :org_RA ;
 	:temDono :org_AL ;
-	:temParticipanteAssessor :org_AP ;
 	:temNotaAplicacao :na_c150.10.001_1 ;
 	:temNotaExclusao :ne_c150.10.001_1 ;
 	:temNotaExclusao :ne_c150.10.001_2 ;
-	:temLegislacao :leg_1059 ;
-	:temLegislacao :leg_1058 ;
+	:temRelProc :c100.10.001 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.300 ;
+	:temRelProc :c150.10.400 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c150.10.702 ;
+	:temRelProc :c150.20.100 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.301 ;
+	:temRelProc :c150.40.001 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c200.10.001 ;
+	:temRelProc :c200.10.002 ;
+	:temRelProc :c300.20.001 ;
+	:temRelProc :c300.20.200 ;
+	:temRelProc :c300.20.400 ;
+	:temRelProc :c900.20.201 ;
+	:temLegislacao :leg_1063 ;
+	:temLegislacao :leg_1062 ;
 	:temLegislacao :leg_340 ;
 	:temLegislacao :leg_220 ;
 	:temLegislacao :leg_111 ;
@@ -375,8 +394,8 @@ Inclui propostas de alteração apresentadas pelo órgão executivo, revisões, 
 	:temPai :c150.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteAssessor :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c150.10.100_1 ;
 	:temNotaAplicacao :na_c150.10.100_2 ;
 	:temNotaAplicacao :na_c150.10.100_3 ;
@@ -395,14 +414,45 @@ Inclui propostas de alteração apresentadas pelo órgão executivo, revisões, 
 	:temNotaAplicacao :na_c150.10.100_16 ;
 	:temNotaAplicacao :na_c150.10.100_17 ;
 	:temNotaExclusao :ne_c150.10.100_1 ;
-	:temLegislacao :leg_1059 ;
-	:temLegislacao :leg_1058 ;
+	:temRelProc :c100.10.001 ;
+	:temRelProc :c100.10.002 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.300 ;
+	:temRelProc :c150.10.400 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c150.10.501 ;
+	:temRelProc :c150.10.600 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c150.10.702 ;
+	:temRelProc :c150.20.100 ;
+	:temRelProc :c150.20.102 ;
+	:temRelProc :c150.20.301 ;
+	:temRelProc :c150.40.001 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c200.10.001 ;
+	:temRelProc :c200.10.002 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c200.30.301 ;
+	:temRelProc :c200.30.302 ;
+	:temRelProc :c300.20.400 ;
+	:temRelProc :c800.10.301 ;
+	:temRelProc :c800.10.302 ;
+	:temRelProc :c850.10.002 ;
+	:temRelProc :c850.10.003 ;
+	:temRelProc :c850.10.005 ;
+	:temRelProc :c850.10.500 ;
+	:temRelProc :c900.20.201 ;
+	:temRelProc :c950.10.201 ;
+	:temLegislacao :leg_1063 ;
+	:temLegislacao :leg_1062 ;
 	:temLegislacao :leg_353 ;
 	:temLegislacao :leg_340 ;
 	:temLegislacao :leg_220 ;
 	:temLegislacao :leg_111 ;
 	:temLegislacao :leg_110 ;
-	:temLegislacao :leg_759 ;
+	:temLegislacao :leg_762 ;
 	:classeStatus "A" ;
 	:descricao "Definição de estratégias, princípios e programas de topo para o desenvolvimento de políticas específicas da administração nacional, regional e local, aplicados a todos os setores de atividade, independentemente da sua natureza jurídica, a realizar a médio e longo prazo.
 Inicia com a proposta de elaboração ou revisão e termina com o envio da versão aprovada para publicitação.
@@ -431,12 +481,35 @@ Inclui diagnóstico da situação sobre o qual incide a política setorial defin
 	:temPai :c150.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_CM ;
 	:temParticipanteApreciador :org_AP ;
+	:temDono :org_CM ;
 	:temNotaAplicacao :na_c150.10.200_1 ;
 	:temNotaAplicacao :na_c150.10.200_2 ;
 	:temNotaExclusao :ne_c150.10.200_1 ;
-	:temLegislacao :leg_585 ;
+	:temRelProc :c100.10.200 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.300 ;
+	:temRelProc :c150.10.400 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c150.10.501 ;
+	:temRelProc :c150.10.600 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c150.10.702 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c450.10.230 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c550.20.003 ;
+	:temRelProc :c550.20.005 ;
+	:temRelProc :c700.20.101 ;
+	:temRelProc :c700.20.102 ;
+	:temRelProc :c800.10.301 ;
+	:temRelProc :c800.10.302 ;
+	:temRelProc :c850.10.002 ;
+	:temRelProc :c850.10.003 ;
+	:temRelProc :c900.20.201 ;
+	:temLegislacao :leg_586 ;
 	:temLegislacao :leg_485 ;
 	:temLegislacao :leg_508 ;
 	:temLegislacao :leg_329 ;
@@ -464,10 +537,30 @@ Inclui elaboração de versões do instrumento, concertação com entidades, dis
 	:temPai :c150.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_CM ;
 	:temParticipanteApreciador :org_AP ;
+	:temDono :org_CM ;
 	:temNotaAplicacao :na_c150.10.300_1 ;
 	:temNotaExclusao :ne_c150.10.300_1 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.400 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c150.10.600 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c150.10.702 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c450.10.230 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c550.20.003 ;
+	:temRelProc :c550.20.005 ;
+	:temRelProc :c700.20.101 ;
+	:temRelProc :c700.20.102 ;
+	:temRelProc :c800.10.302 ;
+	:temRelProc :c850.10.002 ;
+	:temRelProc :c850.10.003 ;
+	:temRelProc :c900.20.201 ;
 	:temLegislacao :leg_238 ;
 	:classeStatus "A" ;
 	:descricao "Definição de planos ou outras ferramentas operacionais que regulam a organização do território e de todos os setores de atividade nele desenvolvido de forma direta ou indireta pelas entidades competentes a nível regional.
@@ -512,17 +605,34 @@ Inclui elaboração de versões do instrumento, concertação com entidades, dis
 	:temPai :c150.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_AL ;
 	:temParticipanteApreciador :org_ACE ;
+	:temDono :org_AL ;
 	:temNotaAplicacao :na_c150.10.400_1 ;
 	:temNotaAplicacao :na_c150.10.400_2 ;
 	:temNotaAplicacao :na_c150.10.400_3 ;
 	:temNotaAplicacao :na_c150.10.400_4 ;
 	:temNotaExclusao :ne_c150.10.400_1 ;
 	:temNotaExclusao :ne_c150.10.400_2 ;
-	:temLegislacao :leg_1155 ;
-	:temLegislacao :leg_608 ;
-	:temLegislacao :leg_590 ;
+	:temRelProc :c100.10.400 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.300 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c150.10.600 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c150.10.702 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c450.10.230 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c550.20.005 ;
+	:temRelProc :c700.20.101 ;
+	:temRelProc :c700.20.102 ;
+	:temRelProc :c900.20.201 ;
+	:temLegislacao :leg_1159 ;
+	:temLegislacao :leg_609 ;
+	:temLegislacao :leg_591 ;
 	:temLegislacao :leg_238 ;
 	:classeStatus "A" ;
 	:descricao "Definição de planos ou outras ferramentas operacionais que regulam a organização do território e de todos os setores de atividade nele desenvolvido de forma direta ou indireta pelas entidades competentes a nível municipal e intermunicipal.
@@ -596,15 +706,40 @@ Inclui elaboração de versões do instrumento, concertação com entidades, dis
 	:temPai :c150.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteAssessor :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c150.10.500_1 ;
 	:temNotaAplicacao :na_c150.10.500_2 ;
 	:temNotaAplicacao :na_c150.10.500_3 ;
 	:temNotaExclusao :ne_c150.10.500_1 ;
 	:temNotaExclusao :ne_c150.10.500_2 ;
 	:temNotaExclusao :ne_c150.10.500_3 ;
-	:temLegislacao :leg_1059 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.300 ;
+	:temRelProc :c150.10.400 ;
+	:temRelProc :c150.10.600 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c200.30.001 ;
+	:temRelProc :c200.30.301 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c650.10.400 ;
+	:temRelProc :c650.10.401 ;
+	:temRelProc :c650.10.500 ;
+	:temRelProc :c800.10.302 ;
+	:temRelProc :c800.20.001 ;
+	:temRelProc :c800.20.002 ;
+	:temRelProc :c800.20.500 ;
+	:temRelProc :c850.10.002 ;
+	:temRelProc :c850.10.003 ;
+	:temRelProc :c850.10.005 ;
+	:temRelProc :c850.10.500 ;
+	:temRelProc :c850.10.600 ;
+	:temRelProc :c850.40.001 ;
+	:temRelProc :c850.40.500 ;
+	:temRelProc :c900.20.601 ;
+	:temLegislacao :leg_1063 ;
 	:temLegislacao :leg_340 ;
 	:temLegislacao :leg_266 ;
 	:classeStatus "A" ;
@@ -640,12 +775,17 @@ Inclui proposta do texto, discussão, negociação e redação final.
 	:temPai :c150.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_CES ;
 	:temParticipanteApreciador :org_Gov ;
 	:temParticipanteApreciador :org_AL ;
+	:temDono :org_CES ;
 	:temNotaExclusao :ne_c150.10.501_1 ;
 	:temNotaExclusao :ne_c150.10.501_2 ;
 	:temNotaExclusao :ne_c150.10.501_3 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.702 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c900.20.601 ;
 	:temLegislacao :leg_114 ;
 	:temLegislacao :leg_111 ;
 	:classeStatus "A" ;
@@ -661,12 +801,43 @@ Inclui consulta de entidades, apresentação de contrapropostas dos parceiros so
 	:temPai :c150.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteAssessor :org_AP ;
-	:temLegislacao :leg_1059 ;
+	:temDono :org_AP ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.300 ;
+	:temRelProc :c150.10.400 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c150.40.001 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c650.10 ;
+	:temRelProc :c650.20.600 ;
+	:temRelProc :c650.20.601 ;
+	:temRelProc :c650.20.602 ;
+	:temRelProc :c700.10.001 ;
+	:temRelProc :c700.10.002 ;
+	:temRelProc :c700.10.003 ;
+	:temRelProc :c700.20.001 ;
+	:temRelProc :c700.20.100 ;
+	:temRelProc :c700.20.101 ;
+	:temRelProc :c700.20.102 ;
+	:temRelProc :c700.20.200 ;
+	:temRelProc :c700.20.406 ;
+	:temRelProc :c800.10.001 ;
+	:temRelProc :c800.10.002 ;
+	:temRelProc :c800.10.301 ;
+	:temRelProc :c800.20.001 ;
+	:temRelProc :c800.20.002 ;
+	:temRelProc :c800.20.500 ;
+	:temRelProc :c850.10.002 ;
+	:temRelProc :c850.10.003 ;
+	:temRelProc :c850.10.005 ;
+	:temRelProc :c850.10.500 ;
+	:temLegislacao :leg_1063 ;
 	:temLegislacao :leg_340 ;
 	:temLegislacao :leg_266 ;
-	:temLegislacao :leg_1016 ;
+	:temLegislacao :leg_1020 ;
 	:classeStatus "A" ;
 	:descricao "Apreciação, verificação e medição periódica do impacto e do grau de cumprimento de metas e dos objetivos previstos em políticas, programas e planos que norteiam e regulam a organização do território e de todos os setores de atividade nele desenvolvido de forma direta ou indireta pelas entidades competentes a nível nacional, regional e municipal.
 Inicia com a elaboração de relatório sobre o balanço da execução e dos níveis de articulação das políticas e dos instrumentos operacionais implementados e termina com a remissão à entidade competente para a apreciação dos resultados.
@@ -707,15 +878,25 @@ Inclui recolha e tratamento de informação relevante, aprovação do relatório
 	:temPai :c150.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGAEP ;
 	:temParticipanteComunicador :org_AP ;
+	:temDono :org_DGAEP ;
 	:temNotaAplicacao :na_c150.10.601_1 ;
 	:temNotaAplicacao :na_c150.10.601_2 ;
 	:temNotaAplicacao :na_c150.10.601_3 ;
 	:temNotaExclusao :ne_c150.10.601_1 ;
 	:temNotaExclusao :ne_c150.10.601_2 ;
-	:temLegislacao :leg_898 ;
-	:temLegislacao :leg_854 ;
+	:temRelProc :c100.10.001 ;
+	:temRelProc :c150.40.001 ;
+	:temRelProc :c150.20.401 ;
+	:temRelProc :c150.20.403 ;
+	:temRelProc :c150.20.501 ;
+	:temRelProc :c300.20.400 ;
+	:temRelProc :c350.40.602 ;
+	:temRelProc :c400.10.003 ;
+	:temRelProc :c400.10.009 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_901 ;
+	:temLegislacao :leg_857 ;
 	:classeStatus "A" ;
 	:descricao "Identificação e atualização periódica de entidades públicas ou privadas com vista a habilitar os órgãos de governo próprios com a informação indispensável para a definição das políticas de Estado.
 Inicia com o carregamento e atualização de dados pelas entidades competentes e termina com a organização e tratamento de dados.
@@ -831,8 +1012,62 @@ Inclui a gestão da base de dados.".
 	:temNotaAplicacao :na_c150.10.700_15 ;
 	:temNotaExclusao :ne_c150.10.700_1 ;
 	:temNotaExclusao :ne_c150.10.700_2 ;
-	:temLegislacao :leg_1059 ;
-	:temLegislacao :leg_1207 ;
+	:temRelProc :c100.10.001 ;
+	:temRelProc :c100.10.002 ;
+	:temRelProc :c100.10.200 ;
+	:temRelProc :c100.10.400 ;
+	:temRelProc :c100.10.600 ;
+	:temRelProc :c100.10.800 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.300 ;
+	:temRelProc :c150.10.400 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c150.20.001 ;
+	:temRelProc :c150.20.101 ;
+	:temRelProc :c150.20.200 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.20.501 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c200.20.500 ;
+	:temRelProc :c200.30.001 ;
+	:temRelProc :c200.30.301 ;
+	:temRelProc :c200.30.302 ;
+	:temRelProc :c300.10.001 ;
+	:temRelProc :c300.10.003 ;
+	:temRelProc :c300.10.004 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c300.10.007 ;
+	:temRelProc :c300.10.008 ;
+	:temRelProc :c300.10.009 ;
+	:temRelProc :c300.10.010 ;
+	:temRelProc :c300.10.300 ;
+	:temRelProc :c300.10.301 ;
+	:temRelProc :c300.10.700 ;
+	:temRelProc :c300.20.001 ;
+	:temRelProc :c300.20.200 ;
+	:temRelProc :c300.20.400 ;
+	:temRelProc :c300.30.004 ;
+	:temRelProc :c300.40.001 ;
+	:temRelProc :c300.40.002 ;
+	:temRelProc :c300.40.003 ;
+	:temRelProc :c300.50.001 ;
+	:temRelProc :c300.50.002 ;
+	:temRelProc :c300.50.200 ;
+	:temRelProc :c300.50.201 ;
+	:temRelProc :c300.50.600 ;
+	:temRelProc :c450.20.002 ;
+	:temRelProc :c450.20.003 ;
+	:temRelProc :c450.20.505 ;
+	:temRelProc :c500.20.300 ;
+	:temRelProc :c850.10.001 ;
+	:temRelProc :c900.10.505 ;
+	:temRelProc :c950.10.201 ;
+	:temRelProc :c950.30.001 ;
+	:temLegislacao :leg_1063 ;
+	:temLegislacao :leg_1211 ;
 	:classeStatus "A" ;
 	:descricao "Apresentação, discussão e deliberação de todas as matérias e propostas submetidas aos órgãos com funções deliberativas.
 Inicia com a apresentação de propostas e termina com aprovação das decisões.
@@ -843,6 +1078,7 @@ Inclui convocatória, convite ou autorização para participar na reunião, defi
 	:Classe_N4;
 	:codigo "150.10.700.01";
 	:titulo "Reunião de órgãos deliberativos: preparação";
+	:temPai :c150.10.700 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com o agendamento da reunião e termina com o envio de convocatória.
 Inclui a definição de ordem de trabalhos e a apresentação de propostas para discussão.".
@@ -851,6 +1087,7 @@ Inclui a definição de ordem de trabalhos e a apresentação de propostas para 
 	:Classe_N4;
 	:codigo "150.10.700.02";
 	:titulo "Reunião de órgãos deliberativos: realização";
+	:temPai :c150.10.700 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com a redação da ata e termina com a sua aprovação.
 Inclui registo dos atos ocorridos em sessão.
@@ -907,8 +1144,57 @@ Inclui registo dos atos ocorridos em sessão.
 	:temNotaAplicacao :na_c150.10.701_5 ;
 	:temNotaAplicacao :na_c150.10.701_6 ;
 	:temNotaAplicacao :na_c150.10.701_7 ;
-	:temLegislacao :leg_1059 ;
-	:temLegislacao :leg_1207 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.300 ;
+	:temRelProc :c150.10.400 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c150.20.001 ;
+	:temRelProc :c150.20.101 ;
+	:temRelProc :c150.20.200 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.20.501 ;
+	:temRelProc :c200.10.001 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c200.20.500 ;
+	:temRelProc :c200.30.001 ;
+	:temRelProc :c200.30.301 ;
+	:temRelProc :c200.30.302 ;
+	:temRelProc :c300.10.001 ;
+	:temRelProc :c300.10.003 ;
+	:temRelProc :c300.10.004 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c300.10.007 ;
+	:temRelProc :c300.10.008 ;
+	:temRelProc :c300.10.009 ;
+	:temRelProc :c300.10.010 ;
+	:temRelProc :c300.10.300 ;
+	:temRelProc :c300.10.301 ;
+	:temRelProc :c300.10.302 ;
+	:temRelProc :c300.10.700 ;
+	:temRelProc :c300.20.001 ;
+	:temRelProc :c300.20.200 ;
+	:temRelProc :c300.20.400 ;
+	:temRelProc :c300.30.004 ;
+	:temRelProc :c300.40.001 ;
+	:temRelProc :c300.40.002 ;
+	:temRelProc :c300.40.003 ;
+	:temRelProc :c300.50.001 ;
+	:temRelProc :c300.50.002 ;
+	:temRelProc :c300.50.200 ;
+	:temRelProc :c300.50.201 ;
+	:temRelProc :c300.50.600 ;
+	:temRelProc :c450.20.002 ;
+	:temRelProc :c450.20.003 ;
+	:temRelProc :c450.20.505 ;
+	:temRelProc :c850.10.001 ;
+	:temRelProc :c900.10.505 ;
+	:temRelProc :c950.10.201 ;
+	:temRelProc :c950.30.001 ;
+	:temLegislacao :leg_1063 ;
+	:temLegislacao :leg_1211 ;
 	:classeStatus "A" ;
 	:descricao "Apresentação, discussão e deliberação de todas as matérias e propostas submetidas aos órgãos com funções executivas.
 Inicia com a apresentação de propostas e termina com aprovação das decisões.
@@ -918,6 +1204,7 @@ Inclui convocatória, convite ou autorização para participar na reunião, defi
 	:Classe_N4;
 	:codigo "150.10.701.01";
 	:titulo "Reunião de órgãos executivos: preparação";
+	:temPai :c150.10.701 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com o agendamento da reunião e termina com o envio de convocatória.
 Inclui apresentação de propostas para discussão, apresentação de moções, preparação de propostas de deliberação, produção de recomendações, e definição de ordem de trabalhos.".
@@ -926,6 +1213,7 @@ Inclui apresentação de propostas para discussão, apresentação de moções, 
 	:Classe_N4;
 	:codigo "150.10.701.02";
 	:titulo "Reunião de órgãos executivos: realização";
+	:temPai :c150.10.701 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com a redação da ata e termina com a sua aprovação.
 Inclui registo dos atos ocorridos em sessão.".
@@ -1027,8 +1315,8 @@ Inclui registo dos atos ocorridos em sessão.".
 	:temPai :c150.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteAssessor :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c150.10.702_1 ;
 	:temNotaAplicacao :na_c150.10.702_2 ;
 	:temNotaAplicacao :na_c150.10.702_3 ;
@@ -1047,10 +1335,23 @@ Inclui registo dos atos ocorridos em sessão.".
 	:temNotaAplicacao :na_c150.10.702_16 ;
 	:temNotaAplicacao :na_c150.10.702_17 ;
 	:temNotaExclusao :ne_c150.10.702_1 ;
-	:temLegislacao :leg_759 ;
-	:temLegislacao :leg_1264 ;
-	:temLegislacao :leg_1059 ;
-	:temLegislacao :leg_940 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.300 ;
+	:temRelProc :c150.10.400 ;
+	:temRelProc :c150.10.501 ;
+	:temRelProc :c150.20.001 ;
+	:temRelProc :c150.20.101 ;
+	:temRelProc :c150.20.200 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.20.501 ;
+	:temRelProc :c450.20.503 ;
+	:temRelProc :c450.20.504 ;
+	:temLegislacao :leg_762 ;
+	:temLegislacao :leg_1270 ;
+	:temLegislacao :leg_1063 ;
+	:temLegislacao :leg_944 ;
 	:classeStatus "A" ;
 	:descricao "Apresentação, apreciação e deliberação de matérias em órgãos e entidades com funções operacionais, de coordenação e consultivas.
 Inicia com a proposta de reunião ou convocatória e termina com a apresentação de proposta, relatório, recomendação ou parecer.
@@ -1062,6 +1363,7 @@ Inclui controlo de presença, gestão de intervenções, pedidos de documento de
 	:Classe_N4;
 	:codigo "150.10.702.01";
 	:titulo "Reunião de órgãos e estruturas operacionais e de aconselhamento: preparação";
+	:temPai :c150.10.702 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com o agendamento da reunião e termina com o envio de convocatória.
 Inclui apresentação de propostas para discussão, apresentação de moções, preparação de propostas de deliberação, produção de recomendações e definição de ordem de trabalhos.".
@@ -1070,6 +1372,7 @@ Inclui apresentação de propostas para discussão, apresentação de moções, 
 	:Classe_N4;
 	:codigo "150.10.702.02";
 	:titulo "Reunião de órgãos e estruturas operacionais e de aconselhamento: realização";
+	:temPai :c150.10.702 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com o controlo de presenças e termina com a redação definitiva da ata.
 Inclui gestão de intervenções, registo da discussão, registo das votações e das declarações de voto e elaboração da ata em minuta.".
@@ -1226,15 +1529,15 @@ Inclui gestão de intervenções, registo da discussão, registo das votações 
 	:exemploNA "Planeamento operacional de articulação de respostas a uma situação de crise" ;
 	:descricao "Compreende o planeamento e avaliação dos serviços, no que se inclui a análise e melhoria das estruturas e das formas de organização do trabalho, a definição e avaliação do cumprimento de objetivos organizacionais, a elaboração de planos e de relatórios de atividades, gerais e setoriais - abrangendo o diagnóstico de necessidades, o planeamento da afetação e o planeamento do desenvolvimento de recursos (humanos, materiais e financeiros).
 Compreende, igualmente, a definição e avaliação de planos operacionais transversais a vários organismos, de planos de emergência, ou de qualquer instrumento de planeamento e coordenação operacional.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_2
-:na_c150.20.001_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo " Elaboração de carta da qualidade".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_1
 :na_c150.20.001_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Definição de formulários e respetivas regras de utilização".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_2
+:na_c150.20.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Elaboração de carta da qualidade".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_3
 :na_c150.20.001_3 rdf:type owl:NamedIndividual ,
@@ -1301,27 +1604,40 @@ Compreende, igualmente, a definição e avaliação de planos operacionais trans
 	:temNotaExclusao :ne_c150.20.001_2 ;
 	:temNotaExclusao :ne_c150.20.001_3 ;
 	:temNotaExclusao :ne_c150.20.001_4 ;
-	:temLegislacao :leg_1290 ;
-	:temLegislacao :leg_1207 ;
-	:temLegislacao :leg_1118 ;
-	:temLegislacao :leg_1192 ;
-	:temLegislacao :leg_1159 ;
-	:temLegislacao :leg_1027 ;
-	:temLegislacao :leg_1001 ;
-	:temLegislacao :leg_1002 ;
-	:temLegislacao :leg_901 ;
-	:temLegislacao :leg_895 ;
-	:temLegislacao :leg_773 ;
-	:temLegislacao :leg_742 ;
-	:temLegislacao :leg_748 ;
-	:temLegislacao :leg_816 ;
-	:temLegislacao :leg_727 ;
-	:temLegislacao :leg_674 ;
-	:temLegislacao :leg_692 ;
-	:temLegislacao :leg_612 ;
-	:temLegislacao :leg_539 ;
-	:temLegislacao :leg_587 ;
-	:temLegislacao :leg_571 ;
+	:temRelProc :c100.10.600 ;
+	:temRelProc :c100.20.001 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c150.10.702 ;
+	:temRelProc :c150.20.500 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c550.20.003 ;
+	:temRelProc :c550.20.005 ;
+	:temRelProc :c900.20.200 ;
+	:temRelProc :c900.20.201 ;
+	:temLegislacao :leg_1296 ;
+	:temLegislacao :leg_1211 ;
+	:temLegislacao :leg_1122 ;
+	:temLegislacao :leg_1196 ;
+	:temLegislacao :leg_1163 ;
+	:temLegislacao :leg_1031 ;
+	:temLegislacao :leg_1005 ;
+	:temLegislacao :leg_1006 ;
+	:temLegislacao :leg_904 ;
+	:temLegislacao :leg_898 ;
+	:temLegislacao :leg_776 ;
+	:temLegislacao :leg_745 ;
+	:temLegislacao :leg_751 ;
+	:temLegislacao :leg_819 ;
+	:temLegislacao :leg_730 ;
+	:temLegislacao :leg_677 ;
+	:temLegislacao :leg_632 ;
+	:temLegislacao :leg_695 ;
+	:temLegislacao :leg_613 ;
+	:temLegislacao :leg_540 ;
+	:temLegislacao :leg_537 ;
+	:temLegislacao :leg_588 ;
+	:temLegislacao :leg_572 ;
 	:temLegislacao :leg_497 ;
 	:temLegislacao :leg_475 ;
 	:temLegislacao :leg_454 ;
@@ -1384,10 +1700,23 @@ Inclui recolha de contributos, consulta de especialistas e de entidades, redaç�
 	:temNotaExclusao :ne_c150.20.100_1 ;
 	:temNotaExclusao :ne_c150.20.100_2 ;
 	:temNotaExclusao :ne_c150.20.100_3 ;
-	:temLegislacao :leg_1130 ;
-	:temLegislacao :leg_1131 ;
-	:temLegislacao :leg_711 ;
-	:temLegislacao :leg_592 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.20.101 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.301 ;
+	:temRelProc :c150.20.500 ;
+	:temRelProc :c150.20.501 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c250.20.800 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c900.20.200 ;
+	:temRelProc :c900.20.201 ;
+	:temLegislacao :leg_1134 ;
+	:temLegislacao :leg_1135 ;
+	:temLegislacao :leg_714 ;
+	:temLegislacao :leg_593 ;
 	:temLegislacao :leg_227 ;
 	:classeStatus "A" ;
 	:exemploNA "Elaboração do Quadro de Avaliação e Responsabilização (QUAR)" ;
@@ -1452,8 +1781,34 @@ Inclui definição e revisão de objetivos, definição de metas e indicadores d
 	:temNotaAplicacao :na_c150.20.101_6 ;
 	:temNotaAplicacao :na_c150.20.101_7 ;
 	:temNotaExclusao :ne_c150.20.101_1 ;
-	:temLegislacao :leg_1160 ;
-	:temLegislacao :leg_999 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c150.10.702 ;
+	:temRelProc :c150.20.100 ;
+	:temRelProc :c150.20.102 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.301 ;
+	:temRelProc :c150.20.500 ;
+	:temRelProc :c150.20.501 ;
+	:temRelProc :c150.40.001 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c400.10.419 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c700.10.001 ;
+	:temRelProc :c700.10.002 ;
+	:temRelProc :c700.10.003 ;
+	:temRelProc :c700.20.100 ;
+	:temRelProc :c700.20.101 ;
+	:temRelProc :c700.20.102 ;
+	:temRelProc :c700.20.200 ;
+	:temRelProc :c800.10.302 ;
+	:temRelProc :c800.10.601 ;
+	:temRelProc :c900.10.501 ;
+	:temRelProc :c900.10.504 ;
+	:temRelProc :c900.20.201 ;
+	:temLegislacao :leg_1164 ;
+	:temLegislacao :leg_1003 ;
 	:temLegislacao :leg_191 ;
 	:temLegislacao :leg_73 ;
 	:temLegislacao :leg_116 ;
@@ -1510,8 +1865,8 @@ Inclui definição da natureza, do âmbito, da extensão e do calendário da apl
 	:temPai :c150.20 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteAssessor :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c150.20.102_1 ;
 	:temNotaAplicacao :na_c150.20.102_2 ;
 	:temNotaAplicacao :na_c150.20.102_3 ;
@@ -1520,15 +1875,28 @@ Inclui definição da natureza, do âmbito, da extensão e do calendário da apl
 	:temNotaExclusao :ne_c150.20.102_1 ;
 	:temNotaExclusao :ne_c150.20.102_2 ;
 	:temNotaExclusao :ne_c150.20.102_3 ;
-	:temLegislacao :leg_1028 ;
-	:temLegislacao :leg_692 ;
-	:temLegislacao :leg_654 ;
-	:temLegislacao :leg_673 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.20.101 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.302 ;
+	:temRelProc :c150.20.500 ;
+	:temRelProc :c150.20.501 ;
+	:temRelProc :c300.40.508 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c800.20.500 ;
+	:temLegislacao :leg_1032 ;
+	:temLegislacao :leg_1003 ;
+	:temLegislacao :leg_901 ;
+	:temLegislacao :leg_695 ;
+	:temLegislacao :leg_656 ;
+	:temLegislacao :leg_676 ;
 	:temLegislacao :leg_479 ;
 	:temLegislacao :leg_254 ;
 	:temLegislacao :leg_231 ;
-	:temLegislacao :leg_1231 ;
-	:temLegislacao :leg_962 ;
+	:temLegislacao :leg_1236 ;
+	:temLegislacao :leg_966 ;
+	:temLegislacao :leg_595 ;
 	:classeStatus "A" ;
 	:descricao "Definição de um conjunto ordenado de elementos que se encontram interligados e que interagem entre si no desempenho de uma função ou atividade.
 Inicia com a identificação da necessidade e termina com a aprovação do plano.
@@ -1565,6 +1933,13 @@ Inclui identificação da missão do negócio, diagnóstico de situação, ident
 	:temNotaAplicacao :na_c150.20.103_1 ;
 	:temNotaAplicacao :na_c150.20.103_2 ;
 	:temNotaExclusao :ne_c150.20.103_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c550.10.008 ;
+	:temRelProc :c550.10.009 ;
+	:temRelProc :c900.10.502 ;
+	:temRelProc :c900.10.503 ;
 	:classeStatus "A" ;
 	:exemploNA "Elaboração de escalas de serviço" ;
 	:descricao "Definição de tarefas necessárias ao desenvolvimento prático de atividades e afetação dos recursos necessários.
@@ -1589,15 +1964,32 @@ Inclui caracterização da tarefa a realizar, identificação dos recursos neces
 	:temPai :c150.20 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteAssessor :org_DGO ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c150.20.200_1 ;
 	:temNotaExclusao :ne_c150.20.200_1 ;
-	:temLegislacao :leg_1158 ;
-	:temLegislacao :leg_1060 ;
-	:temLegislacao :leg_739 ;
-	:temLegislacao :leg_660 ;
-	:temLegislacao :leg_759 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c150.10.702 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.403 ;
+	:temRelProc :c150.20.501 ;
+	:temRelProc :c250.10.100 ;
+	:temRelProc :c250.10.101 ;
+	:temRelProc :c250.10.103 ;
+	:temRelProc :c250.10.601 ;
+	:temRelProc :c250.10.800 ;
+	:temRelProc :c250.20.603 ;
+	:temRelProc :c250.20.605 ;
+	:temRelProc :c350.10.001 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c550.20.005 ;
+	:temRelProc :c900.20.200 ;
+	:temLegislacao :leg_1162 ;
+	:temLegislacao :leg_1064 ;
+	:temLegislacao :leg_742 ;
+	:temLegislacao :leg_663 ;
+	:temLegislacao :leg_762 ;
 	:temLegislacao :leg_411 ;
 	:temLegislacao :leg_418 ;
 	:classeStatus "A" ;
@@ -1625,6 +2017,16 @@ Inclui análise de dados, recolha de pareceres, discussão e validação de prop
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c150.20.201_1 ;
 	:temNotaAplicacao :na_c150.20.201_2 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c300.30.002 ;
+	:temRelProc :c300.30.003 ;
+	:temRelProc :c300.30.005 ;
+	:temRelProc :c300.30.007 ;
+	:temRelProc :c300.50.004 ;
+	:temRelProc :c300.50.401 ;
+	:temRelProc :c500.10.001 ;
 	:classeStatus "A" ;
 	:descricao "Elaboração de instrumento de gestão com a indicação previsional dos bens materiais que o órgão ou serviço carece para o desenvolvimento de atividades.
 Inicia com o levantamento de necessidades e termina com a aprovação do plano.
@@ -1667,16 +2069,40 @@ Inclui a análise dos recursos em depósito e validação de propostas.".
 	:temPai :c150.20 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteAssessor :org_DGO ;
 	:temParticipanteComunicador :org_PCM ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c150.20.202_1 ;
 	:temNotaAplicacao :na_c150.20.202_2 ;
 	:temNotaExclusao :ne_c150.20.202_1 ;
 	:temNotaExclusao :ne_c150.20.202_2 ;
 	:temNotaExclusao :ne_c150.20.202_3 ;
 	:temNotaExclusao :ne_c150.20.202_4 ;
-	:temLegislacao :leg_1058 ;
+	:temRelProc :c100.10.001 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.501 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c150.20.100 ;
+	:temRelProc :c150.20.101 ;
+	:temRelProc :c150.20.102 ;
+	:temRelProc :c150.20.200 ;
+	:temRelProc :c150.20.201 ;
+	:temRelProc :c150.20.301 ;
+	:temRelProc :c150.20.400 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c250.20.601 ;
+	:temRelProc :c350.10.001 ;
+	:temRelProc :c350.10.500 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c850.10.001 ;
+	:temRelProc :c850.10.002 ;
+	:temRelProc :c850.10.004 ;
+	:temRelProc :c850.10.005 ;
+	:temRelProc :c850.10.500 ;
+	:temRelProc :c850.10.600 ;
+	:temLegislacao :leg_457 ;
+	:temLegislacao :leg_1062 ;
 	:temLegislacao :leg_325 ;
 	:temLegislacao :leg_220 ;
 	:classeStatus "A" ;
@@ -1729,6 +2155,16 @@ Inclui definição de regras e de procedimentos, proposta de orçamento inicial 
 	:temNotaAplicacao :na_c150.20.203_4 ;
 	:temNotaAplicacao :na_c150.20.203_5 ;
 	:temNotaExclusao :ne_c150.20.203_1 ;
+	:temRelProc :c100.10.600 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c 150.10.701 ;
+	:temRelProc :c150.10.702 ;
+	:temRelProc :c150.20.100 ;
+	:temRelProc :c150.20.401 ;
+	:temRelProc :c400.30.001 ;
+	:temLegislacao :leg_1037 ;
+	:temLegislacao :leg_61 ;
+	:temLegislacao :leg_209 ;
 	:classeStatus "A" ;
 	:descricao "Acompanhamento da criação de instituições públicas e de empresas do setor público, bem como de outros organismos que tenham participação direta ou indireta do Estado.
 Inicia com a proposta de criação da entidade e termina com a preparação do ato de formalização.
@@ -1768,8 +2204,39 @@ Inclui definição do objetivo e âmbito de atuação da entidade, elaboração 
 	:temNotaAplicacao :na_c150.20.300_2 ;
 	:temNotaExclusao :ne_c150.20.300_1 ;
 	:temNotaExclusao :ne_c150.20.300_2 ;
-	:temLegislacao :leg_580 ;
-	:temLegislacao :leg_587 ;
+	:temRelProc :c150.20.100 ;
+	:temRelProc :c150.20.101 ;
+	:temRelProc :c150.20.102 ;
+	:temRelProc :c150.20.103 ;
+	:temRelProc :c150.20.201 ;
+	:temRelProc :c150.20.301 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c300.10.001 ;
+	:temRelProc :c300.10.002 ;
+	:temRelProc :c300.10.003 ;
+	:temRelProc :c300.10.004 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c300.10.008 ;
+	:temRelProc :c300.10.009 ;
+	:temRelProc :c300.10.010 ;
+	:temRelProc :c300.10.011 ;
+	:temRelProc :c300.10.300 ;
+	:temRelProc :c300.10.301 ;
+	:temRelProc :c650.20.306 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c550.20.001 ;
+	:temRelProc :c550.20.002 ;
+	:temRelProc :c550.20.003 ;
+	:temRelProc :c550.20.004 ;
+	:temRelProc :c900.10.002 ;
+	:temRelProc :c900.10.505 ;
+	:temRelProc :c900.20.603 ;
+	:temRelProc :c900.20.604 ;
+	:temRelProc :c950.10.400 ;
+	:temRelProc :c950.20.001 ;
+	:temRelProc :c800.10.610 ;
+	:temLegislacao :leg_581 ;
+	:temLegislacao :leg_588 ;
 	:temLegislacao :leg_166 ;
 	:classeStatus "A" ;
 	:descricao "Análise e avaliação da execução global do plano de atividades.
@@ -1801,10 +2268,25 @@ Inclui verificação, reporte dos níveis de concretização das atividades e pr
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c150.20.301_1 ;
 	:temNotaExclusao :ne_c150.20.301_1 ;
-	:temLegislacao :leg_1097 ;
-	:temLegislacao :leg_711 ;
-	:temLegislacao :leg_592 ;
-	:temLegislacao :leg_580 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.20.100 ;
+	:temRelProc :c150.20.101 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.400 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.20.500 ;
+	:temRelProc :c150.20.501 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c900.20.200 ;
+	:temRelProc :c950.20.300 ;
+	:temRelProc :c950.30.001 ;
+	:temLegislacao :leg_1101 ;
+	:temLegislacao :leg_714 ;
+	:temLegislacao :leg_593 ;
+	:temLegislacao :leg_581 ;
 	:temLegislacao :leg_167 ;
 	:classeStatus "A" ;
 	:exemploNA "SIADAP 1" ;
@@ -1838,18 +2320,24 @@ Inclui elaboração de relatórios intercalares e de relatório final de desempe
 	:temNotaAplicacao :na_c150.20.302_1 ;
 	:temNotaExclusao :ne_c150.20.302_1 ;
 	:temNotaExclusao :ne_c150.20.302_2 ;
-	:temLegislacao :leg_1157 ;
-	:temLegislacao :leg_1148 ;
-	:temLegislacao :leg_1081 ;
-	:temLegislacao :leg_1047 ;
-	:temLegislacao :leg_976 ;
-	:temLegislacao :leg_964 ;
-	:temLegislacao :leg_715 ;
-	:temLegislacao :leg_667 ;
-	:temLegislacao :leg_658 ;
-	:temLegislacao :leg_580 ;
-	:temLegislacao :leg_565 ;
-	:temLegislacao :leg_571 ;
+	:temRelProc :c150.20.102 ;
+	:temRelProc :c150.20.500 ;
+	:temRelProc :c300.40.508 ;
+	:temRelProc :c300.40.509 ;
+	:temRelProc :c300.40.510 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1161 ;
+	:temLegislacao :leg_1152 ;
+	:temLegislacao :leg_1085 ;
+	:temLegislacao :leg_1051 ;
+	:temLegislacao :leg_980 ;
+	:temLegislacao :leg_968 ;
+	:temLegislacao :leg_718 ;
+	:temLegislacao :leg_670 ;
+	:temLegislacao :leg_661 ;
+	:temLegislacao :leg_581 ;
+	:temLegislacao :leg_566 ;
+	:temLegislacao :leg_572 ;
 	:temLegislacao :leg_475 ;
 	:temLegislacao :leg_470 ;
 	:temLegislacao :leg_449 ;
@@ -1907,8 +2395,11 @@ Inclui a recolha, o tratamento e a análise de dados e identificação de proble
 	:temNotaExclusao :ne_c150.20.303_2 ;
 	:temNotaExclusao :ne_c150.20.303_3 ;
 	:temNotaExclusao :ne_c150.20.303_4 ;
-	:temLegislacao :leg_580 ;
-	:temLegislacao :leg_587 ;
+	:temRelProc :c150.20.101 ;
+	:temRelProc :c150.20.102 ;
+	:temRelProc :c150.20.300 ;
+	:temLegislacao :leg_581 ;
+	:temLegislacao :leg_588 ;
 	:temLegislacao :leg_166 ;
 	:classeStatus "A" ;
 	:descricao "Controlo sistemático das ações e atividades. 
@@ -1932,11 +2423,21 @@ Inclui análise, conferência e processamento dos dados.".
 	:temPai :c150.20 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteComunicador :org_AP ;
+	:temDono :org_AP ;
 	:temNotaExclusao :ne_c150.20.400_1 ;
 	:temNotaExclusao :ne_c150.20.400_2 ;
-	:temLegislacao :leg_1058 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.301 ;
+	:temRelProc :c150.20.401 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.001 ;
+	:temRelProc :c350.10.500 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c350.30.003 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1062 ;
 	:temLegislacao :leg_325 ;
 	:temLegislacao :leg_220 ;
 	:classeStatus "A" ;
@@ -1995,7 +2496,21 @@ Inclui elaboração de relatório, conferência e validação de dados e gestão
 	:temNotaAplicacao :na_c150.20.401_5 ;
 	:temNotaAplicacao :na_c150.20.401_6 ;
 	:temNotaExclusao :ne_c150.20.401_1 ;
-	:temLegislacao :leg_1058 ;
+	:temRelProc :c150.20.400 ;
+	:temRelProc :c150.10.601 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c300.10.003 ;
+	:temRelProc :c300.10.004 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c300.10.007 ;
+	:temRelProc :c300.30.004 ;
+	:temRelProc :c350.10.001 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.004 ;
+	:temRelProc :c350.40.204 ;
+	:temRelProc :c350.40.602 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1062 ;
 	:temLegislacao :leg_476 ;
 	:temLegislacao :leg_209 ;
 	:classeStatus "A" ;
@@ -2022,12 +2537,24 @@ Inclui troca de informação referente à definição dos liquidatários, à ali
 	:temPai :c150.20 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteComunicador :org_DGAEP ;
 	:temParticipanteComunicador :org_AL ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c150.20.403_1 ;
 	:temNotaAplicacao :na_c150.20.403_2 ;
-	:temLegislacao :leg_898 ;
+	:temRelProc :c150.20.200 ;
+	:temRelProc :c150.10.601 ;
+	:temRelProc :c250.10.100 ;
+	:temRelProc :c250.10.101 ;
+	:temRelProc :c250.10.600 ;
+	:temRelProc :c250.10.800 ;
+	:temRelProc :c250.20.001 ;
+	:temRelProc :c250.30.300 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.20.300 ;
+	:temRelProc :c500.20.600 ;
+	:temRelProc :c500.30.004 ;
+	:temLegislacao :leg_901 ;
 	:temLegislacao :leg_167 ;
 	:classeStatus "A" ;
 	:descricao "Sistematização periódica de dados referentes à realidade social dos recursos humanos.
@@ -2047,12 +2574,30 @@ Inclui, ainda, para a elaboração do balanço social, a recolha de pareceres de
 	:temPai :c150.20 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteApreciador :org_TC ;
 	:temParticipanteComunicador :org_DGAL ;
 	:temParticipanteAssessor :org_DGO ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c150.20.404_1 ;
-	:temLegislacao :leg_1058 ;
+	:temRelProc :c100.10.001 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c150.10.702 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.301 ;
+	:temRelProc :c150.20.400 ;
+	:temRelProc :c150.20.401 ;
+	:temRelProc :c300.10.002 ;
+	:temRelProc :c300.10.007 ;
+	:temRelProc :c300.10.300 ;
+	:temRelProc :c300.10.601 ;
+	:temRelProc :c300.20.001 ;
+	:temRelProc :c300.20.200 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c350.30.500 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1062 ;
 	:temLegislacao :leg_325 ;
 	:temLegislacao :leg_220 ;
 	:classeStatus "A" ;
@@ -2086,9 +2631,20 @@ Inclui elaboração da proposta e submissão à aprovação pelo órgão compete
 	:temNotaAplicacao :na_c150.20.500_1 ;
 	:temNotaAplicacao :na_c150.20.500_2 ;
 	:temNotaExclusao :ne_c150.20.500_1 ;
-	:temLegislacao :leg_564 ;
+	:temRelProc :c100.10.600 ;
+	:temRelProc :c150.20.001 ;
+	:temRelProc :c150.20.100 ;
+	:temRelProc :c150.20.101 ;
+	:temRelProc :c150.20.102 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.301 ;
+	:temRelProc :c150.20.302 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c450.10.648 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_565 ;
 	:temLegislacao :leg_498 ;
-	:temLegislacao :leg_525 ;
+	:temLegislacao :leg_526 ;
 	:temLegislacao :leg_468 ;
 	:temLegislacao :leg_429 ;
 	:classeStatus "A" ;
@@ -2110,7 +2666,29 @@ Inclui identificação de etapas do processo administrativo, estudo de regulamen
 	:processoTransversal "N" ;
 	:temDono :org_AP ;
 	:temNotaExclusao :ne_c150.20.501_1 ;
-	:temLegislacao :leg_771 ;
+	:temRelProc :c100.10.001 ;
+	:temRelProc :c100.10.600 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c150.10.702 ;
+	:temRelProc :c150.20.001 ;
+	:temRelProc :c150.20.100 ;
+	:temRelProc :c150.20.101 ;
+	:temRelProc :c150.20.102 ;
+	:temRelProc :c150.20.200 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.301 ;
+	:temRelProc :c150.10.601 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c700.10.001 ;
+	:temRelProc :c700.10.002 ;
+	:temRelProc :c700.10.003 ;
+	:temRelProc :c700.20.100 ;
+	:temRelProc :c700.20.101 ;
+	:temRelProc :c700.20.200 ;
+	:temRelProc :c900.20.200 ;
+	:temLegislacao :leg_774 ;
 	:classeStatus "A" ;
 	:descricao "Definição e regulação da organização, estrutura e funcionamento dos serviços, princípios e níveis de direção e hierarquia que os articulam com o objetivo de assegurar o cumprimento de competências legalmente atribuídas.
 Inicia com a decisão ou determinação da necessidade da reestruturação orgânica e termina com a submissão da proposta ao órgão deliberativo.
@@ -2166,10 +2744,25 @@ Inclui análise e avaliação da estrutura orgânica e funcional existente, reco
 	:temNotaAplicacao :na_c150.30.001_1 ;
 	:temNotaAplicacao :na_c150.30.001_2 ;
 	:temNotaExclusao :ne_c150.30.001_1 ;
-	:temLegislacao :leg_1289 ;
+	:temRelProc :c550.10.001 ;
+	:temRelProc :c550.10.002 ;
+	:temRelProc :c550.10.004 ;
+	:temRelProc :c550.10.009 ;
+	:temRelProc :c550.10.011 ;
+	:temRelProc :c550.10.600 ;
+	:temRelProc :c550.20.005 ;
+	:temRelProc :c550.20.501 ;
+	:temRelProc :c550.30.002 ;
+	:temRelProc :c550.30.003 ;
+	:temRelProc :c550.30.004 ;
+	:temRelProc :c550.30.005 ;
+	:temRelProc :c550.30.200 ;
+	:temRelProc :c550.30.400 ;
+	:temRelProc :c550.30.600 ;
+	:temLegislacao :leg_1295 ;
 	:temLegislacao :leg_379 ;
-	:temLegislacao :leg_1150 ;
-	:temLegislacao :leg_999 ;
+	:temLegislacao :leg_1154 ;
+	:temLegislacao :leg_1003 ;
 	:temLegislacao :leg_379 ;
 	:classeStatus "A" ;
 	:descricao "Elaboração, identificação, tratamento e intercâmbio de informação estratégica para combate ao terrorismo e agitações sociais e políticas.
@@ -2225,17 +2818,23 @@ Inclui recolha e tratamento da informação estratégica.
 	:temPai :c150.40 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_INE ;
-	:temDono :org_SEN ;
 	:temParticipanteExecutor :org_SEN ;
 	:temParticipanteComunicador :org_AP ;
+	:temDono :org_INE ;
+	:temDono :org_SEN ;
 	:temNotaAplicacao :na_c150.40.001_1 ;
 	:temNotaAplicacao :na_c150.40.001_2 ;
 	:temNotaAplicacao :na_c150.40.001_3 ;
 	:temNotaExclusao :ne_c150.40.001_1 ;
-	:temLegislacao :leg_994 ;
-	:temLegislacao :leg_942 ;
-	:temLegislacao :leg_664 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c 150.10.100 ;
+	:temRelProc :c150.10.600 ;
+	:temRelProc :c150.20.101 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c900.20.201 ;
+	:temLegislacao :leg_998 ;
+	:temLegislacao :leg_946 ;
+	:temLegislacao :leg_667 ;
 	:temLegislacao :leg_211 ;
 	:classeStatus "A" ;
 	:descricao "Conceção, planeamento e execução de operações de recolha, tratamento, análise e apresentação de dados estatísticos oficiais no âmbito da atividade das autoridades estatísticas do Sistema Estatístico Nacional.
@@ -2246,6 +2845,7 @@ Inclui aprovação técnica da operação estatística, definição da metodolog
 	:Classe_N4;
 	:codigo "150.40.001.01";
 	:titulo "Realização de operações estatísticas oficiais: conceção, planeamento e execução";
+	:temPai :c150.40.001 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com o planeamento da operação estatística e termina com a apresentação dos dados para divulgação.
 Inclui a definição de metodologia e o tratamento dos dados recolhidos.".
@@ -2254,6 +2854,7 @@ Inclui a definição de metodologia e o tratamento dos dados recolhidos.".
 	:Classe_N4;
 	:codigo "150.40.001.02";
 	:titulo "Realização de operações estatísticas oficiais: recolha de informação";
+	:temPai :c150.40.001 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com pedido dos questionários ou outros instrumentos e termina com o envio dos dados para tratamento.
 Inclui a receção dos questionários.".
@@ -2315,8 +2916,8 @@ Inclui a receção dos questionários.".
 	:temPai :c150.40 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteAssessor :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c150.40.500_1 ;
 	:temNotaAplicacao :na_c150.40.500_2 ;
 	:temNotaAplicacao :na_c150.40.500_3 ;
@@ -2327,10 +2928,31 @@ Inclui a receção dos questionários.".
 	:temNotaExclusao :ne_c150.40.500_1 ;
 	:temNotaExclusao :ne_c150.40.500_2 ;
 	:temNotaExclusao :ne_c150.40.500_3 ;
-	:temLegislacao :leg_920 ;
-	:temLegislacao :leg_994 ;
-	:temLegislacao :leg_942 ;
-	:temLegislacao :leg_664 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.300 ;
+	:temRelProc :c150.10.400 ;
+	:temRelProc :c150.10.600 ;
+	:temRelProc :c150.20.100 ;
+	:temRelProc :c150.20.101 ;
+	:temRelProc :c150.20.103 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.20.301 ;
+	:temRelProc :c150.20.501 ;
+	:temRelProc :c150.40.001 ;
+	:temRelProc :c300.10.001 ;
+	:temRelProc :c300.10.002 ;
+	:temRelProc :c300.10.700 ;
+	:temRelProc :c300.30.008 ;
+	:temRelProc :c800.10.300 ;
+	:temRelProc :c900.20.200 ;
+	:temRelProc :c900.20.201 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_923 ;
+	:temLegislacao :leg_998 ;
+	:temLegislacao :leg_946 ;
+	:temLegislacao :leg_667 ;
 	:temLegislacao :leg_211 ;
 	:classeStatus "A" ;
 	:descricao "Conceção, planeamento e execução das operações de recolha, tratamento, análise e apresentação de dados  estatísticos de suporte à tomada de decisão.
@@ -2341,6 +2963,7 @@ Inclui preparação da recolha, contabilização de dados e preparação da info
 	:Classe_N4;
 	:codigo "150.40.500.01";
 	:titulo "Recolha e tratamento de dados estatísticos de apoio à gestão: definição da metodologia e recolha";
+	:temPai :c150.40.500 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com a definição da metodologia e termina com  o tratamento dos dados.
 Inclui a preparação da recolha, a receção dos questionários e a contabilização dos dados.".
@@ -2349,6 +2972,7 @@ Inclui a preparação da recolha, a receção dos questionários e a contabiliza
 	:Classe_N4;
 	:codigo "150.40.500.02";
 	:titulo "Recolha e tratamento de dados estatísticos de apoio à gestão: apuramento e apresentação dos dados";
+	:temPai :c150.40.500 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com o apuramento dos dados e termina com a apresentação dos dados para divulgação.
 Inclui a análise e preparação da informação para divulgação.

@@ -1,0 +1,2678 @@
+### Classe550
+###  http://jcr.di.uminho.pt/m51-clav#na_c550_2
+:na_c550_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Prestação de serviços de segurança, proteção e socorro".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550_1
+:na_c550_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Operações e ações materiais que ocorram tanto em território nacional como no estrangeiro, de forma autónoma ou em cooperação com outras entidades nacionais ou estrangeiras".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550_3
+:na_c550_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Aplicável tanto às entidades que prestam os serviços referidos como às que solicitam a prestação dos mesmos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550_1
+:ne_c550_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A produção de informações no âmbito do SIRP deve ser considerada em \"Planeamento e gestão estratégica/ Produção de informações estratégicas e de segurança\" (150.30);As operações de sensibilização das populações (por exemplo, exercícios de reação em cenário de acidente) devem ser consideradas em \"Dinamização e comunicação institucional/ Execução de atividades de dinamização da sociedade\" (900.10);As operações de fiscalização da conformidade às normas (por exemplo, fiscalização de atividades de pesca, entre outras) devem ser consideradas em \"Supervisão, controlo e responsabilização/ Inspeção, auditoria, fiscalização e monitorização de conformidade à norma\" (500.10);As autorizações (por exemplo, atribuição de licença de uso e porte de arma) devem ser consideradas em \"Reconhecimentos e permissões/ Licenciamentos, certificações e outras autorizações\" (450.10);O registo e processamento de títulos de identificação e de autorização de circulação ou permanência de pessoas no país (por exemplo, passaporte, visto, autorização de residência) devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10);A participação em ações de deteção e investigação criminal deve ser considerada em \"Administração da justiça/ Prevenção e investigação criminal\" (600.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550
+:c550 rdf:type owl:NamedIndividual ,
+	:Classe_N1;
+	:codigo "550";
+	:titulo "EXECUÇÃO DE OPERAÇÕES DE SEGURANÇA, PROTEÇÃO OU DEFESA";
+	:pertenceLC :lc1 ;
+	:temNotaAplicacao :na_c550_1 ;
+	:temNotaAplicacao :na_c550_2 ;
+	:temNotaAplicacao :na_c550_3 ;
+	:temNotaExclusao :ne_c550_1 ;
+	:classeStatus "A" ;
+	:descricao "Relativo à realização de ações operacionais de prevenção e contenção de riscos e ameaças (internas ou externas, de causa humana ou natural) à segurança nacional, à segurança coletiva e à segurança das pessoas individualmente consideradas, no que se inclui a garantia do regular funcionamento das instituições, a manutenção e reposição da ordem, segurança e tranquilidade públicas e a proteção e socorro a pessoas e bens.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10_1
+:na_c550.10_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Policiamento regular de espaços públicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10_2
+:na_c550.10_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Policiamento ou apoio policial no quadro de programas especiais (verão seguro, escola segura, programa de proteção de idosos, etc.)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10_3
+:na_c550.10_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Operações de segurança rodoviária".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10_4
+:na_c550.10_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio policial a eventos de alto risco ou iniciativas específicas (manifestações, concentrações, desfiles, cortejos, provas desportivas, entre outros)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10_5
+:na_c550.10_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Segurança a pessoas e comitivas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10_6
+:na_c550.10_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Policiamento a infraestruturas críticas (transportes, redes de energia, água, comunicações, infraestruturas logísticas, entre outras)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10_7
+:na_c550.10_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Interdições de utilização decididas por entidades administrativas (por exemplo, interdição de utilização de praia)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10_8
+:na_c550.10_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio de forças de segurança a diligências diversas (circulação de boletins de voto, entrega de exames, realização de notificações, etc.)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10_9
+:na_c550.10_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Interceção e controlo de pessoas na fronteira".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10_10
+:na_c550.10_10 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ações de admissão/readmissão, afastamento, expulsão administrativa e condução à fronteira de pessoas em situação irregular".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_1
+:exna_c550.10_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Verão seguro".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_2
+:exna_c550.10_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Escola segura".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_3
+:exna_c550.10_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Programa de proteção de idosos".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_4
+:exna_c550.10_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Manifestações".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_5
+:exna_c550.10_5 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Concentrações".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_6
+:exna_c550.10_6 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Desfiles".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_7
+:exna_c550.10_7 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Cortejos".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_8
+:exna_c550.10_8 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Provas desportivas".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_9
+:exna_c550.10_9 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Transportes".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_10
+:exna_c550.10_10 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Redes de energia".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_11
+:exna_c550.10_11 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Redes de água".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_12
+:exna_c550.10_12 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Comunicações".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_13
+:exna_c550.10_13 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Infraestruturas logísticas".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_14
+:exna_c550.10_14 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Interdição de utilização de praia".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_15
+:exna_c550.10_15 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Circulação de boletins de voto".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_16
+:exna_c550.10_16 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Entrega de exames".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_17
+:exna_c550.10_17 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Realização de notificações".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_18
+:exna_c550.10_18 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo " ".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10_1
+:ne_c550.10_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Quando haja lugar a operações ou ações que careçam de autorização prévia ou ratificação do Ministério Público (ilícitos criminais) deverá ser iniciado processo em \"Administração da justiça/Prevenção e investigação criminal\" (600.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10
+:c550.10 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "550.10";
+	:titulo "Segurança pública
+";
+	:temPai :c550 ;
+	:temNotaAplicacao :na_c550.10_1 ;
+	:temNotaAplicacao :na_c550.10_2 ;
+	:temNotaAplicacao :na_c550.10_3 ;
+	:temNotaAplicacao :na_c550.10_4 ;
+	:temNotaAplicacao :na_c550.10_5 ;
+	:temNotaAplicacao :na_c550.10_6 ;
+	:temNotaAplicacao :na_c550.10_7 ;
+	:temNotaAplicacao :na_c550.10_8 ;
+	:temNotaAplicacao :na_c550.10_9 ;
+	:temNotaAplicacao :na_c550.10_10 ;
+	:temNotaExclusao :ne_c550.10_1 ;
+	:classeStatus "A" ;
+	:exemploNA "Verão seguro" ;
+	:exemploNA "Escola segura" ;
+	:exemploNA "Programa de proteção de idosos" ;
+	:exemploNA "Manifestações" ;
+	:exemploNA "Concentrações" ;
+	:exemploNA "Desfiles" ;
+	:exemploNA "Cortejos" ;
+	:exemploNA "Provas desportivas" ;
+	:exemploNA "Transportes" ;
+	:exemploNA "Redes de energia" ;
+	:exemploNA "Redes de água" ;
+	:exemploNA "Comunicações" ;
+	:exemploNA "Infraestruturas logísticas" ;
+	:exemploNA "Interdição de utilização de praia" ;
+	:exemploNA "Circulação de boletins de voto" ;
+	:exemploNA "Entrega de exames" ;
+	:exemploNA "Realização de notificações" ;
+	:descricao "Compreende as operações vocacionadas para a manutenção e Reposição da ordem e gestão de incidentes de segurança e segurança geral de pessoas e bens, nomeadamente no que respeita à prevenção e intervenção em situações perturbadoras da tranquilidade na rua e em locais públicos, à dissuasão de atentados à segurança de pessoas e bens e, ainda, ao controlo da entrada, permanência e saída de cidadãos nacionais e estrangeiros do país.
+Compreende, igualmente, as atividades de proteção pessoal aos elementos dos órgãos de soberania, a altas entidades nacionais ou estrangeiras ou a qualquer cidadão sujeito a situação de ameaça relevante.
+Compreende, ainda, as atividades de prestação das honras de Estado.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.001_1
+:na_c550.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Monitorização de recursos tecnológicos de vigilância".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.001_2
+:na_c550.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Operações de policiamento de espaço público e aberto ao público que decorram da requisição dos serviços de segurança por entidades públicas e privadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.001_3
+:na_c550.10.001_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Operações de regulação do trânsito rodoviário e pedonal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.001_4
+:na_c550.10.001_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reposição da ordem e gestão de incidentes de segurança que decorra do policiamento do espaço público e aberto ao público".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.001_5
+:na_c550.10.001_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Policiamento de proximidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.001_6
+:na_c550.10.001_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Operações para garantir a segurança rodoviária".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.001_1
+:ne_c550.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A segurança e vigilância de instalações e equipamentos públicos que não seja realizada por forças de segurança deve ser considerada em 300.40.504 – Controlo de segurança e vigilância de instalações e equipamentos públicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.001_2
+:ne_c550.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O processamento da requisição de serviços de segurança por entidades públicas e privadas deve ser considerado em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.001_3
+:ne_c550.10.001_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As operações de segurança no âmbito de eventos de alto risco, bem como a Reposição da ordem e gestão de incidentes de segurança que decorra no âmbito destes eventos devem ser consideradas em 550.10.002 – Ação de segurança a eventos de alto risco".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.001_4
+:ne_c550.10.001_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A Reposição da ordem e gestão de incidentes de segurança que decorra de intervenções não programadas deve ser considerada em 550.10.600 – Reposição da ordem e gestão de incidentes de segurança".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.001_5
+:ne_c550.10.001_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O processamento de contraordenação deve ser considerado em 500.30.001 – Processamento de contraordenações".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.001
+:c550.10.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.001";
+	:titulo "Segurança de espaços públicos e abertos ao público";
+	:temPai :c550.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_AP ;
+	:temDono :org_FS ;
+	:temDono :org_AL ;
+	:temNotaAplicacao :na_c550.10.001_1 ;
+	:temNotaAplicacao :na_c550.10.001_2 ;
+	:temNotaAplicacao :na_c550.10.001_3 ;
+	:temNotaAplicacao :na_c550.10.001_4 ;
+	:temNotaAplicacao :na_c550.10.001_5 ;
+	:temNotaAplicacao :na_c550.10.001_6 ;
+	:temNotaExclusao :ne_c550.10.001_1 ;
+	:temNotaExclusao :ne_c550.10.001_2 ;
+	:temNotaExclusao :ne_c550.10.001_3 ;
+	:temNotaExclusao :ne_c550.10.001_4 ;
+	:temNotaExclusao :ne_c550.10.001_5 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c450.10.213 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c500.20.002 ;
+	:temRelProc :c500.20.003 ;
+	:temRelProc :c500.20.300 ;
+	:temRelProc :c500.30.001 ;
+	:temRelProc :c600.10.500 ;
+	:temRelProc :c900.10.001 ;
+	:temRelProc :c900.10.002 ;
+	:temRelProc :c900.10.500 ;
+	:temRelProc :c900.20.601 ;
+	:temRelProc :c900.20.602 ;
+	:temRelProc :c950.20.600 ;
+	:temLegislacao :leg_1307 ;
+	:temLegislacao :leg_958 ;
+	:temLegislacao :leg_674 ;
+	:temLegislacao :leg_652 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_413 ;
+	:classeStatus "A" ;
+	:descricao "Operações de guarda, de vigia e de apoio à mobilidade, em situações de rotina ou no âmbito de acontecimentos ocasionais e temporários onde a previsão de risco é reduzida, em espaços públicos ou abertos ao público, edifícios e equipamentos públicos, costa marítima, cursos fluviais, parques, matas e florestas.
+Inicia com a ação planeada e termina com o relato da operação.
+Inclui indicação do pagamento do serviço, quando devido, alocação de meios e recursos adequados, captação e tratamento de imagem e som, sinalização de ocorrências, emissão da alerta aquando da deteção de anomalias e correspondente atuação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.002_1
+:na_c550.10.002_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Garante e reposição da ordem e gestão de incidentes de segurança que decorra da ação de segurança a eventos de alto risco".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.002_2
+:na_c550.10.002_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Operações de policiamento a eventos de alto risco que decorram da requisição dos serviços de segurança por entidades públicas e privadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.002_1
+:ne_c550.10.002_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O processamento da requisição de serviços de segurança por entidades públicas e privadas deve ser considerado em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.002_2
+:ne_c550.10.002_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A Reposição da ordem e gestão de incidentes de segurança que decorra do policiamento do espaço público deve ser considerada em 550.10.001 – Segurança de espaços públicos e abertos ao público".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.002_3
+:ne_c550.10.002_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A Reposição da ordem e gestão de incidentes de segurança que decorra de intervenções não programadas deve ser considerada em 550.10.600 – Reposição da ordem e gestão de incidentes de segurança".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.002
+:c550.10.002 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.002";
+	:titulo "Ação de segurança a eventos de alto risco";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_AL ;
+	:temParticipanteAssessor :org_FA ;
+	:temParticipanteAssessor :org_SEF ;
+	:temParticipanteAssessor :org_ANPC ;
+	:temDono :org_FS ;
+	:temNotaAplicacao :na_c550.10.002_1 ;
+	:temNotaAplicacao :na_c550.10.002_2 ;
+	:temNotaExclusao :ne_c550.10.002_1 ;
+	:temNotaExclusao :ne_c550.10.002_2 ;
+	:temNotaExclusao :ne_c550.10.002_3 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c450.10.213 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.30.001 ;
+	:temRelProc :c500.20.002 ;
+	:temRelProc :c500.20.003 ;
+	:temRelProc :c500.20.300 ;
+	:temRelProc :c550.10.600 ;
+	:temRelProc :c600.10.500 ;
+	:temRelProc :c900.10.001 ;
+	:temRelProc :c950.20.600 ;
+	:temLegislacao :leg_1307 ;
+	:temLegislacao :leg_958 ;
+	:temLegislacao :leg_652 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_413 ;
+	:classeStatus "A" ;
+	:descricao "Operações de segurança programadas, no âmbito de iniciativas públicas ou privadas de grande visibilidade e de impacto nacional ou cuja previsão de risco seja considerada elevada.
+Inicia com a comunicação, interna ou externa, ou com a requisição do serviço e termina com o relato da operação.
+Inclui indicação do pagamento do serviço, quando devido, diagnóstico de segurança e de avaliação de risco, definição da atuação, articulação das forças de segurança, quando devido, emissão de alerta aquando da deteção de anomalias e a correspondente atuação.".
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.002.01
+:c550.10.002.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "550.10.002.01";
+	:titulo "Ação de segurança a eventos de alto risco: preparação";
+	:temPai :c550.10.002 ;
+	:temRelProc :c550.10.002.02 ;
+	:classeStatus "A" ;
+	:descricao "Inicia com planeamento da ação ou com a comunicação da requisição e termina a definição da atuação.
+Inclui o diagnóstico de segurança e avaliação de risco.".
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.002.02
+:c550.10.002.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "550.10.002.02";
+	:titulo "Ação de segurança a eventos de alto risco: realização e registo";
+	:temPai :c550.10.002 ;
+	:temRelProc :c550.10.002.01 ;
+	:classeStatus "A" ;
+	:descricao "Inicia com a operacionalização e termina com a aprovação do relato da operação.
+Inclui articulação das forças de segurança, emissão de alerta aquando da deteção de anomalias, elaboração e atualização do relato de operações.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.004_1
+:na_c550.10.004_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Operações de policiamento de espaço público e aberto ao público que decorram da requisição dos serviços de segurança por entidades públicas e privadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.004_2
+:na_c550.10.004_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Requisição de forças da ordem para apoio de segurança a operações de investigação criminal (ex.: buscas)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.004_3
+:na_c550.10.004_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Saídas do recluso do estabelecimento prisional em caso de transferência, temporária ou definitiva, para estabelecimento ou unidade diferente daquele a que está afeto".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.004_4
+:na_c550.10.004_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Deslocações do recluso para comparência em atos processuais, internamento hospitalar ou realização de ato médico no exterior, visitas íntimas, saídas para realização de atividades e saídas especiais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.004_1
+:ne_c550.10.004_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O processamento da requisição de serviços de segurança por entidades públicas e privadas deve ser considerado em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.004_2
+:ne_c550.10.004_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As diligências processuais devem ser consideradas no âmbito dos respetivos processos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.004
+:c550.10.004 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.004";
+	:titulo "Apoio de forças de segurança a diligências
+
+";
+	:temPai :c550.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_AP ;
+	:temDono :org_FS ;
+	:temDono :org_DGRSP ;
+	:temDono :org_PJ ;
+	:temDono :org_AL ;
+	:temDono :org_SEF ;
+	:temDono :org_FA ;
+	:temNotaAplicacao :na_c550.10.004_1 ;
+	:temNotaAplicacao :na_c550.10.004_2 ;
+	:temNotaAplicacao :na_c550.10.004_3 ;
+	:temNotaAplicacao :na_c550.10.004_4 ;
+	:temNotaExclusao :ne_c550.10.004_1 ;
+	:temNotaExclusao :ne_c550.10.004_2 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c500.20.002 ;
+	:temRelProc :c500.20.003 ;
+	:temRelProc :c500.20.300 ;
+	:temRelProc :c500.30.001 ;
+	:temRelProc :c500.30.500 ;
+	:temRelProc :c600.10.500 ;
+	:temRelProc :c950.20.600 ;
+	:temLegislacao :leg_1088 ;
+	:temLegislacao :leg_1010 ;
+	:temLegislacao :leg_882 ;
+	:temLegislacao :leg_780 ;
+	:temLegislacao :leg_652 ;
+	:temLegislacao :leg_589 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_413 ;
+	:temLegislacao :leg_1307 ;
+	:classeStatus "A" ;
+	:descricao "Prestação de serviços de proteção e segurança requeridos por forças da ordem, autoridades públicas e entidades privadas.
+Inicia com a requisição do serviço e termina com o relato da operação.
+Inclui o planeamento das condições de segurança, autorização, indicação do pagamento do serviço, quando devido, e operacionalização.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.005_1
+:na_c550.10.005_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Vigilância e proteção de infraestruturas rodoviárias, ferroviárias, aeroportuárias, portuárias, emissoras de radiações ionizantes e outras instalações críticas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.005_1
+:ne_c550.10.005_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As ações de vigilância e proteção a edifícios públicos devem ser consideradas em 550.10.001 – Segurança de espaços públicos e abertos ao público".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.005_2
+:ne_c550.10.005_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As ações de segurança das instalações de órgãos de soberania devem ser consideradas em 550.10.006 – Segurança a órgãos de soberania e altas entidades".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.005
+:c550.10.005 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.005";
+	:titulo "Segurança de infraestruturas estratégicas
+
+";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_EDIE ;
+	:temDono :org_FA ;
+	:temDono :org_FS ;
+	:temNotaAplicacao :na_c550.10.005_1 ;
+	:temNotaExclusao :ne_c550.10.005_1 ;
+	:temNotaExclusao :ne_c550.10.005_2 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c500.20.002 ;
+	:temRelProc :c500.20.003 ;
+	:temRelProc :c500.20.300 ;
+	:temRelProc :c500.30.001 ;
+	:temRelProc :c550.10.009 ;
+	:temRelProc :c550.10.011 ;
+	:temRelProc :c550.20.001 ;
+	:temRelProc :c550.20.006 ;
+	:temRelProc :c550.20.501 ;
+	:temRelProc :c550.30.003 ;
+	:temRelProc :c550.30.005 ;
+	:temRelProc :c550.30.200 ;
+	:temRelProc :c550.30.400 ;
+	:temRelProc :c600.10.500 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_589 ;
+	:classeStatus "A" ;
+	:descricao "Operações de segurança e proteção de infraestruturas críticas, de pontos sensíveis e espaços considerados potencialmente de elevado grau de ameaça e risco.
+Inicia com a ordem de operação e termina com o relatório.
+Inclui, no âmbito de cada ação, a planificação, a análise do grau de ameaça e a avaliação do risco.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.006_1
+:na_c550.10.006_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Todas as ações relacionadas com a garantia da segurança a órgãos de soberania".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.006_1
+:ne_c550.10.006_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As escalas devem ser consideradas em 150.20.101 – Planeamento estratégico de atividades".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.006_2
+:ne_c550.10.006_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O processamento de gratificações e montantes compensatórios devem ser considerados em 350.10.600 – Lançamento de receitas e de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.006
+:c550.10.006 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.006";
+	:titulo "Segurança a órgãos de soberania e altas entidades";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_SEF ;
+	:temParticipanteIniciador :org_PR ;
+	:temParticipanteIniciador :org_PM ;
+	:temParticipanteIniciador :org_AR ;
+	:temParticipanteIniciador :org_PGR ;
+	:temParticipanteIniciador :org_Trb ;
+	:temDono :org_FS ;
+	:temNotaAplicacao :na_c550.10.006_1 ;
+	:temNotaExclusao :ne_c550.10.006_1 ;
+	:temNotaExclusao :ne_c550.10.006_2 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c500.20.002 ;
+	:temRelProc :c500.20.003 ;
+	:temRelProc :c500.20.300 ;
+	:temRelProc :c500.30.001 ;
+	:temRelProc :c600.10.500 ;
+	:temLegislacao :leg_589 ;
+	:temLegislacao :leg_585 ;
+	:classeStatus "A" ;
+	:descricao "Operações que visam garantir a segurança das instalações de órgãos de soberania, segurança pessoal de membros de órgãos de soberania e de altas entidades nacionais ou estrangeiras, e de outros cidadãos, quando sujeitos a situação de ameaça relevante.
+Inicia com a ordem de operações e termina com a elaboração do relatório.
+Inclui análise de grau de ameaça, avaliação de risco e alternativa de atuação.
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.007_1
+:na_c550.10.007_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Prestação de escolta e guarda de honra a órgãos de soberania e de outras altas entidades que lhe sejam confiadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.007_2
+:na_c550.10.007_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Prestação de honras de Estado".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.007
+:c550.10.007 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.007";
+	:titulo "Prestação de escolta e guarda de honra";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_PSP ;
+	:temDono :org_GNR ;
+	:temNotaAplicacao :na_c550.10.007_1 ;
+	:temNotaAplicacao :na_c550.10.007_2 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c500.20.002 ;
+	:temRelProc :c500.20.003 ;
+	:temRelProc :c600.10.500 ;
+	:temRelProc :c900.10.500 ;
+	:temLegislacao :leg_589 ;
+	:classeStatus "A" ;
+	:descricao "Prestação de escolta e guarda de honra aos órgãos de soberania e de altas entidades, bem como à prestação de honras de Estado.
+Inicia com o pedido e termina com o relatório da ação.
+Inclui a realização da ação.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.008_1
+:na_c550.10.008_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Vigilância e fiscalização nos postos de fronteira, incluindo a zona internacional dos portos e aeroportos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.008_2
+:na_c550.10.008_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Controlo de circulação de pessoas nas fronteiras externas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.008_3
+:na_c550.10.008_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Interceção de pessoas nos postos de fronteira, aéreos e marítimos, para verificação da conformidade das suas condições de entrada no país".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.008_4
+:na_c550.10.008_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Impedimento de entrada ou saída do território nacional de pessoas que não satisfaçam os requisitos legais exigíveis para o efeito".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.008_5
+:na_c550.10.008_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Controlo do desembarque de passageiros e tripulantes de embarcações e aeronaves".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.008_6
+:na_c550.10.008_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "                                                                                                                           ".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.008_1
+:ne_c550.10.008_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A emissão de vistos deve ser considerada em 550.10.301 – Emissão de vistos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.008_2
+:ne_c550.10.008_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A fiscalização da carga e mercadorias nas fronteiras deve ser considerada em 500.10.301 – Realização de fiscalização".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.008_3
+:ne_c550.10.008_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O patrulhamento das fronteiras deve ser considerado em 550.10.009 – Vigilância da fronteira".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.008
+:c550.10.008 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.008";
+	:titulo "Controlo de pessoas nas fronteiras";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteExecutor :org_PSP ;
+	:temParticipanteExecutor :org_GNR ;
+	:temDono :org_SEF ;
+	:temNotaAplicacao :na_c550.10.008_1 ;
+	:temNotaAplicacao :na_c550.10.008_2 ;
+	:temNotaAplicacao :na_c550.10.008_3 ;
+	:temNotaAplicacao :na_c550.10.008_4 ;
+	:temNotaAplicacao :na_c550.10.008_5 ;
+	:temNotaAplicacao :na_c550.10.008_6 ;
+	:temNotaExclusao :ne_c550.10.008_1 ;
+	:temNotaExclusao :ne_c550.10.008_2 ;
+	:temNotaExclusao :ne_c550.10.008_3 ;
+	:temRelProc :c150.20.103 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c500.30.001 ;
+	:temRelProc :c500.30.005 ;
+	:temRelProc :c500.30.006 ;
+	:temRelProc :c500.30.500 ;
+	:temRelProc :c550.10.009 ;
+	:temRelProc :c550.10.305 ;
+	:temRelProc :c550.10.306 ;
+	:temRelProc :c550.30.200 ;
+	:temRelProc :c550.30.400 ;
+	:temRelProc :c600.10.500 ;
+	:temRelProc :c600.40.300 ;
+	:temLegislacao :leg_976 ;
+	:temLegislacao :leg_576 ;
+	:temLegislacao :leg_528 ;
+	:classeStatus "A" ;
+	:descricao "Operações de controlo das entradas e saídas de pessoas de território nacional através de fronteiras externas, que provenham de, ou se destinem a Estados que não sejam parte da Convenção de Aplicação, ou que utilizem um troço interno de um voo com origem ou destino em Estados que não sejam parte da Convenção, para verificação da conformidade das condições do movimento fronteiriço realizado, e de controlo sobre as zonas internacionais dos portos e dos aeroportos, nomeadamente autorizando ou recusando o acesso de passageiros a tais zonas.                                                     
+Inicia com a apresentação dos documentos de viagem do cidadão cujo movimento está a ser controlado e termina com a autorização de entrada ou saída, através de aposição de carimbo de movimento quando aplicável ou com a recusa de entrada ou saída, no caso das fronteiras aéreas, e com o desembaraço dos navios, no caso das fronteiras marítimas.  
+Integra a verificação da validade e autenticidade dos documentos de viagem, a verificação do visto e a conformidade dos fins para que foi atribuído e de outra documentação relevante, como sejam declarações dos progenitores autorizando a viagens a menores, comprovativo de meios de subsistência, e consultas às bases de dados de segurança. Em caso de irregularidades origina um relatório de ocorrência.
+Inclui eventual cooperação com outras entidades, com elaboração de planos de atuação, ordens de operações e relatórios de ocorrências.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.009_1
+:na_c550.10.009_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Todas as operações policiais de vigilância das fronteiras terrestre, marítima ou aérea".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.009_2
+:na_c550.10.009_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Aplica-se, ainda, às seguintes situações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.009_3
+:na_c550.10.009_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Preservação e proteção ambiental e da prevenção da criminalidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.009_4
+:na_c550.10.009_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Garantir a livre circulação no território nacional e defesa de portos e aeroportos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.009_5
+:na_c550.10.009_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Vigiar e controlar as principais rotas internacionais aéreas e marítimas que intersetam o Espaço Estratégico de Interesse Nacional Permanente".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.009_1
+:ne_c550.10.009_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As operações de controlo das entradas e saídas de pessoas pelas fronteiras do território nacional devem ser consideradas em 550.10.008 – Controlo de pessoas nas fronteiras".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.009_2
+:ne_c550.10.009_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A fiscalização da carga e mercadorias nas fronteiras deve ser considerada em 500.10.301 – Realização de fiscalização".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.009
+:c550.10.009 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.009";
+	:titulo "Vigilância da fronteira";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_GNR ;
+	:temParticipanteAssessor :org_SEF ;
+	:temParticipanteAssessor :org_FAP ;
+	:temParticipanteAssessor :org_Marinha ;
+	:temParticipanteAssessor :org_AAN ;
+	:temParticipanteAssessor :org_AMN ;
+	:temParticipanteAssessor :org_PJ ;
+	:temParticipanteAssessor :org_AT ;
+	:temParticipanteAssessor :org_ASAE ;
+	:temParticipanteAssessor :org_ANS ;
+	:temParticipanteAssessor :org_APA ;
+	:temDono :org_GNR ;
+	:temDono :org_SEF ;
+	:temDono :org_FAP ;
+	:temDono :org_Marinha ;
+	:temDono :org_AAN ;
+	:temDono :org_AMN ;
+	:temNotaAplicacao :na_c550.10.009_1 ;
+	:temNotaAplicacao :na_c550.10.009_2 ;
+	:temNotaAplicacao :na_c550.10.009_3 ;
+	:temNotaAplicacao :na_c550.10.009_4 ;
+	:temNotaAplicacao :na_c550.10.009_5 ;
+	:temNotaExclusao :ne_c550.10.009_1 ;
+	:temNotaExclusao :ne_c550.10.009_2 ;
+	:temRelProc :c150.20.103 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c200.10.001 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c550.10.005 ;
+	:temRelProc :c550.10.008 ;
+	:temRelProc :c800.10.602 ;
+	:temRelProc :c600.10.500 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1112 ;
+	:temLegislacao :leg_781 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_589 ;
+	:temLegislacao :leg_531 ;
+	:temLegislacao :leg_768 ;
+	:classeStatus "A" ;
+	:descricao "Operações policiais destinadas a vigiar, patrulhar e controlar as fronteiras do espaço sob soberania e jurisdição nacional, do Continente e das Regiões Autónomas, bem como da fronteira comunitária.
+Inicia a preparação com a decisão do Comandante, com a denúncia de infrações ou com a requisição de entidades/organismos parceiros. Termina com o relatório da operação ou da guia de patrulha.
+Inclui a operacionalização da missão.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_1
+:na_c550.10.010_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ações de observação de reclusos, nomeadamente, durante o período noturno".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_2
+:na_c550.10.010_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Controlo periódico de presenças (contexto prisional)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_3
+:na_c550.10.010_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Batimento de grades".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_4
+:na_c550.10.010_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Revista pessoal (em contexto prisional)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_5
+:na_c550.10.010_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Busca (em contexto prisional)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_6
+:na_c550.10.010_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Recurso a meios cinotécnicos e de videovigilância (em contexto prisional)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_7
+:na_c550.10.010_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apreensão temporária de objetos a recluso".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_8
+:na_c550.10.010_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Privação ou restrição do convívio com determinados reclusos ou do acesso a espaços comuns do estabelecimento prisional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_9
+:na_c550.10.010_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Utilização de algemas em recluso".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_10
+:na_c550.10.010_10 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Colocação de recluso em cela de separação da restante população prisional e de colocação em quarto de segurança".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_11
+:na_c550.10.010_11 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Utilização de meios coercivos em recluso".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_12
+:na_c550.10.010_12 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ações de vigilância e controlo de visitas a reclusos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.010
+:c550.10.010 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.010";
+	:titulo "Ação de ordem e segurança em estabelecimento prisional";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_DGRSP ;
+	:temDono :org_EMGFA ;
+	:temNotaAplicacao :na_c550.10.010_1 ;
+	:temNotaAplicacao :na_c550.10.010_2 ;
+	:temNotaAplicacao :na_c550.10.010_3 ;
+	:temNotaAplicacao :na_c550.10.010_4 ;
+	:temNotaAplicacao :na_c550.10.010_5 ;
+	:temNotaAplicacao :na_c550.10.010_6 ;
+	:temNotaAplicacao :na_c550.10.010_7 ;
+	:temNotaAplicacao :na_c550.10.010_8 ;
+	:temNotaAplicacao :na_c550.10.010_9 ;
+	:temNotaAplicacao :na_c550.10.010_10 ;
+	:temNotaAplicacao :na_c550.10.010_11 ;
+	:temNotaAplicacao :na_c550.10.010_12 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.40.001 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c500.20 ;
+	:temRelProc :c600.40.001 ;
+	:temRelProc :c600.40.002 ;
+	:temLegislacao :leg_1088 ;
+	:temLegislacao :leg_882 ;
+	:temLegislacao :leg_780 ;
+	:classeStatus "A" ;
+	:descricao "Utilização dos meios comuns e dos meios especiais de segurança que têm em vista a manutenção da ordem e da segurança no estabelecimento prisional.
+Inicia com a ação a realizar e termina com o registo da operação.
+Inclui o controlo de visitantes efetuado no momento de entrada e saída no estabelecimento por elemento dos serviços de vigilância e segurança.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.011_1
+:na_c550.10.011_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reporte de incidentes de cibersegurança, à interoperabilidade e o acesso entre os sistemas de informação das entidades que fazem parte do Sistema de Segurança Interna".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.011_1
+:ne_c550.10.011_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A investigação e prevenção criminal da cibercriminalidade coadjuvação judiciária, a preservação da prova, a prevenção criminal deve ser considerada em \"Administração da justiça/Prevenção e investigação criminal\" (600.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.011
+:c550.10.011 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.011";
+	:titulo "Cibersegurança";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_PJ ;
+	:temParticipanteAssessor :org_PSP ;
+	:temParticipanteAssessor :org_GNR ;
+	:temDono :org_CNCS ;
+	:temNotaAplicacao :na_c550.10.011_1 ;
+	:temNotaExclusao :ne_c550.10.011_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c550.10.005 ;
+	:temRelProc :c500.20.002 ;
+	:temRelProc :c500.20.003 ;
+	:temRelProc :c500.20.300 ;
+	:temRelProc :c500.10.300 ;
+	:temRelProc :c550.30.002 ;
+	:temLegislacao :leg_1297 ;
+	:temLegislacao :leg_1003 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_674 ;
+	:classeStatus "A" ;
+	:descricao "Operações de segurança e proteção no ciberespaço, nomeadamente das redes, dos sistemas e dos serviços vitais de informação e comunicação, contra ameaças que ponham em risco o espaço de liberdade individual e coletiva.
+Inicia com a ação de vigilância, constatação de uma vulnerabilidade, existência de ameaça ou denúncia e termina com a reposição da segurança dos sistemas e infraestruturas de comunicação.
+Inclui a prevenção, monotorização, análise de risco, a deteção de intrusão, coordenação das ações tendo em vista a reposição da segurança.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.300_1
+:na_c550.10.300_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Sinalização de emergência e socorro colocada em instalações e equipamentos públicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.300_2
+:na_c550.10.300_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Sinalização de locais de risco público".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.300_3
+:na_c550.10.300_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Sinalização de contaminação de água".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.300_4
+:na_c550.10.300_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Sinalização de obras em curso".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.300_5
+:na_c550.10.300_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Sinalização de intervenção em arribas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.300_6
+:na_c550.10.300_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Sinalização de trânsito".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.300_1
+:ne_c550.10.300_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A elaboração de planos de segurança ou de proteção deve ser considerada em processos de negócio de 150 – Planeamento e Gestão Estratégica em função do âmbito de aplicação nacional, regional, municipal ou organizacional do instrumento de planeamento".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.300_2
+:ne_c550.10.300_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A manutenção e reparação da sinalização devem ser consideradas em 300.40.503 – Conservação e valorização de edifícios, infraestruturas e equipamentos públicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.300_3
+:ne_c550.10.300_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A participação de danos em sinalização de segurança deve ser considerada em 300.40.509 – Manutenção e reparação de bens móveis duradouros".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.300_4
+:ne_c550.10.300_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O plano de segurança deve ser considerado em 150.10.200 – Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito nacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.300_5
+:ne_c550.10.300_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A organização de ações de sensibilização e divulgação deve ser considerada em 900.10.502 – Organização e participação em iniciativas de prevenção e sensibilização".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.300
+:c550.10.300 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.300";
+	:titulo "Sinalização informativa e reguladora";
+	:temPai :c550.10 ;
+	:processoTipo "PC" ;
+	:processoTransversal "N" ;
+	:temDono :org_AP ;
+	:temNotaAplicacao :na_c550.10.300_1 ;
+	:temNotaAplicacao :na_c550.10.300_2 ;
+	:temNotaAplicacao :na_c550.10.300_3 ;
+	:temNotaAplicacao :na_c550.10.300_4 ;
+	:temNotaAplicacao :na_c550.10.300_5 ;
+	:temNotaAplicacao :na_c550.10.300_6 ;
+	:temNotaExclusao :ne_c550.10.300_1 ;
+	:temNotaExclusao :ne_c550.10.300_2 ;
+	:temNotaExclusao :ne_c550.10.300_3 ;
+	:temNotaExclusao :ne_c550.10.300_4 ;
+	:temNotaExclusao :ne_c550.10.300_5 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c300.30.008 ;
+	:temRelProc :c450.10.063 ;
+	:temRelProc :c450.10.213 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c500.20.002 ;
+	:temRelProc :c500.20.003 ;
+	:temRelProc :c500.20.300 ;
+	:temRelProc :c800.10.302 ;
+	:temLegislacao :leg_455 ;
+	:temLegislacao :leg_432 ;
+	:temLegislacao :leg_188 ;
+	:classeStatus "A" ;
+	:descricao "Definição da distribuição de sinalética destinada a transmitir aos utentes perigos, obrigações, restrições, proibições, indicações, avisos e orientações.
+Inicia com a identificação de necessidades ou com o pedido de interessados e termina com o registo da colocação da sinalética.
+Inclui diagnóstico, desenho do projeto, a indicação do cadastro da sinalética e colocação da sinalização.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.301_1
+:na_c550.10.301_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emissão de vistos para fins de escala aeroportuária, de curta duração, de estada temporária e para obtenção de autorização de residência".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.301_2
+:na_c550.10.301_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emissão de vistos por embaixadas e postos consulares".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.301_3
+:na_c550.10.301_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emissão de vistos de curta duração e especiais nos postos de fronteira pela autoridade de controlo fronteiriço".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.301
+:c550.10.301 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.301";
+	:titulo "Emissão de vistos";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_Cns ;
+	:temDono :org_Cns ;
+	:temDono :org_SEF ;
+	:temNotaAplicacao :na_c550.10.301_1 ;
+	:temNotaAplicacao :na_c550.10.301_2 ;
+	:temNotaAplicacao :na_c550.10.301_3 ;
+	:temRelProc :c500.30.005 ;
+	:temRelProc :c500.30.006 ;
+	:temRelProc :c500.30.500 ;
+	:temRelProc :c550.10.303 ;
+	:temRelProc :c550.10.306 ;
+	:temLegislacao :leg_976 ;
+	:temLegislacao :leg_576 ;
+	:temLegislacao :leg_816 ;
+	:classeStatus "A" ;
+	:descricao "Emissão de um documento a um cidadão estrangeiro, que não seja titular de autorização de residência ou não seja detentor de prorrogação de permanência, que o habilita a apresentar-se num posto de fronteira e a solicitar a entrada no país, e depois de autorizado, a entrar e permanecer em território nacional durante determinado período de tempo e para certas finalidades.
+Inicia com a apresentação do pedido junto da autoridade competente e termina com a concessão de visto que é aposto no documento de viagem do respetivo titular, ou com o indeferimento do pedido.
+Inclui a apreciação das condições do titular por parte das autoridades que emitem o visto e, em certos casos, estipulados por lei, a obtenção de pareceres prévios obrigatórios junto do Serviço de Estrangeiros e Fronteiras ou do Serviço de Informações de Segurança, consoante o caso.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.302_1
+:na_c550.10.302_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Operações de afastamento de cidadãos de Estado terceiro que requeiram trânsito aeroportuário em território de Estados Membros da União Europeia".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.302
+:c550.10.302 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.302";
+	:titulo "Autorização de trânsito para efeitos de afastamento por via aérea";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_SEF ;
+	:temNotaAplicacao :na_c550.10.302_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c500.30.006 ;
+	:temRelProc :c600.40.300 ;
+	:temLegislacao :leg_976 ;
+	:temLegislacao :leg_576 ;
+	:temLegislacao :leg_351 ;
+	:classeStatus "A" ;
+	:descricao "Operações decorrentes da emissão de pedido de trânsito aeroportuário, efetuado junto de um Estado-membro da UE, para efeitos de afastamento por via aérea de um cidadão de Estado terceiro, com ou sem escolta, nos casos em que o afastamento não se possa realizar em voo direto.
+Inicia-se com a apresentação do pedido de trânsito e termina com a autorização do Estado requerido e a efetivação do afastamento, ou, excecionalmente, quando não haja resposta dentro dos prazos a que o referido Estado está obrigado, com a realização da operação de trânsito, mediante mera notificação.
+Inclui preenchimento do pedido de autorização de trânsito aeroportuário.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.303_1
+:na_c550.10.303_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Autorizações de residência para".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.303_2
+:na_c550.10.303_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Exercício de atividade profissional subordinada ou independente".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.303_3
+:na_c550.10.303_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atividade de investigação ou altamente qualificada".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.303_4
+:na_c550.10.303_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Estudo, estágio profissional não remunerado ou voluntariado".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.303_5
+:na_c550.10.303_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Investimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.303_6
+:na_c550.10.303_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Vítimas de tráfico de seres humanos ou de auxílio à emigração ilegal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.303_7
+:na_c550.10.303_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reagrupamento familiar".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.303_1
+:ne_c550.10.303_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pedidos de nacionais de um Estado-membro da UE, de um Estado parte do EEE, nacionais de Estados terceiros, familiares de cidadão português e nacionais de Estados terceiros que residam em território nacional na qualidade de refugiados, beneficiários de proteção subsidiária prevista na legislação do asilo ou beneficiários de proteção temporária, devem ser considerados em 550.10.305 – Processamento de pedidos de asilo".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.303
+:c550.10.303 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.303";
+	:titulo "Autorização de residência";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_SEF ;
+	:temNotaAplicacao :na_c550.10.303_1 ;
+	:temNotaAplicacao :na_c550.10.303_2 ;
+	:temNotaAplicacao :na_c550.10.303_3 ;
+	:temNotaAplicacao :na_c550.10.303_4 ;
+	:temNotaAplicacao :na_c550.10.303_5 ;
+	:temNotaAplicacao :na_c550.10.303_6 ;
+	:temNotaAplicacao :na_c550.10.303_7 ;
+	:temNotaExclusao :ne_c550.10.303_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c400.10.025 ;
+	:temRelProc :c400.10.026 ;
+	:temRelProc :c400.10.028 ;
+	:temRelProc :c400.10.029 ;
+	:temRelProc :c500.30.005 ;
+	:temRelProc :c500.30.006 ;
+	:temRelProc :c500.30.500 ;
+	:temRelProc :c550.10.301 ;
+	:temRelProc :c550.10.304 ;
+	:temRelProc :c550.10.305 ;
+	:temRelProc :c600.40. ;
+	:temLegislacao :leg_976 ;
+	:temLegislacao :leg_576 ;
+	:classeStatus "A" ;
+	:descricao "Concessão de autorização a cidadãos de país terceiro para residência em território nacional.
+Inicia com pedido de autorização de residência por parte do interessado e termina com a notificação da decisão.
+Inclui fundamentação, análise dos requisitos e decisão.  
+Inclui, ainda, cancelamento e renovação.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.304_1
+:na_c550.10.304_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Regularização da situação de cidadão nacional de país terceiro que não reúnam todos os requisitos para residência no país, nomeadamente a posse de visto de residência para fins de trabalho subordinado ou independente".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.304_1
+:ne_c550.10.304_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pedidos de nacionais de um Estado-membro da UE, de um Estado parte do EEE, nacionais de Estados terceiros, familiares de cidadão português e nacionais de Estados terceiros que residam em território nacional na qualidade de refugiados, beneficiários de proteção subsidiária prevista na legislação do asilo ou beneficiários de proteção temporária, devem ser considerados em 550.10.305 – Processamento de pedidos de asilo".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.304
+:c550.10.304 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.304";
+	:titulo "Manifestações de interesse";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_SEF ;
+	:temNotaAplicacao :na_c550.10.304_1 ;
+	:temNotaExclusao :ne_c550.10.304_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c400.10.029 ;
+	:temRelProc :c550.10.303 ;
+	:temLegislacao :leg_576 ;
+	:classeStatus "A" ;
+	:descricao "Concessão de autorização de caráter excecional a nacionais de países terceiros que não reúnam todos os requisitos para exercício de atividade profissional subordinada, ou independente, para regularização da sua situação em território nacional.
+Inicia com apresentação de manifestação de interesse do requerente e termina com a decisão sobre a concessão excecional de autorização de residência temporária.
+Inclui abertura de procedimento oficioso, análise dos meios de prova relativos às condições que permitem beneficiar deste mecanismo.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.305_1
+:na_c550.10.305_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Estrangeiros e apátridas perseguidos ou gravemente ameaçados de perseguição, em consequência de atividade exercida no Estado da sua nacionalidade ou da sua residência habitual, em favor da democracia, libertação social e nacional, da paz, liberdade e direitos da pessoa humana ou receando ser perseguidos em virtude da sua raça, religião, nacionalidade, opiniões políticas e que por essa razão não queiram regressar ao seu Estado de nacionalidade ou da sua residência habitual".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.305_2
+:na_c550.10.305_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Estrangeiros e apátridas que sejam impedidos ou se sintam impossibilitados de regressar ao país da sua nacionalidade ou da sua residência habitual, quer atendendo à sistemática violação dos direitos humanos que aí se verifique, quer por correrem o risco de sofrer ofensa grave que ponha em risco a sua vida ou a integridade física".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.305
+:c550.10.305 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.305";
+	:titulo "Processamento de pedidos de asilo";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_PSP ;
+	:temParticipanteIniciador :org_GNR ;
+	:temParticipanteIniciador :org_Cns ;
+	:temParticipanteIniciador :org_PJ ;
+	:temParticipanteIniciador :org_PMar ;
+	:temDono :org_SEF ;
+	:temNotaAplicacao :na_c550.10.305_1 ;
+	:temNotaAplicacao :na_c550.10.305_2 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c400.10.028 ;
+	:temRelProc :c400.10.029 ;
+	:temRelProc :c500.30.005 ;
+	:temRelProc :c550.10.008 ;
+	:temRelProc :c550.10.303 ;
+	:temLegislacao :leg_1169 ;
+	:temLegislacao :leg_669 ;
+	:classeStatus "A" ;
+	:descricao "Processamento dos pedidos e análise das condições de concessão de asilo ou proteção subsidiária no âmbito dos estatutos de requerente de asilo, de refugiado e de proteção subsidiária.
+Inicia com o pedido do interessado junto da autoridade responsável sob a forma escrita ou oral, do qual, no segundo caso, é de imediato lavrado auto pela autoridade policial que recebe o pedido e remetido à autoridade responsável, e termina com decisão relativa à concessão ou recusa de estatuto de refugiado ou de proteção subsidiária.  
+Inclui entrevista, análise dos fundamentos do pedido, análise de provas documentais quando existentes, verificação de que o requerente não beneficia de estatuto idêntico atribuído por outro Estado-membro e de que não beneficia de estatuto legal noutro país para além do país de origem, eventual realização de perícias médico-legais, recolha de informação sobre o país de origem e sobre os factos invocados para o pedido de proteção, parecer do Conselho Português para os Refugiados, elaboração de proposta fundamentada de admissibilidade ou não admissibilidade do pedido.
+Em caso de admissibilidade do pedido segue-se uma segunda fase do procedimento onde é efetuada uma instrução mais detalhada que culmina na apresentação de proposta fundamentada ao membro do governo responsável pela área da administração interna de concessão ou recusa do estatuto de refugiado ou de proteção subsidiária.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.306_1
+:na_c550.10.306_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Casos em que haja um acordo ou convenção internacional de readmissão".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.306_1
+:ne_c550.10.306_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A readmissão ativa deve ser considerada em 500.30.006 – Afastamento coercivo do território nacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.306
+:c550.10.306 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.306";
+	:titulo "Readmissão de estrangeiros em situação ilegal";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_SEF ;
+	:temNotaAplicacao :na_c550.10.306_1 ;
+	:temNotaExclusao :ne_c550.10.306_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c500.30.001 ;
+	:temRelProc :c500.30.005 ;
+	:temRelProc :c500.30.006 ;
+	:temRelProc :c500.30.007 ;
+	:temRelProc :c550.10.301 ;
+	:temRelProc :c550.10.008 ;
+	:temLegislacao :leg_976 ;
+	:temLegislacao :leg_576 ;
+	:temLegislacao :leg_279 ;
+	:classeStatus "A" ;
+	:descricao "Processamento dos pedidos de readmissão que ocorrem nos termos de convenções internacionais, ao abrigo das quais os cidadãos estrangeiros que se encontrem ilegalmente no território de um Estado, vindos diretamente de outro Estado, podem ser por este readmitidos, mediante pedido formulado pelo Estado em cujo território se encontrem.
+Inicia com a receção do pedido do Estado requerente e termina com a aceitação e readmissão do cidadão estrangeiro, ou com a recusa do pedido.
+Inclui tratamento do pedido formulado pelo Estado requerente e, se existente, do auto de declarações e documentação identificativa disponível do cidadão, consulta informática, e se necessário, do processo de residente, decisão e sua comunicação ao Estado requerente e ao departamento responsável pelo processo de residente.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.307_1
+:na_c550.10.307_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração do Boletim de Farmacovigilância, destinado aos profissionais de saúde, com informação sobre efeitos adversos de medicamentos autorizados, quer a nível nacional quer europeu".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.307_2
+:na_c550.10.307_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Validação de comunicações dirigidas aos profissionais de saúde (DHPC – Direct Healthcare Professional Communication)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.307_3
+:na_c550.10.307_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento da implementação das Medidas Urgentes de Segurança (MUS)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.307_4
+:na_c550.10.307_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Avaliação de materiais educacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.307_1
+:ne_c550.10.307_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A revogação de AM por medidas de segurança deve ser considerada em 450.10.640 – Autorização de introdução de produtos e substâncias no mercado".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.307_2
+:ne_c550.10.307_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As alterações para implementação das recomendações do PRAC decorrentes de avaliação de sinais de segurança(C.I.z) do tipo IAIN) devem ser consideradas em  450.10.640 – Autorização de introdução de produtos e substâncias no mercado".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.307
+:c550.10.307 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.307";
+	:titulo "Implementação de medidas de segurança de medicamentos e produtos de saúde";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "N" ;
+	:temDono :org_INFARMED ;
+	:temNotaAplicacao :na_c550.10.307_1 ;
+	:temNotaAplicacao :na_c550.10.307_2 ;
+	:temNotaAplicacao :na_c550.10.307_3 ;
+	:temNotaAplicacao :na_c550.10.307_4 ;
+	:temNotaExclusao :ne_c550.10.307_1 ;
+	:temNotaExclusao :ne_c550.10.307_2 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c300.30.008 ;
+	:temRelProc :c450.10.640 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c800.10.304 ;
+	:temRelProc :c800.10.306 ;
+	:temRelProc :c800.10.606 ;
+	:temLegislacao :leg_1002 ;
+	:classeStatus "A" ;
+	:descricao "Operações de segurança e aplicação de medidas de minimização do risco de medicamentos e produtos de saúde, tendo como objetivo a salvaguarda da saúde pública.
+Inicia com a submissão da medida pelos titulares ou com a elaboração de proposta de medida pela autoridade do medicamento e termina com a comunicação da operação.
+Inclui parecer de avaliação de publicidade, indicação de medida a aplicar, validação e avaliação da medida, verificação da implementação.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.600_1
+:na_c550.10.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Resolução e gestão de incidentes críticos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.600_2
+:na_c550.10.600_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Intervenção táctica em situações de violência concertada e de elevada perigosidade, complexidade e risco".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.600_3
+:na_c550.10.600_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Inactivação de explosivos e segurança em subsolo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.600_4
+:na_c550.10.600_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Cooperação com as forças militares ao nível de reforço e apoio às forças de segurança".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.600_5
+:na_c550.10.600_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Gestão de incidente inopinado, configurando uma situação de flagrante delito ou que exija a imediata intervenção policial (sequestro, tomada de reféns ou ameaça/descoberta de engenho explosivo)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.600_1
+:ne_c550.10.600_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A reposição da ordem e gestão de incidentes de segurança que decorra do policiamento do espaço público deve ser considerada em 550.10.001 – Segurança de espaços públicos e abertos ao público".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.600_2
+:ne_c550.10.600_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A reposição da ordem e gestão de incidentes de segurança que decorra da Ação de segurança a eventos de alto risco deve ser considerada em 550.10.002 – Ação de segurança a eventos de alto risco".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.600_3
+:ne_c550.10.600_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A investigação criminal dos incidentes deverá ser considerada em 600.10 – Prevenção e investigação criminal".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.10.600
+:c550.10.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.10.600";
+	:titulo "Reposição da ordem e gestão de incidentes de segurança
+";
+	:temPai :c550.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_SEF ;
+	:temParticipanteAssessor :org_ANPC ;
+	:temParticipanteAssessor :org_FSS ;
+	:temParticipanteAssessor :org_FA ;
+	:temDono :org_FSS ;
+	:temDono :org_FA ;
+	:temDono :org_AL ;
+	:temNotaAplicacao :na_c550.10.600_1 ;
+	:temNotaAplicacao :na_c550.10.600_2 ;
+	:temNotaAplicacao :na_c550.10.600_3 ;
+	:temNotaAplicacao :na_c550.10.600_4 ;
+	:temNotaAplicacao :na_c550.10.600_5 ;
+	:temNotaExclusao :ne_c550.10.600_1 ;
+	:temNotaExclusao :ne_c550.10.600_2 ;
+	:temNotaExclusao :ne_c550.10.600_3 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c500.30.001 ;
+	:temRelProc :c500.20.300 ;
+	:temRelProc :c500.20.002 ;
+	:temRelProc :c500.20.003 ;
+	:temRelProc :c550.10.002 ;
+	:temRelProc :c600.10.500 ;
+	:temLegislacao :leg_652 ;
+	:temLegislacao :leg_413 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1112 ;
+	:temLegislacao :leg_781 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_9 ;
+	:temLegislacao :leg_149 ;
+	:temLegislacao :leg_1307 ;
+	:classeStatus "A" ;
+	:descricao "Operações reativas ou de intervenção não programadas a fenómenos de desacatos, tumultos, violência concertada, catástrofes naturais, incidentes críticos ou acidentes não naturais que provocam a alteração dos níveis de segurança de pessoas e bens, assim como do normal funcionamento das instituições.
+Inicia com a sinalização do foco de insegurança e termina com o relato da operação.
+Inclui diagnóstico de situação, operacionalização e atualização do ponto de situação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20_1
+:na_c550.20_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Difusão de alertas de risco (alertas sobre o clima, sismos, estado do mar, incêndios, etc.)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20_2
+:na_c550.20_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio preventivo de bombeiros a espetáculos e eventos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20_3
+:na_c550.20_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Processamento de pedidos de socorro em caso de incêndio, naufrágio, inundação, etc".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20_4
+:na_c550.20_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio à localização de sinistrados".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20_5
+:na_c550.20_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Transporte de sinistrados".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.20
+:c550.20 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "550.20";
+	:titulo "Proteção civil, socorro de emergência e prevenção de acidentes";
+	:temPai :c550 ;
+	:temNotaAplicacao :na_c550.20_1 ;
+	:temNotaAplicacao :na_c550.20_2 ;
+	:temNotaAplicacao :na_c550.20_3 ;
+	:temNotaAplicacao :na_c550.20_4 ;
+	:temNotaAplicacao :na_c550.20_5 ;
+	:classeStatus "A" ;
+	:descricao "Operações relacionadas com a prestação de serviços preventivos e reativos a situações de emergência e de prevenção de acidentes. Inclui atividades de vigilância e análise de risco, ações de alerta de situações de risco, gestão das medidas corretivas, pedidos de auxílio e, ainda, ações de socorro a pessoas e bens em caso de acidente, catástrofe ou calamidade, prestados por qualquer força de segurança, de defesa, de proteção civil e/ou por quaisquer outras entidades.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.001_1
+:na_c550.20.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Difusão de alertas referente ao uso de medicamentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.001_2
+:na_c550.20.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emissão de alertas referente ao consumo de produtos alimentares".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.001_3
+:na_c550.20.001_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emissão de alerta de risco de derrocada de arribas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.001_4
+:na_c550.20.001_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emissão de alerta de ameaça de sismo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.001_5
+:na_c550.20.001_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emissão de alerta de aumento de radiação ionizante".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.001_6
+:na_c550.20.001_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emissão de alerta de concentração de raios ultravioletas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.001_7
+:na_c550.20.001_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emissão de aviso de cheias e secas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.001_8
+:na_c550.20.001_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emissão de aviso de incêndio".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.001_9
+:na_c550.20.001_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emissão de avisos metereológicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.001_10
+:na_c550.20.001_10 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emissão de aviso nuclear".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.001_1
+:ne_c550.20.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A recolha de dados sobre os índices de poluição ambiental deve ser considerada em 800.10.301 – Monitorização de índices da qualidade ambiental".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.001_2
+:ne_c550.20.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A recolha de dados sobre os recursos naturais, espécies e paisagens deve ser considerada em 800.10.302 – Monitorização de recursos naturais, espécies e paisagens".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.001_3
+:ne_c550.20.001_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A recolha de dados sobre o abastecimento e distribuição de água e do saneamento de águas residuais deve ser considerada em 800.10.303 – Monitorização do abastecimento e distribuição de água e do saneamento de águas residuais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.20.001
+:c550.20.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.20.001";
+	:titulo "Emissão de avisos e declaração de alertas";
+	:temPai :c550.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_AP ;
+	:temDono :org_ANPC ;
+	:temDono :org_AL ;
+	:temDono :org_INFARMED ;
+	:temDono :org_ASAE ;
+	:temDono :org_DGS ;
+	:temDono :org_IPMA ;
+	:temDono :org_ANMP ;
+	:temDono :org_APA ;
+	:temNotaAplicacao :na_c550.20.001_1 ;
+	:temNotaAplicacao :na_c550.20.001_2 ;
+	:temNotaAplicacao :na_c550.20.001_3 ;
+	:temNotaAplicacao :na_c550.20.001_4 ;
+	:temNotaAplicacao :na_c550.20.001_5 ;
+	:temNotaAplicacao :na_c550.20.001_6 ;
+	:temNotaAplicacao :na_c550.20.001_7 ;
+	:temNotaAplicacao :na_c550.20.001_8 ;
+	:temNotaAplicacao :na_c550.20.001_9 ;
+	:temNotaAplicacao :na_c550.20.001_10 ;
+	:temNotaExclusao :ne_c550.20.001_1 ;
+	:temNotaExclusao :ne_c550.20.001_2 ;
+	:temNotaExclusao :ne_c550.20.001_3 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c300.40.504 ;
+	:temRelProc :c300.40.507 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c500.20.002 ;
+	:temRelProc :c500.20.003 ;
+	:temRelProc :c550.10.005 ;
+	:temRelProc :c550.20.002 ;
+	:temRelProc :c550.20.004 ;
+	:temRelProc :c800.10.300 ;
+	:temRelProc :c800.10.301 ;
+	:temRelProc :c800.10.302 ;
+	:temRelProc :c800.10.303 ;
+	:temRelProc :c800.10.304 ;
+	:temRelProc :c800.10.306 ;
+	:temLegislacao :leg_884 ;
+	:temLegislacao :leg_591 ;
+	:temLegislacao :leg_538 ;
+	:temLegislacao :leg_601 ;
+	:temLegislacao :leg_485 ;
+	:temLegislacao :leg_499 ;
+	:temLegislacao :leg_455 ;
+	:temLegislacao :leg_456 ;
+	:classeStatus "A" ;
+	:descricao "Operações de advertência e sinalização de perigos e riscos potenciais ou iminentes.
+Inicia com a emissão do aviso das condições de perigo ou risco e termina com o registo da emissão de alerta.
+Inclui articulação de entidades competentes para a análise de dados, validação de alertas e consequente emissão de alerta para os serviços e agentes competentes.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.002_1
+:na_c550.20.002_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Monitorização de recursos tecnológicos de vigilância e alerta".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_1
+:exna_c550.20.002_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Vigilância de matas e florestas".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_2
+:exna_c550.20.002_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Vigilância da alteração de cursos de água".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_3
+:exna_c550.20.002_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Vigilância contra derrames tóxicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_4
+:exna_c550.20.002_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Vigilância à radioatividade no ambiente".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_5
+:exna_c550.20.002_5 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Vigilância contra desastres naturais".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_6
+:exna_c550.20.002_6 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Vigilância contra intempéries".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_7
+:exna_c550.20.002_7 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Vigilância marítima".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_8
+:exna_c550.20.002_8 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Vigilância de ondas de calor".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_9
+:exna_c550.20.002_9 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Vigilância de poluentes atmosféricos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.002_1
+:ne_c550.20.002_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A instalação de sistemas automáticos de deteção de incêndios deve ser considerada em 300.40.503 – Conservação e valorização de edifícios, infraestruturas e equipamentos públicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.002_2
+:ne_c550.20.002_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A ação de vigilância das forças de segurança no âmbito do policiamento deve ser considerada no 550.10.001 – Segurança de espaços públicos e abertos ao público".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.002_3
+:ne_c550.20.002_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A ação de vigilância no âmbito de apoio à investigação criminal deve ser considerada em 600.10.504 – Ação de pesquisa e vigilancia".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.002_4
+:ne_c550.20.002_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O pedido de proteção e socorro deve ser considerado em 550.20.500 – Ação de proteção e socorro".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.002_5
+:ne_c550.20.002_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A recolha de dados sobre os índices de poluição ambiental deve ser considerada em 800.10.301 – Monitorização de índices da qualidade ambiental".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.002_6
+:ne_c550.20.002_6 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A recolha de dados sobre os recursos naturais, espécies e paisagens deve ser considerada em 800.10.302 – Monitorização de recursos naturais, espécies e paisagens".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.002_7
+:ne_c550.20.002_7 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A recolha de dados sobre o abastecimento e distribuição de água e do saneamento de águas residuais deve ser considerada em 800.10.303 – Monitorização do abastecimento e distribuição de água e do saneamento de águas residuais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.20.002
+:c550.20.002 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.20.002";
+	:titulo "Ação de vigilância";
+	:temPai :c550.20 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_ANPC ;
+	:temDono :org_PMar ;
+	:temDono :org_APA ;
+	:temDono :org_IPMA ;
+	:temDono :org_DGRM ;
+	:temDono :org_ICNF ;
+	:temDono :org_GNR ;
+	:temDono :org_AL ;
+	:temNotaAplicacao :na_c550.20.002_1 ;
+	:temNotaExclusao :ne_c550.20.002_1 ;
+	:temNotaExclusao :ne_c550.20.002_2 ;
+	:temNotaExclusao :ne_c550.20.002_3 ;
+	:temNotaExclusao :ne_c550.20.002_4 ;
+	:temNotaExclusao :ne_c550.20.002_5 ;
+	:temNotaExclusao :ne_c550.20.002_6 ;
+	:temNotaExclusao :ne_c550.20.002_7 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c500.20.002 ;
+	:temRelProc :c500.20.003 ;
+	:temRelProc :c500.20.300 ;
+	:temRelProc :c550.20.001 ;
+	:temRelProc :c550.20.500 ;
+	:temRelProc :c800.10.301 ;
+	:temRelProc :c800.10.302 ;
+	:temLegislacao :leg_1068 ;
+	:temLegislacao :leg_937 ;
+	:temLegislacao :leg_765 ;
+	:temLegislacao :leg_656 ;
+	:temLegislacao :leg_562 ;
+	:temLegislacao :leg_456 ;
+	:classeStatus "A" ;
+	:exemploNA "Vigilância de matas e florestas" ;
+	:exemploNA "Vigilância da alteração de cursos de água" ;
+	:exemploNA "Vigilância contra derrames tóxicos" ;
+	:exemploNA "Vigilância à radioatividade no ambiente" ;
+	:exemploNA "Vigilância contra desastres naturais" ;
+	:exemploNA "Vigilância contra intempéries" ;
+	:exemploNA "Vigilância marítima" ;
+	:exemploNA "Vigilância de ondas de calor" ;
+	:exemploNA "Vigilância de poluentes atmosféricos" ;
+	:descricao "Operações preventivas de reconhecimento e proteção através da vigia e acompanhamento de comportamento e atividades de pessoas ou de espaços e emissão de pedido de proteção e socorro aquando da deteção de risco ou de perigo iminente.
+Inicia com a ação de vigilância planeada e termina com o relato da operação.
+Inclui emissão de alerta e diagnóstico de situação, quando necessário.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.003_1
+:na_c550.20.003_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Realização de simulacros por iniciativa de entidades públicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.003_2
+:na_c550.20.003_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Realização de simulacros a pedido de entidades privadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.003_3
+:na_c550.20.003_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Realização de exercícios e operações de âmbito militar, nacionais ou internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.003_1
+:ne_c550.20.003_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A realização de exercícios e simulacros que decorra de ações de formação deve ser considerada em 750.20.600 – Realização de atividades de ensino ou formação".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.003_2
+:ne_c550.20.003_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A realização de exercícios militares deve ser considerada em 550.30.006 – Realização de exercícios militares".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.003_3
+:ne_c550.20.003_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A elaboração de orçamento do exercício e simulacro contratualizado deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.20.003
+:c550.20.003 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.20.003";
+	:titulo "Realização de exercícios e simulacros";
+	:temPai :c550.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_AP ;
+	:temParticipanteAssessor :org_FS ;
+	:temParticipanteAssessor :org_FA ;
+	:temParticipanteAssessor :org_ANPC ;
+	:temParticipanteAssessor :org_INMLCF ;
+	:temParticipanteAssessor :org_PJ ;
+	:temParticipanteAssessor :org_AL ;
+	:temDono :org_FS ;
+	:temDono :org_FA ;
+	:temDono :org_AL ;
+	:temDono :org_ANPC ;
+	:temNotaAplicacao :na_c550.20.003_1 ;
+	:temNotaAplicacao :na_c550.20.003_2 ;
+	:temNotaAplicacao :na_c550.20.003_3 ;
+	:temNotaExclusao :ne_c550.20.003_1 ;
+	:temNotaExclusao :ne_c550.20.003_2 ;
+	:temNotaExclusao :ne_c550.20.003_3 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.300 ;
+	:temRelProc :c150.10.400 ;
+	:temRelProc :c150.20.001 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1068 ;
+	:temLegislacao :leg_656 ;
+	:temLegislacao :leg_695 ;
+	:classeStatus "A" ;
+	:descricao "Preparação sistemática de pessoas e animais através da simulação de cenários de emergência e catastróficos, visando treinar a destreza, os equipamentos e a comunicação das forças de proteção civil e socorro no terreno e testar os procedimentos planeados.
+Inicia com a identificação da necessidade do exercício ou com o pedido de simulacro das entidades e termina com o envio de recomendações.
+Inclui pedido às entidades (quando a iniciativa é das forças de segurança), análise do pedido, elaboração de orçamento, indicação do pagamento, quando devido, reunião preparatória, acionamento dos meios necessários, operacionalização e relato do exercício e simulacro.".
+###  http://jcr.di.uminho.pt/m51-clav#c550.20.003.01
+:c550.20.003.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "550.20.003.01";
+	:titulo "Realização de exercícios e simulacros: preparação";
+	:temPai :c550.20.003 ;
+	:classeStatus "A" ;
+	:descricao "Inicia com a identificação da necessidade do exercício ou com a comunicação da requisição do serviço pelas entidades e termina com a a aprovação do exercício ou simulacro.
+Inclui pedido às entidades (quando a iniciativa é das forças de segurança), reunião preparatória, planeamento da ação, avaliação de risco e acionamento dos meios necessários.".
+###  http://jcr.di.uminho.pt/m51-clav#c550.20.003.02
+:c550.20.003.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "550.20.003.02";
+	:titulo "Realização de exercícios e simulacros: condução e registo";
+	:temPai :c550.20.003 ;
+	:classeStatus "A" ;
+	:descricao "Inicia com a operacionalização dos meios e intervenientes e termina com o envio do relato da operação ou recomendações, quando devido.
+Inclui a produção do relato.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.004_1
+:na_c550.20.004_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Realização de piquetes por iniciativa de entidades públicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.004_2
+:na_c550.20.004_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Realização de piquetes a pedido de entidades privadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.004_1
+:ne_c550.20.004_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A elaboração de orçamento do piquete de prevenção contratualizado deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.20.004
+:c550.20.004 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.20.004";
+	:titulo "Realização de piquetes ocasionais de prevenção";
+	:temPai :c550.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_AP ;
+	:temDono :org_FS ;
+	:temDono :org_AL ;
+	:temDono :org_ANPC ;
+	:temNotaAplicacao :na_c550.20.004_1 ;
+	:temNotaAplicacao :na_c550.20.004_2 ;
+	:temNotaExclusao :ne_c550.20.004_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c450.10.221 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.300 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c500.20.002 ;
+	:temRelProc :c500.20.003 ;
+	:temRelProc :c550.20.001 ;
+	:temRelProc :c550.20.500 ;
+	:temRelProc :c900.10.001 ;
+	:temRelProc :c900.10.002 ;
+	:temRelProc :c950.20.600 ;
+	:temLegislacao :leg_335 ;
+	:temLegislacao :leg_761 ;
+	:temLegislacao :leg_755 ;
+	:temLegislacao :leg_881 ;
+	:classeStatus "A" ;
+	:descricao "Operação de segurança preventiva em situações de potencial risco, no âmbito de eventos ocasionais que ocorram no espaço público ou aberto ao público.
+Inicia com o pedido interno ou com a comunicação da requisição do serviço pelas entidades e termina com o relato do exercício.
+Inclui planeamento da ação, avaliação de risco, identificação dos meios necessários, elaboração de orçamento da ação e operacionalização.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.005_1
+:na_c550.20.005_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reconhecimento e relação de recursos e meios públicos utilizáveis".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.005_2
+:na_c550.20.005_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reconhecimento e relação de recursos e meios privados utilizáveis".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.20.005
+:c550.20.005 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.20.005";
+	:titulo "Identificação de recursos e meios mobilizáveis para atuação no âmbito da proteção e socorro
+
+
+
+";
+	:temPai :c550.20 ;
+	:processoTipo "PC" ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_AP ;
+	:temDono :org_ANPC ;
+	:temDono :org_AL ;
+	:temNotaAplicacao :na_c550.20.005_1 ;
+	:temNotaAplicacao :na_c550.20.005_2 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.300 ;
+	:temRelProc :c150.10.400 ;
+	:temRelProc :c150.20.001 ;
+	:temRelProc :c150.20.200 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c300.10.700 ;
+	:temRelProc :c300.10.601 ;
+	:temRelProc :c300.30.008 ;
+	:temRelProc :c300.40.501 ;
+	:temRelProc :c300.50.401 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c500.20.002 ;
+	:temRelProc :c500.20.003 ;
+	:temRelProc :c500.20.300 ;
+	:temLegislacao :leg_508 ;
+	:temLegislacao :leg_1253 ;
+	:classeStatus "A" ;
+	:descricao "Identificação e caracterização dos recursos e meios disponíveis e mais facilmente mobilizáveis, ao nível local, regional e nacional em situação de acidente grave ou catástrofe.
+Inicia com identificação e termina com o registo.
+Inclui recolha de informação.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.006_1
+:na_c550.20.006_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atendimento, em central telefónica, para ocorrer a situações de emergência".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.006_1
+:ne_c550.20.006_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A prestação de assistência médica a vítimas de acidente ou de doença súbita deve ser considerada em 700.20.300 – Prestação de cuidados de emergência médica".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.006_2
+:ne_c550.20.006_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A operacionalização de ações de socorro deve ser considerada em 550.20.500 – Ação de proteção e socorro".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.006_3
+:ne_c550.20.006_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo " ".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.20.006
+:c550.20.006 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.20.006";
+	:titulo "Atendimento telefónico de emergência";
+	:temPai :c550.20 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteApreciador :org_PSP ;
+	:temParticipanteApreciador :org_GNR ;
+	:temParticipanteApreciador :org_ANPC ;
+	:temParticipanteApreciador :org_INEM ;
+	:temParticipanteApreciador :org_MP ;
+	:temParticipanteApreciador :org_FA ;
+	:temParticipanteApreciador :org_AMN ;
+	:temParticipanteApreciador :org_APA ;
+	:temParticipanteAssessor :org_SGMAI ;
+	:temParticipanteAssessor :org_AL ;
+	:temDono :org_FS ;
+	:temNotaAplicacao :na_c550.20.006_1 ;
+	:temNotaExclusao :ne_c550.20.006_1 ;
+	:temNotaExclusao :ne_c550.20.006_2 ;
+	:temNotaExclusao :ne_c550.20.006_3 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.40.500 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c550.10.005 ;
+	:temRelProc :c550.20.500 ;
+	:temRelProc :c700.20.102 ;
+	:temLegislacao :leg_490 ;
+	:temLegislacao :leg_176 ;
+	:classeStatus "A" ;
+	:descricao "Prestação em tempo útil de informações e de adequado encaminhamento em situações de urgência relativas a questões de saúde, incêndios, assaltos e outras, visando assegurar a interoperabilidade, compatibilidade e interação entre as centrais de emergência e os sistemas de informação das várias entidades envolvidas e acionamento dos sistemas de socorro.
+Inicia com a receção da chamada e termina com o encaminhamento adequado para a resposta de emergência.
+Inclui informações necessárias ao correto encaminhamento e acionamento dos meios de resposta.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_1
+:na_c550.20.500_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Busca e salvamento marítimo, aéreo e terrestre".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_2
+:na_c550.20.500_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Intervenção em caso de acidente rodoviário, marítimo, ferroviário ou aéreo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_3
+:na_c550.20.500_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Intervenção em caso de catástrofe natural".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_4
+:na_c550.20.500_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Intervenção em caso de cheias ou inundações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_5
+:na_c550.20.500_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Intervenção em caso de incêndio".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_6
+:na_c550.20.500_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ocorrência de falsos alarmes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_7
+:na_c550.20.500_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Transporte de sinistrados e doentes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_8
+:na_c550.20.500_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Transporte de órgãos para transplante".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_9
+:na_c550.20.500_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio sanitário".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_10
+:na_c550.20.500_10 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Evacuações médicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_11
+:na_c550.20.500_11 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Proteção em caso de contaminação nuclear, biológica, química e radiológica".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_12
+:na_c550.20.500_12 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Criação de infraestruturas provisórias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_13
+:na_c550.20.500_13 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Preparação e resposta a emergências radiológicas e nucleares".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.500_1
+:ne_c550.20.500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A assistência médica que decorra no transporte de sinistrados e doentes deve ser considerada em 700.20.300 – Prestação de cuidados de emergência médica".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.500_2
+:ne_c550.20.500_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A ajuda humanitária no estrangeiro deve ser considerada em 200.30.001 – Coordenação e execução de ações de ajuda humanitária e de emergência".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.500_3
+:ne_c550.20.500_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O acolhimento de emergência enquanto resposta de proteção social deve ser considerado em 650.20.600 – Acolhimento de emergência em equipamentos de apoio social".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.20.500
+:c550.20.500 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.20.500";
+	:titulo "Ação de proteção e socorro
+
+";
+	:temPai :c550.20 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_AL ;
+	:temParticipanteAssessor :org_ANPC ;
+	:temParticipanteAssessor :org_FS ;
+	:temParticipanteAssessor :org_FA ;
+	:temParticipanteAssessor :org_AL ;
+	:temParticipanteAssessor :org_SEF ;
+	:temParticipanteAssessor :org_APA ;
+	:temDono :org_AL ;
+	:temDono :org_ANPC ;
+	:temDono :org_FS ;
+	:temDono :org_FA ;
+	:temNotaAplicacao :na_c550.20.500_1 ;
+	:temNotaAplicacao :na_c550.20.500_2 ;
+	:temNotaAplicacao :na_c550.20.500_3 ;
+	:temNotaAplicacao :na_c550.20.500_4 ;
+	:temNotaAplicacao :na_c550.20.500_5 ;
+	:temNotaAplicacao :na_c550.20.500_6 ;
+	:temNotaAplicacao :na_c550.20.500_7 ;
+	:temNotaAplicacao :na_c550.20.500_8 ;
+	:temNotaAplicacao :na_c550.20.500_9 ;
+	:temNotaAplicacao :na_c550.20.500_10 ;
+	:temNotaAplicacao :na_c550.20.500_11 ;
+	:temNotaAplicacao :na_c550.20.500_12 ;
+	:temNotaAplicacao :na_c550.20.500_13 ;
+	:temNotaExclusao :ne_c550.20.500_1 ;
+	:temNotaExclusao :ne_c550.20.500_2 ;
+	:temNotaExclusao :ne_c550.20.500_3 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.20.002 ;
+	:temRelProc :c500.20.003 ;
+	:temRelProc :c500.20.300 ;
+	:temRelProc :c550.20.002 ;
+	:temRelProc :c550.20.004 ;
+	:temRelProc :c550.20.006 ;
+	:temRelProc :c550.30.600 ;
+	:temRelProc :c650.20.600 ;
+	:temRelProc :c700.20.300 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1112 ;
+	:temLegislacao :leg_781 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1068 ;
+	:temLegislacao :leg_656 ;
+	:temLegislacao :leg_591 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_589 ;
+	:temLegislacao :leg_538 ;
+	:temLegislacao :leg_539 ;
+	:temLegislacao :leg_508 ;
+	:temLegislacao :leg_279 ;
+	:classeStatus "A" ;
+	:descricao "Operação de auxílio ou assistência prestada em situações de perigo ou de riscos naturais ou tecnológicos com entidades militares e civis.
+Inicia com a decisão do tipo de intervenção e termina com o relato da operação.
+Inclui diagnóstico de situação, acionamento dos meios e recursos necessários e operacionalização.
+Inclui, ainda, as ações de proteção de pessoas e bens que se encontrem em situações de perigo em colaboração com entidades militares e civis.
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#c550.20.500.01
+:c550.20.500.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "550.20.500.01";
+	:titulo "Ação de proteção e socorro: preparação";
+	:temPai :c550.20.500 ;
+	:classeStatus "A" ;
+	:descricao "Inicia com o alarme ou com o pedido de proteção e socorro e termina com a preparação da operacionalização.
+Inclui diagnósticos de situação, definição e acionamento dos meios e recursos necessários e operacionalização articulada entre forças de segurança, de proteção e militares, quando devido.".
+###  http://jcr.di.uminho.pt/m51-clav#c550.20.500.02
+:c550.20.500.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "550.20.500.02";
+	:titulo "Ação de proteção e socorro: realização e registo";
+	:temPai :c550.20.500 ;
+	:classeStatus "A" ;
+	:descricao "Inicia com a elaboração do relato da operação e termina com a sua comunicação.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.501_1
+:na_c550.20.501_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ssegurança dos cidadãos em situações de calamidade pública".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.501_2
+:na_c550.20.501_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Participação das Forças Armadas e apoio às autoridades administrativas civis".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.501_1
+:ne_c550.20.501_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As situações de atos de força ou insurreição devem ser consideradas em 550.30.003 – Atuação em estado de sítio".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.20.501
+:c550.20.501 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.20.501";
+	:titulo "Atuação em estados de emergência";
+	:temPai :c550.20 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_FA ;
+	:temDono :org_ANPC ;
+	:temDono :org_AAC ;
+	:temDono :org_FS ;
+	:temNotaAplicacao :na_c550.20.501_1 ;
+	:temNotaAplicacao :na_c550.20.501_2 ;
+	:temNotaExclusao :ne_c550.20.501_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c550.10.005 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1112 ;
+	:temLegislacao :leg_781 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_54 ;
+	:classeStatus "A" ;
+	:descricao "Intervenção em situações de estados de emergência declarado quando se verifiquem ou ameacem verificar-se casos de calamidade pública.
+Inicia com a declaração de estado de emergência sob a forma de decreto do Presidente da República ou representante nas Regiões Autónomas e termina com a revogação do decreto ou pelo decurso do prazo fixado.
+Inclui a audição do Governo e a autorização da Assembleia da República, a renovação ou modificação da declaração.
+
+ ".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30_1
+:ne_c550.30_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A celebração de convenções, acordos ou protocolos internacionais, ainda que diretamente relacionados com operações de defesa, deve ser considerada em \"Execução da política externa/ Definição de políticas conjuntas e dos instrumentos de regulação\" (200.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.30
+:c550.30 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "550.30";
+	:titulo "Missões de defesa e apoio à paz
+";
+	:temPai :c550 ;
+	:temNotaExclusao :ne_c550.30_1 ;
+	:classeStatus "A" ;
+	:descricao "Compreende as operações militares e paramilitares desenvolvidas em situações de guerra ou de manutenção da paz, em território nacional ou no estrangeiro.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.001_1
+:na_c550.30.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Segurança e defesa do território nacional e dos cidadãos (defesa militar da nação)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.001_2
+:na_c550.30.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Organização da resistência ativa, a fim da garantir e repor a independência nacional e a integridade do território, a defesa do espaço aéreo e marítimo nacionais, a liberdade e segurança das populações contra qualquer agressão ou ameaças externas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.001_1
+:ne_c550.30.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As ações de exercício da soberania, jurisdição e responsabilidades nacionais nomeadamente as ações de proteção e socorro devem ser consideradas em 550.20.500 – Ação de proteção e socorro".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.001_2
+:ne_c550.30.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A vigilância dos espaços sob soberania e jurisdição nacional, da circulação e segurança das linhas de comunicação deve ser consideradas em 550.30.400 – Vigilância dos espaços sob soberania e jurisdição nacional, da circulação e segurança das linhas de comunicação".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.30.001
+:c550.30.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.30.001";
+	:titulo "Participação em operações de defesa convencional do território nacional";
+	:temPai :c550.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_EMGFA ;
+	:temDono :org_FA ;
+	:temNotaAplicacao :na_c550.30.001_1 ;
+	:temNotaAplicacao :na_c550.30.001_2 ;
+	:temNotaExclusao :ne_c550.30.001_1 ;
+	:temNotaExclusao :ne_c550.30.001_2 ;
+	:temRelProc :c150.20.300 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1112 ;
+	:temLegislacao :leg_781 ;
+	:classeStatus "A" ;
+	:descricao "Ações decorrentes da participação em operações que assegurem a defesa militar da República e a organização da resistência ativa, a fim de garantir a integridade do território, a defesa do espaço aéreo e marítimo nacionais, e a liberdade e segurança das populações contra qualquer agressão ou ameaças externas.
+Inicia com a determinação da Tutela e ou do Chefe do Estado-Maior-General das Forças Armadas e termina com a aprovação do relatório final.
+Inclui autorização dos chefes dos ramos das Forças Armadas, nomeação e publicitação dos participantes das missões, elaboração de ordens e relatórios operacionais.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.002_1
+:na_c550.30.002_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Operações defensivas, de exploração e ofensivas contra ataques cibernéticos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.002_1
+:ne_c550.30.002_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O apoio na proteção e defesa das infraestruturas criticas nacionais e do governo eletrónico do Estado deve ser considerado em 550.10.011 – Cibersegurança".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.30.002
+:c550.30.002 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.30.002";
+	:titulo "Ciberdefesa";
+	:temPai :c550.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_EMGFA ;
+	:temDono :org_FA ;
+	:temNotaAplicacao :na_c550.30.002_1 ;
+	:temNotaExclusao :ne_c550.30.002_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c550.10.011 ;
+	:temRelProc :c550.30.004 ;
+	:temLegislacao :leg_1112 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1297 ;
+	:temLegislacao :leg_1011 ;
+	:temLegislacao :leg_1113 ;
+	:classeStatus "A" ;
+	:descricao "Condução de operações militares no ciberespaço, assegurando a liberdade de ação do país no ciberespaço e, quando necessário e determinado, a exploração proactiva do ciberespaço para dificultar o seu uso hostil contra o interesse nacional ou impedir ameaças que ponham em risco a soberania e a segurança nacional.
+Inicia com a avaliação da ameaça e termina com e termina com a aprovação do relatório final.
+Inclui a identificação de potenciais atacantes e as suas intenções e a resposta às ameaças.
+
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.003_1
+:na_c550.30.003_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Segurança e defesa do território nacional e dos cidadãos quando se verifiquem ou estejam iminentes atos de força ou insurreição".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.003_2
+:na_c550.30.003_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Participação das forças e serviços de segurança e de autoridades administrativas civis".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.003_1
+:ne_c550.30.003_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As situações de calamidade devem ser consideradas em 550.20.501 – Atuação em estados de emergência".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.30.003
+:c550.30.003 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.30.003";
+	:titulo "Atuação em estado de sítio";
+	:temPai :c550.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temDono :org_EMGFA ;
+	:temNotaAplicacao :na_c550.30.003_1 ;
+	:temNotaAplicacao :na_c550.30.003_2 ;
+	:temNotaExclusao :ne_c550.30.003_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c550.10.005 ;
+	:temLegislacao :leg_1112 ;
+	:temLegislacao :leg_781 ;
+	:temLegislacao :leg_54 ;
+	:temLegislacao :leg_986 ;
+	:classeStatus "A" ;
+	:descricao "Intervenção em situações de estados de sítio a fim de garantir a soberania, a independência, a integridade territorial ou a ordem constitucional democrática e a segurança dos cidadãos.
+Inicia com a declaração de estado de sítio sob a forma de decreto do Presidente da República e termina com a  revogação do decreto ou pelo decurso do prazo fixado.
+Inclui a audição do Governo e a autorização da Assembleia da República, a renovação ou modificação da declaração.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.004_1
+:na_c550.30.004_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Cidadãos civis em qualquer zona do globo em que os interesses nacionais estejam em causa ou tenham lugar acontecimentos que os possam afetar".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.004_1
+:ne_c550.30.004_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As ações de socorro, busca e salvamento devem ser consideradas em 550.20.500 – Ação de Proteção e Socorro".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.30.004
+:c550.30.004 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.30.004";
+	:titulo "Evacuação de cidadãos nacionais em áreas de tensão";
+	:temPai :c550.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_EMGFA ;
+	:temDono :org_FA ;
+	:temNotaAplicacao :na_c550.30.004_1 ;
+	:temNotaExclusao :ne_c550.30.004_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c200.30.001 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c550.30.002 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1112 ;
+	:temLegislacao :leg_781 ;
+	:classeStatus "A" ;
+	:descricao "Atuação no Espaço Estratégico de Interesse Nacional Conjuntural a fim de proteger e evacuar cidadãos nacionais em áreas de tensão ou crise, através de ações autónomas ou eventualmente coligadas.
+Inicia com a caracterização da situação e termina com a aprovação do relatório final.
+Inclui determinação da Tutela e/ou do CEMGFA, autorização dos chefes dos Ramos, planeamento da ação, nomeação e publicitação dos participantes na missão, elaboração de ordens e relatórios operacionais.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.005_1
+:na_c550.30.005_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Militares em qualquer zona do globo em que os interesses nacionais estejam em causa ou tenham lugar acontecimentos que os possam afetar".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.005_1
+:ne_c550.30.005_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A evacuação de cidadãos nacionais em áreas de crise devem ser consideradas em 550.30.004 – Evacuação de cidadãos nacionais em áreas de tensão".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.30.005
+:c550.30.005 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.30.005";
+	:titulo "Extração e proteção de contingentes e Forças Nacionais destacadas";
+	:temPai :c550.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_EMGFA ;
+	:temDono :org_FA ;
+	:temNotaAplicacao :na_c550.30.005_1 ;
+	:temNotaExclusao :ne_c550.30.005_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c200.10.001 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c550.10.005 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1112 ;
+	:temLegislacao :leg_781 ;
+	:classeStatus "A" ;
+	:descricao "Atuação no Espaço Estratégico de Interesse Nacional Conjuntural a fim de proceder à extração, proteção ou reforço de contingentes e FND, em ambiente não permissivo, com oposição.
+Inicia com a caracterização da situação e termina com a aprovação do relatório final.
+Inclui determinação da Tutela e/ou do CEMGFA, autorização dos chefes dos Ramos, planeamento da ação, nomeação e publicitação dos participantes na missão, elaboração de ordens e relatórios operacionais.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.006_1
+:na_c550.30.006_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Manobras e a exercícios militares conjuntos entre os ramos das Forças Armadas ou com as Forças Armadas de outros países".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.006_2
+:na_c550.30.006_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Manobras militares e a exercícios em território nacional ou estrangeiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.006_3
+:na_c550.30.006_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Exercícios nacionais e internacionais de ciberdefesa".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.30.006
+:c550.30.006 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.30.006";
+	:titulo "Realização de exercícios militares";
+	:temPai :c550.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_EMGFA ;
+	:temParticipanteComunicador :org_APA ;
+	:temDono :org_FA ;
+	:temNotaAplicacao :na_c550.30.006_1 ;
+	:temNotaAplicacao :na_c550.30.006_2 ;
+	:temNotaAplicacao :na_c550.30.006_3 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c300.10.005 ;
+	:temLegislacao :leg_1112 ;
+	:classeStatus "A" ;
+	:descricao "Capacitar a prontidão de pessoal e meios, incluindo os diferentes órgãos e ramos militares para uma articulação concertada em território nacional e internacional.  em exercícios conjuntos e combinados.
+Inicia com a avaliação da necessidade ou com o planeamento da ação e termina com o relatório final.
+Inclui autorização do CEMGFA e dos chefes dos Ramos, nomeação e publicitação dos participantes nos exercícios, elaboração de ordens e de relatórios operacionais.".
+###  http://jcr.di.uminho.pt/m51-clav#c550.30.006.01
+:c550.30.006.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "550.30.006.01";
+	:titulo "Realização de exercícios militares: preparação e execução";
+	:temPai :c550.30.006 ;
+	:classeStatus "A" ;
+	:descricao "Aplica-se às fases de desenvolvimento das específicações e do conceito, do planeamento e desenvolvimento dos produtos e termina na fase da conduta operacional.
+Inicia com todas as atividades associadas ao desenvolvimento das específicações e do conceito do exercício, as atividades de planeamento, coordenação, e preparação do exercício e termina com as instruções necessárias à condução do exercício.
+Inclui a execução do exercício.
+".
+###  http://jcr.di.uminho.pt/m51-clav#c550.30.006.02
+:c550.30.006.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "550.30.006.02";
+	:titulo "Realização de exercícios militares: análise e avaliação";
+	:temPai :c550.30.006 ;
+	:classeStatus "A" ;
+	:descricao "Inicia após a fase de execução do exercício.
+Inclui a elaboração dos relatórios de primeiras impressões (FIR), do relatório final do exercício (FER) e termina com a elaboração do relatório das ações corretivas (RAR).
+
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.200_1
+:na_c550.30.200_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ambito da OTAN e da União Europeia (EU)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.30.200
+:c550.30.200 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.30.200";
+	:titulo "Defesa do território das nações aliadas";
+	:temPai :c550.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_EMGFA ;
+	:temDono :org_FA ;
+	:temNotaAplicacao :na_c550.30.200_1 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c200.10.001 ;
+	:temRelProc :c200.10.002 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c550.10.005 ;
+	:temRelProc :c550.10.008 ;
+	:temRelProc :c800.10.602 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1112 ;
+	:temLegislacao :leg_781 ;
+	:temLegislacao :leg_1178 ;
+	:classeStatus "A" ;
+	:descricao "Empregar forças e meios militares a fim de assegurar a satisfação dos compromissos internacionais assumidos no quadro mútuo de defesa coletiva.
+Inicia com a avaliação da necessidade e termina com o relatório final.
+Inclui determinação do CEMGFA e autorização dos chefes dos Ramos, nomeação e publicitação dos participantes nos exercícios, elaboração de ordens e de relatórios operacionais.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.400_1
+:na_c550.30.400_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Exercício da soberania, jurisdição e responsabilidades nacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.400_2
+:na_c550.30.400_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "  Fiscalização marítima e aérea, vigilância aérea e terrestre".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.400_3
+:na_c550.30.400_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Preservação e proteção ambiental e da prevenção da criminalidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.400_4
+:na_c550.30.400_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Garantir a livre circulação no território nacional e defesa de portos e aeroportos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.400_5
+:na_c550.30.400_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Vigiar e controlar as principais rotas internacionais aéreas e marítimas que intersetam o Espaço Estratégico de Interesse Nacional Permanente".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.400_1
+:ne_c550.30.400_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As ações de controlo de fronteiras devem ser consideradas em 550.10.008 – Controlo de pessoas nas fronteiras".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.400_2
+:ne_c550.30.400_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Excluem-se as ações no âmbito do Regime jurídico aplicável ao trabalho aéreo".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.400_3
+:ne_c550.30.400_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A execução de operações de segurança proteção ou defesa deve ser considerada em 550.10.302 – Autorização de trânsito para efeitos de afastamento por via aérea".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.30.400
+:c550.30.400 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.30.400";
+	:titulo "Vigilância dos espaços sob soberania e jurisdição nacional, da circulação e segurança das linhas de comunicação";
+	:temPai :c550.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_EMGFA ;
+	:temParticipanteAssessor :org_APA ;
+	:temDono :org_AAN ;
+	:temDono :org_AMN ;
+	:temDono :org_FA ;
+	:temNotaAplicacao :na_c550.30.400_1 ;
+	:temNotaAplicacao :na_c550.30.400_2 ;
+	:temNotaAplicacao :na_c550.30.400_3 ;
+	:temNotaAplicacao :na_c550.30.400_4 ;
+	:temNotaAplicacao :na_c550.30.400_5 ;
+	:temNotaExclusao :ne_c550.30.400_1 ;
+	:temNotaExclusao :ne_c550.30.400_2 ;
+	:temNotaExclusao :ne_c550.30.400_3 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c200.10.001 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c550.10.005 ;
+	:temRelProc :c550.10.008 ;
+	:temRelProc :c800.10.602 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1112 ;
+	:temLegislacao :leg_781 ;
+	:temLegislacao :leg_1178 ;
+	:classeStatus "A" ;
+	:descricao "Intervenção de controlo dos espaços sob soberania nacional e/ou no Espaço Estratégico de Interesse Nacional Permanente para assegurar a sua plena utilização em segurança, no respeito pelo Direito Internacional.
+Inicia com a determinação da Tutela e/ou do CEMGFA e termina com a aprovação do relatório final.
+Inclui autorização dos chefes dos Ramos, nomeação e publicitação dos participantes das missões, elaboração de ordens e relatórios operacionais.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.600_1
+:na_c550.30.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Operações militares fora do território nacional e no âmbito da OTAN, que assenta nos compromissos internacionais de Portugal, envolvendo praticamente todas as capacidades expedicionárias das Forças Armadas portuguesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.600_2
+:na_c550.30.600_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio e assistência a deslocados e refugiados e operações humanitárias fora do âmbito das operações de apoio à paz".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.600_1
+:ne_c550.30.600_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A evacuação de cidadãos nacionais em áreas de crise deve ser considerada em 550.30.004 – Evacuação de cidadãos nacionais em áreas de tensão".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.600_2
+:ne_c550.30.600_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A extração e proteção de Contingentes e Forças Nacionais Destacadas deve ser considerada em 550.30.005 – Extração e proteção de contingentes e Forças Nacionais Destacadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.600_3
+:ne_c550.30.600_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As ações de proteção, socorro, busca e salvamento devem ser consideradas em 550.20.500 – Ação de proteção e socorro".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.30.600
+:c550.30.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.30.600";
+	:titulo "Participação em operações de resposta a crises
+";
+	:temPai :c550.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_EMGFA ;
+	:temDono :org_FA ;
+	:temNotaAplicacao :na_c550.30.600_1 ;
+	:temNotaAplicacao :na_c550.30.600_2 ;
+	:temNotaExclusao :ne_c550.30.600_1 ;
+	:temNotaExclusao :ne_c550.30.600_2 ;
+	:temNotaExclusao :ne_c550.30.600_3 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c150.30.001 ;
+	:temRelProc :c200.10.002 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c200.30.001 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c550.20.500 ;
+	:temRelProc :c800.10.602 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1112 ;
+	:temLegislacao :leg_781 ;
+	:temLegislacao :leg_1178 ;
+	:classeStatus "A" ;
+	:descricao "Participação das forças militares em operações de resposta em cenário de guerra no âmbito da OTAN, a fim de contribuir para a segurança internacional.
+Inicia-se com os despachos da tutela e das direções dos organismos participantes e termina com o relatório final.
+Inclui autorização dos chefes dos Ramos, nomeação e publicitação dos participantes das missões, elaboração de ordens e relatórios operacionais.
+".
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.601_1
+:na_c550.30.601_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Gestão civil de crises e de manutenção da paz no âmbito policial que decorram fora do território nacional, quer sob a égide de um organismo internacional (EUROGENDFOR, NATO, ONU) quer sob a requisição do Governo anfitrião".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.601_2
+:na_c550.30.601_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atuação militar para reposição e manutenção da paz".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.601_3
+:na_c550.30.601_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atuação militar no âmbito da OTAN, incluindo o policiamento aéreo e vigilância aeronaval, da EU, ONU e CPLP, nomeadamente manutenção, imposição, restabelecimento e consolidação da paz e prevenção de conflitos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.601_4
+:na_c550.30.601_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Compromissos decorrentes de acordos, tratados e convenções internacionais, designadamente em operações internacionais de gestão civil de crises da União Europeia, de apoio à paz da ONU e/ou coordenadas por outras Organizações Internacionais ou Regionais em que haja participação no âmbito policial".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.601_1
+:ne_c550.30.601_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A ajuda humanitária no estrangeiro deve ser considerada em 200.30.001 – Coordenação e execução de ações de ajuda humanitária e de emergência".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.601_2
+:ne_c550.30.601_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Excluem-se as operações de âmbito estritamente militar que não sejam a manutenção da ordem pública, de investigação criminal, de proteção da natureza e pesquisa de informações policiais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c550.30.601
+:c550.30.601 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "550.30.601";
+	:titulo "Participação em missões de apoio à paz";
+	:temPai :c550.30 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_EMGFA ;
+	:temDono :org_FA ;
+	:temNotaAplicacao :na_c550.30.601_1 ;
+	:temNotaAplicacao :na_c550.30.601_2 ;
+	:temNotaAplicacao :na_c550.30.601_3 ;
+	:temNotaAplicacao :na_c550.30.601_4 ;
+	:temNotaExclusao :ne_c550.30.601_1 ;
+	:temNotaExclusao :ne_c550.30.601_2 ;
+	:temRelProc :c100.10.002 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c200.10.002 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c200.30.001 ;
+	:temRelProc :c300.10.005 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1112 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_589 ;
+	:temLegislacao :leg_538 ;
+	:temLegislacao :leg_539 ;
+	:temLegislacao :leg_279 ;
+	:classeStatus "A" ;
+	:descricao "Ações decorrentes de compromissos, de acordos, tratados e convenções internacionais, de participação em operações e missões em tempo de paz, integrando forças militares e de segurança.
+Inicia com os despachos da tutela e das direções dos organismos participantes e termina com o relatório final.
+Inclui análise dos pedidos de intervenção, fornecimento de elementos adicionais às entidades envolvidas, preparação do empreendimento, apuramento dos encargos resultantes, elaboração de relatório sobre atuação no terreno, coordenação entre entidades.
+".
+
+### Classes550 termina aqui.
+

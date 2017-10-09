@@ -61,7 +61,7 @@ Relativo, ainda, à definição e acompanhamento da execução de acordos, proto
 :c200.10 rdf:type owl:NamedIndividual ,
 	:Classe_N2;
 	:codigo "200.10";
-	:titulo "Definição de políticas conjuntas e dos instrumentos de regulação";
+	:titulo "Definição de políticas conjuntas e de instrumentos de regulação";
 	:temPai :c200 ;
 	:temNotaAplicacao :na_c200.10_1 ;
 	:temNotaAplicacao :na_c200.10_2 ;
@@ -169,15 +169,27 @@ Compreende, igualmente, a participação na elaboração de normas técnicas eur
 	:temPai :c200.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_CM ;
 	:temParticipanteAssessor :org_AP ;
 	:temParticipanteDecisor :org_AR ;
+	:temDono :org_CM ;
 	:temNotaAplicacao :na_c200.10.001_1 ;
 	:temNotaAplicacao :na_c200.10.001_2 ;
 	:temNotaAplicacao :na_c200.10.001_3 ;
 	:temNotaExclusao :ne_c200.10.001_1 ;
 	:temNotaExclusao :ne_c200.10.001_2 ;
 	:temNotaExclusao :ne_c200.10.001_3 ;
+	:temRelProc :c100.10.001 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c200.10.002 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c200.20.001 ;
+	:temRelProc :c550.10.009 ;
+	:temRelProc :c550.30.005 ;
+	:temRelProc :c550.30.200 ;
+	:temRelProc :c550.30.400 ;
+	:temRelProc :c800.10.301 ;
 	:temLegislacao :leg_457 ;
 	:classeStatus "A" ;
 	:exemploNA "Relações bilaterais / multilaterais  em matéria consular" ;
@@ -235,9 +247,20 @@ Inclui os contributos de embaixadas e de ministérios setoriais, demonstrativos 
 	:temPai :c200.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteAssessor :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c200.10.002_1 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c200.10.001 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c200.20.500 ;
+	:temRelProc :c200.30.301 ;
+	:temRelProc :c200.30.302 ;
+	:temRelProc :c200.30.303 ;
+	:temRelProc :c550.30.200 ;
+	:temRelProc :c550.30.600 ;
+	:temRelProc :c550.30.601 ;
 	:temLegislacao :leg_410 ;
 	:temLegislacao :leg_411 ;
 	:classeStatus "A" ;
@@ -254,6 +277,7 @@ Inclui compilação de documentação de suporte, eventual consulta de entidades
 	:Classe_N4;
 	:codigo "200.10.002.01";
 	:titulo "Representação e participação em organizações internacionais: preparação";
+	:temPai :c200.10.002 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com o agendamento da reunião / encontro e termina com o envio de convocatória.
 Inclui apresentação de propostas para discussão, apresentação de moções, preparação de propostas de deliberação, produção de recomendações, e definição de ordem de trabalhos.".
@@ -262,6 +286,7 @@ Inclui apresentação de propostas para discussão, apresentação de moções, 
 	:Classe_N4;
 	:codigo "200.10.002.02";
 	:titulo "Representação e participação em organizações internacionais: realização";
+	:temPai :c200.10.002 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com o controlo de presenças e termina com a redação definitiva da ata / relatório.
 Inclui gestão de intervenções, registo da discussão, registo das votações e das declarações de voto e elaboração da ata em minuta.".
@@ -308,13 +333,13 @@ Inclui gestão de intervenções, registo da discussão, registo das votações 
 	:temPai :c200.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGAE ;
 	:temParticipanteApreciador :org_ACE ;
+	:temDono :org_DGAE ;
 	:temNotaAplicacao :na_c200.10.200_1 ;
 	:temNotaAplicacao :na_c200.10.200_2 ;
 	:temNotaAplicacao :na_c200.10.200_3 ;
-	:temLegislacao :leg_619 ;
-	:temLegislacao :leg_891 ;
+	:temLegislacao :leg_620 ;
+	:temLegislacao :leg_894 ;
 	:classeStatus "A" ;
 	:descricao "Estabelecimento e revisão de acordos vinculativos entre os países da UE, onde se encontram consagrados os objetivos da UE, as regras por que se regem as instituições europeias, o processo de tomada de decisões e a relação entre a UE e os países que a constituem, e ao abrigo dos quais as instituições europeias adotam a legislação a aplicar (Tratados), bem como de atos legislativos obrigatórios, de alcance geral  (Regulamento e Diretiva) ou específico (Decisão), que as instituições da UE adotam para exercer as suas competências e atribuições e através dos quais se procura, por um lado a unificação do direito, por outro, a necessária conciliação da unidade do direito da União com a manutenção das diversas peculiaridades nacionais, com uma aproximação das diversas legislações.
 Inicia com o pedido remetido pela entidade proponente e termina com a aprovação.
@@ -337,12 +362,12 @@ Inclui a compilação de pareceres dos serviços, das versões provisórias e de
 	:temPai :c200.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGAE ;
 	:temParticipanteApreciador :org_ACE ;
+	:temDono :org_DGAE ;
 	:temNotaAplicacao :na_c200.10.201_1 ;
 	:temNotaAplicacao :na_c200.10.201_2 ;
-	:temLegislacao :leg_619 ;
-	:temLegislacao :leg_891 ;
+	:temLegislacao :leg_620 ;
+	:temLegislacao :leg_894 ;
 	:classeStatus "A" ;
 	:descricao "Elaboração de atos legislativos de alcance geral ou específico, não vinculativos.
 Inicia com o pedido remetido pela entidade proponente e termina com a aprovação.
@@ -375,14 +400,14 @@ Inclui compilação de pareceres dos serviços, de versões provisórias e defin
 	:temPai :c200.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGAE ;
 	:temParticipanteApreciador :org_ACE ;
+	:temDono :org_DGAE ;
 	:temNotaAplicacao :na_c200.10.300_1 ;
 	:temNotaAplicacao :na_c200.10.300_2 ;
 	:temNotaAplicacao :na_c200.10.300_3 ;
 	:temNotaExclusao :ne_c200.10.300_1 ;
-	:temLegislacao :leg_619 ;
-	:temLegislacao :leg_891 ;
+	:temLegislacao :leg_620 ;
+	:temLegislacao :leg_894 ;
 	:classeStatus "A" ;
 	:descricao "Coordenação da posição nacional relativa à má aplicação do direito da UE e à falta de transposição de diretivas na fase pré contenciosa formal e informal. 
 Inicia com o pedido de informação requerido pela Comissão Europeia, oficiosamente ou na sequência de queixas, ou nos casos da transposição de diretivas com a notificação de incumprimento da Comissão e termina com o arquivamento da ação ou a sua passagem à fase contenciosa.
@@ -400,11 +425,11 @@ Inclui diligências efetuadas junto do Ministério setorial competente.".
 	:temPai :c200.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGAE ;
 	:temParticipanteApreciador :org_ACE ;
+	:temDono :org_DGAE ;
 	:temNotaAplicacao :na_c200.10.400_1 ;
-	:temLegislacao :leg_619 ;
-	:temLegislacao :leg_891 ;
+	:temLegislacao :leg_620 ;
+	:temLegislacao :leg_894 ;
 	:classeStatus "A" ;
 	:descricao "Preparação e apresentação da posição de Portugal no âmbito das diretrizes políticas gerais da União Europeia.
 Inicia com a proposta e termina com a aprovação.
@@ -422,11 +447,11 @@ Inclui os contributos setoriais, demonstrativos da posição assumida por Portug
 	:temPai :c200.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGAE ;
 	:temParticipanteApreciador :org_ACE ;
+	:temDono :org_DGAE ;
 	:temNotaAplicacao :na_c200.10.501_1 ;
-	:temLegislacao :leg_619 ;
-	:temLegislacao :leg_891 ;
+	:temLegislacao :leg_620 ;
+	:temLegislacao :leg_894 ;
 	:classeStatus "A" ;
 	:descricao "Preparação e apresentação da posição de Portugal no âmbito das negociações desenvolvidas nos conselhos de ministros da União Europeia.
 Inicia com a proposta e termina com a produção de uma versão final.
@@ -455,13 +480,13 @@ Inclui a compilação de contributos demonstrativos da posição assumida por Po
 	:temPai :c200.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGAE ;
 	:temParticipanteApreciador :org_ACE ;
+	:temDono :org_DGAE ;
 	:temNotaAplicacao :na_c200.10.600_1 ;
 	:temNotaAplicacao :na_c200.10.600_2 ;
 	:temNotaAplicacao :na_c200.10.600_3 ;
-	:temLegislacao :leg_619 ;
-	:temLegislacao :leg_891 ;
+	:temLegislacao :leg_620 ;
+	:temLegislacao :leg_894 ;
 	:classeStatus "A" ;
 	:descricao "Processo legislativo ordinário ou especial, de iniciativa da Comissão Europeia.
 Inicia com uma proposta da Comissão e termina com a sua rejeição (e consequente não adoção) ou com a  assinatura conjunta pelos presidentes e secretários gerais do Parlamento e do Conselho.
@@ -521,13 +546,13 @@ Inclui a complilação de contributos para a preparação das reuniões, proveni
 	:temPai :c200.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGAE ;
 	:temParticipanteApreciador :org_ACE ;
+	:temDono :org_DGAE ;
 	:temNotaAplicacao :na_c200.10.700_1 ;
 	:temNotaAplicacao :na_c200.10.700_2 ;
 	:temNotaAplicacao :na_c200.10.700_3 ;
-	:temLegislacao :leg_619 ;
-	:temLegislacao :leg_891 ;
+	:temLegislacao :leg_620 ;
+	:temLegislacao :leg_894 ;
 	:classeStatus "A" ;
 	:exemploNA "Definição do Quadro Financeiro Plurianual (QFP)" ;
 	:exemploNA "Fundo Europeu Agrícola de Desenvolvimento Rural (FEADER)" ;
@@ -542,30 +567,30 @@ Inclui a complilação dos contributos de ministérios setoriais, dos contributo
 	:NotaAplicacao ;
 	:conteudo "Acordos no âmbito do desenvolvimento de projetos ou ações".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_5
-:na_c200.10.800_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Acordos entre regiões transfronteiriças, transnacionais e interregionais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_2
 :na_c200.10.800_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Acordos no âmbito do financiamento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_3
+:na_c200.10.800_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acordos expressos apenas por troca de notas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_4
 :na_c200.10.800_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Acordos em que Portugal ou as instâncias setoriais nacionais são parte".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_5
+:na_c200.10.800_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acordos entre regiões transfronteiriças, transnacionais e interregionais".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.800_1
 :ne_c200.10.800_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A aprovação de convenções internacionais (tratados e acordos aprovados por Resolução da Assembleia da República ou por Decreto do Governo), respetiva ratificação ou assinatura pelo Presidente da República, referenda, publicação, avisos de depósito dos instrumentos de vinculação e demais avisos a eles respeitantes devem ser considerados em 100.10.002 – Aprovação e comunicação de convenções internacionais".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_3
-:na_c200.10.800_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Acordos expressos apenas por troca de notas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.800_2
 :ne_c200.10.800_2 rdf:type owl:NamedIndividual ,
@@ -585,8 +610,8 @@ Inclui a complilação dos contributos de ministérios setoriais, dos contributo
 	:temPai :c200.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteDecisor :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c200.10.800_1 ;
 	:temNotaAplicacao :na_c200.10.800_2 ;
 	:temNotaAplicacao :na_c200.10.800_3 ;
@@ -595,6 +620,28 @@ Inclui a complilação dos contributos de ministérios setoriais, dos contributo
 	:temNotaExclusao :ne_c200.10.800_1 ;
 	:temNotaExclusao :ne_c200.10.800_2 ;
 	:temNotaExclusao :ne_c200.10.800_3 ;
+	:temRelProc :c100.10.002 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c200.10.001 ;
+	:temRelProc :c200.10.002 ;
+	:temRelProc :c200.20.001 ;
+	:temRelProc :c200.20.002 ;
+	:temRelProc :c200.30.001 ;
+	:temRelProc :c200.30.301 ;
+	:temRelProc :c200.30.302 ;
+	:temRelProc :c550.30.005 ;
+	:temRelProc :c550.30.006 ;
+	:temRelProc :c550.30.200 ;
+	:temRelProc :c550.30.600 ;
+	:temRelProc :c550.30.601 ;
+	:temRelProc :c800.10.301 ;
+	:temRelProc :c800.10.302 ;
+	:temRelProc :c850.10.002 ;
+	:temRelProc :c850.10.003 ;
+	:temRelProc :c850.10.005 ;
+	:temRelProc :c900.20.601 ;
 	:temLegislacao :leg_376 ;
 	:temLegislacao :leg_99 ;
 	:classeStatus "A" ;
@@ -626,15 +673,15 @@ Inclui negociação e elaboração do protocolo ou acordo.".
 	:NotaAplicacao ;
 	:conteudo "Apoio e/ou acompanhamento ao recrutamento de portugueses para organismos internacionais, bem como para instituições e agências EU no que se inclui o registo de portugueses em instituições da EU".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_2
-:exna_c200.20_2 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Acompanhamento do funcionamento da Comissão Europeia".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_1
 :exna_c200.20_1 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Acompanhamento do funcionamento do Parlamento Europeu".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_2
+:exna_c200.20_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Acompanhamento do funcionamento da Comissão Europeia".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.20_3
 :exna_c200.20_3 rdf:type owl:NamedIndividual ,
@@ -734,6 +781,10 @@ Inclui negociação e elaboração do protocolo ou acordo.".
 	:temDono :org_DGPE ;
 	:temNotaAplicacao :na_c200.20.001_1 ;
 	:temNotaExclusao :ne_c200.20.001_1 ;
+	:temRelProc :c200.10.001 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c200.20.500 ;
+	:temRelProc :c200.30.301 ;
 	:classeStatus "A" ;
 	:descricao "Análise da situação internacional no âmbito das relações políticas, comerciais, culturais, consulares ou outras, por solicitação da tutela, de outros departamentos governamentais, de outros países, da União Europeia ou de organizações internacionais.
 Inicia com o pedido e termina com o envio da informação.
@@ -767,12 +818,13 @@ Inclui recolha de informação, análise e tratamento de dados, produção de in
 	:temPai :c200.20 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGPE ;
 	:temParticipanteAssessor :org_AP ;
+	:temDono :org_DGPE ;
 	:temNotaAplicacao :na_c200.20.002_1 ;
 	:temNotaAplicacao :na_c200.20.002_2 ;
 	:temNotaExclusao :ne_c200.20.002_1 ;
 	:temNotaExclusao :ne_c200.20.002_2 ;
+	:temRelProc :c200.10.800 ;
 	:temLegislacao :leg_268 ;
 	:classeStatus "A" ;
 	:descricao "Preparação e execução de deslocações no âmbito do acompanhamento político e diplomático, nomeadamente no âmbito da participação em eventos, das relações institucionais ou da cooperação para o desenvolvimento, desde que não enquadrado em processo específico.
@@ -817,14 +869,20 @@ Inclui preparação de deslocações, recolha de informação, programação e c
 	:temPai :c200.20 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteAssessor :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c200.20.500_1 ;
 	:temNotaAplicacao :na_c200.20.500_2 ;
 	:temNotaAplicacao :na_c200.20.500_3 ;
 	:temNotaAplicacao :na_c200.20.500_4 ;
 	:temNotaAplicacao :na_c200.20.500_5 ;
 	:temNotaExclusao :ne_c200.20.500_1 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c200.10.001 ;
+	:temRelProc :c200.10.002 ;
+	:temRelProc :c200.20.001 ;
+	:temRelProc :c200.30.600 ;
 	:temLegislacao :leg_510 ;
 	:classeStatus "A" ;
 	:descricao "Preparação de deslocações e visitas de Chefes de Estado e de governo, membros de governo ou equiparados, representantes e dirigentes de organizações internacionais e Presidentes de Câmara ou altos representantes da Administração Central, Local ou Regional.
@@ -851,7 +909,7 @@ Inclui identificação do país visitado ou visitante, do objeto da visita e das
 	:temDono :org_SGMNE ;
 	:temNotaAplicacao :na_c200.20.501_1 ;
 	:temNotaAplicacao :na_c200.20.501_2 ;
-	:temLegislacao :leg_520 ;
+	:temLegislacao :leg_521 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de regime de proteção e de isenção especiais a membros do corpo consular e diplomático, enquadrada no disposto pela Convenção de Viena sobre as relações diplomáticas e consulares.
 Inicia com o pedido e termina com a concessão de imunidade e privilégio.
@@ -900,8 +958,8 @@ Inclui a análise e processamento do pedido de imunidade e privilégio e a propo
 	:temPai :c200.20 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_SGMNE ;
 	:temParticipanteApreciador :org_SEF ;
+	:temDono :org_SGMNE ;
 	:temNotaAplicacao :na_c200.20.502_1 ;
 	:temNotaAplicacao :na_c200.20.502_2 ;
 	:temNotaAplicacao :na_c200.20.502_3 ;
@@ -909,7 +967,7 @@ Inclui a análise e processamento do pedido de imunidade e privilégio e a propo
 	:temNotaExclusao :ne_c200.20.502_2 ;
 	:temNotaExclusao :ne_c200.20.502_3 ;
 	:temNotaExclusao :ne_c200.20.502_4 ;
-	:temLegislacao :leg_520 ;
+	:temLegislacao :leg_521 ;
 	:classeStatus "A" ;
 	:descricao "Ato através do qual um Estado acredita determinada pessoa como agente diplomático ao seu serviço para, nessa qualidade, atuar perante outro Estado ou perante uma organização internacional.
 Inicia com o pedido e termina com a emissão de cartas credenciais, cartas de plenos poderes, cartas de gabinete e/ou de cartões.
@@ -1064,7 +1122,6 @@ Consideram-se projetos de execução da política externa aqueles que cumprem ob
 	:temPai :c200.30 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGPE ;
 	:temParticipanteAssessor :org_ANPC ;
 	:temParticipanteAssessor :org_FA ;
 	:temParticipanteAssessor :org_FS ;
@@ -1074,15 +1131,27 @@ Consideram-se projetos de execução da política externa aqueles que cumprem ob
 	:temParticipanteAssessor :org_DGS ;
 	:temParticipanteAssessor :org_ANPC ;
 	:temParticipanteAssessor :org_AL ;
+	:temDono :org_DGPE ;
 	:temNotaAplicacao :na_c200.30.001_1 ;
 	:temNotaAplicacao :na_c200.30.001_2 ;
 	:temNotaAplicacao :na_c200.30.001_3 ;
 	:temNotaAplicacao :na_c200.30.001_4 ;
 	:temNotaExclusao :ne_c200.30.001_1 ;
 	:temNotaExclusao :ne_c200.30.001_2 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c550.30.004 ;
+	:temRelProc :c550.30.600 ;
+	:temRelProc :c550.30.601 ;
+	:temRelProc :c800.10.603 ;
 	:temLegislacao :leg_508 ;
-	:temLegislacao :leg_1248 ;
-	:temLegislacao :leg_1292 ;
+	:temLegislacao :leg_1253 ;
+	:temLegislacao :leg_1298 ;
 	:classeStatus "A" ;
 	:descricao "Organização de respostas a situações de calamidade ou de emergência identificadas pelos serviços, organizadas em função de uma decisão da tutela ou decorrentes de apelos das Nações Unidas, das missões afetadas ou das representações diplomáticas nacionais nos países beneficiários.
 Inicia com a informação da situação de calamidade ou emergência e termina com o envio de apoio.
@@ -1093,6 +1162,7 @@ A participação da Administração Local neste processo ocorre nas fases de sol
 	:Classe_N4;
 	:codigo "200.30.001.01";
 	:titulo "Coordenação e execução de ações de ajuda humanitária e de emergência: coordenação";
+	:temPai :c200.30.001 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com o pedido de ajuda internacional (ECHO) e termina com a notificação da decisão à embaixada.
 Inclui o planeamento da organização logística desde a receção dos pedidos de apoio, informação da solicitação de elementos adicionais às entidades envolvidas, análise da viabilidade do empreendimento e de apuramento dos encargos deles resultantes, autorização, notificação da decisão à embaixada.
@@ -1103,6 +1173,7 @@ Inclui o planeamento da organização logística desde a receção dos pedidos d
 	:Classe_N4;
 	:codigo "200.30.001.02";
 	:titulo "Coordenação e execução de ações de ajuda humanitária e de emergência: execução";
+	:temPai :c200.30.001 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com o envio de apoio e termina com o fim da ação de ajuda humanitária e de emergência.
 Incluí a deslocação de técnicos para zonas carenciadas de ajuda humanitária ou de emergência e o respectivo envio de bens materiais ou equipamento específico para a concretização de ações no terreno.
@@ -1148,14 +1219,23 @@ Inclui a análise e a consulta de outras entidades.".
 	:temPai :c200.30 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_AP ;
 	:temDono :org_Camões ;
 	:temDono :org_AL ;
-	:temParticipanteAssessor :org_AP ;
 	:temNotaAplicacao :na_c200.30.301_1 ;
 	:temNotaAplicacao :na_c200.30.301_2 ;
 	:temNotaExclusao :ne_c200.30.301_1 ;
 	:temNotaExclusao :ne_c200.30.301_2 ;
-	:temLegislacao :leg_1202 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.500 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c200.10.002 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c200.20.001 ;
+	:temRelProc :c200.30.302 ;
+	:temRelProc :c200.30.303 ;
+	:temLegislacao :leg_1206 ;
 	:classeStatus "A" ;
 	:descricao "Elaboração dos instrumentos de orientação estratégica que estabelecem os critérios, os objetivos e os atores envolvidos, bem como os mecanismos e os recursos necessários à prossecução das políticas de cooperação para o desenvolvimento, normalmente designados por programas de cooperação.
 Inicia com proposta e termina com aprovação de programa de cooperação e ajuda pública ao desenvolvimento.
@@ -1208,15 +1288,26 @@ Inclui articulação com autoridades de países parceiros, recolha de contributo
 	:temPai :c200.30 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteComunicador :org_Camões ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c200.30.302_1 ;
 	:temNotaAplicacao :na_c200.30.302_2 ;
 	:temNotaAplicacao :na_c200.30.302_3 ;
 	:temNotaAplicacao :na_c200.30.302_4 ;
 	:temNotaExclusao :ne_c200.30.302_1 ;
 	:temNotaExclusao :ne_c200.30.302_2 ;
-	:temLegislacao :leg_1202 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c200.10.002 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c200.30.301 ;
+	:temRelProc :c200.30.303 ;
+	:temRelProc :c850.10.002 ;
+	:temRelProc :c850.10.003 ;
+	:temRelProc :c850.10.004 ;
+	:temRelProc :c850.10.005 ;
+	:temLegislacao :leg_1206 ;
 	:classeStatus "A" ;
 	:exemploNA "Ações de formação e treino, âmbito de programas de cooperação e assistência militar de natureza bilateral e multilateral " ;
 	:exemploNA "Assistência militar a fim de apoiar a politica externa do Estado no quadro das relações internacionais de cooperação, nomeadamente no âmbito CPLP, da NATO e EU" ;
@@ -1271,9 +1362,9 @@ Inclui discussão de propostas apresentadas, caracterização das ações a dese
 	:temPai :c200.30 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_AP ;
 	:temDono :org_Camões ;
 	:temDono :org_AL ;
-	:temParticipanteAssessor :org_AP ;
 	:temNotaAplicacao :na_c200.30.303_1 ;
 	:temNotaAplicacao :na_c200.30.303_2 ;
 	:temNotaAplicacao :na_c200.30.303_3 ;
@@ -1282,7 +1373,11 @@ Inclui discussão de propostas apresentadas, caracterização das ações a dese
 	:temNotaAplicacao :na_c200.30.303_6 ;
 	:temNotaExclusao :ne_c200.30.303_1 ;
 	:temNotaExclusao :ne_c200.30.303_2 ;
-	:temLegislacao :leg_1202 ;
+	:temRelProc :c200.10.002 ;
+	:temRelProc :c200.30.301 ;
+	:temRelProc :c200.30.302 ;
+	:temRelProc :c850.10.004 ;
+	:temLegislacao :leg_1206 ;
 	:classeStatus "A" ;
 	:descricao "Avaliação dos programas de cooperação e de ajuda ao desenvolvimento, executados por entidades públicas e privadas
 Inicia com verificação de procedimentos previamente estabelecidos e termina com a apresentação de relatório final.
@@ -1365,13 +1460,13 @@ Inclui, quando devido, apresentação de caderno de encargos, convite ou candida
 	:temPai :c200.30 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_AP ;
 	:temDono :org_Camões ;
 	:temDono :org_AL ;
 	:temDono :org_IAPMEI ;
 	:temDono :org_Cinemateca ;
 	:temDono :org_DGLAB ;
 	:temDono :org_AICEP ;
-	:temParticipanteAssessor :org_AP ;
 	:temNotaAplicacao :na_c200.30.600_1 ;
 	:temNotaAplicacao :na_c200.30.600_2 ;
 	:temNotaAplicacao :na_c200.30.600_3 ;
@@ -1386,6 +1481,20 @@ Inclui, quando devido, apresentação de caderno de encargos, convite ou candida
 	:temNotaExclusao :ne_c200.30.600_1 ;
 	:temNotaExclusao :ne_c200.30.600_2 ;
 	:temNotaExclusao :ne_c200.30.600_3 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.600 ;
+	:temRelProc :c150.20.101 ;
+	:temRelProc :c150.20.300 ;
+	:temRelProc :c200.20.500 ;
+	:temRelProc :c300.30.008 ;
+	:temRelProc :c850.10.002 ;
+	:temRelProc :c850.10.003 ;
+	:temRelProc :c850.10.500 ;
+	:temRelProc :c850.10.600 ;
+	:temRelProc :c900.20.001 ;
+	:temRelProc :c900.20.002 ;
+	:temRelProc :c900.20.200 ;
+	:temRelProc :c900.20.400 ;
 	:temLegislacao :leg_411 ;
 	:classeStatus "A" ;
 	:descricao "Realização de ações de promoção da imagem de Portugal no estrangeiro e de apoio à internacionalização de empresas, ou agentes culturais, portugueses. 

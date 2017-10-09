@@ -104,10 +104,18 @@ Inclui o processamento de isenção, redução ou fracionamento.".
 	:temPai :c350.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteIniciador :org_DGO ;
 	:temParticipanteDecisor :org_SEO ;
+	:temDono :org_AP ;
 	:temNotaExclusao :ne_c350.10.001_1 ;
+	:temRelProc :c150.20.200 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.400 ;
+	:temRelProc :c150.20.401 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.500 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c500.10.001 ;
 	:temLegislacao :leg_220 ;
 	:temLegislacao :leg_325 ;
 	:classeStatus "A" ;
@@ -122,8 +130,10 @@ Inclui as propostas de alteração e a respetiva alteração.".
 	:temPai :c350.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteIniciador :org_AP ;
+	:temDono :org_AP ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c500.10.001 ;
 	:classeStatus "A" ;
 	:descricao "Pedido para antecipação de duodécimos das dotações orçamentais, formalizado quando os pagamentos a efetuar, devido a razões imprevisíveis, ultrapassem o saldo do duodécimo vencido nas respetivas rubricas orçamentais.  
 Inicia com o pedido da necessidade e informação de suporte e termina com a notificação da aprovação ou rejeição do pedido.".
@@ -155,12 +165,21 @@ Inicia com o pedido da necessidade e informação de suporte e termina com a not
 	:temPai :c350.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AT ;
 	:temParticipanteIniciador :org_AP ;
+	:temDono :org_AT ;
 	:temNotaAplicacao :na_c350.10.100_1 ;
 	:temNotaAplicacao :na_c350.10.100_2 ;
 	:temNotaExclusao :ne_c350.10.100_1 ;
 	:temNotaExclusao :ne_c350.10.100_2 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.102 ;
+	:temRelProc :c350.10.504 ;
+	:temRelProc :c350.10.515 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c600.30.551 ;
+	:temRelProc :c850.30.002 ;
 	:temLegislacao :leg_76 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento do Imposto Sobre o Rendimento de Pessoas Singulares (IRS) dos sujeitos passivos.
@@ -195,12 +214,22 @@ Inclui todos os procedimentos para liquidação do imposto, nomeadamente a valid
 	:temPai :c350.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AT ;
 	:temParticipanteIniciador :org_AP ;
+	:temDono :org_AT ;
 	:temNotaAplicacao :na_c350.10.101_1 ;
 	:temNotaAplicacao :na_c350.10.101_2 ;
 	:temNotaExclusao :ne_c350.10.101_1 ;
 	:temNotaExclusao :ne_c350.10.101_2 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.10.102 ;
+	:temRelProc :c350.10.504 ;
+	:temRelProc :c350.10.515 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c450.10.808 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c600.30.551 ;
+	:temRelProc :c850.30.002 ;
 	:temLegislacao :leg_77 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento do Imposto Sobre o Rendimento de Pessoas Coletivas (IRC) dos sujeitos passivos.
@@ -239,6 +268,10 @@ Inclui todos os procedimentos para liquidação do imposto, nomeadamente a valid
 	:temNotaAplicacao :na_c350.10.102_2 ;
 	:temNotaExclusao :ne_c350.10.102_1 ;
 	:temNotaExclusao :ne_c350.10.102_2 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.100 ;
+	:temRelProc :c350.10.101 ;
+	:temRelProc :c500.10.001 ;
 	:classeStatus "A" ;
 	:descricao "Procedimento de revisão do lucro tributável fixado por métodos indiretos visando o estabelecimento de um acordo quanto ao valor da matéria coletável a considerar para efeitos de liquidação.
 Inicia com o pedido de revisão, devidamente fundamentado, a apresentar pelo sujeito passivo, com a indicação do perito que o representa, e termina com a notificação do acordo entre os peritos ou, na sua falta, com a notificação da decisão do órgão competente para a fixação da matéria coletável.
@@ -262,11 +295,21 @@ Inclui a nomeação de perito independente, e a realização de uma reunião ent
 	:temPai :c350.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_AT ;
 	:temParticipanteApreciador :org_AL ;
+	:temDono :org_AT ;
 	:temNotaExclusao :ne_c350.10.200_1 ;
 	:temNotaExclusao :ne_c350.10.200_2 ;
-	:temLegislacao :leg_1058 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c300.30.600 ;
+	:temRelProc :c350.10.504 ;
+	:temRelProc :c350.10.515 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c400.10.407 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c600.30.551 ;
+	:temRelProc :c850.30.002 ;
+	:temLegislacao :leg_1062 ;
 	:temLegislacao :leg_371 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento do Imposto Municipal sobre Imóveis (IMI) a pagar pelos sujeitos passivos, tendo por base o valor patrimonial inscrito nas matrizes prediais (rústicas e urbanas) em 31 de dezembro de cada ano, excetuando os valores dos prédios isentos.
@@ -290,10 +333,21 @@ Inclui a validação dos dados.".
 	:temPai :c350.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_AT ;
 	:temParticipanteApreciador :org_AL ;
+	:temDono :org_AT ;
 	:temNotaExclusao :ne_c350.10.201_1 ;
 	:temNotaExclusao :ne_c350.10.201_2 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.504 ;
+	:temRelProc :c350.10.515 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c400.10.407 ;
+	:temRelProc :c400.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.301 ;
+	:temRelProc :c600.30.551 ;
+	:temRelProc :c850.30.002 ;
 	:temLegislacao :leg_371 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento do Imposto Municipal Sobre Transmissões Onerosas de Imóveis (IMT).
@@ -326,6 +380,16 @@ Inclui todos os procedimentos para liquidação do imposto, nomeadamente a valid
 	:temNotaExclusao :ne_c350.10.202_1 ;
 	:temNotaExclusao :ne_c350.10.202_2 ;
 	:temNotaExclusao :ne_c350.10.202_3 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c300.30.600 ;
+	:temRelProc :c350.10.504 ;
+	:temRelProc :c350.10.515 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c400.10.407 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c600.30.551 ;
+	:temRelProc :c850.30.002 ;
 	:temLegislacao :leg_190 ;
 	:temLegislacao :leg_150 ;
 	:classeStatus "A" ;
@@ -366,7 +430,15 @@ Inclui todos os procedimentos para liquidação do imposto, nomeadamente a valid
 	:temNotaAplicacao :na_c350.10.203_2 ;
 	:temNotaExclusao :ne_c350.10.203_1 ;
 	:temNotaExclusao :ne_c350.10.203_2 ;
-	:temLegislacao :leg_574 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.504 ;
+	:temRelProc :c350.10.515 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c600.30.551 ;
+	:temRelProc :c850.30.002 ;
+	:temLegislacao :leg_575 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento do Imposto Único de Circulação (IUC), que incide sobre os veículos das diversas categorias previstas no Código do Imposto Único de Circulação (CIUC).
 Inicia com o preenchimento da declaração eletrónica no portal da AT pelos sujeitos passivos ou mediante iniciativa da Administração Tributária e termina com a emissão do documento único de cobrança (DUC) para efeitos de pagamento.
@@ -398,7 +470,15 @@ Inclui todos os procedimentos para liquidação do imposto, nomeadamente a valid
 	:temNotaAplicacao :na_c350.10.204_1 ;
 	:temNotaExclusao :ne_c350.10.204_1 ;
 	:temNotaExclusao :ne_c350.10.204_2 ;
-	:temLegislacao :leg_574 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.504 ;
+	:temRelProc :c350.10.515 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c600.30.551 ;
+	:temRelProc :c850.30.002 ;
+	:temLegislacao :leg_575 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento do Imposto Sobre Veículos (ISV).
 Inicia com a apresentação da declaração aduaneira de veículos (DAV), por transmissão eletrónica de dados, pelos operadores registados, pelos operadores reconhecidos e pelos particulares que procedam à introdução no consumo dos veículos tributáveis, bem como pelos sujeitos passivos do imposto que, de modo irregular, introduzam no consumo os referidos veículos, pelos sujeitos passivos ou mediante iniciativa da Administração Tributária e termina com a emissão do documento único de cobrança (DUC) para efeitos de pagamento.
@@ -478,8 +558,8 @@ Inclui todos os procedimentos para liquidação do imposto, nomeadamente a valid
 	:temPai :c350.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AT ;
 	:temParticipanteIniciador :org_AP ;
+	:temDono :org_AT ;
 	:temNotaAplicacao :na_c350.10.205_1 ;
 	:temNotaAplicacao :na_c350.10.205_2 ;
 	:temNotaAplicacao :na_c350.10.205_3 ;
@@ -493,6 +573,15 @@ Inclui todos os procedimentos para liquidação do imposto, nomeadamente a valid
 	:temNotaExclusao :ne_c350.10.205_1 ;
 	:temNotaExclusao :ne_c350.10.205_2 ;
 	:temNotaExclusao :ne_c350.10.205_3 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.504 ;
+	:temRelProc :c350.10.515 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c400.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c600.30.551 ;
+	:temRelProc :c850.30.002 ;
 	:temLegislacao :leg_371 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento do Imposto de Selo devido nos termos da Tabela anexa ao Regulamento Geral de Imposto de Selo, anexa ao respetivo código, que incide sobre atos, contratos, documentos, títulos, papéis e outros factos ou situações jurídicas previstas na referida tabela.
@@ -520,6 +609,15 @@ Inclui todos os procedimentos para liquidação do imposto, nomeadamente a valid
 	:temDono :org_AT ;
 	:temNotaExclusao :ne_c350.10.206_1 ;
 	:temNotaExclusao :ne_c350.10.206_2 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.504 ;
+	:temRelProc :c350.10.515 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c400.10.407 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c600.30.551 ;
+	:temRelProc :c850.30.002 ;
 	:temLegislacao :leg_371 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento do Imposto de Selo sobre Transmissões Gratuitas de Bens.
@@ -548,11 +646,19 @@ Inclui todos os procedimentos para liquidação do imposto, nomeadamente a valid
 	:temPai :c350.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AT ;
 	:temParticipanteIniciador :org_AP ;
+	:temDono :org_AT ;
 	:temNotaAplicacao :na_c350.10.300_1 ;
 	:temNotaExclusao :ne_c350.10.300_1 ;
 	:temNotaExclusao :ne_c350.10.300_2 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.504 ;
+	:temRelProc :c350.10.515 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c600.30.551 ;
+	:temRelProc :c850.30.002 ;
 	:temLegislacao :leg_52 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento do Imposto Sobre o Valor Acrescentado (IVA).
@@ -609,7 +715,16 @@ Inclui todos os procedimentos para liquidação do imposto, nomeadamente a valid
 	:temNotaAplicacao :na_c350.10.301_5 ;
 	:temNotaExclusao :ne_c350.10.301_1 ;
 	:temNotaExclusao :ne_c350.10.301_2 ;
-	:temLegislacao :leg_834 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.504 ;
+	:temRelProc :c350.10.515 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c450.10.640 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c600.30.551 ;
+	:temRelProc :c850.30.002 ;
+	:temLegislacao :leg_837 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento dos impostos especiais sobre o consumo, tendo por base os elementos declarados pelos sujeitos passivos.
 Inicia com o preenchimento de uma declaração de introdução no consumo (DIC), ou, no caso de importação, de uma declaração aduaneira (DA), pelos sujeitos passivos ou mediante iniciativa da Administração Tributária e termina com a notificação do resultado da liquidação e do prazo para efetuar o pagamento.
@@ -625,6 +740,16 @@ Inclui todos os procedimentos para liquidação de imposto, nomeadamente a valid
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
 	:temDono :org_AT ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.516 ;
+	:temRelProc :c350.10.517 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c450.10.650 ;
+	:temRelProc :c450.10.441 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c600.30.551 ;
+	:temRelProc :c850.30.003 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento dos direitos e demais imposições aduaneiras, tendo por base os elementos declarados pelos sujeitos passivos/operadores económicos.
 Inicia com o preenchimento de uma declaração aduaneira de importação (DAI) e um impresso de liquidação (IL) e termina com a notificação ao operador económico do resultado da liquidação e do prazo para efetuar o pagamento.
@@ -641,6 +766,11 @@ Inclui todos os procedimentos para liquidação de imposto, nomeadamente a valid
 	:NotaAplicacao ;
 	:conteudo "Transferência para as Regiões Autónomas do Imposto sobre o Álcool e as Bebidas Alcoólicas (IABA) pago no Continente".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.500_3
+:na_c350.10.500_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Transferências do IGFSS para as entidades utilizadoras e beneficiárias de fundos do Orçamento da Segurança Social".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c350.10.500
 :c350.10.500 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -649,10 +779,20 @@ Inclui todos os procedimentos para liquidação de imposto, nomeadamente a valid
 	:temPai :c350.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteComunicador :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c350.10.500_1 ;
 	:temNotaAplicacao :na_c350.10.500_2 ;
+	:temNotaAplicacao :na_c350.10.500_3 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.400 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.001 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c350.30.004 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c850.10.001 ;
 	:classeStatus "A" ;
 	:descricao "Cálculo e lançamento das verbas entre administrações ou entre a Administração Pública e entidades privadas (associações, empresas e particulares).
 Inicia com a verificação do orçamento da verba a transferir e da entidade de destino ou com o pedido da entidade para transferência da verba e termina com o lançamento da verba.
@@ -675,12 +815,18 @@ Inclui o cálculo da verba a transferir, o registo da entrada (receita) ou  a de
 	:temPai :c350.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_ESPS ;
 	:temParticipanteIniciador :org_AP ;
+	:temDono :org_ESPS ;
 	:temNotaAplicacao :na_c350.10.501_1 ;
 	:temNotaAplicacao :na_c350.10.501_2 ;
-	:temLegislacao :leg_1062 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.509 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1066 ;
+	:temLegislacao :leg_879 ;
 	:temLegislacao :leg_322 ;
+	:temLegislacao :leg_47 ;
+	:temLegislacao :leg_1158 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento dos montantes devidos pelos trabalhadores e pelas entidades para a proteção da saúde.
 Inicia com o cálculo e termina com a comunicação do montante às entidades competentes.
@@ -703,11 +849,28 @@ Inclui registo.".
 	:temPai :c350.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_IGFSS ;
 	:temParticipanteIniciador :org_AP ;
+	:temDono :org_IGFSS ;
 	:temNotaAplicacao :na_c350.10.502_1 ;
 	:temNotaAplicacao :na_c350.10.502_2 ;
-	:temLegislacao :leg_1062 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.509 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c650.10.001 ;
+	:temRelProc :c650.10.002 ;
+	:temRelProc :c650.10.003 ;
+	:temRelProc :c650.10.004 ;
+	:temRelProc :c650.10.005 ;
+	:temRelProc :c650.10.006 ;
+	:temRelProc :c650.10.007 ;
+	:temRelProc :c650.10.008 ;
+	:temRelProc :c650.10.009 ;
+	:temRelProc :c650.10.010 ;
+	:temRelProc :c650.10.011 ;
+	:temRelProc :c650.10.012 ;
+	:temRelProc :c650.10.013 ;
+	:temRelProc :c650.10.108 ;
+	:temLegislacao :leg_1066 ;
 	:temLegislacao :leg_322 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento dos montantes devidos pelos trabalhadores e pelas entidades para o Sistema de Segurança Social.
@@ -731,13 +894,19 @@ Inclui o registo.".
 	:temPai :c350.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_AP ;
 	:temDono :org_SGMF ;
 	:temDono :org_EAARPNC ;
-	:temParticipanteIniciador :org_AP ;
 	:temNotaAplicacao :na_c350.10.503_1 ;
 	:temNotaExclusao :ne_c350.10.503_1 ;
-	:temLegislacao :leg_1158 ;
-	:temLegislacao :leg_772 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c250.20.001 ;
+	:temRelProc :c250.20.401 ;
+	:temRelProc :c450.30.500 ;
+	:temRelProc :c700 ;
+	:temLegislacao :leg_1162 ;
+	:temLegislacao :leg_775 ;
+	:temLegislacao :leg_243 ;
 	:classeStatus "A" ;
 	:descricao "Processamento da despesa relativa a acidentes de trabalho e doenças profissionais.
 Inicia com a receção do pedido de pagamento das despesas e termina com a decisão sobre o mesmo.
@@ -775,8 +944,21 @@ Inclui a a análise e qualificação do acidente de trabalho ou da doença profi
 	:temNotaAplicacao :na_c350.10.504_2 ;
 	:temNotaAplicacao :na_c350.10.504_3 ;
 	:temNotaExclusao :ne_c350.10.504_1 ;
-	:temLegislacao :leg_1136 ;
-	:temLegislacao :leg_1171 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.100 ;
+	:temRelProc :c350.10.101 ;
+	:temRelProc :c350.10.200 ;
+	:temRelProc :c350.10.201 ;
+	:temRelProc :c350.10.202 ;
+	:temRelProc :c350.10.203 ;
+	:temRelProc :c350.10.204 ;
+	:temRelProc :c350.10.205 ;
+	:temRelProc :c350.10.206 ;
+	:temRelProc :c350.10.300 ;
+	:temRelProc :c350.10.301 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1140 ;
+	:temLegislacao :leg_1175 ;
 	:temLegislacao :leg_85 ;
 	:classeStatus "A" ;
 	:descricao "Concessão de benefícios e incentivos fiscais e aduaneiros não contratuais, dependentes de reconhecimento.
@@ -810,8 +992,14 @@ Inclui todos os procedimentos para a análise e cálculo dos benefícios e incen
 	:temNotaAplicacao :na_c350.10.505_1 ;
 	:temNotaAplicacao :na_c350.10.505_2 ;
 	:temNotaAplicacao :na_c350.10.505_3 ;
-	:temLegislacao :leg_949 ;
-	:temLegislacao :leg_629 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c300.10.001 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.004 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_953 ;
+	:temLegislacao :leg_630 ;
 	:classeStatus "A" ;
 	:descricao "Prestação ou recebimento de garantia, entre administrações públicas ou entre a administração pública e privados.
 Inicia com a apresentação do direito ou dever garantido e termina com a sua liberação.
@@ -829,9 +1017,18 @@ Inclui o registo do direito ou dever garantido, pode incluir o acionamento da ca
 	:temPai :c350.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_ESPS ;
 	:temParticipanteIniciador :org_AP ;
+	:temDono :org_ESPS ;
 	:temNotaAplicacao :na_c350.10.506_1 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c350.30.003 ;
+	:temRelProc :c350.30.004 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c700 ;
+	:temLegislacao :leg_47 ;
+	:temLegislacao :leg_446 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento de montantes de reembolso a beneficiários de um sistema de saúde despendidos com encargos relativos a cuidados de saúde comparticipado em regime livre.
 Inicia com a apresentação de documentos de despesa por parte do trabalhador e termina com o crédito em conta calculado nos termos da respetiva tabela.
@@ -864,6 +1061,16 @@ Inclui a codificação e a validação das despesas.".
 	:temNotaAplicacao :na_c350.10.507_1 ;
 	:temNotaAplicacao :na_c350.10.507_2 ;
 	:temNotaExclusao :ne_c350.10.507_1 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c300.10.008 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c350.30.003 ;
+	:temRelProc :c350.30.004 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c700 ;
+	:temLegislacao :leg_47 ;
+	:temLegislacao :leg_446 ;
 	:classeStatus "A" ;
 	:descricao "Processamento de despesas de saúde com entidades prestadoras de cuidados de saúde e farmácias por força de acordos estabelecidos entre estas e os diversos subsistemas de saúde ou entidades públicas comparticipantes.
 Inicia com a receção da comunicação da despesa (faturação) e termina com a comunicação dos montantes a pagar.
@@ -891,12 +1098,19 @@ Inclui conferência e validação das despesas realizadas em prestadores convenc
 	:temPai :c350.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_AP ;
 	:temDono :org_SGMF ;
 	:temDono :org_EAARPNC ;
 	:temNotaAplicacao :na_c350.10.508_1 ;
 	:temNotaAplicacao :na_c350.10.508_2 ;
 	:temNotaAplicacao :na_c350.10.508_3 ;
-	:temLegislacao :leg_1158 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c250.10.800 ;
+	:temRelProc :c250.20.401 ;
+	:temRelProc :c300.10.601 ;
+	:temRelProc :c350.10.509 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1162 ;
 	:temLegislacao :leg_6 ;
 	:classeStatus "A" ;
 	:descricao "Processamento de indemnizações e injunções por prejuízos causados no património público ou de particulares, resultantes de circunstâncias acidentais ou fortuitas, pelas quais o Estado é responsável ou ressarcido pelo dano sofrido, bem como de compensações devidas ao abrigo do regime jurídico de requalificação de trabalhadores em funções públicas.
@@ -930,7 +1144,30 @@ Inclui a análise do processo administrativo remetido pela entidade proponente, 
 	:temNotaAplicacao :na_c350.10.509_1 ;
 	:temNotaAplicacao :na_c350.10.509_2 ;
 	:temNotaExclusao :ne_c350.10.509_1 ;
-	:temLegislacao :leg_1158 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c250.10.400 ;
+	:temRelProc :c250.10.401 ;
+	:temRelProc :c250.10.500 ;
+	:temRelProc :c250.10.600 ;
+	:temRelProc :c250.10.601 ;
+	:temRelProc :c250.20.200 ;
+	:temRelProc :c250.20.201 ;
+	:temRelProc :c250.20.400 ;
+	:temRelProc :c250.20.401 ;
+	:temRelProc :c250.20.402 ;
+	:temRelProc :c250.20.403 ;
+	:temRelProc :c250.20.404 ;
+	:temRelProc :c250.20.600 ;
+	:temRelProc :c250.20.601 ;
+	:temRelProc :c250.20.604 ;
+	:temRelProc :c250.20.605 ;
+	:temRelProc :c250.20.800 ;
+	:temRelProc :c250.20.803 ;
+	:temRelProc :c350.10.501 ;
+	:temRelProc :c350.10.502 ;
+	:temRelProc :c350.10.508 ;
+	:temRelProc :c350.10.600 ;
+	:temLegislacao :leg_1162 ;
 	:classeStatus "A" ;
 	:descricao "Processamento de remunerações por trabalhador, integrando a apresentação da informação relativa a abonos e descontos.
 Inicia com a verificação da assiduidade e termina com a liquidação do montante a pagar.
@@ -956,8 +1193,10 @@ Inclui o apuramento de horas extraordinárias, de subsídio de residência, de s
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c350.10.510_1 ;
 	:temNotaExclusao :ne_c350.10.510_1 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
 	:temLegislacao :leg_193 ;
-	:temLegislacao :leg_844 ;
+	:temLegislacao :leg_847 ;
 	:classeStatus "A" ;
 	:descricao "Processamento dos abonos de transportes, ajudas de custo, deslocações e estadas.
 Inicia com o pedido de autorização e termina com a liquidação do montante a pagar.
@@ -1014,6 +1253,11 @@ Inclui o cálculo e o processamento das ajudas de custo e despesas de deslocaç�
 	:temNotaAplicacao :na_c350.10.511_5 ;
 	:temNotaExclusao :ne_c350.10.511_1 ;
 	:temNotaExclusao :ne_c350.10.511_2 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.513 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
 	:temLegislacao :leg_116 ;
 	:classeStatus "A" ;
 	:descricao "Apuramento de montantes a devolver, recebidos indevidamente ou a mais, efetivada por compensação, dedução em folha ou pagamento através da apresentação de guia, bem como o ressarcimento de valores por despesa com direito a restituição.
@@ -1027,8 +1271,10 @@ Inclui definição do modo de reposição, apresentação das guias de reposiç�
 	:temPai :c350.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AT ;
 	:temParticipanteIniciador :org_AP ;
+	:temDono :org_AT ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.511 ;
 	:classeStatus "A" ;
 	:descricao "Processamento de anulações de valores, nomeadamente de impostos, taxas, direitos aduaneiros e demais tributos.
 Inicia com o pedido de anulação apresentado pelo interessado ou com a iniciativa do serviço da administração pública e termina com a efetiva  anulação do montante total ou parcial objeto de liquidação.
@@ -1041,8 +1287,12 @@ Inclui todo o procedimento para a análise e cálculo das anulações.".
 	:temPai :c350.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGEstE ;
 	:temParticipanteIniciador :org_EstE ;
+	:temDono :org_DGEstE ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c700.20.300 ;
 	:temLegislacao :leg_264 ;
 	:classeStatus "A" ;
 	:descricao "Processamento da despesa relativa a acidentes escolares.
@@ -1071,11 +1321,25 @@ Inclui a apresentação do boletim de acompanhamento médico, a declaração de 
 	:temPai :c350.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_AT ;
 	:temParticipanteIniciador :org_SPE ;
+	:temDono :org_AT ;
 	:temNotaAplicacao :na_c350.10.515_1 ;
 	:temNotaAplicacao :na_c350.10.515_2 ;
 	:temNotaExclusao :ne_c350.10.515_1 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.100 ;
+	:temRelProc :c350.10.101 ;
+	:temRelProc :c350.10.200 ;
+	:temRelProc :c350.10.201 ;
+	:temRelProc :c350.10.202 ;
+	:temRelProc :c350.10.203 ;
+	:temRelProc :c350.10.204 ;
+	:temRelProc :c350.10.205 ;
+	:temRelProc :c350.10.206 ;
+	:temRelProc :c350.10.300 ;
+	:temRelProc :c350.10.301 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_203 ;
 	:classeStatus "A" ;
 	:descricao "Processamento da revisão de atos tributários pela entidade que os praticou.
 Inicia com pedido do sujeito passivo, com fundamento em qualquer ilegalidade, ou com a iniciativa da administração tributária, com fundamento em erro imputável aos serviços, e termina com a notificação do resultado da revisão efetuada.
@@ -1088,9 +1352,14 @@ Inclui o exercício do direito de audição quando o pedido é objeto de indefer
 	:temPai :c350.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_AT ;
 	:temParticipanteComunicador :org_IGCP ;
 	:temParticipanteComunicador :org_DGO ;
+	:temDono :org_AT ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.400 ;
+	:temRelProc :c350.10.517 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
 	:temLegislacao :leg_271 ;
 	:classeStatus "A" ;
 	:descricao "Processamento de informação com a determinação dos montantes de recursos próprios tradicionais (RPT) cobrados pelo Estado Português e que são receita da União Europeia, a colocar mensalmente à disposição da Comissão Europeia.
@@ -1111,6 +1380,11 @@ Inclui a análise dos mapas elaborados pelas Alfândegas e a elaboração de map
 	:processoTransversal "N" ;
 	:temDono :org_AT ;
 	:temNotaExclusao :ne_c350.10.517_1 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.400 ;
+	:temRelProc :c350.10.516 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
 	:temLegislacao :leg_271 ;
 	:classeStatus "A" ;
 	:descricao "Processamento de informação com a determinação dos montantes de recursos próprios tradicionais que não foi possível cobrar e pedido de dispensa da sua colocação à União Europeia, acompanhada da respetiva justificação.
@@ -1132,31 +1406,21 @@ Inclui instrução, análise e acompanhamento de processos relativos a pedidos d
 	:NotaAplicacao ;
 	:conteudo "Cálculo da taxa portuária".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.518_1
-:ne_c350.10.518_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "DL 226A/2008".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.518_2
-:ne_c350.10.518_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Lei 58/2005".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c350.10.518
 :c350.10.518 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
 	:codigo "350.10.518";
 	:titulo "Liquidação de taxas";
 	:temPai :c350.10 ;
-	:processoTipo "APA#
-ANA#
-Marinha#
-AL#" ;
+	:processoTipo "PE" ;
+	:temDono :org_APA ;
+	:temDono :org_Marinha ;
+	:temDono :org_AL ;
 	:temNotaAplicacao :na_c350.10.518_1 ;
 	:temNotaAplicacao :na_c350.10.518_2 ;
 	:temNotaAplicacao :na_c350.10.518_3 ;
-	:temNotaExclusao :ne_c350.10.518_1 ;
-	:temNotaExclusao :ne_c350.10.518_2 ;
+	:temLegislacao :leg_658 ;
+	:temLegislacao :leg_456 ;
 	:classeStatus "A" ;
 	:descricao "".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.600_1
@@ -1271,6 +1535,24 @@ AL#" ;
 	:temNotaExclusao :ne_c350.10.600_5 ;
 	:temNotaExclusao :ne_c350.10.600_6 ;
 	:temNotaExclusao :ne_c350.10.600_7 ;
+	:temRelProc :c150.20.400 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c300.10.002 ;
+	:temRelProc :c300.10.004 ;
+	:temRelProc :c300.10.005 ;
+	:temRelProc :c300.10.006 ;
+	:temRelProc :c300.10.007 ;
+	:temRelProc :c300.20.001 ;
+	:temRelProc :c350.10.001 ;
+	:temRelProc :c350.10.500 ;
+	:temRelProc :c350.10.509 ;
+	:temRelProc :c350.10.510 ;
+	:temRelProc :c350.10.511 ;
+	:temRelProc :c350.10.700 ;
+	:temRelProc :c350.30.002 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_932 ;
+	:temLegislacao :leg_220 ;
 	:temLegislacao :leg_2 ;
 	:classeStatus "A" ;
 	:exemploNA "Antecipação de duodécimos" ;
@@ -1287,7 +1569,7 @@ AL#" ;
 	:descricao "Registo da receita proveniente da prestação de serviços e da venda de produtos e de bens de investimento, incluindo a sua isenção, redução e fracionamento, bem como da receita proveniente de indemnizações.
 Compreende também o registo da despesa proveniente da aquisição de bens e serviços, remunerações, bem como da despesa de investimento.
 Inicia com a informação ou o apuramento do montante a receber (receita) ou com cabimentação (despesa) e termina com o lançamento da receita ou da despesa.
-Inclui classificação da receita ou da despesa, autorização de despesa e de alteração ao seu limite (se aplicável), compromisso (para a despesa), inclusão em suporte normalizados dos encargos legalmente constítuidos e informação do recebimento ou da receção do bem ou serviço por parte da entidade requisitante.
+Inclui classificação da receita ou da despesa, autorização de despesa e de alteração ao seu limite (se aplicável), compromisso (para a despesa), inclusão em suporte normalizados dos encargos legalmente constituídos e informação do recebimento ou da receção do bem ou serviço por parte da entidade requisitante.
 
 
 
@@ -1305,9 +1587,13 @@ Inclui classificação da receita ou da despesa, autorização de despesa e de a
 	:temPai :c350.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteIniciador :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c350.10.700_1 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c850.10.001 ;
 	:classeStatus "A" ;
 	:descricao "Requisição mensal à entidade competente da transferência duodecimal de verbas do orçamento anual atribuído através do Orçamento do Estado para fazer face aos encargos assumidos mensalmente.
 Inicia com o pedido e termina com a comunicação da decisão e libertação da verba pedida, em caso de aceitação do pedido.
@@ -1439,13 +1725,15 @@ Compreende ainda a rentabilização dos excedentes de tesouraria.".
 	:temPai :c350.30 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteDecisor :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c350.30.001_1 ;
 	:temNotaExclusao :ne_c350.30.001_1 ;
 	:temNotaExclusao :ne_c350.30.001_2 ;
 	:temNotaExclusao :ne_c350.30.001_3 ;
 	:temNotaExclusao :ne_c350.30.001_4 ;
+	:temRelProc :c150.20.404 ;
+	:temLegislacao :leg_220 ;
 	:temLegislacao :leg_311 ;
 	:temLegislacao :leg_116 ;
 	:classeStatus "A" ;
@@ -1479,6 +1767,12 @@ Inclui autorização de pagamento, emissão de meios de pagamento, transferênci
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c350.30.002_1 ;
 	:temNotaAplicacao :na_c350.30.002_2 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1217 ;
+	:temLegislacao :leg_220 ;
 	:temLegislacao :leg_116 ;
 	:classeStatus "A" ;
 	:descricao "Entrega do montante destinado a satisfazer pequenas despesas de caráter
@@ -1513,8 +1807,16 @@ Inclui a designação do seu responsável.
 	:temNotaAplicacao :na_c350.30.003_1 ;
 	:temNotaExclusao :ne_c350.30.003_1 ;
 	:temNotaExclusao :ne_c350.30.003_2 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.20.400 ;
+	:temRelProc :c350.10.506 ;
+	:temRelProc :c350.10.507 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c350.30.006 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_220 ;
 	:temLegislacao :leg_311 ;
-	:temLegislacao :leg_1058 ;
+	:temLegislacao :leg_1062 ;
 	:temLegislacao :leg_116 ;
 	:classeStatus "A" ;
 	:descricao "Verificação e demonstração dos montantes e documentos existentes em tesouraria.
@@ -1537,7 +1839,18 @@ Inclui o controlo de movimentos, apuramento de valores, quando aplicável, a pro
 	:processoTransversal "N" ;
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c350.30.004_1 ;
-	:temLegislacao :leg_1238 ;
+	:temRelProc :c150.20.401 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c300.10.007 ;
+	:temRelProc :c350.10.500 ;
+	:temRelProc :c350.10.505 ;
+	:temRelProc :c350.10.506 ;
+	:temRelProc :c350.10.507 ;
+	:temRelProc :c350.30.005 ;
+	:temRelProc :c350.30.500 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c850.10.001 ;
+	:temLegislacao :leg_1243 ;
 	:temLegislacao :leg_311 ;
 	:classeStatus "A" ;
 	:descricao "Fluxo de montantes financeiros em contas bancárias.
@@ -1552,8 +1865,13 @@ Inclui o registo da operação.".
 	:processoTipo "PC" ;
 	:processoTransversal "N" ;
 	:temDono :org_AP ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.30.004 ;
+	:temRelProc :c350.30.006 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_220 ;
 	:temLegislacao :leg_311 ;
-	:temLegislacao :leg_1058 ;
+	:temLegislacao :leg_1062 ;
 	:temLegislacao :leg_116 ;
 	:classeStatus "A" ;
 	:descricao "Conferência entre os movimentos dos extratos bancários e os lançamentos efetuados pela entidade.
@@ -1580,8 +1898,10 @@ Inclui a análise comparativa dos registos bancários e dos registos da entidade
 	:temDono :org_DGRSP ;
 	:temNotaAplicacao :na_c350.30.006_1 ;
 	:temNotaAplicacao :na_c350.30.006_2 ;
-	:temLegislacao :leg_879 ;
-	:temLegislacao :leg_777 ;
+	:temRelProc :c350.30.003 ;
+	:temRelProc :c350.30.005 ;
+	:temLegislacao :leg_882 ;
+	:temLegislacao :leg_780 ;
 	:temLegislacao :leg_283 ;
 	:classeStatus "A" ;
 	:descricao "Processamento de entradas e saídas de dinheiro da conta do recluso no estabelecimento prisional, do jovem internado em centro educativo e de pessoa institucionalizada.
@@ -1602,7 +1922,10 @@ Inicia com a emissão de documento de receita ou pedido de realização de despe
 	:processoTransversal "N" ;
 	:temDono :org_AP ;
 	:temNotaExclusao :ne_c350.30.500_1 ;
-	:temLegislacao :leg_1238 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.30.004 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1243 ;
 	:classeStatus "A" ;
 	:descricao "Aplicação a montantes financeiros em excedente na tesouraria, a prazo, em fundos, aplicações bancárias ou outras.
 Inicia com a decisão de aplicação financeira e termina com o reembolso do valor da aplicação e respetivo rendimento.
@@ -1691,11 +2014,16 @@ Compreende também o controlo e a recuperação de dívida ao Estado e a regular
 	:temNotaAplicacao :na_c350.40.001_1 ;
 	:temNotaAplicacao :na_c350.40.001_2 ;
 	:temNotaAplicacao :na_c350.40.001_3 ;
-	:temLegislacao :leg_931 ;
-	:temLegislacao :leg_960 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.40.003 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_935 ;
+	:temLegislacao :leg_964 ;
 	:temLegislacao :leg_349 ;
 	:temLegislacao :leg_200 ;
 	:temLegislacao :leg_199 ;
+	:temLegislacao :leg_205 ;
 	:classeStatus "A" ;
 	:descricao "Emissão e amortização de dívida pública com vista a assegurar as necessidades de financiamento da República, tendente ao equilíbrio das contas públicas.
 Inicia com a proposta dos objetivos estratégicos para a gestão da Dívida Pública e da Liquidez e as iniciativas conducentes e termina com a liquidação das operações de financiamento.
@@ -1723,20 +2051,26 @@ Inclui os instrumentos de gestão da liquidez, da execução do Programa de Fina
 	:temDono :org_IGCP ;
 	:temNotaAplicacao :na_c350.40.002_1 ;
 	:temNotaAplicacao :na_c350.40.002_2 ;
-	:temLegislacao :leg_1265 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_989 ;
-	:temLegislacao :leg_960 ;
-	:temLegislacao :leg_931 ;
-	:temLegislacao :leg_866 ;
-	:temLegislacao :leg_785 ;
-	:temLegislacao :leg_681 ;
-	:temLegislacao :leg_637 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.40.003 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1271 ;
+	:temLegislacao :leg_1116 ;
+	:temLegislacao :leg_993 ;
+	:temLegislacao :leg_964 ;
+	:temLegislacao :leg_935 ;
+	:temLegislacao :leg_869 ;
+	:temLegislacao :leg_788 ;
+	:temLegislacao :leg_684 ;
+	:temLegislacao :leg_639 ;
 	:temLegislacao :leg_349 ;
 	:temLegislacao :leg_361 ;
+	:temLegislacao :leg_205 ;
 	:temLegislacao :leg_200 ;
 	:temLegislacao :leg_199 ;
 	:temLegislacao :leg_59 ;
+	:temLegislacao :leg_1 ;
 	:classeStatus "A" ;
 	:descricao "Emissão e resgates de dívida pública de retalho#
 Inicia com a emissão de títulos de dívida de retalho e termina com a liquidação solicitada por um resgate#
@@ -1756,11 +2090,17 @@ Inclui a gestão e controlo dos processamentos no Aforro, as informações e esc
 	:processoTransversal "N" ;
 	:temDono :org_IGCP ;
 	:temNotaAplicacao :na_c350.40.003_1 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.40.001 ;
+	:temRelProc :c350.40.002 ;
+	:temRelProc :c500.10.001 ;
 	:temLegislacao :leg_165 ;
 	:temLegislacao :leg_147 ;
 	:temLegislacao :leg_125 ;
 	:temLegislacao :leg_94 ;
 	:temLegislacao :leg_79 ;
+	:temLegislacao :leg_1 ;
 	:classeStatus "A" ;
 	:descricao "Estabilização de oferta e procura de títulos de dívida pública no mercado secundário, através do Fundo de Regularização da Dívida Pública (FRDP), resultante de alienação de partes sociais que o Estado detém em quaisquer sociedades anónimas resultantes da transformação de empresas públicas em sociedades anónimas de maioria ou exclusivamente de capitais públicos#
 Inicia com a aquisição de dívida e entrada de capitais oriundos das nacionalizações e termina com o abatimento da dívida#
@@ -1778,20 +2118,25 @@ Inicia com a aquisição de dívida e entrada de capitais oriundos das nacionali
 	:temPai :c350.40 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGTF ;
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteComunicador :org_AT ;
+	:temDono :org_DGTF ;
 	:temNotaAplicacao :na_c350.40.200_1 ;
-	:temLegislacao :leg_1239 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1244 ;
 	:temLegislacao :leg_185 ;
-	:temLegislacao :leg_1237 ;
-	:temLegislacao :leg_1172 ;
-	:temLegislacao :leg_1169 ;
-	:temLegislacao :leg_1050 ;
-	:temLegislacao :leg_1048 ;
-	:temLegislacao :leg_1170 ;
-	:temLegislacao :leg_670 ;
-	:temLegislacao :leg_579 ;
+	:temLegislacao :leg_1242 ;
+	:temLegislacao :leg_1176 ;
+	:temLegislacao :leg_1173 ;
+	:temLegislacao :leg_1054 ;
+	:temLegislacao :leg_1052 ;
+	:temLegislacao :leg_1174 ;
+	:temLegislacao :leg_673 ;
+	:temLegislacao :leg_516 ;
+	:temLegislacao :leg_580 ;
 	:classeStatus "A" ;
 	:descricao "Recuperação de créditos que resultam de empréstimos diretos do Estado e outras operações ativas#
 Inicia com a comunicação do incumprimento contratual e termina com a regularização do crédito através do pagamento ou a confirmação da sua irrecuperabilidade#
@@ -1810,20 +2155,25 @@ Inclui contratos de reescalonamento de dívidas, planos de amortização, juros 
 	:temPai :c350.40 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGTF ;
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteComunicador :org_AT ;
+	:temDono :org_DGTF ;
 	:temNotaAplicacao :na_c350.40.201_1 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
 	:temLegislacao :leg_185 ;
-	:temLegislacao :leg_1237 ;
-	:temLegislacao :leg_1239 ;
-	:temLegislacao :leg_1170 ;
-	:temLegislacao :leg_1172 ;
-	:temLegislacao :leg_1169 ;
-	:temLegislacao :leg_1048 ;
-	:temLegislacao :leg_1050 ;
-	:temLegislacao :leg_670 ;
-	:temLegislacao :leg_579 ;
+	:temLegislacao :leg_1242 ;
+	:temLegislacao :leg_1244 ;
+	:temLegislacao :leg_1174 ;
+	:temLegislacao :leg_1176 ;
+	:temLegislacao :leg_1173 ;
+	:temLegislacao :leg_1052 ;
+	:temLegislacao :leg_1054 ;
+	:temLegislacao :leg_516 ;
+	:temLegislacao :leg_673 ;
+	:temLegislacao :leg_580 ;
 	:classeStatus "A" ;
 	:descricao "Recuperação de créditos resultantes da execução de garantias prestadas pelo Estado, diretamente ou através de outras entidades de coordenação económica.
 Inicia com o pagamento pelo Estado em execução de aval ou fiança e termina com a regularização do crédito através do pagamento ou a confirmação da sua irrecuperabilidade.
@@ -1841,20 +2191,25 @@ Inclui planos de pagamento, pedidos de alteração de planos de pagamentos, part
 	:temPai :c350.40 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGTF ;
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteComunicador :org_AT ;
+	:temDono :org_DGTF ;
 	:temNotaAplicacao :na_c350.40.202_1 ;
-	:temLegislacao :leg_1239 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1244 ;
 	:temLegislacao :leg_185 ;
-	:temLegislacao :leg_1237 ;
-	:temLegislacao :leg_579 ;
-	:temLegislacao :leg_1172 ;
-	:temLegislacao :leg_1170 ;
-	:temLegislacao :leg_1169 ;
-	:temLegislacao :leg_1050 ;
-	:temLegislacao :leg_1048 ;
-	:temLegislacao :leg_670 ;
+	:temLegislacao :leg_1242 ;
+	:temLegislacao :leg_580 ;
+	:temLegislacao :leg_1176 ;
+	:temLegislacao :leg_1174 ;
+	:temLegislacao :leg_1173 ;
+	:temLegislacao :leg_1054 ;
+	:temLegislacao :leg_1052 ;
+	:temLegislacao :leg_673 ;
+	:temLegislacao :leg_516 ;
 	:classeStatus "A" ;
 	:descricao "Recuperação de créditos transferidos para a titularidade do Estado por aquisição ou dação em pagamento.
 Inicia com o contrato de aquisição/cessão de créditos e termina com a regularização do crédito através do pagamento ou a confirmação da sua irrecuperabilidade.
@@ -1894,6 +2249,8 @@ Inclui contratos, relações das dívidas, pedidos de regularização da dívida
 	:temNotaAplicacao :na_c350.40.203_2 ;
 	:temNotaExclusao :ne_c350.40.203_1 ;
 	:temNotaExclusao :ne_c350.40.203_2 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c500.10.001 ;
 	:classeStatus "A" ;
 	:descricao "Regularização voluntária de créditos relativos a apoios financeiros recebidos ao abrigo da execução de programas de incentivo, já considerados incobráveis.
 Inicia com a proposta para recuperação do crédito e termina com a regularização do crédito através do pagamento ou a confirmação da sua irrecuperabilidade pela via voluntária.
@@ -1935,6 +2292,9 @@ Inclui instrução do processo para decisão de recuperação de crédito com ap
 	:temNotaAplicacao :na_c350.40.204_2 ;
 	:temNotaExclusao :ne_c350.40.204_1 ;
 	:temNotaExclusao :ne_c350.40.204_2 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.20.401 ;
+	:temRelProc :c500.10.001 ;
 	:classeStatus "A" ;
 	:descricao "Regularização voluntária de créditos transmitidos de organismos extintos.
 Inicia com a proposta para recuperação do crédito e termina com a regularização do crédito através do pagamento ou a confirmação da sua irrecuperabilidade pela via voluntária.
@@ -1951,6 +2311,10 @@ Inclui instrução do processo para decisão de recuperação de crédito, com a
 	:processoTransversal "S" ;
 	:temDono :org_DGTF ;
 	:temDono :org_AL ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
 	:temLegislacao :leg_504 ;
 	:classeStatus "A" ;
 	:descricao "Concessão e administração de empréstimos a entidades internas e externas e a respetiva execução.
@@ -1979,7 +2343,10 @@ Inicia com o pedido de financiamento ao Estado por parte de determinada entidade
 	:temDono :org_AL ;
 	:temNotaExclusao :ne_c350.40.401_1 ;
 	:temNotaExclusao :ne_c350.40.401_2 ;
-	:temLegislacao :leg_1058 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c500.10.001 ;
+	:temRelProc :c500.10.002 ;
+	:temLegislacao :leg_1062 ;
 	:classeStatus "A" ;
 	:descricao "Empréstimo de montantes financeiros quer entre a administração e um banco, quer entre administrações, quer ainda entre o Estado e empresas ou particulares.
 Inicia com a autorização de contração de empréstimo e termina com o pagamento do empréstimo.
@@ -1997,10 +2364,15 @@ Inclui a solicitação de propostas e seleção.".
 	:temPai :c350.40 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGTF ;
 	:temParticipanteComunicador :org_SPE ;
+	:temDono :org_DGTF ;
 	:temNotaAplicacao :na_c350.40.600_1 ;
-	:temLegislacao :leg_1033 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c350.40.602 ;
+	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1037 ;
 	:temLegislacao :leg_61 ;
 	:classeStatus "A" ;
 	:descricao "Assunção de responsabilidades pelo Estado para com organismos públicos e empresas públicas e participadas.
@@ -2020,9 +2392,13 @@ Inclui a situação financeira das entidades objeto da regularização de passiv
 	:temPai :c350.40 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_DGTF ;
 	:temParticipanteComunicador :org_SPE ;
+	:temDono :org_DGTF ;
 	:temNotaExclusao :ne_c350.40.601_1 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
 	:temLegislacao :leg_61 ;
 	:classeStatus "A" ;
 	:descricao "Distribuição de remunerações provenientes das participações acionistas detidas diretamente pelo Estado.
@@ -2067,15 +2443,21 @@ Inclui recolha de estimativas para efeitos da preparação do Orçamento do Esta
 	:temPai :c350.40 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_SPE ;
 	:temParticipanteApreciador :org_DGTF ;
 	:temParticipanteApreciador :org_AL ;
+	:temDono :org_SPE ;
 	:temNotaAplicacao :na_c350.40.602_1 ;
 	:temNotaAplicacao :na_c350.40.602_2 ;
 	:temNotaAplicacao :na_c350.40.602_3 ;
 	:temNotaAplicacao :na_c350.40.602_4 ;
 	:temNotaExclusao :ne_c350.40.602_1 ;
 	:temNotaExclusao :ne_c350.40.602_2 ;
+	:temRelProc :c150.20.401 ;
+	:temRelProc :c150.10.601 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c300.30.004 ;
+	:temRelProc :c350.40.600 ;
+	:temRelProc :c500.10.001 ;
 	:temLegislacao :leg_61 ;
 	:classeStatus "A" ;
 	:descricao "Cálculo dos ativos e passivos na sequência da dissolução ou extinção de uma sociedade comercial ou de entidade sem fins lucrativos, e repartição de lucros e prejuízos pelos seus sócios ou acionistas.
@@ -2096,6 +2478,10 @@ Inclui indicação dos liquidatários, informação sobre o pagamento das dívid
 	:processoTransversal "S" ;
 	:temDono :org_DGTF ;
 	:temNotaAplicacao :na_c350.40.603_1 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c350.10.600 ;
+	:temRelProc :c350.30.001 ;
+	:temRelProc :c500.10.001 ;
 	:temLegislacao :leg_96 ;
 	:classeStatus "A" ;
 	:descricao "Regularização de situações do passivo do Estado, tal como o pagamento à Segurança Social de encargos com os pensionistas e reformados das ex-províncias ultramarinas, previstas em norma específica na Lei Orçamental ou em diploma especial, bem como de outras responsabilidades que lhe foram legalmente transmitidas.

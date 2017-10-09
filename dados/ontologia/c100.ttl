@@ -239,14 +239,14 @@ Compreende, igualmente, a elaboração ou colaboração na elaboração de norma
 	:temPai :c100.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AR ;
-	:temDono :org_ALR ;
-	:temDono :org_Gov ;
 	:temParticipanteAssessor :org_CEJUR ;
 	:temParticipanteAssessor :org_SGPCM ;
 	:temParticipanteAssessor :org_AP ;
 	:temParticipanteDecisor :org_PR ;
 	:temParticipanteComunicador :org_INCM ;
+	:temDono :org_AR ;
+	:temDono :org_ALR ;
+	:temDono :org_Gov ;
 	:temNotaAplicacao :na_c100.10.001_1 ;
 	:temNotaAplicacao :na_c100.10.001_2 ;
 	:temNotaAplicacao :na_c100.10.001_3 ;
@@ -254,9 +254,22 @@ Compreende, igualmente, a elaboração ou colaboração na elaboração de norma
 	:temNotaAplicacao :na_c100.10.001_5 ;
 	:temNotaExclusao :ne_c100.10.001_1 ;
 	:temNotaExclusao :ne_c100.10.001_2 ;
+	:temRelProc :c100.10.200 ;
+	:temRelProc :c100.10.400 ;
+	:temRelProc :c100.10.600 ;
+	:temRelProc :c100.20.001 ;
+	:temRelProc :c100.20.200 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.600 ;
+	:temRelProc :c150.20.202 ;
+	:temRelProc :c150.20.404 ;
+	:temRelProc :c150.20.501 ;
+	:temRelProc :c900.20.201 ;
+	:temRelProc :c150.10.700 ;
 	:temLegislacao :leg_457 ;
-	:temLegislacao :leg_1111 ;
-	:temLegislacao :leg_1162 ;
+	:temLegislacao :leg_1115 ;
+	:temLegislacao :leg_1166 ;
 	:classeStatus "A" ;
 	:exemploNA "Código da Estrada" ;
 	:exemploNA "Código Civil" ;
@@ -297,20 +310,25 @@ Inclui verificação jurídica, apreciação, discussão e votação conducentes
 	:temPai :c100.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_AR ;
-	:temDono :org_Gov ;
 	:temParticipanteAssessor :org_SGPCM ;
 	:temParticipanteDecisor :org_PR ;
 	:temParticipanteComunicador :org_INCM ;
 	:temParticipanteApreciador :org_DGERT ;
+	:temDono :org_AR ;
+	:temDono :org_Gov ;
 	:temNotaAplicacao :na_c100.10.002_1 ;
 	:temNotaAplicacao :na_c100.10.002_2 ;
 	:temNotaAplicacao :na_c100.10.002_3 ;
 	:temNotaAplicacao :na_c100.10.002_4 ;
 	:temNotaExclusao :ne_c100.10.002_1 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c200.10.800 ;
+	:temRelProc :c550.30.601 ;
+	:temRelProc :c900.20.201  ;
 	:temLegislacao :leg_457 ;
-	:temLegislacao :leg_1111 ;
-	:temLegislacao :leg_1162 ;
+	:temLegislacao :leg_1115 ;
+	:temLegislacao :leg_1166 ;
 	:classeStatus "A" ;
 	:descricao "Manifestação do consentimento à vinculação nacional de convenções (tratados e acordos) internacionais, entrando no ordenamento jurídico português.
 Inicia com a necessidade ou vontade de vinculação e termina com a publicação.
@@ -344,17 +362,22 @@ Inclui a aprovação parlamentar ou governamental, através de resolução ou de
 	:temPai :c100.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_AP ;
+	:temParticipanteComunicador :org_INCM ;
 	:temDono :org_TC ;
 	:temDono :org_STA ;
 	:temDono :org_STJ ;
-	:temParticipanteComunicador :org_AP ;
-	:temParticipanteComunicador :org_INCM ;
 	:temNotaAplicacao :na_c100.10.003_1 ;
 	:temNotaAplicacao :na_c100.10.003_2 ;
 	:temNotaAplicacao :na_c100.10.003_3 ;
 	:temNotaExclusao :ne_c100.10.003_1 ;
+	:temRelProc :c600.30.701 ;
+	:temRelProc :c600.30.702 ;
+	:temRelProc :c600.30.703 ;
+	:temRelProc :c600.30.712 ;
+	:temRelProc :c900.20.201 ;
 	:temLegislacao :leg_457 ;
-	:temLegislacao :leg_963 ;
+	:temLegislacao :leg_967 ;
 	:classeStatus "A" ;
 	:descricao "Declaração de inconstitucionalidade ou outras decisões de Tribunais, a que a lei confira força obrigatória geral.
 Inicia com o envio aos órgãos competentes e termina com a publicação.
@@ -418,12 +441,12 @@ Inicia com o envio aos órgãos competentes e termina com a publicação.
 	:temPai :c100.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_Gov ;
-	:temDono :org_GovReg ;
 	:temParticipanteAssessor :org_CEJUR ;
 	:temParticipanteAssessor :org_SGPCM ;
 	:temParticipanteAssessor :org_AP ;
 	:temParticipanteComunicador :org_INCM ;
+	:temDono :org_Gov ;
+	:temDono :org_GovReg ;
 	:temNotaAplicacao :na_c100.10.200_1 ;
 	:temNotaAplicacao :na_c100.10.200_2 ;
 	:temNotaAplicacao :na_c100.10.200_3 ;
@@ -432,9 +455,20 @@ Inicia com o envio aos órgãos competentes e termina com a publicação.
 	:temNotaExclusao :ne_c100.10.200_1 ;
 	:temNotaExclusao :ne_c100.10.200_2 ;
 	:temNotaExclusao :ne_c100.10.200_3 ;
+	:temRelProc :c100.10.001 ;
+	:temRelProc :c100.10.400 ;
+	:temRelProc :c100.10.600 ;
+	:temRelProc :c100.20.001 ;
+	:temRelProc :c100.20.200 ;
+	:temRelProc :c150.10.001 ;
+	:temRelProc :c150.10.100 ;
+	:temRelProc :c150.10.200 ;
+	:temRelProc :c150.10.600 ;
+	:temRelProc :c150.20.700 ;
+	:temRelProc :c900.20.201 ;
 	:temLegislacao :leg_457 ;
-	:temLegislacao :leg_1111 ;
-	:temLegislacao :leg_1162 ;
+	:temLegislacao :leg_1115 ;
+	:temLegislacao :leg_1166 ;
 	:classeStatus "A" ;
 	:exemploNA "Decreto Regulamentar que aprova o Plano da Bacia Hidrográfica do Guadiana" ;
 	:exemploNA "Decreto Regulamentar que classifica como monumento natural as Portas de Rodão" ;
@@ -499,15 +533,24 @@ Inclui verificação jurídica e apreciação.".
 	:temPai :c100.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temDono :org_AL ;
 	:temParticipanteAssessor :org_CEJUR ;
 	:temParticipanteAssessor :org_SGPCM ;
 	:temParticipanteComunicador :org_INCM ;
+	:temDono :org_AL ;
 	:temNotaAplicacao :na_c100.10.400_1 ;
 	:temNotaAplicacao :na_c100.10.400_2 ;
 	:temNotaAplicacao :na_c100.10.400_3 ;
 	:temNotaExclusao :ne_c100.10.400_1 ;
 	:temNotaExclusao :ne_c100.10.400_2 ;
+	:temRelProc :c100.10.001 ;
+	:temRelProc :c100.10.200 ;
+	:temRelProc :c100.10.600 ;
+	:temRelProc :c100.20.001 ;
+	:temRelProc :c100.20.200 ;
+	:temRelProc :c150.10.400 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c900.20.201  ;
 	:temLegislacao :leg_261 ;
 	:temLegislacao :leg_107 ;
 	:classeStatus "A" ;
@@ -616,15 +659,15 @@ Inclui verificação jurídica e apreciação.
 	:NotaExclusao ;
 	:conteudo "As nomeações devem ser consideradas em 250.10.400 – Nomeação para cargos de direção, coordenação e controlo ou 250.10.401 – Nomeação para postos de trabalho (exemplos: nomeação de embaixadores, chefe de estado das forças armadas, diretores-gerais, diretores de serviço, trabalhadores, funcionários públicos)".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.600_4
-:ne_c100.10.600_4 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Os trabalhos preparatórios ou estudos preliminares quando integram processo específico, como por exemplo os desenvolvidos no âmbito da definição do sistema de qualidade".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.600_5
 :ne_c100.10.600_5 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "Os avisos que não incidem sobre a publicitação das regras de funcionamento devem ser considerados na área correspondente, por exemplo, um aviso para abertura de concurso de pessoal deve ser considerado no respetivo processo em “Administração das relações de trabalho/ Estabelecimento e cessação de relações de trabalho” (250.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.600_4
+:ne_c100.10.600_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os trabalhos preparatórios ou estudos preliminares quando integram processo específico, como por exemplo os desenvolvidos no âmbito da definição do sistema de qualidade".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c100.10.600
 :c100.10.600 rdf:type owl:NamedIndividual ,
@@ -634,9 +677,9 @@ Inclui verificação jurídica e apreciação.
 	:temPai :c100.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteDecisor :org_AP ;
 	:temParticipanteApreciador :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c100.10.600_1 ;
 	:temNotaAplicacao :na_c100.10.600_2 ;
 	:temNotaAplicacao :na_c100.10.600_3 ;
@@ -647,10 +690,20 @@ Inclui verificação jurídica e apreciação.
 	:temNotaExclusao :ne_c100.10.600_3 ;
 	:temNotaExclusao :ne_c100.10.600_4 ;
 	:temNotaExclusao :ne_c100.10.600_5 ;
+	:temRelProc :c100.10.001 ;
+	:temRelProc :c100.10.200 ;
+	:temRelProc :c100.10.400 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c150.20.001 ;
+	:temRelProc :c150.20.500 ;
+	:temRelProc :c150.20.501 ;
+	:temRelProc :c250.30.001 ;
+	:temRelProc :c900.20.201  ;
 	:temLegislacao :leg_457 ;
-	:temLegislacao :leg_1207 ;
-	:temLegislacao :leg_927 ;
-	:temLegislacao :leg_587 ;
+	:temLegislacao :leg_1211 ;
+	:temLegislacao :leg_930 ;
+	:temLegislacao :leg_588 ;
 	:classeStatus "A" ;
 	:exemploNA "Despacho de delegação de competências" ;
 	:exemploNA "Regimentos da Assembleia da República, do Conselho de Estado e das Assembleias Legislativas das Regiões Autónomas" ;
@@ -710,18 +763,22 @@ Inclui verificação jurídica e apreciação.
 	:temPai :c100.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_IPQ ;
-	:temDono :org_AP ;
 	:temParticipanteAssessor :org_AP ;
 	:temParticipanteAssessor :org_ONS ;
 	:temParticipanteAssessor :org_OGCT ;
 	:temParticipanteAssessor :org_CT ;
+	:temDono :org_IPQ ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c100.10.800_1 ;
 	:temNotaAplicacao :na_c100.10.800_2 ;
 	:temNotaAplicacao :na_c100.10.800_3 ;
 	:temNotaAplicacao :na_c100.10.800_4 ;
 	:temNotaAplicacao :na_c100.10.800_5 ;
-	:temLegislacao :leg_935 ;
+	:temRelProc :c100.20.400 ;
+	:temRelProc :c150.10.700 ;
+	:temRelProc :c150.10.701 ;
+	:temRelProc :c900.20.201  ;
+	:temLegislacao :leg_939 ;
 	:classeStatus "A" ;
 	:exemploNA "Normas STANAG" ;
 	:descricao "Elaboração (formalização e estabelecimento de  prescrições) de  disposições destinadas à utilização comum e repetida, visando a obtenção de normas técnicas, ações e procedimentos normalizados num dado contexto, podendo revestir a forma de norma padrão (standard), isto é norma técnica que foi adotada \"de facto\", sem necessariamente ter havido uma ratificação formal, ou de norma produzida por um órgão oficialmente acreditado para tal (norma \"de jure\").
@@ -765,14 +822,18 @@ Compreende, igualmente, os acórdãos de uniformização de jurisprudência emit
 	:temPai :c100.20 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteIniciador :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c100.20.001_1 ;
 	:temNotaAplicacao :na_c100.20.001_2 ;
 	:temNotaExclusao :ne_c100.20.001_1 ;
+	:temRelProc :c100.10.001 ;
+	:temRelProc :c100.10.200 ;
+	:temRelProc :c100.10.400 ;
+	:temRelProc :c150.20.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_203 ;
-	:temLegislacao :leg_802 ;
+	:temLegislacao :leg_805 ;
 	:classeStatus "A" ;
 	:descricao "Elaboração de parecer de interpretação de diplomas jurídico-normativos de forma abstrata e geral, podendo ser válida para a decisão de casos concretos.
 Inicia com o pedido e termina com a entrega do parecer técnico-jurídico.
@@ -805,11 +866,14 @@ Inclui trabalhos de consulta de elementos e fundamentação do parecer.".
 	:temPai :c100.20 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteAssessor :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c100.20.200_1 ;
 	:temNotaAplicacao :na_c100.20.200_2 ;
 	:temNotaExclusao :ne_c100.20.200_1 ;
+	:temRelProc :c100.10.001 ;
+	:temRelProc :c100.10.200 ;
+	:temRelProc :c100.10.400 ;
 	:classeStatus "A" ;
 	:exemploNA "Pauta de serviço (Pauta Aduaneira)" ;
 	:descricao "Elaboração e divulgação de instruções gerais, emitidas por entidades de coordenação setorial acerca do sentido como devem ser entendidas determinadas normas ou princípios jurídicos, que a essas entidades cabe interpretar ou integrar.
@@ -838,11 +902,12 @@ Inclui, quando devido, elaboração de diversos esquemas sintetizadores para mai
 	:temPai :c100.20 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_AP ;
 	:temParticipanteAssessor :org_AP ;
+	:temDono :org_AP ;
 	:temNotaAplicacao :na_c100.20.400_1 ;
 	:temNotaAplicacao :na_c100.20.400_2 ;
-	:temLegislacao :leg_759 ;
+	:temRelProc :c100.10.800 ;
+	:temLegislacao :leg_762 ;
 	:classeStatus "A" ;
 	:exemploNA "Produção de FAQ’s (Frequently Asked Questions)" ;
 	:descricao "Elaboração e comunicação de orientações para a explicitação dos conteúdos das normas técnicas.
@@ -861,13 +926,14 @@ Inclui consulta de elementos e fundamentação do proposto.".
 	:temPai :c100.20 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temDono :org_STA ;
-	:temDono :org_STJ ;
 	:temParticipanteApreciador :org_Trb ;
 	:temParticipanteIniciador :org_AP ;
+	:temDono :org_STA ;
+	:temDono :org_STJ ;
 	:temNotaAplicacao :na_c100.20.600_1 ;
+	:temRelProc :c600.30 ;
 	:temLegislacao :leg_67 ;
-	:temLegislacao :leg_1050 ;
+	:temLegislacao :leg_1054 ;
 	:classeStatus "A" ;
 	:descricao "Produção e comunicação de orientação jurisprudencial uniformizada, sem força vinculativa. 
 Inicia com o pedido para decisão quando relativamente à mesma questão de direito sejam proferidas soluções opostas e termina com a publicação da decisão.
