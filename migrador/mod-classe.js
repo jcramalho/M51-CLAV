@@ -182,6 +182,25 @@ exports.migraClasse = function(orgCatalog, legCatalog, classe)
                     }
                 }
 
+                // Relações com os outros Processos
+                if(jsonObj['Código do processo relacionado']){
+                    var procRefs = jsonObj['Código do processo relacionado']
+                    var procRefsSplit = procRefs.replace(/(\r\n|\n|\r)/gm,"").split("#")
+                    var procTipos = jsonObj['Tipo de relação entre processos']
+                    var procTiposSplit = procTipos.replace(/(\r\n|\n|\r)/gm,"").split("#")
+
+                    for(var p=0, len = procRefsSplit.length; p<len; p++)
+                    {
+                        if(procRefsSplit[p]){
+                            classTriples += "\t:temRelProc " + ":c" + procRefsSplit[p] + " ;\n"
+                            
+                        }
+                            
+
+                        
+                    }
+                }
+
                 // Relações com a Legislação
                 if (jsonObj['Diplomas jurídico-administrativos REF']) {
                     var legRefs = jsonObj['Diplomas jurídico-administrativos REF']
