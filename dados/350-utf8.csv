@@ -1,4 +1,3 @@
-ADMINISTRAÇÃO FINANCEIRA;;;;;;;;;;;;;;;;;;;;;;;;;;
 Código;Título;Descrição;Notas de aplicação;Exemplos de NA;Notas de exclusão;Diplomas jurídico-administrativos REF;Diplomas jurídico-administrativos complementar;Tipo de processo;Processo transversal (S/N);Dono do processo;Participante no processo;Tipo de intervenção do participante;Código do processo relacionado;Título do processo relacionado;Tipo de relação entre processos;Dimensão qualitativa do processo;Uniformização do processo;Prazo de conservação administrativa;Nota ao PCA;Justificação PCA;Forma de contagem do prazo de cons. adm.;Destino final;Justificação DF;Notas;;
 350;ADMINISTRAÇÃO FINANCEIRA;Relativo à execução orçamental (no que se incluem os processamentos de despesas e de arrecadação de receitas), à gestão do Tesouro, da dívida e das aplicações financeiras.;Abrange a execução do conjunto dos orçamentos de receita e de despesa (correntes e de capital) dos serviços públicos e fundos autónomos#;;"Os procedimentos de preparação do orçamento e das alterações orçamentais, cativação/descativação de verbas, e a prestação de contas, devem ser considerados em ""Planeamento e gestão estratégica/Planeamento, avaliação e melhoria dos serviços"" (150.20);
 O exercício de direitos de acionista deve ser considerado na área a que diz respeito o exercício de cada processo em concreto – ""Planeamento e gestão estratégia"" (150), ""Ordenamento jurídico e normativo"" (100), entre outras;
@@ -588,9 +587,10 @@ Informação síntese recuperável no PN 150.20.404 - Prestação de contas.
 350.10.500;Apuramento da transferência de verbas entre entidades;"Cálculo e lançamento das verbas entre administrações ou entre a Administração Pública e entidades privadas (associações, empresas e particulares).
 Inicia com a verificação do orçamento da verba a transferir e da entidade de destino ou com o pedido da entidade para transferência da verba e termina com o lançamento da verba.
 Inclui o cálculo da verba a transferir, o registo da entrada (receita) ou  a deliberação da verba a transferir (despesa).";"Transferências de verbas para sistemas sociais e de saúde, associações e empresas e particulares#
-Transferência para as Regiões Autónomas do Imposto sobre o Álcool e as Bebidas Alcoólicas (IABA) pago no Continente#";;;"Lei do Orçamento do Estado#
+Transferência para as Regiões Autónomas do Imposto sobre o Álcool e as Bebidas Alcoólicas (IABA) pago no Continente#
+Transferências do IGFSS para as entidades utilizadoras e beneficiárias de fundos do Orçamento da Segurança Social#";;;;"Lei do Orçamento do Estado#
 Decreto Lei de Execução Orçamental#
-Lei de Enquadramento Orçamental#";;PC;S;AP#;AP#;Comunicar#;"150.20.202#
+Lei de Enquadramento Orçamental#";PC;S;AP#;AP#;Comunicar#;"150.20.202#
 150.20.400#
 150.20.404#
 350.10.001#
@@ -627,9 +627,11 @@ Informação síntese recuperável no PN 150.20.404 - Prestação de contas.
 Inicia com o cálculo e termina com a comunicação do montante às entidades competentes.
 Inclui registo.";"Liquidação de contribuições para os subsistemas de proteção social no âmbito dos cuidados de saúde, concretamente da Direção-Geral de Proteção Social aos Trabalhadores em Funções Públicas (ADSE), da Assistência na Doença aos Militares (ADM) e da Divisão de Assistência na Doença (SAD)#
 No âmbito da Administração Local, receção pelos municípios da comunicação dos montantes dos serviços municipalizados e das empresas locais para o Sistema Nacional de Saúde#";;;"Lei 83-A/2013#
-DL 29-A/2011, art 67, 3)#
+DL 29-A/2011#
 DL 26/2002#
-DL 118/83 (com a redação dada pela Lei 30/2014)#";;PC;S;ESPS#;AP#;Iniciar#;"150.20.404#
+DL 118/83#
+Lei 30/2014#";"DL 29-A/2011, art 67, 3)#
+DL 118/83 (com a redação dada pela Lei 30/2014)#";PC;S;ESPS#;AP#;Iniciar#;"150.20.404#
 350.10.509#
 500.10.001#";"Prestação de contas#
 Processamento de remunerações#
@@ -712,9 +714,11 @@ Informação sintetizada no PN 150.20.404 - Prestação de contas.";;;
 Inicia com a receção do pedido de pagamento das despesas e termina com a decisão sobre o mesmo.
 Inclui a a análise e qualificação do acidente de trabalho ou da doença profissional, verificação dos documentos comprovativos, nomeadamente do boletim de acompanhamento médico, da declaração de formalidades, da relação de despesas e respetivos documentos de despesa.";Liquidação de despesas por assistência a terceira pessoa, decorrentes de acidentes de trabalho e doenças profissionais#;;A participação do acidente de trabalho ou de doença profissional deve ser considerada em 250.20.401 – Participação de acidentes de trabalho ou de doenças profissionais#;"Lei 35/2014#
 Lei 98/2009#
-DL 503/99, art 24#
+DL 503/99#
 
-";;PC;S;"SGMF#
+";"DL 503/99, art 24#
+
+";PC;S;"SGMF#
 EAARPNC#";AP#;Iniciar#;"150.20.404#
 250.20.001#
 250.20.401#
@@ -836,7 +840,8 @@ Informação síntese recuperável no PN 150.20.404 - Prestação de contas.
 ";;;
 350.10.506;Comparticipação em despesas de saúde ao beneficiário;"Apuramento de montantes de reembolso a beneficiários de um sistema de saúde despendidos com encargos relativos a cuidados de saúde comparticipado em regime livre.
 Inicia com a apresentação de documentos de despesa por parte do trabalhador e termina com o crédito em conta calculado nos termos da respetiva tabela.
-Inclui a codificação e a validação das despesas.";Beneficiários de subsistemas de saúde, como a Direção-Geral de Proteção Social aos Trabalhadores em Funções Públicas (ADSE) e a Assistência na Doença aos Militares (ADM)#;;;DL 118/83 (atualizado pelo DL 234/2005)#;;PC;S;ESPS#;AP#;Iniciar#;"150.20.404#
+Inclui a codificação e a validação das despesas.";Beneficiários de subsistemas de saúde, como a Direção-Geral de Proteção Social aos Trabalhadores em Funções Públicas (ADSE) e a Assistência na Doença aos Militares (ADM)#;;;"DL 118/83#
+DL 234/2005#";DL 118/83 (atualizado pelo DL 234/2005)#;PC;S;ESPS#;AP#;Iniciar#;"150.20.404#
 350.10.600#
 350.30.001#
 350.30.003#
@@ -867,7 +872,8 @@ Informação sintetizada no PN 150.20.404 - Prestação de contas.";;;
 350.10.507;Processamento de despesas de saúde a prestadores de serviços e farmácias;"Processamento de despesas de saúde com entidades prestadoras de cuidados de saúde e farmácias por força de acordos estabelecidos entre estas e os diversos subsistemas de saúde ou entidades públicas comparticipantes.
 Inicia com a receção da comunicação da despesa (faturação) e termina com a comunicação dos montantes a pagar.
 Inclui conferência e validação das despesas realizadas em prestadores convencionados e farmácias, e o apuramento dos montantes a reembolsar, assim como o apuramento dos montantes a pagar pelo subsistema de saúde às entidades prestadoras de cuidados de saúde e farmácias.";"Despesas com entidades prestadoras de cuidados de saúde como hospitais, clínicas, médicos e outros prestadores particulares que tenham acordo/convenção com a Direção-Geral de Proteção Social aos Trabalhadores em Funções Públicas (ADSE)#
-Despesas na comparticipação em medicamentos em farmácias#";;A comparticipação em despesas de saúde aos beneficiários de subsistemas de saúde deve ser considerada em 350.10.506 – Comparticipação em despesas de saúde ao beneficiário#;DL 118/83 (atualizado pelo DL 234/2005)#;;PE;N;"ESPS#
+Despesas na comparticipação em medicamentos em farmácias#";;A comparticipação em despesas de saúde aos beneficiários de subsistemas de saúde deve ser considerada em 350.10.506 – Comparticipação em despesas de saúde ao beneficiário#;"DL 118/83#
+DL 234/2005#";DL 118/83 (atualizado pelo DL 234/2005)#;PE;N;"ESPS#
 AL#";;;"150.20.404#
 300.10.008#
 350.10.600#
@@ -908,7 +914,7 @@ Compensação por prejuízos causados no património do Estado, provenientes de 
 ";;;"Lei 35/2014#
 DL 74/70#
 ";;PC;S;"SGMF#
-EAARPNC#";AP#;iniciar#;"150.20.404#
+EAARPNC#";AP#;Iniciar#;"150.20.404#
 250.10.800#
 250.20.401#
 300.10.601#
@@ -1092,7 +1098,7 @@ Informação sintetizada no PN 150.20.404 - Prestação de contas.";;;
 ";Revisão de atos tributários;"Processamento da revisão de atos tributários pela entidade que os praticou.
 Inicia com pedido do sujeito passivo, com fundamento em qualquer ilegalidade, ou com a iniciativa da administração tributária, com fundamento em erro imputável aos serviços, e termina com a notificação do resultado da revisão efetuada.
 Inclui o exercício do direito de audição quando o pedido é objeto de indeferimento total ou parcial.";"Revisão da liquidação dos diversos tributos#
-Revisão por erro na autoliquidação#";;A revisão do lucro tributável determinado por métodos indiretos deve ser considerada em 350.10.102 – Revisão do lucro tributável determinado por métodos indiretos#;DL 398/98, art 78#;;PE;S;AT#;"SPE#
+Revisão por erro na autoliquidação#";;A revisão do lucro tributável determinado por métodos indiretos deve ser considerada em 350.10.102 – Revisão do lucro tributável determinado por métodos indiretos#;DL 398/98#;DL 398/98, art 78#;PE;S;AT#;"SPE#
 ";Iniciar#;"150.20.404#
 350.10.100#
 350.10.101#
@@ -1201,15 +1207,15 @@ Informação síntese recuperável no PN 150.20.404 - Prestação de contas.
 ";;;
 350.10.518 ;Liquidação de taxas;;"Cálculo da taxa de recursos hídricos#
 Cálculo da taxa aeroportuária#
-Cálculo da taxa portuária#";;"DL 226A/2008#
-Lei 58/2005#";PE;;"APA#
+Cálculo da taxa portuária#";;;"DL 226-A/2008#
+Lei 58/2005#";;PE;;"APA#
 ANA#
 Marinha#
-AL#";;;;;;;;;;;;;;;;;;
+AL#";;;;;;;;;;;;;;;;
 350.10.600;Lançamento de receitas e de despesas;"Registo da receita proveniente da prestação de serviços e da venda de produtos e de bens de investimento, incluindo a sua isenção, redução e fracionamento, bem como da receita proveniente de indemnizações.
 Compreende também o registo da despesa proveniente da aquisição de bens e serviços, remunerações, bem como da despesa de investimento.
 Inicia com a informação ou o apuramento do montante a receber (receita) ou com cabimentação (despesa) e termina com o lançamento da receita ou da despesa.
-Inclui classificação da receita ou da despesa, autorização de despesa e de alteração ao seu limite (se aplicável), compromisso (para a despesa), inclusão em suporte normalizados dos encargos legalmente constítuidos e informação do recebimento ou da receção do bem ou serviço por parte da entidade requisitante.
+Inclui classificação da receita ou da despesa, autorização de despesa e de alteração ao seu limite (se aplicável), compromisso (para a despesa), inclusão em suporte normalizados dos encargos legalmente constituídos e informação do recebimento ou da receção do bem ou serviço por parte da entidade requisitante.
 
 
 
@@ -1230,7 +1236,7 @@ Processo específico de liquidação considerado em 350.10 (ex.: apuramento de i
 O cálculo da indemnização terá lugar no âmbito do respetivo processo#
 O cálculo, redução ou isenção de taxa devem ser considerados no âmbito do respetivo processo#
 O auto de receção do bem ou serviço deve ser considerado em 300.10, no respetivo processo de aquisição#";"DL 32/2012#
-Lei 54-A/2009#
+DL 54-A/99#
 DL 47344/66#";DL 47344/66 - Código Civil#;PC;N;AP#;;;"150.20.400#
 150.20.404#
 300.10.002#
@@ -1326,7 +1332,7 @@ Reembolsos e restituições#
 Transferência de verbas#";"Os cálculos podem ser considerados em dois tipos de processos#
 Apuramentos que ocorram como parte de um processo de negócio de outra classe (ex.: no âmbito de uma contraordenação, ou de um licenciamento)#
 Processo específico de liquidação considerado em 350.10 (ex.: liquidação de impostos, apuramento de transferência de verbas, processamento de remunerações)#
-O registo de receitas e despesas deve ser considerado em 350.10.600 – Lançamento de receitas e de despesas#";"Lei 54-A/2009#
+O registo de receitas e despesas deve ser considerado em 350.10.600 – Lançamento de receitas e de despesas#";"DL 54-A/99#
 Lei 91/2001#
 DL 155/92#";;PC;S;AP#;AP#;Decidir#;150.20.404#;"Prestação de contas#
 Todos os PN que implicam pagamento e recebimento#";"Síntese (sintetizado)#
@@ -1345,7 +1351,7 @@ Inicia com a constituição do fundo e termina com a entrega no final do ano.
 Inclui a designação do seu responsável.
 ";"Pagamento de pequenas aquisições no quadro da satisfação de necessidades urgentes dos serviços#
 Reconstituição do fundo de maneio#";;;"DL 36/2015#
-Lei 54-A/2009#
+DL 54-A/99#
 DL 155/92#";DL 155/92, art 32#;PC;N;AP#;;;"150.20.404#
 350.10.600#
 350.30.001#
@@ -1370,7 +1376,7 @@ Inclui o controlo de movimentos, apuramento de valores, quando aplicável, a pro
 ";"Apuramento de contas por transição#
 
 ";;"O controlo e monitorização da execução orçamental devem ser considerados em 150.20.400 – Acompanhamento da execução orçamental#
-A demonstração da execução orçamental e patrimonial deve ser considerada em 150.20.404 – Prestação de contas#";"Lei 54-A/2009#
+A demonstração da execução orçamental e patrimonial deve ser considerada em 150.20.404 – Prestação de contas#";"DL 54-A/99#
 Lei 91/2001#
 Lei 73/2013#
 DL 155/92#";;PC;N;AP#;;;"150.20.404#
@@ -1442,7 +1448,7 @@ Prazo decorrente da necessidade de consulta deste PN para apuramento de responsa
 Informação sintetizada no PN 150.20.404 - Prestação de contas.";;;
 350.30.005;Reconciliação bancária;"Conferência entre os movimentos dos extratos bancários e os lançamentos efetuados pela entidade.
 Inicia com a receção de informação dos movimentos bancários e termina com uma informação contendo os saldos dos registos bancários e da entidade e, quando for o caso, os valores não reconciliados.
-Inclui a análise comparativa dos registos bancários e dos registos da entidade.";;;;"Lei 54-A/2009#
+Inclui a análise comparativa dos registos bancários e dos registos da entidade.";;;;"DL 54-A/99#
 Lei 91/2001#
 Lei 73/2013#
 DL 155/92#";;PC;N;AP#;;;"150.20.404#
@@ -1562,7 +1568,7 @@ Lei 7/98#
 DL 280/98#
 DL 279/98#
 DL 172-B/86#
-Decreto 43454/60#";;PE;N;IGCP#;;;"150.20.404#
+DL 43453/60#";;PE;N;IGCP#;;;"150.20.404#
 350.10.600#
 350.40.003#
 500.10.001#";"Prestação de contas#
@@ -1588,7 +1594,8 @@ DL 2/95#
 DL 236/93#
 DL 324/90#
 DL 453/88#
-DL 43453/1960#";"Leis do Orçamento de Estado#
+DL 43453/60#
+RCM 8/2009#";"Leis do Orçamento de Estado#
 RCM 8/2009#";PE;N;IGCP#;;;"150.20.404#
 350.10.600#
 350.40.001#
@@ -1621,16 +1628,12 @@ Lei 82/2014#
 Lei 41/2013#
 Lei 36/2013#
 Lei 82-B/2014#
-Lei 72/2006#
 Lei 48/2008#
-Lei 35/2007#";"Lei 26/2015#
-Lei 98/97 retificada Lei 20/2015#
-Lei 82-E/2014#
-Lei 82/2014#
+Declaração de Retificação 72/2006#
+Lei 35/2007#";"Lei 98/97 retificada Lei 20/2015#
 Lei 41/2013, retificada a Lei 36/2013#
 Lei 82-B/2014 (Lei do Orçamento)#
-Lei 72/2006, retificada Lei 48/2008#
-Lei 35/2007#";PE;S;DGTF#;"MP#
+Lei 72/2006, retificada Lei 48/2008#";PE;S;DGTF#;"MP#
 AT#
 ";"Apreciar#
 Comunicar#
@@ -1664,13 +1667,10 @@ Lei 82/2014#
 Lei 36/2013#
 Lei 41/2013#
 Lei 72/2006#
+Declaração de Retificação 72/2006#
 Lei 48/2008#
-Lei 35/2007#";"Lei 26/2015#
-Lei 98/97, retificada Lei 20/2015#
-Lei 35/2007#
-Lei 82-E/2014#
+Lei 35/2007#";"Lei 98/97, retificada Lei 20/2015#
 Lei 82-B/2014 (Lei do Orçamento)#
-Lei 82/2014#
 Lei 41/2013, retificada Lei 36/2013#
 Lei 48/2008, retificada Lei 72/2006#";PE;S;DGTF#;"MP#
 AT#
@@ -1708,12 +1708,8 @@ Lei 82/2014#
 Lei 41/2013#
 Lei 36/2013#
 Lei 48/2008#
-Lei 72/2006#";"Lei 26/2015#
-Lei 98/97, retificada Lei 20/2015#
-Lei 35/2007#
-Lei 82-E/2014#
+Declaração de Retificação 72/2006#";"Lei 98/97, retificada Lei 20/2015#
 Lei 82-B/2014 (Lei do Orçamento)#
-Lei 82/2014#
 Lei 41/2013, retificada Lei 36/2013#
 Lei 48/2008, retificada Lei 72/2006#";PE;S;DGTF#;"MP#
 AT#

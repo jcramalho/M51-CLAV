@@ -1,4 +1,3 @@
-PLANEAMENTO E GESTÃO ESTRATÉGICA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 Código;Título;Descrição;Notas de aplicação;Exemplos de NA;Notas de exclusão;Diplomas jurídico-administrativos REF;Diplomas jurídico-administrativos complementar;Tipo de processo;Processo transversal (S/N);Dono do processo;Participante no processo;Tipo de intervenção do participante;Código do processo relacionado;Título do processo relacionado;Tipo de relação entre processos;Dimensão qualitativa do processo;Uniformização do processo;Prazo de conservação administrativa;Nota ao PCA;Justificação PCA;Forma de contagem do prazo de cons. adm.;Destino final;Justificação DF;Notas;;;;;;;;;;
 150;PLANEAMENTO E GESTÃO ESTRATÉGICA;"Relativo à definição e monitorização/avaliação de políticas, planos e programas, tanto de âmbito nacional, regional ou local, como de âmbito organizacional, no que se inclui a elaboração de estudos e relatórios de apoio à decisão política e de avaliação dos instrumentos de planeamento estratégico.
 Inclui a produção de informações estratégicas e de segurança e a produção de informação estatística.";"Todos os processos de planeamento, incluindo os que incidem sobre a gestão de recursos#
@@ -44,12 +43,13 @@ Inicia com a elaboração da proposta e termina com o envio da versão aprovada 
 Inclui propostas de alteração apresentadas pelo órgão executivo, revisões,  remissão de cópia às entidades competentes e submissão da versão final à entidade competente para decisão.";Definição da estratégia de topo para o desenvolvimento de vários domínios, vertida num único documento#;;"A aprovação, promulgação e publicação das Grandes Opções do Plano do Estado (GOP's) devem ser consideradas em 100.10.001 – Produção e comunicação de atos legislativos#
 A aquisição de planos estratégicos municipais a entidades privadas deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços#";"Lei 75/2013#
 Lei 73/2013#
-Lei 2/2007, art 49#
+Lei 2/2007#
 Lei 5-A/2002#
 DL 54-A/99#
 Lei 108/91#
 Lei 43/91#
-Lei constitucional 1/2005#";Lei constitucional 1/2005 (Constituição da República Portuguesa, art 90, 91 e 92#;PC;S;"CM#
+Lei constitucional 1/2005#";"Lei constitucional 1/2005 (Constituição da República Portuguesa, art 90, 91 e 92#
+Lei 2/2007, art 49#";PC;S;"CM#
 RA#
 AL#";AP#;Assessorar#;"100.10.001#
 150.10.100#
@@ -141,7 +141,7 @@ Definição de estratégias de topo no domínio da economia e finanças#
 Lei 73/2013#
 DL 166/2008
 Lei 58/2007#
-Lei 2/2007, art 49#
+Lei 2/2007#
 DL 7/2003#
 Lei 5-A/2002#
 DL 54-A/99#
@@ -150,7 +150,8 @@ Lei 43/91#
 Lei 7/2009#
 Lei constitucional 1/2005#
 
-";Lei constitucional 1/2005 (Constituição da República Portuguesa, art 90, 91 e 92#;PC;S;AP#;AP#;"Assessorar#
+";"Lei constitucional 1/2005 (Constituição da República Portuguesa, art 90, 91 e 92#
+Lei 2/2007, art 49#";PC;S;AP#;AP#;"Assessorar#
 ";"100.10.001#
 100.10.002#
 150.10.001#
@@ -624,10 +625,10 @@ Inicia com a apresentação da proposta por parte do Governo e termina com a cel
 Inclui consulta de entidades, apresentação de contrapropostas dos parceiros sociais e negociação.
 ";;;"As reuniões do Conselho Permanente de Concertação Social devem ser consideradas em 150.10.702 – Reunião de órgãos e estruturas operacionais e de aconselhamento#
 Os acordos de negociação coletiva de trabalho devem ser considerados em 250.30.001 – Negociação de convenções coletivas de trabalho#
-Os pareceres do Conselho Económico e Social (CES) devem ser classificados no âmbito dos respetivos processos#";"Regulamento Interno da Comissão Permanente de Concertação social#
-Lei constitucional 1/2005#
+Os pareceres do Conselho Económico e Social (CES) devem ser classificados no âmbito dos respetivos processos#";"Lei constitucional 1/2005#
 DL 90/92#
-Lei 108/91#";;PE;S;CES#;"Gov#
+Lei 108/91#
+Regulamento CPCS#";Regulamento CPCS - Regulamento Interno da Comissão Permanente de Concertação Social#;PE;S;CES#;"Gov#
 AL#";"Apreciar#
 Apreciar#";"150.10.100#
 150.10.200#
@@ -771,6 +772,7 @@ Relatório anual referente à informação sobre a atividade social de entidades
 Caracterização de entidades (Anterior PN 150.20.402)#";;"A caracterização de entidades no âmbito da prestação de bens e serviços deve ser considerada em 300.50.803 – Identificação de fornecedores e de prestadores de serviços#
 A criação e atualização de contactos institucionais deve ser considerada em 900.20.600 – Criação e atualização de contactos institucionais#";"Lei 57/2011#
 Portaria 55/2010#";;PC;S;DGAEP#;AP#;Comunicar#;"100.10.001#
+150.40.001#
 150.20.401#
 150.20.403#
 150.20.501#
@@ -779,7 +781,9 @@ Portaria 55/2010#";;PC;S;DGAEP#;AP#;Comunicar#;"100.10.001#
 400.10.003#
 400.10.009#
 500.10.001#
+
 ";"Produção e comunicação de atos legislativos#
+Realização de operações estatisticas oficiais: conceção, planeamento e execução#
 Acompanhamento de liquidação de entidades#
 Caracterização de recursos humanos#
 Análise e melhoria de serviços#
@@ -788,6 +792,7 @@ Liquidação de entidades#
 Registo de associações de municípios e de freguesias#
 Registo Nacional de Pessoas Coletivas#
 Realização de auditorias#";"Sucessão (sucessor)#
+Sucessão (sucessor)#
 Sucessão (sucessor)#
 Suplementar#
 Sucessão (sucessor)#
@@ -1303,7 +1308,7 @@ DL 22/2008#
 Portaria 1532/2008#
 Portaria 1633/2007#
 DL 105/2007#
-Lei 71/2007#
+DL 71/2007#
 Lei 62/2007#
 Lei 7/2007#
 DL 200/2006#
@@ -1525,7 +1530,7 @@ Planeamento de sistemas de segurança, higiene e saúde no trabalho#
 Planeamento de sistemas de gestão ambiental#";;"A aquisição de bens e serviços deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços#
 O desenvolvimento de aplicações tecnológicas deve ser considerado em 800.20.500 – Desenvolvimento experimental e aplicacional#
 A divulgação de informação sobre a implementação do plano deve ser considerada em 900.20.201 – Edição e publicação de conteúdos#";"DL 118/2013#
-RCM 12/2012
+RCM 12/2012#
 Lei 57/2011#
 Portaria 1532/2008#
 DL 220/2008#
@@ -1535,7 +1540,7 @@ Lei 102/99#
 DL 166-A/99#
 EN/NP/ISO 9001/2015#
 ISO 14001/2012#
-OSHAS 18001/NP4397#";;PC;S;AP#;AP#;Assessorar#;"150.10.100#
+NP 4397/2007#";OSHAS 18001/NP4397 ;PC;S;AP#;AP#;Assessorar#;"150.10.100#
 150.20.101#
 150.20.202#
 150.20.300#
@@ -1725,10 +1730,10 @@ Inclui definição de regras e de procedimentos, proposta de orçamento inicial 
 Preparação do orçamento participativo#";;"A aprovação, promulgação e publicação do orçamento do Estado deverão ser consideradas em 100.10.001 – Produção e comunicação de atos legislativos#
 A execução orçamental deve ser considerada em Administração financeira/ Execução orçamental (350.10)#
 A alteração orçamental deve ser considerada em 350.10.001 – Alteração orçamental#
-A publicitação do orçamento deve ser considerada em 900.20.201 – Edição e publicação de conteúdos#";"Lei constitucional 1/2005#
+A publicitação do orçamento deve ser considerada em 900.20.201 – Edição e publicação de conteúdos#";"Lei Constitucional 1/2005#
 Lei 73/2013#
 DL 84-A/2002#
-DL 54-A/99#";Lei constitucional 1/2005 (Constituição da República Portuguesa)#;PC;S;"AP#
+DL 54-A/99#";Lei Constitucional 1/2005 (Constituição da República Portuguesa)#;PC;S;"AP#
 ";"DGO#
 PCM#";"Assessorar#
 Comunicar#";"100.10.001#
@@ -1819,9 +1824,9 @@ Inclui definição do objetivo e âmbito de atuação da entidade, elaboração 
 Criação de empresas de capitais públicos# 
 Criação de empresas de capitais maioritariamente públicos# 
 Criação de empresas participadas por entidades públicas# 
-Transformação, fusão ou cisão de empresas públicas#";;A escritura de constituição da entidade deve ser considerada em 400.30.001 – Celebração de contratos, escrituras, títulos equivalentes e testamentos# ;"DL n.º 133/2013#
-DL n.º 262/86#
-Lei nº 58/98#";;PE;N;"AL#
+Transformação, fusão ou cisão de empresas públicas#";;A escritura de constituição da entidade deve ser considerada em 400.30.001 – Celebração de contratos, escrituras, títulos equivalentes e testamentos# ;"DL 133/2013#
+DL 262/86#
+Lei 58/98#";;PE;N;"AL#
 CM#
 
 
