@@ -1,18 +1,18 @@
 ### Classe700
-###  http://jcr.di.uminho.pt/m51-clav#na_c700_1
-:na_c700_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Atos clínicos realizados no quadro da promoção da saúde  (rastreio, vacinação, consulta do viajante, etc.).".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700_2
+:ne_c700_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As ações de promoção da saúde e/ou prevenção de doenças que se revistam da forma de campanhas de divulgação e informação, devem ser consideradas em \"Dinamização e comunicação institucional/ Execução de atividades de dinamização da sociedade\" (900.10);".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c700_1
 :ne_c700_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A constituição de redes de referenciação dos serviços e unidades de prestação de serviços de saúde (primária e secundária) deve ser considerada em \"Planeamento e gestão estratégica/ Planeamento, avaliação e melhoria de serviços\" (150.20);".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c700_2
-:ne_c700_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "As ações de promoção da saúde e/ou prevenção de doenças que se revistam da forma de campanhas de divulgação e informação, devem ser consideradas em \"Dinamização e comunicação institucional/ Execução de atividades de dinamização da sociedade\" (900.10);".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700_1
+:na_c700_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atos clínicos realizados no quadro da promoção da saúde  (rastreio, vacinação, consulta do viajante, etc.).".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c700_3
 :ne_c700_3 rdf:type owl:NamedIndividual ,
@@ -37,15 +37,15 @@
 	:temNotaExclusao :ne_c700_4 ;
 	:classeStatus "A" ;
 	:descricao "Relativo à prestação de cuidados preventivos, curativos ou continuados, assegurada em unidades do Serviço Nacional de Saúde, em contexto laboral (saúde ocupacional), em clinicas, nas escolas, em prisões ou em qualquer outro contexto onde sejam praticados atos clínicos para humanos ou animais.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_1
-:na_c700.10_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Referenciação dos doentes".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_2
 :na_c700.10_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Organização do transporte de doentes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_1
+:na_c700.10_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Referenciação dos doentes".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_3
 :na_c700.10_3 rdf:type owl:NamedIndividual ,
@@ -340,7 +340,7 @@ Inclui os resultados da vigilância da saúde de cada trabalhador com referênci
 	:temNotaAplicacao :na_c700.10.006_2 ;
 	:temNotaExclusao :ne_c700.10.006_1 ;
 	:temNotaExclusao :ne_c700.10.006_2 ;
-	:temRelProc :ctodos os de 700500.10.001 ;
+	:temRelProc :ctodososde700500.10.001 ;
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c450.10.073 ;
 	:temRelProc :c150.20.303 ;
@@ -946,15 +946,15 @@ Inclui registo sonoro do pedido e respetivo atendimento, eventual reencaminhamen
  Inicia com o internamento numa unidade de especialidade Hospitalar e termina com a estabilização dos sintomas revelados, emitindo-se uma nota de alta hospitalar.
  Inclui o diagnóstico, prescrição e monitorização da evolução da doença (consultas subsequentes). Inclui ainda, actos das várias especialidades clinicas e administração de fármacos hospitalares para doenças específicas, bem como o registo dos actos praticados no sistema de informação.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.401_1
-:na_c700.20.401_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Cirurgias em que a admissão, intervenção cirúrgica e alta hospitalar para o domicílio ou para unidade não abrangida pelos serviços de saúde, não requerem que o doente pernoite no hospital".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.401_2
 :na_c700.20.401_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Cedência de medicação a utentes em ambulatório".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.401_1
+:na_c700.20.401_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Cirurgias em que a admissão, intervenção cirúrgica e alta hospitalar para o domicílio ou para unidade não abrangida pelos serviços de saúde, não requerem que o doente pernoite no hospital".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.401_1
 :ne_c700.20.401_1 rdf:type owl:NamedIndividual ,
@@ -1164,6 +1164,11 @@ Inclui o registo dos actos praticados no sistema de informação.
 	:descricao "Intervenção terapêutica em ambiente hospitalar.
 Inicia com o encaminhamento do utente para as sessões e termina com a alta, ou seja, com o fim do episódio de tratamento em hospital de dia, tendo sido realizadas todas as sessões de hospital de dia prescritas.
 ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.406_1
+:na_c700.20.406_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Execução de programas verticais Hospitalares".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c700.20.405
 :c700.20.405 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1187,11 +1192,6 @@ Inicia com o encaminhamento do utente para as sessões e termina com a alta, ou 
 Inicia com a assunção de que o país não dispõe de condições para tratar o doente e que o mesmo pode ser referenciado para outro país e termina com o regresso do utente ao país.
 Inclui os procedimentos específicos definidos na lei, nomeadamente, o relatório clínico, o parecer da Comissão de Assessoria Técnica e a decisão final da autoridade de saúde competente.  
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.406_1
-:na_c700.20.406_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Execução de programas verticais Hospitalares".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.406_2
 :na_c700.20.406_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;

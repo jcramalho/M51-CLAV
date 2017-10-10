@@ -123,15 +123,15 @@ Compreende, igualmente, o controlo de pragas, a recolha, tratamento e encaminham
 	:NotaAplicacao ;
 	:conteudo "Limpeza de terrenos".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.001_8
-:na_c710.10.001_8 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Limpeza de cemitérios, talhões, ossários, criptas e monumentos  de militares portugueses sediados em território nacional e no estrangeiro".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c710.10.001_1
 :ne_c710.10.001_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A recolha de resíduos deve ser considerada em 710.10.002 – Recolha de resíduos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.001_8
+:na_c710.10.001_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Limpeza de cemitérios, talhões, ossários, criptas e monumentos  de militares portugueses sediados em território nacional e no estrangeiro".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c710.10.001_2
 :ne_c710.10.001_2 rdf:type owl:NamedIndividual ,

@@ -1,13 +1,13 @@
 ### Classe250
-###  http://jcr.di.uminho.pt/m51-clav#na_c250_2
-:na_c250_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "A negociação coletiva respeita às relações de cada entidade com as respetivas comissões de trabalhadores, sindicatos ou outras entidades representativas de trabalhadores".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250_1
 :na_c250_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "As relações individuais de trabalho aqui consideradas abrangem todos aqueles que exercem um mandato, cargo, emprego ou função pública (em sentido lato) por eleição, nomeação, designação, contratação ou qualquer outra forma de investidura, vinculo ou acordo. As relações de trabalho podem, pois, ter configurações diversas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250_2
+:na_c250_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "A negociação coletiva respeita às relações de cada entidade com as respetivas comissões de trabalhadores, sindicatos ou outras entidades representativas de trabalhadores".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250_1
 :ne_c250_1 rdf:type owl:NamedIndividual ,
@@ -95,15 +95,15 @@ Compreende, ainda, os procedimentos de cessação da relação de trabalho, inde
 	:descricao "Análise de candidaturas a trabalho na Administração, fora do âmbito de um procedimento concursal.
 Inicia com receção da candidatura e termina com resposta ao candidato.
 Inclui avaliação ao curriculo do candidato e verificação da eventual necessidade de trabalho na área proposta.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.100_1
-:na_c250.10.100_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Cargos de direção superior".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.100_2
 :na_c250.10.100_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Cargos de direção intermédia".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.100_1
+:na_c250.10.100_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Cargos de direção superior".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.100_1
 :ne_c250.10.100_1 rdf:type owl:NamedIndividual ,
@@ -324,6 +324,11 @@ Inclui formalização da candidatura por parte do interessado, recrutamento e se
 	:NotaExclusao ;
 	:conteudo "O ato eleitoral por sufrágio universal deve ser considerado em “Administração da participação cívica/ Administração eleitoral” (950.10)".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.300_1
+:na_c250.10.300_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Escolha de juízes sociais".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c250.10.200
 :c250.10.200 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -360,11 +365,6 @@ Inclui formalização da candidatura por parte do interessado, recrutamento e se
 	:descricao "Escolha, por via eleitoral, de titulares de órgãos de gestão, consultivos e estruturas internas.
 Inicia com despacho determinando a organização do processo eleitoral e termina com a publicitação do resultado do ato eleitoral e conversão dos votos em mandatos.
 Inclui criação de listas, elaboração de cadernos eleitorais, elaboração de boletins de voto, designação dos membros das mesas das assembleias eleitorais, redação das atas da sessão da assembleia eleitoral.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.300_1
-:na_c250.10.300_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Escolha de juízes sociais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.300_2
 :na_c250.10.300_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1404,15 +1404,15 @@ Inclui participação e justificação da falta ou ausência, despacho superior 
 	:descricao "Comunicação para reconhecimento do direito à reparação dos danos emergentes resultantes dos riscos profissionais, associados à caracterização de acidente de trabalho ou de doença profissional.
 Inicia com a participação e termina com a notificação das entidades competentes.
 Inclui a qualificação como acidente de trabalho ou como doença profissional.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.402_1
-:na_c250.20.402_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Pedidos de alteração ao mapa de férias".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.402_2
 :na_c250.20.402_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Pedido de acumulação de férias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.402_1
+:na_c250.20.402_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Pedidos de alteração ao mapa de férias".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c250.20.402
 :c250.20.402 rdf:type owl:NamedIndividual ,
@@ -1435,15 +1435,15 @@ Inclui a qualificação como acidente de trabalho ou como doença profissional."
 	:descricao "Marcação do número de dias de férias a que o trabalhador tem direito no ano civil a que respeita.
 Inicia com a marcação dos períodos de férias a que tem direito e termina com a divulgação do mapa de férias aprovado superiormente ou comunicação da decisão ao trabalhador.
 Inclui a verificação de inexistência de prejuízo para o serviço e autorização.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.403_1
-:na_c250.20.403_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Licenças sem vencimento".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.403_2
 :na_c250.20.403_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo " Renovação da licença".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.403_1
+:na_c250.20.403_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Licenças sem vencimento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.403_1
 :ne_c250.20.403_1 rdf:type owl:NamedIndividual ,
@@ -1887,15 +1887,15 @@ Inclui apresentação de prova de habilitação para o exercício de novas funç
 	:NotaExclusao ;
 	:conteudo "A reclamação da avaliação de desempenho (pós homologação) deve ser considerada em 500.40.001 – Processamento de reclamações em atos administrativos".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.800_2
-:ne_c250.20.800_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A impugnação administrativa, por recurso hierárquico deve ser considerada em 500.40.500 – Processamento de recursos hierárquicos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.800_3
 :ne_c250.20.800_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A impugnação administrativa, por recurso tutelar deve ser considerada em 500.40.501 – Processamento de recursos tutelares".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.800_2
+:ne_c250.20.800_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A impugnação administrativa, por recurso hierárquico deve ser considerada em 500.40.500 – Processamento de recursos hierárquicos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.800_4
 :ne_c250.20.800_4 rdf:type owl:NamedIndividual ,

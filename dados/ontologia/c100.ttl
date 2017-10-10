@@ -325,7 +325,7 @@ Inclui verificação jurídica, apreciação, discussão e votação conducentes
 	:temRelProc :c150.10.700 ;
 	:temRelProc :c200.10.800 ;
 	:temRelProc :c550.30.601 ;
-	:temRelProc :c900.20.201  ;
+	:temRelProc :c900.20.201 ;
 	:temLegislacao :leg_457 ;
 	:temLegislacao :leg_1115 ;
 	:temLegislacao :leg_1166 ;
@@ -550,7 +550,7 @@ Inclui verificação jurídica e apreciação.".
 	:temRelProc :c150.10.400 ;
 	:temRelProc :c150.10.700 ;
 	:temRelProc :c150.10.701 ;
-	:temRelProc :c900.20.201  ;
+	:temRelProc :c900.20.201 ;
 	:temLegislacao :leg_261 ;
 	:temLegislacao :leg_107 ;
 	:classeStatus "A" ;
@@ -659,15 +659,15 @@ Inclui verificação jurídica e apreciação.
 	:NotaExclusao ;
 	:conteudo "As nomeações devem ser consideradas em 250.10.400 – Nomeação para cargos de direção, coordenação e controlo ou 250.10.401 – Nomeação para postos de trabalho (exemplos: nomeação de embaixadores, chefe de estado das forças armadas, diretores-gerais, diretores de serviço, trabalhadores, funcionários públicos)".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.600_5
-:ne_c100.10.600_5 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Os avisos que não incidem sobre a publicitação das regras de funcionamento devem ser considerados na área correspondente, por exemplo, um aviso para abertura de concurso de pessoal deve ser considerado no respetivo processo em “Administração das relações de trabalho/ Estabelecimento e cessação de relações de trabalho” (250.10)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.600_4
 :ne_c100.10.600_4 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "Os trabalhos preparatórios ou estudos preliminares quando integram processo específico, como por exemplo os desenvolvidos no âmbito da definição do sistema de qualidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10.600_5
+:ne_c100.10.600_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os avisos que não incidem sobre a publicitação das regras de funcionamento devem ser considerados na área correspondente, por exemplo, um aviso para abertura de concurso de pessoal deve ser considerado no respetivo processo em “Administração das relações de trabalho/ Estabelecimento e cessação de relações de trabalho” (250.10)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c100.10.600
 :c100.10.600 rdf:type owl:NamedIndividual ,
@@ -699,7 +699,7 @@ Inclui verificação jurídica e apreciação.
 	:temRelProc :c150.20.500 ;
 	:temRelProc :c150.20.501 ;
 	:temRelProc :c250.30.001 ;
-	:temRelProc :c900.20.201  ;
+	:temRelProc :c900.20.201 ;
 	:temLegislacao :leg_457 ;
 	:temLegislacao :leg_1211 ;
 	:temLegislacao :leg_930 ;
@@ -777,7 +777,7 @@ Inclui verificação jurídica e apreciação.
 	:temRelProc :c100.20.400 ;
 	:temRelProc :c150.10.700 ;
 	:temRelProc :c150.10.701 ;
-	:temRelProc :c900.20.201  ;
+	:temRelProc :c900.20.201 ;
 	:temLegislacao :leg_939 ;
 	:classeStatus "A" ;
 	:exemploNA "Normas STANAG" ;

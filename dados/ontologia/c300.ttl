@@ -1,13 +1,13 @@
 ### Classe300
-###  http://jcr.di.uminho.pt/m51-clav#na_c300_2
-:na_c300_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Transferência de propriedade, gratuita ou onerosa".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300_1
 :na_c300_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Contratualização de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c300_2
+:na_c300_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Transferência de propriedade, gratuita ou onerosa".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300_3
 :na_c300_3 rdf:type owl:NamedIndividual ,
@@ -1105,15 +1105,15 @@ Inclui a receção, controlo e guarda ou custódia dos bens depositados na sequ�
 	:NotaAplicacao ;
 	:conteudo "Guarda provisória de bens decorrente de situações de catástrofe ou sinistro".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.700_3
-:na_c300.10.700_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Guarda provisória de bens decorrente de situações de despejo".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c300.10.700_1
 :ne_c300.10.700_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A remoção de veículos em contexto de procedimento contraordenacional deve ser considerada em 500.30.001 – Processamento de contraordenações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.700_3
+:na_c300.10.700_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Guarda provisória de bens decorrente de situações de despejo".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c300.10.700_2
 :ne_c300.10.700_2 rdf:type owl:NamedIndividual ,
@@ -1280,15 +1280,15 @@ Compreende, igualmente, os processos de acompanhamento da relação contratual, 
 	:NotaAplicacao ;
 	:conteudo "Concessão de exploração de bens públicos com risco partilhado entre o Estado e o particular".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c300.20.001_2
-:ne_c300.20.001_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A contratação de concessão que não configure parcerias público-privadas deve ser considerada em 300.20.200 – Concessão de obras públicas ou em 300.20.400 – Concessão de serviços e do uso ou exploração de bens do domínio público".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c300.20.001_1
 :ne_c300.20.001_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A contratação de fornecimento contínuo ou prestação de serviços que não configure parcerias público-privadas deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c300.20.001_2
+:ne_c300.20.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A contratação de concessão que não configure parcerias público-privadas deve ser considerada em 300.20.200 – Concessão de obras públicas ou em 300.20.400 – Concessão de serviços e do uso ou exploração de bens do domínio público".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c300.20.001
 :c300.20.001 rdf:type owl:NamedIndividual ,
@@ -3144,15 +3144,15 @@ Inclui registo de entradas e saídas, identificação de visitantes e eventual d
 	:NotaAplicacao ;
 	:conteudo "Seleção do agente desinfetante ou detergente para realização da ação".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c300.40.505_1
-:ne_c300.40.505_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Elaboração de regras e orientações internas deve ser considerada em 150.20.001 – Preparação de regras e orientações internas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c300.40.505_2
 :ne_c300.40.505_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O controlo de agentes infestantes deve ser considerado em 710.10.600 – Controlo de pragas e infestantes".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c300.40.505_1
+:ne_c300.40.505_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Elaboração de regras e orientações internas deve ser considerada em 150.20.001 – Preparação de regras e orientações internas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c300.40.505_3
 :ne_c300.40.505_3 rdf:type owl:NamedIndividual ,
@@ -4323,15 +4323,15 @@ Inclui estudos sobre os sistemas naturais, prospeção e todas as ações de inc
 	:NotaAplicacao ;
 	:conteudo "Controlo de utilização de bens imóveis".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c300.50.800_8
-:na_c300.50.800_8 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Controlo de utilização de bens móveis".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.50.800_9
 :na_c300.50.800_9 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Mapas de utilização de bens".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c300.50.800_8
+:na_c300.50.800_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Controlo de utilização de bens móveis".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c300.50.800_1
 :ne_c300.50.800_1 rdf:type owl:NamedIndividual ,
@@ -4379,15 +4379,15 @@ Inclui elaboração de mapas estatísticos para efeitos de gestão.".
 	:NotaAplicacao ;
 	:conteudo "Apoio a utilizadores internos dos sistemas de informação".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c300.50.801_3
-:na_c300.50.801_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Apoio logístico externo".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.50.801_4
 :na_c300.50.801_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Apoio logístico interno".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c300.50.801_3
+:na_c300.50.801_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio logístico externo".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.50.801_5
 :na_c300.50.801_5 rdf:type owl:NamedIndividual ,

@@ -1,9 +1,4 @@
 ### Classe950
-###  http://jcr.di.uminho.pt/m51-clav#ne_c950_1
-:ne_c950_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A audição pública no âmbito de um determinado processo, deve ser considerada junto do processo respetivo - por exemplo, a audição pública no âmbito da elaboração de uma lei ou regulamento deve ser considerada em \"Ordenamento jurídico e normativo/ Elaboração de diplomas jurídico-normativos e de normas técnicas\" (100.10).".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c950
 :c950 rdf:type owl:NamedIndividual ,
 	:Classe_N1;
@@ -13,6 +8,11 @@
 	:temNotaExclusao :ne_c950_1 ;
 	:classeStatus "A" ;
 	:descricao "Relativo à realização processos eleitorais para escolha dos representantes dos cidadãos (sufrágio universal), à realização de processos referendários, ao processamento de outros atos de participação dos cidadãos na gestão de assuntos públicos e, ainda, à atribuição de distinções honoríficas.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950_1
+:ne_c950_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A audição pública no âmbito de um determinado processo, deve ser considerada junto do processo respetivo - por exemplo, a audição pública no âmbito da elaboração de uma lei ou regulamento deve ser considerada em \"Ordenamento jurídico e normativo/ Elaboração de diplomas jurídico-normativos e de normas técnicas\" (100.10).".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.10_1
 :na_c950.10_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -50,25 +50,25 @@
 	:NotaAplicacao ;
 	:conteudo "Referendos nacionais, regionais e locais".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_2
-:na_c950.10.001_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Eleições legislativas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_3
 :na_c950.10.001_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Eleições para a presidência da república".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_4
-:na_c950.10.001_4 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_2
+:na_c950.10.001_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Eleições regionais e autárquicas".
+	:conteudo "Eleições legislativas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_5
 :na_c950.10.001_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Eleições dos orgãos de soberania, das regiões autónomas, do poder local e do Conselho das Comunidades Portuguesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_4
+:na_c950.10.001_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Eleições regionais e autárquicas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c950.10.001
 :c950.10.001 rdf:type owl:NamedIndividual ,

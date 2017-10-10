@@ -600,15 +600,15 @@ Inclui análise do pedido, negociação entre o mecenas e o beneficiário.
 	:NotaAplicacao ;
 	:conteudo "Bonificação de juros no crédito à habitação".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c850.30_2
-:na_c850.30_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Bonificação ao gasóleo utilizado na atividade agrícola".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c850.30_3
 :na_c850.30_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Benefícios fiscais ao investimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.30_2
+:na_c850.30_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Bonificação ao gasóleo utilizado na atividade agrícola".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c850.30
 :c850.30 rdf:type owl:NamedIndividual ,

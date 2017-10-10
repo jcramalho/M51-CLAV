@@ -208,15 +208,15 @@
 	:classeStatus "A" ;
 	:descricao "Compreende as atividades que decorrem durante a tramitação dos processos administrativos que visam a inscrição de novas entidades ou atos no Registo, alteração ou eliminação de dados referentes a entidades ou atos já registados ou, ainda, a emissão
 de títulos de identificação. Os processos podem ser de iniciativa dos serviços competentes para manter o Registo atualizado, ou de iniciativa de partes interessadas, através da apresentação de pedidos ou propostas de inscrição ou atualização do registo. Compreende, igualmente, os repositórios de dados recolhidos que identificam e caracterizam as entidades ou os atos objeto de Registo, no quadro específico da prestação de serviços de identificação e registo assegurada pelas autoridades públicas.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.001_2
-:na_c400.10.001_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Retificação administrativa ou judicial".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.001_1
 :na_c400.10.001_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Pedidos de registo de pessoas singulares".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.001_2
+:na_c400.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Retificação administrativa ou judicial".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.001_3
 :na_c400.10.001_3 rdf:type owl:NamedIndividual ,
@@ -2150,7 +2150,7 @@ O reconhecimento como profissional em determinada atividade deve ser considerado
 	:temNotaExclusao :ne_c400.10.052_2 ;
 	:temRelProc :c850.10.002 ;
 	:temRelProc :c400.10.610 ;
-	:temRelProc :c400.10.200  ;
+	:temRelProc :c400.10.200 ;
 	:temLegislacao :leg_984 ;
 	:temLegislacao :leg_1157 ;
 	:temLegislacao :leg_1034 ;
@@ -2622,14 +2622,14 @@ Inclui o pedido, a apresentação do pedido, a qualificação, a execução mate
 	:temNotaExclusao :ne_c400.10.201_6 ;
 	:temNotaExclusao :ne_c400.10.201_7 ;
 	:temRelProc :c400.10.009 ;
-	:temRelProc :c 400.30.001 ;
+	:temRelProc :c400.30.001 ;
 	:temRelProc :c450.30.003 ;
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c450.30.001 ;
 	:temRelProc :c500.30.001 ;
 	:temRelProc :c500.40.500 ;
 	:temRelProc :c600.30.751 ;
-	:temRelProc :c 900.20.604 ;
+	:temRelProc :c900.20.604 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1054 ;
 	:temLegislacao :leg_7 ;
@@ -2794,15 +2794,15 @@ Inclui a validação dos dados relativamente ao respetivo processo de licenciame
 	:NotaAplicacao ;
 	:conteudo "Atualização de dados do registo".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_2
-:na_c400.10.404_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Registo de bens móveis, imóveis e imateriais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_3
 :na_c400.10.404_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "  Registo de bens classificados como de interesse nacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_2
+:na_c400.10.404_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Registo de bens móveis, imóveis e imateriais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_4
 :na_c400.10.404_4 rdf:type owl:NamedIndividual ,
@@ -3834,15 +3834,15 @@ e atribuição do número de registo da obra.".
 	:NotaExclusao ;
 	:conteudo " cartões de visita, cartas e sobrescritos timbrados".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.611_3
-:ne_c400.10.611_3 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo " facturas comerciais, títulos de valores financeiros, etiquetas, rótulos e calendários".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.611_4
 :ne_c400.10.611_4 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo " albuns para colorir, cupões e outros equivalentes, modelos de impressos comerciais e outros similares".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.611_3
+:ne_c400.10.611_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo " facturas comerciais, títulos de valores financeiros, etiquetas, rótulos e calendários".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c400.10.611
 :c400.10.611 rdf:type owl:NamedIndividual ,

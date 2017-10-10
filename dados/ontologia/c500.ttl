@@ -1,4 +1,9 @@
 ### Classe500
+###  http://jcr.di.uminho.pt/m51-clav#ne_c500_1
+:ne_c500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O controlo da execução de políticas, programas ou planos de atividades deve ser considerado em \"Planeamento e gestão estratégica\" (150).".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c500_2
 :na_c500_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -8,11 +13,6 @@
 :na_c500_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Todos os domínios".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c500_1
-:ne_c500_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O controlo da execução de políticas, programas ou planos de atividades deve ser considerado em \"Planeamento e gestão estratégica\" (150).".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c500
 :c500 rdf:type owl:NamedIndividual ,

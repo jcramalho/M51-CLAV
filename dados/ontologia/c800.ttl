@@ -1,9 +1,4 @@
 ### Classe800
-###  http://jcr.di.uminho.pt/m51-clav#na_c800_1
-:na_c800_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Aplicável tanto às entidades que prestam os serviços referidos como aos que solicitam a prestação dos mesmos.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c800_1
 :ne_c800_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -19,6 +14,11 @@
 	:temNotaExclusao :ne_c800_1 ;
 	:classeStatus "A" ;
 	:descricao "Relativo a atividades de investigação científica em qualquer domínio do conhecimento, a atividades de desenvolvimento técnico e tecnológico, de transferência de tecnologia e inovação, bem como a outras atividades que utilizam métodos científicos para a produção de conhecimento ou resolução de problemas.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800_1
+:na_c800_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Aplicável tanto às entidades que prestam os serviços referidos como aos que solicitam a prestação dos mesmos.".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10_1
 :na_c800.10_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -259,15 +259,15 @@ Inclui registo de valores.
 	:NotaAplicacao ;
 	:conteudo "Monitorização microbiológica das areias".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_4
-:na_c800.10.301_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Monitorização de índices de qualidade do ar".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_5
 :na_c800.10.301_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Monitorização de índices de poluição do solo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_4
+:na_c800.10.301_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Monitorização de índices de qualidade do ar".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_6
 :na_c800.10.301_6 rdf:type owl:NamedIndividual ,
@@ -1022,15 +1022,15 @@ Inclui os estudos de contextualização histórica, técnica e estilística do a
 	:NotaAplicacao ;
 	:conteudo "Arranjo musical de uma obra, para um instrumento para o qual não foi originalmente escrita".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_2
-:na_c800.10.605_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Transcrição de documentos, indepentemente do suporte e antiguidade".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_3
 :na_c800.10.605_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Transcrição fonética".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_2
+:na_c800.10.605_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Transcrição de documentos, indepentemente do suporte e antiguidade".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.605_1
 :ne_c800.10.605_1 rdf:type owl:NamedIndividual ,
@@ -1363,11 +1363,6 @@ Incluí a investigação desenvolvida.
 	:descricao "Utilização de técnicas específicas de conservação de células, órgãos ou cadáveres de seres humanos, animais ou vegetais para fins de ensino, investigação ou tratamento.
 Inicia com a solicitação ou a determinação do ato de preservação e termina com o atestado de criopreservação, embalsamamento ou com a preparação da peça anatómica para fins científicos, pedagógicos ou museológicos.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_1
-:na_c800.10.610_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Sistema Internacional de Unidades".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_2
 :na_c800.10.610_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1377,6 +1372,11 @@ Inicia com a solicitação ou a determinação do ato de preservação e termina
 :na_c800.10.610_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo " Grandezas derivadas do Sistema Internacional de Unidades (área, volume, velocidade, aceleração, força, pressão, energia, potencia)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_1
+:na_c800.10.610_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Sistema Internacional de Unidades".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_4
 :na_c800.10.610_4 rdf:type owl:NamedIndividual ,
@@ -1508,15 +1508,15 @@ Inclui identificação das constantes físicas fundamentais, realização, manut
 	:NotaAplicacao ;
 	:conteudo "Estudos de fenómenos sociais".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_5
-:na_c800.20.001_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo " Produção de novas leis científicas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_6
 :na_c800.20.001_6 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo " Produção de novos modelos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_5
+:na_c800.20.001_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Produção de novas leis científicas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_7
 :na_c800.20.001_7 rdf:type owl:NamedIndividual ,

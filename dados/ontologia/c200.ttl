@@ -1,18 +1,18 @@
 ### Classe200
-###  http://jcr.di.uminho.pt/m51-clav#na_c200_1
-:na_c200_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Acompanhamento político e diplomático das relações internacionais bilaterais e multilaterais".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200_1
+:ne_c200_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A produção de informações no âmbito do SIRP deve ser considerada em \"Planeamento e gestão estratégica/ Produção de informações estratégicas e de segurança\" (150.30)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c200_2
 :na_c200_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Acompanhamento dos compromissos institucionais e a realização de projetos e ações de execução da política externa concretizadas por organismos da Administração Central, Regional ou Local".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c200_1
-:ne_c200_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A produção de informações no âmbito do SIRP deve ser considerada em \"Planeamento e gestão estratégica/ Produção de informações estratégicas e de segurança\" (150.30)".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200_1
+:na_c200_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento político e diplomático das relações internacionais bilaterais e multilaterais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c200_2
 :ne_c200_2 rdf:type owl:NamedIndividual ,
@@ -136,6 +136,11 @@ Compreende, igualmente, a participação na elaboração de normas técnicas eur
 	:ExemploNotaAplicacao ;
 	:conteudo "Relações bilaterais / multilaterais em matéria de empregor".
 
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.001_2
+:ne_c200.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A definição de posições nacionais e de tomada de posição conjunta no âmbito da União Europeia devem ser classificadas em 200.10.400 – Definição conjunta das opções estratégicas da União Europeia e em 200.10.501 – Definição e coordenação das políticas setoriais pelos Estados Membros da União Europeia, respetivamente".
+
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_11
 :exna_c200.10.001_11 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
@@ -150,11 +155,6 @@ Compreende, igualmente, a participação na elaboração de normas técnicas eur
 :ne_c200.10.001_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A definição de políticas nacionais setoriais deve ser considerada em 150.10.100 – Definição de políticas setoriais".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.001_2
-:ne_c200.10.001_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A definição de posições nacionais e de tomada de posição conjunta no âmbito da União Europeia devem ser classificadas em 200.10.400 – Definição conjunta das opções estratégicas da União Europeia e em 200.10.501 – Definição e coordenação das políticas setoriais pelos Estados Membros da União Europeia, respetivamente".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.001_3
 :ne_c200.10.001_3 rdf:type owl:NamedIndividual ,
@@ -1033,6 +1033,11 @@ Inclui instrução do processo e consulta ao Serviço de Estrangeiros e Fronteir
 	:NotaExclusao ;
 	:conteudo "Participação em operações de manutenção da paz considerar em \"Execução de operações de segurança, proteção ou defesa/ Missões de defesa e apoio à paz\" (550.30)".
 
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30_5
+:ne_c200.30_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O auxílio judiciário prestado pelo Estado português a uma entidade estrangeira deve ser considerado em \"Prestação de serviços de proteção e inclusão social/ Serviços e equipamentos sociais\" (650.20)".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30_3
 :ne_c200.30_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -1042,11 +1047,6 @@ Inclui instrução do processo e consulta ao Serviço de Estrangeiros e Fronteir
 :ne_c200.30_4 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "Solicitação e execução de pedidos apresentados pelos tribunais nacionais para outros Estados ou de outros Estados para Portugal (execução de cartas rogatórias, detenção ao abrigo de mandato europeu ou internacional, extradição, entre outros), devem ser consideradas em \"Administração da Justiça\" (600)".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30_5
-:ne_c200.30_5 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O auxílio judiciário prestado pelo Estado português a uma entidade estrangeira deve ser considerado em \"Prestação de serviços de proteção e inclusão social/ Serviços e equipamentos sociais\" (650.20)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30_6
 :ne_c200.30_6 rdf:type owl:NamedIndividual ,

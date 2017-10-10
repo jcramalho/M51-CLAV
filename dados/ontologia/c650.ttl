@@ -4,25 +4,25 @@
 	:NotaAplicacao ;
 	:conteudo "Processamento de apoios na área da ação social (e ação social complementar para os trabalhadores da administração pública)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c650_1
-:na_c650_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Administração dos regimes de proteção social.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650_3
 :na_c650_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Integração no mercado de trabalho".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c650_4
-:na_c650_4 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c650_1
+:na_c650_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Apoio psicossocial a pessoas ou grupos em risco em contexto comunitário global".
+	:conteudo "Administração dos regimes de proteção social.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650_5
 :na_c650_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Apoio psicossocial a pessoas ou grupos em risco em contextos específicos de relações laborais, prestação de serviços, execução de penas, entre outros (apoio a crianças, jovens e idosos, alunos, doentes, reclusos, funcionários, pessoas com deficiência, toxicodependentes, vítimas de violência, pessoas dependentes, desempregados, família e comunidade, grupos de risco, imigrantes e minorias étnicas, etc.)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650_4
+:na_c650_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio psicossocial a pessoas ou grupos em risco em contexto comunitário global".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c650_1
 :ne_c650_1 rdf:type owl:NamedIndividual ,
@@ -48,15 +48,15 @@
 	:NotaAplicacao ;
 	:conteudo "Apoios atribuídos no âmbito da ação social em qualquer domínio, incluindo a ação social escolar (de qualquer nível de ensino).".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.10_2
-:na_c650.10_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "A generalidade dos organismos da AP deve utilizar esta classe apenas para o encaminhamento de pedidos de prestações à Segurança Social, ADSE, CGA e entidades similares.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c650.10_1
 :ne_c650.10_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "Os pedidos de inscrição/ cancelamento de beneficiário e alteração de dados de beneficiários da Segurança Social, ADSE, CGA e entidades similares devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10_2
+:na_c650.10_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "A generalidade dos organismos da AP deve utilizar esta classe apenas para o encaminhamento de pedidos de prestações à Segurança Social, ADSE, CGA e entidades similares.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c650.10
 :c650.10 rdf:type owl:NamedIndividual ,
@@ -1111,20 +1111,20 @@ Inclui análise da situação, verificação da conformidade com os requisitos, 
 Inicia com o requerimento e termina com a comunicação do montante a atribuir.
 Inclui análise do processo.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.108_1
-:na_c650.10.108_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.108_3
+:na_c650.10.108_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Falecimento".
+	:conteudo "Ferimento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.108_2
 :na_c650.10.108_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Desaparecimento em campanha".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.108_3
-:na_c650.10.108_3 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.108_1
+:na_c650.10.108_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Ferimento".
+	:conteudo "Falecimento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.108_4
 :na_c650.10.108_4 rdf:type owl:NamedIndividual ,

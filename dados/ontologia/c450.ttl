@@ -1,4 +1,9 @@
 ### Classe450
+###  http://jcr.di.uminho.pt/m51-clav#ne_c450_1
+:ne_c450_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O processamento de pedidos de reconhecimento do estatuto de igualdade e do estatuto de refugiado, bem como o processamento de pedidos de autorização de residência, devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c450
 :c450 rdf:type owl:NamedIndividual ,
 	:Classe_N1;
@@ -9,11 +14,6 @@
 	:classeStatus "A" ;
 	:descricao "Relativo à atribuição de permissões para o exercício de atividades ou tarefas que observam padrões específicos; ao reconhecimento de características em entidades, serviços ou produtos que os tornam conformes a determinados parâmetros técnicos ou normativos; ao reconhecimento de características em entidades que as tornam passíveis de obter especial proteção ou especial benefício; à comprovação de factos ou atos.
 Relativo, ainda, à formalização notarial de atos jurídicos extrajudiciais, conferindo-lhes fé pública.".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450_1
-:ne_c450_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O processamento de pedidos de reconhecimento do estatuto de igualdade e do estatuto de refugiado, bem como o processamento de pedidos de autorização de residência, devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10_1
 :na_c450.10_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -610,15 +610,15 @@ Inclui análise preliminar, consulta a entidades, avaliação do projeto de exec
 	:NotaExclusao ;
 	:conteudo "As instalações devem ser consideradas em 450.10.208 – Licenciamento ou autorização de instalações industriais".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.070_3
-:ne_c450.10.070_3 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo " ".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.070_2
 :ne_c450.10.070_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O licenciamneto da transformação e aproveitamento de resíduos para outros fins deve ser considerado em PN 450.10.068 – Licenciamento de atividades de gestão de resíduos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.070_3
+:ne_c450.10.070_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo " ".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.070
 :c450.10.070 rdf:type owl:NamedIndividual ,
@@ -1083,15 +1083,15 @@ Inclui a análise do pedido ou candidatura, consulta de entidades, fundamentaç�
 	:NotaAplicacao ;
 	:conteudo "Licenciamento e registo de empresas de trabalho temporário (Anterior PN 450.10.046)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.076_2
-:na_c450.10.076_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Autorização de funcionamento de entidades prestadoras de apoio ao emprego e inserção no mercado de trabalho  (Anterior PN 450.10.051)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.076_3
 :na_c450.10.076_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Autorização de funcionamento de entidades tais como os Gabinetes de Inserção Profissional (GIP), para desenvolverem atividades consideradas necessárias ao apoio aos desempregados inscritos nos Centros de Emprego, na procura ativa de emprego".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.076_2
+:na_c450.10.076_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Autorização de funcionamento de entidades prestadoras de apoio ao emprego e inserção no mercado de trabalho  (Anterior PN 450.10.051)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.076_1
 :ne_c450.10.076_1 rdf:type owl:NamedIndividual ,
@@ -1231,11 +1231,6 @@ Inclui análise do pedido, consulta de entidades, realização de vistoria, fund
 	:NotaAplicacao ;
 	:conteudo "Atividades de tratamento veterinário".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_3
-:na_c450.10.078_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Atividades no âmbito da reprodução, nutrição e bem-estar animal".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_4
 :na_c450.10.078_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1245,6 +1240,11 @@ Inclui análise do pedido, consulta de entidades, realização de vistoria, fund
 :na_c450.10.078_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo " Declaração prévia para consultórios veterinários".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_3
+:na_c450.10.078_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atividades no âmbito da reprodução, nutrição e bem-estar animal".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.078
 :c450.10.078 rdf:type owl:NamedIndividual ,
@@ -2834,15 +2834,15 @@ Inclui a entrega do projeto, verificação e análise das caraterísticas impact
 	:temPai :c450.10.229 ;
 	:classeStatus "A" ;
 	:descricao "Elaboração do relatório final e título. O projeto faz parte integrante do relatório final.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_1
-:na_c450.10.230_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Ações de emergência a realizar em sítios arqueológicos que, por efeitos de ação humana ou ação natural, se encontrem em perigo iminente de destruição parcial ou total".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_2
 :na_c450.10.230_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Ações preventivas a realizar no âmbito de trabalhos de minimização de impactos devido a empreendimentos públicos ou privados, em meio rural, urbano ou subaquático".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_1
+:na_c450.10.230_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ações de emergência a realizar em sítios arqueológicos que, por efeitos de ação humana ou ação natural, se encontrem em perigo iminente de destruição parcial ou total".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_3
 :na_c450.10.230_3 rdf:type owl:NamedIndividual ,
@@ -3887,15 +3887,15 @@ Inclui  consulta de entidades, quando devido, decisão e comprovativo do pagamen
 	:NotaAplicacao ;
 	:conteudo "Ajuramentação de agentes de fiscalização (Anterior PN 450.10.433)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.445_11
-:na_c450.10.445_11 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Reconhecimento de organismo notificado para efeitos de marcação CE (Anterior PN 450.10.435)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.445_12
 :na_c450.10.445_12 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Designação de Organismo de Avaliação Técnica para efeitos de marcação CE (Anterior PN 450.10.436)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.445_11
+:na_c450.10.445_11 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reconhecimento de organismo notificado para efeitos de marcação CE (Anterior PN 450.10.435)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.445_13
 :na_c450.10.445_13 rdf:type owl:NamedIndividual ,
@@ -4847,11 +4847,6 @@ Inclui a análise técnica, consulta de entidades quando devido, fundamentação
 	:NotaAplicacao ;
 	:conteudo "Autorização de uso de marca de conformidade europeia (CE) (Anterior PN 450.10.619)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_10
-:na_c450.10.648_10 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Reconhecimento de indicações terapêuticas da água termal (Anterior PN 450.10.632)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_11
 :na_c450.10.648_11 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -4886,6 +4881,11 @@ Inclui a análise técnica, consulta de entidades quando devido, fundamentação
 :na_c450.10.648_17 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Autenticação de livretes individuais de controlo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_10
+:na_c450.10.648_10 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reconhecimento de indicações terapêuticas da água termal (Anterior PN 450.10.632)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_18
 :na_c450.10.648_18 rdf:type owl:NamedIndividual ,
@@ -5848,15 +5848,15 @@ Inclui análise preliminar e decisão.".
 	:NotaExclusao ;
 	:conteudo "A declaração de utilidade pública deve ser considerada em 450.20.001".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450.20.003_2
-:ne_c450.20.003_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "01 – Reconhecimento de pessoas coletivas de utilidade pública".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.20.003_3
 :ne_c450.20.003_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo " verificação das condições".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c450.20.003_2
+:ne_c450.20.003_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "01 – Reconhecimento de pessoas coletivas de utilidade pública".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.20.003_4
 :ne_c450.20.003_4 rdf:type owl:NamedIndividual ,

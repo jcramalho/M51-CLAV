@@ -1,14 +1,4 @@
 ### Classe350
-###  http://jcr.di.uminho.pt/m51-clav#na_c350_1
-:na_c350_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Abrange a execução do conjunto dos orçamentos de receita e de despesa (correntes e de capital) dos serviços públicos e fundos autónomos".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350_1
-:ne_c350_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Os procedimentos de preparação do orçamento e das alterações orçamentais, cativação/descativação de verbas, e a prestação de contas, devem ser considerados em \"Planeamento e gestão estratégica/Planeamento, avaliação e melhoria dos serviços\" (150.20);O exercício de direitos de acionista deve ser considerado na área a que diz respeito o exercício de cada processo em concreto – \"Planeamento e gestão estratégia\" (150), \"Ordenamento jurídico e normativo\" (100), entre outras;O controlo da emissão e circulação de moeda deve ser considerado no âmbito da \"Supervisão, controlo e responsabilização\" (500) ou do \"Ordenamento jurídico e normativo\" (100), de acordo com o processo em causa.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c350
 :c350 rdf:type owl:NamedIndividual ,
 	:Classe_N1;
@@ -19,6 +9,16 @@
 	:temNotaExclusao :ne_c350_1 ;
 	:classeStatus "A" ;
 	:descricao "Relativo à execução orçamental (no que se incluem os processamentos de despesas e de arrecadação de receitas), à gestão do Tesouro, da dívida e das aplicações financeiras.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c350_1
+:ne_c350_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os procedimentos de preparação do orçamento e das alterações orçamentais, cativação/descativação de verbas, e a prestação de contas, devem ser considerados em \"Planeamento e gestão estratégica/Planeamento, avaliação e melhoria dos serviços\" (150.20);O exercício de direitos de acionista deve ser considerado na área a que diz respeito o exercício de cada processo em concreto – \"Planeamento e gestão estratégia\" (150), \"Ordenamento jurídico e normativo\" (100), entre outras;O controlo da emissão e circulação de moeda deve ser considerado no âmbito da \"Supervisão, controlo e responsabilização\" (500) ou do \"Ordenamento jurídico e normativo\" (100), de acordo com o processo em causa.".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c350_1
+:na_c350_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Abrange a execução do conjunto dos orçamentos de receita e de despesa (correntes e de capital) dos serviços públicos e fundos autónomos".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.10_1
 :na_c350.10_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;

@@ -86,15 +86,15 @@
 	:ExemploNotaAplicacao ;
 	:conteudo "Verão seguro".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_2
-:exna_c550.10_2 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Escola segura".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_3
 :exna_c550.10_3 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Programa de proteção de idosos".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_2
+:exna_c550.10_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Escola segura".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_4
 :exna_c550.10_4 rdf:type owl:NamedIndividual ,
@@ -1599,16 +1599,6 @@ Inclui articulação de entidades competentes para a análise de dados, validaç
 	:ExemploNotaAplicacao ;
 	:conteudo "Vigilância da alteração de cursos de água".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_3
-:exna_c550.20.002_3 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Vigilância contra derrames tóxicos".
-
-###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_4
-:exna_c550.20.002_4 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Vigilância à radioatividade no ambiente".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_5
 :exna_c550.20.002_5 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
@@ -1619,10 +1609,20 @@ Inclui articulação de entidades competentes para a análise de dados, validaç
 	:ExemploNotaAplicacao ;
 	:conteudo "Vigilância contra intempéries".
 
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_3
+:exna_c550.20.002_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Vigilância contra derrames tóxicos".
+
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_7
 :exna_c550.20.002_7 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Vigilância marítima".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_4
+:exna_c550.20.002_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Vigilância à radioatividade no ambiente".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_8
 :exna_c550.20.002_8 rdf:type owl:NamedIndividual ,

@@ -1529,15 +1529,15 @@ Inclui gestão de intervenções, registo da discussão, registo das votações 
 	:exemploNA "Planeamento operacional de articulação de respostas a uma situação de crise" ;
 	:descricao "Compreende o planeamento e avaliação dos serviços, no que se inclui a análise e melhoria das estruturas e das formas de organização do trabalho, a definição e avaliação do cumprimento de objetivos organizacionais, a elaboração de planos e de relatórios de atividades, gerais e setoriais - abrangendo o diagnóstico de necessidades, o planeamento da afetação e o planeamento do desenvolvimento de recursos (humanos, materiais e financeiros).
 Compreende, igualmente, a definição e avaliação de planos operacionais transversais a vários organismos, de planos de emergência, ou de qualquer instrumento de planeamento e coordenação operacional.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_1
-:na_c150.20.001_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Definição de formulários e respetivas regras de utilização".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_2
 :na_c150.20.001_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo " Elaboração de carta da qualidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_1
+:na_c150.20.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Definição de formulários e respetivas regras de utilização".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_3
 :na_c150.20.001_3 rdf:type owl:NamedIndividual ,
@@ -2157,7 +2157,7 @@ Inclui definição de regras e de procedimentos, proposta de orçamento inicial 
 	:temNotaExclusao :ne_c150.20.203_1 ;
 	:temRelProc :c100.10.600 ;
 	:temRelProc :c150.10.700 ;
-	:temRelProc :c 150.10.701 ;
+	:temRelProc :c150.10.701 ;
 	:temRelProc :c150.10.702 ;
 	:temRelProc :c150.20.100 ;
 	:temRelProc :c150.20.401 ;
@@ -2350,15 +2350,15 @@ Inclui elaboração de relatórios intercalares e de relatório final de desempe
 	:descricao "Apreciação, verificação e medição periódica do impacto dos objetivos alcançados pelo sistema na prossecução das metas organizacionais.
 Inicia com a definição de métodos e técnicas de avaliação e termina com a produção de recomendações.
 Inclui a recolha, o tratamento e a análise de dados e identificação de problemas ou oportunidades ainda não detetadas.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.303_1
-:na_c150.20.303_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Monitorização no âmbito do controlo e avaliação de atividades".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.303_2
 :na_c150.20.303_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Controlo da atribuição dos incentivos financeiros por programa (Anterior PN 850.10.004)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.303_1
+:na_c150.20.303_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Monitorização no âmbito do controlo e avaliação de atividades".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.303_1
 :ne_c150.20.303_1 rdf:type owl:NamedIndividual ,
@@ -2827,7 +2827,7 @@ Inclui recolha e tratamento da informação estratégica.
 	:temNotaAplicacao :na_c150.40.001_3 ;
 	:temNotaExclusao :ne_c150.40.001_1 ;
 	:temRelProc :c150.10.001 ;
-	:temRelProc :c 150.10.100 ;
+	:temRelProc :c150.10.100 ;
 	:temRelProc :c150.10.600 ;
 	:temRelProc :c150.20.101 ;
 	:temRelProc :c150.20.300 ;

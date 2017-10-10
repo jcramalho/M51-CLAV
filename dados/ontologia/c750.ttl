@@ -106,16 +106,6 @@ qualificação profissional e valorização permanente, em qualquer área do con
 	:NotaAplicacao ;
 	:conteudo "Seriação para ingresso de jovem internado em centro educativo ao ensino básico e secundário".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_14
-:na_c750.10.001_14 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Concurso de Ingresso na Formação Inicial - Tribunal Administrativo e Fiscal e Tribunais Judiciais".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_15
-:na_c750.10.001_15 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Candidatos identificados para reforço de conhecimentos na área da Propriedade Industrial (PI) segundo pré-requisitos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_16
 :na_c750.10.001_16 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -146,10 +136,20 @@ qualificação profissional e valorização permanente, em qualquer área do con
 	:NotaExclusao ;
 	:conteudo "A elaboração de calendários das provas de ingresso deve ser considerada em 150.20.101 – Planeamento estratégico de atividades".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_15
+:na_c750.10.001_15 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Candidatos identificados para reforço de conhecimentos na área da Propriedade Industrial (PI) segundo pré-requisitos".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c750.10.001_2
 :ne_c750.10.001_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A reclamação de resultados da seleção deve ser considerada em 500.40.001 – Processamento de reclamações em atos administrativos, ou em 500.40.500 – Processamento de recursos hierárquicos, ou, ainda, em 500.40.501 – Processamento de recursos administrativos especiais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_14
+:na_c750.10.001_14 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Concurso de Ingresso na Formação Inicial - Tribunal Administrativo e Fiscal e Tribunais Judiciais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c750.10.001_3
 :ne_c750.10.001_3 rdf:type owl:NamedIndividual ,
@@ -1358,7 +1358,7 @@ Inclui reapreciação da avaliação da prova sempre que solicitado e o registo 
 	:temNotaAplicacao :na_c750.30.602_2 ;
 	:temNotaAplicacao :na_c750.30.602_3 ;
 	:temNotaExclusao :ne_c750.30.602_1 ;
-	:temRelProc :c400.10.616  ;
+	:temRelProc :c400.10.616 ;
 	:temRelProc :c450.10.648 ;
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c500.40.500 ;

@@ -507,7 +507,7 @@ Inclui o conjunto de diligências e informações solicitadas a qualquer entidad
 	:temRelProc :c300.10.302 ;
 	:temRelProc :c600.10.003 ;
 	:temRelProc :c600.10.007 ;
-	:temRelProc :c 600.30.001 ;
+	:temRelProc :c600.30.001 ;
 	:temRelProc :c600.30.002 ;
 	:temRelProc :c600.30.050 ;
 	:temRelProc :c600.30.051 ;
