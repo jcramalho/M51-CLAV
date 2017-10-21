@@ -178,7 +178,7 @@ exports.migraClasse = function(orgCatalog, legCatalog, classe)
                 // Relações com os outros Processos
                 if(jsonObj['Código do processo relacionado']){
                     var procRefs = jsonObj['Código do processo relacionado']
-                    var procRefsSplit = procRefs.replace(/(\r\n|\n|\r)/gm,"").split("#")
+                    var procRefsSplit = procRefs.replace(/(\r\n|\n|\r|\s)/gm,"").split("#")
                     var procTipos = jsonObj['Tipo de relação entre processos']
                     var procTiposSplit = procTipos.replace(/(\r\n|\n|\r)/gm,"").split("#")
 
