@@ -1,0 +1,144 @@
+PREFIX rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+PREFIX clav: 'http://jcr.di.uminho.pt/m51-clav#',
+PREFIX rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
+PREFIX noInferences: 'http://www.ontotext.com/explicit'
+
+
+
+## Listar todas as classes de um Nivel (exemplo 1), com codigo, título e nº de classes filhas (é necessário desligar as inferências nesta query, caso contrário apanha todas as classes de níveis inferiores)
+
+
+SELECT ?id ?Code ?Title (count(?sub) as ?NChilds) FROM noInferences: 
+WHERE {
+    ?id rdf:type clav:Classe_N1 ;
+        clav:codigo ?Code ;
+        clav:titulo ?Title .
+    optional {?sub clav:temPai ?id}
+} Group by ?id ?Code ?Title
+
+
+
+
+## Listar todas as classes filhas de uma determinada classe (exemplo c100.10), com codigo, título e nº de "filhos"
+
+SELECT ?Child ?Code ?Title (count(?sub) as ?NChilds)
+WHERE {
+    ?Child clav:temPai clav:c100.10 ;
+           clav:codigo ?Code ;
+           clav:titulo ?Title
+    optional {?sub clav:temPai ?Child}
+}Group by ?Child ?Code ?Title
+
+
+
+
+
+## Listar atributos de uma classe (exemplo c100.10.001)
+
+
+SELECT ?Titulo ?Codigo ?Pai ?CodigoPai ?TituloPai ?Status ?Desc ?ProcTipo ?ProcTrans (group_concat(distinct ?Exemplo;separator=" -- ") as ?Exemplos) 
+WHERE {
+    clav:c100.10.001 clav:titulo ?Titulo;
+                 clav:codigo ?Codigo.
+    OPTIONAL {
+        clav:c100.10.001 clav:temPai ?Pai.
+        ?Pai clav:codigo ?CodigoPai;
+            clav:titulo ?TituloPai.
+    } 
+    OPTIONAL {
+        clav:c100.10.001 clav:classeStatus ?Status.
+    } 
+    OPTIONAL {
+        clav:c100.10.001 clav:descricao ?Desc.
+    } 
+    OPTIONAL {
+        clav:c100.10.001 clav:processoTipo ?ProcTipo.
+    } 
+    OPTIONAL {
+        clav:c100.10.001 clav:processoTransversal ?ProcTrans.
+    } 
+    OPTIONAL {
+        clav:c100.10.001 clav:exemploNA ?Exemplo.
+    }
+} GROUP BY ?Titulo ?Codigo ?Pai ?CodigoPai ?TituloPai ?Status ?Desc ?ProcTipo ?ProcTrans
+
+
+
+
+##Listar os donos de uma classe (exemplo c100.10.001)
+
+SELECT * WHERE { 
+    clav:c100.10.001 clav:temDono ?id.
+    ?id clav:orgNome ?Nome;
+        clav:orgSigla ?Sigla;
+}
+
+
+
+
+
+##Listar as legislações associadas a uma classe (exemplo c100.10.001)
+
+SELECT * WHERE { 
+    clav:c100.10.001 clav:temLegislacao ?id.
+    ?id clav:diplomaNumero ?Número;
+        clav:diplomaTitulo ?Titulo;
+}
+
+
+
+##Listar as notas de aplicação associadas a uma classe (exemplo c100.10.001)
+
+SELECT * WHERE { 
+    clav:c100.10.001 clav:temNotaAplicacao ?id .
+    ?id clav:conteudo ?Nota .
+}
+
+
+
+##Listar as notas de exclusão associadas a uma classe (exemplo c100.10.001)
+
+SELECT * WHERE { 
+    clav:c100.10.001 clav:temNotExclusão ?id .
+    ?id clav:conteudo ?Nota .
+}
+
+
+
+
+
+##Listar os processos relacionados com uma classe (exemplo c100.10.001)
+
+select DISTINCT ?id ?Code ?Title {
+    {
+        select * where{
+            clav:c100.10.001 clav:temRelProc ?id .
+        }
+    } union {
+        select * where{
+            ?id clav:temRelProc clav:c100.10.001 .
+        } 
+    }
+    ?id clav:codigo ?Code;
+            clav:titulo ?Title
+}
+
+
+
+
+
+##Listar as organizações participantes num processo e respectivo tipo de participação (exemplo c100.10.001)
+
+select * where { 
+    clav:c100.10.001 clav:temParticipante ?id ;
+        ?Type ?id .
+    
+    ?id clav:orgNome ?Name ;
+        clav:orgSigla ?Initials .
+    
+    filter (?Type!=clav:temParticipante)
+}
+
+
+
+

@@ -1,0 +1,172 @@
+## Listar ID, Nome e Sigla todas as organizações
+
+SELECT ?id ?Nome ?Sigla where {
+    ?id rdf:type clav:Organizacao ;
+        clav:orgNome ?Nome ;
+        clav:orgSigla ?Sigla
+}
+
+
+
+## Nome e sigla uma determinada organização
+
+SELECT ?Nome ?Sigla where {
+    clav:org_AP clav:orgNome ?Nome ;
+        clav:orgSigla ?Sigla
+}
+
+
+
+## Verificar se Nome e/ou Sigla já existe(m) na ontologia (Count>0 se já existir algum ou ambos)
+
+SELECT (count(*) as ?Count) where { 
+    ?o rdf:type clav:Organizacao ;
+        clav:orgSigla ?s ;
+        clav:orgNome ?n .
+    filter (?s='DGES' || ?n='Foo Bar').
+}
+
+
+
+## Inserir uma nova organização
+
+INSERT DATA {
+    clav:org_TFB rdf:type owl:NamedIndividual ,
+            clav:Organizacao ;
+        clav:orgNome 'Teste Foo Bar' ;
+        clav:orgSigla 'TFB'
+}
+
+
+
+## Alterar o nome de uma organização
+
+DELETE {clav:org_TFB clav:orgNome ?o }
+INSERT {clav:org_TFB clav:orgNome 'Teste Bar Foo' }
+WHERE  {clav:org_TFB ?p ?o }
+
+
+
+## Alterar a sigla de uma organização 
+##(no modelo actual é necessário alterar também o ID, criando uma nova organização e apagando a antiga)
+
+DELETE { clav:org_TFB ?p ?o }
+INSERT {
+    clav:org_TBF rdf:type clav:Organizacao ;
+        clav:orgNome ?nome ;
+        clav:orgSigla 'TBF'
+}
+WHERE  { clav:org_TFB clav:orgNome ?nome };
+DELETE { clav:org_TFB ?p ?o }
+WHERE { ?s ?p ?o }
+
+
+
+## Alterar sigla e nome de uma organização (homóloga à anterior)
+
+DELETE {clav:org_TBF ?p ?o }
+INSERT {
+    clav:org_TFB rdf:type clav:Organizacao ;
+        clav:orgNome 'Teste Foo Bar' ;
+        clav:orgSigla 'TFB'
+}
+WHERE  {clav:org_TBF ?p ?o };
+DELETE {clav:org_TBF ?p ?o }
+WHERE {?s ?p ?o}
+
+
+
+## Apagar uma organização
+
+DELETE {
+    clav:org_TFB ?o ?p
+}
+WHERE { ?s ?o ?p }
+
+
+###########################################################################
+
+## Listar todas a legislações
+
+SELECT * WHERE { 
+    ?id rdf:type clav:Legislacao;
+        clav:diplomaAno ?Ano;
+        clav:diplomaData ?Data;
+        clav:diplomaNumero ?Número;
+        clav:diplomaTipo ?Tipo;
+        clav:diplomaTitulo ?Titulo
+}
+
+
+
+## Dados de uma legislação
+
+SELECT * WHERE { 
+    clav:leg_1 clav:diplomaAno ?Ano;
+        clav:diplomaData ?Data;
+        clav:diplomaNumero ?Número;
+        clav:diplomaTipo ?Tipo;
+        clav:diplomaTitulo ?Titulo;
+        clav:diplomaLink ?Link;
+}
+
+
+
+## Verificar se já existe uma legislação com um determinado número
+
+SELECT (count(*) AS ?Count) WHERE {
+    ?leg rdf:type clav:Legislacao ;
+        clav:diplomaNumero '31730/41'
+}
+
+
+
+## Inserir uma nova legislação
+
+INSERT DATA {
+    clav:leg_1314 rdf:type owl:NamedIndividual ,
+            clav:Legislacao ;
+        clav:diplomaAno '2017' ;
+        clav:diplomaData '28 de Setembro' ;
+        clav:diplomaNumero '2809/2017' ;
+        clav:diplomaTipo 'Teste' ;
+        clav:diplomaTitulo 'Lorem Ipsum' ;
+        clav:diplomaLink 'http:\\\\www.exemplo.org' ;
+}
+
+
+
+## Alterar ano de uma legislação
+
+DELETE {clav:leg_1313 clav:diplomaAno ?y .}
+INSERT {clav:leg_1313 clav:diplomaAno '2017' .}
+WHERE {clav:leg_1313 clav:diplomaAno ?y .}
+
+
+
+## Alterar data, tipo e título de uma legislação 
+##(homólogo para qualquer combinação de dados a alterar)
+
+DELETE {
+	clav:leg_1313 clav:diplomaData ?d .
+	clav:leg_1313 clav:diplomaTipo ?t .
+	clav:leg_1313 clav:diplomaTitulo ?tit .
+}
+INSERT {
+	clav:leg_1313 clav:diplomaData '28 de Setembro' .
+	clav:leg_1313 clav:diplomaTipo 'Etset' .
+	clav:leg_1313 clav:diplomaTitulo 'Isto é um título' .
+}
+WHERE {
+	clav:leg_1313 clav:diplomaData ?d .
+	clav:leg_1313 clav:diplomaTipo ?t .
+	clav:leg_1313 clav:diplomaTitulo ?tit .
+}
+
+
+## Apagar uma legislação
+
+DELETE {
+    clav:leg_1314 ?o ?p
+}
+WHERE { ?s ?o ?p }
