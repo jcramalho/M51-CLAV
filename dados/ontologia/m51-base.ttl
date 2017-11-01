@@ -6,7 +6,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://jcr.di.uminho.pt/m51-clav> .
 
-<http://jcr.di.uminho.pt/m51-clav> rdf:type owl:Ontology .
+<http://jcr.di.uminho.pt/m51-clav> rdf:type owl:Ontology ;
+                                    rdfs:comment "Especificação da base da ontologia: especificação das classes, dos atributos e das relações." .
 
 #################################################################
 #    Object Properties
@@ -124,6 +125,18 @@
 ###  http://jcr.di.uminho.pt/m51-clav#pertenceLC
 :pertenceLC rdf:type owl:ObjectProperty ;
             owl:inverseOf :temClasseTopo .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#pertenceTS
+:pertenceTS rdf:type owl:ObjectProperty ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :Classe_N1
+                                        :Classe_N2
+                                        :Classe_N3
+                                        :Classe_N4
+                                      )
+                        ] ;
+            rdfs:range :TabelaSelecao .
 
 
 ###  http://jcr.di.uminho.pt/m51-clav#sujeito
@@ -288,6 +301,12 @@
            rdfs:range xsd:string .
 
 
+###  http://jcr.di.uminho.pt/m51-clav#designacao
+:designacao rdf:type owl:DatatypeProperty ;
+            rdfs:domain :TabelaSelecao ;
+            rdfs:range xsd:string .
+
+
 ###  http://jcr.di.uminho.pt/m51-clav#diplomaAno
 :diplomaAno rdf:type owl:DatatypeProperty ;
             rdfs:domain :Legislacao .
@@ -435,6 +454,10 @@
 
 ###  http://jcr.di.uminho.pt/m51-clav#RelacaoPesada
 :RelacaoPesada rdf:type owl:Class .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#TabelaSelecao
+:TabelaSelecao rdf:type owl:Class .
 
 
 ###  http://jcr.di.uminho.pt/m51-clav#TermoIndice
