@@ -1,5 +1,5 @@
-Código;Título;Descrição;Notas de aplicação;Exemplos NA;Notas de exclusão;Diplomas jurídico-administrativos REF;Diplomas jurídico-administrativos complementar;Tipo de processo;Processo transversal (S/N);Dono do processo;Participante no processo;Tipo de intervenção do participante;Código do processo relacionado;Título do processo relacionado;Tipo de relação entre processos;Dimensão qualitativa do processo;Uniformização do processo;Prazo de conservação administrativa;Nota ao PCA;Justificação PCA;Forma de contagem do prazo de cons. adm.;Destino final;Justificação DF;Notas;;;;;;;;;;
-300;ADMINISTRAÇÃO DE DIREITOS, BENS E SERVIÇOS;Relativo à aquisição e gestão de direitos e de bens, no que se incluem os bens materiais e imateriais dos domínios privado e público do Estado, das Regiões Autónomas e das Autarquias Locais. Inclui a gestão dos bens que, sendo propriedade de entidades privadas, se encontram à guarda de serviços públicos (por exemplo, bens apreendidos, documentos depositados em arquivos públicos). Relativo, ainda, à contratualização e gestão de contratos de serviços adjudicados, fornecidos ou concessionados pela Administração;"Contratualização de serviços#
+Estado;Código;Título;Descrição;Notas de aplicação;Exemplos NA;Notas de exclusão;Diplomas jurídico-administrativos REF;Diplomas jurídico-administrativos complementar;Tipo de processo;Processo transversal (S/N);Dono do processo;Participante no processo;Tipo de intervenção do participante;Código do processo relacionado;Título do processo relacionado;Tipo de relação entre processos;Dimensão qualitativa do processo;Uniformização do processo;Prazo de conservação administrativa;Nota ao PCA;Justificação PCA;Forma de contagem do prazo de cons. adm.;Destino final;Justificação DF;Notas;;;;;;;;;;
+;300;ADMINISTRAÇÃO DE DIREITOS, BENS E SERVIÇOS;Relativo à aquisição e gestão de direitos e de bens, no que se incluem os bens materiais e imateriais dos domínios privado e público do Estado, das Regiões Autónomas e das Autarquias Locais. Inclui a gestão dos bens que, sendo propriedade de entidades privadas, se encontram à guarda de serviços públicos (por exemplo, bens apreendidos, documentos depositados em arquivos públicos). Relativo, ainda, à contratualização e gestão de contratos de serviços adjudicados, fornecidos ou concessionados pela Administração;"Contratualização de serviços#
 Transferência de propriedade, gratuita ou onerosa#
 Transferência de responsabilidades de gestão#
 Transferência de direitos de utilização ou exploração#
@@ -13,7 +13,7 @@ Os diagnósticos de necessidades e elaboração de planos estratégicos para a g
 de bens e serviços deverão ser considerados em ""Planeamento e gestão estratégica/
 Planeamento, avaliação e melhoria de serviços"" (150.20).
 ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-300.10;Aquisição, venda, abate ou permuta;"Compreende as atividades que suportam os processos de aquisição, alienação e permuta de direitos de propriedade sobre bens móveis e imóveis e/ou transferência de responsabilidades de gestão.
+;300.10;Aquisição, venda, abate ou permuta;"Compreende as atividades que suportam os processos de aquisição, alienação e permuta de direitos de propriedade sobre bens móveis e imóveis e/ou transferência de responsabilidades de gestão.
 Compreende, igualmente, a contratualização e a gestão de contratos de serviços adjudicados ou fornecidos pelos organismos da administração, no que se inclui o registo de controlo de fornecedores e o registo de controlo dos clientes a quem são prestados serviços contratualizados.
 ";Devem ser aqui consideradas todas as fases da formação dos contratos, o acompanhamento da respetiva execução, e eventuais alterações ou rescisão do contrato estabelecido (o que pode incluir a avaliação de bens, a análise prévia de mercado, a escolha e implementação do procedimento de aquisição, decisão de adjudicação, a negociação do contrato e das eventuais alterações, e a respetiva execução)#;" Contratos de aquisição onerosa de bens e/ou de serviços (incluindo contratos de empreitada)#
 Contratos, acordos ou protocolos de fornecimento de bens e/ou de prestação de serviços (por exemplo, abastecimento de água, prestação de consultoria técnicocientífica)#
@@ -30,7 +30,7 @@ A contratualização de direitos de utilização de bens, ou meras autorizaçõe
 exploração e rendibilidade"" (300.50) - no que se inclui, entre outros, a contratualização do arrendamento ou aluguer, a autorização para uso de material sujeito a direitos de autor, a cedência de instalações.
 A celebração de escrituras deve ser considerada em ""Prestação de serviços de identificação e registo/Formalização notarial de atos jurídicos"" (400.30).
 A instrução de pedidos de registo de propriedade deve ser considerada em ""Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos"" (400.10).";;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-300.10.001;Contratação de empreitadas de obras públicas de natureza não crítica;"Aquisição da execução ou, conjuntamente, da conceção e execução de projetos de infraestrutura não crítica para servir a sociedade, mediante um preço.
+;300.10.001;Contratação de empreitadas de obras públicas de natureza não crítica;"Aquisição da execução ou, conjuntamente, da conceção e execução de projetos de infraestrutura não crítica para servir a sociedade, mediante um preço.
 Inicia com a proposta de aquisição e termina com a confirmação da receção definitiva do bem.
 Inclui elaboração de caderno de encargos, autorização, receção e avaliação de propostas, comprovativo de cabimentação, decisão e contratualização da adjudicação, verificação do cumprimento das cláusulas contratualizadas, verificação da conformidade da caução e informação para a liberação de caução, resolução ou revogação de contrato, quando aplicável. ";"Considera-se donos de obras públicas: 
 - O Estado; 
@@ -121,14 +121,14 @@ PN 150.10.701 - Reunião de órgãos executivos (decisão)
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.001 - Compilação técnica de obra (síntese das intervenções efetuadas no imóvel)
 ";A parte técnica só pode ser eliminada se for conservada no PN compilação técnica.;;;;;;;;;;
-300.10.002;Contratação de fornecimento de serviços públicos essenciais;"Aquisição da prestação de serviços públicos básicos e universais ao bem-estar das pessoas, singulares ou coletivas, públicas ou privadas, de forma permanente ou eventual.
+;300.10.002;Contratação de fornecimento de serviços públicos essenciais;"Aquisição da prestação de serviços públicos básicos e universais ao bem-estar das pessoas, singulares ou coletivas, públicas ou privadas, de forma permanente ou eventual.
 Inicia com o acordo que vincula as partes nas suas obrigações e direitos e termina com a extinção da prestação de serviços.
 Inclui recolha de elementos para celebração do contrato, alterações e aditamentos, e acompanhamento do contrato.";"Abastecimento e distribuição de água potável para consumo humano#
 Fornecimento de energia elétrica#
 Fornecimento de serviços de transportes públicos#
 Fornecimento de serviços postais#";;"A recolha de resíduos deve ser considerada em 710.10.002 – Recolha de resíduos#
-O tratamento de águas residuais urbanas deve ser considerado em 710.10.005 – Tratamento e rejeição de águas resíduais# 
-O tratamento de resíduos sólidos urbanos deve ser considerado em 710.10.004 – Tratamento de resíduos# ";"DL 4/2015#
+O tratamento de águas residuais urbanas deve ser considerado em 710.10.005 – Tratamento e rejeição de águas resíduais#
+O tratamento de resíduos sólidos urbanos deve ser considerado em 710.10.004 – Tratamento de resíduos#";"DL 4/2015#
 DL 18/2008#
 DL 149/2012#
 Lei 23/96#
@@ -182,7 +182,7 @@ PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 150.20.404 - Prestação de contas (síntese de valores obtidos pela prestação do serviço)
 PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos
 PN 300.30.008 - Registo de documentos e informação (quantificação e descrição dos clientes)";;;;;;;;;;;
-300.10.003;Transação e transmissão de bens imóveis;"Aquisição ou alienação do direito de propriedade e de outros direitos reais sobre bens imóveis, de forma onerosa ou gratuita, por contrato, expropriação, sucessão, usucapião e pelas demais formas previstas na lei.
+;300.10.003;Transação e transmissão de bens imóveis;"Aquisição ou alienação do direito de propriedade e de outros direitos reais sobre bens imóveis, de forma onerosa ou gratuita, por contrato, expropriação, sucessão, usucapião e pelas demais formas previstas na lei.
 Inicia, quando aplicável, com a proposta de aquisição ou de alienação do imóvel e termina com a receção ou entrega.
 Inclui, de acordo com a forma de transmissão do direito, avaliação e negociação das condições contratuais, adjudicação da proposta, celebração do contrato, quando este seja celebrado por documento particular e resolução ou revogação de contrato, aceitação da herança, do legado ou da doação, bem como das suas condições ou encargos, celebração da promessa de aquisição do direito.";"Alienação de imóvel urbano e de imóvel rural#
 Aquisição ou alienação de bens imóveis através de cessão de posição contratual#
@@ -259,7 +259,7 @@ PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.005 - Inventariação e cadastro de bens imóveis (identificação e caracterização)
 PN 400.10.406 - Registo predial
 PN 400.10.407 Registo de prédios na matriz predial (registo de bens materiais)";Nota: a eliminação só pode ser efetuada após confirmação do registo definitivo do bem.;;;;;;;;;;
-300.10.004;Transação e transmissão de bens móveis culturais;"Aquisição e alienação do direito de propriedade e de outros direitos reais sobre bens móveis culturais, de forma onerosa ou gratuita, por contrato, expropriação, sucessão, usucapião e pelas demais formas previstas na lei.
+;300.10.004;Transação e transmissão de bens móveis culturais;"Aquisição e alienação do direito de propriedade e de outros direitos reais sobre bens móveis culturais, de forma onerosa ou gratuita, por contrato, expropriação, sucessão, usucapião e pelas demais formas previstas na lei.
 Inicia, quando devido, com a proposta de aquisição ou de alienação do bem móvel cultural e termina com a declaração de receção ou entrega do bem.
 Inclui, de acordo com a forma de transmissão do direito, avaliação e negociação das condições contratuais, adjudicação da proposta, celebração do contrato e resolução ou a revogação de contrato, aceitação da herança, do legado ou da doação, bem como das suas condições ou encargos e celebração da promessa de aquisição do direito e elaboração de guia de remessa dos bens trasacionados, quando devido. ";"Aquisição de direitos de autor sobre bens culturais, se adquiridos conjuntamente com os bens#
 Aquisição ou alienação de bens móveis culturais através de cessão de posição contratual#
@@ -322,7 +322,7 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração):
 PN 500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).";Data da confirmação da receção do bem;C;"Densidade informacional:
 Informação detalhada não recuperável noutro PN, nomeadamente a relativa ao percurso custodial do bem conservado a título permanente, elemento determinante para a demonstração da sua autenticidade.";;;;;;;;;;;
-300.10.005;Transação e transmissão de bens móveis não culturais e contratação de serviços;"Aquisição ou alienação do direito de propriedade ou de outros direitos reais sobre bens móveis, de forma onerosa ou gratuita, por contrato, expropriação, sucessão, usucapião e pelas demais formas previstas na lei, e aquisição e venda de serviços.
+;300.10.005;Transação e transmissão de bens móveis não culturais e contratação de serviços;"Aquisição ou alienação do direito de propriedade ou de outros direitos reais sobre bens móveis, de forma onerosa ou gratuita, por contrato, expropriação, sucessão, usucapião e pelas demais formas previstas na lei, e aquisição e venda de serviços.
 Inicia com a proposta de aquisição ou de alienação do bem móvel ou do serviço e termina com a receção ou entrega do bem ou do resultado do serviço prestado.
 Inclui, dependendo da sujeição do procedimento de contratação ao Código dos Contratos Públicos, decisão de contratar, escolha do procedimento, designação do júri, avaliação e negociação das propostas, adjudicação, verificação dos documentos de habilitação do adjudicatário, verificação da conformidade da caução, celebração e alteração do contrato, acompanhamento da sua execução e resolução ou revogação de contrato.
 Pode incluir, ainda, dependendo da forma de transmissão do direito, aceitação da herança, do legado ou da doação, bem como das suas condições ou encargos e celebração da promessa de aquisição do direito.";"Aquisição de bens através de locação financeira (leasing)#
@@ -336,13 +336,22 @@ Aquisição de serviços de manutenção#
 Aquisição de serviços de alojamento#
 Aquisição de normas e documentos normativos#
 Pedido de insignias e brindes institucionais (canetas, pins, calendários, galhardetes, porta-chaves, livros de pintar e outros pequenos objetos com a logomarca e brasão da  instituição)#
-Ofertas protocolares#";;"A aquisição de empreitadas de obras públicas deve ser considerada em 300.10.001 – Contratação de empreitadas de obras públicas#
+Ofertas protocolares#";Aceitação de registos e documentos de arquivo à guarda do Estado#;"A aquisição de empreitadas de obras públicas deve ser considerada em 300.10.001 – Contratação de empreitadas de obras públicas#
 A aquisição de serviços de distribuição de água deve ser considerada em 300.10.002 – Contratação de fornecimento de serviços públicos essenciais#
 A aquisição de bens culturais deve ser considerada em 300.10.004 – Transação e transmissão de bens móveis culturais#
 A aquisição de direitos de propriedade intelectual e industrial deve ser considerada em 300.10.006 – Transação e transmissão de direitos de propriedade intelectual#
 A custódia de bens não culturais (guarda provisória de bens) deve ser considerada em 300.10.700 – Depósito de bens não culturais#";"DL 4/2015#
 DL 104/2011#
-DL 18/2008, alterado pelo DL 149/2012#";;PC;N;AP#;;;"150.10.700#
+DL 18/2008#
+DL 149/2012#
+Lei 102/2009#
+Lei 3/2014#
+DL 266/2007#";"DL 4/2015#
+DL 104/2011#
+DL 18/2008, alterado pelo DL 149/2012#
+Lei 102/2009#
+Lei 3/2014#
+DL 266/2007#";PC;N;AP#;;;"150.10.700#
 150.10.701#
 150.20.300#
 300.30.003#
@@ -383,11 +392,11 @@ PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.003 - Inventariação de bens móveis duradouros não culturais (identificação e caracterização)
 PN 400.10.409 - Registo de veículos automóveis (registo de bens materiais)
 PN 400.30.001 - Celebração de contratos, escrituras, títulos equivalentes e testamentos (ato jurídico transposto para um instrumento público)";;;;;;;;;;;
-300.10.006;"Transação e transmissão de direitos de propriedade intelectual
+;300.10.006;"Transação e transmissão de direitos de propriedade intelectual
 
 
 ";"Aquisição ou alienação, onerosa ou não onerosa, de direitos de autor ou de direitos de propriedade industrial, sobre bens ou conhecimento técnico e científico.
-Inicia com a proposta de aquisição e termina com a transmissão dos direitos sobre o bem ou o conhecimento.
+Inicia com a proposta de aquisição e termina com a confirmação da transmissão dos direitos sobre o bem ou o conhecimento.
 Inclui, no caso da transferência de conhecimento, criação, organização e disseminação do conhecimento, assegurando a sua disponibilização a terceiros e, no caso de transferência de tecnologia, transmissão de resultados de investigação de uma organização para outra, com o objetivo de desenvolvimento posterior ou comercialização.";"Aquisição ou alienação de direitos de autor#
 Aquisição ou alienação de know-how#
 Aquisição ou alienação de patentes#
@@ -447,7 +456,7 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração);
 PN 500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).";Data de confirmação da transmissão do direito;C;"Densidade informacional:
 Informação detalhada não recuperável noutro PN";;;;;;;;;;;
-300.10.007;Transação e transmissão de participações sociais;"Aquisição ou alienação de posições patrimoniais, ativos e passivos, formalizado por ato de fé pública.
+;300.10.007;Transação e transmissão de participações sociais;"Aquisição ou alienação de posições patrimoniais, ativos e passivos, formalizado por ato de fé pública.
 Inicia com a proposta de aquisição ou transmissão por falecimento de um sócio e termina com o reconhecimento expresso perante a sociedade.
 Inclui o expresso consentimento dos sócios e atualização do Registo Comercial.";"Transmissão por herança de partes sociais, pertencentes a um sócio falecido#
 Transmissão por exoneração ou exclusão de um sócio#";;A formalização da transmissão por ato notarial deve ser considerada em 400.30.001 – Celebração de contratos, escrituras, títulos equivalentes e testamentos#;"Lei 41/2013#
@@ -498,19 +507,18 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração);
 PN 500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).";Data de confirmação da transmissão do direito;C;"Densidade informacional:
 Informação detalhada não recuperável noutro PN";Nos termos da Portaria n.º 671/2000 (2.ª série) os bens do património financeiro do Estado não são abrangidos pelo CIBE - Cadastro e inventário dos bens do Estado;;;;;;;;;;
-300.10.008;Estabelecimento de convenções com operadores privados;"Celebração de um contrato (convenção) com entidade privada para prestação de determinado serviço na área da saúde.
+;300.10.008;Estabelecimento de convenções com operadores privados;"Celebração de um contrato (convenção) com entidade privada para prestação de determinado serviço na área da saúde.
 Inicia com a proposta de seleção da modalidade de procedimento: a) convenção específica ou b) adesão ao clausulado-tipo e termina com a celebração da convenção e registo no Registo de Prestadores Convencionados.
 Inclui audição de entidades envolvidas, análise de idoneidade da entidade e negociação de preços.
 ";Contrato com entidades (não integradas no SNS) para prestação de cuidados de saúde a beneficiários do Serviço Nacional de Saúde, da ADSE e de outros subsistemas de saúde#;;Os acordos de cooperação devem ser considerados em 150.10.500 – Elaboração de instrumemtos de cooperação interinstitucional#;"DL 139/2013#
 DL 118/83#
-DL 234/2005# 
-Portaria 351/2007#
-";;PE;S;"ACSS#
+DL 234/2005#
+Portaria 351/2007#";;PE;S;"ACSS#
 ARS#
 ADSE#
 AL#";"ACES#
 HH#";"Iniciar#
-";"150.10.700#
+Comunicar#";"150.10.700#
 150.10.701#
 150.20.300#
 300.50.803#
@@ -539,7 +547,7 @@ Informação síntese recuperável em
 PN 150.10.700 - Reunião de órgãos deliberativos
 PN 150.10.701 - Reunião de órgãos executivos (decisão)
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)";;;;;;;;;;;
-300.10.009;"Pronúncia sobre o exercício do direito de preferência
+;300.10.009;"Pronúncia sobre o exercício do direito de preferência
 
 ";"Gozo dos comproprietários, do Estado, das Regiões Autónomas e dos Municípios, pela ordem indicada, do direito de preferência em caso de venda direta ou hasta pública, ou dação em pagamento de bens classificados ou em vias de classificação, ou dos bens situados na respetiva zona de proteção.
 Inicia com a comunicação de um particular ou de uma entidade pública da sua intenção de vender um bem e termina com a comunicação da decisão pela entidade competente, de exercer, ou não, esse direito, ou pela caducidade do mesmo por ausência de resposta.
@@ -553,9 +561,8 @@ DL 280/2007#
 Lei 107/2001#
 Portaria 671/2000#
 Decreto 862/76#
-DL 794/76#
-DL 148/2015#
-";;PC;S;AP#;AP#;Comunicar#;"150.10.700#
+Lei 31/2014#
+DL 148/2015#";;PC;S;AP#;AP#;Comunicar#;"150.10.700#
 150.10.701#
 150.20.300#
 300.10.003#
@@ -594,7 +601,7 @@ PN 300.30.002 - Inventariação de bens móveis culturais (identificação e car
 PN 300.30.005 - Inventariação e cadastro de bens imóveis (identificação e caracterização)
 PN 400.10.406 - Registo predial
 PN 400.10.407 - Registo de prédios na matriz predial (registo de bens materiais)";;;;;;;;;;;
-300.10.010;Admissão em organizações associativas;"Aquisição e extinção de direitos de associado, aderente ou membro.
+;300.10.010;Admissão em organizações associativas;"Aquisição e extinção de direitos de associado, aderente ou membro.
 Inicia com a manifestação da vontade de adesão e termina com a cessação.
 Inclui a inscrição e eventual cancelamento da inscrição.";Inscrição, alteração ou cancelamento#;"Em associação#
 Em associação profissional#
@@ -619,7 +626,7 @@ Informação síntese recuperável em
 PN 150.10.700 - Reunião de órgãos deliberativos
 PN 150.10.701 - Reunião de órgãos executivos (decisão)
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)";;;;;;;;;;;
-300.10.011;Transação e transmissão de bens e serviços críticos e de defesa e segurança;"Aquisição e alienação de bens e serviços para áreas estratégicas e de defesa e segurança, nomeadamente bens e tecnologias críticas, empreitadas de obras públicas para infraestruturas em setores sensíveis, como a energia, os transportes, o abastecimento de água.
+;300.10.011;Transação e transmissão de bens e serviços críticos e de defesa e segurança;"Aquisição e alienação de bens e serviços para áreas estratégicas e de defesa e segurança, nomeadamente bens e tecnologias críticas, empreitadas de obras públicas para infraestruturas em setores sensíveis, como a energia, os transportes, o abastecimento de água.
 Inicia com a proposta de aquisição ou de alienação do bem móvel ou do serviço e termina com a receção ou entrega do bem ou do resultado do serviço prestado.
 Inclui, dependendo da sujeição do procedimento de contratação, recolha de informação, entrega de proposta, decisão de contratar, designação do júri, avaliação e negociação das propostas, adjudicação, verificação dos documentos de habilitação do adjudicatário, verificação da conformidade da caução, celebração e alteração do contrato, acompanhamento da sua execução e resolução ou revogação de contrato.
 ";"Contratualização de empreitada em infraestrutura crítica (aquela cuja destruição total ou parcial, disfunção ou utilização indevida possa afetar, direta ou indiretamente, de forma permanente ou prolongada, o funcionamento de Órgãos de Soberania, de Órgãos da Segurança Nacional ou os valores básicos, afectando, desta forma, gravemente, o bem-estar social)#
@@ -656,7 +663,7 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 (no que diz respeito à atuação da Administração).";Data da confirmação da receção definitiva do bem ou data da libertação da garantia, caso seja superior.;C;"Enumeração e tipificação dos casos recuperável através das estatísticas (DL 104/2011, art. 69.º)
 Esta síntese não permite recuperar a atuação em particular da Administração, numa área em que a aplicação de regras pode ser mais flexivel.";"Nos termos da Portaria n.º 671/2000 (2.a série)
 os bens do Estado afectos às Forças Armadas não são abrangidos pelo CIBE - Cadastro e inventário dos bens do Estado";;;;;;;;;;
-300.10.300;Abate de bens móveis;"Eliminação controlada de bens móveis.
+;300.10.300;Abate de bens móveis;"Eliminação controlada de bens móveis.
 Inicia com a proposta fundamentada e termina com a comunicação do abate.
 Inclui autorização e sistematização dos bens a eliminar.";"Abate de bens móveis sujeitos a inventariação (bens registados em 300.30.003 Inventariação de bens móveis duradouros não culturais)#
 Destruição de equipamento informático#
@@ -704,7 +711,7 @@ PN 150.10.700 - Reunião de órgãos deliberativo
 PN150.10.701 - Reunião de órgãos executivos (decisão)
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.003 - Inventariação de bens móveis duradouros não culturais (identificação e caracterização)";;;;;;;;;;;
-300.10.301;Demolição de bens imóveis;"Destruição parcial ou total de uma edificação própria, bem como de qualquer outra construção que se incorpore no solo com caráter de permanência.
+;300.10.301;Demolição de bens imóveis;"Destruição parcial ou total de uma edificação própria, bem como de qualquer outra construção que se incorpore no solo com caráter de permanência.
 Inicia com a proposta de demolição e termina com a comunicação para atualização do inventário.
 Inclui projeto de demolição e elaboração do auto de demolição.";;;"A aquisição de serviços de empreitada para demolição de iniciativa pública deve ser considerada em 300.10.001 – Contratação de empreitadas de obras públicas#
 A demolição de imóvel privado deve ser considerada em 450.10.204 – Licenciamento ou autorização de edificações#
@@ -737,7 +744,7 @@ PN 150.10.701 - Reunião de órgãos executivos (decisão)
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.001 - Compilação técnica de obra (síntese do plano de demolição efetuadas no imóvel)
 ";A parte técnica só pode ser eliminada se for conservada no PN compilação técnica.;;;;;;;;;;
-300.10.302;Eliminação de documentos e informação;"Destruição controlada de documentação e informação administrativa, independentemente do suporte, decorridos os prazos legais.
+;300.10.302;Eliminação de documentos e informação;"Destruição controlada de documentação e informação administrativa, independentemente do suporte, decorridos os prazos legais.
 Inicia com a proposta e termina com a comunicação da eliminação à entidade competente.
 Inclui análise da documentação ou informação, verificação de prazos legais de conservação administrativa e de destino final, autorização de eliminação e elaboração de auto de eliminação.";"Eliminação de documentos de arquivo#
 Eliminação de informação administrativa, independentemente do seu suporte#
@@ -790,7 +797,7 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data de encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutro PN;
 É complementar do PN 300.30.602 - Avaliação de informação arquivística";;;;;;;;;;;
-300.10.601;Requisição temporária de bens do domínio privado;"Uso temporário de bens de terceiros para resolução excecional e inadiável de situações anómalas.
+;300.10.601;Requisição temporária de bens do domínio privado;"Uso temporário de bens de terceiros para resolução excecional e inadiável de situações anómalas.
 Inicia com a toma do bem e termina com a sua devolução ou com a decisão sobre a forma de compensação pela privação do bem.
 Inclui autorização da requisição e formalização da devolução e específicação do serviço a prestar, assim como a respetiva autorização.";"Toma de veículos e máquinas em situações de emergência#
 Utilização de águas de privados no combate a incêndios#
@@ -829,7 +836,7 @@ PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 150.20.404 - Prestação de contas (síntese da informação orçamental e patrimonial)
 PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos)
 PN 300.30.008 - Registo de documentos e informação (identificação e caracterização)";;;;;;;;;;;
-300.10.602;"Depósito de bens apreendidos por imposição judicial
+;300.10.602;"Depósito de bens apreendidos por imposição judicial
 ";"Guarda temporária de bens decorrente de apreensão legal.
 Inicia com o pedido de depósito ou entrega de bens e termina com a devolução ou decisão sobre o destino dos bens.
 Inclui a receção, controlo e guarda ou custódia dos bens depositados na sequência de apreensão.";"Guarda provisória de bens decorrente de apreensão legal#
@@ -837,12 +844,8 @@ Inclui a receção, controlo e guarda ou custódia dos bens depositados na sequ�
 A apreensão de bens no âmbito de medidas administrativas cautelares deve ser considerada em 500.30.500 – Aplicação de medidas administrativas cautelares#
 
 ";"Lei 59/2007#
-DL 78/1987#
-
-";"Lei 59/2007 - Código Penal, art 109 a 111#
-DL 78/1987 - Código do Processo Penal, art 95, 161, 178 a 186, 268 e 270#
-
-";PC;S;"IGFEJ#
+DL 78/87#";"Lei 59/2007 - Código Penal, art 109 a 111#
+DL 78/87 - Código do Processo Penal, art 95, 161, 178 a 186, 268 e 270#";PC;S;"IGFEJ#
 PJ#
 ESPAP#
 ";"Trb#
@@ -871,7 +874,7 @@ Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos)
 PN 300.30.008 - Registo de documentos e informação (identificação e caracterização)";;;;;;;;;;;
-300.10.700;Depósito de bens não culturais;"Aquisição ou alienação temporária da responsabilidade da gestão de bens não culturais de terceiros.
+;300.10.700;Depósito de bens não culturais;"Aquisição ou alienação temporária da responsabilidade da gestão de bens não culturais de terceiros.
 Inicia com o pedido de depósito ou entrega de bens e termina com a devolução ou decisão sobre o destino dos bens.
 Inclui a receção, controlo e guarda ou custódia dos bens depositados.";"Custódia de bens não culturais a título de depósito#
 Guarda provisória de bens decorrente de situações de catástrofe ou sinistro#
@@ -881,13 +884,12 @@ A apreensão de bens no âmbito de medidas administrativas cautelares deve ser c
 O registo de bens recolhidos e cujo dono é desconhecido deve ser considerado em 300.30.009 – Registo de perdidos e achados#
 ";"Lei 46/2011#
 Lei 45/2011#
-Lei 37/2008, art 19 e 20#
+Lei 37/2008#
 DL 170/2008#
 DL 15/93#
 Lei 42/2014#
 DL 4/2015#
-DL 148/2015#
-";"Lei 37/2008, art 19 e 20#
+DL 148/2015#";"Lei 37/2008, art 19 e 20#
 ";PC;S;"AL#
 IES#";AP#;Iniciar#;"150.10.700#
 150.10.701#
@@ -926,15 +928,15 @@ PN 150.10.701 - Reunião de órgãos executivos (decisão)
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos)
 PN 300.30.008 - Registo de documentos e informação (identificação e caracterização)";;;;;;;;;;;
-300.10.701;Depósito de bens culturais;"Aquisição ou alienação temporária da responsabilidade da gestão de bens culturais de terceiros.
+;300.10.701;Depósito de bens culturais;"Aquisição ou alienação temporária da responsabilidade da gestão de bens culturais de terceiros.
 Inicia com o pedido de depósito ou a entrega de bens e termina com a devolução ou decisão sobre o destino dos bens.
 Inclui a receção, controlo e guarda ou custódia dos bens depositados voluntariamente, por acordo entre as partesl.";"Custódia de bens culturais (por exemplo# documentos arquivísticos, peças museológicas) a título de depósito#
 Transferência temporária da responsabilidade de gestão de documentação e informação administrativa, independentemente do seu suporte#
-";;A incorporação de documentos com valor cultural provenientes de outras entidades deve ser classificada em 300.10.004 – Transação e transmissão de bens móveis culturais, bem como os bens móveis culturais adquiridos onerosamente, permutados, recebidos em dação, doação ou herança#;"Lei 16/93#
+";;A incorporação de documentos com valor cultural provenientes de outras entidades deve ser classificada em 300.10.004 – Transação e transmissão de bens móveis culturais, bem como os bens móveis culturais adquiridos onerosamente, permutados, recebidos em dação, doação ou herança#;"DL 16/93#
 Lei 107/2001#
 Lei 55/2012# 
 DL 124/2013#
-";;PC;S;"BN#
+";;PC;S;"BNP#
 Cinemateca#
 DGLAB#
 Museus#
@@ -962,7 +964,7 @@ Prazo prescricional  da responsabilidade financeira reintegratória ([Lei 98/97]
 Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade em sede de
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data do término da responsabilidade sobre os bens;C;"Densidade informacional:
 Informação detalhada não recuperável noutro PN, nomeadamente a relativa ao percurso custodial do bem conservado a título permanente, elemento determinante para a demonstração da sua autenticidade.";;;;;;;;;;;
-300.20;Concessão, delegação e parceria público-privada;"Compreende as atividades que suportam os processos de formação de contratos de concessão, de delegação ou de constituição de parcerias público-privadas para a construção, uso e/ou exploração de bens e/ou para a prestação de serviços públicos, bem como os contratos de concessão do jogo.
+;300.20;Concessão, delegação e parceria público-privada;"Compreende as atividades que suportam os processos de formação de contratos de concessão, de delegação ou de constituição de parcerias público-privadas para a construção, uso e/ou exploração de bens e/ou para a prestação de serviços públicos, bem como os contratos de concessão do jogo.
 Compreende, igualmente, os processos de acompanhamento da relação contratual, controlo da execução dos contratos de concessão ou parceria estabelecidos (incluindo apuramento de contrapartidas, autorizações de dedução à contrapartida) e, ainda, os eventuais processos de modificação e rescisão daqueles contratos.";"Concessão de obra pública - conceção, construção e/ou exploração#
 Concessão de exploração de serviços públicos#
 Concessão de prospeção de recursos naturais#
@@ -970,7 +972,7 @@ Concessão de utilização de imóvel#
 Concessão do jogo#
 Delegação de serviços públicos#
 Constituição de parcerias público-privadas#";;Quando houver lugar a processos de contencioso judicial deve ser aberto processo em “Administração da justiça/ Produção de prova e decisão judicial” (600.30.);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-300.20.001;Constituição e acompanhamento de parcerias público-privadas;"Lançamento de parcerias público-privadas e acompanhamento da sua execução.
+;300.20.001;Constituição e acompanhamento de parcerias público-privadas;"Lançamento de parcerias público-privadas e acompanhamento da sua execução.
 Inicia com a proposta de projeto de parceria e termina com a extinção do contrato.
 Inclui escolha do grupo de avaliação e procedimento concursal, avaliação de propostas, adjudicação, verificação da conformidade da caução e celebração do contrato.
 Inclui ainda a consulta ao governo, escolha de procedimento concursal, designação do júri, avaliação das propostas, adjudicação, verificação da conformidade da caução, celebração do contrato e acompanhamento e monitorização da sua execução. Em caso de necessidade inclui também alterações e aditamentos ao contrato celebrado.";"Concessão de obra pública em regime de parceria publico-privada#
@@ -981,11 +983,10 @@ Lei 41/2014#
 DL 18/2008#
 DL 34/2009#
 DL 249/2012#
-DL 11/2012#
+DL 111/2012#
 DL 278/2009#
-DL 86/2003#
-DL 185/2002#
-";DL 18/2008 alterado pelos DL 34/2009 e DL 249/2012#;PE;S;AP#;Gov#;Decidir#;"150.10.001#
+DL 185/2002#";"DL 18/2008 alterado pelos DL 34/2009 e DL 249/2012#
+DL 86/2003#";PE;S;AP#;Gov#;Decidir#;"150.10.001#
 150.10.700#
 150.10.701#
 150.20.300#
@@ -1030,16 +1031,22 @@ PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da 
 PN 500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).";Data da extinção do contrato;C;"Densidade informacional:
 Informação não recuperável noutro PN com nível de detalhe para documentar a atividade.
 ";;;;;;;;;;;
-300.20.200;Concessão de obras públicas;"Contratação entre o Estado e um particular, em que este se encarrega de executar e explorar uma obra pública, tendo como contrapartida uma retribuição obtida, por exemplo, através de taxas de utilização.
+;300.20.200;Concessão de obras públicas;"Contratação entre o Estado e um particular, em que este se encarrega de executar e explorar uma obra pública, tendo como contrapartida uma retribuição obtida, por exemplo, através de taxas de utilização.
 Inicia com a abertura de um procedimento concursal e termina com a extinção do contrato de concessão.
 Inclui escolha do procedimento, avaliação e negociação das propostas, adjudicação,  verificação da conformidade da caução e celebração do contrato.";Processos de concessão de obras públicas que não sejam contratualizados no âmbito de parceria público-privada#;;"Tratando-se de parceria público-privada, o processo deve ser considerado em 300.20.001 – Constituição e acompanhamento de parcerias público-privadas#
 As concessões de serviço público devem ser considerados em 300.20.400 – Concessão de serviços e do uso ou exploração de bens do domínio público#";"DL 4/2015#
 DL 144/2012#
+DL 259/1999#
+DL 17/2008#
+DL 280/2007#
+DL 18/2008#
+DL 34/2009#
+DL 249/2012#
+Lei 3/2010#";"DL 4/2015#
+DL 144/2012#
 DL 259/1999, alterado pelo DL 17/2008#
 DL 280/2007#
-DL 18/2008, alterado pelos DL 34/2009, DL 249/2012 e Lei 3/2010#";"DL 259/1999, alterado pelo DL 17/2008#
-DL 18/2008, alterado pelos DL 34/2009, DL 249/2012 e Lei 3/2010#
-";PC;S;"AL#
+DL 18/2008, alterado pelos DL 34/2009, DL 249/2012 e Lei 3/2010#";PC;S;"AL#
 SPE#
 IGFEJ#";Gov#;Decidir#;"150.10.001#
 150.10.700#
@@ -1084,7 +1091,7 @@ PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da 
 PN 500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).";Data da extinção do contrato;C;"Densidade informacional:
 Informação não recuperável noutro PN com nível de detalhe para documentar a atividade.
 ";;;;;;;;;;;
-300.20.400;Concessão de serviços e do uso ou exploração de bens do domínio público;"Atribuição de um serviço ou contratação entre o Estado e entidades públicas ou particulares, com vista à exploração de um serviço ou bem do domínio público, mediante retribuição ou compensação prevista.
+;300.20.400;Concessão de serviços e do uso ou exploração de bens do domínio público;"Atribuição de um serviço ou contratação entre o Estado e entidades públicas ou particulares, com vista à exploração de um serviço ou bem do domínio público, mediante retribuição ou compensação prevista.
 Inicia por decisão da tutela ou pela abertura de um procedimento concursal e termina com a extinção da concessão.
 Inclui escolha do procedimento, avaliação e negociação das propostas, adjudicação, verificação da conformidade da caução e a preparação da celebração do contrato quando devido.";"Processos de concessão de serviços públicos, que não sejam contratualizados no âmbito de parceria público-privada ou de delegação#
 Concessão do uso ou exploração de bens do domínio público, que não seja contratualizada no âmbito de parceria público-privada ou de delegação#";;"Sempre que se tratar de parceria público-privada, deve ser considerado em 300.20.001 – Constituição e acompanhamento de parcerias público-privadas#
@@ -1138,11 +1145,11 @@ PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da 
 PN 500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).";Data da extinção da concessão;C;"Densidade informacional:
 Informação não recuperável noutro PN com nível de detalhe para documentar a atividade.
 ";;;;;;;;;;;
-300.20.401;Delegação de serviços públicos;"Contratação entre o Estado e entidades públicas ou particulares, para a prossecução de algumas das suas atribuições, delegando-lhe os poderes necessários para o efeito. 
+;300.20.401;Delegação de serviços públicos;"Contratação entre o Estado e entidades públicas ou particulares, para a prossecução de algumas das suas atribuições, delegando-lhe os poderes necessários para o efeito. 
 Inicia por decisão da tutela relativa à delegação e termina com a extinção da delegação.
 Inclui escolha do delegado ou do procedimento para a delegação, avaliação e negociação das propostas, verificação da conformidade da caução e a preparação da celebração do contrato quando devido.";"Processos de delegação de serviços públicos, que não sejam contratualizados no âmbito de parceria público-privada ou de concessão#
 ";;A delegação de competências deve ser considerada em 100.10.600 – Produção e comunicação de regras institucionais#;"DL 4/2015#
-Lei 3/2004#";;PE;S;"Institutos Públicos#
+Lei 3/2004#";;PE;S;"I.P.#
 SPE#";Gov#;Decidir#;"150.10.001#
 150.10.100#
 150.10.700#
@@ -1188,11 +1195,11 @@ PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da 
 PN 500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).";Data da extinção da delegação;C;"Densidade informacional:
 Informação não recuperável noutro PN com nível de detalhe para documentar a atividade.
 ";;;;;;;;;;;
-300.20.600;"Concessão de jogos de fortuna e azar
+Harmonização;300.20.600;"Concessão de jogos de fortuna e azar
 ";;;;;"DL 422/89#
 DL 64/2015#";;PE;;;;;;;;;;;;;;;;"para legislação ver: 
 http://www.srij.turismodeportugal.pt/pt/gca/index.php?id=8 ";;;;;;;;;;
-300.30;Identificação e caracterização de bens;"Compreende as atividades de identificação de bens geridos pelos serviços públicos, de caracterização dos mesmos e de registo da informação de apoio à respetiva gestão.
+;300.30;Identificação e caracterização de bens;"Compreende as atividades de identificação de bens geridos pelos serviços públicos, de caracterização dos mesmos e de registo da informação de apoio à respetiva gestão.
 Inclui os repositórios de informação para a gestão dos bens, independentemente do nome por que sejam conhecidos - inventário, cadastro, catálogo, registo ou outro.
 Inclui, igualmente, os processos que sejam desencadeados para identificar, caraterizar, reportar, registar e atualizar a informação sobre os bens - por exemplo, processos de determinação do valor dos bens para efeitos de inventário, de aquisição, de arrendamento, de abate ou outra decisão de gestão.";"Inventário do património imobiliário público#
 Inventário de bens móveis#
@@ -1209,7 +1216,7 @@ Processos técnicos de avaliação arquivística (preparação de tabelas de sel
 Processos técnicos de elaboração de esquemas de classificação de documentos#
 Classificação/desclassificação de matérias sensíveis#";;"Os processos de inscrição/atualização de registos para efeitos de regularização da situação jurídica ou fiscal (por exemplo, processos de registo predial ou processos de avaliação de bens para atualização da matriz fiscal) devem ser considerados em Prestação de serviços de identificação e registo / Registo de dados de identificação e caracterização de entidades ou atos (400.10);
 Os sistemas de registo da proteção atribuída a bens ou espécies declarados de especial interesse (por exemplo, o registo patrimonial de classificação e o registo patrimonial de inventário dos bens culturais, o registo de espécies de fauna e flora protegidas, entre outros), devem ser considerados em Prestação de serviços de identificação e registo / Registo de dados de identificação e caracterização de entidades ou atos (400.10).";;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-300.30.001;Compilação técnica de obra;"Identificação de elementos úteis e informações técnicas a ter em conta na utilização futura de obras de iniciativa pública para preservação da segurança, higiene e saúde de quem as executar.
+;300.30.001;Compilação técnica de obra;"Identificação de elementos úteis e informações técnicas a ter em conta na utilização futura de obras de iniciativa pública para preservação da segurança, higiene e saúde de quem as executar.
 Inicia com a descrição dos elementos a compilar definidos como obrigatórios e termina com a última intervenção (demolição).
 Inclui elaboração de compilação técnica da obra, verificação da conformidade, aprovação e atualização cumulativa de elementos ou informações técnicas.";"Atualização da compilação técnica da obra, no âmbito de intervenções posteriores#
 Compilação de informação técnica relativa ao projeto de construção e às diversas especialidades, incluindo memória descritiva, projeto de execução e telas finais#
@@ -1256,7 +1263,7 @@ PN 500.10.301 - Realização de fiscalização (no que diz respeito à sua fisca
 Informação detalhada não recuperável noutros PN;
 Sintetiza a informação do PN 300.10.001 - Contratação de empreitadas de obras públicas
 Sintetiza a informação do PN 300.40.003 - Edificação de iniciativa pública.";;;;;;;;;;;
-300.30.002;Inventariação de bens móveis culturais;"Registo de dados relativos à caracterização de bens móveis culturais do domínio público e privado de que o Estado é titular.
+;300.30.002;Inventariação de bens móveis culturais;"Registo de dados relativos à caracterização de bens móveis culturais do domínio público e privado de que o Estado é titular.
 Inicia com a abertura de registo de inventário ou com a informação relativa à aquisição, produção, alienação do bem, conforme aplicável, e termina com atualização do inventário.
 Inclui atribuição do número de inventário, descrição, localização, denominação, caracterização quanto ao tipo de domínio (público ou privado), natureza dos direitos de utilização, classificação (quando devido), características físicas, data de aquisição, custo ou forma de aquisição e avaliação patrimonial, articulação entre entidades, quando aplicável.";"Abate no inventário em casos de destruição ou desaparecimento acidental do bem#
 Catálogo bibliográfico#
@@ -1306,7 +1313,7 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data do abate do bem;C;"Densidade informacional:
 Informação detalhada e síntese não recuperável noutros PN;
 ";;;;;;;;;;;
-300.30.003;Inventariação de bens móveis duradouros não culturais;"Registo de dados relativos à caracterização de bens móveis duradouros, não culturais, da propriedade do Estado.
+;300.30.003;Inventariação de bens móveis duradouros não culturais;"Registo de dados relativos à caracterização de bens móveis duradouros, não culturais, da propriedade do Estado.
 Inicia com a informação relativa à aquisição, produção, construção e termina com a atualização do inventário.
 Inclui atribuição do número de inventário, descrição, localização, denominação, características físicas, data de aquisição, custo ou forma de aquisição e avaliação patrimonial, quando devido.";;;O registo de bens móveis não duradouros deve ser considerado em 300.30.007 – Registo de bens móveis não duradouros#;Portaria 671/2000#;;PC;N;AP#;;;"150.20.201#
 300.10.005#
@@ -1346,7 +1353,7 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data do abate do bem;C;"Densidade informacional:
 Informação detalhada e síntese não recuperável noutros PN;
 Sintetiza a informação do PN 300.10.005 - Transação e transmissão de bens móveis não culturais e contratação de serviços";;;;;;;;;;;
-300.30.004;Inventariação do património financeiro;"Registo de dados relativos à caracterização dos direitos com conteúdo económico de que o Estado é titular.
+;300.30.004;Inventariação do património financeiro;"Registo de dados relativos à caracterização dos direitos com conteúdo económico de que o Estado é titular.
 Inicia com a informação relativa à aquisição ou alienação do bem e termina com a atualização do inventário.
 Inclui registo da quantificação, caracterização do património financeiro, valor e forma de aquisição.";"Registo da aquisição de ativos financeiros#
 Registo da alienação de ativos financeiros#";;;"DL 280/2007#
@@ -1371,7 +1378,7 @@ Prazo prescricional  da responsabilidade financeira reintegratória ([Lei 98/97]
 Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade em sede de
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data do abate do bem;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN.";;;;;;;;;;;
-300.30.005;Inventariação e cadastro de bens imóveis;"Registo de dados relativos à caracterização de bens imóveis (prédios rústicos, urbanos, infraestruturas e águas) do domínio público e privado, de que o Estado é titular, como pessoa coletiva de direito público.
+;300.30.005;Inventariação e cadastro de bens imóveis;"Registo de dados relativos à caracterização de bens imóveis (prédios rústicos, urbanos, infraestruturas e águas) do domínio público e privado, de que o Estado é titular, como pessoa coletiva de direito público.
 Inicia com a informação relativa à aquisição, construção ou demolição do bem e termina com a atualização do inventário.
 Inclui atribuição do número de inventário (quando aplicável), descrição, localização, denominação, caracterização quanto ao tipo de domínio (público ou privado), espécie (urbano, rústico ou outro), natureza dos direitos de utilização, classificação (se for o caso), características físicas ou quimicas, ano de construção, informação relativa à inscrição matricial e ao registo na conservatória, custo ou forma de aquisição, construção e avaliação patrimonial, quando aplicável.";"Inventário de bens imóveis do domínio privado do Estado#
 Inventário de bens imóveis do domínio público#
@@ -1457,7 +1464,7 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data da perda de direitos sobre o bem;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN;
 Sintetiza a informação do PN 300.10.003 - Transação e transmissão de bens imóveis";;;;;;;;;;;
-300.30.006;"Inventariação e cadastro de fauna e de flora
+;300.30.006;"Inventariação e cadastro de fauna e de flora
 
 + património geológico
 ";"Registo de dados relativos à caracterização da biodiversidade existente, nomeadamente da taxonomia da fauna e flora de uma região.
@@ -1486,7 +1493,7 @@ Prazo prescricional  da responsabilidade financeira reintegratória ([Lei 98/97]
 Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade em sede de
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data de encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN.";;;;;;;;;;;
-300.30.007;Registo de bens móveis não duradouros;"Inscrição de dados relativos a entradas e saídas de materiais consumíveis, de utilização mais ou menos próxima, controlo de existências ou stocks.
+;300.30.007;Registo de bens móveis não duradouros;"Inscrição de dados relativos a entradas e saídas de materiais consumíveis, de utilização mais ou menos próxima, controlo de existências ou stocks.
 Inicia com a contagem física dos artigos e termina com a atualização do registo.
 Inclui elaboração de guias de saída e de guias de entrega.";"Todas as ações que permitam a criação de registos de entradas e saídas de materiais consumíveis, possibilitando o controlo das existências ou stocks#
 Todos os bens móveis cuja duração útil seja inferior a 1 ano#";;;Portaria 671/2000#;;PC;N;AP#;;;"150.20.201#
@@ -1511,7 +1518,7 @@ Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)
 ";;;;;;;;;;;
-300.30.008;Registo de documentos e informação;"Inserção de dados relativos a documentos e informação, independentemente da sua natureza ou suporte.
+;300.30.008;Registo de documentos e informação;"Inserção de dados relativos a documentos e informação, independentemente da sua natureza ou suporte.
 Inicia com a recolha de dados e termina com o seu registo.
 Inclui atualização de dados.";"Carregamento de dados em Sistemas Eletrónicos de Gestão de Arquivos (SEGA)#
 Carregamento de dados noutros repositórios de informação analógica ou digital#
@@ -1546,7 +1553,7 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data de encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutro PN.
 Sintetiza informação de diversos PN.";;;;;;;;;;;
-300.30.009;Registo de perdidos e achados;"Registo de dados relativos à caracterização e inventariação de objetos encontrados na via pública, em qualquer veículo de transporte de passageiros, em local público ou aberto ao público e entregues às forças de segurança ou a entidade competente, para a sua guarda, restituição e destino.
+;300.30.009;Registo de perdidos e achados;"Registo de dados relativos à caracterização e inventariação de objetos encontrados na via pública, em qualquer veículo de transporte de passageiros, em local público ou aberto ao público e entregues às forças de segurança ou a entidade competente, para a sua guarda, restituição e destino.
 Inicia com a comunicação ou entrega do achado e termina com a entrega ao proprietário (na ausência de reclamação por parte deste, na devolução a quem o achou ou apresentação a leilão de artigos não reclamados), no caso de bens perecíveis, na doação a instituições de solidariedade social ou destruição no caso de bens deteriorados.
 Inclui a inativação automática das referências aos artigos, imediatamente após a entrega dos documentos ou objetos.
 
@@ -1571,10 +1578,11 @@ Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos)
 PN 300.30.008 - Registo de documentos e informação (identificação e caracterização)";;;;;;;;;;;
-"300.30.010
+;"300.30.010
 ";Gestão de correspondência do recluso;"Procedimentos realizados com o controlo, retenção e registo da correspondência recebida e expedida pelo recluso, previstos no código de execução de penas e no regulamento geral dos estabelecimentos prisionais.
-Inicia com a verificação e recolha de dados e termina com o seu registo no Sistema de Informação Prisional, e quando aplicável nos termos da lei, com a entrega ao recluso do recibo relativo a correspondência entregue para expedição ou com a assinatura do recluso no caso de correspondência que lhe é destinada.
-Inclui o envio e receção de encomendas";"Correspondência recebida e expedida pelo recluso#
+Inicia com a verificação e recolha de dados e termina com a notícia da libertação do recluso.
+Inclui o registo da correspondência no Sistema de Informação Prisional, e quando aplicável nos termos da lei, a entrega ao recluso do recibo relativo a correspondência entregue para expedição, a assinatura do recluso no caso de correspondência que lhe é destinada.
+Inclui ainda o registo do envio e receção de encomendas";"Correspondência recebida e expedida pelo recluso#
 Correspondência entregue para expedição quando destinada a advogados, notários, conservadores, solicitadores, entidades diplomáticas ou consulares e outras entidades oficiais previstas no Código de Execução de Penas (CEP)#
 Correspondência recebida de advogados, notários, conservadores, solicitadores, entidades diplomáticas ou consulares e outras entidades oficiais previstas no CEP#
 Encomendas enviadas e recebidas#";;;"Lei 115/2009#
@@ -1594,7 +1602,7 @@ Suplementar#";Reduzida;N;1;;"Conjugação dos critérios:
 - Utilidade administrativa
 Tempo necessário para o processamento do inventário.";Data da libertação do recluso;E;"Critério legal
 Eliminação de dados pessoais.";;;;;;;;;;;
-300.30.300;Determinação da comunicabilidade de documentos e informação;"Atribuição de níveis de segurança à informação de acordo com disposições legais ou regulamentos institucionais.
+;300.30.300;Determinação da comunicabilidade de documentos e informação;"Atribuição de níveis de segurança à informação de acordo com disposições legais ou regulamentos institucionais.
 Inicia com a proposta de determinação e termina com a fixação da sua comunicabilidade.
 Inclui definição de níveis de segurança e de permissões de acesso à informação, classificação de segurança, restrição de comunicabilidade, reclassificação e desclassificação da informação.";"Comunicação de documentos ou informação e sua classificação de segurança#
 Preservação da reserva da vida privada ou do direito ao bom nome#
@@ -1604,7 +1612,7 @@ Lei Constitucional 1/2005#
 Lei 64/2007#
 Lei 107/2001#
 Lei 67/98#
-Lei 6/94#
+Lei Orgânica 2/2014#
 Lei 46/2007#
 ";"DL 47344/66 - Código Civil#
 Lei Constitucional 1/2005 - Constituição da República Portuguesa#";PC;S;AP#;"CNPD#
@@ -1628,7 +1636,7 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias(no que diz respeito à atuação da Administração).";Data de encerramento do processo;E;"Densidade informacional:
 Informação síntese recuperável no
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.30.600;Avaliação de bens imóveis;"Atribuição de um valor pecuniário aos imóveis de acordo com critérios de valorimetria aplicáveis.
+;300.30.600;Avaliação de bens imóveis;"Atribuição de um valor pecuniário aos imóveis de acordo com critérios de valorimetria aplicáveis.
 Inicia com o pedido de avaliação do bem imóvel e termina com a notificação/receção do resultado final da avaliação.
 Inclui avaliação interna ou externa de bem, para efeitos de liquidação de impostos ou taxas, alienação, aquisição, transferência, cedência ou seguro.";Avaliação patrimonial dos prédios urbanos, rústicos e mistos (primeira e segunda avaliação)#;;A eventual aquisição de serviços de avalição de bens imóveis deve ser considerada em 300.10.005 – Tansação e transmissão de bens móveis não culturais e contratação serviços#;"Portaria 96/2015#
 DL 280/2007#
@@ -1657,7 +1665,7 @@ Prazo decorrente da necessidade de consulta para apuramento da responsabilidade 
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data de encerramento do processo;E;"Densidade informacional:
 Informação síntese recuperável no
 PN 300.30.005 - Inventariação e cadastro de bens imóveis (identificação e caracterização)";;;;;;;;;;;
-300.30.601;Avaliação de bens móveis;"Atribuição de um valor pecuniário ao elemento patrimonial de acordo com critérios de valorimetria aplicáveis.
+;300.30.601;Avaliação de bens móveis;"Atribuição de um valor pecuniário ao elemento patrimonial de acordo com critérios de valorimetria aplicáveis.
 Inicia com o pedido de avaliação do bem móvel e termina com a receção do resultado.
 Inclui avaliação interna ou externa de bem móvel, para efeitos de liquidação de impostos ou taxas, alienação, aquisição, transferência, seguro, entre outros.";"Viaturas#
 Mobiliário#
@@ -1685,7 +1693,7 @@ PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da 
 Informação síntese recuperável em
 PN 300.30.002 - Inventariação de bens móveis culturais
 PN 300.30.003 - Inventariação de bens móveis duradouros não culturais  (identificação e caracterização)";;;;;;;;;;;
-300.30.602;Avaliação de informação arquivística;"Atribuição de um valor informacional, de acordo com critérios de valorimetria aplicáveis, para efeitos de determinação do destino final da informação/documentação.
+;300.30.602;Avaliação de informação arquivística;"Atribuição de um valor informacional, de acordo com critérios de valorimetria aplicáveis, para efeitos de determinação do destino final da informação/documentação.
 Inicia com a identificação do objeto a avaliar e termina com a produção de instrumento de avaliação.
 Inclui estudo do contexto de produção, criação de estrutura de organização intelectual e justificação dos valores atribuídos.";"Avaliação de documentação acumulada#
 Avaliação de informação da qual se ignora a estrutura classificativa original#
@@ -1710,9 +1718,8 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data de encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutro PN;
 É complementar do PN 300.10.302 - Eliminação de documentos e informação";;;;;;;;;;;
-300.40;Proteção, conservação e valorização;"Compreende as atividades de vigilância e de intervenção direta nos bens e/ou na respetiva envolvente, com vista a garantia a sua preservação em condições de usabilidade ou de acordo com parâmetros estabelecidos, a sua segurança e/ou a segurança dos utentes, ou ainda a melhoria ou valorização dos bens.
-Compreende, igualmente, a eventual produção de bens.";"Ações de caráter preventivo, à reparação de problemas e/ou ações de melhoria#
-";"Construção, monitorização, reparação e incremento de infraestruturas e equipamentos#
+;300.40;Proteção, conservação e valorização;"Compreende as atividades de vigilância e de intervenção direta nos bens e/ou na respetiva envolvente, com vista a garantia a sua preservação em condições de usabilidade ou de acordo com parâmetros estabelecidos, a sua segurança e/ou a segurança dos utentes, ou ainda a melhoria ou valorização dos bens.
+Compreende, igualmente, a eventual produção de bens.";Ações de caráter preventivo, à reparação de problemas e/ou ações de melhoria#;"Construção, monitorização, reparação e incremento de infraestruturas e equipamentos#
 Controlo da segurança de instalações, quando não efetuada por forças de segurança pública (por exemplo, videovigilância, rondas# controlo da identidade de visitantes)#
 Higienização e controlo ambiental de instalações#
 Cuidados preventivos e curativos sobre o efetivo animal#
@@ -1726,7 +1733,7 @@ Implementação de planos de contingência#";"Os atos de aquisição, venda ou p
 O desenvolvimento de soluções aplicacionais deve ser considerado em ""Prestação de serviços técnicos e científicos, investigação e desenvolvimento/ Execução de projetos de investigação e desenvolvimento"" (800.20);
 O controlo de utilizadores deve ser considerado em ""Administração de direitos, bens e serviços/ Utilização, exploração e rentabilidade"" (300.50) – por exemplo, controlo de visitantes a espaços públicos, equipamentos, espetáculos ou outros eventos públicos (controlo de bilheteira e similares);
 A recolha e processamento de resíduos devem ser considerados em ""Prestação de serviços de higiene e salubridade públicas/ Serviços de higiene e limpeza"" (710.10).";;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-300.40.001;Loteamento de iniciativa pública;"Constituição de um ou mais lotes destinados, imediata ou subsequentemente, à edificação urbana, e que resulte da divisão de um ou vários prédios, ou ainda do emparcelamento ou reparcelamento.
+;300.40.001;Loteamento de iniciativa pública;"Constituição de um ou mais lotes destinados, imediata ou subsequentemente, à edificação urbana, e que resulte da divisão de um ou vários prédios, ou ainda do emparcelamento ou reparcelamento.
 Inicia com a apresentação de um projeto e termina com a conclusão do loteamento.
 Inclui discussão pública ou autorização do órgão competente, identificação dos equipamentos e infraestruturas existentes e futuras, definição de áreas destinadas a espaços verdes e de utilização coletiva.";"Loteamento de iniciativa pública#
 Considerar o conceito de ""dono de obra pública"" referido em 300.10.001 –  Contratação de empreitada de obras públicas#";;"A aquisição de empreitadas deve ser considerada em 300.10.001 – Contratação de empreitadas de obras públicas#
@@ -1753,7 +1760,7 @@ Suplementar#";Reduzida;S;10;;"Utilidade administrativa
 Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade em sede de
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data de encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN.";;;;;;;;;;;
-300.40.002;Urbanização de iniciativa pública;"Criação ou remodelação de infraestruturas destinadas a servir diretamente os espaços urbanos ou as edificações, designadamente arruamentos viários e pedonais.
+;300.40.002;Urbanização de iniciativa pública;"Criação ou remodelação de infraestruturas destinadas a servir diretamente os espaços urbanos ou as edificações, designadamente arruamentos viários e pedonais.
 Inicia com a apresentação de um projeto e termina com a conclusão da urbanização.
 Inclui discussão pública ou autorização do órgão competente, elaboração de projetos de especialidade e ainda planeamento de espaços verdes ou outros espaços de utilização coletiva.";"Urbanização de iniciativa pública por administração direta#
 Considerar o conceito de ""dono de obra pública"" referido em 300.10.001 –  Contratação de empreitada de obras públicas#";;"A aquisição de empreitadas deve ser considerada em 300.10.001 – Contratação de empreitadas de obras públicas#
@@ -1782,11 +1789,11 @@ Suplementar#";Reduzida;S;10;;"Utilidade administrativa
 Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade em sede de
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data de encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN.";;;;;;;;;;;
-300.40.003;Edificação de iniciativa pública;"Construção, reconstrução, ampliação, alteração de um imóvel, bem como de qualquer outra construção que se incorpore no solo com caráter de permanência.
+;300.40.003;Edificação de iniciativa pública;"Construção, reconstrução, ampliação, alteração de um imóvel, bem como de qualquer outra construção que se incorpore no solo com caráter de permanência.
 Inicia com a apresentação de um projeto e termina com a conclusão da realização da obra.
 Inclui elaboração de projetos de especialidade e de alteração ou ampliação, consulta e parecer de entidades, quando devido.";"Edificação de iniciativa pública por administração direta#
 Considerar o conceito de ""dono de obra pública"" referido em 300.10.001 –  Contratação de empreitada de obras públicas#";;"A aquisição de empreitadas deve ser considerada em 300.10.001 – Contratação de empreitadas de obras públicas#
-A demolição deve ser considerada em 300.10.301 – Demolição de bens imóveis# 
+A demolição deve ser considerada em 300.10.301 – Demolição de bens imóveis#
 A edificação no âmbito de parceria público-privada deve ser considerada em 300.20.001 – Constituição e acompanhamento de parcerias público-privadas#
 A edificação de iniciativa pública através da concessão de obras públicas deve ser considerada em 300.20.200 – Concessão de obras públicas#
 A compilação técnica da obra deve ser considerada em 300.30.001 – Compilação técnica de obra#
@@ -1823,13 +1830,13 @@ Suplementar#";Reduzida;S;10;;"Utilidade administrativa
 Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade em sede de
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data de encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN.";;;;;;;;;;;
-300.40.004;Reprodução de espécies de fauna e flora;"Procriação assistida de seres vivos, mantendo-se a espécie em meio próprio para a criação e reprodução de animais ou plantas.
+;300.40.004;Reprodução de espécies de fauna e flora;"Procriação assistida de seres vivos, mantendo-se a espécie em meio próprio para a criação e reprodução de animais ou plantas.
 Inicia com o cumprimento de um procedimento previamente estabelecido e termina com a produção ou nascimento de novos espécimes.
 Inclui seleção, identificação, caracterização, registo de maturação, estudo da dinâmica populacional.";Reprodução natural e artificial de espécies da fauna e da flora#;;;"DL 140/99#
 DL 49/2005#
 Lei 92/95#
 DL 96/2013#
-Lei 46/2013 #
+Lei 46/2013#
 DL 276/2001#
 DL 260/2012#
 DL 211/2009#
@@ -1870,7 +1877,7 @@ Cruzada#";Média;N;10;;"Utilidade administrativa
 Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade em sede de
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data de encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN.";;;;;;;;;;;
-300.40.005;Transformação de matérias primas;"Modificação de matérias-primas com vista à obtenção de um produto final.
+;300.40.005;Transformação de matérias primas;"Modificação de matérias-primas com vista à obtenção de um produto final.
 Inicia com o pedido ou com a decisão de produção do bem e termina com a criação do bem ou objeto.
 Inclui elaboração de projeto ou desenho e acompanhamento da produção.
 ";"Produção agrícola#
@@ -1904,7 +1911,7 @@ Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos)
 PN 300.30.008 - Registo de documentos e informação (identificação e caracterização)";;;;;;;;;;;
-300.40.500;Conservação e proteção de bens culturais;"Intervenção sobre o património cultural, que pode assumir, entre outras, a forma de reparação, manutenção, preservação ou restauro de bens, materiais e imateriais, garantindo-lhes a sua condição civilizacional ou cultural.
+;300.40.500;Conservação e proteção de bens culturais;"Intervenção sobre o património cultural, que pode assumir, entre outras, a forma de reparação, manutenção, preservação ou restauro de bens, materiais e imateriais, garantindo-lhes a sua condição civilizacional ou cultural.
 Inicia com o pedido ou com a execução de procedimentos previamente definidos e termina com a realização da intervenção.
 Inclui execução de planos de conservação preventiva, registo da descrição de operações realizadas nas diversas etapas e manutenção atualizada da descrição das características técnicas da obra ou peça.";"Conservação e proteção do património de memória e identidade#
 Conservação e proteção do património arqueológico#
@@ -1937,7 +1944,7 @@ PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da 
 Informação detalhada não recuperável noutros PN.
 Critério legal:
 DL 140/2009 estabelece o dever de elaboração do relatório final e o respetivo arquivo, para constituir a indispensável memória dos trabalhos de proteção e valorização do património cultural.";;;;;;;;;;;
-300.40.501;Conservação e proteção de informação;"Intervenção sobre o conteúdo informacional e ou respetivos suportes com vista a garantir a manutenção da sua fidedignidade, autenticidade, fiabilidade, usabilidade, disponibilidade, acessibilidade e legibilidade.
+;300.40.501;Conservação e proteção de informação;"Intervenção sobre o conteúdo informacional e ou respetivos suportes com vista a garantir a manutenção da sua fidedignidade, autenticidade, fiabilidade, usabilidade, disponibilidade, acessibilidade e legibilidade.
 Inicia com a execução de procedimentos previamente definidos e termina com a realização da intervenção.
 Inclui ajustamentos necessários.
 
@@ -1947,7 +1954,7 @@ Implementação de planos de preservação digital#
 Migração de dados#
 Transferência de suporte#";;"A conceção de planos de conservação preventiva deve ser considerada em 150.20.001 – Preparação de regras e orientações internas#
 O planeamento de sistemas de informação deve ser considerado em 150.20.102 – Planeamento de sistemas#";"Lei 103/2015#
-Lei  47/2014#
+Lei 47/2014#
 Lei 46/2007#
 DL 290-D/99#
 DL 165/2004#
@@ -1959,10 +1966,7 @@ Lei 67/98#
 DL 16/93#
 DL 447/88#
 Lei 42/2014#
-DL 4/2015#
-";DL 290-D/99, alterado pelo DL 165/2004 e DL 116-A/2006, com a última alteração introduzida pelo DL 88/2009, complementado pelo Dec. Reg. 25/2004#;PC;N;AP#;;"Iniciar#
-Apreciar#
-Informar#";"300.30.008#
+DL 4/2015#";DL 290-D/99, alterado pelo DL 165/2004 e DL 116-A/2006, com a última alteração introduzida pelo DL 88/2009, complementado pelo Dec. Reg. 25/2004#;PC;N;AP#;;;"300.30.008#
 300.30.602#
 300.40.507#
 500.10.001#
@@ -1987,7 +1991,7 @@ Prazo prescricional  da responsabilidade financeira reintegratória ([Lei 98/97]
 Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade em sede de
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data do encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN.";;;;;;;;;;;
-300.40.502;Conservação e proteção de recursos naturais, espécies e paisagens;"Salvaguarda e manutenção de recursos zoológicos, marinhos, ripícolas, minerais e botânicos, garantindo-lhes a sua perenidade, sustentabilidade e, ainda, a conservação de elementos paisagísticos e de recursos naturais.
+;300.40.502;Conservação e proteção de recursos naturais, espécies e paisagens;"Salvaguarda e manutenção de recursos zoológicos, marinhos, ripícolas, minerais e botânicos, garantindo-lhes a sua perenidade, sustentabilidade e, ainda, a conservação de elementos paisagísticos e de recursos naturais.
 Inicia com o pedido ou com a execução de procedimentos previamente definidos e termina com a realização da intervenção.
 Inclui execução de planos de conservação preventiva, registo da descrição de operações realizadas nas diversas etapas, consulta de entidades e, quando for o caso, recolha, recuperação e devolução das espécies aos espaços ou habitats.";"Preservação de elementos geológicos e geomorfológicos e hidrográficos#
 Preservação de fauna e flora#
@@ -2058,7 +2062,7 @@ Prazo prescricional  da responsabilidade financeira reintegratória ([Lei 98/97]
 Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade em sede de
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data de encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN.";;;;;;;;;;;
-300.40.503;Conservação e valorização de edifícios, infraestruturas e equipamentos;"Intervenção em edifícios e infraestruturas, que podem assumir, entre outras, a forma de reparação, manutenção, preservação ou restauro, garantindo a sua usabilidade e valorização.
+;300.40.503;Conservação e valorização de edifícios, infraestruturas e equipamentos;"Intervenção em edifícios e infraestruturas, que podem assumir, entre outras, a forma de reparação, manutenção, preservação ou restauro, garantindo a sua usabilidade e valorização.
 Inicia com o pedido ou com a execução de procedimentos previamente definidos e termina com a realização da intervenção.
 Inclui execução de planos de conservação preventiva e registo da descrição de operações realizadas nas diversas etapas.";"Conservação de zonas verdes e de lazer em espaço urbano#
 Conservação do edificado#
@@ -2099,7 +2103,7 @@ Prazo prescricional  da responsabilidade financeira reintegratória ([Lei 98/97]
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data de encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN.";;;;;;;;;;;
-300.40.504;Controlo de segurança e vigilância de instalações e equipamentos;"Ações de segurança sobre bens que visam prevenir quaisquer danos de ordem pessoal ou material que possam obstaculizar ou comprometer a integridade ou o funcionamento organizacionais.
+;300.40.504;Controlo de segurança e vigilância de instalações e equipamentos;"Ações de segurança sobre bens que visam prevenir quaisquer danos de ordem pessoal ou material que possam obstaculizar ou comprometer a integridade ou o funcionamento organizacionais.
 Inicia com o cumprimento de procedimentos normativos previamente definidos e termina com o relato de ocorrências.
 Inclui registo de entradas e saídas, identificação de visitantes e eventual descrição do desempenho operacional.";"Controlo e registo de entrada e saída de pessoas e viaturas#
 Utilização de dispositivos de alarme e de instrumentos de vigilância#";;As ações de vigilância levadas a cabo por agentes das forças de segurança devem ser classificadas em 550.10.001 – Segurança de espaços públicos e abertos ao público#;"Lei 135/2014#
@@ -2138,12 +2142,11 @@ Prazo prescricional  do procedimento contraordenacional ([DL 433/82], Ilícito d
 Informação síntese recuperável em
 PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.40.505;Higienização de instalações e equipamentos;"Aplicação de cuidados de higiene a instalações e equipamentos que visam garantir a proteção dos bens e a sua usabilidade.
+;300.40.505;Higienização de instalações e equipamentos;"Aplicação de cuidados de higiene a instalações e equipamentos que visam garantir a proteção dos bens e a sua usabilidade.
 Inicia com o cumprimento de procedimentos previamente definidos e termina com a intervenção.
 Inclui comprovativo de realização do serviço, frequência da manutenção, substituições periódicas de materiais e equipamentos de higiene e eventual descrição do desempenho operacional.";Seleção do agente desinfetante ou detergente para realização da ação#;;"Elaboração de regras e orientações internas deve ser considerada em 150.20.001 – Preparação de regras e orientações internas#
-O controlo de agentes infestantes deve ser considerado em 710.10.600 – Controlo de pragas e infestantes# 
-O controlo ambiental de infraestruturas e equipamentos deve ser considerado em 800.10.300 – Controlo ambiental de infraestruturas e equipamentos#
-";"DL 121/2002#
+O controlo de agentes infestantes deve ser considerado em 710.10.600 – Controlo de pragas e infestantes#
+O controlo ambiental de infraestruturas e equipamentos deve ser considerado em 800.10.300 – Controlo ambiental de infraestruturas e equipamentos#";"DL 121/2002#
 DL 441/91#
 DL 133/99#";"DL 121/2002, transpõe a Diretiva 98/8/CE#
 DL 441/91, alterado pelo DL 133/99#";PC;N;AP#;;;"150.20.300#
@@ -2169,27 +2172,28 @@ Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividades  (atuação da entidade)
 PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.40.506;Implementação de ações para cumprimento de parâmetros ambientais;"Acionamento de meios ou intervenções que visam garantir ou repor o cumprimento de os parâmetros microbiológicos e fisicoquímicos obrigatórios, ou valores limite obrigatórios de toxicidade no solo, no ar e na água.
+;300.40.506;Implementação de ações para cumprimento de parâmetros ambientais;"Acionamento de meios ou intervenções que visam garantir ou repor o cumprimento de os parâmetros microbiológicos e fisicoquímicos obrigatórios, ou valores limite obrigatórios de toxicidade no solo, no ar e na água.
 Inicia com a deteção de uma anomalia ou com um pedido resultante de monitorização de situação anómala, de um aviso ou alerta, ou a partir de procedimento previamente definido e termina com a aplicação de medidas preventivas ou corretivas.
 Inclui seleção e caracterização de medidas adotadas, descrição das ações a realizar para a sua concretização, calendarização das mesmas, identificação das entidades responsáveis pela execução, identificação de eventuais substâncias utilizadas e produção de indicadores de eficácia.
 ";"Limpeza e desinfeção dos areais#
 Perfis das águas balneares#
 Qualidade das águas balneares#";;"A monitorização destes parâmetros deve ser considerada em 800.10.301 – Monitorização de índices da qualidade ambiental#
-";"Portaria 133/2014#
-Portaria 101A/2014#
+";"Recomendação (OMS) GDWQ/2004#
+DL 140/99#
+Portaria 133/2014#
+Portaria 101-A/2014#
 Lei 19/2014#
 DL 88/2011#
 DL 108/2010#
 DL 102/2010#
 Portaria 1284/2009#
-DL 16/2009l#
+DL 16/2009#
 DL 208/2008#
 DL 129/2008#
-Recomendação (OMS) GDWQ/2004#
 DL 112/2002#
-Rede Natura 2000#
-Lei 33/96l#
-DR 23/95#";Recomendação (OMS) GDWQ/2004 - WHO (2004) Guidelines for drinking-water quality, Volume 1: Recommendations. WHO, Geneva (3rd edition);PC;N;AP#;;;"500.10.001#
+Lei 33/96#
+Decreto Regulamentar 23/95#";"Recomendação (OMS) GDWQ/2004 - WHO (2004) Guidelines for drinking-water quality, Volume 1: Recommendations. WHO, Geneva (3rd edition)#
+DL 140/99: Rede Natura 2000 - transposição da Diretiva n.º 79/409/CEE, do Conselho, de 2 de Abril (diretiva aves) e da Diretiva n.º 92/43/CEE, do Conselho, de 21 de Maio (diretiva habitats)#";PC;N;AP#;;;"500.10.001#
 500.10.301#
 800.10.300#
 800.10.301#
@@ -2215,7 +2219,7 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração);
 PN 500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).";Data de encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN.";;;;;;;;;;;
-300.40.507;Implementação de planos de contingência;"Operações desencadeadas após deteção de incidente ou emergência organizacional que visam o restabelecimento da situação anterior à ocorrência.
+;300.40.507;Implementação de planos de contingência;"Operações desencadeadas após deteção de incidente ou emergência organizacional que visam o restabelecimento da situação anterior à ocorrência.
 Inicia com a identificação da ocorrência e termina com a reposição da normalidade.
 Inclui comunicação com os intervenientes e relato das medidas tomadas.";;;"A elaboração de manuais e planos de preservação deve ser considerada em 150.20.001 – Preparação de regras e orientações internas#
 A implementação de planos de contingência ambiental deverão ser no 300.40.506 – Implementação de ações para cumprimento de parâmetros ambientais#
@@ -2255,7 +2259,7 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração);
 PN 500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).";Data de encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN.";;;;;;;;;;;
-300.40.508;Implementação de redes e sistemas tecnológicos;"Operacionalização de infraestruturas e sistemas tecnológicos de comunicação e informação.
+;300.40.508;Implementação de redes e sistemas tecnológicos;"Operacionalização de infraestruturas e sistemas tecnológicos de comunicação e informação.
 Inicia com a instalação de infraestruturas tecnológicas e termina com a sua ativação ou entrada em produção.
 Inclui testes de funcionamento, ações corretivas e operacionalização.";"Implementação de infraestruturas tecnológicas#
 Implementação de redes de comunicação#
@@ -2306,7 +2310,7 @@ Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 150.20.302 - Avaliação de sistemas (atuação da entidade)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.40.509;Manutenção e reparação de bens móveis duradouros;"Intervenção em bens móveis que podem assumir, entre outras, a forma de reparação, manutenção, preservação ou restauro, garantindo a sua usabilidade e valorização.
+;300.40.509;Manutenção e reparação de bens móveis duradouros;"Intervenção em bens móveis que podem assumir, entre outras, a forma de reparação, manutenção, preservação ou restauro, garantindo a sua usabilidade e valorização.
 Inicia com o pedido ou com a execução de procedimentos previamente definidos e termina com a realização da intervenção.
 Inclui execução de planos de conservação preventiva e registo da descrição de operações realizadas nas diversas etapas.";"Conservação, reparação e manutenção de armamento#
 Conservação e reparação de instrumentos de medição#
@@ -2316,7 +2320,7 @@ Conservação e reparação de periféricos informáticos#";;A contratualizaçã
 DL 4/2015#
 DL 104/2011#";"DL 18/2008, alterado pelo DL 149/2012#
 DL 4/2015#
-DL 104/2011#";PC;N;AP#;;Comunicar#;"150.20.300#
+DL 104/2011#";PC;N;AP#;;;"150.20.300#
 150.20.302#
 300.10.002#
 300.30.008#
@@ -2339,7 +2343,7 @@ Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 150.20.302 - Avaliação de sistemas (atuação da entidade)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.40.510;Monitorização de redes e sistemas tecnológicos;"Acompanhamento e avaliação do desempenho de infraestruturas tecnológicas, sistemas e tecnologias de informação com vista à minimização e resolução de eventuais falhas.
+;300.40.510;Monitorização de redes e sistemas tecnológicos;"Acompanhamento e avaliação do desempenho de infraestruturas tecnológicas, sistemas e tecnologias de informação com vista à minimização e resolução de eventuais falhas.
 Inicia com a análise dos indicadores comportamentais dos sistemas e termina com a ativação de plano de conservação preventiva ou corretiva.
 Inclui a elaboração de relatórios.";"Monitorização de infraestruturas tecnológicas#
 Monitorização de redes de comunicação#
@@ -2377,7 +2381,7 @@ Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 150.20.302 - Avaliação de sistemas (atuação da entidade)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.40.511;Participação de danos patrimoniais;"Identificação de prejuízos, totais ou parciais, em bens de propriedade pública ou privada.
+;300.40.511;Participação de danos patrimoniais;"Identificação de prejuízos, totais ou parciais, em bens de propriedade pública ou privada.
 Inicia com a comunicação da ocorrência ou reclamação e termina com a decisão sobre a atribuição de indemnização ou restituição de bens.
 Inclui descrição do tipo de dano e informação comprovativa do sinistro.";"Apresentação de queixas ou reclamações que envolvam danos patrimoniais#
 Participação de danos patrimoniais e pessoais da esfera de responsabilidade civil da entidade pública#
@@ -2407,7 +2411,7 @@ Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)
 PN da classe 600.30 - Produção de prova e decisão judicial (processos crime)";;;;;;;;;;;
-300.50;Utilização, exploração e rendibilidade;Compreende atividades de controlo da utilização dos bens geridos pelos serviços públicos, bem como de cedência/aquisição de direitos de utilização. Inclui, quando haja lugar ao mesmo, o registo e/ou controlo de utilizadores.;"Afetação e desafetação de bens a serviço público, unidade orgânica, atividade ou trabalhador#
+;300.50;Utilização, exploração e rendibilidade;Compreende atividades de controlo da utilização dos bens geridos pelos serviços públicos, bem como de cedência/aquisição de direitos de utilização. Inclui, quando haja lugar ao mesmo, o registo e/ou controlo de utilizadores.;"Afetação e desafetação de bens a serviço público, unidade orgânica, atividade ou trabalhador#
 Processamento de requisições de bens ou serviços#
 Processamento de pedidos de empréstimo#
 Arrendamento de imóveis- Aluguer de equipamentos#
@@ -2419,7 +2423,7 @@ Registo comprovativo de entrega temporária de documentos a pessoa ou serviço#
 Apoio à utilização de sistemas de informação#
 Controlo de bilheteira#";;"Os contratos de concessão devem ser considerados em “Administração de direitos, bens e serviços/Concessão e parceria público-privada” (300.20);
 O processamento de pedidos de informação ou esclarecimentos dirigidos aos serviços deve ser considerado em “Dinamização e comunicação institucional/Execução de atividades de comunicação institucional” (900.20).";;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-300.50.001;Afetação de bens imóveis ao domínio público;"Determinação do estatuto de dominialidade de um imóvel que, podendo não decorrer diretamente da sua natureza, seja afetado pelo seu titular às utilidades públicas correspondentes à classificação legal, ou sua desafetação após o termo das utilidades que justificam a sujeição da dominialidade.
+;300.50.001;Afetação de bens imóveis ao domínio público;"Determinação do estatuto de dominialidade de um imóvel que, podendo não decorrer diretamente da sua natureza, seja afetado pelo seu titular às utilidades públicas correspondentes à classificação legal, ou sua desafetação após o termo das utilidades que justificam a sujeição da dominialidade.
 Inicia com a elaboração de proposta e termina com a comunicação da decisão.
 Inclui verificação das utilidades e respetiva fundamentação.";"Afetação e desafetação de bens imóveis e de aproveitamentos hidráulicos e hidroagrícolas ao domínio público#
 Afetação e desafetação de bens imóveis ao domínio público por via de constituição de servidão administrativa (imposição de encargo ao ónus sobre um prédio por utilidade pública)#
@@ -2451,7 +2455,7 @@ PN 150.10.700 - Reunião de órgaos deliberativos
 PN 150.10.701 - Reunião de órgãos executivos (decisão)
 PN 300.30.005 - Inventariação e cadastro de bens imóveis (identificação e registo)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.50.002;Reserva do uso privativo de imóveis do domínio público;"Reserva dominial de bem imóvel do domínio público de uso comum, em que o organismo titular reserva para si o uso privativo de totalidade ou de parte do imóvel, quando motivos de interesse público o justifiquem, durante um determinado prazo.
+;300.50.002;Reserva do uso privativo de imóveis do domínio público;"Reserva dominial de bem imóvel do domínio público de uso comum, em que o organismo titular reserva para si o uso privativo de totalidade ou de parte do imóvel, quando motivos de interesse público o justifiquem, durante um determinado prazo.
 Inicia com a elaboração de proposta e termina com a decisão ou submissão para aprovação, quando devido.
 Inclui fundamentação da necessidade de reserva.";Reserva do uso de bens imóveis do domínio público pelos respetivos titulares#;;A aprovação do uso privativo de imóveis ao domínio público deve ser considerada em 150.10.700 – Reunião de órgãos deliberativos#;"DL 280/2007#
 Lei 5-A/2002#
@@ -2480,7 +2484,7 @@ PN 150.10.700 - Reunião de órgaos deliberativos
 PN 150.10.701 - Reunião de órgãos executivos (decisão)
 PN 300.30.005 - Inventariação e cadastro de bens imóveis (identificação e registo)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.50.003;Afetação interna de bens móveis culturais;"Atribuição da utilização de bens móveis culturais a um serviço da mesma entidade.
+;300.50.003;Afetação interna de bens móveis culturais;"Atribuição da utilização de bens móveis culturais a um serviço da mesma entidade.
 Inicia com o pedido ou proposta de afetação interna dos bens e termina com a receção dos mesmos.
 Inclui confirmação dos bens recebidos.";Atribuição de uso de bens a serviços da entidade#;"Bens móveis culturais#
 Bens móveis do património arqueológico#
@@ -2504,9 +2508,9 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";"Data de extinção do direito de propriedade (alienação ou desaparecimento do bem)
 ";E;"Densidade informacional:
 Informação síntese recuperável em
-PN 300.30.002 -Inventariação de bens móveis culturais
+PN 300.30.002 - Inventariação de bens móveis culturais
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.50.004;Afetação interna de bens móveis duradouros não culturais;"Atribuição da utilização de bens não consumíveis, de natureza não cultural a um serviço da mesma entidade.
+;300.50.004;Afetação interna de bens móveis duradouros não culturais;"Atribuição da utilização de bens não consumíveis, de natureza não cultural a um serviço da mesma entidade.
 Inicia com o pedido ou proposta de afetação ou desafetação interna de bens e termina com a receção dos mesmos.
 Inclui confirmação dos bens recebidos.";"Afetação e desafetação de equipamento informático#
 Afetação e desafetação de máquinas#
@@ -2530,7 +2534,7 @@ PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da 
 Informação síntese recuperável em
 PN 300.30.003 - Inventariação de bens móveis duradouros não culturais
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-"300.50.005
+;"300.50.005
 ";Afetação e utilização provisória de bens apreendidos;"Atribuição de utilização provisória a bens apreendidos pelos órgãos de polícia criminal, no âmbito de processos crime e contra-ordenacionais, que sejam susceptíveis de vir a ser declarados perdidos a favor do Estado.
 Inicia com o procedimento de declaração de utilidade operacional do bem apreendido (pelo responsável pela investigação) e termina com a cessação da utilidade operacional, declaração de perda a favor do Estado ou restituição.
 Inclui os registos e averbamentos do bem a utilizar, declaração de utilidade operacional, notificações dos interessados, avaliação e indemnizações.";Objetos apreendidos que possuem interesse criminalístico, histórico, documental ou museológico, ou quando se trate de armas, munições, veículos, aeronaves, embarcações, equipamentos de telecomunicações e de informática ou outros bens fungíveis com interesse para o exercício das respetivas competências legais#;;"A avaliação do bem apreendido para efeitos de fixação do valor de indemnização a pagar ao proprietário caso o bem não venha a ser declarado perdido a favor do Estado, deve ser considerada em 350.10.508 – Processamento de indemnizações e injunções#
@@ -2577,7 +2581,7 @@ Informação síntese recuperável em
 PN 300.30.002 -Inventariação de bens móveis culturais
 PN 300.30.003 - Inventariação de bens móveis duradouros não culturais
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.50.200;Constituição do direito de superfície sobre bens imóveis;"Faculdade de construir ou manter, de forma perpétua ou temporária, uma obra em terreno alheio, ou de nele fazer ou manter plantações, podendo resultar na alienação de obra ou árvores já existentes, separadamente da propriedade do solo.
+;300.50.200;Constituição do direito de superfície sobre bens imóveis;"Faculdade de construir ou manter, de forma perpétua ou temporária, uma obra em terreno alheio, ou de nele fazer ou manter plantações, podendo resultar na alienação de obra ou árvores já existentes, separadamente da propriedade do solo.
 Inicia com o pedido de exercício de direito de superfície e termina com a formalização do referido direito.
 Inclui negociação e preparação de informação para efeito do contrato.";Constituição do direito de superfície sobre imóveis, que não sejam necessários à prossecução do interesse público#;;;"DL 219/2008#
 DL 280/2007#
@@ -2605,7 +2609,7 @@ PN 150.10.700 - Reunião de órgaos deliberativos
 PN 150.10.701 - Reunião de órgãos executivos (decisão)
 PN 300.30.005 - Inventariação e cadastro de bens imóveis (identificação e registo)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.50.201;Arrendamento ou cedência de utilização de bens imóveis;"Cessão ou aquisição do direito de utilização, onerosa ou não onerosa, de imóveis dos domínios público ou privado do Estado, a entidades terceiras, públicas ou privadas.
+;300.50.201;Arrendamento ou cedência de utilização de bens imóveis;"Cessão ou aquisição do direito de utilização, onerosa ou não onerosa, de imóveis dos domínios público ou privado do Estado, a entidades terceiras, públicas ou privadas.
 Inicia com o pedido de disponibilização / cedência pela entidade interessada na utilização do imóvel e termina com a formalização da cedência.
 Inclui a análise dos dados, solicitação de esclarecimentos e pareceres, formalização da entrega, aceitação e acompanhamento dos pressupostos inerentes à cedência e respetiva devolução.
 ";"Arrendamento de bens imóveis do domínio privado#
@@ -2640,7 +2644,7 @@ PN 150.10.700 - Reunião de órgaos deliberativos
 PN 150.10.701 - Reunião de órgãos executivos (decisão)
 PN 300.30.005 - Inventariação e cadastro de bens imóveis (identificação e registo)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.50.202;Cedência de bens móveis culturais;"Empréstimo de bens móveis culturais a entidades terceiras, públicas e privadas.
+;300.50.202;Cedência de bens móveis culturais;"Empréstimo de bens móveis culturais a entidades terceiras, públicas e privadas.
 Inicia com o pedido de empréstimo do bem e termina com a sua devolução.
 Inclui autorização, quando aplicável, registo de entrega, confirmação dos bens recebidos e registo da devolução dos mesmos.";"Cedência de imagens culturais (empréstimo de bens móveis culturais a entidade externa)#
 Empréstimo de livros e documentos para uso em exposições e mostras documentais#
@@ -2649,7 +2653,7 @@ Empréstimo de documentos de arquivo a entidade externa#
 Empréstimo de peças museológicas a entidade externa#";;A utilização de bens móveis culturais por um serviço da mesma entidade deverá classificar-se em 300.50.003 – Afetação interna de bens móveis culturais#;"DL 148/2015#
 Lei 47/2004#
 Lei 107/2001#
-Lei 16/93#";;PC;S;"AP#
+DL 16/93#";;PC;S;"AP#
 ";AP#;"Iniciar#
 ";"300.30.002#
 300.30.008#
@@ -2672,7 +2676,7 @@ PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da 
 Informação síntese recuperável em
 PN 300.30.002 -Inventariação de bens móveis culturais
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.50.203;Aluguer ou cedência de utilização de bens móveis não culturais;"Cessão de utilização, onerosa ou não onerosa, de bens móveis a entidades públicas e privadas.
+;300.50.203;Aluguer ou cedência de utilização de bens móveis não culturais;"Cessão de utilização, onerosa ou não onerosa, de bens móveis a entidades públicas e privadas.
 Inicia com o pedido de cedência pela entidade interessada na utilização do bem móvel ou direito e termina com a formalização da cedência.
 Inclui aceitação e acompanhamento dos pressupostos inerentes à cedência e respetiva devolução, quando devido.";"Cedência de bens móveis a entidade externa#
 Cedência de direitos de utilização de imagens a entidade externa#
@@ -2688,7 +2692,7 @@ Prazo prescricional  do procedimento contraordenacional ([DL 433/82], Ilícito d
 Informação síntese recuperável em
 PN 300.30.003 -Inventariação de bens móveis duradouros não culturais (identificação e registo)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.50.204;Cedência de direitos de propriedade intelectual;"Cessão do direito à utilização de informação ou criação nas áreas técnico-científica, literária, artística, comercial e industrial quando estiverem em causa os direitos conexos, a proteção de obras literárias ou artísticas, quando estiverem em causa os direitos de autor e a proteção de invenções, criações estéticas e sinais usados para distinguir produtos ou empresas, no caso da propriedade industrial.
+;300.50.204;Cedência de direitos de propriedade intelectual;"Cessão do direito à utilização de informação ou criação nas áreas técnico-científica, literária, artística, comercial e industrial quando estiverem em causa os direitos conexos, a proteção de obras literárias ou artísticas, quando estiverem em causa os direitos de autor e a proteção de invenções, criações estéticas e sinais usados para distinguir produtos ou empresas, no caso da propriedade industrial.
 Inicia com o pedido e termina com a cedência dos direitos.
 Inclui análise do pedido e negociação do contrato.";"Cedência de direitos de autor#
 Cedência de direitos conexos#
@@ -2707,7 +2711,7 @@ Prazo prescricional  da responsabilidade financeira reintegratória ([Lei 98/97]
 Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade em sede de
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data de encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN.";;;;;;;;;;;
-300.50.400;Processamento de pedidos de consulta e reprodução de documentos e informação;"Processamento de pedidos de consulta ou empréstimo de documentos e informação a pessoa ou serviço da mesma entidade, a entidades públicas ou privadas.
+;300.50.400;Processamento de pedidos de consulta e reprodução de documentos e informação;"Processamento de pedidos de consulta ou empréstimo de documentos e informação a pessoa ou serviço da mesma entidade, a entidades públicas ou privadas.
 Inicia com o pedido e termina com a devolução do bem.
 Inclui autorização, registo de entrega, confirmação dos bens recebidos e registo da devolução dos mesmos.
 ";"Consulta de documentos#
@@ -2743,7 +2747,7 @@ Prazo prescricional  do procedimento contraordenacional ([DL 433/82], Ilícito d
 Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.50.401;Processamento de pedidos de material consumível;"Disponibilização de bens não duradouros ou consumíveis, a pessoa ou serviço da mesma entidade.
+;300.50.401;Processamento de pedidos de material consumível;"Disponibilização de bens não duradouros ou consumíveis, a pessoa ou serviço da mesma entidade.
 Inicia com o pedido e termina com a receção do bem.
 Inclui autorização, registo de entrega, confirmação dos bens recebidos e registo da receção dos mesmos.";Requisição de material de economato ou de consumíveis#;;;;;PC;N;AP#;;;"150.20.300#
 300.30.007#
@@ -2760,7 +2764,7 @@ Lei 50/2006 - Lei Quadro das contraordenações ambientais, artº 40) - 5 anos."
 Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.50.402;Processamento de pedidos de material e de reserva de espaços;"Empréstimo de bens móveis culturais e não culturais, ou de disponibilização de espaços, a pessoa ou serviço da mesma entidade.
+;300.50.402;Processamento de pedidos de material e de reserva de espaços;"Empréstimo de bens móveis culturais e não culturais, ou de disponibilização de espaços, a pessoa ou serviço da mesma entidade.
 Inicia com o pedido e termina com a devolução do bem.
 Inclui autorização, registo de entrega, confirmação dos bens recebidos e registo da devolução dos mesmos.";"Processamento de pedidos internos de utilização de espaços municipais#
 Processamento de pedidos internos de utilização temporária, por empréstimo, de bens móveis, de veículos, de máquinas, de hardware, de obras de arte#";;"O pedido e cedência de bens móveis por entidade externa deve ser considerado em 300.50.202 – Cedência de bens móveis culturais ou 300.50.203 – Aluguer ou cedência de utilização de bens móveis não culturais#
@@ -2782,7 +2786,7 @@ Prazo prescricional  do procedimento contraordenacional ([DL 433/82], Ilícito d
 Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.50.600;Exploração económica de espaços públicos, edifícios, infraestruturas e equipamentos;"Rentabilização de espaços públicos, edifícios, infraestruturas e equipamentos públicos, através da exploração de atividades que lhes acrescentem valor.
+;300.50.600;Exploração económica de espaços públicos, edifícios, infraestruturas e equipamentos;"Rentabilização de espaços públicos, edifícios, infraestruturas e equipamentos públicos, através da exploração de atividades que lhes acrescentem valor.
 Inicia com a apresentação de proposta e termina com a rentabilização dos recursos através da sua exploração.
 Inclui autorização e calendarização de atividades de exploração.";;;"A comercialização de produtos de merchandising, de produtos regionais produzidos pelas autarquias, ou a venda de bilhetes para espetáculos, exposições e outros serviços de caráter lúdico, deverão ser considerados em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços#
 Os processos de reprodução de espécies animais e vegetais em viveiros deverão ser contemplados em 300.40.004 – Reprodução de espécies de fauna e flora#
@@ -2821,7 +2825,7 @@ PN 150.10.701 - Reunião de órgãos executivos (decisão)
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 150.20.404 - Prestação de contas (síntese da informação orçamental e patrimonial)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.50.601;Exploração de recursos naturais;"Ação de aproveitamento de recursos disponibilizados pela natureza para satisfação de necessidades humanas.
+;300.50.601;Exploração de recursos naturais;"Ação de aproveitamento de recursos disponibilizados pela natureza para satisfação de necessidades humanas.
 Inicia com a operacionalização da calendarização previamente estabelecida ou como atividade prospetiva e termina com a prestação do serviço.
 Inclui estudos sobre os sistemas naturais, prospeção e todas as ações de incremento e otimização de aproveitamento de recursos naturais.";"Captação e exploração de recursos minerais, biológicos e energéticos#
 ";;"As atividades de exploração destes recursos podem carecer de autorização ou licenciamento prévio de entidade competente, o que deve ser considerado em “Reconhecimentos e permissões/ Licenciamentos, certificações e outras autorizações” (450.10)#
@@ -2849,7 +2853,7 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração)
 PN 500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).";Data de encerramento do processo;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN.";;;;;;;;;;;
-300.50.800;Controlo da utilização de bens, equipamentos e serviços;"Sistematização de dados quantitativos e qualitativos relativos à utilização de equipamentos, de bens móveis e acesso a serviços.
+;300.50.800;Controlo da utilização de bens, equipamentos e serviços;"Sistematização de dados quantitativos e qualitativos relativos à utilização de equipamentos, de bens móveis e acesso a serviços.
 Inicia com o registo do uso ou com a contabilização do acesso e termina com o apuramento dos resultados.
 Inclui elaboração de mapas estatísticos para efeitos de gestão.";"Contabilização e caracterização do acesso a serviços#
 Contabilização e caracterização da utilização de equipamentos#
@@ -2886,7 +2890,7 @@ Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-300.50.801;Processamento de pedidos de serviços de suporte;"Processamento da requisição de serviços de apoio à utilização e montagem de bens e equipamentos.
+;300.50.801;Processamento de pedidos de serviços de suporte;"Processamento da requisição de serviços de apoio à utilização e montagem de bens e equipamentos.
 Inicia com a solicitação de apoio e termina com a satisfação ou indeferimento da mesma.
 Inclui, quando devido, ordenação dos pedidos de acordo com o grau de urgência ou importância, autorização e produção de relatórios.";"Apoio a utilizadores externos dos sistemas de informação#
 Apoio a utilizadores internos dos sistemas de informação#
@@ -2912,7 +2916,7 @@ Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
-"300.50.802
+;"300.50.802
 
 ";Registo e identificação de utilizadores de serviços e de sistemas de informação;"Inserção de dados e atribuição de meios de identificação relativos à criação de entidades singulares ou coletivas, públicas ou privadas, para acesso a serviços e sistemas de informação.
 Inicia com a recolha de dados e termina com a entrega dos meios de identificação.
@@ -2921,12 +2925,12 @@ Inscrição de utilizador em sistemas#
 Criação de utilizadores e atribuição de permissões de acesso a sistemas de informação#
 Processamento de pedidos de acesso a serviços online#
 Registo de utilizadores de serviços presenciais e online#
-Considerar aqui o ex-PN 250.20.002 Atribuição de meios de identificação a trabalhador#";"Cartão de identificação de aluno, formando ou docente# 
-Cartão de identificação do colaborador ou trabalhador# 
+Considerar aqui o ex-PN 250.20.002 Atribuição de meios de identificação a trabalhador#";"Cartão de identificação de aluno, formando ou docente#
+Cartão de identificação do colaborador ou trabalhador#
 Cartão de livre-trânsito#
-Cartão de parqueamento de veículos# 
+Cartão de parqueamento de veículos#
 Cartão de ponto#
-Cartão de encarte (militar)# 
+Cartão de encarte (militar)#
 Cartão do Cofre de Previdência#
 IB-Identificação de beneficiários ao pagamento de ajudas no âmbito de programas comunitários#";"Os pedidos de apoio à utilização a sistemas de informação devem ser considerados em 300.50.801 – Processamento de pedidos de serviços de suporte#
 A criação e gestão de contactos institucionais da entidade devem ser considerados no 900.20.600 – Criação e utilização de contactos institucionais# ";"Lei 35/2014#
@@ -2963,12 +2967,10 @@ PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão 
 PN 300.30.008 - Registo de documentos e informação (casos tratados)
 Legal
 Lei da proteção de dados - Autorização n.º 185/2010 CNPD";;;;;;;;;;;
-300.50.803;Identificação e caracterização de prestadores e fornecedores de bens e serviços;"Registo de dados e caracterização da relação com entidades singulares ou coletivas, públicas ou privadas, fornecedoras ou prestadoras de bens e serviços.
+;300.50.803;Identificação e caracterização de prestadores e fornecedores de bens e serviços;"Registo de dados e caracterização da relação com entidades singulares ou coletivas, públicas ou privadas, fornecedoras ou prestadoras de bens e serviços.
 Inicia com o estabelecimento do contacto e termina com finalização da relação institucional.
 Inclui a inserção de dados relativos à identificação da entidade prestadora ou fornecedora e ao seu relacionamento com a administração, bem como a atualização de dados.";Registo de fornecedores#;;"O contrato ou convenção com entidades privadas para prestação de serviços na área da saúde deve classificar-se em 300.10.008 – Estabelecimento de convenções com operadores privados#
-A criação e gestão de contactos institucionais da entidade devem ser considerados no 900.20.600 – Criação e utilização de contactos institucionais# 
-
-";"DL 54-A/99#
+A criação e gestão de contactos institucionais da entidade devem ser considerados no 900.20.600 – Criação e utilização de contactos institucionais#";"DL 54-A/99#
 Lei 162/99#
 DL 232/97#";"DL 54-A/99, alterado pela Lei 162/99#
 DL 232/97#";PC;N;AP#;;;"300.10.001#
@@ -2986,926 +2988,926 @@ Decorrente do prazo de prescrição da responsabilização sobre a atuação ou 
 ";Data de encerramento do processo;E;"Densidade informacional:
 Informação vertida em
 PN 300.30.008 - Registo de documentos e informação.";;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

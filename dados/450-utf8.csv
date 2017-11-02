@@ -1,7 +1,7 @@
-Código;Título;PN que aglutina;Descrição;Notas de aplicação;Exemplos NA;Notas de exclusão;Diplomas jurídico-administrativos REF;Diplomas jurídico-administrativos complementar;Tipo de processo;Processo transversal (S/N);Dono do processo;Participante no processo;Tipo de intervenção do participante;Código do processo relacionado;Título do processo relacionado;Tipo de relação entre processos;Dimensão qualitativa do processo;Uniformização do processo;Prazo de conservação administrativa;Nota ao PCA;Justificação PCA;Forma de contagem do prazo de cons. adm.;Destino final;Justificação DF;Notas;;;;;;;;;;
-450;RECONHECIMENTOS E PERMISSÕES;;"Relativo à atribuição de permissões para o exercício de atividades ou tarefas que observam padrões específicos; ao reconhecimento de características em entidades, serviços ou produtos que os tornam conformes a determinados parâmetros técnicos ou normativos; ao reconhecimento de características em entidades que as tornam passíveis de obter especial proteção ou especial benefício; à comprovação de factos ou atos.
+Estado;Código;Título;PN que aglutina;Descrição;Notas de aplicação;Exemplos NA;Notas de exclusão;Diplomas jurídico-administrativos REF;Diplomas jurídico-administrativos complementar;Tipo de processo;Processo transversal (S/N);Dono do processo;Participante no processo;Tipo de intervenção do participante;Código do processo relacionado;Título do processo relacionado;Tipo de relação entre processos;Dimensão qualitativa do processo;Uniformização do processo;Prazo de conservação administrativa;Nota ao PCA;Justificação PCA;Forma de contagem do prazo de cons. adm.;Destino final;Justificação DF;Notas;;;;;;;;;;
+;450;RECONHECIMENTOS E PERMISSÕES;;"Relativo à atribuição de permissões para o exercício de atividades ou tarefas que observam padrões específicos; ao reconhecimento de características em entidades, serviços ou produtos que os tornam conformes a determinados parâmetros técnicos ou normativos; ao reconhecimento de características em entidades que as tornam passíveis de obter especial proteção ou especial benefício; à comprovação de factos ou atos.
 Relativo, ainda, à formalização notarial de atos jurídicos extrajudiciais, conferindo-lhes fé pública.";;;"O processamento de pedidos de reconhecimento do estatuto de igualdade e do estatuto de refugiado, bem como o processamento de pedidos de autorização de residência, devem ser considerados em ""Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos"" (400.10).";;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-450.10;Licenciamentos, certificações e outras autorizações;;Compreende os processos de natureza permissiva - licenciamento, acreditação, certificação, homologação, credenciação e outras autorizações que visam possibilitar o exercício de uma atividade ou reconhecer a conformidade de um produto ou serviço a determinados parâmetros legais ou normativos.;"Requerimentos e emissão do título respetivo#
+;450.10;Licenciamentos, certificações e outras autorizações;;Compreende os processos de natureza permissiva - licenciamento, acreditação, certificação, homologação, credenciação e outras autorizações que visam possibilitar o exercício de uma atividade ou reconhecer a conformidade de um produto ou serviço a determinados parâmetros legais ou normativos.;"Requerimentos e emissão do título respetivo#
 Processamento intermédio, no que se inclui os pareceres emitidos por qualquer entidade no âmbito de cada processo#";"Licenciamento de intervenções urbanísticas#
 Licenciamento de empresa#
 Licenciamento de uso de explosivos#
@@ -15,7 +15,7 @@ A certificação de habilitações deve ser considerada em ""Reconhecimentos e p
 A certificação de saúde ou de incapacidade deve ser considerada em ""Reconhecimentos e permissões/ Emissão de comprovativos de factos ou atos"" (450.30);
 A acreditação de diplomatas deve ser considerada em ""Execução da política externa/Coordenação e acompanhamento político e diplomático"" (200.20);
 O processamento de pedidos de equivalência ou reconhecimento específicos, apresentados por titulares de graus académicos obtidos no estrangeiro, deve ser considerado em ""Prestação de serviços de ensino e formação/ Avaliação de aprendizagens"" (750.30).";;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-450.10.062;Licenciamento ou autorização de atividades de comércio;"450.10.007
+;450.10.062;Licenciamento ou autorização de atividades de comércio;"450.10.007
 450.10.042
 450.10.044 
 450.10.048
@@ -45,14 +45,14 @@ Regulamento (CE) 111/2005#
 DL 176/2006#
 DL 259/2007#
 DL 234/2007#
-Regulamento (UE) 376/2008#
-Regulamento (UE) 428/2009#
+Regulamento (CE) 376/2008#
+Regulamento (CE) 428/2009#
 DL 92/2010#
 DL 145/2009#
 Deliberação do Conselho Diretivo do INFARMED 516/2010#
 Deliberação do Conselho Diretivo do IGFSS 15/2010#
 DL 48/2011#
-Regulamento (UE) 1011/2015#
+Regulamento Delegado (UE) 1011/2015#
 Regulamento (UE) 1013/2015#
 Lei 5/2015#";"DL 15/93 e Decreto Reg. 61/94, republicado pelo Dec. Reg  28/2009# regulamentos setoriais#
 DL 92/2010#
@@ -105,7 +105,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados);
 PN 400.10.200 - Registo comercial (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal).";;;;;;;;;;;
-450.10.063;Licenciamento ou autorização de atividades de transporte, circulação e deslocação;"450.10.003
+;450.10.063;Licenciamento ou autorização de atividades de transporte, circulação e deslocação;"450.10.003
 450.10.008
 450.10.016
 450.10.022
@@ -189,7 +189,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados);
 PN 400.10.009 - Registo nacional de pessoas coletivas (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal).";;;;;;;;;;;
-450.10.064;Licenciamento ou autorização de atividades de alojamento e de restauração;450.10.005;"Permissão para a prestação de serviços de restauração e de alojamento temporário com fins lucrativos.
+;450.10.064;Licenciamento ou autorização de atividades de alojamento e de restauração;450.10.005;"Permissão para a prestação de serviços de restauração e de alojamento temporário com fins lucrativos.
 Inicia com o pedido e termina com o registo do estabelecimento.
 Inclui realização de vistoria, definição da capacidade máxima de utilizadores, cálculo do valor da taxa devida e apresentação do comprovativo do seu pagamento.";"Empreendimentos de alojamento local (PN Ex 450.10.005)#
 Empreendimentos de turismo no espaço rural#
@@ -237,7 +237,7 @@ turísticos nos termos do artigo 33.º determina o cancelamento
 da inscrição do empreendimento turístico no RNET.
 
 Será um registo de 400 ou um registo operacional?";;;;;;;;;;
-450.10.065;Licenciamento ou autorização de atividades de prestação de serviços de segurança privada;450.10.041;"Permissão para o exercício da atividade de prestação de serviços de segurança privada a terceiros  por concessão de alvará, licença ou autorização.
+;450.10.065;Licenciamento ou autorização de atividades de prestação de serviços de segurança privada;450.10.041;"Permissão para o exercício da atividade de prestação de serviços de segurança privada a terceiros  por concessão de alvará, licença ou autorização.
 Inicia com o pedido e termina com a comunicação da decisão ao interessado e às forças de segurança e de inspeção competentes.
 Inclui análise preliminar, validação e verificação de qualificações profissionais, vistoria (quando devido)  a instalações e meios materiais a utilizar na atividade, consulta de entidades, submissão para decisão ao membro do governo competente, decisão, cálculo do valor da taxa devida e entrega do comprovativo do seu pagamento, emissão de cartões de vigilante, renovação de documentos.
 ";"Prestação de serviços a terceiros por entidades privadas com vista à proteção de pessoas e bens, bem como à prevenção da prática de crimes (PN 450.10.041)#
@@ -284,7 +284,7 @@ PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre a atividade da entidade licenciada, pelo que aplicando a escala de risco se opta pela conservação.
 
 ";PN sem registo nacional;;;;;;;;;;
-450.10.066;"Licenciamento ou autorização de atividades agrícolas, pecuárias, florestais, de caça e de pesca
+;450.10.066;"Licenciamento ou autorização de atividades agrícolas, pecuárias, florestais, de caça e de pesca
 
 
 
@@ -351,7 +351,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados);
 PN 400.10.200 - Registo comercial (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal)";;;;;;;;;;;
-450.10.068;Licenciamento de atividades de gestão de resíduos;;"Atribuição  de licença a operadores de transporte e armazenagem, tratamento, valorização e eliminação de resíduos (OGR).
+;450.10.068;Licenciamento de atividades de gestão de resíduos;;"Atribuição  de licença a operadores de transporte e armazenagem, tratamento, valorização e eliminação de resíduos (OGR).
 Inicia com  a entrega do pedido e termina com a emissão do alvará.
 Inclui análise preliminar, consulta a entidades, avaliação do projeto de execução e de exploração, realização de vistoria, prestação de garantia financeira e  decisão.  ";"Operações de imersão e aterro de resíduos#
 Gestão de todo o tipo de resíduos, incluindo os resíduos radioactivos#
@@ -371,7 +371,7 @@ Decreto 59/97#
 Lei 58/2005#
 Portaria 335/97#
 DL 41-A/2010#
-Declaração de rectificação 18/2010#";;PE;S;"DGS#
+Declaração de Retificação 18/2010#";;PE;S;"DGS#
 APA#
 CCDR#";"APA#
 IST#
@@ -409,7 +409,7 @@ Prazo decorrente da necessidade de consulta para apuramento da responsabilidade 
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados).";;;;;;;;;;;
-450.10.070;Licenciamento ou autorização de atividades industriais;"450.10.017
+;450.10.070;Licenciamento ou autorização de atividades industriais;"450.10.017
 450.10.018
 450.10.024
 450.10.047
@@ -478,7 +478,7 @@ Embora a informação relativa à atuação da entidade licenciadora e aos casos
 PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre a atividade da entidade licenciada, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-450.10.071;Licenciamento ou autorização de atividades de prestação de serviços de apoio social;450.10.020;"Atribuição de licença de funcionamento necessária para que os estabelecimentos de apoio social geridos por entidades privadas e instituições particulares de solidariedade social sem acordo, possam exercer atividades de respostas sociais.
+;450.10.071;Licenciamento ou autorização de atividades de prestação de serviços de apoio social;450.10.020;"Atribuição de licença de funcionamento necessária para que os estabelecimentos de apoio social geridos por entidades privadas e instituições particulares de solidariedade social sem acordo, possam exercer atividades de respostas sociais.
 Inicia com o requerimento do interessado e termina com a emissão da licença.
 Inclui análise preliminar, validação do projeto de regulamento, consulta de entidades, cálculo do valor da taxa devida e comprovativo do seu pagamento.";"Licenciamento da atividade de serviços de apoio social (Anterior PN 450.10.020)#
 Substituição de alvará de licenciamento#
@@ -520,7 +520,7 @@ PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora)
 PN 300.30.008 - Registo de documentos (casos licenciados)
 e no Registo de instituições Particulares de Solidariedade social (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal)";"Portaria 139/2007:  aprova o Regulamento de Registo das Instituições Particulares de Solidariedade Social do Âmbito da
 ação Social do Sistema de Segurança Social,";;;;;;;;;;
-450.10.072;Licenciamento ou autorização de atividades artísticas, desportivas e recreativas;"450.10.021
+;450.10.072;Licenciamento ou autorização de atividades artísticas, desportivas e recreativas;"450.10.021
 450.10.023
 450.10.028
 450.10.032
@@ -569,7 +569,9 @@ IGAC#
 APA#
 DGAM#";"AL#
 APA#
-DGAM#";Apreciar#;"150.20.300#
+DGAM#";"Apreciar#
+Apreciar#
+Apreciar#";"150.20.300#
 150.40.500#
 300.30.008#
 350.30.001#
@@ -623,7 +625,7 @@ DL 304/2003, artº 8
  O IPJ deve organizar e manter actualizado um registo das entidades licenciadas para a organização de campos de férias.
 2 - No registo devem constar os seguintes elementos: (...)Os documentos que integram o pedido de licença
 ";;;;;;;;;;
-450.10.073;Licenciamento ou autorização de atividades de investigação científica e de desenvolvimento;"450.10.029
+;450.10.073;Licenciamento ou autorização de atividades de investigação científica e de desenvolvimento;"450.10.029
 450.10.052
 450.10.053
 450.10.061";"Permissão para a realização de atividades de investigação e de desenvolvimento envolvendo todos os domínios do conhecimento humano com ou sem fim lucrativo.
@@ -681,7 +683,7 @@ Embora a informação relativa à atuação da entidade licenciadora e aos casos
 PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre a atividade da entidade licenciada, pelo que aplicando a escala de risco se opta pela conservação.";PN sem registo nacional;;;;;;;;;;
-450.10.074;Licenciamento ou autorização de atividades de prestação de serviços de ensino e formação a estabelecimentos de ensino particular e cooperativo e a entidades formadoras certificadas;450.10.030;"Permissão aos estabelecimentos de ensino particular e cooperativo e a entidades formadoras certificadas para a prestação de serviços de ensino e formação.
+;450.10.074;Licenciamento ou autorização de atividades de prestação de serviços de ensino e formação a estabelecimentos de ensino particular e cooperativo e a entidades formadoras certificadas;450.10.030;"Permissão aos estabelecimentos de ensino particular e cooperativo e a entidades formadoras certificadas para a prestação de serviços de ensino e formação.
 Inicia com o pedido de autorização e termina com a comunicação da decisão.
 Inclui a verificação dos requisitos exigidos legalmente e o processo de denominação do estabelecimento de ensino criado.";Autorização para as atividades de ensino e formação inerentes ao funcionamento de estabelecimentos do ensino particular e cooperativo (Anterior PN 450.10.030)# e a entidades formadoras certificadas#;;;"Portaria 59/2014#
 DL 152/2013#
@@ -716,7 +718,7 @@ Embora a informação relativa à atuação da entidade licenciadora e aos casos
 PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre a atividade da entidade licenciada, pelo que aplicando a escala de risco se opta pela conservação.";o registo comercial serve apenas a entidades coletivas. As pessoas singulares não têm esta obrigação (DL 152/2013, artº 26);;;;;;;;;;
-450.10.075;Licenciamento ou autorização de atividades de informação, comunicação e informática;450.10.037;"Permissão para o desenvolvimento de atividades de produção e distribuição de produtos de informação e culturais, de fornecimento de meios para transmitir e distribuir esses produtos, assim como dados ou comunicações, de atividades das tecnologias da informação e de processamento de dados.
+;450.10.075;Licenciamento ou autorização de atividades de informação, comunicação e informática;450.10.037;"Permissão para o desenvolvimento de atividades de produção e distribuição de produtos de informação e culturais, de fornecimento de meios para transmitir e distribuir esses produtos, assim como dados ou comunicações, de atividades das tecnologias da informação e de processamento de dados.
 Inicia com o pedido ou com a candidatura e termina com comunciação da decisão ou a emissão do alvará.
 Inclui a análise do pedido ou candidatura, consulta de entidades, fundamentação para a decisão, decisão, cálculo da taxa devida e comprovativo do seu pagamento.";"Exercício de atividade de radiodifusão (Anterior PN 450.10.037)#
 Exercício de atividades de edição de jornais, revistas, livros, cartazes e artigos cartográficos#
@@ -766,7 +768,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados);
 PN 400.10.200 - Registo comercial (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal).";;;;;;;;;;;
-450.10.076;Licenciamento ou autorização de atividades de apoio ao emprego e inserção no mercado de trabalho;"450.10.046
+;450.10.076;Licenciamento ou autorização de atividades de apoio ao emprego e inserção no mercado de trabalho;"450.10.046
 450.10.051";"Atribuição de licença ou autorização de funcionamento de empresas, organizações ou serviços para o exercício de atividades de apoio a jovens e adultos desempregados para a definição e desenvolvimento do seu percurso de inserção ou reinserção no mercado de trabalho e de colocação de trabalhadores em trabalhos temporários.
 Inicia com Inicia com o pedido ou candidatura e termina com a comunicação da decisão e/ou emissão da licença.
 Inclui análise do cumprimento dos requisitos e critérios de seleção, fundamentação para a decisão, contratualização de objetivos, cálculo da taxa devida e comprovativo do seu pagamento.  Inclui ainda o registo nas bases de dados específicas, conforme o tipo de entidade.
@@ -817,7 +819,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados);
 PN 400.10.200 - Registo comercial";DL 260/2009, Artº 8: O serviço público de emprego mantém actualizado e disponibiliza por via electrónica para acesso público o registo nacional das empresas de trabalho temporário, o qual identifica as empresas licenciadas e aquelas em que ocorra a suspensão da actividade, caducidade ou cessação da licença ou aplicação de sanção acessória, com indicação, face a cada uma, da sua denominação;;;;;;;;;;
-450.10.077;Licenciamento ou autorização de atividades de prestação de serviços de saúde humana;"450.10.056
+;450.10.077;Licenciamento ou autorização de atividades de prestação de serviços de saúde humana;"450.10.056
 450.10.057
 450.10.060";"Permissão para o desenvolvimento de atividades  de prestação de serviços na área da saúde humana.
 Inicia com o pedido ou com a submissão eletrónica da declaração de responsabilidade e termina com a emissão da licença.
@@ -839,7 +841,9 @@ ANPC#
 CNPRP#
 ARS#
 AL#
-DRS#";"Apreciar#
+DRS#
+ACT#";"Apreciar#
+Apreciar#
 Apreciar#
 Apreciar#
 Apreciar#
@@ -871,7 +875,7 @@ Embora a informação relativa à atuação da entidade licenciadora e aos casos
 PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre a atividade da entidade licenciada, pelo que aplicando a escala de risco se opta pela conservação.";PN sem registo nacional;;;;;;;;;;
-450.10.078;Licenciamento ou autorização de atividades de prestação de serviços de veterinária;;"Permissão para o desenvolvimento de atividades em centros de atendimento médico-veterinários.
+;450.10.078;Licenciamento ou autorização de atividades de prestação de serviços de veterinária;;"Permissão para o desenvolvimento de atividades em centros de atendimento médico-veterinários.
 Inicia com o pedido e termina com a comunicação da decisão.
 Inclui análise do pedido, identificação do diretor clínico, vistoria às instalações, cálculo da taxa devida e comprovativo do seu pagamento.";"Atividades de prevenção e diagnóstico veterinário#
 Atividades de tratamento veterinário#
@@ -906,14 +910,14 @@ Embora a informação relativa à atuação da entidade licenciadora e aos casos
 PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre a atividade da entidade licenciada, pelo que aplicando a escala de risco se opta pela conservação.";PN sem registo nacional;;;;;;;;;;
-450.10.079;Licenciamento ou autorização de atividades de construção;;"Permissão para o desenvolvimento de atividades de construção em obras públicas e particulares.
+;450.10.079;Licenciamento ou autorização de atividades de construção;;"Permissão para o desenvolvimento de atividades de construção em obras públicas e particulares.
 Inicia com a submissão do pedido e termina com a emissão do título habilitante.
 Inclui análise do pedido, cálculo da taxa devida e comprovativo do seu pagamento.";Licenciamento para o exercício da atividade do setor da construção#;;;"Lei 41/2015#
 Portaria 261-A/2015#
 DL 69/2011#
 DL 12/2004#
 
-";;PE;N;IMPIC#;AL#;Apreciar#;"150.20.300#
+";;PE;S;IMPIC#;AL#;Apreciar#;"150.20.300#
 150.40.500#
 300.30.008#
 400.10.200#
@@ -941,7 +945,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados);
 PN 400.10.200 - Registo comercial (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal):";;;;;;;;;;;
-450.10.080;Licenciamento ou autorização de atividades de prestação de serviços de intermediação imobiliária;;"Permissão para o desenvolvimento de atividades de
+;450.10.080;Licenciamento ou autorização de atividades de prestação de serviços de intermediação imobiliária;;"Permissão para o desenvolvimento de atividades de
 de compra e venda, bem como de arrendamento e exploração de bens imobiliários nomeadamente, edifícios residenciais, não residenciais e de terrenos.
 Inicia com o pedido e termina com a emissão de título habilitante.
 ";"Atividade de compra e venda de bens imobiliários#
@@ -976,7 +980,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados);
 PN 400.10.200 - Registo comercial (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal).";;;;;;;;;;;
-450.10.200;Processamento de pedidos de informação prévia;"450.20.200
+;450.10.200;Processamento de pedidos de informação prévia;"450.20.200
 450.10.225";"Informação sobre a viabilidade de realizar determinada operação.
 Inicia com o pedido e termina com a notificação da decisão.
 Inclui consulta de entidades, disponibilização de informação sobre o procedimento de controlo prévio para a operação pretendida, deliberação final, cálculo do valor da taxa devida e apresentação do comprovativo do seu pagamento.
@@ -987,7 +991,9 @@ Informação prévia de utilização de recursos hídricos#
 Informação prévia de localização de pedreiras (Anterior PN 450.10.225)#
 Informação de ciabilidade de instalação de indústria e pecuária#
 Informação de viabilidade de infraestruturas aquícolas#
-Informação de viabilidade de instalação de CIVER#";;Os pedidos no âmbito do direito à informação devem ser considerados em 900.20.604 – Processamento de pedidos de informação e de esclarecimento#;"Portaria 232/2008#
+Informação de viabilidade de instalação de CIVER#
+Informação prévia de ação do curso de formação inicial de Técnico de Segurança no Trabalho/Técnico Superior de Segurança no Trabalho#
+Informação prévia de ação do curso de formação para representante do empregador, trabalhador designado, para o desenvolvimento de atividades de segurança no trabalho#";;Os pedidos no âmbito do direito à informação devem ser considerados em 900.20.604 – Processamento de pedidos de informação e de esclarecimento#;"Portaria 232/2008#
 DL 26/2010#
 Portaria 1450/2007#
 DL 226-A/2007#
@@ -1011,9 +1017,7 @@ DL 136/2014#
 450.10.233#
 450.10.234#
 500.10.001#
-500.10.301#
-
-";"Avaliação de atividades#
+500.10.301#";"Avaliação de atividades#
 Recolha e tratamento de dados estatísticos de apoio à gestão#
 Registo de documentos e informação#
 Cobrança de receitas e pagamento de despesas#
@@ -1059,7 +1063,7 @@ PN 450.10.201 - Licenciamento ou autorização de loteamento;
 PN 450.10.203 - Licenciamento ou autorização de urbanização;
 PN 450.10.204 - Licenciamento ou autorização de edificações;
 PN 450.10.216 - Licenciamento de farmácias.";;;;;;;;;;;
-450.10.201;Licenciamento ou comunicação de loteamentos;;"Controlo prévio de operações de constituição de lotes destinados à edificação urbana e que resultem da divisão de um ou vários prédios, ou do seu reparcelamento.
+;450.10.201;Licenciamento ou comunicação de loteamentos;;"Controlo prévio de operações de constituição de lotes destinados à edificação urbana e que resultem da divisão de um ou vários prédios, ou do seu reparcelamento.
 Inicia com o pedido ou a apresentação da comunicação prévia e termina com a emissão da licença ou a  deliberação final referente à comunicação prévia.
 Inclui apreciação liminar do pedido, apreciação de projeto, consulta de entidades, definição da área de construção e de implantação,  definição de áreas a afetar a espaço público, discussão pública, cálculo da taxa devida e comprovativo do seu pagamento";"Modalidades de licença e de admissão de comunicação prévia#
 ";;O registo de lotes deve ser considerado em 400.10.406 – Registo predial#;"DL 26/2010#
@@ -1113,7 +1117,7 @@ Prazo decorrente da necessidade de consulta para apuramento da responsabilidade 
 Informação não se encontra integralmente sintetizada, nomeadamente nomeadamente para as parcelas de terreno que fiquem afetas ao domínio público.
 
 ";;;;;;;;;;;
-450.10.202;Licenciamento ou comunicação de remodelação de terrenos;;"Controlo prévio de operações de alteração do relevo natural e das camadas de solo arável ou destruição do revestimento natural para fins não exclusivamente agrícolas, pecuários, florestais, mineiros ou de abastecimento de água.
+;450.10.202;Licenciamento ou comunicação de remodelação de terrenos;;"Controlo prévio de operações de alteração do relevo natural e das camadas de solo arável ou destruição do revestimento natural para fins não exclusivamente agrícolas, pecuários, florestais, mineiros ou de abastecimento de água.
 Inicia com o pedido ou a apresentação de comunicação prévia e termina com a verificação da execução da obra.
 Inclui apreciação liminar do pedido, consulta de entidades, discussão pública, emissão da licença, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.";Modalidades de licença e admissão de comunicação prévia#;;A autorização para intervenção nos terrenos no âmbito arqueológico deve ser considerada em PN 450.10.230 – Autorização de trabalhos arqueológicos#;"DL 26/2010#
 DL 136/2014#
@@ -1150,7 +1154,7 @@ Embora a informação relativa à atuação da entidade licenciadora e aos casos
 PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre o impacto da remodelação de terrenos, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-450.10.203;Licenciamento ou comunicação de urbanização;;"Controlo prévio de criação e remodelação de infraestruturas destinadas a servir os espaços urbanos ou as edificações.
+;450.10.203;Licenciamento ou comunicação de urbanização;;"Controlo prévio de criação e remodelação de infraestruturas destinadas a servir os espaços urbanos ou as edificações.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui apresentação do projeto e respetivo termo de responsabilidade, apreciação liminar do pedido, consulta de entidades, apreciação dos projetos das obras de urbanização, preenchimento de livro de obra, audiência prévia de interessados, deliberação final, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.";"Criação de espaços verdes e outros espaços de utilização coletiva#
 Criação de infraestruturas de arruamentos viários e pedonais#
@@ -1197,7 +1201,7 @@ Embora a informação relativa à atuação da entidade licenciadora e aos casos
 PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre os projetos de urbanização, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-450.10.204;Licenciamento ou comunicação de edificações;"450.10.204
+;450.10.204;Licenciamento ou comunicação de edificações;"450.10.204
 450.10.209
 450.10.228";"Controlo prévio de obras de construção, reconstrução, ampliação, alteração, conservação ou demolição de imóvel.
 Inicia com o pedido ou a admissão de comunicação prévia e termina com a verificação da execução da obra.
@@ -1207,7 +1211,8 @@ Intervenções em imóveis integrados em conjuntos ou sítios classificados ou e
 Intervenções em imóveis situados em zonas de proteção de imóveis classificados ou em vias de classificação#
 Intervenções em jazigos particulares e sepulturas perpétuas#
 Modalidades de licença e admissão de comunicação prévia#
-Intervenções em muros#";;O pagamento da taxa devida deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas#;"DL 555/99#
+Intervenções em muros#
+Licenças de aprovação do plano de trabalhos e reconhecimento das competências para trabalhos de demolição ou remoção do amianto#";;O pagamento da taxa devida deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas#;"DL 555/99#
 DL 26/2010#
 DL 136/2014#";;PC;S;AL#;"CCDR#
 APA#
@@ -1271,7 +1276,7 @@ Embora a informação relativa à atuação da entidade licenciadora e aos casos
 PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre os projetos de edificação, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-450.10.205;Autorização de utilização de edificações, frações ou recintos fixos;"450.10.205
+;450.10.205;Autorização de utilização de edificações, frações ou recintos fixos;"450.10.205
 450.10.226";"Permissão de utilização de um espaço, edifício ou fração para determinado fim.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui apresentação do termo de responsabilidade, ou na sua falta, realização de vistoria ao local para verificação das condições técnicas e de segurança, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.";"licenciamento de habitação#
@@ -1325,7 +1330,7 @@ Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97],
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada)";data do encerramento do processo;C;"Critério: Densidade informacional
 Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada em
 PN 150.20.300 - Avaliação de atividade e em PN 300.30.008 - Registo de documentos, não se dispõe de PN sintetizador sobre o tipo de utilização licenciada e suas condições, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-450.10.207;Licenciamento ou autorização de instalações agropecuárias;;"Permissão para executar projeto de instalação de explorações agropecuárias.
+;450.10.207;Licenciamento ou autorização de instalações agropecuárias;;"Permissão para executar projeto de instalação de explorações agropecuárias.
 Inicia com o pedido e termina com a emissão de licença.
 Inclui  apreciação de pedido, consulta e concertação de entidades, comunicação da decisão ao requerente, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.
 ";"Instalação de suinicultura#
@@ -1339,15 +1344,15 @@ A fiscalização deve ser considerada em 500.10.301 – Realização de fiscaliz
 O pagamento da taxa devida deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas#
 Avaliação ambiental deve ser em 450.10.229 – Procedimento de avaliação de impactos ambientais#
 A construção das instalações pecuárias deve ser considerada em 450.10.204 – Licenciamento ou autorização de edificações#
-A autorização para a recolha e tratamento de resíduos deve ser considerada em 450.10.068 – Licenciamento de atividade de gestão de resíduos#";"Diretiva 2010/75/EU#
+A autorização para a recolha e tratamento de resíduos deve ser considerada em 450.10.068 – Licenciamento de atividade de gestão de resíduos#";"Diretiva (UE) 75/2010#
 DL 127/2013#
 Portaria 1047/2001#
 DL 169/2012#
 DL 81/2013#
 DL 173/2008#
-Declaração de retificação 3/2013#
+Declaração de Retificação 3/2013#
 Portaria 631/2009#
-Portaria 634/2009# 
+Portaria 634/2009#
 Portaria 635/2009#
 Portaria 636/2009#
 Portaria 637/2009#
@@ -1414,7 +1419,7 @@ PN 450.10.204 - Licenciamento ou autorização de edificações,
 PN 450.10.223 - Licenciamento para a rejeição de águas residuais,
 PN 450.10.229 - Procedimentos de avaliação de impactos ambientais,
 PN 500.10.600 - Monitorização sistemática da conformidade.";;;;;;;;;;;
-450.10.208;Licenciamento ou autorização de instalações industriais;;"Permissão para execução de projeto de instalação de estabelecimento industrial.
+;450.10.208;Licenciamento ou autorização de instalações industriais;;"Permissão para execução de projeto de instalação de estabelecimento industrial.
 Inicia com a apresentação do pedido à entidade coordenadora e termina com a comunicação da decisão final integrada ao requerente, à Câmara Municipal territorialmente competente, bem como às entidades públicas cuja consulta tenha sido dispensada.
 Inclui convite ao aperfeiçoamento, quando devido, consulta e concertação de entidades, vistoria à instalação, cálculo da taxa devida e comprovativo do seu pagamento e decisão final.
 ";"Alterações à instalação industrial#
@@ -1496,15 +1501,15 @@ PN 450.10.204 - Licenciamento ou autorização de edificações,
 PN 450.10.223 - Licenciamento para a rejeição de águas residuais,
 PN 450.10.229 - Procedimentos de avaliação de impactos ambientais,
 PN 500.20.600 - Monitorização sistemática da conformidade.";https://www.iapmei.pt/getattachment/PRODUTOS-E-SERVICOS/Licenciamento-Industrial/Sistema-da-Industria-Responsavel-(SIR)/SIRGuia2015.pdf.aspx;;;;;;;;;;
-450.10.209;Autorização para instalação de infraestruturas emissoras de radiação;;"Permissão para execução de projeto de instalação de infraestruturas para equipamentos emissores de radiações ionizantes e não ionizantes.
+;450.10.209;Autorização para instalação de infraestruturas emissoras de radiação;;"Permissão para execução de projeto de instalação de infraestruturas para equipamentos emissores de radiações ionizantes e não ionizantes.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui apreciação liminar do pedido, consulta de entidades, definição de condicionantes, quando devido, cálculo da taxa devida e apresentação do comprovativo do seu pagamento e notificação ao requerente da decisão.";"Radiações eletromagnéticas#
 Radiações ionizantes#
 Emissões radiológicas#";;;"DL 151-A/2000#
 DL 264/2009#
-Declaração de retificação 90/2009# 
+Declaração de Retificação 90/2009# 
 
-";;PE;S;"ANACOM-ICP#
+";;PE;S;"ANACOM#
 MD#
 APA#";"DGS#
 IST#
@@ -1546,7 +1551,7 @@ Prazo prescricional do procedimento contraordenacional
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 (no que diz respeito à atuação da Administração) e dos PN 500.10.300 e  500.10.301 (no que diz respeito à atuação da entidade licenciada)";data da caducidade da licença (sendo que no caso da licenças permanentes, deve considerar-se a data de encerramento da instalação);C;"Critério: Densidade informacional
 Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada em
 PN 150.20.300 - Avaliação de atividades e PN 300.30.008 - Registo de documentos, não se dispõe de PN sintetizador sobre o uso da instalação  licenciada e suas condições, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-450.10.210;Autorização para ligação à rede de efluentes industriais;;"Permissão para lançamento de efluentes industriais na rede de coletores, na sequência de um licenciamento de atividade.
+;450.10.210;Autorização para ligação à rede de efluentes industriais;;"Permissão para lançamento de efluentes industriais na rede de coletores, na sequência de um licenciamento de atividade.
 Inicia com o pedido e termina com a autorização.
 inclui apresentação de resultado de análises, definição de programas de autocontrolo da qualidade de águas residuais e de medidas preventivas, consulta de entidades, quando devido, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.
 
@@ -1555,7 +1560,7 @@ O controlo da rejeição das águas residuais deve ser considerado em 500.10.301
 A análise  aos afluentes deve ser considerada em 800.10.601 – Realização de ensaios laboratoriais#";"Decreto Regulamentar 23/95#
 DL 152/97#
 DL 348/98#
-DL 194/200#4
+DL 194/2004#
 DL 226-A/2007#
 Lei 58/2005#";;PE;S;AL#;ERSAR#;Apreciar#;"150.20.300#
 150.40.500#
@@ -1591,7 +1596,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados).
 ";;;;;;;;;;;
-450.10.212;Licenciamento ou autorização de obras no subsolo e na via pública;;"Controlo prévio de obras e trabalhos a realizar no solo e subsolo do domínio público.
+;450.10.212;Licenciamento ou autorização de obras no subsolo e na via pública;;"Controlo prévio de obras e trabalhos a realizar no solo e subsolo do domínio público.
 Inicia com o pedido ou apresentação de comunicação prévia e termina com a emissão da licença ou a autorização.
 Inclui apresentação de planta de localização, análise do projeto de intervenção, preenchimento da declaração e do termo de responsabilidade, apresentação de plano de segurança e condicionantes ao trânsito, consulta de entidades, comunicação aos interessados, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.";"Intervenções em redes subterrâneas de abastecimento de água#
 Intervenções em redes subterrâneas de abastecimento de gás#
@@ -1628,7 +1633,7 @@ PN 150.20.300 - Avaliação de atividades;
 PN 150.40.500 - Recolha e tratamento de dados estatísticos para apoio à decisão;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre o tipo de utilização licenciada e suas condições, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-"450.10.213
+;"450.10.213
 
 
 
@@ -1706,7 +1711,7 @@ Toma ainda como base o facto da imprevisibilidade dos estudos nesta área.
 A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.
 A grelha para seleção da amostragem encontra-se no final desta página.
 ";;;;;;;;;;;
-450.10.214;Licenciamento ou comunicação de publicidade;;"Atribuição de licença ou autorização para afixação, inscrição  ou transmissão sonora de mensagens publicitárias.
+;450.10.214;Licenciamento ou comunicação de publicidade;;"Atribuição de licença ou autorização para afixação, inscrição  ou transmissão sonora de mensagens publicitárias.
 Inicia com o pedido ou  com comunicação prévia e termina com a emissão da licença ou a autorização.
 Inclui, no caso de sujeição a licença, consulta de entidades, no caso das unidades móveis publicitárias apresentação de seguro, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.";"Distribuição de folhetos e panfletos publicitários#
 Instalação de suporte publicitário aéreo como blimps, balões, zepelins, insufláveis e semelhantes#
@@ -1718,7 +1723,7 @@ Publicidade em domínio público hídrico#";;"A construção de infraestruturas 
 DL 310/2002#
 DL 330/90#
 Lei 97/88#";;PC;S;AL#;"DGPC#
-IP#
+IP,SA#
 IMT#
 TP#
 ICNF#
@@ -1732,7 +1737,8 @@ Apreciar#
 Apreciar#
 Apreciar#
 Apreciar#
-iniciar#";"150.20.300#
+Iniciar#
+Iniciar#";"150.20.300#
 150.40.500#
 300.30.008#
 350.30.001#
@@ -1762,7 +1768,7 @@ Toma ainda como base o facto da imprevisibilidade dos estudos nesta área.
 A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.
 A grelha para seleção da amostragem encontra-se no final desta página.
 ";;;;;;;;;;;
-450.10.215;Licenciamento ou autorização especial de ruído;;"Atribuição de licença ou autorização para realizar atividade ruidosa.
+;450.10.215;Licenciamento ou autorização especial de ruído;;"Atribuição de licença ou autorização para realizar atividade ruidosa.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui indicação da localização da atividade ruidosa e do período de atividade, cálculo da taxa devida, quando aplicável, e apresentação do comprovativo do seu pagamento.
 ";" Atividade ruidosa temporária#
@@ -1803,7 +1809,7 @@ Toma ainda como base o facto da imprevisibilidade dos estudos nesta área.
 A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.
 A grelha para seleção da amostragem encontra-se no final desta página.
 ";;;;;;;;;;;
-450.10.216;Licenciamento de farmácias;"450.10.216
+;450.10.216;Licenciamento de farmácias;"450.10.216
 450.10.217
 450.10.218";"Permissão para instalação de farmácias.
 Inicia com o pedido de abertura do procedimento concursal para a instalação de farmácia e termina com a comunicação de encerramento.
@@ -1847,7 +1853,7 @@ PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados);
 Registo de farmácias (atividade da farmácia).";"DL 171/2012 - Artº 19º A - Registo:
 O INFARMED organiza e mantém um registo permanentemente atualizado de cada farmácia e das respetivas vicissitudes";;;;;;;;;;
-450.10.219;Licenciamento de inscrição de grafitos, afixações e picotagens ;;"Atribuição de licença para alterar as características originais de superfícies exteriores de edifícios, pavimentos, passeios, muros e de outras infraestruturas através de grafitos, afixações ou picotagens com caracter artístico, decorativo ou informativo.
+;450.10.219;Licenciamento de inscrição de grafitos, afixações e picotagens ;;"Atribuição de licença para alterar as características originais de superfícies exteriores de edifícios, pavimentos, passeios, muros e de outras infraestruturas através de grafitos, afixações ou picotagens com caracter artístico, decorativo ou informativo.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui análise preliminar do pedido, autorização do proprietário, quando devido, apreciação de projeto, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.";Grafitos e afixações em infraestruturas, pavimentos, passeios e muros  em domínio público#;;A afixação e inscrição de mensagens publicitárias devem ser consideradas em 450.10.214 – Licenciamento ou comunicação de publicidade#;Lei 61/2013#;;PC;S;AL#;AP#;Iniciar#;"150.20.300#
 150.40.500#
@@ -1878,7 +1884,7 @@ PN 150.20.300 - Avaliação de atividades;
 PN 150.40.500 - Recolha e tratamento de dados estatísticos para apoio à decisão;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre o projeto licenciado, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-450.10.220;Licenciamento para a realização de fogueiras e queimadas;;"Atribuição de licença para fazer fogueiras em espaços públicos ou em terrenos privados.
+;450.10.220;Licenciamento para a realização de fogueiras e queimadas;;"Atribuição de licença para fazer fogueiras em espaços públicos ou em terrenos privados.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui consulta de entidades, avaliação das condições meteorológicas, apresentação de informação relativa à estrutura de ocupação do solo, estado de secura dos combustíveis e localização de infraestruturas, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.";"Fogueiras de Natal e dos santos populares#
 Queima de sobrantes#
@@ -1908,7 +1914,7 @@ Prazo prescricional do procedimento contraordenacional
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 (no que diz respeito à atuação da Administração) e dos PN 500.10.300 e  500.10.301 (no que diz respeito à atuação da entidade licenciada)";data da caducidade da licença;E;"Densidade informacional:
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora) e em PN 300.30.008 - Registo de documentos (casos licenciados)";;;;;;;;;;;
-450.10.221;Licenciamento de recintos itinerantes ou improvisados ou de acampamentos ocasionais;"450.10.221
+;450.10.221;Licenciamento de recintos itinerantes ou improvisados ou de acampamentos ocasionais;"450.10.221
 450.10.211";"Atribuição de licença de recinto para efeito de instalação de estruturas móveis efémeras, destinadas à realização de espetáculos, e de divertimentos públicos ou acampamentos ocasionais.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui apresentação de informação relativa ao evento a realizar no recinto, vistoria ao local e aos equipamentos, apresentação do último certificado da inspeção de cada equipamento, apresentação de apólice de seguro, análise e aprovação do plano de evacuação em situações de emergência, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.
@@ -1953,7 +1959,7 @@ Toma ainda como base o facto da imprevisibilidade dos estudos nesta área.
 A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.
 A grelha para seleção da amostragem encontra-se no final desta página.
 ";;;;;;;;;;;
-450.10.222;Licenciamento de recarga de praias, assoreamentos artificiais e operações de reposição sedimentar;;"Atribuição de licença para a criação de condições para a prática balnear e para defesa da zona costeira.
+;450.10.222;Licenciamento de recarga de praias, assoreamentos artificiais e operações de reposição sedimentar;;"Atribuição de licença para a criação de condições para a prática balnear e para defesa da zona costeira.
 Inicia com o pedido e termina com a emissão de licença.
 Inclui análise técnica, condicionantes de natureza ambiental e de conservação associadas à intervenção, definição do programa de monitorização, métodos de amostragem, cronograma  e apresentação do comprovativo do seu pagamento.";"Praias costeiras e praias do interior#
 Assoreamento e desassoreamento artificial#";;"A adjudicação da obra deve ser considerada em 300.10.001 – Contratação de empreitadas de obras públicas de natureza não crítica ou em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços#
@@ -1996,7 +2002,7 @@ O crédito de custas prescreve no prazo de cinco anos.
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada)";data do encerramento do processo;E;"Critério: Densidade informacional
 Informação recuperável em 300.30.001 - Compilação técnica de obra e em 450.10.229 - Procedimento de avaliação de impactos ambientais
 ";;;;;;;;;;;
-450.10.223;"Licenciamento para a rejeição de águas residuais
+;450.10.223;"Licenciamento para a rejeição de águas residuais
 ";;"Atribuição de licença para rejeição de águas residuais nas massas de água superficiais e no solo.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui localização geográfica em carta militar com os pontos de descarga, análise de projeto de drenagem e tratamento de efluentes, indicação do meio recetor, indicação do tipo de exploração, caudal descarregado, responsabilidade ambiental, seguro, caução, pagamento da taxa e apresentação do comprovativo do seu pagamento.";Rejeição de águas residuais urbanas, domésticas, industriais e pluviais contaminadas#;;"A análise de águas residuais deve ser considerada em 800.10.601 – Realização de ensaios laboratoriais#
@@ -2038,7 +2044,7 @@ PN 150.40.500 - Recolha e tratamento de dados estatísticos para apoio à decis�
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre as águas rejeitadas, pelo que aplicando a escala de risco se opta pela conservação.";"DL 130/2012 - artº 67: A licença é concedida pelo prazo máximo de 10 anos, consoante o tipo de utilizações (…)
 ";;;;;;;;;;
-450.10.224;Licenciamento de trabalhos de consolidação e proteção de margens de recursos hídricos;;"Atribuição de licença para ações de aterros e escavações com vista à consolidação das margens e proteção contra a erosão ou cheias e para melhoria ou preservação da qualidade da água.
+;450.10.224;Licenciamento de trabalhos de consolidação e proteção de margens de recursos hídricos;;"Atribuição de licença para ações de aterros e escavações com vista à consolidação das margens e proteção contra a erosão ou cheias e para melhoria ou preservação da qualidade da água.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui análise técnica, consulta de entidades, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.";;;;"DL 107/2009#
 Lei 58/2005#";;PE;S;APA#;AL#;Iniciar#;"150.20.300#
@@ -2070,7 +2076,7 @@ Prazo prescricional do procedimento contraordenacional
 - Utilidade administrativa
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada)";data do encerramento do processo;E;"Critério: Densidade informacional:
 Informação recuperável no PN 300.30.001 Compilação técnica da obra";;;;;;;;;;;
-450.10.227;Autorização de locais de venda de medicamentos não sujeitos a receita médica (MNSRM);;"Permissão para abertura de local de comercialização de medicamentos para uso humano não sujeitos a receita médica, em consonância com as regras e os procedimentos em vigor, de forma a garantir a qualidade e segurança da sua utilização.
+;450.10.227;Autorização de locais de venda de medicamentos não sujeitos a receita médica (MNSRM);;"Permissão para abertura de local de comercialização de medicamentos para uso humano não sujeitos a receita médica, em consonância com as regras e os procedimentos em vigor, de forma a garantir a qualidade e segurança da sua utilização.
 Inicia com o registo prévio e termina com a comunicação da decisão.
 Inclui validação da documentação necessária à instrução dos processos, fundamentação para resposta e decisão sobre o pedido.";Pedidos de registo dos locais de venda de medicamentos não sujeitos a receita médica para dispensarem medicamentos ao domicílio e aceitarem pedidos feitos através da Internet#;;"O Pagamento da taxa deve ser classificado em 350.30.001 – Cobrança de receitas e pagamento de despesas#
 A aplicação da medida de suspensão do alvará de funcionamento deve ser classificada em 500.30.002 – Aplicação de sanções#";"DL 171/2012#
@@ -2104,7 +2110,7 @@ PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados);
 Registo de farmácias (atividade da farmácia).";"admitindo que o registo de farmácias também se possa aplicar a estas situações …
 em alternativa, considerar a hipotese de este PN ser incluido no âmbito do PN de licenciamento de farmácias";;;;;;;;;;
-"450.10.228
+;"450.10.228
 
 ";Autorização de locais para depósito de mercadorias;;"Permissão para que determinados armazéns sejam utilizados para depósito de mercadorias.
 Inicia com pedido e termina com a comunicação da decisão.
@@ -2132,7 +2138,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados);
 PN 400.10.200 - Registo comercial.";;;;;;;;;;;
-"450.10.229
+;"450.10.229
 ";Procedimento de avaliação de impactos ambientais;;"Avaliação, de forma integrada, dos impactos ambientais significativos, diretos e indiretos, decorrentes da execução dos projetos e das alternativas apresentadas, tendo em vista suportar a decisão sobre a viabilidade ambiental dos mesmos.
 Inicia com a entrega do projeto para apreciação e termina com a comunicação da decisão.
 Inclui a verificação e análise das caraterísticas impactantes, consulta de entidades, consulta pública e emissão de licença.";"Projetos públicos e privados suscetíveis de produzirem efeitos significativos no ambiente, de acordo com a legislação em vigor#
@@ -2214,7 +2220,7 @@ Suplementar#
 Suplementar#
 Cruzada#
 Cruzada#";Elevada;S;;;;;;;;;;;;;;;;;
-450.10.229.01;Procedimento de avaliação de impactos ambientais: execução;;"Desenvolvimento de todas as fases de avaliação de impactos ambientais, com exceção da elaboração do relatório final e emissão do título.
+;450.10.229.01;Procedimento de avaliação de impactos ambientais: execução;;"Desenvolvimento de todas as fases de avaliação de impactos ambientais, com exceção da elaboração do relatório final e emissão do título.
 Inclui a entrega do projeto, verificação e análise das caraterísticas impactantes, consulta de entidades e consulta pública.";;;;;;;;;;;;;;;;30;;"Conjugação dos critérios:
 - Legal
 Prazo prescricional da responsabilidade por danos ambientais
@@ -2222,13 +2228,13 @@ Prazo prescricional da responsabilidade por danos ambientais
 ""Consideram-se prescritos os danos causados por quaisquer emissões, acontecimentos ou incidentes que hajam decorrido há mais de 30 anos sobre a efectivação do mesmo.""";data do encerramento do processo;E;"Densidade informacional
 Informação sintetizada em
 PN 450.10.229.02 -Procedimentos de avaliação de impactos ambientais: elaboração do relatório final e emissão de título.";;;;;;;;;;;
-450.10.229.02;Procedimento de avaliação de impactos ambientais: elaboração do relatório final e emissão de título;;Elaboração do relatório final e título. O projeto faz parte integrante do relatório final.;;;;;;;;;;;;;;;;30;;"Conjugação dos critérios:
+;450.10.229.02;Procedimento de avaliação de impactos ambientais: elaboração do relatório final e emissão de título;;Elaboração do relatório final e título. O projeto faz parte integrante do relatório final.;;;;;;;;;;;;;;;;30;;"Conjugação dos critérios:
 - Legal
 Prazo prescricional da responsabilidade por danos ambientais
  DL n.º 147/2008, Artigo 33.º
 ""Consideram-se prescritos os danos causados por quaisquer emissões, acontecimentos ou incidentes que hajam decorrido há mais de 30 anos sobre a efectivação do mesmo.""";data do encerramento do processo;C;"Densidade informacional
 Informação que sintetiza a etapa  450.10.229.01 - Procedimentos de avaliação de impactos ambientais: execução.";;;;;;;;;;;
-450.10.230;Autorização de trabalhos arqueológicos;450.10.004;"Permissão para a realização da atividade de trabalhos arqueológicos.
+;450.10.230;Autorização de trabalhos arqueológicos;450.10.004;"Permissão para a realização da atividade de trabalhos arqueológicos.
 Inicia com o pedido e termina com a notificação da autorização.
 Inclui apreciação do curriculum vitae do arqueólogo responsável, análise do plano de trabalhos a realizar, definição de condicionalismos, quando devido, e decisão.
 ";"Ações de emergência a realizar em sítios arqueológicos que, por efeitos de ação humana ou ação natural, se encontrem em perigo iminente de destruição parcial ou total#
@@ -2292,7 +2298,7 @@ PN 150.20.300 - Avaliação de atividades;
 PN 150.40.500 - Recolha e tratamento de dados estatísticos para apoio à decisão;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador dos trabalhos arqueológidos realizados, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-450.10.231;Autorização para realização de feiras;450.10.010;"Permissão para a realização periódica da atividade de comércio não sedentário, exercida por feirantes e vendedores ambulantes, em recintos públicos ou privados onde se concentra grande quantidade de produtos.
+;450.10.231;Autorização para realização de feiras;450.10.010;"Permissão para a realização periódica da atividade de comércio não sedentário, exercida por feirantes e vendedores ambulantes, em recintos públicos ou privados onde se concentra grande quantidade de produtos.
 Inicia com o pedido e termina com a autorização.
 Inclui consulta de entidades, apresentação da proposta de regulamento por parte do proponente e atribuição de lugar por sorteio.";"Feiras grossistas e retalhistas#
 Feiras ocasionais#";;"A concessão de exploração de locais de domínio público a entidades privadas para a realização de feiras grossistas deve ser considerada em 300.20.400 – Concessão de serviços e do uso ou exploração de bens do domínio público#
@@ -2328,7 +2334,7 @@ A constituição de uma amostra significativa do universo de onde é retirada, m
 A grelha para seleção da amostragem encontra-se no final desta página.
 ";"a realização de feiras do livro, artesanal, medieval, gastronómica, ... não são consideradas neste processo dado que não envolve o exercício da atividade de comercio por parte de feirantes. Deve ser considerado em ....
 A relação estabelecida com o PN 450.10.231 ocorre no caso da realização de feiras ocasionais.";;;;;;;;;;
-450.10.232;"Licenciamento de pesquisa e captação de água
+;450.10.232;"Licenciamento de pesquisa e captação de água
 ";;"Atribuição de licença para captação de volumes de água, superficiais ou subterrâneas, com ou sem retenção, para o consumo humano, para rega, para a atividade industrial, para a produção hidroelétrica ou para atividades recreativas ou de lazer.
 Inicia com o pedido e termina com a emissão da licença ou autorização.
 Inclui memória descritiva, avaliação técnica do pedido, consulta de entidades, apresentação de dados sobre a análise de água, definição de perímetro de proteção, definição de plano sobre o Uso Eficiente de Água, indicação das condições de utilização de águas residuais urbanas tratadas ou de escorrência de rega, caracterização do regime de exploração e das caraterísticas agronómicas do aproveitamento, sistema de fertilização e controlo de infestantes, cálculo do valor da taxa devida e comprovativo do seu pagamento.
@@ -2347,9 +2353,11 @@ Captação de água para rega de espaços públicos#
 Captação para produção de energia hidroeléctrica#";;O licenciamento de empresas de sondagem deve ser considerado em 450.10.444 – Reconhecimento de requisitos e competência técnica a entidades#;"DL 226-A/2007#
 ";;PE;S;APA#;"AL#
 CCDR#
-ICNF#";"Apreciar#
+ICNF#
+CPL#";"Apreciar#
 Apreciar#
-Apreciar#";"150.20.300#
+Apreciar#
+Iniciar#";"150.20.300#
 150.40.500#
 300.30.008#
 350.30.001#
@@ -2386,7 +2394,7 @@ Embora a informação relativa à atuação da entidade licenciadora e aos casos
 PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre os projetos de captação de água e suas consequências, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-450.10.233;Licenciamento ou autorização para a instalação de infraestruturas em domínio hídrico;;"Permissão da utilização do recurso hidrico para a instalação de infraestruturas ou construção de infraestruturas.
+;450.10.233;Licenciamento ou autorização para a instalação de infraestruturas em domínio hídrico;;"Permissão da utilização do recurso hidrico para a instalação de infraestruturas ou construção de infraestruturas.
 Inicia com o pedido e termina com a comunicação da decisão.
 Inclui análise preliminar, consulta de entidades, vistoria à instalação, definição do valor de caução, cálculo da taxa devida e comprovativo do seu pagamento e decisão final.";"Infraestruturas e equipamentos de apoio à navegação (pontão ou embarcadouro, marinas, docas, portos de recreio, cais, ancoradouros, pontos de amarração e acessos às embarcações, sinalização)#
 Infraestruturas flutuantes#
@@ -2435,7 +2443,7 @@ PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos;
 PN 300.40.003 - Edificação de iniciativa pública;
 PN 450.10.204 - Licenciamento ou autorização de edificações.";;;;;;;;;;;
-450.10.234;Licenciamento ou autorização de instalações de armazenamento de produtos de petróleo e de postos de abastecimento de combustíveis;450.10.019;"Permissão para instalar equipamentos de armazenamento de produtos de petróleo e de abastecimento de combustíveis.
+;450.10.234;Licenciamento ou autorização de instalações de armazenamento de produtos de petróleo e de postos de abastecimento de combustíveis;450.10.019;"Permissão para instalar equipamentos de armazenamento de produtos de petróleo e de abastecimento de combustíveis.
 Inicia com o pedido e termina com a emissão de licença.
 Inclui verificação da conformidade do pedido, consulta de entidades, validação de condicionantes, realização de vistoria, comprovativo de pagamento da taxa devida e decisão.";"Instalaçõs de gases de petróleo liquefeitos#
 Instalações de combustíveis líquidos#
@@ -2481,11 +2489,11 @@ Embora a informação relativa à atuação da entidade licenciadora e aos casos
 PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre o uso da instalação licenciada e suas condições, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-450.10.235;Reconhecimento de propriedade horizontal;;"Reconhecimento das condições que permitem a divisão de um edifício em frações autónomas, passíveis de se constituírem como unidades independentes pertencentes a proprietários diversos que partilham a propriedade das partes comuns do edifício.
+;450.10.235;Reconhecimento de propriedade horizontal;;"Reconhecimento das condições que permitem a divisão de um edifício em frações autónomas, passíveis de se constituírem como unidades independentes pertencentes a proprietários diversos que partilham a propriedade das partes comuns do edifício.
 Inicia com o pedido e termina com a certificação das condições de propriedade horizontal.
 Inclui vistoria ao edifício ou validação da memória descritiva, quando devido, identificação das unidades independentes e das partes comuns do edifício, definição do fim a que se destinam, cálculo da taxa devida e comprovativo do seu pagamento.";"Constituição ou alteração de propriedade horizontal#
 ";;;"DL 224/84#
-Lei 47344/96#
+DL 47344/96#
 DL 267/94#
 DL 268/94#
 DL 555/99#
@@ -2525,16 +2533,15 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora) e em
 PN 300.30.008 - Registo de documentos (casos licenciados).
 Informação recuperável nos PN de 400.10.406 - Registo predial e 400.30.001 - Celebração de contratos e escrituras";;;;;;;;;;;
-"450.10.236
+;"450.10.236
 ";Atribuição de licença de instalação de cartório notarial;;"Permissão para a instalação de cartório notarial.
 Inicia com a abertura do concurso para atribuição das licenças de instalação de cartório notarial, de acordo com as vagas existentes e termina com a tomada de posse.
 Inclui a elaboração da lista de licenças a concurso, instrução do concurso, com análise das candidaturas e apreciação dos requisitos, fiscalização das instalações e graduação e atribuição.";Instalação de cartório notarial#;;;"DL 26/2004#
-Lei 155/2015# ";;PE;N;IRN#;;;"150.20.300#
+Lei 155/2015#";;PE;N;IRN#;;;"150.20.300#
 150.40.500#
 300.30.008#
 350.30.001#
-500.10.001#
-";"Avaliação de atividades#
+500.10.001#";"Avaliação de atividades#
 Recolha e tratamento de dados estatísticos de apoio à gestão#
 Registo de documentos e informação#
 Cobrança de receitas e pagamento de despesas#
@@ -2553,12 +2560,12 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos autorizados);
 ";;;;;;;;;;;
-450.10.237;Licenciamento ou autorização de ligações e acessos;;"Controlo prévio de obras de construção, reconstrução, ampliação, alteração para estabelecimento de ligação ou acesso a estradas nacionais não vedadas ou, mediante autorização do membro do Governo, a ligações ou acesso aos IP (Itinerário Principal), IC (Itinerário Complementar) e ainda estradas nacionais vedadas e com acessos condicionados.
+;450.10.237;Licenciamento ou autorização de ligações e acessos;;"Controlo prévio de obras de construção, reconstrução, ampliação, alteração para estabelecimento de ligação ou acesso a estradas nacionais não vedadas ou, mediante autorização do membro do Governo, a ligações ou acesso aos IP (Itinerário Principal), IC (Itinerário Complementar) e ainda estradas nacionais vedadas e com acessos condicionados.
 Inicia com o pedido e termina com a comunicação da decisão ao requerente acompanhada pela emissão da respetiva licença.
 Inclui apreciação do pedido, apreciação de projeto de engenharia, consulta de entidades, decisão sobre o pedido, emissão da licença, cálculo da taxa devida e apresentação do comprovativo do seu pagamento e acompanhamento da execução da obra.";"Acesso a instalações industriais#
 Acesso a instalações comerciais e de serviços#
 Acesso a prédios rústicos#
-Acesso a edifícios de habitação#";;;Lei 34/2015#;;PE;S;"IP#
+Acesso a edifícios de habitação#";;;Lei 34/2015#;;PE;S;"IP,SA#
 AL#";"AL#
 IMT#
 ";"Iniciar#
@@ -2589,7 +2596,7 @@ Embora a informação relativa à atuação da entidade licenciadora e aos casos
 PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre os projetos de licenciamento de acessos, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-450.10.440;"Reconhecimento de títulos de profissões reguladas
+;450.10.440;"Reconhecimento de títulos de profissões reguladas
 
 ";;"Inscrição de profissionais em associação pública profissional que valida ou reconhece as competências específicas necessárias ao exercício da profissão.
 Inicia com o formulação do pedido e termina com a inscrição (ou com a comunicação da inscrição).
@@ -2617,7 +2624,7 @@ Sucessão (antecessor)#
 Suplementar#
 Suplementar#
 Suplementar#";Média;S;;;;;;;;;;;;;;;;;
-450.10.440.01;Reconhecimento de títulos de profissões reguladas: verificação de condições;;"Inicia com o pedido e termina com a conclusão da análise para efeitos de inscrição e título de profissional.
+;450.10.440.01;Reconhecimento de títulos de profissões reguladas: verificação de condições;;"Inicia com o pedido e termina com a conclusão da análise para efeitos de inscrição e título de profissional.
 Inicia com a formulação do pedido e termina com a avaliação dos conhecimentos e competências necessárias para a prática de atos profissionais de confiança pública.
 Inclui verificação da titularidade da habilitação legalmente exigida, avaliação dos conhecimentos e competências e realização de estágio ou de formação específica, quando devido, cálculo do valor a pagar e comprovativo do seu pagamento.
 ";;;;;;;;;;;;;;;;50;;"Prazo correspondente ao tempo médio de vida ativa do profissional, a sua aplicação deriva da conjugação dos critérios:
@@ -2626,13 +2633,13 @@ Aplicação do procedimento contraordenacional, nos termos da [Lei 37/2015], art
 - Utilidade administrativa
 Necessidade de consulta para apuramento da responsabilidade contraordenacional em sede de PN  500.10.301 - Realização de fiscalização.";Data da emissão do título profissional;E;"Critério: Densidade informacional
 Informação sintetizada no PN 450.10.440.02 - Reconhecimento de títulos de profissões reguladas: emissão de título.";;;;;;;;;;;
-450.10.440.02;Reconhecimento de títulos de profissões reguladas: emissão de título;;Inicia com a decisão e termina com a comunicação da mesma ao interessado e emissão de título profissional, em caso de decisão favorável.;;;;;;;;;;;;;;;;50;;"Prazo correspondente ao tempo médio de vida ativa do profissional, a sua aplicação deriva da conjugação dos critérios:
+;450.10.440.02;Reconhecimento de títulos de profissões reguladas: emissão de título;;Inicia com a decisão e termina com a comunicação da mesma ao interessado e emissão de título profissional, em caso de decisão favorável.;;;;;;;;;;;;;;;;50;;"Prazo correspondente ao tempo médio de vida ativa do profissional, a sua aplicação deriva da conjugação dos critérios:
 - Legal
 Aplicação do procedimento contraordenacional, nos termos da Lei 37/2015, art. 13º (em que define que caso os regimes setoriais não estabeleçam regras aplicáveis à responsabilidade contraordenacional, é aplicável o regime geral das contraordenações laborais previsto nos artigos 548.º a 566.º do Código do Trabalho,  em que constituem contraordenações graves: o exercício de profissão regulamentada ou a prática de atos abrangidos por reservas de atividade por pessoa que não cumpra os requisitos profissionais; a celebração de contrato de trabalho com pessoa que não cumpra os requisitos profissionais exigidos para o exercício de profissão regulamentada ou a prática de atos abrangidos por reservas de atividade).
 - Utilidade administrativa
 Necessidade de consulta para apuramento da responsabilidade contraordenacional em sede de PN  500.10.301 - Realização de fiscalização.";Data da emissão do título profissional;C;"Critério: Densidade informacional
 Informação que sintetiza a sintetizada o PN  450.10.440.01 - Reconhecimento de títulos de profissões reguladas: verificação de condições.";;;;;;;;;;;
-"450.10.441
+;"450.10.441
 
 
 
@@ -2660,7 +2667,7 @@ Técnico de segurança contra incêndio em edifícios (SCIE) (projetistas)#
 Título de notário#
 Título de agente oficial da propriedade industrial (AOPI)#
 Título de artesão#
-Habilitação das pessoas que podem declarar/despachar perante as estâncias aduaneiras, nomeadamente o poder de representar um terceiro no ato declarativo, em termos de importação e exportação de bens#  ";;O acesso a profissões cujo reconhecimento depende de ordem ou associação profissional deve ser considerado em 450.10.440 – Reconhecimento de títulos de profissões reguladas#;"Decreto 31730/1941#
+Habilitação das pessoas que podem declarar/despachar perante as estâncias aduaneiras, nomeadamente o poder de representar um terceiro no ato declarativo, em termos de importação e exportação de bens#  ";;O acesso a profissões cujo reconhecimento depende de ordem ou associação profissional deve ser considerado em 450.10.440 – Reconhecimento de títulos de profissões reguladas#;"Decreto 31730/41#
 Regulamento (CEE) 2913/92# 
 DL 15/95#
 DL 26/2004#
@@ -2705,7 +2712,7 @@ Sucessão (antecessor)#
 Suplementar#
 Suplementar#
 Suplementar#";Média;S;;;;;;;;;;;;;;;;;
-"450.10.441.01
+;"450.10.441.01
 
 
 
@@ -2723,7 +2730,7 @@ Critério legal: [DL 433/99], CPPT, art 27º, n.º 2 ""Os arquivos [procedimento
 Informação sintetizada no PN 450.10.441.02 - Reconhecimento de títulos de profissões regulamentadas: emissão de título.
 
 ";;;;;;;;;;;
-"450.10.441.02
+;"450.10.441.02
 
 
 
@@ -2738,13 +2745,13 @@ Necessidade de consulta para apuramento da responsabilidade contraordenacional e
 Critério legal: [DL 433/99], CPPT, art 27º, n.º 2 ""Os arquivos [procedimentos administrativos e processos judiciais tributários instaurados] são obrigatoriamente mantidos durante 10 anos(...)"".";"Data da emissão do título profissional
 ";C;"Critério: Densidade informacional
 Informação que sintetiza a sintetizada o PN  450.10.441.01 - Reconhecimento de títulos de profissões regulamentadas: verificação de condições.";;;;;;;;;;;
-450.10.442;"Reconhecimento de títulos profissionais obtidos no estrangeiro
+;450.10.442;"Reconhecimento de títulos profissionais obtidos no estrangeiro
 ";450.10.407;"Reconhecimento de qualificações profissionais, de nível superior ou não superior, obtidas fora de Portugal, relativos a profissões não regulamentadas em Portugal.
 Inicia com a solicitação de reconhecimento da componente profissional e termina com a comunicação de decisão.
 Inclui instrução do processo, com análise de declarações, certificados, diplomas e respetivas traduções, verificação interna dos requisitos,  realização de estágio de adaptação, quando devido e decisão.
 ";Reconhecimento de profissões não regulamentadas (Anterior PN 450.10.407)#;;O reconhecimento de habilitações académicas obtidas noutros países deve ser considerado em 450.30.002 – Certificação de habilitações ou qualificações#;"Lei 25/2014#
 Lei 41/2012#
-Lei 9/2009#";;PE;N;;;;"150.20.300#
+Lei 9/2009#";;PE;N;DGERT;;;"150.20.300#
 150.40.500#
 300.30.008#
 350.30.001#
@@ -2763,17 +2770,17 @@ Cruzada#
 Suplementar#
 Suplementar#
 Suplementar#";Média;S;;;;;;;O reconhecimento de qualificações profissionais, de nível superior ou não superior, obtidas fora de Portugal, por nacionais de Estados -Membros da União Europeia e do Espaço Económico Europeu deve obedecer ao regime jurídico aprovado pela Lei n.º 9/2009, de 4 de março, alterada pelas Leis n.os 41/2012, de 28 de agosto, e 25/2014, de 2 de maio.;;;;;;;;;;
-450.10.442.01;Reconhecimento de títulos profissionais obtidos no estrangeiro: verificação de condições;;"Inicia com o pedido de reconhecimento e termina com a avaliação dos requisitos necessários ao exercício da profissão.
+;450.10.442.01;Reconhecimento de títulos profissionais obtidos no estrangeiro: verificação de condições;;"Inicia com o pedido de reconhecimento e termina com a avaliação dos requisitos necessários ao exercício da profissão.
 Inclui análise do pedido, verificação interna dos requisitos académicos e profissionais, realização de estágio, quando devido, cálculo do valor a pagar e comprovativo do seu pagamento.";;;;;;;;;;;;;;;;50;;"Critério: utilidade administrativa
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação do profissional reconhecido)
 Tomou-se como referência o tempo médio de vida ativa do profissional.
 ";Data do reconhecimento do título;E;"Critério: Densidade informacional
 Informação sintetizada no PN 450.10.442.02 - Reconhecimento de títulos profissionais obtidos no estrangeiro: emissão de título.";;;;;;;;;;;
-450.10.442.02;Reconhecimento de títulos profissionais obtidos no estrangeiro: emissão de título;;Inicia com a decisão e termina com a comunicação da mesma ao interessado,;;;;;;;;;;;;;;;;50;;"Critério: utilidade administrativa
+;450.10.442.02;Reconhecimento de títulos profissionais obtidos no estrangeiro: emissão de título;;Inicia com a decisão e termina com a comunicação da mesma ao interessado.;;;;;;;;;;;;;;;;50;;"Critério: utilidade administrativa
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação do profissional reconhecido)
 Tomou-se como referência o tempo médio de vida ativa do profissional.";Data do reconhecimento do título;C;"Critério: Densidade informacional
 Informação que sintetiza a sintetizada o PN  450.10.442.01 - Reconhecimento de títulos profissionais obtidos no estrangeiro: verificação de condições.";;;;;;;;;;;
-450.10.443;Autorização transitória ou excecional para o exercício da profissão;"450.10.424
+;450.10.443;Autorização transitória ou excecional para o exercício da profissão;"450.10.424
 450.10.438
 ";"Permissão para a prática profissional em condições excecionais, por período de tempo limitado ou ilimitado, de acordo com requisitos legais definidos.
 Inicia com o pedido e termina com a concessão da autorização.
@@ -2805,7 +2812,7 @@ Embora a informação relativa à atuação da entidade licenciadora e aos casos
 PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre o uso da instalação licenciada e suas condições, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-"450.10.444
+;"450.10.444
 
 
 
@@ -2894,8 +2901,8 @@ Regulamento (CEE) 2913/92#
 Regulamento (CEE) 2454/93#
 Regulamento (CE) 273/2004#
 Regulamento (CE) 111/2005#
-Regulamento (EU) 1011/2015#
-Regulamento (EU) 1013/2015#
+Regulamento (UE) 1011/2015#
+Regulamento (UE) 1013/2015#
 DL 15/93#
 Decreto Regulamentar 61/94#
 Decreto Regulamentar 28/2009#
@@ -2972,7 +2979,7 @@ Suplementar#
 Suplementar#
 Suplementar#
 Sucessão (sucessor)#";Média;S;;;;;;;;;;;;;;;;;
-"450.10.444.01
+;"450.10.444.01
 
 
 
@@ -2986,7 +2993,7 @@ Prazo prescricional do procedimento contraordenacional
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada)";data da caducidade da licença (sendo que no caso da licenças permanentes, deve considerar-se a data da cessação do exercício da atividade);E;"Critério: Densidade informacional
 Informação sintetizada no PN 450.10.444.02 -Reconhecimento de requisitos e competência técnica a entidades: emissão de título.
 ";;;;;;;;;;;
-"450.10.444.02
+;"450.10.444.02
 
 
 
@@ -2999,7 +3006,7 @@ Prazo prescricional do procedimento contraordenacional
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada)";data da caducidade da licença (sendo que no caso da licenças permanentes, deve considerar-se a data da cessação do exercício da atividade);C;"Critério: Densidade informacional
 Informação que sintetiza a sintetizada o PN 450.10.444.01 - Reconhecimento de requisitos e competência técnica a entidades: verificação de condições.
 ";;;;;;;;;;;
-"450.10.445
+;"450.10.445
 
 
 
@@ -3082,7 +3089,7 @@ Suplementar#
 Suplementar#
 Sucessão (antecessor)#
 Sucessão (antecessor)#";Média;S;;;;;;;;;;;;;;;;;
-"450.10.445.01
+;"450.10.445.01
 
 
 
@@ -3100,7 +3107,7 @@ Prazo decorrente da necessidade de consulta para apuramento da responsabilidade 
 
 ";data da caducidade da licença (sendo que no caso da licenças permanentes, deve considerar-se a data da cessação do exercício da atividade);E;"Critério: Densidade informacional
 Informação sintetizada no PN 450.10.445.02 - Acreditação de entidade para prestação de serviços de avaliação de conformidade: emissão de título";;;;;;;;;;;
-"450.10.445.02
+;"450.10.445.02
 
 
 ";Acreditação de entidade para prestação de serviços de avaliação de conformidade: emissão de título ;;"Inicia com decisão sobre a acreditação e termina com a comunicação das entidades acreditadas.
@@ -3114,7 +3121,7 @@ Prazo decorrente da necessidade de consulta para apuramento da responsabilidade 
 
 ";data da caducidade da licença (sendo que no caso da licenças permanentes, deve considerar-se a data da cessação do exercício da atividade);C;"Critério: Densidade informacional
 Informação que sintetiza a sintetizada o PN  450.10.445.01 - Acreditação de entidade para prestação de serviços de avaliação de conformidade verificação de condições";;;;;;;;;;;
-450.10.446;Reconhecimento de fundações;"450.10.422
+;450.10.446;Reconhecimento de fundações;"450.10.422
 450.10.423";"Atribuição de personalidade jurídica a fundação.
 Inicia com o pedido de reconhecimento e termina com o envio para publicação.
 Inclui instrução do pedido, identificação dos objetivos da fundação, identificação dos bens necessários para a prossecução dos objetivos, verificação dos estatutos, decisão e respetiva notificação.
@@ -3129,7 +3136,7 @@ Autorização para a criação de fundações de estabelecimentos de ensino supe
 ";;"A extição de fundação deve ser considerada em 350.40.602 – Liquidação de entidades#
 A atribuição do estatuto de utilidade pública deve ser considerado em 450.20.001 – Reconhecimento de pessoas coletivas de utilidade pública#";"Portaria 75/2013#
 Lei 24/2012#
-DL 47 344/66#";;PE;N;SGPCM#;;;"150.20.300#
+DL 47344/66#";;PE;N;SGPCM#;;;"150.20.300#
 150.40.500#
 300.30.008#
 350.30.001#
@@ -3175,7 +3182,7 @@ Informação recuperável em
 PN 400.30.001 - Celebração de contratos, escrituras, títulos equivalentes e testamentos;
 PN 900.20.201- Edição e publicação de conteúdos.
 ";;;;;;;;;;;
-450.10.447;Reconhecimento da natureza, âmbito e representatividade de entidades;"450.10.406
+;450.10.447;Reconhecimento da natureza, âmbito e representatividade de entidades;"450.10.406
 450.10.409
 450.10.419
 450.10.420
@@ -3199,7 +3206,7 @@ Lei 75/2013#
 Lei 55/2012#
 Portaria 771/2009#
 Portaria 71/2003#
-Portaria  478/99#
+Portaria 478/99#
 DL 129/98#
 Lei 35/98#";;PE;S;"DGADR#
 SGPCM#
@@ -3219,7 +3226,7 @@ Recolha e tratamento de dados estatísticos de apoio à gestão#
 Registo de documentos e informação#
 Cobrança de receitas e pagamento de despesas#
 Registo Nacional de Pessoas Coletivas#
-Registo de organizações da sociedade civil em autoridade setorial #
+Registo de organizações da sociedade civil em autoridade setorial#
 Registo comercial#
 Celebração de contratos, escrituras, títulos equivalentes e testamentos#
 Realização de auditorias#
@@ -3251,7 +3258,7 @@ PN 400.10.200 - Registo comercial;
 Informação recuperável em
 PN 400.30.001 - Celebração de contratos, escrituras, títulos equivalentes e testamentos;
 PN 900.20.201 - Edição e publicação de conteúdos.";;;;;;;;;;;
-450.10.448;Credenciação de segurança e acesso;"450.10.415
+;450.10.448;Credenciação de segurança e acesso;"450.10.415
 450.10.416
 450.10.615";"Autorização para aceder e manusear informação sensível bem como para desenvolver atividades específicas que envolvam o uso dessa informação ou que necessitem de credenciação de acesso ou de segurança.
 Inicia com o pedido de credenciação e termina com a comunicação da decisão.
@@ -3268,7 +3275,7 @@ Credenciação de segurança na componente codificada do sistema GALILEO (Anteri
 Renovação e elevação da credenciação#
 Credenciação de sistemas de apoio a situações de sobreendividamento#";;;"RCM 36/2015#
 Lei 20/2014#
-RC 42/2012#
+RCM 42/2012#
 RCM 12/2012#
 Lei 49/2009#
 Lei 36/2003#
@@ -3294,7 +3301,7 @@ Prazo prescricional do procedimento contraordenacional
  - Utilidade administrativa
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à ao produto)";data do encerramento do processo;C;"Densidade informacional
 Informação que não se encontra sintetizada nem é recuperável em nenhum outro PN";;;;;;;;;;;
-"450.10.640
+;"450.10.640
 
 
 ";Autorização de introdução de produtos e substâncias no mercado;"450.10.621
@@ -3305,8 +3312,9 @@ Informação que não se encontra sintetizada nem é recuperável em nenhum outr
 450.10.633
 450.10.634
 450.10.637";"Permissão para colocar novos produtos ou substâncias no mercado nacional.
-Inicia com o pedido e termina com a autorização ou com a emissão de certificado, quando devido.
-Inclui análise do pedido, verificação de conformidade com documentos reguladores, fundamentação da decisão, notificação ao interessado, cálculo da taxa devida e comprovativo do seu pagamento.
+Inicia com o pedido e termina com a autorização ou com a comunicação da autorização, quando devido.
+Inclui análise do pedido, verificação de conformidade com documentos reguladores, fundamentação da decisão, emissão de certificado, notificação ao interessado, cálculo da taxa devida e comprovativo do seu pagamento.
+
  
 
             
@@ -3322,7 +3330,6 @@ Autorização de novas marcas de tabaco manufaturado, ou quaisquer alterações 
 
 
 ";;;"DL 176/2006#
-Portaria 176/2006#
 DL 144/2004#
 DL 121/2002#
 DL 73/2010#
@@ -3374,7 +3381,7 @@ PN 300.30.008 - Registo de documentos (casos licenciados);
 PN 400.10.411 - Registo de Drug Master Files;
 
 ";;;;;;;;;;;
-450.10.641;Autorização para atribuição de designação a produtos;450.10.620;"Permissão para conceder denominação a produtos de acordo com critérios definidos.
+;450.10.641;Autorização para atribuição de designação a produtos;450.10.620;"Permissão para conceder denominação a produtos de acordo com critérios definidos.
 Inicia com a receção do pedido e termina com a comunicação da decisão.
 Inclui análise do processo, decisão sobre o pedido e comprovativo de pagamento do valor devido.  ";"Autorização para atribuição da designação de medicamento órfão (Anterior PN 450.10.620) concedida pelo Comité de Medicamentos Órfãos,que funciona na dependência da Agência Europeia do Medicamento (designação dada a substâncias utilizadas no tratamento e/ou diagnóstico de doenças raras, que ponham a vida em perigo, gravemente debilitantes ou uma afeção grave e crónica, com base num número definido de critérios)#
 ";;;DL 176/2006#;;PE;N;INFARMED#;;;"150.20.300#
@@ -3394,7 +3401,7 @@ Prazo prescricional do procedimento contraordenacional
  - Utilidade administrativa
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito ao produto)";data de revogação da autorização ;C;"Embora a informação se encontre sintetizada em
 PN 150.20.300 - Avaliação de atividades e PN 300.30.008 - Registo de documentos, não se dispõe de PN sintetizador sobre o argumentário utilizado, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-450.10.643;Autorização de preço de produtos;"450.10.628
+;450.10.643;Autorização de preço de produtos;"450.10.628
 450.10.629
 ";"Aprovação de preço de produto ou reavaliação a título excecional do preço por motivos de interesse público ou por iniciativa do titular da autorização de introdução no mercado.
 Inicia com o pedido e termina com a notificação da decisão ao requerente.
@@ -3444,7 +3451,7 @@ Informação que se encontra sintetizada em
 PN 150.20.300 - Avaliação de atividades;
 PN 150.40.500 - Recolha e tratamento de dados estatísticos para apoio à decisão;
 PN 300.30.008 - Registo de documentos e informação;";;;;;;;;;;;
-450.10.644;Autorização para transação de produtos;"450.10.043
+;450.10.644;Autorização para transação de produtos;"450.10.043
 450.10.610
 450.10.617
 450.10.626
@@ -3475,7 +3482,7 @@ Autorização de utilização excecional (AUE)#
 Autorização de comercialização de medicamentos sem autorização ou registo válido (SAR)#";;"A permissão para a mudança temporária de lugar e para a importação/ exportação temporária de bens móveis culturais classificados, ou em vias de classificação, deve ser considerada em 450.10.646 – Autorização de circulação de bens e produtos sujeitos a regime especial#
 A autorização de importação temporária de armas e munições deve ser considerada em 450.10.646 – Autorização de circulação de bens e produtos sujeitos a regime especial#";"DL 176/2006#
 Lei 107/2001#
-Lei 16/93#";;PE;S;"INFARMED#
+DL 16/93#";;PE;S;"INFARMED#
 SGPCM#
 AT#
 DGPC#
@@ -3523,7 +3530,7 @@ E recuperável em
 PN 400.10.410 - Registo de armas e munições;  
 PN 400.10.411 - Registo de Drug Master Files;
 PN 450.20.503 - Inventariação de património cultural.";;;;;;;;;;;
-"450.10.645
+;"450.10.645
 
 ";Autorização de uso controlado de produtos e equipamentos;"450.10.033
 450.10.427
@@ -3543,9 +3550,8 @@ Autorização para utilização de detetores de metais (Anterior PN 450.10.033)#
 Autorização de uso e porte de armas ou detenção (Anterior PN 450.10.427)#
 Licenciamento de equipamentos sob pressão#
 Permissão para a utilização de sistemas de vigilância através de câmaras de vídeo por parte das forças e serviços de segurança em locais públicos de utilização comum (PN 450.10.006)#";;;"DL 140/2005#
-Lei 5/2005#
 DL 176/2006#
-";;PE;N;"INFARMED#
+Lei 5/2006#";;PE;N;"INFARMED#
 SGPCM#
 IPQ#
 PSP#";;;"150.20.300#
@@ -3573,7 +3579,7 @@ Toma ainda como base o facto da imprevisibilidade dos estudos nesta área.
 A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.
 A grelha para seleção da amostragem encontra-se no final desta página.
 ";;;;;;;;;;;
-450.10.646;Autorização de circulação de bens e produtos sujeitos a regime especial;"450.10.609
+;450.10.646;Autorização de circulação de bens e produtos sujeitos a regime especial;"450.10.609
 ";"Permissão para a movimentação de entrada e saída temporária e para a mudança de lugar de bens móveis sensíveis que necessitam de controlo, classificados ou em vias de classificação.
 Inicia com o pedido ou comunicação prévia e termina com a decisão.
 Inclui a análise, consulta de entidades, quando devido, registos operacionais sobre a circulação dos bens.";"Circulação de bens móveis culturais classificados (PN 450.10.609)#
@@ -3582,13 +3588,13 @@ Autorização de importação temporária de armas e munições destinadas a int
 Importação temporária de armas dos seus proprietários e/ou organismos que promovem as iniciativas destinadas à prática venatória, competições desportivas ou feiras de colecionadores, reconhecidas pelas respetivas federações ou associações e autorização prévia a agentes comerciais e de representantes de fábricas nacionais ou estrangeiras#";;A autorização de aquisição, importação /exportação definitiva (com transmissão dos direitos de propriedade) de bens e produtos sujeitos a regime especial deve ser considerada em 450.10.644 – Autorização para transação de produtos#;"DL 148/2015#
 Lei 107/2001#
 Lei 5/2006#
-Lei 16/93#
-Lei 47/2004# ";;PE;S;"PCM#
+DL 16/93#
+Lei 47/2004#";;PE;S;"PCM#
 PSP#
 DGPC#
 DGLAB#
 BNP#
-Cinemateca#";AP#;;"150.20.300#
+Cinemateca#";AP#;Iniciar#;"150.20.300#
 300.30.008#
 500.10.001#
 500.10.300#
@@ -3613,7 +3619,7 @@ PN 300.30.008 - Registo de documentos (casos licenciados);
 E recuperável em
 PN 400.10.410 - Registo de armas e munições;  
 PN 450.20.503 - Inventariação de património cultural.";;;;;;;;;;;
-450.10.647;Autorização para alteração das características originais de produto;"450.10.611
+;450.10.647;Autorização para alteração das características originais de produto;"450.10.611
 ";"Permissão para alteração das características originais de um produto ou para a sua substituição por uma versão com características de autenticidade e fidedignidade.
 Inicia com um pedido de autorização e termina com a notificação da decisão ao interessado.
 Inclui a análise técnica, consulta de entidades quando devido, fundamentação e decisão.
@@ -3647,7 +3653,7 @@ PN 300.30.008 - Registo de documentos (casos licenciados).
 O controlo da execução das alterações autorizadas é recuperável em
 PN 500.10.001 - Realização de auditoras;
 PN 500.10.300 - Realização de inspeção.";;;;;;;;;;;
-"450.10.648
+;"450.10.648
 
 ";Reconhecimento das  características e origem de bens, produtos e serviços;"450.10.600
 450.10.604
@@ -3691,13 +3697,10 @@ DL 36/2003#
 DL 166-A/99#
 DL 234/93#
 DL 138/2006#
-Portaria  851/2010# 
+Portaria 851/2010#
 Portaria 208/2013#
 Portaria 1196/2010#
-Portaria 256/2005#
-
-
-";;PC;S;AP#;AP#;Apreciar#;"150.20.300#
+Portaria 256/2005#";;PC;S;AP#;AP#;Apreciar#;"150.20.300#
 150.20.500#
 300.10.302#
 300.30.008#
@@ -3723,7 +3726,7 @@ Suplementar#
 Suplementar#
 Suplementar#
 Cruzada#";Média;N;;;;;;;;;;;;;;;;;
-450.10.648.01;Reconhecimento das  características e origem de bens, produtos e serviços: verificação das condições;;"Inicia com o pedido e termina com a proposta de reconhecimento.
+;450.10.648.01;Reconhecimento das  características e origem de bens, produtos e serviços: verificação das condições;;"Inicia com o pedido e termina com a proposta de reconhecimento.
 Inclui análise técnica do produto ou serviço a reconhecer, identificação de conformidades e de não conformidades, definição e realização de correções ou melhorias, realização de testes ou de vistoria, consulta de entidades e criação de mecanismos de validação de conformidade, quando devido.";;;;;;;;;;;;;;;;10;;"Conjugação dos critérios:
 - Legal
 Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1)
@@ -3734,7 +3737,7 @@ Prazo decorrente da necessidade de consulta para apuramento da responsabilidade 
 ";E;"Critério: Densidade informacional
 Informação sintetizada em 450.10.648.02 - Reconhecimento das  características e origem de bens, produtos e serviços: emissão do título
 ";;;;;;;;;;;
-450.10.648.02;Reconhecimento das  características e origem de bens, produtos e serviços: emissão de título;;"Inicia com a decisão sobre o reconhecimento da qualidade e das características e termina com o registo do reconhecimento e sua publicitação.
+;450.10.648.02;Reconhecimento das  características e origem de bens, produtos e serviços: emissão de título;;"Inicia com a decisão sobre o reconhecimento da qualidade e das características e termina com o registo do reconhecimento e sua publicitação.
 Inclui emissão de certificado de conformidade e entrega de marca ou selo de entidade, quando devido.";;;;;;;;;;;;;;;;10;;"Conjugação dos critérios:
 - Legal
 Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1)
@@ -3746,7 +3749,7 @@ Prazo decorrente da necessidade de consulta para apuramento da responsabilidade 
 ";"Critério: Densidade informacional
 Informação que sintetiza a informação de 450.10.648.01 - Reconhecimento das  características e origem de bens, produtos e serviços: verificação das condições
 ";;;;;;;;;;;
-450.10.649;Categorização de bens e produtos;"450.10.601
+;450.10.649;Categorização de bens e produtos;"450.10.601
 450.10.602
 450.10.614
 450.10.635
@@ -3801,7 +3804,7 @@ PN 300.30.008 - Registo de documentos (casos licenciados).
 O controlo dos bens ou produtos classificados  é recuperável em
 PN 500.10.300 - Realização de inspeção;
 PN 500.10.301 - Realização de fiscalização.";;;;;;;;;;;
-450.10.650;Autorização de regimes especiais aduaneiros para as mercadorias;;"Processamento da atribuição de um regime especial aduaneiro, previsto na legislação comunitária, às mercadorias.
+;450.10.650;Autorização de regimes especiais aduaneiros para as mercadorias;;"Processamento da atribuição de um regime especial aduaneiro, previsto na legislação comunitária, às mercadorias.
 Inicia com o pedido de atribuição de regime aduaneiro, previamente à entrega da declaração aduaneira, e termina com a comunicação da decisão.
 Inclui análise do pedido, verificação do cumprimento de requisitos, o exercício do direito de audição prévia, quando aplicável, bem como a prestação de garantia, quando aplicável.
 ";"Entreposto aduaneiro#
@@ -3848,7 +3851,7 @@ PN 300.30.008 - Registo de documentos (casos licenciados).
 O controlo dos bens ou produtos  é recuperável em
 PN 500.10.300 - Realização de inspeção;
 PN 500.10.301 - Realização de fiscalização.";;;;;;;;;;;
-450.10.651;Acreditação de ciclos de estudos ;;"Reconhecimento formal e verificação do cumprimento dos requisitos gerais, especiais e legais exigidos para o funcionamento e criação de ciclos de estudos de ensino.
+;450.10.651;Acreditação de ciclos de estudos ;;"Reconhecimento formal e verificação do cumprimento dos requisitos gerais, especiais e legais exigidos para o funcionamento e criação de ciclos de estudos de ensino.
 Inicia com o pedido de reconhecimento e termina com a decisão de acreditação ou não acreditação.
 Inclui auto-avaliação e instrução do processo de acreditação, análise, notificação dos requerentes, exercício do direito de audiência prévia, avaliação.";"Cursos conferentes de grau#
 Pedidos de acreditação prévia#
@@ -3868,7 +3871,7 @@ Prazo para a anulação do direito.";data da caducidade ou cancelamento da autor
 PN 750.20.001 - Conceção, revisão e extinção de currículos e planos de estudos
 
 ";;;;;;;;;;;
-450.10.800;Licenciamento de canídeos e gatídeos;;"Atribuição de licença anual para detenção e posse de cães e gatos.
+;450.10.800;Licenciamento de canídeos e gatídeos;;"Atribuição de licença anual para detenção e posse de cães e gatos.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui análise preliminar do pedido, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.";Renovação das licenças#;;O registo de cães e de gatos deve ser considerado em 400.10.400 – Registo animal#;Portaria 421/2004#;;PE;N;AL#;;;"150.20.300#
 150.40.500#
@@ -3902,7 +3905,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora)
 PN 300.30.008 - Registo de documentos (casos licenciados)
 PN 400.10.400 - Registo de animais de companhia (situação dos animais licenciados)";;;;;;;;;;;
-450.10.801;Emissão e registo de títulos de condução;"450.10.012
+;450.10.801;Emissão e registo de títulos de condução;"450.10.012
 450.10.403";"Atribuição de autorização para a condução de diversas categorias de veículos.
 Inicia com o pedido e termina com o registo do título de condução.
 Inclui verificação dos requisitos necessários, articulação entre entidades e emissão de carta de condução.";"Atualização de dados relativos ao título de condução (PN 450.10.012)#
@@ -3937,7 +3940,7 @@ Sucessão (sucessor)#";Média;S;50;;"Critério: utilidade administrativa
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e do 500.10.301 (no que diz respeito à atuação do condutor).
 Tomou-se como referência o tempo médio de vida ativa.";data do encerramento do processo;E;"Critério: Densidade informacional
 Informação sintetizada complementarmente em PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora), PN 300.30.008 - Registo de documentos (casos licenciados) e PN 400.10.034 - Registo de infrações do condutor (situação dos condutores)";;;;;;;;;;;
-450.10.802;Emissão e registo de cartas de caçador;450.10.011;"Atribuição de autorização para o desenvolvimento da prática de caça.
+;450.10.802;Emissão e registo de cartas de caçador;450.10.011;"Atribuição de autorização para o desenvolvimento da prática de caça.
 Inicia com o pedido e termina com o registo da carta de caçador.
 Inclui verificação dos requisitos legais exigidos para exercício da atividade de caça, cálculo da taxa devida e comprovativo do seu pagamento e emissão da carta de caçador.
 ";"Atualização de dados do caçador (PN 450.10.011)#
@@ -3970,7 +3973,7 @@ Prazo decorrente da necessidade de consulta para apuramento da responsabilidade 
 Tomou-se como referência o tempo médio de vida ativa.";data do encerramento do processo;E;"Critério: Densidade informacional
 Informação sintetizada complementarmente em PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora) e em PN 300.30.008 - Registo de documentos (casos licenciados).
 O controlo da atividade de caça é recuperável em PN 500.10.301 - Realização de fiscalização.";;;;;;;;;;;
-450.10.803;Autorização para angariação de receitas;450.10.039;"Permissão para angariação de receitas, com ou sem contrapartidas em bens, para fins de beneficência, assistência ou investigação científica, com recurso a pessoal próprio ou voluntário.
+;450.10.803;Autorização para angariação de receitas;450.10.039;"Permissão para angariação de receitas, com ou sem contrapartidas em bens, para fins de beneficência, assistência ou investigação científica, com recurso a pessoal próprio ou voluntário.
 Inicia com pedido de autorização e termina com a comunicação da decisão, se for negativa, ou com a informação da entidade sobre os resultados obtidos com a angariação de receitas e prova da sua publicitação.
 Inclui instrução e análise do processo, solicitação de elementos em falta, se necessário, e proposta de decisão.";"Permissão para angariação de receitas, com ou sem contrapartidas em bens e com recurso a pessoal próprio ou voluntário#
 ";"Chamadas de valor acrescentado  (PN 450.10.039)#
@@ -4000,7 +4003,7 @@ Síntese (sintetizado)#
 Suplementar#
 Suplementar#
 Suplementar#";Média;S;;;;;;;;;;;;;;;;;
-450.10.803.01;Autorização para angariação de receitas: decisão;;"Inicia com pedido de autorização e termina com a comunicação da decisão.
+;450.10.803.01;Autorização para angariação de receitas: decisão;;"Inicia com pedido de autorização e termina com a comunicação da decisão.
 Inclui instrução e análise do processo, solicitação de elementos em falta, se necessário, e proposta de decisão.";;;;;;;;;;;;;;;;10;;"Conjugação dos critérios:
 - Legal
 Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1)
@@ -4009,7 +4012,7 @@ Prazo prescricional do procedimento contraordenacional
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada)";data do encerramento do processo;E;"Densidade informacional
 informação sintetizada em
 PN 450.10.803.02 - Autorização para angariação de receitas: comunicação da receita angariada.";;;;;;;;;;;
-450.10.803.02;Autorização para angariação de receitas: comunicação da receita angariada;;"Inicia com a decisão e termina com a comunicação da receita angariada.
+;450.10.803.02;Autorização para angariação de receitas: comunicação da receita angariada;;"Inicia com a decisão e termina com a comunicação da receita angariada.
 Inclui informação sobre publicitação de resultados.";;;;;;;;;;;;;;;;10;;"Conjugação dos critérios:
 - Legal
 Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1)
@@ -4018,7 +4021,7 @@ Prazo prescricional do procedimento contraordenacional
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada)";data do encerramento do processo;C;"Densidade informacional
 sintetiza informação de
 PN 450.10.803.01 - Autorização para angariação de receitas: decisão.";;;;;;;;;;;
-450.10.804;"Autorização de dispensa de serviço interno de saúde do trabalho
+;450.10.804;"Autorização de dispensa de serviço interno de saúde do trabalho
 ";450.10.439;"Permissão a uma entidade empregadora, dispensando-a de possuir serviço interno de saúde do trabalho.
 Inicia com a submissão do requerimento e termina com a emissão da autorização.
 Inclui a análise do dossier técnico e verificação do cumprimento das normas legais aplicáveis.";;;;"Lei 3/2014#
@@ -4055,7 +4058,7 @@ PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados).
 O controlo da  dispensa de serviço interno de saúde do trabalho é recuperável no
 PN 500.10.301 - Realização de fiscalização.";;;;;;;;;;;
-450.10.805;Autorização de condições de exceção para aquisição de bens e serviços;;"Permissão para organismos da Administração Pública adquirirem bens e serviços que não se encontrem previstos no catálogo nacional de compras públicas.
+;450.10.805;Autorização de condições de exceção para aquisição de bens e serviços;;"Permissão para organismos da Administração Pública adquirirem bens e serviços que não se encontrem previstos no catálogo nacional de compras públicas.
 Inicia com a submissão do pedido e termina com a notificação da decisão à entidade requerente.
 Inclui a análise do pedido, verificação da fundamentação do pedido, parecer técnico e deliberação final.
 
@@ -4071,7 +4074,7 @@ A aquisição de bens móveis não culturais e a contratação de serviços deve
 Portaria 420/2009#
 Portaria 772/2008#
 DL 37/2007#";;PC;S;"ANCP#
-ESPAP#";AP#;iniciar#;"150.20.300#
+ESPAP#";AP#;Iniciar#;"150.20.300#
 150.40.500#
 300.10.001#
 300.10.002#
@@ -4108,7 +4111,7 @@ O resultado da autorização concedida é recuperável nos
 PN 300.10.001 - Contratação de empreitadas de obras púplicas;
 PN 300.10.002 - Contratação de fornecimento de bens publicos essenciais;
 PN 300.10.005 - Transação e transmissão de bens móveis não culturais e contratação de serviços.";;;;;;;;;;;
-450.10.806;"Autorização de alteração ao horário de funcionamento de estabelecimentos comerciais
+;450.10.806;"Autorização de alteração ao horário de funcionamento de estabelecimentos comerciais
 ";450.10.001;"Permissão para praticar um horário de funcionamento diferente do fixado para o respetivo ramo de atividade.
 Inicia com o pedido e termina com a emissão do mapa de funcionamento a afixar no estabelecimento.
 Inclui apreciação prévia do pedido, decisão e notificação ao requerente.";Pedidos de alargamento e de redução de horário (PN 450.10.001) às atividades de comércio, serviços e restauração#;;;"DL 10/2015#
@@ -4139,7 +4142,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados).
 O controlo da atividade é recuperável em no PN 500.10.301 - Realização de fiscalização.";;;;;;;;;;;
-"450.10.807
+;"450.10.807
 
 
 ";Autorização de simplificação de procedimentos;;"Permissão para simplificar o cumprimentos das formalidades e dos procedimentos salvaguardando a regularidade das operações.
@@ -4147,7 +4150,8 @@ Inicia com pedido e termina com a comunicação da decisão.
 Inclui análise do pedido, verificação do cumprimento de requisitos, audição prévia e prestação de garantia, quando aplicável.
 ";"Preenchimento simplificado da declaração aduaneira#
 Regime simplificado de trânsito#";;;"Regulamento (CEE) 2913/92#
-Regulamento (CEE) 2454/93 da Comissão e respetivas alterações#";;PE;N;AT#;;;"450.10.228#
+Regulamento (CEE) 2454/93#";"Regulamento (CEE) 2913/92#
+Regulamento (CEE) 2454/93 da Comissão e respetivas alterações#";PE;N;AT#;;;"450.10.228#
 450.10.235#
 450.10.444#
 500.10.001#
@@ -4165,7 +4169,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados).
 O controlo da atividade é recuperável em no PN 500.10.301 - Realização de fiscalização.";;;;;;;;;;;
-450.10.808;Autorização excecional;"450.10.054 
+;450.10.808;Autorização excecional;"450.10.054 
 
 
 ";"Autorização especial prevista na lei para adoção de regras excecionais, de caracter transitório ou não, para utilização ou dispensa de utilização de produtos e equipamentos, bem como da comercialização de produtos.
@@ -4195,7 +4199,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);
 PN 300.30.008 - Registo de documentos (casos licenciados).
 O controlo da atividade é recuperável em no PN 500.10.301 - Realização de fiscalização.";;;;;;;;;;;
-450.10.810;"Autorização de registo de nome próprio
+;450.10.810;"Autorização de registo de nome próprio
 
 ";;"Apreciação da admissibilidade de determinado vocábulo como nome próprio.
 Inicia com o pedido e termina com a decisão.
@@ -4227,15 +4231,15 @@ a) Mais de 100 anos, quanto aos restantes livros de assentos.
 (Por analogia ao PN 400.10.001 – Registo civil)";Data do encerramento do processo.;C;"Critério legal:
 Código Civil (conservação para garante do exercício dos direitos de personalidade. Consagram direitos que não prescrevem no tempo).
 (Por analogia ao PN 400.10.001 – Registo civil)";;;;;;;;;;;
-450.10.811;Autorização para utilização não agrícola do solo     ;;"As utilizações não agrícolas de áreas integradas na RAN
+Harmonização;450.10.811;Autorização para utilização não agrícola do solo     ;;"As utilizações não agrícolas de áreas integradas na RAN
 Permissão de utilização de solos agrícolas integrados na Reserva Agricola Nacional para outros fins que não agricolas. 
 Inicia com o pedido de parecer prévio e termina com a autorização/negação dessa utilização. 
 Inclui o pedido, a verificação do enquadramento legal, emissão de parecer favorável/desfavorável e as comunicações prévia e à administração fiscal.";"Utilização não agrícola de solos da Reserva Agrícola Nacional# 
 Utilização não agrícola de solos em áreas dos aproveitamentos hidroagrícolas# 
-Inutilização/exclusão de solos agrícolas em aproveitamentos hidroagrícolas";;O registo de inalienabilidade de habitação na Reserva Agrícola Nacional deve ser considerado em 400.10.406 – Registo predial# A emissão de pareceres deve ser considerada em 100.20.400 – Produção de orientações e pareceres para interpretação da norma técnica#;;"Reserva Agrícola Nacional (RAN) (Utilização não agrícola de solos); Aproveitamento hidroagrícola (Utilização não agrícola de solos); Aproveitamento hidroagrícola (Inutilização de solos agrícolas); Aproveitamento hidroagrícola (Exclusão de solos agrícolas)";DL 73/2009;PE;S;DRAP;"DGADR# 
+Inutilização/exclusão de solos agrícolas em aproveitamentos hidroagrícolas";;O registo de inalienabilidade de habitação na Reserva Agrícola Nacional deve ser considerado em 400.10.406 – Registo predial# A emissão de pareceres deve ser considerada em 100.20.400 – Produção de orientações e pareceres para interpretação da norma técnica#;DL 73/2009;;PE;S;DRAP;"DGADR# 
 CCDR# 
-ANMP#";;;;;;;;;;;;;;;;;;;;;;
-450.20;Classificação e declaração de interesse ou utilidade pública;;"Compreende os processos administrativos de determinação do interesse ou utilidade pública de qualquer entidade material ou imaterial, pessoas coletivas, projetos ou atividades, desde o pedido, proposta ou instrução do processo à respetiva análise e decisão.
+ANMP#";;;;;;;;;;;;;;;;;;;;;;;
+;450.20;Classificação e declaração de interesse ou utilidade pública;;"Compreende os processos administrativos de determinação do interesse ou utilidade pública de qualquer entidade material ou imaterial, pessoas coletivas, projetos ou atividades, desde o pedido, proposta ou instrução do processo à respetiva análise e decisão.
 Inclui o estabelecimento de áreas de proteção a bens declarados de interesse, quando a tanto haja lugar.";"Determinação do interesse nacional, público ou municipal de bens do património cultural, de bens do património natural, paisagista, eco ambiental#
 Candidatura à atribuição de selos de entidades estrangeiras ou internacionais (por exemplo, candidatura a património cultural da Humanidade)#
 Determinação do mérito cultural de um projeto#
@@ -4244,7 +4248,7 @@ Determinação de interesse público para efeitos de exercício do direito de pr
 Determinação da utilidade ou interesse público de uma entidade coletiva#";;"Concluído o processo administrativo, caso haja lugar à publicitação da decisão em diploma legal, novo processo deve ser aberto em ""Ordenamento jurídico e normativo/ Elaboração de diplomas jurídico-normativos e de normas técnicas"" (100.10);
 A classificação etária de espetáculos deve ser considerada em ""Reconhecimentos e permissões/ Licenciamentos, certificações e outras autorizações"" (450.10);
 Instrumentos normativos do tipo ""classificação nacional de profissões"" devem ser considerados em ""Ordenamento jurídico e normativo/ Elaboração de diplomas jurídico-normativos e de normas técnicas"" (100.10).";;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-450.20.001;Reconhecimento de pessoas coletivas de utilidade pública;;"Atribuição do estatuto de utilidade pública a pessoas coletivas.
+;450.20.001;Reconhecimento de pessoas coletivas de utilidade pública;;"Atribuição do estatuto de utilidade pública a pessoas coletivas.
 Inicia com o pedido e termina com o envio para publicação.
 Inclui análise preliminar, consulta de entidades, decisão relativa ao reconhecimento da utilidade pública, cálculo da taxa devida, apresentação do comprovativo do seu pagamento, emissão da declaração de utilidade pública e registo.
 ";;;A publicação oficial deve ser considerada em 100.10.001 – Produção e comunicação de atos legislativos#;"DL 391/2007#
@@ -4264,7 +4268,7 @@ Recolha e tratamento de dados estatísticos de apoio à gestão#
 Registo de documentos e informação#
 Cobrança de receitas e pagamento de despesas#
 Registo Nacional de Pessoas Coletivas#
-Registo de organizações da sociedade civil em autoridade setorial #
+Registo de organizações da sociedade civil em autoridade setorial#
 Realização de auditorias#
 Realização de inspeção#
 Realização de fiscalização#";"Síntese (sintetizado)#
@@ -4277,7 +4281,7 @@ Sucessão (sucessor)#
 Suplementar#
 Suplementar#
 Suplementar#";Média;S;;;;;;;;;;;;;;;;;
-450.20.001.01;Reconhecimento de pessoas coletivas de utilidade pública: verificação das condições;;"Inicia com o pedido e termina com a decisão.
+;450.20.001.01;Reconhecimento de pessoas coletivas de utilidade pública: verificação das condições;;"Inicia com o pedido e termina com a decisão.
 Inclui análise preliminar, consulta de entidades, cálculo da taxa devida, apresentação do comprovativo do seu pagamento.
 ";;;;;;;;;;;;;;;;10;;"Conjugação dos critérios:
 - Legal
@@ -4287,7 +4291,7 @@ Prazo prescricional do procedimento contraordenacional
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e em sede dos PN 500.10.300 e 500.10.301 (no que diz respeito à atuação da entidade)";data da extinção da pessoa coletiva;E;"Densidade informacional:
 Informação sintetizada em
 PN 450.20.001.02 - Reconhecimento de pessoas coletivas de utilidade pública: emissão de declaração e registo.";;;;;;;;;;;
-450.20.001.02;Reconhecimento de pessoas coletivas de utilidade pública: emissão de declaração e registo;;"Inicia com a decisão relativa ao reconhecimento da utilidade pública e termina com o registo de pessoa coletiva de utilidade pública.
+;450.20.001.02;Reconhecimento de pessoas coletivas de utilidade pública: emissão de declaração e registo;;"Inicia com a decisão relativa ao reconhecimento da utilidade pública e termina com o registo de pessoa coletiva de utilidade pública.
 Inclui emissão de declaração de pessoa coletiva de utilidade pública e envio para publicação.";;;;;;;;;;;;;;;;10;;"Conjugação dos critérios:
 - Legal
 Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1)
@@ -4296,7 +4300,7 @@ Prazo prescricional do procedimento contraordenacional
 Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e em sede dos PN 500.10.300 e 500.10.301 (no que diz respeito à atuação da entidade)";data da extinção da pessoa coletiva;C;"Densidade informacional:
 Sintetiza informação contida em
 PN 450.20.001.01 - Reconhecimento de pessoas coletivas de utilidade pública: verificação das condições.";;;;;;;;;;;
-450.20.002;Reconhecimento de utilidade pública para efeitos de expropriação;;"Determinação de utilidade pública a bens com vista à sua expropriação.
+;450.20.002;Reconhecimento de utilidade pública para efeitos de expropriação;;"Determinação de utilidade pública a bens com vista à sua expropriação.
 Inicia com a resolução de declaração de utilidade pública e termina com o envio do ato declarativo para a publicação.
 Inclui análise preliminar e decisão.";Situações em que não seja possível a aquisição do bem por via do direito privado#;;"A publicação oficial deve ser considerada em 100.10.001 – Produção e comunicação de atos legislativos#
 O procedimento de expropriação deve ser considerado em 300.10.003 – Transação e transmissão de bens imóveis#";"DL 123/2010#
@@ -4335,7 +4339,7 @@ E recuperável nos
 PN 100.10.001 - Produção e comunicação de atos legislativos;
 PN 150.10.700 - Reunião de órgãos deliberativos;
 PN 150.10.701 - Reunião de órgãos executivos.";;;;;;;;;;;
-450.20.003;Reconhecimento de interesse social, cultural e científico;;"Reconhecimento do cumprimento das condições legalmente estabelecidas para a atribuição do estatuto de interesse social, cultural e científico.
+;450.20.003;Reconhecimento de interesse social, cultural e científico;;"Reconhecimento do cumprimento das condições legalmente estabelecidas para a atribuição do estatuto de interesse social, cultural e científico.
 Inicia com a submissão do pedido e termina com a comunicação da decisão.
 Inclui a análise do pedido, as diligências e a emissão de parecer.";"Reconhecimento de estatuto a projeto ou programa#
 Reconhecimento de estatuto a entidade#
@@ -4344,7 +4348,7 @@ Declaração de relevância cultural#
 Reconhecimento como pessoa coletiva de utilidade pública que desenvolve atividades de natureza e interesse cultural, para efeitos de benefício da consignação da quota equivalente a 0,5 % do IRS liquidado#";;"A declaração de utilidade pública deve ser considerada em 450.20.001#01 – Reconhecimento de pessoas coletivas de utilidade pública# verificação das condições#
 As candidaturas a programas de apoio devem ser consideradas em 850#10 – Atribuição e controlo de financiamentos e de ajudas diretas#
 ";"Lei 107/2001#
-Lei 74/99#
+DL 74/99#
 Lei 7-A/2016#";;PE;S;"DGPC#
 GEPAC#";"AL#
 PCM#";"Iniciar#
@@ -4382,7 +4386,7 @@ PN 300.30.008 - Registo de documentos (projetos reconhecidos) e recuperável nos
 PN 150.10.700 - Reunião de órgãos deliberativos;
 PN 150.10.701 - Reunião de órgãos executivos;
 PN 900.20.201 - Edição e publicação de conteúdos.";;;;;;;;;;;
-450.20.503;Inventariação de património cultural;;"Atribuição de proteção a determinado bem ou sítio em resultado do seu valor cultural, sob a forma de levantamento sistemático, com vista à respetiva identificação.
+;450.20.503;Inventariação de património cultural;;"Atribuição de proteção a determinado bem ou sítio em resultado do seu valor cultural, sob a forma de levantamento sistemático, com vista à respetiva identificação.
 Inicia com a apresentação de proposta de inventariação e termina com a comunicação da decisão.
 Inclui identificação, referenciação e caracterização do bem, fundamentação da proposta e decisão.
 ";"Bens culturais de interesse nacional, de interesse público e de interesse municipal#
@@ -4393,7 +4397,8 @@ AL#
 DGLAB#
 BNP#
 Cinemateca#";"DGPC#
-AL#";Apreciar#;"150.10.702#
+AL#";"Apreciar#
+Apreciar#";"150.10.702#
 150.20.300#
 150.40.500#
 300.30.008#
@@ -4422,7 +4427,7 @@ Embora a informação relativa à atuação da entidade licenciadora e aos casos
 PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre o património inventariado, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-450.20.504;Estabelecimento de reservas arqueológicas de proteção;;"Atribuição do estatuto de reserva nacional de depósito de bens arqueológicos, no qual são depositados os materiais arqueológicos provenientes de escavações ou de achados fortuitos.
+;450.20.504;Estabelecimento de reservas arqueológicas de proteção;;"Atribuição do estatuto de reserva nacional de depósito de bens arqueológicos, no qual são depositados os materiais arqueológicos provenientes de escavações ou de achados fortuitos.
 Inicia com a submissão do pedido e termina com a atribuição do estatuto de local de depósito.
 Inclui a análise do pedido de reconhecimento e a vistoria aos parques e reservas arqueológicas constituídas por materiais arqueológicos.";"Reconhecimento de depósitos arqueológicos permanentes#
 ";;"A incorporação provisória de materiais arqueológicos deve ser considerada em 300.10.004 – Transação e transmissão de bens móveis culturais#
@@ -4459,7 +4464,7 @@ PN 150.20.300 - Avaliação de atividades;
 PN 300.30.008 - Registo de documentos.
 Não se dispõe de PN sintetizador sobre a reserva arqueológica, pelo que aplicando a escala de risco se opta pela conservação.
 ";;;;;;;;;;;
-450.20.505;Classificação de bens, sítios e áreas;"450.20.500
+;450.20.505;Classificação de bens, sítios e áreas;"450.20.500
 450.20.501";"Reconhecimento formal de valor atribuido a determinado bem, sítio ou área.
 Inicia com a apresentação da proposta de classificação e termina com o envio para aprovação.
 Inclui análise da proposta, fundamentação técnica, divulgação pública da pretensão de classificação, audiência de interessados, consulta de entidades, definição de zona de proteção, quando aplicável, elaboração de proposta de decisão.";"Classificação de áreas protegidas (Anterior PN 450.10.500)#
@@ -4531,11 +4536,11 @@ Prazo decorrente da necessidade de consulta para apuramento da responsabilidade 
 ";C;"Critério: Densidade informacional
 Embora a informação relativa à atuação da administração e aos casos classificados se encontre sintetizada em
 PN 150.20.300 - Avaliação de atividades e PN 300.30.008 - Registo de documentos, não se dispõe de PN sintetizador sobre o património inventariado, pelo que aplicando a escala de risco se opta pela conservação.";;;;;;;;;;;
-450.30;Emissão de comprovativos de factos ou atos;;Compreende os processos de emissão de comprovativos da veracidade ou exatidão de factos ou atos permanentes ou transitórios.;Processos de emissão de comprovativos da veracidade ou exatidão de factos ou atos permanentes ou transitórios#;;"Exemplos de aplicação:
+;450.30;Emissão de comprovativos de factos ou atos;;Compreende os processos de emissão de comprovativos da veracidade ou exatidão de factos ou atos permanentes ou transitórios.;Processos de emissão de comprovativos da veracidade ou exatidão de factos ou atos permanentes ou transitórios#;;"Exemplos de aplicação:
 - Comprovativos de informação detida por autoridade pública - certidão de registo, certidão de tempo de serviço, declaração de presença em evento, declaração relativa à situação contributiva, certificado de habilitações, entre outros.
 - Certificação de traduções.
 - Reconhecimento de assinatura.";;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-450.30.002;"Certificação de habilitações ou qualificações
+;450.30.002;"Certificação de habilitações ou qualificações
 ";;"Reconhecimento das habilitações literárias e profissionais de qualquer indivíduo.
 Inicia com o pedido e termina com a emissão do certificado.
 Inclui consulta e sistematização de dados, eventual cálculo do montante a pagar e apresentação do comprovativo do seu pagamento.";;;"O reconhecimento de grau de habilitação académica ou profissional deve ser considerado em 750.30.602 – Reconhecimento, creditação e validação de competências e qualificações#
@@ -4588,7 +4593,7 @@ Informação recuperável nos
 PN 450.10.441 - Reconhecimento de títulos de profissões regulamentadas;
 PN 750.30.601 - Processamento e comunicação de resultados da avaliação#
 PN 750.30.602 - Reconhecimento, creditação evalidação de competências e qualificações.";;;;;;;;;;;
-450.30.003;Emissão de certidões;;"Emissão de documento com especial valor de prova relativa a factos ou atos com base em informação detida pela Administração.
+;450.30.003;Emissão de certidões;;"Emissão de documento com especial valor de prova relativa a factos ou atos com base em informação detida pela Administração.
 Inicia com o pedido e termina com a emissão da certidão.
 Inclui consulta de documentos originais, transcrição integral ou parcial, cálculo da taxa a pagar e apresentação do comprovativo do seu pagamento.";"Certidão declarativa#
 Certidão de documentos#
@@ -4645,7 +4650,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade responsável pelo PN);
 PN 300.30.008 - Registo de documentos (certidões emitidas).
  ";;;;;;;;;;;
-450.30.500;"Certificação de doença, aptidão ou incapacidade
+;450.30.500;"Certificação de doença, aptidão ou incapacidade
 
 
 ";;"Comprovação do estado de saúde para verificação de situações de aptidão física ou mental, incapacidade, permanente ou temporária, e de situações de saúde resultantes de acidente de trabalho ou de doença profissional.
@@ -4662,7 +4667,7 @@ DL 503/99#
 Decreto Regulamentar 41/90#";;PC;S;"DGS#
 ARS#
 ADSE#
-IASFA#";AP#;iniciar#;"150.20.300#
+IASFA#";AP#;Iniciar#;"150.20.300#
 150.40.500#
 250.20.001#
 300.30.008#
@@ -4696,7 +4701,7 @@ Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade responsável pelo PN);
 PN 250.20.001 - Registo biográfico de trabalhadores; 
 PN 300.30.008 - Registo de documentos e informação (certificações emitidas).";;;;;;;;;;;
-450.30.502;"Emissão de declarações comprovativas
+;450.30.502;"Emissão de declarações comprovativas
 ";;"Comprovação de determinada situação ou facto.
 Inicia com o pedido e termina com a emissão da declaração.
 Inclui consulta de registos, quando aplicável.";"Declaração de inexistência de dívida#
@@ -4729,7 +4734,7 @@ Prazo decorrente da necessidade de consulta para apuramento da responsabilidade 
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade responsável pelo PN);
 PN 300.30.008 - Registo de documentos (declarações emitidas).";;;;;;;;;;;
-450.30.503;"Confirmação, conferência ou emissão de cópias não certificadas
+;450.30.503;"Confirmação, conferência ou emissão de cópias não certificadas
 ";450.30.001;"Comprovação da veracidade de cópias obtidas a partir de documentos originais.
 Inicia com o pedido e termina com a autenticação da cópia.
 Inclui consulta de originais, reprodução do documento original, validação da cópia, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.";Autenticação de cópias (PN 450.30.001);;A emissão de certidões deve ser considerada em 450.30.003 – Emissão de certidões#;"DL 30/2000#
@@ -4784,11 +4789,11 @@ Prazo decorrente da necessidade de consulta para apuramento da responsabilidade 
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade responsável pelo PN);
 PN 300.30.008 - Registo de documentos (cópias autenticadas).";;;;;;;;;;;
-450.30.504;"Certificação de óbito
+;450.30.504;"Certificação de óbito
 ";;"Comprovação do término da vida de um indivíduo, apontando também as causas que ocasionaram a morte.
 Inicia com a introdução dos dados e termina com a emissão do certificado de óbito.
 Inclui a emissão de guia de transporte, o preenchimento do boletim de informação clínica, quando determinado nos termos da lei, os dados registados pelas equipas de emergência pela entidade competente, os dados resultantes de autópsia clínica, sempre que tenha lugar, os dados resultantes de autópsia médico-legal ou de perícia médico-legal a ela associada, sempre que tenha lugar, mediante autorização prévia da autoridade judiciária competente, o registo da dispensa ou não da autópsia médico-legal e a decisão de autorizar ou não a divulgação dessa informação e da causa da morte.
-";;;O registo de óbitos deve ser considerado em 400.10.001 – Registo civil#;Lei 15/2012#;;PE;S;DGS#;"HS#
+";;;O registo de óbitos deve ser considerado em 400.10.001 – Registo civil#;Lei 15/2012#;;PE;S;DGS#;"HH#
 INMLCF#";"Iniciar#
 Assessorar#";"150.20.300#
 150.40.001#
@@ -4824,7 +4829,7 @@ Prestação de cuidados de convalescença#
 Prestação de cuidados de reabilitação#
 Prestação de cuidados paliativos#
 Inumação e cremação de restos mortais#
-Realização de perícias #";"Síntese (sintetizado)#
+Realização de perícias#";"Síntese (sintetizado)#
 Síntese (sintetizado)#
 Síntese (sintetizado)#
 Síntese (sintetizado)#
@@ -4847,888 +4852,888 @@ no número anterior.";data do encerramento do processo;E;"Critério: Densidade i
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade responsável pelo PN);
 PN 300.30.008 - Registo de documentos e informação (certificados emitidos).";;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
