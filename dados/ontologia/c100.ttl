@@ -254,19 +254,19 @@ Compreende, igualmente, a elaboração ou colaboração na elaboração de norma
 	:temNotaAplicacao :na_c100.10.001_5 ;
 	:temNotaExclusao :ne_c100.10.001_1 ;
 	:temNotaExclusao :ne_c100.10.001_2 ;
-	:temRelProc :c100.10.200 ;
-	:temRelProc :c100.10.400 ;
-	:temRelProc :c100.10.600 ;
-	:temRelProc :c100.20.001 ;
-	:temRelProc :c100.20.200 ;
-	:temRelProc :c150.10.001 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.202 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.20.501 ;
-	:temRelProc :c900.20.201 ;
-	:temRelProc :c150.10.700 ;
+	:eComplementarDe :c100.10.200 ;
+	:eComplementarDe :c100.10.400 ;
+	:eComplementarDe :c100.10.600 ;
+	:eComplementarDe :c100.20.001 ;
+	:eComplementarDe :c100.20.200 ;
+	:eSinteseDe :c150.10.001 ;
+	:eSinteseDe :c150.10.100 ;
+	:eComplementarDe :c150.10.600 ;
+	:eSucessorDe :c150.20.202 ;
+	:eAntecessorDe :c150.20.404 ;
+	:eAntecessorDe :c150.20.501 ;
+	:eAntecessorDe :c900.20.201 ;
+	:eCruzadoCom :c150.10.700 ;
 	:temLegislacao :leg_480 ;
 	:temLegislacao :leg_1174 ;
 	:temLegislacao :leg_1227 ;
@@ -322,11 +322,11 @@ Inclui verificação jurídica, apreciação, discussão e votação conducentes
 	:temNotaAplicacao :na_c100.10.002_3 ;
 	:temNotaAplicacao :na_c100.10.002_4 ;
 	:temNotaExclusao :ne_c100.10.002_1 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c150.10.700 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c550.30.601 ;
-	:temRelProc :c900.20.201 ;
+	:eSucessorDe :c150.10.100 ;
+	:eCruzadoCom :c150.10.700 ;
+	:eSucessorDe :c200.10.800 ;
+	:eAntecessorDe :c550.30.601 ;
+	:eAntecessorDe :c900.20.201 ;
 	:temLegislacao :leg_480 ;
 	:temLegislacao :leg_1174 ;
 	:temLegislacao :leg_1227 ;
@@ -374,11 +374,11 @@ Inclui a aprovação parlamentar ou governamental, através de resolução ou de
 	:temNotaAplicacao :na_c100.10.003_2 ;
 	:temNotaAplicacao :na_c100.10.003_3 ;
 	:temNotaExclusao :ne_c100.10.003_1 ;
-	:temRelProc :c600.30.701 ;
-	:temRelProc :c600.30.702 ;
-	:temRelProc :c600.30.703 ;
-	:temRelProc :c600.30.712 ;
-	:temRelProc :c900.20.201 ;
+	:eSinteseDe :c600.30.701 ;
+	:eSinteseDe :c600.30.702 ;
+	:eSinteseDe :c600.30.703 ;
+	:eSinteseDe :c600.30.712 ;
+	:eAntecessorDe :c900.20.201 ;
 	:temLegislacao :leg_480 ;
 	:temLegislacao :leg_1021 ;
 	:classeStatus "A" ;
@@ -458,17 +458,17 @@ Inicia com o envio aos órgãos competentes e termina com a publicação.
 	:temNotaExclusao :ne_c100.10.200_1 ;
 	:temNotaExclusao :ne_c100.10.200_2 ;
 	:temNotaExclusao :ne_c100.10.200_3 ;
-	:temRelProc :c100.10.001 ;
-	:temRelProc :c100.10.400 ;
-	:temRelProc :c100.10.600 ;
-	:temRelProc :c100.20.001 ;
-	:temRelProc :c100.20.200 ;
-	:temRelProc :c150.10.001 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c150.10.200 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.700 ;
-	:temRelProc :c900.20.201 ;
+	:eComplementarDe :c100.10.001 ;
+	:eComplementarDe :c100.10.400 ;
+	:eComplementarDe :c100.10.600 ;
+	:eComplementarDe :c100.20.001 ;
+	:eComplementarDe :c100.20.200 ;
+	:eSinteseDe :c150.10.001 ;
+	:eSinteseDe :c150.10.100 ;
+	:eComplementarDe :c150.10.200 ;
+	:eComplementarDe :c150.10.600 ;
+	:eCruzadoCom :c150.20.700 ;
+	:eAntecessorDe :c900.20.201 ;
 	:temLegislacao :leg_480 ;
 	:temLegislacao :leg_1174 ;
 	:temLegislacao :leg_1227 ;
@@ -546,15 +546,15 @@ Inclui verificação jurídica e apreciação.".
 	:temNotaAplicacao :na_c100.10.400_3 ;
 	:temNotaExclusao :ne_c100.10.400_1 ;
 	:temNotaExclusao :ne_c100.10.400_2 ;
-	:temRelProc :c100.10.001 ;
-	:temRelProc :c100.10.200 ;
-	:temRelProc :c100.10.600 ;
-	:temRelProc :c100.20.001 ;
-	:temRelProc :c100.20.200 ;
-	:temRelProc :c150.10.400 ;
-	:temRelProc :c150.10.700 ;
-	:temRelProc :c150.10.701 ;
-	:temRelProc :c900.20.201 ;
+	:eComplementarDe :c100.10.001 ;
+	:eComplementarDe :c100.10.200 ;
+	:eComplementarDe :c100.10.600 ;
+	:eComplementarDe :c100.20.001 ;
+	:eComplementarDe :c100.20.200 ;
+	:eSinteseDe :c150.10.400 ;
+	:eCruzadoCom :c150.10.700 ;
+	:eCruzadoCom :c150.10.701 ;
+	:eAntecessorDe :c900.20.201 ;
 	:temLegislacao :leg_274 ;
 	:temLegislacao :leg_112 ;
 	:classeStatus "A" ;
@@ -729,15 +729,15 @@ Inclui verificação jurídica e apreciação.
 
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.800_2
-:na_c100.10.800_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Documentos normativos, editados por Organismos Europeus ou Internacionais de Normalização".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.800_1
 :na_c100.10.800_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Documentos normativos, editados  pelo Organismo Nacional de Normalização".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.800_2
+:na_c100.10.800_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Documentos normativos, editados por Organismos Europeus ou Internacionais de Normalização".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.800_3
 :na_c100.10.800_3 rdf:type owl:NamedIndividual ,
@@ -832,10 +832,10 @@ Compreende, igualmente, os acórdãos de uniformização de jurisprudência emit
 	:temNotaAplicacao :na_c100.20.001_1 ;
 	:temNotaAplicacao :na_c100.20.001_2 ;
 	:temNotaExclusao :ne_c100.20.001_1 ;
-	:temRelProc :c100.10.001 ;
-	:temRelProc :c100.10.200 ;
-	:temRelProc :c100.10.400 ;
-	:temRelProc :c150.20.001 ;
+	:eComplementarDe :c100.10.001 ;
+	:eComplementarDe :c100.10.200 ;
+	:eComplementarDe :c100.10.400 ;
+	:eSucessorDe :c150.20.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_211 ;
 	:temLegislacao :leg_1389 ;
@@ -877,9 +877,9 @@ Inclui trabalhos de consulta de elementos e fundamentação do parecer.".
 	:temNotaAplicacao :na_c100.20.200_1 ;
 	:temNotaAplicacao :na_c100.20.200_2 ;
 	:temNotaExclusao :ne_c100.20.200_1 ;
-	:temRelProc :c100.10.001 ;
-	:temRelProc :c100.10.200 ;
-	:temRelProc :c100.10.400 ;
+	:eComplementarDe :c100.10.001 ;
+	:eComplementarDe :c100.10.200 ;
+	:eComplementarDe :c100.10.400 ;
 	:classeStatus "A" ;
 	:exemploNA "Pauta de serviço (Pauta Aduaneira)" ;
 	:descricao "Elaboração e divulgação de instruções gerais, emitidas por entidades de coordenação setorial acerca do sentido como devem ser entendidas determinadas normas ou princípios jurídicos, que a essas entidades cabe interpretar ou integrar.
@@ -912,7 +912,7 @@ Inclui, quando devido, elaboração de diversos esquemas sintetizadores para mai
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c100.20.400_1 ;
 	:temNotaAplicacao :na_c100.20.400_2 ;
-	:temRelProc :c100.10.800 ;
+	:eComplementarDe :c100.10.800 ;
 	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
 	:exemploNA "Produção de FAQ’s (Frequently Asked Questions)" ;

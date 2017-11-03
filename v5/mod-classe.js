@@ -185,17 +185,46 @@ exports.migraClasse = function(orgCatalog, legCatalog, classe)
     
                         if(procRefsSplit.length != procTiposSplit.length) {
                             console.error(classCode + " :: tem " + procRefsSplit.length + " processos relacionados mas " + procTiposSplit.length + " tipos de relação.")
-                        }    
-                        for(var p=0, len = procRefsSplit.length; p<len; p++)
-                        {
-                            if(procRefsSplit[p]){
-                                classTriples += "\t:temRelProc " + ":c" + procRefsSplit[p] + " ;\n"
-                                
+                            // Vou criar a relação de alto nível sem tipo
+                            for(var p=0, len = procRefsSplit.length; p<len; p++)
+                            {
+                                if(procRefsSplit[p]){
+                                    classTriples += "\t:temRelProc " + ":c" + procRefsSplit[p] + " ;\n"
+                                } 
                             }
-                                
-    
-                            
-                        }
+                        }  
+                        else {
+                            var len = procRefsSplit.length -1
+                            for(var p=0; p<len; p++)
+                            {
+                                if(procTiposSplit[p].match(/S[íi]ntese[ ]*\(s[ií]ntetizad[oa]\)/gi)){
+                                    classTriples += "\t:eSintetizadoPor " + ":c" + procRefsSplit[p] + " ;\n"
+                                } 
+                                else if (procTiposSplit[p].match(/S[íi]ntese[ ]*\(sintetiza\)/gi)){
+                                    classTriples += "\t:eSinteseDe " + ":c" + procRefsSplit[p] + " ;\n"
+                                }
+                                else if (procTiposSplit[p].startsWith('Complementar')){
+                                    classTriples += "\t:eComplementarDe " + ":c" + procRefsSplit[p] + " ;\n"
+                                }
+                                else if (procTiposSplit[p].match(/\s*Cruzad/gi)){
+                                    classTriples += "\t:eCruzadoCom " + ":c" + procRefsSplit[p] + " ;\n"
+                                }
+                                else if (procTiposSplit[p].startsWith('Suplement')){
+                                    classTriples += "\t:eSuplementoPara " + ":c" + procRefsSplit[p] + " ;\n"
+                                }
+                                else if (procTiposSplit[p].match(/Sucessão[ ]*\(suce/gi)){
+                                    classTriples += "\t:eSucessorDe " + ":c" + procRefsSplit[p] + " ;\n"
+                                }
+                                else if (procTiposSplit[p].match(/\s*Sucessão\s*\(antece/gi)){
+                                    classTriples += "\t:eAntecessorDe " + ":c" + procRefsSplit[p] + " ;\n"
+                                }
+                                else {
+                                    classTriples += "\t:temRelProc " + ":c" + procRefsSplit[p] + " ;\n"
+                                    console.log('ERROR: ' + classCode + ':: Rel. entre Proc. desconhecida: ' + procTiposSplit[p])
+                                    console.log('>>dados: '+ len + " :: " + procRefsSplit[p] + ' :: ' + procTiposSplit[p])
+                                }
+                            }
+                        }  
                     }
     
                     // Relações com a Legislação
@@ -237,8 +266,8 @@ exports.migraClasse = function(orgCatalog, legCatalog, classe)
                     fs.appendFile(fout, classTriples , function(err){
                         if(err)
                             console.error(err)
-                        else
-                            console.log("Gerei a classe: " + classCode)
+                        //else
+                            //console.log("Gerei a classe: " + classCode)
                     })
                 }
             }

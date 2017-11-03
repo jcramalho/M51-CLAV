@@ -1,9 +1,4 @@
 ### Classe950
-###  http://jcr.di.uminho.pt/m51-clav#ne_c950_1
-:ne_c950_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A audição pública no âmbito de um determinado processo, deve ser considerada junto do processo respetivo - por exemplo, a audição pública no âmbito da elaboração de uma lei ou regulamento deve ser considerada em \"Ordenamento jurídico e normativo/ Elaboração de diplomas jurídico-normativos e de normas técnicas\" (100.10).".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c950
 :c950 rdf:type owl:NamedIndividual ,
 	:Classe_N1;
@@ -13,6 +8,11 @@
 	:temNotaExclusao :ne_c950_1 ;
 	:classeStatus "A" ;
 	:descricao "Relativo à realização processos eleitorais para escolha dos representantes dos cidadãos (sufrágio universal), à realização de processos referendários, ao processamento de outros atos de participação dos cidadãos na gestão de assuntos públicos e, ainda, à atribuição de distinções honoríficas.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950_1
+:ne_c950_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A audição pública no âmbito de um determinado processo, deve ser considerada junto do processo respetivo - por exemplo, a audição pública no âmbito da elaboração de uma lei ou regulamento deve ser considerada em \"Ordenamento jurídico e normativo/ Elaboração de diplomas jurídico-normativos e de normas técnicas\" (100.10).".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.10_1
 :na_c950.10_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -28,11 +28,6 @@
 	:NotaExclusao ;
 	:conteudo "O registo de cidadãos eleitores e o registo de eleitos devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c950.10_3
-:ne_c950.10_3 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Os processos de atualização do recenseamento eleitoral, incluindo o processamento de pedidos de atualização de dados individuais, devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c950.10
 :c950.10 rdf:type owl:NamedIndividual ,
 	:Classe_N2;
@@ -45,15 +40,20 @@
 	:temNotaExclusao :ne_c950.10_3 ;
 	:classeStatus "A" ;
 	:descricao "Compreende as atividades de organização dos processos de sufrágio universal (nacional, regional e local) para eleições e para referendos, bem como o respetivo apuramento, transmissão e difusão de resultados.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_2
-:na_c950.10.001_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Eleições legislativas".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.10_3
+:ne_c950.10_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os processos de atualização do recenseamento eleitoral, incluindo o processamento de pedidos de atualização de dados individuais, devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_1
 :na_c950.10.001_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Referendos nacionais, regionais e locais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_2
+:na_c950.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Eleições legislativas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_3
 :na_c950.10.001_3 rdf:type owl:NamedIndividual ,
@@ -89,11 +89,11 @@
 	:temNotaAplicacao :na_c950.10.001_3 ;
 	:temNotaAplicacao :na_c950.10.001_4 ;
 	:temNotaAplicacao :na_c950.10.001_5 ;
-	:temRelProc :c950.10.200 ;
-	:temRelProc :c950.10.201 ;
-	:temRelProc :c950.10.400 ;
-	:temRelProc :c950.10.402 ;
-	:temRelProc :c950.10.600 ;
+	:eAntecessorDe :c950.10.200 ;
+	:eAntecessorDe :c950.10.201 ;
+	:eAntecessorDe :c950.10.400 ;
+	:eAntecessorDe :c950.10.402 ;
+	:eSucessorDe :c950.10.600 ;
 	:temLegislacao :leg_14 ;
 	:temLegislacao :leg_30 ;
 	:temLegislacao :leg_33 ;
@@ -122,8 +122,8 @@ Inclui consulta de entidades, decisão e comunicação da data.".
 	:temDono :org_TC ;
 	:temDono :org_STJ ;
 	:temNotaAplicacao :na_c950.10.200_1 ;
-	:temRelProc :c950.10.001 ;
-	:temRelProc :c950.10.400 ;
+	:eSucessorDe :c950.10.001 ;
+	:eAntecessorDe :c950.10.400 ;
 	:temLegislacao :leg_14 ;
 	:temLegislacao :leg_30 ;
 	:temLegislacao :leg_33 ;
@@ -189,12 +189,12 @@ Inclui ainda o sorteio das listas apresentadas a constar nos boletins de voto.".
 	:temNotaAplicacao :na_c950.10.201_1 ;
 	:temNotaAplicacao :na_c950.10.201_2 ;
 	:temNotaExclusao :ne_c950.10.201_1 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c150.10.700 ;
-	:temRelProc :c150.10.701 ;
-	:temRelProc :c600.30.712 ;
-	:temRelProc :c950.10.001 ;
-	:temRelProc :c950.10.400 ;
+	:eCruzadoCom :c150.10.100 ;
+	:eAntecessorDe :c150.10.700 ;
+	:eAntecessorDe :c150.10.701 ;
+	:eCruzadoCom :c600.30.712 ;
+	:eSucessorDe :c950.10.001 ;
+	:eSucessorDe :c950.10.400 ;
 	:temLegislacao :leg_216 ;
 	:temLegislacao :leg_303 ;
 	:temLegislacao :leg_1307 ;
@@ -245,19 +245,19 @@ Inclui análise da proposta de referendo, consulta de entidades, notificação d
 	:temNotaAplicacao :na_c950.10.400_2 ;
 	:temNotaAplicacao :na_c950.10.400_3 ;
 	:temNotaExclusao :ne_c950.10.400_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c900.20.201 ;
-	:temRelProc :c950.10.001 ;
-	:temRelProc :c950.10.200 ;
-	:temRelProc :c950.10.201 ;
-	:temRelProc :c950.10.401 ;
-	:temRelProc :c950.10.600 ;
-	:temRelProc :c950.10.601 ;
-	:temRelProc :c950.10.602 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eCruzadoCom :c400.10.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSucessorDe :c900.20.201 ;
+	:eAntecessorDe :c950.10.001 ;
+	:eSucessorDe :c950.10.200 ;
+	:eAntecessorDe :c950.10.201 ;
+	:eSucessorDe :c950.10.401 ;
+	:eSucessorDe :c950.10.600 ;
+	:eSintetizadoPor :c950.10.601 ;
+	:eSinteseDe :c950.10.602 ;
 	:temLegislacao :leg_14 ;
 	:temLegislacao :leg_30 ;
 	:temLegislacao :leg_75 ;
@@ -296,10 +296,10 @@ Inclui definição do formato e da cor dos boletins de voto, organização dos c
 	:temDono :org_DGACCP ;
 	:temNotaAplicacao :na_c950.10.401_1 ;
 	:temNotaAplicacao :na_c950.10.401_2 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.001 ;
-	:temRelProc :c950.10.400 ;
-	:temRelProc :c950.10.602 ;
+	:eSucessorDe :c350.30.001 ;
+	:eComplementarDe :c400.10.001 ;
+	:eCruzadoCom :c950.10.400 ;
+	:eSinteseDe :c950.10.602 ;
 	:temLegislacao :leg_14 ;
 	:temLegislacao :leg_30 ;
 	:temLegislacao :leg_75 ;
@@ -329,7 +329,7 @@ Inclui determinação do número de secções de voto, escolha dos membros das m
 	:temParticipanteAssessor :org_AL ;
 	:temDono :org_CNE ;
 	:temNotaAplicacao :na_c950.10.402_1 ;
-	:temRelProc :c950.10.001 ;
+	:eSucessorDe :c950.10.001 ;
 	:temLegislacao :leg_30 ;
 	:temLegislacao :leg_334 ;
 	:temLegislacao :leg_396 ;
@@ -355,9 +355,9 @@ Inclui estabelecimento e distribuição dos tempos reservados para o exercício 
 	:temParticipanteExecutor :org_AL ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c950.10.600_1 ;
-	:temRelProc :c950.10.001 ;
-	:temRelProc :c950.10.400 ;
-	:temRelProc :c950.10.602 ;
+	:eAntecessorDe :c950.10.001 ;
+	:eAntecessorDe :c950.10.400 ;
+	:eAntecessorDe :c950.10.602 ;
 	:temLegislacao :leg_334 ;
 	:temLegislacao :leg_30 ;
 	:classeStatus "A" ;
@@ -396,13 +396,13 @@ Inclui a elaboração do edital com os resultados do escrutínio parcial.".
 	:temParticipanteComunicador :org_AL ;
 	:temDono :org_SGMAI ;
 	:temDono :org_DGACCP ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.001 ;
-	:temRelProc :c400.10.004 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c900.20.201 ;
-	:temRelProc :c950.10.400 ;
+	:eSucessorDe :c350.30.001 ;
+	:eAntecessorDe :c400.10.001 ;
+	:eAntecessorDe :c400.10.004 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c900.20.201 ;
+	:eSinteseDe :c950.10.400 ;
 	:temLegislacao :leg_14 ;
 	:temLegislacao :leg_30 ;
 	:temLegislacao :leg_75 ;
@@ -441,11 +441,11 @@ Inclui notificação dos designados para a assembleia de apuramento geral e indi
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c950.10.602_1 ;
 	:temNotaAplicacao :na_c950.10.602_2 ;
-	:temRelProc :c400.10.031 ;
-	:temRelProc :c400.10.032 ;
-	:temRelProc :c950.10.400 ;
-	:temRelProc :c950.10.401 ;
-	:temRelProc :c950.10.600 ;
+	:eSinteseDe :c400.10.031 ;
+	:eSinteseDe :c400.10.032 ;
+	:eSintetizadoPor :c950.10.400 ;
+	:eSintetizadoPor :c950.10.401 ;
+	:eSucessorDe :c950.10.600 ;
 	:temLegislacao :leg_14 ;
 	:temLegislacao :leg_30 ;
 	:temLegislacao :leg_75 ;
@@ -528,15 +528,15 @@ Inclui o envio de exemplares da ata à entidade competente, elaboração do mapa
 	:NotaAplicacao ;
 	:conteudo "Reclamações em Livro Amarelo".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_3
-:na_c950.20.001_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Queixas ou denúncias".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_2
 :na_c950.20.001_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reclamações em Livro Vermelho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_3
+:na_c950.20.001_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Queixas ou denúncias".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_4
 :na_c950.20.001_4 rdf:type owl:NamedIndividual ,
@@ -582,13 +582,13 @@ Inclui o envio de exemplares da ata à entidade competente, elaboração do mapa
 	:temNotaExclusao :ne_c950.20.001_1 ;
 	:temNotaExclusao :ne_c950.20.001_2 ;
 	:temNotaExclusao :ne_c950.20.001_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.10.002 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSucessorDe :c150.40.500 ;
+	:eCruzadoCom :c300.10.002 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c500.20 ;
 	:temLegislacao :leg_1279 ;
 	:classeStatus "A" ;
 	:descricao "Tratamento de petições, reclamações e sugestões relativas ao funcionamento dos serviços, ou sobre as áreas de atuação da organização.
@@ -622,11 +622,11 @@ Inclui análise da situação exposta e articulação com os responsáveis do se
 	:temNotaAplicacao :na_c950.20.300_1 ;
 	:temNotaAplicacao :na_c950.20.300_2 ;
 	:temNotaExclusao :ne_c950.20.300_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.301 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c250.20.800 ;
-	:temRelProc :c300.30.008 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eCruzadoCom :c150.20.301 ;
+	:eSucessorDe :c150.40.500 ;
+	:eSintetizadoPor :c250.20.800 ;
+	:eSintetizadoPor :c300.30.008 ;
 	:temLegislacao :leg_1279 ;
 	:classeStatus "A" ;
 	:descricao "Receção e tratamento dos elogios e agradecimentos pelo funcionamento dos serviços.
@@ -649,14 +649,14 @@ Inclui a análise da situação exposta e articulação com os responsáveis dos
 	:temDono :org_FS ;
 	:temDono :org_AL ;
 	:temNotaExclusao :ne_c950.20.600_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c550.10.001 ;
-	:temRelProc :c550.10.002 ;
-	:temRelProc :c550.10.004 ;
-	:temRelProc :c550.20.004 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSucessorDe :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c550.10.001 ;
+	:eAntecessorDe :c550.10.002 ;
+	:eSucessorDe :c550.10.004 ;
+	:eAntecessorDe :c550.20.004 ;
 	:temLegislacao :leg_9 ;
 	:classeStatus "A" ;
 	:descricao "Receção e tratamento de avisos apresentados por pessoas ou entidades que pretendem a realização de reuniões, comícios, manifestações ou desfiles em lugares públicos ou abertos ao público.
@@ -745,13 +745,13 @@ Inclui análise do pedido.".
 	:temNotaExclusao :ne_c950.30.001_1 ;
 	:temNotaExclusao :ne_c950.30.001_2 ;
 	:temNotaExclusao :ne_c950.30.001_3 ;
-	:temRelProc :c150.10.700 ;
-	:temRelProc :c150.10.701 ;
-	:temRelProc :c150.20.301 ;
-	:temRelProc :c250.20.800 ;
-	:temRelProc :c900.10.500 ;
-	:temRelProc :c900.20.601 ;
-	:temRelProc :c900.20.602 ;
+	:eCruzadoCom :c150.10.700 ;
+	:eCruzadoCom :c150.10.701 ;
+	:eSintetizadoPor :c150.20.301 ;
+	:eCruzadoCom :c250.20.800 ;
+	:eAntecessorDe :c900.10.500 ;
+	:eCruzadoCom :c900.20.601 ;
+	:eSinteseDe :c900.20.602 ;
 	:temLegislacao :leg_943 ;
 	:temLegislacao :leg_356 ;
 	:classeStatus "A" ;

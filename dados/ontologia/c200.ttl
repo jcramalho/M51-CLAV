@@ -1,13 +1,13 @@
 ### Classe200
-###  http://jcr.di.uminho.pt/m51-clav#na_c200_2
-:na_c200_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Acompanhamento dos compromissos institucionais e a realização de projetos e ações de execução da política externa concretizadas por organismos da Administração Central, Regional ou Local".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c200_1
 :na_c200_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Acompanhamento político e diplomático das relações internacionais bilaterais e multilaterais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200_2
+:na_c200_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento dos compromissos institucionais e a realização de projetos e ações de execução da política externa concretizadas por organismos da Administração Central, Regional ou Local".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c200_1
 :ne_c200_1 rdf:type owl:NamedIndividual ,
@@ -172,18 +172,18 @@ Compreende, igualmente, a participação na elaboração de normas técnicas eur
 	:temNotaAplicacao :na_c200.10.001_3 ;
 	:temNotaExclusao :ne_c200.10.001_1 ;
 	:temNotaExclusao :ne_c200.10.001_2 ;
-	:temRelProc :c100.10.001 ;
-	:temRelProc :c150.10.001 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c150.10.701 ;
-	:temRelProc :c200.10.002 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c200.20.001 ;
-	:temRelProc :c550.10.009 ;
-	:temRelProc :c550.30.005 ;
-	:temRelProc :c550.30.200 ;
-	:temRelProc :c550.30.400 ;
-	:temRelProc :c800.10.301 ;
+	:eSucessorDe :c100.10.001 ;
+	:eComplementarDe :c150.10.001 ;
+	:eComplementarDe :c150.10.100 ;
+	:eCruzadoCom :c150.10.701 ;
+	:eCruzadoCom :c200.10.002 ;
+	:eAntecessorDe :c200.10.800 ;
+	:eSinteseDe :c200.20.001 ;
+	:eAntecessorDe :c550.10.009 ;
+	:eAntecessorDe :c550.30.005 ;
+	:eAntecessorDe :c550.30.200 ;
+	:eAntecessorDe :c550.30.400 ;
+	:eCruzadoCom :c800.10.301 ;
 	:temLegislacao :leg_480 ;
 	:classeStatus "A" ;
 	:exemploNA "Relações bilaterais / multilaterais  em matéria consular" ;
@@ -244,17 +244,17 @@ Inclui os contributos de embaixadas e de ministérios setoriais, demonstrativos 
 	:temParticipanteAssessor :org_AP ;
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c200.10.002_1 ;
-	:temRelProc :c150.10.001 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c200.10.001 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c200.20.500 ;
-	:temRelProc :c200.30.301 ;
-	:temRelProc :c200.30.302 ;
-	:temRelProc :c200.30.303 ;
-	:temRelProc :c550.30.200 ;
-	:temRelProc :c550.30.600 ;
-	:temRelProc :c550.30.601 ;
+	:eCruzadoCom :c150.10.001 ;
+	:eComplementarDe :c150.10.100 ;
+	:eCruzadoCom :c200.10.001 ;
+	:eCruzadoCom :c200.10.800 ;
+	:eCruzadoCom :c200.20.500 ;
+	:eCruzadoCom :c200.30.301 ;
+	:eCruzadoCom :c200.30.302 ;
+	:eCruzadoCom :c200.30.303 ;
+	:eSucessorDe :c550.30.200 ;
+	:eSucessorDe :c550.30.600 ;
+	:eAntecessorDe :c550.30.601 ;
 	:temLegislacao :leg_432 ;
 	:temLegislacao :leg_433 ;
 	:temLegislacao :leg_565 ;
@@ -567,6 +567,11 @@ Inclui a complilação dos contributos de ministérios setoriais, dos contributo
 	:NotaAplicacao ;
 	:conteudo "Acordos no âmbito do financiamento".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_3
+:na_c200.10.800_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acordos expressos apenas por troca de notas".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_4
 :na_c200.10.800_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -576,11 +581,6 @@ Inclui a complilação dos contributos de ministérios setoriais, dos contributo
 :na_c200.10.800_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Acordos entre regiões transfronteiriças, transnacionais e interregionais".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.800_3
-:na_c200.10.800_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Acordos expressos apenas por troca de notas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.800_1
 :ne_c200.10.800_1 rdf:type owl:NamedIndividual ,
@@ -615,28 +615,28 @@ Inclui a complilação dos contributos de ministérios setoriais, dos contributo
 	:temNotaExclusao :ne_c200.10.800_1 ;
 	:temNotaExclusao :ne_c200.10.800_2 ;
 	:temNotaExclusao :ne_c200.10.800_3 ;
-	:temRelProc :c100.10.002 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c150.10.700 ;
-	:temRelProc :c150.10.701 ;
-	:temRelProc :c200.10.001 ;
-	:temRelProc :c200.10.002 ;
-	:temRelProc :c200.20.001 ;
-	:temRelProc :c200.20.002 ;
-	:temRelProc :c200.30.001 ;
-	:temRelProc :c200.30.301 ;
-	:temRelProc :c200.30.302 ;
-	:temRelProc :c550.30.005 ;
-	:temRelProc :c550.30.006 ;
-	:temRelProc :c550.30.200 ;
-	:temRelProc :c550.30.600 ;
-	:temRelProc :c550.30.601 ;
-	:temRelProc :c800.10.301 ;
-	:temRelProc :c800.10.302 ;
-	:temRelProc :c850.10.002 ;
-	:temRelProc :c850.10.003 ;
-	:temRelProc :c850.10.005 ;
-	:temRelProc :c900.20.601 ;
+	:eAntecessorDe :c100.10.002 ;
+	:eSucessorDe :c150.10.100 ;
+	:eCruzadoCom :c150.10.700 ;
+	:eCruzadoCom :c150.10.701 ;
+	:eAntecessorDe :c200.10.001 ;
+	:eCruzadoCom :c200.10.002 ;
+	:eCruzadoCom :c200.20.001 ;
+	:eCruzadoCom :c200.20.002 ;
+	:eAntecessorDe :c200.30.001 ;
+	:eCruzadoCom :c200.30.301 ;
+	:eCruzadoCom :c200.30.302 ;
+	:eCruzadoCom :c550.30.005 ;
+	:eSucessorDe :c550.30.006 ;
+	:eSucessorDe :c550.30.200 ;
+	:eSucessorDe :c550.30.600 ;
+	:eAntecessorDe :c550.30.601 ;
+	:eCruzadoCom :c800.10.301 ;
+	:eSucessorDe :c800.10.302 ;
+	:eSucessorDe :c850.10.002 ;
+	:eSucessorDe :c850.10.003 ;
+	:eSucessorDe :c850.10.005 ;
+	:eCruzadoCom :c900.20.601 ;
 	:temLegislacao :leg_395 ;
 	:temLegislacao :leg_279 ;
 	:temLegislacao :leg_104 ;
@@ -778,10 +778,10 @@ Inclui negociação e elaboração do protocolo ou acordo.".
 	:temDono :org_DGPE ;
 	:temNotaAplicacao :na_c200.20.001_1 ;
 	:temNotaExclusao :ne_c200.20.001_1 ;
-	:temRelProc :c200.10.001 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c200.20.500 ;
-	:temRelProc :c200.30.301 ;
+	:eSintetizadoPor :c200.10.001 ;
+	:eCruzadoCom :c200.10.800 ;
+	:eCruzadoCom :c200.20.500 ;
+	:eCruzadoCom :c200.30.301 ;
 	:classeStatus "A" ;
 	:descricao "Análise da situação internacional no âmbito das relações políticas, comerciais, culturais, consulares ou outras, por solicitação da tutela, de outros departamentos governamentais, de outros países, da União Europeia ou de organizações internacionais.
 Inicia com o pedido e termina com o envio da informação.
@@ -821,7 +821,7 @@ Inclui recolha de informação, análise e tratamento de dados, produção de in
 	:temNotaAplicacao :na_c200.20.002_2 ;
 	:temNotaExclusao :ne_c200.20.002_1 ;
 	:temNotaExclusao :ne_c200.20.002_2 ;
-	:temRelProc :c200.10.800 ;
+	:eCruzadoCom :c200.10.800 ;
 	:temLegislacao :leg_281 ;
 	:classeStatus "A" ;
 	:descricao "Preparação e execução de deslocações no âmbito do acompanhamento político e diplomático, nomeadamente no âmbito da participação em eventos, das relações institucionais ou da cooperação para o desenvolvimento, desde que não enquadrado em processo específico.
@@ -874,12 +874,12 @@ Inclui preparação de deslocações, recolha de informação, programação e c
 	:temNotaAplicacao :na_c200.20.500_4 ;
 	:temNotaAplicacao :na_c200.20.500_5 ;
 	:temNotaExclusao :ne_c200.20.500_1 ;
-	:temRelProc :c150.10.700 ;
-	:temRelProc :c150.10.701 ;
-	:temRelProc :c200.10.001 ;
-	:temRelProc :c200.10.002 ;
-	:temRelProc :c200.20.001 ;
-	:temRelProc :c200.30.600 ;
+	:eSucessorDe :c150.10.700 ;
+	:eSucessorDe :c150.10.701 ;
+	:eCruzadoCom :c200.10.001 ;
+	:eCruzadoCom :c200.10.002 ;
+	:eCruzadoCom :c200.20.001 ;
+	:eComplementarDe :c200.30.600 ;
 	:temLegislacao :leg_534 ;
 	:classeStatus "A" ;
 	:descricao "Preparação de deslocações e visitas de Chefes de Estado e de governo, membros de governo ou equiparados, representantes e dirigentes de organizações internacionais e Presidentes de Câmara ou altos representantes da Administração Central, Local ou Regional.
@@ -1138,17 +1138,17 @@ Consideram-se projetos de execução da política externa aqueles que cumprem ob
 	:temNotaAplicacao :na_c200.30.001_4 ;
 	:temNotaExclusao :ne_c200.30.001_1 ;
 	:temNotaExclusao :ne_c200.30.001_2 ;
-	:temRelProc :c150.10.500 ;
-	:temRelProc :c150.10.700 ;
-	:temRelProc :c150.10.701 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c350.10.600 ;
-	:temRelProc :c550.30.004 ;
-	:temRelProc :c550.30.600 ;
-	:temRelProc :c550.30.601 ;
-	:temRelProc :c800.10.603 ;
+	:eSucessorDe :c150.10.500 ;
+	:eCruzadoCom :c150.10.700 ;
+	:eCruzadoCom :c150.10.701 ;
+	:eSucessorDe :c200.10.800 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eCruzadoCom :c350.10.600 ;
+	:eSucessorDe :c550.30.004 ;
+	:eSucessorDe :c550.30.600 ;
+	:eCruzadoCom :c550.30.601 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_532 ;
 	:temLegislacao :leg_918 ;
 	:temLegislacao :leg_1324 ;
@@ -1227,25 +1227,20 @@ Inclui a análise e a consulta de outras entidades.".
 	:temNotaAplicacao :na_c200.30.301_2 ;
 	:temNotaExclusao :ne_c200.30.301_1 ;
 	:temNotaExclusao :ne_c200.30.301_2 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c150.10.500 ;
-	:temRelProc :c150.10.700 ;
-	:temRelProc :c150.10.701 ;
-	:temRelProc :c200.10.002 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c200.20.001 ;
-	:temRelProc :c200.30.302 ;
-	:temRelProc :c200.30.303 ;
+	:eAntecessorDe :c150.10.100 ;
+	:eAntecessorDe :c150.10.500 ;
+	:eCruzadoCom :c150.10.700 ;
+	:eCruzadoCom :c150.10.701 ;
+	:eCruzadoCom :c200.10.002 ;
+	:eCruzadoCom :c200.10.800 ;
+	:eCruzadoCom :c200.20.001 ;
+	:eSinteseDe :c200.30.302 ;
+	:eComplementarDe :c200.30.303 ;
 	:temLegislacao :leg_1271 ;
 	:classeStatus "A" ;
 	:descricao "Elaboração dos instrumentos de orientação estratégica que estabelecem os critérios, os objetivos e os atores envolvidos, bem como os mecanismos e os recursos necessários à prossecução das políticas de cooperação para o desenvolvimento, normalmente designados por programas de cooperação.
 Inicia com proposta e termina com aprovação de programa de cooperação e ajuda pública ao desenvolvimento.
 Inclui articulação com autoridades de países parceiros, recolha de contributos para a elaboração do programa, consulta de informação relativa a anteriores programas de cooperação, articulação com organizações não-governamentais, constituição e mandatos de grupos de trabalho, nomeação de representantes, elaboração e análise de planos de ação, de quadros de caracterização das medidas e de ações de implementação e elaboração de proposta de programa.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.302_3
-:na_c200.30.302_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Execução de projetos no âmbito de programas de cooperação e ajuda pública ao desenvolvimento em parceria com a Sociedade Civil ou Organizações Internacionais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.302_1
 :na_c200.30.302_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1255,6 +1250,11 @@ Inclui articulação com autoridades de países parceiros, recolha de contributo
 :na_c200.30.302_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Execução de projetos no âmbito de acordos entre regiões transfronteiriças, transnacionais e interregionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.302_3
+:na_c200.30.302_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Execução de projetos no âmbito de programas de cooperação e ajuda pública ao desenvolvimento em parceria com a Sociedade Civil ou Organizações Internacionais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c200.30.302_4
 :na_c200.30.302_4 rdf:type owl:NamedIndividual ,
@@ -1297,17 +1297,17 @@ Inclui articulação com autoridades de países parceiros, recolha de contributo
 	:temNotaAplicacao :na_c200.30.302_4 ;
 	:temNotaExclusao :ne_c200.30.302_1 ;
 	:temNotaExclusao :ne_c200.30.302_2 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c150.10.700 ;
-	:temRelProc :c150.10.701 ;
-	:temRelProc :c200.10.002 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c200.30.301 ;
-	:temRelProc :c200.30.303 ;
-	:temRelProc :c850.10.002 ;
-	:temRelProc :c850.10.003 ;
-	:temRelProc :c850.10.004 ;
-	:temRelProc :c850.10.005 ;
+	:eSucessorDe :c150.10.100 ;
+	:eCruzadoCom :c150.10.700 ;
+	:eCruzadoCom :c150.10.701 ;
+	:eCruzadoCom :c200.10.002 ;
+	:eCruzadoCom :c200.10.800 ;
+	:eSintetizadoPor :c200.30.301 ;
+	:eSintetizadoPor :c200.30.303 ;
+	:eSucessorDe :c850.10.002 ;
+	:eSucessorDe :c850.10.003 ;
+	:eAntecessorDe :c850.10.004 ;
+	:eSucessorDe :c850.10.005 ;
 	:temLegislacao :leg_1271 ;
 	:classeStatus "A" ;
 	:exemploNA "Ações de formação e treino, âmbito de programas de cooperação e assistência militar de natureza bilateral e multilateral " ;
@@ -1374,10 +1374,10 @@ Inclui discussão de propostas apresentadas, caracterização das ações a dese
 	:temNotaAplicacao :na_c200.30.303_6 ;
 	:temNotaExclusao :ne_c200.30.303_1 ;
 	:temNotaExclusao :ne_c200.30.303_2 ;
-	:temRelProc :c200.10.002 ;
-	:temRelProc :c200.30.301 ;
-	:temRelProc :c200.30.302 ;
-	:temRelProc :c850.10.004 ;
+	:eCruzadoCom :c200.10.002 ;
+	:eComplementarDe :c200.30.301 ;
+	:eSinteseDe :c200.30.302 ;
+	:eCruzadoCom :c850.10.004 ;
 	:temLegislacao :leg_1271 ;
 	:classeStatus "A" ;
 	:descricao "Avaliação dos programas de cooperação e de ajuda ao desenvolvimento, executados por entidades públicas e privadas
@@ -1443,15 +1443,15 @@ Inclui, quando devido, apresentação de caderno de encargos, convite ou candida
 	:NotaExclusao ;
 	:conteudo "A aquisição de bens e serviços no âmbito da organização de eventos e respetivo apoio logístico deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30.600_3
-:ne_c200.30.600_3 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Os pedidos de informação sobre oportunidades de negócio e de investimento que se esgotam na pergunta e resposta, nunca se consubstanciando em ações concretas, devem ser considerados em 900.20.604 – Processamento de pedidos de informação e de esclarecimento".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30.600_2
 :ne_c200.30.600_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "As ações de dinamização da sociedade em Portugal devem ser consideradas em 900.10 – Execução de atividades de dinamização da sociedade".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.30.600_3
+:ne_c200.30.600_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pedidos de informação sobre oportunidades de negócio e de investimento que se esgotam na pergunta e resposta, nunca se consubstanciando em ações concretas, devem ser considerados em 900.20.604 – Processamento de pedidos de informação e de esclarecimento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c200.30.600
 :c200.30.600 rdf:type owl:NamedIndividual ,
@@ -1482,20 +1482,20 @@ Inclui, quando devido, apresentação de caderno de encargos, convite ou candida
 	:temNotaExclusao :ne_c200.30.600_1 ;
 	:temNotaExclusao :ne_c200.30.600_2 ;
 	:temNotaExclusao :ne_c200.30.600_3 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c200.20.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c850.10.002 ;
-	:temRelProc :c850.10.003 ;
-	:temRelProc :c850.10.500 ;
-	:temRelProc :c850.10.600 ;
-	:temRelProc :c900.20.001 ;
-	:temRelProc :c900.20.002 ;
-	:temRelProc :c900.20.200 ;
-	:temRelProc :c900.20.400 ;
+	:eSucessorDe :c150.10.100 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eCruzadoCom :c200.20.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c850.10.002 ;
+	:eCruzadoCom :c850.10.003 ;
+	:eCruzadoCom :c850.10.500 ;
+	:eCruzadoCom :c850.10.600 ;
+	:eCruzadoCom :c900.20.001 ;
+	:eCruzadoCom :c900.20.002 ;
+	:eCruzadoCom :c900.20.200 ;
+	:eCruzadoCom :c900.20.400 ;
 	:temLegislacao :leg_1190 ;
 	:temLegislacao :leg_565 ;
 	:temLegislacao :leg_432 ;

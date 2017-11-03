@@ -1,9 +1,4 @@
 ### Classe450
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450_1
-:ne_c450_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O processamento de pedidos de reconhecimento do estatuto de igualdade e do estatuto de refugiado, bem como o processamento de pedidos de autorização de residência, devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c450
 :c450 rdf:type owl:NamedIndividual ,
 	:Classe_N1;
@@ -14,6 +9,11 @@
 	:classeStatus "A" ;
 	:descricao "Relativo à atribuição de permissões para o exercício de atividades ou tarefas que observam padrões específicos; ao reconhecimento de características em entidades, serviços ou produtos que os tornam conformes a determinados parâmetros técnicos ou normativos; ao reconhecimento de características em entidades que as tornam passíveis de obter especial proteção ou especial benefício; à comprovação de factos ou atos.
 Relativo, ainda, à formalização notarial de atos jurídicos extrajudiciais, conferindo-lhes fé pública.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c450_1
+:ne_c450_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O processamento de pedidos de reconhecimento do estatuto de igualdade e do estatuto de refugiado, bem como o processamento de pedidos de autorização de residência, devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10_1
 :na_c450.10_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -138,15 +138,15 @@ Relativo, ainda, à formalização notarial de atos jurídicos extrajudiciais, c
 	:temNotaExclusao :ne_c450.10.062_2 ;
 	:temNotaExclusao :ne_c450.10.062_3 ;
 	:temNotaExclusao :ne_c450.10.062_4 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c450.10.444 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c850.30.003 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSintetizadoPor :c400.10.200 ;
+	:eSucessorDe :c450.10.444 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c850.30.003 ;
 	:temLegislacao :leg_128 ;
 	:temLegislacao :leg_139 ;
 	:temLegislacao :leg_750 ;
@@ -283,13 +283,13 @@ Inclui análise preliminar, verificação das condições de segurança das inst
 	:temNotaAplicacao :na_c450.10.063_14 ;
 	:temNotaAplicacao :na_c450.10.063_15 ;
 	:temNotaExclusao :ne_c450.10.063_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.009 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSintetizadoPor :c400.10.009 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1262 ;
 	:temLegislacao :leg_1119 ;
 	:temLegislacao :leg_1100 ;
@@ -322,15 +322,15 @@ Inclui análise preliminar, caracterização do tipo de transporte e da carga tr
 	:NotaAplicacao ;
 	:conteudo "Empreendimentos de turismo de habitação".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.064_5
-:na_c450.10.064_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Parques de campismo e de caravanismo".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.064_4
 :na_c450.10.064_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Empreendimentos turísticos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.064_5
+:na_c450.10.064_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Parques de campismo e de caravanismo".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.064_6
 :na_c450.10.064_6 rdf:type owl:NamedIndividual ,
@@ -362,12 +362,12 @@ Inclui análise preliminar, caracterização do tipo de transporte e da carga tr
 	:temNotaAplicacao :na_c450.10.064_5 ;
 	:temNotaAplicacao :na_c450.10.064_6 ;
 	:temNotaExclusao :ne_c450.10.064_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1289 ;
 	:temLegislacao :leg_1200 ;
 	:temLegislacao :leg_1189 ;
@@ -407,12 +407,12 @@ Inclui realização de vistoria, definição da capacidade máxima de utilizador
 	:temNotaAplicacao :na_c450.10.065_1 ;
 	:temNotaAplicacao :na_c450.10.065_2 ;
 	:temNotaAplicacao :na_c450.10.065_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1108 ;
 	:temLegislacao :leg_611 ;
 	:temLegislacao :leg_1144 ;
@@ -485,14 +485,14 @@ Inclui análise preliminar, validação e verificação de qualificações profi
 	:temNotaAplicacao :na_c450.10.066_4 ;
 	:temNotaAplicacao :na_c450.10.066_5 ;
 	:temNotaExclusao :ne_c450.10.066_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSintetizadoPor :c400.10.200 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c800.10.301 ;
 	:temLegislacao :leg_1087 ;
 	:temLegislacao :leg_1084 ;
 	:temLegislacao :leg_941 ;
@@ -509,15 +509,15 @@ Inclui análise preliminar, validação e verificação de qualificações profi
 Inicia com a formulação do pedido e termina com a emissão da licença.
 Inclui análise preliminar, verificação da conformidade com planos de ordenamento aplicáveis, consulta e concertação de entidades, vistoria, quando aplicável, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.068_1
-:na_c450.10.068_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Operações de imersão e aterro de resíduos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.068_2
 :na_c450.10.068_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Gestão de todo o tipo de resíduos, incluindo os resíduos radioactivos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.068_1
+:na_c450.10.068_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Operações de imersão e aterro de resíduos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.068_3
 :na_c450.10.068_3 rdf:type owl:NamedIndividual ,
@@ -548,14 +548,14 @@ Inclui análise preliminar, verificação da conformidade com planos de ordename
 	:temNotaAplicacao :na_c450.10.068_2 ;
 	:temNotaAplicacao :na_c450.10.068_3 ;
 	:temNotaAplicacao :na_c450.10.068_4 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.10.301 ;
-	:temRelProc :c900.20.201 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c800.10.301 ;
+	:eSucessorDe :c900.20.201 ;
 	:temLegislacao :leg_447 ;
 	:temLegislacao :leg_225 ;
 	:temLegislacao :leg_193 ;
@@ -584,15 +584,15 @@ Inclui análise preliminar, consulta a entidades, avaliação do projeto de exec
 	:NotaAplicacao ;
 	:conteudo "Licenciamento de indústrias (PN 450.10.018)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.070_4
-:na_c450.10.070_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Autorização de fabrico de medicamentos e de medicamentos experimentais (PN 450.10.047)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.070_3
 :na_c450.10.070_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Licenciamento de pesquisa de massas minerais e pedreiras (PN 450.10.024)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.070_4
+:na_c450.10.070_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Autorização de fabrico de medicamentos e de medicamentos experimentais (PN 450.10.047)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.070_5
 :na_c450.10.070_5 rdf:type owl:NamedIndividual ,
@@ -649,15 +649,15 @@ Inclui análise preliminar, consulta a entidades, avaliação do projeto de exec
 	:temNotaExclusao :ne_c450.10.070_1 ;
 	:temNotaExclusao :ne_c450.10.070_2 ;
 	:temNotaExclusao :ne_c450.10.070_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.210 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c450.10.210 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c800.10.301 ;
 	:temLegislacao :leg_1288 ;
 	:temLegislacao :leg_593 ;
 	:temLegislacao :leg_1092 ;
@@ -719,12 +719,12 @@ Inclui análise preliminar, consulta de entidades, quando devido, verificação 
 	:temNotaAplicacao :na_c450.10.071_4 ;
 	:temNotaExclusao :ne_c450.10.071_1 ;
 	:temNotaExclusao :ne_c450.10.071_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1134 ;
 	:temLegislacao :leg_1130 ;
 	:temLegislacao :leg_1027 ;
@@ -832,17 +832,17 @@ Inclui análise preliminar, validação do projeto de regulamento, consulta de e
 	:temNotaAplicacao :na_c450.10.072_10 ;
 	:temNotaExclusao :ne_c450.10.072_1 ;
 	:temNotaExclusao :ne_c450.10.072_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.009 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.10.301 ;
-	:temRelProc :c900.10.001 ;
-	:temRelProc :c900.10.002 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSintetizadoPor :c400.10.009 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c800.10.301 ;
+	:eSucessorDe :c900.10.001 ;
+	:eAntecessorDe :c900.10.002 ;
 	:temLegislacao :leg_1009 ;
 	:temLegislacao :leg_992 ;
 	:temLegislacao :leg_905 ;
@@ -871,15 +871,15 @@ Inclui análise do pedido, consulta de entidades, realização de vistoria, quan
 	:NotaAplicacao ;
 	:conteudo "Autorização de realização de investigação clínica em dispositivos médicos e cosméticos (Anterior PN 450.10.053)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.073_5
-:na_c450.10.073_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Avaliação da investigação clínica (IC) em dispositivos médicos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.073_4
 :na_c450.10.073_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Autorização para investigação e desenvolvimento com produtos biocidas (Anterior PN 450.10.061)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.073_5
+:na_c450.10.073_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Avaliação da investigação clínica (IC) em dispositivos médicos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.073_6
 :na_c450.10.073_6 rdf:type owl:NamedIndividual ,
@@ -934,15 +934,15 @@ Inclui análise do pedido, consulta de entidades, realização de vistoria, quan
 	:temNotaAplicacao :na_c450.10.073_9 ;
 	:temNotaExclusao :ne_c450.10.073_1 ;
 	:temNotaExclusao :ne_c450.10.073_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.10.306 ;
-	:temRelProc :c800.10.305 ;
-	:temRelProc :c800.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c800.10.306 ;
+	:eAntecessorDe :c800.10.305 ;
+	:eAntecessorDe :c800.10.600 ;
 	:temLegislacao :leg_1216 ;
 	:temLegislacao :leg_543 ;
 	:temLegislacao :leg_426 ;
@@ -973,13 +973,13 @@ Inclui análise do pedido, consulta de entidades, quando devido, proposta fundam
 	:temDono :org_IEFP ;
 	:temNotaAplicacao :na_c450.10.074_1 ;
 	:temNotaAplicacao :na_c450.10.074_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.200 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1250 ;
 	:temLegislacao :leg_1082 ;
 	:temLegislacao :leg_984 ;
@@ -999,15 +999,15 @@ Inclui a verificação dos requisitos exigidos legalmente e o processo de denomi
 	:NotaAplicacao ;
 	:conteudo "Exercício de atividades de edição de jornais, revistas, livros, cartazes e artigos cartográficos".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.075_3
-:na_c450.10.075_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Exercício de atividades de edição de software normalizado e respetivos manuais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.075_4
 :na_c450.10.075_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Exercício de atividades de edição de produtos multimédia".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.075_3
+:na_c450.10.075_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Exercício de atividades de edição de software normalizado e respetivos manuais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.075_5
 :na_c450.10.075_5 rdf:type owl:NamedIndividual ,
@@ -1065,13 +1065,13 @@ Inclui a verificação dos requisitos exigidos legalmente e o processo de denomi
 	:temNotaAplicacao :na_c450.10.075_9 ;
 	:temNotaAplicacao :na_c450.10.075_10 ;
 	:temNotaExclusao :ne_c450.10.075_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.200 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1333 ;
 	:temLegislacao :leg_1363 ;
 	:temLegislacao :leg_1350 ;
@@ -1086,15 +1086,15 @@ Inclui a verificação dos requisitos exigidos legalmente e o processo de denomi
 	:descricao "Permissão para o desenvolvimento de atividades de produção e distribuição de produtos de informação e culturais, de fornecimento de meios para transmitir e distribuir esses produtos, assim como dados ou comunicações, de atividades das tecnologias da informação e de processamento de dados.
 Inicia com o pedido ou com a candidatura e termina com comunciação da decisão ou a emissão do alvará.
 Inclui a análise do pedido ou candidatura, consulta de entidades, fundamentação para a decisão, decisão, cálculo da taxa devida e comprovativo do seu pagamento.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.076_1
-:na_c450.10.076_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Licenciamento e registo de empresas de trabalho temporário (Anterior PN 450.10.046)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.076_2
 :na_c450.10.076_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Autorização de funcionamento de entidades prestadoras de apoio ao emprego e inserção no mercado de trabalho  (Anterior PN 450.10.051)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.076_1
+:na_c450.10.076_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Licenciamento e registo de empresas de trabalho temporário (Anterior PN 450.10.046)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.076_3
 :na_c450.10.076_3 rdf:type owl:NamedIndividual ,
@@ -1150,14 +1150,14 @@ Inclui a análise do pedido ou candidatura, consulta de entidades, fundamentaç�
 	:temNotaExclusao :ne_c450.10.076_4 ;
 	:temNotaExclusao :ne_c450.10.076_5 ;
 	:temNotaExclusao :ne_c450.10.076_6 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c850.10.003 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.200 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c850.10.003 ;
 	:temLegislacao :leg_1352 ;
 	:temLegislacao :leg_1212 ;
 	:temLegislacao :leg_907 ;
@@ -1212,12 +1212,12 @@ Inclui análise do cumprimento dos requisitos e critérios de seleção, fundame
 	:temNotaAplicacao :na_c450.10.077_2 ;
 	:temNotaAplicacao :na_c450.10.077_3 ;
 	:temNotaAplicacao :na_c450.10.077_4 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1192 ;
 	:temLegislacao :leg_833 ;
 	:temLegislacao :leg_688 ;
@@ -1230,15 +1230,15 @@ Inclui análise do cumprimento dos requisitos e critérios de seleção, fundame
 	:descricao "Permissão para o desenvolvimento de atividades  de prestação de serviços na área da saúde humana.
 Inicia com o pedido ou com a submissão eletrónica da declaração de responsabilidade e termina com a emissão da licença.
 Inclui análise do pedido, consulta de entidades, realização de vistoria, fundamentação para a decisão, cálculo do valor da taxa e comprovativo do seu pagamento.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_2
-:na_c450.10.078_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Atividades de tratamento veterinário".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_1
 :na_c450.10.078_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Atividades de prevenção e diagnóstico veterinário".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_2
+:na_c450.10.078_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atividades de tratamento veterinário".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_3
 :na_c450.10.078_3 rdf:type owl:NamedIndividual ,
@@ -1269,12 +1269,12 @@ Inclui análise do pedido, consulta de entidades, realização de vistoria, fund
 	:temNotaAplicacao :na_c450.10.078_3 ;
 	:temNotaAplicacao :na_c450.10.078_4 ;
 	:temNotaAplicacao :na_c450.10.078_5 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_872 ;
 	:temLegislacao :leg_776 ;
 	:temLegislacao :leg_850 ;
@@ -1298,13 +1298,13 @@ Inclui análise do pedido, identificação do diretor clínico, vistoria às ins
 	:temParticipanteApreciador :org_AL ;
 	:temDono :org_IMPIC ;
 	:temNotaAplicacao :na_c450.10.079_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.200 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1319 ;
 	:temLegislacao :leg_1358 ;
 	:temLegislacao :leg_931 ;
@@ -1352,13 +1352,13 @@ Inclui análise do pedido, cálculo da taxa devida e comprovativo do seu pagamen
 	:temNotaAplicacao :na_c450.10.080_3 ;
 	:temNotaAplicacao :na_c450.10.080_4 ;
 	:temNotaAplicacao :na_c450.10.080_5 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.200 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1103 ;
 	:classeStatus "A" ;
 	:descricao "Permissão para o desenvolvimento de atividades de
@@ -1435,23 +1435,23 @@ Inicia com o pedido e termina com a emissão de título habilitante.
 	:temNotaAplicacao :na_c450.10.200_8 ;
 	:temNotaAplicacao :na_c450.10.200_9 ;
 	:temNotaExclusao :ne_c450.10.200_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.201 ;
-	:temRelProc :c450.10.202 ;
-	:temRelProc :c450.10.203 ;
-	:temRelProc :c450.10.204 ;
-	:temRelProc :c450.10.205 ;
-	:temRelProc :c450.10.207 ;
-	:temRelProc :c450.10.208 ;
-	:temRelProc :c450.10.209 ;
-	:temRelProc :c450.10.216 ;
-	:temRelProc :c450.10.233 ;
-	:temRelProc :c450.10.234 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c450.10.201 ;
+	:eAntecessorDe :c450.10.202 ;
+	:eAntecessorDe :c450.10.203 ;
+	:eAntecessorDe :c450.10.204 ;
+	:eAntecessorDe :c450.10.205 ;
+	:eAntecessorDe :c450.10.207 ;
+	:eAntecessorDe :c450.10.208 ;
+	:eAntecessorDe :c450.10.209 ;
+	:eAntecessorDe :c450.10.216 ;
+	:eAntecessorDe :c450.10.233 ;
+	:eAntecessorDe :c450.10.234 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_719 ;
 	:temLegislacao :leg_876 ;
 	:temLegislacao :leg_639 ;
@@ -1491,17 +1491,17 @@ Inclui consulta de entidades, disponibilização de informação sobre o procedi
 	:temDono :org_CCDR ;
 	:temNotaAplicacao :na_c450.10.201_1 ;
 	:temNotaExclusao :ne_c450.10.201_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.406 ;
-	:temRelProc :c450.10.200 ;
-	:temRelProc :c450.10.203 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c900.20.201 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSintetizadoPor :c400.10.406 ;
+	:eSucessorDe :c450.10.200 ;
+	:eAntecessorDe :c450.10.203 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c900.20.201 ;
 	:temLegislacao :leg_876 ;
 	:temLegislacao :leg_1202 ;
 	:classeStatus "A" ;
@@ -1531,29 +1531,29 @@ Inclui apreciação liminar do pedido, apreciação de projeto, consulta de enti
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c450.10.202_1 ;
 	:temNotaExclusao :ne_c450.10.202_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.200 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c450.10.200 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_876 ;
 	:temLegislacao :leg_1202 ;
 	:classeStatus "A" ;
 	:descricao "Controlo prévio de operações de alteração do relevo natural e das camadas de solo arável ou destruição do revestimento natural para fins não exclusivamente agrícolas, pecuários, florestais, mineiros ou de abastecimento de água.
 Inicia com o pedido ou a apresentação de comunicação prévia e termina com a verificação da execução da obra.
 Inclui apreciação liminar do pedido, consulta de entidades, discussão pública, emissão da licença, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.203_2
-:na_c450.10.203_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Criação de infraestruturas de arruamentos viários e pedonais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.203_1
 :na_c450.10.203_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Criação de espaços verdes e outros espaços de utilização coletiva".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.203_2
+:na_c450.10.203_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Criação de infraestruturas de arruamentos viários e pedonais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.203_3
 :na_c450.10.203_3 rdf:type owl:NamedIndividual ,
@@ -1588,15 +1588,15 @@ Inclui apreciação liminar do pedido, consulta de entidades, discussão públic
 	:temNotaAplicacao :na_c450.10.203_3 ;
 	:temNotaAplicacao :na_c450.10.203_4 ;
 	:temNotaAplicacao :na_c450.10.203_5 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.200 ;
-	:temRelProc :c450.10.201 ;
-	:temRelProc :c450.10.230 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c450.10.200 ;
+	:eSucessorDe :c450.10.201 ;
+	:eCruzadoCom :c450.10.230 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_876 ;
 	:temLegislacao :leg_1202 ;
 	:classeStatus "A" ;
@@ -1613,15 +1613,15 @@ Inclui apresentação do projeto e respetivo termo de responsabilidade, aprecia�
 	:NotaAplicacao ;
 	:conteudo "Intervenções em imóveis classificados ou em vias de classificação".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.204_4
-:na_c450.10.204_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Intervenções em imóveis situados em zonas de proteção de imóveis classificados ou em vias de classificação".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.204_3
 :na_c450.10.204_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Intervenções em imóveis integrados em conjuntos ou sítios classificados ou em vias de classificação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.204_4
+:na_c450.10.204_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Intervenções em imóveis situados em zonas de proteção de imóveis classificados ou em vias de classificação".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.204_5
 :na_c450.10.204_5 rdf:type owl:NamedIndividual ,
@@ -1671,21 +1671,21 @@ Inclui apresentação do projeto e respetivo termo de responsabilidade, aprecia�
 	:temNotaAplicacao :na_c450.10.204_7 ;
 	:temNotaAplicacao :na_c450.10.204_8 ;
 	:temNotaExclusao :ne_c450.10.204_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.001 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.403 ;
-	:temRelProc :c450.10.200 ;
-	:temRelProc :c450.10.205 ;
-	:temRelProc :c450.10.207 ;
-	:temRelProc :c450.10.208 ;
-	:temRelProc :c450.10.209 ;
-	:temRelProc :c450.10.230 ;
-	:temRelProc :c450.10.233 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eComplementarDe :c300.30.001 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c400.10.403 ;
+	:eSucessorDe :c450.10.200 ;
+	:eAntecessorDe :c450.10.205 ;
+	:eSucessorDe :c450.10.207 ;
+	:eSucessorDe :c450.10.208 ;
+	:eSucessorDe :c450.10.209 ;
+	:eCruzadoCom :c450.10.230 ;
+	:eSucessorDe :c450.10.233 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_256 ;
 	:temLegislacao :leg_876 ;
 	:temLegislacao :leg_1202 ;
@@ -1740,17 +1740,17 @@ Inclui saneamento e apreciação liminar do pedido, apreciação de projeto de a
 	:temNotaAplicacao :na_c450.10.205_4 ;
 	:temNotaExclusao :ne_c450.10.205_1 ;
 	:temNotaExclusao :ne_c450.10.205_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.200 ;
-	:temRelProc :c450.10.204 ;
-	:temRelProc :c450.10.235 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c900.10.002 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c450.10.200 ;
+	:eSucessorDe :c450.10.204 ;
+	:eSucessorDe :c450.10.235 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c900.10.002 ;
 	:temLegislacao :leg_256 ;
 	:temLegislacao :leg_354 ;
 	:temLegislacao :leg_876 ;
@@ -1853,20 +1853,20 @@ Inclui apresentação do termo de responsabilidade, ou na sua falta, realizaçã
 	:temNotaExclusao :ne_c450.10.207_4 ;
 	:temNotaExclusao :ne_c450.10.207_5 ;
 	:temNotaExclusao :ne_c450.10.207_6 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.200 ;
-	:temRelProc :c450.10.204 ;
-	:temRelProc :c450.10.223 ;
-	:temRelProc :c450.10.229 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.10.301 ;
-	:temRelProc :c500.10.600 ;
-	:temRelProc :c300.30.001 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c450.10.200 ;
+	:eSucessorDe :c450.10.204 ;
+	:eSucessorDe :c450.10.223 ;
+	:eSucessorDe :c450.10.229 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c800.10.301 ;
+	:eSintetizadoPor :c500.10.600 ;
+	:eSintetizadoPor :c300.30.001 ;
 	:temLegislacao :leg_11 ;
 	:temLegislacao :leg_1092 ;
 	:temLegislacao :leg_336 ;
@@ -1886,15 +1886,15 @@ Inclui apresentação do termo de responsabilidade, ou na sua falta, realizaçã
 Inicia com o pedido e termina com a emissão de licença.
 Inclui  apreciação de pedido, consulta e concertação de entidades, comunicação da decisão ao requerente, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.208_2
-:na_c450.10.208_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Autorização prévia individualizada (para industrias de tipo 1)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.208_1
 :na_c450.10.208_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Alterações à instalação industrial".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.208_2
+:na_c450.10.208_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Autorização prévia individualizada (para industrias de tipo 1)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.208_3
 :na_c450.10.208_3 rdf:type owl:NamedIndividual ,
@@ -1976,20 +1976,20 @@ Inclui  apreciação de pedido, consulta e concertação de entidades, comunica�
 	:temNotaExclusao :ne_c450.10.208_5 ;
 	:temNotaExclusao :ne_c450.10.208_6 ;
 	:temNotaExclusao :ne_c450.10.208_7 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.200 ;
-	:temRelProc :c450.10.204 ;
-	:temRelProc :c450.10.223 ;
-	:temRelProc :c450.10.229 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.10.301 ;
-	:temRelProc :c500.10.600 ;
-	:temRelProc :c300.30.001 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c450.10.200 ;
+	:eSucessorDe :c450.10.204 ;
+	:eSucessorDe :c450.10.223 ;
+	:eSucessorDe :c450.10.229 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c800.10.301 ;
+	:eSintetizadoPor :c500.10.600 ;
+	:eSintetizadoPor :c300.30.001 ;
 	:temLegislacao :leg_1290 ;
 	:temLegislacao :leg_1003 ;
 	:classeStatus "A" ;
@@ -1997,15 +1997,15 @@ Inclui  apreciação de pedido, consulta e concertação de entidades, comunica�
 Inicia com a apresentação do pedido à entidade coordenadora e termina com a comunicação da decisão final integrada ao requerente, à Câmara Municipal territorialmente competente, bem como às entidades públicas cuja consulta tenha sido dispensada.
 Inclui convite ao aperfeiçoamento, quando devido, consulta e concertação de entidades, vistoria à instalação, cálculo da taxa devida e comprovativo do seu pagamento e decisão final.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.209_2
-:na_c450.10.209_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Radiações ionizantes".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.209_1
 :na_c450.10.209_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Radiações eletromagnéticas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.209_2
+:na_c450.10.209_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Radiações ionizantes".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.209_3
 :na_c450.10.209_3 rdf:type owl:NamedIndividual ,
@@ -2029,15 +2029,15 @@ Inclui convite ao aperfeiçoamento, quando devido, consulta e concertação de e
 	:temNotaAplicacao :na_c450.10.209_1 ;
 	:temNotaAplicacao :na_c450.10.209_2 ;
 	:temNotaAplicacao :na_c450.10.209_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.200 ;
-	:temRelProc :c450.10.204 ;
-	:temRelProc :c450.10.229 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c450.10.200 ;
+	:eAntecessorDe :c450.10.204 ;
+	:eCruzadoCom :c450.10.229 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_293 ;
 	:temLegislacao :leg_791 ;
 	:temLegislacao :leg_746 ;
@@ -2073,14 +2073,14 @@ Inclui apreciação liminar do pedido, consulta de entidades, definição de con
 	:temNotaExclusao :ne_c450.10.210_1 ;
 	:temNotaExclusao :ne_c450.10.210_2 ;
 	:temNotaExclusao :ne_c450.10.210_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.070 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c450.10.070 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_150 ;
 	:temLegislacao :leg_186 ;
 	:temLegislacao :leg_210 ;
@@ -2150,13 +2150,13 @@ inclui apresentação de resultado de análises, definição de programas de aut
 	:temNotaAplicacao :na_c450.10.212_6 ;
 	:temNotaExclusao :ne_c450.10.212_1 ;
 	:temNotaExclusao :ne_c450.10.212_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_876 ;
 	:classeStatus "A" ;
 	:descricao "Controlo prévio de obras e trabalhos a realizar no solo e subsolo do domínio público.
@@ -2217,15 +2217,15 @@ Inclui apresentação de planta de localização, análise do projeto de interve
 	:NotaAplicacao ;
 	:conteudo "Ocupação de espaço em domínio público marítimo".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.213_12
-:na_c450.10.213_12 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Utilização de espaço aéreo do domínio público com infraestruturas de terceiros (Licenciamento ou autorização)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.213_13
 :na_c450.10.213_13 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Utilização de espaço aéreo do domínio público com obras de arte de uso privativo (Licenciamento ou autorização)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.213_12
+:na_c450.10.213_12 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Utilização de espaço aéreo do domínio público com infraestruturas de terceiros (Licenciamento ou autorização)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.213
 :c450.10.213 rdf:type owl:NamedIndividual ,
@@ -2254,16 +2254,16 @@ Inclui apresentação de planta de localização, análise do projeto de interve
 	:temNotaAplicacao :na_c450.10.213_11 ;
 	:temNotaAplicacao :na_c450.10.213_12 ;
 	:temNotaAplicacao :na_c450.10.213_13 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c550.10.001 ;
-	:temRelProc :c550.10.002 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c900.10.002 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eAntecessorDe :c550.10.001 ;
+	:eAntecessorDe :c550.10.002 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c900.10.002 ;
 	:temLegislacao :leg_1119 ;
 	:temLegislacao :leg_1100 ;
 	:temLegislacao :leg_929 ;
@@ -2333,13 +2333,13 @@ Inclui análise do projeto, consulta de entidades, cálculo do valor da taxa dev
 	:temNotaAplicacao :na_c450.10.214_4 ;
 	:temNotaAplicacao :na_c450.10.214_5 ;
 	:temNotaExclusao :ne_c450.10.214_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_929 ;
 	:temLegislacao :leg_355 ;
 	:temLegislacao :leg_100 ;
@@ -2369,15 +2369,15 @@ Inclui, no caso de sujeição a licença, consulta de entidades, no caso das uni
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c450.10.215_1 ;
 	:temNotaAplicacao :na_c450.10.215_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.10.301 ;
-	:temRelProc :c900.10.002 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c800.10.301 ;
+	:eAntecessorDe :c900.10.002 ;
 	:temLegislacao :leg_577 ;
 	:temLegislacao :leg_558 ;
 	:classeStatus "A" ;
@@ -2414,14 +2414,14 @@ Inclui indicação da localização da atividade ruidosa e do período de ativid
 	:temNotaAplicacao :na_c450.10.216_1 ;
 	:temNotaAplicacao :na_c450.10.216_2 ;
 	:temNotaAplicacao :na_c450.10.216_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.200 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c450.10.200 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1052 ;
 	:temLegislacao :leg_1004 ;
 	:temLegislacao :leg_580 ;
@@ -2453,13 +2453,13 @@ Inclui estudo de viabilidade de abertura de concurso, recolha de pareceres técn
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c450.10.219_1 ;
 	:temNotaExclusao :ne_c450.10.219_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1116 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de licença para alterar as características originais de superfícies exteriores de edifícios, pavimentos, passeios, muros e de outras infraestruturas através de grafitos, afixações ou picotagens com caracter artístico, decorativo ou informativo.
@@ -2492,12 +2492,12 @@ Inclui análise preliminar do pedido, autorização do proprietário, quando dev
 	:temNotaAplicacao :na_c450.10.220_1 ;
 	:temNotaAplicacao :na_c450.10.220_2 ;
 	:temNotaAplicacao :na_c450.10.220_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_507 ;
 	:temLegislacao :leg_760 ;
 	:temLegislacao :leg_1009 ;
@@ -2532,15 +2532,15 @@ Inclui consulta de entidades, avaliação das condições meteorológicas, apres
 	:temNotaAplicacao :na_c450.10.221_1 ;
 	:temNotaAplicacao :na_c450.10.221_2 ;
 	:temNotaAplicacao :na_c450.10.221_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c550.20.004 ;
-	:temRelProc :c900.10.002 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c550.20.004 ;
+	:eSucessorDe :c900.10.002 ;
 	:temLegislacao :leg_1009 ;
 	:temLegislacao :leg_929 ;
 	:temLegislacao :leg_793 ;
@@ -2578,16 +2578,16 @@ Inclui apresentação de informação relativa ao evento a realizar no recinto, 
 	:temNotaAplicacao :na_c450.10.222_1 ;
 	:temNotaAplicacao :na_c450.10.222_2 ;
 	:temNotaExclusao :ne_c450.10.222_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c300.30.001 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c450.10.229 ;
-	:temRelProc :c300.10.001 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c300.30.001 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c450.10.229 ;
+	:eAntecessorDe :c300.10.001 ;
 	:temLegislacao :leg_639 ;
 	:temLegislacao :leg_479 ;
 	:temLegislacao :leg_569 ;
@@ -2626,15 +2626,15 @@ Inclui análise técnica, condicionantes de natureza ambiental e de conservaçã
 	:temNotaAplicacao :na_c450.10.223_1 ;
 	:temNotaExclusao :ne_c450.10.223_1 ;
 	:temNotaExclusao :ne_c450.10.223_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.207 ;
-	:temRelProc :c450.10.208 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c450.10.207 ;
+	:eAntecessorDe :c450.10.208 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c500.10.600 ;
 	:temLegislacao :leg_996 ;
 	:temLegislacao :leg_479 ;
 	:classeStatus "A" ;
@@ -2651,14 +2651,14 @@ Inclui localização geográfica em carta militar com os pontos de descarga, an�
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_AL ;
 	:temDono :org_APA ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.001 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.001 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_770 ;
 	:temLegislacao :leg_479 ;
 	:classeStatus "A" ;
@@ -2692,13 +2692,13 @@ Inclui análise técnica, consulta de entidades, cálculo da taxa devida e apres
 	:temNotaAplicacao :na_c450.10.227_1 ;
 	:temNotaExclusao :ne_c450.10.227_1 ;
 	:temNotaExclusao :ne_c450.10.227_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1004 ;
 	:temLegislacao :leg_580 ;
 	:temLegislacao :leg_638 ;
@@ -2757,10 +2757,10 @@ Inclui validação da documentação necessária à instrução dos processos, f
 	:temNotaAplicacao :na_c450.10.228_5 ;
 	:temNotaExclusao :ne_c450.10.228_1 ;
 	:temNotaExclusao :ne_c450.10.228_2 ;
-	:temRelProc :c450.10.444 ;
-	:temRelProc :c450.10.807 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
+	:eAntecessorDe :c450.10.444 ;
+	:eAntecessorDe :c450.10.807 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_127 ;
 	:temLegislacao :leg_137 ;
 	:temLegislacao :leg_881 ;
@@ -2831,20 +2831,20 @@ Inclui análise do pedido, verificação do cumprimento de requisitos, realizaç
 	:temNotaExclusao :ne_c450.10.229_2 ;
 	:temNotaExclusao :ne_c450.10.229_3 ;
 	:temNotaExclusao :ne_c450.10.229_4 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.207 ;
-	:temRelProc :c450.10.208 ;
-	:temRelProc :c450.10.209 ;
-	:temRelProc :c450.10.233 ;
-	:temRelProc :c450.10.234 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.10.601 ;
-	:temRelProc :c800.10.602 ;
+	:eSinteseDe :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSinteseDe :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c450.10.207 ;
+	:eAntecessorDe :c450.10.208 ;
+	:eCruzadoCom :c450.10.209 ;
+	:eCruzadoCom :c450.10.233 ;
+	:eCruzadoCom :c450.10.234 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c800.10.601 ;
+	:eCruzadoCom :c800.10.602 ;
 	:temLegislacao :leg_1299 ;
 	:temLegislacao :leg_1362 ;
 	:temLegislacao :leg_1193 ;
@@ -2873,6 +2873,11 @@ Inclui a entrega do projeto, verificação e análise das caraterísticas impact
 	:temPai :c450.10.229 ;
 	:classeStatus "A" ;
 	:descricao "Elaboração do relatório final e título. O projeto faz parte integrante do relatório final.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_1
+:na_c450.10.230_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ações de emergência a realizar em sítios arqueológicos que, por efeitos de ação humana ou ação natural, se encontrem em perigo iminente de destruição parcial ou total".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_2
 :na_c450.10.230_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -2882,11 +2887,6 @@ Inclui a entrega do projeto, verificação e análise das caraterísticas impact
 :na_c450.10.230_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Investigação programada em sítios arqueológicos".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_1
-:na_c450.10.230_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Ações de emergência a realizar em sítios arqueológicos que, por efeitos de ação humana ou ação natural, se encontrem em perigo iminente de destruição parcial ou total".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_4
 :na_c450.10.230_4 rdf:type owl:NamedIndividual ,
@@ -2911,20 +2911,20 @@ Inclui a entrega do projeto, verificação e análise das caraterísticas impact
 	:temNotaAplicacao :na_c450.10.230_2 ;
 	:temNotaAplicacao :na_c450.10.230_3 ;
 	:temNotaAplicacao :na_c450.10.230_4 ;
-	:temRelProc :c150.10.200 ;
-	:temRelProc :c150.10.300 ;
-	:temRelProc :c150.10.400 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c300.40.002 ;
-	:temRelProc :c300.40.003 ;
-	:temRelProc :c450.10.203 ;
-	:temRelProc :c450.10.204 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.20.001 ;
+	:eSucessorDe :c150.10.200 ;
+	:eSucessorDe :c150.10.300 ;
+	:eSucessorDe :c150.10.400 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c300.40.002 ;
+	:eCruzadoCom :c300.40.003 ;
+	:eCruzadoCom :c450.10.203 ;
+	:eCruzadoCom :c450.10.204 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c800.20.001 ;
 	:temLegislacao :leg_1207 ;
 	:classeStatus "A" ;
 	:descricao "Permissão para a realização da atividade de trabalhos arqueológicos.
@@ -2965,13 +2965,13 @@ Inclui apreciação do curriculum vitae do arqueólogo responsável, análise do
 	:temNotaAplicacao :na_c450.10.231_2 ;
 	:temNotaExclusao :ne_c450.10.231_1 ;
 	:temNotaExclusao :ne_c450.10.231_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1282 ;
 	:classeStatus "A" ;
 	:descricao "Permissão para a realização periódica da atividade de comércio não sedentário, exercida por feirantes e vendedores ambulantes, em recintos públicos ou privados onde se concentra grande quantidade de produtos.
@@ -3063,15 +3063,15 @@ Inclui consulta de entidades, apresentação da proposta de regulamento por part
 	:temNotaAplicacao :na_c450.10.232_10 ;
 	:temNotaAplicacao :na_c450.10.232_11 ;
 	:temNotaExclusao :ne_c450.10.232_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.10.601 ;
-	:temRelProc :c500.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c800.10.601 ;
+	:eCruzadoCom :c500.10.600 ;
 	:temLegislacao :leg_569 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de licença para captação de volumes de água, superficiais ou subterrâneas, com ou sem retenção, para o consumo humano, para rega, para a atividade industrial, para a produção hidroelétrica ou para atividades recreativas ou de lazer.
@@ -3109,17 +3109,17 @@ Inclui memória descritiva, avaliação técnica do pedido, consulta de entidade
 	:temNotaAplicacao :na_c450.10.233_1 ;
 	:temNotaAplicacao :na_c450.10.233_2 ;
 	:temNotaAplicacao :na_c450.10.233_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c300.40.003 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.200 ;
-	:temRelProc :c450.10.204 ;
-	:temRelProc :c450.10.229 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c300.40.003 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c450.10.200 ;
+	:eAntecessorDe :c450.10.204 ;
+	:eCruzadoCom :c450.10.229 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_569 ;
 	:temLegislacao :leg_479 ;
 	:temLegislacao :leg_587 ;
@@ -3173,16 +3173,16 @@ Inclui análise preliminar, consulta de entidades, vistoria à instalação, def
 	:temNotaAplicacao :na_c450.10.234_4 ;
 	:temNotaAplicacao :na_c450.10.234_5 ;
 	:temNotaAplicacao :na_c450.10.234_6 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.200 ;
-	:temRelProc :c450.10.229 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c450.10.200 ;
+	:eCruzadoCom :c450.10.229 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c800.10.301 ;
 	:temLegislacao :leg_353 ;
 	:temLegislacao :leg_185 ;
 	:classeStatus "A" ;
@@ -3204,15 +3204,15 @@ Inclui verificação da conformidade do pedido, consulta de entidades, validaç�
 	:processoTransversal "N" ;
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c450.10.235_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.406 ;
-	:temRelProc :c400.30.001 ;
-	:temRelProc :c450.10.205 ;
-	:temRelProc :c450.10.444 ;
-	:temRelProc :c450.10.807 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c400.10.406 ;
+	:eAntecessorDe :c400.30.001 ;
+	:eAntecessorDe :c450.10.205 ;
+	:eAntecessorDe :c450.10.444 ;
+	:eAntecessorDe :c450.10.807 ;
 	:temLegislacao :leg_53 ;
 	:temLegislacao :leg_256 ;
 	:temLegislacao :leg_876 ;
@@ -3236,11 +3236,11 @@ Inclui vistoria ao edifício ou validação da memória descritiva, quando devid
 	:processoTransversal "N" ;
 	:temDono :org_IRN ;
 	:temNotaAplicacao :na_c450.10.236_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_418 ;
 	:temLegislacao :leg_1335 ;
 	:classeStatus "A" ;
@@ -3282,11 +3282,11 @@ Inclui a elaboração da lista de licenças a concurso, instrução do concurso,
 	:temNotaAplicacao :na_c450.10.237_2 ;
 	:temNotaAplicacao :na_c450.10.237_3 ;
 	:temNotaAplicacao :na_c450.10.237_4 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1316 ;
 	:classeStatus "A" ;
 	:descricao "Controlo prévio de obras de construção, reconstrução, ampliação, alteração para estabelecimento de ligação ou acesso a estradas nacionais não vedadas ou, mediante autorização do membro do Governo, a ligações ou acesso aos IP (Itinerário Principal), IC (Itinerário Complementar) e ainda estradas nacionais vedadas e com acessos condicionados.
@@ -3456,16 +3456,16 @@ Inclui verificação da titularidade da habilitação legalmente exigida, avalia
 	:temNotaAplicacao :na_c450.10.441_11 ;
 	:temNotaAplicacao :na_c450.10.441_12 ;
 	:temNotaExclusao :ne_c450.10.441_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.400 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.051 ;
-	:temRelProc :c450.30.002 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c350.10.400 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c400.10.051 ;
+	:eAntecessorDe :c450.30.002 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_0 ;
 	:temLegislacao :leg_127 ;
 	:temLegislacao :leg_418 ;
@@ -3521,13 +3521,13 @@ Inclui análise do pedido, verificação da capacidade jurídica, da habilitaç�
 	:temDono :org_DGERT ;
 	:temNotaAplicacao :na_c450.10.442_1 ;
 	:temNotaExclusao :ne_c450.10.442_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1217 ;
 	:temLegislacao :leg_1032 ;
 	:temLegislacao :leg_802 ;
@@ -3576,11 +3576,11 @@ Inclui análise do pedido, verificação interna dos requisitos académicos e pr
 	:temDono :org_CNOC ;
 	:temNotaAplicacao :na_c450.10.443_1 ;
 	:temNotaAplicacao :na_c450.10.443_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1211 ;
 	:temLegislacao :leg_1033 ;
 	:temLegislacao :leg_814 ;
@@ -3818,18 +3818,18 @@ Inclui análise do pedido, validação de dados fornecidos, definição de prest
 	:temNotaExclusao :ne_c450.10.444_5 ;
 	:temNotaExclusao :ne_c450.10.444_6 ;
 	:temNotaExclusao :ne_c450.10.444_7 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.062 ;
-	:temRelProc :c450.10.235 ;
-	:temRelProc :c450.10.648 ;
-	:temRelProc :c450.10.807 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c850.10.003 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c450.10.062 ;
+	:eSucessorDe :c450.10.235 ;
+	:eAntecessorDe :c450.10.648 ;
+	:eAntecessorDe :c450.10.807 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c850.10.003 ;
 	:temLegislacao :leg_1302 ;
 	:temLegislacao :leg_1257 ;
 	:temLegislacao :leg_1150 ;
@@ -4009,15 +4009,15 @@ Inclui  consulta de entidades, quando devido, decisão e comprovativo do pagamen
 	:temNotaAplicacao :na_c450.10.445_16 ;
 	:temNotaExclusao :ne_c450.10.445_1 ;
 	:temNotaExclusao :ne_c450.10.445_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.10.601 ;
-	:temRelProc :c900.20.201 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c800.10.601 ;
+	:eAntecessorDe :c900.20.201 ;
 	:temLegislacao :leg_583 ;
 	:temLegislacao :leg_738 ;
 	:temLegislacao :leg_926 ;
@@ -4115,17 +4115,17 @@ Inclui admissão de documento comprovativo de acreditação, se aplicável.".
 	:temNotaAplicacao :na_c450.10.446_8 ;
 	:temNotaExclusao :ne_c450.10.446_1 ;
 	:temNotaExclusao :ne_c450.10.446_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.009 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c400.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c900.20.201 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSintetizadoPor :c400.10.009 ;
+	:eSintetizadoPor :c400.10.200 ;
+	:eSucessorDe :c400.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c900.20.201 ;
 	:temLegislacao :leg_1132 ;
 	:temLegislacao :leg_1027 ;
 	:temLegislacao :leg_2 ;
@@ -4235,18 +4235,18 @@ Inclui instrução do pedido, identificação dos objetivos da fundação, ident
 	:temNotaAplicacao :na_c450.10.447_13 ;
 	:temNotaExclusao :ne_c450.10.447_1 ;
 	:temNotaExclusao :ne_c450.10.447_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.009 ;
-	:temRelProc :c400.10.053 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c400.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c900.20.201 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSintetizadoPor :c400.10.009 ;
+	:eSintetizadoPor :c400.10.053 ;
+	:eAntecessorDe :c400.10.200 ;
+	:eSucessorDe :c400.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c900.20.201 ;
 	:temLegislacao :leg_1364 ;
 	:temLegislacao :leg_1121 ;
 	:temLegislacao :leg_1040 ;
@@ -4339,9 +4339,9 @@ Inclui  a análise do pedido, eventual pedido de novos elementos ou confirmaçã
 	:temNotaAplicacao :na_c450.10.448_9 ;
 	:temNotaAplicacao :na_c450.10.448_10 ;
 	:temNotaAplicacao :na_c450.10.448_11 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1374 ;
 	:temLegislacao :leg_1215 ;
 	:temLegislacao :leg_1060 ;
@@ -4358,15 +4358,15 @@ Inclui  a análise do pedido, eventual pedido de novos elementos ou confirmaçã
 Inicia com o pedido de credenciação e termina com a comunicação da decisão.
 Inclui análise do pedido, decisão e emissão do certificado de credenciação ou de chaves de acesso.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.640_1
-:na_c450.10.640_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Autorização de introdução no mercado (AIM) de medicamentos por procedimento nacional (Anterior PN 450.10.621)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.640_2
 :na_c450.10.640_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Autorização de introdução no mercado (AIM) de medicamentos por procedimento de reconhecimento mútuo (Anterior PN 450.10.622)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.640_1
+:na_c450.10.640_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Autorização de introdução no mercado (AIM) de medicamentos por procedimento nacional (Anterior PN 450.10.621)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.640_3
 :na_c450.10.640_3 rdf:type owl:NamedIndividual ,
@@ -4423,18 +4423,18 @@ Inclui análise do pedido, decisão e emissão do certificado de credenciação 
 	:temNotaAplicacao :na_c450.10.640_7 ;
 	:temNotaAplicacao :na_c450.10.640_8 ;
 	:temNotaAplicacao :na_c450.10.640_9 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.301 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.411 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c550.10.307 ;
-	:temRelProc :c800.10.301 ;
-	:temRelProc :c800.10.304 ;
-	:temRelProc :c800.10.601 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.10.301 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSintetizadoPor :c400.10.411 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c550.10.307 ;
+	:eCruzadoCom :c800.10.301 ;
+	:eAntecessorDe :c800.10.304 ;
+	:eCruzadoCom :c800.10.601 ;
 	:temLegislacao :leg_515 ;
 	:temLegislacao :leg_426 ;
 	:temLegislacao :leg_345 ;
@@ -4464,9 +4464,9 @@ Inclui análise do pedido, verificação de conformidade com documentos regulado
 	:processoTransversal "N" ;
 	:temDono :org_INFARMED ;
 	:temNotaAplicacao :na_c450.10.641_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.411 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.411 ;
 	:temLegislacao :leg_515 ;
 	:classeStatus "A" ;
 	:descricao "Permissão para conceder denominação a produtos de acordo com critérios definidos.
@@ -4499,16 +4499,16 @@ Inclui análise do processo, decisão sobre o pedido e comprovativo de pagamento
 	:temNotaAplicacao :na_c450.10.643_1 ;
 	:temNotaAplicacao :na_c450.10.643_2 ;
 	:temNotaAplicacao :na_c450.10.643_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.400 ;
-	:temRelProc :c350.10.600 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.10.400 ;
+	:eSintetizadoPor :c350.10.600 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1079 ;
 	:temLegislacao :leg_1293 ;
 	:temLegislacao :leg_1355 ;
@@ -4666,15 +4666,15 @@ Inclui avaliação do pedido,comparação internacional de preços, consulta de 
 	:temNotaAplicacao :na_c450.10.644_20 ;
 	:temNotaExclusao :ne_c450.10.644_1 ;
 	:temNotaExclusao :ne_c450.10.644_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.10.004 ;
-	:temRelProc :c300.30.002 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.410 ;
-	:temRelProc :c400.10.411 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eCruzadoCom :c300.10.004 ;
+	:eCruzadoCom :c300.30.002 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.410 ;
+	:eSintetizadoPor :c400.10.411 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_515 ;
 	:temLegislacao :leg_332 ;
 	:temLegislacao :leg_129 ;
@@ -4751,11 +4751,11 @@ Inclui a instrução do processo, análise dos requisitos exigidos, peritagem ou
 	:temNotaAplicacao :na_c450.10.645_7 ;
 	:temNotaAplicacao :na_c450.10.645_8 ;
 	:temNotaAplicacao :na_c450.10.645_9 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_461 ;
 	:temLegislacao :leg_515 ;
 	:temLegislacao :leg_528 ;
@@ -4809,11 +4809,11 @@ Inclui instrução do processo, avaliação das circunstâncias do uso pretendid
 	:temNotaAplicacao :na_c450.10.646_3 ;
 	:temNotaAplicacao :na_c450.10.646_4 ;
 	:temNotaExclusao :ne_c450.10.646_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1295 ;
 	:temLegislacao :leg_332 ;
 	:temLegislacao :leg_528 ;
@@ -4839,12 +4839,12 @@ Inclui a análise, consulta de entidades, quando devido, registos operacionais s
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_DGLAB ;
 	:temNotaAplicacao :na_c450.10.647_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.10.302 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eAntecessorDe :c300.10.302 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_121 ;
 	:temLegislacao :leg_82 ;
 	:classeStatus "A" ;
@@ -4982,15 +4982,15 @@ Inclui a análise técnica, consulta de entidades quando devido, fundamentação
 	:temNotaAplicacao :na_c450.10.648_18 ;
 	:temNotaExclusao :ne_c450.10.648_1 ;
 	:temNotaExclusao :ne_c450.10.648_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.500 ;
-	:temRelProc :c300.10.302 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c450.10.444 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.10.610 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eCruzadoCom :c150.20.500 ;
+	:eAntecessorDe :c300.10.302 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSucessorDe :c450.10.444 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c800.10.610 ;
 	:temLegislacao :leg_127 ;
 	:temLegislacao :leg_137 ;
 	:temLegislacao :leg_766 ;
@@ -5011,15 +5011,6 @@ Inicia com o pedido e termina com a emissão de certificado de conformidade ou c
 Inclui, quando devido, análise técnica do produto ou serviço a reconhecer, identificação de conformidades e de não conformidades, definição e realização de correções ou melhorias, formalização por parte de fabricante e/ou representante após análise do pareceres técnicos, realização de testes ou de vistoria, consulta de entidades, criação de mecanismos de validação de conformidade e registo do reconhecimento em repositório.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#c450.10.648.01
-:c450.10.648.01 rdf:type owl:NamedIndividual ,
-	:Classe_N4;
-	:codigo "450.10.648.01";
-	:titulo "Reconhecimento das  características e origem de bens, produtos e serviços: verificação das condições";
-	:temPai :c450.10.648 ;
-	:classeStatus "A" ;
-	:descricao "Inicia com o pedido e termina com a proposta de reconhecimento.
-Inclui análise técnica do produto ou serviço a reconhecer, identificação de conformidades e de não conformidades, definição e realização de correções ou melhorias, realização de testes ou de vistoria, consulta de entidades e criação de mecanismos de validação de conformidade, quando devido.".
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.648.02
 :c450.10.648.02 rdf:type owl:NamedIndividual ,
 	:Classe_N4;
@@ -5029,6 +5020,15 @@ Inclui análise técnica do produto ou serviço a reconhecer, identificação de
 	:classeStatus "A" ;
 	:descricao "Inicia com a decisão sobre o reconhecimento da qualidade e das características e termina com o registo do reconhecimento e sua publicitação.
 Inclui emissão de certificado de conformidade e entrega de marca ou selo de entidade, quando devido.".
+###  http://jcr.di.uminho.pt/m51-clav#c450.10.648.01
+:c450.10.648.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "450.10.648.01";
+	:titulo "Reconhecimento das  características e origem de bens, produtos e serviços: verificação das condições";
+	:temPai :c450.10.648 ;
+	:classeStatus "A" ;
+	:descricao "Inicia com o pedido e termina com a proposta de reconhecimento.
+Inclui análise técnica do produto ou serviço a reconhecer, identificação de conformidades e de não conformidades, definição e realização de correções ou melhorias, realização de testes ou de vistoria, consulta de entidades e criação de mecanismos de validação de conformidade, quando devido.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.649_1
 :na_c450.10.649_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -5076,11 +5076,11 @@ Inclui emissão de certificado de conformidade e entrega de marca ou selo de ent
 	:temNotaAplicacao :na_c450.10.649_3 ;
 	:temNotaAplicacao :na_c450.10.649_4 ;
 	:temNotaAplicacao :na_c450.10.649_5 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1191 ;
 	:temLegislacao :leg_1009 ;
 	:temLegislacao :leg_1012 ;
@@ -5153,15 +5153,15 @@ Inclui análise do pedido, avaliação do bem ou produto, articulação entre en
 	:temNotaAplicacao :na_c450.10.650_6 ;
 	:temNotaExclusao :ne_c450.10.650_1 ;
 	:temNotaExclusao :ne_c450.10.650_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.400 ;
-	:temRelProc :c350.10.600 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.10.400 ;
+	:eSintetizadoPor :c350.10.600 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_127 ;
 	:temLegislacao :leg_137 ;
 	:classeStatus "A" ;
@@ -5215,8 +5215,8 @@ Inclui análise do pedido, verificação do cumprimento de requisitos, o exercí
 	:temNotaAplicacao :na_c450.10.651_4 ;
 	:temNotaAplicacao :na_c450.10.651_5 ;
 	:temNotaExclusao :ne_c450.10.651_1 ;
-	:temRelProc :c750.20.001 ;
-	:temRelProc :c400.10.619 ;
+	:eComplementarDe :c750.20.001 ;
+	:eAntecessorDe :c400.10.619 ;
 	:temLegislacao :leg_607 ;
 	:temLegislacao :leg_615 ;
 	:temLegislacao :leg_498 ;
@@ -5246,13 +5246,13 @@ Inclui auto-avaliação e instrução do processo de acreditação, análise, no
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c450.10.800_1 ;
 	:temNotaExclusao :ne_c450.10.800_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.400 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.400 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_449 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de licença anual para detenção e posse de cães e gatos.
@@ -5310,14 +5310,14 @@ Inclui análise preliminar do pedido, cálculo da taxa devida e apresentação d
 	:temNotaAplicacao :na_c450.10.801_5 ;
 	:temNotaAplicacao :na_c450.10.801_6 ;
 	:temNotaExclusao :ne_c450.10.801_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.034 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c750.30.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.034 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c750.30.600 ;
 	:temLegislacao :leg_999 ;
 	:temLegislacao :leg_809 ;
 	:classeStatus "A" ;
@@ -5364,13 +5364,13 @@ Inclui verificação dos requisitos necessários, articulação entre entidades 
 	:temNotaAplicacao :na_c450.10.802_3 ;
 	:temNotaExclusao :ne_c450.10.802_1 ;
 	:temNotaExclusao :ne_c450.10.802_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c750.30.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c750.30.600 ;
 	:temLegislacao :leg_467 ;
 	:temLegislacao :leg_31 ;
 	:classeStatus "A" ;
@@ -5394,12 +5394,12 @@ Inclui verificação dos requisitos legais exigidos para exercício da atividade
 	:temDono :org_SGMAI ;
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c450.10.803_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_234 ;
 	:classeStatus "A" ;
 	:descricao "Permissão para angariação de receitas, com ou sem contrapartidas em bens, para fins de beneficência, assistência ou investigação científica, com recurso a pessoal próprio ou voluntário.
@@ -5434,12 +5434,12 @@ Inclui informação sobre publicitação de resultados.".
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_DGS ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1211 ;
 	:temLegislacao :leg_1033 ;
 	:temLegislacao :leg_814 ;
@@ -5500,15 +5500,15 @@ Inclui a análise do dossier técnico e verificação do cumprimento das normas 
 	:temNotaExclusao :ne_c450.10.805_1 ;
 	:temNotaExclusao :ne_c450.10.805_2 ;
 	:temNotaExclusao :ne_c450.10.805_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.10.001 ;
-	:temRelProc :c300.10.002 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c300.10.001 ;
+	:eAntecessorDe :c300.10.002 ;
+	:eAntecessorDe :c300.10.005 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_959 ;
 	:temLegislacao :leg_829 ;
 	:temLegislacao :leg_726 ;
@@ -5535,11 +5535,11 @@ Inclui a análise do pedido, verificação da fundamentação do pedido, parecer
 	:processoTransversal "N" ;
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c450.10.806_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1282 ;
 	:temLegislacao :leg_929 ;
 	:temLegislacao :leg_885 ;
@@ -5571,11 +5571,11 @@ Inclui apreciação prévia do pedido, decisão e notificação ao requerente.".
 	:temDono :org_AT ;
 	:temNotaAplicacao :na_c450.10.807_1 ;
 	:temNotaAplicacao :na_c450.10.807_2 ;
-	:temRelProc :c450.10.228 ;
-	:temRelProc :c450.10.235 ;
-	:temRelProc :c450.10.444 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
+	:eSucessorDe :c450.10.228 ;
+	:eSucessorDe :c450.10.235 ;
+	:eSucessorDe :c450.10.444 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_127 ;
 	:temLegislacao :leg_137 ;
 	:classeStatus "A" ;
@@ -5641,10 +5641,10 @@ Inclui análise do pedido, verificação do cumprimento de requisitos, audição
 	:temNotaAplicacao :na_c450.10.808_6 ;
 	:temNotaAplicacao :na_c450.10.808_7 ;
 	:temNotaAplicacao :na_c450.10.808_8 ;
-	:temRelProc :c350.10.100 ;
-	:temRelProc :c350.10.101 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
+	:eAntecessorDe :c350.10.100 ;
+	:eAntecessorDe :c350.10.101 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_81 ;
 	:temLegislacao :leg_95 ;
 	:classeStatus "A" ;
@@ -5669,12 +5669,12 @@ Inclui validação do pedido, verificação da fundamentação e dos dossiês t�
 	:processoTransversal "N" ;
 	:temDono :org_IRN ;
 	:temNotaAplicacao :na_c450.10.810_1 ;
-	:temRelProc :c400.10.001 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.041 ;
-	:temRelProc :c450.30.003 ;
-	:temRelProc :c450.30.503 ;
-	:temRelProc :c500.40.500 ;
+	:eAntecessorDe :c400.10.001 ;
+	:eSucessorDe :c350.30.001 ;
+	:eAntecessorDe :c400.10.041 ;
+	:eAntecessorDe :c450.30.003 ;
+	:eAntecessorDe :c450.30.503 ;
+	:eAntecessorDe :c500.40.500 ;
 	:temLegislacao :leg_158 ;
 	:classeStatus "A" ;
 	:descricao "Apreciação da admissibilidade de determinado vocábulo como nome próprio.
@@ -5795,16 +5795,16 @@ Inclui o estabelecimento de áreas de proteção a bens declarados de interesse,
 	:temDono :org_PM ;
 	:temDono :org_PCM ;
 	:temNotaExclusao :ne_c450.20.001_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.009 ;
-	:temRelProc :c400.10.053 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSintetizadoPor :c400.10.009 ;
+	:eSucessorDe :c400.10.053 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_594 ;
 	:temLegislacao :leg_16 ;
 	:classeStatus "A" ;
@@ -5860,13 +5860,13 @@ Inclui emissão de declaração de pessoa coletiva de utilidade pública e envio
 	:temNotaAplicacao :na_c450.20.002_1 ;
 	:temNotaExclusao :ne_c450.20.002_1 ;
 	:temNotaExclusao :ne_c450.20.002_2 ;
-	:temRelProc :c150.10.700 ;
-	:temRelProc :c150.10.701 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.10.003 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
+	:eCruzadoCom :c150.10.700 ;
+	:eCruzadoCom :c150.10.701 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c300.10.003 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_890 ;
 	:temLegislacao :leg_710 ;
 	:temLegislacao :leg_258 ;
@@ -5947,14 +5947,14 @@ Inclui análise preliminar e decisão.".
 	:temNotaExclusao :ne_c450.20.003_3 ;
 	:temNotaExclusao :ne_c450.20.003_4 ;
 	:temNotaExclusao :ne_c450.20.003_5 ;
-	:temRelProc :c150.10.700 ;
-	:temRelProc :c150.10.701 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c850.10.002 ;
-	:temRelProc :c900.20.201 ;
+	:eCruzadoCom :c150.10.700 ;
+	:eCruzadoCom :c150.10.701 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c850.10.002 ;
+	:eAntecessorDe :c900.20.201 ;
 	:temLegislacao :leg_332 ;
 	:temLegislacao :leg_233 ;
 	:temLegislacao :leg_1381 ;
@@ -6001,13 +6001,13 @@ Inclui a análise do pedido, as diligências e a emissão de parecer.".
 	:temNotaAplicacao :na_c450.20.503_2 ;
 	:temNotaAplicacao :na_c450.20.503_3 ;
 	:temNotaExclusao :ne_c450.20.503_1 ;
-	:temRelProc :c150.10.702 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.405 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c900.20.201 ;
+	:eCruzadoCom :c150.10.702 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eComplementarDe :c400.10.405 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eAntecessorDe :c900.20.201 ;
 	:temLegislacao :leg_332 ;
 	:temLegislacao :leg_1295 ;
 	:classeStatus "A" ;
@@ -6037,14 +6037,14 @@ Inclui identificação, referenciação e caracterização do bem, fundamentaç�
 	:temDono :org_DGPC ;
 	:temNotaAplicacao :na_c450.20.504_1 ;
 	:temNotaExclusao :ne_c450.20.504_1 ;
-	:temRelProc :c150.10.702 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c450.10.230 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c900.20.201 ;
+	:eCruzadoCom :c150.10.702 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c450.10.230 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c900.20.201 ;
 	:temLegislacao :leg_994 ;
 	:temLegislacao :leg_1045 ;
 	:classeStatus "A" ;
@@ -6222,18 +6222,18 @@ Inclui análise da proposta, fundamentação técnica, divulgação pública da 
 	:temDono :org_CPL ;
 	:temNotaExclusao :ne_c450.30.002_1 ;
 	:temNotaExclusao :ne_c450.30.002_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c250.10.601 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.441 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c750.30.601 ;
-	:temRelProc :c750.30.602 ;
-	:temRelProc :c800.20.001 ;
-	:temRelProc :c800.20.002 ;
-	:temRelProc :c800.20.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c250.10.601 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c450.10.441 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c750.30.601 ;
+	:eSintetizadoPor :c750.30.602 ;
+	:eSucessorDe :c800.20.001 ;
+	:eSucessorDe :c800.20.002 ;
+	:eSucessorDe :c800.20.500 ;
 	:temLegislacao :leg_586 ;
 	:temLegislacao :leg_1286 ;
 	:classeStatus "A" ;
@@ -6297,20 +6297,20 @@ Inclui consulta e sistematização de dados, eventual cálculo do montante a pag
 	:temNotaAplicacao :na_c450.30.003_6 ;
 	:temNotaAplicacao :na_c450.30.003_7 ;
 	:temNotaExclusao :ne_c450.30.003_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c300.50.400 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.001 ;
-	:temRelProc :c400.10.009 ;
-	:temRelProc :c400.10.025 ;
-	:temRelProc :c400.10.026 ;
-	:temRelProc :c400.10.047 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c400.10.409 ;
-	:temRelProc :c400.30.001 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSucessorDe :c300.50.400 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c400.10.001 ;
+	:eCruzadoCom :c400.10.009 ;
+	:eSucessorDe :c400.10.025 ;
+	:eSucessorDe :c400.10.026 ;
+	:eSucessorDe :c400.10.047 ;
+	:eSucessorDe :c400.10.200 ;
+	:eSucessorDe :c400.10.409 ;
+	:eSucessorDe :c400.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1279 ;
 	:classeStatus "A" ;
 	:descricao "Emissão de documento com especial valor de prova relativa a factos ou atos com base em informação detida pela Administração.
@@ -6368,16 +6368,16 @@ Inclui consulta de documentos originais, transcrição integral ou parcial, cál
 	:temNotaAplicacao :na_c450.30.500_4 ;
 	:temNotaAplicacao :na_c450.30.500_5 ;
 	:temNotaAplicacao :na_c450.30.500_6 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.503 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c650.10.010 ;
-	:temRelProc :c700.10.004 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSucessorDe :c350.10.503 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eCruzadoCom :c650.10.010 ;
+	:eCruzadoCom :c700.10.004 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_797 ;
 	:temLegislacao :leg_592 ;
 	:temLegislacao :leg_254 ;
@@ -6426,13 +6426,13 @@ Inclui comunicação da entidade, convocatória do doente, análise de pareceres
 	:temNotaAplicacao :na_c450.30.502_3 ;
 	:temNotaExclusao :ne_c450.30.502_1 ;
 	:temNotaExclusao :ne_c450.30.502_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c250.10.301 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c300.50.400 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSinteseDe :c250.10.301 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSucessorDe :c300.50.400 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1279 ;
 	:classeStatus "A" ;
 	:descricao "Comprovação de determinada situação ou facto.
@@ -6460,20 +6460,20 @@ Inclui consulta de registos, quando aplicável.".
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c450.30.503_1 ;
 	:temNotaExclusao :ne_c450.30.503_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c300.50.400 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.001 ;
-	:temRelProc :c400.10.009 ;
-	:temRelProc :c400.10.025 ;
-	:temRelProc :c400.10.047 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c400.10.406 ;
-	:temRelProc :c400.10.409 ;
-	:temRelProc :c400.30.001 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSucessorDe :c300.50.400 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c400.10.001 ;
+	:eSucessorDe :c400.10.009 ;
+	:eSucessorDe :c400.10.025 ;
+	:eSucessorDe :c400.10.047 ;
+	:eSucessorDe :c400.10.200 ;
+	:eSucessorDe :c400.10.406 ;
+	:eSucessorDe :c400.10.409 ;
+	:eSucessorDe :c400.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_288 ;
 	:temLegislacao :leg_287 ;
 	:temLegislacao :leg_286 ;
@@ -6501,23 +6501,23 @@ Inclui consulta de originais, reprodução do documento original, validação da
 	:temParticipanteAssessor :org_INMLCF ;
 	:temDono :org_DGS ;
 	:temNotaExclusao :ne_c450.30.504_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.001 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.402 ;
-	:temRelProc :c700.20.403 ;
-	:temRelProc :c700.20.407 ;
-	:temRelProc :c700.20.500 ;
-	:temRelProc :c700.20.600 ;
-	:temRelProc :c710.20.001 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c400.10.001 ;
+	:eComplementarDe :c400.10.040 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eComplementarDe :c700.20.200 ;
+	:eComplementarDe :c700.20.300 ;
+	:eComplementarDe :c700.20.402 ;
+	:eComplementarDe :c700.20.403 ;
+	:eComplementarDe :c700.20.407 ;
+	:eComplementarDe :c700.20.500 ;
+	:eComplementarDe :c700.20.600 ;
+	:eAntecessorDe :c710.20.001 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_1024 ;
 	:classeStatus "A" ;
 	:descricao "Comprovação do término da vida de um indivíduo, apontando também as causas que ocasionaram a morte.

@@ -4,6 +4,11 @@
 	:NotaAplicacao ;
 	:conteudo "Processamento de apoios na área da ação social (e ação social complementar para os trabalhadores da administração pública)".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c650_1
+:na_c650_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Administração dos regimes de proteção social.".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650_3
 :na_c650_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -13,11 +18,6 @@
 :na_c650_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Apoio psicossocial a pessoas ou grupos em risco em contexto comunitário global".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c650_1
-:na_c650_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Administração dos regimes de proteção social.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650_5
 :na_c650_5 rdf:type owl:NamedIndividual ,
@@ -98,18 +98,18 @@ Compreende, igualmente, os processos de atribuição de prestações em espécie
 	:temNotaAplicacao :na_c650.10.001_1 ;
 	:temNotaAplicacao :na_c650.10.001_2 ;
 	:temNotaExclusao :ne_c650.10.001_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.502 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.204 ;
-	:temRelProc :c650.10.205 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.10.502 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c650.10.204 ;
+	:eCruzadoCom :c650.10.205 ;
 	:temLegislacao :leg_567 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal destinada a proteger os beneficiários do regime geral de Segurança Social nas situações de incapacidade permanente para o trabalho.
@@ -136,17 +136,17 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temDono :org_ISS ;
 	:temNotaAplicacao :na_c650.10.002_1 ;
 	:temNotaExclusao :ne_c650.10.002_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.502 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.204 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.10.502 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c650.10.204 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
 	:temLegislacao :leg_767 ;
@@ -178,16 +178,16 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temDono :org_CGA ;
 	:temNotaAplicacao :na_c650.10.003_1 ;
 	:temNotaExclusao :ne_c650.10.003_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.502 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.10.502 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1072 ;
 	:temLegislacao :leg_1064 ;
 	:temLegislacao :leg_995 ;
@@ -246,17 +246,17 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temNotaAplicacao :na_c650.10.004_4 ;
 	:temNotaAplicacao :na_c650.10.004_5 ;
 	:temNotaExclusao :ne_c650.10.004_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.502 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.005 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.10.502 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c650.10.005 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
 	:temLegislacao :leg_767 ;
@@ -318,17 +318,17 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temNotaAplicacao :na_c650.10.005_5 ;
 	:temNotaAplicacao :na_c650.10.005_6 ;
 	:temNotaExclusao :ne_c650.10.005_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.502 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.004 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.10.502 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c650.10.004 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
 	:temLegislacao :leg_767 ;
@@ -361,16 +361,16 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temDono :org_ISS ;
 	:temNotaAplicacao :na_c650.10.006_1 ;
 	:temNotaExclusao :ne_c650.10.006_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.502 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.10.502 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
 	:temLegislacao :leg_767 ;
@@ -395,16 +395,16 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.007_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.502 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.10.502 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
 	:temLegislacao :leg_767 ;
@@ -431,17 +431,17 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.008_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.502 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.205 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.10.502 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c650.10.205 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
 	:temLegislacao :leg_767 ;
@@ -478,18 +478,18 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temNotaAplicacao :na_c650.10.009_1 ;
 	:temNotaAplicacao :na_c650.10.009_2 ;
 	:temNotaExclusao :ne_c650.10.009_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.502 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.205 ;
-	:temRelProc :c650.20.302 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.10.502 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c650.10.205 ;
+	:eAntecessorDe :c650.20.302 ;
 	:temLegislacao :leg_1074 ;
 	:temLegislacao :leg_1073 ;
 	:temLegislacao :leg_880 ;
@@ -524,13 +524,13 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temDono :org_ADSE ;
 	:temNotaAplicacao :na_c650.10.010_1 ;
 	:temNotaExclusao :ne_c650.10.010_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c350.10.502 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c450.30.500 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eCruzadoCom :c350.10.502 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eCruzadoCom :c450.30.500 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1139 ;
 	:temLegislacao :leg_567 ;
 	:temLegislacao :leg_462 ;
@@ -554,16 +554,16 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.011_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.502 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.10.502 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1236 ;
 	:temLegislacao :leg_1139 ;
 	:temLegislacao :leg_767 ;
@@ -591,16 +591,16 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.012_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.502 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.10.502 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1236 ;
 	:temLegislacao :leg_1139 ;
 	:temLegislacao :leg_767 ;
@@ -628,16 +628,16 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temParticipanteApreciador :org_ACT ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.013_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.502 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.10.502 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1236 ;
 	:temLegislacao :leg_767 ;
 	:temLegislacao :leg_879 ;
@@ -702,15 +702,15 @@ Desde que tais medidas se mostrem indispensáveis para assegurar a viabilidade e
 	:NotaAplicacao ;
 	:conteudo "Atribuição de passe social".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.100_9
-:na_c650.10.100_9 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Bolsa de profissionalização".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.100_8
 :na_c650.10.100_8 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Atribuição de materiais e manuais escolares".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.100_9
+:na_c650.10.100_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Bolsa de profissionalização".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.100_10
 :na_c650.10.100_10 rdf:type owl:NamedIndividual ,
@@ -746,16 +746,16 @@ Desde que tais medidas se mostrem indispensáveis para assegurar a viabilidade e
 	:temNotaAplicacao :na_c650.10.100_9 ;
 	:temNotaAplicacao :na_c650.10.100_10 ;
 	:temNotaExclusao :ne_c650.10.100_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.205 ;
-	:temRelProc :c650.10.300 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c650.10.205 ;
+	:eCruzadoCom :c650.10.300 ;
 	:temLegislacao :leg_555 ;
 	:temLegislacao :leg_845 ;
 	:temLegislacao :leg_755 ;
@@ -767,15 +767,15 @@ Desde que tais medidas se mostrem indispensáveis para assegurar a viabilidade e
 	:descricao "Atribuição de apoios pecuniários ou em espécie a alunos e formandos desfavorecidos e em carência económica ou para fazer face a despesas decorrentes da frequência da formação.
 Inicia com o processamento do pedido ou com a sinalização da situação pela entidade ou com a atribuição por direito e termina com a comunicação do montante a atribuir.
 Inclui análise da situação mediante os comprovativos apresentados e decisão sobre o valor a atribuir.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.101_1
-:na_c650.10.101_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Acesso a ama".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.101_2
 :na_c650.10.101_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Acesso a creche".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.101_1
+:na_c650.10.101_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acesso a ama".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.101_3
 :na_c650.10.101_3 rdf:type owl:NamedIndividual ,
@@ -843,15 +843,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temNotaAplicacao :na_c650.10.101_9 ;
 	:temNotaAplicacao :na_c650.10.101_10 ;
 	:temNotaExclusao :ne_c650.10.101_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.20.001 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c650.20.001 ;
 	:temLegislacao :leg_363 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestações pecuniárias mensais que possibilitam o acesso a um conjunto de respostas integradas de cuidados e apoio social para crianças, jovens, idosos, pessoas portadoras de deficiência e dependências.  
@@ -937,15 +937,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temNotaAplicacao :na_c650.10.102_9 ;
 	:temNotaAplicacao :na_c650.10.102_10 ;
 	:temNotaExclusao :ne_c650.10.102_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.30.500 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eAntecessorDe :c450.30.500 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_254 ;
 	:classeStatus "A" ;
 	:descricao "Aprovação de despesa a trabalhador com doença profissional, para posterior reembolso. Esta despesa reporta-se a serviços e tratamentos, quando necessários e adequados ao restabelecimento do estado de saúde e da capacidade de trabalho e recuperação para a vida ativa.
@@ -997,15 +997,15 @@ Inclui análise da situação mediante os comprovativos apresentados, parecer de
 	:temNotaAplicacao :na_c650.10.103_4 ;
 	:temNotaAplicacao :na_c650.10.103_5 ;
 	:temNotaExclusao :ne_c650.10.103_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.20.001 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c650.20.001 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de apoio pecuniário para satisfação de necessidades básicas, das pessoas e famílias mais carenciadas, concedido em situação de emergência ou de extrema carência.
 Inicia com a solicitação da atribuição e termina com a comunicação do montante a atribuir.
@@ -1057,14 +1057,14 @@ Inclui estudo e proposta de solução pelos técnicos e decisão sobre o montant
 	:temNotaExclusao :ne_c650.10.104_1 ;
 	:temNotaExclusao :ne_c650.10.104_2 ;
 	:temNotaExclusao :ne_c650.10.104_3 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_768 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de ajudas técnicas como instrumentos, equipamentos ou sistemas técnicos usados por uma pessoa com deficiência, especialmente produzidos ou disponiveís, que previnem, compensam, atenuam ou neutralizam a limitação funcional ou de participação.
@@ -1110,14 +1110,14 @@ Inclui análise da situação, verificação da conformidade com os requisitos e
 	:temNotaAplicacao :na_c650.10.105_3 ;
 	:temNotaExclusao :ne_c650.10.105_1 ;
 	:temNotaExclusao :ne_c650.10.105_2 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_271 ;
 	:temLegislacao :leg_274 ;
 	:temLegislacao :leg_529 ;
@@ -1142,14 +1142,14 @@ Inclui análise da situação, verificação da conformidade com os requisitos, 
 	:processoTransversal "N" ;
 	:temDono :org_SEF ;
 	:temNotaExclusao :ne_c650.10.107_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_602 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária pelo Estado para apoio ao retorno voluntário de cidadãos estrangeiros aos países de origem ou a Estados Terceiros de acolhimento dispostos a recebê-los.
@@ -1161,15 +1161,15 @@ Inclui análise do processo.
 	:NotaAplicacao ;
 	:conteudo "Falecimento".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.108_3
-:na_c650.10.108_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Ferimento".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.108_2
 :na_c650.10.108_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Desaparecimento em campanha".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.108_3
+:na_c650.10.108_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ferimento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.108_4
 :na_c650.10.108_4 rdf:type owl:NamedIndividual ,
@@ -1190,16 +1190,16 @@ Inclui análise do processo.
 	:temNotaAplicacao :na_c650.10.108_2 ;
 	:temNotaAplicacao :na_c650.10.108_3 ;
 	:temNotaAplicacao :na_c650.10.108_4 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.10.502 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c450.30.500 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.10.502 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eAntecessorDe :c450.30.500 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_252 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal por acidente ocorrido em ocasião de serviço e em consequência do mesmo ou resultante de doença adquirida ou agravada igualmente em ocasião de serviço e em consequência do mesmo.
@@ -1251,14 +1251,14 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temNotaExclusao :ne_c650.10.109_2 ;
 	:temNotaExclusao :ne_c650.10.109_3 ;
 	:temNotaExclusao :ne_c650.10.109_4 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_888 ;
 	:temLegislacao :leg_817 ;
 	:temLegislacao :leg_816 ;
@@ -1266,15 +1266,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:descricao "Atribuição de indemnização social atribuída, quer à vítima de violência doméstica que se encontram numa situação de grave carência económica, na sequência da rutura familiar, quer à vítima - direta ou indireta - de crime violento, desde que tenham sofrido por causa do crime uma incapacidade superior a 30 dias, tenham sofrido uma perturbação considerável do seu nível e da sua qualidade de vida, e não tenham obtido nenhum tipo de reparação em sede de execução de sentença condenatória.
 Inicia com a notificação emitida pela entidade competente para atribuição do adiantamento da indemnização termina com a atribuição da indemnização
 Inclui instrução do pedido.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.110_1
-:na_c650.10.110_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Pedidos de comparticipação de medicamentos, dispositivos médicos ou outras tecnologias de saúde".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.110_2
 :na_c650.10.110_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Autorização de comparticipação de tecnologias de saúde para utilização em ambulatório".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.110_1
+:na_c650.10.110_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Pedidos de comparticipação de medicamentos, dispositivos médicos ou outras tecnologias de saúde".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.110_3
 :na_c650.10.110_3 rdf:type owl:NamedIndividual ,
@@ -1318,13 +1318,13 @@ Inclui instrução do pedido.".
 	:temNotaAplicacao :na_c650.10.110_5 ;
 	:temNotaExclusao :ne_c650.10.110_1 ;
 	:temNotaExclusao :ne_c650.10.110_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.643 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eCruzadoCom :c450.10.643 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1293 ;
 	:temLegislacao :leg_1354 ;
 	:classeStatus "A" ;
@@ -1354,15 +1354,15 @@ Inclui, ainda, a avaliação sistemática da comparticipação.
 	:temDono :org_ISS ;
 	:temNotaAplicacao :na_c650.10.200_1 ;
 	:temNotaExclusao :ne_c650.10.200_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_224 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal de alimentos devida a menores.
@@ -1389,15 +1389,15 @@ Inclui análise da situação e verificação da conformidade com os requisitos,
 	:temDono :org_ISS ;
 	:temNotaAplicacao :na_c650.10.201_1 ;
 	:temNotaExclusao :ne_c650.10.201_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1118 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária que tem como objetivo assegurar o pagamento das dívidas das entidades empregadoras aos seus trabalhadores, quando aquelas não as podem pagar, por estarem em situação de insolvência ou numa situação económica difícil.
@@ -1418,16 +1418,16 @@ Inclui análise da situação, verificação da conformidade com os requisitos e
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.202_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.204 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c650.10.204 ;
 	:temLegislacao :leg_1304 ;
 	:temLegislacao :leg_720 ;
 	:temLegislacao :leg_243 ;
@@ -1444,16 +1444,16 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c450.30.500 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eAntecessorDe :c450.30.500 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_34 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal, aos beneficiários em situação de incapacidade permanente para toda e qualquer profissão, que não resulte de acidente de trabalho ou de doença profissional, confirmada pelo Sistema de Verificação de Incapacidades e não se encontrem abrangidos por qualquer regime de proteção social obrigatório ou pelos transitórios dos rurais ou, estando-o, não satisfaçam os períodos de garantia definidos para acesso à pensão de invalidez.
@@ -1474,20 +1474,20 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.204_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.001 ;
-	:temRelProc :c650.10.002 ;
-	:temRelProc :c650.10.202 ;
-	:temRelProc :c650.10.205 ;
-	:temRelProc :c650.10.302 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c650.10.001 ;
+	:eCruzadoCom :c650.10.002 ;
+	:eCruzadoCom :c650.10.202 ;
+	:eCruzadoCom :c650.10.205 ;
+	:eCruzadoCom :c650.10.302 ;
 	:temLegislacao :leg_34 ;
 	:temLegislacao :leg_319 ;
 	:temLegislacao :leg_1098 ;
@@ -1510,21 +1510,21 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.205_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.001 ;
-	:temRelProc :c650.10.008 ;
-	:temRelProc :c650.10.009 ;
-	:temRelProc :c650.10.100 ;
-	:temRelProc :c650.20.001 ;
-	:temRelProc :c650.20.302 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c650.10.001 ;
+	:eCruzadoCom :c650.10.008 ;
+	:eCruzadoCom :c650.10.009 ;
+	:eCruzadoCom :c650.10.100 ;
+	:eCruzadoCom :c650.20.001 ;
+	:eSucessorDe :c650.20.302 ;
 	:temLegislacao :leg_1074 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_1048 ;
@@ -1547,15 +1547,15 @@ Inclui análise da situação mediante os comprovativos apresentados, celebraç�
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.206_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_800 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
@@ -1579,17 +1579,17 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.207_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.009 ;
-	:temRelProc :c650.10.207 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c650.10.009 ;
+	:eAntecessorDe :c650.10.207 ;
 	:temLegislacao :leg_637 ;
 	:temLegislacao :leg_539 ;
 	:classeStatus "A" ;
@@ -1611,15 +1611,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.208_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_995 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal, em situação de carência económica, em caso de interrupção da gravidez medicamente certificada, que exerça atividade profissional e que se encontrem abrangidas por regime de proteção social obrigatório ou pelo regime do seguro social voluntário, cujo esquema de proteção social integre a eventualidade de maternidade, paternidade e adoção, sem direito ao subsídio por interrupção da gravidez.
@@ -1640,15 +1640,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.209_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1337 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
@@ -1672,15 +1672,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.210_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1337 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
@@ -1704,15 +1704,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.211_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1337 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
@@ -1761,16 +1761,16 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temNotaAplicacao :na_c650.10.300_3 ;
 	:temNotaAplicacao :na_c650.10.300_4 ;
 	:temNotaExclusao :ne_c650.10.300_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.100 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c650.10.100 ;
 	:temLegislacao :leg_1051 ;
 	:temLegislacao :leg_887 ;
 	:classeStatus "A" ;
@@ -1792,15 +1792,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.301_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1337 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
@@ -1836,16 +1836,16 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temNotaAplicacao :na_c650.10.302_1 ;
 	:temNotaAplicacao :na_c650.10.302_2 ;
 	:temNotaExclusao :ne_c650.10.302_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.204 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c650.10.204 ;
 	:temLegislacao :leg_1337 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
@@ -1869,15 +1869,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.303_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1337 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
@@ -1901,16 +1901,16 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.304_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSucessorDe :c400.10.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1337 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
@@ -1934,15 +1934,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.305_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1337 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
@@ -1966,15 +1966,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.306_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1074 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária que visa compensar despesas de funeral, sendo atribuído pelo falecimento dos familiares do benificiário.
@@ -1995,15 +1995,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.307_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_854 ;
 	:temLegislacao :leg_853 ;
 	:temLegislacao :leg_852 ;
@@ -2029,15 +2029,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.308_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1074 ;
 	:temLegislacao :leg_108 ;
 	:classeStatus "A" ;
@@ -2059,15 +2059,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temNotaExclusao :ne_c650.10.309_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSintetizadoPor :c400.10.011 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_1337 ;
 	:temLegislacao :leg_995 ;
 	:temLegislacao :leg_879 ;
@@ -2099,14 +2099,14 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c650.10.400_1 ;
 	:temNotaExclusao :ne_c650.10.400_1 ;
-	:temRelProc :c150.10.500 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
+	:eSucessorDe :c150.10.500 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1242 ;
 	:temLegislacao :leg_119 ;
 	:classeStatus "A" ;
@@ -2135,14 +2135,14 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c650.10.401_1 ;
 	:temNotaExclusao :ne_c650.10.401_1 ;
-	:temRelProc :c150.10.500 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
+	:eSucessorDe :c150.10.500 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1242 ;
 	:temLegislacao :leg_119 ;
 	:classeStatus "A" ;
@@ -2171,14 +2171,14 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c650.10.500_1 ;
 	:temNotaExclusao :ne_c650.10.500_1 ;
-	:temRelProc :c150.10.500 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c500.10.001 ;
+	:eSucessorDe :c150.10.500 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1242 ;
 	:temLegislacao :leg_119 ;
 	:classeStatus "A" ;
@@ -2246,16 +2246,16 @@ Compreende, ainda, os processos de acesso e usufruto de equipamentos de apoio à
 	:temNotaAplicacao :na_c650.20.001_1 ;
 	:temNotaAplicacao :na_c650.20.001_2 ;
 	:temNotaAplicacao :na_c650.20.001_3 ;
-	:temRelProc :c650.20.306 ;
-	:temRelProc :c650.10.101 ;
-	:temRelProc :c650.20.300 ;
-	:temRelProc :c650.20.301 ;
-	:temRelProc :c650.20.304 ;
-	:temRelProc :c650.20.305 ;
-	:temRelProc :c650.20.600 ;
-	:temRelProc :c650.20.601 ;
-	:temRelProc :c650.20.602 ;
-	:temRelProc :c650.20.603 ;
+	:eAntecessorDe :c650.20.306 ;
+	:eCruzadoCom :c650.10.101 ;
+	:eAntecessorDe :c650.20.300 ;
+	:eAntecessorDe :c650.20.301 ;
+	:eAntecessorDe :c650.20.304 ;
+	:eAntecessorDe :c650.20.305 ;
+	:eAntecessorDe :c650.20.600 ;
+	:eAntecessorDe :c650.20.601 ;
+	:eAntecessorDe :c650.20.602 ;
+	:eAntecessorDe :c650.20.603 ;
 	:temLegislacao :leg_1330 ;
 	:classeStatus "A" ;
 	:descricao "Reconhecimento de indivíduos ou agregados familiares em situação de pobreza,  de exclusão social,  de risco ou de violação da integridade pessoal (física, intelectual, psicológica) ou de propriedade, numa lógica de estudo e prevenção de situações de riscos sociais e posterior intervenção junto de grupos desfavorecidos e vulneráveis.
@@ -2277,12 +2277,12 @@ Inclui apresentação de comprovativos de situação, elaboração de relatório
 	:temDono :org_AL ;
 	:temDono :org_ISS ;
 	:temNotaAplicacao :na_c650.20.300_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.20.001 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c650.20.001 ;
 	:temLegislacao :leg_439 ;
 	:temLegislacao :leg_305 ;
 	:temLegislacao :leg_73 ;
@@ -2325,12 +2325,12 @@ Inclui comprovativos da situação, análise do caso apresentado, estudo de solu
 	:temNotaAplicacao :na_c650.20.301_2 ;
 	:temNotaAplicacao :na_c650.20.301_3 ;
 	:temNotaAplicacao :na_c650.20.301_4 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.20.001 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c650.20.001 ;
 	:temLegislacao :leg_1130 ;
 	:classeStatus "A" ;
 	:descricao "Prestação de cuidados e serviços a famílias ou pessoas que se encontrem no seu domicílio, em situação de dependência física e ou psíquica e que não possam assegurar, temporária ou permanentemente, a satisfação das suas necessidades básicas e ou a realização das atividades instrumentais da vida diária, nem disponham de apoio familiar para o efeito.
@@ -2401,16 +2401,16 @@ Inclui análise da situação, verificação do tipo de apoio necessário e disp
 	:temNotaAplicacao :na_c650.20.302_7 ;
 	:temNotaExclusao :ne_c650.20.302_1 ;
 	:temNotaExclusao :ne_c650.20.302_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c250.10.103 ;
-	:temRelProc :c250.10.301 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.009 ;
-	:temRelProc :c650.10.205 ;
-	:temRelProc :c650.10.207 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c250.10.103 ;
+	:eAntecessorDe :c250.10.301 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c650.10.009 ;
+	:eAntecessorDe :c650.10.205 ;
+	:eSucessorDe :c650.10.207 ;
 	:temLegislacao :leg_595 ;
 	:temLegislacao :leg_1348 ;
 	:temLegislacao :leg_1275 ;
@@ -2455,19 +2455,19 @@ Inclui definição de perfil e auxílio para elaboração de currículos, divulg
 	:temDono :org_ISS ;
 	:temDono :org_CPL ;
 	:temNotaAplicacao :na_c650.20.304_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.20.001 ;
-	:temRelProc :c650.20.600 ;
-	:temRelProc :c650.20.601 ;
-	:temRelProc :c650.20.602 ;
-	:temRelProc :c650.20.603 ;
-	:temRelProc :c650.20.604 ;
-	:temRelProc :c750.10.300 ;
-	:temRelProc :c750.10.602 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c650.20.001 ;
+	:eAntecessorDe :c650.20.600 ;
+	:eAntecessorDe :c650.20.601 ;
+	:eSinteseDe :c650.20.602 ;
+	:eSintetizadoPor :c650.20.603 ;
+	:eSintetizadoPor :c650.20.604 ;
+	:eSintetizadoPor :c750.10.300 ;
+	:eCruzadoCom :c750.10.602 ;
 	:temLegislacao :leg_269 ;
 	:temLegislacao :leg_1136 ;
 	:temLegislacao :leg_1330 ;
@@ -2538,13 +2538,13 @@ Inicia com o pedido do interessado ou com a identificação da necessidade por t
 	:temNotaExclusao :ne_c650.20.306_1 ;
 	:temNotaExclusao :ne_c650.20.306_2 ;
 	:temNotaExclusao :ne_c650.20.306_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.20.001 ;
-	:temRelProc :c700.20.407 ;
-	:temRelProc :c710.10.300 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c650.20.001 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eAntecessorDe :c710.10.300 ;
 	:temLegislacao :leg_323 ;
 	:temLegislacao :leg_393 ;
 	:temLegislacao :leg_1017 ;
@@ -2639,17 +2639,17 @@ Inclui a análise do pedido, o agendamento dos serviços e a resposta ao requere
 	:temNotaAplicacao :na_c650.20.600_5 ;
 	:temNotaAplicacao :na_c650.20.600_6 ;
 	:temNotaExclusao :ne_c650.20.600_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c550.20.500 ;
-	:temRelProc :c650.20.001 ;
-	:temRelProc :c650.20.304 ;
-	:temRelProc :c650.20.601 ;
-	:temRelProc :c650.20.604 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c550.20.500 ;
+	:eSucessorDe :c650.20.001 ;
+	:eSucessorDe :c650.20.304 ;
+	:eAntecessorDe :c650.20.601 ;
+	:eSintetizadoPor :c650.20.604 ;
 	:temLegislacao :leg_269 ;
 	:classeStatus "A" ;
 	:descricao "Abrigo de pessoas sob medida de proteção ou em situação de risco pessoal e social.
@@ -2777,16 +2777,16 @@ Inclui seleção e articulação da admissão, formalização da receção do in
 	:temNotaExclusao :ne_c650.20.601_2 ;
 	:temNotaExclusao :ne_c650.20.601_3 ;
 	:temNotaExclusao :ne_c650.20.601_4 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.20.001 ;
-	:temRelProc :c650.20.304 ;
-	:temRelProc :c650.20.600 ;
-	:temRelProc :c650.20.604 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c650.20.001 ;
+	:eSucessorDe :c650.20.304 ;
+	:eSucessorDe :c650.20.600 ;
+	:eSintetizadoPor :c650.20.604 ;
 	:temLegislacao :leg_1330 ;
 	:temLegislacao :leg_269 ;
 	:classeStatus "A" ;
@@ -2841,16 +2841,16 @@ Inclui candidatura e seleção, nas situações que o prevejam,  acolhimento e i
 	:temNotaAplicacao :na_c650.20.602_4 ;
 	:temNotaAplicacao :na_c650.20.602_5 ;
 	:temNotaExclusao :ne_c650.20.602_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.20.001 ;
-	:temRelProc :c650.20.304 ;
-	:temRelProc :c650.20.603 ;
-	:temRelProc :c650.20.604 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c650.20.001 ;
+	:eSucessorDe :c650.20.304 ;
+	:eAntecessorDe :c650.20.603 ;
+	:eSintetizadoPor :c650.20.604 ;
 	:temLegislacao :leg_1055 ;
 	:classeStatus "A" ;
 	:descricao "Admissão a equipamentos de caráter social que visam satisfazer as necessidades básicas quotidianas e melhorar a vida das populações.
@@ -2893,15 +2893,15 @@ Inclui verificação da situação económica e da existência de equipamentos a
 	:temNotaAplicacao :na_c650.20.603_2 ;
 	:temNotaAplicacao :na_c650.20.603_3 ;
 	:temNotaExclusao :ne_c650.20.603_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.20.001 ;
-	:temRelProc :c650.20.304 ;
-	:temRelProc :c650.20.602 ;
-	:temRelProc :c650.20.604 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c650.20.001 ;
+	:eSucessorDe :c650.20.304 ;
+	:eSucessorDe :c650.20.602 ;
+	:eSintetizadoPor :c650.20.604 ;
 	:temLegislacao :leg_1055 ;
 	:classeStatus "A" ;
 	:descricao "Desenvolvimento de atividades que proporcionam a fruição do equipamento.
@@ -2918,13 +2918,13 @@ Inclui elaboração de programas de dinamização do equipamento, desenvolviment
 	:temDono :org_AL ;
 	:temDono :org_ISS ;
 	:temDono :org_CPL ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.20.304 ;
-	:temRelProc :c650.20.600 ;
-	:temRelProc :c650.20.601 ;
-	:temRelProc :c650.20.602 ;
-	:temRelProc :c650.20.603 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSinteseDe :c650.20.304 ;
+	:eSinteseDe :c650.20.600 ;
+	:eSinteseDe :c650.20.601 ;
+	:eSinteseDe :c650.20.602 ;
+	:eSinteseDe :c650.20.603 ;
 	:classeStatus "A" ;
 	:descricao "Atualização continuada dos dados cadastrais necessários e decorrentes da permanência e intervenção com o utente em respostas sociais de acolhimento.
 Inicia com o registo de dados pessoais e termina com os registos relativos à saída ou cessação da intervenção com o utente.

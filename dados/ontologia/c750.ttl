@@ -46,15 +46,15 @@ qualificação profissional e valorização permanente, em qualquer área do con
 	:NotaAplicacao ;
 	:conteudo "Candidatos selecionados ou encaminhados para a formação profissional".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_2
-:na_c750.10.001_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Candidatos ao ingresso no âmbito da escolaridade obrigatória e do ensino regular profissional".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_3
 :na_c750.10.001_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Concursos especiais (maiores de 23 anos)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_2
+:na_c750.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Candidatos ao ingresso no âmbito da escolaridade obrigatória e do ensino regular profissional".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_4
 :na_c750.10.001_4 rdf:type owl:NamedIndividual ,
@@ -204,16 +204,16 @@ qualificação profissional e valorização permanente, em qualquer área do con
 	:temNotaExclusao :ne_c750.10.001_3 ;
 	:temNotaExclusao :ne_c750.10.001_4 ;
 	:temNotaExclusao :ne_c750.10.001_5 ;
-	:temRelProc :c150.20.001 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c450.30.502 ;
-	:temRelProc :c500.40.001 ;
-	:temRelProc :c500.40.500 ;
-	:temRelProc :c750.10.002 ;
-	:temRelProc :c750.10.602 ;
-	:temRelProc :c900.10.504 ;
+	:eSucessorDe :c150.20.001 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c450.30.502 ;
+	:eAntecessorDe :c500.40.001 ;
+	:eAntecessorDe :c500.40.500 ;
+	:eAntecessorDe :c750.10.002 ;
+	:eAntecessorDe :c750.10.602 ;
+	:eSucessorDe :c900.10.504 ;
 	:temLegislacao :leg_1112 ;
 	:temLegislacao :leg_1034 ;
 	:temLegislacao :leg_937 ;
@@ -256,15 +256,15 @@ Termina com publicitação de lista de admitidos e excluídos.".
 Inclui a elaboração de listas ou pautas definitivas.
 Termina com a publicitação.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.002_1
-:na_c750.10.002_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Matrícula ou inscrição de alunos ou formandos do ensino à distância".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.002_2
 :na_c750.10.002_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Matrícula ou inscrição de alunos do ensino profissional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.002_1
+:na_c750.10.002_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Matrícula ou inscrição de alunos ou formandos do ensino à distância".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.002_3
 :na_c750.10.002_3 rdf:type owl:NamedIndividual ,
@@ -387,21 +387,21 @@ Termina com a publicitação.
 	:temNotaExclusao :ne_c750.10.002_3 ;
 	:temNotaExclusao :ne_c750.10.002_4 ;
 	:temNotaExclusao :ne_c750.10.002_5 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.30.502 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c750.10.001 ;
-	:temRelProc :c750.10.300 ;
-	:temRelProc :c750.20.301 ;
-	:temRelProc :c750.20.600 ;
-	:temRelProc :c750.30.602 ;
-	:temRelProc :c800.20.001 ;
-	:temRelProc :c800.20.002 ;
-	:temRelProc :c800.20.500 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eAntecessorDe :c450.30.502 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c750.10.001 ;
+	:eAntecessorDe :c750.10.300 ;
+	:eAntecessorDe :c750.20.301 ;
+	:eAntecessorDe :c750.20.600 ;
+	:eSucessorDe :c750.30.602 ;
+	:eAntecessorDe :c800.20.001 ;
+	:eAntecessorDe :c800.20.002 ;
+	:eAntecessorDe :c800.20.500 ;
 	:temLegislacao :leg_489 ;
 	:temLegislacao :leg_316 ;
 	:temLegislacao :leg_312 ;
@@ -441,17 +441,17 @@ Inclui verificação de dados de identificação e validação da existência do
 	:temNotaAplicacao :na_c750.10.300_1 ;
 	:temNotaAplicacao :na_c750.10.300_2 ;
 	:temNotaAplicacao :na_c750.10.300_3 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c450.30.002 ;
-	:temRelProc :c450.30.003 ;
-	:temRelProc :c450.30.502 ;
-	:temRelProc :c500.20.300 ;
-	:temRelProc :c650.10.100 ;
-	:temRelProc :c650.20.304 ;
-	:temRelProc :c750.10.002 ;
-	:temRelProc :c750.10.600 ;
-	:temRelProc :c750.10.602 ;
-	:temRelProc :c750.30.601 ;
+	:eCruzadoCom :c350.10.509 ;
+	:eSinteseDe :c450.30.002 ;
+	:eSinteseDe :c450.30.003 ;
+	:eSinteseDe :c450.30.502 ;
+	:eSinteseDe :c500.20.300 ;
+	:eSinteseDe :c650.10.100 ;
+	:eSinteseDe :c650.20.304 ;
+	:eSinteseDe :c750.10.002 ;
+	:eSinteseDe :c750.10.600 ;
+	:eSinteseDe :c750.10.602 ;
+	:eSinteseDe :c750.30.601 ;
 	:temLegislacao :leg_1038 ;
 	:temLegislacao :leg_476 ;
 	:temLegislacao :leg_199 ;
@@ -493,15 +493,15 @@ Inclui validação de dados do aluno ou formando, registo de dados relativos à 
 	:temNotaAplicacao :na_c750.10.600_1 ;
 	:temNotaAplicacao :na_c750.10.600_2 ;
 	:temNotaExclusao :ne_c750.10.600_1 ;
-	:temRelProc :c450.30.002 ;
-	:temRelProc :c450.30.502 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20.300 ;
-	:temRelProc :c500.30.004 ;
-	:temRelProc :c750.10.300 ;
-	:temRelProc :c750.30.601 ;
-	:temRelProc :c850.10.002 ;
-	:temRelProc :c850.10.003 ;
+	:eCruzadoCom :c450.30.002 ;
+	:eCruzadoCom :c450.30.502 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c500.20.300 ;
+	:eCruzadoCom :c500.30.004 ;
+	:eSintetizadoPor :c750.10.300 ;
+	:eAntecessorDe :c750.30.601 ;
+	:eSucessorDe :c850.10.002 ;
+	:eSucessorDe :c850.10.003 ;
 	:temLegislacao :leg_316 ;
 	:temLegislacao :leg_691 ;
 	:classeStatus "A" ;
@@ -546,15 +546,15 @@ Inclui justificação de faltas e notificação dos interessados.".
 	:NotaAplicacao ;
 	:conteudo "Exames nacionais dos ensinos básico e secundário".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.601_3
-:na_c750.10.601_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Inscrição em época especial de exame".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.601_4
 :na_c750.10.601_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Inscrição em exame de melhoria de nota".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.601_3
+:na_c750.10.601_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Inscrição em época especial de exame".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.601_5
 :na_c750.10.601_5 rdf:type owl:NamedIndividual ,
@@ -619,16 +619,16 @@ Inclui justificação de faltas e notificação dos interessados.".
 	:temNotaAplicacao :na_c750.10.601_10 ;
 	:temNotaAplicacao :na_c750.10.601_11 ;
 	:temNotaExclusao :ne_c750.10.601_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c750.10.002 ;
-	:temRelProc :c750.10.600 ;
-	:temRelProc :c750.30.600 ;
-	:temRelProc :c750.30.601 ;
-	:temRelProc :c800.20.001 ;
-	:temRelProc :c800.20.002 ;
-	:temRelProc :c800.20.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c750.10.002 ;
+	:eAntecessorDe :c750.10.600 ;
+	:eAntecessorDe :c750.30.600 ;
+	:eSintetizadoPor :c750.30.601 ;
+	:eSucessorDe :c800.20.001 ;
+	:eSucessorDe :c800.20.002 ;
+	:eAntecessorDe :c800.20.500 ;
 	:temLegislacao :leg_316 ;
 	:classeStatus "A" ;
 	:descricao "Realização das atividades inerentes à inscrição para prestação de provas de avaliação de conhecimentos.
@@ -680,20 +680,20 @@ Inclui, conforme o grau de ensino, ciclo de estudos ou formação em apreço, pr
 	:temNotaAplicacao :na_c750.10.602_4 ;
 	:temNotaAplicacao :na_c750.10.602_5 ;
 	:temNotaExclusao :ne_c750.10.602_1 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c650.10.307 ;
-	:temRelProc :c650.20.304 ;
-	:temRelProc :c750.10.001 ;
-	:temRelProc :c750.10.002 ;
-	:temRelProc :c750.10.300 ;
-	:temRelProc :c750.10.600 ;
-	:temRelProc :c750.20.001 ;
-	:temRelProc :c750.20.300 ;
-	:temRelProc :c750.20.301 ;
-	:temRelProc :c750.30.001 ;
-	:temRelProc :c750.30.300 ;
-	:temRelProc :c750.30.600 ;
-	:temRelProc :c750.30.602 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c650.10.307 ;
+	:eCruzadoCom :c650.20.304 ;
+	:eSucessorDe :c750.10.001 ;
+	:eSucessorDe :c750.10.002 ;
+	:eSintetizadoPor :c750.10.300 ;
+	:eCruzadoCom :c750.10.600 ;
+	:eCruzadoCom :c750.20.001 ;
+	:eCruzadoCom :c750.20.300 ;
+	:eCruzadoCom :c750.20.301 ;
+	:eCruzadoCom :c750.30.001 ;
+	:eCruzadoCom :c750.30.300 ;
+	:eCruzadoCom :c750.30.600 ;
+	:eCruzadoCom :c750.30.602 ;
 	:temLegislacao :leg_312 ;
 	:temLegislacao :leg_659 ;
 	:classeStatus "A" ;
@@ -777,19 +777,19 @@ Inclui procedimentos de referenciação e avaliação, a proposta de adoção de
 	:temNotaAplicacao :na_c750.20.001_4 ;
 	:temNotaAplicacao :na_c750.20.001_5 ;
 	:temNotaExclusao :ne_c750.20.001_1 ;
-	:temRelProc :c450.10.651 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c100.10.200 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c750.10.602 ;
-	:temRelProc :c750.20.300 ;
-	:temRelProc :c750.20.600 ;
-	:temRelProc :c800.20.001 ;
-	:temRelProc :c800.20.002 ;
-	:temRelProc :c800.20.500 ;
+	:eComplementarDe :c450.10.651 ;
+	:eAntecessorDe :c150.10.100 ;
+	:eSucessorDe :c100.10.200 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eCruzadoCom :c750.10.602 ;
+	:eAntecessorDe :c750.20.300 ;
+	:eAntecessorDe :c750.20.600 ;
+	:eSucessorDe :c800.20.001 ;
+	:eSucessorDe :c800.20.002 ;
+	:eSucessorDe :c800.20.500 ;
 	:temLegislacao :leg_1086 ;
 	:temLegislacao :leg_1019 ;
 	:temLegislacao :leg_311 ;
@@ -814,17 +814,17 @@ Inclui análise de conteúdos informativos, elaboração e recolha de pareceres 
 	:processoTransversal "N" ;
 	:temDono :org_AP ;
 	:temNotaExclusao :ne_c750.20.002_1 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c150.10.500 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c450.10.648 ;
-	:temRelProc :c500.10.301 ;
+	:eAntecessorDe :c150.10.100 ;
+	:eAntecessorDe :c150.10.500 ;
+	:eSucessorDe :c150.10.600 ;
+	:eAntecessorDe :c150.20.101 ;
+	:eSinteseDe :c450.10.648 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c750.20.300 ;
-	:temRelProc :c750.10.602 ;
-	:temRelProc :c750.20.600 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eAntecessorDe :c750.20.300 ;
+	:eCruzadoCom :c750.10.602 ;
+	:eAntecessorDe :c750.20.600 ;
 	:temLegislacao :leg_1187 ;
 	:temLegislacao :leg_1197 ;
 	:temLegislacao :leg_1086 ;
@@ -876,16 +876,16 @@ Inclui análise de conteúdos informativos, elaboração e recolha de pareceres 
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c750.20.300_1 ;
 	:temNotaAplicacao :na_c750.20.300_2 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c300.50.802 ;
-	:temRelProc :c450.10.445 ;
-	:temRelProc :c450.10.648 ;
-	:temRelProc :c750.10.602 ;
-	:temRelProc :c750.20.001 ;
-	:temRelProc :c750.20.600 ;
-	:temRelProc :c800.20.001 ;
-	:temRelProc :c800.20.002 ;
-	:temRelProc :c800.20.500 ;
+	:eAntecessorDe :c300.10.005 ;
+	:eCruzadoCom :c300.50.802 ;
+	:eAntecessorDe :c450.10.445 ;
+	:eAntecessorDe :c450.10.648 ;
+	:eSucessorDe :c750.10.602 ;
+	:eCruzadoCom :c750.20.001 ;
+	:eAntecessorDe :c750.20.600 ;
+	:eSucessorDe :c800.20.001 ;
+	:eSucessorDe :c800.20.002 ;
+	:eSucessorDe :c800.20.500 ;
 	:temLegislacao :leg_1251 ;
 	:temLegislacao :leg_535 ;
 	:classeStatus "A" ;
@@ -920,20 +920,20 @@ Inclui elaboração ou seleção de fontes de informação e aplicação de crit
 	:temNotaAplicacao :na_c750.20.301_1 ;
 	:temNotaAplicacao :na_c750.20.301_2 ;
 	:temNotaExclusao :ne_c750.20.301_1 ;
-	:temRelProc :c100.10.800 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.301 ;
-	:temRelProc :c250.10.101 ;
-	:temRelProc :c250.10.600 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c750.10.002 ;
-	:temRelProc :c750.10.602 ;
-	:temRelProc :c750.20.001 ;
-	:temRelProc :c750.20.300 ;
-	:temRelProc :c750.20.600 ;
+	:eSucessorDe :c100.10.800 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.301 ;
+	:eCruzadoCom :c250.10.101 ;
+	:eCruzadoCom :c250.10.600 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eSintetizadoPor :c750.10.002 ;
+	:eSucessorDe :c750.10.602 ;
+	:eSucessorDe :c750.20.001 ;
+	:eSintetizadoPor :c750.20.300 ;
+	:eCruzadoCom :c750.20.600 ;
 	:classeStatus "A" ;
 	:descricao "Organização do ano letivo em qualquer nível de ensino, bem como à organização da formação.
 Inicia com a listagem dos alunos ou formandos inscritos e termina com a divulgação dos horários e das turmas, turnos ou grupos.
@@ -1008,24 +1008,24 @@ Inclui constituição das turmas, turnos ou grupos.".
 	:temNotaAplicacao :na_c750.20.600_8 ;
 	:temNotaAplicacao :na_c750.20.600_9 ;
 	:temNotaExclusao :ne_c750.20.600_1 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.400 ;
-	:temRelProc :c250.20.605 ;
-	:temRelProc :c250.20.800 ;
-	:temRelProc :c450.10.444 ;
-	:temRelProc :c450.10.441 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c750.10.600 ;
-	:temRelProc :c750.10.602 ;
-	:temRelProc :c750.20.001 ;
-	:temRelProc :c750.20.300 ;
-	:temRelProc :c750.20.301 ;
-	:temRelProc :c750.30.300 ;
-	:temRelProc :c750.30.600 ;
-	:temRelProc :c800.10.604 ;
-	:temRelProc :c800.10.605 ;
+	:eSintetizadoPor :c150.20.101 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eCruzadoCom :c250.20.400 ;
+	:eAntecessorDe :c250.20.605 ;
+	:eSintetizadoPor :c250.20.800 ;
+	:eSucessorDe :c450.10.444 ;
+	:eSucessorDe :c450.10.441 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c750.10.600 ;
+	:eCruzadoCom :c750.10.602 ;
+	:eSucessorDe :c750.20.001 ;
+	:eCruzadoCom :c750.20.300 ;
+	:eSintetizadoPor :c750.20.301 ;
+	:eCruzadoCom :c750.30.300 ;
+	:eCruzadoCom :c750.30.600 ;
+	:eCruzadoCom :c800.10.604 ;
+	:eCruzadoCom :c800.10.605 ;
 	:temLegislacao :leg_1198 ;
 	:temLegislacao :leg_1112 ;
 	:temLegislacao :leg_1034 ;
@@ -1086,11 +1086,11 @@ Inclui elaboração de plano de aula ou plano de formação, implementação de 
 	:temNotaExclusao :ne_c750.20.601_1 ;
 	:temNotaExclusao :ne_c750.20.601_2 ;
 	:temNotaExclusao :ne_c750.20.601_3 ;
-	:temRelProc :c150.20.103 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c750.30.601 ;
+	:eAntecessorDe :c150.20.103 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSucessorDe :c300.10.005 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSintetizadoPor :c750.30.601 ;
 	:temLegislacao :leg_616 ;
 	:classeStatus "A" ;
 	:descricao "Concretização de atividades práticas de ensino e treino animal.
@@ -1132,15 +1132,15 @@ Inclui elaboração de plano de aula, a avaliação do desenvolvimento animal, r
 	:NotaAplicacao ;
 	:conteudo "Registo de diplomas estrangeiros".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c750.30_1
-:ne_c750.30_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Os processos de reconhecimento genérico de um grau num Estado, ou de um grau conferido por um conjunto de instituições de ensino superior de um Estado, devem ser considerados em \"Reconhecimentos e permissões/ licenciamentos, certificações e outras autorizações\" (450.10).A emissão de certificados de habilitações deve ser considerada em \"Reconhecimentos e permissões/ Emissão de comprovativos de factos ou atos\" (450.30).".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.30_8
 :na_c750.30_8 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Fixação na escala de classificação portuguesa de classificação obtida no estrangeiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c750.30_1
+:ne_c750.30_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os processos de reconhecimento genérico de um grau num Estado, ou de um grau conferido por um conjunto de instituições de ensino superior de um Estado, devem ser considerados em \"Reconhecimentos e permissões/ licenciamentos, certificações e outras autorizações\" (450.10).A emissão de certificados de habilitações deve ser considerada em \"Reconhecimentos e permissões/ Emissão de comprovativos de factos ou atos\" (450.30).".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c750.30
 :c750.30 rdf:type owl:NamedIndividual ,
@@ -1177,13 +1177,13 @@ Inclui o reconhecimento de graus e diplomas obtidos no estrangeiro, a pedido dos
 	:temDono :org_ES ;
 	:temDono :org_AP ;
 	:temNotaExclusao :ne_c750.30.001_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c750.30.300 ;
-	:temRelProc :c800.20.001 ;
-	:temRelProc :c800.20.002 ;
-	:temRelProc :c800.20.500 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c750.30.300 ;
+	:eSucessorDe :c800.20.001 ;
+	:eSucessorDe :c800.20.002 ;
+	:eSucessorDe :c800.20.500 ;
 	:temLegislacao :leg_1379 ;
 	:temLegislacao :leg_1378 ;
 	:temLegislacao :leg_1019 ;
@@ -1238,14 +1238,14 @@ Inclui verificação e análise de propostas, elaboração e recolha de parecere
 	:temNotaExclusao :ne_c750.30.300_1 ;
 	:temNotaExclusao :ne_c750.30.300_2 ;
 	:temRelProc :c150.20.101 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.10.600 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c750.20.600 ;
-	:temRelProc :c750.30.001 ;
-	:temRelProc :c900.20.200 ;
-	:temRelProc :c900.20.201 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c500.10.600 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eSucessorDe :c750.20.600 ;
+	:eSucessorDe :c750.30.001 ;
+	:eAntecessorDe :c900.20.200 ;
+	:eAntecessorDe :c900.20.201 ;
 	:temLegislacao :leg_1379 ;
 	:temLegislacao :leg_1378 ;
 	:temLegislacao :leg_1019 ;
@@ -1281,20 +1281,20 @@ Inclui seleção de materiais-suporte dos itens de avaliação, elaboração de 
 	:temNotaAplicacao :na_c750.30.600_1 ;
 	:temNotaAplicacao :na_c750.30.600_2 ;
 	:temNotaExclusao :ne_c750.30.600_1 ;
-	:temRelProc :c100.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c450.10.801 ;
-	:temRelProc :c450.10.802 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c550.10.004 ;
-	:temRelProc :c750.10.601 ;
-	:temRelProc :c750.20.600 ;
-	:temRelProc :c750.30.300 ;
-	:temRelProc :c750.30.601 ;
+	:eSucessorDe :c100.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c300.10.005 ;
+	:eAntecessorDe :c450.10.801 ;
+	:eAntecessorDe :c450.10.802 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eCruzadoCom :c550.10.004 ;
+	:eSucessorDe :c750.10.601 ;
+	:eSucessorDe :c750.20.600 ;
+	:eCruzadoCom :c750.30.300 ;
+	:eAntecessorDe :c750.30.601 ;
 	:temLegislacao :leg_1379 ;
 	:temLegislacao :leg_1378 ;
 	:temLegislacao :leg_1019 ;
@@ -1329,16 +1329,16 @@ Inclui elaboração da lista dos alunos que realizam a prova (pautas de chamada)
 	:temNotaExclusao :ne_c750.30.601_1 ;
 	:temNotaExclusao :ne_c750.30.601_2 ;
 	:temNotaExclusao :ne_c750.30.601_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.30.002 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.40.500 ;
-	:temRelProc :c600.30.001 ;
-	:temRelProc :c750.10.300 ;
-	:temRelProc :c750.30.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c450.30.002 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c500.40.500 ;
+	:eCruzadoCom :c600.30.001 ;
+	:eAntecessorDe :c750.10.300 ;
+	:eSucessorDe :c750.30.600 ;
 	:temLegislacao :leg_1379 ;
 	:temLegislacao :leg_1378 ;
 	:temLegislacao :leg_1019 ;
@@ -1380,12 +1380,12 @@ Inclui reapreciação da avaliação da prova sempre que solicitado e o registo 
 	:temNotaAplicacao :na_c750.30.602_2 ;
 	:temNotaAplicacao :na_c750.30.602_3 ;
 	:temNotaExclusao :ne_c750.30.602_1 ;
-	:temRelProc :c400.10.616 ;
-	:temRelProc :c450.10.648 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.40.500 ;
-	:temRelProc :c750.10.001 ;
-	:temRelProc :c750.10.002 ;
+	:eAntecessorDe :c400.10.616 ;
+	:eAntecessorDe :c450.10.648 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c500.40.500 ;
+	:eAntecessorDe :c750.10.001 ;
+	:eAntecessorDe :c750.10.002 ;
 	:temLegislacao :leg_1379 ;
 	:temLegislacao :leg_1378 ;
 	:temLegislacao :leg_1019 ;

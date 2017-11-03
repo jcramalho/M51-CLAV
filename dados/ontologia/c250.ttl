@@ -87,23 +87,23 @@ Compreende, ainda, os procedimentos de cessação da relação de trabalho, inde
 	:temNotaAplicacao :na_c250.10.001_1 ;
 	:temNotaExclusao :ne_c250.10.001_1 ;
 	:temNotaExclusao :ne_c250.10.001_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
 	:temLegislacao :leg_1279 ;
 	:classeStatus "A" ;
 	:descricao "Análise de candidaturas a trabalho na Administração, fora do âmbito de um procedimento concursal.
 Inicia com receção da candidatura e termina com resposta ao candidato.
 Inclui avaliação ao curriculo do candidato e verificação da eventual necessidade de trabalho na área proposta.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.100_2
-:na_c250.10.100_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Cargos de direção intermédia".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.100_1
 :na_c250.10.100_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Cargos de direção superior".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.100_2
+:na_c250.10.100_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Cargos de direção intermédia".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.100_1
 :ne_c250.10.100_1 rdf:type owl:NamedIndividual ,
@@ -129,16 +129,16 @@ Inclui avaliação ao curriculo do candidato e verificação da eventual necessi
 	:temNotaAplicacao :na_c250.10.100_2 ;
 	:temNotaExclusao :ne_c250.10.100_1 ;
 	:temNotaExclusao :ne_c250.10.100_2 ;
-	:temRelProc :c150.20.200 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.403 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c250.10.501 ;
-	:temRelProc :c250.10.401 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.40.500 ;
+	:eSucessorDe :c150.20.200 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.403 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c250.10.501 ;
+	:eAntecessorDe :c250.10.401 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eCruzadoCom :c500.40.500 ;
 	:temLegislacao :leg_982 ;
 	:temLegislacao :leg_951 ;
 	:temLegislacao :leg_955 ;
@@ -177,16 +177,16 @@ Inclui definição dos requisitos de candidatura e métodos de seleção, elabor
 	:temNotaAplicacao :na_c250.10.101_1 ;
 	:temNotaExclusao :ne_c250.10.101_1 ;
 	:temNotaExclusao :ne_c250.10.101_2 ;
-	:temRelProc :c150.20.200 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c250.10.401 ;
-	:temRelProc :c150.20.403 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c250.10.600 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.605 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.40.500 ;
+	:eSucessorDe :c150.20.200 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eAntecessorDe :c250.10.401 ;
+	:eSintetizadoPor :c150.20.403 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSucessorDe :c250.10.600 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c250.20.605 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eCruzadoCom :c500.40.500 ;
 	:temLegislacao :leg_1223 ;
 	:temLegislacao :leg_961 ;
 	:temLegislacao :leg_896 ;
@@ -247,16 +247,16 @@ Inclui definição dos requisitos de candidatura e métodos de seleção, elabor
 	:temNotaAplicacao :na_c250.10.103_4 ;
 	:temNotaExclusao :ne_c250.10.103_1 ;
 	:temNotaExclusao :ne_c250.10.103_2 ;
-	:temRelProc :c150.20.200 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c250.10.601 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.40.001 ;
-	:temRelProc :c650.20.302 ;
-	:temRelProc :c850.10.003 ;
+	:eSucessorDe :c150.20.200 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c250.10.601 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.40.001 ;
+	:eSucessorDe :c650.20.302 ;
+	:eAntecessorDe :c850.10.003 ;
 	:temLegislacao :leg_1010 ;
 	:temLegislacao :leg_1244 ;
 	:temLegislacao :leg_1245 ;
@@ -345,11 +345,11 @@ Inclui formalização da candidatura por parte do interessado, recrutamento e se
 	:temNotaAplicacao :na_c250.10.200_8 ;
 	:temNotaExclusao :ne_c250.10.200_1 ;
 	:temNotaExclusao :ne_c250.10.200_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c250.10.700 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eAntecessorDe :c150.40.500 ;
+	:eAntecessorDe :c250.10.700 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1041 ;
 	:temLegislacao :leg_982 ;
 	:temLegislacao :leg_903 ;
@@ -386,14 +386,14 @@ Inclui criação de listas, elaboração de cadernos eleitorais, elaboração de
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c250.10.300_1 ;
 	:temNotaAplicacao :na_c250.10.300_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c250.10.500 ;
-	:temRelProc :c400.10.031 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c600.20 ;
-	:temRelProc :c600.30 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c250.10.500 ;
+	:eAntecessorDe :c400.10.031 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSucessorDe :c600.20 ;
+	:eSucessorDe :c600.30 ;
 	:temLegislacao :leg_273 ;
 	:temLegislacao :leg_269 ;
 	:temLegislacao :leg_71 ;
@@ -460,27 +460,27 @@ Inclui organização do recrutamento e seleção, aprovação das listas pela en
 	:temNotaAplicacao :na_c250.10.301_6 ;
 	:temNotaAplicacao :na_c250.10.301_7 ;
 	:temNotaAplicacao :na_c250.10.301_8 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.033 ;
-	:temRelProc :c450.30.502 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c400.10.033 ;
+	:eSintetizadoPor :c450.30.502 ;
 	:temLegislacao :leg_250 ;
 	:temLegislacao :leg_223 ;
 	:classeStatus "A" ;
 	:descricao "Escolha de elementos da população para participação no desenvolvimento de ações de interesse social, cultural e comunitário em prol da sociedade.
 Inicia com campanha de angariação de voluntários ou com consulta às bolsas de voluntariado e termina com assinatura do programa de voluntariado.
 Inclui formalização da candidatura, análise de perfil dos candidatos, aprovação e escolha dos candidatos.".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.400_1
-:ne_c250.10.400_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A organização de cerimónias de tomada de posse deve ser considerada em 900.20.601 – Organização de cerimónias de tomada de posse e assinatura de documentos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.400_1
 :na_c250.10.400_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Nomeação de militares para o exercício de funções de comando, direção ou chefia".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.400_1
+:ne_c250.10.400_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A organização de cerimónias de tomada de posse deve ser considerada em 900.20.601 – Organização de cerimónias de tomada de posse e assinatura de documentos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c250.10.400
 :c250.10.400 rdf:type owl:NamedIndividual ,
@@ -493,14 +493,14 @@ Inclui formalização da candidatura, análise de perfil dos candidatos, aprova�
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c250.10.400_1 ;
 	:temNotaExclusao :ne_c250.10.400_1 ;
-	:temRelProc :c250.10.100 ;
-	:temRelProc :c250.10.800 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.800 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c400.10.012 ;
-	:temRelProc :c500.10.001 ;
+	:eSucessorDe :c250.10.100 ;
+	:eAntecessorDe :c250.10.800 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.800 ;
+	:eAntecessorDe :c350.10.509 ;
+	:eAntecessorDe :c400.10.011 ;
+	:eAntecessorDe :c400.10.012 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1292 ;
 	:classeStatus "A" ;
 	:descricao "Formalização ou provimento de cargos de direção, comenado ou chefia.
@@ -540,17 +540,17 @@ Inclui designação por competência própria ou por delegação, comunicação 
 	:temNotaAplicacao :na_c250.10.401_2 ;
 	:temNotaExclusao :ne_c250.10.401_1 ;
 	:temNotaExclusao :ne_c250.10.401_2 ;
-	:temRelProc :c250.10.100 ;
-	:temRelProc :c250.10.101 ;
-	:temRelProc :c250.10.800 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.600 ;
-	:temRelProc :c250.20.604 ;
-	:temRelProc :c250.20.800 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c400.10.012 ;
-	:temRelProc :c500.10.001 ;
+	:eSucessorDe :c250.10.100 ;
+	:eSucessorDe :c250.10.101 ;
+	:eAntecessorDe :c250.10.800 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.600 ;
+	:eAntecessorDe :c250.20.604 ;
+	:eAntecessorDe :c250.20.800 ;
+	:eAntecessorDe :c350.10.509 ;
+	:eAntecessorDe :c400.10.011 ;
+	:eAntecessorDe :c400.10.012 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1223 ;
 	:temLegislacao :leg_1292 ;
 	:classeStatus "A" ;
@@ -782,14 +782,14 @@ Inclui eventual negociação da posição remuneratória, termo de aceitação a
 	:temNotaAplicacao :na_c250.10.500_34 ;
 	:temNotaAplicacao :na_c250.10.500_35 ;
 	:temNotaAplicacao :na_c250.10.500_36 ;
-	:temRelProc :c250.10.300 ;
-	:temRelProc :c250.10.800 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.800 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c400.10.012 ;
-	:temRelProc :c900.20.601 ;
+	:eSucessorDe :c250.10.300 ;
+	:eAntecessorDe :c250.10.800 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.800 ;
+	:eAntecessorDe :c350.10.509 ;
+	:eAntecessorDe :c400.10.011 ;
+	:eAntecessorDe :c400.10.012 ;
+	:eAntecessorDe :c900.20.601 ;
 	:temLegislacao :leg_915 ;
 	:temLegislacao :leg_615 ;
 	:temLegislacao :leg_274 ;
@@ -844,14 +844,14 @@ Inclui eventual negociação da posição remuneratória.".
 	:temNotaAplicacao :na_c250.10.501_4 ;
 	:temNotaExclusao :ne_c250.10.501_1 ;
 	:temNotaExclusao :ne_c250.10.501_2 ;
-	:temRelProc :c250.10.100 ;
-	:temRelProc :c250.10.800 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.800 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c400.10.012 ;
-	:temRelProc :c500.10.001 ;
+	:eSucessorDe :c250.10.100 ;
+	:eAntecessorDe :c250.10.800 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.800 ;
+	:eAntecessorDe :c350.10.509 ;
+	:eAntecessorDe :c400.10.011 ;
+	:eAntecessorDe :c400.10.012 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1036 ;
 	:temLegislacao :leg_1385 ;
 	:temLegislacao :leg_431 ;
@@ -932,15 +932,15 @@ Inclui designação por competência própria ou por delegação, comunicação 
 	:temNotaExclusao :ne_c250.10.600_1 ;
 	:temNotaExclusao :ne_c250.10.600_2 ;
 	:temNotaExclusao :ne_c250.10.600_3 ;
-	:temRelProc :c150.20.403 ;
-	:temRelProc :c250.10.101 ;
-	:temRelProc :c250.10.800 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.800 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c400.10.012 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c150.20.403 ;
+	:eAntecessorDe :c250.10.101 ;
+	:eAntecessorDe :c250.10.800 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.800 ;
+	:eAntecessorDe :c350.10.509 ;
+	:eAntecessorDe :c400.10.011 ;
+	:eAntecessorDe :c400.10.012 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1223 ;
 	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
@@ -976,12 +976,12 @@ Inclui eventual negociação da posição remuneratória, outorga do contrato, a
 	:temNotaAplicacao :na_c250.10.601_1 ;
 	:temNotaExclusao :ne_c250.10.601_1 ;
 	:temNotaExclusao :ne_c250.10.601_2 ;
-	:temRelProc :c150.20.200 ;
-	:temRelProc :c250.10.103 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.400 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c450.30.002 ;
+	:eSucessorDe :c150.20.200 ;
+	:eAntecessorDe :c250.10.103 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.400 ;
+	:eAntecessorDe :c350.10.509 ;
+	:eSucessorDe :c450.30.002 ;
 	:temLegislacao :leg_1010 ;
 	:temLegislacao :leg_1244 ;
 	:temLegislacao :leg_1245 ;
@@ -1044,9 +1044,9 @@ Inclui o reconhecimento, validação e certificação de competências adquirida
 	:temNotaAplicacao :na_c250.10.700_4 ;
 	:temNotaAplicacao :na_c250.10.700_5 ;
 	:temNotaExclusao :ne_c250.10.700_1 ;
-	:temRelProc :c250.10.200 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c900.20.601 ;
+	:eSucessorDe :c250.10.200 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c900.20.601 ;
 	:temLegislacao :leg_1041 ;
 	:temLegislacao :leg_982 ;
 	:temLegislacao :leg_903 ;
@@ -1057,15 +1057,15 @@ Inclui o reconhecimento, validação e certificação de competências adquirida
 	:descricao "Formalização ou provimento de titulares eleitos para órgãos de gestão ou para cargos de representação.
 Inicia com a designação ou com o despacho de nomeação e termina com a publicitação ou com o empossamento do titular.
 Inclui a designação por competência própria ou por delegação.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.800_2
-:na_c250.10.800_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Cessação de designação para cargo ou função".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.800_1
 :na_c250.10.800_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Cessação de contrato".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.800_2
+:na_c250.10.800_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Cessação de designação para cargo ou função".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.800_3
 :na_c250.10.800_3 rdf:type owl:NamedIndividual ,
@@ -1099,19 +1099,19 @@ Inclui a designação por competência própria ou por delegação.".
 	:temNotaAplicacao :na_c250.10.800_3 ;
 	:temNotaAplicacao :na_c250.10.800_4 ;
 	:temNotaAplicacao :na_c250.10.800_5 ;
-	:temRelProc :c150.20.200 ;
-	:temRelProc :c150.20.403 ;
-	:temRelProc :c250.10.501 ;
-	:temRelProc :c250.10.401 ;
-	:temRelProc :c250.10.500 ;
-	:temRelProc :c250.10.600 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.603 ;
-	:temRelProc :c250.20.605 ;
-	:temRelProc :c350.10.508 ;
-	:temRelProc :c400.10.010 ;
-	:temRelProc :c400.10.012 ;
-	:temRelProc :c500.30.004 ;
+	:eSuplementoPara :c150.20.200 ;
+	:eSintetizadoPor :c150.20.403 ;
+	:eSucessorDe :c250.10.501 ;
+	:eSucessorDe :c250.10.401 ;
+	:eSucessorDe :c250.10.500 ;
+	:eSucessorDe :c250.10.600 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.603 ;
+	:eAntecessorDe :c250.20.605 ;
+	:eSucessorDe :c350.10.508 ;
+	:eAntecessorDe :c400.10.010 ;
+	:eAntecessorDe :c400.10.012 ;
+	:eAntecessorDe :c500.30.004 ;
 	:temLegislacao :leg_1223 ;
 	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
@@ -1213,34 +1213,34 @@ Inclui notificação prévia (quando devido), negociação e acordo das condiç�
 	:temNotaAplicacao :na_c250.20.001_2 ;
 	:temNotaAplicacao :na_c250.20.001_3 ;
 	:temNotaAplicacao :na_c250.20.001_4 ;
-	:temRelProc :c150.20.403 ;
-	:temRelProc :c250.10.301 ;
-	:temRelProc :c250.10.501 ;
-	:temRelProc :c250.10.401 ;
-	:temRelProc :c250.10.500 ;
-	:temRelProc :c250.10.600 ;
-	:temRelProc :c250.10.601 ;
-	:temRelProc :c250.10.700 ;
-	:temRelProc :c250.10.800 ;
-	:temRelProc :c250.20.200 ;
-	:temRelProc :c250.20.201 ;
-	:temRelProc :c250.20.403 ;
-	:temRelProc :c250.20.404 ;
-	:temRelProc :c250.20.600 ;
-	:temRelProc :c250.20.601 ;
-	:temRelProc :c250.20.602 ;
-	:temRelProc :c250.20.603 ;
-	:temRelProc :c250.20.604 ;
-	:temRelProc :c250.20.605 ;
-	:temRelProc :c250.20.800 ;
-	:temRelProc :c250.20.801 ;
-	:temRelProc :c250.20.803 ;
-	:temRelProc :c350.10.503 ;
-	:temRelProc :c450.30.500 ;
-	:temRelProc :c500.20.300 ;
-	:temRelProc :c500.20.600 ;
-	:temRelProc :c500.30.004 ;
-	:temRelProc :c750.20.600 ;
+	:eSintetizadoPor :c150.20.403 ;
+	:eSinteseDe :c250.10.301 ;
+	:eSinteseDe :c250.10.501 ;
+	:eSinteseDe :c250.10.401 ;
+	:eSinteseDe :c250.10.500 ;
+	:eSinteseDe :c250.10.600 ;
+	:eSinteseDe :c250.10.601 ;
+	:eSinteseDe :c250.10.700 ;
+	:eSinteseDe :c250.10.800 ;
+	:eSinteseDe :c250.20.200 ;
+	:eSinteseDe :c250.20.201 ;
+	:eSinteseDe :c250.20.403 ;
+	:eSinteseDe :c250.20.404 ;
+	:eSinteseDe :c250.20.600 ;
+	:eSinteseDe :c250.20.601 ;
+	:eSinteseDe :c250.20.602 ;
+	:eSinteseDe :c250.20.603 ;
+	:eSinteseDe :c250.20.604 ;
+	:eSinteseDe :c250.20.605 ;
+	:eSinteseDe :c250.20.800 ;
+	:eAntecessorDe :c250.20.801 ;
+	:eSinteseDe :c250.20.803 ;
+	:eCruzadoCom :c350.10.503 ;
+	:eSinteseDe :c450.30.500 ;
+	:eSinteseDe :c500.20.300 ;
+	:eSinteseDe :c500.20.600 ;
+	:eSinteseDe :c500.30.004 ;
+	:eSinteseDe :c750.20.600 ;
 	:temLegislacao :leg_1223 ;
 	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
@@ -1257,10 +1257,10 @@ Inclui atualização de todos os dados relativos à carreira profissional do tra
 	:processoTipo "PC" ;
 	:processoTransversal "N" ;
 	:temDono :org_AP ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.400 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSucessorDe :c250.20.400 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1382 ;
 	:temLegislacao :leg_1336 ;
 	:temLegislacao :leg_1223 ;
@@ -1285,10 +1285,10 @@ Inclui análise fundamentada do pedido, recolha de pareceres intermédios (quand
 	:processoTransversal "N" ;
 	:temDono :org_AP ;
 	:temNotaExclusao :ne_c250.20.201_1 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.400 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c250.20.400 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1311 ;
 	:temLegislacao :leg_1223 ;
 	:temLegislacao :leg_832 ;
@@ -1330,17 +1330,17 @@ Inclui análise da justificação ou fundamentação do pedido.".
 	:temNotaAplicacao :na_c250.20.400_2 ;
 	:temNotaAplicacao :na_c250.20.400_3 ;
 	:temNotaAplicacao :na_c250.20.400_4 ;
-	:temRelProc :c250.10.601 ;
-	:temRelProc :c250.20.200 ;
-	:temRelProc :c250.20.201 ;
-	:temRelProc :c250.20.401 ;
-	:temRelProc :c250.20.402 ;
-	:temRelProc :c250.20.403 ;
-	:temRelProc :c250.20.404 ;
-	:temRelProc :c250.30.300 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c400.10.033 ;
-	:temRelProc :c500.10.001 ;
+	:eSucessorDe :c250.10.601 ;
+	:eSinteseDe :c250.20.200 ;
+	:eSinteseDe :c250.20.201 ;
+	:eSinteseDe :c250.20.401 ;
+	:eSinteseDe :c250.20.402 ;
+	:eSinteseDe :c250.20.403 ;
+	:eSinteseDe :c250.20.404 ;
+	:eSinteseDe :c250.30.300 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eCruzadoCom :c400.10.033 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1223 ;
 	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
@@ -1392,13 +1392,13 @@ Inclui participação e justificação da falta ou ausência, despacho superior 
 	:temNotaExclusao :ne_c250.20.401_4 ;
 	:temNotaExclusao :ne_c250.20.401_5 ;
 	:temNotaExclusao :ne_c250.20.401_6 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.400 ;
-	:temRelProc :c350.10.503 ;
-	:temRelProc :c350.10.508 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c400.10.033 ;
-	:temRelProc :c450.30.500 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c250.20.400 ;
+	:eSucessorDe :c350.10.503 ;
+	:eSucessorDe :c350.10.508 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eCruzadoCom :c400.10.033 ;
+	:eAntecessorDe :c450.30.500 ;
 	:temLegislacao :leg_1223 ;
 	:temLegislacao :leg_254 ;
 	:temLegislacao :leg_813 ;
@@ -1427,10 +1427,10 @@ Inclui a qualificação como acidente de trabalho ou como doença profissional."
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c250.20.402_1 ;
 	:temNotaAplicacao :na_c250.20.402_2 ;
-	:temRelProc :c250.20.400 ;
-	:temRelProc :c250.20.605 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c250.20.400 ;
+	:eCruzadoCom :c250.20.605 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_800 ;
 	:temLegislacao :leg_1223 ;
 	:classeStatus "A" ;
@@ -1464,10 +1464,10 @@ Inclui a verificação de inexistência de prejuízo para o serviço e autoriza�
 	:temNotaAplicacao :na_c250.20.403_1 ;
 	:temNotaAplicacao :na_c250.20.403_2 ;
 	:temNotaExclusao :ne_c250.20.403_1 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.400 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c250.20.400 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1223 ;
 	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
@@ -1525,10 +1525,10 @@ Inclui análise fundamentada do pedido, recolha de eventuais pareceres e decisã
 	:temNotaAplicacao :na_c250.20.404_5 ;
 	:temNotaAplicacao :na_c250.20.404_6 ;
 	:temNotaExclusao :ne_c250.20.404_1 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.400 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c250.20.400 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_27 ;
 	:temLegislacao :leg_38 ;
 	:temLegislacao :leg_79 ;
@@ -1542,11 +1542,6 @@ Inclui análise fundamentada do pedido, recolha de eventuais pareceres e decisã
 	:descricao "Autorização para dispensa total ou parcial do exercício de funções para realizar programas de trabalho e estudo.
 Inicia com o pedido fundamentado do estatuto de bolseiro ou de equiparação a bolseiro e termina com comunicação da decisão ao trabalhador.
 Inclui recolha de pareceres intermédios, análise fundamentada do pedido e decisão.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.600_1
-:na_c250.20.600_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Trabalhadores com relação jurídica de emprego público, quando a mobilidade seja de entidade pública para entidade privada ou entidade pública não abrangida pela Lei sobre regimes de vinculação carreiras e remunerações".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.600_2
 :na_c250.20.600_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1556,6 +1551,11 @@ Inclui recolha de pareceres intermédios, análise fundamentada do pedido e deci
 :na_c250.20.600_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Trabalhadores em mobilidade voluntária por extinção de orgão ou serviço".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.600_1
+:na_c250.20.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Trabalhadores com relação jurídica de emprego público, quando a mobilidade seja de entidade pública para entidade privada ou entidade pública não abrangida pela Lei sobre regimes de vinculação carreiras e remunerações".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.600_4
 :na_c250.20.600_4 rdf:type owl:NamedIndividual ,
@@ -1588,27 +1588,27 @@ Inclui recolha de pareceres intermédios, análise fundamentada do pedido e deci
 	:temNotaAplicacao :na_c250.20.600_4 ;
 	:temNotaAplicacao :na_c250.20.600_5 ;
 	:temNotaAplicacao :na_c250.20.600_6 ;
-	:temRelProc :c250.10.401 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.603 ;
-	:temRelProc :c250.20.605 ;
-	:temRelProc :c250.30.001 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c500.10.001 ;
+	:eSucessorDe :c250.10.401 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSucessorDe :c250.20.603 ;
+	:eAntecessorDe :c250.20.605 ;
+	:eSucessorDe :c250.30.001 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1223 ;
 	:classeStatus "A" ;
 	:descricao "Ocupação transitória de posto de trabalho na mesma situação funcional em diferente órgão ou serviço ou em diferente situação funcional no mesmo ou em diferente órgão ou serviço.
 Inicia com o pedido do trabalhador ou por iniciativa da administração e termina com a comunicação da decisão ao trabalhador.
 Inclui negociação de um acordo tripartido entre o trabalhador e os órgãos ou serviços de origem e destino.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.601_1
-:na_c250.20.601_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Alteração do posicionamento remuneratório resultante de regime de exceção".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.601_2
 :na_c250.20.601_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Alteração do posicionamento remuneratório resultante de opção gestionária".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.601_1
+:na_c250.20.601_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Alteração do posicionamento remuneratório resultante de regime de exceção".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.601_3
 :na_c250.20.601_3 rdf:type owl:NamedIndividual ,
@@ -1663,12 +1663,12 @@ Inclui negociação de um acordo tripartido entre o trabalhador e os órgãos ou
 	:temNotaAplicacao :na_c250.20.601_7 ;
 	:temNotaAplicacao :na_c250.20.601_8 ;
 	:temNotaExclusao :ne_c250.20.601_1 ;
-	:temRelProc :c150.20.202 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.800 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c400.10.033 ;
-	:temRelProc :c500.10.001 ;
+	:eCruzadoCom :c150.20.202 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.800 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eCruzadoCom :c400.10.033 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1223 ;
 	:classeStatus "A" ;
 	:descricao "Mudança para posição remuneratória superior dentro da mesma carreira ou posto.
@@ -1695,8 +1695,8 @@ Inclui proposta de atribuição e respetiva fundamentação, recolha de eventuai
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c250.20.602_1 ;
 	:temNotaAplicacao :na_c250.20.602_2 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1223 ;
 	:classeStatus "A" ;
 	:descricao "Permissão para acumulação de funções públicas ou privadas.
@@ -1746,12 +1746,12 @@ Fundamentação: Criar um titulo imune às alterações legislativas
 	:temNotaAplicacao :na_c250.20.603_3 ;
 	:temNotaAplicacao :na_c250.20.603_4 ;
 	:temNotaExclusao :ne_c250.20.603_1 ;
-	:temRelProc :c150.20.200 ;
-	:temRelProc :c250.10.800 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.600 ;
-	:temRelProc :c250.20.605 ;
-	:temRelProc :c500.10.001 ;
+	:eAntecessorDe :c150.20.200 ;
+	:eSintetizadoPor :c250.10.800 ;
+	:eSucessorDe :c250.20.001 ;
+	:eSucessorDe :c250.20.600 ;
+	:eSucessorDe :c250.20.605 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1223 ;
 	:temLegislacao :leg_1122 ;
 	:temLegislacao :leg_956 ;
@@ -1782,10 +1782,10 @@ Inclui as fases de transição, requalificação e compensação e registo da Bo
 	:processoTransversal "N" ;
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c250.20.604_1 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.10.401 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSucessorDe :c250.10.401 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de diferente classe ou especialidade, mediante a obtenção de formação adequada.
 Inicia com o pedido de autorização e termina com a comunicação da decisão ao interessado.
@@ -1842,16 +1842,16 @@ Inclui apresentação de prova de habilitação para o exercício de novas funç
 	:temNotaExclusao :ne_c250.20.605_2 ;
 	:temNotaExclusao :ne_c250.20.605_3 ;
 	:temNotaExclusao :ne_c250.20.605_4 ;
-	:temRelProc :c150.20.200 ;
-	:temRelProc :c250.10.101 ;
-	:temRelProc :c250.10.800 ;
-	:temRelProc :c250.20.001 ;
+	:eAntecessorDe :c150.20.200 ;
+	:eSucessorDe :c250.10.101 ;
+	:eSucessorDe :c250.10.800 ;
+	:eSintetizadoPor :c250.20.001 ;
 	:temRelProc :c250.20.402 ;
-	:temRelProc :c250.20.600 ;
-	:temRelProc :c250.20.603 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c750.20.600 ;
+	:eSucessorDe :c250.20.600 ;
+	:eAntecessorDe :c250.20.603 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSucessorDe :c750.20.600 ;
 	:temLegislacao :leg_1223 ;
 	:temLegislacao :leg_1249 ;
 	:temLegislacao :leg_1070 ;
@@ -1928,21 +1928,21 @@ Inclui apresentação de prova de habilitação para o exercício de novas funç
 	:temNotaExclusao :ne_c250.20.800_2 ;
 	:temNotaExclusao :ne_c250.20.800_3 ;
 	:temNotaExclusao :ne_c250.20.800_4 ;
-	:temRelProc :c150.20.100 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.10.501 ;
-	:temRelProc :c250.10.401 ;
-	:temRelProc :c250.10.500 ;
-	:temRelProc :c250.10.600 ;
-	:temRelProc :c250.20.601 ;
-	:temRelProc :c250.20.801 ;
-	:temRelProc :c250.20.802 ;
-	:temRelProc :c250.20.803 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.20.001 ;
+	:eCruzadoCom :c150.20.100 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSucessorDe :c250.10.501 ;
+	:eSucessorDe :c250.10.401 ;
+	:eSucessorDe :c250.10.500 ;
+	:eSucessorDe :c250.10.600 ;
+	:eSintetizadoPor :c250.20.601 ;
+	:eSucessorDe :c250.20.801 ;
+	:eSucessorDe :c250.20.802 ;
+	:eSucessorDe :c250.20.803 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSucessorDe :c500.20.001 ;
 	:temRelProc :c950.20.300 ;
-	:temRelProc :c950.30.001 ;
+	:eCruzadoCom :c950.30.001 ;
 	:temLegislacao :leg_620 ;
 	:temLegislacao :leg_903 ;
 	:temLegislacao :leg_1041 ;
@@ -1960,10 +1960,10 @@ Inclui contratualização das competências e objetivos, compromisso de gestão 
 	:processoTipo "PC" ;
 	:processoTransversal "N" ;
 	:temDono :org_AP ;
-	:temRelProc :c150.10.702 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.800 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c150.10.702 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSucessorDe :c250.20.800 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_620 ;
 	:temLegislacao :leg_903 ;
 	:temLegislacao :leg_1041 ;
@@ -1987,9 +1987,9 @@ Inclui convocatórias das reuniões, elaboração de listas de presenças, anál
 	:processoTransversal "N" ;
 	:temDono :org_AP ;
 	:temNotaExclusao :ne_c250.20.802_1 ;
-	:temRelProc :c150.10.702 ;
-	:temRelProc :c250.20.800 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c150.10.702 ;
+	:eSintetizadoPor :c250.20.800 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_620 ;
 	:temLegislacao :leg_903 ;
 	:temLegislacao :leg_1041 ;
@@ -2042,11 +2042,11 @@ Inclui convocatórias das reuniões, elaboração de listas de presenças, audi�
 	:temNotaAplicacao :na_c250.20.803_4 ;
 	:temNotaExclusao :ne_c250.20.803_1 ;
 	:temNotaExclusao :ne_c250.20.803_2 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c250.20.800 ;
-	:temRelProc :c350.10.509 ;
-	:temRelProc :c400.10.033 ;
-	:temRelProc :c500.10.001 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSucessorDe :c250.20.800 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eCruzadoCom :c400.10.033 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_620 ;
 	:temLegislacao :leg_903 ;
 	:temLegislacao :leg_1041 ;
@@ -2136,10 +2136,10 @@ Inclui o depósito de convenções coletivas nos organismos competentes, bem com
 	:temNotaExclusao :ne_c250.30.001_3 ;
 	:temNotaExclusao :ne_c250.30.001_4 ;
 	:temNotaExclusao :ne_c250.30.001_5 ;
-	:temRelProc :c100.10.200 ;
-	:temRelProc :c100.10.600 ;
-	:temRelProc :c250.20.600 ;
-	:temRelProc :c500.10.001 ;
+	:eComplementarDe :c100.10.200 ;
+	:eComplementarDe :c100.10.600 ;
+	:eAntecessorDe :c250.20.600 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_800 ;
 	:temLegislacao :leg_1223 ;
 	:temLegislacao :leg_480 ;
@@ -2194,11 +2194,11 @@ Inclui conversação entre as partes, apoio técnico da Administração, celebra
 	:temNotaAplicacao :na_c250.30.300_4 ;
 	:temNotaExclusao :ne_c250.30.300_1 ;
 	:temNotaExclusao :ne_c250.30.300_2 ;
-	:temRelProc :c150.20.403 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c250.20.400 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c600.20.600 ;
+	:eSintetizadoPor :c150.20.403 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c250.20.400 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eAntecessorDe :c600.20.600 ;
 	:temLegislacao :leg_1311 ;
 	:temLegislacao :leg_1223 ;
 	:temLegislacao :leg_800 ;
@@ -2243,11 +2243,11 @@ Pode determinar a negociação e definição de serviços mínimos indispensáve
 	:temNotaAplicacao :na_c250.30.600_2 ;
 	:temNotaExclusao :ne_c250.30.600_1 ;
 	:temNotaExclusao :ne_c250.30.600_2 ;
-	:temRelProc :c150.10.702 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c600.20.301 ;
-	:temRelProc :c600.30.300 ;
-	:temRelProc :c800.10.300 ;
+	:eSintetizadoPor :c150.10.702 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSucessorDe :c600.20.301 ;
+	:eSucessorDe :c600.30.300 ;
+	:eCruzadoCom :c800.10.300 ;
 	:temLegislacao :leg_1223 ;
 	:temLegislacao :leg_800 ;
 	:temLegislacao :leg_480 ;

@@ -4,11 +4,6 @@
 	:NotaAplicacao ;
 	:conteudo "Aplicável tanto às entidades que prestam os serviços referidos como aos que solicitam a prestação dos mesmos.".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c800_1
-:ne_c800_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A prestação de serviços de ensino/formação deve ser considerada em \"Prestação de serviços de ensino e formação\" (750).A prestação de cuidados de saúde deve ser considerada em \"Prestação de cuidados de saúde\" (700).Os processos de investigação criminal devem ser considerados em \"Administração da justiça/ Prevenção e investigação criminal\" (600.10).".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c800
 :c800 rdf:type owl:NamedIndividual ,
 	:Classe_N1;
@@ -19,6 +14,11 @@
 	:temNotaExclusao :ne_c800_1 ;
 	:classeStatus "A" ;
 	:descricao "Relativo a atividades de investigação científica em qualquer domínio do conhecimento, a atividades de desenvolvimento técnico e tecnológico, de transferência de tecnologia e inovação, bem como a outras atividades que utilizam métodos científicos para a produção de conhecimento ou resolução de problemas.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800_1
+:ne_c800_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A prestação de serviços de ensino/formação deve ser considerada em \"Prestação de serviços de ensino e formação\" (750).A prestação de cuidados de saúde deve ser considerada em \"Prestação de cuidados de saúde\" (700).Os processos de investigação criminal devem ser considerados em \"Administração da justiça/ Prevenção e investigação criminal\" (600.10).".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10_1
 :na_c800.10_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -45,15 +45,15 @@ Compreende também o levantamento de dados e constituição de repositórios ou 
 	:NotaAplicacao ;
 	:conteudo "Produção de cartografia de base (topográfica e topográfica de imagem, vulgarmente conhecida por ortofotomapas)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.001_3
-:na_c800.10.001_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Produção de cartografia temática".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.001_2
 :na_c800.10.001_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Produção de cartografia hidrográfica".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.001_3
+:na_c800.10.001_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Produção de cartografia temática".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.001_4
 :na_c800.10.001_4 rdf:type owl:NamedIndividual ,
@@ -80,12 +80,12 @@ Compreende também o levantamento de dados e constituição de repositórios ou 
 	:temNotaAplicacao :na_c800.10.001_3 ;
 	:temNotaAplicacao :na_c800.10.001_4 ;
 	:temNotaExclusao :ne_c800.10.001_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c710.10.003 ;
-	:temRelProc :c710.10.004 ;
-	:temRelProc :c710.10.005 ;
-	:temRelProc :c800.10.002 ;
-	:temRelProc :c800.10.302 ;
+	:eCruzadoCom :c150.10.600 ;
+	:eSinteseDe :c710.10.003 ;
+	:eSinteseDe :c710.10.004 ;
+	:eSinteseDe :c710.10.005 ;
+	:eComplementarDe :c800.10.002 ;
+	:eSucessorDe :c800.10.302 ;
 	:temLegislacao :leg_748 ;
 	:temLegislacao :leg_862 ;
 	:temLegislacao :leg_568 ;
@@ -134,8 +134,8 @@ Inclui execução de levantamentos diretos com base em GNSS e Topografia, levant
 	:temNotaAplicacao :na_c800.10.002_3 ;
 	:temNotaAplicacao :na_c800.10.002_4 ;
 	:temNotaAplicacao :na_c800.10.002_5 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c800.10.001 ;
+	:eCruzadoCom :c150.10.600 ;
+	:eComplementarDe :c800.10.001 ;
 	:temLegislacao :leg_1296 ;
 	:temLegislacao :leg_1359 ;
 	:classeStatus "A" ;
@@ -208,24 +208,24 @@ Inclui levantamentos geodésicos no local, monitorização/aferição de equipam
 	:temNotaAplicacao :na_c800.10.300_7 ;
 	:temNotaExclusao :ne_c800.10.300_1 ;
 	:temNotaExclusao :ne_c800.10.300_2 ;
-	:temRelProc :c150.10.200 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c250.30.600 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c300.40.503 ;
-	:temRelProc :c300.40.505 ;
-	:temRelProc :c300.40.506 ;
-	:temRelProc :c300.40.507 ;
-	:temRelProc :c300.40.509 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.30.500 ;
-	:temRelProc :c550.20.001 ;
-	:temRelProc :c700.10.001 ;
-	:temRelProc :c700.20.100 ;
-	:temRelProc :c710.10.600 ;
-	:temRelProc :c800.10.601 ;
+	:eCruzadoCom :c150.10.200 ;
+	:eAntecessorDe :c150.40.500 ;
+	:eCruzadoCom :c250.30.600 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c300.40.503 ;
+	:eCruzadoCom :c300.40.505 ;
+	:eCruzadoCom :c300.40.506 ;
+	:eCruzadoCom :c300.40.507 ;
+	:eCruzadoCom :c300.40.509 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c500.30.500 ;
+	:eAntecessorDe :c550.20.001 ;
+	:eCruzadoCom :c700.10.001 ;
+	:eCruzadoCom :c700.20.100 ;
+	:eCruzadoCom :c710.10.600 ;
+	:eCruzadoCom :c800.10.601 ;
 	:temLegislacao :leg_1151 ;
 	:temLegislacao :leg_1089 ;
 	:temLegislacao :leg_814 ;
@@ -339,33 +339,33 @@ Inclui registo de valores.
 	:temNotaExclusao :ne_c800.10.301_2 ;
 	:temNotaExclusao :ne_c800.10.301_3 ;
 	:temNotaExclusao :ne_c800.10.301_4 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c150.10.200 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c200.10.001 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c300.40.502 ;
-	:temRelProc :c300.40.506 ;
-	:temRelProc :c300.50.601 ;
-	:temRelProc :c450.10.066 ;
-	:temRelProc :c450.10.068 ;
-	:temRelProc :c450.10.070 ;
-	:temRelProc :c450.10.072 ;
-	:temRelProc :c450.10.207 ;
-	:temRelProc :c450.10.208 ;
-	:temRelProc :c450.10.215 ;
-	:temRelProc :c450.10.223 ;
-	:temRelProc :c450.10.232 ;
-	:temRelProc :c450.10.234 ;
-	:temRelProc :c450.10.640 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c550.20.001 ;
-	:temRelProc :c550.20.002 ;
-	:temRelProc :c800.10.601 ;
-	:temRelProc :c800.10.602 ;
+	:eCruzadoCom :c150.10.100 ;
+	:eCruzadoCom :c150.10.200 ;
+	:eSucessorDe :c150.10.600 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c200.10.001 ;
+	:eCruzadoCom :c200.10.800 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c300.40.502 ;
+	:eCruzadoCom :c300.40.506 ;
+	:eAntecessorDe :c300.50.601 ;
+	:eCruzadoCom :c450.10.066 ;
+	:eCruzadoCom :c450.10.068 ;
+	:eCruzadoCom :c450.10.070 ;
+	:eCruzadoCom :c450.10.072 ;
+	:eCruzadoCom :c450.10.207 ;
+	:eCruzadoCom :c450.10.208 ;
+	:eCruzadoCom :c450.10.215 ;
+	:eCruzadoCom :c450.10.223 ;
+	:eCruzadoCom :c450.10.232 ;
+	:eCruzadoCom :c450.10.234 ;
+	:eCruzadoCom :c450.10.640 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c500.30.001 ;
+	:eAntecessorDe :c550.20.001 ;
+	:eAntecessorDe :c550.20.002 ;
+	:eCruzadoCom :c800.10.601 ;
+	:eCruzadoCom :c800.10.602 ;
 	:temLegislacao :leg_1220 ;
 	:temLegislacao :leg_1092 ;
 	:temLegislacao :leg_1080 ;
@@ -483,30 +483,30 @@ Inclui a identificação das fontes de emissão, do tipo poluentes e a evoluçã
 	:temNotaExclusao :ne_c800.10.302_2 ;
 	:temNotaExclusao :ne_c800.10.302_3 ;
 	:temNotaExclusao :ne_c800.10.302_4 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c150.10.200 ;
-	:temRelProc :c150.10.300 ;
-	:temRelProc :c150.10.500 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c300.40.004 ;
-	:temRelProc :c300.40.502 ;
-	:temRelProc :c300.40.506 ;
-	:temRelProc :c300.50.601 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c550.10.300 ;
-	:temRelProc :c550.20.001 ;
-	:temRelProc :c550.20.002 ;
-	:temRelProc :c800.10.001 ;
-	:temRelProc :c800.10.601 ;
-	:temRelProc :c800.10.602 ;
-	:temRelProc :c800.10.608 ;
-	:temRelProc :c800.20.001 ;
-	:temRelProc :c800.20.002 ;
-	:temRelProc :c800.20.500 ;
-	:temRelProc :c850.10.003 ;
+	:eAntecessorDe :c150.10.100 ;
+	:eAntecessorDe :c150.10.200 ;
+	:eAntecessorDe :c150.10.300 ;
+	:eAntecessorDe :c150.10.500 ;
+	:eAntecessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c200.10.800 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c300.40.004 ;
+	:eCruzadoCom :c300.40.502 ;
+	:eCruzadoCom :c300.40.506 ;
+	:eCruzadoCom :c300.50.601 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c550.10.300 ;
+	:eAntecessorDe :c550.20.001 ;
+	:eCruzadoCom :c550.20.002 ;
+	:eAntecessorDe :c800.10.001 ;
+	:eCruzadoCom :c800.10.601 ;
+	:eCruzadoCom :c800.10.602 ;
+	:eCruzadoCom :c800.10.608 ;
+	:eCruzadoCom :c800.20.001 ;
+	:eCruzadoCom :c800.20.002 ;
+	:eCruzadoCom :c800.20.500 ;
+	:eAntecessorDe :c850.10.003 ;
 	:temLegislacao :leg_1303 ;
 	:temLegislacao :leg_1287 ;
 	:temLegislacao :leg_1214 ;
@@ -541,16 +541,16 @@ Inclui registo de dados recolhidos.".
 	:temDono :org_AL ;
 	:temNotaExclusao :ne_c800.10.303_1 ;
 	:temNotaExclusao :ne_c800.10.303_2 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c300.40.504 ;
-	:temRelProc :c300.40.505 ;
-	:temRelProc :c300.40.506 ;
-	:temRelProc :c300.50.601 ;
-	:temRelProc :c450.10.069 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c550.20.001 ;
-	:temRelProc :c800.10.601 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c300.40.504 ;
+	:eCruzadoCom :c300.40.505 ;
+	:eAntecessorDe :c300.40.506 ;
+	:eAntecessorDe :c300.50.601 ;
+	:eSucessorDe :c450.10.069 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eAntecessorDe :c550.20.001 ;
+	:eCruzadoCom :c800.10.601 ;
 	:temLegislacao :leg_1213 ;
 	:temLegislacao :leg_500 ;
 	:temLegislacao :leg_479 ;
@@ -611,12 +611,12 @@ Inclui medição de pressão de água, medição de caudais de água, medição 
 	:temNotaAplicacao :na_c800.10.304_5 ;
 	:temNotaAplicacao :na_c800.10.304_6 ;
 	:temNotaExclusao :ne_c800.10.304_1 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c450.10.640 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c550.10.307 ;
-	:temRelProc :c550.20.001 ;
-	:temRelProc :c800.10.606 ;
+	:eSinteseDe :c300.30.008 ;
+	:eSucessorDe :c450.10.640 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eCruzadoCom :c550.10.307 ;
+	:eAntecessorDe :c550.20.001 ;
+	:eAntecessorDe :c800.10.606 ;
 	:temLegislacao :leg_1058 ;
 	:classeStatus "A" ;
 	:descricao "Deteção, registo e avaliação das reações adversas, com o objectivo de determinar a incidência, gravidade e nexo de causalidade com os medicamentos, baseadas no estudo sistemático e multidisciplinar dos efeitos dos medicamentos.
@@ -658,10 +658,10 @@ Inclui avaliação científica, ponderação das medidas de segurança adequadas
 	:temNotaAplicacao :na_c800.10.305_2 ;
 	:temNotaAplicacao :na_c800.10.305_3 ;
 	:temNotaExclusao :ne_c800.10.305_1 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c450.10.073 ;
-	:temRelProc :c550.20.001 ;
-	:temRelProc :c800.10.600 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSucessorDe :c450.10.073 ;
+	:eAntecessorDe :c550.20.001 ;
+	:eSucessorDe :c800.10.600 ;
 	:temLegislacao :leg_1216 ;
 	:classeStatus "A" ;
 	:descricao "Verificação da segurança na utilização experimental de medicamentos, de forma a permitir a avaliação permanente da relação benefício-risco em que se baseou a autorização dos ensaios clínicos em curso.
@@ -687,13 +687,13 @@ Inclui análise e avaliação de toda a informação com potencial impacto na re
 	:temParticipanteComunicador :org_HH ;
 	:temDono :org_INFARMED ;
 	:temNotaAplicacao :na_c800.10.306_1 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c450.10.073 ;
-	:temRelProc :c450.10.640 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c550.10.307 ;
-	:temRelProc :c550.20.001 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSucessorDe :c450.10.073 ;
+	:eSucessorDe :c450.10.640 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c550.10.307 ;
+	:eSucessorDe :c550.20.001 ;
 	:temLegislacao :leg_775 ;
 	:classeStatus "A" ;
 	:descricao "Deteção, registo, avaliação e prevenção de incidentes com dispositivos médicos e dos efeitos indesejáveis em produtos cosméticos ou quaisquer outros problemas associados a produtos de saúde tendo em vista a salvaguarda da saúde pública.
@@ -722,12 +722,12 @@ Inclui análise e avaliação de toda a informação recolhida, a ponderação d
 	:temDono :org_INFARMED ;
 	:temNotaExclusao :ne_c800.10.600_1 ;
 	:temNotaExclusao :ne_c800.10.600_2 ;
-	:temRelProc :c450.10.073 ;
-	:temRelProc :c450.10.444 ;
-	:temRelProc :c450.10.445 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c700.20.100 ;
-	:temRelProc :c800.10.305 ;
+	:eSucessorDe :c450.10.073 ;
+	:eSucessorDe :c450.10.444 ;
+	:eSucessorDe :c450.10.445 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c700.20.100 ;
+	:eAntecessorDe :c800.10.305 ;
 	:temLegislacao :leg_1216 ;
 	:temLegislacao :leg_1269 ;
 	:classeStatus "A" ;
@@ -763,26 +763,26 @@ Incluí todos os atos necessários à conclusão do estudo.
 	:temNotaAplicacao :na_c800.10.601_1 ;
 	:temNotaAplicacao :na_c800.10.601_2 ;
 	:temNotaExclusao :ne_c800.10.601_1 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.10.002 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c300.40.502 ;
-	:temRelProc :c300.40.503 ;
-	:temRelProc :c300.40.506 ;
-	:temRelProc :c300.40.507 ;
-	:temRelProc :c450.10.229 ;
-	:temRelProc :c450.10.232 ;
-	:temRelProc :c450.10.445 ;
-	:temRelProc :c450.10.640 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c450.10.640 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c700.20.100 ;
-	:temRelProc :c800.10.300 ;
-	:temRelProc :c800.10.301 ;
-	:temRelProc :c800.10.302 ;
-	:temRelProc :c800.10.303 ;
-	:temRelProc :c800.10.610 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSucessorDe :c300.10.002 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c300.40.502 ;
+	:eCruzadoCom :c300.40.503 ;
+	:eCruzadoCom :c300.40.506 ;
+	:eCruzadoCom :c300.40.507 ;
+	:eCruzadoCom :c450.10.229 ;
+	:eCruzadoCom :c450.10.232 ;
+	:eSucessorDe :c450.10.445 ;
+	:eCruzadoCom :c450.10.640 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c450.10.640 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c700.20.100 ;
+	:eCruzadoCom :c800.10.300 ;
+	:eCruzadoCom :c800.10.301 ;
+	:eCruzadoCom :c800.10.302 ;
+	:eCruzadoCom :c800.10.303 ;
+	:eCruzadoCom :c800.10.610 ;
 	:temLegislacao :leg_1347 ;
 	:temLegislacao :leg_773 ;
 	:temLegislacao :leg_579 ;
@@ -856,24 +856,24 @@ Inclui a recolha da amostra, amostra-controle, identificação, acondicionamento
 	:temNotaAplicacao :na_c800.10.602_7 ;
 	:temNotaAplicacao :na_c800.10.602_8 ;
 	:temNotaExclusao :ne_c800.10.602_1 ;
-	:temRelProc :c150.10.001 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.40.004 ;
-	:temRelProc :c300.40.500 ;
-	:temRelProc :c300.40.502 ;
-	:temRelProc :c300.50.601 ;
-	:temRelProc :c450.10.229 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c550.10.009 ;
-	:temRelProc :c550.30.004 ;
-	:temRelProc :c550.30.200 ;
-	:temRelProc :c550.30.400 ;
-	:temRelProc :c550.30.600 ;
-	:temRelProc :c800.10.301 ;
-	:temRelProc :c800.10.302 ;
+	:eSucessorDe :c150.10.001 ;
+	:eSucessorDe :c150.10.100 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSucessorDe :c150.40.500 ;
+	:eCruzadoCom :c300.40.004 ;
+	:eCruzadoCom :c300.40.500 ;
+	:eCruzadoCom :c300.40.502 ;
+	:eSucessorDe :c300.50.601 ;
+	:eCruzadoCom :c450.10.229 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c550.10.009 ;
+	:eSuplementoPara :c550.30.004 ;
+	:eSinteseDe :c550.30.200 ;
+	:eSinteseDe :c550.30.400 ;
+	:eSinteseDe :c550.30.600 ;
+	:eCruzadoCom :c800.10.301 ;
+	:eCruzadoCom :c800.10.302 ;
 	:classeStatus "A" ;
 	:descricao "Procedimento científico e técnico de análise e cálculo com o objetivo de promover uma avaliação do impacto e de gerar medidas ou recomendações técnicas sobre um determinado universo. 
 Inicia com um pedido e termina com a emissão de um relatório.
@@ -906,25 +906,25 @@ Inclui a recolha de dados, aferição e análise de características da populaç
 	:temNotaAplicacao :na_c800.10.603_1 ;
 	:temNotaAplicacao :na_c800.10.603_2 ;
 	:temNotaExclusao :ne_c800.10.603_1 ;
-	:temRelProc :c400.10.410 ;
-	:temRelProc :c450.30.504 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c600.10.004 ;
-	:temRelProc :c600.10.006 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.10.501 ;
-	:temRelProc :c600.10.502 ;
-	:temRelProc :c600.10.503 ;
-	:temRelProc :c600.30.001 ;
-	:temRelProc :c600.30.002 ;
-	:temRelProc :c600.30.050 ;
-	:temRelProc :c600.30.051 ;
-	:temRelProc :c600.30.052 ;
-	:temRelProc :c600.30.101 ;
-	:temRelProc :c710.20.300 ;
-	:temRelProc :c800.10.609 ;
-	:temRelProc :c800.10.610 ;
+	:eCruzadoCom :c400.10.410 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eCruzadoCom :c600.10.004 ;
+	:eCruzadoCom :c600.10.006 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eCruzadoCom :c600.10.500 ;
+	:eCruzadoCom :c600.10.501 ;
+	:eCruzadoCom :c600.10.502 ;
+	:eCruzadoCom :c600.10.503 ;
+	:eCruzadoCom :c600.30.001 ;
+	:eCruzadoCom :c600.30.002 ;
+	:eCruzadoCom :c600.30.050 ;
+	:eCruzadoCom :c600.30.051 ;
+	:eCruzadoCom :c600.30.052 ;
+	:eCruzadoCom :c600.30.101 ;
+	:eCruzadoCom :c710.20.300 ;
+	:eCruzadoCom :c800.10.609 ;
+	:eCruzadoCom :c800.10.610 ;
 	:temLegislacao :leg_1308 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_1128 ;
@@ -954,15 +954,15 @@ Inicia com um pedido e termina com a produção do relatório final.
 Inclui a pesquisa, a recolha, o tratamento, o acondicionamento, a selagem, a receção e o registo de amostras, vestígios ou dados, a aplicação de teste psicológico a pessoa e a avaliação do mesmo, a observação de caraterísticas ou lesões psíquicas e físicas em pessoas, a cadáveres ou  a restos cadavéricos e exames complementares ao diagnóstico, se aplicável, e fundamentação de trabalho pericial.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.604_1
-:na_c800.10.604_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Realização de retroversões".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.604_2
 :na_c800.10.604_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Realização de revisões de traduções".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.604_1
+:na_c800.10.604_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Realização de retroversões".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.604_3
 :na_c800.10.604_3 rdf:type owl:NamedIndividual ,
@@ -1006,17 +1006,17 @@ Inclui a pesquisa, a recolha, o tratamento, o acondicionamento, a selagem, a rec
 	:temNotaAplicacao :na_c800.10.604_5 ;
 	:temNotaExclusao :ne_c800.10.604_1 ;
 	:temNotaExclusao :ne_c800.10.604_2 ;
-	:temRelProc :c300.40.501 ;
-	:temRelProc :c300.50.400 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.20.503 ;
-	:temRelProc :c450.30.503 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c750.20.600 ;
-	:temRelProc :c800.20.001 ;
-	:temRelProc :c900.10.001 ;
-	:temRelProc :c900.20.201 ;
+	:eCruzadoCom :c300.40.501 ;
+	:eCruzadoCom :c300.50.400 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eCruzadoCom :c450.20.503 ;
+	:eCruzadoCom :c450.30.503 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c750.20.600 ;
+	:eCruzadoCom :c800.20.001 ;
+	:eCruzadoCom :c900.10.001 ;
+	:eAntecessorDe :c900.20.201 ;
 	:temLegislacao :leg_1320 ;
 	:temLegislacao :leg_230 ;
 	:temLegislacao :leg_162 ;
@@ -1074,17 +1074,17 @@ Inclui os estudos de contextualização histórica, técnica e estilística do a
 	:temNotaExclusao :ne_c800.10.605_1 ;
 	:temNotaExclusao :ne_c800.10.605_2 ;
 	:temNotaExclusao :ne_c800.10.605_3 ;
-	:temRelProc :c300.40.501 ;
-	:temRelProc :c300.50.400 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.20.503 ;
-	:temRelProc :c450.30.503 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c750.20.600 ;
-	:temRelProc :c800.20.001 ;
-	:temRelProc :c900.10.001 ;
-	:temRelProc :c900.20.201 ;
+	:eCruzadoCom :c300.40.501 ;
+	:eCruzadoCom :c300.50.400 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c450.20.503 ;
+	:eSuplementoPara :c450.30.503 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c750.20.600 ;
+	:eCruzadoCom :c800.20.001 ;
+	:eCruzadoCom :c900.10.001 ;
+	:eAntecessorDe :c900.20.201 ;
 	:temLegislacao :leg_754 ;
 	:temLegislacao :leg_70 ;
 	:temLegislacao :leg_65 ;
@@ -1103,15 +1103,15 @@ Inclui a interpretação dos dados e a sua reprodução.".
 	:NotaAplicacao ;
 	:conteudo "Averiguação do mercado".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_3
-:na_c800.10.606_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Análise das alternativas no mercado".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_4
 :na_c800.10.606_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Parecer clínico".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_3
+:na_c800.10.606_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Análise das alternativas no mercado".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_5
 :na_c800.10.606_5 rdf:type owl:NamedIndividual ,
@@ -1152,17 +1152,17 @@ Inclui a interpretação dos dados e a sua reprodução.".
 	:temNotaExclusao :ne_c800.10.606_1 ;
 	:temNotaExclusao :ne_c800.10.606_2 ;
 	:temNotaExclusao :ne_c800.10.606_3 ;
-	:temRelProc :c450.10.062 ;
-	:temRelProc :c450.10.070 ;
-	:temRelProc :c450.10.216 ;
-	:temRelProc :c450.10.640 ;
-	:temRelProc :c450.10.644 ;
-	:temRelProc :c450.10.808 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c550.10.307 ;
-	:temRelProc :c800.10.304 ;
+	:eCruzadoCom :c450.10.062 ;
+	:eCruzadoCom :c450.10.070 ;
+	:eCruzadoCom :c450.10.216 ;
+	:eSucessorDe :c450.10.640 ;
+	:eSucessorDe :c450.10.644 ;
+	:eCruzadoCom :c450.10.808 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c550.10.307 ;
+	:eSuplementoPara :c800.10.304 ;
 	:temLegislacao :leg_515 ;
 	:temLegislacao :leg_878 ;
 	:classeStatus "A" ;
@@ -1220,11 +1220,11 @@ As medidas de minimização do impacto podem consistir numa alteração regulame
 	:temNotaAplicacao :na_c800.10.607_4 ;
 	:temNotaAplicacao :na_c800.10.607_5 ;
 	:temNotaAplicacao :na_c800.10.607_6 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c700.20.001 ;
-	:temRelProc :c700.20.100 ;
-	:temRelProc :c800.10.608 ;
-	:temRelProc :c800.20.002 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eCruzadoCom :c700.20.001 ;
+	:eCruzadoCom :c700.20.100 ;
+	:eCruzadoCom :c800.10.608 ;
+	:eCruzadoCom :c800.20.002 ;
 	:temLegislacao :leg_1185 ;
 	:classeStatus "A" ;
 	:descricao "Ações que visam contribuir para o conhecimento da saúde e doenças da população, os fatores que as influenciam, a decisão e a intervenção em Saúde Pública, assim como a avaliação do seu impacto na população portuguesa.
@@ -1272,12 +1272,12 @@ Inclui diagnóstico de necessidade de investigação, os estudos, a monitorizaç
 	:temNotaAplicacao :na_c800.10.608_3 ;
 	:temNotaAplicacao :na_c800.10.608_4 ;
 	:temNotaAplicacao :na_c800.10.608_5 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c800.10.302 ;
-	:temRelProc :c800.10.607 ;
-	:temRelProc :c800.20.001 ;
-	:temRelProc :c800.20.002 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c800.10.302 ;
+	:eCruzadoCom :c800.10.607 ;
+	:eCruzadoCom :c800.20.001 ;
+	:eCruzadoCom :c800.20.002 ;
 	:temLegislacao :leg_472 ;
 	:temLegislacao :leg_692 ;
 	:classeStatus "A" ;
@@ -1356,16 +1356,16 @@ Incluí a investigação desenvolvida.
 	:temNotaAplicacao :na_c800.10.609_8 ;
 	:temNotaAplicacao :na_c800.10.609_9 ;
 	:temNotaAplicacao :na_c800.10.609_10 ;
-	:temRelProc :c400.10.609 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c710.20.003 ;
-	:temRelProc :c710.20.300 ;
-	:temRelProc :c710.20.601 ;
-	:temRelProc :c800.10.603 ;
-	:temRelProc :c800.20.002 ;
-	:temRelProc :c800.20.500 ;
+	:eCruzadoCom :c400.10.609 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c710.20.003 ;
+	:eCruzadoCom :c710.20.300 ;
+	:eCruzadoCom :c710.20.601 ;
+	:eCruzadoCom :c800.10.603 ;
+	:eCruzadoCom :c800.20.002 ;
+	:eCruzadoCom :c800.20.500 ;
 	:temLegislacao :leg_1128 ;
 	:temLegislacao :leg_456 ;
 	:temLegislacao :leg_781 ;
@@ -1374,15 +1374,15 @@ Incluí a investigação desenvolvida.
 	:descricao "Utilização de técnicas específicas de conservação de células, órgãos ou cadáveres de seres humanos, animais ou vegetais para fins de ensino, investigação ou tratamento.
 Inicia com a solicitação ou a determinação do ato de preservação e termina com o atestado de criopreservação, embalsamamento ou com a preparação da peça anatómica para fins científicos, pedagógicos ou museológicos.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_1
-:na_c800.10.610_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Sistema Internacional de Unidades".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_2
 :na_c800.10.610_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo " Grandezas fundamentais do Sistema Internacional de Unidades (comprimento, massa, tempo, corrente elétrica, temperatura termodinâmica, quantidade de matéria, intensidade luminosa)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_1
+:na_c800.10.610_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Sistema Internacional de Unidades".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_3
 :na_c800.10.610_3 rdf:type owl:NamedIndividual ,
@@ -1437,15 +1437,15 @@ Inicia com a solicitação ou a determinação do ato de preservação e termina
 	:temNotaExclusao :ne_c800.10.610_1 ;
 	:temNotaExclusao :ne_c800.10.610_2 ;
 	:temNotaExclusao :ne_c800.10.610_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.610 ;
-	:temRelProc :c450.10.648 ;
-	:temRelProc :c500.10.303 ;
-	:temRelProc :c800.10.601 ;
-	:temRelProc :c800.10.603 ;
-	:temRelProc :c800.20.001 ;
-	:temRelProc :c800.20.002 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c400.10.610 ;
+	:eCruzadoCom :c450.10.648 ;
+	:eCruzadoCom :c500.10.303 ;
+	:eCruzadoCom :c800.10.601 ;
+	:eCruzadoCom :c800.10.603 ;
+	:eComplementarDe :c800.20.001 ;
+	:eComplementarDe :c800.20.002 ;
 	:temLegislacao :leg_519 ;
 	:temLegislacao :leg_132 ;
 	:temLegislacao :leg_97 ;
@@ -1557,33 +1557,33 @@ Inclui identificação das constantes físicas fundamentais, realização, manut
 	:temNotaAplicacao :na_c800.20.001_5 ;
 	:temNotaAplicacao :na_c800.20.001_6 ;
 	:temNotaAplicacao :na_c800.20.001_7 ;
-	:temRelProc :c150.10.500 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.609 ;
-	:temRelProc :c400.10.610 ;
-	:temRelProc :c400.10.614 ;
-	:temRelProc :c450.10.230 ;
-	:temRelProc :c450.30.002 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c750.10.002 ;
-	:temRelProc :c750.10.601 ;
-	:temRelProc :c750.20.001 ;
-	:temRelProc :c750.20.300 ;
-	:temRelProc :c750.30.001 ;
-	:temRelProc :c800.10.302 ;
-	:temRelProc :c800.10.608 ;
-	:temRelProc :c850.10.002 ;
-	:temRelProc :c850.10.003 ;
-	:temRelProc :c850.10.004 ;
-	:temRelProc :c850.10.005 ;
-	:temRelProc :c850.10.500 ;
-	:temRelProc :c850.10.600 ;
-	:temRelProc :c850.10.601 ;
-	:temRelProc :c900.10.501 ;
-	:temRelProc :c900.20.201 ;
-	:temRelProc :c800.10.610 ;
+	:eCruzadoCom :c150.10.500 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c400.10.609 ;
+	:eAntecessorDe :c400.10.610 ;
+	:eSucessorDe :c400.10.614 ;
+	:eCruzadoCom :c450.10.230 ;
+	:eAntecessorDe :c450.30.002 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c750.10.002 ;
+	:eAntecessorDe :c750.10.601 ;
+	:eAntecessorDe :c750.20.001 ;
+	:eAntecessorDe :c750.20.300 ;
+	:eAntecessorDe :c750.30.001 ;
+	:eCruzadoCom :c800.10.302 ;
+	:eCruzadoCom :c800.10.608 ;
+	:eSucessorDe :c850.10.002 ;
+	:eSucessorDe :c850.10.003 ;
+	:eCruzadoCom :c850.10.004 ;
+	:eCruzadoCom :c850.10.005 ;
+	:eCruzadoCom :c850.10.500 ;
+	:eSucessorDe :c850.10.600 ;
+	:eCruzadoCom :c850.10.601 ;
+	:eCruzadoCom :c900.10.501 ;
+	:eAntecessorDe :c900.20.201 ;
+	:eComplementarDe :c800.10.610 ;
 	:temLegislacao :leg_1088 ;
 	:temLegislacao :leg_897 ;
 	:temLegislacao :leg_896 ;
@@ -1653,34 +1653,34 @@ Inclui apresentação de relatórios de progresso e final.".
 	:temNotaAplicacao :na_c800.20.002_4 ;
 	:temNotaExclusao :ne_c800.20.002_1 ;
 	:temNotaExclusao :ne_c800.20.002_2 ;
-	:temRelProc :c150.10.500 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.609 ;
-	:temRelProc :c400.10.610 ;
-	:temRelProc :c400.10.614 ;
-	:temRelProc :c450.30.002 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c750.10.002 ;
-	:temRelProc :c750.10.601 ;
-	:temRelProc :c750.20.001 ;
-	:temRelProc :c750.20.300 ;
-	:temRelProc :c750.30.001 ;
-	:temRelProc :c800.10.302 ;
-	:temRelProc :c800.10.607 ;
-	:temRelProc :c800.10.608 ;
-	:temRelProc :c800.10.609 ;
-	:temRelProc :c850.10.002 ;
-	:temRelProc :c850.10.003 ;
-	:temRelProc :c850.10.004 ;
-	:temRelProc :c850.10.005 ;
-	:temRelProc :c850.10.500 ;
-	:temRelProc :c850.10.500 ;
-	:temRelProc :c850.10.600 ;
-	:temRelProc :c850.10.601 ;
-	:temRelProc :c900.10.501 ;
-	:temRelProc :c800.10.610 ;
+	:eCruzadoCom :c150.10.500 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eCruzadoCom :c400.10.609 ;
+	:eAntecessorDe :c400.10.610 ;
+	:eSucessorDe :c400.10.614 ;
+	:eAntecessorDe :c450.30.002 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c750.10.002 ;
+	:eAntecessorDe :c750.10.601 ;
+	:eAntecessorDe :c750.20.001 ;
+	:eAntecessorDe :c750.20.300 ;
+	:eAntecessorDe :c750.30.001 ;
+	:eCruzadoCom :c800.10.302 ;
+	:eCruzadoCom :c800.10.607 ;
+	:eCruzadoCom :c800.10.608 ;
+	:eCruzadoCom :c800.10.609 ;
+	:eCruzadoCom :c850.10.002 ;
+	:eCruzadoCom :c850.10.003 ;
+	:eCruzadoCom :c850.10.004 ;
+	:eCruzadoCom :c850.10.005 ;
+	:eAntecessorDe :c850.10.500 ;
+	:eCruzadoCom :c850.10.500 ;
+	:eCruzadoCom :c850.10.600 ;
+	:eCruzadoCom :c850.10.601 ;
+	:eCruzadoCom :c900.10.501 ;
+	:eComplementarDe :c800.10.610 ;
 	:temLegislacao :leg_1007 ;
 	:temLegislacao :leg_779 ;
 	:temLegislacao :leg_236 ;
@@ -1688,25 +1688,25 @@ Inclui apresentação de relatórios de progresso e final.".
 	:descricao "Otimização de um produto ou de um objetivo prático específico, anteriormente estudado, assente nos pressupostos teóricos da investigação básica. 
 Inicia com a seleção de um objeto de investigação e termina com a divulgação do resultado.
 Inclui apresentação de relatórios de progresso e final.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_1
-:na_c800.20.500_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "O desenvolvimento experimental visa obter vantagens económicas ou sociais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_2
 :na_c800.20.500_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Desenvolvimento de aplicações".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_3
-:na_c800.20.500_3 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_1
+:na_c800.20.500_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo " Desenvolvimento de instrumentação nuclear".
+	:conteudo "O desenvolvimento experimental visa obter vantagens económicas ou sociais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_4
 :na_c800.20.500_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo " Desenvolvimento de novos materiais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_3
+:na_c800.20.500_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Desenvolvimento de instrumentação nuclear".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_5
 :na_c800.20.500_5 rdf:type owl:NamedIndividual ,
@@ -1757,32 +1757,32 @@ Inclui apresentação de relatórios de progresso e final.".
 	:temNotaAplicacao :na_c800.20.500_7 ;
 	:temNotaAplicacao :na_c800.20.500_8 ;
 	:temNotaExclusao :ne_c800.20.500_1 ;
-	:temRelProc :c150.10.500 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.102 ;
-	:temRelProc :c300.40.508 ;
-	:temRelProc :c300.40.510 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.609 ;
-	:temRelProc :c400.10.610 ;
-	:temRelProc :c400.10.614 ;
-	:temRelProc :c450.30.002 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c750.10.002 ;
-	:temRelProc :c750.10.601 ;
-	:temRelProc :c750.20.001 ;
-	:temRelProc :c750.20.300 ;
-	:temRelProc :c750.30.001 ;
-	:temRelProc :c800.10.302 ;
-	:temRelProc :c800.10.609 ;
-	:temRelProc :c850.10.002 ;
-	:temRelProc :c850.10.003 ;
-	:temRelProc :c850.10.005 ;
-	:temRelProc :c850.10.500 ;
-	:temRelProc :c850.10.600 ;
-	:temRelProc :c850.10.601 ;
-	:temRelProc :c900.10.501 ;
+	:eCruzadoCom :c150.10.500 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eCruzadoCom :c150.20.102 ;
+	:eCruzadoCom :c300.40.508 ;
+	:eSucessorDe :c300.40.510 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eCruzadoCom :c400.10.609 ;
+	:eAntecessorDe :c400.10.610 ;
+	:eCruzadoCom :c400.10.614 ;
+	:eSucessorDe :c450.30.002 ;
+	:eAntecessorDe :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c750.10.002 ;
+	:eSucessorDe :c750.10.601 ;
+	:eSucessorDe :c750.20.001 ;
+	:eAntecessorDe :c750.20.300 ;
+	:eAntecessorDe :c750.30.001 ;
+	:eAntecessorDe :c800.10.302 ;
+	:eAntecessorDe :c800.10.609 ;
+	:eComplementarDe :c850.10.002 ;
+	:eCruzadoCom :c850.10.003 ;
+	:eCruzadoCom :c850.10.005 ;
+	:eCruzadoCom :c850.10.500 ;
+	:eCruzadoCom :c850.10.600 ;
+	:eCruzadoCom :c850.10.601 ;
+	:eCruzadoCom :c900.10.501 ;
 	:temLegislacao :leg_1007 ;
 	:temLegislacao :leg_779 ;
 	:temLegislacao :leg_236 ;

@@ -42,15 +42,15 @@
 	:NotaAplicacao ;
 	:conteudo "Referenciação dos doentes".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_3
-:na_c700.10_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Referenciação de colheitas e transplantes".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_2
 :na_c700.10_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Organização do transporte de doentes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_3
+:na_c700.10_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Referenciação de colheitas e transplantes".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_4
 :na_c700.10_4 rdf:type owl:NamedIndividual ,
@@ -120,19 +120,19 @@
 	:temNotaAplicacao :na_c700.10.001_3 ;
 	:temNotaAplicacao :na_c700.10.001_4 ;
 	:temNotaAplicacao :na_c700.10.001_5 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.501 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.10.008 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.402 ;
-	:temRelProc :c700.20.404 ;
-	:temRelProc :c800.10.300 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.501 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c300.10.008 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eSintetizadoPor :c700.20.200 ;
+	:eSintetizadoPor :c700.20.402 ;
+	:eSintetizadoPor :c700.20.404 ;
+	:eAntecessorDe :c800.10.300 ;
 	:temLegislacao :leg_1383 ;
 	:temLegislacao :leg_1133 ;
 	:temLegislacao :leg_472 ;
@@ -158,23 +158,23 @@ Inclui identificação do utente, avaliação clinica da necessidade da consulta
 	:temParticipanteDecisor :org_ACES ;
 	:temDono :org_UPCS ;
 	:temNotaExclusao :ne_c700.10.002_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.501 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.400 ;
-	:temRelProc :c700.20.402 ;
-	:temRelProc :c700.20.404 ;
-	:temRelProc :c700.20.407 ;
-	:temRelProc :c700.20.500 ;
-	:temRelProc :c700.20.600 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.501 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eSintetizadoPor :c700.20.200 ;
+	:eSintetizadoPor :c700.20.300 ;
+	:eSintetizadoPor :c700.20.400 ;
+	:eSintetizadoPor :c700.20.402 ;
+	:eSintetizadoPor :c700.20.404 ;
+	:eSintetizadoPor :c700.20.407 ;
+	:eSintetizadoPor :c700.20.500 ;
+	:eSintetizadoPor :c700.20.600 ;
 	:temLegislacao :leg_505 ;
 	:temLegislacao :leg_1260 ;
 	:temLegislacao :leg_657 ;
@@ -250,14 +250,14 @@ Incluí inscrição dos utentes através da plataforma para a gestão de inscrit
 	:temDono :org_HH ;
 	:temNotaAplicacao :na_c700.10.004_1 ;
 	:temNotaExclusao :ne_c700.10.004_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c450.30.500 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c700.10.001 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.10.002 ;
-	:temRelProc :c700.10.003 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c400.10.040 ;
+	:eCruzadoCom :c450.30.500 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c700.10.001 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.10.002 ;
+	:eCruzadoCom :c700.10.003 ;
 	:temLegislacao :leg_814 ;
 	:classeStatus "A" ;
 	:descricao "Inscrição de utilizadores de unidades de saúde privadas ou de caráter social.
@@ -298,9 +298,9 @@ Inclui identificação de utilizador, verificação do sistema de apoio à doen�
 	:temNotaAplicacao :na_c700.10.005_2 ;
 	:temNotaAplicacao :na_c700.10.005_3 ;
 	:temNotaExclusao :ne_c700.10.005_1 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c250.20.001 ;
-	:temRelProc :c700.10.006 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c700.10.006 ;
 	:temLegislacao :leg_184 ;
 	:temLegislacao :leg_814 ;
 	:classeStatus "A" ;
@@ -386,9 +386,9 @@ Inclui integração de informação clinica, resumo médico com os dados clínic
 	:temNotaAplicacao :na_c700.10.500_1 ;
 	:temNotaExclusao :ne_c700.10.500_1 ;
 	:temNotaExclusao :ne_c700.10.500_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c700.10.501 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c700.10.501 ;
 	:classeStatus "A" ;
 	:descricao "Inscrição de animais em hospitais e clinicas veterinárias. 
 Inicia com a manifestação do interesse ou necessidade de utilização de uma unidade de saúde veterinária e termina com o fim do interesse ou necessidade.
@@ -417,9 +417,9 @@ Inclui identificação do animal e registo de dados.".
 	:temDono :org_PSP ;
 	:temNotaExclusao :ne_c700.10.501_1 ;
 	:temNotaExclusao :ne_c700.10.501_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c700.10.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c700.10.500 ;
 	:temRelProc :c700.20.700 ;
 	:temRelProc :c700.20.800 ;
 	:temLegislacao :leg_45 ;
@@ -506,17 +506,17 @@ Compreende, igualmente, os atos clínicos de caráter preventivo (consultas, ras
 	:temNotaAplicacao :na_c700.20.001_3 ;
 	:temNotaAplicacao :na_c700.20.001_4 ;
 	:temNotaExclusao :ne_c700.20.001_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.403 ;
-	:temRelProc :c800.10.607 ;
+	:eSucessorDe :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eSintetizadoPor :c700.20.200 ;
+	:eSintetizadoPor :c700.20.300 ;
+	:eSintetizadoPor :c700.20.403 ;
+	:eCruzadoCom :c800.10.607 ;
 	:temLegislacao :leg_1186 ;
 	:temLegislacao :leg_923 ;
 	:temLegislacao :leg_369 ;
@@ -559,17 +559,17 @@ Inclui consulta do Plano Nacional de Vacinação, verificação das vacinas em f
 	:temNotaAplicacao :na_c700.20.100_1 ;
 	:temNotaAplicacao :na_c700.20.100_2 ;
 	:temNotaExclusao :ne_c700.20.100_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c150.20.501 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c800.10.300 ;
-	:temRelProc :c800.10.600 ;
-	:temRelProc :c800.10.601 ;
-	:temRelProc :c800.10.607 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.501 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSintetizadoPor :c700.20.200 ;
+	:eCruzadoCom :c800.10.300 ;
+	:eCruzadoCom :c800.10.600 ;
+	:eCruzadoCom :c800.10.601 ;
+	:eCruzadoCom :c800.10.607 ;
 	:temLegislacao :leg_734 ;
 	:temLegislacao :leg_472 ;
 	:temLegislacao :leg_1383 ;
@@ -650,17 +650,17 @@ Inclui realização de testes de saúde, análise dos resultados e eventual enca
 	:temNotaExclusao :ne_c700.20.101_2 ;
 	:temNotaExclusao :ne_c700.20.101_3 ;
 	:temNotaExclusao :ne_c700.20.101_4 ;
-	:temRelProc :c150.10.200 ;
-	:temRelProc :c150.10.300 ;
-	:temRelProc :c150.10.400 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.501 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c700.10.006 ;
+	:eSucessorDe :c150.10.200 ;
+	:eSucessorDe :c150.10.300 ;
+	:eSucessorDe :c150.10.400 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.501 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSintetizadoPor :c700.10.006 ;
 	:temLegislacao :leg_240 ;
 	:temLegislacao :leg_560 ;
 	:classeStatus "A" ;
@@ -715,16 +715,16 @@ Inclui desenvolvimento de atos clínicos e orientação dos utentes em relação
 	:temNotaAplicacao :na_c700.20.102_3 ;
 	:temNotaAplicacao :na_c700.20.102_4 ;
 	:temNotaAplicacao :na_c700.20.102_5 ;
-	:temRelProc :c150.10.200 ;
-	:temRelProc :c150.10.300 ;
-	:temRelProc :c150.10.400 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c550.20.006 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.403 ;
+	:eSucessorDe :c150.10.200 ;
+	:eSucessorDe :c150.10.300 ;
+	:eSucessorDe :c150.10.400 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c550.20.006 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.403 ;
 	:temLegislacao :leg_810 ;
 	:classeStatus "A" ;
 	:descricao "Cuidados de prevenção secundária de saúde através da realização de atos de assistência médica no âmbito das competências profissionais do médico de saúde pública.
@@ -790,29 +790,29 @@ Inclui ativação de meios de prevenção e relato de resultados. ".
 	:temNotaAplicacao :na_c700.20.200_6 ;
 	:temNotaAplicacao :na_c700.20.200_7 ;
 	:temNotaExclusao :ne_c700.20.200_1 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c150.20.501 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c400.10.036 ;
-	:temRelProc :c400.10.037 ;
-	:temRelProc :c400.10.038 ;
-	:temRelProc :c400.10.039 ;
-	:temRelProc :c450.30.504 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c700.10.001 ;
-	:temRelProc :c700.10.002 ;
-	:temRelProc :c700.10.003 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.20.001 ;
-	:temRelProc :c700.20.100 ;
-	:temRelProc :c700.20.404 ;
-	:temRelProc :c700.20.406 ;
-	:temRelProc :c700.20.407 ;
-	:temRelProc :c700.20.500 ;
-	:temRelProc :c700.20.600 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.501 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c400.10.036 ;
+	:eCruzadoCom :c400.10.037 ;
+	:eCruzadoCom :c400.10.038 ;
+	:eCruzadoCom :c400.10.039 ;
+	:eComplementarDe :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.001 ;
+	:eSinteseDe :c700.10.002 ;
+	:eSinteseDe :c700.10.003 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eSinteseDe :c700.20.001 ;
+	:eSinteseDe :c700.20.100 ;
+	:eCruzadoCom :c700.20.404 ;
+	:eCruzadoCom :c700.20.406 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eCruzadoCom :c700.20.500 ;
+	:eCruzadoCom :c700.20.600 ;
 	:temLegislacao :leg_103 ;
 	:temLegislacao :leg_362 ;
 	:temLegislacao :leg_103 ;
@@ -860,27 +860,27 @@ Inclui elaboração de diagnóstico, aplicação de fármacos, registo dos atos 
 	:temNotaAplicacao :na_c700.20.300_2 ;
 	:temNotaAplicacao :na_c700.20.300_3 ;
 	:temNotaExclusao :ne_c700.20.300_1 ;
-	:temRelProc :c400.10.036 ;
-	:temRelProc :c400.10.037 ;
-	:temRelProc :c400.10.038 ;
-	:temRelProc :c400.10.039 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c450.30.504 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c550.20.500 ;
-	:temRelProc :c700.10.002 ;
-	:temRelProc :c700.10.003 ;
-	:temRelProc :c700.20.001 ;
-	:temRelProc :c700.20.102 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.20.400 ;
-	:temRelProc :c700.20.402 ;
-	:temRelProc :c700.20.403 ;
-	:temRelProc :c700.20.406 ;
-	:temRelProc :c700.20.407 ;
-	:temRelProc :c700.20.500 ;
-	:temRelProc :c700.20.600 ;
+	:eCruzadoCom :c400.10.036 ;
+	:eCruzadoCom :c400.10.037 ;
+	:eCruzadoCom :c400.10.038 ;
+	:eCruzadoCom :c400.10.039 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c550.20.500 ;
+	:eCruzadoCom :c700.10.002 ;
+	:eSinteseDe :c700.10.003 ;
+	:eSinteseDe :c700.20.001 ;
+	:eSucessorDe :c700.20.102 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eSinteseDe :c700.20.406 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eCruzadoCom :c700.20.500 ;
+	:eCruzadoCom :c700.20.600 ;
 	:temLegislacao :leg_975 ;
 	:temLegislacao :leg_472 ;
 	:temLegislacao :leg_1383 ;
@@ -901,6 +901,11 @@ Inclui registo sonoro do pedido e respetivo atendimento, eventual reencaminhamen
 	:NotaAplicacao ;
 	:conteudo "Internamento compulsivo".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.401_2
+:na_c700.20.401_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Cedência de medicação a utentes em ambulatório".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c700.20.400
 :c700.20.400 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -913,27 +918,27 @@ Inclui registo sonoro do pedido e respetivo atendimento, eventual reencaminhamen
 	:temDono :org_HH ;
 	:temNotaAplicacao :na_c700.20.400_1 ;
 	:temNotaAplicacao :na_c700.20.400_2 ;
-	:temRelProc :c400.10.036 ;
-	:temRelProc :c400.10.037 ;
-	:temRelProc :c400.10.038 ;
-	:temRelProc :c400.10.036 ;
-	:temRelProc :c400.10.037 ;
-	:temRelProc :c400.10.038 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c700.10.002 ;
-	:temRelProc :c700.10.003 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.401 ;
-	:temRelProc :c700.20.402 ;
-	:temRelProc :c700.20.403 ;
-	:temRelProc :c700.20.404 ;
-	:temRelProc :c700.20.405 ;
-	:temRelProc :c700.20.406 ;
-	:temRelProc :c700.20.407 ;
-	:temRelProc :c700.20.500 ;
-	:temRelProc :c700.20.600 ;
+	:eCruzadoCom :c400.10.036 ;
+	:eCruzadoCom :c400.10.037 ;
+	:eCruzadoCom :c400.10.038 ;
+	:eCruzadoCom :c400.10.036 ;
+	:eCruzadoCom :c400.10.037 ;
+	:eComplementarDe :c400.10.038 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.002 ;
+	:eCruzadoCom :c700.10.003 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eCruzadoCom :c700.20.404 ;
+	:eCruzadoCom :c700.20.405 ;
+	:eSinteseDe :c700.20.406 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eCruzadoCom :c700.20.500 ;
+	:eCruzadoCom :c700.20.600 ;
 	:temLegislacao :leg_648 ;
 	:temLegislacao :leg_472 ;
 	:temLegislacao :leg_1383 ;
@@ -956,11 +961,6 @@ Inclui registo sonoro do pedido e respetivo atendimento, eventual reencaminhamen
 	:NotaAplicacao ;
 	:conteudo "Cirurgias em que a admissão, intervenção cirúrgica e alta hospitalar para o domicílio ou para unidade não abrangida pelos serviços de saúde, não requerem que o doente pernoite no hospital".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.401_2
-:na_c700.20.401_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Cedência de medicação a utentes em ambulatório".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.401_1
 :ne_c700.20.401_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -979,21 +979,21 @@ Inclui registo sonoro do pedido e respetivo atendimento, eventual reencaminhamen
 	:temNotaAplicacao :na_c700.20.401_1 ;
 	:temNotaAplicacao :na_c700.20.401_2 ;
 	:temNotaExclusao :ne_c700.20.401_1 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c450.30.504 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c700.10.003 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.400 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.402 ;
-	:temRelProc :c700.20.403 ;
-	:temRelProc :c700.20.404 ;
-	:temRelProc :c700.20.405 ;
-	:temRelProc :c700.20.407 ;
-	:temRelProc :c700.20.500 ;
-	:temRelProc :c700.20.600 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.003 ;
+	:eSinteseDe :c700.10.006 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eCruzadoCom :c700.20.404 ;
+	:eCruzadoCom :c700.20.405 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eCruzadoCom :c700.20.500 ;
+	:eCruzadoCom :c700.20.600 ;
 	:temLegislacao :leg_744 ;
 	:temLegislacao :leg_472 ;
 	:temLegislacao :leg_1383 ;
@@ -1005,15 +1005,15 @@ Inclui registo sonoro do pedido e respetivo atendimento, eventual reencaminhamen
 Inicia com a consulta pré-operatória e termina com a emissão da alta hospitalar.
 Incluí todos os actos praticados no âmbito da atividade no hospital e o registo dos actos praticados no sistema de informação.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_2
-:na_c700.20.402_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Consultas de medicina do trabalho".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_1
 :na_c700.20.402_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Consultas subsequentes, teleconsultas e consultas domiciliárias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_2
+:na_c700.20.402_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Consultas de medicina do trabalho".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_3
 :na_c700.20.402_3 rdf:type owl:NamedIndividual ,
@@ -1040,22 +1040,22 @@ Incluí todos os actos praticados no âmbito da atividade no hospital e o regist
 	:temNotaAplicacao :na_c700.20.402_2 ;
 	:temNotaAplicacao :na_c700.20.402_3 ;
 	:temNotaAplicacao :na_c700.20.402_4 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c450.30.504 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c700.10.001 ;
-	:temRelProc :c700.10.002 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.10.003 ;
-	:temRelProc :c700.10.004 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.401 ;
-	:temRelProc :c700.20.403 ;
-	:temRelProc :c700.20.404 ;
-	:temRelProc :c700.20.405 ;
-	:temRelProc :c700.20.407 ;
-	:temRelProc :c700.20.500 ;
-	:temRelProc :c700.20.600 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.001 ;
+	:eCruzadoCom :c700.10.002 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.10.003 ;
+	:eCruzadoCom :c700.10.004 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eCruzadoCom :c700.20.404 ;
+	:eCruzadoCom :c700.20.405 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eCruzadoCom :c700.20.500 ;
+	:eCruzadoCom :c700.20.600 ;
 	:temLegislacao :leg_744 ;
 	:temLegislacao :leg_472 ;
 	:temLegislacao :leg_1383 ;
@@ -1077,25 +1077,25 @@ Inclui o registo dos atos praticados no sistema de informação.
 	:processoTransversal "S" ;
 	:temParticipanteComunicador :org_UPCS ;
 	:temDono :org_HH ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c400.10.036 ;
-	:temRelProc :c400.10.037 ;
-	:temRelProc :c400.10.038 ;
-	:temRelProc :c400.10.039 ;
-	:temRelProc :c450.30.504 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.20.001 ;
-	:temRelProc :c700.20.102 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.400 ;
-	:temRelProc :c700.20.401 ;
-	:temRelProc :c700.20.402 ;
-	:temRelProc :c700.20.404 ;
-	:temRelProc :c700.20.406 ;
-	:temRelProc :c700.20.407 ;
-	:temRelProc :c700.20.500 ;
-	:temRelProc :c700.20.600 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c400.10.036 ;
+	:eCruzadoCom :c400.10.037 ;
+	:eCruzadoCom :c400.10.038 ;
+	:eCruzadoCom :c400.10.039 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eSinteseDe :c700.20.001 ;
+	:eSinteseDe :c700.20.102 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.404 ;
+	:eSinteseDe :c700.20.406 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eCruzadoCom :c700.20.500 ;
+	:eCruzadoCom :c700.20.600 ;
 	:temLegislacao :leg_744 ;
 	:temLegislacao :leg_472 ;
 	:temLegislacao :leg_1383 ;
@@ -1184,27 +1184,27 @@ Inicia com o encaminhamento do utente para as sessões e termina com a alta, ou 
 	:temParticipanteApreciador :org_ACSS ;
 	:temParticipanteComunicador :org_ARS ;
 	:temDono :org_HH ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.20.400 ;
-	:temRelProc :c700.20.401 ;
-	:temRelProc :c700.20.402 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.402 ;
 	:temLegislacao :leg_123 ;
 	:classeStatus "A" ;
 	:descricao "Cuidados de saúde hospitalares especializados prestados no estrangeiro que, por falta de meios técnicos ou humanos, não possam ser prestados em Portugal.
 Inicia com a assunção de que o país não dispõe de condições para tratar o doente e que o mesmo pode ser referenciado para outro país e termina com o regresso do utente ao país.
 Inclui os procedimentos específicos definidos na lei, nomeadamente, o relatório clínico, o parecer da Comissão de Assessoria Técnica e a decisão final da autoridade de saúde competente.  
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.406_1
-:na_c700.20.406_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Execução de programas verticais Hospitalares".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.406_2
 :na_c700.20.406_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Execução de atividades incluidas no Contrato-Programa".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.406_1
+:na_c700.20.406_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Execução de programas verticais Hospitalares".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c700.20.406
 :c700.20.406 rdf:type owl:NamedIndividual ,
@@ -1219,15 +1219,15 @@ Inclui os procedimentos específicos definidos na lei, nomeadamente, o relatóri
 	:temDono :org_HH ;
 	:temNotaAplicacao :na_c700.20.406_1 ;
 	:temNotaAplicacao :na_c700.20.406_2 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c150.10.600 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.400 ;
-	:temRelProc :c700.20.403 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eSintetizadoPor :c700.20.300 ;
+	:eSintetizadoPor :c700.20.400 ;
+	:eSintetizadoPor :c700.20.403 ;
 	:temLegislacao :leg_472 ;
 	:temLegislacao :leg_1383 ;
 	:temLegislacao :leg_222 ;
@@ -1256,19 +1256,19 @@ Incluí todos os atos necessários ao tratamento.
 	:temParticipanteDecisor :org_ACSS ;
 	:temDono :org_UPCS ;
 	:temNotaExclusao :ne_c700.20.407_1 ;
-	:temRelProc :c650.20.306 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c450.30.504 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c700.10.002 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.400 ;
-	:temRelProc :c700.20.401 ;
-	:temRelProc :c700.20.402 ;
-	:temRelProc :c700.20.403 ;
-	:temRelProc :c700.20.404 ;
+	:eCruzadoCom :c650.20.306 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.002 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eCruzadoCom :c700.20.404 ;
 	:temLegislacao :leg_1294 ;
 	:temLegislacao :leg_1260 ;
 	:temLegislacao :leg_472 ;
@@ -1300,18 +1300,18 @@ Inclui o diagnóstico e todos os atos necessários ao tratamento.
 	:temParticipanteDecisor :org_ACSS ;
 	:temDono :org_UPCS ;
 	:temNotaExclusao :ne_c700.20.500_1 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c450.30.504 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c700.10.002 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.400 ;
-	:temRelProc :c700.20.401 ;
-	:temRelProc :c700.20.402 ;
-	:temRelProc :c700.20.403 ;
-	:temRelProc :c700.20.404 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.002 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eCruzadoCom :c700.20.404 ;
 	:temLegislacao :leg_1294 ;
 	:temLegislacao :leg_1260 ;
 	:temLegislacao :leg_472 ;
@@ -1348,18 +1348,18 @@ Inclui, o diagnóstico e definição das diferentes patologias, a identificaçã
 	:temDono :org_UPCS ;
 	:temNotaAplicacao :na_c700.20.600_1 ;
 	:temNotaAplicacao :na_c700.20.600_2 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c450.30.504 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c700.10.002 ;
-	:temRelProc :c700.10.006 ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.400 ;
-	:temRelProc :c700.20.401 ;
-	:temRelProc :c700.20.402 ;
-	:temRelProc :c700.20.403 ;
-	:temRelProc :c700.20.404 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.002 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eCruzadoCom :c700.20.404 ;
 	:temLegislacao :leg_1260 ;
 	:temLegislacao :leg_472 ;
 	:temLegislacao :leg_1383 ;
@@ -1371,15 +1371,15 @@ Inclui, o diagnóstico e definição das diferentes patologias, a identificaçã
 Inicia com a referenciação à unidade e termina quando a equipa finaliza o acompanhamento.
 Inclui o diagnóstico e todos os atos necessários ao tratamento.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_1
-:na_c700.20.700_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Vacinação de animais em Centros de Recuperação de Animais Selvagens não abertos ao público".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_2
 :na_c700.20.700_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Vacinação de animais domésticos ou de companhia".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_1
+:na_c700.20.700_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Vacinação de animais em Centros de Recuperação de Animais Selvagens não abertos ao público".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_3
 :na_c700.20.700_3 rdf:type owl:NamedIndividual ,
@@ -1419,15 +1419,15 @@ Inclui o diagnóstico e todos os atos necessários ao tratamento.
 	:descricao "Cuidados de prevenção primária de saúde praticados em espécies animais ao longo da sua vida com o objetivo de imunização.
 Inicia com o pedido ou com a verificação da necessidade de vacina e termina com a administração da mesma.
 Inclui verificação das vacinas em falta ou necessárias e registo da vacina administrada.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.701_1
-:na_c700.20.701_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Recolha de animais vadios com suspeita de raiva ou com doença terminal".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.701_2
 :na_c700.20.701_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Recolha de animais com dono com suspeita de raiva ou com doença terminal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.701_1
+:na_c700.20.701_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Recolha de animais vadios com suspeita de raiva ou com doença terminal".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.701_1
 :ne_c700.20.701_1 rdf:type owl:NamedIndividual ,
@@ -1455,14 +1455,14 @@ Inclui verificação das vacinas em falta ou necessárias e registo da vacina ad
 	:temNotaAplicacao :na_c700.20.701_2 ;
 	:temNotaExclusao :ne_c700.20.701_1 ;
 	:temNotaExclusao :ne_c700.20.701_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.400 ;
-	:temRelProc :c400.10.402 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c700.20.901 ;
-	:temRelProc :c710.10.300 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.400 ;
+	:eSintetizadoPor :c400.10.402 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c700.20.901 ;
+	:eCruzadoCom :c710.10.300 ;
 	:temLegislacao :leg_1370 ;
 	:temLegislacao :leg_1142 ;
 	:temLegislacao :leg_392 ;

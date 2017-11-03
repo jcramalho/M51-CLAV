@@ -91,15 +91,15 @@
 	:ExemploNotaAplicacao ;
 	:conteudo "Escola segura".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_3
-:exna_c550.10_3 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Programa de proteção de idosos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_4
 :exna_c550.10_4 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Manifestações".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_3
+:exna_c550.10_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Programa de proteção de idosos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_5
 :exna_c550.10_5 rdf:type owl:NamedIndividual ,
@@ -287,23 +287,23 @@ Compreende, ainda, as atividades de prestação das honras de Estado.".
 	:temNotaExclusao :ne_c550.10.001_3 ;
 	:temNotaExclusao :ne_c550.10.001_4 ;
 	:temNotaExclusao :ne_c550.10.001_5 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c450.10.213 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c500.20.300 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c900.10.001 ;
-	:temRelProc :c900.10.002 ;
-	:temRelProc :c900.10.500 ;
-	:temRelProc :c900.20.601 ;
-	:temRelProc :c900.20.602 ;
-	:temRelProc :c950.20.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.30.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eSucessorDe :c450.10.213 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eSuplementoPara :c500.20.300 ;
+	:eSuplementoPara :c500.30.001 ;
+	:eAntecessorDe :c600.10.500 ;
+	:eCruzadoCom :c900.10.001 ;
+	:eCruzadoCom :c900.10.002 ;
+	:eSucessorDe :c900.10.500 ;
+	:eCruzadoCom :c900.20.601 ;
+	:eSuplementoPara :c900.20.602 ;
+	:eAntecessorDe :c950.20.600 ;
 	:temLegislacao :leg_1387 ;
 	:temLegislacao :leg_1011 ;
 	:temLegislacao :leg_706 ;
@@ -358,20 +358,20 @@ Inclui indicação do pagamento do serviço, quando devido, alocação de meios 
 	:temNotaExclusao :ne_c550.10.002_1 ;
 	:temNotaExclusao :ne_c550.10.002_2 ;
 	:temNotaExclusao :ne_c550.10.002_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.10.213 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c500.20.300 ;
-	:temRelProc :c550.10.600 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c900.10.001 ;
-	:temRelProc :c950.20.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.30.001 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c450.10.213 ;
+	:eComplementarDe :c500.10.001 ;
+	:eAntecessorDe :c500.30.001 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eSuplementoPara :c500.20.300 ;
+	:eSuplementoPara :c550.10.600 ;
+	:eAntecessorDe :c600.10.500 ;
+	:eCruzadoCom :c900.10.001 ;
+	:eSucessorDe :c950.20.600 ;
 	:temLegislacao :leg_1387 ;
 	:temLegislacao :leg_1011 ;
 	:temLegislacao :leg_683 ;
@@ -387,7 +387,7 @@ Inclui indicação do pagamento do serviço, quando devido, diagnóstico de segu
 	:codigo "550.10.002.01";
 	:titulo "Ação de segurança a eventos de alto risco: preparação";
 	:temPai :c550.10.002 ;
-	:temRelProc :c550.10.002.02 ;
+	:eSintetizadoPor :c550.10.002.02 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com planeamento da ação ou com a comunicação da requisição e termina a definição da atuação.
 Inclui o diagnóstico de segurança e avaliação de risco.".
@@ -397,7 +397,7 @@ Inclui o diagnóstico de segurança e avaliação de risco.".
 	:codigo "550.10.002.02";
 	:titulo "Ação de segurança a eventos de alto risco: realização e registo";
 	:temPai :c550.10.002 ;
-	:temRelProc :c550.10.002.01 ;
+	:eSintetizadoPor :c550.10.002.01 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com a operacionalização e termina com a aprovação do relato da operação.
 Inclui articulação das forças de segurança, emissão de alerta aquando da deteção de anomalias, elaboração e atualização do relato de operações.".
@@ -454,19 +454,19 @@ Inclui articulação das forças de segurança, emissão de alerta aquando da de
 	:temNotaAplicacao :na_c550.10.004_4 ;
 	:temNotaExclusao :ne_c550.10.004_1 ;
 	:temNotaExclusao :ne_c550.10.004_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c500.20.300 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c500.30.500 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c950.20.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.30.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eSuplementoPara :c500.20.300 ;
+	:eAntecessorDe :c500.30.001 ;
+	:eCruzadoCom :c500.30.500 ;
+	:eCruzadoCom :c600.10.500 ;
+	:eSucessorDe :c950.20.600 ;
 	:temLegislacao :leg_1147 ;
 	:temLegislacao :leg_1068 ;
 	:temLegislacao :leg_930 ;
@@ -511,25 +511,25 @@ Inclui o planeamento das condições de segurança, autorização, indicação d
 	:temNotaAplicacao :na_c550.10.005_1 ;
 	:temNotaExclusao :ne_c550.10.005_1 ;
 	:temNotaExclusao :ne_c550.10.005_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c500.20.300 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c550.10.009 ;
-	:temRelProc :c550.10.011 ;
-	:temRelProc :c550.20.001 ;
-	:temRelProc :c550.20.006 ;
-	:temRelProc :c550.20.501 ;
-	:temRelProc :c550.30.003 ;
-	:temRelProc :c550.30.005 ;
-	:temRelProc :c550.30.200 ;
-	:temRelProc :c550.30.400 ;
-	:temRelProc :c600.10.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eSuplementoPara :c500.20.300 ;
+	:eAntecessorDe :c500.30.001 ;
+	:eCruzadoCom :c550.10.009 ;
+	:eCruzadoCom :c550.10.011 ;
+	:eAntecessorDe :c550.20.001 ;
+	:eAntecessorDe :c550.20.006 ;
+	:eAntecessorDe :c550.20.501 ;
+	:eCruzadoCom :c550.30.003 ;
+	:eCruzadoCom :c550.30.005 ;
+	:eCruzadoCom :c550.30.200 ;
+	:eCruzadoCom :c550.30.400 ;
+	:eAntecessorDe :c600.10.500 ;
 	:temLegislacao :leg_611 ;
 	:temLegislacao :leg_616 ;
 	:classeStatus "A" ;
@@ -569,15 +569,15 @@ Inclui, no âmbito de cada ação, a planificação, a análise do grau de amea�
 	:temNotaAplicacao :na_c550.10.006_1 ;
 	:temNotaExclusao :ne_c550.10.006_1 ;
 	:temNotaExclusao :ne_c550.10.006_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c500.20.300 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c600.10.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eCruzadoCom :c150.40.500 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eSuplementoPara :c500.20.300 ;
+	:eAntecessorDe :c500.30.001 ;
+	:eAntecessorDe :c600.10.500 ;
 	:temLegislacao :leg_616 ;
 	:temLegislacao :leg_611 ;
 	:classeStatus "A" ;
@@ -608,13 +608,13 @@ Inclui análise de grau de ameaça, avaliação de risco e alternativa de atuaç
 	:temDono :org_GNR ;
 	:temNotaAplicacao :na_c550.10.007_1 ;
 	:temNotaAplicacao :na_c550.10.007_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c900.10.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eAntecessorDe :c600.10.500 ;
+	:eCruzadoCom :c900.10.500 ;
 	:temLegislacao :leg_960 ;
 	:temLegislacao :leg_616 ;
 	:classeStatus "A" ;
@@ -681,19 +681,19 @@ Inclui a realização da ação.
 	:temNotaExclusao :ne_c550.10.008_1 ;
 	:temNotaExclusao :ne_c550.10.008_2 ;
 	:temNotaExclusao :ne_c550.10.008_3 ;
-	:temRelProc :c150.20.103 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c500.30.005 ;
-	:temRelProc :c500.30.006 ;
-	:temRelProc :c500.30.500 ;
-	:temRelProc :c550.10.009 ;
-	:temRelProc :c550.10.305 ;
-	:temRelProc :c550.10.306 ;
-	:temRelProc :c550.30.200 ;
-	:temRelProc :c550.30.400 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.40.300 ;
+	:eSucessorDe :c150.20.103 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eCruzadoCom :c500.30.001 ;
+	:eCruzadoCom :c500.30.005 ;
+	:eCruzadoCom :c500.30.006 ;
+	:eCruzadoCom :c500.30.500 ;
+	:eCruzadoCom :c550.10.009 ;
+	:eAntecessorDe :c550.10.305 ;
+	:eCruzadoCom :c550.10.306 ;
+	:eCruzadoCom :c550.30.200 ;
+	:eCruzadoCom :c550.30.400 ;
+	:eSucessorDe :c600.10.500 ;
+	:eCruzadoCom :c600.40.300 ;
 	:temLegislacao :leg_1030 ;
 	:temLegislacao :leg_602 ;
 	:temLegislacao :leg_554 ;
@@ -774,15 +774,15 @@ Inclui eventual cooperação com outras entidades, com elaboração de planos de
 	:temNotaAplicacao :na_c550.10.009_5 ;
 	:temNotaExclusao :ne_c550.10.009_1 ;
 	:temNotaExclusao :ne_c550.10.009_2 ;
-	:temRelProc :c150.20.103 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c200.10.001 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c550.10.005 ;
-	:temRelProc :c550.10.008 ;
-	:temRelProc :c800.10.602 ;
-	:temRelProc :c600.10.500 ;
+	:eSucessorDe :c150.20.103 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.30.001 ;
+	:eSucessorDe :c200.10.001 ;
+	:eSintetizadoPor :c300.10.005 ;
+	:eCruzadoCom :c550.10.005 ;
+	:eCruzadoCom :c550.10.008 ;
+	:eSintetizadoPor :c800.10.602 ;
+	:eAntecessorDe :c600.10.500 ;
 	:temLegislacao :leg_1241 ;
 	:temLegislacao :leg_1171 ;
 	:temLegislacao :leg_819 ;
@@ -814,15 +814,15 @@ Inclui a operacionalização da missão.".
 	:NotaAplicacao ;
 	:conteudo "Revista pessoal (em contexto prisional)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_6
-:na_c550.10.010_6 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Recurso a meios cinotécnicos e de videovigilância (em contexto prisional)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_5
 :na_c550.10.010_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Busca (em contexto prisional)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_6
+:na_c550.10.010_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Recurso a meios cinotécnicos e de videovigilância (em contexto prisional)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_7
 :na_c550.10.010_7 rdf:type owl:NamedIndividual ,
@@ -876,12 +876,12 @@ Inclui a operacionalização da missão.".
 	:temNotaAplicacao :na_c550.10.010_10 ;
 	:temNotaAplicacao :na_c550.10.010_11 ;
 	:temNotaAplicacao :na_c550.10.010_12 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c500.20 ;
-	:temRelProc :c600.40.001 ;
-	:temRelProc :c600.40.002 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c500.20 ;
+	:eCruzadoCom :c600.40.001 ;
+	:eCruzadoCom :c600.40.002 ;
 	:temLegislacao :leg_1147 ;
 	:temLegislacao :leg_930 ;
 	:temLegislacao :leg_818 ;
@@ -913,14 +913,14 @@ Inclui o controlo de visitantes efetuado no momento de entrada e saída no estab
 	:temDono :org_CNCS ;
 	:temNotaAplicacao :na_c550.10.011_1 ;
 	:temNotaExclusao :ne_c550.10.011_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c550.10.005 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c500.20.300 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c550.30.002 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.30.001 ;
+	:eCruzadoCom :c550.10.005 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eSuplementoPara :c500.20.300 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eCruzadoCom :c550.30.002 ;
 	:temLegislacao :leg_1374 ;
 	:temLegislacao :leg_1059 ;
 	:temLegislacao :leg_611 ;
@@ -1004,16 +1004,16 @@ Inclui a prevenção, monotorização, análise de risco, a deteção de intrus�
 	:temNotaExclusao :ne_c550.10.300_3 ;
 	:temNotaExclusao :ne_c550.10.300_4 ;
 	:temNotaExclusao :ne_c550.10.300_5 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c450.10.063 ;
-	:temRelProc :c450.10.213 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c500.20.300 ;
-	:temRelProc :c800.10.302 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSucessorDe :c450.10.063 ;
+	:eSucessorDe :c450.10.213 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eSuplementoPara :c500.20.300 ;
+	:eSuplementoPara :c800.10.302 ;
 	:temLegislacao :leg_478 ;
 	:temLegislacao :leg_455 ;
 	:temLegislacao :leg_196 ;
@@ -1051,11 +1051,11 @@ Inclui diagnóstico, desenho do projeto, a indicação do cadastro da sinalétic
 	:temNotaAplicacao :na_c550.10.301_1 ;
 	:temNotaAplicacao :na_c550.10.301_2 ;
 	:temNotaAplicacao :na_c550.10.301_3 ;
-	:temRelProc :c500.30.005 ;
-	:temRelProc :c500.30.006 ;
-	:temRelProc :c500.30.500 ;
-	:temRelProc :c550.10.303 ;
-	:temRelProc :c550.10.306 ;
+	:eCruzadoCom :c500.30.005 ;
+	:eCruzadoCom :c500.30.006 ;
+	:eAntecessorDe :c500.30.500 ;
+	:eSucessorDe :c550.10.303 ;
+	:eSucessorDe :c550.10.306 ;
 	:temLegislacao :leg_1030 ;
 	:temLegislacao :leg_602 ;
 	:temLegislacao :leg_554 ;
@@ -1081,9 +1081,9 @@ Inclui a apreciação das condições do titular por parte das autoridades que e
 	:processoTransversal "N" ;
 	:temDono :org_SEF ;
 	:temNotaAplicacao :na_c550.10.302_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c500.30.006 ;
-	:temRelProc :c600.40.300 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSucessorDe :c500.30.006 ;
+	:eSucessorDe :c600.40.300 ;
 	:temLegislacao :leg_1030 ;
 	:temLegislacao :leg_602 ;
 	:temLegislacao :leg_554 ;
@@ -1123,15 +1123,15 @@ Inclui preenchimento do pedido de autorização de trânsito aeroportuário.
 	:NotaAplicacao ;
 	:conteudo "Vítimas de tráfico de seres humanos ou de auxílio à emigração ilegal".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.303_7
-:na_c550.10.303_7 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Reagrupamento familiar".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.303_1
 :ne_c550.10.303_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "Os pedidos de nacionais de um Estado-membro da UE, de um Estado parte do EEE, nacionais de Estados terceiros, familiares de cidadão português e nacionais de Estados terceiros que residam em território nacional na qualidade de refugiados, beneficiários de proteção subsidiária prevista na legislação do asilo ou beneficiários de proteção temporária, devem ser considerados em 550.10.305 – Processamento de pedidos de asilo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.303_7
+:na_c550.10.303_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reagrupamento familiar".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c550.10.303
 :c550.10.303 rdf:type owl:NamedIndividual ,
@@ -1150,17 +1150,17 @@ Inclui preenchimento do pedido de autorização de trânsito aeroportuário.
 	:temNotaAplicacao :na_c550.10.303_6 ;
 	:temNotaAplicacao :na_c550.10.303_7 ;
 	:temNotaExclusao :ne_c550.10.303_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c400.10.025 ;
-	:temRelProc :c400.10.026 ;
-	:temRelProc :c400.10.028 ;
-	:temRelProc :c400.10.029 ;
-	:temRelProc :c500.30.005 ;
-	:temRelProc :c500.30.006 ;
-	:temRelProc :c500.30.500 ;
-	:temRelProc :c550.10.301 ;
-	:temRelProc :c550.10.304 ;
-	:temRelProc :c550.10.305 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eAntecessorDe :c400.10.025 ;
+	:eAntecessorDe :c400.10.026 ;
+	:eAntecessorDe :c400.10.028 ;
+	:eCruzadoCom :c400.10.029 ;
+	:eAntecessorDe :c500.30.005 ;
+	:eCruzadoCom :c500.30.006 ;
+	:eAntecessorDe :c500.30.500 ;
+	:eSucessorDe :c550.10.301 ;
+	:eAntecessorDe :c550.10.304 ;
+	:eSucessorDe :c550.10.305 ;
 	:temRelProc :c600.40. ;
 	:temLegislacao :leg_1030 ;
 	:temLegislacao :leg_602 ;
@@ -1191,9 +1191,9 @@ Inclui, ainda, cancelamento e renovação.
 	:temDono :org_SEF ;
 	:temNotaAplicacao :na_c550.10.304_1 ;
 	:temNotaExclusao :ne_c550.10.304_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c400.10.029 ;
-	:temRelProc :c550.10.303 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eAntecessorDe :c400.10.029 ;
+	:eAntecessorDe :c550.10.303 ;
 	:temLegislacao :leg_602 ;
 	:classeStatus "A" ;
 	:descricao "Concessão de autorização de caráter excecional a nacionais de países terceiros que não reúnam todos os requisitos para exercício de atividade profissional subordinada, ou independente, para regularização da sua situação em território nacional.
@@ -1226,12 +1226,12 @@ Inclui abertura de procedimento oficioso, análise dos meios de prova relativos 
 	:temDono :org_SEF ;
 	:temNotaAplicacao :na_c550.10.305_1 ;
 	:temNotaAplicacao :na_c550.10.305_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c400.10.028 ;
-	:temRelProc :c400.10.029 ;
-	:temRelProc :c500.30.005 ;
-	:temRelProc :c550.10.008 ;
-	:temRelProc :c550.10.303 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSucessorDe :c400.10.028 ;
+	:eSucessorDe :c400.10.029 ;
+	:eSucessorDe :c500.30.005 ;
+	:eSucessorDe :c550.10.008 ;
+	:eAntecessorDe :c550.10.303 ;
 	:temLegislacao :leg_1230 ;
 	:temLegislacao :leg_702 ;
 	:classeStatus "A" ;
@@ -1261,13 +1261,13 @@ Em caso de admissibilidade do pedido segue-se uma segunda fase do procedimento o
 	:temDono :org_SEF ;
 	:temNotaAplicacao :na_c550.10.306_1 ;
 	:temNotaExclusao :ne_c550.10.306_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c500.30.005 ;
-	:temRelProc :c500.30.006 ;
-	:temRelProc :c500.30.007 ;
-	:temRelProc :c550.10.301 ;
-	:temRelProc :c550.10.008 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eCruzadoCom :c500.30.001 ;
+	:eSucessorDe :c500.30.005 ;
+	:eSucessorDe :c500.30.006 ;
+	:eSucessorDe :c500.30.007 ;
+	:eAntecessorDe :c550.10.301 ;
+	:eCruzadoCom :c550.10.008 ;
 	:temLegislacao :leg_1030 ;
 	:temLegislacao :leg_602 ;
 	:temLegislacao :leg_296 ;
@@ -1398,16 +1398,16 @@ Inclui parecer de avaliação de publicidade, indicação de medida a aplicar, v
 	:temNotaExclusao :ne_c550.10.600_1 ;
 	:temNotaExclusao :ne_c550.10.600_2 ;
 	:temNotaExclusao :ne_c550.10.600_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c500.20.300 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c550.10.002 ;
-	:temRelProc :c600.10.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.30.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c500.30.001 ;
+	:eAntecessorDe :c500.20.300 ;
+	:eAntecessorDe :c500.20.002 ;
+	:eAntecessorDe :c500.20.003 ;
+	:eSuplementoPara :c550.10.002 ;
+	:eAntecessorDe :c600.10.500 ;
 	:temLegislacao :leg_683 ;
 	:temLegislacao :leg_435 ;
 	:temLegislacao :leg_1241 ;
@@ -1427,15 +1427,15 @@ Inclui diagnóstico de situação, operacionalização e atualização do ponto 
 	:NotaAplicacao ;
 	:conteudo "Difusão de alertas de risco (alertas sobre o clima, sismos, estado do mar, incêndios, etc.)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c550.20_3
-:na_c550.20_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Processamento de pedidos de socorro em caso de incêndio, naufrágio, inundação, etc".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.20_2
 :na_c550.20_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Apoio preventivo de bombeiros a espetáculos e eventos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20_3
+:na_c550.20_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Processamento de pedidos de socorro em caso de incêndio, naufrágio, inundação, etc".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.20_4
 :na_c550.20_4 rdf:type owl:NamedIndividual ,
@@ -1555,22 +1555,22 @@ Inclui diagnóstico de situação, operacionalização e atualização do ponto 
 	:temNotaExclusao :ne_c550.20.001_1 ;
 	:temNotaExclusao :ne_c550.20.001_2 ;
 	:temNotaExclusao :ne_c550.20.001_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.40.504 ;
-	:temRelProc :c300.40.507 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c550.10.005 ;
-	:temRelProc :c550.20.002 ;
-	:temRelProc :c550.20.004 ;
-	:temRelProc :c800.10.300 ;
-	:temRelProc :c800.10.301 ;
-	:temRelProc :c800.10.302 ;
-	:temRelProc :c800.10.303 ;
-	:temRelProc :c800.10.304 ;
-	:temRelProc :c800.10.306 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSucessorDe :c300.40.504 ;
+	:eSucessorDe :c300.40.507 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eSucessorDe :c550.10.005 ;
+	:eSucessorDe :c550.20.002 ;
+	:eSucessorDe :c550.20.004 ;
+	:eSucessorDe :c800.10.300 ;
+	:eSucessorDe :c800.10.301 ;
+	:eSucessorDe :c800.10.302 ;
+	:eSucessorDe :c800.10.303 ;
+	:eSucessorDe :c800.10.304 ;
+	:eAntecessorDe :c800.10.306 ;
 	:temLegislacao :leg_932 ;
 	:temLegislacao :leg_618 ;
 	:temLegislacao :leg_563 ;
@@ -1777,13 +1777,13 @@ Inclui emissão de alerta e diagnóstico de situação, quando necessário.".
 	:temNotaExclusao :ne_c550.20.003_1 ;
 	:temNotaExclusao :ne_c550.20.003_2 ;
 	:temNotaExclusao :ne_c550.20.003_3 ;
-	:temRelProc :c150.10.200 ;
-	:temRelProc :c150.10.300 ;
-	:temRelProc :c150.10.400 ;
-	:temRelProc :c150.20.001 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c500.10.001 ;
+	:eSucessorDe :c150.10.200 ;
+	:eSucessorDe :c150.10.300 ;
+	:eSucessorDe :c150.10.400 ;
+	:eSucessorDe :c150.20.001 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_1126 ;
 	:temLegislacao :leg_687 ;
 	:temLegislacao :leg_729 ;
@@ -1839,20 +1839,20 @@ Inclui a produção do relato.".
 	:temNotaAplicacao :na_c550.20.004_1 ;
 	:temNotaAplicacao :na_c550.20.004_2 ;
 	:temNotaExclusao :ne_c550.20.004_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c450.10.221 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c550.20.001 ;
-	:temRelProc :c550.20.500 ;
-	:temRelProc :c900.10.001 ;
-	:temRelProc :c900.10.002 ;
-	:temRelProc :c950.20.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eSucessorDe :c450.10.221 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eAntecessorDe :c550.20.001 ;
+	:eAntecessorDe :c550.20.500 ;
+	:eCruzadoCom :c900.10.001 ;
+	:eAntecessorDe :c900.10.002 ;
+	:eAntecessorDe :c950.20.600 ;
 	:temLegislacao :leg_354 ;
 	:temLegislacao :leg_799 ;
 	:temLegislacao :leg_793 ;
@@ -1888,22 +1888,22 @@ Inclui planeamento da ação, avaliação de risco, identificação dos meios ne
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c550.20.005_1 ;
 	:temNotaAplicacao :na_c550.20.005_2 ;
-	:temRelProc :c150.10.200 ;
-	:temRelProc :c150.10.300 ;
-	:temRelProc :c150.10.400 ;
-	:temRelProc :c150.20.001 ;
-	:temRelProc :c150.20.200 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c300.10.700 ;
-	:temRelProc :c300.10.601 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c300.40.501 ;
-	:temRelProc :c300.50.401 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c500.20.300 ;
+	:eSucessorDe :c150.10.200 ;
+	:eSucessorDe :c150.10.300 ;
+	:eSucessorDe :c150.10.400 ;
+	:eSucessorDe :c150.20.001 ;
+	:eSucessorDe :c150.20.200 ;
+	:eSintetizadoPor :c150.20.404 ;
+	:eSinteseDe :c150.30.001 ;
+	:eSinteseDe :c300.10.700 ;
+	:eSinteseDe :c300.10.601 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c300.40.501 ;
+	:eSuplementoPara :c300.50.401 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eSuplementoPara :c500.20.300 ;
 	:temLegislacao :leg_532 ;
 	:temLegislacao :leg_1324 ;
 	:classeStatus "A" ;
@@ -1948,12 +1948,12 @@ Inclui recolha de informação.
 	:temNotaAplicacao :na_c550.20.006_1 ;
 	:temNotaExclusao :ne_c550.20.006_1 ;
 	:temNotaExclusao :ne_c550.20.006_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c550.10.005 ;
-	:temRelProc :c550.20.500 ;
-	:temRelProc :c700.20.102 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eAntecessorDe :c150.40.500 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSucessorDe :c550.10.005 ;
+	:eAntecessorDe :c550.20.500 ;
+	:eSucessorDe :c700.20.102 ;
 	:temLegislacao :leg_514 ;
 	:temLegislacao :leg_183 ;
 	:classeStatus "A" ;
@@ -2016,15 +2016,15 @@ Inclui informações necessárias ao correto encaminhamento e acionamento dos me
 	:NotaAplicacao ;
 	:conteudo "Proteção em caso de contaminação nuclear, biológica, química e radiológica".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_13
-:na_c550.20.500_13 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Preparação e resposta a emergências radiológicas e nucleares".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_12
 :na_c550.20.500_12 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Criação de infraestruturas provisórias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_13
+:na_c550.20.500_13 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Preparação e resposta a emergências radiológicas e nucleares".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.500_1
 :ne_c550.20.500_1 rdf:type owl:NamedIndividual ,
@@ -2078,17 +2078,17 @@ Inclui informações necessárias ao correto encaminhamento e acionamento dos me
 	:temNotaExclusao :ne_c550.20.500_1 ;
 	:temNotaExclusao :ne_c550.20.500_2 ;
 	:temNotaExclusao :ne_c550.20.500_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c500.20.300 ;
-	:temRelProc :c550.20.002 ;
-	:temRelProc :c550.20.004 ;
-	:temRelProc :c550.20.006 ;
-	:temRelProc :c550.30.600 ;
-	:temRelProc :c650.20.600 ;
-	:temRelProc :c700.20.300 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.20.002 ;
+	:eSuplementoPara :c500.20.003 ;
+	:eSuplementoPara :c500.20.300 ;
+	:eSuplementoPara :c550.20.002 ;
+	:eSucessorDe :c550.20.004 ;
+	:eSucessorDe :c550.20.006 ;
+	:eSucessorDe :c550.30.600 ;
+	:eSucessorDe :c650.20.600 ;
+	:eSucessorDe :c700.20.300 ;
 	:temLegislacao :leg_1241 ;
 	:temLegislacao :leg_1171 ;
 	:temLegislacao :leg_819 ;
@@ -2132,15 +2132,15 @@ Inclui diagnósticos de situação, definição e acionamento dos meios e recurs
 	:NotaAplicacao ;
 	:conteudo "Ssegurança dos cidadãos em situações de calamidade pública".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.501_2
-:na_c550.20.501_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Participação das Forças Armadas e apoio às autoridades administrativas civis".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.501_1
 :ne_c550.20.501_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "As situações de atos de força ou insurreição devem ser consideradas em 550.30.003 – Atuação em estado de sítio".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.501_2
+:na_c550.20.501_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Participação das Forças Armadas e apoio às autoridades administrativas civis".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c550.20.501
 :c550.20.501 rdf:type owl:NamedIndividual ,
@@ -2157,10 +2157,10 @@ Inclui diagnósticos de situação, definição e acionamento dos meios e recurs
 	:temNotaAplicacao :na_c550.20.501_1 ;
 	:temNotaAplicacao :na_c550.20.501_2 ;
 	:temNotaExclusao :ne_c550.20.501_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c550.10.005 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.30.001 ;
+	:eSucessorDe :c300.10.005 ;
+	:eCruzadoCom :c550.10.005 ;
 	:temLegislacao :leg_1241 ;
 	:temLegislacao :leg_1171 ;
 	:temLegislacao :leg_819 ;
@@ -2222,7 +2222,7 @@ Inclui a audição do Governo e a autorização da Assembleia da República, a r
 	:temNotaAplicacao :na_c550.30.001_2 ;
 	:temNotaExclusao :ne_c550.30.001_1 ;
 	:temNotaExclusao :ne_c550.30.001_2 ;
-	:temRelProc :c150.20.300 ;
+	:eSintetizadoPor :c150.20.300 ;
 	:temLegislacao :leg_1241 ;
 	:temLegislacao :leg_1171 ;
 	:temLegislacao :leg_819 ;
@@ -2254,11 +2254,11 @@ Inclui autorização dos chefes dos ramos das Forças Armadas, nomeação e publ
 	:temDono :org_FA ;
 	:temNotaAplicacao :na_c550.30.002_1 ;
 	:temNotaExclusao :ne_c550.30.002_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c550.10.011 ;
-	:temRelProc :c550.30.004 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.30.001 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eCruzadoCom :c550.10.011 ;
+	:eCruzadoCom :c550.30.004 ;
 	:temLegislacao :leg_1171 ;
 	:temLegislacao :leg_1241 ;
 	:temLegislacao :leg_1374 ;
@@ -2300,10 +2300,10 @@ Inclui a identificação de potenciais atacantes e as suas intenções e a respo
 	:temNotaAplicacao :na_c550.30.003_1 ;
 	:temNotaAplicacao :na_c550.30.003_2 ;
 	:temNotaExclusao :ne_c550.30.003_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c550.10.005 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.30.001 ;
+	:eSucessorDe :c300.10.005 ;
+	:eCruzadoCom :c550.10.005 ;
 	:temLegislacao :leg_1241 ;
 	:temLegislacao :leg_1171 ;
 	:temLegislacao :leg_819 ;
@@ -2336,11 +2336,11 @@ Inclui a audição do Governo e a autorização da Assembleia da República, a r
 	:temDono :org_FA ;
 	:temNotaAplicacao :na_c550.30.004_1 ;
 	:temNotaExclusao :ne_c550.30.004_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c200.30.001 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c550.30.002 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.30.001 ;
+	:eAntecessorDe :c200.30.001 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eCruzadoCom :c550.30.002 ;
 	:temLegislacao :leg_1241 ;
 	:temLegislacao :leg_1171 ;
 	:temLegislacao :leg_819 ;
@@ -2371,12 +2371,12 @@ Inclui determinação da Tutela e/ou do CEMGFA, autorização dos chefes dos Ram
 	:temDono :org_FA ;
 	:temNotaAplicacao :na_c550.30.005_1 ;
 	:temNotaExclusao :ne_c550.30.005_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c200.10.001 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c550.10.005 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.30.001 ;
+	:eSucessorDe :c200.10.001 ;
+	:eAntecessorDe :c200.10.800 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eCruzadoCom :c550.10.005 ;
 	:temLegislacao :leg_1241 ;
 	:temLegislacao :leg_1171 ;
 	:temLegislacao :leg_819 ;
@@ -2413,9 +2413,9 @@ Inclui determinação da Tutela e/ou do CEMGFA, autorização dos chefes dos Ram
 	:temNotaAplicacao :na_c550.30.006_1 ;
 	:temNotaAplicacao :na_c550.30.006_2 ;
 	:temNotaAplicacao :na_c550.30.006_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c300.10.005 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eAntecessorDe :c200.10.800 ;
+	:eCruzadoCom :c300.10.005 ;
 	:temLegislacao :leg_1171 ;
 	:classeStatus "A" ;
 	:descricao "Capacitar a prontidão de pessoal e meios, incluindo os diferentes órgãos e ramos militares para uma articulação concertada em território nacional e internacional.  em exercícios conjuntos e combinados.
@@ -2460,15 +2460,15 @@ Inclui a elaboração dos relatórios de primeiras impressões (FIR), do relató
 	:temParticipanteAssessor :org_DGPDN ;
 	:temDono :org_FA ;
 	:temNotaAplicacao :na_c550.30.200_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c200.10.001 ;
-	:temRelProc :c200.10.002 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c550.10.005 ;
-	:temRelProc :c550.10.008 ;
-	:temRelProc :c800.10.602 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.30.001 ;
+	:eSucessorDe :c200.10.001 ;
+	:eAntecessorDe :c200.10.002 ;
+	:eAntecessorDe :c200.10.800 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eComplementarDe :c550.10.005 ;
+	:eCruzadoCom :c550.10.008 ;
+	:eSintetizadoPor :c800.10.602 ;
 	:temLegislacao :leg_1241 ;
 	:temLegislacao :leg_1171 ;
 	:temLegislacao :leg_819 ;
@@ -2502,15 +2502,15 @@ Inclui determinação do CEMGFA e autorização dos chefes dos Ramos, nomeação
 	:NotaAplicacao ;
 	:conteudo "Vigiar e controlar as principais rotas internacionais aéreas e marítimas que intersetam o Espaço Estratégico de Interesse Nacional Permanente".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.400_2
-:ne_c550.30.400_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Excluem-se as ações no âmbito do Regime jurídico aplicável ao trabalho aéreo".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.400_1
 :ne_c550.30.400_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "As ações de controlo de fronteiras devem ser consideradas em 550.10.008 – Controlo de pessoas nas fronteiras".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.400_2
+:ne_c550.30.400_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Excluem-se as ações no âmbito do Regime jurídico aplicável ao trabalho aéreo".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.400_3
 :ne_c550.30.400_3 rdf:type owl:NamedIndividual ,
@@ -2538,13 +2538,13 @@ Inclui determinação do CEMGFA e autorização dos chefes dos Ramos, nomeação
 	:temNotaExclusao :ne_c550.30.400_1 ;
 	:temNotaExclusao :ne_c550.30.400_2 ;
 	:temNotaExclusao :ne_c550.30.400_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c200.10.001 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c550.10.005 ;
-	:temRelProc :c550.10.008 ;
-	:temRelProc :c800.10.602 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.30.001 ;
+	:eSucessorDe :c200.10.001 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eComplementarDe :c550.10.005 ;
+	:eCruzadoCom :c550.10.008 ;
+	:eSintetizadoPor :c800.10.602 ;
 	:temLegislacao :leg_1241 ;
 	:temLegislacao :leg_1171 ;
 	:temLegislacao :leg_819 ;
@@ -2553,15 +2553,15 @@ Inclui determinação do CEMGFA e autorização dos chefes dos Ramos, nomeação
 	:descricao "Intervenção de controlo dos espaços sob soberania nacional e/ou no Espaço Estratégico de Interesse Nacional Permanente para assegurar a sua plena utilização em segurança, no respeito pelo Direito Internacional.
 Inicia com a determinação da Tutela e/ou do CEMGFA e termina com a aprovação do relatório final.
 Inclui autorização dos chefes dos Ramos, nomeação e publicitação dos participantes das missões, elaboração de ordens e relatórios operacionais.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.600_1
-:na_c550.30.600_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Operações militares fora do território nacional e no âmbito da OTAN, que assenta nos compromissos internacionais de Portugal, envolvendo praticamente todas as capacidades expedicionárias das Forças Armadas portuguesas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.600_2
 :na_c550.30.600_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Apoio e assistência a deslocados e refugiados e operações humanitárias fora do âmbito das operações de apoio à paz".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.600_1
+:na_c550.30.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Operações militares fora do território nacional e no âmbito da OTAN, que assenta nos compromissos internacionais de Portugal, envolvendo praticamente todas as capacidades expedicionárias das Forças Armadas portuguesas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.600_1
 :ne_c550.30.600_1 rdf:type owl:NamedIndividual ,
@@ -2594,14 +2594,14 @@ Inclui autorização dos chefes dos Ramos, nomeação e publicitação dos parti
 	:temNotaExclusao :ne_c550.30.600_1 ;
 	:temNotaExclusao :ne_c550.30.600_2 ;
 	:temNotaExclusao :ne_c550.30.600_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.30.001 ;
-	:temRelProc :c200.10.002 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c200.30.001 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c550.20.500 ;
-	:temRelProc :c800.10.602 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.30.001 ;
+	:eAntecessorDe :c200.10.002 ;
+	:eAntecessorDe :c200.10.800 ;
+	:eAntecessorDe :c200.30.001 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eSucessorDe :c550.20.500 ;
+	:eSintetizadoPor :c800.10.602 ;
 	:temLegislacao :leg_1241 ;
 	:temLegislacao :leg_1171 ;
 	:temLegislacao :leg_819 ;
@@ -2611,15 +2611,15 @@ Inclui autorização dos chefes dos Ramos, nomeação e publicitação dos parti
 Inicia-se com os despachos da tutela e das direções dos organismos participantes e termina com o relatório final.
 Inclui autorização dos chefes dos Ramos, nomeação e publicitação dos participantes das missões, elaboração de ordens e relatórios operacionais.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.601_1
-:na_c550.30.601_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Gestão civil de crises e de manutenção da paz no âmbito policial que decorram fora do território nacional, quer sob a égide de um organismo internacional (EUROGENDFOR, NATO, ONU) quer sob a requisição do Governo anfitrião".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.601_2
 :na_c550.30.601_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Atuação militar para reposição e manutenção da paz".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.601_1
+:na_c550.30.601_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Gestão civil de crises e de manutenção da paz no âmbito policial que decorram fora do território nacional, quer sob a égide de um organismo internacional (EUROGENDFOR, NATO, ONU) quer sob a requisição do Governo anfitrião".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.601_3
 :na_c550.30.601_3 rdf:type owl:NamedIndividual ,
@@ -2658,12 +2658,12 @@ Inclui autorização dos chefes dos Ramos, nomeação e publicitação dos parti
 	:temNotaAplicacao :na_c550.30.601_4 ;
 	:temNotaExclusao :ne_c550.30.601_1 ;
 	:temNotaExclusao :ne_c550.30.601_2 ;
-	:temRelProc :c100.10.002 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c200.10.002 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c200.30.001 ;
-	:temRelProc :c300.10.005 ;
+	:eSucessorDe :c100.10.002 ;
+	:eSucessorDe :c150.20.300 ;
+	:eSucessorDe :c200.10.002 ;
+	:eSucessorDe :c200.10.800 ;
+	:eCruzadoCom :c200.30.001 ;
+	:eCruzadoCom :c300.10.005 ;
 	:temLegislacao :leg_1241 ;
 	:temLegislacao :leg_1171 ;
 	:temLegislacao :leg_611 ;

@@ -1,9 +1,4 @@
 ### Classe600
-###  http://jcr.di.uminho.pt/m51-clav#na_c600_1
-:na_c600_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Todas as entidades que participam nos processos de administração da justiça, independentemente da sua participação ser ativa ou passiva".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c600
 :c600 rdf:type owl:NamedIndividual ,
 	:Classe_N1;
@@ -14,6 +9,11 @@
 	:classeStatus "A" ;
 	:descricao "Relativo às atividades diretamente relacionadas com o acesso à justiça, sejam elas no âmbito da competência específica das autoridades administrativas e/ou da respetiva interação com as autoridades judiciárias.
 Compreende toda a resolução de litígios pela via administrativa, judicial ou por formas alternativas, bem como a aplicação de sanções, de penas e de medidas cautelares, em qualquer tipo de ilícito.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c600_1
+:na_c600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Todas as entidades que participam nos processos de administração da justiça, independentemente da sua participação ser ativa ou passiva".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c600.10_1
 :ne_c600.10_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -57,10 +57,10 @@ Compreende toda a resolução de litígios pela via administrativa, judicial ou 
 	:temNotaAplicacao :na_c600.10.001_1 ;
 	:temNotaAplicacao :na_c600.10.001_2 ;
 	:temNotaAplicacao :na_c600.10.001_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eSucessorDe :c600.10.500 ;
 	:temLegislacao :leg_1341 ;
 	:temLegislacao :leg_698 ;
 	:temLegislacao :leg_367 ;
@@ -87,10 +87,10 @@ Inclui diligências preventivas relativas a certos tipos de crimes (corrupção,
 	:temDono :org_PJ ;
 	:temDono :org_MP ;
 	:temNotaAplicacao :na_c600.10.002_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eSucessorDe :c600.10.500 ;
 	:temLegislacao :leg_762 ;
 	:temLegislacao :leg_701 ;
 	:temLegislacao :leg_379 ;
@@ -109,15 +109,15 @@ Inclui a recolha, registo, tratamento e difusão da informação proveniente de 
 	:NotaAplicacao ;
 	:conteudo "Revista de pessoas".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.10.003_3
-:na_c600.10.003_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Apreensão de correspondência".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.10.003_4
 :na_c600.10.003_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Localização celular sem processo em curso".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.10.003_3
+:na_c600.10.003_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apreensão de correspondência".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.10.003_5
 :na_c600.10.003_5 rdf:type owl:NamedIndividual ,
@@ -153,11 +153,11 @@ Inclui a recolha, registo, tratamento e difusão da informação proveniente de 
 	:temNotaAplicacao :na_c600.10.003_5 ;
 	:temNotaAplicacao :na_c600.10.003_6 ;
 	:temNotaAplicacao :na_c600.10.003_7 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.10.502 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eSucessorDe :c600.10.500 ;
+	:eAntecessorDe :c600.10.502 ;
 	:temLegislacao :leg_1341 ;
 	:temLegislacao :leg_1039 ;
 	:temLegislacao :leg_708 ;
@@ -189,14 +189,14 @@ Inicia com a comunicação dos órgãos de polícia criminal e termina com o seu
 	:temDono :org_PJ ;
 	:temDono :org_INMLCF ;
 	:temNotaAplicacao :na_c600.10.004_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c400.10.001 ;
-	:temRelProc :c400.10.048 ;
-	:temRelProc :c600.10.006 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c400.10.001 ;
+	:eCruzadoCom :c400.10.048 ;
+	:eCruzadoCom :c600.10.006 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eCruzadoCom :c600.10.500 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_762 ;
 	:temLegislacao :leg_248 ;
 	:classeStatus "A" ;
@@ -221,11 +221,11 @@ Inclui todas as diligências para a identificação do cadáver, colaboração c
 	:temParticipanteComunicador :org_AL ;
 	:temDono :org_PJ ;
 	:temNotaExclusao :ne_c600.10.005_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c500.10.301 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eCruzadoCom :c600.10.500 ;
 	:temLegislacao :leg_762 ;
 	:temLegislacao :leg_704 ;
 	:classeStatus "A" ;
@@ -249,15 +249,15 @@ Inclui todo o processamento, tratamento e cruzamento da documentação.".
 	:temParticipanteComunicador :org_INMLCF ;
 	:temDono :org_PJ ;
 	:temNotaAplicacao :na_c600.10.006_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c400.10.001 ;
-	:temRelProc :c400.10.048 ;
-	:temRelProc :c600.10.004 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.30. ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c400.10.001 ;
+	:eCruzadoCom :c400.10.048 ;
+	:eCruzadoCom :c600.10.004 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eCruzadoCom :c600.10.500 ;
+	:eCruzadoCom :c600.30. ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_1341 ;
 	:temLegislacao :leg_762 ;
 	:temLegislacao :leg_248 ;
@@ -289,43 +289,43 @@ Inclui as difusões e pedidos de colaboração (de cariz oficial ou pela publica
 	:temDono :org_PJ ;
 	:temNotaAplicacao :na_c600.10.007_1 ;
 	:temNotaAplicacao :na_c600.10.007_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c400.10.048 ;
-	:temRelProc :c600.10.001 ;
-	:temRelProc :c600.10.002 ;
-	:temRelProc :c600.10.003 ;
-	:temRelProc :c600.10.004 ;
-	:temRelProc :c600.10.005 ;
-	:temRelProc :c600.10.006 ;
-	:temRelProc :c600.10.008 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.10.501 ;
-	:temRelProc :c600.10.502 ;
-	:temRelProc :c600.10.503 ;
-	:temRelProc :c600.10.507 ;
-	:temRelProc :c600.10.508 ;
-	:temRelProc :c600.10.509 ;
-	:temRelProc :c600.10.511 ;
-	:temRelProc :c600.10.512 ;
-	:temRelProc :c600.30.001 ;
-	:temRelProc :c600.30.002 ;
-	:temRelProc :c600.30.050 ;
-	:temRelProc :c600.30.051 ;
-	:temRelProc :c600.30.052 ;
-	:temRelProc :c600.30.150 ;
-	:temRelProc :c600.30.151 ;
-	:temRelProc :c600.30.152 ;
-	:temRelProc :c600.30.153 ;
-	:temRelProc :c600.30.154 ;
-	:temRelProc :c600.30.156 ;
-	:temRelProc :c600.30.157 ;
-	:temRelProc :c600.30.358 ;
-	:temRelProc :c600.40.001 ;
-	:temRelProc :c600.40.002 ;
-	:temRelProc :c600.40.300 ;
-	:temRelProc :c600.40.302 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c400.10.048 ;
+	:eCruzadoCom :c600.10.001 ;
+	:eCruzadoCom :c600.10.002 ;
+	:eCruzadoCom :c600.10.003 ;
+	:eCruzadoCom :c600.10.004 ;
+	:eCruzadoCom :c600.10.005 ;
+	:eCruzadoCom :c600.10.006 ;
+	:eCruzadoCom :c600.10.008 ;
+	:eCruzadoCom :c600.10.500 ;
+	:eCruzadoCom :c600.10.501 ;
+	:eCruzadoCom :c600.10.502 ;
+	:eCruzadoCom :c600.10.503 ;
+	:eCruzadoCom :c600.10.507 ;
+	:eCruzadoCom :c600.10.508 ;
+	:eCruzadoCom :c600.10.509 ;
+	:eCruzadoCom :c600.10.511 ;
+	:eCruzadoCom :c600.10.512 ;
+	:eCruzadoCom :c600.30.001 ;
+	:eCruzadoCom :c600.30.002 ;
+	:eCruzadoCom :c600.30.050 ;
+	:eCruzadoCom :c600.30.051 ;
+	:eCruzadoCom :c600.30.052 ;
+	:eCruzadoCom :c600.30.150 ;
+	:eCruzadoCom :c600.30.151 ;
+	:eCruzadoCom :c600.30.152 ;
+	:eCruzadoCom :c600.30.153 ;
+	:eCruzadoCom :c600.30.154 ;
+	:eCruzadoCom :c600.30.156 ;
+	:eCruzadoCom :c600.30.157 ;
+	:eCruzadoCom :c600.30.358 ;
+	:eCruzadoCom :c600.40.001 ;
+	:eCruzadoCom :c600.40.002 ;
+	:eCruzadoCom :c600.40.300 ;
+	:eCruzadoCom :c600.40.302 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_818 ;
 	:temLegislacao :leg_248 ;
 	:classeStatus "A" ;
@@ -343,10 +343,10 @@ Inclui todo o processamento da informação e sua utilização.".
 	:temParticipanteIniciador :org_OPC ;
 	:temParticipanteComunicador :org_PMun ;
 	:temDono :org_PJ ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eSucessorDe :c600.10.500 ;
 	:temLegislacao :leg_157 ;
 	:classeStatus "A" ;
 	:descricao "Processamento dos pedidos submetidos pelas várias entidades policiais à PJ, decorrente da obrigatoriedade de comunicação prévia de ações planeadas a desencadear no âmbito de investigações sobre tráfico de estupefacientes, para efeitos de coordenação entre órgãos de polícia criminal.
@@ -406,48 +406,48 @@ Inclui toda a troca de informações relativa ao pedido.".
 	:temNotaAplicacao :na_c600.10.500_5 ;
 	:temNotaAplicacao :na_c600.10.500_6 ;
 	:temNotaExclusao :ne_c600.10.500_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.10.302 ;
-	:temRelProc :c300.50.005 ;
-	:temRelProc :c400.10.048 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.20.002 ;
-	:temRelProc :c550.10.001 ;
-	:temRelProc :c550.10.002 ;
-	:temRelProc :c550.10.004 ;
-	:temRelProc :c550.10.005 ;
-	:temRelProc :c550.10.006 ;
-	:temRelProc :c550.10.007 ;
-	:temRelProc :c550.10.008 ;
-	:temRelProc :c550.10.009 ;
-	:temRelProc :c550.10.600 ;
-	:temRelProc :c600.10.001 ;
-	:temRelProc :c600.10.002 ;
-	:temRelProc :c600.10.003 ;
-	:temRelProc :c600.10.004 ;
-	:temRelProc :c600.10.005 ;
-	:temRelProc :c600.10.006 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.008 ;
-	:temRelProc :c600.10.503 ;
-	:temRelProc :c600.10.504 ;
-	:temRelProc :c600.10.505 ;
-	:temRelProc :c600.10.506 ;
-	:temRelProc :c600.10.508 ;
-	:temRelProc :c600.10.509 ;
-	:temRelProc :c600.10.510 ;
-	:temRelProc :c600.10.511 ;
-	:temRelProc :c600.10.512 ;
-	:temRelProc :c600.20.302 ;
-	:temRelProc :c600.30.001 ;
-	:temRelProc :c600.30.002 ;
-	:temRelProc :c600.30.050 ;
-	:temRelProc :c600.30.051 ;
-	:temRelProc :c600.30.052 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c300.10.302 ;
+	:eAntecessorDe :c300.50.005 ;
+	:eCruzadoCom :c400.10.048 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c500.20.002 ;
+	:eSucessorDe :c550.10.001 ;
+	:eSucessorDe :c550.10.002 ;
+	:eCruzadoCom :c550.10.004 ;
+	:eSucessorDe :c550.10.005 ;
+	:eSucessorDe :c550.10.006 ;
+	:eSucessorDe :c550.10.007 ;
+	:eSucessorDe :c550.10.008 ;
+	:eSucessorDe :c550.10.009 ;
+	:eAntecessorDe :c550.10.600 ;
+	:eAntecessorDe :c600.10.001 ;
+	:eAntecessorDe :c600.10.002 ;
+	:eAntecessorDe :c600.10.003 ;
+	:eCruzadoCom :c600.10.004 ;
+	:eCruzadoCom :c600.10.005 ;
+	:eCruzadoCom :c600.10.006 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eCruzadoCom :c600.10.008 ;
+	:eSucessorDe :c600.10.503 ;
+	:eSucessorDe :c600.10.504 ;
+	:eSucessorDe :c600.10.505 ;
+	:eSucessorDe :c600.10.506 ;
+	:eCruzadoCom :c600.10.508 ;
+	:eSucessorDe :c600.10.509 ;
+	:eCruzadoCom :c600.10.510 ;
+	:eAntecessorDe :c600.10.511 ;
+	:eAntecessorDe :c600.10.512 ;
+	:eSucessorDe :c600.20.302 ;
+	:eSucessorDe :c600.30.001 ;
+	:eSucessorDe :c600.30.002 ;
+	:eSucessorDe :c600.30.050 ;
+	:eSucessorDe :c600.30.051 ;
+	:eSucessorDe :c600.30.052 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_1341 ;
 	:temLegislacao :leg_70 ;
 	:temLegislacao :leg_155 ;
@@ -467,13 +467,13 @@ Inclui as diligências que visam investigar a existência de um crime e determin
 	:temParticipanteAssessor :org_OPC ;
 	:temParticipanteAssessor :org_AL ;
 	:temDono :org_MP ;
-	:temRelProc :c500.20.001 ;
-	:temRelProc :c500.20.003 ;
-	:temRelProc :c500.20.300 ;
-	:temRelProc :c500.30.500 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.30.358 ;
-	:temRelProc :c800.10.603 ;
+	:eSucessorDe :c500.20.001 ;
+	:eSucessorDe :c500.20.003 ;
+	:eAntecessorDe :c500.20.300 ;
+	:eSucessorDe :c500.30.500 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eSucessorDe :c600.30.358 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_273 ;
 	:classeStatus "A" ;
 	:descricao "Atos processuais e diligências, levados a cabo, em regra, pelo Ministério Público (MP), ou excecionalmente pelos órgãos de polícia criminal (OPC) e pelos serviços de reinserção social, que visam a investigação da existência de facto qualificado como crime (praticado por menor com idade compreendida entre os 12 e os 16 anos) e determinar a necessidade de educação do menor para o direito, com vista à decisão sobre a aplicação de medida tutelar.
@@ -503,17 +503,17 @@ Inclui o conjunto de diligências e informações solicitadas a qualquer entidad
 	:temDono :org_MP ;
 	:temNotaAplicacao :na_c600.10.502_1 ;
 	:temNotaAplicacao :na_c600.10.502_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.10.302 ;
-	:temRelProc :c600.10.003 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.30.001 ;
-	:temRelProc :c600.30.002 ;
-	:temRelProc :c600.30.050 ;
-	:temRelProc :c600.30.051 ;
-	:temRelProc :c600.30.052 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c300.10.302 ;
+	:eAntecessorDe :c600.10.003 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eSucessorDe :c600.30.001 ;
+	:eSucessorDe :c600.30.002 ;
+	:eSucessorDe :c600.30.050 ;
+	:eSucessorDe :c600.30.051 ;
+	:eCruzadoCom :c600.30.052 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_70 ;
 	:classeStatus "A" ;
 	:descricao "Diligências prévias ao envio de expediente para submissão do arguido a julgamento em processo sumário.
@@ -536,13 +536,13 @@ Inclui diligências que visem descobrir e recolher provas relativas a um crime, 
 	:temParticipanteComunicador :org_AL ;
 	:temParticipanteIniciador :org_AL ;
 	:temDono :org_TIC ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.30.001 ;
-	:temRelProc :c600.30.002 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eAntecessorDe :c600.10.500 ;
+	:eSucessorDe :c600.30.001 ;
+	:eSucessorDe :c600.30.002 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_70 ;
 	:temLegislacao :leg_155 ;
 	:classeStatus "A" ;
@@ -565,9 +565,9 @@ Inclui o conjunto dos atos de instrução que o juiz entenda dever levar a cabo 
 	:temParticipanteDecisor :org_MP ;
 	:temDono :org_PJ ;
 	:temNotaExclusao :ne_c600.10.504_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c600.10.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c600.10.500 ;
 	:temLegislacao :leg_762 ;
 	:temLegislacao :leg_704 ;
 	:temLegislacao :leg_358 ;
@@ -591,10 +591,10 @@ Iniciam com o pedido de apoio por parte da entidade detentora do processo de inv
 	:temParticipanteDecisor :org_MP ;
 	:temDono :org_PJ ;
 	:temNotaAplicacao :na_c600.10.505_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.30. ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c600.10.500 ;
+	:eAntecessorDe :c600.30. ;
 	:temLegislacao :leg_329 ;
 	:classeStatus "A" ;
 	:descricao "Ação encoberta desenvolvida por funcionários de investigação criminal ou por terceiro atuando sob o controlo da PJ para fins de prevenção e investigação criminal de vários crimes previstos na lei.
@@ -613,7 +613,7 @@ Inclui relatórios da atividade operacional desenvolvida e despachos da autorida
 	:temParticipanteExecutor :org_PJ ;
 	:temParticipanteDecisor :org_MP ;
 	:temDono :org_CPES ;
-	:temRelProc :c600.10.500 ;
+	:eAntecessorDe :c600.10.500 ;
 	:temLegislacao :leg_385 ;
 	:temLegislacao :leg_264 ;
 	:temLegislacao :leg_69 ;
@@ -729,13 +729,13 @@ Inicia com o despacho da autoridade judicária e termina com a elaboração do a
 	:temNotaAplicacao :na_c600.10.507_11 ;
 	:temNotaAplicacao :na_c600.10.507_12 ;
 	:temNotaExclusao :ne_c600.10.507_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.30. ;
-	:temRelProc :c400.10.048 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eCruzadoCom :c600.30. ;
+	:eCruzadoCom :c400.10.048 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_818 ;
 	:temLegislacao :leg_610 ;
 	:temLegislacao :leg_394 ;
@@ -755,10 +755,10 @@ Inicia com o pedido de diligências que um país solicita a Portugal, relacionad
 	:temParticipanteComunicador :org_OPC ;
 	:temParticipanteComunicador :org_AL ;
 	:temDono :org_PJ ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eAntecessorDe :c600.10.500 ;
 	:temRelProc :c600.30. ;
 	:temLegislacao :leg_157 ;
 	:classeStatus "A" ;
@@ -787,10 +787,10 @@ Inclui as trocas de informação subsequentes.".
 	:temDono :org_PJ ;
 	:temNotaAplicacao :na_c600.10.509_1 ;
 	:temNotaExclusao :ne_c600.10.509_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eAntecessorDe :c600.10.500 ;
 	:temRelProc :c600.30. ;
 	:temLegislacao :leg_157 ;
 	:temLegislacao :leg_128 ;
@@ -827,11 +827,11 @@ Inclui as trocas de informação subsequentes.".
 	:temNotaAplicacao :na_c600.10.510_1 ;
 	:temNotaAplicacao :na_c600.10.510_2 ;
 	:temNotaExclusao :ne_c600.10.510_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.30. ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c600.10.500 ;
+	:eCruzadoCom :c600.30. ;
 	:temLegislacao :leg_762 ;
 	:temLegislacao :leg_708 ;
 	:temLegislacao :leg_70 ;
@@ -874,10 +874,10 @@ Inclui todos os procedimentos necessários ao controlo da execução de interce�
 	:temNotaAplicacao :na_c600.10.511_2 ;
 	:temNotaAplicacao :na_c600.10.511_3 ;
 	:temNotaAplicacao :na_c600.10.511_4 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eSucessorDe :c600.10.500 ;
 	:temLegislacao :leg_298 ;
 	:temLegislacao :leg_182 ;
 	:temLegislacao :leg_179 ;
@@ -926,11 +926,11 @@ Inclui o registo das respostas e informações dadas a cidadãos e entidades.".
 	:temNotaAplicacao :na_c600.10.512_3 ;
 	:temNotaAplicacao :na_c600.10.512_4 ;
 	:temNotaAplicacao :na_c600.10.512_5 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eSucessorDe :c600.10.500 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_1341 ;
 	:temLegislacao :leg_70 ;
 	:classeStatus "A" ;
@@ -979,7 +979,7 @@ Inicia com a receção do pedido e termina com o seu arquivamento, a remessa a o
 	:temParticipanteAssessor :org_AL ;
 	:temDono :org_JP ;
 	:temNotaExclusao :ne_c600.20.001_1 ;
-	:temRelProc :c600.40.500 ;
+	:eAntecessorDe :c600.40.500 ;
 	:temLegislacao :leg_313 ;
 	:temLegislacao :leg_1115 ;
 	:classeStatus "A" ;
@@ -994,11 +994,6 @@ Inclui citações e notificações das partes, contestações, reconvenção qua
 	:temPai :c600.20.001 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com a entrega da petição inicial e termina com a realização da audiência. Inclui todos os articulados, audiências e demais decisões que não sejam sentenças ou acórdãos bem como todos os atos e diligências da secretaria.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.20.300_1
-:na_c600.20.300_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Resolução de conflitos no âmbito das relações familiares previstas no artigo 4.º do Despacho 18778/2007, publicado no DR II Série, de 22 de agosto de 2007".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c600.20.001.02
 :c600.20.001.02 rdf:type owl:NamedIndividual ,
 	:Classe_N4;
@@ -1007,6 +1002,11 @@ Inclui citações e notificações das partes, contestações, reconvenção qua
 	:temPai :c600.20.001 ;
 	:classeStatus "A" ;
 	:descricao "Prolação da sentença no julgado de paz.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.20.300_1
+:na_c600.20.300_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Resolução de conflitos no âmbito das relações familiares previstas no artigo 4.º do Despacho 18778/2007, publicado no DR II Série, de 22 de agosto de 2007".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c600.20.300
 :c600.20.300 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1045,8 +1045,8 @@ Inclui registo e triagem dos pedidos de mediação, designação do mediador re
 	:temDono :org_DGPJ ;
 	:temDono :org_DGERT ;
 	:temNotaAplicacao :na_c600.20.301_1 ;
-	:temRelProc :c250.30.600 ;
-	:temRelProc :c600.20.600 ;
+	:eSucessorDe :c250.30.600 ;
+	:eAntecessorDe :c600.20.600 ;
 	:temLegislacao :leg_1107 ;
 	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
@@ -1077,8 +1077,8 @@ Inclui registo e triagem dos pedidos de mediação, designação do mediador re
 	:temDono :org_DGPJ ;
 	:temNotaAplicacao :na_c600.20.302_1 ;
 	:temNotaExclusao :ne_c600.20.302_1 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.30.002 ;
+	:eAntecessorDe :c600.10.500 ;
+	:eAntecessorDe :c600.30.002 ;
 	:temLegislacao :leg_600 ;
 	:temLegislacao :leg_1107 ;
 	:classeStatus "A" ;
@@ -1101,7 +1101,7 @@ Inicia com o envio do processo judicial para mediação pelo Ministério Públic
 	:temParticipanteAssessor :org_AL ;
 	:temDono :org_SMJP ;
 	:temNotaAplicacao :na_c600.20.303_1 ;
-	:temRelProc :c600.30.200 ;
+	:eAntecessorDe :c600.30.200 ;
 	:temLegislacao :leg_313 ;
 	:temLegislacao :leg_1115 ;
 	:classeStatus "A" ;
@@ -1129,7 +1129,7 @@ Inicia com o pedido de mediação pelos interessados e termina com a eventual as
 	:temDono :org_IAPMEI ;
 	:temNotaAplicacao :na_c600.20.304_1 ;
 	:temNotaAplicacao :na_c600.20.304_2 ;
-	:temRelProc :c600.30.353 ;
+	:eAntecessorDe :c600.30.353 ;
 	:temLegislacao :leg_209 ;
 	:temLegislacao :leg_428 ;
 	:classeStatus "A" ;
@@ -1194,9 +1194,9 @@ que demonstre a adequabilidade do acordo e da viabilidade da empresa.
 	:temNotaAplicacao :na_c600.20.600_4 ;
 	:temNotaAplicacao :na_c600.20.600_5 ;
 	:temNotaAplicacao :na_c600.20.600_6 ;
-	:temRelProc :c600.40.500 ;
-	:temRelProc :c250.30.300 ;
-	:temRelProc :c600.20.301 ;
+	:eAntecessorDe :c600.40.500 ;
+	:eSucessorDe :c250.30.300 ;
+	:eSucessorDe :c600.20.301 ;
 	:temLegislacao :leg_954 ;
 	:temLegislacao :leg_175 ;
 	:temLegislacao :leg_378 ;
@@ -1265,14 +1265,14 @@ patrocínio judiciário e representação em juízo.".
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
 	:temNotaExclusao :ne_c600.30.001_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c400.10.043 ;
-	:temRelProc :c400.10.048 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.10.502 ;
-	:temRelProc :c600.10.503 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eAntecessorDe :c400.10.043 ;
+	:eCruzadoCom :c400.10.048 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eAntecessorDe :c600.10.500 ;
+	:eAntecessorDe :c600.10.502 ;
+	:eAntecessorDe :c600.10.503 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_438 ;
 	:temLegislacao :leg_70 ;
 	:temLegislacao :leg_155 ;
@@ -1302,15 +1302,15 @@ Inclui todos os atos e diligências processuais, nomeadamente, despachos do juiz
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
 	:temNotaExclusao :ne_c600.30.002_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c400.10.043 ;
-	:temRelProc :c400.10.048 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.10.502 ;
-	:temRelProc :c600.10.503 ;
-	:temRelProc :c600.20.302 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eAntecessorDe :c400.10.043 ;
+	:eCruzadoCom :c400.10.048 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eAntecessorDe :c600.10.500 ;
+	:eAntecessorDe :c600.10.502 ;
+	:eAntecessorDe :c600.10.503 ;
+	:eSucessorDe :c600.20.302 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_70 ;
 	:temLegislacao :leg_155 ;
 	:classeStatus "A" ;
@@ -1337,13 +1337,13 @@ Inclui todos os atos e diligências processuais, nomeadamente, despachos do juiz
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
 	:temNotaExclusao :ne_c600.30.050_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c400.10.043 ;
-	:temRelProc :c400.10.048 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.10.502 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eAntecessorDe :c400.10.043 ;
+	:eCruzadoCom :c400.10.048 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eAntecessorDe :c600.10.500 ;
+	:eAntecessorDe :c600.10.502 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_70 ;
 	:temLegislacao :leg_155 ;
 	:classeStatus "A" ;
@@ -1370,12 +1370,12 @@ Inclui todos os atos e diligências processuais, nomeadamente, despachos do juiz
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
 	:temNotaExclusao :ne_c600.30.051_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c400.10.043 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.10.502 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eAntecessorDe :c400.10.043 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eAntecessorDe :c600.10.500 ;
+	:eAntecessorDe :c600.10.502 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_70 ;
 	:temLegislacao :leg_155 ;
 	:classeStatus "A" ;
@@ -1403,13 +1403,13 @@ Inclui eventual recurso.".
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
 	:temNotaExclusao :ne_c600.30.052_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c400.10.043 ;
-	:temRelProc :c400.10.048 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.10.502 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eAntecessorDe :c400.10.043 ;
+	:eCruzadoCom :c400.10.048 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eAntecessorDe :c600.10.500 ;
+	:eCruzadoCom :c600.10.502 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_70 ;
 	:temLegislacao :leg_155 ;
 	:classeStatus "A" ;
@@ -1435,23 +1435,23 @@ Inclui todos os atos e diligências processuais, nomeadamente, a nomeação de d
 	:temParticipanteAssessor :org_INMLCF ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.101_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c400.10.043 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eAntecessorDe :c400.10.043 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_218 ;
 	:classeStatus "A" ;
 	:descricao "Ação que ocorre nos casos em que o portador de anomalia psíquica grave crie, por força dela, uma situação de perigo para bens jurídicos, de relevante valor, próprios ou alheios, de natureza pessoal ou patrimonial, e recuse submeter-se ao necessário tratamento médico, ou nos casos em que o portador de anomalia psíquica grave não possua o discernimento necessário para avaliar o sentido e alcance do consentimento, quando a ausência de tratamento deteriore de forma acentuada o seu estado, determinando-se o internamento em estabelecimento adequado.
 Inicia-se com um auto de notícia, uma queixa ou um requerimento e termina com uma sentença.
 Inclui todos os atos e dilgências processuais, nomeadamente, nomeação de defensor, notificação do internando e familiar mais próximo, prática de atos instrutórios, avaliação clínico-psiquiátrica, sessão conjunta. Inclui eventual recurso.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.150_1
-:na_c600.30.150_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Pedidos de entrega temporária".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.150_2
 :na_c600.30.150_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Detenções provisórias ou antecipadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.150_1
+:na_c600.30.150_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Pedidos de entrega temporária".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.150_3
 :na_c600.30.150_3 rdf:type owl:NamedIndividual ,
@@ -1480,9 +1480,9 @@ Inclui todos os atos e dilgências processuais, nomeadamente, nomeação de defe
 	:temNotaAplicacao :na_c600.30.150_2 ;
 	:temNotaAplicacao :na_c600.30.150_3 ;
 	:temNotaExclusao :ne_c600.30.150_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c600.10.007 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c600.10.007 ;
 	:temLegislacao :leg_267 ;
 	:temLegislacao :leg_93 ;
 	:temLegislacao :leg_480 ;
@@ -1514,9 +1514,9 @@ SOFREU ALTERAÇÕES".
 	:temDono :org_MP ;
 	:temNotaAplicacao :na_c600.30.151_1 ;
 	:temNotaExclusao :ne_c600.30.151_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c600.10.007 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c600.10.007 ;
 	:temLegislacao :leg_399 ;
 	:temLegislacao :leg_366 ;
 	:classeStatus "A" ;
@@ -1533,8 +1533,8 @@ Inclui eventuais colaborações com o Sistema de Informação de Schegen (SIS) (
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c600.10.007 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c600.10.007 ;
 	:temLegislacao :leg_267 ;
 	:classeStatus "A" ;
 	:descricao "Transferência internacional para Portugal ou de Portugal para o estrangeiro de pessoa condenada a pena ou medida privativa de liberdade no âmbito da execução de sentença penal.
@@ -1555,8 +1555,8 @@ Inclui todas as informações e documentos de apoio ao processo, os procedimento
 	:processoTransversal "N" ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.153_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c600.10.007 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c600.10.007 ;
 	:temLegislacao :leg_267 ;
 	:classeStatus "A" ;
 	:descricao "Instauração, ou continuação em Portugal, de procedimento penal por facto praticado fora do território português a pedido de estado estrangeiro.
@@ -1581,8 +1581,8 @@ Inclui todos os atos e diligências processuais, nomeadamente, despachos do juiz
 	:temParticipanteApreciador :org_GMG ;
 	:temDono :org_Trb ;
 	:temNotaExclusao :ne_c600.30.154_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c600.10.007 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c600.10.007 ;
 	:temLegislacao :leg_267 ;
 	:classeStatus "A" ;
 	:descricao "Execução em Portugal de sentença penal estrangeira transitada em julgado.
@@ -1611,8 +1611,8 @@ Inclui revisão e confirmação da sentença estrangeira pelo Tribunal da Relaç
 	:temDono :org_TR ;
 	:temNotaAplicacao :na_c600.30.156_1 ;
 	:temNotaExclusao :ne_c600.30.156_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c600.10.007 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c600.10.007 ;
 	:temLegislacao :leg_267 ;
 	:classeStatus "A" ;
 	:descricao "Cooperação para vigilância de pessoa condenada ou libertada condicionalmente que resida habitualmente em território do Estado a quem essa cooperação é pedida. 
@@ -1640,8 +1640,8 @@ Inclui pedidos de informações relacionados e decisão  do Tribunal da Relaçã
 	:temDono :org_TR ;
 	:temNotaAplicacao :na_c600.30.157_1 ;
 	:temNotaExclusao :ne_c600.30.157_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c600.10.007 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c600.10.007 ;
 	:temLegislacao :leg_267 ;
 	:classeStatus "A" ;
 	:descricao "Execução de atos particulares de auxílio internacional, em matéria penal.
@@ -1662,9 +1662,9 @@ Inclui eventual decisões do tribunal competente e do MP.
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c400.30.602 ;
-	:temRelProc :c600.20.303 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eAntecessorDe :c400.30.602 ;
+	:eSucessorDe :c600.20.303 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "Abarca todas as providências que podem ser solicitadas nos tribunais cíveis e às quais não corresponde, na lei processual civil, uma forma especial do processo.
@@ -1705,7 +1705,7 @@ Inclui todos as fases processuais previstas no Código do Processo Civil. Inclui
 	:temParticipanteApreciador :org_DGRSP ;
 	:temParticipanteApreciador :org_PJ ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial por intermédio do qual poderão ser decretadas providências concretamente adequadas a evitar a consumação de qualquer ameaça ilícita e direta à personalidade física ou moral de ser humano ou a atenuar/fazer cessar os efeitos de ofensa já cometida.
@@ -1748,7 +1748,7 @@ Inicia com um articulado de uma das partes civis ou do Ministério Público e te
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
 	:temNotaExclusao :ne_c600.30.251_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_2 ;
 	:classeStatus "A" ;
@@ -1764,8 +1764,8 @@ Inicia com um articulado de uma das partes civis ou do Ministério Público e te
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteAssessor :org_INMLCF ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_2 ;
 	:classeStatus "A" ;
@@ -1784,7 +1784,7 @@ Inicia com um articulado de uma das partes civis ou do Ministério Público e in
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_2 ;
 	:classeStatus "A" ;
@@ -1803,7 +1803,7 @@ Inicia com um articulado de uma das partes civis ou do Ministério Público e te
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_2 ;
 	:classeStatus "A" ;
@@ -1819,7 +1819,7 @@ Inicia com um articulado de uma das partes civis ou do Ministério Público e te
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_2 ;
 	:classeStatus "A" ;
@@ -1834,7 +1834,7 @@ Inicia com um articulado de uma das partes civis ou do Ministério Público e te
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_2 ;
 	:classeStatus "A" ;
@@ -1872,7 +1872,7 @@ Este processo inicia-se com um articulado do Ministério Público, seguindo-se a
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial destinado a efectivar a prestação de contas. Pode ser proposto por quem tenha direito a elas ou o dever de as prestar. A prestação de contas pode ser imposta por lei ou decorrer de negócio jurídico.
@@ -1893,7 +1893,7 @@ Este processo inicia-se com um articulado de uma das partes civis, citação do 
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.258_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "Mecanismo processual destinado à regulação e reparação de avarias marítimas, com ou sem compromisso.
@@ -1915,7 +1915,7 @@ Inclui a entrega de documentação do navio aos repartidores, parecer sobre a re
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.259_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial por via do qual se reconstitui, com base nos contributos fornecidos pelas partes e e em elementos documentais bastantes, um processo judicial que haja desaparecido ou sido destruído.
@@ -1930,7 +1930,7 @@ Inicia-se com um articulado de uma das partes ou sujeitos processuais, mediante 
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_621 ;
 	:classeStatus "A" ;
@@ -1953,7 +1953,7 @@ Inicia-se com uma petição de uma das partes civis que, se não houver motivo p
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.261_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial por intermédio do qual se procede à confirmação, do ponto de vista formal, de sentenças proferidas por tribunais estaduais ou arbitrais estrangeiros. Este processo é de aplicação residual aos casos não previstos em normas da UE ou em tratados e convenções internacionais.
@@ -1968,7 +1968,7 @@ Inicia-se com um articulado de uma das partes civis acompanhado do documento do 
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_17 ;
 	:temLegislacao :leg_2 ;
@@ -1986,7 +1986,7 @@ Inicia-se com um articulado de uma das partes civis acompanhado de documento que
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_2 ;
 	:classeStatus "A" ;
@@ -2009,7 +2009,7 @@ Inicia por iniciativa do juiz, seguindo-se a convocação do conselho de famíli
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
 	:temNotaExclusao :ne_c600.30.264_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_2 ;
 	:classeStatus "A" ;
@@ -2025,7 +2025,7 @@ Inicia-se com um articulado de uma das partes civis, seguindo-se a citação par
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_2 ;
 	:classeStatus "A" ;
@@ -2042,7 +2042,7 @@ Inicia com um articulado de uma das partes civis e termina com a prolação de s
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteIniciador :org_AL ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial de jurisdição voluntária destinado a provocar o exercício do direito de preferência num negócio a ele sujeito.
@@ -2057,7 +2057,7 @@ Inicia com um articulado de uma das partes civis no qual se especifique o preço
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_2 ;
 	:classeStatus "A" ;
@@ -2095,7 +2095,7 @@ Este processo inicia-se com um articulado de uma das partes civis ou do Ministé
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_2 ;
 	:classeStatus "A" ;
@@ -2111,7 +2111,7 @@ Este processo inicia-se com um requerimento do testamenteiro que se quiser escus
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_2 ;
 	:classeStatus "A" ;
@@ -2127,7 +2127,7 @@ Inicia com um requerimento de citação do recusante para apresentar as coisas o
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_63 ;
 	:classeStatus "A" ;
@@ -2142,7 +2142,7 @@ Inicia com um requerimento de citação do recusante para apresentar as coisas o
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_63 ;
 	:classeStatus "A" ;
@@ -2158,7 +2158,7 @@ Este processo inicia-se com um requerimento do sócio/acionista a justificar o p
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_63 ;
 	:classeStatus "A" ;
@@ -2173,7 +2173,7 @@ Este processo inicia-se com um requerimento do sócio/acionista a justificar o p
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_63 ;
 	:classeStatus "A" ;
@@ -2189,7 +2189,7 @@ Este processo inicia-se com um articulado do credor social (que pode ser o Minis
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_63 ;
 	:classeStatus "A" ;
@@ -2204,7 +2204,7 @@ Este processo inicia-se com um articulado do credor social (que pode ser o Minis
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial de jurisdição voluntária que se traduz-se num suprimento judicial da recusa de acto pela sociedade. Comporta apenas dois articulados - petição e contestação - sendo que a falta desta última determina o efeito cominatório pleno. É aplicável tanto à conversão de títulos nominativos em títulos ao portador, como de títulos ao portador em nominativos e de ações ordinárias em preferenciais.
@@ -2219,7 +2219,7 @@ Este processo inicia-se com um articulado do proprietário do título, seguindo-
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_63 ;
@@ -2235,7 +2235,7 @@ Este processo inicia-se com um articulado do proprietário do título, seguindo-
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial de jurisdição voluntária destinado à investidura em cargo social. Este processo inicia-se com um articulado da pessoa eleita ou nomeada para um cargo social deduzido contra a(s) pessoa(s) a quem se atribui a obstrução verificada ao exercício do cargo, seguindo-se a contestação, audiência final com produção das provas oferecidas e das que o tribunal considere necessárias e termina com a decisão que, em caso de procedência, é seguida de investidura feita na sede da própria sociedade, por funcionário judicial, com recurso às diligências necessárias que se tornem indispensáveis, nomeadamente arrombamento, e elaboração da conta. Inclui eventual recurso.".
@@ -2249,7 +2249,7 @@ Este processo inicia-se com um articulado do proprietário do título, seguindo-
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial de jurisdição voluntária que tem por objecto a realização de vistoria destinada a verificar do estado de navegabilidade do navio, ou da declaração do estado de inavegabilidade, para efeitos de venda pelo capitão, sem autorização do proprietário, ou para a autorização da prática de certos actos pelo capitão. Inicia-se a requerimento do capitão do navio, com o qual é apresentado o inventário de bordo, seguindo-se a nomeação de peritos para apreciação das diversas partes do navio, notificação ao requerente do relatório dos peritos e termina com uma eventual venda do navio em caso de se concluir pela sua inavegabilidade, e com a elaboração da conta. Inclui eventual recurso.".
@@ -2263,7 +2263,7 @@ Este processo inicia-se com um articulado do proprietário do título, seguindo-
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
@@ -2302,7 +2302,7 @@ Este processo inicia-se com um articulado do Ministério Público, dos liquidat�
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
@@ -2319,7 +2319,7 @@ Este processo inicia-se com um articulado do Ministério Público, dos liquidat�
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1329 ;
 	:classeStatus "A" ;
@@ -2334,7 +2334,7 @@ Este processo inicia-se com um articulado do Ministério Público, dos liquidat�
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "O processo especial quando esteja em causa a prestação de contas por parte de representantes legais de incapazes (menores de idade, interditos ou inabilitados) ou de depositários judiciais).
@@ -2383,7 +2383,7 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.283_1 ;
 	:temNotaExclusao :ne_c600.30.283_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_322 ;
@@ -2412,7 +2412,7 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.284_1 ;
 	:temNotaExclusao :ne_c600.30.284_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_322 ;
@@ -2431,7 +2431,7 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
@@ -2446,7 +2446,7 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
@@ -2467,7 +2467,7 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
 	:temNotaExclusao :ne_c600.30.287_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_322 ;
@@ -2490,7 +2490,7 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
 	:temNotaExclusao :ne_c600.30.288_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_322 ;
@@ -2519,7 +2519,7 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.289_1 ;
 	:temNotaExclusao :ne_c600.30.289_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_322 ;
@@ -2548,7 +2548,7 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.290_1 ;
 	:temNotaExclusao :ne_c600.30.290_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_322 ;
@@ -2577,7 +2577,7 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.291_1 ;
 	:temNotaExclusao :ne_c600.30.291_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_322 ;
@@ -2606,7 +2606,7 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.292_1 ;
 	:temNotaExclusao :ne_c600.30.292_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_322 ;
@@ -2636,8 +2636,8 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.293_1 ;
 	:temNotaExclusao :ne_c600.30.293_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c400.10.001 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c400.10.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_322 ;
@@ -2663,7 +2663,7 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.300_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_253 ;
 	:classeStatus "A" ;
 	:descricao "Ações declarativas de natureza laboral que tenham por fundamento a existência ou invocação de um contrato de trabalho e em que se pretenda a efetivação de direitos derivados do próprio vínculo ou da sua cessação. Começa com uma tentativa de conciliação que, frustrando-se, leva ao prosseguimento da ação com a prolação de despacho liminar, audiência de partes e, na falta de acordo, é o réu notificado para contestar. Seguem-se os restantes articulados, saneamento do processo, audiência preliminar quando a complexidade da causa o justifique, e julgamento.  Termina com a sentença e elaboração de conta. Inclui eventual recurso.".
@@ -2677,7 +2677,7 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_253 ;
 	:classeStatus "A" ;
 	:descricao "Ação declarativa de natureza laboral que visa a impugnação, pelo trabalhador, dos despedimentos fundamentados em justa causa, extinção do posto de trabalho ou inadaptação.
@@ -2702,8 +2702,8 @@ Inexistindo acordo em qualquer fase do processo, termina com a sentença e elabo
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.302_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_253 ;
 	:classeStatus "A" ;
 	:descricao "Ação declarativa de natureza laboral que se inicia com a participação, nos serviços do Ministério Público, do acidente de trabalho e visa a reparação dos danos emergentes do acidente de trabalho. Trata-se de processo que, na sua fase inicial, é dirigido pelo Ministério Público. Esta fase termina com o exame médico do sinistrado (caso se não trate de acidente mortal) e tentativa de conciliação, na qual intervêm, por regra, o sinistrado ou os seus beneficiários, eventualmente a seguradora e/ou a entidade empregadora. Existindo conciliação, é o auto apresentado ao juiz que, verificando da sua conformidade com a lei, o homologa, assim findando o processo. A inexistência de conciliação desencadeia o início da fase contenciosa do processo que poderá ter duas tramitações distintas: ou a não conciliação se deveu, unicamente, à discordância quanto ao grau de incapacidade atribuído ao sinistrado, e, nesse caso, a fase contenciosa inicia-se com requerimento para junta médica; ou a não conciliação se deveu a outras circunstâncias, caso em que a fase contenciosa se inicia com a petição inicial do sinistrado ou dos seus beneficiários (em caso de acidente mortal).
@@ -2719,7 +2719,7 @@ Nos casos de doença profissional, se o Centro Nacional de Proteção contra os 
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_253 ;
 	:classeStatus "A" ;
 	:descricao "Ação declarativa de natureza laboral que se destina a impugnar o despedimento coletivo nos casos em que o ou os trabalhadores afetados com essa medida pretendam reclamar direitos emergentes de um despedimento que consideram ilícito.
@@ -2738,7 +2738,7 @@ Inexistindo acordo em qualquer fase do processo, termina este com a sentença e 
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_253 ;
 	:classeStatus "A" ;
 	:descricao "Ações declarativa de natureza laboral que tem por objeto o contencioso das instituições de previdência, abono de família, associações sindicais, associações de empregadores ou comissões de trabalhadores, aí se incluindo os processos que tenham por objeto: i) a convocação de assembleias gerais; ii) impugnação de estatutos, deliberações de assembleias gerais ou atos eleitorais; iii) impugnação judicial de decisão disciplinar; iv) liquidação e partilha dos bens de instituição de previdência, de associações sindicais, de associações de empregadores ou de comissões de trabalhadores; v) ação de anulação e interpretação de cláusulas de convenções coletivas de trabalho. A tramitação destas ações segue os termos do processo comum, com as exceções previstas na lei para cada um dos diferentes tipos de ações enunciadas. Terminam com a prolação de sentença e elaboração da conta. Inclui eventual recurso.".
@@ -2753,7 +2753,7 @@ Inexistindo acordo em qualquer fase do processo, termina este com a sentença e 
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_253 ;
 	:classeStatus "A" ;
 	:descricao "Ação declarativa de natureza laboral que visa a impugnação de confidencialidade de informações ou da recusa da sua prestação ou da realização de consultas, devendo, na petição inicial, o autor alegar os fundamentos do pedido.
@@ -2769,7 +2769,7 @@ Termina com a prolação de sentença e elaboração da conta. Inclui eventual r
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_253 ;
 	:classeStatus "A" ;
 	:descricao "Ação declarativa de natureza laboral através da qual se peticiona a tomada de providências destinadas a evitar a consumação de qualquer violação dos direitos de personalidade do trabalhador ou atenuar os efeitos de ofensa já praticada.
@@ -2785,7 +2785,7 @@ Termina com a prolação de sentença e elaboração da conta. Inclui eventual r
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_253 ;
 	:classeStatus "A" ;
 	:descricao "Ação declarativa de natureza laboral que visa a tomada de providências destinadas a assegurar a igualdade entre trabalhadores e a evitar medidas de discriminação em função do sexo.
@@ -2805,7 +2805,7 @@ Realizada audiência de discussão e julgamento, o processo termina com a prola�
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_253 ;
 	:classeStatus "A" ;
 	:descricao "Ação declarativa de natureza laboral  que visa o reconhecimento de vínculos de natureza laboral nas situações em que, indevidamente, é utilizado o contrato de prestação de serviço.
@@ -2831,7 +2831,7 @@ O processo termina com a prolação de sentença e elaboração da conta. Inclui
 	:temDono :org_BNI ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.350_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_206 ;
 	:temLegislacao :leg_373 ;
 	:temLegislacao :leg_718 ;
@@ -2849,7 +2849,7 @@ Este processo inicia-se com um requerimento, segundo um modelo aprovado, apresen
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_206 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial declarativo destinado a exigir o cumprimento de obrigações pecuniárias emergentes de contratos de valor não superior a 15 000 Euros.
@@ -2864,7 +2864,7 @@ Este processo inicia-se com um articulado de uma das partes civis, seguindo-se a
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_AL ;
 	:temDono :org_BNA ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_529 ;
 	:temLegislacao :leg_1071 ;
 	:classeStatus "A" ;
@@ -2890,8 +2890,8 @@ COLHER MAIS INFORMAÇÃO SOBRE OS REGISTOS QUE EXISTEM NO BNA.
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.353_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c600.20.304 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c600.20.304 ;
 	:temLegislacao :leg_421 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial que tem como finalidade (i) a satisfação dos credores pela forma prevista num plano de insolvência baseado na recuperação da empresa compreendida na massa insolvente ou (ii) a liquidação do património do devedor e a repartição do produto obtido pelos credores. Este processo inicia-se com um articulado do próprio ou de um credor (que pode ser o Ministério Público no caso de o credor ser o Estado ou trabalhadores por aquele representados), seguindo-se a citação para deduzir oposição, no caso de se tratar de uma insolvência requerida por um credor, ou no caso de não ser possível a citação, prosseguimento dos autos com dispensa da sua audição. Tratando-se de um pedido de insolvência apresentado pelo próprio devedor ou se não houver oposição quando requerida pelos credores, é, de imediato, proferida sentença a declarar a insolvência. No caso de ser deduzida oposição ou de haver lugar à dipensa de audição, é designada data para a realização da audiência audiência de julgamento com produção de prova, após o que proferida uma sentença, da qual pode ser interposto recurso ou deduzidos embargos. O processo segue os seus termos para execução universal do património do devedor ou para aprovação de um plano de insolvência destinado, nomeadamente, à sua recuperação.
@@ -2942,7 +2942,7 @@ COLHER MAIS INFORMAÇÃO SOBRE OS REGISTOS QUE EXISTEM NO BNA.
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.354_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_421 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial que tem por objectivo permitir aos devedores em situação económica difícil ou situação de insolvência eminente a sua recuperação mediante acordo com os seus credores, sem que seja decretada a sua insolvência. É um processo que exige a intervenção do tribunal em três momentos chave: no início; na decisão de impugnação da lista provisória de créditos; e no final, para tornar gerais os efeitos do acordo ou para extrair as devidas consequências da não aprovação do mesmo. Existem duas modalidades possíveis de revitalização, cuja escolha dependerá do devedor: (i) processo que começa com a manifestação de vontade do devedor e de, pelo menos, um dos seus credores de que pretendem encetar negociações conducentes à revitalização, seguindo-se a nomeação de um administrador provisório que apresenta uma lista de provisória de credores, que se não impugnada converte-se em definitiva, sendo que no caso de ser impugnada é proferida decisão judicial quanto às impugnações, terminando com a homologação ou não do plano de revitalização, que foi previamente sujeito à aprovação dos credores; (ii) processo no qual o devedor apresenta ao tribunal, para homologação um acordo extrajudicial já alcançado com os credores representando a maioria da aprovação necessária, terminado com a homologação ou não do plano.
@@ -2981,7 +2981,7 @@ A decisão de homologação ou não homologação do plano pode ser objecto de r
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteIniciador :org_AL ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_258 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial por intermédio do qual se efectiva a expropriação litigiosa de bens imóveis e os direitos a eles inerentes por causa de utilidade pública compreendida nas atribuições, fins ou objecto da entidade expropriante, mediante o pagamento contemporâneo de uma justa indemnização.
@@ -3003,7 +3003,7 @@ Este processo inicia-se, após a frustração do processo de expropriação amig
 	:temDono :org_CN ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.356_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1105 ;
 	:temLegislacao :leg_1145 ;
 	:classeStatus "A" ;
@@ -3021,7 +3021,7 @@ Este processo inicia-se com um requerimento junto do notário, no qual é indica
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_480 ;
 	:temLegislacao :leg_165 ;
 	:classeStatus "A" ;
@@ -3097,13 +3097,13 @@ Este processo inicia-se com um requerimento junto do notário, no qual é indica
 	:temNotaAplicacao :na_c600.30.358_8 ;
 	:temNotaAplicacao :na_c600.30.358_9 ;
 	:temNotaExclusao :ne_c600.30.358_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c400.10.044 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.501 ;
-	:temRelProc :c600.40.100 ;
-	:temRelProc :c600.40.303 ;
-	:temRelProc :c600.40.301 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c400.10.044 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eAntecessorDe :c600.10.501 ;
+	:eAntecessorDe :c600.40.100 ;
+	:eAntecessorDe :c600.40.303 ;
+	:eAntecessorDe :c600.40.301 ;
 	:temLegislacao :leg_1308 ;
 	:classeStatus "A" ;
 	:descricao "Definição e aplicação, pelo tribunal competente a menor que cometa facto qualificado pela lei como crime, de medida(s) tutelar(es) tendo em vista promover a sua educação para o direito e a sua inserção, de forma digna e responsável, na vida em comunidade.
@@ -3169,8 +3169,8 @@ Inclui, a comprovação judicial dos factos; a avaliação da necessidade de apl
 	:temNotaAplicacao :na_c600.30.359_6 ;
 	:temNotaAplicacao :na_c600.30.359_7 ;
 	:temNotaExclusao :ne_c600.30.359_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_269 ;
 	:temLegislacao :leg_1330 ;
 	:classeStatus "A" ;
@@ -3188,8 +3188,8 @@ Inclui, a comprovação judicial dos factos; a avaliação da necessidade de apl
 	:temParticipanteAssessor :org_INMLCF ;
 	:temDono :org_Trb ;
 	:temDono :org_MP ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1329 ;
 	:classeStatus "A" ;
@@ -3204,8 +3204,8 @@ Inclui, a comprovação judicial dos factos; a avaliação da necessidade de apl
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c400.10.001 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c400.10.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1329 ;
 	:classeStatus "A" ;
@@ -3229,8 +3229,8 @@ Inclui, a comprovação judicial dos factos; a avaliação da necessidade de apl
 	:temParticipanteAssessor :org_INMLCF ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.362_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1329 ;
 	:classeStatus "A" ;
@@ -3251,7 +3251,7 @@ Inclui, a comprovação judicial dos factos; a avaliação da necessidade de apl
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.363_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1331 ;
 	:classeStatus "A" ;
@@ -3272,7 +3272,7 @@ Inclui, a comprovação judicial dos factos; a avaliação da necessidade de apl
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.364_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1331 ;
 	:classeStatus "A" ;
@@ -3292,7 +3292,7 @@ Inclui eventual recurso, averbamentos a obras literárias, científicas e artís
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_815 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial de jurisdição voluntária destinado à constituição de uma relação jurídica, tendencialmente de caracter permanente, entre uma criança ou jovem e uma pessoa singular ou uma família que exerça os poderes e deveres próprios dos pais e que com ele estabeleçam vínculos afetivos que permitam o seu bem-estar e desenvolvimento, constituída por homologação ou decisão judicial e sujeita a registo civil. Quando o compromisso de apadrinhamento civil for celebrado na comissão de proteção de crianças e jovens ou no organismo competente da segurança social, ou em instituição por esta habilitada, é o mesmo enviado ao tribunal competente, para homologação, acompanhado de relatório social. Segue-se a fase da citação, alegações e eventual produção de prova e termina com uma sentença e elaboração de conta. Inclui eventual recurso.".
@@ -3307,7 +3307,7 @@ Inclui eventual recurso, averbamentos a obras literárias, científicas e artís
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1329 ;
 	:classeStatus "A" ;
@@ -3325,8 +3325,8 @@ Inclui eventual recurso, averbamentos a obras literárias, científicas e artís
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteAssessor :org_INMLCF ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_1329 ;
 	:classeStatus "A" ;
 	:descricao "Processo de jurisdição voluntária destinado a modificar as obrigações reguladas no âmbito do acordo ou da decisão de regulação das responsabilidades parentais, caso o acordo ou a decisão final não sejam cumpridos por ambos os pais ou quando circunstâncias supervenientes tornem necessário alterar o que estiver estabelecido. Começa com o requerimento dos pais, de terceira pessoa a quem a criança esteja confiada ou do Ministério Público,  segue-se a citação do requerido, após o que o juiz, se não considerar  o pedido infundado, designa uma data para a realização de conferência, que pode terminar por acordo que é homologado por sentença ou, e não havendo acordo, determina a suspensão do processo e remessa das partes para mediação ou audição técnica especializada. Terminada a suspensão sem que exista acordo, há lugar à continuação da conferência, após o que há lugar a alegações e à realização de diligências, e termina com uma sentença e elaboração de conta. Inclui eventual recurso.".
@@ -3340,7 +3340,7 @@ Inclui eventual recurso, averbamentos a obras literárias, científicas e artís
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1329 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial de jurisdição voluntária destinado a solucionar o desacordo entre os progenitores sobre alguma questão de particular importância quando o poder paternal seja exercido em comum por ambos os pais. Começa com o requerimento de um dos progenitores, após o que o juiz designa uma data para a realização de conferência, que pode terminar por acordo que é homologado por sentença ou, e não havendo acordo, determina a suspensão do processo e remessa das partes para mediação ou audição técnica especializada. Terminada a suspensão sem que exista acordo, há lugar à continuação da conferência, após o que há lugar a alegações e à realização de diligências, e termina com uma sentença e elaboração de conta. Inclui eventual recurso.".
@@ -3354,7 +3354,7 @@ Inclui eventual recurso, averbamentos a obras literárias, científicas e artís
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1329 ;
 	:classeStatus "A" ;
 	:descricao "Processo de jurisdição voluntária destinado à obtenção do cumprimento coercivo das obrigações reguladas no âmbito do acordo ou da decisão de regulação das responsabilidades parentais e a condenação do remisso em multa e em indemnização a favor do menor ou do requerente ou de ambos.  Começa com o requerimento de um dos progenitores ou do Ministério Público, após o que o juiz designa uma data para a realização de conferência, ou excepcionalmente manda notificar o requerido para alegar o que tiver por conveniente. Na conferência, os pais podem acordar na alteração do que se encontrar fixado, sendo que não havendo acordo ou se não tiver sido realizada a conferência, o juiz determina a suspensão do processo e remessa das partes para mediação ou audição técnica especializada. Terminada a suspensão sem que exista acordo, há lugar à marccação de conferência, após o que há lugar a alegações e à realização de diligências, e termina com uma sentença e elaboração de conta. Inclui eventual recurso.".
@@ -3368,7 +3368,7 @@ Inclui eventual recurso, averbamentos a obras literárias, científicas e artís
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1329 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial de jurisdição voluntária destinado à fixação dos alimentos devidos a criança, ou a alteração dos anteriormente fixados. Começa com um requerimento por parte do representante legal da criança, do MP, da pessoa à guarda de quem aquela se encontre ou do diretor da instituição de acolhimento a quem tenha sido confiada, seguindo-se a marcação pelo juiz de uma conferência, para a qual é citado o requerido e notificado os demais interessados, que pode terminar por acordo que é homologado por sentença ou, e não havendo acordo, determina a suspensão do processo e remessa das partes para mediação ou audição técnica especializada. Terminada a suspensão sem que exista acordo ou não sendo possível realizar a conferência, é o requerido notificado para contestar, após o que o juiz proceder à realização de diligências, incluindo relatório sobre os meios do requerido e as necessidades da criança, e termina com uma sentença e elaboração de conta. Inclui eventual recurso.".
@@ -3382,7 +3382,7 @@ Inclui eventual recurso, averbamentos a obras literárias, científicas e artís
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1329 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial de jurisdição voluntária destinado a tornar efetiva a prestação de alimentos quando a pessoa judicialmente obrigada a prestá-los não satisfizer as quantias em dívida. Pode ser efetivada através da sua dedução no ordenado mediante notificação da entidade pagadoira ou mediante dedução em outras prestações que o devedor aufira ou tenha direito, fazendo-se para tal as requisições ou notificações necessárias, podendo abranger também os alimentos que se forem vencendo.".
@@ -3397,8 +3397,8 @@ Inclui eventual recurso, averbamentos a obras literárias, científicas e artís
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteAssessor :org_INMLCF ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_1329 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial de jurisdição voluntária destinado a adotar as providências tutelares cíveis necessárias à defesa do interesse da criança quando à mesma não corresponda qualquer das formas de processo especial previstas no RGPTC. Inclui a realização pelo tribunal de quaisquer diligências que repute necessárias antes de proferir a decisão final.".
@@ -3419,8 +3419,8 @@ Inclui eventual recurso, averbamentos a obras literárias, científicas e artís
 	:temParticipanteAssessor :org_INMLCF ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.373_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1329 ;
 	:classeStatus "A" ;
@@ -3436,7 +3436,7 @@ Inclui eventual recurso, averbamentos a obras literárias, científicas e artís
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_7 ;
 	:classeStatus "A" ;
 	:descricao "Trata-se da fase judicial do processo de demolição do navio, aí decorrendo, nos termos aplicáveis ao processo de execução para pagamento de quantia certa, a convocação dos credores, a verificação, a graduação e o pagamento dos seus créditos, nos termos do art. 94.º, n.º 3, do Regulamento Geral das Capitanias, aprovado pelo DL 265/72, de 31-07. Inicia-se com a remessa do processo para o Tribunal Marítimo, por parte da autoridade marítima, e termina com uma decisão daquele tribunal ou de um tribunal superior, em caso de recurso da decisão do Tribunal Marítimo.
@@ -3453,7 +3453,7 @@ Inclui eventual recurso, averbamentos a obras literárias, científicas e artís
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_5 ;
 	:classeStatus "A" ;
 	:descricao "Processo destinado à constituição de um fundo de limitação da responsabilidade nos termos da Convenção de Bruxelas sobre o Limite da Responsabilidade dos Proprietários dos Navios de Alto Mar, de 10-10-1957, consagrado no Regulamento do Fundo de Limitação, Decreto n.º 49 029, de 26-05-1969.
@@ -3471,7 +3471,7 @@ Inicia-se a requerimento do proprietário do navio ou outra das pessoas referida
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_203 ;
 	:classeStatus "A" ;
 	:descricao "Processo destinado à constituição de um fundo de limitação da responsabilidade do proprietário do navio, correspondente ao navio e ao valor do frete a risco, quando não estejam em causa pedidos de indemnização abrangidos nos tratados e convenções internacionais vigentes em Portugal. Inicia-se a requerimento do proprietário do navio e termina com uma sentença e elaboração de conta. Inclui eventual recurso.".
@@ -3486,7 +3486,7 @@ Inicia-se a requerimento do proprietário do navio ou outra das pessoas referida
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_203 ;
 	:classeStatus "A" ;
 	:descricao "Processo regulado nos arts. 18.º e 19.º do DL 202/98, de 10-07, e destinado à venda de navio abandonado quando o titular de crédito sobre navio abandonado, ou de qualquer outro crédito de que seja devedor o seu anterior proprietário, se encontre munido de título executivo ou tenha já proposto ação declarativa destinada a obtê-lo. Inicia-se a requerimento do titular dos referidos créditos e termina com uma decisão do Tribunal Marítimo ou de um tribunal superior, em caso de recurso da decisão daquele tribunal.
@@ -3510,8 +3510,8 @@ Inicia-se a requerimento do proprietário do navio ou outra das pessoas referida
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.400_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_253 ;
 	:temLegislacao :leg_70 ;
 	:temLegislacao :leg_57 ;
@@ -3532,7 +3532,7 @@ Este processo inicia-se com um articulado de uma das partes civis, seguindo-se a
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_374 ;
 	:temLegislacao :leg_57 ;
 	:classeStatus "A" ;
@@ -3547,7 +3547,7 @@ Este processo inicia-se com um articulado de uma das partes civis, seguindo-se a
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_374 ;
 	:temLegislacao :leg_57 ;
 	:classeStatus "A" ;
@@ -3591,7 +3591,7 @@ Este processo inicia-se com um articulado de uma das partes civis, seguindo-se a
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "Procedimento através do qual se procede à comunicação, por intermédio do tribunal, de qualquer declaração negocial. Este processo inicia-se com um articulado de uma das partes civis, seguindo-se despacho do juiz a ordenar a notificação através de agente de execução ou funcionário de justiça e termina com a notificação e só admite recurso no caso de indeferimento.".
@@ -3625,8 +3625,8 @@ Este processo inicia-se com um articulado de uma das partes civis, seguindo-se a
 	:temNotaAplicacao :na_c600.30.500_1 ;
 	:temNotaAplicacao :na_c600.30.500_2 ;
 	:temNotaAplicacao :na_c600.30.500_3 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c800.10.603 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_1068 ;
 	:temLegislacao :leg_1002 ;
 	:temLegislacao :leg_856 ;
@@ -3673,7 +3673,7 @@ Termina com a informação prestada à congénere sobre o acordo das partes ou m
 	:temNotaAplicacao :na_c600.30.501_1 ;
 	:temNotaAplicacao :na_c600.30.501_2 ;
 	:temNotaExclusao :ne_c600.30.501_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1002 ;
 	:temLegislacao :leg_856 ;
 	:temLegislacao :leg_645 ;
@@ -3759,9 +3759,9 @@ Inclui registos de insistências, pareceres técnicos e jurídicos e comunicaç�
 	:temNotaAplicacao :na_c600.30.550_8 ;
 	:temNotaAplicacao :na_c600.30.550_9 ;
 	:temNotaAplicacao :na_c600.30.550_10 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c500.40.001 ;
-	:temRelProc :c500.40.500 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c500.40.001 ;
+	:eSucessorDe :c500.40.500 ;
 	:temLegislacao :leg_1117 ;
 	:temLegislacao :leg_1067 ;
 	:temLegislacao :leg_361 ;
@@ -3821,22 +3821,22 @@ Inclui todos os atos e diligências processuais, nomeadamente, apresentação do
 	:temNotaAplicacao :na_c600.30.551_4 ;
 	:temNotaAplicacao :na_c600.30.551_5 ;
 	:temNotaAplicacao :na_c600.30.551_6 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c350.10.100 ;
-	:temRelProc :c350.10.101 ;
-	:temRelProc :c350.10.200 ;
-	:temRelProc :c350.10.201 ;
-	:temRelProc :c350.10.202 ;
-	:temRelProc :c350.10.203 ;
-	:temRelProc :c350.10.204 ;
-	:temRelProc :c350.10.205 ;
-	:temRelProc :c350.10.206 ;
-	:temRelProc :c350.10.300 ;
-	:temRelProc :c350.10.301 ;
-	:temRelProc :c350.10.400 ;
-	:temRelProc :c500.40.001 ;
-	:temRelProc :c500.40.500 ;
-	:temRelProc :c500.40.501 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c350.10.100 ;
+	:eSucessorDe :c350.10.101 ;
+	:eSucessorDe :c350.10.200 ;
+	:eSucessorDe :c350.10.201 ;
+	:eSucessorDe :c350.10.202 ;
+	:eSucessorDe :c350.10.203 ;
+	:eSucessorDe :c350.10.204 ;
+	:eSucessorDe :c350.10.205 ;
+	:eSucessorDe :c350.10.206 ;
+	:eSucessorDe :c350.10.300 ;
+	:eSucessorDe :c350.10.301 ;
+	:eSucessorDe :c350.10.400 ;
+	:eAntecessorDe :c500.40.001 ;
+	:eAntecessorDe :c500.40.500 ;
+	:eAntecessorDe :c500.40.501 ;
 	:temLegislacao :leg_361 ;
 	:temLegislacao :leg_360 ;
 	:temLegislacao :leg_211 ;
@@ -3906,9 +3906,9 @@ Inclui eventual recurso.".
 	:temNotaAplicacao :na_c600.30.552_6 ;
 	:temNotaAplicacao :na_c600.30.552_7 ;
 	:temNotaAplicacao :na_c600.30.552_8 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c500.40.001 ;
-	:temRelProc :c500.40.500 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c500.40.001 ;
+	:eSucessorDe :c500.40.500 ;
 	:temLegislacao :leg_1117 ;
 	:temLegislacao :leg_605 ;
 	:temLegislacao :leg_454 ;
@@ -3931,7 +3931,7 @@ Inclui todos os atos e diligências processuais. Inclui eventual recurso.".
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_39 ;
 	:temLegislacao :leg_1340 ;
 	:classeStatus "A" ;
@@ -3978,9 +3978,9 @@ Inclui contestação do interessado e realização de diligências de prova que 
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.554_1 ;
 	:temNotaExclusao :ne_c600.30.554_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c500.40.001 ;
-	:temRelProc :c500.40.500 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c500.40.001 ;
+	:eSucessorDe :c500.40.500 ;
 	:temLegislacao :leg_1117 ;
 	:temLegislacao :leg_361 ;
 	:temLegislacao :leg_360 ;
@@ -4006,9 +4006,9 @@ Inclui eventual recurso.
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteComunicador :org_AP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c500.40.001 ;
-	:temRelProc :c500.40.500 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c500.40.001 ;
+	:eSucessorDe :c500.40.500 ;
 	:temLegislacao :leg_1117 ;
 	:temLegislacao :leg_361 ;
 	:temLegislacao :leg_360 ;
@@ -4031,9 +4031,9 @@ Inclui eventual recurso.".
 	:temParticipanteAssessor :org_AT ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c500.40.001 ;
-	:temRelProc :c500.40.500 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c500.40.001 ;
+	:eSucessorDe :c500.40.500 ;
 	:temLegislacao :leg_1067 ;
 	:temLegislacao :leg_361 ;
 	:temLegislacao :leg_480 ;
@@ -4055,9 +4055,9 @@ Inclui eventual recurso.".
 	:temParticipanteIniciador :org_AP ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c500.40.001 ;
-	:temRelProc :c500.40.500 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c500.40.001 ;
+	:eSucessorDe :c500.40.500 ;
 	:temLegislacao :leg_1067 ;
 	:temLegislacao :leg_361 ;
 	:temLegislacao :leg_360 ;
@@ -4095,9 +4095,9 @@ Inclui eventual recurso.".
 	:temParticipanteIniciador :org_AT ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c500.40.001 ;
-	:temRelProc :c500.40.500 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c500.40.001 ;
+	:eSucessorDe :c500.40.500 ;
 	:temLegislacao :leg_360 ;
 	:temLegislacao :leg_361 ;
 	:temLegislacao :leg_251 ;
@@ -4118,7 +4118,7 @@ Inclui eventual recurso.".
 	:temParticipanteIniciador :org_AT ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_211 ;
 	:classeStatus "A" ;
 	:descricao "Visa obter a anulação ou declaração de nulidade da decisão de avaliação da matéria tributável prevista no art..º 89.º - A, da Lei Geral Tributária.
@@ -4138,9 +4138,9 @@ Inclui eventual recurso.
 	:temParticipanteIniciador :org_AT ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c500.40.001 ;
-	:temRelProc :c500.40.500 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c500.40.001 ;
+	:eSucessorDe :c500.40.500 ;
 	:temLegislacao :leg_360 ;
 	:temLegislacao :leg_251 ;
 	:temLegislacao :leg_211 ;
@@ -4161,9 +4161,9 @@ Inclui eventual recurso.".
 	:temParticipanteIniciador :org_AT ;
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c500.40.001 ;
-	:temRelProc :c500.40.500 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c500.40.001 ;
+	:eSucessorDe :c500.40.500 ;
 	:temLegislacao :leg_360 ;
 	:temLegislacao :leg_251 ;
 	:temLegislacao :leg_211 ;
@@ -4246,7 +4246,7 @@ Inclui eventual recurso.
 	:temNotaAplicacao :na_c600.30.562_8 ;
 	:temNotaAplicacao :na_c600.30.562_9 ;
 	:temNotaExclusao :ne_c600.30.562_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1067 ;
 	:temLegislacao :leg_361 ;
 	:temLegislacao :leg_360 ;
@@ -4277,15 +4277,15 @@ Inclui todos os atos e diligências processuais.
 	:temDono :org_TContas ;
 	:classeStatus "A" ;
 	:descricao "".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.650_2
-:na_c600.30.650_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Recurso de anulação".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.650_1
 :na_c600.30.650_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Ação por incumprimento (fases pré-contenciosa e contenciosa)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.650_2
+:na_c600.30.650_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Recurso de anulação".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.650_3
 :na_c600.30.650_3 rdf:type owl:NamedIndividual ,
@@ -4360,7 +4360,7 @@ Inclui ainda a fase administrativa (procedimento pré-contencioso), imposta pelo
 	:temPai :c600.30 ;
 	:processoTipo "PE" ;
 	:temDono :org_TC ;
-	:temRelProc :c100.10.003 ;
+	:eSintetizadoPor :c100.10.003 ;
 	:temLegislacao :leg_480 ;
 	:temLegislacao :leg_211 ;
 	:classeStatus "A" ;
@@ -4374,7 +4374,7 @@ Inclui ainda a fase administrativa (procedimento pré-contencioso), imposta pelo
 	:temPai :c600.30 ;
 	:processoTipo "PE" ;
 	:temDono :org_TC ;
-	:temRelProc :c100.10.003 ;
+	:eSintetizadoPor :c100.10.003 ;
 	:temLegislacao :leg_480 ;
 	:temLegislacao :leg_211 ;
 	:classeStatus "A" ;
@@ -4394,7 +4394,7 @@ Inclui ainda a fase administrativa (procedimento pré-contencioso), imposta pelo
 	:processoTipo "PE" ;
 	:temDono :org_TC ;
 	:temNotaAplicacao :na_c600.30.703_1 ;
-	:temRelProc :c100.10.003 ;
+	:eSintetizadoPor :c100.10.003 ;
 	:temLegislacao :leg_480 ;
 	:temLegislacao :leg_211 ;
 	:classeStatus "A" ;
@@ -4585,8 +4585,8 @@ Inclui ainda a fase administrativa (procedimento pré-contencioso), imposta pelo
 	:processoTipo "PE" ;
 	:temDono :org_TC ;
 	:temNotaAplicacao :na_c600.30.712_1 ;
-	:temRelProc :c100.10.003 ;
-	:temRelProc :c950.10.201 ;
+	:eSintetizadoPor :c100.10.003 ;
+	:eCruzadoCom :c950.10.201 ;
 	:temLegislacao :leg_46 ;
 	:temLegislacao :leg_216 ;
 	:classeStatus "A" ;
@@ -4644,7 +4644,7 @@ Inclui ainda a fase administrativa (procedimento pré-contencioso), imposta pelo
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.750_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_439 ;
 	:classeStatus "A" ;
 	:descricao "Meio processual destinado a impugnar judicialmente a decisão de indeferimento ou de cancelalmento de proteção jurídica tomada pela segurança social, mediante a apresentação pelo interessado, por escrito, junto dos serviços da segurança social, de requerimento. Caso não seja revogada administrativamente a decisão impugnada, o requerimento é remetido ao tribunal competente que, por meio de despacho concisamente fundamentado, decide, concedendo ou recusando a proteção jurídica. Tal despacho é irrecorrível.".
@@ -4686,11 +4686,11 @@ Inclui ainda a fase administrativa (procedimento pré-contencioso), imposta pelo
 	:temNotaAplicacao :na_c600.30.751_2 ;
 	:temNotaAplicacao :na_c600.30.751_3 ;
 	:temNotaAplicacao :na_c600.30.751_4 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c400.10.406 ;
-	:temRelProc :c400.10.409 ;
-	:temRelProc :c400.30.001 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c400.10.200 ;
+	:eSucessorDe :c400.10.406 ;
+	:eSucessorDe :c400.10.409 ;
+	:eSucessorDe :c400.30.001 ;
 	:temLegislacao :leg_302 ;
 	:temLegislacao :leg_158 ;
 	:temLegislacao :leg_53 ;
@@ -4721,7 +4721,7 @@ A sua tramitação é muito diversificada, consoante a natureza e a entidade que
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.752_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_45 ;
 	:classeStatus "A" ;
 	:descricao "Impugnação judicial de decisão de uma autoridade administrativa que aplica uma coima ou outro tipo de sanção pela prática de uma contraordenação.
@@ -4742,7 +4742,7 @@ O processo judiclal inicia com a remessa do recurso da decisão da autoridade ad
 	:temParticipanteApreciador :org_MP ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.753_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "Resolução de conflito entre dois ou mais tribunais de espécie diferente, em que simultaneamente se arroguem (conflito positivo) ou declinem (conflito negativo) o poder de conhecer da mesma questão.  A questão pode ser suscitada oficiosamente junto do presidente do tribunal competente para decidir, por qualquer das partes ou pelo Ministério Público, seguindo-se um prazo para as partes se pronunciarem por escrito, bem como prazo de vista ao Ministério Público, terminando com a decisão do presidente.".
@@ -4763,7 +4763,7 @@ O processo judiclal inicia com a remessa do recurso da decisão da autoridade ad
 	:temParticipanteComunicador :org_DGERT ;
 	:temDono :org_Trb ;
 	:temNotaAplicacao :na_c600.30.754_1 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_970 ;
 	:temLegislacao :leg_1377 ;
 	:temLegislacao :leg_971 ;
@@ -4797,7 +4797,7 @@ O processo judiclal inicia com a remessa do recurso da decisão da autoridade ad
 	:temNotaAplicacao :na_c600.30.755_1 ;
 	:temNotaAplicacao :na_c600.30.755_2 ;
 	:temNotaAplicacao :na_c600.30.755_3 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_480 ;
 	:temLegislacao :leg_70 ;
 	:temLegislacao :leg_218 ;
@@ -4818,11 +4818,11 @@ O processo judiclal inicia com a remessa do recurso da decisão da autoridade ad
 	:processoTransversal "N" ;
 	:temDono :org_MP ;
 	:temNotaExclusao :ne_c600.30.800_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c500.30.002 ;
-	:temRelProc :c500.30.003 ;
-	:temRelProc :c500.30.004 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eAntecessorDe :c500.30.001 ;
+	:eAntecessorDe :c500.30.002 ;
+	:eAntecessorDe :c500.30.003 ;
+	:eSucessorDe :c500.30.004 ;
 	:temLegislacao :leg_322 ;
 	:classeStatus "A" ;
 	:descricao "Processo especial de jurisdição voluntária da competência do Ministério Público destinado a (1) suprir o consentimento de pessoa quando a causa de pedir seja a incapacidade ou a ausência dessa pessoa, (2) conceder ou denegar a autorização para a prática de atos do representante legal do incapaz quando legalmente exigida, (3) conceder ou denegar autorização para a alienação ou oneração de bens do ausente quando tenha sido deferida a curadoria provisória ou definitiva, (4) confirmar atos praticados pelo representante do incapaz sem a necessária autorização, (5) providenciar que o representante legal do incapaz seja notificado para proceder à aceitação ou rejeição de liberalidades a favor do incapaz.
@@ -4915,10 +4915,10 @@ Inclui registo, acompanhado pela hierarquia, diligências, registo de depoimento
 	:temNotaAplicacao :na_c600.40.001_3 ;
 	:temNotaAplicacao :na_c600.40.001_4 ;
 	:temNotaAplicacao :na_c600.40.001_5 ;
-	:temRelProc :c550.10.010 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.40.002 ;
-	:temRelProc :c600.40.300 ;
+	:eCruzadoCom :c550.10.010 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eAntecessorDe :c600.40.002 ;
+	:eAntecessorDe :c600.40.300 ;
 	:temLegislacao :leg_1117 ;
 	:temLegislacao :leg_901 ;
 	:temLegislacao :leg_818 ;
@@ -4949,13 +4949,13 @@ Inclui ainda as comunicações das decisões ao tribunal à ordem do qual o argu
 	:temDono :org_DGRSP ;
 	:temNotaAplicacao :na_c600.40.002_1 ;
 	:temNotaExclusao :ne_c600.40.002_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c600.40.001 ;
-	:temRelProc :c550.10.010 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.40.001 ;
-	:temRelProc :c600.40.003 ;
-	:temRelProc :c600.40.300 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c600.40.001 ;
+	:eCruzadoCom :c550.10.010 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eSucessorDe :c600.40.001 ;
+	:eSinteseDe :c600.40.003 ;
+	:eAntecessorDe :c600.40.300 ;
 	:temLegislacao :leg_930 ;
 	:temLegislacao :leg_818 ;
 	:classeStatus "A" ;
@@ -5017,7 +5017,7 @@ Para além dos procedimentos de ingresso e da afetação inclui os de alojamento
 	:temNotaAplicacao :na_c600.40.003_3 ;
 	:temNotaAplicacao :na_c600.40.003_4 ;
 	:temNotaExclusao :ne_c600.40.003_1 ;
-	:temRelProc :c600.40.002 ;
+	:eSintetizadoPor :c600.40.002 ;
 	:temLegislacao :leg_818 ;
 	:classeStatus "A" ;
 	:descricao "Tratamento de solicitação diversa do recluso dirigida ao diretor do estabelecimento prisional ou ao serviço responsável pela execução da pena ou medida ou ao serviço de vigilância e segurança do estabelecimento prisional.
@@ -5056,8 +5056,8 @@ Inicia com um pedido e termina com despacho do pedido.".
 	:temNotaAplicacao :na_c600.40.100_2 ;
 	:temNotaAplicacao :na_c600.40.100_3 ;
 	:temNotaExclusao :ne_c600.40.100_1 ;
-	:temRelProc :c600.30.358 ;
-	:temRelProc :c800.10.603 ;
+	:eSucessorDe :c600.30.358 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_273 ;
 	:temLegislacao :leg_1308 ;
 	:temLegislacao :leg_301 ;
@@ -5106,8 +5106,8 @@ Inclui ainda a elaboração, execução, acompanhamento e monitorização do pla
 	:temNotaAplicacao :na_c600.40.200_3 ;
 	:temNotaAplicacao :na_c600.40.200_4 ;
 	:temNotaAplicacao :na_c600.40.200_5 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c600.30. ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c600.30. ;
 	:temLegislacao :leg_155 ;
 	:temLegislacao :leg_70 ;
 	:temLegislacao :leg_899 ;
@@ -5149,13 +5149,13 @@ Inicia-se com a decisão judicial e termina após o prazo fixado, por revogaçã
 	:temNotaAplicacao :na_c600.40.300_1 ;
 	:temNotaAplicacao :na_c600.40.300_2 ;
 	:temNotaExclusao :ne_c600.40.300_1 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c400.10.028 ;
-	:temRelProc :c550.10.008 ;
-	:temRelProc :c550.10.302 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.40.001 ;
-	:temRelProc :c600.40.002 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c400.10.028 ;
+	:eCruzadoCom :c550.10.008 ;
+	:eAntecessorDe :c550.10.302 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eSucessorDe :c600.40.001 ;
+	:eSucessorDe :c600.40.002 ;
 	:temRelProc :c600.30. ;
 	:temLegislacao :leg_1104 ;
 	:temLegislacao :leg_1026 ;
@@ -5221,10 +5221,10 @@ Inclui a notificação ao expulsando da pena principal, da pena acessória de in
 	:temNotaAplicacao :na_c600.40.301_5 ;
 	:temNotaAplicacao :na_c600.40.301_6 ;
 	:temNotaAplicacao :na_c600.40.301_7 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.10.302 ;
-	:temRelProc :c600.30. ;
-	:temRelProc :c600.30.358 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.10.302 ;
+	:eSucessorDe :c600.30. ;
+	:eSucessorDe :c600.30.358 ;
 	:temLegislacao :leg_1308 ;
 	:temLegislacao :leg_273 ;
 	:temLegislacao :leg_155 ;
@@ -5300,12 +5300,12 @@ Inclui ainda a elaboração de um plano de trabalhos a executar, a colocação n
 	:temNotaAplicacao :na_c600.40.302_7 ;
 	:temNotaAplicacao :na_c600.40.302_8 ;
 	:temNotaExclusao :ne_c600.40.302_1 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.10.302 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.30. ;
+	:eSucessorDe :c150.20.300 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.10.302 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eSucessorDe :c600.30. ;
 	:temLegislacao :leg_70 ;
 	:temLegislacao :leg_155 ;
 	:temLegislacao :leg_818 ;
@@ -5323,15 +5323,15 @@ Inicia com um pedido do tribunal e termina com a extinção da pena ou  medida
 	:NotaAplicacao ;
 	:conteudo "Privação do direito de conduzir ciclomotores ou de obter permissão para conduzir ciclomotores".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_3
-:na_c600.40.303_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Realização de prestações económicas ou tarefas a favor da comunidade".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_2
 :na_c600.40.303_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reparação ao ofendido".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_3
+:na_c600.40.303_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Realização de prestações económicas ou tarefas a favor da comunidade".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_4
 :na_c600.40.303_4 rdf:type owl:NamedIndividual ,
@@ -5372,9 +5372,9 @@ Inicia com um pedido do tribunal e termina com a extinção da pena ou  medida
 	:temNotaAplicacao :na_c600.40.303_5 ;
 	:temNotaAplicacao :na_c600.40.303_6 ;
 	:temNotaAplicacao :na_c600.40.303_7 ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c300.10.302 ;
-	:temRelProc :c600.30.358 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c300.10.302 ;
+	:eSucessorDe :c600.30.358 ;
 	:temLegislacao :leg_273 ;
 	:temLegislacao :leg_1308 ;
 	:classeStatus "A" ;
@@ -5390,8 +5390,8 @@ Inclui os contatos com as instituições locais e os relatórios sociais.".
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
 	:temDono :org_CS ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c600.40.500 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eAntecessorDe :c600.40.500 ;
 	:temRelProc :c600.40.600 ;
 	:temLegislacao :leg_1357 ;
 	:temLegislacao :leg_1221 ;
@@ -5410,8 +5410,8 @@ Inclui relatórios que resumem o resultado das consultas às bases de dados da a
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
-	:temRelProc :c600.40.400 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSucessorDe :c600.40.400 ;
 	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "Meio processual para efeitos de reparação efetiva de direito violado quando esteja em causa uma obrigação de pagamento de quantia certa, entrega de coisa certa, prestação de facto ou prestação de alimentos.
@@ -5447,7 +5447,7 @@ Inicia-se com um requerimento executivo e termina com a declaração de extinç�
 	:processoTransversal "S" ;
 	:temParticipanteComunicador :org_AP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temRelProc :c600.40.400 ;
 	:temLegislacao :leg_665 ;
 	:temLegislacao :leg_1111 ;
@@ -5513,7 +5513,7 @@ Inclui, com as devidas adaptações, o processo sumário para execução de quan
 	:temNotaAplicacao :na_c600.40.700_2 ;
 	:temNotaAplicacao :na_c600.40.700_3 ;
 	:temNotaAplicacao :na_c600.40.700_4 ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_251 ;
 	:temLegislacao :leg_211 ;
 	:classeStatus "A" ;
@@ -5549,7 +5549,7 @@ Inclui os trabalhos de coordenação necessários ao cumprimento da sentença.
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
-	:temRelProc :c150.40.001 ;
+	:eSintetizadoPor :c150.40.001 ;
 	:temLegislacao :leg_361 ;
 	:temLegislacao :leg_251 ;
 	:classeStatus "A" ;

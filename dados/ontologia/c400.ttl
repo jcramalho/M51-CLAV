@@ -279,24 +279,24 @@ de títulos de identificação. Os processos podem ser de iniciativa dos serviç
 	:temNotaExclusao :ne_c400.10.001_3 ;
 	:temNotaExclusao :ne_c400.10.001_4 ;
 	:temNotaExclusao :ne_c400.10.001_5 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.025 ;
-	:temRelProc :c400.10.027 ;
-	:temRelProc :c400.10.031 ;
-	:temRelProc :c400.10.041 ;
-	:temRelProc :c450.10.810 ;
-	:temRelProc :c450.30.003 ;
-	:temRelProc :c450.30.503 ;
-	:temRelProc :c450.30.504 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c500.40.500 ;
-	:temRelProc :c600.10.004 ;
-	:temRelProc :c600.10.006 ;
-	:temRelProc :c600.30.293 ;
-	:temRelProc :c600.30.361 ;
-	:temRelProc :c950.10.400 ;
-	:temRelProc :c950.10.401 ;
-	:temRelProc :c950.10.601 ;
+	:eSucessorDe :c350.30.001 ;
+	:eAntecessorDe :c400.10.025 ;
+	:eAntecessorDe :c400.10.027 ;
+	:eSintetizadoPor :c400.10.031 ;
+	:eAntecessorDe :c400.10.041 ;
+	:eSucessorDe :c450.10.810 ;
+	:eAntecessorDe :c450.30.003 ;
+	:eAntecessorDe :c450.30.503 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eAntecessorDe :c500.30.001 ;
+	:eAntecessorDe :c500.40.500 ;
+	:eSintetizadoPor :c600.10.004 ;
+	:eSintetizadoPor :c600.10.006 ;
+	:eSintetizadoPor :c600.30.293 ;
+	:eSintetizadoPor :c600.30.361 ;
+	:eCruzadoCom :c950.10.400 ;
+	:eComplementarDe :c950.10.401 ;
+	:eSucessorDe :c950.10.601 ;
 	:temLegislacao :leg_945 ;
 	:temLegislacao :leg_889 ;
 	:temLegislacao :leg_815 ;
@@ -319,6 +319,11 @@ Inclui a recolha de informações, comprovativos dos factos alegados, a instruç
 	:NotaAplicacao ;
 	:conteudo "Alteração, cancelamento e suspensão do registo".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.002_5
+:na_c400.10.002_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Pessoas singulares".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.002_3
 :na_c400.10.002_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -329,20 +334,15 @@ Inclui a recolha de informações, comprovativos dos factos alegados, a instruç
 	:NotaAplicacao ;
 	:conteudo "Inscrição oficiosa".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.002_5
-:na_c400.10.002_5 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.002_7
+:na_c400.10.002_7 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Pessoas singulares".
+	:conteudo "Entidades legalmente equiparadas que se encontrem sujeitas ao cumprimento de obrigações ou pretendam exercer os seus direitos junto da entidade competente".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.002_6
 :na_c400.10.002_6 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Pessoas coletivas".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.002_7
-:na_c400.10.002_7 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Entidades legalmente equiparadas que se encontrem sujeitas ao cumprimento de obrigações ou pretendam exercer os seus direitos junto da entidade competente".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.002_8
 :na_c400.10.002_8 rdf:type owl:NamedIndividual ,
@@ -385,8 +385,8 @@ Inclui a recolha de informações, comprovativos dos factos alegados, a instruç
 	:temNotaAplicacao :na_c400.10.002_9 ;
 	:temNotaAplicacao :na_c400.10.002_10 ;
 	:temNotaExclusao :ne_c400.10.002_1 ;
-	:temRelProc :c400.10.009 ;
-	:temRelProc :c400.10.050 ;
+	:eComplementarDe :c400.10.009 ;
+	:eAntecessorDe :c400.10.050 ;
 	:temLegislacao :leg_1075 ;
 	:temLegislacao :leg_26 ;
 	:classeStatus "A" ;
@@ -406,8 +406,8 @@ Inclui ainda, sempre que o NIF corresponda ao Número de Identificação de Pess
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_AL ;
 	:temDono :org_DGAL ;
-	:temRelProc :c400.10.009 ;
-	:temRelProc :c150.10.601 ;
+	:eSucessorDe :c400.10.009 ;
+	:eSuplementoPara :c150.10.601 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de número e inscrição da constituição e extinção de associações de freguesias, seus estatutos e respetivas modificações.
 Inicia com a comunicação pela entidade autárquica, respetivamente município ou freguesia, em cuja área está sediada a associação e termina com a emissão de declaração.
@@ -434,7 +434,7 @@ Inclui análise ao pedido, decisão, registo, atribuição de número e envio pa
 	:temDono :org_SEF ;
 	:temNotaAplicacao :na_c400.10.004_1 ;
 	:temNotaAplicacao :na_c400.10.004_2 ;
-	:temRelProc :c950.10.601 ;
+	:eSucessorDe :c950.10.601 ;
 	:temLegislacao :leg_914 ;
 	:temLegislacao :leg_533 ;
 	:classeStatus "A" ;
@@ -467,8 +467,8 @@ Inclui análise das condições do requerente, nomeadamente verificação do doc
 	:temDono :org_IASFA ;
 	:temNotaAplicacao :na_c400.10.005_1 ;
 	:temNotaAplicacao :na_c400.10.005_2 ;
-	:temRelProc :c400.10.011 ;
-	:temRelProc :c400.10.012 ;
+	:eCruzadoCom :c400.10.011 ;
+	:eCruzadoCom :c400.10.012 ;
 	:temLegislacao :leg_973 ;
 	:temLegislacao :leg_413 ;
 	:temLegislacao :leg_451 ;
@@ -482,11 +482,6 @@ Inclui apresentação de documento comprovativo de beneficiário de subsistema d
 :na_c400.10.007_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Proprietários, gerentes ou equivalentes de tipografias, oficinas ou fábricas".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.009_2
-:na_c400.10.009_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Certificado de constituição, inscrição, alteração de firma, sede ou objeto".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.007_2
 :na_c400.10.007_2 rdf:type owl:NamedIndividual ,
@@ -505,21 +500,26 @@ Inclui apresentação de documento comprovativo de beneficiário de subsistema d
 	:temDono :org_BNP ;
 	:temNotaAplicacao :na_c400.10.007_1 ;
 	:temNotaAplicacao :na_c400.10.007_2 ;
-	:temRelProc :c400.10.611 ;
+	:eAntecessorDe :c400.10.611 ;
 	:temLegislacao :leg_41 ;
 	:classeStatus "A" ;
 	:descricao "Inscrição de entidades depositantes no sistema de depósito legal.
 Inicia com o pré-registo de inscrição de novas entidades depositantes e termina com a validação dos dados.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.009_3
-:na_c400.10.009_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Constituição, modificação de firma ou denominação".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.009_1
 :na_c400.10.009_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Registo de pessoas coletivas religiosas não católicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.009_2
+:na_c400.10.009_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Certificado de constituição, inscrição, alteração de firma, sede ou objeto".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.009_3
+:na_c400.10.009_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Constituição, modificação de firma ou denominação".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.009_4
 :na_c400.10.009_4 rdf:type owl:NamedIndividual ,
@@ -571,15 +571,15 @@ Inicia com o pré-registo de inscrição de novas entidades depositantes e termi
 	:NotaExclusao ;
 	:conteudo "O apuramento emolumentar devido pela prática do ato por parte da Administração, bem como a cobrança coerciva da conta do ato (certificado de conta), não voluntariamente liquidada deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.009_3
-:ne_c400.10.009_3 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A emissão de certidões de instrumentos públicos, de registos ou de outros documentos arquivados deve ser considerada em 450.30.003 – Emissão de certidões".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.009_2
 :ne_c400.10.009_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A emissão de cópias não certificadas de instrumentos públicos, de registos ou de outros documentos arquivados deve ser considerada em 450.30.503 – Confirmação, conferência ou emissão de cópias não certificadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.009_3
+:ne_c400.10.009_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A emissão de certidões de instrumentos públicos, de registos ou de outros documentos arquivados deve ser considerada em 450.30.003 – Emissão de certidões".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.009_4
 :ne_c400.10.009_4 rdf:type owl:NamedIndividual ,
@@ -624,29 +624,29 @@ Inicia com o pré-registo de inscrição de novas entidades depositantes e termi
 	:temNotaExclusao :ne_c400.10.009_4 ;
 	:temNotaExclusao :ne_c400.10.009_5 ;
 	:temNotaExclusao :ne_c400.10.009_6 ;
-	:temRelProc :c150.10.601 ;
-	:temRelProc :c350.10.600 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.002 ;
-	:temRelProc :c400.10.003 ;
-	:temRelProc :c400.10.053 ;
-	:temRelProc :c400.10.045 ;
-	:temRelProc :c400.10.046 ;
-	:temRelProc :c400.10.047 ;
-	:temRelProc :c400.10.050 ;
-	:temRelProc :c400.10.053 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c400.10.607 ;
-	:temRelProc :c400.10.612 ;
-	:temRelProc :c450.10.063 ;
-	:temRelProc :c450.10.072 ;
-	:temRelProc :c450.10.446 ;
-	:temRelProc :c450.10.447 ;
-	:temRelProc :c450.20.001 ;
-	:temRelProc :c450.30.003 ;
-	:temRelProc :c450.30.503 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c500.40.500 ;
+	:eSucessorDe :c150.10.601 ;
+	:eAntecessorDe :c350.10.600 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eComplementarDe :c400.10.002 ;
+	:eAntecessorDe :c400.10.003 ;
+	:eAntecessorDe :c400.10.053 ;
+	:eAntecessorDe :c400.10.045 ;
+	:eSucessorDe :c400.10.046 ;
+	:eAntecessorDe :c400.10.047 ;
+	:eAntecessorDe :c400.10.050 ;
+	:eSinteseDe :c400.10.053 ;
+	:eAntecessorDe :c400.10.200 ;
+	:eAntecessorDe :c400.10.607 ;
+	:eAntecessorDe :c400.10.612 ;
+	:eSinteseDe :c450.10.063 ;
+	:eSinteseDe :c450.10.072 ;
+	:eSinteseDe :c450.10.446 ;
+	:eSinteseDe :c450.10.447 ;
+	:eSinteseDe :c450.20.001 ;
+	:eCruzadoCom :c450.30.003 ;
+	:eAntecessorDe :c450.30.503 ;
+	:eAntecessorDe :c500.30.001 ;
+	:eAntecessorDe :c500.40.500 ;
 	:temLegislacao :leg_202 ;
 	:temLegislacao :leg_690 ;
 	:classeStatus "A" ;
@@ -678,7 +678,7 @@ Inclui a instrução do processo, apreciação e decisão de inscrição e emiss
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_CGA ;
 	:temNotaAplicacao :na_c400.10.010_1 ;
-	:temRelProc :c250.10.800 ;
+	:eSucessorDe :c250.10.800 ;
 	:temLegislacao :leg_581 ;
 	:temLegislacao :leg_24 ;
 	:classeStatus "A" ;
@@ -701,12 +701,12 @@ Inclui validação dos dados.".
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_DGSS ;
 	:temNotaAplicacao :na_c400.10.011_1 ;
-	:temRelProc :c250.10.400 ;
-	:temRelProc :c250.10.401 ;
-	:temRelProc :c250.10.500 ;
-	:temRelProc :c250.10.600 ;
-	:temRelProc :c250.10.800 ;
-	:temRelProc :c400.10.005 ;
+	:eSucessorDe :c250.10.400 ;
+	:eSucessorDe :c250.10.401 ;
+	:eSucessorDe :c250.10.500 ;
+	:eSucessorDe :c250.10.600 ;
+	:eAntecessorDe :c250.10.800 ;
+	:eCruzadoCom :c400.10.005 ;
 	:temLegislacao :leg_958 ;
 	:temLegislacao :leg_800 ;
 	:temLegislacao :leg_400 ;
@@ -748,12 +748,12 @@ Inclui validação da entidade empregadora e, quando aplicável, a atribuição 
 	:temNotaAplicacao :na_c400.10.012_2 ;
 	:temNotaAplicacao :na_c400.10.012_3 ;
 	:temNotaAplicacao :na_c400.10.012_4 ;
-	:temRelProc :c250.10.400 ;
-	:temRelProc :c250.10.401 ;
-	:temRelProc :c250.10.500 ;
-	:temRelProc :c250.10.600 ;
-	:temRelProc :c250.10.800 ;
-	:temRelProc :c400.10.005 ;
+	:eSucessorDe :c250.10.400 ;
+	:eSucessorDe :c250.10.401 ;
+	:eSucessorDe :c250.10.500 ;
+	:eSucessorDe :c250.10.600 ;
+	:eAntecessorDe :c250.10.800 ;
+	:eCruzadoCom :c400.10.005 ;
 	:temLegislacao :leg_894 ;
 	:temLegislacao :leg_469 ;
 	:temLegislacao :leg_49 ;
@@ -964,15 +964,15 @@ Inclui a análise do pedido e a sua validação.
 	:temNotaExclusao :ne_c400.10.025_5 ;
 	:temNotaExclusao :ne_c400.10.025_6 ;
 	:temNotaExclusao :ne_c400.10.025_7 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.001 ;
-	:temRelProc :c400.10.027 ;
-	:temRelProc :c400.10.041 ;
-	:temRelProc :c450.30.003 ;
-	:temRelProc :c450.30.503 ;
-	:temRelProc :c550.10.303 ;
-	:temRelProc :c500.40.500 ;
-	:temRelProc :c550.10.303 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c400.10.001 ;
+	:eAntecessorDe :c400.10.027 ;
+	:eAntecessorDe :c400.10.041 ;
+	:eAntecessorDe :c450.30.003 ;
+	:eAntecessorDe :c450.30.503 ;
+	:eSucessorDe :c550.10.303 ;
+	:eAntecessorDe :c500.40.500 ;
+	:eSucessorDe :c550.10.303 ;
 	:temLegislacao :leg_1310 ;
 	:temLegislacao :leg_526 ;
 	:temLegislacao :leg_39 ;
@@ -1004,11 +1004,11 @@ Inclui análise sumária do processo que pode resultar em indeferimento liminar 
 	:temDono :org_SEF ;
 	:temNotaAplicacao :na_c400.10.026_1 ;
 	:temNotaExclusao :ne_c400.10.026_1 ;
-	:temRelProc :c350.10.100 ;
-	:temRelProc :c400.10.041 ;
-	:temRelProc :c450.30.003 ;
-	:temRelProc :c500.40.500 ;
-	:temRelProc :c550.10.303 ;
+	:eSucessorDe :c350.10.100 ;
+	:eCruzadoCom :c400.10.041 ;
+	:eAntecessorDe :c450.30.003 ;
+	:eAntecessorDe :c500.40.500 ;
+	:eSucessorDe :c550.10.303 ;
 	:temLegislacao :leg_282 ;
 	:temLegislacao :leg_309 ;
 	:temLegislacao :leg_383 ;
@@ -1042,11 +1042,11 @@ Inclui a concessão ou recusa de estatuto, a publicação em jornal oficial, a n
 	:temDono :org_RA ;
 	:temNotaAplicacao :na_c400.10.027_1 ;
 	:temNotaExclusao :ne_c400.10.027_1 ;
-	:temRelProc :c350.10.001 ;
-	:temRelProc :c400.10.001 ;
-	:temRelProc :c400.10.025 ;
-	:temRelProc :c400.10.041 ;
-	:temRelProc :c500.40.500 ;
+	:eCruzadoCom :c350.10.001 ;
+	:eSucessorDe :c400.10.001 ;
+	:eSucessorDe :c400.10.025 ;
+	:eSucessorDe :c400.10.041 ;
+	:eAntecessorDe :c500.40.500 ;
 	:temLegislacao :leg_1288 ;
 	:temLegislacao :leg_299 ;
 	:temLegislacao :leg_424 ;
@@ -1074,15 +1074,15 @@ Inclui a recolha de dados biométricos do titular, instrução do processo, aná
 	:NotaAplicacao ;
 	:conteudo "Documento de viagem para afastamento coercivo ou expulsão judicial de cidadãos nacionais de Estados-terceiros".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_3
-:na_c400.10.028_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Lista de viagem para estudantes".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_4
 :na_c400.10.028_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Passaporte para estrangeiros".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_3
+:na_c400.10.028_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Lista de viagem para estudantes".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_5
 :na_c400.10.028_5 rdf:type owl:NamedIndividual ,
@@ -1110,10 +1110,10 @@ Inclui a recolha de dados biométricos do titular, instrução do processo, aná
 	:temNotaAplicacao :na_c400.10.028_4 ;
 	:temNotaAplicacao :na_c400.10.028_5 ;
 	:temNotaAplicacao :na_c400.10.028_6 ;
-	:temRelProc :c500.30.006 ;
-	:temRelProc :c550.10.303 ;
-	:temRelProc :c550.10.305 ;
-	:temRelProc :c600.40.300 ;
+	:eAntecessorDe :c500.30.006 ;
+	:eSucessorDe :c550.10.303 ;
+	:eSucessorDe :c550.10.305 ;
+	:eAntecessorDe :c600.40.300 ;
 	:temLegislacao :leg_296 ;
 	:classeStatus "A" ;
 	:descricao "Emissão de documentos de viagem pelas autoridades portuguesas a favor de cidadãos estrangeiros impossibilitados de obter um documento junto das autoridades dos respetivos países de origem, ou a cidadãos apátridas.
@@ -1159,10 +1159,10 @@ Inclui instrução do processo, consulta às bases de dados, deliberação sobre
 	:temNotaAplicacao :na_c400.10.029_3 ;
 	:temNotaExclusao :ne_c400.10.029_1 ;
 	:temNotaExclusao :ne_c400.10.029_2 ;
-	:temRelProc :c400.10.029 ;
-	:temRelProc :c550.10.303 ;
-	:temRelProc :c550.10.304 ;
-	:temRelProc :c550.10.305 ;
+	:eSintetizadoPor :c400.10.029 ;
+	:eSucessorDe :c550.10.303 ;
+	:eSucessorDe :c550.10.304 ;
+	:eAntecessorDe :c550.10.305 ;
 	:temLegislacao :leg_602 ;
 	:temLegislacao :leg_1030 ;
 	:classeStatus "A" ;
@@ -1190,9 +1190,9 @@ Inclui, ainda, a renovação do título.
 	:temParticipanteComunicador :org_AL ;
 	:temDono :org_SGMAI ;
 	:temNotaAplicacao :na_c400.10.031_1 ;
-	:temRelProc :c250.10.300 ;
-	:temRelProc :c400.10.001 ;
-	:temRelProc :c950.10.602 ;
+	:eSucessorDe :c250.10.300 ;
+	:eSintetizadoPor :c400.10.001 ;
+	:eSintetizadoPor :c950.10.602 ;
 	:temLegislacao :leg_261 ;
 	:temLegislacao :leg_357 ;
 	:temLegislacao :leg_481 ;
@@ -1217,7 +1217,7 @@ Inclui a atualização de dados individuais e manutenção da informação, bem 
 	:temParticipanteComunicador :org_AAGR ;
 	:temParticipanteComunicador :org_AL ;
 	:temDono :org_SGMAI ;
-	:temRelProc :c950.10.602 ;
+	:eSintetizadoPor :c950.10.602 ;
 	:temLegislacao :leg_334 ;
 	:classeStatus "A" ;
 	:descricao "Registo dos nomes e demais elementos de identificação dos cidadãos eleitos e respetivos cargos.
@@ -1240,11 +1240,11 @@ Inclui confirmação da identificação e cargo dos eleitos.
 	:temParticipanteIniciador :org_AL ;
 	:temDono :org_ANPC ;
 	:temNotaAplicacao :na_c400.10.033_1 ;
-	:temRelProc :c250.10.301 ;
-	:temRelProc :c250.20.400 ;
-	:temRelProc :c250.20.401 ;
-	:temRelProc :c250.20.601 ;
-	:temRelProc :c250.20.803 ;
+	:eSucessorDe :c250.10.301 ;
+	:eCruzadoCom :c250.20.400 ;
+	:eCruzadoCom :c250.20.401 ;
+	:eCruzadoCom :c250.20.601 ;
+	:eCruzadoCom :c250.20.803 ;
 	:temLegislacao :leg_795 ;
 	:temLegislacao :leg_1247 ;
 	:temLegislacao :leg_1246 ;
@@ -1285,8 +1285,8 @@ Inclui o registo das entidades responsáveis pelo envio e atualização da infor
 	:temDono :org_ANSR ;
 	:temNotaAplicacao :na_c400.10.034_1 ;
 	:temNotaExclusao :ne_c400.10.034_1 ;
-	:temRelProc :c450.10.801 ;
-	:temRelProc :c500.30.001 ;
+	:eSinteseDe :c450.10.801 ;
+	:eCruzadoCom :c500.30.001 ;
 	:temLegislacao :leg_1314 ;
 	:temLegislacao :leg_1119 ;
 	:temLegislacao :leg_510 ;
@@ -1308,10 +1308,10 @@ Inclui o registo de dados de identificação do condutor, das condenações por 
 	:temParticipanteComunicador :org_HH ;
 	:temParticipanteComunicador :org_CS ;
 	:temDono :org_IPST ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.400 ;
-	:temRelProc :c700.20.403 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.403 ;
 	:temLegislacao :leg_152 ;
 	:temLegislacao :leg_804 ;
 	:temLegislacao :leg_1306 ;
@@ -1333,10 +1333,10 @@ Inclui o preenchimento de questionário e realização de testes.
 	:temParticipanteComunicador :org_HH ;
 	:temParticipanteComunicador :org_CS ;
 	:temDono :org_IPST ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.400 ;
-	:temRelProc :c700.20.403 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.403 ;
 	:temLegislacao :leg_1135 ;
 	:temLegislacao :leg_575 ;
 	:temLegislacao :leg_1300 ;
@@ -1357,10 +1357,10 @@ Incluí a atribuição do cartão de dador benévolo de sangue processado pela e
 	:temParticipanteExecutor :org_HH ;
 	:temParticipanteExecutor :org_CS ;
 	:temDono :org_SPMS ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.400 ;
-	:temRelProc :c700.20.403 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.403 ;
 	:temLegislacao :leg_141 ;
 	:classeStatus "A" ;
 	:descricao "Inscrição ou atualização de dados de identificação de cidadão nacional, apátrida ou estrangeiro residente em Portugal, que se opõe à dádiva de órgãos.
@@ -1378,10 +1378,10 @@ Inclui a emissão de cartão individual de não dador.
 	:temParticipanteComunicador :org_ACES ;
 	:temParticipanteIniciador :org_CS ;
 	:temDono :org_SPMS ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.400 ;
-	:temRelProc :c700.20.403 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.403 ;
 	:temLegislacao :leg_1254 ;
 	:temLegislacao :leg_1252 ;
 	:temLegislacao :leg_1028 ;
@@ -1409,25 +1409,25 @@ Inclui a entrega no agrupamento de centros de saúde, ou na unidade local de sa�
 	:temDono :org_ACSS ;
 	:temDono :org_SPMS ;
 	:temNotaExclusao :ne_c400.10.040_1 ;
-	:temRelProc :c450.30.504 ;
-	:temRelProc :c400.10.041 ;
-	:temRelProc :c700.10.001 ;
-	:temRelProc :c700.10.002 ;
-	:temRelProc :c700.10.003 ;
-	:temRelProc :c700.10.004 ;
-	:temRelProc :c700.10.005 ;
-	:temRelProc :c700.20.001 ;
-	:temRelProc :c700.20.101 ;
-	:temRelProc :c700.20.200 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.402 ;
-	:temRelProc :c700.20.403 ;
-	:temRelProc :c700.20.404 ;
-	:temRelProc :c700.20.405 ;
-	:temRelProc :c700.20.406 ;
-	:temRelProc :c700.20.407 ;
-	:temRelProc :c700.20.500 ;
-	:temRelProc :c700.20.600 ;
+	:eComplementarDe :c450.30.504 ;
+	:eComplementarDe :c400.10.041 ;
+	:eCruzadoCom :c700.10.001 ;
+	:eCruzadoCom :c700.10.002 ;
+	:eCruzadoCom :c700.10.003 ;
+	:eCruzadoCom :c700.10.004 ;
+	:eCruzadoCom :c700.10.005 ;
+	:eCruzadoCom :c700.20.001 ;
+	:eCruzadoCom :c700.20.101 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eCruzadoCom :c700.20.404 ;
+	:eCruzadoCom :c700.20.405 ;
+	:eCruzadoCom :c700.20.406 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eCruzadoCom :c700.20.500 ;
+	:eCruzadoCom :c700.20.600 ;
 	:temLegislacao :leg_161 ;
 	:classeStatus "A" ;
 	:descricao "Identificação dos utentes do Serviço Nacional de Saúde.
@@ -1438,15 +1438,15 @@ Inclui o registo dos seus elementos de identificação, do médico de família e
 	:NotaAplicacao ;
 	:conteudo "Pedido inicial de Cartão de Cidadão".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_2
-:na_c400.10.041_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Renovação de cartão do cidadão".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_3
 :na_c400.10.041_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Não entrega do cartão do cidadão".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_2
+:na_c400.10.041_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Renovação de cartão do cidadão".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_4
 :na_c400.10.041_4 rdf:type owl:NamedIndividual ,
@@ -1526,13 +1526,13 @@ Inclui o registo dos seus elementos de identificação, do médico de família e
 	:temNotaExclusao :ne_c400.10.041_7 ;
 	:temNotaExclusao :ne_c400.10.041_8 ;
 	:temNotaExclusao :ne_c400.10.041_9 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.001 ;
-	:temRelProc :c400.10.025 ;
-	:temRelProc :c400.10.026 ;
-	:temRelProc :c400.10.027 ;
-	:temRelProc :c400.10.040 ;
-	:temRelProc :c400.10.048 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c400.10.001 ;
+	:eSucessorDe :c400.10.025 ;
+	:eSucessorDe :c400.10.026 ;
+	:eAntecessorDe :c400.10.027 ;
+	:eComplementarDe :c400.10.040 ;
+	:eAntecessorDe :c400.10.048 ;
 	:temLegislacao :leg_625 ;
 	:temLegislacao :leg_624 ;
 	:temLegislacao :leg_598 ;
@@ -1552,10 +1552,10 @@ Inclui, ainda, a organização, manutenção e atualização da Base de Dados de
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
 	:temDono :org_SEF ;
-	:temRelProc :c400.10.029 ;
-	:temRelProc :c400.10.025 ;
-	:temRelProc :c500.30.005 ;
-	:temRelProc :c500.30.006 ;
+	:eSinteseDe :c400.10.029 ;
+	:eCruzadoCom :c400.10.025 ;
+	:eCruzadoCom :c500.30.005 ;
+	:eCruzadoCom :c500.30.006 ;
 	:temLegislacao :leg_702 ;
 	:temLegislacao :leg_1230 ;
 	:temLegislacao :leg_602 ;
@@ -1589,13 +1589,13 @@ Inclui a atualização da situação.".
 	:temDono :org_IRN ;
 	:temNotaAplicacao :na_c400.10.043_1 ;
 	:temNotaExclusao :ne_c400.10.043_1 ;
-	:temRelProc :c600.30 ;
-	:temRelProc :c600.30.001 ;
-	:temRelProc :c600.30.002 ;
-	:temRelProc :c600.30.050 ;
-	:temRelProc :c600.30.051 ;
-	:temRelProc :c600.30.052 ;
-	:temRelProc :c600.30.101 ;
+	:eSucessorDe :c600.30 ;
+	:eSucessorDe :c600.30.001 ;
+	:eSucessorDe :c600.30.002 ;
+	:eSucessorDe :c600.30.050 ;
+	:eSucessorDe :c600.30.051 ;
+	:eSucessorDe :c600.30.052 ;
+	:eSucessorDe :c600.30.101 ;
 	:temLegislacao :leg_1297 ;
 	:temLegislacao :leg_1327 ;
 	:temLegislacao :leg_1318 ;
@@ -1626,7 +1626,7 @@ Inclui a constituição e gestão do ficheiro dactiloscópico (impressões digit
 	:temDono :org_DGAJ ;
 	:temNotaAplicacao :na_c400.10.044_1 ;
 	:temNotaExclusao :ne_c400.10.044_1 ;
-	:temRelProc :c600.30.358 ;
+	:eAntecessorDe :c600.30.358 ;
 	:temLegislacao :leg_1297 ;
 	:temLegislacao :leg_1318 ;
 	:temLegislacao :leg_273 ;
@@ -1724,7 +1724,7 @@ Inclui a emissão do recibo de receção dos boletins. Pode ainda incluir a devo
 	:temNotaExclusao :ne_c400.10.045_5 ;
 	:temNotaExclusao :ne_c400.10.045_6 ;
 	:temNotaExclusao :ne_c400.10.045_7 ;
-	:temRelProc :c400.10.009 ;
+	:eAntecessorDe :c400.10.009 ;
 	:temLegislacao :leg_381 ;
 	:temLegislacao :leg_327 ;
 	:classeStatus "A" ;
@@ -1802,7 +1802,7 @@ Inclui a instrução do processo, apreciação e qualificação do ato, podendo,
 	:temNotaExclusao :ne_c400.10.046_4 ;
 	:temNotaExclusao :ne_c400.10.046_5 ;
 	:temNotaExclusao :ne_c400.10.046_6 ;
-	:temRelProc :c400.10.009 ;
+	:eAntecessorDe :c400.10.009 ;
 	:temLegislacao :leg_1283 ;
 	:temLegislacao :leg_202 ;
 	:classeStatus "A" ;
@@ -1881,11 +1881,11 @@ O pedido é instruído com documento autêntico que comprove a constituição da
 	:temNotaExclusao :ne_c400.10.047_5 ;
 	:temNotaExclusao :ne_c400.10.047_6 ;
 	:temNotaExclusao :ne_c400.10.047_7 ;
-	:temRelProc :c400.10.009 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c350.10.600 ;
-	:temRelProc :c450.30.003 ;
-	:temRelProc :c500.40.500 ;
+	:eSucessorDe :c400.10.009 ;
+	:eSucessorDe :c400.10.200 ;
+	:eCruzadoCom :c350.10.600 ;
+	:eAntecessorDe :c450.30.003 ;
+	:eAntecessorDe :c500.40.500 ;
 	:temLegislacao :leg_1301 ;
 	:classeStatus "A" ;
 	:descricao "Identificador único e universal alfanumérico de 20 digitos que permite identificar internacionalmente entidades e contrapartes em transações financeiras.
@@ -1893,15 +1893,15 @@ Inicia com o pedido do interessado e termina com a emissão, renovação ou port
 Inclui o registo e a disponibilidade da informação.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.048_2
-:na_c400.10.048_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Gestão da base de dados de impressões digitais (AFIS), bem como à articulação com a Direcção-Geral da Administração da Justiça (DGAJ), o Instituto dos Registos e do Notariado (IRN), outros OPCs e instituições internacionais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.048_1
 :na_c400.10.048_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Rregisto de dados de perfis de ADN".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.048_2
+:na_c400.10.048_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Gestão da base de dados de impressões digitais (AFIS), bem como à articulação com a Direcção-Geral da Administração da Justiça (DGAJ), o Instituto dos Registos e do Notariado (IRN), outros OPCs e instituições internacionais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.048_1
 :ne_c400.10.048_1 rdf:type owl:NamedIndividual ,
@@ -1927,17 +1927,17 @@ Inclui o registo e a disponibilidade da informação.
 	:temNotaAplicacao :na_c400.10.048_1 ;
 	:temNotaAplicacao :na_c400.10.048_2 ;
 	:temNotaExclusao :ne_c400.10.048_1 ;
-	:temRelProc :c400.10.041 ;
-	:temRelProc :c600.30.001 ;
-	:temRelProc :c600.30.002 ;
-	:temRelProc :c600.30.050 ;
-	:temRelProc :c600.30.052 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.10.004 ;
-	:temRelProc :c600.10.006 ;
-	:temRelProc :c600.10.007 ;
-	:temRelProc :c600.10.500 ;
-	:temRelProc :c600.10.507 ;
+	:eSucessorDe :c400.10.041 ;
+	:eCruzadoCom :c600.30.001 ;
+	:eCruzadoCom :c600.30.002 ;
+	:eCruzadoCom :c600.30.050 ;
+	:eCruzadoCom :c600.30.052 ;
+	:eCruzadoCom :c600.10.500 ;
+	:eCruzadoCom :c600.10.004 ;
+	:eCruzadoCom :c600.10.006 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eCruzadoCom :c600.10.500 ;
+	:eCruzadoCom :c600.10.507 ;
 	:temLegislacao :leg_1110 ;
 	:temLegislacao :leg_692 ;
 	:temLegislacao :leg_652 ;
@@ -1957,7 +1957,7 @@ Inclui a inserção, comunicação, interconexão e acesso aos dados existentes 
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_SSAP ;
-	:temRelProc :c50.10.509 ;
+	:eAntecessorDe :c50.10.509 ;
 	:temLegislacao :leg_49 ;
 	:temLegislacao :leg_464 ;
 	:temLegislacao :leg_469 ;
@@ -2042,8 +2042,8 @@ A participação do Ministério da Justiça ocorre na fase do envio do pedido ou
 	:temNotaAplicacao :na_c400.10.050_9 ;
 	:temNotaAplicacao :na_c400.10.050_10 ;
 	:temNotaExclusao :ne_c400.10.050_1 ;
-	:temRelProc :c400.10.002 ;
-	:temRelProc :c400.10.009 ;
+	:eSucessorDe :c400.10.002 ;
+	:eSintetizadoPor :c400.10.009 ;
 	:temLegislacao :leg_127 ;
 	:temLegislacao :leg_137 ;
 	:classeStatus "A" ;
@@ -2084,11 +2084,11 @@ Inclui a validação dos dados, o acompanhamento, a atualização e o cancelamen
 	:temNotaAplicacao :na_c400.10.051_1 ;
 	:temNotaExclusao :ne_c400.10.051_1 ;
 	:temNotaExclusao :ne_c400.10.051_2 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c500.10.302 ;
-	:temRelProc :c450.10.440 ;
-	:temRelProc :c450.10.441 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c500.10.302 ;
+	:eSucessorDe :c450.10.440 ;
+	:eSucessorDe :c450.10.441 ;
 	:temLegislacao :leg_1106 ;
 	:temLegislacao :leg_794 ;
 	:temLegislacao :leg_1009 ;
@@ -2185,9 +2185,9 @@ O reconhecimento como profissional em determinada atividade deve ser considerado
 	:temNotaAplicacao :na_c400.10.052_11 ;
 	:temNotaExclusao :ne_c400.10.052_1 ;
 	:temNotaExclusao :ne_c400.10.052_2 ;
-	:temRelProc :c850.10.002 ;
-	:temRelProc :c400.10.610 ;
-	:temRelProc :c400.10.200 ;
+	:eAntecessorDe :c850.10.002 ;
+	:eAntecessorDe :c400.10.610 ;
+	:eSintetizadoPor :c400.10.200 ;
 	:temLegislacao :leg_1040 ;
 	:temLegislacao :leg_1218 ;
 	:temLegislacao :leg_1091 ;
@@ -2269,11 +2269,11 @@ Inclui a análise do pedido e a sua validação.".
 	:temNotaAplicacao :na_c400.10.053_8 ;
 	:temNotaExclusao :ne_c400.10.053_1 ;
 	:temNotaExclusao :ne_c400.10.053_2 ;
-	:temRelProc :c400.10.009 ;
-	:temRelProc :c450.10.447 ;
-	:temRelProc :c450.20.001 ;
-	:temRelProc :c850.10.002 ;
-	:temRelProc :c850.10.003 ;
+	:eSucessorDe :c400.10.009 ;
+	:eSinteseDe :c450.10.447 ;
+	:eAntecessorDe :c450.20.001 ;
+	:eAntecessorDe :c850.10.002 ;
+	:eAntecessorDe :c850.10.003 ;
 	:temLegislacao :leg_530 ;
 	:temLegislacao :leg_544 ;
 	:temLegislacao :leg_188 ;
@@ -2306,9 +2306,9 @@ Inclui a análise do pedido e a sua validação.".
 	:temParticipanteComunicador :org_HH ;
 	:temDono :org_IPST ;
 	:temNotaAplicacao :na_c400.10.054_1 ;
-	:temRelProc :c700.20.300 ;
-	:temRelProc :c700.20.400 ;
-	:temRelProc :c700.20.403 ;
+	:eSucessorDe :c700.20.300 ;
+	:eSucessorDe :c700.20.400 ;
+	:eSucessorDe :c700.20.403 ;
 	:temLegislacao :leg_804 ;
 	:temLegislacao :leg_1306 ;
 	:temLegislacao :leg_1109 ;
@@ -2465,25 +2465,25 @@ Inclui a atribuição de um número de identificação militar (NIM) que identif
 	:temNotaExclusao :ne_c400.10.200_6 ;
 	:temNotaExclusao :ne_c400.10.200_7 ;
 	:temNotaExclusao :ne_c400.10.200_8 ;
-	:temRelProc :c300.10.007 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.009 ;
-	:temRelProc :c400.10.047 ;
-	:temRelProc :c400.30.001 ;
-	:temRelProc :c450.10.062 ;
-	:temRelProc :c450.10.066 ;
-	:temRelProc :c450.10.074 ;
-	:temRelProc :c450.10.075 ;
-	:temRelProc :c450.10.076 ;
-	:temRelProc :c450.10.079 ;
-	:temRelProc :c450.10.080 ;
-	:temRelProc :c450.10.446 ;
-	:temRelProc :c450.10.447 ;
-	:temRelProc :c450.30.003 ;
-	:temRelProc :c450.30.503 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c500.40.500 ;
-	:temRelProc :c600.30.751 ;
+	:eSinteseDe :c300.10.007 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c400.10.009 ;
+	:eAntecessorDe :c400.10.047 ;
+	:eAntecessorDe :c400.30.001 ;
+	:eSinteseDe :c450.10.062 ;
+	:eSinteseDe :c450.10.066 ;
+	:eSinteseDe :c450.10.074 ;
+	:eSinteseDe :c450.10.075 ;
+	:eSinteseDe :c450.10.076 ;
+	:eSinteseDe :c450.10.079 ;
+	:eSinteseDe :c450.10.080 ;
+	:eSinteseDe :c450.10.446 ;
+	:eSucessorDe :c450.10.447 ;
+	:eAntecessorDe :c450.30.003 ;
+	:eAntecessorDe :c450.30.503 ;
+	:eAntecessorDe :c500.30.001 ;
+	:eAntecessorDe :c500.40.500 ;
+	:eAntecessorDe :c600.30.751 ;
 	:temLegislacao :leg_690 ;
 	:temLegislacao :leg_542 ;
 	:temLegislacao :leg_499 ;
@@ -2663,15 +2663,15 @@ Inclui o pedido, a apresentação do pedido, a qualificação, a execução mate
 	:temNotaExclusao :ne_c400.10.201_5 ;
 	:temNotaExclusao :ne_c400.10.201_6 ;
 	:temNotaExclusao :ne_c400.10.201_7 ;
-	:temRelProc :c400.10.009 ;
-	:temRelProc :c400.30.001 ;
-	:temRelProc :c450.30.003 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.30.001 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c500.40.500 ;
-	:temRelProc :c600.30.751 ;
-	:temRelProc :c900.20.604 ;
+	:eSucessorDe :c400.10.009 ;
+	:eAntecessorDe :c400.30.001 ;
+	:eAntecessorDe :c450.30.003 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c450.30.001 ;
+	:eAntecessorDe :c500.30.001 ;
+	:eAntecessorDe :c500.40.500 ;
+	:eAntecessorDe :c600.30.751 ;
+	:eAntecessorDe :c900.20.604 ;
 	:temLegislacao :leg_2 ;
 	:temLegislacao :leg_1111 ;
 	:temLegislacao :leg_7 ;
@@ -2769,14 +2769,14 @@ Inclui o pedido, a apresentação do pedido, a qualificação e a execução mat
 	:temNotaExclusao :ne_c400.10.400_2 ;
 	:temNotaExclusao :ne_c400.10.400_3 ;
 	:temNotaExclusao :ne_c400.10.400_4 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c450.10.800 ;
-	:temRelProc :c700.20.700 ;
-	:temRelProc :c700.20.800 ;
-	:temRelProc :c700.20.901 ;
-	:temRelProc :c710.10.002 ;
-	:temRelProc :c710.10.300 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSinteseDe :c450.10.800 ;
+	:eSinteseDe :c700.20.700 ;
+	:eSinteseDe :c700.20.800 ;
+	:eAntecessorDe :c700.20.901 ;
+	:eSinteseDe :c710.10.002 ;
+	:eSinteseDe :c710.10.300 ;
 	:temLegislacao :leg_1298 ;
 	:temLegislacao :leg_512 ;
 	:temLegislacao :leg_449 ;
@@ -2807,8 +2807,8 @@ Inclui processamento dos dados de identificação do animal ou do conjunto de an
 	:temDono :org_DGAV ;
 	:temNotaAplicacao :na_c400.10.402_1 ;
 	:temNotaAplicacao :na_c400.10.402_2 ;
-	:temRelProc :c700.20.700 ;
-	:temRelProc :c700.20.901 ;
+	:eSinteseDe :c700.20.700 ;
+	:eAntecessorDe :c700.20.901 ;
 	:temLegislacao :leg_934 ;
 	:temLegislacao :leg_512 ;
 	:classeStatus "A" ;
@@ -2824,22 +2824,22 @@ Inclui controlo de requisitos prévios, processamento dos dados de identificaç�
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
 	:temDono :org_AL ;
-	:temRelProc :c300.30.001 ;
-	:temRelProc :c450.10.204 ;
+	:eSintetizadoPor :c300.30.001 ;
+	:eCruzadoCom :c450.10.204 ;
 	:temLegislacao :leg_422 ;
 	:classeStatus "A" ;
 	:descricao "Registo de depósito da ficha técnica de habitação.
 Inicia com o pedido de depósito da ficha técnica de habitação e termina com a notícia da demolição do imóvel.
 Inclui a validação dos dados relativamente ao respetivo processo de licenciamento.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_2
-:na_c400.10.404_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Registo de bens móveis, imóveis e imateriais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_1
 :na_c400.10.404_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Atualização de dados do registo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_2
+:na_c400.10.404_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Registo de bens móveis, imóveis e imateriais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_3
 :na_c400.10.404_3 rdf:type owl:NamedIndividual ,
@@ -2877,9 +2877,9 @@ Inclui a validação dos dados relativamente ao respetivo processo de licenciame
 	:temNotaAplicacao :na_c400.10.404_4 ;
 	:temNotaAplicacao :na_c400.10.404_5 ;
 	:temNotaAplicacao :na_c400.10.404_6 ;
-	:temRelProc :c300.30.002 ;
-	:temRelProc :c300.30.005 ;
-	:temRelProc :c450.20.505 ;
+	:eSintetizadoPor :c300.30.002 ;
+	:eSintetizadoPor :c300.30.005 ;
+	:eComplementarDe :c450.20.505 ;
 	:temLegislacao :leg_332 ;
 	:temLegislacao :leg_1295 ;
 	:classeStatus "A" ;
@@ -2932,9 +2932,9 @@ Inclui validação de dados.".
 	:temNotaAplicacao :na_c400.10.405_4 ;
 	:temNotaAplicacao :na_c400.10.405_5 ;
 	:temNotaAplicacao :na_c400.10.405_6 ;
-	:temRelProc :c300.30.002 ;
-	:temRelProc :c300.30.005 ;
-	:temRelProc :c450.20.503 ;
+	:eSintetizadoPor :c300.30.002 ;
+	:eSintetizadoPor :c300.30.005 ;
+	:eComplementarDe :c450.20.503 ;
 	:temLegislacao :leg_332 ;
 	:temLegislacao :leg_1295 ;
 	:classeStatus "A" ;
@@ -2971,15 +2971,15 @@ Inclui validação e atualização de dados.".
 	:NotaAplicacao ;
 	:conteudo "Propriedade horizontal".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.406_8
-:na_c400.10.406_8 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Ações e suas decisões".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.406_7
 :na_c400.10.406_7 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Penhora".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.406_8
+:na_c400.10.406_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ações e suas decisões".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.406_9
 :na_c400.10.406_9 rdf:type owl:NamedIndividual ,
@@ -3101,22 +3101,22 @@ Inclui validação e atualização de dados.".
 	:temNotaExclusao :ne_c400.10.406_5 ;
 	:temNotaExclusao :ne_c400.10.406_6 ;
 	:temNotaExclusao :ne_c400.10.406_7 ;
-	:temRelProc :c300.10.003 ;
-	:temRelProc :c300.10.009 ;
-	:temRelProc :c300.30.005 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.407 ;
-	:temRelProc :c400.10.608 ;
-	:temRelProc :c400.10.613 ;
-	:temRelProc :c400.30.001 ;
-	:temRelProc :c450.10.201 ;
-	:temRelProc :c450.10.235 ;
-	:temRelProc :c450.30.503 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c500.30.500 ;
-	:temRelProc :c500.40.001 ;
-	:temRelProc :c500.40.500 ;
-	:temRelProc :c600.30.751 ;
+	:eSucessorDe :c300.10.003 ;
+	:eAntecessorDe :c300.10.009 ;
+	:eCruzadoCom :c300.30.005 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c400.10.407 ;
+	:eSinteseDe :c400.10.608 ;
+	:eAntecessorDe :c400.10.613 ;
+	:eAntecessorDe :c400.30.001 ;
+	:eSinteseDe :c450.10.201 ;
+	:eSucessorDe :c450.10.235 ;
+	:eAntecessorDe :c450.30.503 ;
+	:eAntecessorDe :c500.30.001 ;
+	:eAntecessorDe :c500.30.500 ;
+	:eAntecessorDe :c500.40.001 ;
+	:eAntecessorDe :c500.40.500 ;
+	:eAntecessorDe :c600.30.751 ;
 	:temLegislacao :leg_53 ;
 	:temLegislacao :leg_1146 ;
 	:temLegislacao :leg_908 ;
@@ -3151,17 +3151,17 @@ Inclui o pedido, a apresentação do pedido, a instrução, a qualificação e a
 	:temDono :org_AT ;
 	:temNotaAplicacao :na_c400.10.407_1 ;
 	:temNotaExclusao :ne_c400.10.407_1 ;
-	:temRelProc :c300.10.003 ;
-	:temRelProc :c300.10.009 ;
-	:temRelProc :c300.30.005 ;
-	:temRelProc :c300.30.600 ;
-	:temRelProc :c350.10.200 ;
-	:temRelProc :c350.10.201 ;
-	:temRelProc :c350.10.202 ;
-	:temRelProc :c350.10.206 ;
-	:temRelProc :c400.10.406 ;
-	:temRelProc :c400.10.613 ;
-	:temRelProc :c500.40.001 ;
+	:eSinteseDe :c300.10.003 ;
+	:eCruzadoCom :c300.10.009 ;
+	:eCruzadoCom :c300.30.005 ;
+	:eAntecessorDe :c300.30.600 ;
+	:eCruzadoCom :c350.10.200 ;
+	:eSucessorDe :c350.10.201 ;
+	:eSucessorDe :c350.10.202 ;
+	:eSucessorDe :c350.10.206 ;
+	:eSucessorDe :c400.10.406 ;
+	:eAntecessorDe :c400.10.613 ;
+	:eAntecessorDe :c500.40.001 ;
 	:temLegislacao :leg_1096 ;
 	:classeStatus "A" ;
 	:descricao "Inscrição ou atualização de prédios nas matrizes prediais (rústica e urbana), constituindo um repositório com a caracterização dos bens imóveis avaliados.
@@ -3282,15 +3282,15 @@ Inclui a validação dos dados.
 	:temNotaExclusao :ne_c400.10.409_4 ;
 	:temNotaExclusao :ne_c400.10.409_5 ;
 	:temNotaExclusao :ne_c400.10.409_6 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c300.10.011 ;
-	:temRelProc :c300.50.005 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c450.30.003 ;
-	:temRelProc :c450.30.503 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c500.40.500 ;
-	:temRelProc :c600.30.751 ;
+	:eSinteseDe :c300.10.005 ;
+	:eSinteseDe :c300.10.011 ;
+	:eCruzadoCom :c300.50.005 ;
+	:eAntecessorDe :c350.30.001 ;
+	:eCruzadoCom :c450.30.003 ;
+	:eAntecessorDe :c450.30.503 ;
+	:eAntecessorDe :c500.30.001 ;
+	:eAntecessorDe :c500.40.500 ;
+	:eAntecessorDe :c600.30.751 ;
 	:temLegislacao :leg_908 ;
 	:temLegislacao :leg_777 ;
 	:temLegislacao :leg_662 ;
@@ -3359,10 +3359,10 @@ Inclui o pedido, a apresentação do pedido, a instrução,  a qualificação e 
 	:temNotaAplicacao :na_c400.10.410_5 ;
 	:temNotaAplicacao :na_c400.10.410_6 ;
 	:temNotaExclusao :ne_c400.10.410_1 ;
-	:temRelProc :c300.10.300 ;
-	:temRelProc :c450.10.644 ;
-	:temRelProc :c450.10.645 ;
-	:temRelProc :c800.10.603 ;
+	:eAntecessorDe :c300.10.300 ;
+	:eSucessorDe :c450.10.644 ;
+	:eSucessorDe :c450.10.645 ;
+	:eCruzadoCom :c800.10.603 ;
 	:temLegislacao :leg_528 ;
 	:classeStatus "A" ;
 	:descricao "Registo ou atualização de dados de identificação de armas e suas munições.
@@ -3391,12 +3391,12 @@ Inclui, ainda, a marcação e aposição de punção para as armas que não poss
 	:temDono :org_INFARMED ;
 	:temNotaAplicacao :na_c400.10.411_1 ;
 	:temNotaExclusao :ne_c400.10.411_1 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c450.10.640 ;
-	:temRelProc :c450.10.641 ;
-	:temRelProc :c450.10.644 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c500.10.301 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSinteseDe :c450.10.640 ;
+	:eSinteseDe :c450.10.641 ;
+	:eSinteseDe :c450.10.644 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_515 ;
 	:classeStatus "A" ;
 	:descricao "Inscrição de dados sobre o método de fabrico, controlo e armazenamento de uma substância ativa, incluindo substâncias ou preparações à base de plantas, com vista a ser utilizada no fabrico de um medicamento e que, quando utilizada no seu fabrico, se torna um princípio ativo desse medicamento, destinado a exercer uma ação farmacológica, imunológica ou metabólica para restaurar, corrigir ou modificar funções fisiológicas ou a estabelecer um diagnóstico médico.
@@ -3423,7 +3423,7 @@ Inclui processamento de requerimento, informações administrativas, sumário ge
 	:temDono :org_INPI ;
 	:temNotaAplicacao :na_c400.10.600_1 ;
 	:temNotaAplicacao :na_c400.10.600_2 ;
-	:temRelProc :c350.30.001 ;
+	:eSucessorDe :c350.30.001 ;
 	:temLegislacao :leg_950 ;
 	:temLegislacao :leg_696 ;
 	:temLegislacao :leg_707 ;
@@ -3466,8 +3466,8 @@ Inclui validação dos dados.".
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_EE ;
 	:temDono :org_APEL ;
-	:temRelProc :c400.10.611 ;
-	:temRelProc :c900.20.201 ;
+	:eAntecessorDe :c400.10.611 ;
+	:eSucessorDe :c900.20.201 ;
 	:temLegislacao :leg_115 ;
 	:temLegislacao :leg_1364 ;
 	:classeStatus "A" ;
@@ -3485,7 +3485,7 @@ Inclui validação dos dados.
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_EE ;
 	:temDono :org_BNP ;
-	:temRelProc :c900.20.201 ;
+	:eSucessorDe :c900.20.201 ;
 	:temLegislacao :leg_1046 ;
 	:temLegislacao :leg_133 ;
 	:classeStatus "A" ;
@@ -3511,8 +3511,8 @@ Inclui validação dos dados.
 	:temParticipanteIniciador :org_EE ;
 	:temDono :org_BNP ;
 	:temNotaAplicacao :na_c400.10.604_1 ;
-	:temRelProc :c400.10.611 ;
-	:temRelProc :c900.20.201 ;
+	:eAntecessorDe :c400.10.611 ;
+	:eSucessorDe :c900.20.201 ;
 	:temLegislacao :leg_596 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de identificador único para cada titulo de publicação em série.
@@ -3534,7 +3534,7 @@ Inicia com o envio do pedido e termina com o envio da informação para uma base
 	:temParticipanteIniciador :org_EE ;
 	:temDono :org_CISAC ;
 	:temNotaAplicacao :na_c400.10.605_1 ;
-	:temRelProc :c400.10.611 ;
+	:eAntecessorDe :c400.10.611 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de identificador único a obras textuais, permitindo que as diferentes manifestações de um trabalho (por exemplo, um livro de bolso, um roteiro ou um livro eletrónico) fiquem associadas ao trabalho textual original.
 Inicia com o envio do pedido e termina com a atribuição do ISTC por parte da entidade competente.
@@ -3564,11 +3564,11 @@ Inclui validação dos dados.
 	:temDono :org_INPI ;
 	:temNotaAplicacao :na_c400.10.606_1 ;
 	:temNotaAplicacao :na_c400.10.606_2 ;
-	:temRelProc :c300.10.006 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.615 ;
-	:temRelProc :c900.20.001 ;
-	:temRelProc :c900.20.002 ;
+	:eCruzadoCom :c300.10.006 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c400.10.615 ;
+	:eSucessorDe :c900.20.001 ;
+	:eSucessorDe :c900.20.002 ;
 	:temLegislacao :leg_950 ;
 	:temLegislacao :leg_696 ;
 	:temLegislacao :leg_707 ;
@@ -3597,9 +3597,9 @@ Inclui exame do pedido e publicação.".
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_CEGER ;
 	:temNotaAplicacao :na_c400.10.607_1 ;
-	:temRelProc :c400.10.009 ;
-	:temRelProc :c900.20.200 ;
-	:temRelProc :c900.20.201 ;
+	:eSucessorDe :c400.10.009 ;
+	:eSucessorDe :c900.20.200 ;
+	:eSucessorDe :c900.20.201 ;
 	:temLegislacao :leg_1180 ;
 	:temLegislacao :leg_1083 ;
 	:temLegislacao :leg_1059 ;
@@ -3635,8 +3635,8 @@ Inclui análise e validação do pedido, inscrição no registo e emissão de co
 	:temNotaAplicacao :na_c400.10.608_1 ;
 	:temNotaAplicacao :na_c400.10.608_2 ;
 	:temNotaAplicacao :na_c400.10.608_3 ;
-	:temRelProc :c400.10.406 ;
-	:temRelProc :c400.10.613 ;
+	:eSintetizadoPor :c400.10.406 ;
+	:eSucessorDe :c400.10.613 ;
 	:temLegislacao :leg_274 ;
 	:temLegislacao :leg_359 ;
 	:temLegislacao :leg_274 ;
@@ -3672,11 +3672,11 @@ Inclui análise do pedido.".
 	:temNotaAplicacao :na_c400.10.609_1 ;
 	:temNotaAplicacao :na_c400.10.609_2 ;
 	:temNotaAplicacao :na_c400.10.609_3 ;
-	:temRelProc :c300.10.006 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c800.20.001 ;
-	:temRelProc :c800.20.002 ;
-	:temRelProc :c800.20.500 ;
+	:eCruzadoCom :c300.10.006 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c800.20.001 ;
+	:eCruzadoCom :c800.20.002 ;
+	:eCruzadoCom :c800.20.500 ;
 	:temLegislacao :leg_950 ;
 	:temLegislacao :leg_696 ;
 	:temLegislacao :leg_707 ;
@@ -3842,14 +3842,14 @@ Inicia com  a submissão do pedido e termina com a publicação do despacho no B
 	:temNotaAplicacao :na_c400.10.610_22 ;
 	:temNotaAplicacao :na_c400.10.610_23 ;
 	:temNotaExclusao :ne_c400.10.610_1 ;
-	:temRelProc :c300.10.006 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.10.052 ;
-	:temRelProc :c800.10.610 ;
-	:temRelProc :c800.20.001 ;
-	:temRelProc :c800.20.002 ;
-	:temRelProc :c800.20.500 ;
-	:temRelProc :c850.10.002 ;
+	:eCruzadoCom :c300.10.006 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c400.10.052 ;
+	:eSucessorDe :c800.10.610 ;
+	:eSucessorDe :c800.20.001 ;
+	:eSucessorDe :c800.20.002 ;
+	:eSucessorDe :c800.20.500 ;
+	:eCruzadoCom :c850.10.002 ;
 	:temLegislacao :leg_1205 ;
 	:classeStatus "A" ;
 	:descricao "Registo de criações nos domínios literário, científico e artístico
@@ -3930,10 +3930,10 @@ e atribuição do número de registo da obra.".
 	:temNotaExclusao :ne_c400.10.611_6 ;
 	:temNotaExclusao :ne_c400.10.611_7 ;
 	:temNotaExclusao :ne_c400.10.611_8 ;
-	:temRelProc :c400.10.007 ;
-	:temRelProc :c400.10.602 ;
-	:temRelProc :c400.10.604 ;
-	:temRelProc :c400.10.605 ;
+	:eComplementarDe :c400.10.007 ;
+	:eSucessorDe :c400.10.602 ;
+	:eSucessorDe :c400.10.604 ;
+	:eSucessorDe :c400.10.605 ;
 	:temLegislacao :leg_42 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de identificador único (número de registo) às monografias e periódicos publicados em Portugal, por solicitação de tipografias ou de editores (obrigação legal).
@@ -3952,7 +3952,7 @@ Inclui o envio das publicações e elaboração da respetiva guia de remessa.
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_CH ;
 	:temDono :org_DGAL ;
-	:temRelProc :c400.10.009 ;
+	:eSucessorDe :c400.10.009 ;
 	:temLegislacao :leg_115 ;
 	:classeStatus "A" ;
 	:descricao "Registo de brasões de armas ou escudos.
@@ -3982,9 +3982,9 @@ Inclui apreciação de propostas, apreciação da ordenação e significado dos 
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c400.10.613_1 ;
 	:temNotaAplicacao :na_c400.10.613_2 ;
-	:temRelProc :c400.10.406 ;
-	:temRelProc :c400.10.407 ;
-	:temRelProc :c400.10.608 ;
+	:eSucessorDe :c400.10.406 ;
+	:eSucessorDe :c400.10.407 ;
+	:eAntecessorDe :c400.10.608 ;
 	:temLegislacao :leg_359 ;
 	:temLegislacao :leg_274 ;
 	:classeStatus "A" ;
@@ -4006,11 +4006,11 @@ Inclui análise da proposta, consulta de entidades, atribuição de topónimo e 
 	:processoTransversal "S" ;
 	:temDono :org_DGEEC ;
 	:temNotaAplicacao :na_c400.10.614_1 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c800.20.001 ;
-	:temRelProc :c800.20.002 ;
-	:temRelProc :c800.20.500 ;
+	:eSinteseDe :c150.40.500 ;
+	:eSinteseDe :c300.30.008 ;
+	:eAntecessorDe :c800.20.001 ;
+	:eAntecessorDe :c800.20.002 ;
+	:eAntecessorDe :c800.20.500 ;
 	:temLegislacao :leg_342 ;
 	:temLegislacao :leg_1360 ;
 	:classeStatus "A" ;
@@ -4040,7 +4040,7 @@ Inclui retificações de dados inexatos ou incompletos.
 	:temDono :org_ERC ;
 	:temNotaAplicacao :na_c400.10.615_1 ;
 	:temNotaExclusao :ne_c400.10.615_1 ;
-	:temRelProc :c400.10.606 ;
+	:eSucessorDe :c400.10.606 ;
 	:temLegislacao :leg_259 ;
 	:classeStatus "A" ;
 	:descricao "Identificação das publicações periódicas dos órgãos de comunicação social para assegurar a proteção legal dos títulos.
@@ -4077,7 +4077,7 @@ Inclui a verificação do pedido e a inscrição no registo.
 	:temNotaAplicacao :na_c400.10.616_1 ;
 	:temNotaAplicacao :na_c400.10.616_2 ;
 	:temNotaAplicacao :na_c400.10.616_3 ;
-	:temRelProc :c500.10.301 ;
+	:eSuplementoPara :c500.10.301 ;
 	:temLegislacao :leg_498 ;
 	:temLegislacao :leg_503 ;
 	:temLegislacao :leg_1380 ;
@@ -4178,7 +4178,7 @@ Inicia-se com o pedido e termina com o despacho. Inclui análise do pedido, soli
 	:temNotaExclusao :ne_c400.10.619_1 ;
 	:temNotaExclusao :ne_c400.10.619_2 ;
 	:temNotaExclusao :ne_c400.10.619_3 ;
-	:temRelProc :c150.20.101 ;
+	:eAntecessorDe :c150.20.101 ;
 	:temLegislacao :leg_375 ;
 	:classeStatus "A" ;
 	:descricao "Registo dos ciclos de estudos conferentes dos graus de licenciado, mestre e doutor (1.º, 2.º e 3.º ciclo) previamente acreditados por entidade ou agência especializada.
@@ -4224,8 +4224,8 @@ Inclui instrução do processo.
 	:temNotaAplicacao :na_c400.10.620_3 ;
 	:temNotaAplicacao :na_c400.10.620_4 ;
 	:temNotaExclusao :ne_c400.10.620_1 ;
-	:temRelProc :c450.30.002 ;
-	:temRelProc :c750.30.602 ;
+	:eAntecessorDe :c450.30.002 ;
+	:eAntecessorDe :c750.30.602 ;
 	:temLegislacao :leg_50 ;
 	:temLegislacao :leg_586 ;
 	:classeStatus "A" ;
@@ -4390,31 +4390,31 @@ Inclui identificação do grau, diploma ou título, menções qualitativa e ou q
 	:temNotaExclusao :ne_c400.30.001_9 ;
 	:temNotaExclusao :ne_c400.30.001_10 ;
 	:temNotaExclusao :ne_c400.30.001_11 ;
-	:temRelProc :c300.10.001 ;
-	:temRelProc :c300.10.003 ;
-	:temRelProc :c300.10.006 ;
-	:temRelProc :c300.10.007 ;
-	:temRelProc :c300.20.001 ;
-	:temRelProc :c300.20.200 ;
-	:temRelProc :c300.20.400 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c350.10.201 ;
-	:temRelProc :c350.10.205 ;
-	:temRelProc :c400.10.200 ;
-	:temRelProc :c400.10.406 ;
-	:temRelProc :c400.30.600 ;
-	:temRelProc :c400.30.601 ;
-	:temRelProc :c450.10.235 ;
-	:temRelProc :c450.10.446 ;
-	:temRelProc :c450.10.447 ;
-	:temRelProc :c450.30.003 ;
-	:temRelProc :c450.30.503 ;
-	:temRelProc :c500.30.001 ;
-	:temRelProc :c500.40.500 ;
-	:temRelProc :c600.30.751 ;
-	:temRelProc :c850.10.002 ;
-	:temRelProc :c850.10.003 ;
-	:temRelProc :c850.10.005 ;
+	:eCruzadoCom :c300.10.001 ;
+	:eSinteseDe :c300.10.003 ;
+	:eSinteseDe :c300.10.006 ;
+	:eSinteseDe :c300.10.007 ;
+	:eSinteseDe :c300.20.001 ;
+	:eSinteseDe :c300.20.200 ;
+	:eSinteseDe :c300.20.400 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eCruzadoCom :c350.10.201 ;
+	:eCruzadoCom :c350.10.205 ;
+	:eSucessorDe :c400.10.200 ;
+	:eSucessorDe :c400.10.406 ;
+	:eAntecessorDe :c400.30.600 ;
+	:eAntecessorDe :c400.30.601 ;
+	:eSucessorDe :c450.10.235 ;
+	:eAntecessorDe :c450.10.446 ;
+	:eAntecessorDe :c450.10.447 ;
+	:eAntecessorDe :c450.30.003 ;
+	:eAntecessorDe :c450.30.503 ;
+	:eAntecessorDe :c500.30.001 ;
+	:eAntecessorDe :c500.40.500 ;
+	:eAntecessorDe :c600.30.751 ;
+	:eCruzadoCom :c850.10.002 ;
+	:eCruzadoCom :c850.10.003 ;
+	:eCruzadoCom :c850.10.005 ;
 	:temLegislacao :leg_731 ;
 	:temLegislacao :leg_676 ;
 	:temLegislacao :leg_672 ;
@@ -4477,8 +4477,8 @@ Inclui a verificação da legalidade dos documentos, elaboração e feitura do t
 	:temNotaAplicacao :na_c400.30.402_1 ;
 	:temNotaAplicacao :na_c400.30.402_2 ;
 	:temNotaAplicacao :na_c400.30.402_3 ;
-	:temRelProc :c450.10.444 ;
-	:temRelProc :c500.10.001 ;
+	:eSucessorDe :c450.10.444 ;
+	:eSuplementoPara :c500.10.001 ;
 	:temLegislacao :leg_246 ;
 	:temLegislacao :leg_414 ;
 	:temLegislacao :leg_766 ;
@@ -4532,8 +4532,8 @@ Inclui verificação de identidade do requisitante, verificação da exatidão e
 	:temNotaExclusao :ne_c400.30.600_2 ;
 	:temNotaExclusao :ne_c400.30.600_3 ;
 	:temNotaExclusao :ne_c400.30.600_4 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.30.001 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c400.30.001 ;
 	:temLegislacao :leg_1050 ;
 	:temLegislacao :leg_842 ;
 	:temLegislacao :leg_828 ;
@@ -4545,15 +4545,15 @@ Inicia com o pedido de registo e termina com a emissão do comprovativo do regis
 Inclui a associação, registo e depósito de eventual prova documental que altere, retifique, revogue ou extinga documento previamente registado.
 Inclui, ainda, a organização e manutenção da base de dados de procurações.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c400.30.601_2
-:ne_c400.30.601_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Os pedidos de informação que não se integram em nenhum processo específico devem considerados em 900.20.604 – Processamento de pedidos de informação e de esclarecimento".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.30.601_1
 :ne_c400.30.601_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O apuramento emolumentar devido pela prática do ato por parte da Administração, bem como a cobrança coerciva da conta do ato (certificado de conta), não voluntariamente liquidada deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c400.30.601_2
+:ne_c400.30.601_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pedidos de informação que não se integram em nenhum processo específico devem considerados em 900.20.604 – Processamento de pedidos de informação e de esclarecimento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c400.30.601
 :c400.30.601 rdf:type owl:NamedIndividual ,
@@ -4566,8 +4566,8 @@ Inclui, ainda, a organização e manutenção da base de dados de procurações.
 	:temDono :org_IRN ;
 	:temNotaExclusao :ne_c400.30.601_1 ;
 	:temNotaExclusao :ne_c400.30.601_2 ;
-	:temRelProc :c350.30.001 ;
-	:temRelProc :c400.30.001 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c400.30.001 ;
 	:temLegislacao :leg_162 ;
 	:classeStatus "A" ;
 	:descricao "Elaboração do índice geral de testamentos e escrituras públicas de revogação de testamentos ou escrituras diversas realizadas nos Cartórios Notariais.
@@ -4584,7 +4584,7 @@ Inclui a anotação dos elementos que identificam o local, a data e o título do
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_Trb ;
 	:temDono :org_DGPJ ;
-	:temRelProc :c600.30.200 ;
+	:eSucessorDe :c600.30.200 ;
 	:temLegislacao :leg_167 ;
 	:temLegislacao :leg_58 ;
 	:classeStatus "A" ;
