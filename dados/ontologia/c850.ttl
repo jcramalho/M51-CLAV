@@ -96,9 +96,9 @@ Compreende, ainda, as atividades de captação de mecenas e gestão de apoios me
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c500.10.002 ;
-	:temLegislacao :leg_1251 ;
-	:temLegislacao :leg_982 ;
-	:temLegislacao :leg_650 ;
+	:temLegislacao :leg_1321 ;
+	:temLegislacao :leg_1037 ;
+	:temLegislacao :leg_681 ;
 	:classeStatus "A" ;
 	:descricao "Pagamento compensatório dos custos ou perdas resultantes da exploração e prestação de serviços de interesse público que não são economicamente rentáveis.
 Inicia com o pedido de pagamento do subsídio ou por iniciativa da entidade pagadora e termina com a decisão de deferimento ou indeferimento do respetivo pedido.
@@ -195,18 +195,19 @@ Inclui demonstração dos valores das transferências efetuadas ou a efetuar.
 	:temRelProc :c800.20.002 ;
 	:temRelProc :c800.20.500 ;
 	:temRelProc :c900.10.001 ;
-	:temLegislacao :leg_1210 ;
-	:temLegislacao :leg_1212 ;
-	:temLegislacao :leg_1145 ;
-	:temLegislacao :leg_1142 ;
-	:temLegislacao :leg_1207 ;
-	:temLegislacao :leg_1114 ;
-	:temLegislacao :leg_1103 ;
-	:temLegislacao :leg_1109 ;
-	:temLegislacao :leg_1108 ;
-	:temLegislacao :leg_1107 ;
-	:temLegislacao :leg_1106 ;
-	:temLegislacao :leg_1105 ;
+	:temLegislacao :leg_1278 ;
+	:temLegislacao :leg_1280 ;
+	:temLegislacao :leg_1206 ;
+	:temLegislacao :leg_1203 ;
+	:temLegislacao :leg_1272 ;
+	:temLegislacao :leg_1173 ;
+	:temLegislacao :leg_1169 ;
+	:temLegislacao :leg_1162 ;
+	:temLegislacao :leg_1168 ;
+	:temLegislacao :leg_1167 ;
+	:temLegislacao :leg_1166 ;
+	:temLegislacao :leg_1165 ;
+	:temLegislacao :leg_1164 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de estímulos no âmbito de programas e acompanhamento da execução dos projetos ou ações financiadas.
 Inicia com a submissão da candidatura e termina com a análise e avaliação do relatório final de execução da operação ou projeto apoiado.
@@ -310,8 +311,8 @@ Inclui solicitação de pagamento, com os respetivos documentos comprovativos,  
 	:temRelProc :c800.20.002 ;
 	:temRelProc :c800.20.500 ;
 	:temRelProc :c900.10.001 ;
-	:temLegislacao :leg_1026 ;
-	:temLegislacao :leg_821 ;
+	:temLegislacao :leg_1083 ;
+	:temLegislacao :leg_863 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição e acompanhamento de estímulos ou compensações a projetos ou situações não enquadráveis num plano de continuidade.
 Inicia com a submissão da candidatura e termina com a análise e avaliação do relatório final de execução da operação ou projeto apoiado.
@@ -373,7 +374,7 @@ Inclui solicitação de pagamento, com os respetivos documentos comprovativos,  
 	:temRelProc :c800.20.001 ;
 	:temRelProc :c800.20.002 ;
 	:temRelProc :c800.20.500 ;
-	:temLegislacao :leg_185 ;
+	:temLegislacao :leg_192 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de ajudas diretas como forma de garantir a estabilidade nos rendimentos, no âmbito de programas financiados.
 Inicia com a submissão da candidatura e termina com decisão de concessão do apoio.
@@ -425,7 +426,7 @@ Inclui a instrução da candidatura, decisão, comunicação da atribuição do 
 	:temRelProc :c800.20.002 ;
 	:temRelProc :c800.20.500 ;
 	:temRelProc :c900.10.500 ;
-	:temLegislacao :leg_185 ;
+	:temLegislacao :leg_192 ;
 	:classeStatus "A" ;
 	:descricao "Reconhecimento do valor de ações, trabalhos, projetos e resultados.
 Inicia com a abertura do período de apresentação de candidaturas ou com a apresentação de propostas, ou com a identificação das ações, trabalhos, projetos de investigação e resultados passíveis de reconhecimento e termina com a decisão de atribuição do prémio.
@@ -506,7 +507,7 @@ Inclui avaliação e seleção de trabalhos, ações, projetos e desempenhos pas
 	:temRelProc :c800.20.002 ;
 	:temRelProc :c800.20.500 ;
 	:temRelProc :c900.10.500 ;
-	:temLegislacao :leg_185 ;
+	:temLegislacao :leg_192 ;
 	:classeStatus "A" ;
 	:descricao "Disponibilização de qualquer tipo de recurso (financeiro ou material) para apoio ou suporte direto à realização de uma atividade ou entidade patrocinada, com o propósito de associar o nome da entidade patrocinadora, bem como outras  contrapartidas de caracter comercial.
 Inicia com o pedido e termina com a decisão quanto à atribuição de patrocínio.
@@ -582,13 +583,14 @@ Inclui análise do pedido e negociação entre patrocinador e beneficiário, con
 	:temRelProc :c800.20.001 ;
 	:temRelProc :c800.20.002 ;
 	:temRelProc :c800.20.500 ;
-	:temLegislacao :leg_320 ;
-	:temLegislacao :leg_390 ;
-	:temLegislacao :leg_644 ;
-	:temLegislacao :leg_746 ;
-	:temLegislacao :leg_1065 ;
-	:temLegislacao :leg_1174 ;
-	:temLegislacao :leg_1213 ;
+	:temLegislacao :leg_338 ;
+	:temLegislacao :leg_412 ;
+	:temLegislacao :leg_675 ;
+	:temLegislacao :leg_784 ;
+	:temLegislacao :leg_1123 ;
+	:temLegislacao :leg_1231 ;
+	:temLegislacao :leg_1236 ;
+	:temLegislacao :leg_1281 ;
 	:classeStatus "A" ;
 	:descricao "Desenvolvimento de atividades de recolha e gestão de donativos em dinheiro ou em espécie, concedidos sem haver lugar a contrapartidas que configurem obrigações de caracter pecuniário ou comercial, às entidades públicas ou privadas, para a realização de iniciativas de diversa natureza. 
 Inicia com pedido e termina com a concessão do apoio.
@@ -600,15 +602,15 @@ Inclui análise do pedido, negociação entre o mecenas e o beneficiário.
 	:NotaAplicacao ;
 	:conteudo "Bonificação de juros no crédito à habitação".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c850.30_3
-:na_c850.30_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Benefícios fiscais ao investimento".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c850.30_2
 :na_c850.30_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Bonificação ao gasóleo utilizado na atividade agrícola".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.30_3
+:na_c850.30_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Benefícios fiscais ao investimento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c850.30
 :c850.30 rdf:type owl:NamedIndividual ,
@@ -673,9 +675,9 @@ Inclui análise do pedido, negociação entre o mecenas e o beneficiário.
 	:temRelProc :c300.30.008 ;
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_580 ;
-	:temLegislacao :leg_512 ;
-	:temLegislacao :leg_185 ;
+	:temLegislacao :leg_606 ;
+	:temLegislacao :leg_536 ;
+	:temLegislacao :leg_192 ;
 	:classeStatus "A" ;
 	:descricao "Concessão de bonificações a entidades nacionais e estrangeiras, através de linhas de crédito bonificadas e criadas por diploma próprio, nos setores do arrendamento urbano, eventos nacionais, intempéries, calamidades, crédito de ajuda, entre outros.
 Inicia com um pedido e termina com a decisão de atribuição da bonificação.
@@ -724,8 +726,8 @@ Inclui a análise dos elementos e a elaboração de pareceres.
 	:temRelProc :c350.10.300 ;
 	:temRelProc :c350.10.301 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1140 ;
-	:temLegislacao :leg_85 ;
+	:temLegislacao :leg_1201 ;
+	:temLegislacao :leg_90 ;
 	:classeStatus "A" ;
 	:descricao "Aplicação do regime de benefícios ao investimento produtivo a entidades contratualizadas.
 Inicia com a negociação contratual entre as partes e termina com a aplicação do contrato.
@@ -747,7 +749,7 @@ Inclui todos os procedimentos para a análise e cálculo dos benefícios e incen
 	:temRelProc :c300.30.008 ;
 	:temRelProc :c350.10.400 ;
 	:temRelProc :c450.10.062 ;
-	:temLegislacao :leg_524 ;
+	:temLegislacao :leg_548 ;
 	:classeStatus "A" ;
 	:descricao "Aplicação de mecanismo comunitário que permite a importação de matérias-primas ou produtos semi-acabados com a aplicação de um direito aduaneiro reduzido ou nulo, durante um determinado período e relativo a uma quantidade ilimitada (suspensão pautal) ou a uma quantidade limitada (contingente pautal), permitindo às empresas abastecerem-se a preços mais baixos, estimulando a atividade económica na União Europeia, e possibilitando a existência de empresas mais competitivas e o fomento à criação de emprego.
 Inicia com pedido de candidatura a suspensões e contingentes pautais na importação de mercadorias, formulado por operador económico e termina com a comunicação do resultado da proposta ou do pedido de candidatura, ou ainda com a emissão de certificado, quando aplicável.
@@ -780,12 +782,13 @@ Inclui a análise dos pedidos de suspensões e de contingentes pautais, produç�
 	:temRelProc :c150.20.404 ;
 	:temRelProc :c150.40.500 ;
 	:temRelProc :c300.30.008 ;
-	:temLegislacao :leg_1203 ;
-	:temLegislacao :leg_1200 ;
-	:temLegislacao :leg_1102 ;
-	:temLegislacao :leg_1069 ;
-	:temLegislacao :leg_346 ;
-	:temLegislacao :leg_345 ;
+	:temLegislacao :leg_1268 ;
+	:temLegislacao :leg_1265 ;
+	:temLegislacao :leg_1161 ;
+	:temLegislacao :leg_1127 ;
+	:temLegislacao :leg_365 ;
+	:temLegislacao :leg_364 ;
+	:temLegislacao :leg_107 ;
 	:classeStatus "A" ;
 	:descricao "Aplicação de isenção de direitos de importação a produtos agrícolas essenciais importados de países terceiros para regiões ultraperiféricas da União Europeia.     
 Inicia com a solicitação do operador e termina com a decisão.                                                                       Inclui a validação face a alterações/transferências efetuadas às estimativas durante a campanha.".
@@ -815,7 +818,7 @@ Inicia com a solicitação do operador e termina com a decisão.                
 	:temRelProc :c150.40.500 ;
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_185 ;
+	:temLegislacao :leg_192 ;
 	:classeStatus "A" ;
 	:descricao "Registo e controlo dos pagamentos das bonificações de juros e incentivos.
 Inicia com a receção de comprovativos de despesa e termina com a decisão sobre a conformidade da despesa.
@@ -870,14 +873,15 @@ Inclui a análise dos mapas de valores a pagar por classificação económica, d
 	:temParticipanteApreciador :org_IGCP ;
 	:temParticipanteAssessor :org_BdP ;
 	:temParticipanteDecisor :org_SEATF ;
+	:temDono :org_DGTF ;
 	:temNotaExclusao :ne_c850.40.001_1 ;
 	:temNotaExclusao :ne_c850.40.001_2 ;
 	:temRelProc :c150.10.500 ;
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_694 ;
-	:temLegislacao :leg_681 ;
+	:temLegislacao :leg_727 ;
+	:temLegislacao :leg_713 ;
 	:classeStatus "A" ;
 	:descricao "Concessão, gestão e execução de garantias pessoais a entidades externas e internas, sob a forma de fiança ou aval, no âmbito de empreendimentos ou projetos de interesse para a economia nacional.
 Inicia com o pedido dos beneficiários da garantia do Estado ou de um membro do Governo para análise da entidade responsável pelas garantias e subsequente pedido de parecer ao à entidade responsável pela dívida pública e à tutela setorial e termina com a execução da garantia.
@@ -967,13 +971,13 @@ Inclui pedidos de autorização/manutenção de garantia, minutas dos contratos 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_185 ;
-	:temLegislacao :leg_512 ;
-	:temLegislacao :leg_580 ;
-	:temLegislacao :leg_706 ;
-	:temLegislacao :leg_707 ;
-	:temLegislacao :leg_818 ;
-	:temLegislacao :leg_733 ;
+	:temLegislacao :leg_192 ;
+	:temLegislacao :leg_536 ;
+	:temLegislacao :leg_606 ;
+	:temLegislacao :leg_740 ;
+	:temLegislacao :leg_742 ;
+	:temLegislacao :leg_860 ;
+	:temLegislacao :leg_769 ;
 	:classeStatus "A" ;
 	:descricao "Concessão e gestão de garantias a operações de seguro do risco de crédito, de produção e de investimento com a garantia do Estado, nomeadamente no contexto da exportação de bens ou serviços de origem portuguesa ou de investimento português no estrangeiro.
 Inicia com o pedido da seguradora ao Estado para emissão da garantia, sob a forma de seguro, e termina com a eventual autorização do membro do Governo a efetivar a emissão da garantia.

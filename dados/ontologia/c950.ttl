@@ -1,4 +1,9 @@
 ### Classe950
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950_1
+:ne_c950_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A audição pública no âmbito de um determinado processo, deve ser considerada junto do processo respetivo - por exemplo, a audição pública no âmbito da elaboração de uma lei ou regulamento deve ser considerada em \"Ordenamento jurídico e normativo/ Elaboração de diplomas jurídico-normativos e de normas técnicas\" (100.10).".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c950
 :c950 rdf:type owl:NamedIndividual ,
 	:Classe_N1;
@@ -8,11 +13,6 @@
 	:temNotaExclusao :ne_c950_1 ;
 	:classeStatus "A" ;
 	:descricao "Relativo à realização processos eleitorais para escolha dos representantes dos cidadãos (sufrágio universal), à realização de processos referendários, ao processamento de outros atos de participação dos cidadãos na gestão de assuntos públicos e, ainda, à atribuição de distinções honoríficas.".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c950_1
-:ne_c950_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A audição pública no âmbito de um determinado processo, deve ser considerada junto do processo respetivo - por exemplo, a audição pública no âmbito da elaboração de uma lei ou regulamento deve ser considerada em \"Ordenamento jurídico e normativo/ Elaboração de diplomas jurídico-normativos e de normas técnicas\" (100.10).".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.10_1
 :na_c950.10_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -45,6 +45,11 @@
 	:temNotaExclusao :ne_c950.10_3 ;
 	:classeStatus "A" ;
 	:descricao "Compreende as atividades de organização dos processos de sufrágio universal (nacional, regional e local) para eleições e para referendos, bem como o respetivo apuramento, transmissão e difusão de resultados.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_2
+:na_c950.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Eleições legislativas".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_1
 :na_c950.10.001_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -55,20 +60,15 @@
 	:NotaAplicacao ;
 	:conteudo "Eleições para a presidência da república".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_2
-:na_c950.10.001_2 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_4
+:na_c950.10.001_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Eleições legislativas".
+	:conteudo "Eleições regionais e autárquicas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_5
 :na_c950.10.001_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Eleições dos orgãos de soberania, das regiões autónomas, do poder local e do Conselho das Comunidades Portuguesas".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c950.10.001_4
-:na_c950.10.001_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Eleições regionais e autárquicas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c950.10.001
 :c950.10.001 rdf:type owl:NamedIndividual ,
@@ -95,12 +95,12 @@
 	:temRelProc :c950.10.402 ;
 	:temRelProc :c950.10.600 ;
 	:temLegislacao :leg_14 ;
-	:temLegislacao :leg_29 ;
-	:temLegislacao :leg_32 ;
-	:temLegislacao :leg_517 ;
-	:temLegislacao :leg_317 ;
-	:temLegislacao :leg_71 ;
-	:temLegislacao :leg_1283 ;
+	:temLegislacao :leg_30 ;
+	:temLegislacao :leg_33 ;
+	:temLegislacao :leg_541 ;
+	:temLegislacao :leg_334 ;
+	:temLegislacao :leg_75 ;
+	:temLegislacao :leg_1356 ;
 	:classeStatus "A" ;
 	:descricao "Definição de data para a realização de atos eleitorais e referendários.
 Inicia com a apresentação da proposta de data e termina com a publicação da decisão.
@@ -120,16 +120,17 @@ Inclui consulta de entidades, decisão e comunicação da data.".
 	:processoTransversal "S" ;
 	:temParticipanteComunicador :org_PR ;
 	:temDono :org_TC ;
+	:temDono :org_STJ ;
 	:temNotaAplicacao :na_c950.10.200_1 ;
 	:temRelProc :c950.10.001 ;
 	:temRelProc :c950.10.400 ;
 	:temLegislacao :leg_14 ;
-	:temLegislacao :leg_29 ;
-	:temLegislacao :leg_32 ;
-	:temLegislacao :leg_517 ;
-	:temLegislacao :leg_317 ;
-	:temLegislacao :leg_71 ;
-	:temLegislacao :leg_1283 ;
+	:temLegislacao :leg_30 ;
+	:temLegislacao :leg_33 ;
+	:temLegislacao :leg_541 ;
+	:temLegislacao :leg_334 ;
+	:temLegislacao :leg_75 ;
+	:temLegislacao :leg_1356 ;
 	:classeStatus "A" ;
 	:descricao "Análise e aceitação de candidaturas apresentadas por partidos políticos, coligações eleitorais, candidaturas independentes e grupos de cidadãos.
 Inicia com a apresentação das candidaturas e termina com a publicitação das listas.
@@ -194,17 +195,17 @@ Inclui ainda o sorteio das listas apresentadas a constar nos boletins de voto.".
 	:temRelProc :c600.30.712 ;
 	:temRelProc :c950.10.001 ;
 	:temRelProc :c950.10.400 ;
-	:temLegislacao :leg_206 ;
-	:temLegislacao :leg_285 ;
-	:temLegislacao :leg_1238 ;
+	:temLegislacao :leg_216 ;
+	:temLegislacao :leg_303 ;
+	:temLegislacao :leg_1307 ;
 	:temLegislacao :leg_14 ;
-	:temLegislacao :leg_29 ;
-	:temLegislacao :leg_71 ;
-	:temLegislacao :leg_307 ;
-	:temLegislacao :leg_32 ;
-	:temLegislacao :leg_502 ;
-	:temLegislacao :leg_206 ;
-	:temLegislacao :leg_285 ;
+	:temLegislacao :leg_30 ;
+	:temLegislacao :leg_75 ;
+	:temLegislacao :leg_324 ;
+	:temLegislacao :leg_33 ;
+	:temLegislacao :leg_525 ;
+	:temLegislacao :leg_216 ;
+	:temLegislacao :leg_303 ;
 	:classeStatus "A" ;
 	:descricao "Análise e aceitação de propostas de referendo.
 Inicia com a apresentação das iniciativas de proposta e termina com o envio da resolução para convocação de referendo.
@@ -258,16 +259,16 @@ Inclui análise da proposta de referendo, consulta de entidades, notificação d
 	:temRelProc :c950.10.601 ;
 	:temRelProc :c950.10.602 ;
 	:temLegislacao :leg_14 ;
-	:temLegislacao :leg_29 ;
-	:temLegislacao :leg_71 ;
-	:temLegislacao :leg_317 ;
-	:temLegislacao :leg_32 ;
-	:temLegislacao :leg_517 ;
-	:temLegislacao :leg_206 ;
-	:temLegislacao :leg_288 ;
-	:temLegislacao :leg_1267 ;
-	:temLegislacao :leg_592 ;
-	:temLegislacao :leg_1283 ;
+	:temLegislacao :leg_30 ;
+	:temLegislacao :leg_75 ;
+	:temLegislacao :leg_334 ;
+	:temLegislacao :leg_33 ;
+	:temLegislacao :leg_541 ;
+	:temLegislacao :leg_216 ;
+	:temLegislacao :leg_306 ;
+	:temLegislacao :leg_1339 ;
+	:temLegislacao :leg_619 ;
+	:temLegislacao :leg_1356 ;
 	:classeStatus "A" ;
 	:descricao "Organização, conceção e disponibilização de impressos, equipamentos e outros materiais necessários à realização dos atos eleitorais e referendários.
 Inicia com a definição do calendário eleitoral e referendário e termina com a entrega dos materiais a utilizar.
@@ -300,13 +301,14 @@ Inclui definição do formato e da cor dos boletins de voto, organização dos c
 	:temRelProc :c950.10.400 ;
 	:temRelProc :c950.10.602 ;
 	:temLegislacao :leg_14 ;
-	:temLegislacao :leg_29 ;
-	:temLegislacao :leg_71 ;
-	:temLegislacao :leg_317 ;
-	:temLegislacao :leg_32 ;
-	:temLegislacao :leg_517 ;
-	:temLegislacao :leg_288 ;
-	:temLegislacao :leg_1267 ;
+	:temLegislacao :leg_30 ;
+	:temLegislacao :leg_75 ;
+	:temLegislacao :leg_334 ;
+	:temLegislacao :leg_33 ;
+	:temLegislacao :leg_541 ;
+	:temLegislacao :leg_216 ;
+	:temLegislacao :leg_306 ;
+	:temLegislacao :leg_1339 ;
 	:classeStatus "A" ;
 	:descricao "Composição das assembleias e mesas de voto.
 Inicia com a determinação do local de funcionamento da assembleia de voto e termina com a afixação do mapa definitivo das assembleias e secções de voto através de edital.
@@ -328,9 +330,9 @@ Inclui determinação do número de secções de voto, escolha dos membros das m
 	:temDono :org_CNE ;
 	:temNotaAplicacao :na_c950.10.402_1 ;
 	:temRelProc :c950.10.001 ;
-	:temLegislacao :leg_29 ;
-	:temLegislacao :leg_317 ;
-	:temLegislacao :leg_377 ;
+	:temLegislacao :leg_30 ;
+	:temLegislacao :leg_334 ;
+	:temLegislacao :leg_396 ;
 	:classeStatus "A" ;
 	:descricao "Determinação e concessão de meios necessários ao desenvolvimento das atividades de propaganda eleitoral.
 Inicia com a determinação dos espaços e meios reservados para a propaganda eleitoral e termina com o estabelecimento de prazos para a remoção dos materiais utilizados.
@@ -356,8 +358,8 @@ Inclui estabelecimento e distribuição dos tempos reservados para o exercício 
 	:temRelProc :c950.10.001 ;
 	:temRelProc :c950.10.400 ;
 	:temRelProc :c950.10.602 ;
-	:temLegislacao :leg_317 ;
-	:temLegislacao :leg_29 ;
+	:temLegislacao :leg_334 ;
+	:temLegislacao :leg_30 ;
 	:classeStatus "A" ;
 	:descricao "Verificação do regular funcionamento das assembleias de voto e apuramento dos resultados nelas obtidos.
 Inicia com a declaração de abertura das assembleias e mesas de voto e termina com a entrega da documentação e comunicação dos resultados do escrutínio parcial à assembleia de apuramento geral.
@@ -402,14 +404,14 @@ Inclui a elaboração do edital com os resultados do escrutínio parcial.".
 	:temRelProc :c900.20.201 ;
 	:temRelProc :c950.10.400 ;
 	:temLegislacao :leg_14 ;
-	:temLegislacao :leg_29 ;
-	:temLegislacao :leg_71 ;
-	:temLegislacao :leg_317 ;
-	:temLegislacao :leg_32 ;
-	:temLegislacao :leg_517 ;
-	:temLegislacao :leg_206 ;
-	:temLegislacao :leg_288 ;
-	:temLegislacao :leg_1267 ;
+	:temLegislacao :leg_30 ;
+	:temLegislacao :leg_75 ;
+	:temLegislacao :leg_334 ;
+	:temLegislacao :leg_33 ;
+	:temLegislacao :leg_541 ;
+	:temLegislacao :leg_216 ;
+	:temLegislacao :leg_306 ;
+	:temLegislacao :leg_1339 ;
 	:classeStatus "A" ;
 	:descricao "Composição de assembleias responsáveis pela validação de todas as operações de votação.
 Inicia com a designação dos elementos que constituem a assembleia de apuramento geral e termina com a divulgação da sua constituição através de edital.
@@ -445,13 +447,14 @@ Inclui notificação dos designados para a assembleia de apuramento geral e indi
 	:temRelProc :c950.10.401 ;
 	:temRelProc :c950.10.600 ;
 	:temLegislacao :leg_14 ;
-	:temLegislacao :leg_29 ;
-	:temLegislacao :leg_71 ;
-	:temLegislacao :leg_317 ;
-	:temLegislacao :leg_32 ;
-	:temLegislacao :leg_517 ;
-	:temLegislacao :leg_288 ;
-	:temLegislacao :leg_1267 ;
+	:temLegislacao :leg_30 ;
+	:temLegislacao :leg_75 ;
+	:temLegislacao :leg_334 ;
+	:temLegislacao :leg_33 ;
+	:temLegislacao :leg_541 ;
+	:temLegislacao :leg_216 ;
+	:temLegislacao :leg_306 ;
+	:temLegislacao :leg_1339 ;
 	:classeStatus "A" ;
 	:descricao "Verificação da contagem de votos e proclamação dos resultados obtidos em atos eleitorais e referendários.
 Inicia com a receção da documentação enviada pelas assembleias de apuramento parcial e termina com a proclamação e publicitação dos resultados finais.
@@ -525,15 +528,15 @@ Inclui o envio de exemplares da ata à entidade competente, elaboração do mapa
 	:NotaAplicacao ;
 	:conteudo "Reclamações em Livro Amarelo".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_2
-:na_c950.20.001_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Reclamações em Livro Vermelho".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_3
 :na_c950.20.001_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Queixas ou denúncias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_2
+:na_c950.20.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reclamações em Livro Vermelho".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_4
 :na_c950.20.001_4 rdf:type owl:NamedIndividual ,
@@ -586,7 +589,7 @@ Inclui o envio de exemplares da ata à entidade competente, elaboração do mapa
 	:temRelProc :c500.10.300 ;
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c500.20 ;
-	:temLegislacao :leg_1211 ;
+	:temLegislacao :leg_1279 ;
 	:classeStatus "A" ;
 	:descricao "Tratamento de petições, reclamações e sugestões relativas ao funcionamento dos serviços, ou sobre as áreas de atuação da organização.
 Inicia com a receção da reclamação ou sugestão e termina com resposta ao interessado.
@@ -615,7 +618,6 @@ Inclui análise da situação exposta e articulação com os responsáveis do se
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_AP ;
-	:temParticipanteComunicador :org_AP ;
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c950.20.300_1 ;
 	:temNotaAplicacao :na_c950.20.300_2 ;
@@ -625,7 +627,7 @@ Inclui análise da situação exposta e articulação com os responsáveis do se
 	:temRelProc :c150.40.500 ;
 	:temRelProc :c250.20.800 ;
 	:temRelProc :c300.30.008 ;
-	:temLegislacao :leg_1211 ;
+	:temLegislacao :leg_1279 ;
 	:classeStatus "A" ;
 	:descricao "Receção e tratamento dos elogios e agradecimentos pelo funcionamento dos serviços.
 Inicia com a receção do elogio, agradecimento ou louvor, e termina com a resposta a esses mesmos elogios, agradecimentos e louvores.
@@ -750,8 +752,8 @@ Inclui análise do pedido.".
 	:temRelProc :c900.10.500 ;
 	:temRelProc :c900.20.601 ;
 	:temRelProc :c900.20.602 ;
-	:temLegislacao :leg_895 ;
-	:temLegislacao :leg_337 ;
+	:temLegislacao :leg_943 ;
+	:temLegislacao :leg_356 ;
 	:classeStatus "A" ;
 	:descricao "Distinção de pessoas naturais, residentes ou sediadas em determinado território e cidadãos, empresas, grupo e coletividades que, por atos praticados, tenham, de forma notória e perene, contribuído para a valorização desse mesmo território ou de uma atividade específica.
 Inicia com a apresentação da proposta de distinção e termina com a atribuição de medalha ou outro elemento distintivo.

@@ -9,6 +9,11 @@
 	:NotaAplicacao ;
 	:conteudo "Integração no mercado de trabalho".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c650_4
+:na_c650_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio psicossocial a pessoas ou grupos em risco em contexto comunitário global".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650_1
 :na_c650_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -18,11 +23,6 @@
 :na_c650_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Apoio psicossocial a pessoas ou grupos em risco em contextos específicos de relações laborais, prestação de serviços, execução de penas, entre outros (apoio a crianças, jovens e idosos, alunos, doentes, reclusos, funcionários, pessoas com deficiência, toxicodependentes, vítimas de violência, pessoas dependentes, desempregados, família e comunidade, grupos de risco, imigrantes e minorias étnicas, etc.)".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c650_4
-:na_c650_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Apoio psicossocial a pessoas ou grupos em risco em contexto comunitário global".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c650_1
 :ne_c650_1 rdf:type owl:NamedIndividual ,
@@ -48,15 +48,15 @@
 	:NotaAplicacao ;
 	:conteudo "Apoios atribuídos no âmbito da ação social em qualquer domínio, incluindo a ação social escolar (de qualquer nível de ensino).".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c650.10_1
-:ne_c650.10_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Os pedidos de inscrição/ cancelamento de beneficiário e alteração de dados de beneficiários da Segurança Social, ADSE, CGA e entidades similares devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10_2
 :na_c650.10_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "A generalidade dos organismos da AP deve utilizar esta classe apenas para o encaminhamento de pedidos de prestações à Segurança Social, ADSE, CGA e entidades similares.".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c650.10_1
+:ne_c650.10_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pedidos de inscrição/ cancelamento de beneficiário e alteração de dados de beneficiários da Segurança Social, ADSE, CGA e entidades similares devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c650.10
 :c650.10 rdf:type owl:NamedIndividual ,
@@ -110,7 +110,7 @@ Compreende, igualmente, os processos de atribuição de prestações em espécie
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c650.10.204 ;
 	:temRelProc :c650.10.205 ;
-	:temLegislacao :leg_542 ;
+	:temLegislacao :leg_567 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal destinada a proteger os beneficiários do regime geral de Segurança Social nas situações de incapacidade permanente para o trabalho.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -147,11 +147,10 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c650.10.204 ;
-	:temRelProc :c850.10.004 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
-	:temLegislacao :leg_344 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_363 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal destinada a compensar os familiares do beneficiário da perda de rendimentos de trabalho resultante da morte deste.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -189,14 +188,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_1014 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_852 ;
-	:temLegislacao :leg_699 ;
-	:temLegislacao :leg_282 ;
-	:temLegislacao :leg_232 ;
-	:temLegislacao :leg_93 ;
-	:temLegislacao :leg_34 ;
+	:temLegislacao :leg_1072 ;
+	:temLegislacao :leg_1064 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_898 ;
+	:temLegislacao :leg_733 ;
+	:temLegislacao :leg_300 ;
+	:temLegislacao :leg_243 ;
+	:temLegislacao :leg_98 ;
+	:temLegislacao :leg_36 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal paga aos beneficiários com idade legalmente exigida segundo os descontos efetuados para a Segurança Social e Caixa Geral de Aposentações.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -204,27 +204,27 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.004_1
 :na_c650.10.004_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Subsídio parental inicial".
+	:conteudo "Subsídio parental alargado".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.004_2
 :na_c650.10.004_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Subsídio parental inicial exclusivo da mãe".
+	:conteudo "Subsídio parental inicial".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.004_3
 :na_c650.10.004_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Subsídio parental inicial exclusivo do pai".
+	:conteudo "Subsídio parental inicial exclusivo da mãe".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.004_4
 :na_c650.10.004_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Subsídio parental inicial de um progenitor em caso de impossibilidade do outro".
+	:conteudo "Subsídio parental inicial exclusivo do pai".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.004_5
 :na_c650.10.004_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Subsidio de assistência a neto".
+	:conteudo "Subsídio parental inicial de um progenitor em caso de impossibilidade do outro".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c650.10.004_1
 :ne_c650.10.004_1 rdf:type owl:NamedIndividual ,
@@ -257,16 +257,46 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c650.10.005 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
-	:temLegislacao :leg_344 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_363 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal, ao pai e/ou à mãe, ou avós ou equiparados, com vista a substituir o rendimento de trabalho perdido durante o período de licença por nascimento de filho ou neto, filho de adolescente menor de 16 anos.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
 Inclui análise da situação mediante os comprovativos apresentados e decisão sobre o montante a atribuir.
 
 ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.005_1
+:na_c650.10.005_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Doença".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.005_2
+:na_c650.10.005_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Subsídio parental inicial".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.005_3
+:na_c650.10.005_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Subsídio parental inicial exclusivo da mãe".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.005_4
+:na_c650.10.005_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Subsídio parental inicial exclusivo do pai".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.005_5
+:na_c650.10.005_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Subsídio parental inicial de um progenitor em caso de impossibilidade do outro".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.005_6
+:na_c650.10.005_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Subsídio parental alargado".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c650.10.005_1
 :ne_c650.10.005_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -281,6 +311,12 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
+	:temNotaAplicacao :na_c650.10.005_1 ;
+	:temNotaAplicacao :na_c650.10.005_2 ;
+	:temNotaAplicacao :na_c650.10.005_3 ;
+	:temNotaAplicacao :na_c650.10.005_4 ;
+	:temNotaAplicacao :na_c650.10.005_5 ;
+	:temNotaAplicacao :na_c650.10.005_6 ;
 	:temNotaExclusao :ne_c650.10.005_1 ;
 	:temRelProc :c150.10.600 ;
 	:temRelProc :c150.20.300 ;
@@ -293,10 +329,10 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c650.10.004 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
-	:temLegislacao :leg_344 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_363 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal aos beneficiários que não tenham direito ao pagamento de subsídios de proteção parental, no todo ou em parte, pelo empregador, desde que o impedimento para o trabalho tenha duração igual ou superior a 30 dias seguidos.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -335,10 +371,10 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
-	:temLegislacao :leg_344 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_363 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal aos candidatos a adotantes segundo as condições legalmente previstas.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -369,10 +405,10 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
-	:temLegislacao :leg_344 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_363 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal, ao pai, mãe, ou avós, para prestar assistência imprescindível e inadiável a filho ou neto, por motivo de doença ou acidente, desde que ambos exerçam atividade profissional e o outro progenitor não requeira o subsídio pelo mesmo motivo, ou esteja impossibilitado de prestar assistência.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -406,10 +442,10 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c650.10.205 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
-	:temLegislacao :leg_344 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_363 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal ao pai ou à mãe para prestar assistência a filho com deficiência ou doença crónica.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -417,7 +453,12 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.009_1
 :na_c650.10.009_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Concessão de subsídios parciais por cessação de atividade profissional".
+	:conteudo "Subsídios parciais por cessação de atividade profissional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.009_2
+:na_c650.10.009_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Subsídio por cessação de atividade para trabalhadores independentes economicamente dependentes".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c650.10.009_1
 :ne_c650.10.009_1 rdf:type owl:NamedIndividual ,
@@ -435,6 +476,7 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temParticipanteAssessor :org_IEFP ;
 	:temDono :org_ISS ;
 	:temNotaAplicacao :na_c650.10.009_1 ;
+	:temNotaAplicacao :na_c650.10.009_2 ;
 	:temNotaExclusao :ne_c650.10.009_1 ;
 	:temRelProc :c150.10.600 ;
 	:temRelProc :c150.20.300 ;
@@ -448,13 +490,13 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c650.10.205 ;
 	:temRelProc :c650.20.302 ;
-	:temLegislacao :leg_1016 ;
-	:temLegislacao :leg_1015 ;
-	:temLegislacao :leg_836 ;
-	:temLegislacao :leg_851 ;
-	:temLegislacao :leg_728 ;
-	:temLegislacao :leg_542 ;
-	:temLegislacao :leg_501 ;
+	:temLegislacao :leg_1074 ;
+	:temLegislacao :leg_1073 ;
+	:temLegislacao :leg_880 ;
+	:temLegislacao :leg_895 ;
+	:temLegislacao :leg_764 ;
+	:temLegislacao :leg_567 ;
+	:temLegislacao :leg_524 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal aos beneficiários desempregados para compensar a falta de remuneração motivada pela perda involuntária de emprego.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -489,9 +531,9 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c450.30.500 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1080 ;
-	:temLegislacao :leg_542 ;
-	:temLegislacao :leg_439 ;
+	:temLegislacao :leg_1139 ;
+	:temLegislacao :leg_567 ;
+	:temLegislacao :leg_462 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal aos beneficiários para compensar a perda de remuneração resultante do impedimento temporário para o trabalho, por motivo de doença.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -522,13 +564,13 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_1174 ;
-	:temLegislacao :leg_1080 ;
-	:temLegislacao :leg_731 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_515 ;
-	:temLegislacao :leg_293 ;
+	:temLegislacao :leg_1236 ;
+	:temLegislacao :leg_1139 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_539 ;
+	:temLegislacao :leg_310 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal às beneficiárias, com vista a substituir o rendimento de trabalho perdido na situação de interrupção da gravidez medicamente certificada.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -559,13 +601,13 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_1174 ;
-	:temLegislacao :leg_1080 ;
-	:temLegislacao :leg_731 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_515 ;
-	:temLegislacao :leg_293 ;
+	:temLegislacao :leg_1236 ;
+	:temLegislacao :leg_1139 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_539 ;
+	:temLegislacao :leg_310 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal às beneficiárias, durante a gravidez, com vista a substituir o rendimento de trabalho perdido, em caso de risco clínico para a grávida ou para o nascituro.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -596,32 +638,35 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_1174 ;
-	:temLegislacao :leg_731 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_515 ;
-	:temLegislacao :leg_293 ;
+	:temLegislacao :leg_1236 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_539 ;
+	:temLegislacao :leg_310 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de subsídio às beneficiárias, puérpera e lactante que, na sua atividade profissional, desempenhe trabalho noturno ou se encontre exposta a riscos específicos que prejudiquem a sua segurança e saúde, desde que o empregador não lhe possa distribuir outras tarefas.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
 Inclui análise da situação mediante os comprovativos apresentados e decisão sobre o montante a atribuir.".
-###  http://jcr.di.uminho.pt/m51-clav#c650.10.014PN em harmonização
-:c650.10.014PN em harmonização rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#c650.10.014
+:c650.10.014 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
-	:codigo "650.10.014PN em harmonização";
+	:codigo "650.10.014";
 	:titulo "Concessão de complemento por dependência e por cônjuges a cargo";
 	:temPai :c650.10 ;
 	:classeStatus "A" ;
 	:descricao "".
-###  http://jcr.di.uminho.pt/m51-clav#c650.10.015PN em harmonização
-:c650.10.015PN em harmonização rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#c650.10.015
+:c650.10.015 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
-	:codigo "650.10.015PN em harmonização";
+	:codigo "650.10.015";
 	:titulo "Concessão de subsídios por layoff";
 	:temPai :c650.10 ;
+	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
-	:descricao "".
+	:descricao "PROPOSTA DO ISS:
+Redução temporária dos períodos normais de trabalho ou suspensão dos contratos de trabalho efetuada por iniciativa das empresas, durante um determinado tempo devido a: Motivos de mercado; Motivos estruturais ou tecnológicos; Catástrofes ou outras ocorrências que tenham afetado gravemente a atividade normal da empresa;
+Desde que tais medidas se mostrem indispensáveis para assegurar a viabilidade económica da empresa e a manutenção dos postos de trabalho.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.100_1
 :na_c650.10.100_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -657,15 +702,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:NotaAplicacao ;
 	:conteudo "Atribuição de passe social".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.100_8
-:na_c650.10.100_8 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Atribuição de materiais e manuais escolares".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.100_9
 :na_c650.10.100_9 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Bolsa de profissionalização".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.100_8
+:na_c650.10.100_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atribuição de materiais e manuais escolares".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.100_10
 :na_c650.10.100_10 rdf:type owl:NamedIndividual ,
@@ -711,13 +756,13 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c650.10.205 ;
 	:temRelProc :c650.10.300 ;
-	:temLegislacao :leg_530 ;
-	:temLegislacao :leg_804 ;
-	:temLegislacao :leg_720 ;
-	:temLegislacao :leg_830 ;
-	:temLegislacao :leg_843 ;
-	:temLegislacao :leg_876 ;
-	:temLegislacao :leg_943 ;
+	:temLegislacao :leg_555 ;
+	:temLegislacao :leg_845 ;
+	:temLegislacao :leg_755 ;
+	:temLegislacao :leg_873 ;
+	:temLegislacao :leg_887 ;
+	:temLegislacao :leg_924 ;
+	:temLegislacao :leg_995 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de apoios pecuniários ou em espécie a alunos e formandos desfavorecidos e em carência económica ou para fazer face a despesas decorrentes da frequência da formação.
 Inicia com o processamento do pedido ou com a sinalização da situação pela entidade ou com a atribuição por direito e termina com a comunicação do montante a atribuir.
@@ -807,7 +852,7 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c650.20.001 ;
-	:temLegislacao :leg_344 ;
+	:temLegislacao :leg_363 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestações pecuniárias mensais que possibilitam o acesso a um conjunto de respostas integradas de cuidados e apoio social para crianças, jovens, idosos, pessoas portadoras de deficiência e dependências.  
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -901,7 +946,7 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c450.30.500 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_243 ;
+	:temLegislacao :leg_254 ;
 	:classeStatus "A" ;
 	:descricao "Aprovação de despesa a trabalhador com doença profissional, para posterior reembolso. Esta despesa reporta-se a serviços e tratamentos, quando necessários e adequados ao restabelecimento do estado de saúde e da capacidade de trabalho e recuperação para a vida ativa.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -1020,7 +1065,7 @@ Inclui estudo e proposta de solução pelos técnicos e decisão sobre o montant
 	:temRelProc :c300.30.008 ;
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_732 ;
+	:temLegislacao :leg_768 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de ajudas técnicas como instrumentos, equipamentos ou sistemas técnicos usados por uma pessoa com deficiência, especialmente produzidos ou disponiveís, que previnem, compensam, atenuam ou neutralizam a limitação funcional ou de participação.
 Inicia com a solicitação da atribuição e termina com a comunicação da decisão.
@@ -1073,11 +1118,11 @@ Inclui análise da situação, verificação da conformidade com os requisitos e
 	:temRelProc :c300.30.008 ;
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_259 ;
-	:temLegislacao :leg_261 ;
-	:temLegislacao :leg_506 ;
-	:temLegislacao :leg_767 ;
-	:temLegislacao :leg_1172 ;
+	:temLegislacao :leg_271 ;
+	:temLegislacao :leg_274 ;
+	:temLegislacao :leg_529 ;
+	:temLegislacao :leg_805 ;
+	:temLegislacao :leg_1234 ;
 	:classeStatus "A" ;
 	:descricao "Concessão de prestação pecuniária mensal ou definição do montante de renda económica, como forma de proteção de arrendatários economicamente desfavorecidos.
 Inicia com processamento do pedido e termina com a comunicação do montante a atribuir ou da atribuição da casa de renda económica.
@@ -1105,12 +1150,17 @@ Inclui análise da situação, verificação da conformidade com os requisitos, 
 	:temRelProc :c300.30.008 ;
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_576 ;
+	:temLegislacao :leg_602 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária pelo Estado para apoio ao retorno voluntário de cidadãos estrangeiros aos países de origem ou a Estados Terceiros de acolhimento dispostos a recebê-los.
 Inicia com o requerimento e termina com a comunicação do montante a atribuir.
 Inclui análise do processo.
 ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.108_1
+:na_c650.10.108_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Falecimento".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.108_3
 :na_c650.10.108_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1120,11 +1170,6 @@ Inclui análise do processo.
 :na_c650.10.108_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Desaparecimento em campanha".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.108_1
-:na_c650.10.108_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Falecimento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.108_4
 :na_c650.10.108_4 rdf:type owl:NamedIndividual ,
@@ -1155,7 +1200,7 @@ Inclui análise do processo.
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c450.30.500 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_241 ;
+	:temLegislacao :leg_252 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal por acidente ocorrido em ocasião de serviço e em consequência do mesmo ou resultante de doença adquirida ou agravada igualmente em ocasião de serviço e em consequência do mesmo.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -1214,9 +1259,9 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_844 ;
-	:temLegislacao :leg_779 ;
-	:temLegislacao :leg_778 ;
+	:temLegislacao :leg_888 ;
+	:temLegislacao :leg_817 ;
+	:temLegislacao :leg_816 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de indemnização social atribuída, quer à vítima de violência doméstica que se encontram numa situação de grave carência económica, na sequência da rutura familiar, quer à vítima - direta ou indireta - de crime violento, desde que tenham sofrido por causa do crime uma incapacidade superior a 30 dias, tenham sofrido uma perturbação considerável do seu nível e da sua qualidade de vida, e não tenham obtido nenhum tipo de reparação em sede de execução de sentença condenatória.
 Inicia com a notificação emitida pela entidade competente para atribuição do adiantamento da indemnização termina com a atribuição da indemnização
@@ -1280,7 +1325,8 @@ Inclui instrução do pedido.".
 	:temRelProc :c450.10.643 ;
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_1224 ;
+	:temLegislacao :leg_1293 ;
+	:temLegislacao :leg_1354 ;
 	:classeStatus "A" ;
 	:descricao "Definição da percentagem de comparticipação, tendo como referência  o preço de venda ao público, de medicamento, dispositivo médico ou outras tecnologias de saúde.
 Inicia com a receção do pedido e termina com a comunicação da decisão de comparticipação ou com celebração de contrato de comparticipação.
@@ -1317,11 +1363,16 @@ Inclui, ainda, a avaliação sistemática da comparticipação.
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_213 ;
+	:temLegislacao :leg_224 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal de alimentos devida a menores.
 Inicia com a solicitação da atribuição e termina com a comunicação do montante a atribuir.
 Inclui análise da situação e verificação da conformidade com os requisitos, renovação, perante o tribunal competente, da prova de que a situação económica se mantém e de que o menor precisa da prestação para fazer face às suas necessidades e decisão sobre o montante a atribuir.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.201_1
+:na_c650.10.201_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Concessão de comparticipações para pagamento salarial pelo Fundo de Garantia Salarial".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c650.10.201_1
 :ne_c650.10.201_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -1336,6 +1387,7 @@ Inclui análise da situação e verificação da conformidade com os requisitos,
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
 	:temDono :org_ISS ;
+	:temNotaAplicacao :na_c650.10.201_1 ;
 	:temNotaExclusao :ne_c650.10.201_1 ;
 	:temRelProc :c150.10.600 ;
 	:temRelProc :c150.20.300 ;
@@ -1346,7 +1398,7 @@ Inclui análise da situação e verificação da conformidade com os requisitos,
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_1060 ;
+	:temLegislacao :leg_1118 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária que tem como objetivo assegurar o pagamento das dívidas das entidades empregadoras aos seus trabalhadores, quando aquelas não as podem pagar, por estarem em situação de insolvência ou numa situação económica difícil.
 Inicia com o pedido e termina com a comunicação do montante a atribuir.
@@ -1376,9 +1428,9 @@ Inclui análise da situação, verificação da conformidade com os requisitos e
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c650.10.204 ;
-	:temLegislacao :leg_1235 ;
-	:temLegislacao :leg_688 ;
-	:temLegislacao :leg_232 ;
+	:temLegislacao :leg_1304 ;
+	:temLegislacao :leg_720 ;
+	:temLegislacao :leg_243 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de uma prestação pecuniária mensal complementar para pessoas idosas com baixos recursos.
 Inicia com o requerimento e termina com a comunicação do montante a atribuir.
@@ -1402,7 +1454,7 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c450.30.500 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_33 ;
+	:temLegislacao :leg_34 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal, aos beneficiários em situação de incapacidade permanente para toda e qualquer profissão, que não resulte de acidente de trabalho ou de doença profissional, confirmada pelo Sistema de Verificação de Incapacidades e não se encontrem abrangidos por qualquer regime de proteção social obrigatório ou pelos transitórios dos rurais ou, estando-o, não satisfaçam os períodos de garantia definidos para acesso à pensão de invalidez.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -1436,9 +1488,9 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c650.10.202 ;
 	:temRelProc :c650.10.205 ;
 	:temRelProc :c650.10.302 ;
-	:temLegislacao :leg_33 ;
-	:temLegislacao :leg_302 ;
-	:temLegislacao :leg_1041 ;
+	:temLegislacao :leg_34 ;
+	:temLegislacao :leg_319 ;
+	:temLegislacao :leg_1098 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal, beneficiários com idade legalmente exigida que não se encontrem abrangidos por qualquer regime de proteção social obrigatório ou pelos regimes transitórios dos rurais ou, estando-o, não satisfaçam os períodos de garantia definidos para acesso à pensão.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -1473,9 +1525,9 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c650.10.100 ;
 	:temRelProc :c650.20.001 ;
 	:temRelProc :c650.20.302 ;
-	:temLegislacao :leg_1016 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_992 ;
+	:temLegislacao :leg_1074 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_1048 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal de proteção social criada para apoiar as pessoas ou famílias que se encontrem em situação de grave carência económica e em risco de exclusão social.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -1504,9 +1556,10 @@ Inclui análise da situação mediante os comprovativos apresentados, celebraç�
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
+	:temLegislacao :leg_800 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal aos candidatos a adotantes, que não estejam a contribuir para a Segurança Social ou não tenham o período de contribuições necessário para acesso ao subsídio por adoção e estejam em situação de carência económica.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -1537,8 +1590,8 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c650.10.009 ;
 	:temRelProc :c650.10.207 ;
-	:temLegislacao :leg_606 ;
-	:temLegislacao :leg_515 ;
+	:temLegislacao :leg_637 ;
+	:temLegislacao :leg_539 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal ao beneficiário desempregado, para compensar a falta de remuneração motivada pela perda involuntária de emprego, quando este não reúna as condições para receber o subsídio de desemprego ou já tenha recebido a totalidade do subsídio de desemprego a que tinha direito.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -1567,7 +1620,7 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_943 ;
+	:temLegislacao :leg_995 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal, em situação de carência económica, em caso de interrupção da gravidez medicamente certificada, que exerça atividade profissional e que se encontrem abrangidas por regime de proteção social obrigatório ou pelo regime do seguro social voluntário, cujo esquema de proteção social integre a eventualidade de maternidade, paternidade e adoção, sem direito ao subsídio por interrupção da gravidez.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -1596,9 +1649,10 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
+	:temLegislacao :leg_1337 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal, ao pai e/ou à mãe, que não trabalhem e sem contribuições na Segurança Social ou tendo não reúnem as condições para terem direito ao subsídio parental, por nascimento de filho.
 Inicia com o processamento do pedido do trabalhador e termina com a comunicação do montante a atribuir.
@@ -1627,9 +1681,10 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
+	:temLegislacao :leg_1337 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal durante a gravidez, com vista a substituir o rendimento de trabalho perdido em caso de risco clínico para a grávida ou para a criança, em situações em que a grávida, estando abrangida por regime de proteção social obrigatório ou pelo regime do seguro social voluntário, o esquema de proteção social não comtemple o direito ao subsídio por risco clínico durante a gravidez.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -1658,9 +1713,10 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
+	:temLegislacao :leg_1337 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de uma prestação monetária mensal à trabalhadora grávida, puérpera e lactante que, na sua atividade profissional, desempenhe trabalho noturno ou se encontre exposta a riscos específicos que prejudiquem a sua segurança e saúde, desde que o empregador não lhe possa distribuir outras tarefas. A trabalhadora é abrangida por regime de proteção social obrigatório ou pelo regime do seguro social voluntário, cujo esquema de proteção social integre a eventualidade de maternidade, paternidade e adoção, sem direito ao subsídio por riscos específicos.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -1715,8 +1771,8 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c650.10.100 ;
-	:temLegislacao :leg_995 ;
-	:temLegislacao :leg_843 ;
+	:temLegislacao :leg_1051 ;
+	:temLegislacao :leg_887 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal, que visa compensar os encargos familiares com o sustento e educação de crianças e jovens.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -1745,9 +1801,10 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
+	:temLegislacao :leg_1337 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária à mulher grávida a partir da 13.ª semana de gestação, que visa incentivar a maternidade através da compensação dos encargos acrescidos durante o período de gravidez.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -1789,9 +1846,10 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c650.10.204 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
+	:temLegislacao :leg_1337 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal, aos cidadãos de acordo com o quadro legal, que se encontrem em situação de dependência e que precisam da ajuda de terceira pessoa para satisfazer as necessidades básicas da vida quotidiana.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
@@ -1820,9 +1878,10 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
+	:temLegislacao :leg_1337 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de uma prestação monetária mensal, a crianças e jovens, órfãos de pessoas não abrangidas por qualquer regime de proteção social, até atingirem a maioridade ou a emancipação.
 Inicia com o requerimento e termina com a comunicação do montante a atribuir.
@@ -1852,9 +1911,10 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c400.10.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
+	:temLegislacao :leg_1337 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação monetária mensal a viúvo, viúva ou pessoa que vivia em situação de união de facto com o pensionista de pensão social falecido.
 Inicia com o requerimento e termina com a comunicação do montante a atribuir.
@@ -1883,9 +1943,10 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
+	:temLegislacao :leg_1337 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal destinada a compensar famílias com descendentes, a receber abono de família com bonificação por deficiência ou subsídio mensal vitalício, que estejam em situação de dependência e que necessitem do acompanhamento permanente de terceira pessoa.
 Inicia com o requerimento e termina com a comunicação do montante a atribuir.
@@ -1914,6 +1975,7 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
+	:temLegislacao :leg_1074 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária que visa compensar despesas de funeral, sendo atribuído pelo falecimento dos familiares do benificiário.
 Inicia com o requerimento e termina com a comunicação do montante a atribuir.
@@ -1942,12 +2004,12 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_812 ;
-	:temLegislacao :leg_811 ;
-	:temLegislacao :leg_810 ;
-	:temLegislacao :leg_35 ;
-	:temLegislacao :leg_31 ;
-	:temLegislacao :leg_187 ;
+	:temLegislacao :leg_854 ;
+	:temLegislacao :leg_853 ;
+	:temLegislacao :leg_852 ;
+	:temLegislacao :leg_37 ;
+	:temLegislacao :leg_32 ;
+	:temLegislacao :leg_195 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal destinada a compensar famílias com crianças e jovens com deficiência, dos encargos resultantes de medidas específicas de educação especial que impliquem necessariamente a frequência de estabelecimentos adequados ou o apoio educativo específico fora do estabelecimento.
 Inicia com o requerimento e termina com a comunicação do montante a atribuir.
@@ -1976,8 +2038,8 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_1016 ;
-	:temLegislacao :leg_103 ;
+	:temLegislacao :leg_1074 ;
+	:temLegislacao :leg_108 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária, paga de uma só vez aos familiares do beneficiário, que se destina a compensar o acréscimo de encargos decorrentes da morte deste, com o objetivo de facilitar a reorganização da vida familiar.
 Inicia com o requerimento e termina com a comunicação do montante a atribuir.
@@ -2006,9 +2068,10 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_943 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_731 ;
+	:temLegislacao :leg_1337 ;
+	:temLegislacao :leg_995 ;
+	:temLegislacao :leg_879 ;
+	:temLegislacao :leg_767 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária mensal destinada a compensar o acréscimo de encargos familiares dos descendentes dos beneficiários, portadores de deficiência de natureza física, orgânica, sensorial, motora ou mental, que se encontrem impossibilitados de assegurar normalmente a sua subsistência pelo exercício de atividade profissional.
 Inicia com o requerimento e termina com a comunicação do montante a atribuir.
@@ -2044,8 +2107,8 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c150.40.500 ;
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1179 ;
-	:temLegislacao :leg_113 ;
+	:temLegislacao :leg_1242 ;
+	:temLegislacao :leg_119 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária para pagamento a instituição de solidariedade social pelos serviços prestados a crianças, idosos e portadores de deficiência.
 Inicia com o requerimento e termina com a comunicação do montante a atribuir.
@@ -2080,8 +2143,8 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c150.40.500 ;
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1179 ;
-	:temLegislacao :leg_113 ;
+	:temLegislacao :leg_1242 ;
+	:temLegislacao :leg_119 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária para pagamento a instituição de solidariedade social pelos serviços prestados a crianças, idosos e portadores de deficiência.
 Inicia com o requerimento e termina com a comunicação do montante a atribuir.
@@ -2116,8 +2179,8 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:temRelProc :c150.40.500 ;
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1179 ;
-	:temLegislacao :leg_113 ;
+	:temLegislacao :leg_1242 ;
+	:temLegislacao :leg_119 ;
 	:classeStatus "A" ;
 	:descricao "Atribuição de prestação pecuniária para pagamento a instituição de solidariedade social pelos serviços prestados a crianças, idosos e portadores de deficiência.
 Inicia com o requerimento e termina com a comunicação do montante a atribuir.
@@ -2193,7 +2256,7 @@ Compreende, ainda, os processos de acesso e usufruto de equipamentos de apoio à
 	:temRelProc :c650.20.601 ;
 	:temRelProc :c650.20.602 ;
 	:temRelProc :c650.20.603 ;
-	:temLegislacao :leg_1258 ;
+	:temLegislacao :leg_1330 ;
 	:classeStatus "A" ;
 	:descricao "Reconhecimento de indivíduos ou agregados familiares em situação de pobreza,  de exclusão social,  de risco ou de violação da integridade pessoal (física, intelectual, psicológica) ou de propriedade, numa lógica de estudo e prevenção de situações de riscos sociais e posterior intervenção junto de grupos desfavorecidos e vulneráveis.
 Inicia com o pedido ou identificação da situação e termina com o encaminhamento para apoio específico ou acolhimento.
@@ -2220,8 +2283,9 @@ Inclui apresentação de comprovativos de situação, elaboração de relatório
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c650.20.001 ;
-	:temLegislacao :leg_417 ;
-	:temLegislacao :leg_287 ;
+	:temLegislacao :leg_439 ;
+	:temLegislacao :leg_305 ;
+	:temLegislacao :leg_73 ;
 	:classeStatus "A" ;
 	:descricao "Orientação concedida por um jurista a cidadãos ou entidades que não disponham de recursos económicos ou que pretendam obter informações e esclarecer dúvidas em diversas áreas do direito. 
 Inicia com o pedido e termina com a prestação do serviço. 
@@ -2267,7 +2331,7 @@ Inclui comprovativos da situação, análise do caso apresentado, estudo de solu
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c650.20.001 ;
-	:temLegislacao :leg_1071 ;
+	:temLegislacao :leg_1130 ;
 	:classeStatus "A" ;
 	:descricao "Prestação de cuidados e serviços a famílias ou pessoas que se encontrem no seu domicílio, em situação de dependência física e ou psíquica e que não possam assegurar, temporária ou permanentemente, a satisfação das suas necessidades básicas e ou a realização das atividades instrumentais da vida diária, nem disponham de apoio familiar para o efeito.
 Inicia com o pedido de apoio e termina com a prestação do serviço solicitado.
@@ -2347,24 +2411,24 @@ Inclui análise da situação, verificação do tipo de apoio necessário e disp
 	:temRelProc :c650.10.009 ;
 	:temRelProc :c650.10.205 ;
 	:temRelProc :c650.10.207 ;
-	:temLegislacao :leg_570 ;
-	:temLegislacao :leg_1276 ;
-	:temLegislacao :leg_1209 ;
-	:temLegislacao :leg_1078 ;
-	:temLegislacao :leg_1093 ;
-	:temLegislacao :leg_1181 ;
-	:temLegislacao :leg_1192 ;
-	:temLegislacao :leg_1123 ;
-	:temLegislacao :leg_889 ;
-	:temLegislacao :leg_615 ;
+	:temLegislacao :leg_595 ;
+	:temLegislacao :leg_1348 ;
+	:temLegislacao :leg_1275 ;
+	:temLegislacao :leg_1137 ;
+	:temLegislacao :leg_1152 ;
+	:temLegislacao :leg_1244 ;
+	:temLegislacao :leg_1256 ;
+	:temLegislacao :leg_1183 ;
+	:temLegislacao :leg_937 ;
+	:temLegislacao :leg_646 ;
 	:classeStatus "A" ;
 	:descricao "Ações de informação, aconselhamento e apoio que visam promover a empregabilidade.
 Inicia com a inscrição ou solicitação de apoio e termina com a satisfação da necessidade ou suspensão do processo.
 Inclui definição de perfil e auxílio para elaboração de currículos, divulgação, encaminhamento de informação e acompanhamento personalizado.".
-###  http://jcr.di.uminho.pt/m51-clav#c650.20.303PN em harmonização
-:c650.20.303PN em harmonização rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#c650.20.303
+:c650.20.303 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
-	:codigo "650.20.303PN em harmonização";
+	:codigo "650.20.303";
 	:titulo "Apoio judiciário";
 	:temPai :c650.20 ;
 	:classeStatus "A" ;
@@ -2404,9 +2468,9 @@ Inclui definição de perfil e auxílio para elaboração de currículos, divulg
 	:temRelProc :c650.20.604 ;
 	:temRelProc :c750.10.300 ;
 	:temRelProc :c750.10.602 ;
-	:temLegislacao :leg_257 ;
-	:temLegislacao :leg_1077 ;
-	:temLegislacao :leg_1258 ;
+	:temLegislacao :leg_269 ;
+	:temLegislacao :leg_1136 ;
+	:temLegislacao :leg_1330 ;
 	:classeStatus "A" ;
 	:descricao "Prestação de apoio e acompanhamento às famílias e indivíduos com dificuldades na prevenção ou resolução de problemas a nível psicossocial, nomeadamente na prevenção, e acompanhamento de potenciais situações de disfunção, ruturas ou pré-rupturas ou no contexto social e laboral.
 Inicia com o pedido do interessado ou com a identificação da necessidade por terceiros e termina com a satisfação da necessidade ou suspensão do processo, por ausência do interessado. Inclui diagnóstico de situação, definição de objetivos, incentivando o indivíduo/família à participação ativa no seu próprio processo de mudança/resolução dos seus problemas e articulação com outros serviços para evitar fragmentação das respostas e insucesso na intervenção psicossocial.".
@@ -2481,9 +2545,9 @@ Inicia com o pedido do interessado ou com a identificação da necessidade por t
 	:temRelProc :c650.20.001 ;
 	:temRelProc :c700.20.407 ;
 	:temRelProc :c710.10.300 ;
-	:temLegislacao :leg_306 ;
-	:temLegislacao :leg_374 ;
-	:temLegislacao :leg_963 ;
+	:temLegislacao :leg_323 ;
+	:temLegislacao :leg_393 ;
+	:temLegislacao :leg_1017 ;
 	:classeStatus "A" ;
 	:descricao "Desenvolvimento de ações conducentes a garantir as condições higiossanitárias e de alimentação a pessoas e a animais institucionalizados. 
 Inicia com a identificação da necessidade ou com o pedido e termina com a prestação do cuidado alimentar ou de higiene. 
@@ -2586,7 +2650,7 @@ Inclui a análise do pedido, o agendamento dos serviços e a resposta ao requere
 	:temRelProc :c650.20.304 ;
 	:temRelProc :c650.20.601 ;
 	:temRelProc :c650.20.604 ;
-	:temLegislacao :leg_257 ;
+	:temLegislacao :leg_269 ;
 	:classeStatus "A" ;
 	:descricao "Abrigo de pessoas sob medida de proteção ou em situação de risco pessoal e social.
 Inicia com a identificação da necessidade de acolhimento imediato e termina com a integração em meio natural de vida ou encaminhamento para instituição de acolhimento.
@@ -2723,8 +2787,8 @@ Inclui seleção e articulação da admissão, formalização da receção do in
 	:temRelProc :c650.20.304 ;
 	:temRelProc :c650.20.600 ;
 	:temRelProc :c650.20.604 ;
-	:temLegislacao :leg_1258 ;
-	:temLegislacao :leg_257 ;
+	:temLegislacao :leg_1330 ;
+	:temLegislacao :leg_269 ;
 	:classeStatus "A" ;
 	:descricao "Institucionalização em respostas sociais de acolhimento.
 Inicia com a formalização do pedido de admissão e termina com a saída do individuo da resposta de acolhimento.  
@@ -2787,7 +2851,7 @@ Inclui candidatura e seleção, nas situações que o prevejam,  acolhimento e i
 	:temRelProc :c650.20.304 ;
 	:temRelProc :c650.20.603 ;
 	:temRelProc :c650.20.604 ;
-	:temLegislacao :leg_999 ;
+	:temLegislacao :leg_1055 ;
 	:classeStatus "A" ;
 	:descricao "Admissão a equipamentos de caráter social que visam satisfazer as necessidades básicas quotidianas e melhorar a vida das populações.
 Inicia com o pedido de acesso ao equipamento e termina com a recusa ou satisfação da necessidade.
@@ -2838,7 +2902,7 @@ Inclui verificação da situação económica e da existência de equipamentos a
 	:temRelProc :c650.20.304 ;
 	:temRelProc :c650.20.602 ;
 	:temRelProc :c650.20.604 ;
-	:temLegislacao :leg_999 ;
+	:temLegislacao :leg_1055 ;
 	:classeStatus "A" ;
 	:descricao "Desenvolvimento de atividades que proporcionam a fruição do equipamento.
 Inicia com a programação da atividade e termina com o seu cumprimento.

@@ -1,4 +1,9 @@
 ### Classe800
+###  http://jcr.di.uminho.pt/m51-clav#na_c800_1
+:na_c800_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Aplicável tanto às entidades que prestam os serviços referidos como aos que solicitam a prestação dos mesmos.".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c800_1
 :ne_c800_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -14,11 +19,6 @@
 	:temNotaExclusao :ne_c800_1 ;
 	:classeStatus "A" ;
 	:descricao "Relativo a atividades de investigação científica em qualquer domínio do conhecimento, a atividades de desenvolvimento técnico e tecnológico, de transferência de tecnologia e inovação, bem como a outras atividades que utilizam métodos científicos para a produção de conhecimento ou resolução de problemas.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800_1
-:na_c800_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Aplicável tanto às entidades que prestam os serviços referidos como aos que solicitam a prestação dos mesmos.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10_1
 :na_c800.10_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -45,15 +45,15 @@ Compreende também o levantamento de dados e constituição de repositórios ou 
 	:NotaAplicacao ;
 	:conteudo "Produção de cartografia de base (topográfica e topográfica de imagem, vulgarmente conhecida por ortofotomapas)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.001_2
-:na_c800.10.001_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Produção de cartografia hidrográfica".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.001_3
 :na_c800.10.001_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Produção de cartografia temática".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.001_2
+:na_c800.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Produção de cartografia hidrográfica".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.001_4
 :na_c800.10.001_4 rdf:type owl:NamedIndividual ,
@@ -86,10 +86,10 @@ Compreende também o levantamento de dados e constituição de repositórios ou 
 	:temRelProc :c710.10.005 ;
 	:temRelProc :c800.10.002 ;
 	:temRelProc :c800.10.302 ;
-	:temLegislacao :leg_713 ;
-	:temLegislacao :leg_820 ;
-	:temLegislacao :leg_543 ;
-	:temLegislacao :leg_154 ;
+	:temLegislacao :leg_748 ;
+	:temLegislacao :leg_862 ;
+	:temLegislacao :leg_568 ;
+	:temLegislacao :leg_160 ;
 	:classeStatus "A" ;
 	:descricao "Aquisição e processamento de informação geográfica e alfanumérica.
 Inicia com recolha de informação geodésica, topográfica e fotogramétrica e de informação temática, organizada ou não sob a forma de bases de dados digitais, e termina com a obtenção de cartografia de base, de cartografia temática e de conjuntos de dados geográficos, de acordo com as solicitações dos utilizadores
@@ -136,8 +136,8 @@ Inclui execução de levantamentos diretos com base em GNSS e Topografia, levant
 	:temNotaAplicacao :na_c800.10.002_5 ;
 	:temRelProc :c150.10.600 ;
 	:temRelProc :c800.10.001 ;
-	:temLegislacao :leg_1227 ;
-	:temLegislacao :leg_1286 ;
+	:temLegislacao :leg_1296 ;
+	:temLegislacao :leg_1359 ;
 	:classeStatus "A" ;
 	:descricao "Levantamento e processamento de dados geodésicos para constituição de repositórios de dados, com vista à determinação de sistemas geográficos de referência, data altimétricos e planimétricos e parâmetros de transformação. Processo essencial de suporte a toda a produção de cartografia de base. 
 Inicia com a aquisição de dados e termina com a produção da informação. 
@@ -226,19 +226,19 @@ Inclui levantamentos geodésicos no local, monitorização/aferição de equipam
 	:temRelProc :c700.20.100 ;
 	:temRelProc :c710.10.600 ;
 	:temRelProc :c800.10.601 ;
-	:temLegislacao :leg_1092 ;
-	:temLegislacao :leg_1032 ;
-	:temLegislacao :leg_776 ;
-	:temLegislacao :leg_817 ;
-	:temLegislacao :leg_635 ;
-	:temLegislacao :leg_603 ;
-	:temLegislacao :leg_478 ;
-	:temLegislacao :leg_479 ;
-	:temLegislacao :leg_440 ;
-	:temLegislacao :leg_434 ;
-	:temLegislacao :leg_762 ;
-	:temLegislacao :leg_106 ;
-	:temLegislacao :leg_60 ;
+	:temLegislacao :leg_1151 ;
+	:temLegislacao :leg_1089 ;
+	:temLegislacao :leg_814 ;
+	:temLegislacao :leg_859 ;
+	:temLegislacao :leg_666 ;
+	:temLegislacao :leg_633 ;
+	:temLegislacao :leg_501 ;
+	:temLegislacao :leg_502 ;
+	:temLegislacao :leg_463 ;
+	:temLegislacao :leg_457 ;
+	:temLegislacao :leg_800 ;
+	:temLegislacao :leg_111 ;
+	:temLegislacao :leg_62 ;
 	:classeStatus "A" ;
 	:descricao "Recolha contínua ou pontual de informação ou dados, quantitativos ou qualitativos, de modo a garantir o controlo ambiental tendo por base valores de referência.
 Inicia com a observação ou medição de informação e termina com a identificação de fatores críticos ou a validação de agentes padrão.
@@ -259,15 +259,15 @@ Inclui registo de valores.
 	:NotaAplicacao ;
 	:conteudo "Monitorização microbiológica das areias".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_5
-:na_c800.10.301_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Monitorização de índices de poluição do solo".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_4
 :na_c800.10.301_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Monitorização de índices de qualidade do ar".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_5
+:na_c800.10.301_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Monitorização de índices de poluição do solo".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_6
 :na_c800.10.301_6 rdf:type owl:NamedIndividual ,
@@ -366,30 +366,31 @@ Inclui registo de valores.
 	:temRelProc :c550.20.002 ;
 	:temRelProc :c800.10.601 ;
 	:temRelProc :c800.10.602 ;
-	:temLegislacao :leg_1159 ;
-	:temLegislacao :leg_1035 ;
-	:temLegislacao :leg_1023 ;
-	:temLegislacao :leg_839 ;
-	:temLegislacao :leg_800 ;
-	:temLegislacao :leg_799 ;
-	:temLegislacao :leg_651 ;
-	:temLegislacao :leg_552 ;
-	:temLegislacao :leg_544 ;
-	:temLegislacao :leg_533 ;
-	:temLegislacao :leg_500 ;
-	:temLegislacao :leg_489 ;
-	:temLegislacao :leg_495 ;
-	:temLegislacao :leg_462 ;
-	:temLegislacao :leg_456 ;
-	:temLegislacao :leg_425 ;
-	:temLegislacao :leg_401 ;
-	:temLegislacao :leg_372 ;
-	:temLegislacao :leg_367 ;
-	:temLegislacao :leg_365 ;
-	:temLegislacao :leg_328 ;
-	:temLegislacao :leg_303 ;
-	:temLegislacao :leg_234 ;
-	:temLegislacao :leg_128 ;
+	:temLegislacao :leg_1220 ;
+	:temLegislacao :leg_1092 ;
+	:temLegislacao :leg_1080 ;
+	:temLegislacao :leg_883 ;
+	:temLegislacao :leg_841 ;
+	:temLegislacao :leg_840 ;
+	:temLegislacao :leg_682 ;
+	:temLegislacao :leg_577 ;
+	:temLegislacao :leg_569 ;
+	:temLegislacao :leg_558 ;
+	:temLegislacao :leg_523 ;
+	:temLegislacao :leg_513 ;
+	:temLegislacao :leg_518 ;
+	:temLegislacao :leg_485 ;
+	:temLegislacao :leg_479 ;
+	:temLegislacao :leg_448 ;
+	:temLegislacao :leg_423 ;
+	:temLegislacao :leg_404 ;
+	:temLegislacao :leg_391 ;
+	:temLegislacao :leg_386 ;
+	:temLegislacao :leg_384 ;
+	:temLegislacao :leg_346 ;
+	:temLegislacao :leg_320 ;
+	:temLegislacao :leg_245 ;
+	:temLegislacao :leg_134 ;
 	:classeStatus "A" ;
 	:descricao "Recolha  contínua ou pontual de informação sobre níveis de ruído, da qualidade da água, do ar e de  toxicidade do solo.
 Inicia com a verificação  de acordo com um plano de monitorização previamente estabelecido e termina com o relatório de apuramento de valores e sua comparação com os indicadores de referência.
@@ -506,15 +507,15 @@ Inclui a identificação das fontes de emissão, do tipo poluentes e a evoluçã
 	:temRelProc :c800.20.002 ;
 	:temRelProc :c800.20.500 ;
 	:temRelProc :c850.10.003 ;
-	:temLegislacao :leg_1234 ;
-	:temLegislacao :leg_1219 ;
-	:temLegislacao :leg_1153 ;
-	:temLegislacao :leg_1205 ;
-	:temLegislacao :leg_955 ;
-	:temLegislacao :leg_560 ;
-	:temLegislacao :leg_494 ;
-	:temLegislacao :leg_221 ;
-	:temLegislacao :leg_171 ;
+	:temLegislacao :leg_1303 ;
+	:temLegislacao :leg_1287 ;
+	:temLegislacao :leg_1214 ;
+	:temLegislacao :leg_1270 ;
+	:temLegislacao :leg_1008 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_517 ;
+	:temLegislacao :leg_232 ;
+	:temLegislacao :leg_178 ;
 	:classeStatus "A" ;
 	:descricao "Recolha sistemática ou pontual de dados sobre recursos zoológicos, marinhos, minerais e botânicos, por forma a controlar os respetivos níveis de perenidade e sustentabilidade.
 Inicia com a verificação ou medição de dados e termina com a emissão de relatórios.
@@ -550,9 +551,9 @@ Inclui registo de dados recolhidos.".
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c550.20.001 ;
 	:temRelProc :c800.10.601 ;
-	:temLegislacao :leg_1152 ;
-	:temLegislacao :leg_477 ;
-	:temLegislacao :leg_456 ;
+	:temLegislacao :leg_1213 ;
+	:temLegislacao :leg_500 ;
+	:temLegislacao :leg_479 ;
 	:classeStatus "A" ;
 	:descricao "Recolha contínua, pontual ou aleatória de informação ou dados, quantitativos ou qualitativos, de modo a identificar ocorrências anómalas através da constante comparação entre os valores de referência e as medidas apuradas.
 Inicia com a verificação ou medição de dados e termina com o reconhecimento de valores críticos ou a validação de dados indicadores ou obrigatórios.
@@ -616,7 +617,7 @@ Inclui medição de pressão de água, medição de caudais de água, medição 
 	:temRelProc :c550.10.307 ;
 	:temRelProc :c550.20.001 ;
 	:temRelProc :c800.10.606 ;
-	:temLegislacao :leg_1002 ;
+	:temLegislacao :leg_1058 ;
 	:classeStatus "A" ;
 	:descricao "Deteção, registo e avaliação das reações adversas, com o objectivo de determinar a incidência, gravidade e nexo de causalidade com os medicamentos, baseadas no estudo sistemático e multidisciplinar dos efeitos dos medicamentos.
 Inicia com a comunicação de reações adversas ou com a recolha sistemática de informações sobre os riscos de medicamentos para os doentes ou para a saúde pública e termina com a comunicação da proposta de medida de segurança ou regulamentar.  
@@ -661,7 +662,7 @@ Inclui avaliação científica, ponderação das medidas de segurança adequadas
 	:temRelProc :c450.10.073 ;
 	:temRelProc :c550.20.001 ;
 	:temRelProc :c800.10.600 ;
-	:temLegislacao :leg_1155 ;
+	:temLegislacao :leg_1216 ;
 	:classeStatus "A" ;
 	:descricao "Verificação da segurança na utilização experimental de medicamentos, de forma a permitir a avaliação permanente da relação benefício-risco em que se baseou a autorização dos ensaios clínicos em curso.
 Inicia com o processamento das notificações de realização do ensaio clínico e termina com a informação de conclusão do ensaio ou com a comunicação da suspensão.
@@ -679,7 +680,11 @@ Inclui análise e avaliação de toda a informação com potencial impacto na re
 	:titulo "Monitorização da segurança de produtos de saúde";
 	:temPai :c800.10 ;
 	:processoTipo "PE" ;
-	:processoTransversal "N" ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_DGS ;
+	:temParticipanteComunicador :org_IGAS ;
+	:temParticipanteComunicador :org_ERS ;
+	:temParticipanteComunicador :org_HH ;
 	:temDono :org_INFARMED ;
 	:temNotaAplicacao :na_c800.10.306_1 ;
 	:temRelProc :c300.30.008 ;
@@ -689,7 +694,7 @@ Inclui análise e avaliação de toda a informação com potencial impacto na re
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c550.10.307 ;
 	:temRelProc :c550.20.001 ;
-	:temLegislacao :leg_737 ;
+	:temLegislacao :leg_775 ;
 	:classeStatus "A" ;
 	:descricao "Deteção, registo, avaliação e prevenção de incidentes com dispositivos médicos e dos efeitos indesejáveis em produtos cosméticos ou quaisquer outros problemas associados a produtos de saúde tendo em vista a salvaguarda da saúde pública.
 Inicia com a comunicação e recolha de informação sobre
@@ -723,8 +728,8 @@ Inclui análise e avaliação de toda a informação recolhida, a ponderação d
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c700.20.100 ;
 	:temRelProc :c800.10.305 ;
-	:temLegislacao :leg_1155 ;
-	:temLegislacao :leg_1204 ;
+	:temLegislacao :leg_1216 ;
+	:temLegislacao :leg_1269 ;
 	:classeStatus "A" ;
 	:descricao "Exames realizados no ser humano, destinados a descobrir ou a verificar os efeitos clínicos, farmacológicos ou outros efeitos farmacodinâmicos de medicamentos experimentais, ou a identificar os seus efeitos indesejáveis ou ainda a analisar a absorção, a distribuição, o metabolismo e a eliminação de um ou mais medicamentos experimentais, a fim de apurar a respetiva segurança ou eficácia.
 Inicia com a preparação do estudo para realizar o ensaio clínico e termina com a finalização do estudo.
@@ -778,11 +783,12 @@ Incluí todos os atos necessários à conclusão do estudo.
 	:temRelProc :c800.10.302 ;
 	:temRelProc :c800.10.303 ;
 	:temRelProc :c800.10.610 ;
-	:temLegislacao :leg_1275 ;
-	:temLegislacao :leg_736 ;
-	:temLegislacao :leg_554 ;
-	:temLegislacao :leg_196 ;
-	:temLegislacao :leg_460 ;
+	:temLegislacao :leg_1347 ;
+	:temLegislacao :leg_773 ;
+	:temLegislacao :leg_579 ;
+	:temLegislacao :leg_204 ;
+	:temLegislacao :leg_182 ;
+	:temLegislacao :leg_483 ;
 	:classeStatus "A" ;
 	:descricao "Exames que avaliam, diagnosticam ou confirmam a qualidade e/ou a composição de determinados constituintes ou amostras em matrizes diferentes.
 Inicia por solicitação da entidade responsável pela análise e termina com a divulgação do boletim analítico.
@@ -896,6 +902,7 @@ Inclui a recolha de dados, aferição e análise de características da populaç
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_AP ;
+	:temDono :org_ECP ;
 	:temNotaAplicacao :na_c800.10.603_1 ;
 	:temNotaAplicacao :na_c800.10.603_2 ;
 	:temNotaExclusao :ne_c800.10.603_1 ;
@@ -918,26 +925,29 @@ Inclui a recolha de dados, aferição e análise de características da populaç
 	:temRelProc :c710.20.300 ;
 	:temRelProc :c800.10.609 ;
 	:temRelProc :c800.10.610 ;
-	:temLegislacao :leg_1239 ;
-	:temLegislacao :leg_1054 ;
-	:temLegislacao :leg_1070 ;
-	:temLegislacao :leg_912 ;
+	:temLegislacao :leg_1308 ;
+	:temLegislacao :leg_1111 ;
+	:temLegislacao :leg_1128 ;
+	:temLegislacao :leg_963 ;
+	:temLegislacao :leg_800 ;
+	:temLegislacao :leg_704 ;
+	:temLegislacao :leg_692 ;
+	:temLegislacao :leg_599 ;
+	:temLegislacao :leg_443 ;
+	:temLegislacao :leg_397 ;
 	:temLegislacao :leg_762 ;
-	:temLegislacao :leg_671 ;
-	:temLegislacao :leg_661 ;
-	:temLegislacao :leg_573 ;
-	:temLegislacao :leg_421 ;
-	:temLegislacao :leg_727 ;
-	:temLegislacao :leg_563 ;
-	:temLegislacao :leg_237 ;
-	:temLegislacao :leg_260 ;
-	:temLegislacao :leg_257 ;
-	:temLegislacao :leg_149 ;
-	:temLegislacao :leg_134 ;
-	:temLegislacao :leg_122 ;
-	:temLegislacao :leg_67 ;
-	:temLegislacao :leg_460 ;
-	:temLegislacao :leg_1007 ;
+	:temLegislacao :leg_588 ;
+	:temLegislacao :leg_248 ;
+	:temLegislacao :leg_273 ;
+	:temLegislacao :leg_269 ;
+	:temLegislacao :leg_155 ;
+	:temLegislacao :leg_140 ;
+	:temLegislacao :leg_128 ;
+	:temLegislacao :leg_70 ;
+	:temLegislacao :leg_2 ;
+	:temLegislacao :leg_483 ;
+	:temLegislacao :leg_1063 ;
+	:temLegislacao :leg_1177 ;
 	:classeStatus "A" ;
 	:descricao "Atividade realizada por profissional especialista dotado de especiais conhecimentos técnicos, científicos ou artísticos com vista à descrição, interpretação e obtenção de conclusões com eventual valor probatório.
 Inicia com um pedido e termina com a produção do relatório final.
@@ -1007,12 +1017,13 @@ Inclui a pesquisa, a recolha, o tratamento, o acondicionamento, a selagem, a rec
 	:temRelProc :c800.20.001 ;
 	:temRelProc :c900.10.001 ;
 	:temRelProc :c900.20.201 ;
-	:temLegislacao :leg_1250 ;
-	:temLegislacao :leg_219 ;
-	:temLegislacao :leg_156 ;
-	:temLegislacao :leg_112 ;
-	:temLegislacao :leg_55 ;
-	:temLegislacao :leg_17 ;
+	:temLegislacao :leg_1320 ;
+	:temLegislacao :leg_230 ;
+	:temLegislacao :leg_162 ;
+	:temLegislacao :leg_220 ;
+	:temLegislacao :leg_118 ;
+	:temLegislacao :leg_57 ;
+	:temLegislacao :leg_18 ;
 	:classeStatus "A" ;
 	:descricao "Transposição de conteúdos de uma língua para outra. Interpretação do significado de um texto em determinada língua (fonte original) para produção de um novo texto, fiel ao original, noutra língua.
 Inicia com um pedido ou por inicativa de uma entidade e termina com a entrega do trabalho.
@@ -1022,15 +1033,15 @@ Inclui os estudos de contextualização histórica, técnica e estilística do a
 	:NotaAplicacao ;
 	:conteudo "Arranjo musical de uma obra, para um instrumento para o qual não foi originalmente escrita".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_3
-:na_c800.10.605_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Transcrição fonética".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_2
 :na_c800.10.605_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Transcrição de documentos, indepentemente do suporte e antiguidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_3
+:na_c800.10.605_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Transcrição fonética".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.605_1
 :ne_c800.10.605_1 rdf:type owl:NamedIndividual ,
@@ -1074,10 +1085,10 @@ Inclui os estudos de contextualização histórica, técnica e estilística do a
 	:temRelProc :c800.20.001 ;
 	:temRelProc :c900.10.001 ;
 	:temRelProc :c900.20.201 ;
-	:temLegislacao :leg_719 ;
-	:temLegislacao :leg_67 ;
-	:temLegislacao :leg_63 ;
-	:temLegislacao :leg_55 ;
+	:temLegislacao :leg_754 ;
+	:temLegislacao :leg_70 ;
+	:temLegislacao :leg_65 ;
+	:temLegislacao :leg_57 ;
 	:classeStatus "A" ;
 	:descricao "Representação ou reprodução gráfica de conteúdos preexistentes (sons, textos, informação genética, etc.) em novo contexto, com vista a torná-los acessíveis e utilizáveis.
 Inicia com  um pedido e termina com a entrega do trabalho.
@@ -1152,8 +1163,8 @@ Inclui a interpretação dos dados e a sua reprodução.".
 	:temRelProc :c500.10.301 ;
 	:temRelProc :c550.10.307 ;
 	:temRelProc :c800.10.304 ;
-	:temLegislacao :leg_491 ;
-	:temLegislacao :leg_834 ;
+	:temLegislacao :leg_515 ;
+	:temLegislacao :leg_878 ;
 	:classeStatus "A" ;
 	:descricao "Acompanhamento de rutura de stocks de medicamentos, ainda que meramente transitórias, de fabrico e ou fornecimento de um medicamento, bem como qualquer perturbação ao normal abastecimento do mercado, nos casos, termos, forma e prazo fixados pela Autoridade Competente.
 Inicia com a notificação da rutura na plataforma GAM - Gestão de Acessibilidade ao Medicamento, pelo titular da autorização e termina com a proposta de minimização do impacto.
@@ -1214,7 +1225,7 @@ As medidas de minimização do impacto podem consistir numa alteração regulame
 	:temRelProc :c700.20.100 ;
 	:temRelProc :c800.10.608 ;
 	:temRelProc :c800.20.002 ;
-	:temLegislacao :leg_1124 ;
+	:temLegislacao :leg_1185 ;
 	:classeStatus "A" ;
 	:descricao "Ações que visam contribuir para o conhecimento da saúde e doenças da população, os fatores que as influenciam, a decisão e a intervenção em Saúde Pública, assim como a avaliação do seu impacto na população portuguesa.
 Inicia com a identificação de necessidade para realizar a ação ou estudo e termina com a elaboração do relatório ou estudo final.
@@ -1267,8 +1278,8 @@ Inclui diagnóstico de necessidade de investigação, os estudos, a monitorizaç
 	:temRelProc :c800.10.607 ;
 	:temRelProc :c800.20.001 ;
 	:temRelProc :c800.20.002 ;
-	:temLegislacao :leg_449 ;
-	:temLegislacao :leg_661 ;
+	:temLegislacao :leg_472 ;
+	:temLegislacao :leg_692 ;
 	:classeStatus "A" ;
 	:descricao "Constituição de bancos de produtos biológicos ou qualquer repositório de amostras biológicas ou seus derivados, com ou sem tempo delimitado de armazenamento e que inclua amostras que sejam identificadas, identificáveis, anonimizadas ou anónimas.
 Inicia com a colheita prospetiva ou material previamente colhido e termina com a sua inclusão no banco de produtos.
@@ -1331,7 +1342,7 @@ Incluí a investigação desenvolvida.
 	:titulo "Realização de técnicas de conservação artificial";
 	:temPai :c800.10 ;
 	:processoTipo "PE" ;
-	:processoTransversal "N" ;
+	:processoTransversal "S" ;
 	:temDono :org_INMLCF ;
 	:temDono :org_IES ;
 	:temDono :org_Museus ;
@@ -1355,14 +1366,19 @@ Incluí a investigação desenvolvida.
 	:temRelProc :c800.10.603 ;
 	:temRelProc :c800.20.002 ;
 	:temRelProc :c800.20.500 ;
-	:temLegislacao :leg_1070 ;
-	:temLegislacao :leg_433 ;
-	:temLegislacao :leg_743 ;
-	:temLegislacao :leg_1291 ;
+	:temLegislacao :leg_1128 ;
+	:temLegislacao :leg_456 ;
+	:temLegislacao :leg_781 ;
+	:temLegislacao :leg_1365 ;
 	:classeStatus "A" ;
 	:descricao "Utilização de técnicas específicas de conservação de células, órgãos ou cadáveres de seres humanos, animais ou vegetais para fins de ensino, investigação ou tratamento.
 Inicia com a solicitação ou a determinação do ato de preservação e termina com o atestado de criopreservação, embalsamamento ou com a preparação da peça anatómica para fins científicos, pedagógicos ou museológicos.
 ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_1
+:na_c800.10.610_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Sistema Internacional de Unidades".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_2
 :na_c800.10.610_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1372,11 +1388,6 @@ Inicia com a solicitação ou a determinação do ato de preservação e termina
 :na_c800.10.610_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo " Grandezas derivadas do Sistema Internacional de Unidades (área, volume, velocidade, aceleração, força, pressão, energia, potencia)".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_1
-:na_c800.10.610_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Sistema Internacional de Unidades".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_4
 :na_c800.10.610_4 rdf:type owl:NamedIndividual ,
@@ -1435,9 +1446,9 @@ Inicia com a solicitação ou a determinação do ato de preservação e termina
 	:temRelProc :c800.10.603 ;
 	:temRelProc :c800.20.001 ;
 	:temRelProc :c800.20.002 ;
-	:temLegislacao :leg_496 ;
-	:temLegislacao :leg_126 ;
-	:temLegislacao :leg_92 ;
+	:temLegislacao :leg_519 ;
+	:temLegislacao :leg_132 ;
+	:temLegislacao :leg_97 ;
 	:classeStatus "A" ;
 	:descricao "Definição das grandezas físicas fundamentais (ou de base), das unidades derivadas e das unidades suplementares, de modo a assegurar a comparabilidade, a rastreabilidade e a manutenção dos padrões de medida. 
 Inicia com a identificação da necessidade, ou na sequência de planeamento e termina com a divulgação das unidades padrão. 
@@ -1508,15 +1519,15 @@ Inclui identificação das constantes físicas fundamentais, realização, manut
 	:NotaAplicacao ;
 	:conteudo "Estudos de fenómenos sociais".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_6
-:na_c800.20.001_6 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo " Produção de novos modelos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_5
 :na_c800.20.001_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo " Produção de novas leis científicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_6
+:na_c800.20.001_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Produção de novos modelos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_7
 :na_c800.20.001_7 rdf:type owl:NamedIndividual ,
@@ -1573,16 +1584,19 @@ Inclui identificação das constantes físicas fundamentais, realização, manut
 	:temRelProc :c900.10.501 ;
 	:temRelProc :c900.20.201 ;
 	:temRelProc :c800.10.610 ;
-	:temLegislacao :leg_1031 ;
-	:temLegislacao :leg_741 ;
-	:temLegislacao :leg_740 ;
-	:temLegislacao :leg_773 ;
-	:temLegislacao :leg_475 ;
-	:temLegislacao :leg_258 ;
-	:temLegislacao :leg_224 ;
-	:temLegislacao :leg_65 ;
-	:temLegislacao :leg_36 ;
-	:temLegislacao :leg_26 ;
+	:temLegislacao :leg_1088 ;
+	:temLegislacao :leg_897 ;
+	:temLegislacao :leg_896 ;
+	:temLegislacao :leg_779 ;
+	:temLegislacao :leg_778 ;
+	:temLegislacao :leg_811 ;
+	:temLegislacao :leg_498 ;
+	:temLegislacao :leg_270 ;
+	:temLegislacao :leg_235 ;
+	:temLegislacao :leg_74 ;
+	:temLegislacao :leg_68 ;
+	:temLegislacao :leg_38 ;
+	:temLegislacao :leg_27 ;
 	:classeStatus "A" ;
 	:descricao "Contempla um processo de pesquisa vocacionado para responder a hipóteses de investigação a fim de produzir conhecimento original puro ou orientado a uma estratégia, identificada na sequência do conhecimento puro.
 Criação de um processo de pesquisa orientado para a obtenção de conhecimentos fundamentais para um produto ou objetivo prático específico. 
@@ -1667,9 +1681,9 @@ Inclui apresentação de relatórios de progresso e final.".
 	:temRelProc :c850.10.601 ;
 	:temRelProc :c900.10.501 ;
 	:temRelProc :c800.10.610 ;
-	:temLegislacao :leg_954 ;
-	:temLegislacao :leg_741 ;
-	:temLegislacao :leg_225 ;
+	:temLegislacao :leg_1007 ;
+	:temLegislacao :leg_779 ;
+	:temLegislacao :leg_236 ;
 	:classeStatus "A" ;
 	:descricao "Otimização de um produto ou de um objetivo prático específico, anteriormente estudado, assente nos pressupostos teóricos da investigação básica. 
 Inicia com a seleção de um objeto de investigação e termina com a divulgação do resultado.
@@ -1769,9 +1783,9 @@ Inclui apresentação de relatórios de progresso e final.".
 	:temRelProc :c850.10.600 ;
 	:temRelProc :c850.10.601 ;
 	:temRelProc :c900.10.501 ;
-	:temLegislacao :leg_954 ;
-	:temLegislacao :leg_741 ;
-	:temLegislacao :leg_225 ;
+	:temLegislacao :leg_1007 ;
+	:temLegislacao :leg_779 ;
+	:temLegislacao :leg_236 ;
 	:classeStatus "A" ;
 	:descricao "Replicação do conhecimento obtido na investigação realizada e na experiência prática (prova de conceito), visando melhorar substancialmente ou desenvolver produtos, modelos, programas, métodos, procedimentos e serviços, novos ou existentes.
 Inicia com a apresentação de um projeto de desenvolvimento e termina com a conclusão do desenvolvimento.

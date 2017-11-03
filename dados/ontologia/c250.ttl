@@ -90,7 +90,7 @@ Compreende, ainda, os procedimentos de cessação da relação de trabalho, inde
 	:temRelProc :c150.20.300 ;
 	:temRelProc :c150.40.500 ;
 	:temRelProc :c300.30.008 ;
-	:temLegislacao :leg_1211 ;
+	:temLegislacao :leg_1279 ;
 	:classeStatus "A" ;
 	:descricao "Análise de candidaturas a trabalho na Administração, fora do âmbito de um procedimento concursal.
 Inicia com receção da candidatura e termina com resposta ao candidato.
@@ -139,12 +139,12 @@ Inclui avaliação ao curriculo do candidato e verificação da eventual necessi
 	:temRelProc :c300.30.008 ;
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c500.40.500 ;
-	:temLegislacao :leg_931 ;
-	:temLegislacao :leg_900 ;
-	:temLegislacao :leg_904 ;
-	:temLegislacao :leg_537 ;
-	:temLegislacao :leg_512 ;
-	:temLegislacao :leg_393 ;
+	:temLegislacao :leg_982 ;
+	:temLegislacao :leg_951 ;
+	:temLegislacao :leg_955 ;
+	:temLegislacao :leg_562 ;
+	:temLegislacao :leg_536 ;
+	:temLegislacao :leg_415 ;
 	:classeStatus "A" ;
 	:descricao "Seleção de candidatos para satisfação de necessidades de recrutamento de cargos de direção superior e intermédia.
 Inicia com a proposta de abertura de concurso e termina com a indicação do nome do(s) candidato(s) selecionado(s9 ou com a proposta de designação.
@@ -187,14 +187,15 @@ Inclui definição dos requisitos de candidatura e métodos de seleção, elabor
 	:temRelProc :c250.20.605 ;
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c500.40.500 ;
-	:temLegislacao :leg_1162 ;
-	:temLegislacao :leg_910 ;
-	:temLegislacao :leg_741 ;
-	:temLegislacao :leg_786 ;
-	:temLegislacao :leg_740 ;
-	:temLegislacao :leg_512 ;
-	:temLegislacao :leg_297 ;
-	:temLegislacao :leg_295 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_961 ;
+	:temLegislacao :leg_896 ;
+	:temLegislacao :leg_779 ;
+	:temLegislacao :leg_824 ;
+	:temLegislacao :leg_778 ;
+	:temLegislacao :leg_536 ;
+	:temLegislacao :leg_314 ;
+	:temLegislacao :leg_312 ;
 	:classeStatus "A" ;
 	:descricao "Seleção de candidatos para ocupação imediata de posto de trabalho ou para constituição de reservas de recrutamento previstas no quadro ou mapa de pessoal e para mudança de nível.
 Inicia com a proposta de abertura de concurso devidamente cabimentada e respetivo despacho ou procedimento interno de recrutamento e termina com a homologação da lista de classificação final ou indicação do nome dos candidatos selecionados.
@@ -256,19 +257,19 @@ Inclui definição dos requisitos de candidatura e métodos de seleção, elabor
 	:temRelProc :c500.40.001 ;
 	:temRelProc :c650.20.302 ;
 	:temRelProc :c850.10.003 ;
-	:temLegislacao :leg_957 ;
+	:temLegislacao :leg_1010 ;
+	:temLegislacao :leg_1244 ;
+	:temLegislacao :leg_1245 ;
+	:temLegislacao :leg_1256 ;
+	:temLegislacao :leg_1183 ;
 	:temLegislacao :leg_1181 ;
-	:temLegislacao :leg_1182 ;
-	:temLegislacao :leg_1192 ;
-	:temLegislacao :leg_1123 ;
-	:temLegislacao :leg_1121 ;
-	:temLegislacao :leg_1094 ;
-	:temLegislacao :leg_1093 ;
-	:temLegislacao :leg_1078 ;
-	:temLegislacao :leg_911 ;
-	:temLegislacao :leg_859 ;
-	:temLegislacao :leg_831 ;
-	:temLegislacao :leg_787 ;
+	:temLegislacao :leg_1153 ;
+	:temLegislacao :leg_1152 ;
+	:temLegislacao :leg_1137 ;
+	:temLegislacao :leg_962 ;
+	:temLegislacao :leg_906 ;
+	:temLegislacao :leg_875 ;
+	:temLegislacao :leg_825 ;
 	:classeStatus "A" ;
 	:descricao "Aplicação de critérios para escolha de candidatos a estágios que proporcionam uma experiência prática e formativa em contexto real de trabalho.
 Inicia com a definição e publicação do período para apresentação de candidaturas e termina com a comunicação da seleção dos candidatos.
@@ -324,11 +325,6 @@ Inclui formalização da candidatura por parte do interessado, recrutamento e se
 	:NotaExclusao ;
 	:conteudo "O ato eleitoral por sufrágio universal deve ser considerado em “Administração da participação cívica/ Administração eleitoral” (950.10)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.300_1
-:na_c250.10.300_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Escolha de juízes sociais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c250.10.200
 :c250.10.200 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -354,17 +350,22 @@ Inclui formalização da candidatura por parte do interessado, recrutamento e se
 	:temRelProc :c250.10.700 ;
 	:temRelProc :c300.30.008 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_985 ;
-	:temLegislacao :leg_931 ;
-	:temLegislacao :leg_856 ;
-	:temLegislacao :leg_680 ;
-	:temLegislacao :leg_537 ;
-	:temLegislacao :leg_593 ;
-	:temLegislacao :leg_588 ;
+	:temLegislacao :leg_1041 ;
+	:temLegislacao :leg_982 ;
+	:temLegislacao :leg_903 ;
+	:temLegislacao :leg_712 ;
+	:temLegislacao :leg_562 ;
+	:temLegislacao :leg_620 ;
+	:temLegislacao :leg_615 ;
 	:classeStatus "A" ;
 	:descricao "Escolha, por via eleitoral, de titulares de órgãos de gestão, consultivos e estruturas internas.
 Inicia com despacho determinando a organização do processo eleitoral e termina com a publicitação do resultado do ato eleitoral e conversão dos votos em mandatos.
 Inclui criação de listas, elaboração de cadernos eleitorais, elaboração de boletins de voto, designação dos membros das mesas das assembleias eleitorais, redação das atas da sessão da assembleia eleitoral.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.300_1
+:na_c250.10.300_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Escolha de juízes sociais".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.300_2
 :na_c250.10.300_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -393,9 +394,10 @@ Inclui criação de listas, elaboração de cadernos eleitorais, elaboração de
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c600.20 ;
 	:temRelProc :c600.30 ;
-	:temLegislacao :leg_260 ;
-	:temLegislacao :leg_257 ;
-	:temLegislacao :leg_19 ;
+	:temLegislacao :leg_273 ;
+	:temLegislacao :leg_269 ;
+	:temLegislacao :leg_71 ;
+	:temLegislacao :leg_20 ;
 	:classeStatus "A" ;
 	:descricao "Angariação de candidatos com vista à participação popular na administração da justiça.
 Inicia com requerimento de uma das partes (Ministério Público, assistente ou arguido, no caso dos jurados) ou com a elaboração das listas (juízes sociais) e termina com o apuramento dos resultados e publicação da lista de candidatos.
@@ -464,21 +466,21 @@ Inclui organização do recrutamento e seleção, aprovação das listas pela en
 	:temRelProc :c300.30.008 ;
 	:temRelProc :c400.10.033 ;
 	:temRelProc :c450.30.502 ;
-	:temLegislacao :leg_239 ;
-	:temLegislacao :leg_212 ;
+	:temLegislacao :leg_250 ;
+	:temLegislacao :leg_223 ;
 	:classeStatus "A" ;
 	:descricao "Escolha de elementos da população para participação no desenvolvimento de ações de interesse social, cultural e comunitário em prol da sociedade.
 Inicia com campanha de angariação de voluntários ou com consulta às bolsas de voluntariado e termina com assinatura do programa de voluntariado.
 Inclui formalização da candidatura, análise de perfil dos candidatos, aprovação e escolha dos candidatos.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.400_1
-:na_c250.10.400_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Nomeação de militares para o exercício de funções de comando, direção ou chefia".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.400_1
 :ne_c250.10.400_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A organização de cerimónias de tomada de posse deve ser considerada em 900.20.601 – Organização de cerimónias de tomada de posse e assinatura de documentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.400_1
+:na_c250.10.400_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Nomeação de militares para o exercício de funções de comando, direção ou chefia".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c250.10.400
 :c250.10.400 rdf:type owl:NamedIndividual ,
@@ -499,6 +501,7 @@ Inclui formalização da candidatura, análise de perfil dos candidatos, aprova�
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c400.10.012 ;
 	:temRelProc :c500.10.001 ;
+	:temLegislacao :leg_1292 ;
 	:classeStatus "A" ;
 	:descricao "Formalização ou provimento de cargos de direção, comenado ou chefia.
 Inicia com a indicação de designação e termina com a aceitação. 
@@ -548,7 +551,8 @@ Inclui designação por competência própria ou por delegação, comunicação 
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c400.10.012 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1162 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_1292 ;
 	:classeStatus "A" ;
 	:descricao "Formalização e constituição do vínculo laboral sob a forma de nomeação definitiva ou provisória.
 Inicia com a proposta de nomeação do candidato ou oferecimento do candidato e termina com a assinatura do termo de posse ou aceitação.
@@ -786,10 +790,11 @@ Inclui eventual negociação da posição remuneratória, termo de aceitação a
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c400.10.012 ;
 	:temRelProc :c900.20.601 ;
-	:temLegislacao :leg_868 ;
-	:temLegislacao :leg_588 ;
-	:temLegislacao :leg_261 ;
-	:temLegislacao :leg_762 ;
+	:temLegislacao :leg_915 ;
+	:temLegislacao :leg_615 ;
+	:temLegislacao :leg_274 ;
+	:temLegislacao :leg_800 ;
+	:temLegislacao :leg_1384 ;
 	:classeStatus "A" ;
 	:descricao "Escolha de elementos para desempenharem funções em lugares de confiança ou assumirem funções de interesse público.
 Inicia com o despacho de designação da individualidade e termina com a publicitação ou empossamento do titular.
@@ -847,9 +852,12 @@ Inclui eventual negociação da posição remuneratória.".
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c400.10.012 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_981 ;
-	:temLegislacao :leg_409 ;
-	:temLegislacao :leg_762 ;
+	:temLegislacao :leg_1036 ;
+	:temLegislacao :leg_1385 ;
+	:temLegislacao :leg_431 ;
+	:temLegislacao :leg_1328 ;
+	:temLegislacao :leg_800 ;
+	:temLegislacao :leg_1384 ;
 	:classeStatus "A" ;
 	:descricao "Formalização ou provimento de cargos de direção intermédia e superior, por via concursal, em regime de comissão de serviço ou de mandato.
 Inicia com a indicação de designação e termina com a aceitação. 
@@ -933,8 +941,8 @@ Inclui designação por competência própria ou por delegação, comunicação 
 	:temRelProc :c400.10.011 ;
 	:temRelProc :c400.10.012 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1162 ;
-	:temLegislacao :leg_762 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
 	:descricao "Formalização e constituição da relação jurídica de emprego sob a forma de contrato de trabalho.
 Inicia com a notificação do trabalhador a contratar e termina com homologação da deliberação do júri que determina a conclusão do período experimental.
@@ -974,19 +982,19 @@ Inclui eventual negociação da posição remuneratória, outorga do contrato, a
 	:temRelProc :c250.20.400 ;
 	:temRelProc :c350.10.509 ;
 	:temRelProc :c450.30.002 ;
-	:temLegislacao :leg_957 ;
+	:temLegislacao :leg_1010 ;
+	:temLegislacao :leg_1244 ;
+	:temLegislacao :leg_1245 ;
+	:temLegislacao :leg_1256 ;
+	:temLegislacao :leg_1183 ;
 	:temLegislacao :leg_1181 ;
-	:temLegislacao :leg_1182 ;
-	:temLegislacao :leg_1192 ;
-	:temLegislacao :leg_1123 ;
-	:temLegislacao :leg_1121 ;
-	:temLegislacao :leg_1094 ;
-	:temLegislacao :leg_1093 ;
-	:temLegislacao :leg_1078 ;
-	:temLegislacao :leg_911 ;
-	:temLegislacao :leg_859 ;
-	:temLegislacao :leg_831 ;
-	:temLegislacao :leg_787 ;
+	:temLegislacao :leg_1153 ;
+	:temLegislacao :leg_1152 ;
+	:temLegislacao :leg_1137 ;
+	:temLegislacao :leg_962 ;
+	:temLegislacao :leg_906 ;
+	:temLegislacao :leg_875 ;
+	:temLegislacao :leg_825 ;
 	:classeStatus "A" ;
 	:descricao "Formalização e constituição da relação jurídica de estágio sob a forma de contrato de estágio.
 Inicia com a celebração do contrato de estágio e termina com a conclusão do estágio.
@@ -1039,25 +1047,25 @@ Inclui o reconhecimento, validação e certificação de competências adquirida
 	:temRelProc :c250.10.200 ;
 	:temRelProc :c250.20.001 ;
 	:temRelProc :c900.20.601 ;
-	:temLegislacao :leg_985 ;
-	:temLegislacao :leg_931 ;
-	:temLegislacao :leg_856 ;
-	:temLegislacao :leg_588 ;
-	:temLegislacao :leg_593 ;
-	:temLegislacao :leg_261 ;
+	:temLegislacao :leg_1041 ;
+	:temLegislacao :leg_982 ;
+	:temLegislacao :leg_903 ;
+	:temLegislacao :leg_615 ;
+	:temLegislacao :leg_620 ;
+	:temLegislacao :leg_274 ;
 	:classeStatus "A" ;
 	:descricao "Formalização ou provimento de titulares eleitos para órgãos de gestão ou para cargos de representação.
 Inicia com a designação ou com o despacho de nomeação e termina com a publicitação ou com o empossamento do titular.
 Inclui a designação por competência própria ou por delegação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.800_2
+:na_c250.10.800_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Cessação de designação para cargo ou função".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.800_1
 :na_c250.10.800_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Cessação de contrato".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.800_2
-:na_c250.10.800_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo " Cessação de designação para cargo ou função".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.800_3
 :na_c250.10.800_3 rdf:type owl:NamedIndividual ,
@@ -1104,8 +1112,8 @@ Inclui a designação por competência própria ou por delegação.".
 	:temRelProc :c400.10.010 ;
 	:temRelProc :c400.10.012 ;
 	:temRelProc :c500.30.004 ;
-	:temLegislacao :leg_1162 ;
-	:temLegislacao :leg_762 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
 	:descricao "Formalização do pedido ou proposta de cessação de funções ou de vínculo de trabalho.
 Inicia com o pedido do trabalhador ou por iniciativa da entidade empregadora e termina com a formalização da cessaçãode funções ou da relação jurídica de emprego.
@@ -1138,7 +1146,7 @@ Inclui notificação prévia (quando devido), negociação e acordo das condiç�
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.20_6
 :na_c250.20_6 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Processos de controlo de assiduidade/ ausências ao serviço;Processos de marcação de férias;Processos de acidente em trabalho ".
+	:conteudo "Processos de controlo de assiduidade/ ausências ao serviço;Processos de marcação de férias;Processos de acidente em trabalho".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.20_7
 :na_c250.20_7 rdf:type owl:NamedIndividual ,
@@ -1192,11 +1200,6 @@ Inclui notificação prévia (quando devido), negociação e acordo das condiç�
 	:NotaAplicacao ;
 	:conteudo " Regime biográfico de trabalhadores do quadro".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.001_5
-:na_c250.20.001_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo " ".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c250.20.001
 :c250.20.001 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1210,7 +1213,6 @@ Inclui notificação prévia (quando devido), negociação e acordo das condiç�
 	:temNotaAplicacao :na_c250.20.001_2 ;
 	:temNotaAplicacao :na_c250.20.001_3 ;
 	:temNotaAplicacao :na_c250.20.001_4 ;
-	:temNotaAplicacao :na_c250.20.001_5 ;
 	:temRelProc :c150.20.403 ;
 	:temRelProc :c250.10.301 ;
 	:temRelProc :c250.10.501 ;
@@ -1239,8 +1241,8 @@ Inclui notificação prévia (quando devido), negociação e acordo das condiç�
 	:temRelProc :c500.20.600 ;
 	:temRelProc :c500.30.004 ;
 	:temRelProc :c750.20.600 ;
-	:temLegislacao :leg_1162 ;
-	:temLegislacao :leg_762 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
 	:descricao "Inscrição de todas as referências de identificação, de natureza jurídico-funcional, estatutária e disciplinar do trabalhador.
 Inicia com o registo dos dados relativos à admissão do trabalhador e termina com o registo da cessação da relação de trabalho.
@@ -1259,11 +1261,11 @@ Inclui atualização de todos os dados relativos à carreira profissional do tra
 	:temRelProc :c250.20.400 ;
 	:temRelProc :c350.10.509 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1305 ;
-	:temLegislacao :leg_1264 ;
-	:temLegislacao :leg_1162 ;
-	:temLegislacao :leg_762 ;
-	:temLegislacao :leg_512 ;
+	:temLegislacao :leg_1382 ;
+	:temLegislacao :leg_1336 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_800 ;
+	:temLegislacao :leg_536 ;
 	:classeStatus "A" ;
 	:descricao "Autorização para o cumprimento da jornada de trabalho em horário diferente do regime padrão em uso na organização.
 Inicia com pedido do trabalhador e termina com comunicação da decisão ao interessado.
@@ -1287,10 +1289,10 @@ Inclui análise fundamentada do pedido, recolha de pareceres intermédios (quand
 	:temRelProc :c250.20.400 ;
 	:temRelProc :c350.10.509 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1242 ;
-	:temLegislacao :leg_1162 ;
-	:temLegislacao :leg_792 ;
-	:temLegislacao :leg_762 ;
+	:temLegislacao :leg_1311 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_832 ;
+	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
 	:descricao "Autorização para a prestação de trabalho fora do horário estabelecido.
 Inicia com o pedido de autorização e termina com a comunicação da decisão.
@@ -1339,8 +1341,8 @@ Inclui análise da justificação ou fundamentação do pedido.".
 	:temRelProc :c350.10.509 ;
 	:temRelProc :c400.10.033 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1162 ;
-	:temLegislacao :leg_762 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
 	:descricao "Verificação do cumprimento do dever de assiduidade e pontualidade por parte do trabalhador.
 Inicia com o registo de presença por parte do trabalhador e termina com a síntese de ocorrências relativas à assiduidade e pontualidade do trabalhador.
@@ -1397,9 +1399,9 @@ Inclui participação e justificação da falta ou ausência, despacho superior 
 	:temRelProc :c350.10.509 ;
 	:temRelProc :c400.10.033 ;
 	:temRelProc :c450.30.500 ;
-	:temLegislacao :leg_1162 ;
-	:temLegislacao :leg_243 ;
-	:temLegislacao :leg_775 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_254 ;
+	:temLegislacao :leg_813 ;
 	:classeStatus "A" ;
 	:descricao "Comunicação para reconhecimento do direito à reparação dos danos emergentes resultantes dos riscos profissionais, associados à caracterização de acidente de trabalho ou de doença profissional.
 Inicia com a participação e termina com a notificação das entidades competentes.
@@ -1429,21 +1431,21 @@ Inclui a qualificação como acidente de trabalho ou como doença profissional."
 	:temRelProc :c250.20.605 ;
 	:temRelProc :c350.10.509 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_762 ;
-	:temLegislacao :leg_1162 ;
+	:temLegislacao :leg_800 ;
+	:temLegislacao :leg_1223 ;
 	:classeStatus "A" ;
 	:descricao "Marcação do número de dias de férias a que o trabalhador tem direito no ano civil a que respeita.
 Inicia com a marcação dos períodos de férias a que tem direito e termina com a divulgação do mapa de férias aprovado superiormente ou comunicação da decisão ao trabalhador.
 Inclui a verificação de inexistência de prejuízo para o serviço e autorização.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.403_2
-:na_c250.20.403_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo " Renovação da licença".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.403_1
 :na_c250.20.403_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Licenças sem vencimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.403_2
+:na_c250.20.403_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Renovação da licença".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.403_1
 :ne_c250.20.403_1 rdf:type owl:NamedIndividual ,
@@ -1466,8 +1468,8 @@ Inclui a verificação de inexistência de prejuízo para o serviço e autoriza�
 	:temRelProc :c250.20.400 ;
 	:temRelProc :c350.10.509 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1162 ;
-	:temLegislacao :leg_762 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
 	:descricao "Autorização de ausência do serviço por tempo determinado, com ou sem retribuição.
 Inicia com o pedido de licença e termina com a comunicação da decisão ao trabalhador.
@@ -1527,15 +1529,15 @@ Inclui análise fundamentada do pedido, recolha de eventuais pareceres e decisã
 	:temRelProc :c250.20.400 ;
 	:temRelProc :c350.10.509 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_26 ;
-	:temLegislacao :leg_36 ;
-	:temLegislacao :leg_75 ;
-	:temLegislacao :leg_86 ;
-	:temLegislacao :leg_419 ;
-	:temLegislacao :leg_954 ;
-	:temLegislacao :leg_1028 ;
-	:temLegislacao :leg_960 ;
-	:temLegislacao :leg_1045 ;
+	:temLegislacao :leg_27 ;
+	:temLegislacao :leg_38 ;
+	:temLegislacao :leg_79 ;
+	:temLegislacao :leg_91 ;
+	:temLegislacao :leg_441 ;
+	:temLegislacao :leg_1007 ;
+	:temLegislacao :leg_1085 ;
+	:temLegislacao :leg_1013 ;
+	:temLegislacao :leg_1102 ;
 	:classeStatus "A" ;
 	:descricao "Autorização para dispensa total ou parcial do exercício de funções para realizar programas de trabalho e estudo.
 Inicia com o pedido fundamentado do estatuto de bolseiro ou de equiparação a bolseiro e termina com comunicação da decisão ao trabalhador.
@@ -1563,7 +1565,7 @@ Inclui recolha de pareceres intermédios, análise fundamentada do pedido e deci
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.600_5
 :na_c250.20.600_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "  Reafetação de trabalhadores vítima de acidente de trabalho ou doença profissional, em que o grau de incapacidade e de desvalorização implicam reajustamento ou alteração das funções do trabalhador".
+	:conteudo "Reafetação de trabalhadores vítima de acidente de trabalho ou doença profissional, em que o grau de incapacidade e de desvalorização implicam reajustamento ou alteração das funções do trabalhador".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.600_6
 :na_c250.20.600_6 rdf:type owl:NamedIndividual ,
@@ -1593,7 +1595,7 @@ Inclui recolha de pareceres intermédios, análise fundamentada do pedido e deci
 	:temRelProc :c250.30.001 ;
 	:temRelProc :c350.10.509 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1162 ;
+	:temLegislacao :leg_1223 ;
 	:classeStatus "A" ;
 	:descricao "Ocupação transitória de posto de trabalho na mesma situação funcional em diferente órgão ou serviço ou em diferente situação funcional no mesmo ou em diferente órgão ou serviço.
 Inicia com o pedido do trabalhador ou por iniciativa da administração e termina com a comunicação da decisão ao trabalhador.
@@ -1667,7 +1669,7 @@ Inclui negociação de um acordo tripartido entre o trabalhador e os órgãos ou
 	:temRelProc :c350.10.509 ;
 	:temRelProc :c400.10.033 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1162 ;
+	:temLegislacao :leg_1223 ;
 	:classeStatus "A" ;
 	:descricao "Mudança para posição remuneratória superior dentro da mesma carreira ou posto.
 Inicia com a proposta de atribuição de promoção ou progressão e termina com a formalização da aceitação.
@@ -1695,7 +1697,7 @@ Inclui proposta de atribuição e respetiva fundamentação, recolha de eventuai
 	:temNotaAplicacao :na_c250.20.602_2 ;
 	:temRelProc :c250.20.001 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1162 ;
+	:temLegislacao :leg_1223 ;
 	:classeStatus "A" ;
 	:descricao "Permissão para acumulação de funções públicas ou privadas.
 Inicia com o requerimento do trabalhador e termina com a comunicação da decisão ao interessado.
@@ -1720,11 +1722,6 @@ Inclui análise fundamentada do pedido, recolha de eventuais pareceres interméd
 	:NotaAplicacao ;
 	:conteudo " Registo na Bolsa de Emprego Público".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.603_5
-:na_c250.20.603_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo " ".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.603_1
 :ne_c250.20.603_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -1734,7 +1731,12 @@ Inclui análise fundamentada do pedido, recolha de eventuais pareceres interméd
 :c250.20.603 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
 	:codigo "250.20.603";
-	:titulo "Colocação de trabalhadores em situação de requalificação";
+	:titulo "Colocação de trabalhadores em situação de requalificação
+
+Proposta do MTSSS:
+Colocação de trabalhadores em situação profissional especial
+Fundamentação: Criar um titulo imune às alterações legislativas 
+";
 	:temPai :c250.20 ;
 	:processoTipo "PC" ;
 	:processoTransversal "N" ;
@@ -1743,7 +1745,6 @@ Inclui análise fundamentada do pedido, recolha de eventuais pareceres interméd
 	:temNotaAplicacao :na_c250.20.603_2 ;
 	:temNotaAplicacao :na_c250.20.603_3 ;
 	:temNotaAplicacao :na_c250.20.603_4 ;
-	:temNotaAplicacao :na_c250.20.603_5 ;
 	:temNotaExclusao :ne_c250.20.603_1 ;
 	:temRelProc :c150.20.200 ;
 	:temRelProc :c250.10.800 ;
@@ -1751,14 +1752,17 @@ Inclui análise fundamentada do pedido, recolha de eventuais pareceres interméd
 	:temRelProc :c250.20.600 ;
 	:temRelProc :c250.20.605 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_905 ;
-	:temLegislacao :leg_913 ;
-	:temLegislacao :leg_717 ;
-	:temLegislacao :leg_742 ;
-	:temLegislacao :leg_682 ;
-	:temLegislacao :leg_662 ;
-	:temLegislacao :leg_497 ;
-	:temLegislacao :leg_414 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_1122 ;
+	:temLegislacao :leg_956 ;
+	:temLegislacao :leg_964 ;
+	:temLegislacao :leg_752 ;
+	:temLegislacao :leg_780 ;
+	:temLegislacao :leg_714 ;
+	:temLegislacao :leg_693 ;
+	:temLegislacao :leg_520 ;
+	:temLegislacao :leg_436 ;
+	:temLegislacao :leg_1388 ;
 	:classeStatus "A" ;
 	:descricao "Integração em mapa de pessoal próprio de trabalhador não necessário ao desenvolvimento das atividades do órgão ou serviço, em resultado de processos de reorganização de serviços ou de racionalização de efetivos e, no caso de militares, por falta de vacatura no seu posto.
 Inicia com a seleção do trabalhador e termina com a publicitação de lista nominativa de colocação em situação de requalificação.
@@ -1848,8 +1852,11 @@ Inclui apresentação de prova de habilitação para o exercício de novas funç
 	:temRelProc :c350.10.509 ;
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c750.20.600 ;
-	:temLegislacao :leg_1064 ;
-	:temLegislacao :leg_927 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_1249 ;
+	:temLegislacao :leg_1070 ;
+	:temLegislacao :leg_1122 ;
+	:temLegislacao :leg_978 ;
 	:classeStatus "A" ;
 	:descricao "Promoção da reintegração do trabalhador colocado em situação de inatividade.                                                              Inicia com a informação da colocação do trabalhador em situação de requalificação e termina com o reinício de funções ou com a cessação das mesmas a título transitório. Inclui  o processamento das solicitações dos organismos para preenchimento de posto de trabalho, informação aos trabalhadores dos procedimentos de seleção abertos, promoção e encaminhamento para a requalificação por via da formação profissional, atualização dos dados relativos aos trabalhadores.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.800_1
@@ -1880,22 +1887,22 @@ Inclui apresentação de prova de habilitação para o exercício de novas funç
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.800_6
 :na_c250.20.800_6 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo " Desempenho dos Trabalhadores da Administração Pública (SIADAP 3)".
+	:conteudo "Desempenho dos Trabalhadores da Administração Pública (SIADAP 3)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.800_1
 :ne_c250.20.800_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A reclamação da avaliação de desempenho (pós homologação) deve ser considerada em 500.40.001 – Processamento de reclamações em atos administrativos".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.800_3
-:ne_c250.20.800_3 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A impugnação administrativa, por recurso tutelar deve ser considerada em 500.40.501 – Processamento de recursos tutelares".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.800_2
 :ne_c250.20.800_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A impugnação administrativa, por recurso hierárquico deve ser considerada em 500.40.500 – Processamento de recursos hierárquicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.800_3
+:ne_c250.20.800_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A impugnação administrativa, por recurso tutelar deve ser considerada em 500.40.501 – Processamento de recursos tutelares".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.800_4
 :ne_c250.20.800_4 rdf:type owl:NamedIndividual ,
@@ -1936,10 +1943,10 @@ Inclui apresentação de prova de habilitação para o exercício de novas funç
 	:temRelProc :c500.20.001 ;
 	:temRelProc :c950.20.300 ;
 	:temRelProc :c950.30.001 ;
-	:temLegislacao :leg_593 ;
-	:temLegislacao :leg_856 ;
-	:temLegislacao :leg_985 ;
-	:temLegislacao :leg_1162 ;
+	:temLegislacao :leg_620 ;
+	:temLegislacao :leg_903 ;
+	:temLegislacao :leg_1041 ;
+	:temLegislacao :leg_1223 ;
 	:classeStatus "A" ;
 	:descricao "Definição de competências ou objetivos para trabalhadores, dirigentes superiores e intermédios ou equiparados, de acordo com o ciclo de gestão.
 Inicia com o acordo relativo aos objetivos, indicadores de medida, valores e respetiva ponderação e termina com a tomada de conhecimento da homologação da avaliação efetuada pela entidade competente.
@@ -1957,10 +1964,10 @@ Inclui contratualização das competências e objetivos, compromisso de gestão 
 	:temRelProc :c250.20.001 ;
 	:temRelProc :c250.20.800 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_593 ;
-	:temLegislacao :leg_856 ;
-	:temLegislacao :leg_985 ;
-	:temLegislacao :leg_1162 ;
+	:temLegislacao :leg_620 ;
+	:temLegislacao :leg_903 ;
+	:temLegislacao :leg_1041 ;
+	:temLegislacao :leg_1223 ;
 	:classeStatus "A" ;
 	:descricao "Estabelecimento de diretrizes para aplicação objetiva e harmónica do sistema de avaliação do desempenho.
 Inicia com a aprovação das quotas de diferenciação e aprovação dos critérios de harmonização da avaliação de desempenho e termina com a validação das propostas finais de avaliação de desempenho Relevante e de desempenho Inadequado, bem como o reconhecimento de desempenho Excelente.
@@ -1983,9 +1990,9 @@ Inclui convocatórias das reuniões, elaboração de listas de presenças, anál
 	:temRelProc :c150.10.702 ;
 	:temRelProc :c250.20.800 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_593 ;
-	:temLegislacao :leg_856 ;
-	:temLegislacao :leg_985 ;
+	:temLegislacao :leg_620 ;
+	:temLegislacao :leg_903 ;
+	:temLegislacao :leg_1041 ;
 	:classeStatus "A" ;
 	:descricao "Análise dos processos de avaliação individual de desempenho solicitados à Comissão Paritária pelos avaliados, em fase anterior ao ato de homologação da avaliação.
 Inicia com a receção pela Comissão Paritária do requerimento do avaliado e termina com a proposta de decisão sobre a avaliação de desempenho do interessado.
@@ -2008,7 +2015,7 @@ Inclui convocatórias das reuniões, elaboração de listas de presenças, audi�
 ###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.803_4
 :na_c250.20.803_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo " Concessão de prémios de desempenho".
+	:conteudo "Concessão de prémios de desempenho".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.803_1
 :ne_c250.20.803_1 rdf:type owl:NamedIndividual ,
@@ -2040,9 +2047,9 @@ Inclui convocatórias das reuniões, elaboração de listas de presenças, audi�
 	:temRelProc :c350.10.509 ;
 	:temRelProc :c400.10.033 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_593 ;
-	:temLegislacao :leg_856 ;
-	:temLegislacao :leg_985 ;
+	:temLegislacao :leg_620 ;
+	:temLegislacao :leg_903 ;
+	:temLegislacao :leg_1041 ;
 	:classeStatus "A" ;
 	:descricao "Reconhecimento de trabalhadores que se distinguiram por serviços relevantes ou atos notáveis de qualquer natureza.
 Inicia com a proposta de atribuição da distinção e termina com a comunicação da decisão ao interessado ou publicitação da mesma.
@@ -2133,8 +2140,9 @@ Inclui o depósito de convenções coletivas nos organismos competentes, bem com
 	:temRelProc :c100.10.600 ;
 	:temRelProc :c250.20.600 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_762 ;
-	:temLegislacao :leg_1162 ;
+	:temLegislacao :leg_800 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_480 ;
 	:classeStatus "A" ;
 	:descricao "Intervenção na vida da organização, através da participação na criação de instrumentos de enquadramento das condições de trabalho aplicáveis às relações individuais e coletivas de trabalho, no âmbito das respetivas representações.
 Inicia com a apresentação de propostas ou reivindicações pelas estruturas de representação coletiva dos trabalhadores e termina com o depósito do instrumento de regulamentação coletiva de trabalho, no serviço competente.
@@ -2148,6 +2156,16 @@ Inclui conversação entre as partes, apoio técnico da Administração, celebra
 :na_c250.30.300_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Negociação dos serviços mínimos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.30.300_3
+:na_c250.30.300_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "DGAEP (trabalhadores com contrato em funções públicas)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.30.300_4
+:na_c250.30.300_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "DGERT (trabalhadores com contrato individual de trabalho)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250.30.300_1
 :ne_c250.30.300_1 rdf:type owl:NamedIndividual ,
@@ -2168,9 +2186,12 @@ Inclui conversação entre as partes, apoio técnico da Administração, celebra
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
 	:temParticipanteComunicador :org_AP ;
+	:temDono :org_DGERT ;
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c250.30.300_1 ;
 	:temNotaAplicacao :na_c250.30.300_2 ;
+	:temNotaAplicacao :na_c250.30.300_3 ;
+	:temNotaAplicacao :na_c250.30.300_4 ;
 	:temNotaExclusao :ne_c250.30.300_1 ;
 	:temNotaExclusao :ne_c250.30.300_2 ;
 	:temRelProc :c150.20.403 ;
@@ -2178,11 +2199,11 @@ Inclui conversação entre as partes, apoio técnico da Administração, celebra
 	:temRelProc :c250.20.400 ;
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c600.20.600 ;
-	:temLegislacao :leg_1242 ;
-	:temLegislacao :leg_1162 ;
-	:temLegislacao :leg_762 ;
-	:temLegislacao :leg_925 ;
-	:temLegislacao :leg_457 ;
+	:temLegislacao :leg_1311 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_800 ;
+	:temLegislacao :leg_976 ;
+	:temLegislacao :leg_480 ;
 	:classeStatus "A" ;
 	:descricao "Pressão exercida junto da organização no sentido da satisfação de interesses comuns de trabalhadores ou associados.
 Inicia com a realização de reuniões gerais de trabalhadores nos locais de trabalho durante o horário de prestação de serviço e termina com o apuramento do crédito anual de horas ou com o apuramento e comunicação dos resultados do impacto da suspensão coletiva, total ou parcial, concertada e voluntária de prestação de trabalho, por motivo de greve.
@@ -2192,6 +2213,11 @@ Pode determinar a negociação e definição de serviços mínimos indispensáve
 :na_c250.30.600_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Prevenção de conflitos coletivos de trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.30.600_2
+:na_c250.30.600_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "DGERT (relações coletivas de trabalho)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c250.30.600_1
 :ne_c250.30.600_1 rdf:type owl:NamedIndividual ,
@@ -2212,7 +2238,9 @@ Pode determinar a negociação e definição de serviços mínimos indispensáve
 	:processoTipo "PC" ;
 	:processoTransversal "N" ;
 	:temDono :org_AP ;
+	:temDono :org_DGERT ;
 	:temNotaAplicacao :na_c250.30.600_1 ;
+	:temNotaAplicacao :na_c250.30.600_2 ;
 	:temNotaExclusao :ne_c250.30.600_1 ;
 	:temNotaExclusao :ne_c250.30.600_2 ;
 	:temRelProc :c150.10.702 ;
@@ -2220,9 +2248,9 @@ Pode determinar a negociação e definição de serviços mínimos indispensáve
 	:temRelProc :c600.20.301 ;
 	:temRelProc :c600.30.300 ;
 	:temRelProc :c800.10.300 ;
-	:temLegislacao :leg_1162 ;
-	:temLegislacao :leg_762 ;
-	:temLegislacao :leg_457 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_800 ;
+	:temLegislacao :leg_480 ;
 	:classeStatus "A" ;
 	:descricao "Participação efetiva dos trabalhadores ou associados na gestão da organização em defesa dos direitos ou interesses laborais dos seus representados.
 Inicia com o registo da ocorrência e termina com o resultado da intervenção da estrutura representativa dos trabalhadores.

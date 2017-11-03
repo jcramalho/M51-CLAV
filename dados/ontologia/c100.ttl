@@ -267,9 +267,10 @@ Compreende, igualmente, a elaboração ou colaboração na elaboração de norma
 	:temRelProc :c150.20.501 ;
 	:temRelProc :c900.20.201 ;
 	:temRelProc :c150.10.700 ;
-	:temLegislacao :leg_457 ;
-	:temLegislacao :leg_1115 ;
-	:temLegislacao :leg_1166 ;
+	:temLegislacao :leg_480 ;
+	:temLegislacao :leg_1174 ;
+	:temLegislacao :leg_1227 ;
+	:temLegislacao :leg_214 ;
 	:classeStatus "A" ;
 	:exemploNA "Código da Estrada" ;
 	:exemploNA "Código Civil" ;
@@ -326,9 +327,10 @@ Inclui verificação jurídica, apreciação, discussão e votação conducentes
 	:temRelProc :c200.10.800 ;
 	:temRelProc :c550.30.601 ;
 	:temRelProc :c900.20.201 ;
-	:temLegislacao :leg_457 ;
-	:temLegislacao :leg_1115 ;
-	:temLegislacao :leg_1166 ;
+	:temLegislacao :leg_480 ;
+	:temLegislacao :leg_1174 ;
+	:temLegislacao :leg_1227 ;
+	:temLegislacao :leg_214 ;
 	:classeStatus "A" ;
 	:descricao "Manifestação do consentimento à vinculação nacional de convenções (tratados e acordos) internacionais, entrando no ordenamento jurídico português.
 Inicia com a necessidade ou vontade de vinculação e termina com a publicação.
@@ -365,6 +367,7 @@ Inclui a aprovação parlamentar ou governamental, através de resolução ou de
 	:temParticipanteComunicador :org_AP ;
 	:temParticipanteComunicador :org_INCM ;
 	:temDono :org_TC ;
+	:temDono :org_TContas ;
 	:temDono :org_STA ;
 	:temDono :org_STJ ;
 	:temNotaAplicacao :na_c100.10.003_1 ;
@@ -376,8 +379,8 @@ Inclui a aprovação parlamentar ou governamental, através de resolução ou de
 	:temRelProc :c600.30.703 ;
 	:temRelProc :c600.30.712 ;
 	:temRelProc :c900.20.201 ;
-	:temLegislacao :leg_457 ;
-	:temLegislacao :leg_967 ;
+	:temLegislacao :leg_480 ;
+	:temLegislacao :leg_1021 ;
 	:classeStatus "A" ;
 	:descricao "Declaração de inconstitucionalidade ou outras decisões de Tribunais, a que a lei confira força obrigatória geral.
 Inicia com o envio aos órgãos competentes e termina com a publicação.
@@ -466,9 +469,10 @@ Inicia com o envio aos órgãos competentes e termina com a publicação.
 	:temRelProc :c150.10.600 ;
 	:temRelProc :c150.20.700 ;
 	:temRelProc :c900.20.201 ;
-	:temLegislacao :leg_457 ;
-	:temLegislacao :leg_1115 ;
-	:temLegislacao :leg_1166 ;
+	:temLegislacao :leg_480 ;
+	:temLegislacao :leg_1174 ;
+	:temLegislacao :leg_1227 ;
+	:temLegislacao :leg_214 ;
 	:classeStatus "A" ;
 	:exemploNA "Decreto Regulamentar que aprova o Plano da Bacia Hidrográfica do Guadiana" ;
 	:exemploNA "Decreto Regulamentar que classifica como monumento natural as Portas de Rodão" ;
@@ -551,8 +555,8 @@ Inclui verificação jurídica e apreciação.".
 	:temRelProc :c150.10.700 ;
 	:temRelProc :c150.10.701 ;
 	:temRelProc :c900.20.201 ;
-	:temLegislacao :leg_261 ;
-	:temLegislacao :leg_107 ;
+	:temLegislacao :leg_274 ;
+	:temLegislacao :leg_112 ;
 	:classeStatus "A" ;
 	:exemploNA "Plano Diretor Municipal" ;
 	:exemploNA "Regulamento Municipal de Toponímia e Numeração de Polícia" ;
@@ -700,10 +704,10 @@ Inclui verificação jurídica e apreciação.
 	:temRelProc :c150.20.501 ;
 	:temRelProc :c250.30.001 ;
 	:temRelProc :c900.20.201 ;
-	:temLegislacao :leg_457 ;
-	:temLegislacao :leg_1211 ;
-	:temLegislacao :leg_930 ;
-	:temLegislacao :leg_588 ;
+	:temLegislacao :leg_480 ;
+	:temLegislacao :leg_1279 ;
+	:temLegislacao :leg_981 ;
+	:temLegislacao :leg_615 ;
 	:classeStatus "A" ;
 	:exemploNA "Despacho de delegação de competências" ;
 	:exemploNA "Regimentos da Assembleia da República, do Conselho de Estado e das Assembleias Legislativas das Regiões Autónomas" ;
@@ -725,15 +729,15 @@ Inclui verificação jurídica e apreciação.
 
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.800_1
-:na_c100.10.800_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Documentos normativos, editados  pelo Organismo Nacional de Normalização".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.800_2
 :na_c100.10.800_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Documentos normativos, editados por Organismos Europeus ou Internacionais de Normalização".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.800_1
+:na_c100.10.800_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Documentos normativos, editados  pelo Organismo Nacional de Normalização".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.800_3
 :na_c100.10.800_3 rdf:type owl:NamedIndividual ,
@@ -778,7 +782,8 @@ Inclui verificação jurídica e apreciação.
 	:temRelProc :c150.10.700 ;
 	:temRelProc :c150.10.701 ;
 	:temRelProc :c900.20.201 ;
-	:temLegislacao :leg_939 ;
+	:temLegislacao :leg_990 ;
+	:temLegislacao :leg_1129 ;
 	:classeStatus "A" ;
 	:exemploNA "Normas STANAG" ;
 	:descricao "Elaboração (formalização e estabelecimento de  prescrições) de  disposições destinadas à utilização comum e repetida, visando a obtenção de normas técnicas, ações e procedimentos normalizados num dado contexto, podendo revestir a forma de norma padrão (standard), isto é norma técnica que foi adotada \"de facto\", sem necessariamente ter havido uma ratificação formal, ou de norma produzida por um órgão oficialmente acreditado para tal (norma \"de jure\").
@@ -832,8 +837,9 @@ Compreende, igualmente, os acórdãos de uniformização de jurisprudência emit
 	:temRelProc :c100.10.400 ;
 	:temRelProc :c150.20.001 ;
 	:temLegislacao :leg_2 ;
-	:temLegislacao :leg_203 ;
-	:temLegislacao :leg_805 ;
+	:temLegislacao :leg_211 ;
+	:temLegislacao :leg_1389 ;
+	:temLegislacao :leg_846 ;
 	:classeStatus "A" ;
 	:descricao "Elaboração de parecer de interpretação de diplomas jurídico-normativos de forma abstrata e geral, podendo ser válida para a decisão de casos concretos.
 Inicia com o pedido e termina com a entrega do parecer técnico-jurídico.
@@ -907,7 +913,7 @@ Inclui, quando devido, elaboração de diversos esquemas sintetizadores para mai
 	:temNotaAplicacao :na_c100.20.400_1 ;
 	:temNotaAplicacao :na_c100.20.400_2 ;
 	:temRelProc :c100.10.800 ;
-	:temLegislacao :leg_762 ;
+	:temLegislacao :leg_800 ;
 	:classeStatus "A" ;
 	:exemploNA "Produção de FAQ’s (Frequently Asked Questions)" ;
 	:descricao "Elaboração e comunicação de orientações para a explicitação dos conteúdos das normas técnicas.
@@ -932,8 +938,8 @@ Inclui consulta de elementos e fundamentação do proposto.".
 	:temDono :org_STJ ;
 	:temNotaAplicacao :na_c100.20.600_1 ;
 	:temRelProc :c600.30 ;
-	:temLegislacao :leg_67 ;
-	:temLegislacao :leg_1054 ;
+	:temLegislacao :leg_70 ;
+	:temLegislacao :leg_1111 ;
 	:classeStatus "A" ;
 	:descricao "Produção e comunicação de orientação jurisprudencial uniformizada, sem força vinculativa. 
 Inicia com o pedido para decisão quando relativamente à mesma questão de direito sejam proferidas soluções opostas e termina com a publicação da decisão.

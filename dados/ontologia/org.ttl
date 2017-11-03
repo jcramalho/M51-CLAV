@@ -1,4 +1,9 @@
 ### Organizações
+###  http://jcr.di.uminho.pt/m51-clav#org_A3ES
+:org_A3ES rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "A3ES";
+	:orgNome "Agência de Avaliação e Acreditação do Ensino Superior".
 ###  http://jcr.di.uminho.pt/m51-clav#org_AAC
 :org_AAC rdf:type owl:NamedIndividual ,
 	:Organizacao ;
@@ -84,6 +89,16 @@
 	:Organizacao ;
 	:orgSigla "AMN";
 	:orgNome "Autoridade Marítima Nacional".
+###  http://jcr.di.uminho.pt/m51-clav#org_ANA
+:org_ANA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ANA";
+	:orgNome "ANA - Aeroportos de Portugal".
+###  http://jcr.di.uminho.pt/m51-clav#org_ANAC
+:org_ANAC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ANAC";
+	:orgNome "Autoridade Nacional da Aviação Civil".
 ###  http://jcr.di.uminho.pt/m51-clav#org_ANACOM
 :org_ANACOM rdf:type owl:NamedIndividual ,
 	:Organizacao ;
@@ -268,7 +283,7 @@
 :org_CH rdf:type owl:NamedIndividual ,
 	:Organizacao ;
 	:orgSigla "CH";
-	:orgNome "Comissões de Heraldica".
+	:orgNome "Comissões de Heráldica".
 ###  http://jcr.di.uminho.pt/m51-clav#org_Cinemateca
 :org_Cinemateca rdf:type owl:NamedIndividual ,
 	:Organizacao ;
@@ -334,6 +349,11 @@
 	:Organizacao ;
 	:orgSigla "Cns";
 	:orgNome "Consulados".
+###  http://jcr.di.uminho.pt/m51-clav#org_CP
+:org_CP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CP";
+	:orgNome "Comboios de Portugal".
 ###  http://jcr.di.uminho.pt/m51-clav#org_CPCJ
 :org_CPCJ rdf:type owl:NamedIndividual ,
 	:Organizacao ;
@@ -464,6 +484,11 @@
 	:Organizacao ;
 	:orgSigla "DGPC";
 	:orgNome "Direção-Geral do Património Cultural".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGPDN
+:org_DGPDN rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGPDN";
+	:orgNome "Direção-Geral de Política de Defesa Nacional".
 ###  http://jcr.di.uminho.pt/m51-clav#org_DGPE
 :org_DGPE rdf:type owl:NamedIndividual ,
 	:Organizacao ;
@@ -549,20 +574,20 @@
 	:Organizacao ;
 	:orgSigla "ECA";
 	:orgNome "Entidades com competência de auditoria".
-###  http://jcr.di.uminho.pt/m51-clav#org_ECCP
-:org_ECCP rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#org_ECP
+:org_ECP rdf:type owl:NamedIndividual ,
 	:Organizacao ;
-	:orgSigla "ECCP";
+	:orgSigla "ECP";
 	:orgNome "Entidades com capacidade pericial".
 ###  http://jcr.di.uminho.pt/m51-clav#org_ECF
 :org_ECF rdf:type owl:NamedIndividual ,
 	:Organizacao ;
 	:orgSigla "ECF";
 	:orgNome "Entidades com competência de fiscalização".
-###  http://jcr.di.uminho.pt/m51-clav#org_ECFD
-:org_ECFD rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#org_EFD
+:org_EFD rdf:type owl:NamedIndividual ,
 	:Organizacao ;
-	:orgSigla "ECFD";
+	:orgSigla "EFD";
 	:orgNome "Entidades com funções delegadas".
 ###  http://jcr.di.uminho.pt/m51-clav#org_ECFP
 :org_ECFP rdf:type owl:NamedIndividual ,
@@ -594,6 +619,11 @@
 	:Organizacao ;
 	:orgSigla "ECV";
 	:orgNome "Entidades com competência de visita".
+###  http://jcr.di.uminho.pt/m51-clav#org_ED
+:org_ED rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ED";
+	:orgNome "Entidades depositantes".
 ###  http://jcr.di.uminho.pt/m51-clav#org_EDA
 :org_EDA rdf:type owl:NamedIndividual ,
 	:Organizacao ;
@@ -619,16 +649,21 @@
 	:Organizacao ;
 	:orgSigla "EGAP";
 	:orgNome "Entidades gestoras de apoios".
-###  http://jcr.di.uminho.pt/m51-clav#org_EMB
-:org_EMB rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#org_Emb
+:org_Emb rdf:type owl:NamedIndividual ,
 	:Organizacao ;
-	:orgSigla "EMB";
+	:orgSigla "Emb";
 	:orgNome "Embaixadas".
 ###  http://jcr.di.uminho.pt/m51-clav#org_EMGFA
 :org_EMGFA rdf:type owl:NamedIndividual ,
 	:Organizacao ;
 	:orgSigla "EMGFA";
 	:orgNome "Estado-Maior General das Forças Armadas".
+###  http://jcr.di.uminho.pt/m51-clav#org_ENMC
+:org_ENMC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ENMC";
+	:orgNome "Entidade Nacional para o Mercado de Combustíveis, E.P.E".
 ###  http://jcr.di.uminho.pt/m51-clav#org_EP
 :org_EP rdf:type owl:NamedIndividual ,
 	:Organizacao ;
@@ -704,6 +739,11 @@
 	:Organizacao ;
 	:orgSigla "FSS";
 	:orgNome "Forças e serviços de segurança".
+###  http://jcr.di.uminho.pt/m51-clav#org_GAMA
+:org_GAMA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "GAMA";
+	:orgNome "Gabinete  de Investigação de Acidentes Marítimos e da Autoridade para a  Meteorologia Aeronáutica".
 ###  http://jcr.di.uminho.pt/m51-clav#org_GEPAC
 :org_GEPAC rdf:type owl:NamedIndividual ,
 	:Organizacao ;
@@ -734,6 +774,11 @@
 	:Organizacao ;
 	:orgSigla "GovReg";
 	:orgNome "Governos Regionais".
+###  http://jcr.di.uminho.pt/m51-clav#org_GPIAAF
+:org_GPIAAF rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "GPIAAF";
+	:orgNome "Gabinete de Prevenção e Investigação de Acidentes com Aeronaves e Acidentes Ferroviários".
 ###  http://jcr.di.uminho.pt/m51-clav#org_HH
 :org_HH rdf:type owl:NamedIndividual ,
 	:Organizacao ;
@@ -879,10 +924,15 @@
 	:Organizacao ;
 	:orgSigla "INSA";
 	:orgNome "Instituto Nacional de Saúde Doutor Ricardo Jorge, I.P.".
-###  http://jcr.di.uminho.pt/m51-clav#org_IP
-:org_IP rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#org_I_P_
+:org_I_P_ rdf:type owl:NamedIndividual ,
 	:Organizacao ;
-	:orgSigla "IP";
+	:orgSigla "I_P_";
+	:orgNome "Institutos Públicos".
+###  http://jcr.di.uminho.pt/m51-clav#org_IP, SA
+:org_IP, SA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IP, SA";
 	:orgNome "Infraestruturas de Portugal, S.A.".
 ###  http://jcr.di.uminho.pt/m51-clav#org_IPAC
 :org_IPAC rdf:type owl:NamedIndividual ,
@@ -919,6 +969,11 @@
 	:Organizacao ;
 	:orgSigla "IRN";
 	:orgNome "Instituto dos Registos e do Notariado, I.P.".
+###  http://jcr.di.uminho.pt/m51-clav#org_ISAN Portugal
+:org_ISAN Portugal rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ISAN Portugal";
+	:orgNome "International Standard Audiovisual Number Portugal".
 ###  http://jcr.di.uminho.pt/m51-clav#org_ISS
 :org_ISS rdf:type owl:NamedIndividual ,
 	:Organizacao ;
@@ -1174,11 +1229,11 @@
 	:Organizacao ;
 	:orgSigla "TIC";
 	:orgNome "Tribunal de Instrução Criminal".
-###  http://jcr.di.uminho.pt/m51-clav#org_TP
-:org_TP rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#org_TComarca
+:org_TComarca rdf:type owl:NamedIndividual ,
 	:Organizacao ;
-	:orgSigla "TP";
-	:orgNome "Turismo de Portugal, I.P.".
+	:orgSigla "TComarca";
+	:orgNome "Tribunais de Comarca".
 ###  http://jcr.di.uminho.pt/m51-clav#org_TR
 :org_TR rdf:type owl:NamedIndividual ,
 	:Organizacao ;
@@ -1189,6 +1244,11 @@
 	:Organizacao ;
 	:orgSigla "Trb";
 	:orgNome "Tribunais".
+###  http://jcr.di.uminho.pt/m51-clav#org_TP
+:org_TP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "TP";
+	:orgNome "Turismo de Portugal, I.P.".
 ###  http://jcr.di.uminho.pt/m51-clav#org_UI
 :org_UI rdf:type owl:NamedIndividual ,
 	:Organizacao ;

@@ -1,13 +1,13 @@
 ### Classe550
-###  http://jcr.di.uminho.pt/m51-clav#na_c550_2
-:na_c550_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Prestação de serviços de segurança, proteção e socorro".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550_1
 :na_c550_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Operações e ações materiais que ocorram tanto em território nacional como no estrangeiro, de forma autónoma ou em cooperação com outras entidades nacionais ou estrangeiras".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550_2
+:na_c550_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Prestação de serviços de segurança, proteção e socorro".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550_3
 :na_c550_3 rdf:type owl:NamedIndividual ,
@@ -86,15 +86,15 @@
 	:ExemploNotaAplicacao ;
 	:conteudo "Verão seguro".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_3
-:exna_c550.10_3 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Programa de proteção de idosos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_2
 :exna_c550.10_2 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Escola segura".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_3
+:exna_c550.10_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Programa de proteção de idosos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_4
 :exna_c550.10_4 rdf:type owl:NamedIndividual ,
@@ -165,11 +165,6 @@
 :exna_c550.10_17 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Realização de notificações".
-
-###  http://jcr.di.uminho.pt/m51-clav#exna_c550.10_18
-:exna_c550.10_18 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo " ".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10_1
 :ne_c550.10_1 rdf:type owl:NamedIndividual ,
@@ -309,12 +304,13 @@ Compreende, ainda, as atividades de prestação das honras de Estado.".
 	:temRelProc :c900.20.601 ;
 	:temRelProc :c900.20.602 ;
 	:temRelProc :c950.20.600 ;
-	:temLegislacao :leg_1307 ;
-	:temLegislacao :leg_958 ;
-	:temLegislacao :leg_674 ;
-	:temLegislacao :leg_652 ;
-	:temLegislacao :leg_585 ;
-	:temLegislacao :leg_413 ;
+	:temLegislacao :leg_1387 ;
+	:temLegislacao :leg_1011 ;
+	:temLegislacao :leg_706 ;
+	:temLegislacao :leg_683 ;
+	:temLegislacao :leg_611 ;
+	:temLegislacao :leg_435 ;
+	:temLegislacao :leg_157 ;
 	:classeStatus "A" ;
 	:descricao "Operações de guarda, de vigia e de apoio à mobilidade, em situações de rotina ou no âmbito de acontecimentos ocasionais e temporários onde a previsão de risco é reduzida, em espaços públicos ou abertos ao público, edifícios e equipamentos públicos, costa marítima, cursos fluviais, parques, matas e florestas.
 Inicia com a ação planeada e termina com o relato da operação.
@@ -376,11 +372,11 @@ Inclui indicação do pagamento do serviço, quando devido, alocação de meios 
 	:temRelProc :c600.10.500 ;
 	:temRelProc :c900.10.001 ;
 	:temRelProc :c950.20.600 ;
-	:temLegislacao :leg_1307 ;
-	:temLegislacao :leg_958 ;
-	:temLegislacao :leg_652 ;
-	:temLegislacao :leg_585 ;
-	:temLegislacao :leg_413 ;
+	:temLegislacao :leg_1387 ;
+	:temLegislacao :leg_1011 ;
+	:temLegislacao :leg_683 ;
+	:temLegislacao :leg_611 ;
+	:temLegislacao :leg_435 ;
 	:classeStatus "A" ;
 	:descricao "Operações de segurança programadas, no âmbito de iniciativas públicas ou privadas de grande visibilidade e de impacto nacional ou cuja previsão de risco seja considerada elevada.
 Inicia com a comunicação, interna ou externa, ou com a requisição do serviço e termina com o relato da operação.
@@ -471,15 +467,15 @@ Inclui articulação das forças de segurança, emissão de alerta aquando da de
 	:temRelProc :c500.30.500 ;
 	:temRelProc :c600.10.500 ;
 	:temRelProc :c950.20.600 ;
-	:temLegislacao :leg_1088 ;
-	:temLegislacao :leg_1010 ;
-	:temLegislacao :leg_882 ;
-	:temLegislacao :leg_780 ;
-	:temLegislacao :leg_652 ;
-	:temLegislacao :leg_589 ;
-	:temLegislacao :leg_585 ;
-	:temLegislacao :leg_413 ;
-	:temLegislacao :leg_1307 ;
+	:temLegislacao :leg_1147 ;
+	:temLegislacao :leg_1068 ;
+	:temLegislacao :leg_930 ;
+	:temLegislacao :leg_818 ;
+	:temLegislacao :leg_683 ;
+	:temLegislacao :leg_616 ;
+	:temLegislacao :leg_611 ;
+	:temLegislacao :leg_435 ;
+	:temLegislacao :leg_1387 ;
 	:classeStatus "A" ;
 	:descricao "Prestação de serviços de proteção e segurança requeridos por forças da ordem, autoridades públicas e entidades privadas.
 Inicia com a requisição do serviço e termina com o relato da operação.
@@ -534,8 +530,8 @@ Inclui o planeamento das condições de segurança, autorização, indicação d
 	:temRelProc :c550.30.200 ;
 	:temRelProc :c550.30.400 ;
 	:temRelProc :c600.10.500 ;
-	:temLegislacao :leg_585 ;
-	:temLegislacao :leg_589 ;
+	:temLegislacao :leg_611 ;
+	:temLegislacao :leg_616 ;
 	:classeStatus "A" ;
 	:descricao "Operações de segurança e proteção de infraestruturas críticas, de pontos sensíveis e espaços considerados potencialmente de elevado grau de ameaça e risco.
 Inicia com a ordem de operação e termina com o relatório.
@@ -582,8 +578,8 @@ Inclui, no âmbito de cada ação, a planificação, a análise do grau de amea�
 	:temRelProc :c500.20.300 ;
 	:temRelProc :c500.30.001 ;
 	:temRelProc :c600.10.500 ;
-	:temLegislacao :leg_589 ;
-	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_616 ;
+	:temLegislacao :leg_611 ;
 	:classeStatus "A" ;
 	:descricao "Operações que visam garantir a segurança das instalações de órgãos de soberania, segurança pessoal de membros de órgãos de soberania e de altas entidades nacionais ou estrangeiras, e de outros cidadãos, quando sujeitos a situação de ameaça relevante.
 Inicia com a ordem de operações e termina com a elaboração do relatório.
@@ -619,7 +615,8 @@ Inclui análise de grau de ameaça, avaliação de risco e alternativa de atuaç
 	:temRelProc :c500.20.003 ;
 	:temRelProc :c600.10.500 ;
 	:temRelProc :c900.10.500 ;
-	:temLegislacao :leg_589 ;
+	:temLegislacao :leg_960 ;
+	:temLegislacao :leg_616 ;
 	:classeStatus "A" ;
 	:descricao "Prestação de escolta e guarda de honra aos órgãos de soberania e de altas entidades, bem como à prestação de honras de Estado.
 Inicia com o pedido e termina com o relatório da ação.
@@ -649,11 +646,6 @@ Inclui a realização da ação.
 :na_c550.10.008_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Controlo do desembarque de passageiros e tripulantes de embarcações e aeronaves".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.008_6
-:na_c550.10.008_6 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "                                                                                                                           ".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c550.10.008_1
 :ne_c550.10.008_1 rdf:type owl:NamedIndividual ,
@@ -686,7 +678,6 @@ Inclui a realização da ação.
 	:temNotaAplicacao :na_c550.10.008_3 ;
 	:temNotaAplicacao :na_c550.10.008_4 ;
 	:temNotaAplicacao :na_c550.10.008_5 ;
-	:temNotaAplicacao :na_c550.10.008_6 ;
 	:temNotaExclusao :ne_c550.10.008_1 ;
 	:temNotaExclusao :ne_c550.10.008_2 ;
 	:temNotaExclusao :ne_c550.10.008_3 ;
@@ -703,9 +694,13 @@ Inclui a realização da ação.
 	:temRelProc :c550.30.400 ;
 	:temRelProc :c600.10.500 ;
 	:temRelProc :c600.40.300 ;
-	:temLegislacao :leg_976 ;
-	:temLegislacao :leg_576 ;
-	:temLegislacao :leg_528 ;
+	:temLegislacao :leg_1030 ;
+	:temLegislacao :leg_602 ;
+	:temLegislacao :leg_554 ;
+	:temLegislacao :leg_552 ;
+	:temLegislacao :leg_296 ;
+	:temLegislacao :leg_164 ;
+	:temLegislacao :leg_45 ;
 	:classeStatus "A" ;
 	:descricao "Operações de controlo das entradas e saídas de pessoas de território nacional através de fronteiras externas, que provenham de, ou se destinem a Estados que não sejam parte da Convenção de Aplicação, ou que utilizem um troço interno de um voo com origem ou destino em Estados que não sejam parte da Convenção, para verificação da conformidade das condições do movimento fronteiriço realizado, e de controlo sobre as zonas internacionais dos portos e dos aeroportos, nomeadamente autorizando ou recusando o acesso de passageiros a tais zonas.                                                     
 Inicia com a apresentação dos documentos de viagem do cidadão cujo movimento está a ser controlado e termina com a autorização de entrada ou saída, através de aposição de carimbo de movimento quando aplicável ou com a recusa de entrada ou saída, no caso das fronteiras aéreas, e com o desembaraço dos navios, no caso das fronteiras marítimas.  
@@ -788,13 +783,13 @@ Inclui eventual cooperação com outras entidades, com elaboração de planos de
 	:temRelProc :c550.10.008 ;
 	:temRelProc :c800.10.602 ;
 	:temRelProc :c600.10.500 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_781 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_589 ;
-	:temLegislacao :leg_531 ;
-	:temLegislacao :leg_768 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1171 ;
+	:temLegislacao :leg_819 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_616 ;
+	:temLegislacao :leg_556 ;
+	:temLegislacao :leg_806 ;
 	:classeStatus "A" ;
 	:descricao "Operações policiais destinadas a vigiar, patrulhar e controlar as fronteiras do espaço sob soberania e jurisdição nacional, do Continente e das Regiões Autónomas, bem como da fronteira comunitária.
 Inicia a preparação com a decisão do Comandante, com a denúncia de infrações ou com a requisição de entidades/organismos parceiros. Termina com o relatório da operação ou da guia de patrulha.
@@ -819,15 +814,15 @@ Inclui a operacionalização da missão.".
 	:NotaAplicacao ;
 	:conteudo "Revista pessoal (em contexto prisional)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_5
-:na_c550.10.010_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Busca (em contexto prisional)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_6
 :na_c550.10.010_6 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Recurso a meios cinotécnicos e de videovigilância (em contexto prisional)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_5
+:na_c550.10.010_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Busca (em contexto prisional)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.010_7
 :na_c550.10.010_7 rdf:type owl:NamedIndividual ,
@@ -887,9 +882,9 @@ Inclui a operacionalização da missão.".
 	:temRelProc :c500.20 ;
 	:temRelProc :c600.40.001 ;
 	:temRelProc :c600.40.002 ;
-	:temLegislacao :leg_1088 ;
-	:temLegislacao :leg_882 ;
-	:temLegislacao :leg_780 ;
+	:temLegislacao :leg_1147 ;
+	:temLegislacao :leg_930 ;
+	:temLegislacao :leg_818 ;
 	:classeStatus "A" ;
 	:descricao "Utilização dos meios comuns e dos meios especiais de segurança que têm em vista a manutenção da ordem e da segurança no estabelecimento prisional.
 Inicia com a ação a realizar e termina com o registo da operação.
@@ -926,10 +921,10 @@ Inclui o controlo de visitantes efetuado no momento de entrada e saída no estab
 	:temRelProc :c500.20.300 ;
 	:temRelProc :c500.10.300 ;
 	:temRelProc :c550.30.002 ;
-	:temLegislacao :leg_1297 ;
-	:temLegislacao :leg_1003 ;
-	:temLegislacao :leg_585 ;
-	:temLegislacao :leg_674 ;
+	:temLegislacao :leg_1374 ;
+	:temLegislacao :leg_1059 ;
+	:temLegislacao :leg_611 ;
+	:temLegislacao :leg_706 ;
 	:classeStatus "A" ;
 	:descricao "Operações de segurança e proteção no ciberespaço, nomeadamente das redes, dos sistemas e dos serviços vitais de informação e comunicação, contra ameaças que ponham em risco o espaço de liberdade individual e coletiva.
 Inicia com a ação de vigilância, constatação de uma vulnerabilidade, existência de ameaça ou denúncia e termina com a reposição da segurança dos sistemas e infraestruturas de comunicação.
@@ -1019,9 +1014,9 @@ Inclui a prevenção, monotorização, análise de risco, a deteção de intrus�
 	:temRelProc :c500.20.003 ;
 	:temRelProc :c500.20.300 ;
 	:temRelProc :c800.10.302 ;
+	:temLegislacao :leg_478 ;
 	:temLegislacao :leg_455 ;
-	:temLegislacao :leg_432 ;
-	:temLegislacao :leg_188 ;
+	:temLegislacao :leg_196 ;
 	:classeStatus "A" ;
 	:descricao "Definição da distribuição de sinalética destinada a transmitir aos utentes perigos, obrigações, restrições, proibições, indicações, avisos e orientações.
 Inicia com a identificação de necessidades ou com o pedido de interessados e termina com o registo da colocação da sinalética.
@@ -1049,6 +1044,7 @@ Inclui diagnóstico, desenho do projeto, a indicação do cadastro da sinalétic
 	:temPai :c550.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
+	:temParticipanteApreciador :org_SEF ;
 	:temParticipanteIniciador :org_Cns ;
 	:temDono :org_Cns ;
 	:temDono :org_SEF ;
@@ -1060,9 +1056,11 @@ Inclui diagnóstico, desenho do projeto, a indicação do cadastro da sinalétic
 	:temRelProc :c500.30.500 ;
 	:temRelProc :c550.10.303 ;
 	:temRelProc :c550.10.306 ;
-	:temLegislacao :leg_976 ;
-	:temLegislacao :leg_576 ;
-	:temLegislacao :leg_816 ;
+	:temLegislacao :leg_1030 ;
+	:temLegislacao :leg_602 ;
+	:temLegislacao :leg_554 ;
+	:temLegislacao :leg_1176 ;
+	:temLegislacao :leg_858 ;
 	:classeStatus "A" ;
 	:descricao "Emissão de um documento a um cidadão estrangeiro, que não seja titular de autorização de residência ou não seja detentor de prorrogação de permanência, que o habilita a apresentar-se num posto de fronteira e a solicitar a entrada no país, e depois de autorizado, a entrar e permanecer em território nacional durante determinado período de tempo e para certas finalidades.
 Inicia com a apresentação do pedido junto da autoridade competente e termina com a concessão de visto que é aposto no documento de viagem do respetivo titular, ou com o indeferimento do pedido.
@@ -1086,9 +1084,10 @@ Inclui a apreciação das condições do titular por parte das autoridades que e
 	:temRelProc :c150.20.300 ;
 	:temRelProc :c500.30.006 ;
 	:temRelProc :c600.40.300 ;
-	:temLegislacao :leg_976 ;
-	:temLegislacao :leg_576 ;
-	:temLegislacao :leg_351 ;
+	:temLegislacao :leg_1030 ;
+	:temLegislacao :leg_602 ;
+	:temLegislacao :leg_554 ;
+	:temLegislacao :leg_370 ;
 	:classeStatus "A" ;
 	:descricao "Operações decorrentes da emissão de pedido de trânsito aeroportuário, efetuado junto de um Estado-membro da UE, para efeitos de afastamento por via aérea de um cidadão de Estado terceiro, com ou sem escolta, nos casos em que o afastamento não se possa realizar em voo direto.
 Inicia-se com a apresentação do pedido de trânsito e termina com a autorização do Estado requerido e a efetivação do afastamento, ou, excecionalmente, quando não haja resposta dentro dos prazos a que o referido Estado está obrigado, com a realização da operação de trânsito, mediante mera notificação.
@@ -1163,8 +1162,8 @@ Inclui preenchimento do pedido de autorização de trânsito aeroportuário.
 	:temRelProc :c550.10.304 ;
 	:temRelProc :c550.10.305 ;
 	:temRelProc :c600.40. ;
-	:temLegislacao :leg_976 ;
-	:temLegislacao :leg_576 ;
+	:temLegislacao :leg_1030 ;
+	:temLegislacao :leg_602 ;
 	:classeStatus "A" ;
 	:descricao "Concessão de autorização a cidadãos de país terceiro para residência em território nacional.
 Inicia com pedido de autorização de residência por parte do interessado e termina com a notificação da decisão.
@@ -1195,7 +1194,7 @@ Inclui, ainda, cancelamento e renovação.
 	:temRelProc :c150.20.300 ;
 	:temRelProc :c400.10.029 ;
 	:temRelProc :c550.10.303 ;
-	:temLegislacao :leg_576 ;
+	:temLegislacao :leg_602 ;
 	:classeStatus "A" ;
 	:descricao "Concessão de autorização de caráter excecional a nacionais de países terceiros que não reúnam todos os requisitos para exercício de atividade profissional subordinada, ou independente, para regularização da sua situação em território nacional.
 Inicia com apresentação de manifestação de interesse do requerente e termina com a decisão sobre a concessão excecional de autorização de residência temporária.
@@ -1233,8 +1232,8 @@ Inclui abertura de procedimento oficioso, análise dos meios de prova relativos 
 	:temRelProc :c500.30.005 ;
 	:temRelProc :c550.10.008 ;
 	:temRelProc :c550.10.303 ;
-	:temLegislacao :leg_1169 ;
-	:temLegislacao :leg_669 ;
+	:temLegislacao :leg_1230 ;
+	:temLegislacao :leg_702 ;
 	:classeStatus "A" ;
 	:descricao "Processamento dos pedidos e análise das condições de concessão de asilo ou proteção subsidiária no âmbito dos estatutos de requerente de asilo, de refugiado e de proteção subsidiária.
 Inicia com o pedido do interessado junto da autoridade responsável sob a forma escrita ou oral, do qual, no segundo caso, é de imediato lavrado auto pela autoridade policial que recebe o pedido e remetido à autoridade responsável, e termina com decisão relativa à concessão ou recusa de estatuto de refugiado ou de proteção subsidiária.  
@@ -1269,9 +1268,9 @@ Em caso de admissibilidade do pedido segue-se uma segunda fase do procedimento o
 	:temRelProc :c500.30.007 ;
 	:temRelProc :c550.10.301 ;
 	:temRelProc :c550.10.008 ;
-	:temLegislacao :leg_976 ;
-	:temLegislacao :leg_576 ;
-	:temLegislacao :leg_279 ;
+	:temLegislacao :leg_1030 ;
+	:temLegislacao :leg_602 ;
+	:temLegislacao :leg_296 ;
 	:classeStatus "A" ;
 	:descricao "Processamento dos pedidos de readmissão que ocorrem nos termos de convenções internacionais, ao abrigo das quais os cidadãos estrangeiros que se encontrem ilegalmente no território de um Estado, vindos diretamente de outro Estado, podem ser por este readmitidos, mediante pedido formulado pelo Estado em cujo território se encontrem.
 Inicia com a receção do pedido do Estado requerente e termina com a aceitação e readmissão do cidadão estrangeiro, ou com a recusa do pedido.
@@ -1329,21 +1328,21 @@ Inclui tratamento do pedido formulado pelo Estado requerente e, se existente, do
 	:temRelProc :c800.10.304 ;
 	:temRelProc :c800.10.306 ;
 	:temRelProc :c800.10.606 ;
-	:temLegislacao :leg_1002 ;
+	:temLegislacao :leg_1058 ;
 	:classeStatus "A" ;
 	:descricao "Operações de segurança e aplicação de medidas de minimização do risco de medicamentos e produtos de saúde, tendo como objetivo a salvaguarda da saúde pública.
 Inicia com a submissão da medida pelos titulares ou com a elaboração de proposta de medida pela autoridade do medicamento e termina com a comunicação da operação.
 Inclui parecer de avaliação de publicidade, indicação de medida a aplicar, validação e avaliação da medida, verificação da implementação.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.600_1
-:na_c550.10.600_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Resolução e gestão de incidentes críticos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.600_2
 :na_c550.10.600_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Intervenção táctica em situações de violência concertada e de elevada perigosidade, complexidade e risco".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.600_1
+:na_c550.10.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Resolução e gestão de incidentes críticos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.10.600_3
 :na_c550.10.600_3 rdf:type owl:NamedIndividual ,
@@ -1409,15 +1408,16 @@ Inclui parecer de avaliação de publicidade, indicação de medida a aplicar, v
 	:temRelProc :c500.20.003 ;
 	:temRelProc :c550.10.002 ;
 	:temRelProc :c600.10.500 ;
-	:temLegislacao :leg_652 ;
-	:temLegislacao :leg_413 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_781 ;
-	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_683 ;
+	:temLegislacao :leg_435 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1171 ;
+	:temLegislacao :leg_819 ;
+	:temLegislacao :leg_1241 ;
 	:temLegislacao :leg_9 ;
-	:temLegislacao :leg_149 ;
-	:temLegislacao :leg_1307 ;
+	:temLegislacao :leg_918 ;
+	:temLegislacao :leg_155 ;
+	:temLegislacao :leg_1387 ;
 	:classeStatus "A" ;
 	:descricao "Operações reativas ou de intervenção não programadas a fenómenos de desacatos, tumultos, violência concertada, catástrofes naturais, incidentes críticos ou acidentes não naturais que provocam a alteração dos níveis de segurança de pessoas e bens, assim como do normal funcionamento das instituições.
 Inicia com a sinalização do foco de insegurança e termina com o relato da operação.
@@ -1427,15 +1427,15 @@ Inclui diagnóstico de situação, operacionalização e atualização do ponto 
 	:NotaAplicacao ;
 	:conteudo "Difusão de alertas de risco (alertas sobre o clima, sismos, estado do mar, incêndios, etc.)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c550.20_2
-:na_c550.20_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Apoio preventivo de bombeiros a espetáculos e eventos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.20_3
 :na_c550.20_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Processamento de pedidos de socorro em caso de incêndio, naufrágio, inundação, etc".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20_2
+:na_c550.20_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apoio preventivo de bombeiros a espetáculos e eventos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.20_4
 :na_c550.20_4 rdf:type owl:NamedIndividual ,
@@ -1571,14 +1571,14 @@ Inclui diagnóstico de situação, operacionalização e atualização do ponto 
 	:temRelProc :c800.10.303 ;
 	:temRelProc :c800.10.304 ;
 	:temRelProc :c800.10.306 ;
-	:temLegislacao :leg_884 ;
-	:temLegislacao :leg_591 ;
-	:temLegislacao :leg_538 ;
-	:temLegislacao :leg_601 ;
-	:temLegislacao :leg_485 ;
-	:temLegislacao :leg_499 ;
-	:temLegislacao :leg_455 ;
-	:temLegislacao :leg_456 ;
+	:temLegislacao :leg_932 ;
+	:temLegislacao :leg_618 ;
+	:temLegislacao :leg_563 ;
+	:temLegislacao :leg_628 ;
+	:temLegislacao :leg_509 ;
+	:temLegislacao :leg_522 ;
+	:temLegislacao :leg_478 ;
+	:temLegislacao :leg_479 ;
 	:classeStatus "A" ;
 	:descricao "Operações de advertência e sinalização de perigos e riscos potenciais ou iminentes.
 Inicia com a emissão do aviso das condições de perigo ou risco e termina com o registo da emissão de alerta.
@@ -1599,6 +1599,16 @@ Inclui articulação de entidades competentes para a análise de dados, validaç
 	:ExemploNotaAplicacao ;
 	:conteudo "Vigilância da alteração de cursos de água".
 
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_3
+:exna_c550.20.002_3 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Vigilância contra derrames tóxicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_4
+:exna_c550.20.002_4 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Vigilância à radioatividade no ambiente".
+
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_5
 :exna_c550.20.002_5 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
@@ -1609,20 +1619,10 @@ Inclui articulação de entidades competentes para a análise de dados, validaç
 	:ExemploNotaAplicacao ;
 	:conteudo "Vigilância contra intempéries".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_3
-:exna_c550.20.002_3 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Vigilância contra derrames tóxicos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_7
 :exna_c550.20.002_7 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Vigilância marítima".
-
-###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_4
-:exna_c550.20.002_4 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Vigilância à radioatividade no ambiente".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c550.20.002_8
 :exna_c550.20.002_8 rdf:type owl:NamedIndividual ,
@@ -1703,12 +1703,12 @@ Inclui articulação de entidades competentes para a análise de dados, validaç
 	:temRelProc :c550.20.500 ;
 	:temRelProc :c800.10.301 ;
 	:temRelProc :c800.10.302 ;
-	:temLegislacao :leg_1068 ;
-	:temLegislacao :leg_937 ;
-	:temLegislacao :leg_765 ;
-	:temLegislacao :leg_656 ;
-	:temLegislacao :leg_562 ;
-	:temLegislacao :leg_456 ;
+	:temLegislacao :leg_1126 ;
+	:temLegislacao :leg_988 ;
+	:temLegislacao :leg_803 ;
+	:temLegislacao :leg_687 ;
+	:temLegislacao :leg_587 ;
+	:temLegislacao :leg_479 ;
 	:classeStatus "A" ;
 	:exemploNA "Vigilância de matas e florestas" ;
 	:exemploNA "Vigilância da alteração de cursos de água" ;
@@ -1784,9 +1784,9 @@ Inclui emissão de alerta e diagnóstico de situação, quando necessário.".
 	:temRelProc :c150.20.300 ;
 	:temRelProc :c300.10.005 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1068 ;
-	:temLegislacao :leg_656 ;
-	:temLegislacao :leg_695 ;
+	:temLegislacao :leg_1126 ;
+	:temLegislacao :leg_687 ;
+	:temLegislacao :leg_729 ;
 	:classeStatus "A" ;
 	:descricao "Preparação sistemática de pessoas e animais através da simulação de cenários de emergência e catastróficos, visando treinar a destreza, os equipamentos e a comunicação das forças de proteção civil e socorro no terreno e testar os procedimentos planeados.
 Inicia com a identificação da necessidade do exercício ou com o pedido de simulacro das entidades e termina com o envio de recomendações.
@@ -1853,10 +1853,10 @@ Inclui a produção do relato.".
 	:temRelProc :c900.10.001 ;
 	:temRelProc :c900.10.002 ;
 	:temRelProc :c950.20.600 ;
-	:temLegislacao :leg_335 ;
-	:temLegislacao :leg_761 ;
-	:temLegislacao :leg_755 ;
-	:temLegislacao :leg_881 ;
+	:temLegislacao :leg_354 ;
+	:temLegislacao :leg_799 ;
+	:temLegislacao :leg_793 ;
+	:temLegislacao :leg_929 ;
 	:classeStatus "A" ;
 	:descricao "Operação de segurança preventiva em situações de potencial risco, no âmbito de eventos ocasionais que ocorram no espaço público ou aberto ao público.
 Inicia com o pedido interno ou com a comunicação da requisição do serviço pelas entidades e termina com o relato do exercício.
@@ -1904,8 +1904,8 @@ Inclui planeamento da ação, avaliação de risco, identificação dos meios ne
 	:temRelProc :c500.20.002 ;
 	:temRelProc :c500.20.003 ;
 	:temRelProc :c500.20.300 ;
-	:temLegislacao :leg_508 ;
-	:temLegislacao :leg_1253 ;
+	:temLegislacao :leg_532 ;
+	:temLegislacao :leg_1324 ;
 	:classeStatus "A" ;
 	:descricao "Identificação e caracterização dos recursos e meios disponíveis e mais facilmente mobilizáveis, ao nível local, regional e nacional em situação de acidente grave ou catástrofe.
 Inicia com identificação e termina com o registo.
@@ -1925,11 +1925,6 @@ Inclui recolha de informação.
 :ne_c550.20.006_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A operacionalização de ações de socorro deve ser considerada em 550.20.500 – Ação de proteção e socorro".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.006_3
-:ne_c550.20.006_3 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo " ".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c550.20.006
 :c550.20.006 rdf:type owl:NamedIndividual ,
@@ -1953,15 +1948,14 @@ Inclui recolha de informação.
 	:temNotaAplicacao :na_c550.20.006_1 ;
 	:temNotaExclusao :ne_c550.20.006_1 ;
 	:temNotaExclusao :ne_c550.20.006_2 ;
-	:temNotaExclusao :ne_c550.20.006_3 ;
 	:temRelProc :c150.20.300 ;
 	:temRelProc :c150.40.500 ;
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c550.10.005 ;
 	:temRelProc :c550.20.500 ;
 	:temRelProc :c700.20.102 ;
-	:temLegislacao :leg_490 ;
-	:temLegislacao :leg_176 ;
+	:temLegislacao :leg_514 ;
+	:temLegislacao :leg_183 ;
 	:classeStatus "A" ;
 	:descricao "Prestação em tempo útil de informações e de adequado encaminhamento em situações de urgência relativas a questões de saúde, incêndios, assaltos e outras, visando assegurar a interoperabilidade, compatibilidade e interação entre as centrais de emergência e os sistemas de informação das várias entidades envolvidas e acionamento dos sistemas de socorro.
 Inicia com a receção da chamada e termina com o encaminhamento adequado para a resposta de emergência.
@@ -2022,15 +2016,15 @@ Inclui informações necessárias ao correto encaminhamento e acionamento dos me
 	:NotaAplicacao ;
 	:conteudo "Proteção em caso de contaminação nuclear, biológica, química e radiológica".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_12
-:na_c550.20.500_12 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Criação de infraestruturas provisórias".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_13
 :na_c550.20.500_13 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Preparação e resposta a emergências radiológicas e nucleares".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c550.20.500_12
+:na_c550.20.500_12 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Criação de infraestruturas provisórias".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c550.20.500_1
 :ne_c550.20.500_1 rdf:type owl:NamedIndividual ,
@@ -2095,19 +2089,19 @@ Inclui informações necessárias ao correto encaminhamento e acionamento dos me
 	:temRelProc :c550.30.600 ;
 	:temRelProc :c650.20.600 ;
 	:temRelProc :c700.20.300 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_781 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_1068 ;
-	:temLegislacao :leg_656 ;
-	:temLegislacao :leg_591 ;
-	:temLegislacao :leg_585 ;
-	:temLegislacao :leg_589 ;
-	:temLegislacao :leg_538 ;
-	:temLegislacao :leg_539 ;
-	:temLegislacao :leg_508 ;
-	:temLegislacao :leg_279 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1171 ;
+	:temLegislacao :leg_819 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1126 ;
+	:temLegislacao :leg_687 ;
+	:temLegislacao :leg_618 ;
+	:temLegislacao :leg_611 ;
+	:temLegislacao :leg_616 ;
+	:temLegislacao :leg_563 ;
+	:temLegislacao :leg_564 ;
+	:temLegislacao :leg_532 ;
+	:temLegislacao :leg_296 ;
 	:classeStatus "A" ;
 	:descricao "Operação de auxílio ou assistência prestada em situações de perigo ou de riscos naturais ou tecnológicos com entidades militares e civis.
 Inicia com a decisão do tipo de intervenção e termina com o relato da operação.
@@ -2167,11 +2161,11 @@ Inclui diagnósticos de situação, definição e acionamento dos meios e recurs
 	:temRelProc :c150.30.001 ;
 	:temRelProc :c300.10.005 ;
 	:temRelProc :c550.10.005 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_781 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_54 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1171 ;
+	:temLegislacao :leg_819 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_67 ;
 	:classeStatus "A" ;
 	:descricao "Intervenção em situações de estados de emergência declarado quando se verifiquem ou ameacem verificar-se casos de calamidade pública.
 Inicia com a declaração de estado de emergência sob a forma de decreto do Presidente da República ou representante nas Regiões Autónomas e termina com a revogação do decreto ou pelo decurso do prazo fixado.
@@ -2222,15 +2216,16 @@ Inclui a audição do Governo e a autorização da Assembleia da República, a r
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteDecisor :org_EMGFA ;
+	:temParticipanteAssessor :org_DGPDN ;
 	:temDono :org_FA ;
 	:temNotaAplicacao :na_c550.30.001_1 ;
 	:temNotaAplicacao :na_c550.30.001_2 ;
 	:temNotaExclusao :ne_c550.30.001_1 ;
 	:temNotaExclusao :ne_c550.30.001_2 ;
 	:temRelProc :c150.20.300 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_781 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1171 ;
+	:temLegislacao :leg_819 ;
 	:classeStatus "A" ;
 	:descricao "Ações decorrentes da participação em operações que assegurem a defesa militar da República e a organização da resistência ativa, a fim de garantir a integridade do território, a defesa do espaço aéreo e marítimo nacionais, e a liberdade e segurança das populações contra qualquer agressão ou ameaças externas.
 Inicia com a determinação da Tutela e ou do Chefe do Estado-Maior-General das Forças Armadas e termina com a aprovação do relatório final.
@@ -2255,6 +2250,7 @@ Inclui autorização dos chefes dos ramos das Forças Armadas, nomeação e publ
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteDecisor :org_EMGFA ;
+	:temParticipanteAssessor :org_DGPDN ;
 	:temDono :org_FA ;
 	:temNotaAplicacao :na_c550.30.002_1 ;
 	:temNotaExclusao :ne_c550.30.002_1 ;
@@ -2263,11 +2259,11 @@ Inclui autorização dos chefes dos ramos das Forças Armadas, nomeação e publ
 	:temRelProc :c300.10.005 ;
 	:temRelProc :c550.10.011 ;
 	:temRelProc :c550.30.004 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_1297 ;
-	:temLegislacao :leg_1011 ;
-	:temLegislacao :leg_1113 ;
+	:temLegislacao :leg_1171 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1374 ;
+	:temLegislacao :leg_1069 ;
+	:temLegislacao :leg_1172 ;
 	:classeStatus "A" ;
 	:descricao "Condução de operações militares no ciberespaço, assegurando a liberdade de ação do país no ciberespaço e, quando necessário e determinado, a exploração proactiva do ciberespaço para dificultar o seu uso hostil contra o interesse nacional ou impedir ameaças que ponham em risco a soberania e a segurança nacional.
 Inicia com a avaliação da ameaça e termina com e termina com a aprovação do relatório final.
@@ -2298,6 +2294,8 @@ Inclui a identificação de potenciais atacantes e as suas intenções e a respo
 	:temPai :c550.30 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_FA ;
+	:temParticipanteAssessor :org_FS ;
 	:temDono :org_EMGFA ;
 	:temNotaAplicacao :na_c550.30.003_1 ;
 	:temNotaAplicacao :na_c550.30.003_2 ;
@@ -2306,10 +2304,11 @@ Inclui a identificação de potenciais atacantes e as suas intenções e a respo
 	:temRelProc :c150.30.001 ;
 	:temRelProc :c300.10.005 ;
 	:temRelProc :c550.10.005 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_781 ;
-	:temLegislacao :leg_54 ;
-	:temLegislacao :leg_986 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1171 ;
+	:temLegislacao :leg_819 ;
+	:temLegislacao :leg_67 ;
+	:temLegislacao :leg_1042 ;
 	:classeStatus "A" ;
 	:descricao "Intervenção em situações de estados de sítio a fim de garantir a soberania, a independência, a integridade territorial ou a ordem constitucional democrática e a segurança dos cidadãos.
 Inicia com a declaração de estado de sítio sob a forma de decreto do Presidente da República e termina com a  revogação do decreto ou pelo decurso do prazo fixado.
@@ -2333,6 +2332,7 @@ Inclui a audição do Governo e a autorização da Assembleia da República, a r
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteDecisor :org_EMGFA ;
+	:temParticipanteAssessor :org_DGPDN ;
 	:temDono :org_FA ;
 	:temNotaAplicacao :na_c550.30.004_1 ;
 	:temNotaExclusao :ne_c550.30.004_1 ;
@@ -2341,9 +2341,9 @@ Inclui a audição do Governo e a autorização da Assembleia da República, a r
 	:temRelProc :c200.30.001 ;
 	:temRelProc :c300.10.005 ;
 	:temRelProc :c550.30.002 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_781 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1171 ;
+	:temLegislacao :leg_819 ;
 	:classeStatus "A" ;
 	:descricao "Atuação no Espaço Estratégico de Interesse Nacional Conjuntural a fim de proteger e evacuar cidadãos nacionais em áreas de tensão ou crise, através de ações autónomas ou eventualmente coligadas.
 Inicia com a caracterização da situação e termina com a aprovação do relatório final.
@@ -2367,6 +2367,7 @@ Inclui determinação da Tutela e/ou do CEMGFA, autorização dos chefes dos Ram
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteDecisor :org_EMGFA ;
+	:temParticipanteAssessor :org_DGPDN ;
 	:temDono :org_FA ;
 	:temNotaAplicacao :na_c550.30.005_1 ;
 	:temNotaExclusao :ne_c550.30.005_1 ;
@@ -2376,9 +2377,9 @@ Inclui determinação da Tutela e/ou do CEMGFA, autorização dos chefes dos Ram
 	:temRelProc :c200.10.800 ;
 	:temRelProc :c300.10.005 ;
 	:temRelProc :c550.10.005 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_781 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1171 ;
+	:temLegislacao :leg_819 ;
 	:classeStatus "A" ;
 	:descricao "Atuação no Espaço Estratégico de Interesse Nacional Conjuntural a fim de proceder à extração, proteção ou reforço de contingentes e FND, em ambiente não permissivo, com oposição.
 Inicia com a caracterização da situação e termina com a aprovação do relatório final.
@@ -2415,7 +2416,7 @@ Inclui determinação da Tutela e/ou do CEMGFA, autorização dos chefes dos Ram
 	:temRelProc :c150.20.300 ;
 	:temRelProc :c200.10.800 ;
 	:temRelProc :c300.10.005 ;
-	:temLegislacao :leg_1112 ;
+	:temLegislacao :leg_1171 ;
 	:classeStatus "A" ;
 	:descricao "Capacitar a prontidão de pessoal e meios, incluindo os diferentes órgãos e ramos militares para uma articulação concertada em território nacional e internacional.  em exercícios conjuntos e combinados.
 Inicia com a avaliação da necessidade ou com o planeamento da ação e termina com o relatório final.
@@ -2456,6 +2457,7 @@ Inclui a elaboração dos relatórios de primeiras impressões (FIR), do relató
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteDecisor :org_EMGFA ;
+	:temParticipanteAssessor :org_DGPDN ;
 	:temDono :org_FA ;
 	:temNotaAplicacao :na_c550.30.200_1 ;
 	:temRelProc :c150.20.300 ;
@@ -2467,10 +2469,10 @@ Inclui a elaboração dos relatórios de primeiras impressões (FIR), do relató
 	:temRelProc :c550.10.005 ;
 	:temRelProc :c550.10.008 ;
 	:temRelProc :c800.10.602 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_781 ;
-	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1171 ;
+	:temLegislacao :leg_819 ;
+	:temLegislacao :leg_1241 ;
 	:classeStatus "A" ;
 	:descricao "Empregar forças e meios militares a fim de assegurar a satisfação dos compromissos internacionais assumidos no quadro mútuo de defesa coletiva.
 Inicia com a avaliação da necessidade e termina com o relatório final.
@@ -2483,7 +2485,7 @@ Inclui determinação do CEMGFA e autorização dos chefes dos Ramos, nomeação
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.400_2
 :na_c550.30.400_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "  Fiscalização marítima e aérea, vigilância aérea e terrestre".
+	:conteudo "Fiscalização marítima e aérea, vigilância aérea e terrestre".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c550.30.400_3
 :na_c550.30.400_3 rdf:type owl:NamedIndividual ,
@@ -2500,15 +2502,15 @@ Inclui determinação do CEMGFA e autorização dos chefes dos Ramos, nomeação
 	:NotaAplicacao ;
 	:conteudo "Vigiar e controlar as principais rotas internacionais aéreas e marítimas que intersetam o Espaço Estratégico de Interesse Nacional Permanente".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.400_1
-:ne_c550.30.400_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "As ações de controlo de fronteiras devem ser consideradas em 550.10.008 – Controlo de pessoas nas fronteiras".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.400_2
 :ne_c550.30.400_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "Excluem-se as ações no âmbito do Regime jurídico aplicável ao trabalho aéreo".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.400_1
+:ne_c550.30.400_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As ações de controlo de fronteiras devem ser consideradas em 550.10.008 – Controlo de pessoas nas fronteiras".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c550.30.400_3
 :ne_c550.30.400_3 rdf:type owl:NamedIndividual ,
@@ -2543,10 +2545,10 @@ Inclui determinação do CEMGFA e autorização dos chefes dos Ramos, nomeação
 	:temRelProc :c550.10.005 ;
 	:temRelProc :c550.10.008 ;
 	:temRelProc :c800.10.602 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_781 ;
-	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1171 ;
+	:temLegislacao :leg_819 ;
+	:temLegislacao :leg_1241 ;
 	:classeStatus "A" ;
 	:descricao "Intervenção de controlo dos espaços sob soberania nacional e/ou no Espaço Estratégico de Interesse Nacional Permanente para assegurar a sua plena utilização em segurança, no respeito pelo Direito Internacional.
 Inicia com a determinação da Tutela e/ou do CEMGFA e termina com a aprovação do relatório final.
@@ -2600,10 +2602,10 @@ Inclui autorização dos chefes dos Ramos, nomeação e publicitação dos parti
 	:temRelProc :c300.10.005 ;
 	:temRelProc :c550.20.500 ;
 	:temRelProc :c800.10.602 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_781 ;
-	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1171 ;
+	:temLegislacao :leg_819 ;
+	:temLegislacao :leg_1241 ;
 	:classeStatus "A" ;
 	:descricao "Participação das forças militares em operações de resposta em cenário de guerra no âmbito da OTAN, a fim de contribuir para a segurança internacional.
 Inicia-se com os despachos da tutela e das direções dos organismos participantes e termina com o relatório final.
@@ -2648,6 +2650,7 @@ Inclui autorização dos chefes dos Ramos, nomeação e publicitação dos parti
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteDecisor :org_EMGFA ;
+	:temParticipanteAssessor :org_DGPDN ;
 	:temDono :org_FA ;
 	:temNotaAplicacao :na_c550.30.601_1 ;
 	:temNotaAplicacao :na_c550.30.601_2 ;
@@ -2661,13 +2664,13 @@ Inclui autorização dos chefes dos Ramos, nomeação e publicitação dos parti
 	:temRelProc :c200.10.800 ;
 	:temRelProc :c200.30.001 ;
 	:temRelProc :c300.10.005 ;
-	:temLegislacao :leg_1178 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_585 ;
-	:temLegislacao :leg_589 ;
-	:temLegislacao :leg_538 ;
-	:temLegislacao :leg_539 ;
-	:temLegislacao :leg_279 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1171 ;
+	:temLegislacao :leg_611 ;
+	:temLegislacao :leg_616 ;
+	:temLegislacao :leg_563 ;
+	:temLegislacao :leg_564 ;
+	:temLegislacao :leg_296 ;
 	:classeStatus "A" ;
 	:descricao "Ações decorrentes de compromissos, de acordos, tratados e convenções internacionais, de participação em operações e missões em tempo de paz, integrando forças militares e de segurança.
 Inicia com os despachos da tutela e das direções dos organismos participantes e termina com o relatório final.
