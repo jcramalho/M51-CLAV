@@ -1,13 +1,13 @@
 ### Classe750
-###  http://jcr.di.uminho.pt/m51-clav#na_c750_2
-:na_c750_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Aplicável tanto às entidades que prestam os serviços referidos como às que solicitam a prestação dos mesmos.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750_1
 :na_c750_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Inclui as ações de formação para a qualificação dos recursos humanos da administração pública, bem como a realização de estágios.".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750_2
+:na_c750_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Aplicável tanto às entidades que prestam os serviços referidos como às que solicitam a prestação dos mesmos.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c750_1
 :ne_c750_1 rdf:type owl:NamedIndividual ,
@@ -46,20 +46,20 @@ qualificação profissional e valorização permanente, em qualquer área do con
 	:NotaAplicacao ;
 	:conteudo "Candidatos selecionados ou encaminhados para a formação profissional".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_3
-:na_c750.10.001_3 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_4
+:na_c750.10.001_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Concursos especiais (maiores de 23 anos)".
+	:conteudo "Seriação dos candidatos ao curso Curso de Estudos Avançados em Gestão Pública (CEAGP)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_2
 :na_c750.10.001_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Candidatos ao ingresso no âmbito da escolaridade obrigatória e do ensino regular profissional".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_4
-:na_c750.10.001_4 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_3
+:na_c750.10.001_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Seriação dos candidatos ao curso Curso de Estudos Avançados em Gestão Pública (CEAGP)".
+	:conteudo "Concursos especiais (maiores de 23 anos)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_5
 :na_c750.10.001_5 rdf:type owl:NamedIndividual ,
@@ -214,24 +214,26 @@ qualificação profissional e valorização permanente, em qualquer área do con
 	:eAntecessorDe :c750.10.002 ;
 	:eAntecessorDe :c750.10.602 ;
 	:eSucessorDe :c900.10.504 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_1034 ;
-	:temLegislacao :leg_937 ;
-	:temLegislacao :leg_953 ;
-	:temLegislacao :leg_1353 ;
-	:temLegislacao :leg_802 ;
-	:temLegislacao :leg_691 ;
-	:temLegislacao :leg_641 ;
-	:temLegislacao :leg_634 ;
-	:temLegislacao :leg_632 ;
-	:temLegislacao :leg_496 ;
-	:temLegislacao :leg_316 ;
-	:temLegislacao :leg_273 ;
-	:temLegislacao :leg_291 ;
-	:temLegislacao :leg_316 ;
-	:temLegislacao :leg_197 ;
-	:temLegislacao :leg_60 ;
+	:temLegislacao :leg_1147 ;
+	:temLegislacao :leg_1063 ;
+	:temLegislacao :leg_961 ;
+	:temLegislacao :leg_978 ;
+	:temLegislacao :leg_1396 ;
+	:temLegislacao :leg_824 ;
+	:temLegislacao :leg_710 ;
+	:temLegislacao :leg_657 ;
+	:temLegislacao :leg_650 ;
+	:temLegislacao :leg_648 ;
+	:temLegislacao :leg_511 ;
+	:temLegislacao :leg_330 ;
+	:temLegislacao :leg_285 ;
+	:temLegislacao :leg_303 ;
+	:temLegislacao :leg_330 ;
+	:temLegislacao :leg_209 ;
+	:temLegislacao :leg_65 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Avaliação da capacidade para a frequência de curso ou de ação de formação, bem como a realização das tarefas inerentes ao concurso ou admissão, designadamente as provas específicas, e à satisfação de pré-requisitos (realização de provas de aptidão física, funcional ou vocacional).
 Inicia com a candidatura a curso ou inscrição/encaminhamento para formação e termina com a publicação da lista de graduação final ou lista de admitidos a formação.
 Inclui realização de provas de ingresso, aplicação de fórmulas e classificações mínimas, seriação dos candidatos, elaboração de pautas finais e respetiva homologação.".
@@ -256,15 +258,15 @@ Termina com publicitação de lista de admitidos e excluídos.".
 Inclui a elaboração de listas ou pautas definitivas.
 Termina com a publicitação.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.002_2
-:na_c750.10.002_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Matrícula ou inscrição de alunos do ensino profissional".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.002_1
 :na_c750.10.002_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Matrícula ou inscrição de alunos ou formandos do ensino à distância".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.002_2
+:na_c750.10.002_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Matrícula ou inscrição de alunos do ensino profissional".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.002_3
 :na_c750.10.002_3 rdf:type owl:NamedIndividual ,
@@ -365,6 +367,7 @@ Termina com a publicitação.
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
 	:temParticipanteComunicador :org_DGES ;
+	:temParticipanteIniciador :org_AP ;
 	:temDono :org_ES ;
 	:temDono :org_AP ;
 	:temNotaAplicacao :na_c750.10.002_1 ;
@@ -402,13 +405,15 @@ Termina com a publicitação.
 	:eAntecessorDe :c800.20.001 ;
 	:eAntecessorDe :c800.20.002 ;
 	:eAntecessorDe :c800.20.500 ;
-	:temLegislacao :leg_489 ;
-	:temLegislacao :leg_316 ;
-	:temLegislacao :leg_312 ;
-	:temLegislacao :leg_291 ;
-	:temLegislacao :leg_316 ;
-	:temLegislacao :leg_60 ;
+	:temLegislacao :leg_504 ;
+	:temLegislacao :leg_330 ;
+	:temLegislacao :leg_325 ;
+	:temLegislacao :leg_303 ;
+	:temLegislacao :leg_330 ;
+	:temLegislacao :leg_65 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Realização ou renovação de matrícula em cursos ou inscrição em ações de formação.
 Inicia com o pedido de acesso ou ingresso e termina com a entrega de comprovativo de matrícula ou inscrição.
 Inclui verificação de dados de identificação e validação da existência dos requisitos necessários para efeito de matrícula ou inscrição.
@@ -452,29 +457,31 @@ Inclui verificação de dados de identificação e validação da existência do
 	:eSinteseDe :c750.10.600 ;
 	:eSinteseDe :c750.10.602 ;
 	:eSinteseDe :c750.30.601 ;
-	:temLegislacao :leg_1038 ;
-	:temLegislacao :leg_476 ;
-	:temLegislacao :leg_199 ;
-	:temLegislacao :leg_69 ;
-	:temLegislacao :leg_59 ;
-	:temLegislacao :leg_316 ;
-	:temLegislacao :leg_312 ;
-	:temLegislacao :leg_60 ;
-	:temLegislacao :leg_826 ;
-	:temLegislacao :leg_631 ;
+	:temLegislacao :leg_1067 ;
+	:temLegislacao :leg_491 ;
+	:temLegislacao :leg_211 ;
+	:temLegislacao :leg_74 ;
+	:temLegislacao :leg_64 ;
+	:temLegislacao :leg_330 ;
+	:temLegislacao :leg_325 ;
+	:temLegislacao :leg_65 ;
+	:temLegislacao :leg_848 ;
+	:temLegislacao :leg_647 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Atualização continuada da informação cadastral do aluno ou formando.
 Inicia com o registo dos dados biográficos, curriculares, do aproveitamento escolar e ou profissionais do aluno ou formando e termina com a indicação de conclusão de estudos ou da ação de formação ou  com a prescrição da matrícula ou abate ao efetivo batalhão esolcar ouo colegial. 
 Inclui validação de dados do aluno ou formando, registo de dados relativos à assiduidade e à aplicação do regime disciplinar, registo e atualização de dados relativos ao aproveitamento escolar e percurso académico ou de ensino.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.600_1
-:na_c750.10.600_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo " Controlo da assiduidade durante o estágio".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.600_2
 :na_c750.10.600_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "                                ".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.600_1
+:na_c750.10.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Controlo da assiduidade durante o estágio".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c750.10.600_1
 :ne_c750.10.600_1 rdf:type owl:NamedIndividual ,
@@ -502,9 +509,11 @@ Inclui validação de dados do aluno ou formando, registo de dados relativos à 
 	:eAntecessorDe :c750.30.601 ;
 	:eSucessorDe :c850.10.002 ;
 	:eSucessorDe :c850.10.003 ;
-	:temLegislacao :leg_316 ;
-	:temLegislacao :leg_691 ;
+	:temLegislacao :leg_330 ;
+	:temLegislacao :leg_710 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Verificação do cumprimento do dever do aluno ou formando de frequentar as atividades letivas, escolares ou formativas.
 Inicia com o registo de faltas do aluno ou formando e termina com a síntese de ocorrências relativas à assiduidade e pontualidade do mesmo.
 Inclui justificação de faltas e notificação dos interessados.".
@@ -546,15 +555,15 @@ Inclui justificação de faltas e notificação dos interessados.".
 	:NotaAplicacao ;
 	:conteudo "Exames nacionais dos ensinos básico e secundário".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.601_4
-:na_c750.10.601_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Inscrição em exame de melhoria de nota".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.601_3
 :na_c750.10.601_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Inscrição em época especial de exame".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.601_4
+:na_c750.10.601_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Inscrição em exame de melhoria de nota".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.601_5
 :na_c750.10.601_5 rdf:type owl:NamedIndividual ,
@@ -629,8 +638,10 @@ Inclui justificação de faltas e notificação dos interessados.".
 	:eSucessorDe :c800.20.001 ;
 	:eSucessorDe :c800.20.002 ;
 	:eAntecessorDe :c800.20.500 ;
-	:temLegislacao :leg_316 ;
+	:temLegislacao :leg_330 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Realização das atividades inerentes à inscrição para prestação de provas de avaliação de conhecimentos.
 Inicia com a inscrição e termina com a atribuição do número interno de identificação, nos casos previstos legalmente.
 Inclui, conforme o grau de ensino, ciclo de estudos ou formação em apreço, proposição de realização de prova ou de defesa, entrega de termo de aceitação ou parecer do orientador, de declaração do departamento e de autorização de depósito no repositório bem como dos comprovativos da inscrição e frequência.".
@@ -694,9 +705,11 @@ Inclui, conforme o grau de ensino, ciclo de estudos ou formação em apreço, pr
 	:eCruzadoCom :c750.30.300 ;
 	:eCruzadoCom :c750.30.600 ;
 	:eCruzadoCom :c750.30.602 ;
-	:temLegislacao :leg_312 ;
-	:temLegislacao :leg_659 ;
+	:temLegislacao :leg_325 ;
+	:temLegislacao :leg_675 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Acolhimento e disponibilização de recursos educativos adequados a cada caso, durante o percurso escolar ou formativo, de forma a facilitar o desenvolvimento académico, pessoal e sócio-emocional do estudante ou formando, com vista à sua integração e participação em todas as esferas da sociedade.
 Inicia com a manifestação expressa da necessidade ou sinalização de acompanhamento especial e termina com a satisfação da necessidade ou com a conclusão do grau de ensino ou da formação.
 Inclui procedimentos de referenciação e avaliação, a proposta de adoção de medidas e soluções apropriadas à necessidade expressa, através de programa/plano educativo individual e seu acompanhamento.".
@@ -790,12 +803,14 @@ Inclui procedimentos de referenciação e avaliação, a proposta de adoção de
 	:eSucessorDe :c800.20.001 ;
 	:eSucessorDe :c800.20.002 ;
 	:eSucessorDe :c800.20.500 ;
-	:temLegislacao :leg_1086 ;
-	:temLegislacao :leg_1019 ;
-	:temLegislacao :leg_311 ;
-	:temLegislacao :leg_60 ;
-	:temLegislacao :leg_191 ;
+	:temLegislacao :leg_1118 ;
+	:temLegislacao :leg_1048 ;
+	:temLegislacao :leg_324 ;
+	:temLegislacao :leg_65 ;
+	:temLegislacao :leg_203 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Desenvolvimento e estudo dos currículos, programas das disciplinas, programas e orientações relativas às áreas ou estruturas curriculares e áreas curriculares não disciplinares, bem como a sua alteração ou extinção, em coerência com os objetivos do sistema educativo.
 Inicia com a apresentação de propostas e termina com a decisão.
 Inclui análise de conteúdos informativos, elaboração e recolha de pareceres e deliberação por parte dos órgãos de gestão.".
@@ -825,14 +840,16 @@ Inclui análise de conteúdos informativos, elaboração e recolha de pareceres 
 	:eAntecessorDe :c750.20.300 ;
 	:eCruzadoCom :c750.10.602 ;
 	:eAntecessorDe :c750.20.600 ;
-	:temLegislacao :leg_1187 ;
-	:temLegislacao :leg_1197 ;
-	:temLegislacao :leg_1086 ;
-	:temLegislacao :leg_60 ;
-	:temLegislacao :leg_1047 ;
-	:temLegislacao :leg_316 ;
-	:temLegislacao :leg_92 ;
+	:temLegislacao :leg_1224 ;
+	:temLegislacao :leg_1236 ;
+	:temLegislacao :leg_1118 ;
+	:temLegislacao :leg_65 ;
+	:temLegislacao :leg_1077 ;
+	:temLegislacao :leg_330 ;
+	:temLegislacao :leg_97 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Desenvolvimento de programas e referenciais das ações de formação, bem como a sua alteração ou extinção, em coerência com os objetivos de formação.
 Inicia com a propostas e termina com a decisão.
 Inclui análise de conteúdos informativos, elaboração e recolha de pareceres e deliberação por parte dos órgãos competentes.".
@@ -886,9 +903,12 @@ Inclui análise de conteúdos informativos, elaboração e recolha de pareceres 
 	:eSucessorDe :c800.20.001 ;
 	:eSucessorDe :c800.20.002 ;
 	:eSucessorDe :c800.20.500 ;
-	:temLegislacao :leg_1251 ;
-	:temLegislacao :leg_535 ;
+	:temLegislacao :leg_1226 ;
+	:temLegislacao :leg_1293 ;
+	:temLegislacao :leg_551 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Apreciação dos recursos didático-pedagógicos no que diz respeito à sua adequação às atividades educativas e formativas a que se destinam.
 Inicia com a identificação de necessidades de material didático e termina com a divulgação ou disponibilização dos recursos.
 Inclui elaboração ou seleção de fontes de informação e aplicação de critérios para apreciação de material didático.".
@@ -934,7 +954,10 @@ Inclui elaboração ou seleção de fontes de informação e aplicação de crit
 	:eSucessorDe :c750.20.001 ;
 	:eSintetizadoPor :c750.20.300 ;
 	:eCruzadoCom :c750.20.600 ;
+	:temLegislacao :leg_689 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Organização do ano letivo em qualquer nível de ensino, bem como à organização da formação.
 Inicia com a listagem dos alunos ou formandos inscritos e termina com a divulgação dos horários e das turmas, turnos ou grupos.
 Inclui constituição das turmas, turnos ou grupos.".
@@ -1026,20 +1049,22 @@ Inclui constituição das turmas, turnos ou grupos.".
 	:eCruzadoCom :c750.30.600 ;
 	:eCruzadoCom :c800.10.604 ;
 	:eCruzadoCom :c800.10.605 ;
-	:temLegislacao :leg_1198 ;
-	:temLegislacao :leg_1112 ;
-	:temLegislacao :leg_1034 ;
-	:temLegislacao :leg_802 ;
-	:temLegislacao :leg_691 ;
-	:temLegislacao :leg_900 ;
-	:temLegislacao :leg_641 ;
-	:temLegislacao :leg_634 ;
-	:temLegislacao :leg_632 ;
-	:temLegislacao :leg_496 ;
-	:temLegislacao :leg_316 ;
-	:temLegislacao :leg_273 ;
-	:temLegislacao :leg_197 ;
+	:temLegislacao :leg_1237 ;
+	:temLegislacao :leg_1147 ;
+	:temLegislacao :leg_1063 ;
+	:temLegislacao :leg_824 ;
+	:temLegislacao :leg_710 ;
+	:temLegislacao :leg_924 ;
+	:temLegislacao :leg_657 ;
+	:temLegislacao :leg_650 ;
+	:temLegislacao :leg_648 ;
+	:temLegislacao :leg_511 ;
+	:temLegislacao :leg_330 ;
+	:temLegislacao :leg_285 ;
+	:temLegislacao :leg_209 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Concretização de atividades formativas, letivas e extra curriculares.
 Inicia com a análise do programa de curso ou formação e termina com a concretização das atividades curriculares letivas e formativas.
 Inclui elaboração de plano de aula ou plano de formação, implementação de estratégias técnico-pedagógicas, definição de planos de recuperação, de acompanhamento ou desenvolvimento, produção de sumários, elaboração de relatórios periódicos das aulas, apresentação de propostas de atividades, monitorização do desenvolvimento das aprendizagens e interação entre docentes ou formadores e alunos ou formandos.".
@@ -1091,21 +1116,27 @@ Inclui elaboração de plano de aula ou plano de formação, implementação de 
 	:eSucessorDe :c300.10.005 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eSintetizadoPor :c750.30.601 ;
-	:temLegislacao :leg_616 ;
+	:temLegislacao :leg_1037 ;
+	:temLegislacao :leg_1039 ;
+	:temLegislacao :leg_632 ;
+	:temLegislacao :leg_510 ;
+	:temLegislacao :leg_5 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Concretização de atividades práticas de ensino e treino animal.
 Inicia com a definição do programa de formação adaptado a cada caso, e termina com a concretização das atividades.
 Inclui elaboração de plano de aula, a avaliação do desenvolvimento animal, relativos a graus de dificuldade ou capacidades desenvolvidas.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.30_1
-:na_c750.30_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Exames".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.30_2
 :na_c750.30_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Relatórios de estágio".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.30_1
+:na_c750.30_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Exames".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.30_3
 :na_c750.30_3 rdf:type owl:NamedIndividual ,
@@ -1184,10 +1215,12 @@ Inclui o reconhecimento de graus e diplomas obtidos no estrangeiro, a pedido dos
 	:eSucessorDe :c800.20.001 ;
 	:eSucessorDe :c800.20.002 ;
 	:eSucessorDe :c800.20.500 ;
-	:temLegislacao :leg_1379 ;
-	:temLegislacao :leg_1378 ;
-	:temLegislacao :leg_1019 ;
+	:temLegislacao :leg_1422 ;
+	:temLegislacao :leg_1421 ;
+	:temLegislacao :leg_1048 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Elaboração de referenciais e modalidades de avaliação quer das aprendizagens e qualificações, quer do sistema educativo.
 Inicia com a apresentação de propostas e termina com a aprovação.
 Inclui verificação e análise de propostas, elaboração e recolha de pareceres e deliberação por parte dos órgãos de gestão.".
@@ -1246,10 +1279,12 @@ Inclui verificação e análise de propostas, elaboração e recolha de parecere
 	:eSucessorDe :c750.30.001 ;
 	:eAntecessorDe :c900.20.200 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_1379 ;
-	:temLegislacao :leg_1378 ;
-	:temLegislacao :leg_1019 ;
+	:temLegislacao :leg_1422 ;
+	:temLegislacao :leg_1421 ;
+	:temLegislacao :leg_1048 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Conceção de instrumentos adequados à avaliação das diversas aprendizagens e às circunstâncias em que ocorrem.
 Inicia com a elaboração da matriz e projeto de instrumento de avaliação e termina com a apresentação de instrumento de avaliação.
 Inclui seleção de materiais-suporte dos itens de avaliação, elaboração de instruções ou informações a incluir na prova, definição de critérios de classificação, construção de grelhas de classificação, adaptação de provas para alunos ou formandos portadores de deficiência e aprovação superior do instrumento de avaliação, quando devido.".
@@ -1295,10 +1330,12 @@ Inclui seleção de materiais-suporte dos itens de avaliação, elaboração de 
 	:eSucessorDe :c750.20.600 ;
 	:eCruzadoCom :c750.30.300 ;
 	:eAntecessorDe :c750.30.601 ;
-	:temLegislacao :leg_1379 ;
-	:temLegislacao :leg_1378 ;
-	:temLegislacao :leg_1019 ;
+	:temLegislacao :leg_1422 ;
+	:temLegislacao :leg_1421 ;
+	:temLegislacao :leg_1048 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Execução organizada de modalidades de avaliação. Inicia com a aplicação de instrumentos de avaliação e termina com a classificação do aluno ou formando pelo professor corretor.
 Inclui elaboração da lista dos alunos que realizam a prova (pautas de chamada), distribuição de enunciados, cotação das respostas dos alunos ou formandos, elaboração de grelhas de classificação e pautas provisórias.".
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c750.30.601_1
@@ -1339,10 +1376,12 @@ Inclui elaboração da lista dos alunos que realizam a prova (pautas de chamada)
 	:eCruzadoCom :c600.30.001 ;
 	:eAntecessorDe :c750.10.300 ;
 	:eSucessorDe :c750.30.600 ;
-	:temLegislacao :leg_1379 ;
-	:temLegislacao :leg_1378 ;
-	:temLegislacao :leg_1019 ;
+	:temLegislacao :leg_1422 ;
+	:temLegislacao :leg_1421 ;
+	:temLegislacao :leg_1048 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Lançamento e publicitação dos resultados da avaliação das aprendizagens.
 Inicia com a análise de grelhas de classificação e pautas provisórias e termina com o lançamento de resultados definitivos e a sua publicitação.
 Inclui reapreciação da avaliação da prova sempre que solicitado e o registo dos resultados definitivos.".
@@ -1386,10 +1425,12 @@ Inclui reapreciação da avaliação da prova sempre que solicitado e o registo 
 	:eCruzadoCom :c500.40.500 ;
 	:eAntecessorDe :c750.10.001 ;
 	:eAntecessorDe :c750.10.002 ;
-	:temLegislacao :leg_1379 ;
-	:temLegislacao :leg_1378 ;
-	:temLegislacao :leg_1019 ;
+	:temLegislacao :leg_1422 ;
+	:temLegislacao :leg_1421 ;
+	:temLegislacao :leg_1048 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Ações de validação e valorização de conhecimentos, aptidões, competências e qualificações adquiridas pela experiência de ensino, laboral e de vida, através da atribuição de equivalência ou reconhecimento de um grau de habilitação académica ou profissional.
 Inicia com a verificação e análise do percurso formativo e termina com a definição da qualificação.
 Inclui elaboração do portfólio individual que explicita e organiza as evidências das competências adquiridas.".

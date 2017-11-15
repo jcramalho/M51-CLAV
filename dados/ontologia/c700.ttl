@@ -4,15 +4,15 @@
 	:NotaExclusao ;
 	:conteudo "As ações de promoção da saúde e/ou prevenção de doenças que se revistam da forma de campanhas de divulgação e informação, devem ser consideradas em \"Dinamização e comunicação institucional/ Execução de atividades de dinamização da sociedade\" (900.10);".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c700_1
-:na_c700_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Atos clínicos realizados no quadro da promoção da saúde  (rastreio, vacinação, consulta do viajante, etc.).".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c700_1
 :ne_c700_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A constituição de redes de referenciação dos serviços e unidades de prestação de serviços de saúde (primária e secundária) deve ser considerada em \"Planeamento e gestão estratégica/ Planeamento, avaliação e melhoria de serviços\" (150.20);".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700_1
+:na_c700_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atos clínicos realizados no quadro da promoção da saúde  (rastreio, vacinação, consulta do viajante, etc.).".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c700_3
 :ne_c700_3 rdf:type owl:NamedIndividual ,
@@ -113,6 +113,7 @@
 	:temParticipanteComunicador :org_AL ;
 	:temParticipanteComunicador :org_ACES ;
 	:temParticipanteComunicador :org_SMT ;
+	:temParticipanteComunicador :org_HH ;
 	:temDono :org_UPCS ;
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c700.10.001_1 ;
@@ -133,11 +134,13 @@
 	:eSintetizadoPor :c700.20.402 ;
 	:eSintetizadoPor :c700.20.404 ;
 	:eAntecessorDe :c800.10.300 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_1133 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_222 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_1169 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_234 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição e monitorização das inscrições de utentes que aguardam a realização de consulta numa unidade de saúde.
 Inicia com a inscrição na consulta e termina com a notificação ao utente do agendamento da consulta.
 Inclui identificação do utente, avaliação clinica da necessidade da consulta, verificação de disponibilidade e marcação de consulta.".
@@ -175,16 +178,18 @@ Inclui identificação do utente, avaliação clinica da necessidade da consulta
 	:eSintetizadoPor :c700.20.407 ;
 	:eSintetizadoPor :c700.20.500 ;
 	:eSintetizadoPor :c700.20.600 ;
-	:temLegislacao :leg_505 ;
-	:temLegislacao :leg_1260 ;
-	:temLegislacao :leg_657 ;
-	:temLegislacao :leg_658 ;
-	:temLegislacao :leg_979 ;
-	:temLegislacao :leg_980 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_222 ;
+	:temLegislacao :leg_520 ;
+	:temLegislacao :leg_1302 ;
+	:temLegislacao :leg_673 ;
+	:temLegislacao :leg_674 ;
+	:temLegislacao :leg_1005 ;
+	:temLegislacao :leg_1006 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_234 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Informação decorrente de um conjunto de intervenções sequenciais integradas de saúde e apoio social em sequência de uma avaliação conjunta que visa promover a autonomia melhorando a funcionalidade do utente em situação de dependência, através da sua reabilitação, readaptação e reinserção familiar e social.
 Inicia com a avaliação da necessidade de cuidados continuados e preparação da alta hospitalar em articulação com outros serviços e termina com a decisão e respetiva notificação sobre a proposta de referenciação.
 Inclui as atividades necessárias à execução do processo de referenciação de acordo com os interesses dos utentes e os recursos disponíveis na comunidade, nomeadamente, a nota de alta, os pareceres das equipas de gestão de altas, o envio dos processos de ingresso e de admissão para as unidades prestadoras. Inclui ainda, o consentimento informado e o termo de aceitação de internamento.
@@ -200,6 +205,7 @@ Inclui as atividades necessárias à execução do processo de referenciação d
 	:processoTransversal "S" ;
 	:temParticipanteComunicador :org_ARS ;
 	:temParticipanteDecisor :org_ACSS ;
+	:temParticipanteComunicador :org_HH ;
 	:temDono :org_UPCS ;
 	:temRelProc :c150.10.600 ;
 	:temRelProc :c150.20.101 ;
@@ -214,11 +220,13 @@ Inclui as atividades necessárias à execução do processo de referenciação d
 	:temRelProc :c700.20.400 ;
 	:temRelProc :c700.20.401 ;
 	:temRelProc :c700.20.402 ;
-	:temLegislacao :leg_715 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_222 ;
+	:temLegislacao :leg_734 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_234 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Informação decorrente de um conjunto de procedimentos de encaminhamento de utentes para realização de cirurgias.
 Inicia com a referenciação do médico de familia que encaminha o utente para consulta de especialidade ou na sequência de atendimemnto de urgencia na unidade hospitalar e termina com a inscrição do utente na lista de inscritos para cirurgia e respetiva notificação ao interessado. 
 Incluí inscrição dos utentes através da plataforma para a gestão de inscritos para cirurgia e referenciação para outras unidades do setor público ou setor privado ou social através da emissão de um cheque cirúrgico.
@@ -258,8 +266,10 @@ Incluí inscrição dos utentes através da plataforma para a gestão de inscrit
 	:eSintetizadoPor :c700.10.006 ;
 	:eCruzadoCom :c700.10.002 ;
 	:eCruzadoCom :c700.10.003 ;
-	:temLegislacao :leg_814 ;
+	:temLegislacao :leg_836 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Inscrição de utilizadores de unidades de saúde privadas ou de caráter social.
 Inicia com a manifestação do interesse ou necessidade de utilização de uma unidade de saúde e termina com o fim do interesse ou necessidade.
 Inclui identificação de utilizador, verificação do sistema de apoio à doença utilizado e registo de dados.".
@@ -301,9 +311,12 @@ Inclui identificação de utilizador, verificação do sistema de apoio à doen�
 	:eCruzadoCom :c400.10.040 ;
 	:eSintetizadoPor :c250.20.001 ;
 	:eSintetizadoPor :c700.10.006 ;
-	:temLegislacao :leg_184 ;
-	:temLegislacao :leg_814 ;
+	:temLegislacao :leg_295 ;
+	:temLegislacao :leg_194 ;
+	:temLegislacao :leg_836 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "A identificação dos trabalhadores expostos a agentes biológicos perigosos, com a indicação da natureza e, se possível, do agente e do grau de exposição.
 Inicia com a inscrição do trabalhador e termina com o registo de cessação de funções.
 Inclui os resultados da vigilância da saúde de cada trabalhador com referência ao respetivo posto de trabalho ou função e o registo de acidentes ou incidentes.
@@ -343,16 +356,18 @@ Inclui os resultados da vigilância da saúde de cada trabalhador com referênci
 	:temNotaAplicacao :na_c700.10.006_2 ;
 	:temNotaExclusao :ne_c700.10.006_1 ;
 	:temNotaExclusao :ne_c700.10.006_2 ;
-	:temRelProc :ctodososde700500.10.001 ;
-	:temRelProc :c500.10.301 ;
-	:temRelProc :c450.10.073 ;
-	:temRelProc :c150.20.303 ;
-	:temRelProc :c800.10.001 ;
-	:temRelProc :c800.10.002 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.20.501 ;
-	:temLegislacao :leg_45 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c450.10.073 ;
+	:eSuplementoPara :c150.20.303 ;
+	:eCruzadoCom :c800.10.001 ;
+	:eCruzadoCom :c800.10.002 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.501 ;
+	:temLegislacao :leg_49 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição de dados relativos à prestação de cuidados de saúde a utentes, relevantes para o conhecimento do seu quadro clinico. 
 Inicia com o registo da inscrição do utente e termina com a informação relativa ao seu óbito.
 Inclui integração de informação clinica, resumo médico com os dados clínicos mais importantes relativos aos medicamentos prescritos, às diferentes intervenções clinicas e cirúrgicas, bem como aos meios complementares de diagnóstico e terapêutica.
@@ -390,6 +405,8 @@ Inclui integração de informação clinica, resumo médico com os dados clínic
 	:eSintetizadoPor :c300.30.008 ;
 	:eCruzadoCom :c700.10.501 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição de animais em hospitais e clinicas veterinárias. 
 Inicia com a manifestação do interesse ou necessidade de utilização de uma unidade de saúde veterinária e termina com o fim do interesse ou necessidade.
 Inclui identificação do animal e registo de dados.".
@@ -422,8 +439,10 @@ Inclui identificação do animal e registo de dados.".
 	:eSuplementoPara :c700.10.500 ;
 	:temRelProc :c700.20.700 ;
 	:temRelProc :c700.20.800 ;
-	:temLegislacao :leg_45 ;
+	:temLegislacao :leg_49 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição de animais para consultas e e outros cuidados de saúde. 
 Inicia com a inscrição e temina com a notificação do agendamento do cuidado de saúde pretendido. 
 Inclui identificação do animal, avaliação clinica da necessidade da consulta, verificação de disponibilidade e marcação de consulta.
@@ -517,15 +536,17 @@ Compreende, igualmente, os atos clínicos de caráter preventivo (consultas, ras
 	:eSintetizadoPor :c700.20.300 ;
 	:eSintetizadoPor :c700.20.403 ;
 	:eCruzadoCom :c800.10.607 ;
-	:temLegislacao :leg_1186 ;
-	:temLegislacao :leg_923 ;
-	:temLegislacao :leg_369 ;
-	:temLegislacao :leg_453 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_1327 ;
+	:temLegislacao :leg_1223 ;
+	:temLegislacao :leg_947 ;
+	:temLegislacao :leg_385 ;
+	:temLegislacao :leg_468 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_1370 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Prestação de cuidados de prevenção de saúde primária através de ações pelas quais se confere imunidade recorrendo a meios artificiais para prevenir doenças.
 Inicia com o pedido ou com a verificação da necessidade de vacina e termina com a administração da mesma.
 Inclui consulta do Plano Nacional de Vacinação, verificação das vacinas em falta ou necessárias e registo da imunização administrada.".
@@ -570,11 +591,13 @@ Inclui consulta do Plano Nacional de Vacinação, verificação das vacinas em f
 	:eCruzadoCom :c800.10.600 ;
 	:eCruzadoCom :c800.10.601 ;
 	:eCruzadoCom :c800.10.607 ;
-	:temLegislacao :leg_734 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_222 ;
+	:temLegislacao :leg_753 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_234 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Prestação de cuidados de prevenção de saúde secundária praticados através de um conjunto de ações ou atividades de base comunitária e populacional programado em articulação com diversas autoridades de saúde e destinadas a detetar ou identificar precocemente doenças específicas junto de determinados grupos de população alvo.
 Inicia com a informação da realização do rastreio e termina com a avaliação do mesmo.
 Inclui realização de testes de saúde, análise dos resultados e eventual encaminhamento para consulta.".
@@ -661,9 +684,11 @@ Inclui realização de testes de saúde, análise dos resultados e eventual enca
 	:eCruzadoCom :c400.10.040 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eSintetizadoPor :c700.10.006 ;
-	:temLegislacao :leg_240 ;
-	:temLegislacao :leg_560 ;
+	:temLegislacao :leg_252 ;
+	:temLegislacao :leg_576 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Cuidados de prevenção secundária de saúde através da realização de atos clínicos envolvendo os cidadãos no sentido de os consciencializar e responsabilizar pelas suas próprias escolhas em matéria de saúde e bem-estar.
 Inicia com o diagnóstico de necessidades de formação/informação em matéria de saúde e termina com a realização da ação de promoção.
 Inclui desenvolvimento de atos clínicos e orientação dos utentes em relação a matérias de saúde e bem-estar.
@@ -725,8 +750,10 @@ Inclui desenvolvimento de atos clínicos e orientação dos utentes em relação
 	:eAntecessorDe :c550.20.006 ;
 	:eCruzadoCom :c700.20.300 ;
 	:eCruzadoCom :c700.20.403 ;
-	:temLegislacao :leg_810 ;
+	:temLegislacao :leg_832 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Cuidados de prevenção secundária de saúde através da realização de atos de assistência médica no âmbito das competências profissionais do médico de saúde pública.
 Inicia com a intervenção das autoridades de saúde, sempre que instadas e/ou alertadas para situações potencialmente criticas de saúde pública e termina com relatório onde se elabora o diagnóstico e propõe medidas.
 Inclui ativação de meios de prevenção e relato de resultados. ".
@@ -813,16 +840,18 @@ Inclui ativação de meios de prevenção e relato de resultados. ".
 	:eCruzadoCom :c700.20.407 ;
 	:eCruzadoCom :c700.20.500 ;
 	:eCruzadoCom :c700.20.600 ;
-	:temLegislacao :leg_103 ;
-	:temLegislacao :leg_362 ;
-	:temLegislacao :leg_103 ;
-	:temLegislacao :leg_240 ;
-	:temLegislacao :leg_664 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_265 ;
-	:temLegislacao :leg_1216 ;
+	:temLegislacao :leg_109 ;
+	:temLegislacao :leg_378 ;
+	:temLegislacao :leg_109 ;
+	:temLegislacao :leg_252 ;
+	:temLegislacao :leg_680 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1258 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Prestação continuada de assistência médica e de cuidados de saúde por médico de medicina geral e familiar.
 Inicia com a realização de consulta e termina com a avaliação de resultados.
 Inclui elaboração de diagnóstico, aplicação de fármacos, registo dos atos médicos praticados e acompanhamento do utente.".
@@ -881,13 +910,15 @@ Inclui elaboração de diagnóstico, aplicação de fármacos, registo dos atos 
 	:eCruzadoCom :c700.20.407 ;
 	:eCruzadoCom :c700.20.500 ;
 	:eCruzadoCom :c700.20.600 ;
-	:temLegislacao :leg_975 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_265 ;
-	:temLegislacao :leg_1216 ;
+	:temLegislacao :leg_1001 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1258 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Prestação de assistência médica a vítimas de acidente ou de doença súbita.
 Inicia com o pedido de assistência e termina com a estabilização do utente pela equipa de emergência médica ou com o encaminhamento do sinistrado para unidade de saúde adequada.
 Inclui registo sonoro do pedido e respetivo atendimento, eventual reencaminhamento da chamada, encaminhamento de meios de assistência médica e aplicação de cuidados médicos e de enfermagem adequados à situação.".
@@ -900,11 +931,6 @@ Inclui registo sonoro do pedido e respetivo atendimento, eventual reencaminhamen
 :na_c700.20.400_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Internamento compulsivo".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.401_2
-:na_c700.20.401_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Cedência de medicação a utentes em ambulatório".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c700.20.400
 :c700.20.400 rdf:type owl:NamedIndividual ,
@@ -939,23 +965,30 @@ Inclui registo sonoro do pedido e respetivo atendimento, eventual reencaminhamen
 	:eCruzadoCom :c700.20.407 ;
 	:eCruzadoCom :c700.20.500 ;
 	:eCruzadoCom :c700.20.600 ;
-	:temLegislacao :leg_648 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_265 ;
-	:temLegislacao :leg_804 ;
-	:temLegislacao :leg_1306 ;
-	:temLegislacao :leg_1109 ;
-	:temLegislacao :leg_1307 ;
-	:temLegislacao :leg_1216 ;
-	:temLegislacao :leg_575 ;
-	:temLegislacao :leg_1300 ;
+	:temLegislacao :leg_664 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_826 ;
+	:temLegislacao :leg_1349 ;
+	:temLegislacao :leg_1144 ;
+	:temLegislacao :leg_1350 ;
+	:temLegislacao :leg_1258 ;
+	:temLegislacao :leg_591 ;
+	:temLegislacao :leg_1343 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Acolhimento em unidade hospitalar para tratamento de episódio agudo ou acompanhamento de doença crónica.
  Inicia com o internamento numa unidade de especialidade Hospitalar e termina com a estabilização dos sintomas revelados, emitindo-se uma nota de alta hospitalar.
  Inclui o diagnóstico, prescrição e monitorização da evolução da doença (consultas subsequentes). Inclui ainda, actos das várias especialidades clinicas e administração de fármacos hospitalares para doenças específicas, bem como o registo dos actos praticados no sistema de informação.
 ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.401_2
+:na_c700.20.401_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Cedência de medicação a utentes em ambulatório".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.401_1
 :na_c700.20.401_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -994,26 +1027,28 @@ Inclui registo sonoro do pedido e respetivo atendimento, eventual reencaminhamen
 	:eCruzadoCom :c700.20.407 ;
 	:eCruzadoCom :c700.20.500 ;
 	:eCruzadoCom :c700.20.600 ;
-	:temLegislacao :leg_744 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_265 ;
-	:temLegislacao :leg_1216 ;
+	:temLegislacao :leg_763 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1258 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Acolhimento em unidade hospitalar para realização de cirurgia ambulatória.
 Inicia com a consulta pré-operatória e termina com a emissão da alta hospitalar.
 Incluí todos os actos praticados no âmbito da atividade no hospital e o registo dos actos praticados no sistema de informação.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_1
-:na_c700.20.402_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Consultas subsequentes, teleconsultas e consultas domiciliárias".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_2
 :na_c700.20.402_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Consultas de medicina do trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_1
+:na_c700.20.402_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Consultas subsequentes, teleconsultas e consultas domiciliárias".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_3
 :na_c700.20.402_3 rdf:type owl:NamedIndividual ,
@@ -1056,13 +1091,15 @@ Incluí todos os actos praticados no âmbito da atividade no hospital e o regist
 	:eCruzadoCom :c700.20.407 ;
 	:eCruzadoCom :c700.20.500 ;
 	:eCruzadoCom :c700.20.600 ;
-	:temLegislacao :leg_744 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_265 ;
-	:temLegislacao :leg_1216 ;
+	:temLegislacao :leg_763 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1258 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Cuidados de saúde que envolvem diagnóstico, prescrição e monitorização da evolução da doença realizada por especialidade médica.
 Inicia-se com a referenciação do médico dos cuidados de saúde primários (no médico de família ou no médico assistente, fora do Serviço Nacional de Saúde -SNS) ou por solicitação de médico de uma outra especialidade hospitalar para uma unidade de referência e termina com a estabilização dos sintomas revelados mediante a frequência de consultas de especialidade.
 Inclui o registo dos atos praticados no sistema de informação.
@@ -1096,13 +1133,15 @@ Inclui o registo dos atos praticados no sistema de informação.
 	:eCruzadoCom :c700.20.407 ;
 	:eCruzadoCom :c700.20.500 ;
 	:eCruzadoCom :c700.20.600 ;
-	:temLegislacao :leg_744 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_265 ;
-	:temLegislacao :leg_1216 ;
+	:temLegislacao :leg_763 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1258 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Atendimento de episódios agudos de doença ou emergências.
 Inicia com o registo do doente no serviço de urgência e termina com a emissão de nota de alta ou transferência para internamento.  
 Inclui o registo dos actos praticados no sistema de informação.
@@ -1163,13 +1202,15 @@ Inclui o registo dos actos praticados no sistema de informação.
 	:temRelProc :c700.20.407 ;
 	:temRelProc :c700.20.500 ;
 	:temRelProc :c700.20.600 ;
-	:temLegislacao :leg_744 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_265 ;
-	:temLegislacao :leg_1216 ;
+	:temLegislacao :leg_763 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1258 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Intervenção terapêutica em ambiente hospitalar.
 Inicia com o encaminhamento do utente para as sessões e termina com a alta, ou seja, com o fim do episódio de tratamento em hospital de dia, tendo sido realizadas todas as sessões de hospital de dia prescritas.
 ".
@@ -1190,21 +1231,23 @@ Inicia com o encaminhamento do utente para as sessões e termina com a alta, ou 
 	:eCruzadoCom :c700.20.400 ;
 	:eCruzadoCom :c700.20.401 ;
 	:eCruzadoCom :c700.20.402 ;
-	:temLegislacao :leg_123 ;
+	:temLegislacao :leg_129 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Cuidados de saúde hospitalares especializados prestados no estrangeiro que, por falta de meios técnicos ou humanos, não possam ser prestados em Portugal.
 Inicia com a assunção de que o país não dispõe de condições para tratar o doente e que o mesmo pode ser referenciado para outro país e termina com o regresso do utente ao país.
 Inclui os procedimentos específicos definidos na lei, nomeadamente, o relatório clínico, o parecer da Comissão de Assessoria Técnica e a decisão final da autoridade de saúde competente.  
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.406_2
-:na_c700.20.406_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Execução de atividades incluidas no Contrato-Programa".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.406_1
 :na_c700.20.406_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Execução de programas verticais Hospitalares".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.406_2
+:na_c700.20.406_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Execução de atividades incluidas no Contrato-Programa".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c700.20.406
 :c700.20.406 rdf:type owl:NamedIndividual ,
@@ -1228,12 +1271,15 @@ Inclui os procedimentos específicos definidos na lei, nomeadamente, o relatóri
 	:eSintetizadoPor :c700.20.300 ;
 	:eSintetizadoPor :c700.20.400 ;
 	:eSintetizadoPor :c700.20.403 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_265 ;
-	:temLegislacao :leg_1216 ;
+	:temLegislacao :leg_763 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1258 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Atividades que concorrem para o apoio à realização do diagnóstico, tratamento e acompanhamento de doenças no âmbito de Programas Verticais.
 Inicia com a inclusão do utente no programa e termina com a cessação da prestação de cuidados que lhe deu origem.
 Incluí todos os atos necessários ao tratamento.
@@ -1242,6 +1288,11 @@ Incluí todos os atos necessários ao tratamento.
 :ne_c700.20.407_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "Os cuidados de reabilitação deve ser considerados em 700.20.500 – Prestação de cuidados de reabilitação".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.500_1
+:ne_c700.20.500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os cuidados de convalescença devem ser considerados em 700.20.407 – Prestação de cuidados de convalescença".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c700.20.407
 :c700.20.407 rdf:type owl:NamedIndividual ,
@@ -1269,23 +1320,27 @@ Incluí todos os atos necessários ao tratamento.
 	:eCruzadoCom :c700.20.402 ;
 	:eCruzadoCom :c700.20.403 ;
 	:eCruzadoCom :c700.20.404 ;
-	:temLegislacao :leg_1294 ;
-	:temLegislacao :leg_1260 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_265 ;
-	:temLegislacao :leg_1216 ;
+	:temLegislacao :leg_520 ;
+	:temLegislacao :leg_1337 ;
+	:temLegislacao :leg_1302 ;
+	:temLegislacao :leg_1404 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1258 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Internamento para utentes com necessidade de cuidados clinicos de reabilitação, em unidades específica e por um período de tempo inferior a trinta (30) dias articulado com Hospital.
 Inicia com o tratamento e supervisão clínica, continuada e intensiva na sequência de internamento hospitalar e termina preferencialmente com a recuperação global do utente e nota de alta.
 Inclui o diagnóstico e todos os atos necessários ao tratamento.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.500_1
-:ne_c700.20.500_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Os cuidados de convalescença devem ser considerados em 700.20.407 – Prestação de cuidados de convalescença".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.600_1
+:na_c700.20.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Situações de internamento nas unidades hospitalares específicas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c700.20.500
 :c700.20.500 rdf:type owl:NamedIndividual ,
@@ -1312,23 +1367,22 @@ Inclui o diagnóstico e todos os atos necessários ao tratamento.
 	:eCruzadoCom :c700.20.402 ;
 	:eCruzadoCom :c700.20.403 ;
 	:eCruzadoCom :c700.20.404 ;
-	:temLegislacao :leg_1294 ;
-	:temLegislacao :leg_1260 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_265 ;
-	:temLegislacao :leg_1216 ;
+	:temLegislacao :leg_520 ;
+	:temLegislacao :leg_1337 ;
+	:temLegislacao :leg_1302 ;
+	:temLegislacao :leg_1404 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1258 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Cuidados de saúde prestados a doentes em unidades de internamento de caracter temporário para prestar apoio social e cuidados de saúde de manutenção a pessoas que previnam ou retardem o agravamento da situação de dependência, favorecendo o conforto e a qualidade.
 Inicia com o internamento e termina com a alta e a recuperação global do utente.
 Inclui, o diagnóstico e definição das diferentes patologias, a identificação de deficiências e incapacidades existentes, a definição do prognóstico e avaliação do potencial de reabilitação, o planeamento e prescrição do tratamento.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.600_1
-:na_c700.20.600_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Situações de internamento nas unidades hospitalares específicas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.600_2
 :na_c700.20.600_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1360,36 +1414,44 @@ Inclui, o diagnóstico e definição das diferentes patologias, a identificaçã
 	:eCruzadoCom :c700.20.402 ;
 	:eCruzadoCom :c700.20.403 ;
 	:eCruzadoCom :c700.20.404 ;
-	:temLegislacao :leg_1260 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_1383 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_265 ;
-	:temLegislacao :leg_1216 ;
+	:temLegislacao :leg_520 ;
+	:temLegislacao :leg_1302 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_1427 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1258 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Prestação de cuidados de saúde especializados dirigidos a pessoas com doenças incuráveis em fase avançada e/ou terminal, com intenção de melhorar a qualidade de vida dos doentes e suas famílias através do alívio do sofrimento decorrente dos sintomas físicos, mas também de problemas psicológicos, sociais e espirituais.
 Inicia com a referenciação à unidade e termina quando a equipa finaliza o acompanhamento.
 Inclui o diagnóstico e todos os atos necessários ao tratamento.
 ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_1
+:na_c700.20.700_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Vacinação de animais em Centros de Recuperação de Animais Selvagens não abertos ao público".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_2
 :na_c700.20.700_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Vacinação de animais domésticos ou de companhia".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_1
-:na_c700.20.700_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_4
+:na_c700.20.700_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Vacinação de animais em Centros de Recuperação de Animais Selvagens não abertos ao público".
+	:conteudo "Vacinação de animais selvagens em cativeiro".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_3
 :na_c700.20.700_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Vacinação de animais de exploração pecuária".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_4
-:na_c700.20.700_4 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.701_1
+:na_c700.20.701_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Vacinação de animais selvagens em cativeiro".
+	:conteudo "Recolha de animais vadios com suspeita de raiva ou com doença terminal".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c700.20.700
 :c700.20.700 rdf:type owl:NamedIndividual ,
@@ -1407,15 +1469,17 @@ Inclui o diagnóstico e todos os atos necessários ao tratamento.
 	:temNotaAplicacao :na_c700.20.700_2 ;
 	:temNotaAplicacao :na_c700.20.700_3 ;
 	:temNotaAplicacao :na_c700.20.700_4 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.400 ;
-	:temRelProc :c400.10.402 ;
-	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_1142 ;
-	:temLegislacao :leg_392 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.400 ;
+	:eSintetizadoPor :c400.10.402 ;
+	:eSuplementoPara :c500.10.301 ;
+	:temLegislacao :leg_1178 ;
 	:temLegislacao :leg_407 ;
+	:temLegislacao :leg_422 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Cuidados de prevenção primária de saúde praticados em espécies animais ao longo da sua vida com o objetivo de imunização.
 Inicia com o pedido ou com a verificação da necessidade de vacina e termina com a administração da mesma.
 Inclui verificação das vacinas em falta ou necessárias e registo da vacina administrada.".
@@ -1423,11 +1487,6 @@ Inclui verificação das vacinas em falta ou necessárias e registo da vacina ad
 :na_c700.20.701_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Recolha de animais com dono com suspeita de raiva ou com doença terminal".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.701_1
-:na_c700.20.701_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Recolha de animais vadios com suspeita de raiva ou com doença terminal".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.701_1
 :ne_c700.20.701_1 rdf:type owl:NamedIndividual ,
@@ -1463,10 +1522,12 @@ Inclui verificação das vacinas em falta ou necessárias e registo da vacina ad
 	:eSuplementoPara :c500.10.301 ;
 	:eSucessorDe :c700.20.901 ;
 	:eCruzadoCom :c710.10.300 ;
-	:temLegislacao :leg_1370 ;
-	:temLegislacao :leg_1142 ;
-	:temLegislacao :leg_392 ;
+	:temLegislacao :leg_1413 ;
+	:temLegislacao :leg_1178 ;
+	:temLegislacao :leg_407 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Aplicação compulsiva de medidas de caráter sanitário a animais suspeitos de serem portadores de zoonoses.
 Inicia com o pedido de sequestro e termina com a morte natural do animal ou com o envio para adoção, restituição ou eutanásia.
 Inclui notificação às entidades competentes e ao proprietário, recolha do animal, quarentena sob vigilância veterinária, elaboração de informação sobre o estado de saúde do animal, comprovativo do pagamento de taxas, quando devido, e articulação com o laboratório competente para isolamento do agente patogénico, em caso de morte do animal.".
@@ -1500,27 +1561,19 @@ Inclui notificação às entidades competentes e ao proprietário, recolha do an
 	:temNotaAplicacao :na_c700.20.800_1 ;
 	:temNotaAplicacao :na_c700.20.800_2 ;
 	:temNotaAplicacao :na_c700.20.800_3 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.400 ;
-	:temRelProc :c400.10.402 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c700.20.901 ;
-	:temLegislacao :leg_126 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.400 ;
+	:eSintetizadoPor :c400.10.402 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSucessorDe :c700.20.901 ;
+	:temLegislacao :leg_133 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Cuidados de saúde animal praticados por veterinário.
 Inicia com a identificação da necessidade de intervenção e termina com a eliminação ou atenuação do problema.
 Inclui elaboração de diagnóstico, aplicação de fármacos, intervenção cirúrgica, registo de ato médico veterinário praticado e acompanhamento do animal.".
-###  http://jcr.di.uminho.pt/m51-clav#c700.20.900
-:c700.20.900 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "700.20.900";
-	:titulo "Prestação de cuidados de reabilitação animal";
-	:temPai :c700.20 ;
-	:processoTipo "PE" ;
-	:processoTransversal "N" ;
-	:classeStatus "A" ;
-	:descricao "".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.901_1
 :na_c700.20.901_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1545,15 +1598,17 @@ Inclui elaboração de diagnóstico, aplicação de fármacos, intervenção cir
 	:temDono :org_PSP ;
 	:temNotaAplicacao :na_c700.20.901_1 ;
 	:temNotaAplicacao :na_c700.20.901_2 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.400 ;
-	:temRelProc :c400.10.402 ;
-	:temRelProc :c500.10.300 ;
-	:temRelProc :c700.20.701 ;
-	:temRelProc :c700.20.800 ;
-	:temLegislacao :leg_1142 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSucessorDe :c300.30.008 ;
+	:eSucessorDe :c400.10.400 ;
+	:eSucessorDe :c400.10.402 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eAntecessorDe :c700.20.701 ;
+	:eAntecessorDe :c700.20.800 ;
+	:temLegislacao :leg_1178 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Abreviamento da vida de um animal enfermo incurável em sofrimento, de maneira controlada e assistida, por um especialista.
 Inicia com a solicitação ou decisão de eutanásia e termina com a morte do animal.
 Inclui diagnóstico.".

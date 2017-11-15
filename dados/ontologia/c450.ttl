@@ -40,6 +40,11 @@ Relativo, ainda, à formalização notarial de atos jurídicos extrajudiciais, c
 	:temNotaExclusao :ne_c450.10_1 ;
 	:classeStatus "A" ;
 	:descricao "Compreende os processos de natureza permissiva - licenciamento, acreditação, certificação, homologação, credenciação e outras autorizações que visam possibilitar o exercício de uma atividade ou reconhecer a conformidade de um produto ou serviço a determinados parâmetros legais ou normativos.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.062_2
+:na_c450.10.062_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Alteração da atividade exercida no estabelecimento".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.062_1
 :na_c450.10.062_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -49,11 +54,6 @@ Relativo, ainda, à formalização notarial de atos jurídicos extrajudiciais, c
 :na_c450.10.062_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Mudança de nome ou de insígnia do estabelecimento".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.062_2
-:na_c450.10.062_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Alteração da atividade exercida no estabelecimento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.062_4
 :na_c450.10.062_4 rdf:type owl:NamedIndividual ,
@@ -147,24 +147,27 @@ Relativo, ainda, à formalização notarial de atos jurídicos extrajudiciais, c
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eSucessorDe :c850.30.003 ;
-	:temLegislacao :leg_128 ;
-	:temLegislacao :leg_139 ;
-	:temLegislacao :leg_750 ;
-	:temLegislacao :leg_450 ;
-	:temLegislacao :leg_490 ;
-	:temLegislacao :leg_515 ;
-	:temLegislacao :leg_572 ;
-	:temLegislacao :leg_570 ;
-	:temLegislacao :leg_736 ;
-	:temLegislacao :leg_857 ;
-	:temLegislacao :leg_882 ;
-	:temLegislacao :leg_775 ;
-	:temLegislacao :leg_869 ;
-	:temLegislacao :leg_868 ;
-	:temLegislacao :leg_929 ;
-	:temLegislacao :leg_1368 ;
-	:temLegislacao :leg_1309 ;
+	:temLegislacao :leg_135 ;
+	:temLegislacao :leg_146 ;
+	:temLegislacao :leg_769 ;
+	:temLegislacao :leg_465 ;
+	:temLegislacao :leg_505 ;
+	:temLegislacao :leg_531 ;
+	:temLegislacao :leg_588 ;
+	:temLegislacao :leg_586 ;
+	:temLegislacao :leg_755 ;
+	:temLegislacao :leg_878 ;
+	:temLegislacao :leg_905 ;
+	:temLegislacao :leg_795 ;
+	:temLegislacao :leg_892 ;
+	:temLegislacao :leg_891 ;
+	:temLegislacao :leg_953 ;
+	:temLegislacao :leg_1411 ;
+	:temLegislacao :leg_1412 ;
+	:temLegislacao :leg_1352 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para prestação de serviços de comércio de produtos, bem como para a abertura, modificação ou encerramento de estabelecimentos para o exercício da atividade.
 Inicia com o pedido e termina com a comunicação da decisão ou com a libertação, substituição ou penalização da garantia, quando aplicável.
 Inclui análise preliminar, verificação das condições de segurança das instalações ou apresentação e apreciação sumária da declaração de responsabilidade, quando devido, decisão sobre o pedido, cálculo do valor da taxa e comprovativo do seu pagamento, quando devido e a prestação de garantia, quando aplicável.".
@@ -290,19 +293,21 @@ Inclui análise preliminar, verificação das condições de segurança das inst
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1262 ;
-	:temLegislacao :leg_1119 ;
-	:temLegislacao :leg_1100 ;
-	:temLegislacao :leg_788 ;
-	:temLegislacao :leg_574 ;
-	:temLegislacao :leg_455 ;
-	:temLegislacao :leg_393 ;
-	:temLegislacao :leg_376 ;
-	:temLegislacao :leg_323 ;
-	:temLegislacao :leg_331 ;
-	:temLegislacao :leg_205 ;
-	:temLegislacao :leg_140 ;
+	:temLegislacao :leg_1304 ;
+	:temLegislacao :leg_1155 ;
+	:temLegislacao :leg_1135 ;
+	:temLegislacao :leg_809 ;
+	:temLegislacao :leg_590 ;
+	:temLegislacao :leg_470 ;
+	:temLegislacao :leg_408 ;
+	:temLegislacao :leg_392 ;
+	:temLegislacao :leg_338 ;
+	:temLegislacao :leg_346 ;
+	:temLegislacao :leg_217 ;
+	:temLegislacao :leg_147 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para a prestação de serviços de transporte de passageiros e de mercadorias, desenvolvido de modo regular ou irregular.
 Inicia com o pedido e termina com a notificação da decisão final.
 Inclui análise preliminar, caracterização do tipo de transporte e da carga transportada, consulta de entidadades quando devido, apresentação de seguro de responsabilidade civil,  cálculo do valor da taxa devida e comprovativo do seu pagamento e entrega de dístico, quando devido.
@@ -368,13 +373,15 @@ Inclui análise preliminar, caracterização do tipo de transporte e da carga tr
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1289 ;
-	:temLegislacao :leg_1200 ;
-	:temLegislacao :leg_1189 ;
-	:temLegislacao :leg_782 ;
-	:temLegislacao :leg_668 ;
-	:temLegislacao :leg_723 ;
+	:temLegislacao :leg_1331 ;
+	:temLegislacao :leg_1241 ;
+	:temLegislacao :leg_1227 ;
+	:temLegislacao :leg_803 ;
+	:temLegislacao :leg_684 ;
+	:temLegislacao :leg_742 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Permissão para a prestação de serviços de restauração e de alojamento temporário com fins lucrativos.
 Inicia com o pedido e termina com o registo do estabelecimento.
 Inclui realização de vistoria, definição da capacidade máxima de utilizadores, cálculo do valor da taxa devida e apresentação do comprovativo do seu pagamento.".
@@ -413,32 +420,34 @@ Inclui realização de vistoria, definição da capacidade máxima de utilizador
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1108 ;
-	:temLegislacao :leg_611 ;
-	:temLegislacao :leg_1144 ;
 	:temLegislacao :leg_1143 ;
-	:temLegislacao :leg_1141 ;
-	:temLegislacao :leg_1114 ;
-	:temLegislacao :leg_1113 ;
-	:temLegislacao :leg_1023 ;
-	:temLegislacao :leg_807 ;
-	:temLegislacao :leg_706 ;
-	:temLegislacao :leg_673 ;
-	:temLegislacao :leg_470 ;
+	:temLegislacao :leg_627 ;
+	:temLegislacao :leg_1180 ;
+	:temLegislacao :leg_1179 ;
+	:temLegislacao :leg_1177 ;
+	:temLegislacao :leg_1150 ;
+	:temLegislacao :leg_1149 ;
+	:temLegislacao :leg_1052 ;
+	:temLegislacao :leg_829 ;
+	:temLegislacao :leg_725 ;
+	:temLegislacao :leg_690 ;
+	:temLegislacao :leg_485 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para o exercício da atividade de prestação de serviços de segurança privada a terceiros  por concessão de alvará, licença ou autorização.
 Inicia com o pedido e termina com a comunicação da decisão ao interessado e às forças de segurança e de inspeção competentes.
 Inclui análise preliminar, validação e verificação de qualificações profissionais, vistoria (quando devido)  a instalações e meios materiais a utilizar na atividade, consulta de entidades, submissão para decisão ao membro do governo competente, decisão, cálculo do valor da taxa devida e entrega do comprovativo do seu pagamento, emissão de cartões de vigilante, renovação de documentos.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.066_1
-:na_c450.10.066_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Permissão para atividades de aquicultura e de pesca".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.066_2
 :na_c450.10.066_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Permissão para realizar ações tendentes à alteração do revestimento vegetal e do relevo natural do solo arável".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.066_1
+:na_c450.10.066_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Permissão para atividades de aquicultura e de pesca".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.066_3
 :na_c450.10.066_3 rdf:type owl:NamedIndividual ,
@@ -493,18 +502,21 @@ Inclui análise preliminar, validação e verificação de qualificações profi
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c800.10.301 ;
-	:temLegislacao :leg_1087 ;
-	:temLegislacao :leg_1084 ;
-	:temLegislacao :leg_941 ;
-	:temLegislacao :leg_886 ;
-	:temLegislacao :leg_765 ;
-	:temLegislacao :leg_759 ;
-	:temLegislacao :leg_685 ;
-	:temLegislacao :leg_642 ;
-	:temLegislacao :leg_517 ;
-	:temLegislacao :leg_178 ;
-	:temLegislacao :leg_89 ;
+	:temLegislacao :leg_1120 ;
+	:temLegislacao :leg_1116 ;
+	:temLegislacao :leg_965 ;
+	:temLegislacao :leg_910 ;
+	:temLegislacao :leg_785 ;
+	:temLegislacao :leg_778 ;
+	:temLegislacao :leg_704 ;
+	:temLegislacao :leg_698 ;
+	:temLegislacao :leg_658 ;
+	:temLegislacao :leg_533 ;
+	:temLegislacao :leg_188 ;
+	:temLegislacao :leg_94 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para desenvolver atividades de exploração agrícola, produção animal, silvicultura e exploração florestal.
 Inicia com a formulação do pedido e termina com a emissão da licença.
 Inclui análise preliminar, verificação da conformidade com planos de ordenamento aplicáveis, consulta e concertação de entidades, vistoria, quando aplicável, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.
@@ -556,21 +568,23 @@ Inclui análise preliminar, verificação da conformidade com planos de ordename
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c800.10.301 ;
 	:eSucessorDe :c900.20.201 ;
-	:temLegislacao :leg_447 ;
-	:temLegislacao :leg_225 ;
-	:temLegislacao :leg_193 ;
-	:temLegislacao :leg_180 ;
-	:temLegislacao :leg_1092 ;
-	:temLegislacao :leg_933 ;
-	:temLegislacao :leg_569 ;
-	:temLegislacao :leg_516 ;
-	:temLegislacao :leg_416 ;
-	:temLegislacao :leg_204 ;
-	:temLegislacao :leg_181 ;
-	:temLegislacao :leg_479 ;
-	:temLegislacao :leg_877 ;
-	:temLegislacao :leg_865 ;
+	:temLegislacao :leg_462 ;
+	:temLegislacao :leg_237 ;
+	:temLegislacao :leg_205 ;
+	:temLegislacao :leg_190 ;
+	:temLegislacao :leg_1126 ;
+	:temLegislacao :leg_957 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_532 ;
+	:temLegislacao :leg_431 ;
+	:temLegislacao :leg_216 ;
+	:temLegislacao :leg_191 ;
+	:temLegislacao :leg_494 ;
+	:temLegislacao :leg_900 ;
+	:temLegislacao :leg_888 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição  de licença a operadores de transporte e armazenagem, tratamento, valorização e eliminação de resíduos (OGR).
 Inicia com  a entrega do pedido e termina com a emissão do alvará.
 Inclui análise preliminar, consulta a entidades, avaliação do projeto de execução e de exploração, realização de vistoria, prestação de garantia financeira e  decisão.  ".
@@ -658,17 +672,19 @@ Inclui análise preliminar, consulta a entidades, avaliação do projeto de exec
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c800.10.301 ;
-	:temLegislacao :leg_1288 ;
-	:temLegislacao :leg_593 ;
-	:temLegislacao :leg_1092 ;
-	:temLegislacao :leg_1149 ;
-	:temLegislacao :leg_1148 ;
-	:temLegislacao :leg_929 ;
-	:temLegislacao :leg_1003 ;
-	:temLegislacao :leg_551 ;
-	:temLegislacao :leg_585 ;
-	:temLegislacao :leg_321 ;
+	:temLegislacao :leg_1330 ;
+	:temLegislacao :leg_609 ;
+	:temLegislacao :leg_1126 ;
+	:temLegislacao :leg_1185 ;
+	:temLegislacao :leg_1184 ;
+	:temLegislacao :leg_953 ;
+	:temLegislacao :leg_1030 ;
+	:temLegislacao :leg_567 ;
+	:temLegislacao :leg_601 ;
+	:temLegislacao :leg_336 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Obtenção de título para o exercício de atividades industriais.
 Inicia com o requerimento ou com a entrega de formulário e termina com a autorização ou com o registo no balcão de empreendedor.
 Inclui análise preliminar, consulta de entidades, quando devido, verificação de condicionantes legais, realização de vistoria, concertação de posições, cálculo do valor da taxa e comprovativo do seu pagamento.
@@ -725,17 +741,20 @@ Inclui análise preliminar, consulta de entidades, quando devido, verificação 
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1134 ;
-	:temLegislacao :leg_1130 ;
-	:temLegislacao :leg_1027 ;
-	:temLegislacao :leg_1053 ;
-	:temLegislacao :leg_967 ;
-	:temLegislacao :leg_939 ;
-	:temLegislacao :leg_882 ;
-	:temLegislacao :leg_623 ;
-	:temLegislacao :leg_494 ;
-	:temLegislacao :leg_86 ;
+	:temLegislacao :leg_1251 ;
+	:temLegislacao :leg_1170 ;
+	:temLegislacao :leg_1166 ;
+	:temLegislacao :leg_1056 ;
+	:temLegislacao :leg_1083 ;
+	:temLegislacao :leg_992 ;
+	:temLegislacao :leg_963 ;
+	:temLegislacao :leg_905 ;
+	:temLegislacao :leg_639 ;
+	:temLegislacao :leg_509 ;
+	:temLegislacao :leg_91 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de licença de funcionamento necessária para que os estabelecimentos de apoio social geridos por entidades privadas e instituições particulares de solidariedade social sem acordo, possam exercer atividades de respostas sociais.
 Inicia com o requerimento do interessado e termina com a emissão da licença.
 Inclui análise preliminar, validação do projeto de regulamento, consulta de entidades, cálculo do valor da taxa devida e comprovativo do seu pagamento.".
@@ -843,16 +862,18 @@ Inclui análise preliminar, validação do projeto de regulamento, consulta de e
 	:eAntecessorDe :c800.10.301 ;
 	:eSucessorDe :c900.10.001 ;
 	:eAntecessorDe :c900.10.002 ;
-	:temLegislacao :leg_1009 ;
-	:temLegislacao :leg_992 ;
-	:temLegislacao :leg_905 ;
-	:temLegislacao :leg_760 ;
-	:temLegislacao :leg_487 ;
-	:temLegislacao :leg_389 ;
-	:temLegislacao :leg_377 ;
-	:temLegislacao :leg_405 ;
-	:temLegislacao :leg_479 ;
+	:temLegislacao :leg_1036 ;
+	:temLegislacao :leg_1018 ;
+	:temLegislacao :leg_929 ;
+	:temLegislacao :leg_779 ;
+	:temLegislacao :leg_502 ;
+	:temLegislacao :leg_404 ;
+	:temLegislacao :leg_393 ;
+	:temLegislacao :leg_420 ;
+	:temLegislacao :leg_494 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para o desenvolvimento de atividades de entretenimento de caráter artístico, desportivo e recreativo.
 Inicia com o pedido e termina com a emissão de licença, autorização ou registo.
 Inclui análise do pedido, consulta de entidades, realização de vistoria, quando devido, cálculo do valor da taxa e comprovativo do seu pagamento.".
@@ -943,11 +964,13 @@ Inclui análise do pedido, consulta de entidades, realização de vistoria, quan
 	:eAntecessorDe :c800.10.306 ;
 	:eAntecessorDe :c800.10.305 ;
 	:eAntecessorDe :c800.10.600 ;
-	:temLegislacao :leg_1216 ;
-	:temLegislacao :leg_543 ;
-	:temLegislacao :leg_426 ;
-	:temLegislacao :leg_345 ;
+	:temLegislacao :leg_1258 ;
+	:temLegislacao :leg_559 ;
+	:temLegislacao :leg_441 ;
+	:temLegislacao :leg_360 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para a realização de atividades de investigação e de desenvolvimento envolvendo todos os domínios do conhecimento humano com ou sem fim lucrativo.
 Inicia com o pedido e termina com a apresentação de relatório final, se aplicável.
 Inclui análise do pedido, consulta de entidades, quando devido, proposta fundamentada de decisão, decisão e respetiva comunicação.".
@@ -980,12 +1003,14 @@ Inclui análise do pedido, consulta de entidades, quando devido, proposta fundam
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1250 ;
-	:temLegislacao :leg_1082 ;
-	:temLegislacao :leg_984 ;
-	:temLegislacao :leg_29 ;
-	:temLegislacao :leg_728 ;
+	:temLegislacao :leg_1292 ;
+	:temLegislacao :leg_1113 ;
+	:temLegislacao :leg_1010 ;
+	:temLegislacao :leg_33 ;
+	:temLegislacao :leg_747 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão aos estabelecimentos de ensino particular e cooperativo e a entidades formadoras certificadas para a prestação de serviços de ensino e formação.
 Inicia com o pedido de autorização e termina com a comunicação da decisão.
 Inclui a verificação dos requisitos exigidos legalmente e o processo de denominação do estabelecimento de ensino criado.".
@@ -999,15 +1024,15 @@ Inclui a verificação dos requisitos exigidos legalmente e o processo de denomi
 	:NotaAplicacao ;
 	:conteudo "Exercício de atividades de edição de jornais, revistas, livros, cartazes e artigos cartográficos".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.075_4
-:na_c450.10.075_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Exercício de atividades de edição de produtos multimédia".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.075_3
 :na_c450.10.075_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Exercício de atividades de edição de software normalizado e respetivos manuais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.075_4
+:na_c450.10.075_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Exercício de atividades de edição de produtos multimédia".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.075_5
 :na_c450.10.075_5 rdf:type owl:NamedIndividual ,
@@ -1072,29 +1097,31 @@ Inclui a verificação dos requisitos exigidos legalmente e o processo de denomi
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1333 ;
-	:temLegislacao :leg_1363 ;
-	:temLegislacao :leg_1350 ;
-	:temLegislacao :leg_1351 ;
-	:temLegislacao :leg_1233 ;
-	:temLegislacao :leg_1202 ;
-	:temLegislacao :leg_991 ;
-	:temLegislacao :leg_950 ;
-	:temLegislacao :leg_902 ;
-	:temLegislacao :leg_434 ;
+	:temLegislacao :leg_1376 ;
+	:temLegislacao :leg_1406 ;
+	:temLegislacao :leg_1393 ;
+	:temLegislacao :leg_1394 ;
+	:temLegislacao :leg_1275 ;
+	:temLegislacao :leg_1243 ;
+	:temLegislacao :leg_1017 ;
+	:temLegislacao :leg_975 ;
+	:temLegislacao :leg_926 ;
+	:temLegislacao :leg_449 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para o desenvolvimento de atividades de produção e distribuição de produtos de informação e culturais, de fornecimento de meios para transmitir e distribuir esses produtos, assim como dados ou comunicações, de atividades das tecnologias da informação e de processamento de dados.
 Inicia com o pedido ou com a candidatura e termina com comunciação da decisão ou a emissão do alvará.
 Inclui a análise do pedido ou candidatura, consulta de entidades, fundamentação para a decisão, decisão, cálculo da taxa devida e comprovativo do seu pagamento.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.076_2
-:na_c450.10.076_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Autorização de funcionamento de entidades prestadoras de apoio ao emprego e inserção no mercado de trabalho  (Anterior PN 450.10.051)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.076_1
 :na_c450.10.076_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Licenciamento e registo de empresas de trabalho temporário (Anterior PN 450.10.046)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.076_2
+:na_c450.10.076_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Autorização de funcionamento de entidades prestadoras de apoio ao emprego e inserção no mercado de trabalho  (Anterior PN 450.10.051)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.076_3
 :na_c450.10.076_3 rdf:type owl:NamedIndividual ,
@@ -1158,12 +1185,14 @@ Inclui a análise do pedido ou candidatura, consulta de entidades, fundamentaç�
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eSucessorDe :c850.10.003 ;
-	:temLegislacao :leg_1352 ;
-	:temLegislacao :leg_1212 ;
-	:temLegislacao :leg_907 ;
-	:temLegislacao :leg_800 ;
-	:temLegislacao :leg_790 ;
+	:temLegislacao :leg_1395 ;
+	:temLegislacao :leg_1254 ;
+	:temLegislacao :leg_931 ;
+	:temLegislacao :leg_822 ;
+	:temLegislacao :leg_811 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de licença ou autorização de funcionamento de empresas, organizações ou serviços para o exercício de atividades de apoio a jovens e adultos desempregados para a definição e desenvolvimento do seu percurso de inserção ou reinserção no mercado de trabalho e de colocação de trabalhadores em trabalhos temporários.
 Inicia com Inicia com o pedido ou candidatura e termina com a comunicação da decisão e/ou emissão da licença.
 Inclui análise do cumprimento dos requisitos e critérios de seleção, fundamentação para a decisão, contratualização de objetivos, cálculo da taxa devida e comprovativo do seu pagamento.  Inclui ainda o registo nas bases de dados específicas, conforme o tipo de entidade.
@@ -1218,27 +1247,29 @@ Inclui análise do cumprimento dos requisitos e critérios de seleção, fundame
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1192 ;
-	:temLegislacao :leg_833 ;
-	:temLegislacao :leg_688 ;
-	:temLegislacao :leg_425 ;
-	:temLegislacao :leg_350 ;
-	:temLegislacao :leg_349 ;
-	:temLegislacao :leg_348 ;
-	:temLegislacao :leg_308 ;
+	:temLegislacao :leg_1240 ;
+	:temLegislacao :leg_855 ;
+	:temLegislacao :leg_707 ;
+	:temLegislacao :leg_440 ;
+	:temLegislacao :leg_366 ;
+	:temLegislacao :leg_365 ;
+	:temLegislacao :leg_364 ;
+	:temLegislacao :leg_321 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para o desenvolvimento de atividades  de prestação de serviços na área da saúde humana.
 Inicia com o pedido ou com a submissão eletrónica da declaração de responsabilidade e termina com a emissão da licença.
 Inclui análise do pedido, consulta de entidades, realização de vistoria, fundamentação para a decisão, cálculo do valor da taxa e comprovativo do seu pagamento.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_1
-:na_c450.10.078_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Atividades de prevenção e diagnóstico veterinário".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_2
 :na_c450.10.078_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Atividades de tratamento veterinário".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_1
+:na_c450.10.078_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atividades de prevenção e diagnóstico veterinário".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_3
 :na_c450.10.078_3 rdf:type owl:NamedIndividual ,
@@ -1275,10 +1306,12 @@ Inclui análise do pedido, consulta de entidades, realização de vistoria, fund
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
+	:temLegislacao :leg_895 ;
+	:temLegislacao :leg_796 ;
 	:temLegislacao :leg_872 ;
-	:temLegislacao :leg_776 ;
-	:temLegislacao :leg_850 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para o desenvolvimento de atividades em centros de atendimento médico-veterinários.
 Inicia com o pedido e termina com a comunicação da decisão.
 Inclui análise do pedido, identificação do diretor clínico, vistoria às instalações, cálculo da taxa devida e comprovativo do seu pagamento.".
@@ -1305,11 +1338,13 @@ Inclui análise do pedido, identificação do diretor clínico, vistoria às ins
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1319 ;
-	:temLegislacao :leg_1358 ;
-	:temLegislacao :leg_931 ;
-	:temLegislacao :leg_417 ;
+	:temLegislacao :leg_1362 ;
+	:temLegislacao :leg_1401 ;
+	:temLegislacao :leg_955 ;
+	:temLegislacao :leg_432 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para o desenvolvimento de atividades de construção em obras públicas e particulares.
 Inicia com a submissão do pedido e termina com a emissão do título habilitante.
 Inclui análise do pedido, cálculo da taxa devida e comprovativo do seu pagamento.".
@@ -1359,8 +1394,10 @@ Inclui análise do pedido, cálculo da taxa devida e comprovativo do seu pagamen
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1103 ;
+	:temLegislacao :leg_1138 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para o desenvolvimento de atividades de
 de compra e venda, bem como de arrendamento e exploração de bens imobiliários nomeadamente, edifícios residenciais, não residenciais e de terrenos.
 Inicia com o pedido e termina com a emissão de título habilitante.
@@ -1452,14 +1489,17 @@ Inicia com o pedido e termina com a emissão de título habilitante.
 	:eAntecessorDe :c450.10.234 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_719 ;
-	:temLegislacao :leg_876 ;
-	:temLegislacao :leg_639 ;
-	:temLegislacao :leg_569 ;
-	:temLegislacao :leg_479 ;
-	:temLegislacao :leg_933 ;
-	:temLegislacao :leg_1202 ;
+	:temLegislacao :leg_738 ;
+	:temLegislacao :leg_655 ;
+	:temLegislacao :leg_494 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_899 ;
+	:temLegislacao :leg_957 ;
+	:temLegislacao :leg_1127 ;
+	:temLegislacao :leg_1243 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Informação sobre a viabilidade de realizar determinada operação.
 Inicia com o pedido e termina com a notificação da decisão.
 Inclui consulta de entidades, disponibilização de informação sobre o procedimento de controlo prévio para a operação pretendida, deliberação final, cálculo do valor da taxa devida e apresentação do comprovativo do seu pagamento.
@@ -1502,21 +1542,23 @@ Inclui consulta de entidades, disponibilização de informação sobre o procedi
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c900.20.201 ;
-	:temLegislacao :leg_876 ;
-	:temLegislacao :leg_1202 ;
+	:temLegislacao :leg_899 ;
+	:temLegislacao :leg_1243 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Controlo prévio de operações de constituição de lotes destinados à edificação urbana e que resultem da divisão de um ou vários prédios, ou do seu reparcelamento.
 Inicia com o pedido ou a apresentação da comunicação prévia e termina com a emissão da licença ou a  deliberação final referente à comunicação prévia.
 Inclui apreciação liminar do pedido, apreciação de projeto, consulta de entidades, definição da área de construção e de implantação,  definição de áreas a afetar a espaço público, discussão pública, cálculo da taxa devida e comprovativo do seu pagamento".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.202_1
-:na_c450.10.202_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Modalidades de licença e admissão de comunicação prévia".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.202_1
 :ne_c450.10.202_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A autorização para intervenção nos terrenos no âmbito arqueológico deve ser considerada em PN 450.10.230 – Autorização de trabalhos arqueológicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.202_1
+:na_c450.10.202_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Modalidades de licença e admissão de comunicação prévia".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.202
 :c450.10.202 rdf:type owl:NamedIndividual ,
@@ -1539,9 +1581,11 @@ Inclui apreciação liminar do pedido, apreciação de projeto, consulta de enti
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_876 ;
-	:temLegislacao :leg_1202 ;
+	:temLegislacao :leg_899 ;
+	:temLegislacao :leg_1243 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Controlo prévio de operações de alteração do relevo natural e das camadas de solo arável ou destruição do revestimento natural para fins não exclusivamente agrícolas, pecuários, florestais, mineiros ou de abastecimento de água.
 Inicia com o pedido ou a apresentação de comunicação prévia e termina com a verificação da execução da obra.
 Inclui apreciação liminar do pedido, consulta de entidades, discussão pública, emissão da licença, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.".
@@ -1597,9 +1641,11 @@ Inclui apreciação liminar do pedido, consulta de entidades, discussão públic
 	:eCruzadoCom :c450.10.230 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_876 ;
-	:temLegislacao :leg_1202 ;
+	:temLegislacao :leg_899 ;
+	:temLegislacao :leg_1243 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Controlo prévio de criação e remodelação de infraestruturas destinadas a servir os espaços urbanos ou as edificações.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui apresentação do projeto e respetivo termo de responsabilidade, apreciação liminar do pedido, consulta de entidades, apreciação dos projetos das obras de urbanização, preenchimento de livro de obra, audiência prévia de interessados, deliberação final, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.".
@@ -1686,10 +1732,12 @@ Inclui apresentação do projeto e respetivo termo de responsabilidade, aprecia�
 	:eSucessorDe :c450.10.233 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_256 ;
-	:temLegislacao :leg_876 ;
-	:temLegislacao :leg_1202 ;
+	:temLegislacao :leg_268 ;
+	:temLegislacao :leg_899 ;
+	:temLegislacao :leg_1243 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Controlo prévio de obras de construção, reconstrução, ampliação, alteração, conservação ou demolição de imóvel.
 Inicia com o pedido ou a admissão de comunicação prévia e termina com a verificação da execução da obra.
 Inclui saneamento e apreciação liminar do pedido, apreciação de projeto de arquitetura, consulta de entidades, decisão sobre o pedido, análise de projetos de engenharia, emissão da licença, cálculo da taxa devida, quando aplicável, e apresentação do comprovativo do seu pagamento e acompanhamento da execução da obra.".
@@ -1751,12 +1799,14 @@ Inclui saneamento e apreciação liminar do pedido, apreciação de projeto de a
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eAntecessorDe :c900.10.002 ;
-	:temLegislacao :leg_256 ;
-	:temLegislacao :leg_354 ;
-	:temLegislacao :leg_876 ;
-	:temLegislacao :leg_1191 ;
-	:temLegislacao :leg_1202 ;
+	:temLegislacao :leg_268 ;
+	:temLegislacao :leg_370 ;
+	:temLegislacao :leg_899 ;
+	:temLegislacao :leg_1230 ;
+	:temLegislacao :leg_1243 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Permissão de utilização de um espaço, edifício ou fração para determinado fim.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui apresentação do termo de responsabilidade, ou na sua falta, realização de vistoria ao local para verificação das condições técnicas e de segurança, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.".
@@ -1867,21 +1917,23 @@ Inclui apresentação do termo de responsabilidade, ou na sua falta, realizaçã
 	:eCruzadoCom :c800.10.301 ;
 	:eSintetizadoPor :c500.10.600 ;
 	:eSintetizadoPor :c300.30.001 ;
-	:temLegislacao :leg_11 ;
-	:temLegislacao :leg_1092 ;
-	:temLegislacao :leg_336 ;
-	:temLegislacao :leg_1003 ;
-	:temLegislacao :leg_1084 ;
-	:temLegislacao :leg_682 ;
-	:temLegislacao :leg_1065 ;
-	:temLegislacao :leg_834 ;
-	:temLegislacao :leg_835 ;
-	:temLegislacao :leg_836 ;
-	:temLegislacao :leg_837 ;
-	:temLegislacao :leg_838 ;
-	:temLegislacao :leg_839 ;
-	:temLegislacao :leg_1208 ;
+	:temLegislacao :leg_15 ;
+	:temLegislacao :leg_1126 ;
+	:temLegislacao :leg_351 ;
+	:temLegislacao :leg_1030 ;
+	:temLegislacao :leg_1116 ;
+	:temLegislacao :leg_700 ;
+	:temLegislacao :leg_1095 ;
+	:temLegislacao :leg_856 ;
+	:temLegislacao :leg_857 ;
+	:temLegislacao :leg_858 ;
+	:temLegislacao :leg_859 ;
+	:temLegislacao :leg_860 ;
+	:temLegislacao :leg_861 ;
+	:temLegislacao :leg_1249 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para executar projeto de instalação de explorações agropecuárias.
 Inicia com o pedido e termina com a emissão de licença.
 Inclui  apreciação de pedido, consulta e concertação de entidades, comunicação da decisão ao requerente, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.
@@ -1990,9 +2042,11 @@ Inclui  apreciação de pedido, consulta e concertação de entidades, comunica�
 	:eCruzadoCom :c800.10.301 ;
 	:eSintetizadoPor :c500.10.600 ;
 	:eSintetizadoPor :c300.30.001 ;
-	:temLegislacao :leg_1290 ;
-	:temLegislacao :leg_1003 ;
+	:temLegislacao :leg_1333 ;
+	:temLegislacao :leg_1030 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para execução de projeto de instalação de estabelecimento industrial.
 Inicia com a apresentação do pedido à entidade coordenadora e termina com a comunicação da decisão final integrada ao requerente, à Câmara Municipal territorialmente competente, bem como às entidades públicas cuja consulta tenha sido dispensada.
 Inclui convite ao aperfeiçoamento, quando devido, consulta e concertação de entidades, vistoria à instalação, cálculo da taxa devida e comprovativo do seu pagamento e decisão final.
@@ -2020,11 +2074,11 @@ Inclui convite ao aperfeiçoamento, quando devido, consulta e concertação de e
 	:temPai :c450.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteApreciador :org_DGS ;
 	:temParticipanteApreciador :org_IST ;
 	:temParticipanteApreciador :org_DGEG ;
 	:temParticipanteApreciador :org_AL ;
 	:temDono :org_ANACOM ;
+	:temDono :org_DGS ;
 	:temDono :org_APA ;
 	:temNotaAplicacao :na_c450.10.209_1 ;
 	:temNotaAplicacao :na_c450.10.209_2 ;
@@ -2038,10 +2092,12 @@ Inclui convite ao aperfeiçoamento, quando devido, consulta e concertação de e
 	:eCruzadoCom :c450.10.229 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_293 ;
-	:temLegislacao :leg_791 ;
-	:temLegislacao :leg_746 ;
+	:temLegislacao :leg_305 ;
+	:temLegislacao :leg_812 ;
+	:temLegislacao :leg_765 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para execução de projeto de instalação de infraestruturas para equipamentos emissores de radiações ionizantes e não ionizantes.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui apreciação liminar do pedido, consulta de entidades, definição de condicionantes, quando devido, cálculo da taxa devida e apresentação do comprovativo do seu pagamento e notificação ao requerente da decisão.".
@@ -2081,12 +2137,15 @@ Inclui apreciação liminar do pedido, consulta de entidades, definição de con
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_150 ;
-	:temLegislacao :leg_186 ;
-	:temLegislacao :leg_210 ;
-	:temLegislacao :leg_569 ;
-	:temLegislacao :leg_479 ;
+	:temLegislacao :leg_160 ;
+	:temLegislacao :leg_196 ;
+	:temLegislacao :leg_222 ;
+	:temLegislacao :leg_798 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_494 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para lançamento de efluentes industriais na rede de coletores, na sequência de um licenciamento de atividade.
 Inicia com o pedido e termina com a autorização.
 inclui apresentação de resultado de análises, definição de programas de autocontrolo da qualidade de águas residuais e de medidas preventivas, consulta de entidades, quando devido, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.
@@ -2157,8 +2216,10 @@ inclui apresentação de resultado de análises, definição de programas de aut
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_876 ;
+	:temLegislacao :leg_899 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Controlo prévio de obras e trabalhos a realizar no solo e subsolo do domínio público.
 Inicia com o pedido ou apresentação de comunicação prévia e termina com a emissão da licença ou a autorização.
 Inclui apresentação de planta de localização, análise do projeto de intervenção, preenchimento da declaração e do termo de responsabilidade, apresentação de plano de segurança e condicionantes ao trânsito, consulta de entidades, comunicação aos interessados, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.".
@@ -2217,15 +2278,15 @@ Inclui apresentação de planta de localização, análise do projeto de interve
 	:NotaAplicacao ;
 	:conteudo "Ocupação de espaço em domínio público marítimo".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.213_13
-:na_c450.10.213_13 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Utilização de espaço aéreo do domínio público com obras de arte de uso privativo (Licenciamento ou autorização)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.213_12
 :na_c450.10.213_12 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Utilização de espaço aéreo do domínio público com infraestruturas de terceiros (Licenciamento ou autorização)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.213_13
+:na_c450.10.213_13 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Utilização de espaço aéreo do domínio público com obras de arte de uso privativo (Licenciamento ou autorização)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.213
 :c450.10.213 rdf:type owl:NamedIndividual ,
@@ -2264,14 +2325,16 @@ Inclui apresentação de planta de localização, análise do projeto de interve
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eAntecessorDe :c900.10.002 ;
-	:temLegislacao :leg_1119 ;
-	:temLegislacao :leg_1100 ;
-	:temLegislacao :leg_929 ;
-	:temLegislacao :leg_882 ;
-	:temLegislacao :leg_331 ;
-	:temLegislacao :leg_376 ;
-	:temLegislacao :leg_205 ;
+	:temLegislacao :leg_1155 ;
+	:temLegislacao :leg_1135 ;
+	:temLegislacao :leg_953 ;
+	:temLegislacao :leg_905 ;
+	:temLegislacao :leg_346 ;
+	:temLegislacao :leg_392 ;
+	:temLegislacao :leg_217 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de licença ou autorização para usar o espaço público para diversos fins ou atividades.
 Inicia com o pedido ou com comunicação prévia e termina com a indicação de libertação do espaço público.
 Inclui análise do projeto, consulta de entidades, cálculo do valor da taxa devida, apresentação do comprovativo do seu pagamento e emissão de licença.
@@ -2319,6 +2382,7 @@ Inclui análise do projeto, consulta de entidades, cálculo do valor da taxa dev
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_DGPC ;
+	:temParticipanteApreciador :org_IP, SA ;
 	:temParticipanteApreciador :org_IMT ;
 	:temParticipanteApreciador :org_TP ;
 	:temParticipanteApreciador :org_ICNF ;
@@ -2340,11 +2404,13 @@ Inclui análise do projeto, consulta de entidades, cálculo do valor da taxa dev
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_929 ;
-	:temLegislacao :leg_355 ;
-	:temLegislacao :leg_100 ;
-	:temLegislacao :leg_84 ;
+	:temLegislacao :leg_953 ;
+	:temLegislacao :leg_371 ;
+	:temLegislacao :leg_106 ;
+	:temLegislacao :leg_89 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de licença ou autorização para afixação, inscrição  ou transmissão sonora de mensagens publicitárias.
 Inicia com o pedido ou  com comunicação prévia e termina com a emissão da licença ou a autorização.
 Inclui, no caso de sujeição a licença, consulta de entidades, no caso das unidades móveis publicitárias apresentação de seguro, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.".
@@ -2378,9 +2444,11 @@ Inclui, no caso de sujeição a licença, consulta de entidades, no caso das uni
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c800.10.301 ;
 	:eAntecessorDe :c900.10.002 ;
-	:temLegislacao :leg_577 ;
-	:temLegislacao :leg_558 ;
+	:temLegislacao :leg_593 ;
+	:temLegislacao :leg_574 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de licença ou autorização para realizar atividade ruidosa.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui indicação da localização da atividade ruidosa e do período de atividade, cálculo da taxa devida, quando aplicável, e apresentação do comprovativo do seu pagamento.
@@ -2422,10 +2490,12 @@ Inclui indicação da localização da atividade ruidosa e do período de ativid
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1052 ;
-	:temLegislacao :leg_1004 ;
-	:temLegislacao :leg_580 ;
+	:temLegislacao :leg_1082 ;
+	:temLegislacao :leg_1031 ;
+	:temLegislacao :leg_596 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Permissão para instalação de farmácias.
 Inicia com o pedido de abertura do procedimento concursal para a instalação de farmácia e termina com a comunicação de encerramento.
 Inclui estudo de viabilidade de abertura de concurso, recolha de pareceres técnicos, decisão, publicação do aviso de abertura do procedimento concursal, constituição do júri, apresentação de candidaturas, seleção de candidatos, sorteio dos candidatos selecionados, notificação do candidato selecionado, definição da caução e comprovativo do seu pagamento, vistoria das instalações para abertura, alterações estatutárias e de títulos de propriedade.
@@ -2460,8 +2530,10 @@ Inclui estudo de viabilidade de abertura de concurso, recolha de pareceres técn
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1116 ;
+	:temLegislacao :leg_1152 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de licença para alterar as características originais de superfícies exteriores de edifícios, pavimentos, passeios, muros e de outras infraestruturas através de grafitos, afixações ou picotagens com caracter artístico, decorativo ou informativo.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui análise preliminar do pedido, autorização do proprietário, quando devido, apreciação de projeto, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.".
@@ -2498,10 +2570,12 @@ Inclui análise preliminar do pedido, autorização do proprietário, quando dev
 	:eCruzadoCom :c350.30.001 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_507 ;
-	:temLegislacao :leg_760 ;
-	:temLegislacao :leg_1009 ;
+	:temLegislacao :leg_523 ;
+	:temLegislacao :leg_779 ;
+	:temLegislacao :leg_1036 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de licença para fazer fogueiras em espaços públicos ou em terrenos privados.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui consulta de entidades, avaliação das condições meteorológicas, apresentação de informação relativa à estrutura de ocupação do solo, estado de secura dos combustíveis e localização de infraestruturas, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.".
@@ -2541,11 +2615,13 @@ Inclui consulta de entidades, avaliação das condições meteorológicas, apres
 	:eSuplementoPara :c500.10.301 ;
 	:eAntecessorDe :c550.20.004 ;
 	:eSucessorDe :c900.10.002 ;
-	:temLegislacao :leg_1009 ;
-	:temLegislacao :leg_929 ;
-	:temLegislacao :leg_793 ;
-	:temLegislacao :leg_354 ;
+	:temLegislacao :leg_1036 ;
+	:temLegislacao :leg_953 ;
+	:temLegislacao :leg_814 ;
+	:temLegislacao :leg_370 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de licença de recinto para efeito de instalação de estruturas móveis efémeras, destinadas à realização de espetáculos, e de divertimentos públicos ou acampamentos ocasionais.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui apresentação de informação relativa ao evento a realizar no recinto, vistoria ao local e aos equipamentos, apresentação do último certificado da inspeção de cada equipamento, apresentação de apólice de seguro, análise e aprovação do plano de evacuação em situações de emergência, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.
@@ -2588,10 +2664,12 @@ Inclui apresentação de informação relativa ao evento a realizar no recinto, 
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c450.10.229 ;
 	:eAntecessorDe :c300.10.001 ;
-	:temLegislacao :leg_639 ;
-	:temLegislacao :leg_479 ;
-	:temLegislacao :leg_569 ;
+	:temLegislacao :leg_655 ;
+	:temLegislacao :leg_494 ;
+	:temLegislacao :leg_585 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de licença para a criação de condições para a prática balnear e para defesa da zona costeira.
 Inicia com o pedido e termina com a emissão de licença.
 Inclui análise técnica, condicionantes de natureza ambiental e de conservação associadas à intervenção, definição do programa de monitorização, métodos de amostragem, cronograma  e apresentação do comprovativo do seu pagamento.".
@@ -2635,9 +2713,11 @@ Inclui análise técnica, condicionantes de natureza ambiental e de conservaçã
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c500.10.600 ;
-	:temLegislacao :leg_996 ;
-	:temLegislacao :leg_479 ;
+	:temLegislacao :leg_1022 ;
+	:temLegislacao :leg_494 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de licença para rejeição de águas residuais nas massas de água superficiais e no solo.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui localização geográfica em carta militar com os pontos de descarga, análise de projeto de drenagem e tratamento de efluentes, indicação do meio recetor, indicação do tipo de exploração, caudal descarregado, responsabilidade ambiental, seguro, caução, pagamento da taxa e apresentação do comprovativo do seu pagamento.".
@@ -2659,9 +2739,11 @@ Inclui localização geográfica em carta militar com os pontos de descarga, an�
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_770 ;
-	:temLegislacao :leg_479 ;
+	:temLegislacao :leg_790 ;
+	:temLegislacao :leg_494 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de licença para ações de aterros e escavações com vista à consolidação das margens e proteção contra a erosão ou cheias e para melhoria ou preservação da qualidade da água.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui análise técnica, consulta de entidades, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.".
@@ -2699,10 +2781,12 @@ Inclui análise técnica, consulta de entidades, cálculo da taxa devida e apres
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1004 ;
-	:temLegislacao :leg_580 ;
-	:temLegislacao :leg_638 ;
+	:temLegislacao :leg_1031 ;
+	:temLegislacao :leg_596 ;
+	:temLegislacao :leg_654 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para abertura de local de comercialização de medicamentos para uso humano não sujeitos a receita médica, em consonância com as regras e os procedimentos em vigor, de forma a garantir a qualidade e segurança da sua utilização.
 Inicia com o registo prévio e termina com a comunicação da decisão.
 Inclui validação da documentação necessária à instrução dos processos, fundamentação para resposta e decisão sobre o pedido.".
@@ -2761,10 +2845,12 @@ Inclui validação da documentação necessária à instrução dos processos, f
 	:eAntecessorDe :c450.10.807 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_127 ;
-	:temLegislacao :leg_137 ;
-	:temLegislacao :leg_881 ;
+	:temLegislacao :leg_134 ;
+	:temLegislacao :leg_144 ;
+	:temLegislacao :leg_904 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para que determinados armazéns sejam utilizados para depósito de mercadorias.
 Inicia com pedido e termina com a comunicação da decisão.
 Inclui análise do pedido, verificação do cumprimento de requisitos, realização de avaliação/auditoria prévia, quando aplicável, e a prestação de garantia, quando aplicável.
@@ -2845,14 +2931,17 @@ Inclui análise do pedido, verificação do cumprimento de requisitos, realizaç
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c800.10.601 ;
 	:eCruzadoCom :c800.10.602 ;
-	:temLegislacao :leg_1299 ;
-	:temLegislacao :leg_1362 ;
-	:temLegislacao :leg_1193 ;
-	:temLegislacao :leg_848 ;
-	:temLegislacao :leg_635 ;
-	:temLegislacao :leg_335 ;
-	:temLegislacao :leg_226 ;
+	:temLegislacao :leg_1342 ;
+	:temLegislacao :leg_1405 ;
+	:temLegislacao :leg_1232 ;
+	:temLegislacao :leg_1132 ;
+	:temLegislacao :leg_870 ;
+	:temLegislacao :leg_651 ;
+	:temLegislacao :leg_350 ;
+	:temLegislacao :leg_238 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Avaliação, de forma integrada, dos impactos ambientais significativos, diretos e indiretos, decorrentes da execução dos projetos e das alternativas apresentadas, tendo em vista suportar a decisão sobre a viabilidade ambiental dos mesmos.
 Inicia com a entrega do projeto para apreciação e termina com a comunicação da decisão.
 Inclui a verificação e análise das caraterísticas impactantes, consulta de entidades, consulta pública e emissão de licença.".
@@ -2873,6 +2962,11 @@ Inclui a entrega do projeto, verificação e análise das caraterísticas impact
 	:temPai :c450.10.229 ;
 	:classeStatus "A" ;
 	:descricao "Elaboração do relatório final e título. O projeto faz parte integrante do relatório final.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_3
+:na_c450.10.230_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Investigação programada em sítios arqueológicos".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_1
 :na_c450.10.230_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -2882,11 +2976,6 @@ Inclui a entrega do projeto, verificação e análise das caraterísticas impact
 :na_c450.10.230_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Ações preventivas a realizar no âmbito de trabalhos de minimização de impactos devido a empreendimentos públicos ou privados, em meio rural, urbano ou subaquático".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_3
-:na_c450.10.230_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Investigação programada em sítios arqueológicos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_4
 :na_c450.10.230_4 rdf:type owl:NamedIndividual ,
@@ -2925,8 +3014,10 @@ Inclui a entrega do projeto, verificação e análise das caraterísticas impact
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c800.20.001 ;
-	:temLegislacao :leg_1207 ;
+	:temLegislacao :leg_1248 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para a realização da atividade de trabalhos arqueológicos.
 Inicia com o pedido e termina com a notificação da autorização.
 Inclui apreciação do curriculum vitae do arqueólogo responsável, análise do plano de trabalhos a realizar, definição de condicionalismos, quando devido, e decisão.
@@ -2972,8 +3063,10 @@ Inclui apreciação do curriculum vitae do arqueólogo responsável, análise do
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1282 ;
+	:temLegislacao :leg_1324 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para a realização periódica da atividade de comércio não sedentário, exercida por feirantes e vendedores ambulantes, em recintos públicos ou privados onde se concentra grande quantidade de produtos.
 Inicia com o pedido e termina com a autorização.
 Inclui consulta de entidades, apresentação da proposta de regulamento por parte do proponente e atribuição de lugar por sorteio.".
@@ -3072,8 +3165,10 @@ Inclui consulta de entidades, apresentação da proposta de regulamento por part
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c800.10.601 ;
 	:eCruzadoCom :c500.10.600 ;
-	:temLegislacao :leg_569 ;
+	:temLegislacao :leg_585 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de licença para captação de volumes de água, superficiais ou subterrâneas, com ou sem retenção, para o consumo humano, para rega, para a atividade industrial, para a produção hidroelétrica ou para atividades recreativas ou de lazer.
 Inicia com o pedido e termina com a emissão da licença ou autorização.
 Inclui memória descritiva, avaliação técnica do pedido, consulta de entidades, apresentação de dados sobre a análise de água, definição de perímetro de proteção, definição de plano sobre o Uso Eficiente de Água, indicação das condições de utilização de águas residuais urbanas tratadas ou de escorrência de rega, caracterização do regime de exploração e das caraterísticas agronómicas do aproveitamento, sistema de fertilização e controlo de infestantes, cálculo do valor da taxa devida e comprovativo do seu pagamento.
@@ -3120,10 +3215,12 @@ Inclui memória descritiva, avaliação técnica do pedido, consulta de entidade
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_569 ;
-	:temLegislacao :leg_479 ;
-	:temLegislacao :leg_587 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_494 ;
+	:temLegislacao :leg_603 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão da utilização do recurso hidrico para a instalação de infraestruturas ou construção de infraestruturas.
 Inicia com o pedido e termina com a comunicação da decisão.
 Inclui análise preliminar, consulta de entidades, vistoria à instalação, definição do valor de caução, cálculo da taxa devida e comprovativo do seu pagamento e decisão final.".
@@ -3183,9 +3280,11 @@ Inclui análise preliminar, consulta de entidades, vistoria à instalação, def
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c800.10.301 ;
-	:temLegislacao :leg_353 ;
-	:temLegislacao :leg_185 ;
+	:temLegislacao :leg_369 ;
+	:temLegislacao :leg_195 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para instalar equipamentos de armazenamento de produtos de petróleo e de abastecimento de combustíveis.
 Inicia com o pedido e termina com a emissão de licença.
 Inclui verificação da conformidade do pedido, consulta de entidades, validação de condicionantes, realização de vistoria, comprovativo de pagamento da taxa devida e decisão.".
@@ -3213,11 +3312,15 @@ Inclui verificação da conformidade do pedido, consulta de entidades, validaç�
 	:eAntecessorDe :c450.10.205 ;
 	:eAntecessorDe :c450.10.444 ;
 	:eAntecessorDe :c450.10.807 ;
-	:temLegislacao :leg_53 ;
-	:temLegislacao :leg_256 ;
-	:temLegislacao :leg_876 ;
-	:temLegislacao :leg_1202 ;
+	:temLegislacao :leg_58 ;
+	:temLegislacao :leg_150 ;
+	:temLegislacao :leg_268 ;
+	:temLegislacao :leg_899 ;
+	:temLegislacao :leg_1243 ;
+	:temLegislacao :leg_6 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Reconhecimento das condições que permitem a divisão de um edifício em frações autónomas, passíveis de se constituírem como unidades independentes pertencentes a proprietários diversos que partilham a propriedade das partes comuns do edifício.
 Inicia com o pedido e termina com a certificação das condições de propriedade horizontal.
 Inclui vistoria ao edifício ou validação da memória descritiva, quando devido, identificação das unidades independentes e das partes comuns do edifício, definição do fim a que se destinam, cálculo da taxa devida e comprovativo do seu pagamento.".
@@ -3241,9 +3344,11 @@ Inclui vistoria ao edifício ou validação da memória descritiva, quando devid
 	:eSintetizadoPor :c300.30.008 ;
 	:eCruzadoCom :c350.30.001 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_418 ;
-	:temLegislacao :leg_1335 ;
+	:temLegislacao :leg_433 ;
+	:temLegislacao :leg_1378 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para a instalação de cartório notarial.
 Inicia com a abertura do concurso para atribuição das licenças de instalação de cartório notarial, de acordo com as vagas existentes e termina com a tomada de posse.
 Inclui a elaboração da lista de licenças a concurso, instrução do concurso, com análise das candidaturas e apreciação dos requisitos, fiscalização das instalações e graduação e atribuição.".
@@ -3277,6 +3382,7 @@ Inclui a elaboração da lista de licenças a concurso, instrução do concurso,
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_AL ;
 	:temParticipanteDecisor :org_IMT ;
+	:temDono :org_IP, SA ;
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c450.10.237_1 ;
 	:temNotaAplicacao :na_c450.10.237_2 ;
@@ -3287,8 +3393,10 @@ Inclui a elaboração da lista de licenças a concurso, instrução do concurso,
 	:eCruzadoCom :c350.30.001 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1316 ;
+	:temLegislacao :leg_1359 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Controlo prévio de obras de construção, reconstrução, ampliação, alteração para estabelecimento de ligação ou acesso a estradas nacionais não vedadas ou, mediante autorização do membro do Governo, a ligações ou acesso aos IP (Itinerário Principal), IC (Itinerário Complementar) e ainda estradas nacionais vedadas e com acessos condicionados.
 Inicia com o pedido e termina com a comunicação da decisão ao requerente acompanhada pela emissão da respetiva licença.
 Inclui apreciação do pedido, apreciação de projeto de engenharia, consulta de entidades, decisão sobre o pedido, emissão da licença, cálculo da taxa devida e apresentação do comprovativo do seu pagamento e acompanhamento da execução da obra.".
@@ -3336,8 +3444,10 @@ Inclui apreciação do pedido, apreciação de projeto de engenharia, consulta d
 	:temRelProc :c500.10.001 ;
 	:temRelProc :c500.10.300 ;
 	:temRelProc :c500.10.301 ;
-	:temLegislacao :leg_1099 ;
+	:temLegislacao :leg_1134 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição de profissionais em associação pública profissional que valida ou reconhece as competências específicas necessárias ao exercício da profissão.
 Inicia com o formulação do pedido e termina com a inscrição (ou com a comunicação da inscrição).
 Inclui verificação da titularidade da habilitação legalmente exigida, realização de estágio ou de formação específica, quando devido, avaliação dos conhecimentos e competências necessárias para a prática de atos profissionais de confiança pública e verificação dos conhecimentos relativos ao código deontológico da profissão, cálculo do valor a pagar e comprovativo do seu pagamento.".
@@ -3466,16 +3576,18 @@ Inclui verificação da titularidade da habilitação legalmente exigida, avalia
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_0 ;
-	:temLegislacao :leg_127 ;
-	:temLegislacao :leg_418 ;
-	:temLegislacao :leg_595 ;
-	:temLegislacao :leg_595 ;
-	:temLegislacao :leg_912 ;
-	:temLegislacao :leg_1140 ;
-	:temLegislacao :leg_1286 ;
-	:temLegislacao :leg_1335 ;
+	:temLegislacao :leg_1 ;
+	:temLegislacao :leg_134 ;
+	:temLegislacao :leg_164 ;
+	:temLegislacao :leg_433 ;
+	:temLegislacao :leg_611 ;
+	:temLegislacao :leg_936 ;
+	:temLegislacao :leg_1176 ;
+	:temLegislacao :leg_1328 ;
+	:temLegislacao :leg_1378 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Confirmação das condições de acesso a profissão cujo exercício depende do  reconhecimento de detenção de competências e ou de qualificação profissional.
 Inicia com o pedido e termina com a emissão de título profissional.
 Inclui análise do pedido, verificação da capacidade jurídica, da habilitação académica e das qualificações profissionais necessárias para o acesso e exercício da profissão, cálculo do valor a pagar e comprovativo do seu pagamento, quando devido, ou a prestação de garantia, quando aplicável.
@@ -3528,10 +3640,12 @@ Inclui análise do pedido, verificação da capacidade jurídica, da habilitaç�
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1217 ;
-	:temLegislacao :leg_1032 ;
-	:temLegislacao :leg_802 ;
+	:temLegislacao :leg_1259 ;
+	:temLegislacao :leg_1061 ;
+	:temLegislacao :leg_824 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Reconhecimento de qualificações profissionais, de nível superior ou não superior, obtidas fora de Portugal, relativos a profissões não regulamentadas em Portugal.
 Inicia com a solicitação de reconhecimento da componente profissional e termina com a comunicação de decisão.
 Inclui instrução do processo, com análise de declarações, certificados, diplomas e respetivas traduções, verificação interna dos requisitos,  realização de estágio de adaptação, quando devido e decisão.
@@ -3581,12 +3695,14 @@ Inclui análise do pedido, verificação interna dos requisitos académicos e pr
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1211 ;
-	:temLegislacao :leg_1033 ;
-	:temLegislacao :leg_814 ;
-	:temLegislacao :leg_388 ;
-	:temLegislacao :leg_125 ;
+	:temLegislacao :leg_1253 ;
+	:temLegislacao :leg_1062 ;
+	:temLegislacao :leg_836 ;
+	:temLegislacao :leg_403 ;
+	:temLegislacao :leg_131 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para a prática profissional em condições excecionais, por período de tempo limitado ou ilimitado, de acordo com requisitos legais definidos.
 Inicia com o pedido e termina com a concessão da autorização.
 Inclui análise do pedido, validação de dados fornecidos, definição de prestação de serviço alteranativo, quando devido e decisão.
@@ -3830,35 +3946,39 @@ Inclui análise do pedido, validação de dados fornecidos, definição de prest
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eSucessorDe :c850.10.003 ;
-	:temLegislacao :leg_1302 ;
-	:temLegislacao :leg_1257 ;
-	:temLegislacao :leg_1150 ;
-	:temLegislacao :leg_1138 ;
-	:temLegislacao :leg_1093 ;
-	:temLegislacao :leg_1107 ;
-	:temLegislacao :leg_1043 ;
+	:temLegislacao :leg_1345 ;
+	:temLegislacao :leg_1299 ;
+	:temLegislacao :leg_1186 ;
+	:temLegislacao :leg_1174 ;
+	:temLegislacao :leg_1128 ;
+	:temLegislacao :leg_1142 ;
+	:temLegislacao :leg_1073 ;
+	:temLegislacao :leg_959 ;
+	:temLegislacao :leg_971 ;
+	:temLegislacao :leg_982 ;
 	:temLegislacao :leg_935 ;
-	:temLegislacao :leg_946 ;
-	:temLegislacao :leg_957 ;
-	:temLegislacao :leg_911 ;
-	:temLegislacao :leg_909 ;
-	:temLegislacao :leg_847 ;
-	:temLegislacao :leg_844 ;
-	:temLegislacao :leg_823 ;
-	:temLegislacao :leg_796 ;
-	:temLegislacao :leg_687 ;
-	:temLegislacao :leg_595 ;
-	:temLegislacao :leg_515 ;
-	:temLegislacao :leg_484 ;
-	:temLegislacao :leg_460 ;
-	:temLegislacao :leg_127 ;
-	:temLegislacao :leg_137 ;
-	:temLegislacao :leg_450 ;
-	:temLegislacao :leg_490 ;
-	:temLegislacao :leg_128 ;
-	:temLegislacao :leg_139 ;
-	:temLegislacao :leg_750 ;
+	:temLegislacao :leg_933 ;
+	:temLegislacao :leg_869 ;
+	:temLegislacao :leg_866 ;
+	:temLegislacao :leg_845 ;
+	:temLegislacao :leg_818 ;
+	:temLegislacao :leg_706 ;
+	:temLegislacao :leg_611 ;
+	:temLegislacao :leg_531 ;
+	:temLegislacao :leg_499 ;
+	:temLegislacao :leg_475 ;
+	:temLegislacao :leg_134 ;
+	:temLegislacao :leg_144 ;
+	:temLegislacao :leg_465 ;
+	:temLegislacao :leg_505 ;
+	:temLegislacao :leg_1411 ;
+	:temLegislacao :leg_1412 ;
+	:temLegislacao :leg_135 ;
+	:temLegislacao :leg_146 ;
+	:temLegislacao :leg_769 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Reconhecimento  do cumprimento das condições legalmente estabelecidas e da qualidade técnica exigida para o exercício de determinada atividade ou para integrar uma rede de serviços com características específicas.
 Inicia com com a receção do pedido ou candidatura e termina com a certificação, autorização ou registo ou, quando devido, com o envio para publicação.
 Inclui análise do pedido, verificação do cumprimento de requisitos, consulta de entidades, quando devido, controlo, decisão e comprovativo do pagamento da taxa devida e prestação de garantia, quando aplicável.".
@@ -3899,15 +4019,15 @@ Inclui  consulta de entidades, quando devido, decisão e comprovativo do pagamen
 	:NotaAplicacao ;
 	:conteudo "Reconhecimento de entidades prestadoras do serviço de aconselhamento agrícola e/ou florestal".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.445_5
-:na_c450.10.445_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Reconhecimento de organismos  privados de controlo e certificação (OC) de regimes de Modo de Produção Biológico (MPB), Denominação de Origem Protegida (DOP), Indicação Geográfica Protegida (IGP), Especialidade Tradicional Garantida (ETG), Produção Integrada (PRODI) e rotulagem facultativa".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.445_6
 :na_c450.10.445_6 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Certificação de entidades gestoras de plataformas eletrónicas de contratação pública (Anterior PN 450.10.411)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.445_5
+:na_c450.10.445_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reconhecimento de organismos  privados de controlo e certificação (OC) de regimes de Modo de Produção Biológico (MPB), Denominação de Origem Protegida (DOP), Indicação Geográfica Protegida (IGP), Especialidade Tradicional Garantida (ETG), Produção Integrada (PRODI) e rotulagem facultativa".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.445_7
 :na_c450.10.445_7 rdf:type owl:NamedIndividual ,
@@ -4018,11 +4138,13 @@ Inclui  consulta de entidades, quando devido, decisão e comprovativo do pagamen
 	:eSuplementoPara :c500.10.301 ;
 	:eAntecessorDe :c800.10.601 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_583 ;
-	:temLegislacao :leg_738 ;
-	:temLegislacao :leg_926 ;
-	:temLegislacao :leg_1267 ;
+	:temLegislacao :leg_599 ;
+	:temLegislacao :leg_757 ;
+	:temLegislacao :leg_950 ;
+	:temLegislacao :leg_1309 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Confirmação e reconhecimento da capacidade técnica de entidades para prestação de serviços de avaliação de conformidade de produtos ou de serviços.
 Inicia com a apresentação de candidatura e termina com a comunicação da acreditação.
 Inclui análise do pedido, eventual solicitação de esclarecimentos e/ou junção de documentos, consulta de entidades, audiência de interessados, comprovativo do pagamento do valor devido e decisão.
@@ -4126,10 +4248,12 @@ Inclui admissão de documento comprovativo de acreditação, se aplicável.".
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_1132 ;
-	:temLegislacao :leg_1027 ;
-	:temLegislacao :leg_2 ;
+	:temLegislacao :leg_1168 ;
+	:temLegislacao :leg_1056 ;
+	:temLegislacao :leg_6 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de personalidade jurídica a fundação.
 Inicia com o pedido de reconhecimento e termina com o envio para publicação.
 Inclui instrução do pedido, identificação dos objetivos da fundação, identificação dos bens necessários para a prossecução dos objetivos, verificação dos estatutos, decisão e respetiva notificação.
@@ -4247,15 +4371,18 @@ Inclui instrução do pedido, identificação dos objetivos da fundação, ident
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_1364 ;
-	:temLegislacao :leg_1121 ;
-	:temLegislacao :leg_1040 ;
-	:temLegislacao :leg_843 ;
-	:temLegislacao :leg_403 ;
-	:temLegislacao :leg_278 ;
-	:temLegislacao :leg_202 ;
-	:temLegislacao :leg_217 ;
+	:temLegislacao :leg_1407 ;
+	:temLegislacao :leg_1125 ;
+	:temLegislacao :leg_1157 ;
+	:temLegislacao :leg_1069 ;
+	:temLegislacao :leg_865 ;
+	:temLegislacao :leg_418 ;
+	:temLegislacao :leg_290 ;
+	:temLegislacao :leg_214 ;
+	:temLegislacao :leg_229 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Identificação da natureza jurídica, do âmbito de atuação e do carater representativo a entidades.
 Inicia com a apresentação do pedido e termina com a emissão ou retirada do respetivo título de reconhecimento e de utilização de denominação ou com o registo, quando devido.
 Inclui  a análise do pedido, eventual pedido de novos elementos ou confirmação de informação, consulta de entidades, emissão de parecer, despacho de decisão, notificação da decisão ao interessado, período de contraditório, caso seja necessário, e comprovativo de pagamento do montante devido.
@@ -4342,31 +4469,33 @@ Inclui  a análise do pedido, eventual pedido de novos elementos ou confirmaçã
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1374 ;
-	:temLegislacao :leg_1215 ;
-	:temLegislacao :leg_1060 ;
-	:temLegislacao :leg_1059 ;
-	:temLegislacao :leg_808 ;
-	:temLegislacao :leg_397 ;
-	:temLegislacao :leg_146 ;
-	:temLegislacao :leg_138 ;
-	:temLegislacao :leg_106 ;
-	:temLegislacao :leg_94 ;
-	:temLegislacao :leg_85 ;
+	:temLegislacao :leg_1417 ;
+	:temLegislacao :leg_1257 ;
+	:temLegislacao :leg_1090 ;
+	:temLegislacao :leg_1089 ;
+	:temLegislacao :leg_830 ;
+	:temLegislacao :leg_412 ;
+	:temLegislacao :leg_156 ;
+	:temLegislacao :leg_145 ;
+	:temLegislacao :leg_112 ;
+	:temLegislacao :leg_100 ;
+	:temLegislacao :leg_90 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Autorização para aceder e manusear informação sensível bem como para desenvolver atividades específicas que envolvam o uso dessa informação ou que necessitem de credenciação de acesso ou de segurança.
 Inicia com o pedido de credenciação e termina com a comunicação da decisão.
 Inclui análise do pedido, decisão e emissão do certificado de credenciação ou de chaves de acesso.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.640_2
-:na_c450.10.640_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Autorização de introdução no mercado (AIM) de medicamentos por procedimento de reconhecimento mútuo (Anterior PN 450.10.622)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.640_1
 :na_c450.10.640_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Autorização de introdução no mercado (AIM) de medicamentos por procedimento nacional (Anterior PN 450.10.621)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.640_2
+:na_c450.10.640_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Autorização de introdução no mercado (AIM) de medicamentos por procedimento de reconhecimento mútuo (Anterior PN 450.10.622)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.640_3
 :na_c450.10.640_3 rdf:type owl:NamedIndividual ,
@@ -4435,12 +4564,14 @@ Inclui análise do pedido, decisão e emissão do certificado de credenciação 
 	:eCruzadoCom :c800.10.301 ;
 	:eAntecessorDe :c800.10.304 ;
 	:eCruzadoCom :c800.10.601 ;
-	:temLegislacao :leg_515 ;
-	:temLegislacao :leg_426 ;
-	:temLegislacao :leg_345 ;
-	:temLegislacao :leg_881 ;
-	:temLegislacao :leg_1076 ;
+	:temLegislacao :leg_531 ;
+	:temLegislacao :leg_441 ;
+	:temLegislacao :leg_360 ;
+	:temLegislacao :leg_904 ;
+	:temLegislacao :leg_1106 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para colocar novos produtos ou substâncias no mercado nacional.
 Inicia com o pedido e termina com a autorização ou com a comunicação da autorização, quando devido.
 Inclui análise do pedido, verificação de conformidade com documentos reguladores, fundamentação da decisão, emissão de certificado, notificação ao interessado, cálculo da taxa devida e comprovativo do seu pagamento.
@@ -4467,8 +4598,10 @@ Inclui análise do pedido, verificação de conformidade com documentos regulado
 	:eSintetizadoPor :c150.20.300 ;
 	:eSintetizadoPor :c300.30.008 ;
 	:eSintetizadoPor :c400.10.411 ;
-	:temLegislacao :leg_515 ;
+	:temLegislacao :leg_531 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para conceder denominação a produtos de acordo com critérios definidos.
 Inicia com a receção do pedido e termina com a comunicação da decisão.
 Inclui análise do processo, decisão sobre o pedido e comprovativo de pagamento do valor devido.  ".
@@ -4509,10 +4642,12 @@ Inclui análise do processo, decisão sobre o pedido e comprovativo de pagamento
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1079 ;
-	:temLegislacao :leg_1293 ;
-	:temLegislacao :leg_1355 ;
+	:temLegislacao :leg_1109 ;
+	:temLegislacao :leg_1336 ;
+	:temLegislacao :leg_1398 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Aprovação de preço de produto ou reavaliação a título excecional do preço por motivos de interesse público ou por iniciativa do titular da autorização de introdução no mercado.
 Inicia com o pedido e termina com a notificação da decisão ao requerente.
 Inclui avaliação do pedido,comparação internacional de preços, consulta de entidades, quando devido, comparticipação das partes (ex.: valor da comparticipação do Serviço Nacional de Saúde) e decisão.".
@@ -4675,10 +4810,12 @@ Inclui avaliação do pedido,comparação internacional de preços, consulta de 
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_515 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_129 ;
+	:temLegislacao :leg_531 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_136 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para transacionar ou comercializar bens e produtos sensíveis podendo a transação ser a título oneroso ou gratuito e revestir-se das modalidades de aquisição por grosso, importação, expedição e exportação.
 Pode tratar-se de autorização com caráter de exceção por motivos de saúde pública.
 Inicia com o pedido ou comunicação prévia e termina com a comunicação da decisão ou emissão do certificado para comercialização.
@@ -4756,10 +4893,12 @@ Inclui a instrução do processo, análise dos requisitos exigidos, peritagem ou
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_461 ;
-	:temLegislacao :leg_515 ;
-	:temLegislacao :leg_528 ;
+	:temLegislacao :leg_476 ;
+	:temLegislacao :leg_531 ;
+	:temLegislacao :leg_544 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para, em circunstancias específicas, usar equipamentos e produtos sensíveis de modo controlado.
 Inicia com o pedido e termina com a notificação da decisão ao interessado ou com a assinatura de contrato.
 Inclui instrução do processo, avaliação das circunstâncias do uso pretendido, consulta de entidades, quando devido e decisão.
@@ -4814,12 +4953,14 @@ Inclui instrução do processo, avaliação das circunstâncias do uso pretendid
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1295 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_528 ;
-	:temLegislacao :leg_129 ;
-	:temLegislacao :leg_444 ;
+	:temLegislacao :leg_1338 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_544 ;
+	:temLegislacao :leg_136 ;
+	:temLegislacao :leg_459 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para a movimentação de entrada e saída temporária e para a mudança de lugar de bens móveis sensíveis que necessitam de controlo, classificados ou em vias de classificação.
 Inicia com o pedido ou comunicação prévia e termina com a decisão.
 Inclui a análise, consulta de entidades, quando devido, registos operacionais sobre a circulação dos bens.".
@@ -4845,9 +4986,11 @@ Inclui a análise, consulta de entidades, quando devido, registos operacionais s
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_121 ;
-	:temLegislacao :leg_82 ;
+	:temLegislacao :leg_127 ;
+	:temLegislacao :leg_87 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para alteração das características originais de um produto ou para a sua substituição por uma versão com características de autenticidade e fidedignidade.
 Inicia com um pedido de autorização e termina com a notificação da decisão ao interessado.
 Inclui a análise técnica, consulta de entidades quando devido, fundamentação e decisão.
@@ -4882,15 +5025,15 @@ Inclui a análise técnica, consulta de entidades quando devido, fundamentação
 	:NotaAplicacao ;
 	:conteudo "Autenticação de obras e de conteúdos culturais (Anterior PN 450.10.608)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_7
-:na_c450.10.648_7 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Certificação de segurança a produtos e sistemas de comunicações, de informática e de tecnologias de informação classificada (Anterior PN 450.10.613)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_8
 :na_c450.10.648_8 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reconhecimento de sistema de formação de mergulho (Anterior PN 450.10.616)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_7
+:na_c450.10.648_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Certificação de segurança a produtos e sistemas de comunicações, de informática e de tecnologias de informação classificada (Anterior PN 450.10.613)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_9
 :na_c450.10.648_9 rdf:type owl:NamedIndividual ,
@@ -4991,35 +5134,28 @@ Inclui a análise técnica, consulta de entidades quando devido, fundamentação
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c800.10.610 ;
-	:temLegislacao :leg_127 ;
+	:temLegislacao :leg_134 ;
+	:temLegislacao :leg_144 ;
+	:temLegislacao :leg_786 ;
+	:temLegislacao :leg_697 ;
+	:temLegislacao :leg_715 ;
+	:temLegislacao :leg_440 ;
+	:temLegislacao :leg_390 ;
+	:temLegislacao :leg_254 ;
 	:temLegislacao :leg_137 ;
-	:temLegislacao :leg_766 ;
-	:temLegislacao :leg_679 ;
-	:temLegislacao :leg_696 ;
-	:temLegislacao :leg_425 ;
-	:temLegislacao :leg_374 ;
-	:temLegislacao :leg_242 ;
-	:temLegislacao :leg_130 ;
-	:temLegislacao :leg_510 ;
-	:temLegislacao :leg_909 ;
-	:temLegislacao :leg_1138 ;
-	:temLegislacao :leg_911 ;
-	:temLegislacao :leg_484 ;
+	:temLegislacao :leg_526 ;
+	:temLegislacao :leg_933 ;
+	:temLegislacao :leg_1174 ;
+	:temLegislacao :leg_935 ;
+	:temLegislacao :leg_499 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Reconhecimento de que determinado serviço ou produto respeita um conjunto de requisitos de acordo com as especificações técnicas estipuladas ou as normas legalmente aplicáveis.
 Inicia com o pedido e termina com a emissão de certificado de conformidade ou com entrega de marca ou selo de entidade.
 Inclui, quando devido, análise técnica do produto ou serviço a reconhecer, identificação de conformidades e de não conformidades, definição e realização de correções ou melhorias, formalização por parte de fabricante e/ou representante após análise do pareceres técnicos, realização de testes ou de vistoria, consulta de entidades, criação de mecanismos de validação de conformidade e registo do reconhecimento em repositório.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#c450.10.648.02
-:c450.10.648.02 rdf:type owl:NamedIndividual ,
-	:Classe_N4;
-	:codigo "450.10.648.02";
-	:titulo "Reconhecimento das  características e origem de bens, produtos e serviços: emissão de título";
-	:temPai :c450.10.648 ;
-	:classeStatus "A" ;
-	:descricao "Inicia com a decisão sobre o reconhecimento da qualidade e das características e termina com o registo do reconhecimento e sua publicitação.
-Inclui emissão de certificado de conformidade e entrega de marca ou selo de entidade, quando devido.".
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.648.01
 :c450.10.648.01 rdf:type owl:NamedIndividual ,
 	:Classe_N4;
@@ -5029,15 +5165,24 @@ Inclui emissão de certificado de conformidade e entrega de marca ou selo de ent
 	:classeStatus "A" ;
 	:descricao "Inicia com o pedido e termina com a proposta de reconhecimento.
 Inclui análise técnica do produto ou serviço a reconhecer, identificação de conformidades e de não conformidades, definição e realização de correções ou melhorias, realização de testes ou de vistoria, consulta de entidades e criação de mecanismos de validação de conformidade, quando devido.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.649_1
-:na_c450.10.649_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Classificação de empreendimentos turísticos (Anterior PN 450.10.601)".
-
+###  http://jcr.di.uminho.pt/m51-clav#c450.10.648.02
+:c450.10.648.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "450.10.648.02";
+	:titulo "Reconhecimento das  características e origem de bens, produtos e serviços: emissão de título";
+	:temPai :c450.10.648 ;
+	:classeStatus "A" ;
+	:descricao "Inicia com a decisão sobre o reconhecimento da qualidade e das características e termina com o registo do reconhecimento e sua publicitação.
+Inclui emissão de certificado de conformidade e entrega de marca ou selo de entidade, quando devido.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.649_2
 :na_c450.10.649_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Classificação de temas de jogos para máquinas de diversão (Anterior PN 450.10.602)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.649_1
+:na_c450.10.649_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Classificação de empreendimentos turísticos (Anterior PN 450.10.601)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.649_3
 :na_c450.10.649_3 rdf:type owl:NamedIndividual ,
@@ -5081,30 +5226,32 @@ Inclui análise técnica do produto ou serviço a reconhecer, identificação de
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1191 ;
-	:temLegislacao :leg_1009 ;
-	:temLegislacao :leg_1012 ;
-	:temLegislacao :leg_910 ;
-	:temLegislacao :leg_782 ;
-	:temLegislacao :leg_737 ;
-	:temLegislacao :leg_543 ;
-	:temLegislacao :leg_426 ;
-	:temLegislacao :leg_345 ;
+	:temLegislacao :leg_1230 ;
+	:temLegislacao :leg_1036 ;
+	:temLegislacao :leg_1041 ;
+	:temLegislacao :leg_934 ;
+	:temLegislacao :leg_803 ;
+	:temLegislacao :leg_756 ;
+	:temLegislacao :leg_559 ;
+	:temLegislacao :leg_441 ;
+	:temLegislacao :leg_360 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Avaliação e categorização de bens e produtos atendendo a requisitos normalizados de identificação e de proteção de consumidores.
 Inicia com o pedido e termina com comunicação da decisão ou com atribuição de elemento  identificador da classificação atribuída.
 Inclui análise do pedido, avaliação do bem ou produto, articulação entre entidades quando devido, aplicação de critérios de categorização e decisão.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.650_1
-:na_c450.10.650_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Entreposto aduaneiro".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.650_2
 :na_c450.10.650_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Aperfeiçoamento ativo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.650_1
+:na_c450.10.650_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Entreposto aduaneiro".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.650_3
 :na_c450.10.650_3 rdf:type owl:NamedIndividual ,
@@ -5136,6 +5283,11 @@ Inclui análise do pedido, avaliação do bem ou produto, articulação entre en
 	:NotaExclusao ;
 	:conteudo "A autorização de entreposto aduaneiro, enquanto estatuto atribuído a um local para armazenamento de mercadorias, deve ser considerada em 450.10.228 – Autorização de locais para depósito de mercadorias".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.651_1
+:na_c450.10.651_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Cursos conferentes de grau".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.650
 :c450.10.650 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -5162,18 +5314,15 @@ Inclui análise do pedido, avaliação do bem ou produto, articulação entre en
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_127 ;
-	:temLegislacao :leg_137 ;
+	:temLegislacao :leg_134 ;
+	:temLegislacao :leg_144 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Processamento da atribuição de um regime especial aduaneiro, previsto na legislação comunitária, às mercadorias.
 Inicia com o pedido de atribuição de regime aduaneiro, previamente à entrega da declaração aduaneira, e termina com a comunicação da decisão.
 Inclui análise do pedido, verificação do cumprimento de requisitos, o exercício do direito de audição prévia, quando aplicável, bem como a prestação de garantia, quando aplicável.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.651_1
-:na_c450.10.651_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Cursos conferentes de grau".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.651_2
 :na_c450.10.651_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -5217,11 +5366,13 @@ Inclui análise do pedido, verificação do cumprimento de requisitos, o exercí
 	:temNotaExclusao :ne_c450.10.651_1 ;
 	:eComplementarDe :c750.20.001 ;
 	:eAntecessorDe :c400.10.619 ;
-	:temLegislacao :leg_607 ;
-	:temLegislacao :leg_615 ;
-	:temLegislacao :leg_498 ;
-	:temLegislacao :leg_1088 ;
+	:temLegislacao :leg_623 ;
+	:temLegislacao :leg_631 ;
+	:temLegislacao :leg_513 ;
+	:temLegislacao :leg_1122 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Reconhecimento formal e verificação do cumprimento dos requisitos gerais, especiais e legais exigidos para o funcionamento e criação de ciclos de estudos de ensino.
 Inicia com o pedido de reconhecimento e termina com a decisão de acreditação ou não acreditação.
 Inclui auto-avaliação e instrução do processo de acreditação, análise, notificação dos requerentes, exercício do direito de audiência prévia, avaliação.".
@@ -5253,8 +5404,10 @@ Inclui auto-avaliação e instrução do processo de acreditação, análise, no
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_449 ;
+	:temLegislacao :leg_464 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de licença anual para detenção e posse de cães e gatos.
 Inicia com o pedido e termina com a emissão da licença.
 Inclui análise preliminar do pedido, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.".
@@ -5318,9 +5471,11 @@ Inclui análise preliminar do pedido, cálculo da taxa devida e apresentação d
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eSucessorDe :c750.30.600 ;
-	:temLegislacao :leg_999 ;
-	:temLegislacao :leg_809 ;
+	:temLegislacao :leg_1025 ;
+	:temLegislacao :leg_831 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de autorização para a condução de diversas categorias de veículos.
 Inicia com o pedido e termina com o registo do título de condução.
 Inclui verificação dos requisitos necessários, articulação entre entidades e emissão de carta de condução.".
@@ -5371,9 +5526,11 @@ Inclui verificação dos requisitos necessários, articulação entre entidades 
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eSucessorDe :c750.30.600 ;
-	:temLegislacao :leg_467 ;
-	:temLegislacao :leg_31 ;
+	:temLegislacao :leg_482 ;
+	:temLegislacao :leg_35 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de autorização para o desenvolvimento da prática de caça.
 Inicia com o pedido e termina com o registo da carta de caçador.
 Inclui verificação dos requisitos legais exigidos para exercício da atividade de caça, cálculo da taxa devida e comprovativo do seu pagamento e emissão da carta de caçador.
@@ -5400,8 +5557,10 @@ Inclui verificação dos requisitos legais exigidos para exercício da atividade
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_246 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para angariação de receitas, com ou sem contrapartidas em bens, para fins de beneficência, assistência ou investigação científica, com recurso a pessoal próprio ou voluntário.
 Inicia com pedido de autorização e termina com a comunicação da decisão, se for negativa, ou com a informação da entidade sobre os resultados obtidos com a angariação de receitas e prova da sua publicitação.
 Inclui instrução e análise do processo, solicitação de elementos em falta, se necessário, e proposta de decisão.".
@@ -5440,10 +5599,12 @@ Inclui informação sobre publicitação de resultados.".
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1211 ;
-	:temLegislacao :leg_1033 ;
-	:temLegislacao :leg_814 ;
+	:temLegislacao :leg_1253 ;
+	:temLegislacao :leg_1062 ;
+	:temLegislacao :leg_836 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão a uma entidade empregadora, dispensando-a de possuir serviço interno de saúde do trabalho.
 Inicia com a submissão do requerimento e termina com a emissão da autorização.
 Inclui a análise do dossier técnico e verificação do cumprimento das normas legais aplicáveis.".
@@ -5509,11 +5670,13 @@ Inclui a análise do dossier técnico e verificação do cumprimento das normas 
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_959 ;
-	:temLegislacao :leg_829 ;
-	:temLegislacao :leg_726 ;
-	:temLegislacao :leg_561 ;
+	:temLegislacao :leg_984 ;
+	:temLegislacao :leg_851 ;
+	:temLegislacao :leg_745 ;
+	:temLegislacao :leg_577 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para organismos da Administração Pública adquirirem bens e serviços que não se encontrem previstos no catálogo nacional de compras públicas.
 Inicia com a submissão do pedido e termina com a notificação da decisão à entidade requerente.
 Inclui a análise do pedido, verificação da fundamentação do pedido, parecer técnico e deliberação final.
@@ -5540,13 +5703,15 @@ Inclui a análise do pedido, verificação da fundamentação do pedido, parecer
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1282 ;
-	:temLegislacao :leg_929 ;
-	:temLegislacao :leg_885 ;
-	:temLegislacao :leg_170 ;
-	:temLegislacao :leg_169 ;
-	:temLegislacao :leg_124 ;
+	:temLegislacao :leg_1324 ;
+	:temLegislacao :leg_953 ;
+	:temLegislacao :leg_909 ;
+	:temLegislacao :leg_180 ;
+	:temLegislacao :leg_179 ;
+	:temLegislacao :leg_130 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para praticar um horário de funcionamento diferente do fixado para o respetivo ramo de atividade.
 Inicia com o pedido e termina com a emissão do mapa de funcionamento a afixar no estabelecimento.
 Inclui apreciação prévia do pedido, decisão e notificação ao requerente.".
@@ -5576,9 +5741,11 @@ Inclui apreciação prévia do pedido, decisão e notificação ao requerente.".
 	:eSucessorDe :c450.10.444 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_127 ;
-	:temLegislacao :leg_137 ;
+	:temLegislacao :leg_134 ;
+	:temLegislacao :leg_144 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Permissão para simplificar o cumprimentos das formalidades e dos procedimentos salvaguardando a regularidade das operações.
 Inicia com pedido e termina com a comunicação da decisão.
 Inclui análise do pedido, verificação do cumprimento de requisitos, audição prévia e prestação de garantia, quando aplicável.
@@ -5645,9 +5812,11 @@ Inclui análise do pedido, verificação do cumprimento de requisitos, audição
 	:eAntecessorDe :c350.10.101 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_81 ;
-	:temLegislacao :leg_95 ;
+	:temLegislacao :leg_86 ;
+	:temLegislacao :leg_101 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Autorização especial prevista na lei para adoção de regras excecionais, de caracter transitório ou não, para utilização ou dispensa de utilização de produtos e equipamentos, bem como da comercialização de produtos.
 Inicia com a submissão do pedido e termina com a notificação da decisão.
 Inclui validação do pedido, verificação da fundamentação e dos dossiês técnicos apresentados, exercício da audição prévia, quando aplicável, e decisão.
@@ -5675,59 +5844,16 @@ Inclui validação do pedido, verificação da fundamentação e dos dossiês t�
 	:eAntecessorDe :c450.30.003 ;
 	:eAntecessorDe :c450.30.503 ;
 	:eAntecessorDe :c500.40.500 ;
-	:temLegislacao :leg_158 ;
+	:temLegislacao :leg_168 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Apreciação da admissibilidade de determinado vocábulo como nome próprio.
 Inicia com o pedido e termina com a decisão.
 Inclui a introdução do vocábulo na lista onomástica dos nomes admitidos ou não admitidos.
 
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.811_1
-:na_c450.10.811_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Utilização não agrícola de solos da Reserva Agrícola Nacional".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.811_2
-:na_c450.10.811_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo " Utilização não agrícola de solos em áreas dos aproveitamentos hidroagrícolas".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.811_3
-:na_c450.10.811_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo " Inutilização/exclusão de solos agrícolas em aproveitamentos hidroagrícolas".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.811_1
-:ne_c450.10.811_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O registo de inalienabilidade de habitação na Reserva Agrícola Nacional deve ser considerado em 400.10.406 – Registo predial".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.811_2
-:ne_c450.10.811_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo " A emissão de pareceres deve ser considerada em 100.20.400 – Produção de orientações e pareceres para interpretação da norma técnica".
-
-###  http://jcr.di.uminho.pt/m51-clav#c450.10.811
-:c450.10.811 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "450.10.811";
-	:titulo "Autorização para utilização não agrícola do solo";
-	:temPai :c450.10 ;
-	:processoTipo "PE" ;
-	:processoTransversal "S" ;
-	:temDono :org_DRAP ;
-	:temNotaAplicacao :na_c450.10.811_1 ;
-	:temNotaAplicacao :na_c450.10.811_2 ;
-	:temNotaAplicacao :na_c450.10.811_3 ;
-	:temNotaExclusao :ne_c450.10.811_1 ;
-	:temNotaExclusao :ne_c450.10.811_2 ;
-	:temLegislacao :leg_765 ;
-	:classeStatus "A" ;
-	:descricao "As utilizações não agrícolas de áreas integradas na RAN
-Permissão de utilização de solos agrícolas integrados na Reserva Agricola Nacional para outros fins que não agricolas. 
-Inicia com o pedido de parecer prévio e termina com a autorização/negação dessa utilização. 
-Inclui o pedido, a verificação do enquadramento legal, emissão de parecer favorável/desfavorável e as comunicações prévia e à administração fiscal.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.20_1
 :na_c450.20_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -5805,9 +5931,11 @@ Inclui o estabelecimento de áreas de proteção a bens declarados de interesse,
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_594 ;
-	:temLegislacao :leg_16 ;
+	:temLegislacao :leg_610 ;
+	:temLegislacao :leg_20 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição do estatuto de utilidade pública a pessoas coletivas.
 Inicia com o pedido e termina com o envio para publicação.
 Inclui análise preliminar, consulta de entidades, decisão relativa ao reconhecimento da utilidade pública, cálculo da taxa devida, apresentação do comprovativo do seu pagamento, emissão da declaração de utilidade pública e registo.
@@ -5867,19 +5995,16 @@ Inclui emissão de declaração de pessoa coletiva de utilidade pública e envio
 	:eAntecessorDe :c300.10.003 ;
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_890 ;
-	:temLegislacao :leg_710 ;
-	:temLegislacao :leg_258 ;
-	:temLegislacao :leg_110 ;
+	:temLegislacao :leg_914 ;
+	:temLegislacao :leg_729 ;
+	:temLegislacao :leg_270 ;
+	:temLegislacao :leg_116 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Determinação de utilidade pública a bens com vista à sua expropriação.
 Inicia com a resolução de declaração de utilidade pública e termina com o envio do ato declarativo para a publicação.
 Inclui análise preliminar e decisão.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.003_2
-:na_c450.20.003_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Reconhecimento de estatuto a entidade".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.003_1
 :na_c450.20.003_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -5889,6 +6014,11 @@ Inclui análise preliminar e decisão.".
 :na_c450.20.003_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Verificação de determinados requisitos para enquadramento geral da atividade e/ou da idoneidade da entidade ou programa/projeto".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.003_2
+:na_c450.20.003_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reconhecimento de estatuto a entidade".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.003_4
 :na_c450.20.003_4 rdf:type owl:NamedIndividual ,
@@ -5955,10 +6085,12 @@ Inclui análise preliminar e decisão.".
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c850.10.002 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_233 ;
-	:temLegislacao :leg_1381 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_245 ;
+	:temLegislacao :leg_1425 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Reconhecimento do cumprimento das condições legalmente estabelecidas para a atribuição do estatuto de interesse social, cultural e científico.
 Inicia com a submissão do pedido e termina com a comunicação da decisão.
 Inclui a análise do pedido, as diligências e a emissão de parecer.".
@@ -6008,9 +6140,11 @@ Inclui a análise do pedido, as diligências e a emissão de parecer.".
 	:eComplementarDe :c400.10.405 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_1295 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_1338 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de proteção a determinado bem ou sítio em resultado do seu valor cultural, sob a forma de levantamento sistemático, com vista à respetiva identificação.
 Inicia com a apresentação de proposta de inventariação e termina com a comunicação da decisão.
 Inclui identificação, referenciação e caracterização do bem, fundamentação da proposta e decisão.
@@ -6045,9 +6179,11 @@ Inclui identificação, referenciação e caracterização do bem, fundamentaç�
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_994 ;
-	:temLegislacao :leg_1045 ;
+	:temLegislacao :leg_1020 ;
+	:temLegislacao :leg_1075 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição do estatuto de reserva nacional de depósito de bens arqueológicos, no qual são depositados os materiais arqueológicos provenientes de escavações ou de achados fortuitos.
 Inicia com a submissão do pedido e termina com a atribuição do estatuto de local de depósito.
 Inclui a análise do pedido de reconhecimento e a vistoria aos parques e reservas arqueológicas constituídas por materiais arqueológicos.".
@@ -6156,25 +6292,27 @@ Inclui a análise do pedido de reconhecimento e a vistoria aos parques e reserva
 	:temNotaAplicacao :na_c450.20.505_12 ;
 	:temNotaExclusao :ne_c450.20.505_1 ;
 	:temNotaExclusao :ne_c450.20.505_2 ;
-	:temRelProc :c150.10.700 ;
-	:temRelProc :c150.10.701 ;
-	:temRelProc :c150.20.300 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.30.008 ;
-	:temRelProc :c400.10.404 ;
-	:temRelProc :c400.10.405 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c850.10.002 ;
-	:temRelProc :c900.20.201 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_304 ;
-	:temLegislacao :leg_678 ;
-	:temLegislacao :leg_76 ;
-	:temLegislacao :leg_187 ;
-	:temLegislacao :leg_144 ;
-	:temLegislacao :leg_129 ;
-	:temLegislacao :leg_1295 ;
+	:eCruzadoCom :c150.10.700 ;
+	:eCruzadoCom :c150.10.701 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eComplementarDe :c400.10.404 ;
+	:eComplementarDe :c400.10.405 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eCruzadoCom :c850.10.002 ;
+	:eAntecessorDe :c900.20.201 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_317 ;
+	:temLegislacao :leg_696 ;
+	:temLegislacao :leg_81 ;
+	:temLegislacao :leg_197 ;
+	:temLegislacao :leg_154 ;
+	:temLegislacao :leg_136 ;
+	:temLegislacao :leg_1338 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Reconhecimento formal de valor atribuido a determinado bem, sítio ou área.
 Inicia com a apresentação da proposta de classificação e termina com o envio para aprovação.
 Inclui análise da proposta, fundamentação técnica, divulgação pública da pretensão de classificação, audiência de interessados, consulta de entidades, definição de zona de proteção, quando aplicável, elaboração de proposta de decisão.".
@@ -6234,9 +6372,11 @@ Inclui análise da proposta, fundamentação técnica, divulgação pública da 
 	:eSucessorDe :c800.20.001 ;
 	:eSucessorDe :c800.20.002 ;
 	:eSucessorDe :c800.20.500 ;
-	:temLegislacao :leg_586 ;
-	:temLegislacao :leg_1286 ;
+	:temLegislacao :leg_602 ;
+	:temLegislacao :leg_1328 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Reconhecimento das habilitações literárias e profissionais de qualquer indivíduo.
 Inicia com o pedido e termina com a emissão do certificado.
 Inclui consulta e sistematização de dados, eventual cálculo do montante a pagar e apresentação do comprovativo do seu pagamento.".
@@ -6311,8 +6451,10 @@ Inclui consulta e sistematização de dados, eventual cálculo do montante a pag
 	:eSucessorDe :c400.10.409 ;
 	:eSucessorDe :c400.30.001 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_1279 ;
+	:temLegislacao :leg_1321 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Emissão de documento com especial valor de prova relativa a factos ou atos com base em informação detida pela Administração.
 Inicia com o pedido e termina com a emissão da certidão.
 Inclui consulta de documentos originais, transcrição integral ou parcial, cálculo da taxa a pagar e apresentação do comprovativo do seu pagamento.".
@@ -6378,11 +6520,13 @@ Inclui consulta de documentos originais, transcrição integral ou parcial, cál
 	:eCruzadoCom :c650.10.010 ;
 	:eCruzadoCom :c700.10.004 ;
 	:eCruzadoCom :c800.10.603 ;
-	:temLegislacao :leg_797 ;
-	:temLegislacao :leg_592 ;
-	:temLegislacao :leg_254 ;
-	:temLegislacao :leg_96 ;
+	:temLegislacao :leg_819 ;
+	:temLegislacao :leg_608 ;
+	:temLegislacao :leg_266 ;
+	:temLegislacao :leg_102 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Comprovação do estado de saúde para verificação de situações de aptidão física ou mental, incapacidade, permanente ou temporária, e de situações de saúde resultantes de acidente de trabalho ou de doença profissional.
 Inicia com o pedido por parte da entidade ou do doente e termina com a certificação do estado de saúde.
 Inclui comunicação da entidade, convocatória do doente, análise de pareceres e de relatórios clínicos, definição do grau de incapacidade, quando devido, confirmação de doença profissional ou de acidente de trabalho, elaboração de parecer e a comunicação da deliberação.".
@@ -6433,8 +6577,10 @@ Inclui comunicação da entidade, convocatória do doente, análise de pareceres
 	:eSucessorDe :c300.50.400 ;
 	:eCruzadoCom :c350.30.001 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_1279 ;
+	:temLegislacao :leg_1321 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Comprovação de determinada situação ou facto.
 Inicia com o pedido e termina com a emissão da declaração.
 Inclui consulta de registos, quando aplicável.".
@@ -6474,12 +6620,14 @@ Inclui consulta de registos, quando aplicável.".
 	:eSucessorDe :c400.10.409 ;
 	:eSucessorDe :c400.30.001 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_288 ;
-	:temLegislacao :leg_287 ;
-	:temLegislacao :leg_286 ;
-	:temLegislacao :leg_238 ;
-	:temLegislacao :leg_168 ;
+	:temLegislacao :leg_300 ;
+	:temLegislacao :leg_299 ;
+	:temLegislacao :leg_298 ;
+	:temLegislacao :leg_250 ;
+	:temLegislacao :leg_178 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Comprovação da veracidade de cópias obtidas a partir de documentos originais.
 Inicia com o pedido e termina com a autenticação da cópia.
 Inclui consulta de originais, reprodução do documento original, validação da cópia, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.".
@@ -6518,8 +6666,10 @@ Inclui consulta de originais, reprodução do documento original, validação da
 	:eComplementarDe :c700.20.600 ;
 	:eAntecessorDe :c710.20.001 ;
 	:eCruzadoCom :c800.10.603 ;
-	:temLegislacao :leg_1024 ;
+	:temLegislacao :leg_1053 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Comprovação do término da vida de um indivíduo, apontando também as causas que ocasionaram a morte.
 Inicia com a introdução dos dados e termina com a emissão do certificado de óbito.
 Inclui a emissão de guia de transporte, o preenchimento do boletim de informação clínica, quando determinado nos termos da lei, os dados registados pelas equipas de emergência pela entidade competente, os dados resultantes de autópsia clínica, sempre que tenha lugar, os dados resultantes de autópsia médico-legal ou de perícia médico-legal a ela associada, sempre que tenha lugar, mediante autorização prévia da autoridade judiciária competente, o registo da dispensa ou não da autópsia médico-legal e a decisão de autorizar ou não a divulgação dessa informação e da causa da morte.

@@ -285,15 +285,17 @@ Inclui, ainda, a celebração e acompanhamento de acordos de cooperação interi
 	:eAntecessorDe :c300.20.200 ;
 	:eAntecessorDe :c300.20.400 ;
 	:eCruzadoCom :c900.20.201 ;
-	:temLegislacao :leg_1121 ;
-	:temLegislacao :leg_1120 ;
-	:temLegislacao :leg_597 ;
-	:temLegislacao :leg_359 ;
-	:temLegislacao :leg_231 ;
-	:temLegislacao :leg_117 ;
-	:temLegislacao :leg_116 ;
-	:temLegislacao :leg_480 ;
+	:temLegislacao :leg_1157 ;
+	:temLegislacao :leg_1156 ;
+	:temLegislacao :leg_613 ;
+	:temLegislacao :leg_375 ;
+	:temLegislacao :leg_243 ;
+	:temLegislacao :leg_123 ;
+	:temLegislacao :leg_122 ;
+	:temLegislacao :leg_495 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Elaboração das linhas de desenvolvimento estratégico de âmbito nacional, regional e local, com os projetos e ações a realizar a médio e longo prazo e respetiva previsão da despesa e das atividades mais relevantes da gestão.
 Inicia com a elaboração da proposta e termina com o envio da versão aprovada para publicitação.
 Inclui propostas de alteração apresentadas pelo órgão executivo, revisões,  remissão de cópia às entidades competentes e submissão da versão final à entidade competente para decisão.".
@@ -447,19 +449,21 @@ Inclui propostas de alteração apresentadas pelo órgão executivo, revisões, 
 	:eAntecessorDe :c850.10.500 ;
 	:eAntecessorDe :c900.20.201 ;
 	:eSucessorDe :c950.10.201 ;
-	:temLegislacao :leg_1121 ;
-	:temLegislacao :leg_1120 ;
-	:temLegislacao :leg_680 ;
-	:temLegislacao :leg_612 ;
-	:temLegislacao :leg_597 ;
-	:temLegislacao :leg_372 ;
-	:temLegislacao :leg_359 ;
-	:temLegislacao :leg_231 ;
-	:temLegislacao :leg_117 ;
-	:temLegislacao :leg_116 ;
-	:temLegislacao :leg_800 ;
-	:temLegislacao :leg_480 ;
+	:temLegislacao :leg_1157 ;
+	:temLegislacao :leg_1156 ;
+	:temLegislacao :leg_698 ;
+	:temLegislacao :leg_628 ;
+	:temLegislacao :leg_613 ;
+	:temLegislacao :leg_388 ;
+	:temLegislacao :leg_375 ;
+	:temLegislacao :leg_243 ;
+	:temLegislacao :leg_123 ;
+	:temLegislacao :leg_122 ;
+	:temLegislacao :leg_822 ;
+	:temLegislacao :leg_495 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Definição de estratégias, princípios e programas de topo para o desenvolvimento de políticas específicas da administração nacional, regional e local, aplicados a todos os setores de atividade, independentemente da sua natureza jurídica, a realizar a médio e longo prazo.
 Inicia com a proposta de elaboração ou revisão e termina com o envio da versão aprovada para publicitação.
 Inclui diagnóstico da situação sobre o qual incide a política setorial definida, previsão das formas de operacionalização das políticas, consulta de entidades, discussão pública (quando devido) e redação da versão ou proposta final e submissão da versão final à entidade competente para a decisão.
@@ -515,17 +519,19 @@ Inclui diagnóstico da situação sobre o qual incide a política setorial defin
 	:eAntecessorDe :c850.10.002 ;
 	:eAntecessorDe :c850.10.003 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_1220 ;
-	:temLegislacao :leg_965 ;
-	:temLegislacao :leg_763 ;
-	:temLegislacao :leg_743 ;
-	:temLegislacao :leg_612 ;
-	:temLegislacao :leg_509 ;
-	:temLegislacao :leg_507 ;
-	:temLegislacao :leg_532 ;
-	:temLegislacao :leg_347 ;
-	:temLegislacao :leg_249 ;
+	:temLegislacao :leg_1262 ;
+	:temLegislacao :leg_990 ;
+	:temLegislacao :leg_782 ;
+	:temLegislacao :leg_762 ;
+	:temLegislacao :leg_628 ;
+	:temLegislacao :leg_525 ;
+	:temLegislacao :leg_523 ;
+	:temLegislacao :leg_548 ;
+	:temLegislacao :leg_363 ;
+	:temLegislacao :leg_261 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Definição de planos ou outras ferramentas operacionais que regulam a organização do território e de todos os setores de atividade nele desenvolvido de forma direta ou indireta pelas entidades competentes a nível nacional.
 Inicia com a decisão da elaboração do instrumento e termina com a elaboração da versão final da proposta ou comunicação da aprovação pelo órgão competente.
 Inclui elaboração de versões do instrumento, concertação com entidades, discussão pública e divulgação do resultado da discussão pública.
@@ -572,10 +578,12 @@ Inclui elaboração de versões do instrumento, concertação com entidades, dis
 	:eAntecessorDe :c850.10.002 ;
 	:eAntecessorDe :c850.10.003 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_1220 ;
-	:temLegislacao :leg_763 ;
-	:temLegislacao :leg_249 ;
+	:temLegislacao :leg_1262 ;
+	:temLegislacao :leg_782 ;
+	:temLegislacao :leg_261 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Definição de planos ou outras ferramentas operacionais que regulam a organização do território e de todos os setores de atividade nele desenvolvido de forma direta ou indireta pelas entidades competentes a nível regional.
 Inicia com a decisão da elaboração do instrumento e termina com a elaboração da versão final da proposta (no caso de instrumentos que originam regulamento) ou comunicação da aprovação pelo órgão competente.
 Inclui elaboração de versões do instrumento, concertação com entidades, discussão pública e divulgação do resultado da discussão pública.
@@ -643,12 +651,14 @@ Inclui elaboração de versões do instrumento, concertação com entidades, dis
 	:eAntecessorDe :c700.20.101 ;
 	:eAntecessorDe :c700.20.102 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_1220 ;
-	:temLegislacao :leg_763 ;
-	:temLegislacao :leg_640 ;
-	:temLegislacao :leg_618 ;
-	:temLegislacao :leg_249 ;
+	:temLegislacao :leg_1262 ;
+	:temLegislacao :leg_782 ;
+	:temLegislacao :leg_656 ;
+	:temLegislacao :leg_634 ;
+	:temLegislacao :leg_261 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Definição de planos ou outras ferramentas operacionais que regulam a organização do território e de todos os setores de atividade nele desenvolvido de forma direta ou indireta pelas entidades competentes a nível municipal e intermunicipal.
 Inicia com a decisão da elaboração do instrumento e termina com a elaboração da versão final da proposta (no caso de instrumentos que originam regulamento) ou comunicação da aprovação pelo órgão competente.
 Inclui elaboração de versões do instrumento, concertação com entidades, discussão pública e divulgação do resultado da discussão pública.".
@@ -753,15 +763,17 @@ Inclui elaboração de versões do instrumento, concertação com entidades, dis
 	:eAntecessorDe :c850.40.001 ;
 	:eAntecessorDe :c850.40.500 ;
 	:eAntecessorDe :c900.20.601 ;
-	:temLegislacao :leg_1121 ;
-	:temLegislacao :leg_359 ;
-	:temLegislacao :leg_279 ;
+	:temLegislacao :leg_1157 ;
+	:temLegislacao :leg_375 ;
+	:temLegislacao :leg_291 ;
 	:classeStatus "A" ;
 	:exemploNA "Protocolos de cooperação na área técnica e/ou científica" ;
 	:exemploNA "Protocolos de cooperação na área da Segurança Pública" ;
 	:exemploNA "Protocolos de cooperação com Organizações Não Governamentais de Ambiente (ONGA)" ;
 	:exemploNA " Protocolos de cooperação com Associações Mutualistas no âmbito de situações de emergência radiológica e nuclear" ;
 	:exemploNA " Protocolos de colaboração para a criação e divulgação de conteúdos institucionais" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Negociação e formalização de protocolos, acordos, convénios, parcerias e outros instrumentos de cooperação institucional com entidades nacionais.
 Inicia com a proposta de celebração e termina com a assinatura formal do acordo.
 Inclui proposta do texto, discussão, negociação e redação final.
@@ -800,11 +812,13 @@ Inclui proposta do texto, discussão, negociação e redação final.
 	:eCruzadoCom :c150.10.702 ;
 	:eAntecessorDe :c150.20.202 ;
 	:eAntecessorDe :c900.20.601 ;
-	:temLegislacao :leg_480 ;
-	:temLegislacao :leg_120 ;
-	:temLegislacao :leg_117 ;
-	:temLegislacao :leg_135 ;
+	:temLegislacao :leg_495 ;
+	:temLegislacao :leg_126 ;
+	:temLegislacao :leg_123 ;
+	:temLegislacao :leg_142 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Promoção do diálogo tripartido e concertação entre os parceiros sociais e o Governo com vista à celebração de pactos e compromissos.
 Inicia com a apresentação da proposta por parte do Governo e termina com a celebração do acordo ou compromisso.
 Inclui consulta de entidades, apresentação de contrapropostas dos parceiros sociais e negociação.
@@ -850,11 +864,12 @@ Inclui consulta de entidades, apresentação de contrapropostas dos parceiros so
 	:eSinteseDe :c850.10.003 ;
 	:eSinteseDe :c850.10.005 ;
 	:eAntecessorDe :c850.10.500 ;
-	:temLegislacao :leg_1121 ;
-	:temLegislacao :leg_359 ;
-	:temLegislacao :leg_279 ;
-	:temLegislacao :leg_1077 ;
+	:temLegislacao :leg_1157 ;
+	:temLegislacao :leg_375 ;
+	:temLegislacao :leg_291 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Apreciação, verificação e medição periódica do impacto e do grau de cumprimento de metas e dos objetivos previstos em políticas, programas e planos que norteiam e regulam a organização do território e de todos os setores de atividade nele desenvolvido de forma direta ou indireta pelas entidades competentes a nível nacional, regional e municipal.
 Inicia com a elaboração de relatório sobre o balanço da execução e dos níveis de articulação das políticas e dos instrumentos operacionais implementados e termina com a remissão à entidade competente para a apreciação dos resultados.
 Inclui recolha e tratamento de informação relevante, aprovação do relatório e discussão pública, quando devido.".
@@ -911,9 +926,11 @@ Inclui recolha e tratamento de informação relevante, aprovação do relatório
 	:eAntecessorDe :c400.10.003 ;
 	:eAntecessorDe :c400.10.009 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_952 ;
-	:temLegislacao :leg_904 ;
+	:temLegislacao :leg_977 ;
+	:temLegislacao :leg_928 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Identificação e atualização periódica de entidades públicas ou privadas com vista a habilitar os órgãos de governo próprios com a informação indispensável para a definição das políticas de Estado.
 Inicia com o carregamento e atualização de dados pelas entidades competentes e termina com a organização e tratamento de dados.
 Inclui a gestão da base de dados.".
@@ -1028,63 +1045,65 @@ Inclui a gestão da base de dados.".
 	:temNotaAplicacao :na_c150.10.700_15 ;
 	:temNotaExclusao :ne_c150.10.700_1 ;
 	:temNotaExclusao :ne_c150.10.700_2 ;
-	:temRelProc :c100.10.001 ;
-	:temRelProc :c100.10.002 ;
-	:temRelProc :c100.10.200 ;
-	:temRelProc :c100.10.400 ;
-	:temRelProc :c100.10.600 ;
-	:temRelProc :c100.10.800 ;
-	:temRelProc :c150.10.001 ;
-	:temRelProc :c150.10.100 ;
-	:temRelProc :c150.10.200 ;
-	:temRelProc :c150.10.300 ;
-	:temRelProc :c150.10.400 ;
-	:temRelProc :c150.10.500 ;
-	:temRelProc :c150.20.001 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c150.20.200 ;
-	:temRelProc :c150.20.202 ;
-	:temRelProc :c150.20.404 ;
-	:temRelProc :c150.20.501 ;
-	:temRelProc :c200.10.800 ;
-	:temRelProc :c200.20.500 ;
-	:temRelProc :c200.30.001 ;
-	:temRelProc :c200.30.301 ;
-	:temRelProc :c200.30.302 ;
-	:temRelProc :c300.10.001 ;
-	:temRelProc :c300.10.003 ;
-	:temRelProc :c300.10.004 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c300.10.007 ;
-	:temRelProc :c300.10.008 ;
-	:temRelProc :c300.10.009 ;
-	:temRelProc :c300.10.010 ;
-	:temRelProc :c300.10.300 ;
-	:temRelProc :c300.10.301 ;
-	:temRelProc :c300.10.700 ;
-	:temRelProc :c300.20.001 ;
-	:temRelProc :c300.20.200 ;
-	:temRelProc :c300.20.400 ;
-	:temRelProc :c300.30.004 ;
-	:temRelProc :c300.40.001 ;
-	:temRelProc :c300.40.002 ;
-	:temRelProc :c300.40.003 ;
-	:temRelProc :c300.50.001 ;
-	:temRelProc :c300.50.002 ;
-	:temRelProc :c300.50.200 ;
-	:temRelProc :c300.50.201 ;
-	:temRelProc :c300.50.600 ;
-	:temRelProc :c450.20.002 ;
-	:temRelProc :c450.20.003 ;
-	:temRelProc :c450.20.505 ;
-	:temRelProc :c500.20.300 ;
-	:temRelProc :c850.10.001 ;
-	:temRelProc :c900.10.505 ;
-	:temRelProc :c950.10.201 ;
-	:temRelProc :c950.30.001 ;
-	:temLegislacao :leg_1121 ;
-	:temLegislacao :leg_1279 ;
+	:eCruzadoCom :c100.10.001 ;
+	:eCruzadoCom :c100.10.002 ;
+	:eCruzadoCom :c100.10.200 ;
+	:eCruzadoCom :c100.10.400 ;
+	:eCruzadoCom :c100.10.600 ;
+	:eCruzadoCom :c100.10.800 ;
+	:eCruzadoCom :c150.10.001 ;
+	:eCruzadoCom :c150.10.100 ;
+	:eCruzadoCom :c150.10.200 ;
+	:eCruzadoCom :c150.10.300 ;
+	:eCruzadoCom :c150.10.400 ;
+	:eCruzadoCom :c150.10.500 ;
+	:eCruzadoCom :c150.20.001 ;
+	:eSintetizadoPor :c150.20.101 ;
+	:eCruzadoCom :c150.20.200 ;
+	:eCruzadoCom :c150.20.202 ;
+	:eSucessorDe :c150.20.404 ;
+	:eCruzadoCom :c150.20.501 ;
+	:eCruzadoCom :c200.10.800 ;
+	:eCruzadoCom :c200.20.500 ;
+	:eSucessorDe :c200.30.001 ;
+	:eCruzadoCom :c200.30.301 ;
+	:eSucessorDe :c200.30.302 ;
+	:eCruzadoCom :c300.10.001 ;
+	:eSinteseDe :c300.10.003 ;
+	:eSinteseDe :c300.10.004 ;
+	:eSinteseDe :c300.10.005 ;
+	:eSinteseDe :c300.10.007 ;
+	:eSinteseDe :c300.10.008 ;
+	:eSinteseDe :c300.10.009 ;
+	:eSinteseDe :c300.10.010 ;
+	:eSinteseDe :c300.10.300 ;
+	:eSinteseDe :c300.10.301 ;
+	:eCruzadoCom :c300.10.700 ;
+	:eSinteseDe :c300.20.001 ;
+	:eSinteseDe :c300.20.200 ;
+	:eSinteseDe :c300.20.400 ;
+	:eSinteseDe :c300.30.004 ;
+	:eCruzadoCom :c300.40.001 ;
+	:eCruzadoCom :c300.40.002 ;
+	:eCruzadoCom :c300.40.003 ;
+	:eSinteseDe :c300.50.001 ;
+	:eSinteseDe :c300.50.002 ;
+	:eSinteseDe :c300.50.200 ;
+	:eSinteseDe :c300.50.201 ;
+	:eSinteseDe :c300.50.600 ;
+	:eCruzadoCom :c450.20.002 ;
+	:eCruzadoCom :c450.20.003 ;
+	:eCruzadoCom :c450.20.505 ;
+	:eCruzadoCom :c500.20.300 ;
+	:eCruzadoCom :c850.10.001 ;
+	:eCruzadoCom :c900.10.505 ;
+	:eSucessorDe :c950.10.201 ;
+	:eCruzadoCom :c950.30.001 ;
+	:temLegislacao :leg_1157 ;
+	:temLegislacao :leg_1321 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Apresentação, discussão e deliberação de todas as matérias e propostas submetidas aos órgãos com funções deliberativas.
 Inicia com a apresentação de propostas e termina com aprovação das decisões.
 Inclui convocatória, convite ou autorização para participar na reunião, definição da ordem de trabalhos, apresentação de pedidos de informação adicional, preparação de propostas de deliberação, produção de recomendações, apresentação de moções, controlo de presenças, gestão das intervenções, registo da discussão, das votações e das declarações de voto e elaboração da ata em minuta.
@@ -1209,9 +1228,11 @@ Inclui registo dos atos ocorridos em sessão.
 	:eCruzadoCom :c900.10.505 ;
 	:eSucessorDe :c950.10.201 ;
 	:eCruzadoCom :c950.30.001 ;
-	:temLegislacao :leg_1121 ;
-	:temLegislacao :leg_1279 ;
+	:temLegislacao :leg_1157 ;
+	:temLegislacao :leg_1321 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Apresentação, discussão e deliberação de todas as matérias e propostas submetidas aos órgãos com funções executivas.
 Inicia com a apresentação de propostas e termina com aprovação das decisões.
 Inclui convocatória, convite ou autorização para participar na reunião, definição da ordem de trabalhos, apresentação de pedidos de informação adicional, preparação de propostas de deliberação, produção de recomendações, apresentação de moções, controlo de presença, gestão das intervenções, registo da discussão, das votações e das declarações de voto e elaboração da ata em minuta.".
@@ -1364,11 +1385,13 @@ Inclui registo dos atos ocorridos em sessão.".
 	:eCruzadoCom :c150.20.501 ;
 	:eCruzadoCom :c450.20.503 ;
 	:eCruzadoCom :c450.20.504 ;
-	:temLegislacao :leg_800 ;
-	:temLegislacao :leg_1342 ;
-	:temLegislacao :leg_1121 ;
-	:temLegislacao :leg_996 ;
+	:temLegislacao :leg_822 ;
+	:temLegislacao :leg_1385 ;
+	:temLegislacao :leg_1157 ;
+	:temLegislacao :leg_1022 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Apresentação, apreciação e deliberação de matérias em órgãos e entidades com funções operacionais, de coordenação e consultivas.
 Inicia com a proposta de reunião ou convocatória e termina com a apresentação de proposta, relatório, recomendação ou parecer.
 Inclui controlo de presença, gestão de intervenções, pedidos de documento de apoio, votação de propostas, análise e aprovação de relatório, o registo da decisão ou elaboração de ata.
@@ -1560,15 +1583,15 @@ Compreende, igualmente, a definição e avaliação de planos operacionais trans
 	:NotaAplicacao ;
 	:conteudo "Elaboração de manuais de procedimentos".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_4
-:na_c150.20.001_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Elaboração de plano de emergência interna".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_5
 :na_c150.20.001_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Elaboração de plano de preservação digital".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_4
+:na_c150.20.001_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Elaboração de plano de emergência interna".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.001_6
 :na_c150.20.001_6 rdf:type owl:NamedIndividual ,
@@ -1631,40 +1654,42 @@ Compreende, igualmente, a definição e avaliação de planos operacionais trans
 	:eAntecessorDe :c550.20.005 ;
 	:eSintetizadoPor :c900.20.200 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_1372 ;
-	:temLegislacao :leg_1279 ;
-	:temLegislacao :leg_1338 ;
-	:temLegislacao :leg_1182 ;
-	:temLegislacao :leg_1261 ;
-	:temLegislacao :leg_1224 ;
-	:temLegislacao :leg_1088 ;
-	:temLegislacao :leg_1061 ;
-	:temLegislacao :leg_1062 ;
-	:temLegislacao :leg_955 ;
-	:temLegislacao :leg_947 ;
-	:temLegislacao :leg_814 ;
-	:temLegislacao :leg_783 ;
-	:temLegislacao :leg_789 ;
-	:temLegislacao :leg_861 ;
-	:temLegislacao :leg_766 ;
-	:temLegislacao :leg_709 ;
-	:temLegislacao :leg_663 ;
-	:temLegislacao :leg_729 ;
-	:temLegislacao :leg_644 ;
-	:temLegislacao :leg_565 ;
-	:temLegislacao :leg_562 ;
-	:temLegislacao :leg_615 ;
-	:temLegislacao :leg_598 ;
-	:temLegislacao :leg_520 ;
-	:temLegislacao :leg_498 ;
-	:temLegislacao :leg_477 ;
-	:temLegislacao :leg_420 ;
-	:temLegislacao :leg_433 ;
-	:temLegislacao :leg_432 ;
-	:temLegislacao :leg_341 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_82 ;
+	:temLegislacao :leg_1415 ;
+	:temLegislacao :leg_1321 ;
+	:temLegislacao :leg_1381 ;
+	:temLegislacao :leg_1219 ;
+	:temLegislacao :leg_1303 ;
+	:temLegislacao :leg_1266 ;
+	:temLegislacao :leg_1122 ;
+	:temLegislacao :leg_1091 ;
+	:temLegislacao :leg_1092 ;
+	:temLegislacao :leg_980 ;
+	:temLegislacao :leg_972 ;
+	:temLegislacao :leg_836 ;
+	:temLegislacao :leg_804 ;
+	:temLegislacao :leg_810 ;
+	:temLegislacao :leg_884 ;
+	:temLegislacao :leg_786 ;
+	:temLegislacao :leg_728 ;
+	:temLegislacao :leg_679 ;
+	:temLegislacao :leg_748 ;
+	:temLegislacao :leg_660 ;
+	:temLegislacao :leg_581 ;
+	:temLegislacao :leg_578 ;
+	:temLegislacao :leg_631 ;
+	:temLegislacao :leg_614 ;
+	:temLegislacao :leg_536 ;
+	:temLegislacao :leg_513 ;
+	:temLegislacao :leg_492 ;
+	:temLegislacao :leg_435 ;
+	:temLegislacao :leg_448 ;
+	:temLegislacao :leg_447 ;
+	:temLegislacao :leg_356 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_87 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Definição de formas de atuação com vista ao eficaz funcionamento dos serviços.
 Inicia com a determinação da necessidade de regra ou orientação e termina com a apresentação da versão final.
 Inclui recolha de contributos, consulta de especialistas e de entidades, redação de documento, revisão e elaboração da versão final.".
@@ -1730,14 +1755,16 @@ Inclui recolha de contributos, consulta de especialistas e de entidades, redaç�
 	:eSuplementoPara :c500.10.001 ;
 	:eAntecessorDe :c900.20.200 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_1195 ;
-	:temLegislacao :leg_1196 ;
-	:temLegislacao :leg_749 ;
-	:temLegislacao :leg_620 ;
-	:temLegislacao :leg_238 ;
+	:temLegislacao :leg_1234 ;
+	:temLegislacao :leg_1235 ;
+	:temLegislacao :leg_768 ;
+	:temLegislacao :leg_636 ;
+	:temLegislacao :leg_250 ;
 	:classeStatus "A" ;
 	:exemploNA "Elaboração do Quadro de Avaliação e Responsabilização (QUAR)" ;
 	:exemploNA "Elaboração do plano estratégico da organização" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Determinação dos objetivos estratégicos globais dos serviços tendo em conta as suas competências e os objetivos estratégicos definidos pelo órgão executivo.
 Inicia  com a solicitação de contributos e termina com a aprovação pelo órgão competente.
 Inclui definição e revisão de objetivos, definição de metas e indicadores de desempenho, envio para aprovação pelo órgão executivo.".
@@ -1824,14 +1851,16 @@ Inclui definição e revisão de objetivos, definição de metas e indicadores d
 	:eAntecessorDe :c900.10.501 ;
 	:eAntecessorDe :c900.10.504 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_1225 ;
-	:temLegislacao :leg_1059 ;
-	:temLegislacao :leg_77 ;
-	:temLegislacao :leg_122 ;
-	:temLegislacao :leg_172 ;
-	:temLegislacao :leg_291 ;
-	:temLegislacao :leg_316 ;
+	:temLegislacao :leg_1267 ;
+	:temLegislacao :leg_1089 ;
+	:temLegislacao :leg_82 ;
+	:temLegislacao :leg_128 ;
+	:temLegislacao :leg_182 ;
+	:temLegislacao :leg_303 ;
+	:temLegislacao :leg_330 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Definição, organização e programação de atividades, decorrente dos objetivos fixados em planeamento estratégico e tendo em conta as competências de cada unidade orgânica e os recursos envolvidos e necessários para a sua realização.
 Inicia com a solicitação de propostas de atividades e termina com o envio do plano para aprovação.
 Inclui definição da natureza, do âmbito, da extensão e do calendário da aplicação dos procedimentos necessários ao cumprimento dos objetivos, receção de contributos setoriais, revisão e redação de versão final.".
@@ -1865,15 +1894,15 @@ Inclui definição da natureza, do âmbito, da extensão e do calendário da apl
 	:NotaExclusao ;
 	:conteudo "A aquisição de bens e serviços deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.102_2
-:ne_c150.20.102_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O desenvolvimento de aplicações tecnológicas deve ser considerado em 800.20.500 – Desenvolvimento experimental e aplicacional".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.102_3
 :ne_c150.20.102_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A divulgação de informação sobre a implementação do plano deve ser considerada em 900.20.201 – Edição e publicação de conteúdos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.102_2
+:ne_c150.20.102_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O desenvolvimento de aplicações tecnológicas deve ser considerado em 800.20.500 – Desenvolvimento experimental e aplicacional".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c150.20.102
 :c150.20.102 rdf:type owl:NamedIndividual ,
@@ -1903,19 +1932,21 @@ Inclui definição da natureza, do âmbito, da extensão e do calendário da apl
 	:eCruzadoCom :c300.40.508 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eCruzadoCom :c800.20.500 ;
+	:temLegislacao :leg_1123 ;
 	:temLegislacao :leg_1089 ;
-	:temLegislacao :leg_1059 ;
-	:temLegislacao :leg_952 ;
-	:temLegislacao :leg_729 ;
-	:temLegislacao :leg_687 ;
-	:temLegislacao :leg_708 ;
-	:temLegislacao :leg_502 ;
-	:temLegislacao :leg_266 ;
-	:temLegislacao :leg_242 ;
-	:temLegislacao :leg_1305 ;
-	:temLegislacao :leg_1020 ;
-	:temLegislacao :leg_622 ;
+	:temLegislacao :leg_977 ;
+	:temLegislacao :leg_748 ;
+	:temLegislacao :leg_706 ;
+	:temLegislacao :leg_727 ;
+	:temLegislacao :leg_517 ;
+	:temLegislacao :leg_278 ;
+	:temLegislacao :leg_254 ;
+	:temLegislacao :leg_1348 ;
+	:temLegislacao :leg_1049 ;
+	:temLegislacao :leg_638 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Definição de um conjunto ordenado de elementos que se encontram interligados e que interagem entre si no desempenho de uma função ou atividade.
 Inicia com a identificação da necessidade e termina com a aprovação do plano.
 Inclui identificação da missão do negócio, diagnóstico de situação, identificação da estratégia e dos objetivos do negócio, construção da arquitetura do sistema, identificação e planeamento de projetos e elaboração do orçamento de execução.".
@@ -1960,6 +1991,8 @@ Inclui identificação da missão do negócio, diagnóstico de situação, ident
 	:eAntecessorDe :c900.10.503 ;
 	:classeStatus "A" ;
 	:exemploNA "Elaboração de escalas de serviço" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Definição de tarefas necessárias ao desenvolvimento prático de atividades e afetação dos recursos necessários.
 Inicia com a identificação da necessidade e termina com a comunicação do plano.
 Inclui caracterização da tarefa a realizar, identificação dos recursos necessários e disponíveis, afetação de recursos, calendarização das tarefas e aprovação do plano, quando necessário.
@@ -2003,14 +2036,16 @@ Inclui caracterização da tarefa a realizar, identificação dos recursos neces
 	:eSuplementoPara :c500.10.001 ;
 	:eAntecessorDe :c550.20.005 ;
 	:eAntecessorDe :c900.20.200 ;
-	:temLegislacao :leg_1223 ;
-	:temLegislacao :leg_1122 ;
-	:temLegislacao :leg_780 ;
-	:temLegislacao :leg_695 ;
-	:temLegislacao :leg_800 ;
-	:temLegislacao :leg_433 ;
-	:temLegislacao :leg_440 ;
+	:temLegislacao :leg_1265 ;
+	:temLegislacao :leg_1158 ;
+	:temLegislacao :leg_801 ;
+	:temLegislacao :leg_714 ;
+	:temLegislacao :leg_822 ;
+	:temLegislacao :leg_448 ;
+	:temLegislacao :leg_455 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Elaboração de instrumento de gestão anual com a indicação do número de postos de trabalho de que o órgão ou serviço carece para o desenvolvimento de atividades.
 Inicia com o levantamento de necessidades e termina com a aprovação pelo órgão competente.
 Inclui análise de dados, recolha de pareceres, discussão e validação de propostas.".
@@ -2046,6 +2081,8 @@ Inclui análise de dados, recolha de pareceres, discussão e validação de prop
 	:eCruzadoCom :c300.50.401 ;
 	:eSuplementoPara :c500.10.001 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Elaboração de instrumento de gestão com a indicação previsional dos bens materiais que o órgão ou serviço carece para o desenvolvimento de atividades.
 Inicia com o levantamento de necessidades e termina com a aprovação do plano.
 Inclui a análise dos recursos em depósito e validação de propostas.".
@@ -2119,11 +2156,13 @@ Inclui a análise dos recursos em depósito e validação de propostas.".
 	:eAntecessorDe :c850.10.005 ;
 	:eSucessorDe :c850.10.500 ;
 	:eAntecessorDe :c850.10.600 ;
-	:temLegislacao :leg_480 ;
-	:temLegislacao :leg_1120 ;
-	:temLegislacao :leg_343 ;
-	:temLegislacao :leg_231 ;
+	:temLegislacao :leg_495 ;
+	:temLegislacao :leg_1156 ;
+	:temLegislacao :leg_358 ;
+	:temLegislacao :leg_243 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Elaboração de instrumento anual de gestão financeira com a previsão das receitas e despesas, por rubrica orçamental ou unidade orgânica, para a prossecução de atividades.
 Inicia com o levantamento de necessidades e termina com a pronúncia sobre o orçamento pela tutela ou órgão competente.
 Inclui definição de regras e de procedimentos, proposta de orçamento inicial e negociação.".
@@ -2180,10 +2219,12 @@ Inclui definição de regras e de procedimentos, proposta de orçamento inicial 
 	:eComplementarDe :c150.20.100 ;
 	:eComplementarDe :c150.20.401 ;
 	:eAntecessorDe :c400.30.001 ;
-	:temLegislacao :leg_1094 ;
-	:temLegislacao :leg_63 ;
-	:temLegislacao :leg_219 ;
+	:temLegislacao :leg_1129 ;
+	:temLegislacao :leg_68 ;
+	:temLegislacao :leg_231 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Acompanhamento da criação de instituições públicas e de empresas do setor público, bem como de outros organismos que tenham participação direta ou indireta do Estado.
 Inicia com a proposta de criação da entidade e termina com a preparação do ato de formalização.
 Inclui definição do objetivo e âmbito de atuação da entidade, elaboração dos estatutos, definição e atribuição de património, definição do capital social e tipos de participação, identificação dos órgãos sociais, definição da designação.
@@ -2222,41 +2263,43 @@ Inclui definição do objetivo e âmbito de atuação da entidade, elaboração 
 	:temNotaAplicacao :na_c150.20.300_2 ;
 	:temNotaExclusao :ne_c150.20.300_1 ;
 	:temNotaExclusao :ne_c150.20.300_2 ;
-	:temRelProc :c150.20.100 ;
-	:temRelProc :c150.20.101 ;
-	:temRelProc :c150.20.102 ;
-	:temRelProc :c150.20.103 ;
-	:temRelProc :c150.20.201 ;
-	:temRelProc :c150.20.301 ;
-	:temRelProc :c150.40.500 ;
-	:temRelProc :c300.10.001 ;
-	:temRelProc :c300.10.002 ;
-	:temRelProc :c300.10.003 ;
-	:temRelProc :c300.10.004 ;
-	:temRelProc :c300.10.005 ;
-	:temRelProc :c300.10.008 ;
-	:temRelProc :c300.10.009 ;
-	:temRelProc :c300.10.010 ;
-	:temRelProc :c300.10.011 ;
-	:temRelProc :c300.10.300 ;
-	:temRelProc :c300.10.301 ;
-	:temRelProc :c650.20.306 ;
-	:temRelProc :c500.10.001 ;
-	:temRelProc :c550.20.001 ;
-	:temRelProc :c550.20.002 ;
-	:temRelProc :c550.20.003 ;
-	:temRelProc :c550.20.004 ;
-	:temRelProc :c900.10.002 ;
-	:temRelProc :c900.10.505 ;
-	:temRelProc :c900.20.603 ;
-	:temRelProc :c900.20.604 ;
-	:temRelProc :c950.10.400 ;
-	:temRelProc :c950.20.001 ;
-	:temRelProc :c800.10.610 ;
-	:temLegislacao :leg_607 ;
-	:temLegislacao :leg_615 ;
-	:temLegislacao :leg_172 ;
+	:eComplementarDe :c150.20.100 ;
+	:eComplementarDe :c150.20.101 ;
+	:eSinteseDe :c150.20.102 ;
+	:eSinteseDe :c150.20.103 ;
+	:eSinteseDe :c150.20.201 ;
+	:eComplementarDe :c150.20.301 ;
+	:eCruzadoCom :c150.40.500 ;
+	:eSinteseDe :c300.10.001 ;
+	:eSinteseDe :c300.10.002 ;
+	:eSinteseDe :c300.10.003 ;
+	:eSinteseDe :c300.10.004 ;
+	:eSinteseDe :c300.10.005 ;
+	:eSinteseDe :c300.10.008 ;
+	:eSinteseDe :c300.10.009 ;
+	:eSinteseDe :c300.10.010 ;
+	:eSinteseDe :c300.10.011 ;
+	:eSinteseDe :c300.10.300 ;
+	:eSinteseDe :c300.10.301 ;
+	:eSinteseDe :c650.20.306 ;
+	:eSinteseDe :c500.10.001 ;
+	:eSinteseDe :c550.20.001 ;
+	:eSinteseDe :c550.20.002 ;
+	:eSinteseDe :c550.20.003 ;
+	:eSinteseDe :c550.20.004 ;
+	:eSinteseDe :c900.10.002 ;
+	:eSinteseDe :c900.10.505 ;
+	:eSinteseDe :c900.20.603 ;
+	:eSinteseDe :c900.20.604 ;
+	:eSinteseDe :c950.10.400 ;
+	:eSinteseDe :c950.20.001 ;
+	:eSinteseDe :c800.10.610 ;
+	:temLegislacao :leg_623 ;
+	:temLegislacao :leg_631 ;
+	:temLegislacao :leg_182 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Análise e avaliação da execução global do plano de atividades.
 Inicia com pedido de relatório de atividades e termina com a aprovação pelo órgão competente.
 Inclui verificação, reporte dos níveis de concretização das atividades e produção de recomendações.".
@@ -2301,13 +2344,15 @@ Inclui verificação, reporte dos níveis de concretização das atividades e pr
 	:eCruzadoCom :c900.20.200 ;
 	:eCruzadoCom :c950.20.300 ;
 	:temRelProc :c950.30.001 ;
-	:temLegislacao :leg_1160 ;
-	:temLegislacao :leg_749 ;
-	:temLegislacao :leg_620 ;
-	:temLegislacao :leg_607 ;
-	:temLegislacao :leg_173 ;
+	:temLegislacao :leg_1197 ;
+	:temLegislacao :leg_768 ;
+	:temLegislacao :leg_636 ;
+	:temLegislacao :leg_623 ;
+	:temLegislacao :leg_183 ;
 	:classeStatus "A" ;
 	:exemploNA "SIADAP 1" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Apreciação, verificação e medição periódica do impacto e do grau de cumprimento de metas e dos objetivos definidos para cada serviço ou instituição.
 Inicia com a análise dos dados disponíveis e termina com a homologação da avaliação de desempenho.
 Inclui elaboração de relatórios intercalares e de relatório final de desempenho.".
@@ -2344,39 +2389,41 @@ Inclui elaboração de relatórios intercalares e de relatório final de desempe
 	:eSinteseDe :c300.40.509 ;
 	:eSucessorDe :c300.40.510 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_1222 ;
-	:temLegislacao :leg_1213 ;
-	:temLegislacao :leg_1144 ;
-	:temLegislacao :leg_1108 ;
-	:temLegislacao :leg_1035 ;
-	:temLegislacao :leg_1022 ;
-	:temLegislacao :leg_753 ;
-	:temLegislacao :leg_703 ;
-	:temLegislacao :leg_692 ;
+	:temLegislacao :leg_1264 ;
+	:temLegislacao :leg_1255 ;
+	:temLegislacao :leg_1180 ;
+	:temLegislacao :leg_1143 ;
+	:temLegislacao :leg_1064 ;
+	:temLegislacao :leg_1051 ;
+	:temLegislacao :leg_772 ;
+	:temLegislacao :leg_722 ;
+	:temLegislacao :leg_711 ;
+	:temLegislacao :leg_623 ;
 	:temLegislacao :leg_607 ;
-	:temLegislacao :leg_591 ;
-	:temLegislacao :leg_598 ;
-	:temLegislacao :leg_498 ;
-	:temLegislacao :leg_493 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_442 ;
-	:temLegislacao :leg_437 ;
-	:temLegislacao :leg_242 ;
-	:temLegislacao :leg_465 ;
-	:temLegislacao :leg_222 ;
+	:temLegislacao :leg_614 ;
+	:temLegislacao :leg_513 ;
+	:temLegislacao :leg_508 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_457 ;
+	:temLegislacao :leg_452 ;
+	:temLegislacao :leg_254 ;
+	:temLegislacao :leg_480 ;
+	:temLegislacao :leg_234 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Apreciação, verificação e medição periódica do impacto dos objetivos alcançados pelo sistema na prossecução das metas organizacionais.
 Inicia com a definição de métodos e técnicas de avaliação e termina com a produção de recomendações.
 Inclui a recolha, o tratamento e a análise de dados e identificação de problemas ou oportunidades ainda não detetadas.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.303_2
-:na_c150.20.303_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Controlo da atribuição dos incentivos financeiros por programa (Anterior PN 850.10.004)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.303_1
 :na_c150.20.303_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Monitorização no âmbito do controlo e avaliação de atividades".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c150.20.303_2
+:na_c150.20.303_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Controlo da atribuição dos incentivos financeiros por programa (Anterior PN 850.10.004)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.303_1
 :ne_c150.20.303_1 rdf:type owl:NamedIndividual ,
@@ -2416,22 +2463,24 @@ Inclui a recolha, o tratamento e a análise de dados e identificação de proble
 	:eSucessorDe :c150.20.101 ;
 	:eSucessorDe :c150.20.102 ;
 	:eSintetizadoPor :c150.20.300 ;
-	:temLegislacao :leg_607 ;
-	:temLegislacao :leg_615 ;
-	:temLegislacao :leg_172 ;
+	:temLegislacao :leg_623 ;
+	:temLegislacao :leg_631 ;
+	:temLegislacao :leg_182 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Controlo sistemático das ações e atividades. 
 Inicia com a sistematização dos dados e termina com o reporte.
 Inclui análise, conferência e processamento dos dados.".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.400_2
-:ne_c150.20.400_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A gestão da tesouraria deve ser considerada em Administração financeira / Gestão da tesouraria (350.30)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.400_1
 :ne_c150.20.400_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A execução orçamental deve ser considerada em Administração financeira / Execução orçamental (350.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c150.20.400_2
+:ne_c150.20.400_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A gestão da tesouraria deve ser considerada em Administração financeira / Gestão da tesouraria (350.30)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c150.20.400
 :c150.20.400 rdf:type owl:NamedIndividual ,
@@ -2455,10 +2504,12 @@ Inclui análise, conferência e processamento dos dados.".
 	:temRelProc :c350.30.001 ;
 	:temRelProc :c350.30.003 ;
 	:temRelProc :c500.10.001 ;
-	:temLegislacao :leg_1120 ;
-	:temLegislacao :leg_343 ;
-	:temLegislacao :leg_231 ;
+	:temLegislacao :leg_1156 ;
+	:temLegislacao :leg_358 ;
+	:temLegislacao :leg_243 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Elaboração periódica de instrumentos de controlo e monitorização da execução orçamental para salientar os principais pontos evolutivos a nível dos montantes orçados e executados dos documentos de gestão corrente da entidade.
 Inicia com a recolha de elementos e termina com o tratamento dos dados inseridos.
 Inclui elaboração de relatório, conferência e validação de dados e gestão de base de dados.".
@@ -2528,10 +2579,12 @@ Inclui elaboração de relatório, conferência e validação de dados e gestão
 	:eSuplementoPara :c350.40.204 ;
 	:eComplementarDe :c350.40.602 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_1120 ;
-	:temLegislacao :leg_499 ;
-	:temLegislacao :leg_219 ;
+	:temLegislacao :leg_1156 ;
+	:temLegislacao :leg_514 ;
+	:temLegislacao :leg_231 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Acompanhamento, no âmbito da função acionista do Estado e do exercício da tutela financeira, da liquidação ou dissolução de sociedades em que o Estado participa direta ou indiretamente.
 Inicia com a comunicação da decisão da liquidação e termina com a comunicação da extinção definitiva da pessoa coletiva.
 Inclui troca de informação referente à definição dos liquidatários, à alienação de ativos, ao pagamento das dívidas da sociedade, à cobrança de créditos a apreciação e votação de prestação de contas anuais e de contas finais de liquidação e partilha e da celebração dos autos de entrega do património residual das entidades extintas.
@@ -2572,9 +2625,11 @@ Inclui troca de informação referente à definição dos liquidatários, à ali
 	:eSinteseDe :c500.20.300 ;
 	:eSinteseDe :c500.20.600 ;
 	:eSinteseDe :c500.30.004 ;
-	:temLegislacao :leg_952 ;
-	:temLegislacao :leg_173 ;
+	:temLegislacao :leg_977 ;
+	:temLegislacao :leg_183 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Sistematização periódica de dados referentes à realidade social dos recursos humanos.
 Inicia com a recolha de dados e termina com a organização e tratamento de dados.
 Inclui compilação, carregamento, tratamento e remissão de dados aos órgãos competentes.
@@ -2615,10 +2670,12 @@ Inclui, ainda, para a elaboração do balanço social, a recolha de pareceres de
 	:eSinteseDe :c350.30.001 ;
 	:eComplementarDe :c350.30.500 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_1120 ;
-	:temLegislacao :leg_343 ;
-	:temLegislacao :leg_231 ;
+	:temLegislacao :leg_1156 ;
+	:temLegislacao :leg_358 ;
+	:temLegislacao :leg_243 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Demonstração da execução orçamental e patrimonial.
 Inicia com a recolha de dados contabilísticos e termina com envio às entidades para conhecimento.
 Inclui elaboração da proposta e submissão à aprovação pelo órgão competente.".
@@ -2660,12 +2717,14 @@ Inclui elaboração da proposta e submissão à aprovação pelo órgão compete
 	:eAntecessorDe :c150.40.500 ;
 	:eCruzadoCom :c450.10.648 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_590 ;
-	:temLegislacao :leg_521 ;
-	:temLegislacao :leg_550 ;
-	:temLegislacao :leg_491 ;
-	:temLegislacao :leg_452 ;
+	:temLegislacao :leg_606 ;
+	:temLegislacao :leg_537 ;
+	:temLegislacao :leg_566 ;
+	:temLegislacao :leg_506 ;
+	:temLegislacao :leg_467 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Definição de procedimentos e processos administrativos com vista à implementação de boas práticas e melhoria da qualidade dos serviços.
 Inicia com o estudo do processo e termina com implementação de circuito estruturado, independentemente do suporte de informação.
 Inclui identificação de etapas do processo administrativo, estudo de regulamentos e de legislação relacionada, definição de requisitos e normalização de formulários.".
@@ -2706,8 +2765,10 @@ Inclui identificação de etapas do processo administrativo, estudo de regulamen
 	:eSinteseDe :c700.20.101 ;
 	:eSinteseDe :c700.20.200 ;
 	:eAntecessorDe :c900.20.200 ;
-	:temLegislacao :leg_812 ;
+	:temLegislacao :leg_834 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Definição e regulação da organização, estrutura e funcionamento dos serviços, princípios e níveis de direção e hierarquia que os articulam com o objetivo de assegurar o cumprimento de competências legalmente atribuídas.
 Inicia com a decisão ou determinação da necessidade da reestruturação orgânica e termina com a submissão da proposta ao órgão deliberativo.
 Inclui análise e avaliação da estrutura orgânica e funcional existente, recolha de contributos e elaboração da proposta de versão final.".
@@ -2777,12 +2838,14 @@ Inclui análise e avaliação da estrutura orgânica e funcional existente, reco
 	:eSinteseDe :c550.30.200 ;
 	:eSinteseDe :c550.30.400 ;
 	:eSinteseDe :c550.30.600 ;
-	:temLegislacao :leg_1371 ;
-	:temLegislacao :leg_398 ;
-	:temLegislacao :leg_1215 ;
-	:temLegislacao :leg_1059 ;
-	:temLegislacao :leg_398 ;
+	:temLegislacao :leg_1414 ;
+	:temLegislacao :leg_413 ;
+	:temLegislacao :leg_1257 ;
+	:temLegislacao :leg_1089 ;
+	:temLegislacao :leg_413 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Elaboração, identificação, tratamento e intercâmbio de informação estratégica para combate ao terrorismo e agitações sociais e políticas.
 Inicia com a elaboração de estudo ou com a receção ou envio de informação das congéneres nacionais e estrangeiras e termina com análise da informação ou produção de orientações.
 Inclui recolha e tratamento da informação estratégica.
@@ -2850,11 +2913,13 @@ Inclui recolha e tratamento da informação estratégica.
 	:eComplementarDe :c150.20.101 ;
 	:eComplementarDe :c150.20.300 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_1054 ;
-	:temLegislacao :leg_998 ;
-	:temLegislacao :leg_699 ;
-	:temLegislacao :leg_222 ;
+	:temLegislacao :leg_1084 ;
+	:temLegislacao :leg_1024 ;
+	:temLegislacao :leg_718 ;
+	:temLegislacao :leg_234 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Conceção, planeamento e execução de operações de recolha, tratamento, análise e apresentação de dados estatísticos oficiais no âmbito da atividade das autoridades estatísticas do Sistema Estatístico Nacional.
 Inicia com o estudo de viabilidade e termina com a apresentação dos dados recolhidos.
 Inclui aprovação técnica da operação estatística, definição da metodologia, preparação da recolha, análise da amostra, gestão integrada do respondente (fornecedor da informação estatística), análise da coerência dos dados, aferição dos resultados e preparação da informação para divulgação.".
@@ -2967,12 +3032,14 @@ Inclui a receção dos questionários.".
 	:eCruzadoCom :c900.20.200 ;
 	:eSinteseDe :c900.20.201 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_974 ;
-	:temLegislacao :leg_1054 ;
 	:temLegislacao :leg_998 ;
-	:temLegislacao :leg_699 ;
-	:temLegislacao :leg_222 ;
+	:temLegislacao :leg_1084 ;
+	:temLegislacao :leg_1024 ;
+	:temLegislacao :leg_718 ;
+	:temLegislacao :leg_234 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Conceção, planeamento e execução das operações de recolha, tratamento, análise e apresentação de dados  estatísticos de suporte à tomada de decisão.
 Inicia com a definição da metodologia e termina com a apresentação dos dados recolhidos.
 Inclui preparação da recolha, contabilização de dados e preparação da informação.".

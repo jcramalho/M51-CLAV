@@ -1,13 +1,13 @@
 ### Classe850
-###  http://jcr.di.uminho.pt/m51-clav#na_c850_2
-:na_c850_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Aplicável às entidades que efetuam a gestão de fundos ou programas de incentivo, bem como às entidades beneficiárias e/ou destinatárias daqueles programas e, ainda, às entidades que participam apenas na apreciação das candidaturas a apoios.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c850_1
 :na_c850_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Usualmente os incentivos revestem a forma de apoios financeiros, mas tal não é imperativo.".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850_2
+:na_c850_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Aplicável às entidades que efetuam a gestão de fundos ou programas de incentivo, bem como às entidades beneficiárias e/ou destinatárias daqueles programas e, ainda, às entidades que participam apenas na apreciação das candidaturas a apoios.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c850_1
 :ne_c850_1 rdf:type owl:NamedIndividual ,
@@ -32,15 +32,15 @@ Relativo, ainda, à captação de apoios de entidades privadas e serviços públ
 	:NotaAplicacao ;
 	:conteudo "As entidades que administram fundos comunitários ou gerem programas de apoio deverão utilizar esta classe para os processos de gestão de cada concurso, incluindo a constituição de júris e respetivos trabalhos, bem como para todos os procedimentos de relacionamento com as entidades beneficiárias/destinatárias, no que se inclui a receção de candidaturas, a celebração de acordos/contratos de apoio, o acompanhamento e a avaliação dos projetos apoiados.".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c850.10_3
-:na_c850.10_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Quando haja lugar à apresentação de candidaturas a programas de incentivo geridos por entidades da União Europeia, as mesmas devem ser aqui consideradas.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c850.10_2
 :na_c850.10_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "As entidades posicionadas para receber os apoios deverão utilizar esta classe para a gestão da respetiva candidatura, ou seja, para a documentação necessária ao relacionamento com as entidades que concedem financiamentos ou ajudas diretas (apresentação de candidatura, relatórios da execução material e financeira, avaliação, encerramento de contas), podendo imputar a restante documentação técnica/administrativa à função sobre a qual o projeto incide (melhoramento de infraestruturas, desenvolvimento de sistemas de informação, organização de eventos, investigação científica, etc.).".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10_3
+:na_c850.10_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Quando haja lugar à apresentação de candidaturas a programas de incentivo geridos por entidades da União Europeia, as mesmas devem ser aqui consideradas.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c850.10
 :c850.10 rdf:type owl:NamedIndividual ,
@@ -96,23 +96,25 @@ Compreende, ainda, as atividades de captação de mecenas e gestão de apoios me
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c500.10.002 ;
-	:temLegislacao :leg_1321 ;
-	:temLegislacao :leg_1037 ;
-	:temLegislacao :leg_681 ;
+	:temLegislacao :leg_1364 ;
+	:temLegislacao :leg_1066 ;
+	:temLegislacao :leg_699 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Pagamento compensatório dos custos ou perdas resultantes da exploração e prestação de serviços de interesse público que não são economicamente rentáveis.
 Inicia com o pedido de pagamento do subsídio ou por iniciativa da entidade pagadora e termina com a decisão de deferimento ou indeferimento do respetivo pedido.
 Inclui demonstração dos valores das transferências efetuadas ou a efetuar.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.002_2
-:na_c850.10.002_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Candidaturas apresentadas por entidades que beneficiam de apoios".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.002_1
 :na_c850.10.002_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Candidaturas recebidas por entidades que concedem  apoios".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.002_2
+:na_c850.10.002_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Candidaturas apresentadas por entidades que beneficiam de apoios".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.002_3
 :na_c850.10.002_3 rdf:type owl:NamedIndividual ,
@@ -195,22 +197,24 @@ Inclui demonstração dos valores das transferências efetuadas ou a efetuar.
 	:eCruzadoCom :c800.20.002 ;
 	:eCruzadoCom :c800.20.500 ;
 	:eAntecessorDe :c900.10.001 ;
-	:temLegislacao :leg_1278 ;
-	:temLegislacao :leg_1280 ;
+	:temLegislacao :leg_1320 ;
+	:temLegislacao :leg_1322 ;
+	:temLegislacao :leg_1247 ;
+	:temLegislacao :leg_1244 ;
+	:temLegislacao :leg_1314 ;
+	:temLegislacao :leg_1210 ;
 	:temLegislacao :leg_1206 ;
+	:temLegislacao :leg_1199 ;
+	:temLegislacao :leg_1205 ;
+	:temLegislacao :leg_1204 ;
 	:temLegislacao :leg_1203 ;
-	:temLegislacao :leg_1272 ;
-	:temLegislacao :leg_1173 ;
-	:temLegislacao :leg_1169 ;
-	:temLegislacao :leg_1162 ;
-	:temLegislacao :leg_1168 ;
-	:temLegislacao :leg_1167 ;
-	:temLegislacao :leg_1166 ;
-	:temLegislacao :leg_1165 ;
-	:temLegislacao :leg_1164 ;
+	:temLegislacao :leg_1202 ;
+	:temLegislacao :leg_1201 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Atribuição de estímulos no âmbito de programas e acompanhamento da execução dos projetos ou ações financiadas.
-Inicia com a submissão da candidatura e termina com a análise e avaliação do relatório final de execução da operação ou projeto apoiado.
+Inicia com a submissão da candidatura e termina com a análise e avaliação do relatório final de execução da operação ou projeto apoiado, elaborado aquando do fim do programa de apoio.
 Inclui instrução da candidatura, decisão, comunicação da atribuição do apoio, contratualização, acompanhamento e controlo da execução do projeto ou operação, apresentação de comprovativos de despesa, reajustamentos ao programa e elaboração de relatórios intercalares e relatório final, análise e avaliação dos relatórios, aprovação do encerramento do processo de apoio.
 Inclui ainda a eventual suspensão ou rescisão do contrato de apoio.
 
@@ -311,11 +315,13 @@ Inclui solicitação de pagamento, com os respetivos documentos comprovativos,  
 	:eCruzadoCom :c800.20.002 ;
 	:eCruzadoCom :c800.20.500 ;
 	:eAntecessorDe :c900.10.001 ;
-	:temLegislacao :leg_1083 ;
-	:temLegislacao :leg_863 ;
+	:temLegislacao :leg_1115 ;
+	:temLegislacao :leg_886 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Atribuição e acompanhamento de estímulos ou compensações a projetos ou situações não enquadráveis num plano de continuidade.
-Inicia com a submissão da candidatura e termina com a análise e avaliação do relatório final de execução da operação ou projeto apoiado.
+Inicia com a submissão da candidatura e termina com a análise e avaliação do relatório final de execução da operação ou projeto apoiado, elaborado aquando do fim do programa de apoio.
 Inclui preparação e apresentação do pedido formal de apoio ou da candidatura, decisão, eventual contratualização, comunicação da atribuição do apoio e eventual apresentação de comprovativos de despesa.".
 ###  http://jcr.di.uminho.pt/m51-clav#c850.10.003.01
 :c850.10.003.01 rdf:type owl:NamedIndividual ,
@@ -374,8 +380,10 @@ Inclui solicitação de pagamento, com os respetivos documentos comprovativos,  
 	:eCruzadoCom :c800.20.001 ;
 	:eCruzadoCom :c800.20.002 ;
 	:eCruzadoCom :c800.20.500 ;
-	:temLegislacao :leg_192 ;
+	:temLegislacao :leg_204 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de ajudas diretas como forma de garantir a estabilidade nos rendimentos, no âmbito de programas financiados.
 Inicia com a submissão da candidatura e termina com decisão de concessão do apoio.
 Inclui a instrução da candidatura, decisão, comunicação da atribuição do apoio, contratualização e controlo.".
@@ -426,20 +434,22 @@ Inclui a instrução da candidatura, decisão, comunicação da atribuição do 
 	:eCruzadoCom :c800.20.002 ;
 	:eCruzadoCom :c800.20.500 ;
 	:eCruzadoCom :c900.10.500 ;
-	:temLegislacao :leg_192 ;
+	:temLegislacao :leg_204 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Reconhecimento do valor de ações, trabalhos, projetos e resultados.
 Inicia com a abertura do período de apresentação de candidaturas ou com a apresentação de propostas, ou com a identificação das ações, trabalhos, projetos de investigação e resultados passíveis de reconhecimento e termina com a decisão de atribuição do prémio.
 Inclui avaliação e seleção de trabalhos, ações, projetos e desempenhos passíveis de serem premiados.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.600_2
-:na_c850.10.600_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Patrocínio a atividades culturais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.600_1
 :na_c850.10.600_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Patrocínio a atividades artística".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.600_2
+:na_c850.10.600_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Patrocínio a atividades culturais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.600_3
 :na_c850.10.600_3 rdf:type owl:NamedIndividual ,
@@ -507,8 +517,10 @@ Inclui avaliação e seleção de trabalhos, ações, projetos e desempenhos pas
 	:eCruzadoCom :c800.20.002 ;
 	:eCruzadoCom :c800.20.500 ;
 	:eCruzadoCom :c900.10.500 ;
-	:temLegislacao :leg_192 ;
+	:temLegislacao :leg_204 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Disponibilização de qualquer tipo de recurso (financeiro ou material) para apoio ou suporte direto à realização de uma atividade ou entidade patrocinada, com o propósito de associar o nome da entidade patrocinadora, bem como outras  contrapartidas de caracter comercial.
 Inicia com o pedido e termina com a decisão quanto à atribuição de patrocínio.
 Inclui análise do pedido e negociação entre patrocinador e beneficiário, contrato de patrocínio, quando aplicável.
@@ -583,15 +595,18 @@ Inclui análise do pedido e negociação entre patrocinador e beneficiário, con
 	:eCruzadoCom :c800.20.001 ;
 	:eCruzadoCom :c800.20.002 ;
 	:eCruzadoCom :c800.20.500 ;
-	:temLegislacao :leg_338 ;
-	:temLegislacao :leg_412 ;
-	:temLegislacao :leg_675 ;
-	:temLegislacao :leg_784 ;
-	:temLegislacao :leg_1123 ;
-	:temLegislacao :leg_1231 ;
-	:temLegislacao :leg_1236 ;
-	:temLegislacao :leg_1281 ;
+	:temLegislacao :leg_353 ;
+	:temLegislacao :leg_427 ;
+	:temLegislacao :leg_95 ;
+	:temLegislacao :leg_693 ;
+	:temLegislacao :leg_805 ;
+	:temLegislacao :leg_1159 ;
+	:temLegislacao :leg_1273 ;
+	:temLegislacao :leg_1278 ;
+	:temLegislacao :leg_1323 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Desenvolvimento de atividades de recolha e gestão de donativos em dinheiro ou em espécie, concedidos sem haver lugar a contrapartidas que configurem obrigações de caracter pecuniário ou comercial, às entidades públicas ou privadas, para a realização de iniciativas de diversa natureza. 
 Inicia com pedido e termina com a concessão do apoio.
 Inclui análise do pedido, negociação entre o mecenas e o beneficiário.
@@ -675,10 +690,12 @@ Inclui análise do pedido, negociação entre o mecenas e o beneficiário.
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_606 ;
-	:temLegislacao :leg_536 ;
-	:temLegislacao :leg_192 ;
+	:temLegislacao :leg_622 ;
+	:temLegislacao :leg_552 ;
+	:temLegislacao :leg_204 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Concessão de bonificações a entidades nacionais e estrangeiras, através de linhas de crédito bonificadas e criadas por diploma próprio, nos setores do arrendamento urbano, eventos nacionais, intempéries, calamidades, crédito de ajuda, entre outros.
 Inicia com um pedido e termina com a decisão de atribuição da bonificação.
 Inclui a análise dos elementos e a elaboração de pareceres.
@@ -726,9 +743,10 @@ Inclui a análise dos elementos e a elaboração de pareceres.
 	:eSucessorDe :c350.10.300 ;
 	:eSucessorDe :c350.10.301 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_1201 ;
-	:temLegislacao :leg_90 ;
+	:temLegislacao :leg_1242 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Aplicação do regime de benefícios ao investimento produtivo a entidades contratualizadas.
 Inicia com a negociação contratual entre as partes e termina com a aplicação do contrato.
 Inclui todos os procedimentos para a análise e cálculo dos benefícios e incentivos.
@@ -749,8 +767,10 @@ Inclui todos os procedimentos para a análise e cálculo dos benefícios e incen
 	:eSintetizadoPor :c300.30.008 ;
 	:eAntecessorDe :c350.10.400 ;
 	:eAntecessorDe :c450.10.062 ;
-	:temLegislacao :leg_548 ;
+	:temLegislacao :leg_564 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Aplicação de mecanismo comunitário que permite a importação de matérias-primas ou produtos semi-acabados com a aplicação de um direito aduaneiro reduzido ou nulo, durante um determinado período e relativo a uma quantidade ilimitada (suspensão pautal) ou a uma quantidade limitada (contingente pautal), permitindo às empresas abastecerem-se a preços mais baixos, estimulando a atividade económica na União Europeia, e possibilitando a existência de empresas mais competitivas e o fomento à criação de emprego.
 Inicia com pedido de candidatura a suspensões e contingentes pautais na importação de mercadorias, formulado por operador económico e termina com a comunicação do resultado da proposta ou do pedido de candidatura, ou ainda com a emissão de certificado, quando aplicável.
 Inclui a análise dos pedidos de suspensões e de contingentes pautais, produção de prova, prestação de garantia, quando aplicável, comunicação às Alfândegas sobre o estado dos contingentes pautais, comunicação com os Estados Membros.
@@ -782,14 +802,16 @@ Inclui a análise dos pedidos de suspensões e de contingentes pautais, produç�
 	:eSintetizadoPor :c150.20.404 ;
 	:eSintetizadoPor :c150.40.500 ;
 	:eSintetizadoPor :c300.30.008 ;
-	:temLegislacao :leg_1268 ;
-	:temLegislacao :leg_1265 ;
-	:temLegislacao :leg_1161 ;
-	:temLegislacao :leg_1127 ;
-	:temLegislacao :leg_365 ;
-	:temLegislacao :leg_364 ;
-	:temLegislacao :leg_107 ;
+	:temLegislacao :leg_1310 ;
+	:temLegislacao :leg_1307 ;
+	:temLegislacao :leg_1198 ;
+	:temLegislacao :leg_1163 ;
+	:temLegislacao :leg_381 ;
+	:temLegislacao :leg_380 ;
+	:temLegislacao :leg_113 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Aplicação de isenção de direitos de importação a produtos agrícolas essenciais importados de países terceiros para regiões ultraperiféricas da União Europeia.     
 Inicia com a solicitação do operador e termina com a decisão.                                                                       Inclui a validação face a alterações/transferências efetuadas às estimativas durante a campanha.".
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c850.30.500_1
@@ -818,8 +840,10 @@ Inicia com a solicitação do operador e termina com a decisão.                
 	:eSintetizadoPor :c150.40.500 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_192 ;
+	:temLegislacao :leg_204 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Registo e controlo dos pagamentos das bonificações de juros e incentivos.
 Inicia com a receção de comprovativos de despesa e termina com a decisão sobre a conformidade da despesa.
 Inclui a análise dos mapas de valores a pagar por classificação económica, das reclamações conferidas e não conferidas, dos mapas de execução orçamental anual e da lista de valores pagos por atividade.
@@ -880,9 +904,11 @@ Inclui a análise dos mapas de valores a pagar por classificação económica, d
 	:eAntecessorDe :c350.30.001 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_727 ;
-	:temLegislacao :leg_713 ;
+	:temLegislacao :leg_746 ;
+	:temLegislacao :leg_732 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Concessão, gestão e execução de garantias pessoais a entidades externas e internas, sob a forma de fiança ou aval, no âmbito de empreendimentos ou projetos de interesse para a economia nacional.
 Inicia com o pedido dos beneficiários da garantia do Estado ou de um membro do Governo para análise da entidade responsável pelas garantias e subsequente pedido de parecer ao à entidade responsável pela dívida pública e à tutela setorial e termina com a execução da garantia.
 Inclui pedidos de autorização/manutenção de garantia, minutas dos contratos de empréstimo ou da operação financeira, planos de utilização do financiamento e esquemas de reembolso, propostas de concessão de garantia, pareceres com despachos ministeriais, despacho do membro do Governo competente a autorizar a emissão da garantia, contratos com garantia do Estado e respetivos aditamentos, assim como mapas dos planos de amortização de capital, definição de juros e comissões de garantia, programas, declarações de garantia, entre outros.".
@@ -971,14 +997,16 @@ Inclui pedidos de autorização/manutenção de garantia, minutas dos contratos 
 	:eAntecessorDe :c350.30.001 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_192 ;
-	:temLegislacao :leg_536 ;
-	:temLegislacao :leg_606 ;
-	:temLegislacao :leg_740 ;
-	:temLegislacao :leg_742 ;
-	:temLegislacao :leg_860 ;
-	:temLegislacao :leg_769 ;
+	:temLegislacao :leg_204 ;
+	:temLegislacao :leg_552 ;
+	:temLegislacao :leg_622 ;
+	:temLegislacao :leg_759 ;
+	:temLegislacao :leg_761 ;
+	:temLegislacao :leg_883 ;
+	:temLegislacao :leg_789 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Concessão e gestão de garantias a operações de seguro do risco de crédito, de produção e de investimento com a garantia do Estado, nomeadamente no contexto da exportação de bens ou serviços de origem portuguesa ou de investimento português no estrangeiro.
 Inicia com o pedido da seguradora ao Estado para emissão da garantia, sob a forma de seguro, e termina com a eventual autorização do membro do Governo a efetivar a emissão da garantia.
 Inclui garantias de operações individuais de crédito ou de investimento, de apólices globais, de seguro-caução, de linhas de crédito a estabelecer com países da cooperação portuguesa, pedidos de posição de princípio sobre cobertura da exportação de bens e serviços de origem portuguesa, despachos de autorização de garantia, incluindo os da tutela, prorrogações de prazos de utilização das operações seguras, cobranças de prémios, pedidos de indemnização e respetivos pagamentos.

@@ -297,15 +297,17 @@ de títulos de identificação. Os processos podem ser de iniciativa dos serviç
 	:eCruzadoCom :c950.10.400 ;
 	:eComplementarDe :c950.10.401 ;
 	:eSucessorDe :c950.10.601 ;
-	:temLegislacao :leg_945 ;
-	:temLegislacao :leg_889 ;
-	:temLegislacao :leg_815 ;
-	:temLegislacao :leg_849 ;
-	:temLegislacao :leg_584 ;
-	:temLegislacao :leg_421 ;
-	:temLegislacao :leg_322 ;
-	:temLegislacao :leg_158 ;
+	:temLegislacao :leg_970 ;
+	:temLegislacao :leg_913 ;
+	:temLegislacao :leg_837 ;
+	:temLegislacao :leg_871 ;
+	:temLegislacao :leg_600 ;
+	:temLegislacao :leg_436 ;
+	:temLegislacao :leg_337 ;
+	:temLegislacao :leg_168 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Publicita os factos e os atos relativos ao estado civil e à capacidade dos cidadãos.
 Inicia com o pedido da pessoa com legitimidade para o efeito ou por iniciativa do conservador e termina com a feitura do assento ou do averbamento.
 Inclui a recolha de informações, comprovativos dos factos alegados, a instrução dos atos, a preservação e atualização dos dados recolhidos.".
@@ -319,11 +321,6 @@ Inclui a recolha de informações, comprovativos dos factos alegados, a instruç
 	:NotaAplicacao ;
 	:conteudo "Alteração, cancelamento e suspensão do registo".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.002_5
-:na_c400.10.002_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Pessoas singulares".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.002_3
 :na_c400.10.002_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -334,15 +331,20 @@ Inclui a recolha de informações, comprovativos dos factos alegados, a instruç
 	:NotaAplicacao ;
 	:conteudo "Inscrição oficiosa".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.002_7
-:na_c400.10.002_7 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.002_5
+:na_c400.10.002_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Entidades legalmente equiparadas que se encontrem sujeitas ao cumprimento de obrigações ou pretendam exercer os seus direitos junto da entidade competente".
+	:conteudo "Pessoas singulares".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.002_6
 :na_c400.10.002_6 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Pessoas coletivas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.002_7
+:na_c400.10.002_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Entidades legalmente equiparadas que se encontrem sujeitas ao cumprimento de obrigações ou pretendam exercer os seus direitos junto da entidade competente".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.002_8
 :na_c400.10.002_8 rdf:type owl:NamedIndividual ,
@@ -387,9 +389,11 @@ Inclui a recolha de informações, comprovativos dos factos alegados, a instruç
 	:temNotaExclusao :ne_c400.10.002_1 ;
 	:eComplementarDe :c400.10.009 ;
 	:eAntecessorDe :c400.10.050 ;
-	:temLegislacao :leg_1075 ;
-	:temLegislacao :leg_26 ;
+	:temLegislacao :leg_1105 ;
+	:temLegislacao :leg_30 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de número de identificação fiscal (NIF) destinado ao tratamento de informação de índole fiscal e aduaneira, constituindo um repositório de dados em atualização permanente.
 Inicia com o pedido (declaração) e termina com a emissão de documento comprovativo de inscrição.
 Inclui entrega, verificação e processamento de elementos identificativos,  bem como de elementos para o início, alteração e cessação de uma atividade económica.
@@ -408,7 +412,11 @@ Inclui ainda, sempre que o NIF corresponda ao Número de Identificação de Pess
 	:temDono :org_DGAL ;
 	:eSucessorDe :c400.10.009 ;
 	:eSuplementoPara :c150.10.601 ;
+	:temLegislacao :leg_1407 ;
+	:temLegislacao :leg_288 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de número e inscrição da constituição e extinção de associações de freguesias, seus estatutos e respetivas modificações.
 Inicia com a comunicação pela entidade autárquica, respetivamente município ou freguesia, em cuja área está sediada a associação e termina com a emissão de declaração.
 Inclui análise ao pedido, decisão, registo, atribuição de número e envio para publicação.".
@@ -435,11 +443,13 @@ Inclui análise ao pedido, decisão, registo, atribuição de número e envio pa
 	:temNotaAplicacao :na_c400.10.004_1 ;
 	:temNotaAplicacao :na_c400.10.004_2 ;
 	:eSucessorDe :c950.10.601 ;
-	:temLegislacao :leg_914 ;
-	:temLegislacao :leg_533 ;
+	:temLegislacao :leg_938 ;
+	:temLegislacao :leg_549 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Formalização do direito de residência em Portugal de cidadão da União Europeia, Espaço Económico Europeu ou Suíça.
-Inicia com o pedido do interessado e termina com a emissão de um certificado de registo temporário válido por cinco anos, ou de um certificado de residência permanente, nos casos dos cidadãos que tenham já residido ininterruptamente em território nacional por um período de 5 anos.
+Inicia com o pedido do interessado e termina com a emissão de um certificado de registo temporário, ou de um certificado de residência permanente, nos casos dos cidadãos que tenham já residido ininterruptamente em território nacional.
 Inclui análise das condições do requerente, nomeadamente verificação do documento de identidade e declaração de honra assinada pelo requerente em como preenche as condições estipuladas por lei, para beneficiar do direito de residência.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.005_1
@@ -459,7 +469,7 @@ Inclui análise das condições do requerente, nomeadamente verificação do doc
 	:titulo "Registo de emissão de Cartão Europeu de Seguro de Doença";
 	:temPai :c400.10 ;
 	:processoTipo "PE" ;
-	:processoTransversal "S" ;
+	:processoTransversal "N" ;
 	:temDono :org_ISS ;
 	:temDono :org_ISSA ;
 	:temDono :org_ISSM ;
@@ -469,11 +479,13 @@ Inclui análise das condições do requerente, nomeadamente verificação do doc
 	:temNotaAplicacao :na_c400.10.005_2 ;
 	:eCruzadoCom :c400.10.011 ;
 	:eCruzadoCom :c400.10.012 ;
-	:temLegislacao :leg_973 ;
-	:temLegislacao :leg_413 ;
-	:temLegislacao :leg_451 ;
-	:temLegislacao :leg_406 ;
+	:temLegislacao :leg_997 ;
+	:temLegislacao :leg_428 ;
+	:temLegislacao :leg_466 ;
+	:temLegislacao :leg_421 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Emissão de documento que assegura a prestação de cuidados de saúde a beneficiários de um sistema de segurança social de um dos Estados da União Europeia, Espaço Económico Europeu ou Suíça quando se desloca temporariamente a esses Estados.
 Inicia com o pedido e termina com a emissão de cartão ou com a atualização dos dados.
 Inclui apresentação de documento comprovativo de beneficiário de subsistema de saúde público ou particular.
@@ -501,8 +513,10 @@ Inclui apresentação de documento comprovativo de beneficiário de subsistema d
 	:temNotaAplicacao :na_c400.10.007_1 ;
 	:temNotaAplicacao :na_c400.10.007_2 ;
 	:eAntecessorDe :c400.10.611 ;
-	:temLegislacao :leg_41 ;
+	:temLegislacao :leg_45 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição de entidades depositantes no sistema de depósito legal.
 Inicia com o pré-registo de inscrição de novas entidades depositantes e termina com a validação dos dados.
 ".
@@ -647,9 +661,11 @@ Inicia com o pré-registo de inscrição de novas entidades depositantes e termi
 	:eAntecessorDe :c450.30.503 ;
 	:eAntecessorDe :c500.30.001 ;
 	:eAntecessorDe :c500.40.500 ;
-	:temLegislacao :leg_202 ;
-	:temLegislacao :leg_690 ;
+	:temLegislacao :leg_214 ;
+	:temLegislacao :leg_709 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Registo e identificação de pessoas coletivas e entidades equiparadas mediante a inscrição no Ficheiro Central de Pessoas Coletivas (FCPC).
 No caso de pessoas coletivas (não sujeitas a registo comercial):
 Inicia com o pedido de certificado de admissibilidade de firma ou denominação e termina com a inscrição no FCPC e consequente emissão de cartão eletrónico de pessoa coletiva.
@@ -679,9 +695,11 @@ Inclui a instrução do processo, apreciação e decisão de inscrição e emiss
 	:temDono :org_CGA ;
 	:temNotaAplicacao :na_c400.10.010_1 ;
 	:eSucessorDe :c250.10.800 ;
-	:temLegislacao :leg_581 ;
-	:temLegislacao :leg_24 ;
+	:temLegislacao :leg_597 ;
+	:temLegislacao :leg_28 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Reinscrição ou atualização de dados no sistema da Caixa Geral de Aposentações.
 Inicia com o envio dos dados e termina com o registo.
 Inclui validação dos dados.".
@@ -707,10 +725,12 @@ Inclui validação dos dados.".
 	:eSucessorDe :c250.10.600 ;
 	:eAntecessorDe :c250.10.800 ;
 	:eCruzadoCom :c400.10.005 ;
-	:temLegislacao :leg_958 ;
-	:temLegislacao :leg_800 ;
-	:temLegislacao :leg_400 ;
+	:temLegislacao :leg_983 ;
+	:temLegislacao :leg_822 ;
+	:temLegislacao :leg_415 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição ou atualização dos dados do trabalhador no sistema da Segurança Social.
 Inicia com o envio dos dados e termina com a inscrição ou atualização dos mesmos.
 Inclui validação da entidade empregadora e, quando aplicável, a atribuição do número de utente.".
@@ -754,10 +774,12 @@ Inclui validação da entidade empregadora e, quando aplicável, a atribuição 
 	:eSucessorDe :c250.10.600 ;
 	:eAntecessorDe :c250.10.800 ;
 	:eCruzadoCom :c400.10.005 ;
-	:temLegislacao :leg_894 ;
-	:temLegislacao :leg_469 ;
-	:temLegislacao :leg_49 ;
+	:temLegislacao :leg_918 ;
+	:temLegislacao :leg_484 ;
+	:temLegislacao :leg_53 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição ou atualização dos dados em subsistemas de saúde públicos.
 Inicia com o envio do pedido e termina com a emissão do cartão ou com a atualização dos dados.
 Inclui apresentação de documentos comprovativos e validação dos dados de registo.".
@@ -783,9 +805,11 @@ Inclui apresentação de documentos comprovativos e validação dos dados de reg
 	:temDono :org_DGLAB ;
 	:temNotaAplicacao :na_c400.10.018_1 ;
 	:temNotaAplicacao :na_c400.10.018_2 ;
-	:temLegislacao :leg_1044 ;
-	:temLegislacao :leg_332 ;
+	:temLegislacao :leg_1074 ;
+	:temLegislacao :leg_347 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Identificação de entidades sediadas ou estabelecidas em território nacional e reconhecidas como autoridades arquivísticas.
 Inicia com uma proposta ou com a criação do registo em função da política de descrição definida e termina com a publicitação da informação.
 Inclui a análise, a alteração, a validação da proposta e a comunicação ao requerente da aceitação ou recusa da proposta.  
@@ -823,10 +847,12 @@ Inclui a análise, a alteração, a validação da proposta e a comunicação ao
 	:temNotaAplicacao :na_c400.10.023_2 ;
 	:temNotaAplicacao :na_c400.10.023_3 ;
 	:temNotaExclusao :ne_c400.10.023_1 ;
-	:temLegislacao :leg_227 ;
-	:temLegislacao :leg_259 ;
-	:temLegislacao :leg_1295 ;
+	:temLegislacao :leg_239 ;
+	:temLegislacao :leg_271 ;
+	:temLegislacao :leg_1338 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Identificação de órgãos de comunicação social para assegurar a proteção legal da denominação dos operadores de rádio e de televisão e dos serviços de programas radiofónicos e televisivos.
 Inicia com a solicitação do pedido de inscrição ou com a comunicação de início de atividade e termina com o registo da informação.
 Inclui a análise do pedido e a sua validação.
@@ -861,20 +887,15 @@ Inclui a análise do pedido e a sua validação.
 	:NotaAplicacao ;
 	:conteudo "Menor nascido em Portugal, estrangeiro, caso aqui tenha concluído o 1º ciclo do ensino básico ou um dos progenitores aqui resida legalmente há 5 anos".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_7
-:na_c400.10.025_7 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_9
+:na_c400.10.025_9 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Indivíduos que tenham tido a nacionalidade portuguesa e que nunca tenham adquirido outra".
+	:conteudo "Nascido em Portugal que tenha aqui tenha permanecido nos 10 anos imediatamente anteriores ao pedido".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_8
 :na_c400.10.025_8 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Nascido no estrangeiro com um ascendente do 2.º grau da linha reta que não tenha perdido a nacionalidade portuguesa".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_9
-:na_c400.10.025_9 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Nascido em Portugal que tenha aqui tenha permanecido nos 10 anos imediatamente anteriores ao pedido".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_10
 :na_c400.10.025_10 rdf:type owl:NamedIndividual ,
@@ -885,6 +906,11 @@ Inclui a análise do pedido e a sua validação.
 :na_c400.10.025_11 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Indivíduos que não sejam apátridas (casos especiais)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_7
+:na_c400.10.025_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Indivíduos que tenham tido a nacionalidade portuguesa e que nunca tenham adquirido outra".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_12
 :na_c400.10.025_12 rdf:type owl:NamedIndividual ,
@@ -973,10 +999,12 @@ Inclui a análise do pedido e a sua validação.
 	:eSucessorDe :c550.10.303 ;
 	:eAntecessorDe :c500.40.500 ;
 	:eSucessorDe :c550.10.303 ;
-	:temLegislacao :leg_1310 ;
-	:temLegislacao :leg_526 ;
-	:temLegislacao :leg_39 ;
+	:temLegislacao :leg_1353 ;
+	:temLegislacao :leg_542 ;
+	:temLegislacao :leg_43 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Obtenção de um vínculo jurídico de direito público interno entre uma pessoa e o Estado português, em razão da atribuição, aquisição por efeito da vontade, aquisição por mero efeito da lei e aquisição por naturalização. E ainda a eliminação desse vínculo por efeito da perda da nacionalidade.
 Inicia com o requerimento/declaração do interessado e termina com a notificação ao interessado sobre o deferimento ou indeferimento do pedido.
 Inclui análise sumária do processo que pode resultar em indeferimento liminar nos casos previstos na lei e notificação ao requerente para que se pronuncie, instrução do processo caso não ocorra indeferimento liminar, com consultas a outras entidades, e emissão de decisão de deferimento ou indeferimento do pedido e, nalguns casos previstos na lei, emissão de parecer e remessa do processo para decisão ao Ministro da Justiça.
@@ -1009,10 +1037,12 @@ Inclui análise sumária do processo que pode resultar em indeferimento liminar 
 	:eAntecessorDe :c450.30.003 ;
 	:eAntecessorDe :c500.40.500 ;
 	:eSucessorDe :c550.10.303 ;
-	:temLegislacao :leg_282 ;
-	:temLegislacao :leg_309 ;
-	:temLegislacao :leg_383 ;
+	:temLegislacao :leg_294 ;
+	:temLegislacao :leg_322 ;
+	:temLegislacao :leg_398 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Concessão  e registo do estatuto de igualdade de direitos e deveres e do reconhecimento de direitos políticos, apresentados por cidadãos brasileiros ao abrigo do Tratado de Amizade, Cooperação e Consulta entre a República Portuguesa e a República Federativa do Brasil.
 Inicia com requerimento do interessado e termina  com a assinatura do assento de estatuto de igualdade.
 Inclui a concessão ou recusa de estatuto, a publicação em jornal oficial, a notificação à Conservatória de Registo dos Registos Centrais.
@@ -1047,42 +1077,45 @@ Inclui a concessão ou recusa de estatuto, a publicação em jornal oficial, a n
 	:eSucessorDe :c400.10.025 ;
 	:eSucessorDe :c400.10.041 ;
 	:eAntecessorDe :c500.40.500 ;
-	:temLegislacao :leg_1288 ;
-	:temLegislacao :leg_299 ;
-	:temLegislacao :leg_424 ;
-	:temLegislacao :leg_473 ;
-	:temLegislacao :leg_510 ;
-	:temLegislacao :leg_938 ;
-	:temLegislacao :leg_938 ;
-	:temLegislacao :leg_296 ;
-	:temLegislacao :leg_290 ;
-	:temLegislacao :leg_511 ;
-	:temLegislacao :leg_289 ;
-	:temLegislacao :leg_424 ;
+	:temLegislacao :leg_1330 ;
+	:temLegislacao :leg_0 ;
+	:temLegislacao :leg_312 ;
+	:temLegislacao :leg_439 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_526 ;
+	:temLegislacao :leg_962 ;
+	:temLegislacao :leg_962 ;
+	:temLegislacao :leg_309 ;
+	:temLegislacao :leg_302 ;
+	:temLegislacao :leg_527 ;
+	:temLegislacao :leg_301 ;
+	:temLegislacao :leg_439 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Emissão de documento de viagem individual que permite ao seu titular a entrada e a saída de território nacional, bem como do território de outros Estados que o reconheçam para esse efeito.
-Inicia com o pedido do requerente e termina com a emissão do passaporte ou eventual recusa.
+Inicia com o pedido do requerente e termina com a última emissão de passaporte.
 Inclui a recolha de dados biométricos do titular, instrução do processo, análise dos elementos de identificação, consulta às  competentes bases de dados, designadamente do registo civil, da identificação civil e de segurança interna e indicação à Imprensa Nacional-Casa da Moeda  (INCM) para a respetiva emissão do documento.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_1
-:na_c400.10.028_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Documentos de viagem emitidos pelas autoridades portuguesas a favor de cidadãos estrangeiros".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_2
 :na_c400.10.028_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Documento de viagem para afastamento coercivo ou expulsão judicial de cidadãos nacionais de Estados-terceiros".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_4
-:na_c400.10.028_4 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_1
+:na_c400.10.028_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Passaporte para estrangeiros".
+	:conteudo "Documentos de viagem emitidos pelas autoridades portuguesas a favor de cidadãos estrangeiros".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_3
 :na_c400.10.028_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Lista de viagem para estudantes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_4
+:na_c400.10.028_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Passaporte para estrangeiros".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_5
 :na_c400.10.028_5 rdf:type owl:NamedIndividual ,
@@ -1114,8 +1147,10 @@ Inclui a recolha de dados biométricos do titular, instrução do processo, aná
 	:eSucessorDe :c550.10.303 ;
 	:eSucessorDe :c550.10.305 ;
 	:eAntecessorDe :c600.40.300 ;
-	:temLegislacao :leg_296 ;
+	:temLegislacao :leg_309 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Emissão de documentos de viagem pelas autoridades portuguesas a favor de cidadãos estrangeiros impossibilitados de obter um documento junto das autoridades dos respetivos países de origem, ou a cidadãos apátridas.
 Inicia-se com a solicitação do interessado, excetuando-se o caso do documento de viagem para Expulsão de cidadãos nacionais de Estado terceiro e termina com a emissão do respetivo título.
 Inclui instrução do processo, consulta às bases de dados, deliberação sobre o pedido e emissão do título de viagem.
@@ -1163,11 +1198,13 @@ Inclui instrução do processo, consulta às bases de dados, deliberação sobre
 	:eSucessorDe :c550.10.303 ;
 	:eSucessorDe :c550.10.304 ;
 	:eAntecessorDe :c550.10.305 ;
-	:temLegislacao :leg_602 ;
-	:temLegislacao :leg_1030 ;
+	:temLegislacao :leg_618 ;
+	:temLegislacao :leg_1059 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Emissão de documento de identificação a estrangeiro de país terceiro, que comprova a qualidade de residente legal em território português, aplicando-se as normas relativas à identificação civil.
-Inicia com o pedido e termina com a entrega do título.
+Inicia com o pedido e termina com a emissão do título.
 Inclui análise e despacho, remessa dos dados para a Imprensa Nacional-Casa da Moeda, para a emissão automática do título/cartão de residência securizados.
 Inclui, ainda, a renovação do título.
 ".
@@ -1193,13 +1230,15 @@ Inclui, ainda, a renovação do título.
 	:eSucessorDe :c250.10.300 ;
 	:eSintetizadoPor :c400.10.001 ;
 	:eSintetizadoPor :c950.10.602 ;
-	:temLegislacao :leg_261 ;
-	:temLegislacao :leg_357 ;
-	:temLegislacao :leg_481 ;
-	:temLegislacao :leg_482 ;
-	:temLegislacao :leg_705 ;
-	:temLegislacao :leg_649 ;
+	:temLegislacao :leg_273 ;
+	:temLegislacao :leg_373 ;
+	:temLegislacao :leg_496 ;
+	:temLegislacao :leg_497 ;
+	:temLegislacao :leg_724 ;
+	:temLegislacao :leg_665 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição do cidadão para o exercício do direito de voto, com base na informação pertinente proveniente do sistema de informação da identificação civil e militar relativamente aos cidadãos nacionais e do sistema integrado de informação do Serviço de Estrangeiros e Fronteiras (SEF), quanto aos cidadãos estrangeiros residentes em Portugal.
 Inicia com a recolha de informação e termina com o registo.
 Inclui a atualização de dados individuais e manutenção da informação, bem como a correção de erros e omissões.
@@ -1218,8 +1257,10 @@ Inclui a atualização de dados individuais e manutenção da informação, bem 
 	:temParticipanteComunicador :org_AL ;
 	:temDono :org_SGMAI ;
 	:eSintetizadoPor :c950.10.602 ;
-	:temLegislacao :leg_334 ;
+	:temLegislacao :leg_349 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Registo dos nomes e demais elementos de identificação dos cidadãos eleitos e respetivos cargos.
 Inicia com a receção da informação relativa aos eleitos para os cargos e termina com o registo.
 Inclui confirmação da identificação e cargo dos eleitos.
@@ -1245,19 +1286,23 @@ Inclui confirmação da identificação e cargo dos eleitos.
 	:eCruzadoCom :c250.20.401 ;
 	:eCruzadoCom :c250.20.601 ;
 	:eCruzadoCom :c250.20.803 ;
-	:temLegislacao :leg_795 ;
-	:temLegislacao :leg_1247 ;
-	:temLegislacao :leg_1246 ;
-	:temLegislacao :leg_1273 ;
-	:temLegislacao :leg_1255 ;
-	:temLegislacao :leg_1276 ;
-	:temLegislacao :leg_1277 ;
-	:temLegislacao :leg_1179 ;
+	:temLegislacao :leg_817 ;
+	:temLegislacao :leg_1289 ;
+	:temLegislacao :leg_1288 ;
+	:temLegislacao :leg_1315 ;
+	:temLegislacao :leg_1297 ;
+	:temLegislacao :leg_1318 ;
+	:temLegislacao :leg_1319 ;
+	:temLegislacao :leg_1216 ;
+	:temLegislacao :leg_1000 ;
+	:temLegislacao :leg_999 ;
+	:temLegislacao :leg_687 ;
 	:temLegislacao :leg_671 ;
-	:temLegislacao :leg_655 ;
-	:temLegislacao :leg_654 ;
-	:temLegislacao :leg_725 ;
+	:temLegislacao :leg_670 ;
+	:temLegislacao :leg_744 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Processamento de dados de Recenseamento Nacional dos Bombeiros Portugueses (RNBP), que permite a gestão dos efetivos dos vários quadros dos bombeiros, e a gestão da sua atividade operacional.
 Inicia com a recolha da informação e termina com o registo.
 Inclui o registo das entidades responsáveis pelo envio e atualização da informação.
@@ -1287,11 +1332,13 @@ Inclui o registo das entidades responsáveis pelo envio e atualização da infor
 	:temNotaExclusao :ne_c400.10.034_1 ;
 	:eSinteseDe :c450.10.801 ;
 	:eCruzadoCom :c500.30.001 ;
-	:temLegislacao :leg_1314 ;
-	:temLegislacao :leg_1119 ;
-	:temLegislacao :leg_510 ;
-	:temLegislacao :leg_143 ;
+	:temLegislacao :leg_1357 ;
+	:temLegislacao :leg_1155 ;
+	:temLegislacao :leg_526 ;
+	:temLegislacao :leg_153 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Registo de infrações dos condutores, após a decisão condenatória proferida no processo de contraordenação se ter tornado definitiva ou, quando se trate de decisão judicial, a mesma tiver transitado em julgado.
 Inicia com a recolha de dados pessoais a partir de impressos e requerimentos preenchidos pelos seus titulares ou pelos seus mandatários e termina com a inscrição no registo.
 Inclui o registo de dados de identificação do condutor, das condenações por infração com inibição ou proibição de condução em território nacional ou aplicada por organismos estrangeiros e das condenações em medida de segurança que impliquem cassação da licença de condução.
@@ -1312,10 +1359,12 @@ Inclui o registo de dados de identificação do condutor, das condenações por 
 	:eCruzadoCom :c700.20.300 ;
 	:eCruzadoCom :c700.20.400 ;
 	:eCruzadoCom :c700.20.403 ;
-	:temLegislacao :leg_152 ;
-	:temLegislacao :leg_804 ;
-	:temLegislacao :leg_1306 ;
+	:temLegislacao :leg_162 ;
+	:temLegislacao :leg_826 ;
+	:temLegislacao :leg_1349 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição ou atualização dos dados de identificação de dadores de células de medula óssea, estaminais ou de sangue do cordão, bem como das suas características celulares, para que possa ser feita a comparação destas com as dos doentes que necessitam de um transplante de medula.
 Inicia com a manifestação de vontade do cidadão e termina com o registo na entidade nacional competente.
 Inclui o preenchimento de questionário e realização de testes.
@@ -1337,10 +1386,12 @@ Inclui o preenchimento de questionário e realização de testes.
 	:eCruzadoCom :c700.20.300 ;
 	:eCruzadoCom :c700.20.400 ;
 	:eCruzadoCom :c700.20.403 ;
-	:temLegislacao :leg_1135 ;
-	:temLegislacao :leg_575 ;
-	:temLegislacao :leg_1300 ;
+	:temLegislacao :leg_1171 ;
+	:temLegislacao :leg_591 ;
+	:temLegislacao :leg_1343 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Inscrição ou atualização de dados de identificação da condição de dador benévolo de sangue.
 Inicia com a manifestação de vontade do cidadão e termina com o registo de dádivas.
 Incluí a atribuição do cartão de dador benévolo de sangue processado pela entidade nacional competente.
@@ -1361,12 +1412,18 @@ Incluí a atribuição do cartão de dador benévolo de sangue processado pela e
 	:eCruzadoCom :c700.20.300 ;
 	:eCruzadoCom :c700.20.400 ;
 	:eCruzadoCom :c700.20.403 ;
-	:temLegislacao :leg_141 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição ou atualização de dados de identificação de cidadão nacional, apátrida ou estrangeiro residente em Portugal, que se opõe à dádiva de órgãos.
 Inicia com o preenchimento online do formulário e termina com a inserção dos dados do cidadão no  registo  nacional.
 Inclui a emissão de cartão individual de não dador.
 ".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.040_1
+:ne_c400.10.040_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O registo dos utentes de um serviço de saúde do trabalho, serviço de saúde de entidades privadas devem ser considerados em 700.10.004 – Registo de utilizadores de unidades de saúde".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c400.10.039
 :c400.10.039 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1382,19 +1439,16 @@ Inclui a emissão de cartão individual de não dador.
 	:eCruzadoCom :c700.20.300 ;
 	:eCruzadoCom :c700.20.400 ;
 	:eCruzadoCom :c700.20.403 ;
-	:temLegislacao :leg_1254 ;
-	:temLegislacao :leg_1252 ;
-	:temLegislacao :leg_1028 ;
+	:temLegislacao :leg_1296 ;
+	:temLegislacao :leg_1294 ;
+	:temLegislacao :leg_1057 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição ou atualização do registo de diretivas antecipadas de vontade e procurações de cuidados de saúde de cidadão nacional, apátrida ou estrangeiro residente em Portugal.
 Inicia com  o preenchimento do modelo aprovado legalmente e termina com a informação ao outorgante e ao seu procurador de cuidados de saúde da conclusão do processo de registo da diretiva.
 Inclui a entrega no agrupamento de centros de saúde, ou na unidade local de saúde, da área de residência do cidadão, validação dos dados e verificação da sua conformidade com os requisitos constantes na lei e aditamentos ou correções.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.040_1
-:ne_c400.10.040_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O registo dos utentes de um serviço de saúde do trabalho, serviço de saúde de entidades privadas devem ser considerados em 700.10.004 – Registo de utilizadores de unidades de saúde".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c400.10.040
 :c400.10.040 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1428,8 +1482,10 @@ Inclui a entrega no agrupamento de centros de saúde, ou na unidade local de sa�
 	:eCruzadoCom :c700.20.407 ;
 	:eCruzadoCom :c700.20.500 ;
 	:eCruzadoCom :c700.20.600 ;
-	:temLegislacao :leg_161 ;
+	:temLegislacao :leg_171 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Identificação dos utentes do Serviço Nacional de Saúde.
 Inicia com o pedido do utente ou notícia do nascimento,  e termina com a atribuição do número de utente.
 Inclui o registo dos seus elementos de identificação, do médico de família e a Unidade de Saúde em que está registado, de  informação sobre a entidade financeira responsável pelo pagamento dos cuidados de saúde do utente, dos benefícios financeiros especiais que tenha direito. ".
@@ -1438,25 +1494,25 @@ Inclui o registo dos seus elementos de identificação, do médico de família e
 	:NotaAplicacao ;
 	:conteudo "Pedido inicial de Cartão de Cidadão".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_3
-:na_c400.10.041_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Não entrega do cartão do cidadão".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_2
 :na_c400.10.041_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Renovação de cartão do cidadão".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_4
-:na_c400.10.041_4 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_3
+:na_c400.10.041_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Cancelamento do cartão de cidadão".
+	:conteudo "Não entrega do cartão do cidadão".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_5
 :na_c400.10.041_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Alteração de morada do cidadão".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_4
+:na_c400.10.041_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Cancelamento do cartão de cidadão".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.041_1
 :ne_c400.10.041_1 rdf:type owl:NamedIndividual ,
@@ -1533,11 +1589,13 @@ Inclui o registo dos seus elementos de identificação, do médico de família e
 	:eAntecessorDe :c400.10.027 ;
 	:eComplementarDe :c400.10.040 ;
 	:eAntecessorDe :c400.10.048 ;
-	:temLegislacao :leg_625 ;
-	:temLegislacao :leg_624 ;
-	:temLegislacao :leg_598 ;
-	:temLegislacao :leg_262 ;
+	:temLegislacao :leg_641 ;
+	:temLegislacao :leg_640 ;
+	:temLegislacao :leg_614 ;
+	:temLegislacao :leg_274 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Registo dos dados pessoais individualizadores de cada cidadão.
 Inicia com o pedido do interessado e termina com a entrega do Cartão de Cidadão.
 Inclui a validação dos dados biográficos declarados pelo requerente, com os dados constantes no assento de nascimento, a confirmação da morada, a medição da altura do cidadão, a recolha da assinatura e dos dados biométricos do cidadão, que após validação são integrados no processo de registo, a atribuição ou validação do Número de Identificação Civil (NIC), remessa dos dados para a Imprensa Nacional-Casa da Moeda, para a emissão automática do Cartão de Cidadão, a entrega com verificação de legitimidade para o levantamento.
@@ -1556,17 +1614,19 @@ Inclui, ainda, a organização, manutenção e atualização da Base de Dados de
 	:eCruzadoCom :c400.10.025 ;
 	:eCruzadoCom :c500.30.005 ;
 	:eCruzadoCom :c500.30.006 ;
-	:temLegislacao :leg_702 ;
-	:temLegislacao :leg_1230 ;
-	:temLegislacao :leg_602 ;
-	:temLegislacao :leg_1030 ;
 	:temLegislacao :leg_721 ;
-	:temLegislacao :leg_627 ;
-	:temLegislacao :leg_533 ;
-	:temLegislacao :leg_296 ;
+	:temLegislacao :leg_1272 ;
+	:temLegislacao :leg_618 ;
+	:temLegislacao :leg_1059 ;
+	:temLegislacao :leg_740 ;
+	:temLegislacao :leg_643 ;
+	:temLegislacao :leg_549 ;
+	:temLegislacao :leg_309 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Registo nacional de dados de cidadãos estrangeiros para efeitos de gestão do controlo da entrada, permanência e saída de cidadãos estrangeiros, prevenção de perigo ou repressão de infração penal.
-Inicia com a inscrição no registo e termina com a data da última emissão dos documentos sobre o estrangeiro (notícia da saída do território, da aquisição de nacionalidade ou do encerramento do  processo de emissão de título de residência, quando esta não é renovadal) .
+Inicia com a inscrição no registo e termina com a data da última emissão dos documentos sobre o estrangeiro (notícia da saída do território, da aquisição de nacionalidade ou do encerramento do  processo de emissão de título de residência, quando esta não é renovadal).
 Inclui a atualização da situação.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.043_1
 :na_c400.10.043_1 rdf:type owl:NamedIndividual ,
@@ -1596,10 +1656,12 @@ Inclui a atualização da situação.".
 	:eSucessorDe :c600.30.051 ;
 	:eSucessorDe :c600.30.052 ;
 	:eSucessorDe :c600.30.101 ;
-	:temLegislacao :leg_1297 ;
-	:temLegislacao :leg_1327 ;
-	:temLegislacao :leg_1318 ;
+	:temLegislacao :leg_1340 ;
+	:temLegislacao :leg_1370 ;
+	:temLegislacao :leg_1361 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Recolha, o tratamento e conservação de extratos de decisões judiciais e demais elementos a elas respeitantes sujeitos a inscrição no registo criminal, no registo de contumazes, no registo de identificação criminal de condenados pela prática de crimes contra a autodeterminação sexual e a liberdade sexual de menor e no registo de decisões estrangeiras, promovendo a identificação dos titulares dessa informação, a fim de permitir o conhecimento dos antecedentes criminais das pessoas condenadas e das decisões de contumácia vigentes.
 Inicia com a comunicação do tribunal, através de boletim do registo criminal ou de contumácia, aos serviços competentes e termina com o cancelamento definitivo do registo criminal ou de contumácia.
 Inclui a constituição e gestão do ficheiro dactiloscópico (impressões digitais dos arguidos, registadas no boletim de registo criminal) e a emissão do recibo de receção dos boletins. Inclui, ainda, a eventual devolução dos boletins incompletos ou incorretos e a análise e decisão sobre reclamações respeitantes ao acesso à informação em matéria de identificação criminal e seu conteúdo.
@@ -1627,11 +1689,13 @@ Inclui a constituição e gestão do ficheiro dactiloscópico (impressões digit
 	:temNotaAplicacao :na_c400.10.044_1 ;
 	:temNotaExclusao :ne_c400.10.044_1 ;
 	:eAntecessorDe :c600.30.358 ;
-	:temLegislacao :leg_1297 ;
-	:temLegislacao :leg_1318 ;
-	:temLegislacao :leg_273 ;
-	:temLegislacao :leg_1308 ;
+	:temLegislacao :leg_1340 ;
+	:temLegislacao :leg_1361 ;
+	:temLegislacao :leg_285 ;
+	:temLegislacao :leg_1351 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Registo de medidas tutelares aplicadas pelos Tribunais competentes aos menores com idade compreendida entre os 12 e os 16 anos pela prática de facto qualificado pela lei como crime, de forma a possibilitar o seu conhecimento.
 Inicia com a comunicação do tribunal, através do boletim de registo de medidas tutelares educativas, aos serviços responsáveis pelo registo da decisão criminal condenatória, e termina com o cancelamento definitivo do registo.
 Inclui a emissão do recibo de receção dos boletins. Pode ainda incluir a devolução dos boletins incompletos ou incorretos, e a análise e decisão sobre reclamações respeitantes ao acesso à informação em matéria de identificação criminal e seu conteúdo.
@@ -1725,9 +1789,11 @@ Inclui a emissão do recibo de receção dos boletins. Pode ainda incluir a devo
 	:temNotaExclusao :ne_c400.10.045_6 ;
 	:temNotaExclusao :ne_c400.10.045_7 ;
 	:eAntecessorDe :c400.10.009 ;
-	:temLegislacao :leg_381 ;
-	:temLegislacao :leg_327 ;
+	:temLegislacao :leg_396 ;
+	:temLegislacao :leg_342 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Registo e identificação de entidades religiosas, designadamente das igrejas e demais comunidades religiosas de âmbito nacional, regional ou local ou organizações representativas dos crentes residentes em território nacional.
 Inicia com o pedido de certificado de firma ou denominação, e termina com a inscrição de constituição no Registo de Pessoas Coletivas Religiosas (RPCR) e consequente inscrição automática no Ficheiro Central de Pessoas Coletivas (FCPC).
 Inclui a instrução do processo, apreciação e qualificação do ato, podendo, caso se suscitem dúvidas de admissibilidade, o RNPC solicitar parecer à Comissão da Liberdade Religiosa.
@@ -1803,9 +1869,11 @@ Inclui a instrução do processo, apreciação e qualificação do ato, podendo,
 	:temNotaExclusao :ne_c400.10.046_5 ;
 	:temNotaExclusao :ne_c400.10.046_6 ;
 	:eAntecessorDe :c400.10.009 ;
-	:temLegislacao :leg_1283 ;
-	:temLegislacao :leg_202 ;
+	:temLegislacao :leg_1325 ;
+	:temLegislacao :leg_214 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Registo e identificação das entidades canónicas, designadamente aos institutos de vida consagrada, sociedade de vida apostólica e restantes pessoas jurídicas canónicas reconhecidas como tal pela autoridade eclesiástica competente e à publicitação da sua situação jurídica.
 Inicia com o pedido de certificado de firma ou denominação, e termina com a inscrição no RPJC e consequente inscrição automática no FCPC.
 Inclui a instrução do processo, apreciação e qualificação do ato e termina com o registo de inscrição ou recusa no RPJC.
@@ -1886,8 +1954,9 @@ O pedido é instruído com documento autêntico que comprove a constituição da
 	:eCruzadoCom :c350.10.600 ;
 	:eAntecessorDe :c450.30.003 ;
 	:eAntecessorDe :c500.40.500 ;
-	:temLegislacao :leg_1301 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Identificador único e universal alfanumérico de 20 digitos que permite identificar internacionalmente entidades e contrapartes em transações financeiras.
 Inicia com o pedido do interessado e termina com a emissão, renovação ou portabilidade do LEI
 Inclui o registo e a disponibilidade da informação.
@@ -1938,10 +2007,12 @@ Inclui o registo e a disponibilidade da informação.
 	:eCruzadoCom :c600.10.007 ;
 	:eCruzadoCom :c600.10.500 ;
 	:eCruzadoCom :c600.10.507 ;
-	:temLegislacao :leg_1110 ;
-	:temLegislacao :leg_692 ;
-	:temLegislacao :leg_652 ;
+	:temLegislacao :leg_1145 ;
+	:temLegislacao :leg_711 ;
+	:temLegislacao :leg_668 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Compreende as atividades realizadas no âmbito da base de dados de perfis de ADN e de impressões digitais para fins de identificação criminal e civil.
 Inicia com o pedido de voluntário, ou entidade competente e termina com a identificação do vestígio ou com a eliminação do perfil de ADN e dados pessoais sempre que este ocorrer conforme o previsto no regulamento de funcionamento da base.
 Inclui a inserção, comunicação, interconexão e acesso aos dados existentes na base de dados.
@@ -1958,10 +2029,12 @@ Inclui a inserção, comunicação, interconexão e acesso aos dados existentes 
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_SSAP ;
 	:eAntecessorDe :c50.10.509 ;
-	:temLegislacao :leg_49 ;
-	:temLegislacao :leg_464 ;
-	:temLegislacao :leg_469 ;
+	:temLegislacao :leg_53 ;
+	:temLegislacao :leg_479 ;
+	:temLegislacao :leg_484 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição ou atualização dos dados em serviços sociais da Administração Pública.
 Inicia com o envio do pedido e termina com a emissão do cartão ou com a atualização dos dados.
 Inclui a apresentação de documentos comprovativos e validação dos dados de registo.
@@ -2044,9 +2117,11 @@ A participação do Ministério da Justiça ocorre na fase do envio do pedido ou
 	:temNotaExclusao :ne_c400.10.050_1 ;
 	:eSucessorDe :c400.10.002 ;
 	:eSintetizadoPor :c400.10.009 ;
-	:temLegislacao :leg_127 ;
-	:temLegislacao :leg_137 ;
+	:temLegislacao :leg_134 ;
+	:temLegislacao :leg_144 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Identificação, inscrição e atualização de entidade como operador económico em áreas específicas.
 Inicia com o pedido de inscrição, quando aplicável, e termina com o registo.
 Inclui a validação dos dados, o acompanhamento, a atualização e o cancelamento do registo.
@@ -2089,15 +2164,17 @@ Inclui a validação dos dados, o acompanhamento, a atualização e o cancelamen
 	:eSuplementoPara :c500.10.302 ;
 	:eSucessorDe :c450.10.440 ;
 	:eSucessorDe :c450.10.441 ;
-	:temLegislacao :leg_1106 ;
-	:temLegislacao :leg_794 ;
-	:temLegislacao :leg_1009 ;
-	:temLegislacao :leg_1191 ;
+	:temLegislacao :leg_1141 ;
+	:temLegislacao :leg_815 ;
+	:temLegislacao :leg_1036 ;
+	:temLegislacao :leg_1230 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Identificação dos dados dos profissionais constantes da classificação portuguesa das profissões, após reconhecimento, licenciamento ou certificação, para efeitos de recolha centralizada ou apoio. 
-Inicia com a solicitação de inscrição e termina com a inativação do registo (por iniciativa específica ou decorrente de aplicação de condição).
+Inicia com a solicitação de inscrição e termina com a inativação do registo (por iniciativa específica, por extinção da entidade ou decorrente de aplicação de condição ou disposição legal).
 Inclui a recolha centralizada, registo, atribuição de número, atualização, validação dos dados.
-O reconhecimento como profissional em determinada atividade deve ser considerado em 450.10".
+O registo pode ser inativado na sequência de procedimento estabelecido na lei (como é caso do DL 23/2014, art.º 3º, em que estabelece que o registo é válido por tempo indeterminado, caducando se a IGAC verificar a inatividade durante um período consecutivo de dois anos). Na ausência de dispositivo legal deve ser considerado um prazo de vida ativa do trabalhador de 50 anos.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.052_1
 :na_c400.10.052_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -2188,10 +2265,11 @@ O reconhecimento como profissional em determinada atividade deve ser considerado
 	:eAntecessorDe :c850.10.002 ;
 	:eAntecessorDe :c400.10.610 ;
 	:eSintetizadoPor :c400.10.200 ;
-	:temLegislacao :leg_1040 ;
-	:temLegislacao :leg_1218 ;
-	:temLegislacao :leg_1091 ;
+	:temLegislacao :leg_1069 ;
+	:temLegislacao :leg_1260 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Identificação de entidades de natureza empresarial, por organismo de responsabilidade setorial, para efeitos de publicitação.    
 Inicia com a solicitação do pedido de inscrição e termina com o registo da informação.
 Inclui a análise do pedido e a sua validação.".
@@ -2274,18 +2352,20 @@ Inclui a análise do pedido e a sua validação.".
 	:eAntecessorDe :c450.20.001 ;
 	:eAntecessorDe :c850.10.002 ;
 	:eAntecessorDe :c850.10.003 ;
-	:temLegislacao :leg_530 ;
-	:temLegislacao :leg_544 ;
-	:temLegislacao :leg_188 ;
-	:temLegislacao :leg_1243 ;
-	:temLegislacao :leg_403 ;
-	:temLegislacao :leg_221 ;
-	:temLegislacao :leg_278 ;
-	:temLegislacao :leg_403 ;
-	:temLegislacao :leg_843 ;
-	:temLegislacao :leg_608 ;
-	:temLegislacao :leg_830 ;
+	:temLegislacao :leg_546 ;
+	:temLegislacao :leg_560 ;
+	:temLegislacao :leg_198 ;
+	:temLegislacao :leg_1285 ;
+	:temLegislacao :leg_418 ;
+	:temLegislacao :leg_233 ;
+	:temLegislacao :leg_290 ;
+	:temLegislacao :leg_418 ;
+	:temLegislacao :leg_865 ;
+	:temLegislacao :leg_624 ;
+	:temLegislacao :leg_852 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Identificação de entidades de direito privado e fins públicos, por organismo de responsabilidade setorial, para efeitos de publicitação.    
 Inicia com a solicitação do pedido de inscrição e termina com o registo da informação.
 Inclui a análise do pedido e a sua validação.".
@@ -2309,32 +2389,18 @@ Inclui a análise do pedido e a sua validação.".
 	:eSucessorDe :c700.20.300 ;
 	:eSucessorDe :c700.20.400 ;
 	:eSucessorDe :c700.20.403 ;
-	:temLegislacao :leg_804 ;
-	:temLegislacao :leg_1306 ;
-	:temLegislacao :leg_1109 ;
-	:temLegislacao :leg_1307 ;
+	:temLegislacao :leg_826 ;
+	:temLegislacao :leg_1349 ;
+	:temLegislacao :leg_1144 ;
+	:temLegislacao :leg_1350 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição dos dados de identificação dos dadores e recetores em sistema de informação único e integrado no domínio da colheita e transplantação.
 Inicia com o pedido de inscrição e termina com o registo da informação.
 Inclui a análise do pedido e a sua autorização.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.055_1
-:na_c400.10.055_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Cidadãos portugueses sujeitos às obrigações militares".
-
-###  http://jcr.di.uminho.pt/m51-clav#c400.10.055
-:c400.10.055 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "400.10.055";
-	:titulo "Recenseamento militar";
-	:temPai :c400.10 ;
-	:temNotaAplicacao :na_c400.10.055_1 ;
-	:classeStatus "A" ;
-	:descricao "Registo universal de todos os cidadãos que atingem em cada ano a idade do início dos deveres militares.
-Inicia com a obtenção automática de informação, a partir da base de dados de identificação civil, e termina com a passagem à reserva de disponibilidade
-Inclui a atribuição de um número de identificação militar (NIM) que identifica o cidadão perante a instituição militar.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.200_1
 :na_c400.10.200_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -2484,14 +2550,16 @@ Inclui a atribuição de um número de identificação militar (NIM) que identif
 	:eAntecessorDe :c500.30.001 ;
 	:eAntecessorDe :c500.40.500 ;
 	:eAntecessorDe :c600.30.751 ;
-	:temLegislacao :leg_690 ;
-	:temLegislacao :leg_542 ;
-	:temLegislacao :leg_499 ;
-	:temLegislacao :leg_65 ;
+	:temLegislacao :leg_709 ;
+	:temLegislacao :leg_558 ;
+	:temLegislacao :leg_514 ;
+	:temLegislacao :leg_70 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Publicitação da situação jurídica dos comerciantes individuais, das sociedades comerciais, das sociedades civis sob a forma comercial, cooperativas, empresas públicas, agrupamentos complementares de empresas, agrupamentos europeus de interesse económico, estabelecimentos individuais de responsabilidade limitada, bem como outras pessoas singulares e coletivas sujeitas a registo.
-Inicia com o pedido do registo e termina com o registo efetuado por transcrição ou depósito.
-Inclui o pedido, a apresentação do pedido, a qualificação, a execução material e a publicação oficiosa, quando aplicável.".
+Inicia com o pedido do registo e termina com a anotação da extinção da entidade.
+Inclui o pedido, a apresentação do pedido, a qualificação, a execução material e a publicação oficiosa, quando aplicável, o registo efetuado por transcrição ou depósito, bem como eventuais atualizações.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.201_1
 :na_c400.10.201_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -2673,12 +2741,15 @@ Inclui o pedido, a apresentação do pedido, a qualificação, a execução mate
 	:eAntecessorDe :c600.30.751 ;
 	:eAntecessorDe :c900.20.604 ;
 	:temLegislacao :leg_2 ;
-	:temLegislacao :leg_1111 ;
-	:temLegislacao :leg_7 ;
+	:temLegislacao :leg_3 ;
+	:temLegislacao :leg_6 ;
+	:temLegislacao :leg_1146 ;
+	:temLegislacao :leg_11 ;
 	:classeStatus "A" ;
+	:processoUniform "S" ;
 	:descricao "Publicitação da situação jurídica das embarcações mercantes, das quais fazem parte, as de comércio, as de pesca, os rebocadores e as auxiliares.
-Inicia com o pedido do registo e termina com o registo efetuado e anotação da matrícula do navio e/ou da inscrição de aquisição de propriedade no certificado do registo de propriedade passado pela Capitania ou delegação marítima.
-Inclui o pedido, a apresentação do pedido, a qualificação e a execução material.".
+Inicia com o pedido do registo e termina com a anotação do abate ou desaparecimento do bem.
+Inclui o pedido, a apresentação do pedido, a qualificação e a execução material, a anotação da matrícula do navio e/ou da inscrição de aquisição de propriedade no certificado do registo de propriedade passado pela Capitania ou delegação marítima, bem como eventuais atualizações.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.400_1
 :na_c400.10.400_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -2777,11 +2848,13 @@ Inclui o pedido, a apresentação do pedido, a qualificação e a execução mat
 	:eAntecessorDe :c700.20.901 ;
 	:eSinteseDe :c710.10.002 ;
 	:eSinteseDe :c710.10.300 ;
-	:temLegislacao :leg_1298 ;
-	:temLegislacao :leg_512 ;
-	:temLegislacao :leg_449 ;
-	:temLegislacao :leg_392 ;
+	:temLegislacao :leg_1341 ;
+	:temLegislacao :leg_528 ;
+	:temLegislacao :leg_464 ;
+	:temLegislacao :leg_407 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Identificação de animais e dos seus detentores.
 Inicia com o pedido de registo e termina com a comunicação da morte dos animais ou cancelamento do registo.
 Inclui processamento dos dados de identificação do animal ou do conjunto de animais e respetivo detentor, emissão de um documento de identificação, sinalização e regulação de ocorrências, quando devido, atribuição à exploração de marca oficial e aplicação de marca auricular oficial e/ou identificação eletrónica.
@@ -2809,9 +2882,11 @@ Inclui processamento dos dados de identificação do animal ou do conjunto de an
 	:temNotaAplicacao :na_c400.10.402_2 ;
 	:eSinteseDe :c700.20.700 ;
 	:eAntecessorDe :c700.20.901 ;
-	:temLegislacao :leg_934 ;
-	:temLegislacao :leg_512 ;
+	:temLegislacao :leg_958 ;
+	:temLegislacao :leg_528 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Identificação de animais para assegurar a preservação e o aperfeiçoamento zooténico de raça, constituindo uma linhagem pura e controlada, concorrendo para o seu progresso genético e favorecendo a criação e difusão de bons reprodutores.
 Inicia com o pedido e termina com o envio de comprovativo da inscrição.
 Inclui controlo de requisitos prévios, processamento dos dados de identificação e caracterização do animal, verificação de requisitos para a inscrição, apresentação do comprovativo de pagamento, exame ao animal e envio do exame ao detentor, quando devido.".
@@ -2826,25 +2901,26 @@ Inclui controlo de requisitos prévios, processamento dos dados de identificaç�
 	:temDono :org_AL ;
 	:eSintetizadoPor :c300.30.001 ;
 	:eCruzadoCom :c450.10.204 ;
-	:temLegislacao :leg_422 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Registo de depósito da ficha técnica de habitação.
 Inicia com o pedido de depósito da ficha técnica de habitação e termina com a notícia da demolição do imóvel.
 Inclui a validação dos dados relativamente ao respetivo processo de licenciamento.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_1
-:na_c400.10.404_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_3
+:na_c400.10.404_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Atualização de dados do registo".
+	:conteudo "  Registo de bens classificados como de interesse nacional".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_2
 :na_c400.10.404_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Registo de bens móveis, imóveis e imateriais".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_3
-:na_c400.10.404_3 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_1
+:na_c400.10.404_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "  Registo de bens classificados como de interesse nacional".
+	:conteudo "Atualização de dados do registo".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_4
 :na_c400.10.404_4 rdf:type owl:NamedIndividual ,
@@ -2880,9 +2956,11 @@ Inclui a validação dos dados relativamente ao respetivo processo de licenciame
 	:eSintetizadoPor :c300.30.002 ;
 	:eSintetizadoPor :c300.30.005 ;
 	:eComplementarDe :c450.20.505 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_1295 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_1338 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Registo da atribuição de proteção legal sob a forma de classificação.
 Inicia com a inscrição e termina com o registo da informação.
 Inclui validação de dados.".
@@ -2935,9 +3013,11 @@ Inclui validação de dados.".
 	:eSintetizadoPor :c300.30.002 ;
 	:eSintetizadoPor :c300.30.005 ;
 	:eComplementarDe :c450.20.503 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_1295 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_1338 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Registo da atribuição de proteção legal sob a forma de inventário.
 Inicia com a inscrição no registo e termina com o registo da informação.
 Inclui validação e atualização de dados.".
@@ -3117,15 +3197,17 @@ Inclui validação e atualização de dados.".
 	:eAntecessorDe :c500.40.001 ;
 	:eAntecessorDe :c500.40.500 ;
 	:eAntecessorDe :c600.30.751 ;
-	:temLegislacao :leg_53 ;
-	:temLegislacao :leg_1146 ;
-	:temLegislacao :leg_908 ;
-	:temLegislacao :leg_731 ;
-	:temLegislacao :leg_730 ;
-	:temLegislacao :leg_676 ;
-	:temLegislacao :leg_724 ;
-	:temLegislacao :leg_53 ;
+	:temLegislacao :leg_58 ;
+	:temLegislacao :leg_1182 ;
+	:temLegislacao :leg_932 ;
+	:temLegislacao :leg_750 ;
+	:temLegislacao :leg_749 ;
+	:temLegislacao :leg_694 ;
+	:temLegislacao :leg_743 ;
+	:temLegislacao :leg_58 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Publicitação da situação juridica dos imóveis, relativamente a um conjunto de factos a ele sujeito, tendo em vista a segurança do comércio juridico e imobiliário.
 Inicia com o pedido ou por iniciativa do conservador, nos casos previstos na lei e termina com a feitura e a assinatura do registo.
 Inclui o pedido, a apresentação do pedido, a instrução, a qualificação e a execução material do registo.".
@@ -3162,8 +3244,9 @@ Inclui o pedido, a apresentação do pedido, a instrução, a qualificação e a
 	:eSucessorDe :c400.10.406 ;
 	:eAntecessorDe :c400.10.613 ;
 	:eAntecessorDe :c500.40.001 ;
-	:temLegislacao :leg_1096 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição ou atualização de prédios nas matrizes prediais (rústica e urbana), constituindo um repositório com a caracterização dos bens imóveis avaliados.
 Inicia com a apresentação, pelo sujeito passivo, da declaração para inscrição ou atualização de prédios na matriz, ou com a iniciativa dos serviços da administração tributária (oficiosamente) para a referida inscrição ou atualização, e termina com o carregamento da informação, na respetiva matriz predial, resultante do processo de avaliação dos imóveis ou do processo de reclamação das matrizes prediais.
 Inclui a validação dos dados.
@@ -3291,17 +3374,19 @@ Inclui a validação dos dados.
 	:eAntecessorDe :c500.30.001 ;
 	:eAntecessorDe :c500.40.500 ;
 	:eAntecessorDe :c600.30.751 ;
-	:temLegislacao :leg_908 ;
-	:temLegislacao :leg_777 ;
-	:temLegislacao :leg_662 ;
-	:temLegislacao :leg_732 ;
-	:temLegislacao :leg_717 ;
-	:temLegislacao :leg_488 ;
-	:temLegislacao :leg_466 ;
-	:temLegislacao :leg_351 ;
-	:temLegislacao :leg_10 ;
-	:temLegislacao :leg_12 ;
+	:temLegislacao :leg_932 ;
+	:temLegislacao :leg_797 ;
+	:temLegislacao :leg_678 ;
+	:temLegislacao :leg_751 ;
+	:temLegislacao :leg_736 ;
+	:temLegislacao :leg_503 ;
+	:temLegislacao :leg_481 ;
+	:temLegislacao :leg_367 ;
+	:temLegislacao :leg_14 ;
+	:temLegislacao :leg_16 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Publicitação da situação jurídica dos veículos a motor e respetivos reboques, tendo em vista a segurança do comércio jurídico.
 Inicia com o pedido e termina com a emissão do Documento Único Automóvel (DUA).
 Inclui o pedido, a apresentação do pedido, a instrução,  a qualificação e execução material do registo e a ordem de emissão do certificado de matrícula.
@@ -3363,8 +3448,9 @@ Inclui o pedido, a apresentação do pedido, a instrução,  a qualificação e 
 	:eSucessorDe :c450.10.644 ;
 	:eSucessorDe :c450.10.645 ;
 	:eCruzadoCom :c800.10.603 ;
-	:temLegislacao :leg_528 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Registo ou atualização de dados de identificação de armas e suas munições.
 Inicia com o pedido de manifesto e termina com a entrega do livrete de manifesto e livro de registo de munições.
 Inclui a atribuição de número, identificação da classe da arma, marca, calibre, número de fabrico, número de canos e proprietário, bem como a informação de extravio, furto, roubo e transmissão da arma.
@@ -3397,8 +3483,9 @@ Inclui, ainda, a marcação e aposição de punção para as armas que não poss
 	:eSinteseDe :c450.10.644 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_515 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição de dados sobre o método de fabrico, controlo e armazenamento de uma substância ativa, incluindo substâncias ou preparações à base de plantas, com vista a ser utilizada no fabrico de um medicamento e que, quando utilizada no seu fabrico, se torna um princípio ativo desse medicamento, destinado a exercer uma ação farmacológica, imunológica ou metabólica para restaurar, corrigir ou modificar funções fisiológicas ou a estabelecer um diagnóstico médico.
 Inicia com a submissão do DMF ou das respetivas atualizações, pelo titular do DMF e termina com a comunicação ao titular do número do DMF atribuído pela Autoridade Competente, no caso da submissão inicial.
 Inclui processamento de requerimento, informações administrativas, sumário geral da qualidade, parte aberta do dossier, parte fechada do dossier, carta de acesso ao Drug Master Files (DMF). Inclui, ainda, as atualizações, alteração ao termos de Autorização de Introdução no Mercado (AIM) e renovação que façam referência ao DMF.".
@@ -3424,14 +3511,16 @@ Inclui processamento de requerimento, informações administrativas, sumário ge
 	:temNotaAplicacao :na_c400.10.600_1 ;
 	:temNotaAplicacao :na_c400.10.600_2 ;
 	:eSucessorDe :c350.30.001 ;
-	:temLegislacao :leg_950 ;
-	:temLegislacao :leg_696 ;
-	:temLegislacao :leg_707 ;
-	:temLegislacao :leg_679 ;
-	:temLegislacao :leg_589 ;
-	:temLegislacao :leg_374 ;
-	:temLegislacao :leg_40 ;
+	:temLegislacao :leg_975 ;
+	:temLegislacao :leg_715 ;
+	:temLegislacao :leg_726 ;
+	:temLegislacao :leg_697 ;
+	:temLegislacao :leg_605 ;
+	:temLegislacao :leg_390 ;
+	:temLegislacao :leg_44 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de título de registo de Desenhos ou Modelos  enquanto modalidade de propriedade industrial que protege a aparência de um produto, bidimensional ou tridimensional.
 Inicia com a submissão do pedido e termina com a emissão do título de registo.
 Inclui eventual exame do pedido e a publicação do mesmo.
@@ -3453,6 +3542,8 @@ Inclui eventual exame do pedido e a publicação do mesmo.
 	:temDono :org_ISAN Portugal ;
 	:temNotaAplicacao :na_c400.10.601_1 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de identificador único a produtos do gênero audiovisual.
 Inicia com o pedido e termina com a atribuição de número de registo.
 Inclui validação dos dados.".
@@ -3468,9 +3559,11 @@ Inclui validação dos dados.".
 	:temDono :org_APEL ;
 	:eAntecessorDe :c400.10.611 ;
 	:eSucessorDe :c900.20.201 ;
-	:temLegislacao :leg_115 ;
-	:temLegislacao :leg_1364 ;
+	:temLegislacao :leg_121 ;
+	:temLegislacao :leg_1407 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de identificador único a produtos do gênero textual ou iconográfico em formato de livro.
 Inicia com o envio do pedido e termina com a atribuição de número.
 Inclui validação dos dados.
@@ -3486,9 +3579,11 @@ Inclui validação dos dados.
 	:temParticipanteIniciador :org_EE ;
 	:temDono :org_BNP ;
 	:eSucessorDe :c900.20.201 ;
-	:temLegislacao :leg_1046 ;
-	:temLegislacao :leg_133 ;
+	:temLegislacao :leg_1076 ;
+	:temLegislacao :leg_140 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de identificador internacional normalizado para  editores  musicais e suas edições de música impressa. 
 Inicia com o pedido e termina com a atribuição do número. 
 Inclui validação dos dados.
@@ -3513,8 +3608,10 @@ Inclui validação dos dados.
 	:temNotaAplicacao :na_c400.10.604_1 ;
 	:eAntecessorDe :c400.10.611 ;
 	:eSucessorDe :c900.20.201 ;
-	:temLegislacao :leg_596 ;
+	:temLegislacao :leg_612 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de identificador único para cada titulo de publicação em série.
 Inicia com o envio do pedido e termina com o envio da informação para uma base de dados internacioal. Inclui validação dos dados.
 ".
@@ -3536,6 +3633,8 @@ Inicia com o envio do pedido e termina com o envio da informação para uma base
 	:temNotaAplicacao :na_c400.10.605_1 ;
 	:eAntecessorDe :c400.10.611 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de identificador único a obras textuais, permitindo que as diferentes manifestações de um trabalho (por exemplo, um livro de bolso, um roteiro ou um livro eletrónico) fiquem associadas ao trabalho textual original.
 Inicia com o envio do pedido e termina com a atribuição do ISTC por parte da entidade competente.
 Inclui validação dos dados.
@@ -3569,15 +3668,17 @@ Inclui validação dos dados.
 	:eAntecessorDe :c400.10.615 ;
 	:eSucessorDe :c900.20.001 ;
 	:eSucessorDe :c900.20.002 ;
-	:temLegislacao :leg_950 ;
-	:temLegislacao :leg_696 ;
-	:temLegislacao :leg_707 ;
-	:temLegislacao :leg_679 ;
-	:temLegislacao :leg_589 ;
-	:temLegislacao :leg_582 ;
-	:temLegislacao :leg_374 ;
-	:temLegislacao :leg_40 ;
+	:temLegislacao :leg_975 ;
+	:temLegislacao :leg_715 ;
+	:temLegislacao :leg_726 ;
+	:temLegislacao :leg_697 ;
+	:temLegislacao :leg_605 ;
+	:temLegislacao :leg_598 ;
+	:temLegislacao :leg_390 ;
+	:temLegislacao :leg_44 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de título de registo de marcas ou logótipos e outros sinais distintivos do comércio enquanto modalidades de propriedade industrial que protegem o modo como os produtos, serviços ou entidades se distinguem no mercado.
 Inicia com a submissão do pedido e termina com a publicação do despacho no boletim da propriedade industrial.
 Inclui exame do pedido e publicação.".
@@ -3600,10 +3701,12 @@ Inclui exame do pedido e publicação.".
 	:eSucessorDe :c400.10.009 ;
 	:eSucessorDe :c900.20.200 ;
 	:eSucessorDe :c900.20.201 ;
-	:temLegislacao :leg_1180 ;
-	:temLegislacao :leg_1083 ;
-	:temLegislacao :leg_1059 ;
+	:temLegislacao :leg_1217 ;
+	:temLegislacao :leg_1115 ;
+	:temLegislacao :leg_1089 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição e atualização do registo de nomes de domínio .PT, efetuado por pessoas coletivas, empresários em nome individual, profissionais liberais e titulares de marca.
 Inicia com o pedido e termina com a ativação por parte da entidade competente e sua comunicação.
 Inclui análise e validação do pedido, inscrição no registo e emissão de comprovativo.
@@ -3637,11 +3740,13 @@ Inclui análise e validação do pedido, inscrição no registo e emissão de co
 	:temNotaAplicacao :na_c400.10.608_3 ;
 	:eSintetizadoPor :c400.10.406 ;
 	:eSucessorDe :c400.10.613 ;
-	:temLegislacao :leg_274 ;
-	:temLegislacao :leg_359 ;
-	:temLegislacao :leg_274 ;
-	:temLegislacao :leg_359 ;
+	:temLegislacao :leg_286 ;
+	:temLegislacao :leg_375 ;
+	:temLegislacao :leg_286 ;
+	:temLegislacao :leg_375 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de número identificador a vãos de portas confinantes com a via pública que deem acesso a prédios urbanos ou respetivos logradouros.
 Inicia com o pedido e termina com a atribuição do número.
 Inclui análise do pedido.".
@@ -3677,13 +3782,15 @@ Inclui análise do pedido.".
 	:eSucessorDe :c800.20.001 ;
 	:eCruzadoCom :c800.20.002 ;
 	:eCruzadoCom :c800.20.500 ;
-	:temLegislacao :leg_950 ;
-	:temLegislacao :leg_696 ;
-	:temLegislacao :leg_707 ;
-	:temLegislacao :leg_679 ;
-	:temLegislacao :leg_589 ;
-	:temLegislacao :leg_374 ;
+	:temLegislacao :leg_975 ;
+	:temLegislacao :leg_715 ;
+	:temLegislacao :leg_726 ;
+	:temLegislacao :leg_697 ;
+	:temLegislacao :leg_605 ;
+	:temLegislacao :leg_390 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de título de registo de patentes de invenção e modelos de utilidade enquanto modalidades de propriedade industrial que protegem invenções.
 Inicia com  a submissão do pedido e termina com a publicação do despacho no Boletim da propriedade industrial.
 ".
@@ -3850,8 +3957,10 @@ Inicia com  a submissão do pedido e termina com a publicação do despacho no B
 	:eSucessorDe :c800.20.002 ;
 	:eSucessorDe :c800.20.500 ;
 	:eCruzadoCom :c850.10.002 ;
-	:temLegislacao :leg_1205 ;
+	:temLegislacao :leg_1246 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Registo de criações nos domínios literário, científico e artístico
 Inicia com o pedido de registo da obra e termina
 com a emissão do despacho de deferimento emitido pelo dirigente máximo da entidade competente notificação do interessado.
@@ -3934,8 +4043,10 @@ e atribuição do número de registo da obra.".
 	:eSucessorDe :c400.10.602 ;
 	:eSucessorDe :c400.10.604 ;
 	:eSucessorDe :c400.10.605 ;
-	:temLegislacao :leg_42 ;
+	:temLegislacao :leg_46 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de identificador único (número de registo) às monografias e periódicos publicados em Portugal, por solicitação de tipografias ou de editores (obrigação legal).
 Inicia com o pedido e termina com a receção das publicações por depósito legal.
 Inclui o envio das publicações e elaboração da respetiva guia de remessa.
@@ -3950,11 +4061,14 @@ Inclui o envio das publicações e elaboração da respetiva guia de remessa.
 	:temPai :c400.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_AL ;
 	:temParticipanteApreciador :org_CH ;
 	:temDono :org_DGAL ;
 	:eSucessorDe :c400.10.009 ;
-	:temLegislacao :leg_115 ;
+	:temLegislacao :leg_121 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Registo de brasões de armas ou escudos.
 Inicia com pedido e termina com a publicação do registo do símbolo heráldico.
 Inclui apreciação de propostas, apreciação da ordenação e significado dos símbolos heráldicos, consulta de entidades e decisão.
@@ -3985,9 +4099,11 @@ Inclui apreciação de propostas, apreciação da ordenação e significado dos 
 	:eSucessorDe :c400.10.406 ;
 	:eSucessorDe :c400.10.407 ;
 	:eAntecessorDe :c400.10.608 ;
-	:temLegislacao :leg_359 ;
-	:temLegislacao :leg_274 ;
+	:temLegislacao :leg_375 ;
+	:temLegislacao :leg_286 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de nome a ruas, avenidas, praças e outros lugares.
 Inicia com a apresentação de proposta e termina com a publicação da atribuição do topónimo.
 Inclui análise da proposta, consulta de entidades, atribuição de topónimo e comunicação do topónimo atribuído às entidades competentes.".
@@ -4004,6 +4120,7 @@ Inclui análise da proposta, consulta de entidades, atribuição de topónimo e 
 	:temPai :c400.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_IES ;
 	:temDono :org_DGEEC ;
 	:temNotaAplicacao :na_c400.10.614_1 ;
 	:eSinteseDe :c150.40.500 ;
@@ -4011,9 +4128,11 @@ Inclui análise da proposta, consulta de entidades, atribuição de topónimo e 
 	:eAntecessorDe :c800.20.001 ;
 	:eAntecessorDe :c800.20.002 ;
 	:eAntecessorDe :c800.20.500 ;
-	:temLegislacao :leg_342 ;
-	:temLegislacao :leg_1360 ;
+	:temLegislacao :leg_357 ;
+	:temLegislacao :leg_1403 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Inscrição no registo nacional de teses de doutoramento ou dissertações de mestrado, em curso, realizadas nas universidades nacionais ou por portugueses em universidades estrangeiras.
 Inicia com a comunicação à entidade competente dos elementos exigidos por lei e termina com o seu registo num sistema de informação.
 Inclui retificações de dados inexatos ou incompletos.
@@ -4041,8 +4160,10 @@ Inclui retificações de dados inexatos ou incompletos.
 	:temNotaAplicacao :na_c400.10.615_1 ;
 	:temNotaExclusao :ne_c400.10.615_1 ;
 	:eSucessorDe :c400.10.606 ;
-	:temLegislacao :leg_259 ;
+	:temLegislacao :leg_271 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Identificação das publicações periódicas dos órgãos de comunicação social para assegurar a proteção legal dos títulos.
 Inicia com um pedido e termina com o envio do primeiro exemplar publicado para a entidade reguladora.
 Inclui a verificação do pedido e a inscrição no registo.
@@ -4071,6 +4192,7 @@ Inclui a verificação do pedido e a inscrição no registo.
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_IES ;
+	:temParticipanteApreciador :org_IEFP ;
 	:temParticipanteIniciador :org_CPL ;
 	:temDono :org_ANQEP ;
 	:temDono :org_DGES ;
@@ -4078,10 +4200,12 @@ Inclui a verificação do pedido e a inscrição no registo.
 	:temNotaAplicacao :na_c400.10.616_2 ;
 	:temNotaAplicacao :na_c400.10.616_3 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_498 ;
-	:temLegislacao :leg_503 ;
-	:temLegislacao :leg_1380 ;
+	:temLegislacao :leg_513 ;
+	:temLegislacao :leg_518 ;
+	:temLegislacao :leg_1423 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Identificação e descrição dos referenciais associados à definição e obtenção de qualificações.
 Inicia com a proposta de submissão e termina com a publicitação.
 Inclui a identificação para cada qualificação de um perfil profissional, de um referencial de formação e de um referencial de reconhecimento, validação e certificação de competências.
@@ -4106,12 +4230,14 @@ Inclui a identificação para cada qualificação de um perfil profissional, de 
 	:temParticipanteAssessor :org_IAMA ;
 	:temDono :org_INPI ;
 	:temNotaExclusao :ne_c400.10.617_1 ;
-	:temLegislacao :leg_1263 ;
-	:temLegislacao :leg_1057 ;
-	:temLegislacao :leg_1157 ;
-	:temLegislacao :leg_735 ;
-	:temLegislacao :leg_430 ;
+	:temLegislacao :leg_1305 ;
+	:temLegislacao :leg_1087 ;
+	:temLegislacao :leg_1194 ;
+	:temLegislacao :leg_754 ;
+	:temLegislacao :leg_445 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Qualificação de nomes de produtos agrícolas e géneros alimentícios com Denominação de origem (DO) e Indicação Geográfica (IG).
 Inicia-se com o pedido e termina com o despacho. Inclui análise do pedido, solicitação de esclarecimentos adicionais, emissão de parecer, consulta pública, análise de oposições, despacho e envio para a Comissão Europeia e, sempre que pedida a proteção nacional transitória, despacho de reconhecimento da tutela e registo da DO/IG no organismo nacional de propriedade industrial.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.619_1
@@ -4179,8 +4305,10 @@ Inicia-se com o pedido e termina com o despacho. Inclui análise do pedido, soli
 	:temNotaExclusao :ne_c400.10.619_2 ;
 	:temNotaExclusao :ne_c400.10.619_3 ;
 	:eAntecessorDe :c150.20.101 ;
-	:temLegislacao :leg_375 ;
+	:temLegislacao :leg_391 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Registo dos ciclos de estudos conferentes dos graus de licenciado, mestre e doutor (1.º, 2.º e 3.º ciclo) previamente acreditados por entidade ou agência especializada.
 Inicia com requerimento subscrito pelo órgão legal e estatutariamente competente da instituição ou estabelecimento de ensino superior e termina com a publicação do plano de estudos no Diário da República.
 Inclui instrução do processo.
@@ -4226,9 +4354,11 @@ Inclui instrução do processo.
 	:temNotaExclusao :ne_c400.10.620_1 ;
 	:eAntecessorDe :c450.30.002 ;
 	:eAntecessorDe :c750.30.602 ;
-	:temLegislacao :leg_50 ;
-	:temLegislacao :leg_586 ;
+	:temLegislacao :leg_55 ;
+	:temLegislacao :leg_602 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Identificação de titulares de graus académicos, diplomas, títulos e ou outras habilitações académicas conferidas por estabelecimento de ensino superior e ou órgão competente.
 Inicia com a identificação no sistema dos titulares de graus académicos, diplomas e títulos não conferentes de grau atribuídos e termina com o registo.
 Inclui identificação do grau, diploma ou título, menções qualitativa e ou quantitativa obtidas e a data de obtenção do grau, diploma ou título.".
@@ -4415,39 +4545,25 @@ Inclui identificação do grau, diploma ou título, menções qualitativa e ou q
 	:eCruzadoCom :c850.10.002 ;
 	:eCruzadoCom :c850.10.003 ;
 	:eCruzadoCom :c850.10.005 ;
-	:temLegislacao :leg_731 ;
-	:temLegislacao :leg_676 ;
-	:temLegislacao :leg_672 ;
-	:temLegislacao :leg_608 ;
-	:temLegislacao :leg_584 ;
-	:temLegislacao :leg_582 ;
-	:temLegislacao :leg_573 ;
-	:temLegislacao :leg_508 ;
-	:temLegislacao :leg_459 ;
-	:temLegislacao :leg_162 ;
-	:temLegislacao :leg_158 ;
+	:temLegislacao :leg_750 ;
+	:temLegislacao :leg_694 ;
+	:temLegislacao :leg_688 ;
+	:temLegislacao :leg_624 ;
+	:temLegislacao :leg_600 ;
+	:temLegislacao :leg_598 ;
+	:temLegislacao :leg_589 ;
+	:temLegislacao :leg_524 ;
+	:temLegislacao :leg_474 ;
+	:temLegislacao :leg_172 ;
+	:temLegislacao :leg_168 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Formalização de atos jurídicos extrajudiciais que consubstanciam uma declaração de vontade fazendo fé pública perante terceiros.
 Inicia com o pedido de celebração do ato e termina com o registo e/ou a publicação do mesmo.
 Inclui a verificação da legalidade dos documentos, elaboração e feitura do título, escritura ou testamento e respetivas assinaturas, apresentação de comprovativos dos pagamentos devidos (quando aplicável). 
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#c400.30.400
-:c400.30.400 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "400.30.400";
-	:titulo "Autenticação de documentos particulares";
-	:temPai :c400.30 ;
-	:classeStatus "A" ;
-	:descricao "".
-###  http://jcr.di.uminho.pt/m51-clav#c400.30.401
-:c400.30.401 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "400.30.401";
-	:titulo "Reconhecimento presencial de assinaturas e/ou letras";
-	:temPai :c400.30 ;
-	:classeStatus "A" ;
-	:descricao "".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.30.402_1
 :na_c400.30.402_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -4479,10 +4595,12 @@ Inclui a verificação da legalidade dos documentos, elaboração e feitura do t
 	:temNotaAplicacao :na_c400.30.402_3 ;
 	:eSucessorDe :c450.10.444 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_246 ;
-	:temLegislacao :leg_414 ;
-	:temLegislacao :leg_766 ;
+	:temLegislacao :leg_258 ;
+	:temLegislacao :leg_429 ;
+	:temLegislacao :leg_786 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Identificação e registo de entidade para atribuição de mecanismo de autenticação digital com vista a garantir força probatória a documentos eletrónicos com assinatura digital, de modo equivalente a documentos escritos com assinatura autógrafa.
 Inicia com o pedido e termina com a aceitação do certificado.
 Inclui verificação de identidade do requisitante, verificação da exatidão e integridade do pedido de certificado, criação de relação entre o titular da assinatura e a organização a que pertence, atribuição de nome ou identificador único, criação de chave privada e de chave pública e definição da sua validade, validação de identidade, registo da assinatura digital em repositório e notificação da emissão do certificado ao titular.
@@ -4525,6 +4643,7 @@ Inclui verificação de identidade do requisitante, verificação da exatidão e
 	:temPai :c400.30 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_Cns ;
 	:temDono :org_IRN ;
 	:temNotaAplicacao :na_c400.30.600_1 ;
 	:temNotaAplicacao :na_c400.30.600_2 ;
@@ -4534,26 +4653,28 @@ Inclui verificação de identidade do requisitante, verificação da exatidão e
 	:temNotaExclusao :ne_c400.30.600_4 ;
 	:eCruzadoCom :c350.30.001 ;
 	:eSucessorDe :c400.30.001 ;
-	:temLegislacao :leg_1050 ;
-	:temLegislacao :leg_842 ;
-	:temLegislacao :leg_828 ;
-	:temLegislacao :leg_747 ;
-	:temLegislacao :leg_697 ;
+	:temLegislacao :leg_1080 ;
+	:temLegislacao :leg_864 ;
+	:temLegislacao :leg_850 ;
+	:temLegislacao :leg_766 ;
+	:temLegislacao :leg_716 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Registo e depósito de procurações irrevogáveis que contenham poderes de transferência da titularidade de imóveis e da respetiva extinção, das demais procurações irrevogáveis que a lei sujeite a registo e da respetiva extinção, e de outras procurações outorgadas por escrito e da respetiva extinção.
 Inicia com o pedido de registo e termina com a emissão do comprovativo do registo efetuado.
 Inclui a associação, registo e depósito de eventual prova documental que altere, retifique, revogue ou extinga documento previamente registado.
 Inclui, ainda, a organização e manutenção da base de dados de procurações.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c400.30.601_1
-:ne_c400.30.601_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O apuramento emolumentar devido pela prática do ato por parte da Administração, bem como a cobrança coerciva da conta do ato (certificado de conta), não voluntariamente liquidada deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.30.601_2
 :ne_c400.30.601_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "Os pedidos de informação que não se integram em nenhum processo específico devem considerados em 900.20.604 – Processamento de pedidos de informação e de esclarecimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c400.30.601_1
+:ne_c400.30.601_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O apuramento emolumentar devido pela prática do ato por parte da Administração, bem como a cobrança coerciva da conta do ato (certificado de conta), não voluntariamente liquidada deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c400.30.601
 :c400.30.601 rdf:type owl:NamedIndividual ,
@@ -4568,8 +4689,10 @@ Inclui, ainda, a organização e manutenção da base de dados de procurações.
 	:temNotaExclusao :ne_c400.30.601_2 ;
 	:eCruzadoCom :c350.30.001 ;
 	:eSucessorDe :c400.30.001 ;
-	:temLegislacao :leg_162 ;
+	:temLegislacao :leg_172 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Elaboração do índice geral de testamentos e escrituras públicas de revogação de testamentos ou escrituras diversas realizadas nos Cartórios Notariais.
 Inicia com a comunicação dos atos pelas entidades competentes e termina com a integração no índice ou na relação das escrituras.
 Inclui a anotação dos elementos que identificam o local, a data e o título do ato, o nome completo do testador ou outorgante, a denominação do ato e o seu valor.
@@ -4585,9 +4708,11 @@ Inclui a anotação dos elementos que identificam o local, a data e o título do
 	:temParticipanteIniciador :org_Trb ;
 	:temDono :org_DGPJ ;
 	:eSucessorDe :c600.30.200 ;
-	:temLegislacao :leg_167 ;
-	:temLegislacao :leg_58 ;
+	:temLegislacao :leg_177 ;
+	:temLegislacao :leg_63 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Identificação e registo, em base de dados acessível ao público, do texto das cláusulas contratuais declaradas abusivas pelos tribunais judiciais.
 Inicia com a receção de cópia das decisões pelos tribunais ao organismo responsável pela manutenção do registo e termina com a disponibilização da informação ao público.
 Inclui a análise da informação, o registo e a validação dos dados.
@@ -4612,14 +4737,6 @@ Inclui a análise da informação e validação dos dados.
 	:classeStatus "A" ;
 	:descricao "Inicia com o registo das cláusulas contratuais abusivas
 Termina com a disponibilização da informação ao público.".
-###  http://jcr.di.uminho.pt/m51-clav#c400.30.800
-:c400.30.800 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "400.30.800";
-	:titulo "Depósito de testamentos cerrados";
-	:temPai :c400.30 ;
-	:classeStatus "A" ;
-	:descricao "".
 
 ### Classes400 termina aqui.
 

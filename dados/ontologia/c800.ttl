@@ -4,6 +4,11 @@
 	:NotaAplicacao ;
 	:conteudo "Aplicável tanto às entidades que prestam os serviços referidos como aos que solicitam a prestação dos mesmos.".
 
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800_1
+:ne_c800_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A prestação de serviços de ensino/formação deve ser considerada em \"Prestação de serviços de ensino e formação\" (750).A prestação de cuidados de saúde deve ser considerada em \"Prestação de cuidados de saúde\" (700).Os processos de investigação criminal devem ser considerados em \"Administração da justiça/ Prevenção e investigação criminal\" (600.10).".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c800
 :c800 rdf:type owl:NamedIndividual ,
 	:Classe_N1;
@@ -14,11 +19,6 @@
 	:temNotaExclusao :ne_c800_1 ;
 	:classeStatus "A" ;
 	:descricao "Relativo a atividades de investigação científica em qualquer domínio do conhecimento, a atividades de desenvolvimento técnico e tecnológico, de transferência de tecnologia e inovação, bem como a outras atividades que utilizam métodos científicos para a produção de conhecimento ou resolução de problemas.".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c800_1
-:ne_c800_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A prestação de serviços de ensino/formação deve ser considerada em \"Prestação de serviços de ensino e formação\" (750).A prestação de cuidados de saúde deve ser considerada em \"Prestação de cuidados de saúde\" (700).Os processos de investigação criminal devem ser considerados em \"Administração da justiça/ Prevenção e investigação criminal\" (600.10).".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10_1
 :na_c800.10_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -86,11 +86,13 @@ Compreende também o levantamento de dados e constituição de repositórios ou 
 	:eSinteseDe :c710.10.005 ;
 	:eComplementarDe :c800.10.002 ;
 	:eSucessorDe :c800.10.302 ;
-	:temLegislacao :leg_748 ;
-	:temLegislacao :leg_862 ;
-	:temLegislacao :leg_568 ;
-	:temLegislacao :leg_160 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_885 ;
+	:temLegislacao :leg_584 ;
+	:temLegislacao :leg_170 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Aquisição e processamento de informação geográfica e alfanumérica.
 Inicia com recolha de informação geodésica, topográfica e fotogramétrica e de informação temática, organizada ou não sob a forma de bases de dados digitais, e termina com a obtenção de cartografia de base, de cartografia temática e de conjuntos de dados geográficos, de acordo com as solicitações dos utilizadores
 Inclui execução de levantamentos diretos com base em GNSS e Topografia, levantamentos fotogramétricos com base em imagens aéreas ou orbitais, recolha de dados cartográficos já existentes, fotointerpretação de imagens, generalização cartográfica, criação de Modelos Digitais do Terreno e de Superfície. 
@@ -136,21 +138,23 @@ Inclui execução de levantamentos diretos com base em GNSS e Topografia, levant
 	:temNotaAplicacao :na_c800.10.002_5 ;
 	:eCruzadoCom :c150.10.600 ;
 	:eComplementarDe :c800.10.001 ;
-	:temLegislacao :leg_1296 ;
-	:temLegislacao :leg_1359 ;
+	:temLegislacao :leg_1339 ;
+	:temLegislacao :leg_1402 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Levantamento e processamento de dados geodésicos para constituição de repositórios de dados, com vista à determinação de sistemas geográficos de referência, data altimétricos e planimétricos e parâmetros de transformação. Processo essencial de suporte a toda a produção de cartografia de base. 
 Inicia com a aquisição de dados e termina com a produção da informação. 
 Inclui levantamentos geodésicos no local, monitorização/aferição de equipamentos, validação, cálculo e processamento dos dados.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_1
-:na_c800.10.300_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Identificação de microorganismos em equipamentos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_2
 :na_c800.10.300_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Controlo ambiental em contexto de higiene e saúde no trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_1
+:na_c800.10.300_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Identificação de microorganismos em equipamentos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_3
 :na_c800.10.300_3 rdf:type owl:NamedIndividual ,
@@ -226,20 +230,22 @@ Inclui levantamentos geodésicos no local, monitorização/aferição de equipam
 	:eCruzadoCom :c700.20.100 ;
 	:eCruzadoCom :c710.10.600 ;
 	:eCruzadoCom :c800.10.601 ;
-	:temLegislacao :leg_1151 ;
-	:temLegislacao :leg_1089 ;
-	:temLegislacao :leg_814 ;
-	:temLegislacao :leg_859 ;
-	:temLegislacao :leg_666 ;
-	:temLegislacao :leg_633 ;
-	:temLegislacao :leg_501 ;
-	:temLegislacao :leg_502 ;
-	:temLegislacao :leg_463 ;
-	:temLegislacao :leg_457 ;
-	:temLegislacao :leg_800 ;
-	:temLegislacao :leg_111 ;
-	:temLegislacao :leg_62 ;
+	:temLegislacao :leg_1187 ;
+	:temLegislacao :leg_1123 ;
+	:temLegislacao :leg_836 ;
+	:temLegislacao :leg_880 ;
+	:temLegislacao :leg_682 ;
+	:temLegislacao :leg_649 ;
+	:temLegislacao :leg_516 ;
+	:temLegislacao :leg_517 ;
+	:temLegislacao :leg_478 ;
+	:temLegislacao :leg_472 ;
+	:temLegislacao :leg_822 ;
+	:temLegislacao :leg_117 ;
+	:temLegislacao :leg_67 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Recolha contínua ou pontual de informação ou dados, quantitativos ou qualitativos, de modo a garantir o controlo ambiental tendo por base valores de referência.
 Inicia com a observação ou medição de informação e termina com a identificação de fatores críticos ou a validação de agentes padrão.
 Inclui registo de valores.
@@ -294,15 +300,15 @@ Inclui registo de valores.
 	:NotaExclusao ;
 	:conteudo "Os avisos e alertas de segurança devem ser considerados em 550.20.001 – Emissão de avisos e declaração de alertas".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.301_3
-:ne_c800.10.301_3 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A vigilância no âmbito da segurança deve ser considerada em 550.20.002 – Ação de vigilância".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.301_4
 :ne_c800.10.301_4 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A qualidade da água da rede de distribuição pública deve ser considerada em 800.10.303 – Monitorização do abastecimento e distribuição de água e do saneamento de águas residuais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.301_3
+:ne_c800.10.301_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A vigilância no âmbito da segurança deve ser considerada em 550.20.002 – Ação de vigilância".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c800.10.301
 :c800.10.301 rdf:type owl:NamedIndividual ,
@@ -366,32 +372,34 @@ Inclui registo de valores.
 	:eAntecessorDe :c550.20.002 ;
 	:eCruzadoCom :c800.10.601 ;
 	:eCruzadoCom :c800.10.602 ;
-	:temLegislacao :leg_1220 ;
-	:temLegislacao :leg_1092 ;
-	:temLegislacao :leg_1080 ;
-	:temLegislacao :leg_883 ;
-	:temLegislacao :leg_841 ;
-	:temLegislacao :leg_840 ;
-	:temLegislacao :leg_682 ;
-	:temLegislacao :leg_577 ;
-	:temLegislacao :leg_569 ;
-	:temLegislacao :leg_558 ;
-	:temLegislacao :leg_523 ;
-	:temLegislacao :leg_513 ;
-	:temLegislacao :leg_518 ;
-	:temLegislacao :leg_485 ;
-	:temLegislacao :leg_479 ;
-	:temLegislacao :leg_448 ;
-	:temLegislacao :leg_423 ;
-	:temLegislacao :leg_404 ;
-	:temLegislacao :leg_391 ;
-	:temLegislacao :leg_386 ;
-	:temLegislacao :leg_384 ;
-	:temLegislacao :leg_346 ;
-	:temLegislacao :leg_320 ;
-	:temLegislacao :leg_245 ;
-	:temLegislacao :leg_134 ;
+	:temLegislacao :leg_1262 ;
+	:temLegislacao :leg_1126 ;
+	:temLegislacao :leg_1110 ;
+	:temLegislacao :leg_906 ;
+	:temLegislacao :leg_863 ;
+	:temLegislacao :leg_862 ;
+	:temLegislacao :leg_700 ;
+	:temLegislacao :leg_593 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_574 ;
+	:temLegislacao :leg_539 ;
+	:temLegislacao :leg_529 ;
+	:temLegislacao :leg_534 ;
+	:temLegislacao :leg_500 ;
+	:temLegislacao :leg_494 ;
+	:temLegislacao :leg_463 ;
+	:temLegislacao :leg_438 ;
+	:temLegislacao :leg_419 ;
+	:temLegislacao :leg_406 ;
+	:temLegislacao :leg_401 ;
+	:temLegislacao :leg_399 ;
+	:temLegislacao :leg_362 ;
+	:temLegislacao :leg_335 ;
+	:temLegislacao :leg_257 ;
+	:temLegislacao :leg_141 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Recolha  contínua ou pontual de informação sobre níveis de ruído, da qualidade da água, do ar e de  toxicidade do solo.
 Inicia com a verificação  de acordo com um plano de monitorização previamente estabelecido e termina com o relatório de apuramento de valores e sua comparação com os indicadores de referência.
 Inclui a identificação das fontes de emissão, do tipo poluentes e a evolução das concentrações médias anuais.
@@ -507,16 +515,19 @@ Inclui a identificação das fontes de emissão, do tipo poluentes e a evoluçã
 	:eCruzadoCom :c800.20.002 ;
 	:eCruzadoCom :c800.20.500 ;
 	:eAntecessorDe :c850.10.003 ;
-	:temLegislacao :leg_1303 ;
-	:temLegislacao :leg_1287 ;
-	:temLegislacao :leg_1214 ;
-	:temLegislacao :leg_1270 ;
-	:temLegislacao :leg_1008 ;
-	:temLegislacao :leg_585 ;
-	:temLegislacao :leg_517 ;
-	:temLegislacao :leg_232 ;
-	:temLegislacao :leg_178 ;
+	:temLegislacao :leg_1346 ;
+	:temLegislacao :leg_1329 ;
+	:temLegislacao :leg_1256 ;
+	:temLegislacao :leg_1312 ;
+	:temLegislacao :leg_1035 ;
+	:temLegislacao :leg_696 ;
+	:temLegislacao :leg_601 ;
+	:temLegislacao :leg_533 ;
+	:temLegislacao :leg_244 ;
+	:temLegislacao :leg_188 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Recolha sistemática ou pontual de dados sobre recursos zoológicos, marinhos, minerais e botânicos, por forma a controlar os respetivos níveis de perenidade e sustentabilidade.
 Inicia com a verificação ou medição de dados e termina com a emissão de relatórios.
 Inclui registo de dados recolhidos.".
@@ -551,13 +562,15 @@ Inclui registo de dados recolhidos.".
 	:eSuplementoPara :c500.10.001 ;
 	:eAntecessorDe :c550.20.001 ;
 	:eCruzadoCom :c800.10.601 ;
-	:temLegislacao :leg_1213 ;
-	:temLegislacao :leg_500 ;
-	:temLegislacao :leg_479 ;
+	:temLegislacao :leg_1255 ;
+	:temLegislacao :leg_515 ;
+	:temLegislacao :leg_494 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Recolha contínua, pontual ou aleatória de informação ou dados, quantitativos ou qualitativos, de modo a identificar ocorrências anómalas através da constante comparação entre os valores de referência e as medidas apuradas.
-Inicia com a verificação ou medição de dados e termina com o reconhecimento de valores críticos ou a validação de dados indicadores ou obrigatórios.
-Inclui medição de pressão de água, medição de caudais de água, medição de cloro, nível de água em reservatório e volume de água consumida.".
+Inicia com a verificação ou medição de dados e termina com a validação de dados indicadores ou obrigatórios.
+Inclui medição de pressão de água, medição de caudais de água, medição de cloro, nível de água em reservatório e volume de água consumida, reconhecimento de valores críticos.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.304_1
 :na_c800.10.304_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -617,33 +630,35 @@ Inclui medição de pressão de água, medição de caudais de água, medição 
 	:eCruzadoCom :c550.10.307 ;
 	:eAntecessorDe :c550.20.001 ;
 	:eAntecessorDe :c800.10.606 ;
-	:temLegislacao :leg_1058 ;
+	:temLegislacao :leg_1088 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Deteção, registo e avaliação das reações adversas, com o objectivo de determinar a incidência, gravidade e nexo de causalidade com os medicamentos, baseadas no estudo sistemático e multidisciplinar dos efeitos dos medicamentos.
 Inicia com a comunicação de reações adversas ou com a recolha sistemática de informações sobre os riscos de medicamentos para os doentes ou para a saúde pública e termina com a comunicação da proposta de medida de segurança ou regulamentar.  
 Inclui avaliação científica, ponderação das medidas de segurança adequadas à prevenção ou minimização dos riscos, proposta de adoção das medidas regulamentares necessárias feitas com base nos relatórios periódicos remetidos.
 
 
 ".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.305_1
+:ne_c800.10.305_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A autorização para a realização dos ensaios clínicos deve ser classificada em 450.10.073 – Licenciamento ou autorização de atividades de investigação científica e de desenvolvimento".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.305_1
 :na_c800.10.305_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Avaliação das notificações de suspeitas de reações Adversas graves e inesperadas (SUSAR)".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.305_2
-:na_c800.10.305_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Avaliação de relatórios anuais de segurança de medicamentos experimentais (DSUR)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.305_3
 :na_c800.10.305_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Avaliação de outra informação de segurança notificada durante a realização do ensaio clínico".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.305_1
-:ne_c800.10.305_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A autorização para a realização dos ensaios clínicos deve ser classificada em 450.10.073 – Licenciamento ou autorização de atividades de investigação científica e de desenvolvimento".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.305_2
+:na_c800.10.305_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Avaliação de relatórios anuais de segurança de medicamentos experimentais (DSUR)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c800.10.305
 :c800.10.305 rdf:type owl:NamedIndividual ,
@@ -662,8 +677,11 @@ Inclui avaliação científica, ponderação das medidas de segurança adequadas
 	:eSucessorDe :c450.10.073 ;
 	:eAntecessorDe :c550.20.001 ;
 	:eSucessorDe :c800.10.600 ;
-	:temLegislacao :leg_1216 ;
+	:temLegislacao :leg_1258 ;
+	:temLegislacao :leg_1365 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Verificação da segurança na utilização experimental de medicamentos, de forma a permitir a avaliação permanente da relação benefício-risco em que se baseou a autorização dos ensaios clínicos em curso.
 Inicia com o processamento das notificações de realização do ensaio clínico e termina com a informação de conclusão do ensaio ou com a comunicação da suspensão.
 Inclui análise e avaliação de toda a informação com potencial impacto na realização do ensaio (segurança dos participantes e credibilidade dos dados/resultados) e, quando aplicável, suspensão ou revogação da autorização do ensaio.      
@@ -694,8 +712,10 @@ Inclui análise e avaliação de toda a informação com potencial impacto na re
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c550.10.307 ;
 	:eSucessorDe :c550.20.001 ;
-	:temLegislacao :leg_775 ;
+	:temLegislacao :leg_795 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Deteção, registo, avaliação e prevenção de incidentes com dispositivos médicos e dos efeitos indesejáveis em produtos cosméticos ou quaisquer outros problemas associados a produtos de saúde tendo em vista a salvaguarda da saúde pública.
 Inicia com a comunicação e recolha de informação sobre
 ocorrências adversas ou incidentes ocorridos e termina com a comunicação da decisão (implementação de ações corretivas quando aplicável).
@@ -728,9 +748,11 @@ Inclui análise e avaliação de toda a informação recolhida, a ponderação d
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c700.20.100 ;
 	:eAntecessorDe :c800.10.305 ;
-	:temLegislacao :leg_1216 ;
-	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_1258 ;
+	:temLegislacao :leg_1311 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Exames realizados no ser humano, destinados a descobrir ou a verificar os efeitos clínicos, farmacológicos ou outros efeitos farmacodinâmicos de medicamentos experimentais, ou a identificar os seus efeitos indesejáveis ou ainda a analisar a absorção, a distribuição, o metabolismo e a eliminação de um ou mais medicamentos experimentais, a fim de apurar a respetiva segurança ou eficácia.
 Inicia com a preparação do estudo para realizar o ensaio clínico e termina com a finalização do estudo.
 Incluí todos os atos necessários à conclusão do estudo.
@@ -783,13 +805,15 @@ Incluí todos os atos necessários à conclusão do estudo.
 	:eCruzadoCom :c800.10.302 ;
 	:eCruzadoCom :c800.10.303 ;
 	:eCruzadoCom :c800.10.610 ;
-	:temLegislacao :leg_1347 ;
-	:temLegislacao :leg_773 ;
-	:temLegislacao :leg_579 ;
-	:temLegislacao :leg_204 ;
-	:temLegislacao :leg_182 ;
-	:temLegislacao :leg_483 ;
+	:temLegislacao :leg_1390 ;
+	:temLegislacao :leg_793 ;
+	:temLegislacao :leg_595 ;
+	:temLegislacao :leg_216 ;
+	:temLegislacao :leg_192 ;
+	:temLegislacao :leg_498 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Exames que avaliam, diagnosticam ou confirmam a qualidade e/ou a composição de determinados constituintes ou amostras em matrizes diferentes.
 Inicia por solicitação da entidade responsável pela análise e termina com a divulgação do boletim analítico.
 Inclui a recolha da amostra, amostra-controle, identificação, acondicionamento, conservação, transporte, registo, procedimento ensaístico e relatório de ensaio.".
@@ -875,6 +899,8 @@ Inclui a recolha da amostra, amostra-controle, identificação, acondicionamento
 	:eCruzadoCom :c800.10.301 ;
 	:eCruzadoCom :c800.10.302 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Procedimento científico e técnico de análise e cálculo com o objetivo de promover uma avaliação do impacto e de gerar medidas ou recomendações técnicas sobre um determinado universo. 
 Inicia com um pedido e termina com a emissão de um relatório.
 Inclui a recolha de dados, aferição e análise de características da população ou de amostras, criação de indicadores quantitativos e qualitativos, produção de relatórios técnicos, avaliação deimpacto, apuramento de resultados ou recomendações e/ou medições.".
@@ -925,44 +951,47 @@ Inclui a recolha de dados, aferição e análise de características da populaç
 	:eCruzadoCom :c710.20.300 ;
 	:eCruzadoCom :c800.10.609 ;
 	:eCruzadoCom :c800.10.610 ;
-	:temLegislacao :leg_1308 ;
-	:temLegislacao :leg_1111 ;
-	:temLegislacao :leg_1128 ;
-	:temLegislacao :leg_963 ;
-	:temLegislacao :leg_800 ;
-	:temLegislacao :leg_704 ;
-	:temLegislacao :leg_692 ;
-	:temLegislacao :leg_599 ;
-	:temLegislacao :leg_443 ;
-	:temLegislacao :leg_397 ;
-	:temLegislacao :leg_762 ;
-	:temLegislacao :leg_588 ;
-	:temLegislacao :leg_248 ;
-	:temLegislacao :leg_273 ;
-	:temLegislacao :leg_269 ;
-	:temLegislacao :leg_155 ;
-	:temLegislacao :leg_140 ;
-	:temLegislacao :leg_128 ;
-	:temLegislacao :leg_70 ;
-	:temLegislacao :leg_2 ;
-	:temLegislacao :leg_483 ;
-	:temLegislacao :leg_1063 ;
-	:temLegislacao :leg_1177 ;
+	:temLegislacao :leg_1351 ;
+	:temLegislacao :leg_1146 ;
+	:temLegislacao :leg_1164 ;
+	:temLegislacao :leg_988 ;
+	:temLegislacao :leg_822 ;
+	:temLegislacao :leg_723 ;
+	:temLegislacao :leg_711 ;
+	:temLegislacao :leg_615 ;
+	:temLegislacao :leg_458 ;
+	:temLegislacao :leg_412 ;
+	:temLegislacao :leg_1114 ;
+	:temLegislacao :leg_781 ;
+	:temLegislacao :leg_604 ;
+	:temLegislacao :leg_260 ;
+	:temLegislacao :leg_285 ;
+	:temLegislacao :leg_281 ;
+	:temLegislacao :leg_165 ;
+	:temLegislacao :leg_147 ;
+	:temLegislacao :leg_135 ;
+	:temLegislacao :leg_75 ;
+	:temLegislacao :leg_6 ;
+	:temLegislacao :leg_498 ;
+	:temLegislacao :leg_1093 ;
+	:temLegislacao :leg_1214 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Atividade realizada por profissional especialista dotado de especiais conhecimentos técnicos, científicos ou artísticos com vista à descrição, interpretação e obtenção de conclusões com eventual valor probatório.
 Inicia com um pedido e termina com a produção do relatório final.
 Inclui a pesquisa, a recolha, o tratamento, o acondicionamento, a selagem, a receção e o registo de amostras, vestígios ou dados, a aplicação de teste psicológico a pessoa e a avaliação do mesmo, a observação de caraterísticas ou lesões psíquicas e físicas em pessoas, a cadáveres ou  a restos cadavéricos e exames complementares ao diagnóstico, se aplicável, e fundamentação de trabalho pericial.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.604_2
-:na_c800.10.604_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Realização de revisões de traduções".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.604_1
 :na_c800.10.604_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Realização de retroversões".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.604_2
+:na_c800.10.604_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Realização de revisões de traduções".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.604_3
 :na_c800.10.604_3 rdf:type owl:NamedIndividual ,
@@ -1017,22 +1046,20 @@ Inclui a pesquisa, a recolha, o tratamento, o acondicionamento, a selagem, a rec
 	:eCruzadoCom :c800.20.001 ;
 	:eCruzadoCom :c900.10.001 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_1320 ;
-	:temLegislacao :leg_230 ;
-	:temLegislacao :leg_162 ;
-	:temLegislacao :leg_220 ;
-	:temLegislacao :leg_118 ;
-	:temLegislacao :leg_57 ;
-	:temLegislacao :leg_18 ;
+	:temLegislacao :leg_1363 ;
+	:temLegislacao :leg_334 ;
+	:temLegislacao :leg_242 ;
+	:temLegislacao :leg_172 ;
+	:temLegislacao :leg_232 ;
+	:temLegislacao :leg_124 ;
+	:temLegislacao :leg_62 ;
+	:temLegislacao :leg_22 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Transposição de conteúdos de uma língua para outra. Interpretação do significado de um texto em determinada língua (fonte original) para produção de um novo texto, fiel ao original, noutra língua.
 Inicia com um pedido ou por inicativa de uma entidade e termina com a entrega do trabalho.
 Inclui os estudos de contextualização histórica, técnica e estilística do autor e do texto, a redação na língua de destino e a elaboração de notas de tradução.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_1
-:na_c800.10.605_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Arranjo musical de uma obra, para um instrumento para o qual não foi originalmente escrita".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_2
 :na_c800.10.605_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1042,6 +1069,11 @@ Inclui os estudos de contextualização histórica, técnica e estilística do a
 :na_c800.10.605_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Transcrição fonética".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_1
+:na_c800.10.605_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Arranjo musical de uma obra, para um instrumento para o qual não foi originalmente escrita".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.605_1
 :ne_c800.10.605_1 rdf:type owl:NamedIndividual ,
@@ -1085,33 +1117,35 @@ Inclui os estudos de contextualização histórica, técnica e estilística do a
 	:eCruzadoCom :c800.20.001 ;
 	:eCruzadoCom :c900.10.001 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_754 ;
+	:temLegislacao :leg_773 ;
+	:temLegislacao :leg_75 ;
 	:temLegislacao :leg_70 ;
-	:temLegislacao :leg_65 ;
-	:temLegislacao :leg_57 ;
+	:temLegislacao :leg_62 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Representação ou reprodução gráfica de conteúdos preexistentes (sons, textos, informação genética, etc.) em novo contexto, com vista a torná-los acessíveis e utilizáveis.
 Inicia com  um pedido e termina com a entrega do trabalho.
 Inclui a interpretação dos dados e a sua reprodução.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_1
-:na_c800.10.606_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Processo de acompanhamento da rotura de stocks com impacto para o utente, nomeadamente".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_2
 :na_c800.10.606_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Averiguação do mercado".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_4
-:na_c800.10.606_4 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_1
+:na_c800.10.606_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Parecer clínico".
+	:conteudo "Processo de acompanhamento da rotura de stocks com impacto para o utente, nomeadamente".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_3
 :na_c800.10.606_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Análise das alternativas no mercado".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_4
+:na_c800.10.606_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Parecer clínico".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_5
 :na_c800.10.606_5 rdf:type owl:NamedIndividual ,
@@ -1163,9 +1197,11 @@ Inclui a interpretação dos dados e a sua reprodução.".
 	:eSuplementoPara :c500.10.301 ;
 	:eSuplementoPara :c550.10.307 ;
 	:eSuplementoPara :c800.10.304 ;
-	:temLegislacao :leg_515 ;
-	:temLegislacao :leg_878 ;
+	:temLegislacao :leg_531 ;
+	:temLegislacao :leg_901 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Acompanhamento de rutura de stocks de medicamentos, ainda que meramente transitórias, de fabrico e ou fornecimento de um medicamento, bem como qualquer perturbação ao normal abastecimento do mercado, nos casos, termos, forma e prazo fixados pela Autoridade Competente.
 Inicia com a notificação da rutura na plataforma GAM - Gestão de Acessibilidade ao Medicamento, pelo titular da autorização e termina com a proposta de minimização do impacto.
 Inclui validação da identificação do titular, pedidos de informação pelos profissionais de saúde e utentes sobre rotura de stocks, avaliação da situação e a consulta de peritos ou a agências congéneres.
@@ -1225,8 +1261,10 @@ As medidas de minimização do impacto podem consistir numa alteração regulame
 	:eCruzadoCom :c700.20.100 ;
 	:eCruzadoCom :c800.10.608 ;
 	:eCruzadoCom :c800.20.002 ;
-	:temLegislacao :leg_1185 ;
+	:temLegislacao :leg_1222 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Ações que visam contribuir para o conhecimento da saúde e doenças da população, os fatores que as influenciam, a decisão e a intervenção em Saúde Pública, assim como a avaliação do seu impacto na população portuguesa.
 Inicia com a identificação de necessidade para realizar a ação ou estudo e termina com a elaboração do relatório ou estudo final.
 Inclui diagnóstico de necessidade de investigação, os estudos, a monitorização e a avaliação.
@@ -1278,9 +1316,11 @@ Inclui diagnóstico de necessidade de investigação, os estudos, a monitorizaç
 	:eCruzadoCom :c800.10.607 ;
 	:eCruzadoCom :c800.20.001 ;
 	:eCruzadoCom :c800.20.002 ;
-	:temLegislacao :leg_472 ;
-	:temLegislacao :leg_692 ;
+	:temLegislacao :leg_487 ;
+	:temLegislacao :leg_711 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Constituição de bancos de produtos biológicos ou qualquer repositório de amostras biológicas ou seus derivados, com ou sem tempo delimitado de armazenamento e que inclua amostras que sejam identificadas, identificáveis, anonimizadas ou anónimas.
 Inicia com a colheita prospetiva ou material previamente colhido e termina com a sua inclusão no banco de produtos.
 Incluí a investigação desenvolvida.
@@ -1343,6 +1383,7 @@ Incluí a investigação desenvolvida.
 	:temPai :c800.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_AJ ;
 	:temDono :org_INMLCF ;
 	:temDono :org_IES ;
 	:temDono :org_Museus ;
@@ -1366,95 +1407,21 @@ Incluí a investigação desenvolvida.
 	:eCruzadoCom :c800.10.603 ;
 	:eCruzadoCom :c800.20.002 ;
 	:eCruzadoCom :c800.20.500 ;
-	:temLegislacao :leg_1128 ;
-	:temLegislacao :leg_456 ;
-	:temLegislacao :leg_781 ;
-	:temLegislacao :leg_1365 ;
+	:temLegislacao :leg_1164 ;
+	:temLegislacao :leg_471 ;
+	:temLegislacao :leg_802 ;
+	:temLegislacao :leg_1408 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Utilização de técnicas específicas de conservação de células, órgãos ou cadáveres de seres humanos, animais ou vegetais para fins de ensino, investigação ou tratamento.
 Inicia com a solicitação ou a determinação do ato de preservação e termina com o atestado de criopreservação, embalsamamento ou com a preparação da peça anatómica para fins científicos, pedagógicos ou museológicos.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_2
-:na_c800.10.610_2 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20_3
+:na_c800.20_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo " Grandezas fundamentais do Sistema Internacional de Unidades (comprimento, massa, tempo, corrente elétrica, temperatura termodinâmica, quantidade de matéria, intensidade luminosa)".
+	:conteudo "Desenvolvimento de produtos, processos, serviços, tecnologias ou ideias que estão prontamente disponíveis para os mercados, governos e sociedade,  incluindo o desenvolvimento de sistemas de informação para a Administração Pública.".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_1
-:na_c800.10.610_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Sistema Internacional de Unidades".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_3
-:na_c800.10.610_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo " Grandezas derivadas do Sistema Internacional de Unidades (área, volume, velocidade, aceleração, força, pressão, energia, potencia)".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_4
-:na_c800.10.610_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo " Metrologia fundamental (Científica ou primária)".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_5
-:na_c800.10.610_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Identificação de padrão primário, padrão secundário, padrão de referencia, padrão de transferência e padrão de trabalho".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.610_6
-:na_c800.10.610_6 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo " ".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.610_1
-:ne_c800.10.610_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A aprovação dos instrumentos de medição deve ser considerada em 450.10.648 – Reconhecimento das  características e origem de bens, produtos e serviços".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.610_2
-:ne_c800.10.610_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo " A aferição de instrumentos de medida deve ser considerada em 500.10.303 – Controlo metrológico de instrumentos de medição".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.610_3
-:ne_c800.10.610_3 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo " ".
-
-###  http://jcr.di.uminho.pt/m51-clav#c800.10.610
-:c800.10.610 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "800.10.610";
-	:titulo "Materialização, manutenção e disseminação de unidades de medida";
-	:temPai :c800.10 ;
-	:processoTipo "PE" ;
-	:processoTransversal "N" ;
-	:temDono :org_IPQ ;
-	:temNotaAplicacao :na_c800.10.610_1 ;
-	:temNotaAplicacao :na_c800.10.610_2 ;
-	:temNotaAplicacao :na_c800.10.610_3 ;
-	:temNotaAplicacao :na_c800.10.610_4 ;
-	:temNotaAplicacao :na_c800.10.610_5 ;
-	:temNotaAplicacao :na_c800.10.610_6 ;
-	:temNotaExclusao :ne_c800.10.610_1 ;
-	:temNotaExclusao :ne_c800.10.610_2 ;
-	:temNotaExclusao :ne_c800.10.610_3 ;
-	:eSintetizadoPor :c150.20.300 ;
-	:eSintetizadoPor :c300.30.008 ;
-	:eCruzadoCom :c400.10.610 ;
-	:eCruzadoCom :c450.10.648 ;
-	:eCruzadoCom :c500.10.303 ;
-	:eCruzadoCom :c800.10.601 ;
-	:eCruzadoCom :c800.10.603 ;
-	:eComplementarDe :c800.20.001 ;
-	:eComplementarDe :c800.20.002 ;
-	:temLegislacao :leg_519 ;
-	:temLegislacao :leg_132 ;
-	:temLegislacao :leg_97 ;
-	:classeStatus "A" ;
-	:descricao "Definição das grandezas físicas fundamentais (ou de base), das unidades derivadas e das unidades suplementares, de modo a assegurar a comparabilidade, a rastreabilidade e a manutenção dos padrões de medida. 
-Inicia com a identificação da necessidade, ou na sequência de planeamento e termina com a divulgação das unidades padrão. 
-Inclui identificação das constantes físicas fundamentais, realização, manutenção e desenvolvimento de padrões de unidades de medida, identificação da incerteza de medição, rastreabilidade de padrões, cálculo da grandeza e identificação de padrão. 
-
-".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.20_1
 :na_c800.20_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1464,11 +1431,6 @@ Inclui identificação das constantes físicas fundamentais, realização, manut
 :na_c800.20_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Desenvolvimento de protótipos e outras formas de mostrar uma ideia, o desempenho de um método, ou as características de um produto.".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.20_3
-:na_c800.20_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Desenvolvimento de produtos, processos, serviços, tecnologias ou ideias que estão prontamente disponíveis para os mercados, governos e sociedade,  incluindo o desenvolvimento de sistemas de informação para a Administração Pública.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c800.20_1
 :ne_c800.20_1 rdf:type owl:NamedIndividual ,
@@ -1584,20 +1546,22 @@ Inclui identificação das constantes físicas fundamentais, realização, manut
 	:eCruzadoCom :c900.10.501 ;
 	:eAntecessorDe :c900.20.201 ;
 	:eComplementarDe :c800.10.610 ;
-	:temLegislacao :leg_1088 ;
-	:temLegislacao :leg_897 ;
-	:temLegislacao :leg_896 ;
-	:temLegislacao :leg_779 ;
-	:temLegislacao :leg_778 ;
-	:temLegislacao :leg_811 ;
-	:temLegislacao :leg_498 ;
-	:temLegislacao :leg_270 ;
-	:temLegislacao :leg_235 ;
-	:temLegislacao :leg_74 ;
-	:temLegislacao :leg_68 ;
-	:temLegislacao :leg_38 ;
-	:temLegislacao :leg_27 ;
+	:temLegislacao :leg_1122 ;
+	:temLegislacao :leg_921 ;
+	:temLegislacao :leg_920 ;
+	:temLegislacao :leg_800 ;
+	:temLegislacao :leg_799 ;
+	:temLegislacao :leg_833 ;
+	:temLegislacao :leg_513 ;
+	:temLegislacao :leg_282 ;
+	:temLegislacao :leg_247 ;
+	:temLegislacao :leg_79 ;
+	:temLegislacao :leg_73 ;
+	:temLegislacao :leg_42 ;
+	:temLegislacao :leg_31 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Contempla um processo de pesquisa vocacionado para responder a hipóteses de investigação a fim de produzir conhecimento original puro ou orientado a uma estratégia, identificada na sequência do conhecimento puro.
 Criação de um processo de pesquisa orientado para a obtenção de conhecimentos fundamentais para um produto ou objetivo prático específico. 
 Inicia com a apresentação de uma candidatura ou de um projeto de investigação e termina com a divulgação do resultado.
@@ -1681,32 +1645,34 @@ Inclui apresentação de relatórios de progresso e final.".
 	:eCruzadoCom :c850.10.601 ;
 	:eCruzadoCom :c900.10.501 ;
 	:eComplementarDe :c800.10.610 ;
-	:temLegislacao :leg_1007 ;
-	:temLegislacao :leg_779 ;
-	:temLegislacao :leg_236 ;
+	:temLegislacao :leg_1034 ;
+	:temLegislacao :leg_800 ;
+	:temLegislacao :leg_248 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Otimização de um produto ou de um objetivo prático específico, anteriormente estudado, assente nos pressupostos teóricos da investigação básica. 
 Inicia com a seleção de um objeto de investigação e termina com a divulgação do resultado.
 Inclui apresentação de relatórios de progresso e final.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_2
-:na_c800.20.500_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Desenvolvimento de aplicações".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_1
 :na_c800.20.500_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "O desenvolvimento experimental visa obter vantagens económicas ou sociais".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_4
-:na_c800.20.500_4 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_2
+:na_c800.20.500_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo " Desenvolvimento de novos materiais".
+	:conteudo "Desenvolvimento de aplicações".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_3
 :na_c800.20.500_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo " Desenvolvimento de instrumentação nuclear".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_4
+:na_c800.20.500_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo " Desenvolvimento de novos materiais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_5
 :na_c800.20.500_5 rdf:type owl:NamedIndividual ,
@@ -1783,10 +1749,12 @@ Inclui apresentação de relatórios de progresso e final.".
 	:eCruzadoCom :c850.10.600 ;
 	:eCruzadoCom :c850.10.601 ;
 	:eCruzadoCom :c900.10.501 ;
-	:temLegislacao :leg_1007 ;
-	:temLegislacao :leg_779 ;
-	:temLegislacao :leg_236 ;
+	:temLegislacao :leg_1034 ;
+	:temLegislacao :leg_800 ;
+	:temLegislacao :leg_248 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Replicação do conhecimento obtido na investigação realizada e na experiência prática (prova de conceito), visando melhorar substancialmente ou desenvolver produtos, modelos, programas, métodos, procedimentos e serviços, novos ou existentes.
 Inicia com a apresentação de um projeto de desenvolvimento e termina com a conclusão do desenvolvimento.
 Inclui a definição de uma metodologia, requisitos, parâmetros ou processos e a sua validação, prototipagem.

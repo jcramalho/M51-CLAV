@@ -1,9 +1,4 @@
 ### Classe600
-###  http://jcr.di.uminho.pt/m51-clav#na_c600_1
-:na_c600_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Todas as entidades que participam nos processos de administração da justiça, independentemente da sua participação ser ativa ou passiva".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c600
 :c600 rdf:type owl:NamedIndividual ,
 	:Classe_N1;
@@ -14,6 +9,11 @@
 	:classeStatus "A" ;
 	:descricao "Relativo às atividades diretamente relacionadas com o acesso à justiça, sejam elas no âmbito da competência específica das autoridades administrativas e/ou da respetiva interação com as autoridades judiciárias.
 Compreende toda a resolução de litígios pela via administrativa, judicial ou por formas alternativas, bem como a aplicação de sanções, de penas e de medidas cautelares, em qualquer tipo de ilícito.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c600_1
+:na_c600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Todas as entidades que participam nos processos de administração da justiça, independentemente da sua participação ser ativa ou passiva".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c600.10_1
 :ne_c600.10_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -1039,6 +1039,11 @@ Inclui citações e notificações das partes, contestações, reconvenção qua
 	:temPai :c600.20.001 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com a entrega da petição inicial e termina com a realização da audiência. Inclui todos os articulados, audiências e demais decisões que não sejam sentenças ou acórdãos bem como todos os atos e diligências da secretaria.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.20.300_1
+:na_c600.20.300_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Resolução de conflitos no âmbito das relações familiares previstas no artigo 4.º do Despacho 18778/2007, publicado no DR II Série, de 22 de agosto de 2007".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c600.20.001.02
 :c600.20.001.02 rdf:type owl:NamedIndividual ,
 	:Classe_N4;
@@ -1047,11 +1052,6 @@ Inclui citações e notificações das partes, contestações, reconvenção qua
 	:temPai :c600.20.001 ;
 	:classeStatus "A" ;
 	:descricao "Prolação da sentença no julgado de paz.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.20.300_1
-:na_c600.20.300_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Resolução de conflitos no âmbito das relações familiares previstas no artigo 4.º do Despacho 18778/2007, publicado no DR II Série, de 22 de agosto de 2007".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c600.20.300
 :c600.20.300 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -2512,6 +2512,11 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:NotaExclusao ;
 	:conteudo "Não se aplica quando seja da competência exclusiva do conservador do registo civil ao abrigo do DL 272/2001, de 13 de outubro, na versão do DL 122/2013, de 26 de agosto.".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.284_1
+:na_c600.30.284_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Se constituir incidente ou dependência de ação prévia, inicia-se no tribunal como apenso do processo já existente".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c600.30.283
 :c600.30.283 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -2533,11 +2538,6 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:processoDimQual "Média" ;
 	:processoUniform "S" ;
 	:descricao "Processso especial de jurisdição voluntária quando exista a necessidade de se providenciar sobre alimentos a filhos maiores ou emancipados e não houver completado a sua formação. Começa com a remessa do processo que se deu entrada na conservatória do registo civil, por aí não ter sido possível alcançar acordo no seguimento da dedução de oposição, seguindo-se o regime previsto para o processo comum e para os processos de jurisdição voluntária.Termina com a decisão e elaboração da conta. Inclui eventual recurso.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.284_1
-:na_c600.30.284_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Se constituir incidente ou dependência de ação prévia, inicia-se no tribunal como apenso do processo já existente".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c600.30.284_1
 :ne_c600.30.284_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -2832,6 +2832,11 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:processoDimQual "Média" ;
 	:processoUniform "S" ;
 	:descricao "Ações declarativas de natureza laboral que tenham por fundamento a existência ou invocação de um contrato de trabalho e em que se pretenda a efetivação de direitos derivados do próprio vínculo ou da sua cessação. Começa com uma tentativa de conciliação que, frustrando-se, leva ao prosseguimento da ação com a prolação de despacho liminar, audiência de partes e, na falta de acordo, é o réu notificado para contestar. Seguem-se os restantes articulados, saneamento do processo, audiência preliminar quando a complexidade da causa o justifique, e julgamento.  Termina com a sentença e elaboração de conta. Inclui eventual recurso.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.302_1
+:na_c600.30.302_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Findo o processo, pode o sinistrado ou a entidade responsável requerer incidente de revisão da incapacidade".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c600.30.301
 :c600.30.301 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -2851,11 +2856,6 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 Inicia-se com o formulário que apresenta em juízo, após o que é designada data para a audiência de partes e, inexistindo acordo das partes, é o empregador notificado para apresentar o articulado fundamentador do despedimento, bem como o procedimento conducente a uma das citadas formas de extinção do vínculo.
 Ao referido articulado poderá o trabalhador responder, reclamando os créditos emergentes quer da execução do contrato, quer da sua cessação.
 Inexistindo acordo em qualquer fase do processo, termina com a sentença e elaboração da conta. Inclui eventual recurso.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.302_1
-:na_c600.30.302_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Findo o processo, pode o sinistrado ou a entidade responsável requerer incidente de revisão da incapacidade".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c600.30.302
 :c600.30.302 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -5269,15 +5269,15 @@ Inclui ainda a elaboração de um plano de trabalhos a executar, a colocação n
 Inicia com um pedido do tribunal e termina com a extinção da pena ou  medida
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_1
-:na_c600.40.303_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Privação do direito de conduzir ciclomotores ou de obter permissão para conduzir ciclomotores".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_2
 :na_c600.40.303_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reparação ao ofendido".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_1
+:na_c600.40.303_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Privação do direito de conduzir ciclomotores ou de obter permissão para conduzir ciclomotores".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_3
 :na_c600.40.303_3 rdf:type owl:NamedIndividual ,

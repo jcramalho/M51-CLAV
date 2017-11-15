@@ -267,14 +267,17 @@ Compreende, igualmente, a elaboração ou colaboração na elaboração de norma
 	:eAntecessorDe :c150.20.501 ;
 	:eAntecessorDe :c900.20.201 ;
 	:eCruzadoCom :c150.10.700 ;
-	:temLegislacao :leg_480 ;
-	:temLegislacao :leg_1174 ;
-	:temLegislacao :leg_1227 ;
-	:temLegislacao :leg_214 ;
+	:temLegislacao :leg_495 ;
+	:temLegislacao :leg_1211 ;
+	:temLegislacao :leg_1416 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_226 ;
 	:classeStatus "A" ;
 	:exemploNA "Código da Estrada" ;
 	:exemploNA "Código Civil" ;
 	:exemploNA "Regime de acesso à informação administrativa e ambiental e de reutilização dos documentos administrativos" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Elaboração ou participação na elaboração de atos legislativos conduzidos por iniciativa das autoridades competentes para a definição do regime jurídico aplicável.
 Inicia com a apresentação de um projeto acompanhado dos documentos que o fundamentam e justificam à entidade com competência para legislar e termina com a respetiva publicação ou publicitação.
 Inclui verificação jurídica, apreciação, discussão e votação conducentes à elaboração do texto final, aprovação da iniciativa, ratificação pelas entidades competentes e promulgação.".
@@ -283,15 +286,15 @@ Inclui verificação jurídica, apreciação, discussão e votação conducentes
 	:NotaAplicacao ;
 	:conteudo "Aprovação, ratificação e publicação de convenções internacionais".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.002_2
-:na_c100.10.002_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Avisos respeitantes às convenções internacionais e relativos a outros Estados contratantes".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.002_3
 :na_c100.10.002_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Depósito de diploma em entidade designada para efeitos da vinculação do Estado português e dos seus termos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.002_2
+:na_c100.10.002_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Avisos respeitantes às convenções internacionais e relativos a outros Estados contratantes".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.002_4
 :na_c100.10.002_4 rdf:type owl:NamedIndividual ,
@@ -327,11 +330,14 @@ Inclui verificação jurídica, apreciação, discussão e votação conducentes
 	:eSucessorDe :c200.10.800 ;
 	:eAntecessorDe :c550.30.601 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_480 ;
-	:temLegislacao :leg_1174 ;
-	:temLegislacao :leg_1227 ;
-	:temLegislacao :leg_214 ;
+	:temLegislacao :leg_495 ;
+	:temLegislacao :leg_1211 ;
+	:temLegislacao :leg_1416 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_226 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Manifestação do consentimento à vinculação nacional de convenções (tratados e acordos) internacionais, entrando no ordenamento jurídico português.
 Inicia com a necessidade ou vontade de vinculação e termina com a publicação.
 Inclui a aprovação parlamentar ou governamental, através de resolução ou decreto, respetivamente, a vinculação internacional mediante assinatura ou ratificação presidencial e a comunicação dos avisos de depósito de instrumento de vinculação ou outros respeitantes às convenções.
@@ -379,9 +385,11 @@ Inclui a aprovação parlamentar ou governamental, através de resolução ou de
 	:eSinteseDe :c600.30.703 ;
 	:eSinteseDe :c600.30.712 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_480 ;
-	:temLegislacao :leg_1021 ;
+	:temLegislacao :leg_495 ;
+	:temLegislacao :leg_1050 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Declaração de inconstitucionalidade ou outras decisões de Tribunais, a que a lei confira força obrigatória geral.
 Inicia com o envio aos órgãos competentes e termina com a publicação.
 
@@ -469,13 +477,16 @@ Inicia com o envio aos órgãos competentes e termina com a publicação.
 	:eComplementarDe :c150.10.600 ;
 	:eCruzadoCom :c150.20.700 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_480 ;
-	:temLegislacao :leg_1174 ;
-	:temLegislacao :leg_1227 ;
-	:temLegislacao :leg_214 ;
+	:temLegislacao :leg_495 ;
+	:temLegislacao :leg_1211 ;
+	:temLegislacao :leg_1416 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_226 ;
 	:classeStatus "A" ;
 	:exemploNA "Decreto Regulamentar que aprova o Plano da Bacia Hidrográfica do Guadiana" ;
 	:exemploNA "Decreto Regulamentar que classifica como monumento natural as Portas de Rodão" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Elaboração e formalização de regulamentos gerais, que se destinam a vigorar em todo o território nacional, em todo o território do continente ou em todo o território de uma região autónoma.
 Inicia com a apresentação do projeto de regulamentação da lei, de criação de regulamento independente ou autónomo destinado à boa execução das leis, ou de alteração de regulamentos existentes e termina com a aprovação final ou ratificação pelos órgãos competentes e consequente publicitação.
 Inclui verificação jurídica e apreciação.".
@@ -555,14 +566,16 @@ Inclui verificação jurídica e apreciação.".
 	:eCruzadoCom :c150.10.700 ;
 	:eCruzadoCom :c150.10.701 ;
 	:eAntecessorDe :c900.20.201 ;
-	:temLegislacao :leg_274 ;
-	:temLegislacao :leg_112 ;
+	:temLegislacao :leg_286 ;
+	:temLegislacao :leg_118 ;
 	:classeStatus "A" ;
 	:exemploNA "Plano Diretor Municipal" ;
 	:exemploNA "Regulamento Municipal de Toponímia e Numeração de Polícia" ;
 	:exemploNA "Regulamento de Horários de Funcionamento dos Estabelecimentos Comerciais na área do Município" ;
 	:exemploNA "Regulamento Municipal de Publicidade" ;
 	:exemploNA "Plano de Circulação do Município" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Elaboração e formalização de atos regulamentares que têm o seu domínio de aplicação limitado ao território sob a jurisdição de uma autarquia local.
 Inicia com a apresentação do projeto de regulamento ou de atualização de regulamento e termina com a aprovação pelos órgãos territorialmente competentes, eventual ratificação, e consequente publicitação.
 Inclui verificação jurídica e apreciação.
@@ -694,20 +707,20 @@ Inclui verificação jurídica e apreciação.
 	:temNotaExclusao :ne_c100.10.600_3 ;
 	:temNotaExclusao :ne_c100.10.600_4 ;
 	:temNotaExclusao :ne_c100.10.600_5 ;
-	:temRelProc :c100.10.001 ;
-	:temRelProc :c100.10.200 ;
-	:temRelProc :c100.10.400 ;
-	:temRelProc :c150.10.700 ;
-	:temRelProc :c150.10.701 ;
-	:temRelProc :c150.20.001 ;
-	:temRelProc :c150.20.500 ;
-	:temRelProc :c150.20.501 ;
-	:temRelProc :c250.30.001 ;
-	:temRelProc :c900.20.201 ;
-	:temLegislacao :leg_480 ;
-	:temLegislacao :leg_1279 ;
-	:temLegislacao :leg_981 ;
-	:temLegislacao :leg_615 ;
+	:eComplementarDe :c100.10.001 ;
+	:eComplementarDe :c100.10.200 ;
+	:eComplementarDe :c100.10.400 ;
+	:eCruzadoCom :c150.10.700 ;
+	:eCruzadoCom :c150.10.701 ;
+	:eSinteseDe :c150.20.001 ;
+	:eAntecessorDe :c150.20.500 ;
+	:eComplementarDe :c150.20.501 ;
+	:eComplementarDe :c250.30.001 ;
+	:eAntecessorDe :c900.20.201 ;
+	:temLegislacao :leg_495 ;
+	:temLegislacao :leg_1321 ;
+	:temLegislacao :leg_1007 ;
+	:temLegislacao :leg_631 ;
 	:classeStatus "A" ;
 	:exemploNA "Despacho de delegação de competências" ;
 	:exemploNA "Regimentos da Assembleia da República, do Conselho de Estado e das Assembleias Legislativas das Regiões Autónomas" ;
@@ -720,6 +733,8 @@ Inclui verificação jurídica e apreciação.
 	:exemploNA "Regulamentos relativos a serviços" ;
 	:exemploNA "Regulamentos relativos à área académica: acesso e ingresso no ensino superior, avaliação de conhecimentos e aproveitamento, faltas, vigilância de provas, estatutos especiais, emolumentos, propinas, estágio, creditação, estudante internacional" ;
 	:exemploNA "Regulamentos relativos a concursos/prémios" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Elaboração e formalização de atos regrantes do funcionamento de uma instituição.
 Inicia com a apresentação do projeto de regra, quando houver lugar ao mesmo, e termina com a sua publicitação ou comunicação direta aos visados.
 Inclui verificação jurídica e apreciação.
@@ -778,14 +793,16 @@ Inclui verificação jurídica e apreciação.
 	:temNotaAplicacao :na_c100.10.800_3 ;
 	:temNotaAplicacao :na_c100.10.800_4 ;
 	:temNotaAplicacao :na_c100.10.800_5 ;
-	:temRelProc :c100.20.400 ;
-	:temRelProc :c150.10.700 ;
-	:temRelProc :c150.10.701 ;
-	:temRelProc :c900.20.201 ;
-	:temLegislacao :leg_990 ;
-	:temLegislacao :leg_1129 ;
+	:eAntecessorDe :c100.20.400 ;
+	:eCruzadoCom :c150.10.700 ;
+	:eCruzadoCom :c150.10.701 ;
+	:eAntecessorDe :c900.20.201 ;
+	:temLegislacao :leg_1016 ;
+	:temLegislacao :leg_1165 ;
 	:classeStatus "A" ;
 	:exemploNA "Normas STANAG" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Elaboração (formalização e estabelecimento de  prescrições) de  disposições destinadas à utilização comum e repetida, visando a obtenção de normas técnicas, ações e procedimentos normalizados num dado contexto, podendo revestir a forma de norma padrão (standard), isto é norma técnica que foi adotada \"de facto\", sem necessariamente ter havido uma ratificação formal, ou de norma produzida por um órgão oficialmente acreditado para tal (norma \"de jure\").
 Inicia com a identificação da necessidade (da norma técnica) do documento normativo e termina com o envio para publicação e publicitação.
 Inclui  elaboração de pareceres  técnicos especializados na área, redação dos documentos, traduções técnicas e elaboração de projetos de documentos normativos, com consulta nacional e europeia incluindo  consulta às entidades reguladoras, análise dos contributos recebidos, elaboração/redação final do  documento normativo.".
@@ -836,11 +853,14 @@ Compreende, igualmente, os acórdãos de uniformização de jurisprudência emit
 	:eComplementarDe :c100.10.200 ;
 	:eComplementarDe :c100.10.400 ;
 	:eSucessorDe :c150.20.001 ;
-	:temLegislacao :leg_2 ;
-	:temLegislacao :leg_211 ;
-	:temLegislacao :leg_1389 ;
-	:temLegislacao :leg_846 ;
+	:temLegislacao :leg_6 ;
+	:temLegislacao :leg_263 ;
+	:temLegislacao :leg_223 ;
+	:temLegislacao :leg_1434 ;
+	:temLegislacao :leg_868 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Elaboração de parecer de interpretação de diplomas jurídico-normativos de forma abstrata e geral, podendo ser válida para a decisão de casos concretos.
 Inicia com o pedido e termina com a entrega do parecer técnico-jurídico.
 Inclui trabalhos de consulta de elementos e fundamentação do parecer.".
@@ -882,6 +902,8 @@ Inclui trabalhos de consulta de elementos e fundamentação do parecer.".
 	:eComplementarDe :c100.10.400 ;
 	:classeStatus "A" ;
 	:exemploNA "Pauta de serviço (Pauta Aduaneira)" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Elaboração e divulgação de instruções gerais, emitidas por entidades de coordenação setorial acerca do sentido como devem ser entendidas determinadas normas ou princípios jurídicos, que a essas entidades cabe interpretar ou integrar.
 Inicia com a identificação da necessidade de emissão de instruções para aplicação de normas e termina com a comunicação aos órgãos e agentes responsáveis pela aplicação das instruções.
 Inclui, quando devido, elaboração de diversos esquemas sintetizadores para mais fácil apreensão das regras instituídas e elaboração de orientações práticas para a aplicação da regra.".
@@ -913,9 +935,11 @@ Inclui, quando devido, elaboração de diversos esquemas sintetizadores para mai
 	:temNotaAplicacao :na_c100.20.400_1 ;
 	:temNotaAplicacao :na_c100.20.400_2 ;
 	:eComplementarDe :c100.10.800 ;
-	:temLegislacao :leg_800 ;
+	:temLegislacao :leg_822 ;
 	:classeStatus "A" ;
 	:exemploNA "Produção de FAQ’s (Frequently Asked Questions)" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Elaboração e comunicação de orientações para a explicitação dos conteúdos das normas técnicas.
 Inicia com a necessidade ou vontade de emitir uma interpretação da norma e termina com a entrega da orientação.
 Inclui consulta de elementos e fundamentação do proposto.".
@@ -937,10 +961,11 @@ Inclui consulta de elementos e fundamentação do proposto.".
 	:temDono :org_STA ;
 	:temDono :org_STJ ;
 	:temNotaAplicacao :na_c100.20.600_1 ;
-	:temRelProc :c600.30 ;
-	:temLegislacao :leg_70 ;
-	:temLegislacao :leg_1111 ;
+	:temLegislacao :leg_75 ;
+	:temLegislacao :leg_1146 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Produção e comunicação de orientação jurisprudencial uniformizada, sem força vinculativa. 
 Inicia com o pedido para decisão quando relativamente à mesma questão de direito sejam proferidas soluções opostas e termina com a publicação da decisão.
 Inclui conferência para admissibilidade do pedido, alegações, julgamento e proferição do acórdão.".

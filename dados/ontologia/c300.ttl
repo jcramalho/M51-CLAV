@@ -136,31 +136,33 @@ Compreende, igualmente, a contratualização e a gestão de contratos de serviç
 	:eSuplementoPara :c500.10.301 ;
 	:eAntecessorDe :c500.30.002 ;
 	:eAntecessorDe :c500.30.003 ;
-	:temLegislacao :leg_1311 ;
-	:temLegislacao :leg_1279 ;
-	:temLegislacao :leg_388 ;
-	:temLegislacao :leg_661 ;
-	:temLegislacao :leg_1001 ;
-	:temLegislacao :leg_1005 ;
-	:temLegislacao :leg_940 ;
-	:temLegislacao :leg_969 ;
-	:temLegislacao :leg_669 ;
-	:temLegislacao :leg_933 ;
-	:temLegislacao :leg_417 ;
-	:temLegislacao :leg_931 ;
+	:temLegislacao :leg_1354 ;
+	:temLegislacao :leg_1321 ;
+	:temLegislacao :leg_403 ;
+	:temLegislacao :leg_677 ;
+	:temLegislacao :leg_1028 ;
+	:temLegislacao :leg_1032 ;
+	:temLegislacao :leg_964 ;
+	:temLegislacao :leg_994 ;
+	:temLegislacao :leg_685 ;
+	:temLegislacao :leg_957 ;
+	:temLegislacao :leg_432 ;
+	:temLegislacao :leg_955 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Aquisição da execução ou, conjuntamente, da conceção e execução de projetos de infraestrutura não crítica para servir a sociedade, mediante um preço.
 Inicia com a proposta de aquisição e termina com a confirmação da receção definitiva do bem.
 Inclui elaboração de caderno de encargos, autorização, receção e avaliação de propostas, comprovativo de cabimentação, decisão e contratualização da adjudicação, verificação do cumprimento das cláusulas contratualizadas, verificação da conformidade da caução e informação para a liberação de caução, resolução ou revogação de contrato, quando aplicável. ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.002_1
-:na_c300.10.002_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Abastecimento e distribuição de água potável para consumo humano".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.002_2
 :na_c300.10.002_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Fornecimento de energia elétrica".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.002_1
+:na_c300.10.002_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Abastecimento e distribuição de água potável para consumo humano".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.002_3
 :na_c300.10.002_3 rdf:type owl:NamedIndividual ,
@@ -216,15 +218,17 @@ Inclui elaboração de caderno de encargos, autorização, receção e avaliaç�
 	:eAntecessorDe :c500.30.002 ;
 	:eAntecessorDe :c500.30.003 ;
 	:eAntecessorDe :c800.10.601 ;
-	:temLegislacao :leg_1279 ;
-	:temLegislacao :leg_661 ;
-	:temLegislacao :leg_1001 ;
-	:temLegislacao :leg_174 ;
-	:temLegislacao :leg_694 ;
-	:temLegislacao :leg_700 ;
-	:temLegislacao :leg_944 ;
-	:temLegislacao :leg_1125 ;
+	:temLegislacao :leg_1321 ;
+	:temLegislacao :leg_677 ;
+	:temLegislacao :leg_1028 ;
+	:temLegislacao :leg_184 ;
+	:temLegislacao :leg_713 ;
+	:temLegislacao :leg_719 ;
+	:temLegislacao :leg_969 ;
+	:temLegislacao :leg_1161 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Aquisição da prestação de serviços públicos básicos e universais ao bem-estar das pessoas, singulares ou coletivas, públicas ou privadas, de forma permanente ou eventual.
 Inicia com o acordo que vincula as partes nas suas obrigações e direitos e termina com a extinção da prestação de serviços.
 Inclui recolha de elementos para celebração do contrato, alterações e aditamentos, e acompanhamento do contrato.".
@@ -233,35 +237,35 @@ Inclui recolha de elementos para celebração do contrato, alterações e aditam
 	:NotaAplicacao ;
 	:conteudo "Alienação de imóvel urbano e de imóvel rural".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.003_2
-:na_c300.10.003_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Aquisição ou alienação de bens imóveis através de cessão de posição contratual".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.003_3
 :na_c300.10.003_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Aquisição ou alienação de bens imóveis através de dação em cumprimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.003_2
+:na_c300.10.003_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Aquisição ou alienação de bens imóveis através de cessão de posição contratual".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.003_4
 :na_c300.10.003_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Aquisição ou alienação de bens imóveis decorrente do exercício do direito de preferência".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.003_6
-:na_c300.10.003_6 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.003_5
+:na_c300.10.003_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Transmissão de imóvel por herança, legado ou doação".
+	:conteudo "Aquisição ou alienação de bens imóveis culturais e não culturais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.003_7
 :na_c300.10.003_7 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Transmissão de imóvel por expropriação".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.003_5
-:na_c300.10.003_5 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.003_6
+:na_c300.10.003_6 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Aquisição ou alienação de bens imóveis culturais e não culturais".
+	:conteudo "Transmissão de imóvel por herança, legado ou doação".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c300.10.003_1
 :ne_c300.10.003_1 rdf:type owl:NamedIndividual ,
@@ -302,13 +306,15 @@ Inclui recolha de elementos para celebração do contrato, alterações e aditam
 	:eSuplementoPara :c500.10.301 ;
 	:eAntecessorDe :c500.30.002 ;
 	:eAntecessorDe :c500.30.003 ;
-	:temLegislacao :leg_710 ;
-	:temLegislacao :leg_686 ;
-	:temLegislacao :leg_578 ;
-	:temLegislacao :leg_359 ;
-	:temLegislacao :leg_317 ;
-	:temLegislacao :leg_229 ;
+	:temLegislacao :leg_729 ;
+	:temLegislacao :leg_705 ;
+	:temLegislacao :leg_594 ;
+	:temLegislacao :leg_375 ;
+	:temLegislacao :leg_331 ;
+	:temLegislacao :leg_241 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Aquisição ou alienação do direito de propriedade e de outros direitos reais sobre bens imóveis, de forma onerosa ou gratuita, por contrato, expropriação, sucessão, usucapião e pelas demais formas previstas na lei.
 Inicia, quando aplicável, com a proposta de aquisição ou de alienação do imóvel e termina com a receção ou entrega.
 Inclui, de acordo com a forma de transmissão do direito, avaliação e negociação das condições contratuais, adjudicação da proposta, celebração do contrato, quando este seja celebrado por documento particular e resolução ou revogação de contrato, aceitação da herança, do legado ou da doação, bem como das suas condições ou encargos, celebração da promessa de aquisição do direito.".
@@ -371,15 +377,17 @@ Inclui, de acordo com a forma de transmissão do direito, avaliação e negocia�
 	:eSuplementoPara :c500.10.301 ;
 	:eAntecessorDe :c500.30.002 ;
 	:eAntecessorDe :c500.30.003 ;
-	:temLegislacao :leg_1184 ;
-	:temLegislacao :leg_1091 ;
-	:temLegislacao :leg_498 ;
-	:temLegislacao :leg_1088 ;
-	:temLegislacao :leg_444 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_64 ;
-	:temLegislacao :leg_42 ;
+	:temLegislacao :leg_1221 ;
+	:temLegislacao :leg_1125 ;
+	:temLegislacao :leg_513 ;
+	:temLegislacao :leg_1122 ;
+	:temLegislacao :leg_459 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_69 ;
+	:temLegislacao :leg_46 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Aquisição e alienação do direito de propriedade e de outros direitos reais sobre bens móveis culturais, de forma onerosa ou gratuita, por contrato, expropriação, sucessão, usucapião e pelas demais formas previstas na lei.
 Inicia, quando devido, com a proposta de aquisição ou de alienação do bem móvel cultural e termina com a declaração de receção ou entrega do bem.
 Inclui, de acordo com a forma de transmissão do direito, avaliação e negociação das condições contratuais, adjudicação da proposta, celebração do contrato e resolução ou a revogação de contrato, aceitação da herança, do legado ou da doação, bem como das suas condições ou encargos e celebração da promessa de aquisição do direito e elaboração de guia de remessa dos bens trasacionados, quando devido. ".
@@ -503,15 +511,17 @@ Inclui, de acordo com a forma de transmissão do direito, avaliação e negocia�
 	:eSuplementoPara :c500.10.001 ;
 	:eCruzadoCom :c500.10.002 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1279 ;
-	:temLegislacao :leg_940 ;
-	:temLegislacao :leg_661 ;
-	:temLegislacao :leg_1001 ;
-	:temLegislacao :leg_814 ;
-	:temLegislacao :leg_1211 ;
+	:temLegislacao :leg_1321 ;
+	:temLegislacao :leg_964 ;
+	:temLegislacao :leg_677 ;
+	:temLegislacao :leg_1028 ;
+	:temLegislacao :leg_836 ;
+	:temLegislacao :leg_1253 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Aquisição ou alienação do direito de propriedade ou de outros direitos reais sobre bens móveis, de forma onerosa ou gratuita, por contrato, expropriação, sucessão, usucapião e pelas demais formas previstas na lei, e aquisição e venda de serviços.
-Inicia com a proposta de aquisição ou de alienação do bem móvel ou do serviço e termina com a receção ou entrega do bem ou do resultado do serviço prestado.
+Inicia com a proposta de aquisição ou de alienação do bem móvel ou do serviço e termina com a confirmação da receção ou entrega do bem ou do resultado do serviço prestado.
 Inclui, dependendo da sujeição do procedimento de contratação ao Código dos Contratos Públicos, decisão de contratar, escolha do procedimento, designação do júri, avaliação e negociação das propostas, adjudicação, verificação dos documentos de habilitação do adjudicatário, verificação da conformidade da caução, celebração e alteração do contrato, acompanhamento da sua execução e resolução ou revogação de contrato.
 Pode incluir, ainda, dependendo da forma de transmissão do direito, aceitação da herança, do legado ou da doação, bem como das suas condições ou encargos e celebração da promessa de aquisição do direito.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.006_1
@@ -572,19 +582,23 @@ Pode incluir, ainda, dependendo da forma de transmissão do direito, aceitação
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eAntecessorDe :c900.10.001 ;
-	:temLegislacao :leg_1315 ;
-	:temLegislacao :leg_374 ;
-	:temLegislacao :leg_582 ;
-	:temLegislacao :leg_589 ;
-	:temLegislacao :leg_679 ;
-	:temLegislacao :leg_696 ;
-	:temLegislacao :leg_57 ;
-	:temLegislacao :leg_56 ;
-	:temLegislacao :leg_118 ;
-	:temLegislacao :leg_445 ;
-	:temLegislacao :leg_531 ;
-	:temLegislacao :leg_696 ;
+	:temLegislacao :leg_1358 ;
+	:temLegislacao :leg_390 ;
+	:temLegislacao :leg_598 ;
+	:temLegislacao :leg_605 ;
+	:temLegislacao :leg_697 ;
+	:temLegislacao :leg_715 ;
+	:temLegislacao :leg_62 ;
+	:temLegislacao :leg_61 ;
+	:temLegislacao :leg_124 ;
+	:temLegislacao :leg_199 ;
+	:temLegislacao :leg_200 ;
+	:temLegislacao :leg_460 ;
+	:temLegislacao :leg_547 ;
+	:temLegislacao :leg_715 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Aquisição ou alienação, onerosa ou não onerosa, de direitos de autor ou de direitos de propriedade industrial, sobre bens ou conhecimento técnico e científico.
 Inicia com a proposta de aquisição e termina com a confirmação da transmissão dos direitos sobre o bem ou o conhecimento.
 Inclui, no caso da transferência de conhecimento, criação, organização e disseminação do conhecimento, assegurando a sua disponibilização a terceiros e, no caso de transferência de tecnologia, transmissão de resultados de investigação de uma organização para outra, com o objetivo de desenvolvimento posterior ou comercialização.".
@@ -629,15 +643,17 @@ Inclui, no caso da transferência de conhecimento, criação, organização e di
 	:eSintetizadoPor :c400.30.001 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1111 ;
-	:temLegislacao :leg_1016 ;
-	:temLegislacao :leg_1037 ;
-	:temLegislacao :leg_433 ;
-	:temLegislacao :leg_565 ;
-	:temLegislacao :leg_499 ;
-	:temLegislacao :leg_432 ;
-	:temLegislacao :leg_63 ;
+	:temLegislacao :leg_1146 ;
+	:temLegislacao :leg_1045 ;
+	:temLegislacao :leg_1066 ;
+	:temLegislacao :leg_448 ;
+	:temLegislacao :leg_581 ;
+	:temLegislacao :leg_514 ;
+	:temLegislacao :leg_447 ;
+	:temLegislacao :leg_68 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Aquisição ou alienação de posições patrimoniais, ativos e passivos, formalizado por ato de fé pública.
 Inicia com a proposta de aquisição ou transmissão por falecimento de um sócio e termina com o reconhecimento expresso perante a sociedade.
 Inclui o expresso consentimento dos sócios e atualização do Registo Comercial.".
@@ -675,11 +691,13 @@ Inclui o expresso consentimento dos sócios e atualização do Registo Comercial
 	:eCruzadoCom :c350.30.001 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eCruzadoCom :c700.10.001 ;
-	:temLegislacao :leg_1095 ;
-	:temLegislacao :leg_49 ;
-	:temLegislacao :leg_469 ;
-	:temLegislacao :leg_629 ;
+	:temLegislacao :leg_1130 ;
+	:temLegislacao :leg_53 ;
+	:temLegislacao :leg_484 ;
+	:temLegislacao :leg_645 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Celebração de um contrato (convenção) com entidade privada para prestação de determinado serviço na área da saúde.
 Inicia com a proposta de seleção da modalidade de procedimento: a) convenção específica ou b) adesão ao clausulado-tipo e termina com a celebração da convenção e registo no Registo de Prestadores Convencionados.
 Inclui audição de entidades envolvidas, análise de idoneidade da entidade e negociação de preços.
@@ -741,14 +759,16 @@ Inclui audição de entidades envolvidas, análise de idoneidade da entidade e n
 	:eSintetizadoPor :c300.30.005 ;
 	:eSintetizadoPor :c400.10.406 ;
 	:eSintetizadoPor :c400.10.407 ;
-	:temLegislacao :leg_1105 ;
-	:temLegislacao :leg_578 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_307 ;
-	:temLegislacao :leg_15 ;
-	:temLegislacao :leg_1220 ;
-	:temLegislacao :leg_1295 ;
+	:temLegislacao :leg_1140 ;
+	:temLegislacao :leg_594 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_320 ;
+	:temLegislacao :leg_19 ;
+	:temLegislacao :leg_1262 ;
+	:temLegislacao :leg_1338 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Gozo dos comproprietários, do Estado, das Regiões Autónomas e dos Municípios, pela ordem indicada, do direito de preferência em caso de venda direta ou hasta pública, ou dação em pagamento de bens classificados ou em vias de classificação, ou dos bens situados na respetiva zona de proteção.
 Inicia com a comunicação de um particular ou de uma entidade pública da sua intenção de vender um bem e termina com a comunicação da decisão pela entidade competente, de exercer, ou não, esse direito, ou pela caducidade do mesmo por ausência de resposta.
 Inclui apreciação e decisão sobre ação subsequente de aquisição.".
@@ -779,6 +799,8 @@ Inclui apreciação e decisão sobre ação subsequente de aquisição.".
 	:eSintetizadoPor :c150.20.300 ;
 	:eCruzadoCom :c350.30.001 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Aquisição e extinção de direitos de associado, aderente ou membro.
 Inicia com a manifestação da vontade de adesão e termina com a cessação.
 Inclui a inscrição e eventual cancelamento da inscrição.".
@@ -835,13 +857,15 @@ Inclui a inscrição e eventual cancelamento da inscrição.".
 	:eSintetizadoPor :c400.10.409 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_940 ;
-	:temLegislacao :leg_87 ;
-	:temLegislacao :leg_948 ;
-	:temLegislacao :leg_739 ;
+	:temLegislacao :leg_964 ;
+	:temLegislacao :leg_92 ;
+	:temLegislacao :leg_973 ;
+	:temLegislacao :leg_758 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Aquisição e alienação de bens e serviços para áreas estratégicas e de defesa e segurança, nomeadamente bens e tecnologias críticas, empreitadas de obras públicas para infraestruturas em setores sensíveis, como a energia, os transportes, o abastecimento de água.
-Inicia com a proposta de aquisição ou de alienação do bem móvel ou do serviço e termina com a receção ou entrega do bem ou do resultado do serviço prestado.
+Inicia com a proposta de aquisição ou de alienação do bem móvel ou do serviço e termina com a confirmação da receção ou entrega do bem ou do resultado do serviço prestado ou da libertação da garantia, caso caso ocorra em momento posterior.
 Inclui, dependendo da sujeição do procedimento de contratação, recolha de informação, entrega de proposta, decisão de contratar, designação do júri, avaliação e negociação das propostas, adjudicação, verificação dos documentos de habilitação do adjudicatário, verificação da conformidade da caução, celebração e alteração do contrato, acompanhamento da sua execução e resolução ou revogação de contrato.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.10.300_1
@@ -904,10 +928,13 @@ Inclui, dependendo da sujeição do procedimento de contratação, recolha de in
 	:eSucessorDe :c400.10.410 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eCruzadoCom :c500.10.002 ;
-	:temLegislacao :leg_128 ;
-	:temLegislacao :leg_87 ;
-	:temLegislacao :leg_35 ;
+	:temLegislacao :leg_152 ;
+	:temLegislacao :leg_135 ;
+	:temLegislacao :leg_92 ;
+	:temLegislacao :leg_39 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Eliminação controlada de bens móveis.
 Inicia com a proposta fundamentada e termina com a comunicação do abate.
 Inclui autorização e sistematização dos bens a eliminar.".
@@ -944,10 +971,12 @@ Inclui autorização e sistematização dos bens a eliminar.".
 	:eSintetizadoPor :c300.30.001 ;
 	:eCruzadoCom :c300.30.005 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_669 ;
-	:temLegislacao :leg_256 ;
-	:temLegislacao :leg_614 ;
+	:temLegislacao :leg_685 ;
+	:temLegislacao :leg_268 ;
+	:temLegislacao :leg_630 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Destruição parcial ou total de uma edificação própria, bem como de qualquer outra construção que se incorpore no solo com caráter de permanência.
 Inicia com a proposta de demolição e termina com a comunicação para atualização do inventário.
 Inclui projeto de demolição e elaboração do auto de demolição.".
@@ -996,9 +1025,11 @@ Inclui projeto de demolição e elaboração do auto de demolição.".
 	:eSinteseDe :c600.40.301 ;
 	:eSinteseDe :c600.40.302 ;
 	:temRelProc :c600.40.303 ;
-	:temLegislacao :leg_121 ;
-	:temLegislacao :leg_82 ;
+	:temLegislacao :leg_127 ;
+	:temLegislacao :leg_87 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Destruição controlada de documentação e informação administrativa, independentemente do suporte, decorridos os prazos legais.
 Inicia com a proposta e termina com a comunicação da eliminação à entidade competente.
 Inclui análise da documentação ou informação, verificação de prazos legais de conservação administrativa e de destino final, autorização de eliminação e elaboração de auto de eliminação.".
@@ -1062,8 +1093,10 @@ Inclui análise da documentação ou informação, verificação de prazos legai
 	:eCruzadoCom :c350.10.508 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eCruzadoCom :c550.20.005 ;
-	:temLegislacao :leg_2 ;
+	:temLegislacao :leg_6 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Uso temporário de bens de terceiros para resolução excecional e inadiável de situações anómalas.
 Inicia com a toma do bem e termina com a sua devolução ou com a decisão sobre a forma de compensação pela privação do bem.
 Inclui autorização da requisição e formalização da devolução e específicação do serviço a prestar, assim como a respetiva autorização.".
@@ -1105,9 +1138,11 @@ Inclui autorização da requisição e formalização da devolução e específi
 	:eCruzadoCom :c300.50.005 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSucessorDe :c500.30.001 ;
-	:temLegislacao :leg_613 ;
-	:temLegislacao :leg_70 ;
+	:temLegislacao :leg_629 ;
+	:temLegislacao :leg_75 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Guarda temporária de bens decorrente de apreensão legal.
 Inicia com o pedido de depósito ou entrega de bens e termina com a devolução ou decisão sobre o destino dos bens.
 Inclui a receção, controlo e guarda ou custódia dos bens depositados na sequência de apreensão.".
@@ -1167,14 +1202,16 @@ Inclui a receção, controlo e guarda ou custódia dos bens depositados na sequ�
 	:eSuplementoPara :c500.10.001 ;
 	:eSucessorDe :c500.30.001 ;
 	:eSintetizadoPor :c550.20.005 ;
-	:temLegislacao :leg_950 ;
-	:temLegislacao :leg_949 ;
-	:temLegislacao :leg_704 ;
-	:temLegislacao :leg_128 ;
-	:temLegislacao :leg_1226 ;
-	:temLegislacao :leg_1279 ;
-	:temLegislacao :leg_1295 ;
+	:temLegislacao :leg_975 ;
+	:temLegislacao :leg_974 ;
+	:temLegislacao :leg_723 ;
+	:temLegislacao :leg_135 ;
+	:temLegislacao :leg_1268 ;
+	:temLegislacao :leg_1321 ;
+	:temLegislacao :leg_1338 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Aquisição ou alienação temporária da responsabilidade da gestão de bens não culturais de terceiros.
 Inicia com o pedido de depósito ou entrega de bens e termina com a devolução ou decisão sobre o destino dos bens.
 Inclui a receção, controlo e guarda ou custódia dos bens depositados.".
@@ -1221,13 +1258,16 @@ Inclui a receção, controlo e guarda ou custódia dos bens depositados.".
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSucessorDe :c500.30.001 ;
-	:temLegislacao :leg_129 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_1040 ;
+	:temLegislacao :leg_136 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_1069 ;
+	:temLegislacao :leg_1125 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Aquisição ou alienação temporária da responsabilidade da gestão de bens culturais de terceiros.
 Inicia com o pedido de depósito ou a entrega de bens e termina com a devolução ou decisão sobre o destino dos bens.
-Inclui a receção, controlo e guarda ou custódia dos bens depositados voluntariamente, por acordo entre as partesl.".
+Inclui a receção, controlo e guarda ou custódia dos bens depositados voluntariamente, por acordo entre as partes.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.20_1
 :na_c300.20_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1338,13 +1378,17 @@ Compreende, igualmente, os processos de acompanhamento da relação contratual, 
 	:eSuplementoPara :c500.10.301 ;
 	:eAntecessorDe :c500.30.002 ;
 	:eAntecessorDe :c500.30.003 ;
-	:temLegislacao :leg_1279 ;
-	:temLegislacao :leg_1225 ;
-	:temLegislacao :leg_661 ;
-	:temLegislacao :leg_761 ;
-	:temLegislacao :leg_1015 ;
-	:temLegislacao :leg_993 ;
+	:temLegislacao :leg_1321 ;
+	:temLegislacao :leg_1267 ;
+	:temLegislacao :leg_677 ;
+	:temLegislacao :leg_780 ;
+	:temLegislacao :leg_1028 ;
+	:temLegislacao :leg_1019 ;
+	:temLegislacao :leg_816 ;
+	:temLegislacao :leg_368 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Lançamento de parcerias público-privadas e acompanhamento da sua execução.
 Inicia com a proposta de projeto de parceria e termina com a extinção do contrato.
 Inclui escolha do grupo de avaliação e procedimento concursal, avaliação de propostas, adjudicação, verificação da conformidade da caução e celebração do contrato.
@@ -1391,13 +1435,16 @@ Inclui ainda a consulta ao governo, escolha de procedimento concursal, designaç
 	:eSuplementoPara :c500.10.301 ;
 	:eSucessorDe :c500.30.002 ;
 	:eAntecessorDe :c500.30.003 ;
-	:temLegislacao :leg_1279 ;
-	:temLegislacao :leg_578 ;
-	:temLegislacao :leg_661 ;
-	:temLegislacao :leg_761 ;
-	:temLegislacao :leg_1015 ;
-	:temLegislacao :leg_893 ;
+	:temLegislacao :leg_1321 ;
+	:temLegislacao :leg_1026 ;
+	:temLegislacao :leg_594 ;
+	:temLegislacao :leg_677 ;
+	:temLegislacao :leg_780 ;
+	:temLegislacao :leg_1028 ;
+	:temLegislacao :leg_917 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Contratação entre o Estado e um particular, em que este se encarrega de executar e explorar uma obra pública, tendo como contrapartida uma retribuição obtida, por exemplo, através de taxas de utilização.
 Inicia com a abertura de um procedimento concursal e termina com a extinção do contrato de concessão.
 Inclui escolha do procedimento, avaliação e negociação das propostas, adjudicação,  verificação da conformidade da caução e celebração do contrato.".
@@ -1406,15 +1453,15 @@ Inclui escolha do procedimento, avaliação e negociação das propostas, adjudi
 	:NotaAplicacao ;
 	:conteudo "Concessão do uso ou exploração de bens do domínio público, que não seja contratualizada no âmbito de parceria público-privada ou de delegação".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c300.20.400_1
-:ne_c300.20.400_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Sempre que se tratar de parceria público-privada, deve ser considerado em 300.20.001 – Constituição e acompanhamento de parcerias público-privadas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.20.400_1
 :na_c300.20.400_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Processos de concessão de serviços públicos, que não sejam contratualizados no âmbito de parceria público-privada ou de delegação".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c300.20.400_1
+:ne_c300.20.400_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Sempre que se tratar de parceria público-privada, deve ser considerado em 300.20.001 – Constituição e acompanhamento de parcerias público-privadas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c300.20.400_2
 :ne_c300.20.400_2 rdf:type owl:NamedIndividual ,
@@ -1448,12 +1495,15 @@ Inclui escolha do procedimento, avaliação e negociação das propostas, adjudi
 	:eSuplementoPara :c500.10.301 ;
 	:eSucessorDe :c500.30.002 ;
 	:eAntecessorDe :c500.30.003 ;
-	:temLegislacao :leg_1279 ;
-	:temLegislacao :leg_1015 ;
-	:temLegislacao :leg_578 ;
-	:temLegislacao :leg_661 ;
-	:temLegislacao :leg_432 ;
+	:temLegislacao :leg_1321 ;
+	:temLegislacao :leg_1028 ;
+	:temLegislacao :leg_917 ;
+	:temLegislacao :leg_594 ;
+	:temLegislacao :leg_677 ;
+	:temLegislacao :leg_447 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Atribuição de um serviço ou contratação entre o Estado e entidades públicas ou particulares, com vista à exploração de um serviço ou bem do domínio público, mediante retribuição ou compensação prevista.
 Inicia por decisão da tutela ou pela abertura de um procedimento concursal e termina com a extinção da concessão.
 Inclui escolha do procedimento, avaliação e negociação das propostas, adjudicação, verificação da conformidade da caução e a preparação da celebração do contrato quando devido.".
@@ -1492,22 +1542,14 @@ Inclui escolha do procedimento, avaliação e negociação das propostas, adjudi
 	:eSuplementoPara :c500.10.301 ;
 	:eSucessorDe :c500.30.002 ;
 	:eAntecessorDe :c500.30.003 ;
-	:temLegislacao :leg_1279 ;
-	:temLegislacao :leg_432 ;
+	:temLegislacao :leg_1321 ;
+	:temLegislacao :leg_447 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Contratação entre o Estado e entidades públicas ou particulares, para a prossecução de algumas das suas atribuições, delegando-lhe os poderes necessários para o efeito. 
 Inicia por decisão da tutela relativa à delegação e termina com a extinção da delegação.
 Inclui escolha do delegado ou do procedimento para a delegação, avaliação e negociação das propostas, verificação da conformidade da caução e a preparação da celebração do contrato quando devido.".
-###  http://jcr.di.uminho.pt/m51-clav#c300.20.600
-:c300.20.600 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "300.20.600";
-	:titulo "Concessão de jogos de fortuna e azar
-";
-	:temPai :c300.20 ;
-	:processoTipo "PE" ;
-	:classeStatus "A" ;
-	:descricao "".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.30_1
 :na_c300.30_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1681,9 +1723,11 @@ Inclui, igualmente, os processos que sejam desencadeados para identificar, carat
 	:eSinteseDe :c450.10.224 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_388 ;
-	:temLegislacao :leg_774 ;
+	:temLegislacao :leg_403 ;
+	:temLegislacao :leg_794 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Identificação de elementos úteis e informações técnicas a ter em conta na utilização futura de obras de iniciativa pública para preservação da segurança, higiene e saúde de quem as executar.
 Inicia com a descrição dos elementos a compilar definidos como obrigatórios e termina com a última intervenção (demolição).
 Inclui elaboração de compilação técnica da obra, verificação da conformidade, aprovação e atualização cumulativa de elementos ou informações técnicas.".
@@ -1739,9 +1783,11 @@ Inclui elaboração de compilação técnica da obra, verificação da conformid
 	:eSuplementoPara :c500.10.001 ;
 	:eCruzadoCom :c850.10.601 ;
 	:eCruzadoCom :c900.20.402 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_1315 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_1358 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Registo de dados relativos à caracterização de bens móveis culturais do domínio público e privado de que o Estado é titular.
 Inicia com a abertura de registo de inventário ou com a informação relativa à aquisição, produção, alienação do bem, conforme aplicável, e termina com atualização do inventário.
 Inclui atribuição do número de inventário, descrição, localização, denominação, caracterização quanto ao tipo de domínio (público ou privado), natureza dos direitos de utilização, classificação (quando devido), características físicas, data de aquisição, custo ou forma de aquisição e avaliação patrimonial, articulação entre entidades, quando aplicável.".
@@ -1771,8 +1817,10 @@ Inclui atribuição do número de inventário, descrição, localização, denom
 	:eAntecessorDe :c300.50.402 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eCruzadoCom :c850.10.601 ;
-	:temLegislacao :leg_307 ;
+	:temLegislacao :leg_320 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Registo de dados relativos à caracterização de bens móveis duradouros, não culturais, da propriedade do Estado.
 Inicia com a informação relativa à aquisição, produção, construção e termina com a atualização do inventário.
 Inclui atribuição do número de inventário, descrição, localização, denominação, características físicas, data de aquisição, custo ou forma de aquisição e avaliação patrimonial, quando devido.".
@@ -1802,10 +1850,12 @@ Inclui atribuição do número de inventário, descrição, localização, denom
 	:eSinteseDe :c300.10.007 ;
 	:eCruzadoCom :c350.40.602 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_578 ;
-	:temLegislacao :leg_231 ;
-	:temLegislacao :leg_35 ;
+	:temLegislacao :leg_594 ;
+	:temLegislacao :leg_243 ;
+	:temLegislacao :leg_39 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Registo de dados relativos à caracterização dos direitos com conteúdo económico de que o Estado é titular.
 Inicia com a informação relativa à aquisição ou alienação do bem e termina com a atualização do inventário.
 Inclui registo da quantificação, caracterização do património financeiro, valor e forma de aquisição.".
@@ -1907,13 +1957,16 @@ Inclui registo da quantificação, caracterização do património financeiro, v
 	:eCruzadoCom :c400.10.406 ;
 	:eCruzadoCom :c400.10.407 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_741 ;
-	:temLegislacao :leg_578 ;
-	:temLegislacao :leg_307 ;
-	:temLegislacao :leg_2 ;
+	:temLegislacao :leg_1229 ;
+	:temLegislacao :leg_760 ;
+	:temLegislacao :leg_594 ;
+	:temLegislacao :leg_320 ;
+	:temLegislacao :leg_6 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Registo de dados relativos à caracterização de bens imóveis (prédios rústicos, urbanos, infraestruturas e águas) do domínio público e privado, de que o Estado é titular, como pessoa coletiva de direito público.
-Inicia com a informação relativa à aquisição, construção ou demolição do bem e termina com a atualização do inventário.
+Inicia com a informação relativa à aquisição, construção ou demolição do bem e termina com a atualização do inventário relativa à perda de direitos sobre o bem.
 Inclui atribuição do número de inventário (quando aplicável), descrição, localização, denominação, caracterização quanto ao tipo de domínio (público ou privado), espécie (urbano, rústico ou outro), natureza dos direitos de utilização, classificação (se for o caso), características físicas ou quimicas, ano de construção, informação relativa à inscrição matricial e ao registo na conservatória, custo ou forma de aquisição, construção e avaliação patrimonial, quando aplicável.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.30.006_1
 :na_c300.30.006_1 rdf:type owl:NamedIndividual ,
@@ -1975,8 +2028,10 @@ Inclui atribuição do número de inventário (quando aplicável), descrição, 
 	:eComplementarDe :c300.40.004 ;
 	:eComplementarDe :c300.40.502 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_678 ;
+	:temLegislacao :leg_696 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Registo de dados relativos à caracterização da biodiversidade existente, nomeadamente da taxonomia da fauna e flora de uma região.
 Inicia com o levantamento da informação e termina com a atualização dos vários  inventários que constituem o sistema de informação do património natural.
 Inclui aplicação de diferentes metodologias adequadas a cada grupo biológico, nomeadamente especificidades do local, espécies que se pretende amostrar e épocas do ano em que a amostragem é realizada.".
@@ -2006,8 +2061,10 @@ Inclui aplicação de diferentes metodologias adequadas a cada grupo biológico,
 	:eSintetizadoPor :c300.30.008 ;
 	:eAntecessorDe :c300.50.401 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_307 ;
+	:temLegislacao :leg_320 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Inscrição de dados relativos a entradas e saídas de materiais consumíveis, de utilização mais ou menos próxima, controlo de existências ou stocks.
 Inicia com a contagem física dos artigos e termina com a atualização do registo.
 Inclui elaboração de guias de saída e de guias de entrega.".
@@ -2063,8 +2120,10 @@ Inclui elaboração de guias de saída e de guias de entrega.".
 	:eSinteseDe :c650.20.306 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSinteseDe :c800.10.610 ;
-	:temLegislacao :leg_1279 ;
+	:temLegislacao :leg_1321 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Inserção de dados relativos a documentos e informação, independentemente da sua natureza ou suporte.
 Inicia com a recolha de dados e termina com o seu registo.
 Inclui atualização de dados.".
@@ -2073,15 +2132,15 @@ Inclui atualização de dados.".
 	:NotaAplicacao ;
 	:conteudo "Artigos perecíveis".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c300.30.009_3
-:na_c300.30.009_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Objetos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.30.009_2
 :na_c300.30.009_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Documentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c300.30.009_3
+:na_c300.30.009_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Objetos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c300.30.009
 :c300.30.009 rdf:type owl:NamedIndividual ,
@@ -2100,8 +2159,10 @@ Inclui atualização de dados.".
 	:eSintetizadoPor :c150.40.500 ;
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_643 ;
+	:temLegislacao :leg_659 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Registo de dados relativos à caracterização e inventariação de objetos encontrados na via pública, em qualquer veículo de transporte de passageiros, em local público ou aberto ao público e entregues às forças de segurança ou a entidade competente, para a sua guarda, restituição e destino.
 Inicia com a comunicação ou entrega do achado e termina com a entrega ao proprietário (na ausência de reclamação por parte deste, na devolução a quem o achou ou apresentação a leilão de artigos não reclamados), no caso de bens perecíveis, na doação a instituições de solidariedade social ou destruição no caso de bens deteriorados.
 Inclui a inativação automática das referências aos artigos, imediatamente após a entrega dos documentos ou objetos.
@@ -2144,9 +2205,11 @@ Inclui a inativação automática das referências aos artigos, imediatamente ap
 	:eSintetizadoPor :c300.30.008 ;
 	:eCruzadoCom :c300.50.802 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_818 ;
-	:temLegislacao :leg_930 ;
+	:temLegislacao :leg_840 ;
+	:temLegislacao :leg_954 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Procedimentos realizados com o controlo, retenção e registo da correspondência recebida e expedida pelo recluso, previstos no código de execução de penas e no regulamento geral dos estabelecimentos prisionais.
 Inicia com a verificação e recolha de dados e termina com a notícia da libertação do recluso.
 Inclui o registo da correspondência no Sistema de Informação Prisional, e quando aplicável nos termos da lei, a entrega ao recluso do recibo relativo a correspondência entregue para expedição, a assinatura do recluso no caso de correspondência que lhe é destinada.
@@ -2191,14 +2254,16 @@ Inclui ainda o registo do envio e receção de encomendas".
 	:eCruzadoCom :c300.50.400 ;
 	:eSucessorDe :c300.50.802 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_2 ;
-	:temLegislacao :leg_480 ;
-	:temLegislacao :leg_617 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_1239 ;
-	:temLegislacao :leg_609 ;
+	:temLegislacao :leg_6 ;
+	:temLegislacao :leg_495 ;
+	:temLegislacao :leg_633 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_1281 ;
+	:temLegislacao :leg_625 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Atribuição de níveis de segurança à informação de acordo com disposições legais ou regulamentos institucionais.
 Inicia com a proposta de determinação e termina com a fixação da sua comunicabilidade.
 Inclui definição de níveis de segurança e de permissões de acesso à informação, classificação de segurança, restrição de comunicabilidade, reclassificação e desclassificação da informação.".
@@ -2223,6 +2288,7 @@ Inclui definição de níveis de segurança e de permissões de acesso à inform
 	:temParticipanteComunicador :org_AP ;
 	:temDono :org_DGTF ;
 	:temDono :org_AL ;
+	:temDono :org_RA ;
 	:temNotaAplicacao :na_c300.30.600_1 ;
 	:temNotaExclusao :ne_c300.30.600_1 ;
 	:eCruzadoCom :c300.10.003 ;
@@ -2231,10 +2297,12 @@ Inclui definição de níveis de segurança e de permissões de acesso à inform
 	:eSucessorDe :c350.10.202 ;
 	:eSucessorDe :c400.10.407 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_1349 ;
-	:temLegislacao :leg_578 ;
-	:temLegislacao :leg_307 ;
+	:temLegislacao :leg_1392 ;
+	:temLegislacao :leg_594 ;
+	:temLegislacao :leg_320 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de um valor pecuniário aos imóveis de acordo com critérios de valorimetria aplicáveis.
 Inicia com o pedido de avaliação do bem imóvel e termina com a notificação/receção do resultado final da avaliação.
 Inclui avaliação interna ou externa de bem, para efeitos de liquidação de impostos ou taxas, alienação, aquisição, transferência, cedência ou seguro.".
@@ -2294,10 +2362,12 @@ Inclui avaliação interna ou externa de bem, para efeitos de liquidação de im
 	:eSintetizadoPor :c300.30.003 ;
 	:eSucessorDe :c300.50.005 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_307 ;
-	:temLegislacao :leg_1295 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_320 ;
+	:temLegislacao :leg_1338 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Atribuição de um valor pecuniário ao elemento patrimonial de acordo com critérios de valorimetria aplicáveis.
 Inicia com o pedido de avaliação do bem móvel e termina com a receção do resultado.
 Inclui avaliação interna ou externa de bem móvel, para efeitos de liquidação de impostos ou taxas, alienação, aquisição, transferência, seguro, entre outros.".
@@ -2351,8 +2421,10 @@ Inclui avaliação interna ou externa de bem móvel, para efeitos de liquidaçã
 	:eComplementarDe :c300.30.008 ;
 	:eComplementarDe :c300.40.501 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_82 ;
+	:temLegislacao :leg_87 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de um valor informacional, de acordo com critérios de valorimetria aplicáveis, para efeitos de determinação do destino final da informação/documentação.
 Inicia com a identificação do objeto a avaliar e termina com a produção de instrumento de avaliação.
 Inclui estudo do contexto de produção, criação de estrutura de organização intelectual e justificação dos valores atribuídos.".
@@ -2427,13 +2499,15 @@ Compreende, igualmente, a eventual produção de bens.".
 	:eComplementarDe :c300.30.005 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1202 ;
-	:temLegislacao :leg_892 ;
-	:temLegislacao :leg_876 ;
-	:temLegislacao :leg_256 ;
-	:temLegislacao :leg_249 ;
-	:temLegislacao :leg_113 ;
+	:temLegislacao :leg_1243 ;
+	:temLegislacao :leg_916 ;
+	:temLegislacao :leg_899 ;
+	:temLegislacao :leg_268 ;
+	:temLegislacao :leg_261 ;
+	:temLegislacao :leg_119 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Constituição de um ou mais lotes destinados, imediata ou subsequentemente, à edificação urbana, e que resulte da divisão de um ou vários prédios, ou ainda do emparcelamento ou reparcelamento.
 Inicia com a apresentação de um projeto e termina com a conclusão do loteamento.
 Inclui discussão pública ou autorização do órgão competente, identificação dos equipamentos e infraestruturas existentes e futuras, definição de áreas destinadas a espaços verdes e de utilização coletiva.".
@@ -2488,12 +2562,14 @@ Inclui discussão pública ou autorização do órgão competente, identificaç�
 	:eCruzadoCom :c450.10.230 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1202 ;
-	:temLegislacao :leg_892 ;
-	:temLegislacao :leg_876 ;
-	:temLegislacao :leg_256 ;
-	:temLegislacao :leg_249 ;
+	:temLegislacao :leg_1243 ;
+	:temLegislacao :leg_916 ;
+	:temLegislacao :leg_899 ;
+	:temLegislacao :leg_268 ;
+	:temLegislacao :leg_261 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Criação ou remodelação de infraestruturas destinadas a servir diretamente os espaços urbanos ou as edificações, designadamente arruamentos viários e pedonais.
 Inicia com a apresentação de um projeto e termina com a conclusão da urbanização.
 Inclui discussão pública ou autorização do órgão competente, elaboração de projetos de especialidade e ainda planeamento de espaços verdes ou outros espaços de utilização coletiva.".
@@ -2569,12 +2645,14 @@ Inclui discussão pública ou autorização do órgão competente, elaboração 
 	:eSucessorDe :c450.10.233 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_1202 ;
-	:temLegislacao :leg_892 ;
-	:temLegislacao :leg_876 ;
-	:temLegislacao :leg_256 ;
-	:temLegislacao :leg_249 ;
+	:temLegislacao :leg_1243 ;
+	:temLegislacao :leg_916 ;
+	:temLegislacao :leg_899 ;
+	:temLegislacao :leg_268 ;
+	:temLegislacao :leg_261 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Construção, reconstrução, ampliação, alteração de um imóvel, bem como de qualquer outra construção que se incorpore no solo com caráter de permanência.
 Inicia com a apresentação de um projeto e termina com a conclusão da realização da obra.
 Inclui elaboração de projetos de especialidade e de alteração ou ampliação, consulta e parecer de entidades, quando devido.".
@@ -2606,22 +2684,25 @@ Inclui elaboração de projetos de especialidade e de alteração ou ampliação
 	:eSuplementoPara :c500.10.001 ;
 	:eCruzadoCom :c800.10.302 ;
 	:eCruzadoCom :c800.10.602 ;
-	:temLegislacao :leg_239 ;
-	:temLegislacao :leg_456 ;
-	:temLegislacao :leg_166 ;
-	:temLegislacao :leg_1087 ;
-	:temLegislacao :leg_323 ;
-	:temLegislacao :leg_1017 ;
-	:temLegislacao :leg_781 ;
-	:temLegislacao :leg_429 ;
-	:temLegislacao :leg_377 ;
-	:temLegislacao :leg_239 ;
-	:temLegislacao :leg_456 ;
-	:temLegislacao :leg_257 ;
+	:temLegislacao :leg_251 ;
+	:temLegislacao :leg_471 ;
+	:temLegislacao :leg_176 ;
+	:temLegislacao :leg_1120 ;
+	:temLegislacao :leg_1148 ;
+	:temLegislacao :leg_338 ;
+	:temLegislacao :leg_1046 ;
+	:temLegislacao :leg_802 ;
+	:temLegislacao :leg_444 ;
+	:temLegislacao :leg_393 ;
+	:temLegislacao :leg_251 ;
+	:temLegislacao :leg_471 ;
+	:temLegislacao :leg_269 ;
+	:temLegislacao :leg_26 ;
+	:temLegislacao :leg_993 ;
 	:temLegislacao :leg_22 ;
-	:temLegislacao :leg_968 ;
-	:temLegislacao :leg_18 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Procriação assistida de seres vivos, mantendo-se a espécie em meio próprio para a criação e reprodução de animais ou plantas.
 Inicia com o cumprimento de um procedimento previamente estabelecido e termina com a produção ou nascimento de novos espécimes.
 Inclui seleção, identificação, caracterização, registo de maturação, estudo da dinâmica populacional.".
@@ -2645,15 +2726,15 @@ Inclui seleção, identificação, caracterização, registo de maturação, est
 	:NotaAplicacao ;
 	:conteudo "Produção de peças de serralharia".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c300.40.005_5
-:na_c300.40.005_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Produção vitivinícola".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.40.005_6
 :na_c300.40.005_6 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Medicamentos manipulados".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c300.40.005_5
+:na_c300.40.005_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Produção vitivinícola".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c300.40.005_1
 :ne_c300.40.005_1 rdf:type owl:NamedIndividual ,
@@ -2688,6 +2769,8 @@ Inclui seleção, identificação, caracterização, registo de maturação, est
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Modificação de matérias-primas com vista à obtenção de um produto final.
 Inicia com o pedido ou com a decisão de produção do bem e termina com a criação do bem ou objeto.
 Inclui elaboração de projeto ou desenho e acompanhamento da produção.
@@ -2779,11 +2862,13 @@ Inclui elaboração de projeto ou desenho e acompanhamento da produção.
 	:eCruzadoCom :c300.40.507 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eCruzadoCom :c800.10.602 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_774 ;
-	:temLegislacao :leg_1207 ;
-	:temLegislacao :leg_1295 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_794 ;
+	:temLegislacao :leg_1248 ;
+	:temLegislacao :leg_1338 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Intervenção sobre o património cultural, que pode assumir, entre outras, a forma de reparação, manutenção, preservação ou restauro de bens, materiais e imateriais, garantindo-lhes a sua condição civilizacional ou cultural.
 Inicia com o pedido ou com a execução de procedimentos previamente definidos e termina com a realização da intervenção.
 Inclui execução de planos de conservação preventiva, registo da descrição de operações realizadas nas diversas etapas e manutenção atualizada da descrição das características técnicas da obra ou peça.".
@@ -2845,21 +2930,23 @@ Inclui execução de planos de conservação preventiva, registo da descrição 
 	:eCruzadoCom :c550.20.005 ;
 	:eCruzadoCom :c800.10.604 ;
 	:eCruzadoCom :c800.10.605 ;
-	:temLegislacao :leg_1327 ;
-	:temLegislacao :leg_1229 ;
-	:temLegislacao :leg_609 ;
-	:temLegislacao :leg_246 ;
-	:temLegislacao :leg_427 ;
-	:temLegislacao :leg_506 ;
-	:temLegislacao :leg_766 ;
-	:temLegislacao :leg_414 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_129 ;
-	:temLegislacao :leg_82 ;
-	:temLegislacao :leg_1226 ;
-	:temLegislacao :leg_1279 ;
+	:temLegislacao :leg_1370 ;
+	:temLegislacao :leg_1271 ;
+	:temLegislacao :leg_625 ;
+	:temLegislacao :leg_258 ;
+	:temLegislacao :leg_442 ;
+	:temLegislacao :leg_522 ;
+	:temLegislacao :leg_786 ;
+	:temLegislacao :leg_429 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_136 ;
+	:temLegislacao :leg_87 ;
+	:temLegislacao :leg_1268 ;
+	:temLegislacao :leg_1321 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Intervenção sobre o conteúdo informacional e ou respetivos suportes com vista a garantir a manutenção da sua fidedignidade, autenticidade, fiabilidade, usabilidade, disponibilidade, acessibilidade e legibilidade.
 Inicia com a execução de procedimentos previamente definidos e termina com a realização da intervenção.
 Inclui ajustamentos necessários.
@@ -3019,17 +3106,19 @@ Inclui ajustamentos necessários.
 	:eCruzadoCom :c800.10.302 ;
 	:eCruzadoCom :c800.10.601 ;
 	:eCruzadoCom :c800.10.602 ;
-	:temLegislacao :leg_1220 ;
-	:temLegislacao :leg_1274 ;
-	:temLegislacao :leg_1214 ;
-	:temLegislacao :leg_1014 ;
-	:temLegislacao :leg_997 ;
-	:temLegislacao :leg_479 ;
-	:temLegislacao :leg_996 ;
-	:temLegislacao :leg_678 ;
-	:temLegislacao :leg_239 ;
-	:temLegislacao :leg_456 ;
+	:temLegislacao :leg_1262 ;
+	:temLegislacao :leg_1316 ;
+	:temLegislacao :leg_1256 ;
+	:temLegislacao :leg_1043 ;
+	:temLegislacao :leg_1023 ;
+	:temLegislacao :leg_494 ;
+	:temLegislacao :leg_1022 ;
+	:temLegislacao :leg_696 ;
+	:temLegislacao :leg_251 ;
+	:temLegislacao :leg_471 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Salvaguarda e manutenção de recursos zoológicos, marinhos, ripícolas, minerais e botânicos, garantindo-lhes a sua perenidade, sustentabilidade e, ainda, a conservação de elementos paisagísticos e de recursos naturais.
 Inicia com o pedido ou com a execução de procedimentos previamente definidos e termina com a realização da intervenção.
 Inclui execução de planos de conservação preventiva, registo da descrição de operações realizadas nas diversas etapas, consulta de entidades e, quando for o caso, recolha, recuperação e devolução das espécies aos espaços ou habitats.".
@@ -3068,15 +3157,15 @@ Inclui execução de planos de conservação preventiva, registo da descrição 
 	:NotaExclusao ;
 	:conteudo "As obras realizadas através de empreitada devem ser consideradas em 300.10.001 – Contratação de empreitadas de obras públicas".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c300.40.503_3
-:ne_c300.40.503_3 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A edificação de iniciativa pública deve ser considerada em 300.40.003 – Edificação de iniciativa pública".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c300.40.503_2
 :ne_c300.40.503_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A contratualização e o acompanhamento da manutenção, no âmbito de um contrato de contratação de serviços devem ser considerados em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c300.40.503_3
+:ne_c300.40.503_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A edificação de iniciativa pública deve ser considerada em 300.40.003 – Edificação de iniciativa pública".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c300.40.503_4
 :ne_c300.40.503_4 rdf:type owl:NamedIndividual ,
@@ -3115,12 +3204,14 @@ Inclui execução de planos de conservação preventiva, registo da descrição 
 	:eSuplementoPara :c500.10.001 ;
 	:eCruzadoCom :c800.10.300 ;
 	:eCruzadoCom :c800.10.601 ;
-	:temLegislacao :leg_1220 ;
-	:temLegislacao :leg_578 ;
-	:temLegislacao :leg_587 ;
-	:temLegislacao :leg_479 ;
-	:temLegislacao :leg_150 ;
+	:temLegislacao :leg_1262 ;
+	:temLegislacao :leg_594 ;
+	:temLegislacao :leg_603 ;
+	:temLegislacao :leg_494 ;
+	:temLegislacao :leg_160 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Intervenção em edifícios e infraestruturas, que podem assumir, entre outras, a forma de reparação, manutenção, preservação ou restauro, garantindo a sua usabilidade e valorização.
 Inicia com o pedido ou com a execução de procedimentos previamente definidos e termina com a realização da intervenção.
 Inclui execução de planos de conservação preventiva e registo da descrição de operações realizadas nas diversas etapas.".
@@ -3158,19 +3249,21 @@ Inclui execução de planos de conservação preventiva e registo da descrição
 	:eCruzadoCom :c800.10.303 ;
 	:eCruzadoCom :c900.10.001 ;
 	:eAntecessorDe :c900.10.002 ;
-	:temLegislacao :leg_1232 ;
-	:temLegislacao :leg_1108 ;
-	:temLegislacao :leg_1144 ;
-	:temLegislacao :leg_1108 ;
-	:temLegislacao :leg_604 ;
-	:temLegislacao :leg_636 ;
-	:temLegislacao :leg_492 ;
-	:temLegislacao :leg_538 ;
-	:temLegislacao :leg_470 ;
-	:temLegislacao :leg_468 ;
-	:temLegislacao :leg_142 ;
-	:temLegislacao :leg_222 ;
+	:temLegislacao :leg_1274 ;
+	:temLegislacao :leg_1143 ;
+	:temLegislacao :leg_1180 ;
+	:temLegislacao :leg_1143 ;
+	:temLegislacao :leg_620 ;
+	:temLegislacao :leg_652 ;
+	:temLegislacao :leg_507 ;
+	:temLegislacao :leg_554 ;
+	:temLegislacao :leg_485 ;
+	:temLegislacao :leg_483 ;
+	:temLegislacao :leg_149 ;
+	:temLegislacao :leg_234 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Ações de segurança sobre bens que visam prevenir quaisquer danos de ordem pessoal ou material que possam obstaculizar ou comprometer a integridade ou o funcionamento organizacionais.
 Inicia com o cumprimento de procedimentos normativos previamente definidos e termina com o relato de ocorrências.
 Inclui registo de entradas e saídas, identificação de visitantes e eventual descrição do desempenho operacional.".
@@ -3213,10 +3306,12 @@ Inclui registo de entradas e saídas, identificação de visitantes e eventual d
 	:eSuplementoPara :c500.10.001 ;
 	:eCruzadoCom :c800.10.300 ;
 	:eCruzadoCom :c800.10.303 ;
-	:temLegislacao :leg_345 ;
-	:temLegislacao :leg_111 ;
-	:temLegislacao :leg_237 ;
+	:temLegislacao :leg_360 ;
+	:temLegislacao :leg_117 ;
+	:temLegislacao :leg_249 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Aplicação de cuidados de higiene a instalações e equipamentos que visam garantir a proteção dos bens e a sua usabilidade.
 Inicia com o cumprimento de procedimentos previamente definidos e termina com a intervenção.
 Inclui comprovativo de realização do serviço, frequência da manutenção, substituições periódicas de materiais e equipamentos de higiene e eventual descrição do desempenho operacional.".
@@ -3225,15 +3320,15 @@ Inclui comprovativo de realização do serviço, frequência da manutenção, su
 	:NotaAplicacao ;
 	:conteudo "Limpeza e desinfeção dos areais".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c300.40.506_3
-:na_c300.40.506_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Qualidade das águas balneares".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.40.506_2
 :na_c300.40.506_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Perfis das águas balneares".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c300.40.506_3
+:na_c300.40.506_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Qualidade das águas balneares".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c300.40.506_1
 :ne_c300.40.506_1 rdf:type owl:NamedIndividual ,
@@ -3260,22 +3355,24 @@ Inclui comprovativo de realização do serviço, frequência da manutenção, su
 	:eCruzadoCom :c800.10.302 ;
 	:eSucessorDe :c800.10.303 ;
 	:eCruzadoCom :c800.10.601 ;
-	:temLegislacao :leg_411 ;
-	:temLegislacao :leg_239 ;
-	:temLegislacao :leg_1248 ;
-	:temLegislacao :leg_1253 ;
-	:temLegislacao :leg_1214 ;
-	:temLegislacao :leg_936 ;
-	:temLegislacao :leg_884 ;
-	:temLegislacao :leg_883 ;
-	:temLegislacao :leg_851 ;
-	:temLegislacao :leg_759 ;
-	:temLegislacao :leg_684 ;
-	:temLegislacao :leg_677 ;
-	:temLegislacao :leg_344 ;
-	:temLegislacao :leg_178 ;
-	:temLegislacao :leg_150 ;
+	:temLegislacao :leg_426 ;
+	:temLegislacao :leg_251 ;
+	:temLegislacao :leg_1290 ;
+	:temLegislacao :leg_1295 ;
+	:temLegislacao :leg_1256 ;
+	:temLegislacao :leg_960 ;
+	:temLegislacao :leg_907 ;
+	:temLegislacao :leg_906 ;
+	:temLegislacao :leg_873 ;
+	:temLegislacao :leg_778 ;
+	:temLegislacao :leg_703 ;
+	:temLegislacao :leg_695 ;
+	:temLegislacao :leg_359 ;
+	:temLegislacao :leg_188 ;
+	:temLegislacao :leg_160 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Acionamento de meios ou intervenções que visam garantir ou repor o cumprimento de os parâmetros microbiológicos e fisicoquímicos obrigatórios, ou valores limite obrigatórios de toxicidade no solo, no ar e na água.
 Inicia com a deteção de uma anomalia ou com um pedido resultante de monitorização de situação anómala, de um aviso ou alerta, ou a partir de procedimento previamente definido e termina com a aplicação de medidas preventivas ou corretivas.
 Inclui seleção e caracterização de medidas adotadas, descrição das ações a realizar para a sua concretização, calendarização das mesmas, identificação das entidades responsáveis pela execução, identificação de eventuais substâncias utilizadas e produção de indicadores de eficácia.
@@ -3316,10 +3413,12 @@ Inclui seleção e caracterização de medidas adotadas, descrição das ações
 	:eAntecessorDe :c550.20.001 ;
 	:eCruzadoCom :c800.10.300 ;
 	:eCruzadoCom :c800.10.601 ;
-	:temLegislacao :leg_400 ;
-	:temLegislacao :leg_440 ;
-	:temLegislacao :leg_687 ;
+	:temLegislacao :leg_415 ;
+	:temLegislacao :leg_455 ;
+	:temLegislacao :leg_706 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Operações desencadeadas após deteção de incidente ou emergência organizacional que visam o restabelecimento da situação anterior à ocorrência.
 Inicia com a identificação da ocorrência e termina com a reposição da normalidade.
 Inclui comunicação com os intervenientes e relato das medidas tomadas.".
@@ -3328,15 +3427,15 @@ Inclui comunicação com os intervenientes e relato das medidas tomadas.".
 	:NotaAplicacao ;
 	:conteudo "Implementação de infraestruturas tecnológicas".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c300.40.508_3
-:na_c300.40.508_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Implementação de sistemas de comunicação".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.40.508_2
 :na_c300.40.508_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Implementação de redes de comunicação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c300.40.508_3
+:na_c300.40.508_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Implementação de sistemas de comunicação".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.40.508_4
 :na_c300.40.508_4 rdf:type owl:NamedIndividual ,
@@ -3408,12 +3507,15 @@ Inclui comunicação com os intervenientes e relato das medidas tomadas.".
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c800.20.500 ;
-	:temLegislacao :leg_1240 ;
-	:temLegislacao :leg_772 ;
-	:temLegislacao :leg_433 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_55 ;
+	:temLegislacao :leg_1282 ;
+	:temLegislacao :leg_792 ;
+	:temLegislacao :leg_783 ;
+	:temLegislacao :leg_448 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_60 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Operacionalização de infraestruturas e sistemas tecnológicos de comunicação e informação.
 Inicia com a instalação de infraestruturas tecnológicas e termina com a sua ativação ou entrada em produção.
 Inclui testes de funcionamento, ações corretivas e operacionalização.".
@@ -3468,10 +3570,12 @@ Inclui testes de funcionamento, ações corretivas e operacionalização.".
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eCruzadoCom :c800.10.300 ;
-	:temLegislacao :leg_661 ;
-	:temLegislacao :leg_1279 ;
-	:temLegislacao :leg_940 ;
+	:temLegislacao :leg_677 ;
+	:temLegislacao :leg_1321 ;
+	:temLegislacao :leg_964 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Intervenção em bens móveis que podem assumir, entre outras, a forma de reparação, manutenção, preservação ou restauro, garantindo a sua usabilidade e valorização.
 Inicia com o pedido ou com a execução de procedimentos previamente definidos e termina com a realização da intervenção.
 Inclui execução de planos de conservação preventiva e registo da descrição de operações realizadas nas diversas etapas.".
@@ -3529,6 +3633,8 @@ Inclui execução de planos de conservação preventiva e registo da descrição
 	:eSuplementoPara :c500.10.301 ;
 	:eAntecessorDe :c800.20.500 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
 	:descricao "Acompanhamento e avaliação do desempenho de infraestruturas tecnológicas, sistemas e tecnologias de informação com vista à minimização e resolução de eventuais falhas.
 Inicia com a análise dos indicadores comportamentais dos sistemas e termina com a ativação de plano de conservação preventiva ou corretiva.
 Inclui a elaboração de relatórios.".
@@ -3571,8 +3677,10 @@ Inclui a elaboração de relatórios.".
 	:eCruzadoCom :c350.30.001 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_613 ;
+	:temLegislacao :leg_629 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Identificação de prejuízos, totais ou parciais, em bens de propriedade pública ou privada.
 Inicia com a comunicação da ocorrência ou reclamação e termina com a decisão sobre a atribuição de indemnização ou restituição de bens.
 Inclui descrição do tipo de dano e informação comprovativa do sinistro.".
@@ -3713,10 +3821,12 @@ Inclui descrição do tipo de dano e informação comprovativa do sinistro.".
 	:eSintetizadoPor :c300.30.005 ;
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_578 ;
-	:temLegislacao :leg_359 ;
-	:temLegislacao :leg_274 ;
+	:temLegislacao :leg_594 ;
+	:temLegislacao :leg_375 ;
+	:temLegislacao :leg_286 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Determinação do estatuto de dominialidade de um imóvel que, podendo não decorrer diretamente da sua natureza, seja afetado pelo seu titular às utilidades públicas correspondentes à classificação legal, ou sua desafetação após o termo das utilidades que justificam a sujeição da dominialidade.
 Inicia com a elaboração de proposta e termina com a comunicação da decisão.
 Inclui verificação das utilidades e respetiva fundamentação.".
@@ -3747,10 +3857,12 @@ Inclui verificação das utilidades e respetiva fundamentação.".
 	:eSintetizadoPor :c300.30.005 ;
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_578 ;
-	:temLegislacao :leg_359 ;
-	:temLegislacao :leg_274 ;
+	:temLegislacao :leg_594 ;
+	:temLegislacao :leg_375 ;
+	:temLegislacao :leg_286 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Reserva dominial de bem imóvel do domínio público de uso comum, em que o organismo titular reserva para si o uso privativo de totalidade ou de parte do imóvel, quando motivos de interesse público o justifiquem, durante um determinado prazo.
 Inicia com a elaboração de proposta e termina com a decisão ou submissão para aprovação, quando devido.
 Inclui fundamentação da necessidade de reserva.".
@@ -3796,8 +3908,10 @@ Inclui fundamentação da necessidade de reserva.".
 	:eSintetizadoPor :c300.30.002 ;
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_444 ;
+	:temLegislacao :leg_459 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Atribuição da utilização de bens móveis culturais a um serviço da mesma entidade.
 Inicia com o pedido ou proposta de afetação interna dos bens e termina com a receção dos mesmos.
 Inclui confirmação dos bens recebidos.".
@@ -3850,8 +3964,10 @@ Inclui confirmação dos bens recebidos.".
 	:eSintetizadoPor :c300.30.003 ;
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_307 ;
+	:temLegislacao :leg_320 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Atribuição da utilização de bens não consumíveis, de natureza não cultural a um serviço da mesma entidade.
 Inicia com o pedido ou proposta de afetação ou desafetação interna de bens e termina com a receção dos mesmos.
 Inclui confirmação dos bens recebidos.".
@@ -3896,9 +4012,11 @@ Inclui confirmação dos bens recebidos.".
 	:eSuplementoPara :c500.10.001 ;
 	:eAntecessorDe :c500.30.001 ;
 	:eAntecessorDe :c600.10.500 ;
-	:temLegislacao :leg_704 ;
-	:temLegislacao :leg_559 ;
+	:temLegislacao :leg_723 ;
+	:temLegislacao :leg_575 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Atribuição de utilização provisória a bens apreendidos pelos órgãos de polícia criminal, no âmbito de processos crime e contra-ordenacionais, que sejam susceptíveis de vir a ser declarados perdidos a favor do Estado.
 Inicia com o procedimento de declaração de utilidade operacional do bem apreendido (pelo responsável pela investigação) e termina com a cessação da utilidade operacional, declaração de perda a favor do Estado ou restituição.
 Inclui os registos e averbamentos do bem a utilizar, declaração de utilidade operacional, notificações dos interessados, avaliação e indemnizações.".
@@ -3923,11 +4041,13 @@ Inclui os registos e averbamentos do bem a utilizar, declaração de utilidade o
 	:eSintetizadoPor :c300.30.005 ;
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_686 ;
-	:temLegislacao :leg_578 ;
-	:temLegislacao :leg_359 ;
-	:temLegislacao :leg_274 ;
+	:temLegislacao :leg_705 ;
+	:temLegislacao :leg_594 ;
+	:temLegislacao :leg_375 ;
+	:temLegislacao :leg_286 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Faculdade de construir ou manter, de forma perpétua ou temporária, uma obra em terreno alheio, ou de nele fazer ou manter plantações, podendo resultar na alienação de obra ou árvores já existentes, separadamente da propriedade do solo.
 Inicia com o pedido de exercício de direito de superfície e termina com a formalização do referido direito.
 Inclui negociação e preparação de informação para efeito do contrato.".
@@ -3977,18 +4097,20 @@ Inclui negociação e preparação de informação para efeito do contrato.".
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.300 ;
-	:temLegislacao :leg_578 ;
-	:temLegislacao :leg_359 ;
-	:temLegislacao :leg_274 ;
+	:temLegislacao :leg_594 ;
+	:temLegislacao :leg_375 ;
+	:temLegislacao :leg_286 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Cessão ou aquisição do direito de utilização, onerosa ou não onerosa, de imóveis dos domínios público ou privado do Estado, a entidades terceiras, públicas ou privadas.
-Inicia com o pedido de disponibilização / cedência pela entidade interessada na utilização do imóvel e termina com a formalização da cedência.
+Inicia com o pedido de disponibilização / cedência pela entidade interessada na utilização do imóvel e termina com a devolução de bem ou cessação do arrendamento
 Inclui a análise dos dados, solicitação de esclarecimentos e pareceres, formalização da entrega, aceitação e acompanhamento dos pressupostos inerentes à cedência e respetiva devolução.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.50.202_1
 :na_c300.50.202_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Cedência de imagens culturais (empréstimo de bens móveis culturais a entidade externa)".
+	:conteudo "Empréstimo de imagens culturais a entidade externa".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.50.202_2
 :na_c300.50.202_2 rdf:type owl:NamedIndividual ,
@@ -4015,6 +4137,11 @@ Inclui a análise dos dados, solicitação de esclarecimentos e pareceres, forma
 	:NotaExclusao ;
 	:conteudo "A utilização de bens móveis culturais por um serviço da mesma entidade deverá classificar-se em 300.50.003 – Afetação interna de bens móveis culturais".
 
+###  http://jcr.di.uminho.pt/m51-clav#ne_c300.50.202_2
+:ne_c300.50.202_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A reprodução de documentos, onde se inclui a autorização para a sua utilização, deverá ser classificada em 300.50.400 - Processamento de pedidos de consulta e reprodução de documentos e informação.".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c300.50.202
 :c300.50.202 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -4031,16 +4158,19 @@ Inclui a análise dos dados, solicitação de esclarecimentos e pareceres, forma
 	:temNotaAplicacao :na_c300.50.202_4 ;
 	:temNotaAplicacao :na_c300.50.202_5 ;
 	:temNotaExclusao :ne_c300.50.202_1 ;
+	:temNotaExclusao :ne_c300.50.202_2 ;
 	:eSintetizadoPor :c300.30.002 ;
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eAntecessorDe :c900.10.001 ;
 	:eAntecessorDe :c900.10.002 ;
-	:temLegislacao :leg_1295 ;
-	:temLegislacao :leg_444 ;
-	:temLegislacao :leg_332 ;
-	:temLegislacao :leg_129 ;
+	:temLegislacao :leg_1338 ;
+	:temLegislacao :leg_459 ;
+	:temLegislacao :leg_347 ;
+	:temLegislacao :leg_136 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
 	:descricao "Empréstimo de bens móveis culturais a entidades terceiras, públicas e privadas.
 Inicia com o pedido de empréstimo do bem e termina com a sua devolução.
 Inclui autorização, quando aplicável, registo de entrega, confirmação dos bens recebidos e registo da devolução dos mesmos.".
@@ -4074,10 +4204,12 @@ Inclui autorização, quando aplicável, registo de entrega, confirmação dos b
 	:eSintetizadoPor :c300.30.003 ;
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
-	:temLegislacao :leg_2 ;
+	:temLegislacao :leg_6 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Cessão de utilização, onerosa ou não onerosa, de bens móveis a entidades públicas e privadas.
-Inicia com o pedido de cedência pela entidade interessada na utilização do bem móvel ou direito e termina com a formalização da cedência.
+Inicia com o pedido de cedência pela entidade interessada na utilização do bem móvel ou direito e termina com a devolução do bem ou cessação do aluguer.
 Inclui aceitação e acompanhamento dos pressupostos inerentes à cedência e respetiva devolução, quando devido.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c300.50.204_1
 :na_c300.50.204_1 rdf:type owl:NamedIndividual ,
@@ -4121,9 +4253,11 @@ Inclui aceitação e acompanhamento dos pressupostos inerentes à cedência e re
 	:temRelProc :c300.10.006 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eCruzadoCom :c900.10.001 ;
-	:temLegislacao :leg_696 ;
-	:temLegislacao :leg_1315 ;
+	:temLegislacao :leg_715 ;
+	:temLegislacao :leg_1358 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Cessão do direito à utilização de informação ou criação nas áreas técnico-científica, literária, artística, comercial e industrial quando estiverem em causa os direitos conexos, a proteção de obras literárias ou artísticas, quando estiverem em causa os direitos de autor e a proteção de invenções, criações estéticas e sinais usados para distinguir produtos ou empresas, no caso da propriedade industrial.
 Inicia com o pedido e termina com a cedência dos direitos.
 Inclui análise do pedido e negociação do contrato.".
@@ -4175,8 +4309,10 @@ Inclui análise do pedido e negociação do contrato.".
 	:eSuplementoPara :c500.10.001 ;
 	:eCruzadoCom :c800.10.604 ;
 	:eCruzadoCom :c800.10.605 ;
-	:temLegislacao :leg_1383 ;
+	:temLegislacao :leg_1427 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Processamento de pedidos de consulta ou empréstimo de documentos e informação a pessoa ou serviço da mesma entidade, a entidades públicas ou privadas.
 Inicia com o pedido e termina com a devolução do bem.
 Inclui autorização, registo de entrega, confirmação dos bens recebidos e registo da devolução dos mesmos.
@@ -4201,6 +4337,8 @@ Inclui autorização, registo de entrega, confirmação dos bens recebidos e reg
 	:eSintetizadoPor :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Disponibilização de bens não duradouros ou consumíveis, a pessoa ou serviço da mesma entidade.
 Inicia com o pedido e termina com a receção do bem.
 Inclui autorização, registo de entrega, confirmação dos bens recebidos e registo da receção dos mesmos.".
@@ -4243,6 +4381,8 @@ Inclui autorização, registo de entrega, confirmação dos bens recebidos e reg
 	:eAntecessorDe :c900.10.001 ;
 	:eCruzadoCom :c900.10.002 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Empréstimo de bens móveis culturais e não culturais, ou de disponibilização de espaços, a pessoa ou serviço da mesma entidade.
 Inicia com o pedido e termina com a devolução do bem.
 Inclui autorização, registo de entrega, confirmação dos bens recebidos e registo da devolução dos mesmos.".
@@ -4280,10 +4420,12 @@ Inclui autorização, registo de entrega, confirmação dos bens recebidos e reg
 	:eAntecessorDe :c300.30.008 ;
 	:eSuplementoPara :c500.10.001 ;
 	:eSuplementoPara :c500.10.301 ;
-	:temLegislacao :leg_2 ;
-	:temLegislacao :leg_578 ;
-	:temLegislacao :leg_1279 ;
+	:temLegislacao :leg_6 ;
+	:temLegislacao :leg_594 ;
+	:temLegislacao :leg_1321 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Rentabilização de espaços públicos, edifícios, infraestruturas e equipamentos públicos, através da exploração de atividades que lhes acrescentem valor.
 Inicia com a apresentação de proposta e termina com a rentabilização dos recursos através da sua exploração.
 Inclui autorização e calendarização de atividades de exploração.".
@@ -4327,6 +4469,8 @@ Inclui autorização e calendarização de atividades de exploração.".
 	:eSucessorDe :c800.10.303 ;
 	:eAntecessorDe :c800.10.602 ;
 	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
 	:descricao "Ação de aproveitamento de recursos disponibilizados pela natureza para satisfação de necessidades humanas.
 Inicia com a operacionalização da calendarização previamente estabelecida ou como atividade prospetiva e termina com a prestação do serviço.
 Inclui estudos sobre os sistemas naturais, prospeção e todas as ações de incremento e otimização de aproveitamento de recursos naturais.".
@@ -4408,6 +4552,8 @@ Inclui estudos sobre os sistemas naturais, prospeção e todas as ações de inc
 	:eSuplementoPara :c500.10.301 ;
 	:eCruzadoCom :c950.20.001 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Sistematização de dados quantitativos e qualitativos relativos à utilização de equipamentos, de bens móveis e acesso a serviços.
 Inicia com o registo do uso ou com a contabilização do acesso e termina com o apuramento dos resultados.
 Inclui elaboração de mapas estatísticos para efeitos de gestão.".
@@ -4485,6 +4631,8 @@ Inclui elaboração de mapas estatísticos para efeitos de gestão.".
 	:eSintetizadoPor :c300.30.008 ;
 	:eSucessorDe :c300.50.802 ;
 	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
 	:descricao "Processamento da requisição de serviços de apoio à utilização e montagem de bens e equipamentos.
 Inicia com a solicitação de apoio e termina com a satisfação ou indeferimento da mesma.
 Inclui, quando devido, ordenação dos pedidos de acordo com o grau de urgência ou importância, autorização e produção de relatórios.".
@@ -4558,11 +4706,13 @@ Inclui, quando devido, ordenação dos pedidos de acordo com o grau de urgência
 	:eCruzadoCom :c300.30.300 ;
 	:eAntecessorDe :c300.50.800 ;
 	:eSucessorDe :c300.50.801 ;
-	:temLegislacao :leg_1223 ;
-	:temLegislacao :leg_442 ;
-	:temLegislacao :leg_222 ;
-	:temLegislacao :leg_1386 ;
+	:temLegislacao :leg_1265 ;
+	:temLegislacao :leg_457 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_1430 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
 	:descricao "Inserção de dados e atribuição de meios de identificação relativos à criação de entidades singulares ou coletivas, públicas ou privadas, para acesso a serviços e sistemas de informação.
 Inicia com a recolha de dados e termina com a entrega dos meios de identificação.
 Inclui, quando devido, autorização de acesso aos sistemas de informação e atualização de dados.".
@@ -4597,9 +4747,11 @@ Inclui, quando devido, autorização de acesso aos sistemas de informação e at
 	:eAntecessorDe :c300.10.005 ;
 	:eAntecessorDe :c300.10.008 ;
 	:eSintetizadoPor :c300.30.008 ;
-	:temLegislacao :leg_231 ;
-	:temLegislacao :leg_272 ;
+	:temLegislacao :leg_243 ;
+	:temLegislacao :leg_284 ;
 	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
 	:descricao "Registo de dados e caracterização da relação com entidades singulares ou coletivas, públicas ou privadas, fornecedoras ou prestadoras de bens e serviços.
 Inicia com o estabelecimento do contacto e termina com finalização da relação institucional.
 Inclui a inserção de dados relativos à identificação da entidade prestadora ou fornecedora e ao seu relacionamento com a administração, bem como a atualização de dados.".
