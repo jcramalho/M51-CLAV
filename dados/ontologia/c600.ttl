@@ -1039,11 +1039,6 @@ Inclui citações e notificações das partes, contestações, reconvenção qua
 	:temPai :c600.20.001 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com a entrega da petição inicial e termina com a realização da audiência. Inclui todos os articulados, audiências e demais decisões que não sejam sentenças ou acórdãos bem como todos os atos e diligências da secretaria.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.20.300_1
-:na_c600.20.300_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Resolução de conflitos no âmbito das relações familiares previstas no artigo 4.º do Despacho 18778/2007, publicado no DR II Série, de 22 de agosto de 2007".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c600.20.001.02
 :c600.20.001.02 rdf:type owl:NamedIndividual ,
 	:Classe_N4;
@@ -1052,6 +1047,11 @@ Inclui citações e notificações das partes, contestações, reconvenção qua
 	:temPai :c600.20.001 ;
 	:classeStatus "A" ;
 	:descricao "Prolação da sentença no julgado de paz.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.20.300_1
+:na_c600.20.300_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Resolução de conflitos no âmbito das relações familiares previstas no artigo 4.º do Despacho 18778/2007, publicado no DR II Série, de 22 de agosto de 2007".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c600.20.300
 :c600.20.300 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1193,16 +1193,6 @@ Inicia com o  requerimento à entidade competente com os respetivos fundamentos 
 Inclui  a apresentação de de um plano de negócios
 que demonstre a adequabilidade do acordo e da viabilidade da empresa.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#c600.20.305
-:c600.20.305 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.20.305";
-	:titulo "Ação de conciliação em conflito coletivo de trabalho
-";
-	:temPai :c600.20 ;
-	:temLegislacao :leg_822 ;
-	:classeStatus "A" ;
-	:descricao "".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.20.600_1
 :na_c600.20.600_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -4555,379 +4545,6 @@ Inicia com a apresentação do requerimento inicial e termina com a decisão jud
 Inclui todos os atos e diligências processuais.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.600
-:c600.30.600 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.600";
-	:titulo "Processo de julgamento de contas";
-	:temPai :c600.30 ;
-	:processoTipo "PC" ;
-	:temDono :org_TContas ;
-	:classeStatus "A" ;
-	:descricao "".
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.601
-:c600.30.601 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.601";
-	:titulo "Processo de julgamento de conformidade";
-	:temPai :c600.30 ;
-	:processoTipo "PC" ;
-	:temDono :org_TContas ;
-	:classeStatus "A" ;
-	:descricao "".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.650_1
-:na_c600.30.650_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Ação por incumprimento (fases pré-contenciosa e contenciosa)".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.650_2
-:na_c600.30.650_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Recurso de anulação".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.650_3
-:na_c600.30.650_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Recurso por omissão".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.650_4
-:na_c600.30.650_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Ação de indemnização".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.650_5
-:na_c600.30.650_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Exceção de ilegalidade".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.650_6
-:na_c600.30.650_6 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "A intervenção do Estado português nestes processos é sempre coordenada pelo Ministério dos Negócios Estrangeiros (MNE), que envia pedidos de contributos aos restantes Ministérios para elaboração de peças processuais".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c600.30.650_1
-:ne_c600.30.650_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A fase administrativa das ações por incumprimento (pré-contencioso) deve ser considerado em 500.10.xxx – Pré-contencioso comunitário.".
-
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.650
-:c600.30.650 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.650";
-	:titulo "Ação em matéria comunitária
-";
-	:temPai :c600.30 ;
-	:processoTipo "PC" ;
-	:processoTransversal "S" ;
-	:temParticipanteAssessor :org_AP ;
-	:temParticipanteApreciador :org_MP ;
-	:temParticipanteComunicador :org_AT ;
-	:temDono :org_SGMNE ;
-	:temNotaAplicacao :na_c600.30.650_1 ;
-	:temNotaAplicacao :na_c600.30.650_2 ;
-	:temNotaAplicacao :na_c600.30.650_3 ;
-	:temNotaAplicacao :na_c600.30.650_4 ;
-	:temNotaAplicacao :na_c600.30.650_5 ;
-	:temNotaAplicacao :na_c600.30.650_6 ;
-	:temNotaExclusao :ne_c600.30.650_1 ;
-	:temLegislacao :leg_995 ;
-	:classeStatus "A" ;
-	:processoDimQual "Reduzida" ;
-	:processoUniform "S" ;
-	:descricao "Ação judicial interposta no Tribunal de Justiça da União Europeia (TJUE) na qual haja interesse de participação do Estado português, prevista no Tratado sobre o Funcionamento da União Europeia.
-Inicia com a petição inicial e termina com a decisão final do Tribunal de Justiça da União Europeia (TJUE), sob a forma de acórdão ou despacho.
-Inclui contestação, réplicas, tréplicas, notificações, despachos vários, etc.
-Inclui ainda a fase administrativa (procedimento pré-contencioso), imposta pelos tratados europeus, como passo prévio necessário a uma eventual ação judicial por incumprimento iniciados pela Comissão Europeia contra o Estado português, no âmbito dos seus poderes de verificação pré-contenciosa da correta aplicação do direito comunitário.".
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.700
-:c600.30.700 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.700";
-	:titulo "Fiscalização preventiva da constitucionalidade
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temDono :org_TC ;
-	:temLegislacao :leg_495 ;
-	:temLegislacao :leg_223 ;
-	:classeStatus "A" ;
-	:descricao "Controlo prévio à promulgação ou assinatura dos diplomas (actos) normativos. Inicia com pedidos apresentados pelas entidades com legitimidade (Presidente da República, Representantes da República nas Regiões Autónomas, Primeiro-Ministro ou um quinto dos deputados à Assembleia da República). Termina com (envio do) Acórdão do Plenário do Tribunal Constitucional (ao requerente).".
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.701
-:c600.30.701 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.701";
-	:titulo "Fiscalização sucessiva da constitucionalidade
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temDono :org_TC ;
-	:eSintetizadoPor :c100.10.003 ;
-	:temLegislacao :leg_495 ;
-	:temLegislacao :leg_223 ;
-	:classeStatus "A" ;
-	:descricao "Fiscalização exercida posteriormente à publicação das normas sobre que incide. Inicia com pedidos das entidades com legitimidade (Presidente da República, Presidente da Assembleia da República, Primeiro-Ministro, Provedor de Justiça, Procurador-Geral da República, um décimo dos deputados à Assembleia da República; Representantes da República nas Regiões Autónomas, Assembleias Legislativas das Regiões Autónomas ou um décimo dos seus deputados, Presidentes dos Governos Regionais). Termina com Acórdão do Tribunal Constitucional.".
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.702
-:c600.30.702 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.702";
-	:titulo "Fiscalização da inconstitucionalidade por omissão
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temDono :org_TC ;
-	:eSintetizadoPor :c100.10.003 ;
-	:temLegislacao :leg_495 ;
-	:temLegislacao :leg_223 ;
-	:classeStatus "A" ;
-	:descricao "Verificação de incumprimento da Constituição por omissão de medida legislativa. Inicia com pedido das entidades com legitimidade (Presidente da República, Provedor de Justiça, ou Presidentes das Assembleias Legislativas das Regiões Autónomas). Termina com Acórdão do Tribunal Constitucional (?).".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.703_1
-:na_c600.30.703_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "O recurso é sempre apresentado no tribunal onde foi proferida a decisão (e não diretamente no Tribunal Constitucional, para onde depois sobe com o requerimento). (o TC fica com uma cópia certificada, seguindo o original o caminho do processo)".
-
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.703
-:c600.30.703 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.703";
-	:titulo "Fiscalização concreta da constitucionalidade
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temDono :org_TC ;
-	:temNotaAplicacao :na_c600.30.703_1 ;
-	:eSintetizadoPor :c100.10.003 ;
-	:temLegislacao :leg_495 ;
-	:temLegislacao :leg_223 ;
-	:classeStatus "A" ;
-	:descricao "Apreciação da constitucionalidade de normas suscitada num processo judicial concreto. Inicia com um requerimento de recurso da parte com legitimidade processual. Termina com decisão (Acórdão ou Decisão Sumária) do Tribunal Constitucional.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.704_1
-:na_c600.30.704_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "A reclamação é apresentada no tribunal onde foi proferida a decisão de não admissão, mas dirigida ao Tribunal Constitucional. (o TC fica com uma cópia certificada, seguindo o original o caminho do processo)".
-
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.704
-:c600.30.704 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.704";
-	:titulo "Reclamação da não admissão do recurso
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temNotaAplicacao :na_c600.30.704_1 ;
-	:temLegislacao :leg_223 ;
-	:classeStatus "A" ;
-	:descricao "Verificação dos requisitos de admissibilidade de recurso de constitucionalidade não admitido. Inicia com o requerimento de reclamação. Termina com acórdão do Tribunal Constitucional.".
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.705
-:c600.30.705 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.705";
-	:titulo "Verificação e declaração de incapacidade / impedimento para o exercício do cargo de Presidente da República
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temLegislacao :leg_495 ;
-	:temLegislacao :leg_223 ;
-	:classeStatus "A" ;
-	:descricao "Verificação da morte, ou declaração da impossibilidade física permanente, ou verificação de impedimentos temporários do exercício de funções, ou verificação da perda do cargo de Presidente da República. Inicia com requerimento das entidades definidas na lei (Procurador-Geral da República, Presidente da República, Presidente do Supremo Tribunal de Justiça, Presidente da Assembleia da República). Termina com declaração do Plenário do Tribunal Constitucional.".
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.706
-:c600.30.706 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.706";
-	:titulo "Contencioso da perda de mandato de cargo de deputado
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temLegislacao :leg_495 ;
-	:temLegislacao :leg_223 ;
-	:classeStatus "A" ;
-	:descricao "Julgamento, a requerimento dos Deputados, dos recursos relativos à perda do mandato de Deputado à Assembleia da República ou a uma Assembleia Legislativa regional. Inicia com requerimento de recurso de deliberação da Assembleia que declare a perda de mandato de Deputados. Termina com acórdão do Tribunal Constitucional.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.707_1
-:na_c600.30.707_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Recursos de todos as eleições para os órgãos de sobrerania".
-
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.707
-:c600.30.707 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.707";
-	:titulo "Contencioso eleitoral
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temNotaAplicacao :na_c600.30.707_1 ;
-	:classeStatus "A" ;
-	:descricao "".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.708_1
-:na_c600.30.708_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Receção e admissão de candidaturas para Presidente da República e ao Parlamento Europeu".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.708_2
-:na_c600.30.708_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Julgamento dos recursos em matéria de contencioso de apresentação de candidaturas e de contencioso eleitoral relativamente aos actos dos processos eleitorais".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.708_3
-:na_c600.30.708_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Julgamento dos recursos contenciosos interpostos de atos praticados por órgãos de administração eleitoral (p. ex. Comissão Nacional de Eleições)".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.708_4
-:na_c600.30.708_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Julgamento dos recursos relativos às eleições realizadas na Assembleia da República e nas Assembleias Legislativas Regionais".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c600.30.708_1
-:ne_c600.30.708_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A tramitação, monitorização e acompanhamento que os tribunais realizam nas eleições para a assembleia da república e autarquias locais são classificadas em 950.10.200 – Apreciação e admissão de candidaturas a atos eleitorais.".
-
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.708
-:c600.30.708 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.708";
-	:titulo "Processos Eleitorais
-
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temDono :org_TC ;
-	:temDono :org_TComarca ;
-	:temNotaAplicacao :na_c600.30.708_1 ;
-	:temNotaAplicacao :na_c600.30.708_2 ;
-	:temNotaAplicacao :na_c600.30.708_3 ;
-	:temNotaAplicacao :na_c600.30.708_4 ;
-	:temNotaExclusao :ne_c600.30.708_1 ;
-	:temLegislacao :leg_495 ;
-	:temLegislacao :leg_223 ;
-	:temLegislacao :leg_18 ;
-	:temLegislacao :leg_50 ;
-	:temLegislacao :leg_51 ;
-	:temLegislacao :leg_34 ;
-	:temLegislacao :leg_17 ;
-	:temLegislacao :leg_29 ;
-	:temLegislacao :leg_37 ;
-	:temLegislacao :leg_120 ;
-	:temLegislacao :leg_349 ;
-	:temLegislacao :leg_565 ;
-	:temLegislacao :leg_1136 ;
-	:temLegislacao :leg_1070 ;
-	:temLegislacao :leg_1368 ;
-	:temLegislacao :leg_1070 ;
-	:temLegislacao :leg_1054 ;
-	:temLegislacao :leg_489 ;
-	:temLegislacao :leg_490 ;
-	:temLegislacao :leg_286 ;
-	:temLegislacao :leg_186 ;
-	:temLegislacao :leg_80 ;
-	:temLegislacao :leg_34 ;
-	:temLegislacao :leg_143 ;
-	:temLegislacao :leg_1207 ;
-	:temLegislacao :leg_635 ;
-	:temLegislacao :leg_1399 ;
-	:classeStatus "A" ;
-	:descricao "Julgamento de actos e decisões em matéria eleitoral (eleições presidenciais, para o Parlamento Europeu, legislativas, regionais e para as autarquias locais. Inicia com requerimento ou recurso. Termina com decisão do Tribunal Constitucional.
-
-".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c600.30.709_1
-:ne_c600.30.709_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Não inclui: Registo de Partidos Políticos – (400.10.xxx?)".
-
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.709
-:c600.30.709 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.709";
-	:titulo "Contencioso de partidos políticos
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temNotaExclusao :ne_c600.30.709_1 ;
-	:temLegislacao :leg_495 ;
-	:temLegislacao :leg_223 ;
-	:classeStatus "A" ;
-	:descricao "Julgamento de ações de impugnação de eleições e deliberações de órgãos de partidos políticos. Inicia com apresentação de requerimento de recurso. Termina com Acórdão do Tribunal Constitucional.".
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.710
-:c600.30.710 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.710";
-	:titulo "Fiscalização da legalidade do financiamento dos partidos políticos e das campanhas eleitorais
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temDono :org_TC ;
-	:temLegislacao :leg_223 ;
-	:temLegislacao :leg_411 ;
-	:classeStatus "A" ;
-	:descricao "Apreciação da regularidade e legalidade das contas dos partidos políticos e das campanhas eleitorais e aplicação das correspondentes sanções. Inicia com apresentação de parecer da Entidade das Contas e Financiamentos Políticos. Termina com Acórdão do Tribunal Constitucional.".
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.711
-:c600.30.711 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.711";
-	:titulo "Ação relativa à declaração de ideologia fascista de organizações
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temDono :org_TC ;
-	:temLegislacao :leg_25 ;
-	:classeStatus "A" ;
-	:descricao "Declaração de que uma organização perfilha a ideologia fascista e decretamento da respetiva extinção. Inicia com requerimento do Presidente da República, Assembleia da República, Governo, Provedor de Justiça ou Procurador-Geral da República. Termina com Acórdão do Tribunal Constitucional.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.712_1
-:na_c600.30.712_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Apreciação e admissão de propostas de referendo (Anterior PN)".
-
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.712
-:c600.30.712 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.712";
-	:titulo "Fiscalização da legalidade e constitucionalidade de referendos
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temDono :org_TC ;
-	:temNotaAplicacao :na_c600.30.712_1 ;
-	:eSintetizadoPor :c100.10.003 ;
-	:eCruzadoCom :c950.10.201 ;
-	:temLegislacao :leg_50 ;
-	:temLegislacao :leg_228 ;
-	:classeStatus "A" ;
-	:descricao "Verificação prévia da constitucionalidade e legalidade da realização dos referendos nacionais, regionais e locais. Inicia com o pedido de verificação das entidades com legitimidade prevista na lei. Termina com decisão do Tribunal Constitucional.".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c600.30.713_1
-:ne_c600.30.713_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Não inclui Registo e arquivo de declarações de património e rendimentos de titulares de cargos públicos (400.10.xxx)".
-
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.713
-:c600.30.713 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.713";
-	:titulo "Apreciação de declarações de património e rendimentos de titulares de cargos públicos
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temDono :org_TC ;
-	:temNotaExclusao :ne_c600.30.713_1 ;
-	:temLegislacao :leg_50 ;
-	:classeStatus "A" ;
-	:descricao "Julgamento de motivo relevante de oposição à divulgação de declarações; e Verificação de não apresentação de declarações e existência do respetivo dever. Inicia com requerimento de parte interessada. Termina com acórdão do Tribunal Constitucional.".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c600.30.714_1
-:ne_c600.30.714_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Não inclui Registo e arquivo de declarações de incompatibilidades e impedimentos (400.10.xxx?)".
-
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.714
-:c600.30.714 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "600.30.714";
-	:titulo "Apreciação de declarações de incompatibilidade dos titulares dos cargos políticos
-";
-	:temPai :c600.30 ;
-	:processoTipo "PE" ;
-	:temDono :org_TC ;
-	:temNotaExclusao :ne_c600.30.714_1 ;
-	:temLegislacao :leg_50 ;
-	:classeStatus "A" ;
-	:descricao "Julgamento de verificação de situação de incompatibilidade. Inicia com promoção do Ministério Público. Termina com Acórdão do Tribunal Constitucional (ordenando a cessação e fixando o respetivo prazo).".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.750_1
 :na_c600.30.750_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -5577,15 +5194,15 @@ Inclui ainda a elaboração de um plano de trabalhos a executar, a colocação n
 	:NotaAplicacao ;
 	:conteudo "Acompanhamento de medida de coação não privativa da liberdade".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.302_4
-:na_c600.40.302_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Acompanhamento da liberdade  condicional".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.302_3
 :na_c600.40.302_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Acompanhamento de medida de segurança não privativa da liberdade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.302_4
+:na_c600.40.302_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento da liberdade  condicional".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.302_5
 :na_c600.40.302_5 rdf:type owl:NamedIndividual ,
@@ -5657,15 +5274,15 @@ Inicia com um pedido do tribunal e termina com a extinção da pena ou  medida
 	:NotaAplicacao ;
 	:conteudo "Privação do direito de conduzir ciclomotores ou de obter permissão para conduzir ciclomotores".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_3
-:na_c600.40.303_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Realização de prestações económicas ou tarefas a favor da comunidade".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_2
 :na_c600.40.303_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reparação ao ofendido".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_3
+:na_c600.40.303_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Realização de prestações económicas ou tarefas a favor da comunidade".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_4
 :na_c600.40.303_4 rdf:type owl:NamedIndividual ,

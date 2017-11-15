@@ -19,7 +19,7 @@ exports.migraClasse = function(orgCatalog, legCatalog, classe)
     csv({delimiter:";"})
         .fromFile(csvFilePath)
         .on('json', (jsonObj, rowIndex)=> {
-            if (jsonObj['Código']) { // Se é uma linha com info de classe
+            if ((jsonObj['Estado'].trim()=='') && jsonObj['Código']) { // Se é uma linha com info de classe
                 var m = require("./mod-migra.js")
                 var cod = "" + jsonObj['Código'].replace(/(\r\n|\n|\r)/gm,"")
                 var classe = m.calcClasse(cod)
