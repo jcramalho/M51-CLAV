@@ -60,6 +60,14 @@ exports.migraClasse = function(orgCatalog, legCatalog, classe)
                             var sep = cod.lastIndexOf(".")
                             var pai = cod.slice(0,sep)
                             classTriples += "\t:temPai :c" + pai + " ;\n"
+
+                            // Atributos obrigatórios para classes de nível 3
+                            //    - são migrados mais à frente
+                            if (!jsonObj['Dimensão qualitativa do processo'])
+                                console.warn('WARN: ' + classCode + ': Dimensão qualitativa do processo vazia.')
+                            if (!jsonObj['Uniformização do processo'])
+                                console.warn('WARN: ' + classCode + ': Uniformização do processo vazia.')
+
                             // Tipo de processo: PC, PE
                             if (jsonObj['Tipo de processo']) {
                                 classTriples += "\t:processoTipo " + "\"" + jsonObj['Tipo de processo'] + "\" ;\n"
@@ -232,14 +240,16 @@ exports.migraClasse = function(orgCatalog, legCatalog, classe)
                         var legRefs = jsonObj['Diplomas jurídico-administrativos REF']
                         var legRefsSplit = legRefs.replace(/(\r\n|\n|\r)/gm,"").split("#")
                         
-                        for(var l=0, len = legRefsSplit.length; l<len; l++)
+                        for(var l=0, len = legRefsSplit.length; l<(len-1); l++)
                         {
-                            if(legRefsSplit[l])
+                            if(legRefsSplit[l]) {
+                                var lref = legRefsSplit[l].trim()
                                 // Verificação da existência no catálogo legislativo
-                                if(legCatalog.indexOf(legRefsSplit[l])!= -1)
-                                    classTriples += "\t:temLegislacao " + ":leg_" + legCatalog.indexOf(legRefsSplit[l]) + " ;\n"
-                                else
-                                    console.error( classCode + " :: Referência a legislação inexistente no catálogo: " + legRefsSplit[l])
+                                if(legCatalog.indexOf(lref)!= -1)
+                                classTriples += "\t:temLegislacao " + ":leg_" + (legCatalog.indexOf(legRefsSplit[l])+1) + " ;\n"
+                            else
+                                console.error( classCode + ";Referência a legislação inexistente no catálogo;" + lref)
+                            }   
                         }
                     }
     
@@ -259,6 +269,31 @@ exports.migraClasse = function(orgCatalog, legCatalog, classe)
                             }
                         }
                     }
+
+                    // Dimensão qualitativa do processo
+                    if(jsonObj['Dimensão qualitativa do processo']) {
+                        var dimQualProc = jsonObj['Dimensão qualitativa do processo'].trim()
+                        if(classe == 3)
+                            if(dimQualProc.match(/Elevada|Reduzida|Média/i))
+                                classTriples += "\t:processoDimQual " + "\"" + dimQualProc + "\" ;\n"
+                            else
+                                console.log('ERROR: DimQualProc: valor desconhecido: ' + dimQualProc + ' classe: ' + classCode)
+                        else
+                            console.log('ERROR: DimQualProc: classe não é de nível 3: ' + classCode)        
+                    }
+
+                    // Uniformização do processo
+                    if(jsonObj['Uniformização do processo']) {
+                        var uniformProc = jsonObj['Uniformização do processo'].trim()
+                        if(classe == 3)
+                            if(uniformProc.match(/S|N/i))
+                                classTriples += "\t:processoUniform " + "\"" + uniformProc + "\" ;\n"
+                            else
+                                console.log('ERROR: uniformProc: valor desconhecido: ' + uniformProc + ' classe: ' + classCode)
+                        else
+                            console.log('ERROR: uniformProc: classe não é de nível 3: ' + classCode)        
+                    }
+
                     // Atenção ao último triplo, tem que terminar em .
                     var mydesc = jsonObj['Descrição'].replace(/\"/gm,"\\\"")
                     classTriples += "\t:descricao " + "\"" + mydesc + "\"" + ".\n"
