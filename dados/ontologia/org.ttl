@@ -929,10 +929,10 @@
 	:Organizacao ;
 	:orgSigla "I_P_";
 	:orgNome "Institutos Públicos".
-###  http://jcr.di.uminho.pt/m51-clav#org_IP, SA
-:org_IP, SA rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#org_IP,_SA
+:org_IP,_SA rdf:type owl:NamedIndividual ,
 	:Organizacao ;
-	:orgSigla "IP, SA";
+	:orgSigla "IP,_SA";
 	:orgNome "Infraestruturas de Portugal, S.A.".
 ###  http://jcr.di.uminho.pt/m51-clav#org_IPAC
 :org_IPAC rdf:type owl:NamedIndividual ,
@@ -969,10 +969,10 @@
 	:Organizacao ;
 	:orgSigla "IRN";
 	:orgNome "Instituto dos Registos e do Notariado, I.P.".
-###  http://jcr.di.uminho.pt/m51-clav#org_ISAN Portugal
-:org_ISAN Portugal rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#org_ISAN_Portugal
+:org_ISAN_Portugal rdf:type owl:NamedIndividual ,
 	:Organizacao ;
-	:orgSigla "ISAN Portugal";
+	:orgSigla "ISAN_Portugal";
 	:orgNome "International Standard Audiovisual Number Portugal".
 ###  http://jcr.di.uminho.pt/m51-clav#org_ISS
 :org_ISS rdf:type owl:NamedIndividual ,
