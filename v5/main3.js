@@ -22,7 +22,7 @@ jfile.readFile(file, function(err, orgCatalog) {
                 // ------------------ Controlador principal ----------------------------------
 
                 ti.migraTI()
-                /*classe.migraClasse(orgCatalog, legCatalog, '100')
+                classe.migraClasse(orgCatalog, legCatalog, '100')
                 classe.migraClasse(orgCatalog, legCatalog, '150')
                 classe.migraClasse(orgCatalog, legCatalog, '200')
                 classe.migraClasse(orgCatalog, legCatalog, '250')
@@ -31,16 +31,16 @@ jfile.readFile(file, function(err, orgCatalog) {
                 classe.migraClasse(orgCatalog, legCatalog, '400')
                 classe.migraClasse(orgCatalog, legCatalog, '450')
                 classe.migraClasse(orgCatalog, legCatalog, '500')
-                classe.migraClasse(orgCatalog, legCatalog, '550')*/
+                classe.migraClasse(orgCatalog, legCatalog, '550')
                 classe.migraClasse(orgCatalog, legCatalog, '600')
-                /*classe.migraClasse(orgCatalog, legCatalog, '650')
+                classe.migraClasse(orgCatalog, legCatalog, '650')
                 classe.migraClasse(orgCatalog, legCatalog, '700')
                 classe.migraClasse(orgCatalog, legCatalog, '710')
                 classe.migraClasse(orgCatalog, legCatalog, '750')
                 classe.migraClasse(orgCatalog, legCatalog, '800')
                 classe.migraClasse(orgCatalog, legCatalog, '850')
                 classe.migraClasse(orgCatalog, legCatalog, '900')
-                classe.migraClasse(orgCatalog, legCatalog, '950')*/
+                classe.migraClasse(orgCatalog, legCatalog, '950')
 
                 // ------------------ Fim do Controlador principal ----------------------------------            
             }

@@ -28,7 +28,7 @@ csv({delimiter:";"})
         currentStatements += "\t:Organizacao ;\n"
         currentStatements += "\t:orgSigla " + "\"" + sigla + "\";\n"
         // Atenção ao último triplo, tem que terminar em .
-        currentStatements += "\t:orgNome " + "\"" + jsonObj['Entidade'] + "\".\n"
+        currentStatements += "\t:orgNome " + "\"" + jsonObj['Designação'] + "\".\n"
 
         fs.appendFileSync(fout, currentStatements)
     })
