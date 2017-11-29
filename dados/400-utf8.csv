@@ -180,7 +180,7 @@ Sucessão (antecessor)#";Elevada;S;10;;"Critério legal:
 Informação não recuperável noutro processo de negócio (PN).";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;400.10.003;Registo de associações de municípios e de freguesias;"Atribuição de número e inscrição da constituição e extinção de associações de freguesias, seus estatutos e respetivas modificações.
 Inicia com a comunicação pela entidade autárquica, respetivamente município ou freguesia, em cuja área está sediada a associação e termina com a emissão de declaração.
-Inclui análise ao pedido, decisão, registo, atribuição de número e envio para publicação.";;;;"Portaria 376/2015
+Inclui análise ao pedido, decisão, registo, atribuição de número e envio para publicação.";;;;"Portaria 376/2015#
 Lei 175/99#";;PE;S;DGAL#;AL#;Iniciar#;"400.10.009#
 150.10.601#";"Registo Nacional de Pessoas Coletivas#
 Caracterização de entidades para apoio à definição de políticas#";"Sucessão (sucessor)#
@@ -191,7 +191,7 @@ Informação sintetizada no
 PN 400.10.09 - Registo Nacional de Pessoas Coletivas.
 ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;400.10.004;Registo de cidadãos da União Europeia;"Formalização do direito de residência em Portugal de cidadão da União Europeia, Espaço Económico Europeu ou Suíça.
-Inicia com o pedido do interessado e termina com a emissão de um certificado de registo temporário válido por cinco anos, ou de um certificado de residência permanente, nos casos dos cidadãos que tenham já residido ininterruptamente em território nacional por um período de 5 anos.
+Inicia com o pedido do interessado e termina com a emissão de um certificado de registo temporário, ou de um certificado de residência permanente, nos casos dos cidadãos que tenham já residido ininterruptamente em território nacional.
 Inclui análise das condições do requerente, nomeadamente verificação do documento de identidade e declaração de honra assinada pelo requerente em como preenche as condições estipuladas por lei, para beneficiar do direito de residência.
 ";"Pedidos de cidadão da União Europeia, Islândia, Liechtenstein, Noruega e Suíça que entrem em território nacional e aqui desejem permanecer por período superior a três meses, ao abrigo do direito de livre circulação e de residência, conferido pelo direito da União aos cidadãos dos respetivos Estados-membros#
 Pedidos de renovação do registo#
@@ -208,11 +208,11 @@ Pedidos de segunda via do cartão#";;;"Circular DSNEC 7/2012#
 Portaria 1359/2009#
 Circular Informativa DSPCS 20/2004#
 Regulamento (CE) 883/2004#
-Regulamento (CE) 859/2003#";;PE;S;"ISS#
+Regulamento (CE) 859/2003#";;PE;N;"ISS#
 ISSA#
 ISSM#
 ADSE#
-IASFA#";;Comunicar#;"400.10.011#
+IASFA#";;;"400.10.011#
 400.10.012#";"Registo de trabalhadores no sistema da Segurança Social#
 Registo de trabalhadores em subsistemas de saúde públicos#
 
@@ -536,7 +536,7 @@ Sucessão (sucessor)#
 (Este registo tem o valor de registo civil, sendo-lhe subsidiariamente aplicáveis, com as necessárias adaptações, as normas respeitantes a este último. A informação não é recuperável em nenhum outro PN em Portugal.)
 ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;400.10.027;Emissão de passaportes;"Emissão de documento de viagem individual que permite ao seu titular a entrada e a saída de território nacional, bem como do território de outros Estados que o reconheçam para esse efeito.
-Inicia com o pedido do requerente e termina com a emissão do passaporte ou eventual recusa.
+Inicia com o pedido do requerente e termina com a última emissão de passaporte.
 Inclui a recolha de dados biométricos do titular, instrução do processo, análise dos elementos de identificação, consulta às  competentes bases de dados, designadamente do registo civil, da identificação civil e de segurança interna e indicação à Imprensa Nacional-Casa da Moeda  (INCM) para a respetiva emissão do documento.
 ";"Emissão de documentos de viagem de cidadãos nacionais#
 
@@ -612,7 +612,7 @@ Por analogia com a emissão de passaportes -
 [DL 86/2000], artº 12 ""Os dados pessoais são conservados até 10 anos após a última emissão do passaporte do seu titular e durante 20 anos em ficheiro histórico após a data da última emissão de passaportes.""";Data da emissão do documento de viagem;E;"Critério legal: Artigo 12 do [DL 86/2000] alterado pelo [DL139/2006].
 Por analogia com a emissão de passaportes.";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;400.10.029;Emissão de título de residente;"Emissão de documento de identificação a estrangeiro de país terceiro, que comprova a qualidade de residente legal em território português, aplicando-se as normas relativas à identificação civil.
-Inicia com o pedido e termina com a entrega do título.
+Inicia com o pedido e termina com a emissão do título.
 Inclui análise e despacho, remessa dos dados para a Imprensa Nacional-Casa da Moeda, para a emissão automática do título/cartão de residência securizados.
 Inclui, ainda, a renovação do título.
 ";"Estrangeiros de países terceiros autorizados a residir em território nacional ao abrigo do regime jurídico de entrada, permanência, saída e afastamento de estrangeiros do território nacional#
@@ -963,7 +963,7 @@ PN 400.10.001 Registo de contribuintes;
 PN 400.10.011 Registo de trabalhadores no sistema da Segurança Social;
 PN 400.10.040 Registo nacional de utentes.";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;400.10.042;Identificação de estrangeiros;"Registo nacional de dados de cidadãos estrangeiros para efeitos de gestão do controlo da entrada, permanência e saída de cidadãos estrangeiros, prevenção de perigo ou repressão de infração penal.
-Inicia com a inscrição no registo e termina com a data da última emissão dos documentos sobre o estrangeiro (notícia da saída do território, da aquisição de nacionalidade ou do encerramento do  processo de emissão de título de residência, quando esta não é renovadal) .
+Inicia com a inscrição no registo e termina com a data da última emissão dos documentos sobre o estrangeiro (notícia da saída do território, da aquisição de nacionalidade ou do encerramento do  processo de emissão de título de residência, quando esta não é renovadal).
 Inclui a atualização da situação.";;;;"Lei 27/2008#
 Lei 26/2014#
 Lei 23/2007#
@@ -987,12 +987,7 @@ Cruzada#
 Cruzada#
 Cruzada#";Elevada;S;10;;"Critério legal:
 [Lei 23/2007], artº 212, Identificação de estrangeiros
-""5 — Os dados pessoais são conservados pelo período
-estritamente necessário à finalidade que fundamentou o
-registo no SII/SEF, e de acordo com tal finalidade, sendo
-o registo objeto de verificação da necessidade de conservação,
-10 anos após a última emissão dos documentos
-respeitantes ao seu titular""";"Data da última emissão dos documentos
+""5 — Os dados pessoais são conservados pelo período estritamente necessário à finalidade que fundamentou o registo no SII/SEF, e de acordo com tal finalidade, sendo o registo objeto de verificação da necessidade de conservação, 10 anos após a última emissão dos documentos respeitantes ao seu titular""";"Data da última emissão dos documentos
 respeitantes ao seu titular";C;"Critério legal
 Garante de direitos
 A eliminação dos registos de dados pessoais pode implicar que cidadãos estrangeiros e seus descendentes não consigam prova irrefutável da permanência legal em território nacional.";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -1234,9 +1229,9 @@ PN 400.10.002 - Identificação fiscal;
 PN 400.10.009 - Registo Nacional de Pessoas Coletivas.
 ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;400.10.051;Registo nacional de profissionais;"Identificação dos dados dos profissionais constantes da classificação portuguesa das profissões, após reconhecimento, licenciamento ou certificação, para efeitos de recolha centralizada ou apoio. 
-Inicia com a solicitação de inscrição e termina com a inativação do registo (por iniciativa específica ou decorrente de aplicação de condição).
+Inicia com a solicitação de inscrição e termina com a inativação do registo (por iniciativa específica, por extinção da entidade ou decorrente de aplicação de condição ou disposição legal).
 Inclui a recolha centralizada, registo, atribuição de número, atualização, validação dos dados.
-O reconhecimento como profissional em determinada atividade deve ser considerado em 450.10";"Profissionais contemplados na classificação portuguesa das classificações#
+O registo pode ser inativado na sequência de procedimento estabelecido na lei (como é caso do DL 23/2014, art.º 3º, em que estabelece que o registo é válido por tempo indeterminado, caducando se a IGAC verificar a inatividade durante um período consecutivo de dois anos). Na ausência de dispositivo legal deve ser considerado um prazo de vida ativa do trabalhador de 50 anos.";"Profissionais contemplados na classificação portuguesa das classificações#
 
 ";"Agentes desportivos de alto rendimento - IPDJ (Ex-400.10.014 Registo dos agentes desportivos de alto rendimento)#
 Guardas-noturnos - DGAL (Ex-400.10.020 Registo nacional de guardas noturnos)#
@@ -1398,8 +1393,8 @@ Inclui a atribuição de um número de identificação militar (NIM) que identif
 Em Serviço Efetivo, se estiver a prestar serviço militar num dos ramos das Forças Armadas#
 Na reserva de disponibilidade, após a prestação do serviço militar e até aos 35 anos de idade#";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;400.10.200;Registo comercial;"Publicitação da situação jurídica dos comerciantes individuais, das sociedades comerciais, das sociedades civis sob a forma comercial, cooperativas, empresas públicas, agrupamentos complementares de empresas, agrupamentos europeus de interesse económico, estabelecimentos individuais de responsabilidade limitada, bem como outras pessoas singulares e coletivas sujeitas a registo.
-Inicia com o pedido do registo e termina com o registo efetuado por transcrição ou depósito.
-Inclui o pedido, a apresentação do pedido, a qualificação, a execução material e a publicação oficiosa, quando aplicável.";"Registo por transcrição e registo por depósito# 
+Inicia com o pedido do registo e termina com a anotação da extinção da entidade.
+Inclui o pedido, a apresentação do pedido, a qualificação, a execução material e a publicação oficiosa, quando aplicável, o registo efetuado por transcrição ou depósito, bem como eventuais atualizações.";"Registo por transcrição e registo por depósito# 
 Abertura de matrícula, constituição, alterações ao contrato de sociedade, fusão, cisão, transformação, dissolução, liquidação, retificação, suprimento, dissolução e liquidação de sociedades comerciais#
 Início, alteração e cessação da atividade de comerciante individual#
 Procedimentos especiais de constituição de sociedades comerciais#
@@ -1483,8 +1478,8 @@ Por analogia com o [DL 54/75] - art.º 27-G n.º2 “Os dados pessoais podem ser
 ";Data da caducidade ou cancelamento da matrícula da pessoa coletiva ou entidade.;C;"Densidade informacional:
 A informação não é recuperável em nenhum outro PN.";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;400.10.201;Registo de navios mercantes;"Publicitação da situação jurídica das embarcações mercantes, das quais fazem parte, as de comércio, as de pesca, os rebocadores e as auxiliares.
-Inicia com o pedido do registo e termina com o registo efetuado e anotação da matrícula do navio e/ou da inscrição de aquisição de propriedade no certificado do registo de propriedade passado pela Capitania ou delegação marítima.
-Inclui o pedido, a apresentação do pedido, a qualificação e a execução material.";"Aquisição da propriedade sobre navio (mercante)#
+Inicia com o pedido do registo e termina com a anotação do abate ou desaparecimento do bem.
+Inclui o pedido, a apresentação do pedido, a qualificação e a execução material, a anotação da matrícula do navio e/ou da inscrição de aquisição de propriedade no certificado do registo de propriedade passado pela Capitania ou delegação marítima, bem como eventuais atualizações.";"Aquisição da propriedade sobre navio (mercante)#
 Registo do contrato de construção de navio#
 Registo de grande reparação de navio#
 Mudança voluntária de capitania do registo de navio#
@@ -1550,7 +1545,7 @@ Sucessão (antecessor)#
 Sucessão (antecessor)# 
 ";M;S;10;;"Criterio Legal: Por analogia com o registo de veículos, [DL 54/75]: artigo 27.º-G ""1 - Os dados pessoais podem ser conservados na base de dados durante 5 anos  contar da data do cancelamento do registo.
 Artigo 27.º-G ""2 - Os dados pessoais podem ser conservados em ficheiro histórico durante 10 anos a contar da data da eliminação do registo da base de dados."" Aditado pelo seguinte diploma: [DL 182/2002].
-";A contar da data do cancelamento do registo.;C;"Densidade informacional: a informação não é recuperável em nenhum outro PN.
+";Data de extinção da entidade sobre que recai o procedimento;C;"Densidade informacional: a informação não é recuperável em nenhum outro PN.
 ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;400.10.400;Registo animal;"Identificação de animais e dos seus detentores.
 Inicia com o pedido de registo e termina com a comunicação da morte dos animais ou cancelamento do registo.
@@ -2150,7 +2145,7 @@ Complementaridade informacional com o Registo de entidades no sistema de Depósi
 Inicia com pedido e termina com a publicação do registo do símbolo heráldico.
 Inclui apreciação de propostas, apreciação da ordenação e significado dos símbolos heráldicos, consulta de entidades e decisão.
 ";;;;Lei 53/91#;;PE;S;DGAL#;"AL#
-CH#";"iniciar#
+CH#";"Iniciar#
 Apreciar#";400.10.009#;Registo Nacional de Pessoas Coletivas#;Sucessão (sucessor)#;Média;S;1;;"Conjugação dos critérios:
 - Legal:
 Prazo para impugnação
@@ -2188,7 +2183,7 @@ Informação não recuperável noutro PN
 Inicia com a comunicação à entidade competente dos elementos exigidos por lei e termina com o seu registo num sistema de informação.
 Inclui retificações de dados inexatos ou incompletos.
 ";Candidatos que pretendam obter o grau de Doutor num estabelecimento de ensino em Portugal e a doutorandos portugueses, em estabelecimentos de ensino superior estrangeiros, que tenham comunicado o seu registo de tema de tese à entidade competente#;;;"DL 52/2002#
-Portaria 285/2015#";;PE;S;DGEEC#;IES#;;"150.40.500#
+Portaria 285/2015#";;PE;S;DGEEC#;IES#;Comunicar#;"150.40.500#
 300.30.008#
 800.20.001#
 800.20.002#
@@ -2202,8 +2197,8 @@ Sucessão (antecessor)#
 Sucessão (antecessor)#
 Sucessão (antecessor)#";Elevada;S;1;;"Conjugação dos critérios:
 - Legal:
-Decreto-Lei 52/2002, artº 3.º, Período de conservação dos dados ""O período de conservação dos dados referidos no n.o 1 do artº anterior coincide com o da duração da elaboração da tese de doutoramento.""
-Portaria 285/2015,Art.º 5.º, n. 5) — A instituição de ensino superior procede ao registo
+[DL 52/2002], artº 3.º, Período de conservação dos dados ""O período de conservação dos dados referidos no n.o 1 do artº anterior coincide com o da duração da elaboração da tese de doutoramento.""
+[Portaria 285/2015] ,Art.º 5.º, n. 5) — A instituição de ensino superior procede ao registo
 do cancelamento do trabalho, nos casos de não atribuição do grau decorrentes de:
 a) Ultrapassagem dos prazos máximos para a realização do ato público de defesa, tal como previstos nas normas regulamentares aplicáveis;
 b) Não aprovação no ato público de defesa.
@@ -2233,7 +2228,7 @@ DL 88/2006#
 DL 63/2016#
 
 ";;PE;S;"ANQEP#
-DGES#";"IES# 
+DGES#";"IES#
 IEFP#
 CPL#";"Iniciar#
 Apreciar#
@@ -2443,7 +2438,7 @@ Os pedidos de informação que não se integram em nenhum processo específico d
 Portaria 696/2009#
 Portaria 307/2009#
 Decreto Regulamentar 3/2009#
-Lei 19/2008#";;PE;S;IRN#;Cns#;iniciar#;"350.30.001#
+Lei 19/2008#";;PE;S;IRN#;Cns#;Iniciar#;"350.30.001#
 400.30.001#";"Cobrança de receitas e pagamento de despesas#
 Celebração de contratos, escrituras, títulos equivalentes e testamentos#";"Cruzada#
 Sucessão (sucessor)#";Média;N;15;;"Critério legal:

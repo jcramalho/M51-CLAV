@@ -369,7 +369,7 @@ Concessão de imunidades, dispensas e privilégios às representações nacionai
 DL 48295/68#";"Regulamento (CE) 562/2006 do Parlamento Europeu e do Conselho#
 Regime especial previsto para pessoal diplomático e consular decorre do disposto nos artºs 29 e segs. da Convenção de Viena (Decreto-Lei n.º 48295/68) sobre relações diplomáticas e dos arts. 46 e 47 da Convenção de Viena sobre relações consulares#";PE;S;SGMNE#;;;;;;;;;;;;;;Fase de harmonização;
 Harmonização;200.20.502;Acreditação de agentes diplomáticos;"Ato através do qual um Estado acredita determinada pessoa como agente diplomático ao seu serviço para, nessa qualidade, atuar perante outro Estado ou perante uma organização internacional.
-Inicia com o pedido e termina com a emissão de cartas credenciais, cartas de plenos poderes, cartas de gabinete e/ou de cartões.
+Inicia com o pedido e termina com a emissão do docuemnto identificador (cartas credenciais, cartas de plenos poderes, cartas de gabinete e/ou de cartões).
 Inclui instrução do processo e consulta ao Serviço de Estrangeiros e Fronteiras para visar a emissão de cartões, o qual confere antecedentes e insere dados no sistema informático.
 ";"Atribuição de cartas de acreditação, nomeadamente, os documentos relativos às instalações da representação e aos procedimentos de acreditação dos titulares#
 Identificação de agentes diplomáticos e consulares (Anterior PN 400.10.030)#
@@ -479,7 +479,7 @@ Sintetiza a informação de
 PN 200.30.001.01 - Coordenação e execução de ações de ajuda humanitária e de emergência: coordenação.";;
 ;200.30.300;Aprovação de projetos da sociedade civil;"Seleção, contratação e acompanhamento de projetos de cooperação para o desenvolvimento e de educação para o desenvolvimento no âmbito da Sociedade Civil, controlo e fiscalização da respetiva execução  material e financeira.
 Inicia com a apresentação do projeto e termina com a comunicação da decisão.
-Inclui a análise e a consulta de outras entidades.";;;;;;PE;N;Camões#;;;;;;;;10;;"Critério legal:
+Inclui a análise e a consulta de outras entidades.";;;;;;PE;N;Camões#;;;;;;Reduzida;N;10;;"Critério legal:
 Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).";Data de encerramento do processo;C;"Densidade informacional:
 A informação não está sintetizada noutros PN.";;
 ;200.30.301;Conceção de programas de cooperação e de ajuda pública ao desenvolvimento;"Elaboração dos instrumentos de orientação estratégica que estabelecem os critérios, os objetivos e os atores envolvidos, bem como os mecanismos e os recursos necessários à prossecução das políticas de cooperação para o desenvolvimento, normalmente designados por programas de cooperação.
@@ -512,7 +512,7 @@ Cruzada#
 Cruzada#
 Cruzada#
 Síntese (sintetiza)#
-Complementar#";;;10;;"Critério legal:
+Complementar#";Reduzida;N;10;;"Critério legal:
 Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).";Data de encerramento do processo;C;"Complementaridade informacional:
 É complementar do
 PN 200.30.303 - Acompanhamento e avaliação da execução de projetos de cooperação e ajuda pública ao desenvolvimento.";;
@@ -553,7 +553,7 @@ Síntese (sintetizado)#
 Sucessão (sucessor)#
 Sucessão (sucessor)#
 Sucessão (antecessor)#
-Sucessão (sucessor)#";;;10;;"Critério legal:
+Sucessão (sucessor)#";Reduzida;N;10;;"Critério legal:
 Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).";Data de encerramento do processo;E;"Densidade informacional:
 A informação encontra-se sintetizada e é recuperável nos
 PN 200.30.301 - Conceção de programas de cooperação e ajuda pública ao desenvolvimento;
@@ -580,7 +580,7 @@ Execução de projetos de cooperação para o desenvolvimento#
 Controlo da atribuição dos incentivos financeiros#";"Cruzada#
 Complementar#
 Sintese (sintetiza)#
-Cruzada#";;;10;;"Critério legal:
+Cruzada#";Reduzida;N;10;;"Critério legal:
 Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).";Data de encerramento do processo;C;"Complementaridade informacional:
 É complementar do
 PN 200.30.301 - Conceção de programas de cooperação e ajuda pública ao desenvolvimento.";;
@@ -602,9 +602,9 @@ Os pedidos de informação sobre oportunidades de negócio e de investimento que
 DL 105/2007#
 Lei 3/2004#
 Lei 4/2004#
-Despacho regulamentar 1989/2011#";"DL 20/2014
+Despacho 1989/2011#";"DL 20/2014
 DL 105/2007 (introduz alterações às Lei 3/2004 e Lei 4/2004)#
-Despacho regulamentar 1989/2011#";PC;S;"Camões#
+Despacho 1989/2011#";PC;S;"Camões#
 AL#
 IAPMEI#
 Cinemateca#

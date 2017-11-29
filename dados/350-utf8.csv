@@ -50,7 +50,6 @@ Sucessão (sucessor)#
 Síntese (sintetizado)#
 Sucessão (sucessor)#
 Síntese (sintetizado)#
-Cruzada#
 Suplementar#";Reduzida;S;10;;"Conjugação dos critérios:
 - Legal
 Prazo prescricional da responsabilidade financeira reintegratória ([Lei nº 98/97], artº 70º, nº 1).
@@ -1084,7 +1083,7 @@ Cobrança de receitas e pagamento de despesas#
 Prestação de cuidados de emergência médica#";"Síntese (sintetizado)#
 Sucessão (Antecede)#
 Sucessão (Antecede)#
-Sucessão (sucede)#";Média;;10;;"Conjugação dos critérios:
+Sucessão (sucede)#";Média;S;10;;"Conjugação dos critérios:
 - Legal
 Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).
 - Utilidade administrativa
@@ -1335,9 +1334,7 @@ Apuramentos que ocorram como parte de um processo de negócio de outra classe (e
 Processo específico de liquidação considerado em 350.10 (ex.: liquidação de impostos, apuramento de transferência de verbas, processamento de remunerações)#
 O registo de receitas e despesas deve ser considerado em 350.10.600 – Lançamento de receitas e de despesas#";"DL 54-A/99#
 Lei 91/2001#
-DL 155/92#";;PC;S;AP#;AP#;Decidir#;150.20.404#;"Prestação de contas#
-Todos os PN que implicam pagamento e recebimento#";"Síntese (sintetizado)#
-Cruzada#
+DL 155/92#";;PC;S;AP#;AP#;Decidir#;150.20.404#;Prestação de contas#;"Síntese (sintetizado)#
 ";Elevada;S;10;;"Conjugação dos critérios:
 - Legal
 Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).
@@ -1345,7 +1342,7 @@ Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97],
 Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.001 (no que diz respeito à atuação da Administração).
 
 ";Data de encerramento do processo.;E;"Densidade informacional:
-Informação sintetizada no PN 150.20.404 - Prestação de contas.";;;
+Informação sintetizada no PN 150.20.404 - Prestação de contas.";Relação Cruzada com todos os PN que implicam pagamento e recebimento#;;
 ;350.30.002;Constituição e liquidação de fundo de maneio;"Entrega do montante destinado a satisfazer pequenas despesas de caráter
 corrente e inadiáveis dos serviços e organismos necessárias e urgentes à manutenção dos serviços, por conta das rubricas orçamentais aprovadas.
 Inicia com a constituição do fundo e termina com a entrega no final do ano. 
@@ -1596,8 +1593,7 @@ DL 236/93#
 DL 324/90#
 DL 453/88#
 DL 43453/60#
-RCM 8/2009#";"Leis do Orçamento de Estado#
-RCM 8/2009#";PE;N;IGCP#;;;"150.20.404#
+RCM 8-A/2009#";Leis do Orçamento de Estado#;PE;N;IGCP#;;;"150.20.404#
 350.10.600#
 350.40.001#
 350.40.002#

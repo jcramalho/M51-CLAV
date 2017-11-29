@@ -1,4 +1,3 @@
-";;;;;;;;;;;;;;;;;;;;;;;;;;;
 Estado;Código;Título;Descrição;Notas de aplicação;Exemplos NA;Notas de exclusão;Diplomas jurídico-administrativos REF;Diplomas jurídico-administrativos complementar;Tipo de processo;Processo transversal (S/N);Dono do processo;Participante no processo;Tipo de intervenção do participante;Código do processo relacionado;Título do processo relacionado;Tipo de relação entre processos;Dimensão qualitativa do processo;Uniformização do processo;Prazo de conservação administrativa;Nota ao PCA;Justificação PCA;Forma de contagem do prazo de cons. adm.;Destino final;Justificação DF;Notas;;;
 ;900;DINAMIZAÇÃO E COMUNICAÇÃO INSTITUCIONAL;Relativo à conceção, produção, organização e comunicação (por qualquer meio ou forma) de eventos, conteúdos informativos ou outros produtos e serviços que sirvam para melhorar a perceção e o conhecimento dos organismos e respetivas atividades, ou para sensibilizar para programas, atitudes ou valores que os serviços promovam.;;;;;;;;;;;;;;;;;;;;;;;;;
 ;900.10;Execução de atividades de dinamização da sociedade;Compreende as atividades de conceção, de produção, de organização ou participação na organização de eventos, como sejam conferências, encontros, seminários, debates, exposições, festivais, espetáculos, ou outras atividades de caráter informativo, educativo, científico, cultural, desportivo, recreativo ou outro que estimulem a iniciativa e a participação das comunidades.;"Todo o processo técnico e protocolar de organização (planeamento operacional, ações comuns de divulgação, processamento de inscrições, etc.), bem como eventuais registos dos eventos (comunicações e discursos, registos sonoros, audiovisuais).#
@@ -96,7 +95,7 @@ Sucessão (sucessor)#
 Sucessão (sucessor)#
 Sucessão (sucessor)#
 ";Média;S;;;;;;;;;;
-;900.10.001.01;Conceção e realização de atividades ou acontecimentos artísticos: conceção ;"Criação de obras ou atividades artísticas.
+;900.10.001.01;Conceção e realização de atividades ou acontecimentos artísticos: conceção e registo;"Criação de obras ou atividades artísticas.
 Inicia com a proposta ou iniciativa de criação da obra ou atividade e termina com a autorização de realização.
 Inclui, entre outros, o registo documental do ato criativo (em imagem, som ou texto).";"Maquetes de cenografia#
 Esboços e / ou desenhos de figurinos#

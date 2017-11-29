@@ -109,7 +109,7 @@ PN 150.20.300 - Avaliação de atividades (Relatório anual de atividades);
 PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (estatísticas organizacionais e operacionais).";;;;;
 ;600.10.004;"Averiguação de identidade de cadáveres
 ";"Recolha e tratamento de elementos que possibilitem a identificação de cadáveres não identificados.
-Inicia com a comunicação da existência de um cadáver não identificado e termina com o apuramento da identidade ou com a eventual evolução para inquérito-crime ou outro tipo de processo.
+Inicia com a comunicação da existência de um cadáver não identificado e termina com o apuramento da identidade, com a eventual evolução para inquérito-crime ou outro tipo de processo ou com o arquivamento quando dado por inconclusivo.
 Inclui todas as diligências para a identificação do cadáver, colaboração com outros serviços oficiais, bem como eventuais difusões e pedidos de colaboração (de cariz policial ou pela publicação na internet ou em jornais dirigidos ao público em geral).";Identificação através de dados biométricos, vestuário e características anatómicas (por exemplo, ficha dentária ou existência de próteses)#;Ficha dentária ou existência de próteses#;;"DL 42/2009#
 DL 352/99#";;PE;S;"PJ#
 INMLCF#";"MP#
@@ -575,11 +575,9 @@ Inclui diligências que visem descobrir e recolher provas relativas a um crime, 
 ";"Expediente com origem numa autoridade judiciária ou entidade policial que reúna as condições legais para o Ministério Público (MP) requerer um julgamento em processo sumário#
 Fase pré-judicial do processo sumário#";;;DL 78/87#;Código de Processo Penal#;PC;S;MP#;"DGRSP#
 OPC#
-AL#
 AL#";"Assessorar#
 Assessorar#
-Iniciar# 
-Comunicar#";"150.20.300#
+Iniciar#";"150.20.300#
 150.40.500#
 300.10.302#
 600.10.003#
@@ -629,14 +627,10 @@ DL 48/95#";"Código de Processo Penal#
 Código Penal#";PC;S;TIC#;"DGRSP#
 MP#
 OPC#
-AL#
-AL#
 AL#";"Assessorar#
 Assessorar#
 Apreciar#
-Assessorar#
-Comunicar#
-Iniciar#";"150.20.300#
+Comunicar#";"150.20.300#
 150.40.500#
 600.10.007#
 600.10.500#
@@ -668,7 +662,8 @@ informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (Relatório anual de atividades);
 PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (estatísticas organizacionais e operacionais).";;;;;
 ;600.10.504;Ação de pesquisa e vigilância;"Ações de pesquisa e vigilância a atividades, pessoas e locais suspeitos, em apoio aos serviços de investigação criminal.
-Iniciam com o pedido de apoio por parte da entidade detentora do processo de investigação e terminam com a remessa de informação recolhida.";;;"Os atos processuais resultantes de uma ação de pesquisa e vigilância integram o respetivo inquérito-crime.
+Inicia com o pedido de apoio por parte da entidade detentora do processo de investigação e termina com a remessa de informação recolhida.
+Inclui a elaboração do relatório da ação de pesquisa e vigilância.";;;"Os atos processuais resultantes de uma ação de pesquisa e vigilância integram o respetivo inquérito-crime.
 A ação e vigilância no âmbito da proteção civil deve ser considerada em 550.20.002 - Ação de vigilância.";"DL 42/2009#
 Lei 37/2008#
 Lei 5/2002#
@@ -727,7 +722,8 @@ Inicia com o despacho da autoridade judicária e termina com a elaboração do a
 [DL 190/2003] - em que se estipula que finda a vigência da medida pontual de segurança, a autoridade judiciária determina a destruição imediata dos documentos e do envelope fechado, sendo apenas conservado o auto de destruição e o despacho fundamentado da autoridade judiciária que ordenou aquele acto.";Finda a vigência da medida pontual de segurança.;C;"Critério legal:
 [DL 190/2003] em que se estipula que finda a vigência da medida pontual de segurança apenas deve ser conservado o auto de destruição e o despacho fundamentado da autoridade judiciária.";;;;;
 ;600.10.507;Diligências de investigação decorrentes de pedido de cooperação internacional;"Processamento das cartas rogatórias ou outros pedidos internacionais destinados a obter, em Portugal, a realização de atos que interessam a um processo que corre os seus termos num Estado estrangeiro.
-Inicia com o pedido de diligências que um país solicita a Portugal, relacionadas com um processo específico que corre no país requerente e termina com a sua satisfação, cumprimento, devolução ou negação do pedido. Inclui a menção expressa do tipo de ato ou diligência que se pretende ver realizado.";"Cumprimento de Cartas Rogatórias Passivas com diligências de investigação#
+Inicia com o pedido de diligências que um país solicita a Portugal, relacionadas com um processo específico que corre no país requerente e termina com a sua satisfação, cumprimento, devolução ou negação do pedido. 
+Inclui a menção expressa do tipo de ato ou diligência que se pretende ver realizado.";"Cumprimento de Cartas Rogatórias Passivas com diligências de investigação#
 Apensos em investigação no GRA abertos por solicitação de serviços congéneres internacionais#
 Pedido de Apreensão e Congelamento de Bens#
 Apensos Internacionais de Recuperação de Ativos#
@@ -911,7 +907,7 @@ DL 78/87#";"Ordem de Serviço 4/2015 da PGR#
 Código de Processo Penal, art 242, nº 3#";PE;S;"MP#
 OPC#";"INMLCF#
 AL#";"Comunicar#
-Comunicca#";"150.20.300#
+Comunicar#";"150.20.300#
 150.40.500#
 600.10.007#
 600.10.500#
@@ -1454,7 +1450,7 @@ PJ#
 ";"Apreciar#
 Apreciar#
 Apreciar#
-Apreciar#";150.40.001#;Realização de operações estatísticas oficiais#;Síntese (sintetizado)#;;S;;;;;;;Portaria 368/2013, refª 130;;;;
+Apreciar#";150.40.001#;Realização de operações estatísticas oficiais#;Síntese (sintetizado)#;Reduzida;S;;;;;;;Portaria 368/2013, refª 130;;;;
 ;600.30.250.01;Tutela da personalidade: articulados, gestão processual e audiência;Inicia com a entrega da petição inicial e termina com a realização da audiência. Inclui todos os articulados, incluindo os da fase de recurso, audiências e demais decisões que não sejam sentenças ou acórdãos bem como todos os atos e diligências da secretaria.;;;;;;;;;;;;;;Elevada;;20;;"Critério legal:
 Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).";Data em que forem considerados findos para efeitos de arquivo.;E;"Critério densidade informacional:
 Informação síntese recuperável no PN 600.30.250.02 - Tutela da personalidade: decisão.";;;;;
@@ -2117,9 +2113,10 @@ Conservação para garante do exercício de direitos reais de propriedade.";;;;;
 ;"600.30.356
 ";"Inventário judicial
 ";"Processo especial destinado a pôr termo à comunhão hereditária ou, não carecendo de realizar-se partilha judicial, a relacionar os bens que constituem objecto de sucessão e a servir de base à eventual liquidação da herança, à partilha de bens em caso de justificação de ausência e ainda para partilha em consequência de separação, divórcio, declaração de nulidade ou anulação de casamento e ainda para separação de bens nos casos de penhora de bens comuns do casal ou tendo de proceder-se a separação por virtude da insolvência de um dos cônjuges.
-Este processo inicia-se com um requerimento junto do notário, no qual é indicado o cabeça-de-casal, segue-se a nomeação deste e a prestação de declarações e apresentação da relação de bens, após o que se procede à citação dos interessados para deduzirem oposição ou reclamarem da relação de bens, havendo lugar a diligências probatórias necessárias e a decisão. Após há lugar a conferência preparatória e a conferência de interessados presidida pelo notário, seguindo-se despacho determinativo da forma à partilha, mapa ou mapas da partilha e termina com uma sentença homologatória da partilha que é proferida pelo juiz. Inclui eventuais recursos.";Ao notário compete dirigir todas as diligências do processo de inventário e da habilitação de uma pessoa como sucessora por morte de outra, sem prejuízo dos casos em que os interessados são remetidos para os meios judiciais comuns. Compete ao tribunal da comarca do cartório notarial onde o processo foi apresentado praticar os atos que, nos termos da presente lei, sejam da competência do juiz#;;;"Lei 23/2013#
+Este processo inicia-se com um requerimento junto do notário, no qual é indicado o cabeça-de-casal, segue-se a nomeação deste e a prestação de declarações e apresentação da relação de bens, após o que se procede à citação dos interessados para deduzirem oposição ou reclamarem da relação de bens, havendo lugar a diligências probatórias necessárias e a decisão. Após há lugar a conferência preparatória e a conferência de interessados presidida pelo notário, seguindo-se despacho determinativo da forma à partilha, mapa ou mapas da partilha e termina com uma sentença homologatória da partilha que é proferida pelo juiz. Inclui eventuais recursos.";"Ao notário compete dirigir todas as diligências do processo de inventário e da habilitação de uma pessoa como sucessora por morte de outra, sem prejuízo dos casos em que os interessados são remetidos para os meios judiciais comuns.#
+Compete ao tribunal da comarca do cartório notarial onde o processo foi apresentado praticar os atos que, nos termos da presente lei, sejam da competência do juiz.#";;;"Lei 23/2013#
 Portaria 278/2013#";;PE;S;"CN#
-Trb#";MP#;;150.40.001#;Realização de operações estatísticas oficiais#;Síntese (sintetizado)#;Reduzida;S;20;;"Critério legal:
+Trb#";MP#;Apreciar#;150.40.001#;Realização de operações estatísticas oficiais#;Síntese (sintetizado)#;Reduzida;S;20;;"Critério legal:
 Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).";Data em que forem considerados findos para efeitos de arquivo.;C;"Critério legal:
 Conservação para garante do exercício de direitos reais de propriedade.";Portaria 368/2013, refª 120 e 170.;;;;
 ;"600.30.357
@@ -2206,7 +2203,7 @@ Prazo previsto para a realização de inspeções aos tribunais, aos magistrados
 ";"Instauração da tutela e administração de bens
 ";Processo de jurisdição voluntária destinado à nomeação de um tutor nos casos em que os pais do menor houverem falecido, estiverem inibidos do poder paternal quanto à regência da pessoa do filho, estiverem há mais de seis meses impedidos de facto de exercer o poder paternal ou se forem incógnitos. O processo inicia-se com um requerimento inicial, seguindo-se eventual fase de inquérito, reunião do conselho de família e decisão pelo tribunal competente do tutor e pró-tutor ou de um Tribunal Superior, se houver recurso.;;;;"DL 47344/66#
 Lei 141/2015#";"Código Civil, art 1921 a 1962#
-Organização Tutelar de Menores, art 210 (revogado o DL 314/78 e substituído pela Lei 141/2015 - Regime Geral do Processo Tutelar Cível)#";PE;S;Trb#;MP#;;"150.40.001#
+Organização Tutelar de Menores, art 210 (revogado o DL 314/78 e substituído pela Lei 141/2015 - Regime Geral do Processo Tutelar Cível)#";PE;S;Trb#;MP#;Apreciar#;"150.40.001#
 400.10.001#";"Realização de operações estatísticas oficiais#
 Registo civil#";"Síntese (sintetizado)#
 Síntese (sintetizado)#";Reduzida;S;80;;"Critérios utilidade administrativa:
@@ -2370,7 +2367,7 @@ Assessorar#
 Iniciar#";"150.40.001#
 800.10.603#";"Realização de operações estatísticas oficiais#
 Realização de perícias#";"Síntese (sintetizado)#
-Cruzada#";Reduzida;;20;;"Critério legal:
+Cruzada#";Reduzida;S;20;;"Critério legal:
 Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).";Data em que forem considerados findos para efeitos de arquivo.;"CP
 ";"Enumeração e tipificação dos casos recuperável através das estatísticas.
 Esta síntese não permite recuperar o particular e individual, mas apenas o geral.
@@ -2394,7 +2391,7 @@ Extra amostra poderão ser conservadas os fat files ou os processos referentes a
 ;"600.30.402
 ";Obrigação de prestar informações sobre propriedade intelectual;Meio processual destinado à prestação de informações detalhadas sobre a origem e as redes de distribuição dos bens ou serviços que se suspeite violarem direitos de propriedade industrial, direito de autor ou direitos conexos. Começa com um requerimento dirigido contra o alegado infractor ou qualquer outra pessoa que tenha sido encontrada na posse dos bens ou a utilizar ou a prestar os serviços, à escala comercial, que se suspeite violarem os direitos em causa, ou contra pessoa que tenha sido indicada por estas como tendo participado na produção, fabrico ou distribuição dos bens ou na prestação de serviços que se suspeite violarem igualmente aqueles direitos. Segue-se a audição do requerido, diligênicas de prova e prolação de decisão e elaboração de conta. Inclui eventual recurso.;;;;"DL 36/2003#
 DL 63/85#";"Código da Propriedade Industrial, art 338-H#
-Código de Direito de Autor e dos Direitos Conexos, art 210-F#";PE;S;Trb#;MP#;Apreciar#;150.40.001#;Realização de operações estatísticas oficiais#;Síntese (sintetizado)#;;S;;;;;;;;;;;
+Código de Direito de Autor e dos Direitos Conexos, art 210-F#";PE;S;Trb#;MP#;Apreciar#;150.40.001#;Realização de operações estatísticas oficiais#;Síntese (sintetizado)#;Reduzida;S;;;;;;;;;;;
 ;600.30.402.01;Obrigação de prestar informações sobre propriedade intelectual: articulados, gestão processual e audiência;Inicia com a entrega da petição inicial e termina com a realização da audiência. Inclui todos os articulados, incluindo os da fase de recurso, audiências e demais decisões que não sejam sentenças ou acórdãos bem como todos os atos e diligências da secretaria.;;;Inicia com a entrega da petição inicial e termina com a realização da audiência. Inclui todos os articulados, incluindo os da fase de recurso, audiências e demais decisões que não sejam sentenças ou acórdãos bem como todos os atos e diligências da secretaria.;;;;;;;;;;;Reduzida;;;"O mesmo prazo e o mesmo destino final do processo principal.
 No caso de processo autónomo, por caducidade ou outra causa, 5 anos.";;Data em que forem considerados findos para efeitos de arquivo.;E;"Critério densidade informacional:
 Informação síntese recuperável no PN 600.30.402.02 - Obrigação de prestar informações sobre propriedade intelectual: decisão";;;;;
@@ -2612,7 +2609,7 @@ Ação administrativa especial de atos administrativos respeitantes a questões 
 Ação administrativa especial de normas e declaração de ilegalidade por omissão em matéria fiscal#
 Aos antigos Recursos Contenciosos de Anulação#
 À impugnação contenciosa de liquidações emolumentares e recusa de emissão de certidões#";;;"Lei 62/2013#
-Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais  2078/2013#
+Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 2078/2013#
 Lei 34/2007#
 Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005#
 Lei 15/2002#
@@ -2677,7 +2674,7 @@ Inclui eventual recurso.
 
 
 ";Pocessos de contencioso eleitoral que correm no Supremo Tribunal Administrativo (STA)#;;Não inclui as eleições para os orgãos de soberania (eleição de assembleia da república, presidente da república, parlamento europeu, autárquicas, etc).;"Lei 62/2013#
-Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais  2078/2013#
+Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 2078/2013#
 Lei 15/2002#
 Lei 13/2002#
 Lei 41/2013#";"Lei 62/2013#
@@ -2708,7 +2705,7 @@ Os argumentos aduzidos para as ações administrativas comuns e especiais aqui n
 Inicia com a apresentação da petição inicial e termina com a decisão judicial.
 Inclui todos os atos e diligências processuais.
 Inclui eventual recurso.";;;;"Lei 62/2013#
-Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais  2078/2013#
+Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 2078/2013#
 Lei 15/2002#
 Lei 13/2002#
 Lei 41/2013#";"Lei 62/2013#
@@ -2921,7 +2918,7 @@ Iniciar#
 Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).";Data em que forem considerados findos para efeitos de arquivo;E;Critério densidade informacional: Informação síntese recuperável no PN 150.40.001- Realização de operações estatísticas oficiais e pelo facto dos direitos associados ao PN se extinguirem com o cumprimento da obrigação.;Portaria 368/2013, refª 210, 227, 234, 239, 247, 252, 260, 266, 274, 275, 286, 292 e 297.;;;;
 Harmonização;600.30.600;Processo de julgamento de contas;;;;;;;PC;;TContas#;;;;;;;;;;;;;;;;;;
 Harmonização;600.30.601;Processo de julgamento de conformidade;;;;;;;PC;;TContas#;AT#;;;;;;;;;;;;;;;;;
-;"600.30.650
+Harmonização;"600.30.650
 ";"Ação em matéria comunitária
 ";"Ação judicial interposta no Tribunal de Justiça da União Europeia (TJUE) na qual haja interesse de participação do Estado português, prevista no Tratado sobre o Funcionamento da União Europeia.
 Inicia com a petição inicial e termina com a decisão final do Tribunal de Justiça da União Europeia (TJUE), sob a forma de acórdão ou despacho.
@@ -2935,7 +2932,7 @@ A intervenção do Estado português nestes processos é sempre coordenada pelo 
 MP#
 AT#";"Assessorar#
 Apreciar#
-Comunicar#";;;;;;;;;;;;Este processo de negócio já está contemplado na lista consolidada da DGLAB, apenas se procedeu a acertos do texto dos campos Descrição, Notas de Aplicação e Notas de Exclusão.;;;;
+Comunicar#";;;;Reduzida;S;;;;;;;Este processo de negócio já está contemplado na lista consolidada da DGLAB, apenas se procedeu a acertos do texto dos campos Descrição, Notas de Aplicação e Notas de Exclusão.;;;;
 Harmonização;600.30.700;"Fiscalização preventiva da constitucionalidade
 ";Controlo prévio à promulgação ou assinatura dos diplomas (actos) normativos. Inicia com pedidos apresentados pelas entidades com legitimidade (Presidente da República, Representantes da República nas Regiões Autónomas, Primeiro-Ministro ou um quinto dos deputados à Assembleia da República). Termina com (envio do) Acórdão do Plenário do Tribunal Constitucional (ao requerente).;;;;"Lei Constitucional 1/2005#
 DL 398/98#";"Constituição, art 278#
@@ -3042,7 +3039,7 @@ A sua tramitação é muito diversificada, consoante a natureza e a entidade que
 Recurso das decisões dos Conservadores e Notários#
 Recurso das decisões da entidade competente no âmbito dos domínios.pt#
 Recurso das decisões das entidades reguladoras em geral#";;;"DL 329-A/2000#
-DL 55/75#
+Decreto 55/75#
 DL 131/95#
 DL 224/84#
 DL 403/86#
@@ -3162,12 +3159,11 @@ Assessorar#
 Comunicar#";"150.20.300#
 150.40.001#
 150.40.500#
-300.30.008#
-600.30.#";"Avaliação de atividades#
+300.30.008#";"Avaliação de atividades#
 Realização de operações estatísticas oficiais#
 Recolha e tratamento de dados estatísticos de apoio à gestão#
 Registo de documentos e informação#
-Produção de prova e decisão judicial#";"Síntese (sintetizado)#
+";"Síntese (sintetizado)#
 Síntese (sintetizado)#
 Síntese (sintetizado)#
 Síntese (sintetizado)#
@@ -3177,7 +3173,9 @@ informação sobre os que foram pronunciados é recuperável em processos de PN 
 informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (Relatório anual de atividades);
 PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (estatísticas organizacionais e operacionais);
-PN 300.30.008 - Registo de documentos (casos tratados).";Portaria 368/2013 refª 53, 68, 133, 146, 194 e 276.;;;;
+PN 300.30.008 - Registo de documentos (casos tratados).";"Portaria 368/2013 refª 53, 68, 133, 146, 194 e 276.
+
+Relação com os PN de 600.30 - Produção de prova e decisão judicial#";;;;
 ;600.40;"Execução de penas, medidas e títulos executivos
 ";Compreende as atividades relacionadas com o processamento e controlo da execução de penas e medidas, privativas ou não da liberdade, no que se inclui o processamento de contraordenações da competência das autoridades judiciais.;"Documentação relativa ao ingresso em prisão ou acolhimento pela entidade de controlo da execução de penas e medidas não privativas da liberdade, e subsequente acompanhamento do condenado#
 No caso do recluso, inclui a sua avaliação, a definição de plano individual, afetação a atividades, modificação da execução de pena ou alteração do regime, concessão de medidas de flexibilização, saída administrativa, aplicação de medidas disciplinares, transferência do recluso, libertação, entre outras#";;;;;;;;;;;;;;;;;;;;;;;;;
@@ -3282,7 +3280,7 @@ O Pecúlio do jovem deve ser considerado em 350.30.006 -Gestão da conta corrent
 Lei 4/2015#
 DL 323-D/2000#";"Lei 166/99, alterada pela Lei 4/2015#
 DL 323-D/2000#";PE;S;DGRSP#;"TFM#
-IINMLCF#";"Decidir#
+INMLCF#";"Decidir#
 Assessorar#";"600.30.358#
 800.10.603#";"Ação tutelar educativa#
 Realização de perícias#";"Sucessão (sucessor)#
@@ -3615,18 +3613,6 @@ Informação síntese recuperável no
 PN 150.40.001- Realização de operações estatísticas oficiais;
 e pelo facto dos direitos associados ao PN se extinguirem com o cumprimento da obrigação.";"Portaria nº 368, refª 216, 241, 264 e 289
 ";;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;Universo alvo;;Dimensão da amostra;;% de erro máximo possível;;;;;;
-;;;;;;;;;;;;;;;;;;;(i.e., quantidade de processos documentais de um PN (classe de 3º nível)   entrados num dado ano num estabelecimento de saúde - possibilidade de efetuar a amostragem por especialidade médica);;(i.e., quantidade de processos a conservar);;;;;;;;
-;;;;;;;;;;;;;;;;;;;1 – 60;;1 – 60;;0,0% - 0,0%;;;;;;
-;;;;;;;;;;;;;;;;;;;61 – 100;;37 – 60;;10,6% - 8,23%;;;;;;
-;;;;;;;;;;;;;;;;;;;101 – 200;;51 – 100;;10,05% - 7,11%;;;;;;
-;;;;;;;;;;;;;;;;;;;201 – 300;;80 – 120;;8,69% - 7,1%;;;;;;
-;;;;;;;;;;;;;;;;;;;301 – 800;;90 – 240;;8,85% - 7,1%;;;;;;
-;;;;;;;;;;;;;;;;;;;801 – 2000;;120 – 300;;8,45% - 5,33%;;;;;;
-;;;;;;;;;;;;;;;;;;;2001 – 10000;;100 – 500;;9,79% - 4,36%;;;;;;
-;;;;;;;;;;;;;;;;;;;10001 – 40000;;500 – 2000;;4,36% - 2,2%;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

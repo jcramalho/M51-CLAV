@@ -1,254 +1,549 @@
-Sigla;Entidade;;;;;;;;;;;;;;;;
-A3ES;Agência de Avaliação e Acreditação do Ensino Superior;;;;;;;;;;;;;;;;
-AAC;Autoridades Administrativas Civis;;;;;;;;;;;;;;;;
-AADR;Assembleias de apuramento distrital de resultados;;;;;;;;;;;;;;;;
-AAGR;Assembleias de apuramento geral dos resultados;;;;;;;;;;;;;;;;
-AAN;Autoridade Aeronáutica Nacional;;;;;;;;;;;;;;;;
-ACE;Administração Central do Estado ;;;;;;;;;;;;;;;;
-ACES;Agrupamentos de Centros de Saúde;;;;;;;;;;;;;;;;
-ACSS;Administração Central do Sistema de Saúde, I.P.;;;;;;;;;;;;;;;;
-ACT;Autoridade para as Condições de Trabalho;;;;;;;;;;;;;;;;
-ADSE;Direção-Geral de Proteção Social aos Trabalhadores em Funções Públicas;;;;;;;;;;;;;;;;
-AF;Assembleias de Freguesia;;;;;;;;;;;;;;;;
-AICEP;Agência para o Investimento e Comércio Externo de Portugal ;;;;;;;;;;;;;;;;
-AISAN;Agência ISAN Portugal;;;;;;;;;;;;;;;;
-AJ;Autoridades judiciárias;;;;;;;;;;;;;;;;
-AL;Autarquias Locais;;;;;;;;;;;;;;;;
-ALR;Assembleias Legislativas Regionais;;;;;;;;;;;;;;;;
-AM;Assembleias Municipais;;;;;;;;;;;;;;;;
-AMN;Autoridade Marítima Nacional;;;;;;;;;;;;;;;;
-ANA;ANA - Aeroportos de Portugal;;;;;;;;;;;;;;;;
-ANAC;Autoridade Nacional da Aviação Civil;;;;;;;;;;;;;;;;
-ANACOM;Autoridade Nacional de Comunicações;;;;;;;;;;;;;;;;
-ANCP;Agencia Nacional de Compras Públicas ;;;;;;;;;;;;;;;;
-ANMP;Associação Nacional de Municípios Portugueses;;;;;;;;;;;;;;;;
-ANPC;Autoridade Nacional de Proteção Civil;;;;;;;;;;;;;;;;
-ANQEP;Agência Nacional para a Qualificação e o Ensino Profissional, I.P.;;;;;;;;;;;;;;;;
-ANS;Autoridade Nacional de Segurança ;;;;;;;;;;;;;;;;
-ANSR;Autoridade Nacional de Segurança Rodoviária;;;;;;;;;;;;;;;;
-ANTRAL;Associação Nacional dos Transportes Rodoviários em Automóveis Ligeiros;;;;;;;;;;;;;;;;
-AP;Administração Pública;;;;;;;;;;;;;;;;
-APA;Agência Portuguesa do Ambiente, I.P.;;;;;;;;;;;;;;;;
-APAV;Associação Portuguesa de Apoio à Vítima;;;;;;;;;;;;;;;;
-APEL;Associação Portuguesa de Editores e Livreiros;;;;;;;;;;;;;;;;
-AR;Assembleia da República;;;;;;;;;;;;;;;;
-ARS;Administrações Regionais de Saúde;;;;;;;;;;;;;;;;
-AS;Autoridades de Saúde;;;;;;;;;;;;;;;;
-ASAE;Autoridade de Segurança Alimentar e Económica;;;;;;;;;;;;;;;;
-ASF;Autoridades de supervisão e fiscalização;;;;;;;;;;;;;;;;
-AT;Autoridade Tributária e Aduaneira;;;;;;;;;;;;;;;;
-AV;Assembleias de voto;;;;;;;;;;;;;;;;
-BdP;Banco de Portugal;;;;;;;;;;;;;;;;
-BNA;Balcão Nacional de Arrendamento;;;;;;;;;;;;;;;;
-BNI;Balcão Nacional de Injunções;;;;;;;;;;;;;;;;
-BNP;Biblioteca Nacional de Portugal;;;;;;;;;;;;;;;;
-CA;Centros de Arbitragem;;;;;;;;;;;;;;;;
-CADA;Comissão de Acesso aos Documentos Administrativos;;;;;;;;;;;;;;;;
-Camões;Camões - Instituto da Cooperação e da Língua, I.P.;;;;;;;;;;;;;;;;
-CCDR;Comissão de Coordenação do Desenvolvimento Regional;;;;;;;;;;;;;;;;
-CCPFC;Conselho Científico-Pedagógico da Formação Contínua;;;;;;;;;;;;;;;;
-CE;Centros Educativos;;;;;;;;;;;;;;;;
-CEGER;Centro de Gestão da Rede Informática do Governo;;;;;;;;;;;;;;;;
-CEIC;Comissão de Ética para a Investigação Clínica;;;;;;;;;;;;;;;;
-CEJ;Centro de Estudos Judiciários;;;;;;;;;;;;;;;;
-CEJUR;Centro de Jurídico (PCM);;;;;;;;;;;;;;;;
-CEMFA;Chefe do Estado-Maior da Força Aérea ;;;;;;;;;;;;;;;;
-CES;Conselho Económico e Social;;;;;;;;;;;;;;;;
-CGA;Caixa Geral de Aposentações, I.P.;;;;;;;;;;;;;;;;
-CH;Comissões de Heráldica;;;;;;;;;;;;;;;;
-Cinemateca;Cinemateca Portuguesa-Museu do Cinema, I.P.;;;;;;;;;;;;;;;;
-CISAC;International Confederation of Societies of Authors and Composers;;;;;;;;;;;;;;;;
-CM;Conselho de Ministros;;;;;;;;;;;;;;;;
-CMil ;Colégio Militar;;;;;;;;;;;;;;;;
-CN;Cartórios Notariais;;;;;;;;;;;;;;;;
-CNCS;Centro Nacional de Cibersegurança;;;;;;;;;;;;;;;;
-CNE;Conselho Nacional de Educação;;;;;;;;;;;;;;;;
-CNOC;Comissão Nacional de Objecção de Consciência;;;;;;;;;;;;;;;;
-CNPCJ;Comissão Nacional de Proteção das Crianças e Jovens em Risco;;;;;;;;;;;;;;;;
-CNPD;Comissão Nacional de Proteção de Dados;;;;;;;;;;;;;;;;
-CNPRP;Centro Nacional de Proteção contra os Riscos Profissionais;;;;;;;;;;;;;;;;
-CNPV;Conselho Nacional para a Promoção do Voluntariado;;;;;;;;;;;;;;;;
-Cns;Consulados;;;;;;;;;;;;;;;;
-CP;Comboios de Portugal;;;;;;;;;;;;;;;;
-CPCJ;Comissão de Proteção de Crianças e Jovens;;;;;;;;;;;;;;;;
-CPES;Comissão de Programas Especiais de Segurança;;;;;;;;;;;;;;;;
-CPL;Casa Pia de Lisboa, I.P.;;;;;;;;;;;;;;;;
-CPVC;Comissão de Proteção às Vítimas de Crimes;;;;;;;;;;;;;;;;
-CRESAP;Comissão de Recrutamento e Seleção para a Administração Pública;;;;;;;;;;;;;;;;
-CS;Câmara dos Solicitadores;;;;;;;;;;;;;;;;
-CSM;Conselho Superior de Magistratura;;;;;;;;;;;;;;;;
-CT;Comissões Técnicas de Normalização;;;;;;;;;;;;;;;;
-DGACCP;Direção-Geral dos Assuntos Consulares e das Comunidades Portuguesas;;;;;;;;;;;;;;;;
-DGADR;Direção-Geral de Agricultura e Desenvolvimento Rural;;;;;;;;;;;;;;;;
-DGAE;Direção-Geral das Atividades Económicas;;;;;;;;;;;;;;;;
-DGAEP;Direção-Geral da Administração e do Emprego Público;;;;;;;;;;;;;;;;
-DGAEu;Direção-Geral dos Assuntos Europeus;;;;;;;;;;;;;;;;
-DGAJ;Direção-Geral da Administração da Justiça;;;;;;;;;;;;;;;;
-DGAL;Direção-Geral das Autarquias Locais;;;;;;;;;;;;;;;;
-DGAM;Direção-Geral da Autoridade Marítima;;;;;;;;;;;;;;;;
-DGAV;Direção-Geral de Alimentação e Veterinária;;;;;;;;;;;;;;;;
-DGE;Direção-Geral da Educação;;;;;;;;;;;;;;;;
-DGEEC;Direção-Geral de Estatísticas da Educação e Ciência;;;;;;;;;;;;;;;;
-DGEG;Direção-Geral de Energia e Geologia;;;;;;;;;;;;;;;;
-DGERT;Direção-Geral do Emprego e das Relações de Trabalho;;;;;;;;;;;;;;;;
-DGES;Direção-Geral do Ensino Superior;;;;;;;;;;;;;;;;
-DGEstE;Direção-Geral dos Estabelecimentos Escolares;;;;;;;;;;;;;;;;
-DGLAB;Direção-Geral do Livro, dos Arquivos e das Bibliotecas;;;;;;;;;;;;;;;;
-DGO;Direção-Geral do Orçamento;;;;;;;;;;;;;;;;
-DGPC;Direção-Geral do Património Cultural;;;;;;;;;;;;;;;;
-DGPDN;Direção-Geral de Política de Defesa Nacional;;;;;;;;;;;;;;;;
-DGPE;Direção-Geral de Política Externa;;;;;;;;;;;;;;;;
-DGPJ;Direção-Geral da Política de Justiça;;;;;;;;;;;;;;;;
-DGRDN;Direção-Geral de Recursos da Defesa Nacional;;;;;;;;;;;;;;;;
-DGRM;Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos;;;;;;;;;;;;;;;;
-DGRSP;Direção-Geral de Reinserção e Serviços Prisionais;;;;;;;;;;;;;;;;
-DGS;Direção-Geral de Saúde;;;;;;;;;;;;;;;;
-DGSS;Direção-Geral da Segurança Social;;;;;;;;;;;;;;;;
-DGT;Direção-Geral do Território;;;;;;;;;;;;;;;;
-DGTF;Direção-Geral do Tesouro e Finanças;;;;;;;;;;;;;;;;
-DGV;Direção-Geral de Alimentação e Veterinária;;;;;;;;;;;;;;;;
-DNS.PT;Associação DNS.PT;;;;;;;;;;;;;;;;
-DRADR;Direções Regionais de Agricultura e Desenvolvimento Rural;;;;;;;;;;;;;;;;
-DRAP;Direções Regionais de Agricultura e Pescas;;;;;;;;;;;;;;;;
-DRS;Delegados Regionais de Saúde;;;;;;;;;;;;;;;;
-EAARPNC;Entidades com autonomia administrativa e receitas próprias não consignadas;;;;;;;;;;;;;;;;
-EC;Equipas cinotécnicas;;;;;;;;;;;;;;;;
-ECA;Entidades com competência de auditoria;;;;;;;;;;;;;;;;
-ECP;Entidades com capacidade pericial;;;;;;;;;;;;;;;;
-ECF;Entidades com competência de fiscalização;;;;;;;;;;;;;;;;
-EFD;Entidades com funções delegadas;;;;;;;;;;;;;;;;
-ECFP;Entidade das Contas e Financiamentos Políticos;;;;;;;;;;;;;;;;
-ECHA;Agência Europeia dos Produtos Químicos;;;;;;;;;;;;;;;;
-ECI;Entidades com competência de inspeção;;;;;;;;;;;;;;;;
-ECM;Entidades com competência de monitorização;;;;;;;;;;;;;;;;
-ECS;Entidades com competência sancionatória;;;;;;;;;;;;;;;;
-ECV;Entidades com competência de visita;;;;;;;;;;;;;;;;
-ED;Entidades depositantes;;;;;;;;;;;;;;;;
-EDA;Entidades detentoras de animais;;;;;;;;;;;;;;;;
-EDIE;Entidades detentoras de infrestruturas estratégicas;;;;;;;;;;;;;;;;
-EE;Entidades editoriais;;;;;;;;;;;;;;;;
-EGAG;Entidades gestoras de água;;;;;;;;;;;;;;;;
-EGAP;Entidades gestoras de apoios;;;;;;;;;;;;;;;;
-Emb;Embaixadas;;;;;;;;;;;;;;;;
-EMGFA;Estado-Maior General das Forças Armadas;;;;;;;;;;;;;;;;
-ENMC;Entidade Nacional para o Mercado de Combustíveis, E.P.E;;;;;;;;;;;;;;;;
-EP;Estabelecimentos prisionais;;;;;;;;;;;;;;;;
-EPAE;Escola Portuguesa de Arte Equestre;;;;;;;;;;;;;;;;
-ER;Entidades reguladoras;;;;;;;;;;;;;;;;
-ERC;Entidade Reguladora para a Comunicação Social;;;;;;;;;;;;;;;;
-ERS;Entidade Reguladora da Saúde;;;;;;;;;;;;;;;;
-ERSAR;Entidade Reguladora dos Serviços de Águas e Resíduos;;;;;;;;;;;;;;;;
-ES;Estabelecimentos de ensino (EstE + IES);;;;;;;;;;;;;;;;
-ESPAP;Entidade de Serviços Partilhados da Administração Pública;;;;;;;;;;;;;;;;
-ESPS;Entidades do sistema de proteção na saúde;;;;;;;;;;;;;;;;
-EstE;Estabelecimentos escolares;;;;;;;;;;;;;;;;
-FA;Forças Armadas;;;;;;;;;;;;;;;;
-FAP;Força Aérea Portuguesa;;;;;;;;;;;;;;;;
-FPT;Federação Portuguesa de Táxis;;;;;;;;;;;;;;;;
-FS;Forças de Segurança;;;;;;;;;;;;;;;;
-FSS;Forças e serviços de segurança;;;;;;;;;;;;;;;;
-GAMA;Gabinete  de Investigação de Acidentes Marítimos e da Autoridade para a  Meteorologia Aeronáutica;;;;;;;;;;;;;;;;
-GEPAC;Gabinete de Estratégia, Planeamento e Avaliação Culturais;;;;;;;;;;;;;;;;
-GMG;Gabinete de Membros do Governo;;;;;;;;;;;;;;;;
-GNR;Guarda Nacional Repúblicana;;;;;;;;;;;;;;;;
-GNS;Gabinete Nacional de Segurança;;;;;;;;;;;;;;;;
-Gov;Governo;;;;;;;;;;;;;;;;
-GovReg;Governos Regionais;;;;;;;;;;;;;;;;
-GPIAAF;Gabinete de Prevenção e Investigação de Acidentes com Aeronaves e Acidentes Ferroviários;;;;;;;;;;;;;;;;
-HH;Hospitais;;;;;;;;;;;;;;;;
-IAMA;Instituto de Alimentação e Mercados Agrícolas;;;;;;;;;;;;;;;;
-IAPMEI;Agência para a Competitividade e Inovação, I.P.;;;;;;;;;;;;;;;;
-IASFA;Instituto de Ação Social das Forças Armadas, I.P.;;;;;;;;;;;;;;;;
-ICA;Instituto do Cinema e do Audiovisual, I.P.;;;;;;;;;;;;;;;;
-ICNF;Instituto da Conservação da Natureza e das Florestas, I.P.;;;;;;;;;;;;;;;;
-IDC;Inspeção Diplomática e Consular;;;;;;;;;;;;;;;;
-IEFP;Instituto do Emprego e Formação Profissional, I.P.;;;;;;;;;;;;;;;;
-IES;Instituições do Ensino Superior;;;;;;;;;;;;;;;;
-IFAP;Instituto de Financiamento da Agricultura e Pescas, I.P.;;;;;;;;;;;;;;;;
-IGAC;Inspeção-Geral das Atividades Culturais;;;;;;;;;;;;;;;;
-IGAI;Inspeção-Geral da Administração Interna;;;;;;;;;;;;;;;;
-IGAS;Inspeção-Geral das Atividades em Saúde;;;;;;;;;;;;;;;;
-IGCP;Agência de Gestão da Tesouraria e da Dívida Pública - IGCP, E.P.E.;;;;;;;;;;;;;;;;
-IGFEJ;Instituto de Gestão Financeira e Equipamentos da Justiça, I.P.;;;;;;;;;;;;;;;;
-IGFSS;Instituto de Gestão de Fundos de Capitalização da Segurança Social, I.P.;;;;;;;;;;;;;;;;
-IH;Instituto Hidrográfico, I.P.;;;;;;;;;;;;;;;;
-IMPIC;Instituto dos Mercados Públicos, do Imobiliário e da Construção, I.P.;;;;;;;;;;;;;;;;
-IMT;Instituto de Mobilidade e dos Transportes, I.P.;;;;;;;;;;;;;;;;
-INA;Direção-Geral da Qualificação dos Trabalhadores em Funções Públicas;;;;;;;;;;;;;;;;
-INCM;Imprensa Nacional-Casa da Moeda, S.A.;;;;;;;;;;;;;;;;
-INE;Instituto Nacional de Estatística, I.P.;;;;;;;;;;;;;;;;
-INEM;Instituto Nacional de Emergência Médica, I.P.;;;;;;;;;;;;;;;;
-INFARMED;Autoridade Nacional do Medicamento e Produtos de Saúde, I.P.;;;;;;;;;;;;;;;;
-INIAV;Instituto Nacional de Investigação Agrária e Veterinária, I.P.;;;;;;;;;;;;;;;;
-INMLCF;Instituto Nacional de Medicina Legal e Ciências Forenses, I.P.;;;;;;;;;;;;;;;;
-INPI;Instituto Nacional da Propriedade Industrial, I.P.;;;;;;;;;;;;;;;;
-INR;Instituto Nacional para a Reabilitação, I.P.;;;;;;;;;;;;;;;;
-INSA;Instituto Nacional de Saúde Doutor Ricardo Jorge, I.P.;;;;;;;;;;;;;;;;
-I.P.;Institutos Públicos;;;;;;;;;;;;;;;;
-IP, SA;Infraestruturas de Portugal, S.A.;;;;;;;;;;;;;;;;
-IPAC;Instituto Português de Acreditação, I.P.;;;;;;;;;;;;;;;;
-IPDJ;Instituto Português do Desporto e Juventude, I.P.;;;;;;;;;;;;;;;;
-IPMA;Instituto Português do Mar e da Atmosfera, I.P.;;;;;;;;;;;;;;;;
-IPQ;Instituto Português da Qualidade, I.P.;;;;;;;;;;;;;;;;
-IPSS;Instituições Particulares de Solidariedade Social;;;;;;;;;;;;;;;;
-IPST;Instituto Português do Sangue e da Transplantação, I.P.;;;;;;;;;;;;;;;;
-IRN;Instituto dos Registos e do Notariado, I.P.;;;;;;;;;;;;;;;;
-ISAN Portugal;International Standard Audiovisual Number Portugal;;;;;;;;;;;;;;;;
-ISS;Instituto da Segurança Social, I.P.;;;;;;;;;;;;;;;;
-ISSA;Instituto da Segurança Social dos Açores, I.P.;;;;;;;;;;;;;;;;
-ISSM;Instituto da Segurança Social da Madeira, I.P.;;;;;;;;;;;;;;;;
-IST;Instituto Superior Técnico;;;;;;;;;;;;;;;;
-IVDP;Instituto dos Vinhos do Douro e do Porto, I.P.;;;;;;;;;;;;;;;;
-IVV;Instituto da Vinha e do Vinho, I.P.;;;;;;;;;;;;;;;;
-JP;Julgados de Paz;;;;;;;;;;;;;;;;
-LNEG;Laboratório Nacional de Energia e Geologia;;;;;;;;;;;;;;;;
-Marinha;Marinha Portuguesa;;;;;;;;;;;;;;;;
-MP;Ministério Público;;;;;;;;;;;;;;;;
-Museus;Museus;;;;;;;;;;;;;;;;
-OACDOP;Organismos da Administração com competências delegadas em ordens profissionais;;;;;;;;;;;;;;;;
-OGCT;Organismos gestores de Comissão Técnica;;;;;;;;;;;;;;;;
-ONS;Organismos de normalização setorial;;;;;;;;;;;;;;;;
-OP;Ordens Profissionais;;;;;;;;;;;;;;;;
-OPC;Órgãos de Polícia Criminal;;;;;;;;;;;;;;;;
-PCM;Presidência do Conselho de Ministros;;;;;;;;;;;;;;;;
-PGR;Procuradoria-Geral da República;;;;;;;;;;;;;;;;
-PJ;Polícia Judiciária;;;;;;;;;;;;;;;;
-PM;Primeiro-Ministro;;;;;;;;;;;;;;;;
-PMar;Polícia Marítima;;;;;;;;;;;;;;;;
-PMun;Polícia Municipal;;;;;;;;;;;;;;;;
-PR;Presidente da República;;;;;;;;;;;;;;;;
-PSP;Polícia de Segurança Pública;;;;;;;;;;;;;;;;
-RA;Regiões Autónomas;;;;;;;;;;;;;;;;
-SCML;Santa Casa da Misericórdia de Lisboa;;;;;;;;;;;;;;;;
-SEAL;Secretário de Estado das Autarquias Locais;;;;;;;;;;;;;;;;
-SEATF;Secretário de Estado Adjunto, do Tesouro e das Finanças;;;;;;;;;;;;;;;;
-SEF;Serviço de Estrangeiros e Fronteiras;;;;;;;;;;;;;;;;
-SEN;Sistema Estatístico Nacional;;;;;;;;;;;;;;;;
-SEO;Secretário de Estado do Orçamento;;;;;;;;;;;;;;;;
-SGMAI;Secretaria Geral do Ministério da Administração Interna ;;;;;;;;;;;;;;;;
-SGMF;Secretaria Geral do Ministério das Finanças ;;;;;;;;;;;;;;;;
-SGMJ;Secretaria Geral do Ministério da Justiça;;;;;;;;;;;;;;;;
-SGMNE;Secretaria Geral do Ministério dos Negócios Estrangeiros;;;;;;;;;;;;;;;;
-SGPCM;Secretaria Geral da Presidência do Conselho de Ministros;;;;;;;;;;;;;;;;
-SICAD;Serviço de Intervenção nos Comportamentos Aditivos e nas Dependências;;;;;;;;;;;;;;;;
-SIRP;Sistema de Informações da República Portuguesa;;;;;;;;;;;;;;;;
-SIS;Serviço de Informações e Segurança ;;;;;;;;;;;;;;;;
-SMJP;Serviços de Mediação do Julgado de Paz;;;;;;;;;;;;;;;;
-SMT;Serviços de Medicina do Trabalho;;;;;;;;;;;;;;;;
-SPE;Setor Público Empresarial;;;;;;;;;;;;;;;;
-SPMS;Serviços Partilhados do Ministério da Saúde, EPE;;;;;;;;;;;;;;;;
-SSAP;Serviços Sociais da Administração Pública;;;;;;;;;;;;;;;;
-STA;Supremo Tribunal Administrativo;;;;;;;;;;;;;;;;
-STJ;Supremo Tribunal de Justiça;;;;;;;;;;;;;;;;
-TC;Tribunal Constitucional;;;;;;;;;;;;;;;;
-TContas;Tribunal de Contas;;;;;;;;;;;;;;;;
-TEP;Tribunal de Execução de Penas;;;;;;;;;;;;;;;;
-TFM;Tribunal de Família e Menores;;;;;;;;;;;;;;;;
-TIC;Tribunal de Instrução Criminal;;;;;;;;;;;;;;;;
-TComarca;Tribunais de Comarca;;;;;;;;;;;;;;;;
-TR;Tribunais da Relação;;;;;;;;;;;;;;;;
-Trb;Tribunais;;;;;;;;;;;;;;;;
-TP;Turismo de Portugal, I.P.;;;;;;;;;;;;;;;;
-UI;Unidades de Investigação;;;;;;;;;;;;;;;;
-UL;Unidades Laboratoriais;;;;;;;;;;;;;;;;
-UPCS;Unidades Prestadoras de Cuidados de Saúde;;;;;;;;;;;;;;;;
+Sigla;Designação;"Organismo
+Conjunto de Organismos
+Tipologia de Organismos";AP;Privados c/ FP;;;;;;;;;;;;;
+
+A3ES;Agência de Avaliação e Acreditação do Ensino Superior;Organismo;N;X;;;;;;;;;;;;;
+
+AAC;Autoridades Administrativas Civis;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+AADR;Assembleias de apuramento distrital de resultados;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+AAGR;Assembleias de apuramento geral dos resultados;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+AAN;Autoridade Aeronáutica Nacional;Organismo;AP;;;;;;;;;;;;;;
+
+ACE;Administração Central do Estado ;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+ACES;Agrupamentos de Centros de Saúde;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+ACSS;Administração Central do Sistema de Saúde, IP;Organismo;AP;;;;;;;;;;;;;;
+
+ACT;Autoridade para as Condições de Trabalho;Organismo;AP;;;;;;;;;;;;;;
+
+ADSE;Direção-Geral de Proteção Social aos Trabalhadores em Funções Públicas;Organismo;AP;;;;;;;;;;;;;;
+
+AF;Assembleias de Freguesia;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+AICEP;Agência para o Investimento e Comércio Externo de Portugal ;Organismo;AP;;;;;;;;;;;;;;
+
+AISAN;Agência ISAN Portugal;Organismo;N;;;;;;;;;;;;;;
+
+AJ;Autoridades judiciárias;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+AL;Autarquias Locais;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+ALRAA;Assembleia Legislativa da Região Autónoma dos Açores;Organismo;AP;;;;;;;;;;;;;;
+
+ALRAM;Assembleia Legislativa da Região Autónoma da Madeira;Organismo;AP;;;;;;;;;;;;;;
+
+AM;Assembleias Municipais;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+AMN;Autoridade Marítima Nacional;Organismo;AP;;;;;;;;;;;;;;
+
+ANA;ANA - Aeroportos de Portugal;Organismo;N;X;;;;;;;;;;;;;
+
+ANAC;Autoridade Nacional da Aviação Civil;Organismo;AP;;;;;;;;;;;;;;
+
+ANACOM;Autoridade Nacional de Comunicações;Organismo;AP;;;;;;;;;;;;;;
+
+ANCP;Agência Nacional de Compras Públicas ;Organismo;AP;;;;;;;;;;;;;;
+
+ANMP;Associação Nacional de Municípios Portugueses;Organismo;N;;;;;;;;;;;;;;
+
+ANPC;Autoridade Nacional de Proteção Civil;Organismo;AP;;;;;;;;;;;;;;
+
+ANQEP;Agência Nacional para a Qualificação e o Ensino Profissional, IP;Organismo;AP;;;;;;;;;;;;;;
+
+ANS;Autoridade Nacional de Segurança ;Organismo;AP;;;;;;;;;;;;;;
+
+ANSR;Autoridade Nacional de Segurança Rodoviária;Organismo;AP;;;;;;;;;;;;;;
+
+ANTRAL;Associação Nacional dos Transportes Rodoviários em Automóveis Ligeiros;Organismo;N;;;;;;;;;;;;;;
+
+AP;Administração Pública;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+APA;Agência Portuguesa do Ambiente, IP;Organismo;AP;;;;;;;;;;;;;;
+
+APAV;Associação Portuguesa de Apoio à Vítima;Organismo;N;;;;;;;;;;;;;;
+
+APEL;Associação Portuguesa de Editores e Livreiros;Organismo;N;;;;;;;;;;;;;;
+
+AR;Assembleia da República;Organismo;AP;;;;;;;;;;;;;;
+
+ARS-N;Administração Regional de Saúde do Norte;Organismo;AP;;;;;;;;;;;;;;
+
+AS;Autoridades de Saúde;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+ASAE;Autoridade de Segurança Alimentar e Económica;Organismo;AP;;;;;;;;;;;;;;
+
+ARS-C;Administração Regional de Saúde do Centro;Organismo;AP;;;;;;;;;;;;;;
+
+ARS-LVT;Administração Regional de Saúde de Lisboa e Vale do Tejo;Organismo;AP;;;;;;;;;;;;;;
+
+ARS-Aln;Administração Regional de Saúde do Alentejo;Organismo;AP;;;;;;;;;;;;;;
+
+ARS-Alg;Administração Regional de Saúde do Algarve;Organismo;AP;;;;;;;;;;;;;;
+
+ASF;Autoridades de supervisão e fiscalização;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+AT;Autoridade Tributária e Aduaneira;Organismo;AP;;;;;;;;;;;;;;
+
+AV;Assembleias de voto;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+BdP;Banco de Portugal;Organismo;AP;;;;;;;;;;;;;;
+
+BNA;Balcão Nacional de Arrendamento;Organismo;AP;;;;;;;;;;;;;;
+
+BNI;Balcão Nacional de Injunções;Organismo;AP;;;;;;;;;;;;;;
+
+BNP;Biblioteca Nacional de Portugal;Organismo;AP;;;;;;;;;;;;;;
+
+CA;Centros de Arbitragem;Conjunto de organismos;N;X;;;;;;;;;;;;;
+
+CADA;Comissão de Acesso aos Documentos Administrativos;Organismo;AP;;;;;;;;;;;;;;
+
+Camões;Camões - Instituto da Cooperação e da Língua, IP;Organismo;AP;;;;;;;;;;;;;;
+
+CCDR-N;Comissão de Coordenação do Desenvolvimento Regional do Norte;Organismo;AP;;;;;;;;;;;;;;
+
+CCDR-C;Comissão de Coordenação do Desenvolvimento Regional do Centro;Organismo;AP;;;;;;;;;;;;;;
+
+CCDR-LVT;Comissão de Coordenação do Desenvolvimento Regional de Lisboa e Vale do Tejo;Organismo;AP;;;;;;;;;;;;;;
+
+CCDR-Aln;Comissão de Coordenação do Desenvolvimento Regional do Alentejo;Organismo;AP;;;;;;;;;;;;;;
+
+CCDR-Alg;Comissão de Coordenação do Desenvolvimento Regional do Algarve;Organismo;AP;;;;;;;;;;;;;;
+
+CCPFC;Conselho Científico-Pedagógico da Formação Contínua;Organismo;AP;;;;;;;;;;;;;;
+
+CEGER;Centro de Gestão da Rede Informática do Governo;Organismo;AP;;;;;;;;;;;;;;
+
+CEIC;Comissão de Ética para a Investigação Clínica;Organismo;AP;;;;;;;;;;;;;;
+
+CEJ;Centro de Estudos Judiciários;Organismo;AP;;;;;;;;;;;;;;
+
+CEJUR;Centro Jurídico (PCM);Organismo;AP;;;;;;;;;;;;;;
+
+CEMFA;Chefe do Estado-Maior da Força Aérea ;Organismo;AP;;;;;;;;;;;;;;
+
+CES;Conselho Económico e Social;Organismo;AP;;;;;;;;;;;;;;
+
+CGA;Caixa Geral de Aposentações, IP;Organismo;AP;;;;;;;;;;;;;;
+
+CH;Comissões de Heráldica;Conjunto de organismos;S/N;;;;;;;;;;;;;;
+
+Cinemateca;Cinemateca Portuguesa-Museu do Cinema, IP;Organismo;AP;;;;;;;;;;;;;;
+
+CISAC;International Confederation of Societies of Authors and Composers;Organismo;N;;;;;;;;;;;;;;
+
+CM;Conselho de Ministros;Organismo;AP;;;;;;;;;;;;;;
+
+CMil ;Colégio Militar;Organismo;N;;;;;;;;;;;;;;
+
+CN;Cartórios Notariais;Conjunto de organismos;S/N;X;;;;;;;;;;;;;
+
+CNCS;Centro Nacional de Cibersegurança;Organismo;AP;;;;;;;;;;;;;;
+
+CNE;Conselho Nacional de Educação;Organismo;AP;;;;;;;;;;;;;;
+
+CNOC;Comissão Nacional de Objecção de Consciência;Organismo;AP;;;;;;;;;;;;;;
+
+CNPCJ;Comissão Nacional de Proteção das Crianças e Jovens em Risco;Organismo;AP;;;;;;;;;;;;;;
+
+CNPD;Comissão Nacional de Proteção de Dados;Organismo;AP;;;;;;;;;;;;;;
+
+CNPRP;Centro Nacional de Proteção contra os Riscos Profissionais;Organismo;AP;;;;;;;;;;;;;;
+
+CNPV;Conselho Nacional para a Promoção do Voluntariado;Organismo;AP;;;;;;;;;;;;;;
+
+Cns;Consulados;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+CP;Comboios de Portugal;Organismo;N;;;;;;;;;;;;;;
+
+CPCJ;Comissão de Proteção de Crianças e Jovens;Organismo;AP;;;;;;;;;;;;;;
+
+CPES;Comissão de Programas Especiais de Segurança;Organismo;AP;;;;;;;;;;;;;;
+
+CPL;Casa Pia de Lisboa, I.P.;Organismo;AP;;;;;;;;;;;;;;
+
+CPVC;Comissão de Proteção às Vítimas de Crimes;Organismo;AP;;;;;;;;;;;;;;
+
+CRESAP;Comissão de Recrutamento e Seleção para a Administração Pública;Organismo;AP;;;;;;;;;;;;;;
+
+CS;Câmara dos Solicitadores;Organismo;N;;;;;;;;;;;;;;
+
+CSM;Conselho Superior de Magistratura;Organismo;AP;;;;;;;;;;;;;;
+
+CT;Comissões Técnicas de Normalização;Conjunto de organismos;N;;;;;;;;;;;;;;
+
+DGACCP;Direção-Geral dos Assuntos Consulares e das Comunidades Portuguesas;Organismo;AP;;;;;;;;;;;;;;
+
+DGADR;Direção-Geral de Agricultura e Desenvolvimento Rural;Organismo;AP;;;;;;;;;;;;;;
+
+DGAE;Direção-Geral das Atividades Económicas;Organismo;AP;;;;;;;;;;;;;;
+
+DGAEP;Direção-Geral da Administração e do Emprego Público;Organismo;AP;;;;;;;;;;;;;;
+
+DGAEu;Direção-Geral dos Assuntos Europeus;Organismo;AP;;;;;;;;;;;;;;
+
+DGAJ;Direção-Geral da Administração da Justiça;Organismo;AP;;;;;;;;;;;;;;
+
+DGAL;Direção-Geral das Autarquias Locais;Organismo;AP;;;;;;;;;;;;;;
+
+DGAM;Direção-Geral da Autoridade Marítima;Organismo;AP;;;;;;;;;;;;;;
+
+DGAV;Direção-Geral de Alimentação e Veterinária;Organismo;AP;;;;;;;;;;;;;;
+
+DGE;Direção-Geral da Educação;Organismo;AP;;;;;;;;;;;;;;
+
+DGEEC;Direção-Geral de Estatísticas da Educação e Ciência;Organismo;AP;;;;;;;;;;;;;;
+
+DGEG;Direção-Geral de Energia e Geologia;Organismo;AP;;;;;;;;;;;;;;
+
+DGERT;Direção-Geral do Emprego e das Relações de Trabalho;Organismo;AP;;;;;;;;;;;;;;
+
+DGES;Direção-Geral do Ensino Superior;Organismo;AP;;;;;;;;;;;;;;
+
+DGEstE;Direção-Geral dos Estabelecimentos Escolares;Organismo;AP;;;;;;;;;;;;;;
+
+DGLAB;Direção-Geral do Livro, dos Arquivos e das Bibliotecas;Organismo;AP;;;;;;;;;;;;;;
+
+DGO;Direção-Geral do Orçamento;Organismo;AP;;;;;;;;;;;;;;
+
+DGPC;Direção-Geral do Património Cultural;Organismo;AP;;;;;;;;;;;;;;
+
+DGPDN;Direção-Geral de Política de Defesa Nacional;Organismo;AP;;;;;;;;;;;;;;
+
+DGPE;Direção-Geral de Política Externa;Organismo;AP;;;;;;;;;;;;;;
+
+DGPJ;Direção-Geral da Política de Justiça;Organismo;AP;;;;;;;;;;;;;;
+
+DGRDN;Direção-Geral de Recursos da Defesa Nacional;Organismo;AP;;;;;;;;;;;;;;
+
+DGRM;Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos;Organismo;AP;;;;;;;;;;;;;;
+
+DGRSP;Direção-Geral de Reinserção e Serviços Prisionais;Organismo;AP;;;;;;;;;;;;;;
+
+DGS;Direção-Geral de Saúde;Organismo;AP;;;;;;;;;;;;;;
+
+DGSS;Direção-Geral da Segurança Social;Organismo;AP;;;;;;;;;;;;;;
+
+DGT;Direção-Geral do Território;Organismo;AP;;;;;;;;;;;;;;
+
+DGTF;Direção-Geral do Tesouro e Finanças;Organismo;AP;;;;;;;;;;;;;;
+
+DGV;Direção-Geral de Alimentação e Veterinária;Organismo;AP;;;;;;;;;;;;;;
+
+DNS.PT;Associação DNS.PT;Organismo;N;;;;;;;;;;;;;;
+
+DRADR-N;Direção Regional de Agricultura e Desenvolvimento Rural do Norte;Organismo;AP;;;;;;;;;;;;;;
+
+DRADR-C;Direção Regional de Agricultura e Desenvolvimento Rural do Centro;Organismo;AP;;;;;;;;;;;;;;
+
+DRADR-LVT;Direção Regional de Agricultura e Desenvolvimento Rural de LVT;Organismo;AP;;;;;;;;;;;;;;
+
+DRADR-Aln;Direção Regional de Agricultura e Desenvolvimento Rural do Alentejo;Organismo;AP;;;;;;;;;;;;;;
+
+DRADR-Alg;Direção Regional de Agricultura e Desenvolvimento Rural do Algarve;Organismo;AP;;;;;;;;;;;;;;
+
+DRAP-N;Direção Regional de Agricultura e Pescas do Norte;Organismo;AP;;;;;;;;;;;;;;
+
+DRAP-C;Direção Regional de Agricultura e Pescas do Centro;Organismo;AP;;;;;;;;;;;;;;
+
+DRAP-LVT;Direção Regional de Agricultura e Pescas de LVT;Organismo;AP;;;;;;;;;;;;;;
+
+DRAP-Aln;Direção Regional de Agricultura e Pescas do Alentejo;Organismo;AP;;;;;;;;;;;;;;
+
+DRAP-Alg;Direção Regional de Agricultura e Pescas do Algarve;Organismo;AP;;;;;;;;;;;;;;
+
+DRS-N;Delegado Regional de Saúde do Norte;Organismo;AP;;;;;;;;;;;;;;
+
+DRS-C;Delegado Regional de Saúde do Centro;Organismo;AP;;;;;;;;;;;;;;
+
+DRS-LVT;Delegado Regional de Saúde de Lisboa e Vale do Tejo;Organismo;AP;;;;;;;;;;;;;;
+
+DRS-Aln;Delegado Regional de Saúde do Alentejo;Organismo;AP;;;;;;;;;;;;;;
+
+DRS-Alg;Delegado Regional de Saúde do Algarve;Organismo;AP;;;;;;;;;;;;;;
+
+EAARPNC;Entidades com autonomia administrativa e receitas próprias não consignadas;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+EC;Equipas cinotécnicas;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+ECA;Entidades com competência de auditoria;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+ECP;Entidades com capacidade pericial;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+ECF;Entidades com competência de fiscalização;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+EFD;Entidades com funções delegadas;Tipologia de organismo;N;X;;;;;;;;;;;;;
+
+ECFP;Entidade das Contas e Financiamentos Políticos (Tribunal Constitucional);Organismo;AP;;;;;;;;;;;;;;
+
+ECHA;Agência Europeia dos Produtos Químicos;Organismo;N;;;;;;;;;;;;;;
+
+ECI;Entidades com competência de inspeção;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+ECM;Entidades com competência de monitorização;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+ECS;Entidades com competência sancionatória;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+ECV;Entidades com competência de visita;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+ED;Entidades depositantes;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+EDA;Entidades detentoras de animais;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+EDIE;Entidades detentoras de infrestruturas estratégicas;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+EE;Entidades editoriais;Tipologia de organismo;S/N;;;;;;;;;;;;;;
+
+EGAG;Entidades gestoras de água;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+EGAP;Entidades gestoras de apoios;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+Emb;Embaixadas;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+EMGFA;Estado-Maior General das Forças Armadas;Organismo;AP;;;;;;;;;;;;;;
+
+ENMC;Entidade Nacional para o Mercado de Combustíveis, EPE;Organismo;AP;;;;;;;;;;;;;;
+
+EPAE;Escola Portuguesa de Arte Equestre;Organismo;AP;;;;;;;;;;;;;;
+
+ER;Entidades reguladoras;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+ERC;Entidade Reguladora para a Comunicação Social;Organismo;AP;;;;;;;;;;;;;;
+
+ERS;Entidade Reguladora da Saúde;Organismo;AP;;;;;;;;;;;;;;
+
+ERSAR;Entidade Reguladora dos Serviços de Águas e Resíduos;Organismo;AP;;;;;;;;;;;;;;
+
+ES;Estabelecimentos de ensino (EstE + IES);Conjunto de organismos;S/N;;;;;;;;;;;;;;
+
+ESPAP;Entidade de Serviços Partilhados da Administração Pública;Organismo;AP;;;;;;;;;;;;;;
+
+ESPS;Entidades do sistema de proteção na saúde;Organismo;AP;;;;;;;;;;;;;;
+
+EstE;Estabelecimentos escolares;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+FA;Forças Armadas;Organismo;AP;;;;;;;;;;;;;;
+
+FAP;Força Aérea Portuguesa;Organismo;AP;;;;;;;;;;;;;;
+
+FPT;Federação Portuguesa de Táxis;Organismo;N;;;;;;;;;;;;;;
+
+PSP;Polícia de Segurança Pública;Organismo;;;;;;;;;;;;;;;
+
+FSS;Forças e serviços de segurança;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+GAMA;Gabinete  de Investigação de Acidentes Marítimos e da Autoridade para a  Meteorologia Aeronáutica;Organismo;AP;;;;;;;;;;;;;;
+
+GEPAC;Gabinete de Estratégia, Planeamento e Avaliação Culturais;Organismo;AP;;;;;;;;;;;;;;
+
+GMG-MJ;Gabinete de Membro do Governo - Ministro da Justiça;Organismo;AP;;;;;;;;;;;;;;
+
+GNR;Guarda Nacional Repúblicana;Organismo;AP;;;;;;;;;;;;;;
+
+GNS;Gabinete Nacional de Segurança;Organismo;AP;;;;;;;;;;;;;;
+
+Gov;Governo;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+GovReg-A;Governo Regional dos Açores;Organismo;;;;;;;;;;;;;;;
+
+GovReg-M;Governo Regional da Madeira;Organismo;AP;;;;;;;;;;;;;;
+
+GPIAAF;Gabinete de Prevenção e Investigação de Acidentes com Aeronaves e Acidentes Ferroviários;Organismo;AP;;;;;;;;;;;;;;
+
+HH;Hospitais;Organismo;S/N;;;;;;;;;;;;;;
+
+IAMA;Instituto de Alimentação e Mercados Agrícolas;Organismo;AP;;;;;;;;;;;;;;
+
+IAPMEI;Agência para a Competitividade e Inovação, IP;Organismo;AP;;;;;;;;;;;;;;
+
+IASFA;Instituto de Ação Social das Forças Armadas, IP;Organismo;AP;;;;;;;;;;;;;;
+
+ICA;Instituto do Cinema e do Audiovisual, IP;Organismo;AP;;;;;;;;;;;;;;
+
+ICNF;Instituto da Conservação da Natureza e das Florestas, IP;Organismo;AP;;;;;;;;;;;;;;
+
+IDC;Inspeção Diplomática e Consular;Organismo;AP;;;;;;;;;;;;;;
+
+IEFP;Instituto do Emprego e Formação Profissional, IP;Organismo;AP;;;;;;;;;;;;;;
+
+IES;Instituições do Ensino Superior;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+IFAP;Instituto de Financiamento da Agricultura e Pescas, IP;Organismo;AP;;;;;;;;;;;;;;
+
+IGAC;Inspeção-Geral das Atividades Culturais;Organismo;AP;;;;;;;;;;;;;;
+
+IGAI;Inspeção-Geral da Administração Interna;Organismo;AP;;;;;;;;;;;;;;
+
+IGAS;Inspeção-Geral das Atividades em Saúde;Organismo;AP;;;;;;;;;;;;;;
+
+IGCP;Agência de Gestão da Tesouraria e da Dívida Pública - IGCP, EPE;Organismo;AP;;;;;;;;;;;;;;
+
+IGFEJ;Instituto de Gestão Financeira e Equipamentos da Justiça, IP;Organismo;AP;;;;;;;;;;;;;;
+
+IGFSS;Instituto de Gestão de Fundos de Capitalização da Segurança Social, IP;Organismo;AP;;;;;;;;;;;;;;
+
+IH;Instituto Hidrográfico, IP;Organismo;AP;;;;;;;;;;;;;;
+
+IMPIC;Instituto dos Mercados Públicos, do Imobiliário e da Construção, IP;Organismo;AP;;;;;;;;;;;;;;
+
+IMT;Instituto de Mobilidade e dos Transportes, IP;Organismo;AP;;;;;;;;;;;;;;
+
+INA;Direção-Geral da Qualificação dos Trabalhadores em Funções Públicas;Organismo;AP;;;;;;;;;;;;;;
+
+INCM;Imprensa Nacional-Casa da Moeda, SA;Organismo;AP;;;;;;;;;;;;;;
+
+INE;Instituto Nacional de Estatística, IP;Organismo;AP;;;;;;;;;;;;;;
+
+INEM;Instituto Nacional de Emergência Médica, IP;Organismo;AP;;;;;;;;;;;;;;
+
+INFARMED;Autoridade Nacional do Medicamento e Produtos de Saúde, IP;Organismo;AP;;;;;;;;;;;;;;
+
+INIAV;Instituto Nacional de Investigação Agrária e Veterinária, IP;Organismo;AP;;;;;;;;;;;;;;
+
+INMLCF;Instituto Nacional de Medicina Legal e Ciências Forenses, IP;Organismo;AP;;;;;;;;;;;;;;
+
+INPI;Instituto Nacional da Propriedade Industrial, IP;Organismo;AP;;;;;;;;;;;;;;
+
+INR;Instituto Nacional para a Reabilitação, IP;Organismo;AP;;;;;;;;;;;;;;
+
+INSA;Instituto Nacional de Saúde Doutor Ricardo Jorge, IP;Organismo;AP;;;;;;;;;;;;;;
+
+I.P.;Institutos Públicos;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+IP, SA;Infraestruturas de Portugal, SA;Organismo;AP;;;;;;;;;;;;;;
+
+IPAC;Instituto Português de Acreditação, IP;Organismo;AP;;;;;;;;;;;;;;
+
+IPDJ;Instituto Português do Desporto e Juventude, IP;Organismo;AP;;;;;;;;;;;;;;
+
+IPMA;Instituto Português do Mar e da Atmosfera, IP;Organismo;AP;;;;;;;;;;;;;;
+
+IPQ;Instituto Português da Qualidade, IP;Organismo;AP;;;;;;;;;;;;;;
+
+IPSS;Instituições Particulares de Solidariedade Social;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+IPST;Instituto Português do Sangue e da Transplantação, I.P.;Organismo;AP;;;;;;;;;;;;;;
+
+IRN;Instituto dos Registos e do Notariado, IP;Organismo;AP;;;;;;;;;;;;;;
+
+ISAN Portugal;International Standard Audiovisual Number Portugal;Organismo;N;;;;;;;;;;;;;;
+
+ISS;Instituto da Segurança Social, IP;Organismo;AP;;;;;;;;;;;;;;
+
+ISSA;Instituto da Segurança Social dos Açores, IP;Organismo;AP;;;;;;;;;;;;;;
+
+ISSM;Instituto da Segurança Social da Madeira, IP;Organismo;AP;;;;;;;;;;;;;;
+
+IST;Instituto Superior Técnico;Organismo;AP;;;;;;;;;;;;;;
+
+IVDP;Instituto dos Vinhos do Douro e do Porto, IP;Organismo;AP;;;;;;;;;;;;;;
+
+IVV;Instituto da Vinha e do Vinho, IP;Organismo;AP;;;;;;;;;;;;;;
+
+JP;Julgados de Paz;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+LNEG;Laboratório Nacional de Energia e Geologia;Organismo;AP;;;;;;;;;;;;;;
+
+Marinha;Marinha Portuguesa;Organismo;AP;;;;;;;;;;;;;;
+
+MP;Ministério Público;Organismo;AP;;;;;;;;;;;;;;
+
+Museus;Museus;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+OACDOP;Organismos da Administração com competências delegadas em ordens profissionais;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+OGCT;Organismos gestores de Comissão Técnica;Tipologia de organismo;N;;;;;;;;;;;;;;
+
+ONS;Organismos de normalização setorial;Tipologia de organismo;N;;;;;;;;;;;;;;
+
+OP;Ordens Profissionais;Organismo;N;;;;;;;;;;;;;;
+
+OPC;Órgãos de Polícia Criminal;Organismo;AP;;;;;;;;;;;;;;
+
+PCM;Presidência do Conselho de Ministros;Organismo;AP;;;;;;;;;;;;;;
+
+PGR;Procuradoria-Geral da República;Organismo;AP;;;;;;;;;;;;;;
+
+PJ;Polícia Judiciária;Organismo;AP;;;;;;;;;;;;;;
+
+PM;Primeiro-Ministro;Organismo;AP;;;;;;;;;;;;;;
+
+PMar;Polícia Marítima;Organismo;AP;;;;;;;;;;;;;;
+
+PMun;Polícia Municipal;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+PR;Presidente da República;Organismo;AP;;;;;;;;;;;;;;
+
+PSP;Polícia de Segurança Pública;Organismo;AP;;;;;;;;;;;;;;
+
+RA-A;Região Autónoma dos Açores;Organismo;AP;;;;;;;;;;;;;;
+
+RA-M;Região Autónoma da Madeira;Organismo;AP;;;;;;;;;;;;;;
+
+SCML;Santa Casa da Misericórdia de Lisboa;Organismo;N;;;;;;;;;;;;;;
+
+SEAL;Secretário de Estado das Autarquias Locais;Organismo;AP;;;;;;;;;;;;;;
+
+SEATF;Secretário de Estado Adjunto, do Tesouro e das Finanças;Organismo;AP;;;;;;;;;;;;;;
+
+SEF;Serviço de Estrangeiros e Fronteiras;Organismo;AP;;;;;;;;;;;;;;
+
+SEN;Sistema Estatístico Nacional;Organismo;AP;;;;;;;;;;;;;;
+
+SEO;Secretário de Estado do Orçamento;Organismo;AP;;;;;;;;;;;;;;
+
+SGMAI;Secretaria Geral do Ministério da Administração Interna ;Organismo;AP;;;;;;;;;;;;;;
+
+SGMF;Secretaria Geral do Ministério das Finanças ;Organismo;AP;;;;;;;;;;;;;;
+
+SGMJ;Secretaria Geral do Ministério da Justiça;Organismo;AP;;;;;;;;;;;;;;
+
+SGMNE;Secretaria Geral do Ministério dos Negócios Estrangeiros;Organismo;AP;;;;;;;;;;;;;;
+
+SGPCM;Secretaria Geral da Presidência do Conselho de Ministros;Organismo;AP;;;;;;;;;;;;;;
+
+SICAD;Serviço de Intervenção nos Comportamentos Aditivos e nas Dependências;Organismo;AP;;;;;;;;;;;;;;
+
+SIRP;Sistema de Informações da República Portuguesa;Organismo;AP;;;;;;;;;;;;;;
+
+SIS;Serviço de Informações e Segurança ;Organismo;AP;;;;;;;;;;;;;;
+
+SMT;Serviços de Medicina do Trabalho;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+SPE;Setor Público Empresarial;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+SPMS;Serviços Partilhados do Ministério da Saúde, EPE;Organismo;AP;;;;;;;;;;;;;;
+
+SSAP;Serviços Sociais da Administração Pública;Organismo;AP;;;;;;;;;;;;;;
+
+STA;Supremo Tribunal Administrativo;Organismo;AP;;;;;;;;;;;;;;
+
+STJ;Supremo Tribunal de Justiça;Organismo;AP;;;;;;;;;;;;;;
+
+TC;Tribunal Constitucional;Organismo;AP;;;;;;;;;;;;;;
+
+TContas;Tribunal de Contas;Organismo;AP;;;;;;;;;;;;;;
+
+TEP;Tribunal de Execução de Penas;Organismo;AP;;;;;;;;;;;;;;
+
+TFM;Tribunal de Família e Menores;Organismo;AP;;;;;;;;;;;;;;
+
+TIC;Tribunal de Instrução Criminal;Organismo;AP;;;;;;;;;;;;;;
+
+TComarca;Tribunais de Comarca;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+TR;Tribunais da Relação;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+Trb;Tribunais;Conjunto de organismos;AP;;;;;;;;;;;;;;
+
+TP;Turismo de Portugal, IP;Organismo;AP;;;;;;;;;;;;;;
+
+UI;Unidades de Investigação;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+UL;Unidades Laboratoriais;Tipologia de organismo;AP;;;;;;;;;;;;;;
+
+UPCS;Unidades Prestadoras de Cuidados de Saúde;Tipologia de organismo;AP;;;;;;;;;;;;;;

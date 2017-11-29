@@ -877,10 +877,7 @@ DL 4/2015#";;PC;N;AP#;;;"100.10.001#
 850.10.001#
 900.10.505#
 950.10.201#
-950.30.001#
-
-
-";"Produção e comunicação de atos legislativos#
+950.30.001#";"Produção e comunicação de atos legislativos#
 Aprovação e comunicação de convenções internacionais#
 Produção e comunicação de atos regulamentares gerais#
 Produção e comunicação de atos regulamentares locais#
@@ -933,9 +930,7 @@ Procedimento disciplinar#
 Atribuição de subsídios à exploração de serviços públicos#
 Organização e participação em cerimónia religiosa#
 Apreciação e admissão de propostas de referendo#
-Reconhecimento por mérito e serviços prestados#
-[Os demais PN que tenham que passar pela decisão em reunião de órgãos deliberativos]
-";"Cruzada#
+Reconhecimento por mérito e serviços prestados#";"Cruzada#
 Cruzada#
 Cruzada#
 Cruzada#
@@ -988,10 +983,8 @@ Cruzada#
 Cruzada#
 Cruzada#
 Sucessão (sucessor)#
-Cruzada#
-Cruzada#
-
-";Elevada;S;;;;;;;;;;;;;;;;;
+Cruzada#";Elevada;S;;;;;;;"Relação Cruzada com os demais PN que tenham que passar pela decisão em reunião de órgãos deliberativos.
+";;;;;;;;;;
 ;150.10.700.01;Reunião de órgãos deliberativos: preparação;"Inicia com o agendamento da reunião e termina com o envio de convocatória.
 Inclui a definição de ordem de trabalhos e a apresentação de propostas para discussão.";;;;;;;;;;;;;;;;10;;"Critério legal:
 Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).";Data de encerramento do processo;E;"Densidade informacional:
@@ -1110,7 +1103,6 @@ Atribuição de subsídios à exploração de serviços públicos#
 Organização e participação em cerimónia religiosa#
 Apreciação e admissão de propostas de referendo#
 Reconhecimento por mérito e serviços prestados#
-(Os demais PN que tenham que passar pela decisão em reunião de órgãos executivos)
 ";"Cruzada#
 Cruzada#
 Cruzada#
@@ -1160,7 +1152,7 @@ Cruzada#
 Cruzada#
 Sucessão (sucessor)#
 Cruzada#
-";Elevada;S;;;;;;;;;;;;;;;;;
+";Elevada;S;;;;;;;Relação Cruzada com os demais PN que tenham que passar pela decisão em reunião de órgãos executivos.;;;;;;;;;;
 ;150.10.701.01;Reunião de órgãos executivos: preparação;"Inicia com o agendamento da reunião e termina com o envio de convocatória.
 Inclui apresentação de propostas para discussão, apresentação de moções, preparação de propostas de deliberação, produção de recomendações, e definição de ordem de trabalhos.";;;;;;;;;;;;;;;;10;;"Critério legal:
 Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).";Data de encerramento do processo;E;"Densidade informacional:
@@ -1925,16 +1917,13 @@ Processamento de pedidos de audiência#
 Processamento de pedidos de informação e de esclarecimento#
 Apoio técnico e logístico ao processo eleitoral e referendário#
 Processamento de petições, reclamações e sugestões#
-Materialização, manutenção e disseminação de unidades de medida#
-(Os demais PN que possam ser refletidos em relatório de atividades)
-";"Complementar#
+Materialização, manutenção e disseminação de unidades de medida#";"Complementar#
 Complementar#
 Síntese (sintetiza)#
 Síntese (sintetiza)#
 Síntese (sintetiza)#
 Complementar#
 Cruzada#
-Síntese (sintetiza)#
 Síntese (sintetiza)#
 Síntese (sintetiza)#
 Síntese (sintetiza)#
@@ -1965,7 +1954,7 @@ Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97],
 Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data de encerramento do processo;C;"Complementaridade informacional:
 É complementar dos
 PN 150.20.100 - Definição de metas e objetivos organizacionais;
-PN 150.20.101 - Planeamento estratégico de atividades.";;;;;;;;;;;
+PN 150.20.101 - Planeamento estratégico de atividades.";Sintetiza os demais PN que possam ser refletidos em relatório de atividades.;;;;;;;;;;
 ;150.20.301;Avaliação do desempenho das organizações;"Apreciação, verificação e medição periódica do impacto e do grau de cumprimento de metas e dos objetivos definidos para cada serviço ou instituição.
 Inicia com a análise dos dados disponíveis e termina com a homologação da avaliação de desempenho.
 Inclui elaboração de relatórios intercalares e de relatório final de desempenho.";Sistemas de avaliação de desempenho de unidades orgânicas#;SIADAP 1#;A avaliação de desempenho dos dirigentes e dos trabalhadores deve ser considerada em 250.20.800 – Avaliação individual do desempenho#;"Regulamento 392/2013#

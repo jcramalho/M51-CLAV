@@ -323,7 +323,7 @@ PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da 
 PN 500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).";Data da confirmação da receção do bem;C;"Densidade informacional:
 Informação detalhada não recuperável noutro PN, nomeadamente a relativa ao percurso custodial do bem conservado a título permanente, elemento determinante para a demonstração da sua autenticidade.";;;;;;;;;;;
 ;300.10.005;Transação e transmissão de bens móveis não culturais e contratação de serviços;"Aquisição ou alienação do direito de propriedade ou de outros direitos reais sobre bens móveis, de forma onerosa ou gratuita, por contrato, expropriação, sucessão, usucapião e pelas demais formas previstas na lei, e aquisição e venda de serviços.
-Inicia com a proposta de aquisição ou de alienação do bem móvel ou do serviço e termina com a receção ou entrega do bem ou do resultado do serviço prestado.
+Inicia com a proposta de aquisição ou de alienação do bem móvel ou do serviço e termina com a confirmação da receção ou entrega do bem ou do resultado do serviço prestado.
 Inclui, dependendo da sujeição do procedimento de contratação ao Código dos Contratos Públicos, decisão de contratar, escolha do procedimento, designação do júri, avaliação e negociação das propostas, adjudicação, verificação dos documentos de habilitação do adjudicatário, verificação da conformidade da caução, celebração e alteração do contrato, acompanhamento da sua execução e resolução ou revogação de contrato.
 Pode incluir, ainda, dependendo da forma de transmissão do direito, aceitação da herança, do legado ou da doação, bem como das suas condições ou encargos e celebração da promessa de aquisição do direito.";"Aquisição de bens através de locação financeira (leasing)#
 Aquisição de direitos de autor inerentes à aquisição de bens móveis, se adquiridos conjuntamente com os bens#
@@ -627,7 +627,7 @@ PN 150.10.700 - Reunião de órgãos deliberativos
 PN 150.10.701 - Reunião de órgãos executivos (decisão)
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)";;;;;;;;;;;
 ;300.10.011;Transação e transmissão de bens e serviços críticos e de defesa e segurança;"Aquisição e alienação de bens e serviços para áreas estratégicas e de defesa e segurança, nomeadamente bens e tecnologias críticas, empreitadas de obras públicas para infraestruturas em setores sensíveis, como a energia, os transportes, o abastecimento de água.
-Inicia com a proposta de aquisição ou de alienação do bem móvel ou do serviço e termina com a receção ou entrega do bem ou do resultado do serviço prestado.
+Inicia com a proposta de aquisição ou de alienação do bem móvel ou do serviço e termina com a confirmação da receção ou entrega do bem ou do resultado do serviço prestado ou da libertação da garantia, caso caso ocorra em momento posterior.
 Inclui, dependendo da sujeição do procedimento de contratação, recolha de informação, entrega de proposta, decisão de contratar, designação do júri, avaliação e negociação das propostas, adjudicação, verificação dos documentos de habilitação do adjudicatário, verificação da conformidade da caução, celebração e alteração do contrato, acompanhamento da sua execução e resolução ou revogação de contrato.
 ";"Contratualização de empreitada em infraestrutura crítica (aquela cuja destruição total ou parcial, disfunção ou utilização indevida possa afetar, direta ou indiretamente, de forma permanente ou prolongada, o funcionamento de Órgãos de Soberania, de Órgãos da Segurança Nacional ou os valores básicos, afectando, desta forma, gravemente, o bem-estar social)#
 Aquisição e/ou alienação de bens móveis ou serviços na área da defesa, constantes da Lista Militar Comum, transposta e atualizada anualmente no ordenamento jurídico português#
@@ -930,13 +930,12 @@ PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão 
 PN 300.30.008 - Registo de documentos e informação (identificação e caracterização)";;;;;;;;;;;
 ;300.10.701;Depósito de bens culturais;"Aquisição ou alienação temporária da responsabilidade da gestão de bens culturais de terceiros.
 Inicia com o pedido de depósito ou a entrega de bens e termina com a devolução ou decisão sobre o destino dos bens.
-Inclui a receção, controlo e guarda ou custódia dos bens depositados voluntariamente, por acordo entre as partesl.";"Custódia de bens culturais (por exemplo# documentos arquivísticos, peças museológicas) a título de depósito#
+Inclui a receção, controlo e guarda ou custódia dos bens depositados voluntariamente, por acordo entre as partes.";"Custódia de bens culturais (por exemplo# documentos arquivísticos, peças museológicas) a título de depósito#
 Transferência temporária da responsabilidade de gestão de documentação e informação administrativa, independentemente do seu suporte#
 ";;A incorporação de documentos com valor cultural provenientes de outras entidades deve ser classificada em 300.10.004 – Transação e transmissão de bens móveis culturais, bem como os bens móveis culturais adquiridos onerosamente, permutados, recebidos em dação, doação ou herança#;"DL 16/93#
 Lei 107/2001#
-Lei 55/2012# 
-DL 124/2013#
-";;PC;S;"BNP#
+Lei 55/2012#
+DL 124/2013#";;PC;S;"BNP#
 Cinemateca#
 DGLAB#
 Museus#
@@ -982,10 +981,10 @@ A contratação de concessão que não configure parcerias público-privadas dev
 Lei 41/2014#
 DL 18/2008#
 DL 34/2009#
-DL 249/2012#
+DL 149/2012#
 DL 111/2012#
 DL 278/2009#
-DL 185/2002#";"DL 18/2008 alterado pelos DL 34/2009 e DL 249/2012#
+DL 185/2002#";"DL 18/2008 alterado pelos DL 34/2009 e DL 149/2012#
 DL 86/2003#";PE;S;AP#;Gov#;Decidir#;"150.10.001#
 150.10.700#
 150.10.701#
@@ -1041,12 +1040,12 @@ DL 17/2008#
 DL 280/2007#
 DL 18/2008#
 DL 34/2009#
-DL 249/2012#
+DL 149/2012#
 Lei 3/2010#";"DL 4/2015#
 DL 144/2012#
 DL 259/1999, alterado pelo DL 17/2008#
 DL 280/2007#
-DL 18/2008, alterado pelos DL 34/2009, DL 249/2012 e Lei 3/2010#";PC;S;"AL#
+DL 18/2008, alterado pelos DL 34/2009, DL 149/2012 e Lei 3/2010#";PC;S;"AL#
 SPE#
 IGFEJ#";Gov#;Decidir#;"150.10.001#
 150.10.700#
@@ -1096,7 +1095,7 @@ Inicia por decisão da tutela ou pela abertura de um procedimento concursal e te
 Inclui escolha do procedimento, avaliação e negociação das propostas, adjudicação, verificação da conformidade da caução e a preparação da celebração do contrato quando devido.";"Processos de concessão de serviços públicos, que não sejam contratualizados no âmbito de parceria público-privada ou de delegação#
 Concessão do uso ou exploração de bens do domínio público, que não seja contratualizada no âmbito de parceria público-privada ou de delegação#";;"Sempre que se tratar de parceria público-privada, deve ser considerado em 300.20.001 – Constituição e acompanhamento de parcerias público-privadas#
 Sempre que se trate de autorização de concessões para a zona costeira ao abrigo do DL 226-A/2007, deverá ser considerado em 450.10.233 – Licenciamento ou autorização para a instalação de infraestruturas em domínio hídrico#";"DL 4/2015#
-DL 249/2012# 
+DL 149/2012#
 Lei 3/2010#
 DL 280/2007#
 DL 18/2008#
@@ -1358,8 +1357,8 @@ Inicia com a informação relativa à aquisição ou alienação do bem e termin
 Inclui registo da quantificação, caracterização do património financeiro, valor e forma de aquisição.";"Registo da aquisição de ativos financeiros#
 Registo da alienação de ativos financeiros#";;;"DL 280/2007#
 DL 54-A/99#
-DL 232/97#
-DL 477/80#";;PC;N;AP#;;;"150.10.701#
+DL 192/2015#
+DL 477/80#";DL 192/2015 revoga o DL 232/97#;PC;N;AP#;;;"150.10.701#
 150.20.401#
 300.10.007#
 350.40.602#
@@ -1379,7 +1378,7 @@ Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade
 PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).";Data do abate do bem;C;"Densidade informacional:
 Informação detalhada não recuperável noutros PN.";;;;;;;;;;;
 ;300.30.005;Inventariação e cadastro de bens imóveis;"Registo de dados relativos à caracterização de bens imóveis (prédios rústicos, urbanos, infraestruturas e águas) do domínio público e privado, de que o Estado é titular, como pessoa coletiva de direito público.
-Inicia com a informação relativa à aquisição, construção ou demolição do bem e termina com a atualização do inventário.
+Inicia com a informação relativa à aquisição, construção ou demolição do bem e termina com a atualização do inventário relativa à perda de direitos sobre o bem.
 Inclui atribuição do número de inventário (quando aplicável), descrição, localização, denominação, caracterização quanto ao tipo de domínio (público ou privado), espécie (urbano, rústico ou outro), natureza dos direitos de utilização, classificação (se for o caso), características físicas ou quimicas, ano de construção, informação relativa à inscrição matricial e ao registo na conservatória, custo ou forma de aquisição, construção e avaliação patrimonial, quando aplicável.";"Inventário de bens imóveis do domínio privado do Estado#
 Inventário de bens imóveis do domínio público#
 Inventário dos prédios rústicos do domínio privado do Estado#
@@ -1642,7 +1641,7 @@ Inclui avaliação interna ou externa de bem, para efeitos de liquidação de im
 DL 280/2007#
 Portaria 671/2000#";;PC;S;"DGTF#
 AL#
-Regiões Autónomas#";AP#;Comunicar#;"300.10.003#
+RA#";AP#;Comunicar#;"300.10.003#
 300.30.005#
 350.10.200#
 350.10.202#
@@ -2610,7 +2609,7 @@ PN 150.10.701 - Reunião de órgãos executivos (decisão)
 PN 300.30.005 - Inventariação e cadastro de bens imóveis (identificação e registo)
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
 ;300.50.201;Arrendamento ou cedência de utilização de bens imóveis;"Cessão ou aquisição do direito de utilização, onerosa ou não onerosa, de imóveis dos domínios público ou privado do Estado, a entidades terceiras, públicas ou privadas.
-Inicia com o pedido de disponibilização / cedência pela entidade interessada na utilização do imóvel e termina com a formalização da cedência.
+Inicia com o pedido de disponibilização / cedência pela entidade interessada na utilização do imóvel e termina com a devolução de bem ou cessação do arrendamento
 Inclui a análise dos dados, solicitação de esclarecimentos e pareceres, formalização da entrega, aceitação e acompanhamento dos pressupostos inerentes à cedência e respetiva devolução.
 ";"Arrendamento de bens imóveis do domínio privado#
 Atribuição de lugares em feiras e mercados#
@@ -2646,11 +2645,12 @@ PN 300.30.005 - Inventariação e cadastro de bens imóveis (identificação e r
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
 ;300.50.202;Cedência de bens móveis culturais;"Empréstimo de bens móveis culturais a entidades terceiras, públicas e privadas.
 Inicia com o pedido de empréstimo do bem e termina com a sua devolução.
-Inclui autorização, quando aplicável, registo de entrega, confirmação dos bens recebidos e registo da devolução dos mesmos.";"Cedência de imagens culturais (empréstimo de bens móveis culturais a entidade externa)#
+Inclui autorização, quando aplicável, registo de entrega, confirmação dos bens recebidos e registo da devolução dos mesmos.";"Empréstimo de imagens culturais a entidade externa#
 Empréstimo de livros e documentos para uso em exposições e mostras documentais#
 Empréstimo de bens móveis culturais a entidade externa#
 Empréstimo de documentos de arquivo a entidade externa#
-Empréstimo de peças museológicas a entidade externa#";;A utilização de bens móveis culturais por um serviço da mesma entidade deverá classificar-se em 300.50.003 – Afetação interna de bens móveis culturais#;"DL 148/2015#
+Empréstimo de peças museológicas a entidade externa#";;"A utilização de bens móveis culturais por um serviço da mesma entidade deverá classificar-se em 300.50.003 – Afetação interna de bens móveis culturais#
+A reprodução de documentos, onde se inclui a autorização para a sua utilização, deverá ser classificada em 300.50.400 - Processamento de pedidos de consulta e reprodução de documentos e informação.";"DL 148/2015#
 Lei 47/2004#
 Lei 107/2001#
 DL 16/93#";;PC;S;"AP#
@@ -2677,7 +2677,7 @@ Informação síntese recuperável em
 PN 300.30.002 -Inventariação de bens móveis culturais
 PN 300.30.008 - Registo de documentos e informação (casos tratados)";;;;;;;;;;;
 ;300.50.203;Aluguer ou cedência de utilização de bens móveis não culturais;"Cessão de utilização, onerosa ou não onerosa, de bens móveis a entidades públicas e privadas.
-Inicia com o pedido de cedência pela entidade interessada na utilização do bem móvel ou direito e termina com a formalização da cedência.
+Inicia com o pedido de cedência pela entidade interessada na utilização do bem móvel ou direito e termina com a devolução do bem ou cessação do aluguer.
 Inclui aceitação e acompanhamento dos pressupostos inerentes à cedência e respetiva devolução, quando devido.";"Cedência de bens móveis a entidade externa#
 Cedência de direitos de utilização de imagens a entidade externa#
 Cedência temporária de bens móveis a entidade externa sem fins lucrativos#";;;DL 47344/66#;DL 47344/66 - Código civil, artº 1022 a 1056 e artº 1049#;PC;N;AP#;;;"300.30.003#
@@ -2972,8 +2972,8 @@ Inicia com o estabelecimento do contacto e termina com finalização da relaçã
 Inclui a inserção de dados relativos à identificação da entidade prestadora ou fornecedora e ao seu relacionamento com a administração, bem como a atualização de dados.";Registo de fornecedores#;;"O contrato ou convenção com entidades privadas para prestação de serviços na área da saúde deve classificar-se em 300.10.008 – Estabelecimento de convenções com operadores privados#
 A criação e gestão de contactos institucionais da entidade devem ser considerados no 900.20.600 – Criação e utilização de contactos institucionais#";"DL 54-A/99#
 Lei 162/99#
-DL 232/97#";"DL 54-A/99, alterado pela Lei 162/99#
-DL 232/97#";PC;N;AP#;;;"300.10.001#
+DL 192/2015#";"DL 54-A/99, alterado pela Lei 162/99#
+DL 192/2015 revoga o DL 232/97#";PC;N;AP#;;;"300.10.001#
 300.10.005#
 300.10.008#
 300.30.008#";"Contratação de empreitadas de obras públicas#

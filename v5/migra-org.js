@@ -20,7 +20,7 @@ console.log('Organizações: Comecei a processar')
 csv({delimiter:";"})
     .fromFile(csvFilePath)
     .on('json', (jsonObj, rowIndex)=> {
-        sigla = jsonObj['Sigla'].replace(/\./gm,"_")
+        sigla = jsonObj['Sigla'].replace(/\.|\,/gm,"_").replace(/ /gm,"_")
         orgs.push(sigla)
 
         var currentStatements = "###  http://jcr.di.uminho.pt/m51-clav#org_" + sigla + '\n'

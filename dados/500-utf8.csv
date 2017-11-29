@@ -1,4 +1,7 @@
+;SUPERVISÃO, CONTROLO E RESPONSABILIZAÇÃO;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 Estado;Código;Título;Descrição;Notas de aplicação;Exemplos NA;Notas de exclusão;Diplomas jurídico-administrativos REF;Diplomas jurídico-administrativos complementar;Tipo de processo;Processo transversal (S/N);Dono do processo;Participante no processo;Tipo de intervenção do participante;Código do processo relacionado;Título do processo relacionado;Tipo de relação entre processos;Dimensão qualitativa do processo;Uniformização do processo;Prazo de conservação administrativa;Nota ao PCA;Justificação PCA;Forma de contagem do prazo de cons. adm.;Destino final;Justificação DF;Notas;;;;;;;;;;;
+
 ;500;SUPERVISÃO, CONTROLO E RESPONSABILIZAÇÃO;Relativo às atividades de verificação da legalidade e da conformidade às normas, orientações e boas práticas, conduzidas por autoridades ou entidades autorizadas de regulação, de certificação e de supervisão, por autoridades de inspeção, ou pelos próprios organismos sobre os respetivos serviços, nomeadamente quando procedam a auditorias internas. Inclui o eventual subsequente processamento de ações de responsabilização, quando sejam de competência administrativa, bem como eventuais recursos hierárquicos e tutelares.;"Todos os domínios#
 Operações de fiscalização levadas a cabo pelas forças segurança#";"Domínio tributário#
 Domínio aduaneiro#
@@ -10,6 +13,7 @@ Domínio cultural#
 Domínio financeiro#
 Domínio gestão#
 ";"O controlo da execução de políticas, programas ou planos de atividades deve ser considerado em ""Planeamento e gestão estratégica"" (150).";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;500.10;Inspeção, auditoria, fiscalização e monitorização de conformidade à norma;"Compreende os processos de verificação da conformidade legal, regulamentar e/ou normativa dos atos, produtos ou serviços de uma qualquer entidade singular ou coletiva, pública ou privada. Abrange processos de controlo prévio, de controlo concomitante e de controlo sucessivo.
 Inclui o processamento das comunicações obrigatórias que a lei prevê que sejam feitas às autoridades de supervisão e controlo.";"Processos de inspeção#
 Processos de fiscalização#
@@ -17,6 +21,7 @@ Processos de auditoria (interna ou externa) ou de averiguação#
 Ações de vigilância ou monitorização
 Processamento de comunicações obrigatórias efetuadas no cumprimento de funções de supervisão e controlo da legalidade ou de normativos adotados.
 Acompanhamento aos processos conduzidos por entidades externas, europeias ou internacionais.";;"Quando haja lugar a operações ou ações que careçam de autorização prévia ou ratificação do Ministério Público (ilícitos criminais) deverá ser iniciado processo em ""Administração da justiça/ Prevenção e investigação criminal"" (600.10).";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;500.10.001;Realização de auditorias;"Verificação de atos ou operações com o objetivo de analisar a conformidade dos mesmos com determinadas disposições legais e orientações aplicáveis no âmbito do desenvolvimento das atividades dos serviços ou entidades, podendo revestir a forma de controlo sucessivo e concomitante.
 Inicia com o planeamento da intervenção e termina com o relatório final homologado.
 Inclui a execução, a elaboração do relatório, o  procedimento do contraditório e o  envio à entidade competente para homologação.
@@ -26,17 +31,17 @@ Auditorias internas e externas#
 Fiscalização concomitante e sucessiva do Tribunal de Contas#";;"A concessão de visto prévio pelo Tribunal de Contas deve ser considerada em 500.10.002 – Fiscalização prévia do Tribunal de Contas#
 As auditorias iniciais para certificação de qualidade de serviços devem ser classificadas em 450.10.648 – Reconhecimento das  características e origem de bens, produtos e serviços#
 ";"DL 276/2007#
-DL146/2012#
+DL 146/2012#
 DL 58/2012#
+Regulamento 189/2013#
 Despacho 15171/2012#
-Despacho 189/2013#
 Despacho 6387/2010#
 Despacho 3786/2008#";"DL 276/2007
 Diplomas específicos:
-DL146/2012#
+DL 146/2012#
 DL 58/2012#
+Regulamento 189/2013#
 Despacho 15171/2012#
-Despacho 189/2013#
 Despacho 6387/2010#
 Despacho 3786/2008#";PC;S;ECA#;AP#;Comunicar#;"150.20.101#
 150.20.300#
@@ -63,17 +68,20 @@ Sucessão (antecessor)#
 Sucessão (antecessor)#
 Sucessão (antecessor)#
 ";Elevada;S;;;;;;;;;;;;;;;;;;
+
 ;500.10.001.01;Realização de auditorias: Preparação e execução;"Desenvolvimento de todas as fases do processo de auditoria, com exceção da elaboração do relatório final.
 Inclui o planeamento da auditoria, a comunicação ao auditado, a recolha de elementos, a notificação das conclusões e  recomendações provisórias e as alegações produzidas no âmbito do procedimento do contraditório.";;;;;;;;;;;;;;;;10;;"Critério legal:
 [Lei 98/97], artº 70
 Prazo prescricional  da responsabilidade financeira reintegratória.
 Nota: A prescrição do procedimento interrompe-se com a citação do demandado em processo judicial.";Data de encerramento do processo;E;"Densidade informacional:
 Sintetizado em 500.10.001.02 - Realização de auditorias: elaboração do relatório final";;;;;;;;;;;;
+
 ;500.10.001.02;Realização de auditorias: elaboração do relatório final;Avaliação dos resultados da auditoria  e elaboração do relatório final.;;;;;;;;;;;;;;;;10;;"Critério legal:
 [Lei 98/97], artº 70
 Prazo prescricional  da responsabilidade financeira reintegratória.
 Nota: A prescrição do procedimento interrompe-se com a citação do demandado em processo judicial.";Data de encerramento do processo;C;"Densidade informacional:
 Informação que não se encontra sintetizada noutro processo.                                            ";;;;;;;;;;;;
+
 ;500.10.002;Fiscalização prévia do Tribunal de Contas;"Verificação da legalidade e do cabimento orçamental dos atos, contratos ou outros instrumentos geradores de despesa ou representativos de responsabilidades financeiras diretas ou indiretas e da observância dos limites e sublimites de endividamento e as respetivas finalidades, estabelecidas pela Assembleia da República.
 Inicia com o pedido de visto prévio e termina com a notificação da decisão final.
 Inclui verificação e análise dos contratos ou instrumentos submetidos à fiscalização e devolução dos documentos originais, quando devido, visto ou da declaração de conformidade.";;;Os processos de fiscalização concomitante e sucessiva devem ser considerados em 500.10.001 – Realização de auditorias#;"Lei 20/2015#
@@ -118,6 +126,7 @@ Nota: A prescrição do procedimento interrompe-se com a citação do demandado 
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.008 - Registo de documentos (casos tratados)";;;;;;;;;;;;
+
 ;"500.10.300
 ";Realização de inspeção;"Ação de controlo para verificação do cumprimento das obrigações legais, regulamentares e técnicas não decorrentes de permissão ou autorização.  
 Inicia com a preparação, programação e planeamento do procedimento de inspeção e termina com a comunicação / notificação do relatório final e respetivos anexos.
@@ -136,7 +145,7 @@ O procedimento de fiscalização deve ser considerado em 500.10.301 – Realiza�
 O procedimento de monitorização deve ser considerado em 500.10.600 – Monitorização sistemática da conformidade#
 O procedimento sancionatório na sequência do reconhecimento de ato ilícito e censurável que implique pagamento de coima deve ser considerado em 500.30.001 – Processamento de contraordenações#
 ";"DL 413/98#
-Despacho 189/2013#";;PC;S;ECI#;AP#;Comunicar#;"150.20.300#
+Regulamento 189/2013#";;PC;S;ECI#;AP#;Comunicar#;"150.20.300#
 500.10.001#
 500.30.001#
 500.30.002#
@@ -160,6 +169,7 @@ Sucessão (antecessor)#
 Sucessão (sucessor)#
 
 ";Elevada;S;;;;;;;;;;;;;;;;;;
+
 ;"500.10.300.01
 ";Realização de inspeção: Preparação e execução;"Desenvolvimento de todas as fases do processo de inspeção, com exceção da elaboração do relatório final.
 Inclui o planeamento da inspeção, a comunicação ao inspecionado, a recolha de elementos, a notificação das conclusões e  recomendações provisórias e as alegações produzidas no âmbito do procedimento do contraditório.";;;;;;;;;;;;;;;;10;;"Critério legal:
@@ -168,6 +178,7 @@ Prazo prescricional  da responsabilidade financeira reintegratória.
 Nota: A prescrição do procedimento interrompe-se com a citação do demandado em processo jurisdicional.
 Aplica-se complementarmente para os processos tributários - Critério legal - [DL 433/99], artº 27, nº 2.";Data de encerramento do processo;E;"Densidade informacional:
 Sintetizado em 500.10.300.02 - Realização de inspeção: elaboração do relatório final";;;;;;;;;;;;
+
 ;"500.10.300.02
 ";Realização de inspeção: elaboração do relatório final;Avaliação dos resultados da inspeção e elaboração do relatório final.;;;;;;;;;;;;;;;;10;;"Critério legal:
 [Lei 98/97], artº 70
@@ -175,6 +186,7 @@ Prazo prescricional  da responsabilidade financeira reintegratória.
 Nota: A prescrição do procedimento interrompe-se com a citação do demandado em processo jurisdicional.
 Aplica-se complementarmente para os processos tributários - Critério legal - [DL 433/99], artº 27, nº 2.";Data de encerramento do processo;C;"Densidade informacional:
 Informação que não se encontra sintetizada noutro processo.                                            ";;;;;;;;;;;;
+
 ;500.10.301;"Realização de fiscalização
 
 
@@ -306,6 +318,7 @@ Aplica-se complementarmente para os processos tributários - Critério legal - [
 
 Critério legal: [DL 433/99], CPPT, art 27º, n.º 2 ""Os arquivos [procedimentos administrativos e processos judiciais tributários instaurados] são obrigatoriamente mantidos durante 10 anos(...)"".";Data de encerramento do processo;E;"Densidade informacional:
 Informação sintetizada complementarmente em PN 150.20.300 - Avaliação de atividades (atuação da entidade) e em PN 300.30.008 - Registo de documentos (casos tratados).";;;;;;;;;;;;
+
 ;500.10.302;Realização de visitas técnicas;"Verificação das condições de funcionamento de sistemas, programas e de operações em bens móveis e imóveis da qual não pode decorrer a aplicação de contraordenações.
 Inicia com a seleção das entidades e termina com o envio do relatório da visita.
 Inclui a decisão de efetuar a visita, agendamento da visita e a análise ao cumprimento das boas práticas.
@@ -321,6 +334,7 @@ Nota: As occorrências que revelem inconformidades ou ilicitos são objeto de sa
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.008 - Registo de documentos (casos tratados)";;;;;;;;;;;;
+
 Harmonização;500.10.303;Controlo metrológico de instrumentos de medição;"Verificação da conformidade de um instrumento de medição, ou de um dispositivo complementar, com as normas ou outras especificações aplicáveis à sua categoria. 
 Inicia com a entrega do pedido e termina com a comunicação do resultado.
 Inclui realização e relato de ensaios, primeira verificação, verificação periódica, verificação extraordinária, elaboração do certificado de calibração ou do relatório de ensaio.
@@ -351,9 +365,10 @@ Informação sintetizada complementarmente em
 150.20.300 - Avaliação de atividades (atuação da entidade) 
 300.30.008 - Registo de documentos e informação (casos tratados).
 ";;;;;;;;;;;;
+
 ;500.10.600;Monitorização sistemática da conformidade;"Ação específica de acompanhamento de atividades, funções ou sistemas, tendo em vista, de uma forma concomitante ao seu respetivo desenvolvimento, identificar os aspetos que devam ser corrigidos ou aperfeiçoados.
 Inicia na sequência de planeamento ou por obrigação legal e termina com a elaboração do relatório ou registo de informação recolhida.
-Inclui a comunicação da ação de monitorização a efetuar e a receção das comunicações obrigatórias, quando devido.
+Inclui a comunicação da ação de monitorização a efetuar e a receção das comunicações obrigatórias, quando devido, bem como, nalguns casos, o registo do desaparecimento do objeto monitorizado, que origina o relatório final.
 ";"Comunicações obrigatórias por lei das entidades empregadoras#
 Relatórios de autocontrolo#
 Relatórios efetuados por força legal#
@@ -377,7 +392,7 @@ O procedimento de inspeção deve ser considerado em 500.10.300 – Realização
 O procedimento sancionatório na sequência do reconhecimento de ato ilícito e censurável que implique pagamento de coima deve ser considerado em 500.30.001 – Processamento de contraordenações#
 O acompanhamento de recomendações efetuado até ao encerramento dos processos inspetivos deve ser considerado respetivamente em 500.10.001 - Realização de auditoria, no que diz respeito às auditorias, 500.10.300 - Realização de inspeção, no que diz respeito às inspeções, 500.20.004 - Realização de investigação técnica a acidentes e incidentes, no que diz respeito à investigação#";"DL 102/2010#
 Despacho 3227/2010#
-DL 227-A/2007#";;PC;S;ECM#;AP#;Comunicar#;"150.20.300#
+DL 226-A/2007#";;PC;S;ECM#;AP#;Comunicar#;"150.20.300#
 300.30.008#
 ";"Avaliação de atividades#
 Registo de documentos e informação#
@@ -391,8 +406,10 @@ Nota: Nalguns casos o processo encerra  com o desaparecimento do objeto monitori
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.008 - Registo de documentos (casos tratados)";;;;;;;;;;;;
+
 ;500.20;Apuramento de responsabilidades técnicas e disciplinares;"Compreende as averiguações técnicas e disciplinares, em que se incluem o processo disciplinar comum e processos disciplinares especiais, tendo em vista a responsabilização.
 Compreende, igualmente, os designados ""processos de reabilitação"" (de pena disciplinar).";Trabalhadores, alunos e outras entidades sujeitas a ação disciplinar#;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;500.20.001;Realização de averiguações;"Apuramento dos factos que determinaram a avaliação de desempenho negativo do trabalhador e da eventual violação culposa de deveres funcionais no caso de infração disciplinar.
 Inicia com a participação do dirigente e termina com o relatório e decisão de arquivamento ou com a decisão de instauração de procedimento disciplinar.
 Inclui nomeação do averiguante, audição do trabalhador, dos avaliadores, quando devido, e de eventuais testemunhas e elaboração de relatório.";"Averiguações realizadas na sequência de avaliações negativas de desempenho#
@@ -420,6 +437,7 @@ Se houver matéria de facto dá origem a procedimento disciplinar.";Data de ence
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.008 - Registo de documentos (casos tratados)";;Grupo da classe 500;;;;;;;;;;
+
 ;500.20.002;Realização de inquérito;"Apuramento de factos determinados para verificação de existência de matéria disciplinar sobre serviços,  órgãos ou agentes.
 Inicia com a denúncia ou por decisão do dirigente e termina com a elaboração do relatório final e decisão.
 Inclui anúncio público de abertura de inquérito, notificação de queixoso e recolha de prova e declarações.";Processos instaurados aos auditores de justiça#;;;Lei 35/2014#;;PC;S;AP#;AP#;Comunicar#;"150.20.300#
@@ -488,6 +506,7 @@ Se houver matéria de facto dá origem a procedimento disciplinar.";Data de ence
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.008 - Registo de documentos (casos tratados)";;Grupo da classe 500;;;;;;;;;;
+
 ;500.20.003;Realização de sindicância;"Averiguração geral acerca do funcionamento do órgão, serviço ou unidade orgânica.
 Inicia com a decisão do membro do governo ou do dirigente méximo do serviço e inclui o anúncio público da sindicância e termina com a elaboração de relatório e decisão final.
 Inclui recolha de prova e declarações e análise de queixas.";;;;Lei 35/2014#;;PC;S;AP#;AP#;Comunicar#;"150.20.300#
@@ -552,6 +571,7 @@ Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de
 
 Nota: As occorrências que revelem inconformidades ou ilicitos são objeto de sanção administrativa ou de encaminhamento para investigação criminal, sendo suspensa a contagem do Prazo de conservação administrativa.";Data de encerramento do processo;E;"Densidade informacional:
 Informação sintetizada complementarmente em PN 150.20.300 - Avaliação de atividades (atuação da entidade) e em PN 300.30.008 - Registo de documentos (casos tratados).";;Grupo da classe 500;;;;;;;;;;
+
 Harmonização;500.20.004;"Realização de investigação técnica a acidentes e incidentes
 ";"Averiguração técnica/especializada às condições de anomalia, avaria, erro ou contingência em estruturas ou meios de transporte, equipamentos ou serviços, para identificar as causas ou fatores que concorreram para o acidente ou incidente.
 Inicia com a comunicação e termina com o relatório final.
@@ -567,7 +587,7 @@ GAMA#
 GPIAAF#
 ";"ANPC#
 CP#
-IP,SA#";"Assessorar#
+IP, SA#";"Assessorar#
 Assessorar#
 Assessorar#";"550.20.001
 800.10.603";"Emissão de avisos e declaração de alertas#
@@ -582,6 +602,7 @@ PN 500.10.301 - Realização de fiscalização (no que diz respeito à sua fisca
 Informação detalhada não recuperável noutros PN;
 Sintetiza a informação do PN 300.10.001 - Contratação de empreitadas de obras públicas
 Sintetiza a informação do PN 300.40.003 - Edificação de iniciativa pública.";Objetivo da proposta de novo PN: Autonomizar em código próprio esta tipologia de processos inspetivos contemplados no regime geral da atividade de inspeção.;;;;;;;;;;;
+
 Harmonização;500.20.004.01;Realização de investigação técnica a acidentes e incidentes: Execução do processo;"Desenvolvimento de todas as fases do processo com exceção da elaboração do relatório final.
 Inclui o planeamento dos processos, a comunicação ao inspecionado, a recolha de elementos, a notificação das conclusões e  recomendações provisórias e as alegações produzidas no âmbito do procedimento do contraditório.";;;;;;;;;;;;;;;;10;;"Critério legal:
 [Lei 98/97, artº 70]
@@ -589,6 +610,7 @@ Prazo prescricional  da responsabilidade financeira reintegratória.
 Nota: A prescrição do procedimento interrompe-se com a citação do demandado em processo jurisdicional.
 Aplica-se complementarmente para os processos tributários - Critério legal - [DL 433/99], artº 27, nº 2.";Data de encerramento do processo;E;"Densidade informacional:
 Sintetizado em 500.10.300.02";Garantir que as fases de execução das difrenetes tipologias de processos inspetivos ficam contempladas, preservando, em termos de destino final, os relatórios produzidos no âmbito desses processos.;;;;;;;;;;;
+
 Harmonização;500.20.004.02;Realização de investigação técnica a acidentes e incidentes: Elaboração do relatório final;Avaliação dos resultados dos processos e elaboração do relatório final.;;;;;;;;;;;;;;;;10;;"Critério legal:
 [Lei 98/97, artº 70]
 Prazo prescricional  da responsabilidade financeira reintegratória.
@@ -597,6 +619,7 @@ Aplica-se complementarmente para os processos tributários - Critério legal - [
 Informação detalhada não recuperável noutros PN;
 Sintetiza a informação do PN 300.10.001 - Contratação de empreitadas de obras públicas
 Sintetiza a informação do PN 300.40.003 - Edificação de iniciativa pública.";Garantir que as fases de execução das difernetes tipologias de processos inspetivos ficam contempladas, preservando, em termos de destino final, os relatórios produzidos no âmbito desses processos.;;;;;;;;;;;
+
 ;500.20.300;Procedimento disciplinar;"Averiguação de atos praticados por trabalhadores, alunos ou formandos e outros pessoas passíveis de serem considerados infrações disciplinares.
 Inicia com a participação ou queixa e termina com o relatório final e tomada de decisão.
 Inclui designação de instrutor, notificação do arguido, audição de testemunhas, eventual consulta do órgão representativo do infrator e apresentação de proposta de arquivamento ou sancionatória.
@@ -682,6 +705,7 @@ PN 150.20.403 - Caracterização de recursos humanos
 PN 250.20.001 - Registo biográfico de trabalhadores
 PN 650.20.604 - Processamento de dados cadastrais de utentes em respostas sociais de acolhimento
 PN 750.10.300 - Processamento dos dados cadastrais de alunos ou formandos   ";;Grupo da classe 500;;;;;;;;;;
+
 ;500.20.600;Reabilitação de infratores;"Concessão de reabilitação, por boa conduta, a trabalhadores punidos com quaisquer sanções disciplinares. 
 Inicia com o pedido do interessado, ou do seu representante, e termina com a decisão.
 Inclui apresentação de meios de prova.
@@ -699,7 +723,9 @@ Sucessão (antecessor)#";Média;S;1;;"Conjugação dos critérios:
 Informação síntese recuperável em
 PN 150.20.403 - Caracterização de recursos humanos
 PN 250.20.001 - Registo biográfico de trabalhadores";;;;;;;;;;;;
+
 ;500.30;Ação sancionatória e cautelar;Compreende as atividades de processamento de medidas cautelares e de sanções previstas na lei, decididas por autoridades administrativas no quadro de ações disciplinares ou de inspeção, auditoria ou similares.;Instrução de processos de embargo administrativo e de contraordenações (decididas por autoridades administrativas) ou de outras sanções administrativas, como seja a decisão de retenção de fundos por incumprimento ou falta de informação#;;"O processamento de penas e de medidas cautelares decididas por autoridades judiciais deve ser considerado em ""Administração da justiça/ Execução de penas, medidas e títulos executivos"" (600.40).";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;500.30.001;Processamento de contraordenações;"Procedimento sancionatório na sequência da prática de ato ilícito e censurável que implique pagamento de coima.
 Inicia com o auto de notícia ou denúncia de particular e termina com a notificação da decisão administrativa final.
 Inclui notificação, designação do instrutor, apresentação de defesa por parte do arguido com arrolamento de testemunhas, audição de testemunhas, análise de produção de prova, redação de ata, proposta de decisão final e comprovativo de pagamento.";"Contraordenações no âmbito do regime geral e dos regimes especiais#
@@ -806,6 +832,7 @@ Nota: As ocorrências que revelem inconformidades ou ilícitos são objeto de sa
 Informação síntese recuperável complementarmente em
 PN 150.20.300 - Avaliação de atividades
 PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão";;;;;;;;;;;;
+
 ;500.30.002;Aplicação de sanções administrativas inominadas;"Imposição de medidas punitivas a particulares pela violação de determinados deveres administrativos que não se consubstanciam na aplicação de coimas.
 Inicia com o auto de notícia e termina com a notificação da sanção ao interessado.
 Inclui análise da situação e definição da sanção a aplicar.";"Encerramento de estabelecimentos#
@@ -868,6 +895,7 @@ Nota: As ocorrências que revelem inconformidades ou ilícitos são objeto de sa
 Informação síntese recuperável complementarmente em
 PN 150.20.300 Avaliação de atividades
 PN 150.40.500 Recolha e tratamento de dados estatísticos de apoio à gestão";;;;;;;;;;;;
+
 ;500.30.003;Aplicação de sanções contratuais;"Imposição de sanções administrativas por incumprimento de obrigações contratuais no âmbito de contratos administrativos, designadamente empreitadas de obras públicas, aquisição de bens e serviços, concessões e outros contratos.
 Inicia com a verificação da ocorrência e termina com o cumprimento da sanção.
 Inclui verificação da existência de caução,  notificação ao concessionário ou adjudicatário.";;;;DL 18/2008#;Código dos Contratos públicos aprovado  pelo DL 18/2008;PC;N;AP#;;;"150.20.300#
@@ -917,6 +945,7 @@ Sucessão (antecessor#";Média;N;5;;"Critério Legal:
 Considerou-se o prazo maior para a prescrição da contraordenação.";Data de encerramento do processo;E;"Densidade informacional:
 Informação síntese recuperável no
 PN 150.20.300 - Avaliação de atividades";;;;;;;;;;;;
+
 ;500.30.004;Aplicação de sanções disciplinares;"Processamento de penas na sequência de procedimento disciplinar comum.
 Inicia com a decisão da pena a aplicar pelo órgão competente e termina com o cumprimento da sanção.
 Inclui notificação da pena ao arguido, ao instrutor e às entidades envolvidas, quando devido.";"Expulsão de alunos por excesso de faltas#
@@ -953,6 +982,7 @@ Conjugado com o critério de utilidade administrativa em que se estabeleceu 50 a
 Informação síntese recuperável em
 PN 150.20.403 - Caracterização de recursos humanos
 PN 250.20.001 - Registo biográfico do trabalhador";;;;;;;;;;;;
+
 ;500.30.005;Abandono voluntário do território nacional;"Aplicação de medida conducente ao abandono voluntário de Portugal por parte de cidadãos estrangeiros que tenham entrado e permanecido ilegalmente no país, e em relação aos quais não se tenha determinado detenção, ou cujas autorizações de residência tenham sido canceladas, e que sejam notificados para abandonar o território nacional no prazo fixado.
 Inicia com a notificação do visado e termina com a saída de território nacional do visado, ou com a abertura de processo de afastamento coercivo, nos casos em que o cidadão não abandone o território voluntariamente.
 Inclui apreciação da situação do visado e emissão de uma notificação para abandono voluntário.
@@ -992,8 +1022,9 @@ Necessidade para processamento de autorização de residência PN 550.10.303 - A
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.008 - Registo de documentos (casos tratados)";;;;;;;;;;;;
+
 ;500.30.006;Afastamento coercivo do território nacional;"Expulsão administrativa de cidadãos estrangeiros do país.
-Inicia com o despacho de instauração do processo e termina com a notificação do interessado da decisão de afastamento coercivo.
+Inicia com o despacho de instauração do processo e termina com a notificação do interessado da decisão sobre o afastamento coercivo.
 Inclui notificação para audição do visado, relatório com descrição e apreciação dos factos apurados, e proposta de resolução considerada adequada, e notificação da decisão de expulsão, podendo ainda incluir um pedido de readmissão ativa por parte de país, com o qual exista acordo ou convenção internacional de readmissão.
 ";"Afastamento coercivo de nacionais de Estado terceiro do território nacional#
 Readmissão ativa por parte de um Estado com o qual haja um acordo ou convenção internacional de readmissão#
@@ -1038,6 +1069,7 @@ Necessidade para processamento de autorização de residência PN 550.10.303 - A
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.008 - Registo de documentos (casos tratados)";;;;;;;;;;;;
+
 ;500.30.007;Condução à fronteira;"Operações relativas à condução à fronteira de cidadãos estrangeiros que tenham sido detidos, por autoridade judicial, por terem entrado e permanecido ilegalmente no país e que declarem em sede de interrogatório judicial querer abandonar o território nacional e cujos nomes serão registados no Sistema de Informação Schengen e na lista nacional de pessoas não admissíveis pelo período de um ano em que vigora a interdição de entrada.
 Inicia com o despacho de instauração do Processo de Condução à Fronteira e termina com a concretização do afastamento.
 Inclui notificação ao visado sobre a interdição de entrada de um ano, comunicação ao Tribunal responsável pela detenção e encerramento do processo.
@@ -1060,8 +1092,9 @@ Necessidade para controlo de fronteira e controlo de medidas de interdição de 
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
 PN 300.30.008 - Registo de documentos (casos tratados)";;;;;;;;;;;;
+
 ;500.30.500;Aplicação de medidas administrativas cautelares;"Prevenção ou afastamento de perigos gerados por comportamentos individuais contra o interesse público legalmente reconhecido, com o objetivo de repor a legalidade ou acautelar o resultado final de um procedimento em curso.
-Inicia com o requerimento ou denúncia do particular ou por iniciativa da entidade administrativa competente e termina com o cumprimento da medida.
+Inicia com o requerimento ou denúncia do particular ou por iniciativa da entidade administrativa competente e termina com o cumprimento da medida e reposição da legalidade.
 Inclui análise da situação e definição da medida cautelar a aplicar.";"Medidas tendo em vista a apreensão de bens, equipamentos, valores ou mercadorias#
 Encerramento preventivo de estabelecimentos#
 Medidas administrativas de polícia#
@@ -1128,11 +1161,13 @@ Considerou-se o prazo maior para a prescrição da contraordenação.";Data de r
 Informação síntese recuperável em
 PN 150.20.300 - Avaliação de atividade
 PN 400.10.406 - Registo predial";;;;;;;;;;;;
+
 ;500.40;Impugnação administrativa;Compreende as atividades de processamento das iniciativas de impugnação de atos da Administração, quando tais impugnações sejam apresentadas aos próprios serviços da Administração, sob a forma de recurso hierárquico e recurso tutelar.;"A utilizar sempre que é requerida, à competente entidade da Administração e/ou membro do Governo que a tutela, a anulação de um parecer ou decisão administrativa#
 Requerimentos apresentados por funcionários#
 Requerimentos apresentados por cidadãos ou empresas que sejam parte interessada num qualquer processo#";Recurso da avaliação de desempenho#;"As reclamações apresentadas no chamado ""livro amarelo"" devem ser consideradas em ""Administração da participação cívica/ Processamento de ações peticionárias, reclamações e manifestações de congratulação (950.20);
 A ""pronúncia"" em sede de audiência prévia que faz parte do procedimento de aquisição deve ser considerada em ""Administração de direitos, bens e serviços/ Aquisição, venda, abate ou permuta"" (300.10);
 Nos casos em que venha a verificar-se posterior evolução do caso para Tribunal (impugnação judicial de decisão administrativa), novo processo deve ser aberto em ""Administração da Justiça/ Produção de prova e decisão judicial"" (600.30).";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;500.40.001;Processamento de reclamações de atos administrativos;"Impugnação administrativa da prática ou omissão de atos, perante o seu próprio autor, a fim de obter a revogação, a anulação, a modificação, a substituição, a sanação ou declaração de nulidade dos atos reclamados ou recorridos.
 Inicia com o pedido e termina com a notificação da decisão ao interessado.
 Inclui a notificação aos contrainteressados, emissão de parecer do órgão recorrido e decisão da autoridade do recurso.";"Reclamação das matrizes prediais (rústicas e urbanas)#
@@ -1141,8 +1176,7 @@ Processos denominados administrativos, de avaliação  de procedimentos, resulta
 A produção de novos registos resultantes do processo de reclamação deve ser considerada nos respetivos processos#
 ";"DL 4/2015#
 DL 287/2003#
-DL 433/99#";;PC;N;AP#;;;"
-150.20.300#
+DL 433/99#";;PC;N;AP#;;;"150.20.300#
 300.30.008#
 250.10.103#
 400.10.406#
@@ -1163,8 +1197,7 @@ DL 433/99#";;PC;N;AP#;;;"
 600.30.558#
 600.30.560#
 600.30.561#
-";"Todos os PN suscetíveis de reclamação administrativa#
-Avaliação de atividades#
+";"Avaliação de atividades#
 Registo de documentos e informação#
 Seleção de candidatos para frequência de estágios profissionais e programas ocupacionais#
 Registo predial#
@@ -1186,8 +1219,7 @@ Intimação para um comportamento (tributário)#
 Derrogação do sigilo bancário#
 Ação para reconhecimento de um direito ou interesse legítimo em matéria tributária#
 
-";"Sucessão (sucessor)#
-Síntese (sintetizado)#
+";"Síntese (sintetizado)#
 Síntese (sintetizado)#
 Cruzada#
 Sucessão (sucessor)#
@@ -1215,12 +1247,12 @@ Nota: O prazo de conservação adminsitrativa suspende-se, caso existam processo
 Aplica-se complementarmente para os processos tributários o [DL 433/99], art. 27, nº 2.";Data de encerramento do processo;E;"Densidade informacional:
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
-PN 300.30.008 - Registo de documentos (casos tratados)";;;;;;;;;;;;
+PN 300.30.008 - Registo de documentos (casos tratados)";;Relação de Sucessão (sucessor) com todos os PN suscetíveis de reclamação administrativa#;;;;;;;;;;
+
 ;500.40.500;Processamento de recursos hierárquicos;"Impugnação administrativa, dirigida ao mais elevado superior hierárquico do autor do ato ou da omissão, ou ainda, apresentado ao autor do ato ou da omissão ou à autoridade a quem seja dirigido, que neste caso, o remete ao primeiro, a fim de obter a revogação, a anulação, a modificação ou a substituição.
 Inicia com o pedido e termina com a notificação da decisão ao recorrente / interessado.
-Inclui notificação aos contrainteressados, elaboração de informação e emissão de parecer do órgão recorrido (que pode alterar a decisão anteriormente proferida), notificação para o exercício do direito de audição, quando o pedido é objeto de indeferimento total ou parcial, as alegações efetuadas e a decisão final (despacho) da autoridade do recurso.";Rcursos hierárquicos, independentemente da matéria objeto de recurso#;;;"DL 4/2015#
-";;PC;S;AP#;AP#;Decidir#;"
-150.20.300#
+Inclui notificação aos contrainteressados, elaboração de informação e emissão de parecer do órgão recorrido (que pode alterar a decisão anteriormente proferida), notificação para o exercício do direito de audição, quando o pedido é objeto de indeferimento total ou parcial, as alegações efetuadas e a decisão final (despacho) da autoridade do recurso.";Recursos hierárquicos, independentemente da matéria objeto de recurso#;;;"DL 4/2015#
+";;PC;S;AP#;AP#;Decidir#;"150.20.300#
 250.10.100#
 250.10.101#
 300.30.008#
@@ -1250,8 +1282,7 @@ Inclui notificação aos contrainteressados, elaboração de informação e emis
 600.30.558#
 600.30.560#
 600.30.561#
-";"Todos os PN suscetíveis de recurso hierárquico#
-Avaliação de atividades#
+";"Avaliação de atividades#
 Procedimento concursal para preenchimento de cargos de direção (superior e intermédia)#
 Procedimento concursal para preenchimento de postos de trabalho#
 Registo de documentos e informação#
@@ -1281,8 +1312,7 @@ Intimação administrativa para a proteção de direitos, liberdades e garantias
 Intimação para um comportamento (tributário)#
 Derrogação do sigilo bancário#
 Ação para reconhecimento de um direito ou interesse legítimo em matéria tributária#
-";"Sucessão (antecessor)#
-Síntese (sintetizado)#
+";"Síntese (sintetizado)#
 Cruzada#
 Cruzada#
 Síntese (sintetizado)#
@@ -1319,21 +1349,19 @@ Nota: O prazo de conservação adminsitrativa suspende-se, caso existam processo
 Aplica-se complementarmente para os processos tributários o [DL 433/99], art. 27, nº 2.";Data de encerramento do processo;E;"Densidade informacional:
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
-PN 300.30.008 - Registo de documentos (casos tratados)";;;;;;;;;;;;
+PN 300.30.008 - Registo de documentos (casos tratados)";;Relação de Sucessão (sucessor) com todos os PN suscetíveis de recurso hierárquico#;;;;;;;;;;
+
 ;500.40.501;Processamento de recursos administrativos especiais;"Impugnação interposta para um orgão da mesma pessoa coletiva que exerça poderes de supervisão, para um orgão colegial, de atos ou omissões de qualquer dos seus membros, comissões ou secções, para um orgão de outra pessoa coletiva que exerça poderes de tutela ou superintendência, ou ainda, por expressa disposição legal, para o delegante ou subdelegante dos atos praticados pelo delegado ou subdelegado, a fim de obter a sua revogação ou substituição.
 Inicia com o pedido e termina com a notificação da decisão ao recorrente.
 Inclui notificação aos contrainteressados, elaboração de informação e emissão de parecer do orgão recorrido (que pode alterar a decisão anteriormente proferida), e decisão da autoridade do recurso.
 ";;;Os recursos hierárquicos devem ser considerados em 500#40#500 – Processamento de recursos hierárquicos#;"DL 4/2015#
-";;PC;S;AP#;AP#;Decidir#;"
-150.20.300#
+";;PC;S;AP#;AP#;Decidir#;"150.20.300#
 300.30.008#
 500.30.500#
-600.30.551#";"Todos os PN susceptíveis de recurso administrativo especial#
-Avaliação de atividades#
+600.30.551#";"Avaliação de atividades#
 Registo de documentos e informação#
 Aplicação de medidas administrativas cautelares#
-Impugnação judicial tributária#";"Sucessão (antecessor)#
-Síntese (sintetizado)#
+Impugnação judicial tributária#";"Síntese (sintetizado)#
 Síntese (sintetizado)#
 Sucessão (sucessor)#
 Sucessão (sucessor)#";Média;S;10;;"Critério legal:
@@ -1343,971 +1371,1938 @@ Nota: O prazo de conservação adminsitrativa suspende-se, caso existam processo
 Aplica-se complementarmente para os processos tributários o [DL 433/99], art. 27, nº 2.";Data de encerramento do processo;E;"Densidade informacional:
 Informação sintetizada complementarmente em
 PN 150.20.300 - Avaliação de atividades (atuação da entidade)
-PN 300.30.008 - Registo de documentos (casos tratados)";;;;;;;;;;;;
+PN 300.30.008 - Registo de documentos (casos tratados)";;Relação de Sucessão (sucessor) com todos os PN susceptíveis de recurso administrativo especial#;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

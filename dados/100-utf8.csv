@@ -43,10 +43,10 @@ Código Civil#
 Regime de acesso à informação administrativa e ambiental e de reutilização dos documentos administrativos#";"Os procedimentos administrativos, trabalhos preparatórios ou elaboração de estudos preliminares, por exemplo quando a regulamentação seja necessária para dar forma legal a instrumentos de planeamento, devem ser considerados em “Planeamento e gestão estratégica / Definição e avaliação de políticas” (150.10)#
 O impulso legiferante, quando reveste a forma de petição pública sem apresentação de projeto de lei, deve ser considerado em 950.20.001 – Processamento de petições, reclamações e sugestões#";"Lei Constitucional 1/2005#
 RCM 51/2013#
-RCM 23/2015#
+RCM 23/2016#
 Lei 43/2014#
 Lei 4/98#";"Lei Constitucional 1/2005 (Constituição da República Portuguesa)#
-RCM 51/2013, alterada pela RCM 23/2015#
+RCM 51/2013, alterada pela RCM 23/2016#
 Lei 43/2014, quarta alteração (e republicação) da Lei 4/98#";PC;S;"AR#
 ALR#
 Gov#";"CEJUR#
@@ -115,10 +115,10 @@ Depósito de diploma em entidade designada para efeitos da vinculação do Estad
 
  ";;Os trabalhos relativos à celebração das convenções internacionais (preparação, compromisso entre as partes, assinatura) devem ser considerados em 200.10.800 – Celebração de acordos e outros atos internacionais#;"Lei Constitucional 1/2005#
 RCM 51/2013#
-RCM 23/2015#
+RCM 23/2016#
 Lei 43/2014#
 Lei 4/98#";"Lei Constitucional 1/2005 (Constituição da República Portuguesa)#
-RCM 51/2013, alterada pela RCM 23/2015#
+RCM 51/2013, alterada pela RCM 23/2016#
 Lei 43/2014, quarta alteração (e republicação) da Lei 4/98#";PE;S;"AR#
 Gov#";"SGPCM#
 PR#
@@ -186,10 +186,10 @@ Decreto Regulamentar que classifica como monumento natural as Portas de Rodão#"
 Os regulamentos de funcionamento dos serviços devem ser considerados em 100.10.600 – Produção e comunicação de regras institucionais#
 Os procedimentos administrativos, trabalhos preparatórios ou elaboração de estudos preliminares, por exemplo quando a regulamentação seja necessária para dar forma legal a instrumentos de planeamento, devem ser considerados em “Planeamento e gestão estratégica / Elaboração de diplomas jurídico-normativos e de normas técnicas” (150.10)#";"Lei Constitucional 1/2005#
 RCM 51/2013#
-RCM 23/2015#
+RCM 23/2016#
 Lei 43/2014#
 Lei 4/98#";"Lei Constitucional 1/2005 (Constituição da República Portuguesa)#
-RCM 51/2013, alterada pela RCM 23/2015#
+RCM 51/2013, alterada pela RCM 23/2016#
 Lei 43/2014, quarta alteração (e republicação) da Lei 4/98#";PC;S;"Gov#
 GovReg#";"CEJUR#
 SGPCM#
@@ -357,7 +357,7 @@ Síntese (sintetiza)#
 Sucessão (antecessor)#
 Complementar#
 Complementar#
-Sucessão (antecessor)";Elevada;S;5;;"Critério Gestionário:
+Sucessão (antecessor)#";Elevada;S;5;;"Critério Gestionário:
 Prazo para imputação de responsabilidade pela gestão estratégica, decorrente de escrutínio público (eleições).
 Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.";Data de encerramento do processo;C;"Complementaridade informacional:
 É complementar dos
@@ -389,7 +389,7 @@ Reunião de órgãos executivos#
 Edição e publicação de conteúdos#";"Sucessão (antecessor)#
 Cruzada#
 Cruzada#
-Sucessão (antecessor)";Média;S;5;;"Critério Legal:
+Sucessão (antecessor)#";Média;S;5;;"Critério Legal:
 Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27)
 
 Os intervenientes na elaboração da norma podem ser objeto de sanções, caso este apresente incorreções que ponham em causa a sua boa aplicação.";Revisão ou anulação do documento normativo.;C;"Densidade informacional:
@@ -402,7 +402,7 @@ Compreende, igualmente, os acórdãos de uniformização de jurisprudência emit
 Inicia com o pedido e termina com a entrega do parecer técnico-jurídico.
 Inclui trabalhos de consulta de elementos e fundamentação do parecer.";"Produção de pareceres emitidos pelas entidades reguladoras para esclarecimento do sentido da lei#
 Emissão de informações vinculativas#";;Os pareceres elaborados no âmbito de processos específicos relativos ao apoio à decisão individual e concreta devem ser considerados nos respetivos processos#;"DL 47344/66#
-DL 433/1999#
+DL 433/99#
 DL 398/98#
 Lei 30/2017#
 Portaria 972/2009#";"Código Civil, na versão do DL 47344/66, de 25 de novembro.
@@ -457,13 +457,12 @@ Lei 41/2013#";"Código de Processo Penal, na versão do DL 78/87, de 17 de Fever
 Código do Processo Civil na versão do Lei 41/2013, de 26 de junho#";PC;S;"STA#
 STJ#";"Trb#
 AP#";"Apreciar#
-Iniciar#";"600.30
-";Produção de prova e decisão judicial#;Sucessão (sucessor)#;Média;S;4;;"Critério Legal:
+Iniciar#";;;;Média;S;4;;"Critério Legal:
 [Lei 21/85], Estatuto dos Magistrados Judiciais, artº 36, nº 1
 [Deliberação do Conselho Superior de Magistratura 55/2003], Regulamento das Inspecções Judiciais, artº 5, revista pela [Deliberação do Conselho Superior de Magistratura 1868/2012].
 
 Periodicidade das inspeções.";Data em que forem considerados findos para efeitos de arquivo, isto é, decorridos 3 meses após o trânsito em julgado da decisão final. (Alínea a), do artº 142, da [Lei 62/2013]).;C;"Densidade informacional:
-Não é recuperável noutro PN";este PN poderá estar relacionado com todos os processos da subfunção 600.30
+Não é recuperável noutro PN";este PN poderá estar relacionado com todos os processos da subfunção 600.30 - Sucessão (sucessor)
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;
