@@ -27,7 +27,8 @@
 
 ###  http://jcr.di.uminho.pt/m51-clav#eCruzadoCom
 :eCruzadoCom rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf :temRelProc .
+             rdfs:subPropertyOf :temRelProc ;
+             rdf:type owl:SymmetricProperty .
 
 
 ###  http://jcr.di.uminho.pt/m51-clav#eDonoProcesso
@@ -460,6 +461,26 @@
 
 ###  http://jcr.di.uminho.pt/m51-clav#RelacaoPesada
 :RelacaoPesada rdf:type owl:Class .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#TS_Classe_N1
+:TS_Classe_N1 rdf:type owl:Class ;
+              rdfs:subClassOf :TabelaSelecao .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#TS_Classe_N2
+:TS_Classe_N2 rdf:type owl:Class ;
+              rdfs:subClassOf :TS_Classe_N1 .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#TS_Classe_N3
+:TS_Classe_N3 rdf:type owl:Class ;
+              rdfs:subClassOf :TS_Classe_N2 .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#TS_Classe_N4
+:TS_Classe_N4 rdf:type owl:Class ;
+              rdfs:subClassOf :TS_Classe_N3 .
 
 
 ###  http://jcr.di.uminho.pt/m51-clav#TabelaSelecao
