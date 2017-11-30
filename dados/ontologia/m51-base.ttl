@@ -129,6 +129,13 @@
                       owl:inverseOf :temParticipanteIniciador .
 
 
+###  http://jcr.di.uminho.pt/m51-clav#pertenceConjOrg
+:pertenceConjOrg rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :temOrg ;
+                 rdfs:domain :Organizacao ;
+                 rdfs:range :ConjuntoOrganizacoes .
+
+
 ###  http://jcr.di.uminho.pt/m51-clav#pertenceLC
 :pertenceLC rdf:type owl:ObjectProperty ;
             owl:inverseOf :temClasseTopo .
@@ -142,8 +149,14 @@
                                         :Classe_N3
                                         :Classe_N4
                                       )
-                        ] ;
-            rdfs:range :TabelaSelecao .
+                        ] .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#pertenceTipologiaOrg
+:pertenceTipologiaOrg rdf:type owl:ObjectProperty ;
+                      owl:inverseOf :temOrg ;
+                      rdfs:domain :Organizacao ;
+                      rdfs:range :TipologiaOrganizacao .
 
 
 ###  http://jcr.di.uminho.pt/m51-clav#sujeito
@@ -153,7 +166,7 @@
 
 ###  http://jcr.di.uminho.pt/m51-clav#temClasseTopo
 :temClasseTopo rdf:type owl:ObjectProperty ;
-               rdfs:domain :ListaConsolidada ;
+               rdfs:domain :ReferencialClassificativo ;
                rdfs:range :Classe_N1 .
 
 
@@ -192,6 +205,10 @@
                                            )
                              ] ;
                  rdfs:range :NotaExclusao .
+
+
+###  http://jcr.di.uminho.pt/m51-clav#temOrg
+:temOrg rdf:type owl:ObjectProperty .
 
 
 ###  http://jcr.di.uminho.pt/m51-clav#temPai
@@ -302,7 +319,7 @@
                                        :Classe_N2
                                        :Classe_N3
                                        :Classe_N4
-                                       :ListaConsolidada
+                                       :ReferencialClassificativo
                                      )
                        ] ;
            rdfs:range xsd:string .
@@ -310,7 +327,6 @@
 
 ###  http://jcr.di.uminho.pt/m51-clav#designacao
 :designacao rdf:type owl:DatatypeProperty ;
-            rdfs:domain :TabelaSelecao ;
             rdfs:range xsd:string .
 
 
@@ -394,7 +410,7 @@
                                     :Classe_N2
                                     :Classe_N3
                                     :Classe_N4
-                                    :ListaConsolidada
+                                    :ReferencialClassificativo
                                   )
                     ] ;
         rdfs:range xsd:string .
@@ -410,7 +426,7 @@
 
 ###  http://jcr.di.uminho.pt/m51-clav#Classe_N1
 :Classe_N1 rdf:type owl:Class ;
-           rdfs:subClassOf :ListaConsolidada ;
+           rdfs:subClassOf :ReferencialClassificativo ;
            rdfs:comment "As classes de nível 1 coorespondem a Funções"^^xsd:string .
 
 
@@ -432,6 +448,10 @@
            rdfs:comment "As classes de nível 4 correspondem a subdivisões dos processos de negócio"^^xsd:string .
 
 
+###  http://jcr.di.uminho.pt/m51-clav#ConjuntoOrganizacoes
+:ConjuntoOrganizacoes rdf:type owl:Class .
+
+
 ###  http://jcr.di.uminho.pt/m51-clav#ExemploNotaAplicacao
 :ExemploNotaAplicacao rdf:type owl:Class ;
                       rdfs:subClassOf :AtributoComposto .
@@ -439,10 +459,6 @@
 
 ###  http://jcr.di.uminho.pt/m51-clav#Legislacao
 :Legislacao rdf:type owl:Class .
-
-
-###  http://jcr.di.uminho.pt/m51-clav#ListaConsolidada
-:ListaConsolidada rdf:type owl:Class .
 
 
 ###  http://jcr.di.uminho.pt/m51-clav#NotaAplicacao
@@ -459,32 +475,12 @@
 :Organizacao rdf:type owl:Class .
 
 
+###  http://jcr.di.uminho.pt/m51-clav#ReferencialClassificativo
+:ReferencialClassificativo rdf:type owl:Class .
+
+
 ###  http://jcr.di.uminho.pt/m51-clav#RelacaoPesada
 :RelacaoPesada rdf:type owl:Class .
-
-
-###  http://jcr.di.uminho.pt/m51-clav#TS_Classe_N1
-:TS_Classe_N1 rdf:type owl:Class ;
-              rdfs:subClassOf :TabelaSelecao .
-
-
-###  http://jcr.di.uminho.pt/m51-clav#TS_Classe_N2
-:TS_Classe_N2 rdf:type owl:Class ;
-              rdfs:subClassOf :TS_Classe_N1 .
-
-
-###  http://jcr.di.uminho.pt/m51-clav#TS_Classe_N3
-:TS_Classe_N3 rdf:type owl:Class ;
-              rdfs:subClassOf :TS_Classe_N2 .
-
-
-###  http://jcr.di.uminho.pt/m51-clav#TS_Classe_N4
-:TS_Classe_N4 rdf:type owl:Class ;
-              rdfs:subClassOf :TS_Classe_N3 .
-
-
-###  http://jcr.di.uminho.pt/m51-clav#TabelaSelecao
-:TabelaSelecao rdf:type owl:Class .
 
 
 ###  http://jcr.di.uminho.pt/m51-clav#TermoIndice
@@ -495,13 +491,17 @@
 :TesteClasse rdf:type owl:Class .
 
 
+###  http://jcr.di.uminho.pt/m51-clav#TipologiaOrganizacao
+:TipologiaOrganizacao rdf:type owl:Class .
+
+
 #################################################################
 #    Individuals
 #################################################################
 
 ###  http://jcr.di.uminho.pt/m51-clav#lc1
 :lc1 rdf:type owl:NamedIndividual ,
-              :ListaConsolidada ;
+              :ReferencialClassificativo ;
      :titulo "Lista Consolidada" .
 
 
