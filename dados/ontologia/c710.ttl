@@ -1,14 +1,4 @@
 ### Classe710
-###  http://jcr.di.uminho.pt/m51-clav#ne_c710_1
-:ne_c710_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A contratualização e controlo da concessão de serviços públicos, bem como a constituição de parcerias público-privadas para a prestação dos serviços, devem ser consideradas em \"Administração de direitos, bens e serviços/ Concessão e Parceria Público-Privada\" (300.20);".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c710_1
-:na_c710_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Situações em que estes serviços sejam efetivamente prestados por entidades públicas.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c710_2
 :ne_c710_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -18,6 +8,16 @@
 :ne_c710_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "As ações de promoção da higiene e salubridade públicas que se revistam da forma de campanhas de sensibilização e educação sanitária devem ser consideradas em \"Dinamização e comunicação institucional/ Execução de atividades de dinamização da sociedade\" (900.10);".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c710_1
+:na_c710_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Situações em que estes serviços sejam efetivamente prestados por entidades públicas.".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c710_1
+:ne_c710_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A contratualização e controlo da concessão de serviços públicos, bem como a constituição de parcerias público-privadas para a prestação dos serviços, devem ser consideradas em \"Administração de direitos, bens e serviços/ Concessão e Parceria Público-Privada\" (300.20);".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c710_4
 :ne_c710_4 rdf:type owl:NamedIndividual ,
@@ -123,6 +123,11 @@ Compreende, igualmente, o controlo de pragas, a recolha, tratamento e encaminham
 	:NotaAplicacao ;
 	:conteudo "Limpeza de terrenos".
 
+###  http://jcr.di.uminho.pt/m51-clav#ne_c710.10.001_2
+:ne_c710.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A desobstrução de equipamentos sanitários privados como as fossas sépticas deve ser considerada em 710.10.003 – Recolha e drenagem de águas residuais".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.001_8
 :na_c710.10.001_8 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -132,11 +137,6 @@ Compreende, igualmente, o controlo de pragas, a recolha, tratamento e encaminham
 :ne_c710.10.001_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A recolha de resíduos deve ser considerada em 710.10.002 – Recolha de resíduos".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c710.10.001_2
-:ne_c710.10.001_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A desobstrução de equipamentos sanitários privados como as fossas sépticas deve ser considerada em 710.10.003 – Recolha e drenagem de águas residuais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c710.10.001
 :c710.10.001 rdf:type owl:NamedIndividual ,
@@ -168,15 +168,15 @@ Compreende, igualmente, o controlo de pragas, a recolha, tratamento e encaminham
 	:descricao "Prestação de serviços no âmbito da regular manutenção e conservação da limpeza no espaço público.
 Inicia na sequência do planeamento e calendarização definidos ou por pedido de particulares e termina com o comprovativo dos trabalhos executados ou com a resposta aos requerentes.
 Inclui operacionalização e registo de ocorrências.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.002_1
-:na_c710.10.002_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Recolha de monstros".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.002_2
 :na_c710.10.002_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Recolha de resíduos animais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.002_1
+:na_c710.10.002_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Recolha de monstros".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.002_3
 :na_c710.10.002_3 rdf:type owl:NamedIndividual ,
@@ -303,35 +303,35 @@ Inclui recolha, transporte e depósito dos resíduos em lugar apropriado e regis
 	:NotaAplicacao ;
 	:conteudo "Drenagem de efluentes agrícolas".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.003_6
-:na_c710.10.003_6 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Drenagem de efluentes industriais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c710.10.003_1
 :ne_c710.10.003_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A limpeza, desobstrução e reparação de coletores, ramais de ligação e fossas sépticas públicas devem ser consideradas em 300.40.503 – Conservação e valorização de edifícios, infraestruturas e equipamentos públicos".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c710.10.003_2
-:ne_c710.10.003_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Os pagamentos devem ser classificados em 350.30.001 – Cobrança de receitas e pagamento de despesas".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c710.10.003_3
-:ne_c710.10.003_3 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O tratamento de efluentes e lamas deve ser considerado em 710.10.005 – Tratamento e rejeição de águas residuais".
+###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.003_6
+:na_c710.10.003_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Drenagem de efluentes industriais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c710.10.003_4
 :ne_c710.10.003_4 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A recolha de dados sobre o saneamento de águas residuais deve ser considerada em 800.10.303 – Monitorização do abastecimento e distribuição de água e do saneamento de águas residuais".
 
+###  http://jcr.di.uminho.pt/m51-clav#ne_c710.10.003_2
+:ne_c710.10.003_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pagamentos devem ser classificados em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c710.10.003_5
 :ne_c710.10.003_5 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A aquisição de serviços deve ser considerada em 300.10.005 Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c710.10.003_3
+:ne_c710.10.003_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O tratamento de efluentes e lamas deve ser considerado em 710.10.005 – Tratamento e rejeição de águas residuais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c710.10.003
 :c710.10.003 rdf:type owl:NamedIndividual ,
@@ -374,15 +374,15 @@ Inclui operacionalização e comprovativo de pagamento, quando devido.".
 	:NotaAplicacao ;
 	:conteudo "Tratamento de resíduos animais".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.004_2
-:na_c710.10.004_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Tratamento de resíduos hospitalares".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.004_3
 :na_c710.10.004_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Tratamento de resíduos indiferenciados".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.004_2
+:na_c710.10.004_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Tratamento de resíduos hospitalares".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.004_4
 :na_c710.10.004_4 rdf:type owl:NamedIndividual ,
@@ -514,15 +514,15 @@ Inclui registo de ocorrências, operacionalização, cálculo e comprovativo de 
 Inicia com a receção das águas residuais e termina com a sua reutilização ou rejeição em meio recetor.
 Inclui operações de valorização ou rejeição das lamas resultantes.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.300_1
-:na_c710.10.300_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Captura de animais domésticos silvestres e assilvestrados".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.300_2
 :na_c710.10.300_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Captura de animais em espaços particulares a pedido de interessados".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.300_1
+:na_c710.10.300_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Captura de animais domésticos silvestres e assilvestrados".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c710.10.300_3
 :na_c710.10.300_3 rdf:type owl:NamedIndividual ,
@@ -822,15 +822,15 @@ Inclui identificação de cadáver, ossadas, cinzas e de óbito, análise do ped
 	:descricao "Saída de cinzas inumadas em qualquer construção funerária, salvo cendrário.
 Inicia com o pedido e termina com a entrega das cinzas.
 Inclui verificação dos elementos instrutórios e dos requisitos legais.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c710.20.003_1
-:na_c710.20.003_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Identificação de restos mortais em compartimentos municipais por falta de pagamento".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c710.20.003_2
 :na_c710.20.003_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Identificação de restos mortais em jazigos particulares e sepulturas perpétuas na sequência de prescrição ou renúncia da concessão".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c710.20.003_1
+:na_c710.20.003_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Identificação de restos mortais em compartimentos municipais por falta de pagamento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c710.20.003_3
 :na_c710.20.003_3 rdf:type owl:NamedIndividual ,

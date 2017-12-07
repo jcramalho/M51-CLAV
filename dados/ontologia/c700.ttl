@@ -1,18 +1,18 @@
 ### Classe700
-###  http://jcr.di.uminho.pt/m51-clav#ne_c700_2
-:ne_c700_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "As ações de promoção da saúde e/ou prevenção de doenças que se revistam da forma de campanhas de divulgação e informação, devem ser consideradas em \"Dinamização e comunicação institucional/ Execução de atividades de dinamização da sociedade\" (900.10);".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700_1
+:na_c700_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atos clínicos realizados no quadro da promoção da saúde  (rastreio, vacinação, consulta do viajante, etc.).".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c700_1
 :ne_c700_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A constituição de redes de referenciação dos serviços e unidades de prestação de serviços de saúde (primária e secundária) deve ser considerada em \"Planeamento e gestão estratégica/ Planeamento, avaliação e melhoria de serviços\" (150.20);".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c700_1
-:na_c700_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Atos clínicos realizados no quadro da promoção da saúde  (rastreio, vacinação, consulta do viajante, etc.).".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700_2
+:ne_c700_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As ações de promoção da saúde e/ou prevenção de doenças que se revistam da forma de campanhas de divulgação e informação, devem ser consideradas em \"Dinamização e comunicação institucional/ Execução de atividades de dinamização da sociedade\" (900.10);".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c700_3
 :ne_c700_3 rdf:type owl:NamedIndividual ,
@@ -23,6 +23,16 @@
 :ne_c700_4 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "Os serviços de assistência religiosa e/ou de assistência social ou psicossocial orientados à (re)integração social do utente dos serviços de saúde devem ser considerados em \"Prestação de serviços de proteção e inclusão social/ Serviços e equipamentos sociais\" (650.20).".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_1
+:na_c700.10_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Referenciação dos doentes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_2
+:na_c700.10_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Organização do transporte de doentes".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c700
 :c700 rdf:type owl:NamedIndividual ,
@@ -37,16 +47,6 @@
 	:temNotaExclusao :ne_c700_4 ;
 	:classeStatus "A" ;
 	:descricao "Relativo à prestação de cuidados preventivos, curativos ou continuados, assegurada em unidades do Serviço Nacional de Saúde, em contexto laboral (saúde ocupacional), em clinicas, nas escolas, em prisões ou em qualquer outro contexto onde sejam praticados atos clínicos para humanos ou animais.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_1
-:na_c700.10_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Referenciação dos doentes".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_2
-:na_c700.10_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Organização do transporte de doentes".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_3
 :na_c700.10_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -108,8 +108,12 @@
 	:temPai :c700.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteDecisor :org_ARS ;
-	:temParticipanteDecisor :org_ACSS ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
+	:temParticipanteComunicador :org_ACSS ;
 	:temParticipanteComunicador :org_AL ;
 	:temParticipanteComunicador :org_ACES ;
 	:temParticipanteComunicador :org_SMT ;
@@ -142,8 +146,8 @@
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Inscrição e monitorização das inscrições de utentes que aguardam a realização de consulta numa unidade de saúde.
-Inicia com a inscrição na consulta e termina com a notificação ao utente do agendamento da consulta.
-Inclui identificação do utente, avaliação clinica da necessidade da consulta, verificação de disponibilidade e marcação de consulta.".
+Inicia com a inscrição na consulta e termina com a confirmação da realização da consulta ou cancelamento do registo.
+Inclui identificação do utente, avaliação clinica da necessidade da consulta, verificação de disponibilidade e marcação de consulta, notificação ao utente do agendamento da consulta.".
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c700.10.002_1
 :ne_c700.10.002_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -157,7 +161,11 @@ Inclui identificação do utente, avaliação clinica da necessidade da consulta
 	:temPai :c700.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteComunicador :org_ARS ;
+	:temParticipanteComunicador :org_ARS-N ;
+	:temParticipanteComunicador :org_ARS-C ;
+	:temParticipanteComunicador :org_ARS-LVT ;
+	:temParticipanteComunicador :org_ARS-Aln ;
+	:temParticipanteComunicador :org_ARS-Alg ;
 	:temParticipanteDecisor :org_ACES ;
 	:temDono :org_UPCS ;
 	:temNotaExclusao :ne_c700.10.002_1 ;
@@ -191,7 +199,7 @@ Inclui identificação do utente, avaliação clinica da necessidade da consulta
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Informação decorrente de um conjunto de intervenções sequenciais integradas de saúde e apoio social em sequência de uma avaliação conjunta que visa promover a autonomia melhorando a funcionalidade do utente em situação de dependência, através da sua reabilitação, readaptação e reinserção familiar e social.
-Inicia com a avaliação da necessidade de cuidados continuados e preparação da alta hospitalar em articulação com outros serviços e termina com a decisão e respetiva notificação sobre a proposta de referenciação.
+Inicia com a avaliação da necessidade de cuidados continuados e preparação da alta hospitalar em articulação com outros serviços e termina com a confirmação do ingresso ou a anulação do registo.
 Inclui as atividades necessárias à execução do processo de referenciação de acordo com os interesses dos utentes e os recursos disponíveis na comunidade, nomeadamente, a nota de alta, os pareceres das equipas de gestão de altas, o envio dos processos de ingresso e de admissão para as unidades prestadoras. Inclui ainda, o consentimento informado e o termo de aceitação de internamento.
 
 ".
@@ -203,7 +211,11 @@ Inclui as atividades necessárias à execução do processo de referenciação d
 	:temPai :c700.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteComunicador :org_ARS ;
+	:temParticipanteComunicador :org_ARS-N ;
+	:temParticipanteComunicador :org_ARS-C ;
+	:temParticipanteComunicador :org_ARS-LVT ;
+	:temParticipanteComunicador :org_ARS-Aln ;
+	:temParticipanteComunicador :org_ARS-Alg ;
 	:temParticipanteDecisor :org_ACSS ;
 	:temParticipanteComunicador :org_HH ;
 	:temDono :org_UPCS ;
@@ -228,7 +240,7 @@ Inclui as atividades necessárias à execução do processo de referenciação d
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Informação decorrente de um conjunto de procedimentos de encaminhamento de utentes para realização de cirurgias.
-Inicia com a referenciação do médico de familia que encaminha o utente para consulta de especialidade ou na sequência de atendimemnto de urgencia na unidade hospitalar e termina com a inscrição do utente na lista de inscritos para cirurgia e respetiva notificação ao interessado. 
+Inicia com a referenciação do médico de familia que encaminha o utente para consulta de especialidade ou na sequência de atendimemnto de urgencia na unidade hospitalar e termina com a confirmação da realização da cirurgia ou cancelamento do registo. 
 Incluí inscrição dos utentes através da plataforma para a gestão de inscritos para cirurgia e referenciação para outras unidades do setor público ou setor privado ou social através da emissão de um cheque cirúrgico.
 
 ".
@@ -318,7 +330,7 @@ Inclui identificação de utilizador, verificação do sistema de apoio à doen�
 	:processoDimQual "Reduzida" ;
 	:processoUniform "N" ;
 	:descricao "A identificação dos trabalhadores expostos a agentes biológicos perigosos, com a indicação da natureza e, se possível, do agente e do grau de exposição.
-Inicia com a inscrição do trabalhador e termina com o registo de cessação de funções.
+Inicia com a inscrição do trabalhador e termina com o registo exposição a agentes biológicos.
 Inclui os resultados da vigilância da saúde de cada trabalhador com referência ao respetivo posto de trabalho ou função e o registo de acidentes ou incidentes.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.10.006_1
@@ -515,7 +527,11 @@ Compreende, igualmente, os atos clínicos de caráter preventivo (consultas, ras
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteComunicador :org_ACES ;
-	:temParticipanteDecisor :org_ARS ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
 	:temParticipanteDecisor :org_DGS ;
 	:temDono :org_HH ;
 	:temDono :org_UPCS ;
@@ -550,15 +566,15 @@ Compreende, igualmente, os atos clínicos de caráter preventivo (consultas, ras
 	:descricao "Prestação de cuidados de prevenção de saúde primária através de ações pelas quais se confere imunidade recorrendo a meios artificiais para prevenir doenças.
 Inicia com o pedido ou com a verificação da necessidade de vacina e termina com a administração da mesma.
 Inclui consulta do Plano Nacional de Vacinação, verificação das vacinas em falta ou necessárias e registo da imunização administrada.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.100_1
-:na_c700.20.100_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Todo o tipo de rastreios".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.100_2
 :na_c700.20.100_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Programas de saúde de base comunitária e populacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.100_1
+:na_c700.20.100_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Todo o tipo de rastreios".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.100_1
 :ne_c700.20.100_1 rdf:type owl:NamedIndividual ,
@@ -574,7 +590,11 @@ Inclui consulta do Plano Nacional de Vacinação, verificação das vacinas em f
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_ACES ;
-	:temParticipanteDecisor :org_ARS ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
 	:temDono :org_UPCS ;
 	:temDono :org_HH ;
 	:temNotaAplicacao :na_c700.20.100_1 ;
@@ -661,7 +681,11 @@ Inclui realização de testes de saúde, análise dos resultados e eventual enca
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_ACES ;
-	:temParticipanteDecisor :org_ARS ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
 	:temDono :org_UPCS ;
 	:temNotaAplicacao :na_c700.20.101_1 ;
 	:temNotaAplicacao :na_c700.20.101_2 ;
@@ -732,7 +756,11 @@ Inclui desenvolvimento de atos clínicos e orientação dos utentes em relação
 	:temParticipanteAssessor :org_ANPC ;
 	:temDono :org_AS ;
 	:temDono :org_DGS ;
-	:temDono :org_ARS ;
+	:temDono :org_ARS-N ;
+	:temDono :org_ARS-C ;
+	:temDono :org_ARS-LVT ;
+	:temDono :org_ARS-Aln ;
+	:temDono :org_ARS-Alg ;
 	:temDono :org_UPCS ;
 	:temDono :org_HH ;
 	:temNotaAplicacao :na_c700.20.102_1 ;
@@ -984,15 +1012,15 @@ Inclui registo sonoro do pedido e respetivo atendimento, eventual reencaminhamen
  Inicia com o internamento numa unidade de especialidade Hospitalar e termina com a estabilização dos sintomas revelados, emitindo-se uma nota de alta hospitalar.
  Inclui o diagnóstico, prescrição e monitorização da evolução da doença (consultas subsequentes). Inclui ainda, actos das várias especialidades clinicas e administração de fármacos hospitalares para doenças específicas, bem como o registo dos actos praticados no sistema de informação.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.401_2
-:na_c700.20.401_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Cedência de medicação a utentes em ambulatório".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.401_1
 :na_c700.20.401_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Cirurgias em que a admissão, intervenção cirúrgica e alta hospitalar para o domicílio ou para unidade não abrangida pelos serviços de saúde, não requerem que o doente pernoite no hospital".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.401_2
+:na_c700.20.401_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Cedência de medicação a utentes em ambulatório".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.401_1
 :ne_c700.20.401_1 rdf:type owl:NamedIndividual ,
@@ -1040,15 +1068,15 @@ Inclui registo sonoro do pedido e respetivo atendimento, eventual reencaminhamen
 Inicia com a consulta pré-operatória e termina com a emissão da alta hospitalar.
 Incluí todos os actos praticados no âmbito da atividade no hospital e o registo dos actos praticados no sistema de informação.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_2
-:na_c700.20.402_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Consultas de medicina do trabalho".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_1
 :na_c700.20.402_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Consultas subsequentes, teleconsultas e consultas domiciliárias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_2
+:na_c700.20.402_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Consultas de medicina do trabalho".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_3
 :na_c700.20.402_3 rdf:type owl:NamedIndividual ,
@@ -1146,15 +1174,15 @@ Inclui o registo dos atos praticados no sistema de informação.
 Inicia com o registo do doente no serviço de urgência e termina com a emissão de nota de alta ou transferência para internamento.  
 Inclui o registo dos actos praticados no sistema de informação.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.404_1
-:na_c700.20.404_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Sessões de radioterapia".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.404_2
 :na_c700.20.404_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Sessões de psiquiatria".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.404_1
+:na_c700.20.404_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Sessões de radioterapia".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.404_3
 :na_c700.20.404_3 rdf:type owl:NamedIndividual ,
@@ -1223,7 +1251,11 @@ Inicia com o encaminhamento do utente para as sessões e termina com a alta, ou 
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_ACSS ;
-	:temParticipanteComunicador :org_ARS ;
+	:temParticipanteComunicador :org_ARS-N ;
+	:temParticipanteComunicador :org_ARS-C ;
+	:temParticipanteComunicador :org_ARS-LVT ;
+	:temParticipanteComunicador :org_ARS-Aln ;
+	:temParticipanteComunicador :org_ARS-Alg ;
 	:temDono :org_HH ;
 	:eCruzadoCom :c400.10.040 ;
 	:eSuplementoPara :c500.10.001 ;
@@ -1239,15 +1271,15 @@ Inicia com o encaminhamento do utente para as sessões e termina com a alta, ou 
 Inicia com a assunção de que o país não dispõe de condições para tratar o doente e que o mesmo pode ser referenciado para outro país e termina com o regresso do utente ao país.
 Inclui os procedimentos específicos definidos na lei, nomeadamente, o relatório clínico, o parecer da Comissão de Assessoria Técnica e a decisão final da autoridade de saúde competente.  
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.406_1
-:na_c700.20.406_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Execução de programas verticais Hospitalares".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.406_2
 :na_c700.20.406_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Execução de atividades incluidas no Contrato-Programa".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.406_1
+:na_c700.20.406_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Execução de programas verticais Hospitalares".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c700.20.406
 :c700.20.406 rdf:type owl:NamedIndividual ,
@@ -1258,7 +1290,11 @@ Inclui os procedimentos específicos definidos na lei, nomeadamente, o relatóri
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteDecisor :org_ACSS ;
-	:temParticipanteDecisor :org_ARS ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
 	:temDono :org_HH ;
 	:temNotaAplicacao :na_c700.20.406_1 ;
 	:temNotaAplicacao :na_c700.20.406_2 ;
@@ -1289,11 +1325,6 @@ Incluí todos os atos necessários ao tratamento.
 	:NotaExclusao ;
 	:conteudo "Os cuidados de reabilitação deve ser considerados em 700.20.500 – Prestação de cuidados de reabilitação".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.500_1
-:ne_c700.20.500_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Os cuidados de convalescença devem ser considerados em 700.20.407 – Prestação de cuidados de convalescença".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c700.20.407
 :c700.20.407 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1302,7 +1333,11 @@ Incluí todos os atos necessários ao tratamento.
 	:temPai :c700.20 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteDecisor :org_ARS ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
 	:temParticipanteApreciador :org_ACES ;
 	:temParticipanteDecisor :org_ACSS ;
 	:temDono :org_UPCS ;
@@ -1337,10 +1372,10 @@ Inicia com o tratamento e supervisão clínica, continuada e intensiva na sequê
 Inclui o diagnóstico e todos os atos necessários ao tratamento.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.600_1
-:na_c700.20.600_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Situações de internamento nas unidades hospitalares específicas".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.500_1
+:ne_c700.20.500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os cuidados de convalescença devem ser considerados em 700.20.407 – Prestação de cuidados de convalescença".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c700.20.500
 :c700.20.500 rdf:type owl:NamedIndividual ,
@@ -1350,7 +1385,11 @@ Inclui o diagnóstico e todos os atos necessários ao tratamento.
 	:temPai :c700.20 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteDecisor :org_ARS ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
 	:temParticipanteApreciador :org_ACES ;
 	:temParticipanteDecisor :org_ACSS ;
 	:temDono :org_UPCS ;
@@ -1383,6 +1422,11 @@ Inclui o diagnóstico e todos os atos necessários ao tratamento.
 Inicia com o internamento e termina com a alta e a recuperação global do utente.
 Inclui, o diagnóstico e definição das diferentes patologias, a identificação de deficiências e incapacidades existentes, a definição do prognóstico e avaliação do potencial de reabilitação, o planeamento e prescrição do tratamento.
 ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.600_1
+:na_c700.20.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Situações de internamento nas unidades hospitalares específicas".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.600_2
 :na_c700.20.600_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1396,7 +1440,11 @@ Inclui, o diagnóstico e definição das diferentes patologias, a identificaçã
 	:temPai :c700.20 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteDecisor :org_ARS ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
 	:temParticipanteApreciador :org_ACES ;
 	:temParticipanteDecisor :org_ACSS ;
 	:temDono :org_UPCS ;
@@ -1438,20 +1486,15 @@ Inclui o diagnóstico e todos os atos necessários ao tratamento.
 	:NotaAplicacao ;
 	:conteudo "Vacinação de animais domésticos ou de companhia".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_4
-:na_c700.20.700_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Vacinação de animais selvagens em cativeiro".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_3
 :na_c700.20.700_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Vacinação de animais de exploração pecuária".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.701_1
-:na_c700.20.701_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_4
+:na_c700.20.700_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Recolha de animais vadios com suspeita de raiva ou com doença terminal".
+	:conteudo "Vacinação de animais selvagens em cativeiro".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c700.20.700
 :c700.20.700 rdf:type owl:NamedIndividual ,
@@ -1483,6 +1526,11 @@ Inclui o diagnóstico e todos os atos necessários ao tratamento.
 	:descricao "Cuidados de prevenção primária de saúde praticados em espécies animais ao longo da sua vida com o objetivo de imunização.
 Inicia com o pedido ou com a verificação da necessidade de vacina e termina com a administração da mesma.
 Inclui verificação das vacinas em falta ou necessárias e registo da vacina administrada.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.701_1
+:na_c700.20.701_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Recolha de animais vadios com suspeita de raiva ou com doença terminal".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.701_2
 :na_c700.20.701_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;

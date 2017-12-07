@@ -70,11 +70,6 @@ Inclui os processos de vinculação do Estado português a convenções internac
 	:NotaAplicacao ;
 	:conteudo "Normas informais ou recomendações técnicas emitidas organismos de coordenação ou superintendência técnica".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_1
-:exna_c100.10_1 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Diplomas jurídico-administrativos: leis, decretos-lei e decretos legislativos regionais, bem como eventuais declarações de retificação".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_2
 :exna_c100.10_2 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
@@ -84,6 +79,11 @@ Inclui os processos de vinculação do Estado português a convenções internac
 :exna_c100.10_3 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Atos regulamentares: decretos regulamentares, portarias, posturas, despachos normativos".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_1
+:exna_c100.10_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Diplomas jurídico-administrativos: leis, decretos-lei e decretos legislativos regionais, bem como eventuais declarações de retificação".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c100.10_4
 :exna_c100.10_4 rdf:type owl:NamedIndividual ,
@@ -125,15 +125,15 @@ Inclui os processos de vinculação do Estado português a convenções internac
 	:NotaExclusao ;
 	:conteudo "Devem ser considerados noutras áreas os procedimentos administrativos autonomizáveis do processo legislativo, bem como os trabalhos técnicos, estudos e relatórios preliminares ou acessórios à elaboração ou atualização dos diplomas jurídico-normativos. Por exemplo:- Trabalhos técnicos de comissões ou outras estruturas envolvidas na definição de políticas, planos e programas devem ser considerados em \"Planeamento e gestão estratégica/ Definição e avaliação de políticas\" (150.10)".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10_2
-:ne_c100.10_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "- Estudos e trabalhos técnicos orientados à (re)definição de estruturas e/ou funcionamento dos serviços, ou ainda trabalhos preparatórios para a elaboração do Orçamento de Estado, devem ser considerados em \"Planeamento e gestão estratégica/ Planeamento, avaliação e melhoria de serviços\" (150.20)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10_3
 :ne_c100.10_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "- Trabalhos técnicos preparatórios de planos de classificação e de tabelas de seleção devem ser considerados em \"Administração de direitos, bens e serviços/ Identificação e caracterização de bens\" (300.30)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10_2
+:ne_c100.10_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "- Estudos e trabalhos técnicos orientados à (re)definição de estruturas e/ou funcionamento dos serviços, ou ainda trabalhos preparatórios para a elaboração do Orçamento de Estado, devem ser considerados em \"Planeamento e gestão estratégica/ Planeamento, avaliação e melhoria de serviços\" (150.20)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c100.10_4
 :ne_c100.10_4 rdf:type owl:NamedIndividual ,
@@ -245,7 +245,8 @@ Compreende, igualmente, a elaboração ou colaboração na elaboração de norma
 	:temParticipanteDecisor :org_PR ;
 	:temParticipanteComunicador :org_INCM ;
 	:temDono :org_AR ;
-	:temDono :org_ALR ;
+	:temDono :org_ALRAA ;
+	:temDono :org_ALRAM ;
 	:temDono :org_Gov ;
 	:temNotaAplicacao :na_c100.10.001_1 ;
 	:temNotaAplicacao :na_c100.10.001_2 ;
@@ -281,20 +282,20 @@ Compreende, igualmente, a elaboração ou colaboração na elaboração de norma
 	:descricao "Elaboração ou participação na elaboração de atos legislativos conduzidos por iniciativa das autoridades competentes para a definição do regime jurídico aplicável.
 Inicia com a apresentação de um projeto acompanhado dos documentos que o fundamentam e justificam à entidade com competência para legislar e termina com a respetiva publicação ou publicitação.
 Inclui verificação jurídica, apreciação, discussão e votação conducentes à elaboração do texto final, aprovação da iniciativa, ratificação pelas entidades competentes e promulgação.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.002_1
-:na_c100.10.002_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.002_2
+:na_c100.10.002_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Aprovação, ratificação e publicação de convenções internacionais".
+	:conteudo "Avisos respeitantes às convenções internacionais e relativos a outros Estados contratantes".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.002_3
 :na_c100.10.002_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Depósito de diploma em entidade designada para efeitos da vinculação do Estado português e dos seus termos".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.002_2
-:na_c100.10.002_2 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.002_1
+:na_c100.10.002_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Avisos respeitantes às convenções internacionais e relativos a outros Estados contratantes".
+	:conteudo "Aprovação, ratificação e publicação de convenções internacionais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c100.10.002_4
 :na_c100.10.002_4 rdf:type owl:NamedIndividual ,
@@ -457,7 +458,8 @@ Inicia com o envio aos órgãos competentes e termina com a publicação.
 	:temParticipanteAssessor :org_AP ;
 	:temParticipanteComunicador :org_INCM ;
 	:temDono :org_Gov ;
-	:temDono :org_GovReg ;
+	:temDono :org_GovReg-A ;
+	:temDono :org_GovReg-M ;
 	:temNotaAplicacao :na_c100.10.200_1 ;
 	:temNotaAplicacao :na_c100.10.200_2 ;
 	:temNotaAplicacao :na_c100.10.200_3 ;
@@ -826,15 +828,15 @@ Compreende, igualmente, os acórdãos de uniformização de jurisprudência emit
 	:NotaAplicacao ;
 	:conteudo "Produção de pareceres emitidos pelas entidades reguladoras para esclarecimento do sentido da lei".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c100.20.001_2
-:na_c100.20.001_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Emissão de informações vinculativas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c100.20.001_1
 :ne_c100.20.001_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "Os pareceres elaborados no âmbito de processos específicos relativos ao apoio à decisão individual e concreta devem ser considerados nos respetivos processos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c100.20.001_2
+:na_c100.20.001_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Emissão de informações vinculativas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c100.20.001
 :c100.20.001 rdf:type owl:NamedIndividual ,

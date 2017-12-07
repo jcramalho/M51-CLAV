@@ -14,11 +14,6 @@ Compreende toda a resolução de litígios pela via administrativa, judicial ou 
 	:NotaAplicacao ;
 	:conteudo "Todas as entidades que participam nos processos de administração da justiça, independentemente da sua participação ser ativa ou passiva".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c600.10_1
-:ne_c600.10_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "As ações de sensibilização e divulgação pública de informação de prevenção criminal devem ser consideradas em \"Dinamização e comunicação institucional/ Execução de atividades de dinamização da sociedade\" (900.10).".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c600.10
 :c600.10 rdf:type owl:NamedIndividual ,
 	:Classe_N2;
@@ -28,6 +23,11 @@ Compreende toda a resolução de litígios pela via administrativa, judicial ou 
 	:temNotaExclusao :ne_c600.10_1 ;
 	:classeStatus "A" ;
 	:descricao "Compreende as operações relacionadas com a prevenção, deteção e investigação de crimes (incluindo averiguações e inquéritos, processo-crime, apreensões e detenções) e com a recolha e o processamento de informação criminal.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c600.10_1
+:ne_c600.10_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As ações de sensibilização e divulgação pública de informação de prevenção criminal devem ser consideradas em \"Dinamização e comunicação institucional/ Execução de atividades de dinamização da sociedade\" (900.10).".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.10.001_1
 :na_c600.10.001_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -275,7 +275,7 @@ Inclui todo o processamento, tratamento e cruzamento da documentação.".
 	:processoDimQual "Média" ;
 	:processoUniform "N" ;
 	:descricao "Ações e demais diligências de deteção de pessoas dadas como desaparecidas e de averiguação do motivo para o seu desaparecimento.
-Inicia com a participação às autoridades do desaparecimento de uma pessoa e termina com a localização ou aparecimento da pessoa ou cadáver, arquivamento ou ainda com a eventual evolução para inquérito-crime.
+Inicia com a participação às autoridades do desaparecimento de uma pessoa e termina com a localização ou aparecimento da pessoa ou cadáver, arquivamento, declaração de morte presumida, nos termos legais, ou ainda com a eventual evolução para inquérito-crime.
 Inclui as difusões e pedidos de colaboração (de cariz oficial ou pela publicação na internet ou em jornais, dirigidos ao público em geral), bem como o correspondente registo na base de dados de desaparecidos.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.10.007_1
 :na_c600.10.007_1 rdf:type owl:NamedIndividual ,
@@ -471,7 +471,7 @@ Inclui toda a troca de informações relativa ao pedido.".
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Atuação que compreende o conjunto de diligências que visam investigar a existência de um crime, determinar os seus agentes e responsabilidades e recolher as provas com vista à acusação.
-Inicia com a notícia do crime e termina com o seu arquivamento ou dedução de acusação.
+Inicia com a notícia do crime e termina com o seu arquivamento ou dedução de acusação, no respeito dos prazos e termos legais.
 Inclui as diligências que visam investigar a existência de um crime e determinar os seus agentes, descobrir e recolher provas, os atos decisórios do Juiz e do Ministério Público (MP), os atos dos órgãos de polícia criminal (OPC), os atos do arguido (exposições, memoriais e requerimentos), a audição (inquirição de testemunhas, interrogatório do arguido, declarações de outros intervenientes e acareação), o reconhecimento de pessoas e objetos, a reconstituição do facto, a realização de perícias, a análise de prova documental, a obtenção de prova (exames, revistas e buscas, apreensões e escutas telefónicas), a investigação financeira e patrimonial realizada pelo Gabinete de Recuperação de Ativos da PJ e os processos de extradição ativa.".
 ###  http://jcr.di.uminho.pt/m51-clav#c600.10.501
 :c600.10.501 rdf:type owl:NamedIndividual ,
@@ -636,7 +636,7 @@ Inclui relatórios da atividade operacional desenvolvida e despachos da autorida
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteAssessor :org_DGRSP ;
-	:temParticipanteDecisor :org_GMG ;
+	:temParticipanteDecisor :org_GMG-MJ ;
 	:temParticipanteExecutor :org_PJ ;
 	:temParticipanteDecisor :org_MP ;
 	:temDono :org_CPES ;
@@ -648,7 +648,7 @@ Inclui relatórios da atividade operacional desenvolvida e despachos da autorida
 	:processoDimQual "Reduzida" ;
 	:processoUniform "N" ;
 	:descricao "Ação complementar de proteção de testemunhas no âmbito de um processo-crime.
-Inicia com o requerimento de reserva do conhecimento da identidade da testemunha e termina com a revogação da medida.
+Inicia com o requerimento de reserva do conhecimento da identidade da testemunha e termina com a revogação da medida de segurança.
 Inclui a documentação relacionada com aspetos operacionais e logísticos das medidas e/ou programas especiais de segurança bem como com o apoio e acompanhamento dos serviços de reinserção social a testemunhas especialmente vulneráveis.".
 ###  http://jcr.di.uminho.pt/m51-clav#c600.10.506.01
 :c600.10.506.01 rdf:type owl:NamedIndividual ,
@@ -699,15 +699,15 @@ Inicia com o despacho da autoridade judicária e termina com a elaboração do a
 	:NotaAplicacao ;
 	:conteudo "Equipas de investigação conjuntas".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.10.507_7
-:na_c600.10.507_7 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Transmissão e receção de denúncias e queixas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.10.507_8
 :na_c600.10.507_8 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Envio de objetos, valores, documentos ou processos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.10.507_7
+:na_c600.10.507_7 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Transmissão e receção de denúncias e queixas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.10.507_9
 :na_c600.10.507_9 rdf:type owl:NamedIndividual ,
@@ -791,7 +791,6 @@ Inclui a menção expressa do tipo de ato ou diligência que se pretende ver rea
 	:eSintetizadoPor :c150.40.500 ;
 	:eCruzadoCom :c600.10.007 ;
 	:eAntecessorDe :c600.10.500 ;
-	:temRelProc :c600.30. ;
 	:temLegislacao :leg_167 ;
 	:classeStatus "A" ;
 	:processoDimQual "Média" ;
@@ -825,7 +824,6 @@ Inclui as trocas de informação subsequentes.".
 	:eSintetizadoPor :c150.40.500 ;
 	:eCruzadoCom :c600.10.007 ;
 	:eAntecessorDe :c600.10.500 ;
-	:temRelProc :c600.30. ;
 	:temLegislacao :leg_167 ;
 	:temLegislacao :leg_135 ;
 	:temLegislacao :leg_23 ;
@@ -1031,6 +1029,14 @@ Inicia com a receção do pedido e termina com o seu arquivamento, a remessa a o
 	:descricao "Ação em matéria civel ou penal, prevista na lei que regula a competência, organização e funcionamento dos julgados de paz e atramitação dos processos da sua competência.
 Inicia com a apresentação do requerimento inicial na secretaria do julgado de paz e termina com a intervenção do juiz de paz, através da homologação do acordo obtido através da mediação, ou por sentença emitida após audiência de julgamento.
 Inclui citações e notificações das partes, contestações, reconvenção quando admitida e a apresentação dos meios probatórios.".
+###  http://jcr.di.uminho.pt/m51-clav#c600.20.001.02
+:c600.20.001.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "600.20.001.02";
+	:titulo "Ação em julgado de paz: decisão";
+	:temPai :c600.20.001 ;
+	:classeStatus "A" ;
+	:descricao "Prolação da sentença no julgado de paz.".
 ###  http://jcr.di.uminho.pt/m51-clav#c600.20.001.01
 :c600.20.001.01 rdf:type owl:NamedIndividual ,
 	:Classe_N4;
@@ -1044,14 +1050,6 @@ Inclui citações e notificações das partes, contestações, reconvenção qua
 	:NotaAplicacao ;
 	:conteudo "Resolução de conflitos no âmbito das relações familiares previstas no artigo 4.º do Despacho 18778/2007, publicado no DR II Série, de 22 de agosto de 2007".
 
-###  http://jcr.di.uminho.pt/m51-clav#c600.20.001.02
-:c600.20.001.02 rdf:type owl:NamedIndividual ,
-	:Classe_N4;
-	:codigo "600.20.001.02";
-	:titulo "Ação em julgado de paz: decisão";
-	:temPai :c600.20.001 ;
-	:classeStatus "A" ;
-	:descricao "Prolação da sentença no julgado de paz.".
 ###  http://jcr.di.uminho.pt/m51-clav#c600.20.300
 :c600.20.300 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1102,15 +1100,15 @@ Inclui registo e triagem dos pedidos de mediação, designação do mediador re
 	:descricao "Ação em matéria laboral para a qual o sistema público de mediação laboral (SML) tem competência em razão da matéria, prevista no seu ato constitutivo ou na sua orgânica.
 Inicia com o pedido de mediação, dirigido à entidade gestora do sistema ou ao serviço competente do ministério responsável pela área laboral, pelo trabalhador, pelo empregador, ou pelas associações representativas dos trabalhadores ou dos empregadoreas, e termina com a informação prestada à entidade gestora do sistema ou as partes, pelo mediador sobre se o litígio foi ou não superado através de acordo.
 Inclui registo e triagem dos pedidos de mediação, designação do mediador responsável e indicação dos locais onde se realizam as sessões de mediação e informação, bem como a apresentação de proposta de mediação às partes.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.20.302_1
-:na_c600.20.302_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Resolução de conflitos no âmbito do processo penal de acordo com o previsto na Lei 21/2007, de 12 de junho".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c600.20.302_1
 :ne_c600.20.302_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A certificação de entidades formadoras em mediação de conflitos deve ser considerada em 450.10.444 – Reconhecimento de requisitos e competência técnica a entidades;A supervisão contínua dos sistemas de mediação e fiscalização da atividade dos mediadores devem ser consideradas em 500.20 – Supervisão, controlo e responsabilização / Ação disciplinar.".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.20.302_1
+:na_c600.20.302_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Resolução de conflitos no âmbito do processo penal de acordo com o previsto na Lei 21/2007, de 12 de junho".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c600.20.302
 :c600.20.302 rdf:type owl:NamedIndividual ,
@@ -1150,7 +1148,7 @@ Inicia com o envio do processo judicial para mediação pelo Ministério Públic
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteAssessor :org_AL ;
-	:temDono :org_SMJP ;
+	:temDono :org_JP ;
 	:temNotaAplicacao :na_c600.20.303_1 ;
 	:eAntecessorDe :c600.30.200 ;
 	:temLegislacao :leg_326 ;
@@ -1531,7 +1529,7 @@ Inclui todos os atos e dilgências processuais, nomeadamente, nomeação de defe
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteAssessor :org_DGRSP ;
-	:temParticipanteApreciador :org_GMG ;
+	:temParticipanteApreciador :org_GMG-MJ ;
 	:temParticipanteExecutor :org_PJ ;
 	:temParticipanteAssessor :org_MP ;
 	:temDono :org_Trb ;
@@ -1645,7 +1643,7 @@ Inclui todos os atos e diligências processuais, nomeadamente, despachos do juiz
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteAssessor :org_DGRSP ;
-	:temParticipanteApreciador :org_GMG ;
+	:temParticipanteApreciador :org_GMG-MJ ;
 	:temDono :org_Trb ;
 	:temNotaExclusao :ne_c600.30.154_1 ;
 	:eSintetizadoPor :c150.40.001 ;
@@ -1731,7 +1729,7 @@ Inclui eventual decisões do tribunal competente e do MP.
 	:temPai :c600.30 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temParticipanteApreciador :org_GMG ;
+	:temParticipanteApreciador :org_GMG-MJ ;
 	:temParticipanteApreciador :org_MP ;
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_Trb ;
@@ -1795,6 +1793,11 @@ Inicia com um articulado de uma das partes civis ou do Ministério Público e te
 	:temPai :c600.30.250 ;
 	:classeStatus "A" ;
 	:descricao "Inicia com a entrega da petição inicial e termina com a realização da audiência. Inclui todos os articulados, incluindo os da fase de recurso, audiências e demais decisões que não sejam sentenças ou acórdãos bem como todos os atos e diligências da secretaria.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c600.30.251_1
+:ne_c600.30.251_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A curadoria provisória dos bens do ausente deve ser considerada em 600.30.264 - Curadoria provisória dos bens do ausente.".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.250.02_1
 :na_c600.30.250.02_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1809,11 +1812,6 @@ Inicia com um articulado de uma das partes civis ou do Ministério Público e te
 	:temNotaAplicacao :na_c600.30.250.02_1 ;
 	:classeStatus "A" ;
 	:descricao "Prolação da sentença ou acórdão em caso de tribunal de 1ª instância ou decisão singular ou acórdão em caso de tribunais de recurso.".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c600.30.251_1
-:ne_c600.30.251_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A curadoria provisória dos bens do ausente deve ser considerada em 600.30.264 - Curadoria provisória dos bens do ausente.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c600.30.251
 :c600.30.251 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -2512,11 +2510,6 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:NotaExclusao ;
 	:conteudo "Não se aplica quando seja da competência exclusiva do conservador do registo civil ao abrigo do DL 272/2001, de 13 de outubro, na versão do DL 122/2013, de 26 de agosto.".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.284_1
-:na_c600.30.284_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Se constituir incidente ou dependência de ação prévia, inicia-se no tribunal como apenso do processo já existente".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c600.30.283
 :c600.30.283 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -2538,6 +2531,11 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:processoDimQual "Média" ;
 	:processoUniform "S" ;
 	:descricao "Processso especial de jurisdição voluntária quando exista a necessidade de se providenciar sobre alimentos a filhos maiores ou emancipados e não houver completado a sua formação. Começa com a remessa do processo que se deu entrada na conservatória do registo civil, por aí não ter sido possível alcançar acordo no seguimento da dedução de oposição, seguindo-se o regime previsto para o processo comum e para os processos de jurisdição voluntária.Termina com a decisão e elaboração da conta. Inclui eventual recurso.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.284_1
+:na_c600.30.284_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Se constituir incidente ou dependência de ação prévia, inicia-se no tribunal como apenso do processo já existente".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c600.30.284_1
 :ne_c600.30.284_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -2773,7 +2771,9 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:classeStatus "A" ;
 	:processoDimQual "Reduzida" ;
 	:processoUniform "S" ;
-	:descricao "Trata-se de uma adaptação do processo de autorização judicial para os casos de alienação ou oneração de bens do ausente por parte do curador provisório ou definitivo daqueles vende ou onera bens deste ou se confirmam actos praticados pelo representante do incapaz sem a necessária autorização. Também se aplica para reapreciação da decisão proferida pelo Ministério Público nos casos em que este dispõe de competência exclusiva.  Este processo inicia-se com o pedido de alienação ou oneração ou de confirmação, seguindo-se, devidamente adaptada, a tramitação prevista para a aceitação ou rejeição de liberalidades. Inclui eventual recurso.
+	:descricao "Trata-se de uma adaptação do processo de autorização judicial para os casos de alienação ou oneração de bens do ausente por parte do curador provisório ou definitivo daqueles vende ou onera bens deste ou se confirmam actos praticados pelo representante do incapaz sem a necessária autorização. Também se aplica para reapreciação da decisão proferida pelo Ministério Público nos casos em que este dispõe de competência exclusiva. 
+Tem inicio com o pedido de alienação ou oneração ou de confirmação e termina com a tramitação prevista para a aceitação ou rejeição de liberalidades. 
+Inclui eventual recurso.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.293_1
 :na_c600.30.293_1 rdf:type owl:NamedIndividual ,
@@ -2832,11 +2832,6 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 	:processoDimQual "Média" ;
 	:processoUniform "S" ;
 	:descricao "Ações declarativas de natureza laboral que tenham por fundamento a existência ou invocação de um contrato de trabalho e em que se pretenda a efetivação de direitos derivados do próprio vínculo ou da sua cessação. Começa com uma tentativa de conciliação que, frustrando-se, leva ao prosseguimento da ação com a prolação de despacho liminar, audiência de partes e, na falta de acordo, é o réu notificado para contestar. Seguem-se os restantes articulados, saneamento do processo, audiência preliminar quando a complexidade da causa o justifique, e julgamento.  Termina com a sentença e elaboração de conta. Inclui eventual recurso.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.302_1
-:na_c600.30.302_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Findo o processo, pode o sinistrado ou a entidade responsável requerer incidente de revisão da incapacidade".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c600.30.301
 :c600.30.301 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -2856,6 +2851,11 @@ Este processo inicia-se com um articulado do tutor ou curador, seguindo-se a cit
 Inicia-se com o formulário que apresenta em juízo, após o que é designada data para a audiência de partes e, inexistindo acordo das partes, é o empregador notificado para apresentar o articulado fundamentador do despedimento, bem como o procedimento conducente a uma das citadas formas de extinção do vínculo.
 Ao referido articulado poderá o trabalhador responder, reclamando os créditos emergentes quer da execução do contrato, quer da sua cessação.
 Inexistindo acordo em qualquer fase do processo, termina com a sentença e elaboração da conta. Inclui eventual recurso.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.302_1
+:na_c600.30.302_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Findo o processo, pode o sinistrado ou a entidade responsável requerer incidente de revisão da incapacidade".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c600.30.302
 :c600.30.302 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -3160,6 +3160,11 @@ A decisão de homologação ou não homologação do plano pode ser objecto de r
 	:temNotaAplicacao :na_c600.30.354.02_1 ;
 	:classeStatus "A" ;
 	:descricao "Prolação da sentença ou acórdão em caso de tribunal de 1ª instância ou decisão singular ou acórdão em caso de tribunais de recurso.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.356_1
+:na_c600.30.356_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ao notário compete dirigir todas as diligências do processo de inventário e da habilitação de uma pessoa como sucessora por morte de outra, sem prejuízo dos casos em que os interessados são remetidos para os meios judiciais comuns.".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c600.30.355
 :c600.30.355 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -3179,11 +3184,6 @@ A decisão de homologação ou não homologação do plano pode ser objecto de r
 	:processoUniform "S" ;
 	:descricao "Processo especial por intermédio do qual se efectiva a expropriação litigiosa de bens imóveis e os direitos a eles inerentes por causa de utilidade pública compreendida nas atribuições, fins ou objecto da entidade expropriante, mediante o pagamento contemporâneo de uma justa indemnização.
 Este processo inicia-se, após a frustração do processo de expropriação amigável, com uma fase arbitral destinada a fixar o valor da indemnização, mediante a intervenção de três árbitros nomeados pelo presidente do tribunal da Relação competente, que proferem uma decisão arbitral. Após, o processo é remetido ao tribunal competente acompanhado, nomeadamente, da decisão arbitral e da guia de depósito à ordem do tribunal do montante arbitrado, seguindo-se despacho de adjudicação da propriedade e posse à entidade expropriante. Em simultâneo, são notificados todos os intervenientes do teor dos elementos juntos ao processo, bem como da faculdade de interposição de recurso. Sendo apresentado recurso pelo expropriante, pelo expropriado ou por qualquer interessado, e exercido o contraditório, o juiz atribui imediatamente aos interessados o montante sobre o qual se verifique acordo, seguindo-se a realização de diligências instrutórias, incluindo, obrigatoriamente, nova avaliação por cinco peritos, e eventual produção de outras provas, e termina com uma sentença a fixar o montante das indemnizações a pagar pela entidade expropriante. Inclui eventual recurso.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.356_1
-:na_c600.30.356_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Ao notário compete dirigir todas as diligências do processo de inventário e da habilitação de uma pessoa como sucessora por morte de outra, sem prejuízo dos casos em que os interessados são remetidos para os meios judiciais comuns.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.356_2
 :na_c600.30.356_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -3586,7 +3586,7 @@ Inclui eventual recurso, averbamentos a obras literárias, científicas e artís
 	:classeStatus "A" ;
 	:processoDimQual "Reduzida" ;
 	:processoUniform "S" ;
-	:descricao "Processo de jurisdição voluntária destinado à obtenção do cumprimento coercivo das obrigações reguladas no âmbito do acordo ou da decisão de regulação das responsabilidades parentais e a condenação do remisso em multa e em indemnização a favor do menor ou do requerente ou de ambos.  Começa com o requerimento de um dos progenitores ou do Ministério Público, após o que o juiz designa uma data para a realização de conferência, ou excepcionalmente manda notificar o requerido para alegar o que tiver por conveniente. Na conferência, os pais podem acordar na alteração do que se encontrar fixado, sendo que não havendo acordo ou se não tiver sido realizada a conferência, o juiz determina a suspensão do processo e remessa das partes para mediação ou audição técnica especializada. Terminada a suspensão sem que exista acordo, há lugar à marccação de conferência, após o que há lugar a alegações e à realização de diligências, e termina com uma sentença e elaboração de conta. Inclui eventual recurso.".
+	:descricao "Processo de jurisdição voluntária destinado à obtenção do cumprimento coercivo das obrigações reguladas no âmbito do acordo ou da decisão de regulação das responsabilidades parentais e a condenação do remisso em multa e em indemnização a favor do menor ou do requerente ou de ambos.  Começa com o requerimento de um dos progenitores ou do Ministério Público, após o que o juiz designa uma data para a realização de conferência, ou excepcionalmente manda notificar o requerido para alegar o que tiver por conveniente. Na conferência, os pais podem acordar na alteração do que se encontrar fixado, sendo que não havendo acordo ou se não tiver sido realizada a conferência, o juiz determina a suspensão do processo e remessa das partes para mediação ou audição técnica especializada. Terminada a suspensão sem que exista acordo, há lugar à marcação de conferência, após o que há lugar a alegações e à realização de diligências, e termina com uma sentença e elaboração de conta. Inclui eventual recurso.".
 ###  http://jcr.di.uminho.pt/m51-clav#c600.30.370
 :c600.30.370 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -4031,11 +4031,6 @@ Inclui registos de insistências, pareceres técnicos e jurídicos e comunicaç�
 	:descricao "Ação judicial que tem por objeto litígios cuja apreciação se inscreve no âmbito da jurisdição administrativa e que não é objeto de regulação especial no Código de Processo dos Tribunais Administrativos nem em legislação avulsa.
 Inicia com a apresentação da petição inicial e termina com a decisão judicial.
 Inclui todos os atos e diligências processuais, nomeadamente, apresentação dos articulados (contestação, réplica e tréplica), notificações do autor, réu e dos mandatários das partes,  realização de audiência preliminar, emissão de despacho saneador, reclamação das partes do despacho saneador, realização da audiência de discussão e emissão de sentença, apresentação da alegações dos advogados, realização da audiência de julgamento e emissão da sentença, notificação do Ministério Público (MP), elaboração da conta e aposição de visto em correição. Inclui eventual recurso.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.551_1
-:na_c600.30.551_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Atos de liquidação de tributos, incluindo os actos de autoliquidação, de retenção na fonte e pagamento por conta (artº 97º, nº 1 al. A) do CPPT e 95º nº 1 al. A) da lGT".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.551_2
 :na_c600.30.551_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -4045,6 +4040,11 @@ Inclui todos os atos e diligências processuais, nomeadamente, apresentação do
 :na_c600.30.551_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Atos de indeferimento total ou parcial de reclamações graciosas de actos tributários (artº 97º nº1 al. c) do CPPT e art 95º nº 1 al. d) da LGT)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.551_1
+:na_c600.30.551_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atos de liquidação de tributos, incluindo os actos de autoliquidação, de retenção na fonte e pagamento por conta (artº 97º, nº 1 al. A) do CPPT e 95º nº 1 al. A) da lGT".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.551_4
 :na_c600.30.551_4 rdf:type owl:NamedIndividual ,
@@ -4112,15 +4112,15 @@ Inclui eventual recurso.".
 	:NotaAplicacao ;
 	:conteudo "Ação administrativa especial de pretensão conexa com atos administrativos".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.552_2
-:na_c600.30.552_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Ação administrativa especial de pretensão conexa com normas administrativas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.552_3
 :na_c600.30.552_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Ação administrativa especial de atos dos órgãos superiores do Estado (Supremo Tribunal Administrativo - STA)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.552_2
+:na_c600.30.552_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ação administrativa especial de pretensão conexa com normas administrativas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.552_4
 :na_c600.30.552_4 rdf:type owl:NamedIndividual ,
@@ -4132,15 +4132,15 @@ Inclui eventual recurso.".
 	:NotaAplicacao ;
 	:conteudo "Ação administrativa especial de atos administrativos respeitantes a questões fiscais".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.552_6
-:na_c600.30.552_6 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Ação administrativa especial de normas e declaração de ilegalidade por omissão em matéria fiscal".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.552_7
 :na_c600.30.552_7 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Aos antigos Recursos Contenciosos de Anulação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.552_6
+:na_c600.30.552_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ação administrativa especial de normas e declaração de ilegalidade por omissão em matéria fiscal".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.552_8
 :na_c600.30.552_8 rdf:type owl:NamedIndividual ,
@@ -4206,14 +4206,6 @@ Inclui todos os atos e diligências processuais. Inclui eventual recurso.".
 Inicia com petição do Ministério Público, após comunicação de decisão do Conservador dos Registos Centrais que recuse a concessão da nacionalidade em procedimento administrativo de aquisição da nacionalidade ou conhecimento por outra via de facto que possa constituir fundamento legal de oposição à aquisição da nacionalidade portuguesa.
 Termina com despacho ou sentença judicial através da qual se determine o arquivamento do procedimento administrativo de aquisição da nacionalidade, ou o registo da aquisição da nacionalidade portuguesa do interessado, ou ainda o cancelamento da aquisição da nacionalidade já anteriormente averbada.
 Inclui contestação do interessado e realização de diligências de prova que o juiz entenda pertinentes.".
-###  http://jcr.di.uminho.pt/m51-clav#c600.30.553.01
-:c600.30.553.01 rdf:type owl:NamedIndividual ,
-	:Classe_N4;
-	:codigo "600.30.553.01";
-	:titulo "Oposição à aquisição da nacionalidade: articulados, gestão processual e audiência";
-	:temPai :c600.30.553 ;
-	:classeStatus "A" ;
-	:descricao "Inicia com a entrega da petição inicial e termina com a realização da audiência. Inclui todos os articulados, incluindo os da fase de recurso, audiências e demais decisões que não sejam sentenças ou acórdãos bem como todos os atos e diligências da secretaria.".
 ###  http://jcr.di.uminho.pt/m51-clav#c600.30.553.02
 :c600.30.553.02 rdf:type owl:NamedIndividual ,
 	:Classe_N4;
@@ -4222,6 +4214,14 @@ Inclui contestação do interessado e realização de diligências de prova que 
 	:temPai :c600.30.553 ;
 	:classeStatus "A" ;
 	:descricao "Prolação da sentença ou acórdão em caso de tribunal de 1ª instância ou decisão singular ou acórdão em caso de tribunais de recurso.".
+###  http://jcr.di.uminho.pt/m51-clav#c600.30.553.01
+:c600.30.553.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "600.30.553.01";
+	:titulo "Oposição à aquisição da nacionalidade: articulados, gestão processual e audiência";
+	:temPai :c600.30.553 ;
+	:classeStatus "A" ;
+	:descricao "Inicia com a entrega da petição inicial e termina com a realização da audiência. Inclui todos os articulados, incluindo os da fase de recurso, audiências e demais decisões que não sejam sentenças ou acórdãos bem como todos os atos e diligências da secretaria.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.554_1
 :na_c600.30.554_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -4578,15 +4578,15 @@ Inclui todos os atos e diligências processuais.
 	:NotaAplicacao ;
 	:conteudo "Recurso das decisões dos Conservadores e Notários".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.751_3
-:na_c600.30.751_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Recurso das decisões da entidade competente no âmbito dos domínios.pt".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.751_4
 :na_c600.30.751_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Recurso das decisões das entidades reguladoras em geral".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.30.751_3
+:na_c600.30.751_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Recurso das decisões da entidade competente no âmbito dos domínios.pt".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c600.30.751
 :c600.30.751 rdf:type owl:NamedIndividual ,
@@ -4770,7 +4770,7 @@ Este processo inicia-se com o pedido do interessado, seguindo-se a citação par
 	:temPai :c600.30 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteIniciador :org_GMG ;
+	:temParticipanteIniciador :org_GMG-MJ ;
 	:temParticipanteAssessor :org_SGMJ ;
 	:temParticipanteComunicador :org_SGMJ ;
 	:temDono :org_MP ;
@@ -4809,25 +4809,25 @@ Inclui registo, acompanhado pela hierarquia, diligências, registo de depoimento
 	:temNotaAplicacao :na_c600.40_2 ;
 	:classeStatus "A" ;
 	:descricao "Compreende as atividades relacionadas com o processamento e controlo da execução de penas e medidas, privativas ou não da liberdade, no que se inclui o processamento de contraordenações da competência das autoridades judiciais.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.001_1
-:na_c600.40.001_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Processo único do recluso (PUR) no tribunal de execução de penas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.001_2
 :na_c600.40.001_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Em caso de cumprimento de pena de prisão".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.001_4
+:na_c600.40.001_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Processo individual do recluso em estabelecimento prisional apenas nos atos que requerem o acompanhamento e fiscalização do tribunal de execução de penas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.001_3
 :na_c600.40.001_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Prisão por dias livres e regime de smidetenção".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.001_4
-:na_c600.40.001_4 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.001_1
+:na_c600.40.001_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Processo individual do recluso em estabelecimento prisional apenas nos atos que requerem o acompanhamento e fiscalização do tribunal de execução de penas".
+	:conteudo "Processo único do recluso (PUR) no tribunal de execução de penas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.001_5
 :na_c600.40.001_5 rdf:type owl:NamedIndividual ,
@@ -4900,14 +4900,6 @@ Inclui ainda as comunicações das decisões ao tribunal à ordem do qual o argu
 	:descricao "Processamento de ingresso, afetação e transferência, avaliação, programação e execução do tratamento prisional e da libertação de recluso em estabelecimento prisional, previstos no código de execução das penas e medidas privativas da liberdade e no regulamento geral dos estabelecimentos prisionais.
 Inicia com a verificação do título que determina o ingresso em estabelecimento prisional e termina com a concretização da libertação.
 Para além dos procedimentos de ingresso e da afetação inclui os de alojamento e da avaliação inicial, de colocação e cessação em regime comum, aberto e de segurança, de avaliação de recluso, de elaboração, execução e acompanhamento do plano individual de readaptação, do plano terapêutico de reabilitação e da prisão preventiva, de autorização de realização de visita pessoal, regular, ocasional e urgente, de autorização dos contactos telefónicos- inscrição ou alteração dos números de telefone de contato do recluso - de concessão de licença de saída administrativa, de prestação de apoio social e económico na situação de reclusão, de aplicação de medidas disciplinares.".
-###  http://jcr.di.uminho.pt/m51-clav#c600.40.002.01
-:c600.40.002.01 rdf:type owl:NamedIndividual ,
-	:Classe_N4;
-	:codigo "600.40.002.01";
-	:titulo "Execução de pena e medida privativa da liberdade em meio prisional: registo de dados";
-	:temPai :c600.40.002 ;
-	:classeStatus "A" ;
-	:descricao "Registo dos dados do ingresso, afetação, transferência, avaliação, programação e execução do tratamento prisional, regime em que se encontra, apoio social e económico, registo de saídas administrativas e registo de libertação de recluso em estabelecimento prisional.".
 ###  http://jcr.di.uminho.pt/m51-clav#c600.40.002.02
 :c600.40.002.02 rdf:type owl:NamedIndividual ,
 	:Classe_N4;
@@ -4916,6 +4908,14 @@ Para além dos procedimentos de ingresso e da afetação inclui os de alojamento
 	:temPai :c600.40.002 ;
 	:classeStatus "A" ;
 	:descricao "Processamento da informação para o ingresso, afetação, transferência, a avaliação, a programação e execução do tratamento prisional, pedido de telefones de contacto (inscrição ou alteração de números), pedido de autorização de visitas, pedidos de notificação e certidão de notificação de recluso, pedidos de colocação em regime aberto no interior, pedidos e guias de saida de curta duração  e de outras saídas administrativas, pedidos de apoio social e económico. Inclui todos os pareceres e despachos".
+###  http://jcr.di.uminho.pt/m51-clav#c600.40.002.01
+:c600.40.002.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "600.40.002.01";
+	:titulo "Execução de pena e medida privativa da liberdade em meio prisional: registo de dados";
+	:temPai :c600.40.002 ;
+	:classeStatus "A" ;
+	:descricao "Registo dos dados do ingresso, afetação, transferência, avaliação, programação e execução do tratamento prisional, regime em que se encontra, apoio social e económico, registo de saídas administrativas e registo de libertação de recluso em estabelecimento prisional.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.003_1
 :na_c600.40.003_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -5009,25 +5009,25 @@ Inicia com um pedido e termina com despacho do pedido.".
 Inicia com a entrada do jovem e termina com o cumprimento da medida.
 Inclui os procedimentos de ingresso, afetação e cessação do internamento previstos na lei tutelar educativa e no regulamento geral e disciplinar dos centros educativos.
 Inclui ainda a elaboração, execução, acompanhamento e monitorização do plano que define os objetivos a alcançar pelo jovem internado (PEP – Projeto educativo pessoal) tendo em vista a reinserção do jovem no meio familiar, socioprofissional e escolar através da participação em atividades formativas, laborais e ocupacionais.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.200_1
-:na_c600.40.200_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Cumprimento da medida de coação de obrigação de permanência na habitação, prevista no artigo 201º do Código de Processo Penal".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.200_2
 :na_c600.40.200_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Execução da pena de prisão em regime de permanência na habitação, prevista no artigo 44º do Código Penal".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.200_3
-:na_c600.40.200_3 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.200_1
+:na_c600.40.200_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Execução da adaptação à liberdade condicional, prevista no artigo 62º do Código Penal".
+	:conteudo "Cumprimento da medida de coação de obrigação de permanência na habitação, prevista no artigo 201º do Código de Processo Penal".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.200_4
 :na_c600.40.200_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Modificação da execução da pena de prisão, prevista no artigo 120º do Código da Execução das Penas e Medidas Privativas da Liberdade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.200_3
+:na_c600.40.200_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Execução da adaptação à liberdade condicional, prevista no artigo 62º do Código Penal".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.200_5
 :na_c600.40.200_5 rdf:type owl:NamedIndividual ,
@@ -5101,7 +5101,6 @@ Inicia-se com a decisão judicial e termina após o prazo fixado, por revogaçã
 	:eCruzadoCom :c600.10.007 ;
 	:eSucessorDe :c600.40.001 ;
 	:eSucessorDe :c600.40.002 ;
-	:temRelProc :c600.30. ;
 	:temLegislacao :leg_1139 ;
 	:temLegislacao :leg_1055 ;
 	:temLegislacao :leg_1059 ;
@@ -5194,15 +5193,15 @@ Inclui ainda a elaboração de um plano de trabalhos a executar, a colocação n
 	:NotaAplicacao ;
 	:conteudo "Acompanhamento de medida de coação não privativa da liberdade".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.302_3
-:na_c600.40.302_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Acompanhamento de medida de segurança não privativa da liberdade".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.302_4
 :na_c600.40.302_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Acompanhamento da liberdade  condicional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.302_3
+:na_c600.40.302_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento de medida de segurança não privativa da liberdade".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.302_5
 :na_c600.40.302_5 rdf:type owl:NamedIndividual ,
@@ -5266,18 +5265,18 @@ Inclui ainda a elaboração de um plano de trabalhos a executar, a colocação n
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Realização de supervisão técnica dos condenados a penas e medidas na comunidade.
-Inicia com um pedido do tribunal e termina com a extinção da pena ou  medida
+Inicia com um pedido do tribunal e termina com a extinção da pena ou  medida.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_2
-:na_c600.40.303_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Reparação ao ofendido".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_1
 :na_c600.40.303_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Privação do direito de conduzir ciclomotores ou de obter permissão para conduzir ciclomotores".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_2
+:na_c600.40.303_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reparação ao ofendido".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_3
 :na_c600.40.303_3 rdf:type owl:NamedIndividual ,
@@ -5289,15 +5288,15 @@ Inicia com um pedido do tribunal e termina com a extinção da pena ou  medida
 	:NotaAplicacao ;
 	:conteudo "Imposição de regras de conduta".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_5
-:na_c600.40.303_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Imposição de obrigações".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_6
 :na_c600.40.303_6 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Frequência de programas formativos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_5
+:na_c600.40.303_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Imposição de obrigações".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.303_7
 :na_c600.40.303_7 rdf:type owl:NamedIndividual ,
@@ -5345,7 +5344,7 @@ Inclui os contatos com as instituições locais e os relatórios sociais.".
 	:temDono :org_CS ;
 	:eSintetizadoPor :c150.40.001 ;
 	:eAntecessorDe :c600.40.500 ;
-	:temRelProc :c600.40.600 ;
+	:eAntecessorDe :c600.40.600 ;
 	:temLegislacao :leg_1400 ;
 	:temLegislacao :leg_1263 ;
 	:classeStatus "A" ;
@@ -5374,16 +5373,6 @@ Inclui relatórios que resumem o resultado das consultas às bases de dados da a
 	:descricao "Meio processual para efeitos de reparação efetiva de direito violado quando esteja em causa uma obrigação de pagamento de quantia certa, entrega de coisa certa, prestação de facto ou prestação de alimentos.
 Inicia-se com um requerimento executivo e termina com a declaração de extinção.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#c600.40.500.01
-:c600.40.500.01 rdf:type owl:NamedIndividual ,
-	:Classe_N4;
-	:codigo "600.40.500.01";
-	:titulo "Ação executiva: de valor igual ou inferior à alçada do Tribunal da Relação";
-	:temPai :c600.40.500 ;
-	:classeStatus "A" ;
-	:descricao "Meio processual para efeitos de reparação efetiva de direito violado quando esteja em causa uma obrigação de pagamento de quantia certa, entrega de coisa certa, prestação de facto ou prestação de alimentos de valor igual ou inferior à alçada do Tribunal da Relação.
-Inicia-se com um requerimento executivo e termina com a declaração de extinção.
-".
 ###  http://jcr.di.uminho.pt/m51-clav#c600.40.500.02
 :c600.40.500.02 rdf:type owl:NamedIndividual ,
 	:Classe_N4;
@@ -5394,6 +5383,27 @@ Inicia-se com um requerimento executivo e termina com a declaração de extinç�
 	:descricao "Meio processual para efeitos de reparação efetiva de direito violado quando esteja em causa uma obrigação de pagamento de quantia certa, entrega de coisa certa, prestação de facto ou prestação de alimentos de valor superior à alçada do Tribunal da Relação.
 Inicia-se com um requerimento executivo e termina com a declaração de extinção.
 ".
+###  http://jcr.di.uminho.pt/m51-clav#c600.40.500.01
+:c600.40.500.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "600.40.500.01";
+	:titulo "Ação executiva: de valor igual ou inferior à alçada do Tribunal da Relação";
+	:temPai :c600.40.500 ;
+	:classeStatus "A" ;
+	:descricao "Meio processual para efeitos de reparação efetiva de direito violado quando esteja em causa uma obrigação de pagamento de quantia certa, entrega de coisa certa, prestação de facto ou prestação de alimentos de valor igual ou inferior à alçada do Tribunal da Relação.
+Inicia-se com um requerimento executivo e termina com a declaração de extinção.
+".
+###  http://jcr.di.uminho.pt/m51-clav#c600.40.600.01
+:c600.40.600.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "600.40.600.01";
+	:titulo "Execução por custas, multas, coimas e outras quantias contadas ou liquidadas: de valor igual ou inferior à alçada do Tribunal da Relação";
+	:temPai :c600.40.600 ;
+	:classeStatus "A" ;
+	:descricao "Processamento da cobrança coerciva de custas multas e outras quantias cobradas no âmbito do Regulamento das Custas Processuais de valor igual ou inferior à alçada do Tribunal da Relação.
+Inicia com o envio de uma certidão ao Ministério Público que, quando conclua pela existência de bens penhoráveis, apresenta um requerimento executivo.
+Termina com uma decisão de extinção pelo pagamento ou de arquivamento por inexistência de bens penhoráveis, sem prejuízo de ser retomada logo que sejam conhecidos bens penhoráveis.
+Inclui, com as devidas adaptações, o processo sumário para execução de quantia certa.".
 ###  http://jcr.di.uminho.pt/m51-clav#c600.40.600
 :c600.40.600 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -5405,24 +5415,13 @@ Inicia-se com um requerimento executivo e termina com a declaração de extinç�
 	:temParticipanteComunicador :org_AP ;
 	:temDono :org_Trb ;
 	:eSintetizadoPor :c150.40.001 ;
-	:temRelProc :c600.40.400 ;
+	:eSucessorDe :c600.40.400 ;
 	:temLegislacao :leg_681 ;
 	:temLegislacao :leg_1146 ;
 	:classeStatus "A" ;
 	:processoDimQual "Média" ;
 	:processoUniform "S" ;
 	:descricao "Processamento da cobrança coerciva de custas multas e outras quantias cobradas no âmbito do Regulamento das Custas Processuais.
-Inicia com o envio de uma certidão ao Ministério Público que, quando conclua pela existência de bens penhoráveis, apresenta um requerimento executivo.
-Termina com uma decisão de extinção pelo pagamento ou de arquivamento por inexistência de bens penhoráveis, sem prejuízo de ser retomada logo que sejam conhecidos bens penhoráveis.
-Inclui, com as devidas adaptações, o processo sumário para execução de quantia certa.".
-###  http://jcr.di.uminho.pt/m51-clav#c600.40.600.01
-:c600.40.600.01 rdf:type owl:NamedIndividual ,
-	:Classe_N4;
-	:codigo "600.40.600.01";
-	:titulo "Execução por custas, multas, coimas e outras quantias contadas ou liquidadas: de valor igual ou inferior à alçada do Tribunal da Relação";
-	:temPai :c600.40.600 ;
-	:classeStatus "A" ;
-	:descricao "Processamento da cobrança coerciva de custas multas e outras quantias cobradas no âmbito do Regulamento das Custas Processuais de valor igual ou inferior à alçada do Tribunal da Relação.
 Inicia com o envio de uma certidão ao Ministério Público que, quando conclua pela existência de bens penhoráveis, apresenta um requerimento executivo.
 Termina com uma decisão de extinção pelo pagamento ou de arquivamento por inexistência de bens penhoráveis, sem prejuízo de ser retomada logo que sejam conhecidos bens penhoráveis.
 Inclui, com as devidas adaptações, o processo sumário para execução de quantia certa.".
@@ -5447,15 +5446,15 @@ Inclui, com as devidas adaptações, o processo sumário para execução de quan
 	:NotaAplicacao ;
 	:conteudo "Tributos incluindo impostos, direitos e demais imposições aduaneiras, especiais e extrafiscais, taxas, demais contribuições financeiras a favor do Estado, adicionais cumulativamente cobrados, juros e outros encargos legais".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.700_3
-:na_c600.40.700_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Coimas e outras sanções pecuniárias fixadas em decisões, sentenças ou acórdãos relativos a contraordenações tributárias, salvo quando aplicadas pelos tribunais comuns".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.700_4
 :na_c600.40.700_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Coimas e outras sanções pecuniárias decorrentes da responsabilidade civil determinada nos termos do Regime Geral das Infrações Tributárias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c600.40.700_3
+:na_c600.40.700_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Coimas e outras sanções pecuniárias fixadas em decisões, sentenças ou acórdãos relativos a contraordenações tributárias, salvo quando aplicadas pelos tribunais comuns".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c600.40.700
 :c600.40.700 rdf:type owl:NamedIndividual ,
@@ -5492,7 +5491,7 @@ Pode incluir, incidentes de natureza declarativa, esses sim que correm no tribun
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteAssessor :org_DGPJ ;
-	:temParticipanteComunicador :org_GMG ;
+	:temParticipanteComunicador :org_GMG-MJ ;
 	:temParticipanteDecisor :org_PGR ;
 	:temDono :org_Trb ;
 	:classeStatus "A" ;

@@ -1,13 +1,13 @@
 ### Classe350
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350_1
-:ne_c350_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Os procedimentos de preparação do orçamento e das alterações orçamentais, cativação/descativação de verbas, e a prestação de contas, devem ser considerados em \"Planeamento e gestão estratégica/Planeamento, avaliação e melhoria dos serviços\" (150.20);O exercício de direitos de acionista deve ser considerado na área a que diz respeito o exercício de cada processo em concreto – \"Planeamento e gestão estratégia\" (150), \"Ordenamento jurídico e normativo\" (100), entre outras;O controlo da emissão e circulação de moeda deve ser considerado no âmbito da \"Supervisão, controlo e responsabilização\" (500) ou do \"Ordenamento jurídico e normativo\" (100), de acordo com o processo em causa.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350_1
 :na_c350_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Abrange a execução do conjunto dos orçamentos de receita e de despesa (correntes e de capital) dos serviços públicos e fundos autónomos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c350_1
+:ne_c350_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os procedimentos de preparação do orçamento e das alterações orçamentais, cativação/descativação de verbas, e a prestação de contas, devem ser considerados em \"Planeamento e gestão estratégica/Planeamento, avaliação e melhoria dos serviços\" (150.20);O exercício de direitos de acionista deve ser considerado na área a que diz respeito o exercício de cada processo em concreto – \"Planeamento e gestão estratégia\" (150), \"Ordenamento jurídico e normativo\" (100), entre outras;O controlo da emissão e circulação de moeda deve ser considerado no âmbito da \"Supervisão, controlo e responsabilização\" (500) ou do \"Ordenamento jurídico e normativo\" (100), de acordo com o processo em causa.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c350
 :c350 rdf:type owl:NamedIndividual ,
@@ -105,7 +105,6 @@ Inclui o processamento de isenção, redução ou fracionamento.".
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_DGO ;
-	:temParticipanteDecisor :org_SEO ;
 	:temDono :org_AP ;
 	:temNotaExclusao :ne_c350.10.001_1 ;
 	:eSucessorDe :c150.20.200 ;
@@ -141,15 +140,15 @@ Inclui as propostas de alteração e a respetiva alteração.".
 	:processoUniform "S" ;
 	:descricao "Pedido para antecipação de duodécimos das dotações orçamentais, formalizado quando os pagamentos a efetuar, devido a razões imprevisíveis, ultrapassem o saldo do duodécimo vencido nas respetivas rubricas orçamentais.  
 Inicia com o pedido da necessidade e informação de suporte e termina com a notificação da aprovação ou rejeição do pedido.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.100_1
-:na_c350.10.100_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Apuramento do rendimento tributável do regime simplificado".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.100_2
 :na_c350.10.100_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Apuramento do IRS consignado".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.100_1
+:na_c350.10.100_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apuramento do rendimento tributável do regime simplificado".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.100_1
 :ne_c350.10.100_1 rdf:type owl:NamedIndividual ,
@@ -192,15 +191,15 @@ Inicia com o pedido da necessidade e informação de suporte e termina com a not
 Inicia com a apresentação da declaração anual de IRS pelos sujeitos passivos ou mediante iniciativa da Administração Tributária, e termina com a notificação do resultado da liquidação.
 Inclui todos os procedimentos para liquidação do imposto, nomeadamente a validação da declaração e o cálculo do imposto.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.101_1
-:na_c350.10.101_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Apuramento do rendimento tributável por métodos indiretos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.101_2
 :na_c350.10.101_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Apuramento do rendimento tributável do regime simplificado".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.10.101_1
+:na_c350.10.101_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Apuramento do rendimento tributável por métodos indiretos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.101_1
 :ne_c350.10.101_1 rdf:type owl:NamedIndividual ,
@@ -290,15 +289,15 @@ Inclui todos os procedimentos para liquidação do imposto, nomeadamente a valid
 Inicia com o pedido de revisão, devidamente fundamentado, a apresentar pelo sujeito passivo, com a indicação do perito que o representa, e termina com a notificação do acordo entre os peritos ou, na sua falta, com a notificação da decisão do órgão competente para a fixação da matéria coletável.
 Inclui a nomeação de perito independente, e a realização de uma reunião entre os peritos para estabelecimento de um acordo.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.200_1
-:ne_c350.10.200_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O pagamento do imposto deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.200_2
 :ne_c350.10.200_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A revisão oficiosa da liquidação deve ser considerada em 350.10.515 – Revisão de atos tributários".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.200_1
+:ne_c350.10.200_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O pagamento do imposto deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c350.10.200
 :c350.10.200 rdf:type owl:NamedIndividual ,
@@ -1504,15 +1503,15 @@ Inclui instrução, análise e acompanhamento de processos relativos a pedidos d
 	:ExemploNotaAplicacao ;
 	:conteudo "Receita corrente proveniente da prestação de serviços e da venda".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c350.10.600_10
-:exna_c350.10.600_10 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Restituições, reembolsos, anulações e encontro de contas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c350.10.600_9
 :exna_c350.10.600_9 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Reposições (as abatidas e as não abatidas no pagamento)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c350.10.600_10
+:exna_c350.10.600_10 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Restituições, reembolsos, anulações e encontro de contas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c350.10.600_11
 :exna_c350.10.600_11 rdf:type owl:NamedIndividual ,
@@ -1539,15 +1538,15 @@ Inclui instrução, análise e acompanhamento de processos relativos a pedidos d
 	:NotaExclusao ;
 	:conteudo "Processo específico de liquidação considerado em 350.10 (ex.: apuramento de impostos, processamento de remunerações)".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.600_5
-:ne_c350.10.600_5 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O cálculo da indemnização terá lugar no âmbito do respetivo processo".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.600_6
 :ne_c350.10.600_6 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O cálculo, redução ou isenção de taxa devem ser considerados no âmbito do respetivo processo".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.600_5
+:ne_c350.10.600_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O cálculo da indemnização terá lugar no âmbito do respetivo processo".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c350.10.600_7
 :ne_c350.10.600_7 rdf:type owl:NamedIndividual ,
@@ -1649,15 +1648,15 @@ Inclui o envio e análise dos documentos justificativos, com indicação rigoros
 	:NotaAplicacao ;
 	:conteudo "Cobrança/recebimento de receitas tributárias (impostos, contribuições, taxas, coimas) ou outras (por exemplo juros)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.30_3
-:na_c350.30_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Fluxos financeiros relativos à transferência de verbas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.30_4
 :na_c350.30_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reposições (as abatidas e as não abatidas no pagamento), as restituições, os reembolsos, as anulações, o encontro de contas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.30_3
+:na_c350.30_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Fluxos financeiros relativos à transferência de verbas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.30_5
 :na_c350.30_5 rdf:type owl:NamedIndividual ,
@@ -1712,15 +1711,15 @@ Compreende ainda a rentabilização dos excedentes de tesouraria.".
 	:ExemploNotaAplicacao ;
 	:conteudo "Contas a receber e contas a pagar".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c350.30.001_2
-:exna_c350.30.001_2 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Entradas e saídas de caixa".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c350.30.001_3
 :exna_c350.30.001_3 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Movimentos relativos ao fundo de maneio".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c350.30.001_2
+:exna_c350.30.001_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Entradas e saídas de caixa".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c350.30.001_4
 :exna_c350.30.001_4 rdf:type owl:NamedIndividual ,
@@ -1824,6 +1823,11 @@ corrente e inadiáveis dos serviços e organismos necessárias e urgentes à man
 Inicia com a constituição do fundo e termina com a entrega no final do ano. 
 Inclui a designação do seu responsável.
 ".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c350.30.003_2
+:ne_c350.30.003_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A demonstração da execução orçamental e patrimonial deve ser considerada em 150.20.404 – Prestação de contas".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.30.003_1
 :na_c350.30.003_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1833,11 +1837,6 @@ Inclui a designação do seu responsável.
 :ne_c350.30.003_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O controlo e monitorização da execução orçamental devem ser considerados em 150.20.400 – Acompanhamento da execução orçamental".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c350.30.003_2
-:ne_c350.30.003_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A demonstração da execução orçamental e patrimonial deve ser considerada em 150.20.404 – Prestação de contas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c350.30.003
 :c350.30.003 rdf:type owl:NamedIndividual ,
@@ -1927,15 +1926,15 @@ Inclui o registo da operação.".
 	:descricao "Conferência entre os movimentos dos extratos bancários e os lançamentos efetuados pela entidade.
 Inicia com a receção de informação dos movimentos bancários e termina com uma informação contendo os saldos dos registos bancários e da entidade e, quando for o caso, os valores não reconciliados.
 Inclui a análise comparativa dos registos bancários e dos registos da entidade.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.30.006_1
-:na_c350.30.006_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Conta corrente do recluso no que diz respeito aos procedimentos relacionados com as remunerações de trabalho, as entregas de valores pelas visitas ou pelo correio, bem como os procedimentos relacionados com as aquisições de bens e produtos efetuados pelos reclusos na cantina do estabelecimento prisional ou outras aquisições por ele solicitadas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.30.006_2
 :na_c350.30.006_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Pecúlio do jovem em centro educativo no que diz respeito aos procedimentos relacionados com o dinheiro de bolso, prémios, bolsas de formação, remunerações por trabalho, prestações sociais, donativos de famíliares ou de outras pessoas idóneas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.30.006_1
+:na_c350.30.006_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Conta corrente do recluso no que diz respeito aos procedimentos relacionados com as remunerações de trabalho, as entregas de valores pelas visitas ou pelo correio, bem como os procedimentos relacionados com as aquisições de bens e produtos efetuados pelos reclusos na cantina do estabelecimento prisional ou outras aquisições por ele solicitadas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c350.30.006
 :c350.30.006 rdf:type owl:NamedIndividual ,
@@ -1957,7 +1956,8 @@ Inclui a análise comparativa dos registos bancários e dos registos da entidade
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Processamento de entradas e saídas de dinheiro da conta do recluso no estabelecimento prisional, do jovem internado em centro educativo e de pessoa institucionalizada.
-Inicia com a emissão de documento de receita ou pedido de realização de despesa e termina com a emissão de uma guia de receita ou de uma ordem de pagamento.
+Inicia com a emissão de documento de receita ou pedido de realização de despesa e termina com a 
+emissão de uma guia de receita ou de uma ordem de pagamento.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c350.30.500_1
 :ne_c350.30.500_1 rdf:type owl:NamedIndividual ,
@@ -1984,15 +1984,15 @@ Inicia com a emissão de documento de receita ou pedido de realização de despe
 	:descricao "Aplicação a montantes financeiros em excedente na tesouraria, a prazo, em fundos, aplicações bancárias ou outras.
 Inicia com a decisão de aplicação financeira e termina com o reembolso do valor da aplicação e respetivo rendimento.
 Inclui a análise das propostas de aplicação.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.40_1
-:na_c350.40_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Pedidos de empréstimo de entidades públicas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.40_2
 :na_c350.40_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Emissão de dívida".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.40_1
+:na_c350.40_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Pedidos de empréstimo de entidades públicas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.40_3
 :na_c350.40_3 rdf:type owl:NamedIndividual ,
@@ -2492,15 +2492,15 @@ Inclui recolha de estimativas para efeitos da preparação do Orçamento do Esta
 	:NotaAplicacao ;
 	:conteudo "Liquidação de associações".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c350.40.602_3
-:na_c350.40.602_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Liquidação de outras entidades sem fins lucrativos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.40.602_2
 :na_c350.40.602_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Liquidação de fundações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c350.40.602_3
+:na_c350.40.602_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Liquidação de outras entidades sem fins lucrativos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c350.40.602_4
 :na_c350.40.602_4 rdf:type owl:NamedIndividual ,

@@ -1,4 +1,9 @@
 ### Classe450
+###  http://jcr.di.uminho.pt/m51-clav#ne_c450_1
+:ne_c450_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O processamento de pedidos de reconhecimento do estatuto de igualdade e do estatuto de refugiado, bem como o processamento de pedidos de autorização de residência, devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c450
 :c450 rdf:type owl:NamedIndividual ,
 	:Classe_N1;
@@ -9,11 +14,6 @@
 	:classeStatus "A" ;
 	:descricao "Relativo à atribuição de permissões para o exercício de atividades ou tarefas que observam padrões específicos; ao reconhecimento de características em entidades, serviços ou produtos que os tornam conformes a determinados parâmetros técnicos ou normativos; ao reconhecimento de características em entidades que as tornam passíveis de obter especial proteção ou especial benefício; à comprovação de factos ou atos.
 Relativo, ainda, à formalização notarial de atos jurídicos extrajudiciais, conferindo-lhes fé pública.".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450_1
-:ne_c450_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O processamento de pedidos de reconhecimento do estatuto de igualdade e do estatuto de refugiado, bem como o processamento de pedidos de autorização de residência, devem ser considerados em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10_1
 :na_c450.10_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -40,11 +40,6 @@ Relativo, ainda, à formalização notarial de atos jurídicos extrajudiciais, c
 	:temNotaExclusao :ne_c450.10_1 ;
 	:classeStatus "A" ;
 	:descricao "Compreende os processos de natureza permissiva - licenciamento, acreditação, certificação, homologação, credenciação e outras autorizações que visam possibilitar o exercício de uma atividade ou reconhecer a conformidade de um produto ou serviço a determinados parâmetros legais ou normativos.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.062_2
-:na_c450.10.062_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Alteração da atividade exercida no estabelecimento".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.062_1
 :na_c450.10.062_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -54,6 +49,11 @@ Relativo, ainda, à formalização notarial de atos jurídicos extrajudiciais, c
 :na_c450.10.062_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Mudança de nome ou de insígnia do estabelecimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.062_2
+:na_c450.10.062_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Alteração da atividade exercida no estabelecimento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.062_4
 :na_c450.10.062_4 rdf:type owl:NamedIndividual ,
@@ -264,7 +264,11 @@ Inclui análise preliminar, verificação das condições de segurança das inst
 	:temParticipanteApreciador :org_GNR ;
 	:temParticipanteApreciador :org_PSP ;
 	:temParticipanteApreciador :org_IES ;
-	:temParticipanteApreciador :org_CCDR ;
+	:temParticipanteApreciador :org_CCDR-N ;
+	:temParticipanteApreciador :org_CCDR-C ;
+	:temParticipanteApreciador :org_CCDR-LVT ;
+	:temParticipanteApreciador :org_CCDR-Aln ;
+	:temParticipanteApreciador :org_CCDR-Alg ;
 	:temParticipanteApreciador :org_DGAV ;
 	:temParticipanteApreciador :org_IES ;
 	:temParticipanteApreciador :org_CPL ;
@@ -356,7 +360,11 @@ Inclui análise preliminar, caracterização do tipo de transporte e da carga tr
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_AL ;
-	:temParticipanteApreciador :org_CCDR ;
+	:temParticipanteApreciador :org_CCDR-N ;
+	:temParticipanteApreciador :org_CCDR-C ;
+	:temParticipanteApreciador :org_CCDR-LVT ;
+	:temParticipanteApreciador :org_CCDR-Aln ;
+	:temParticipanteApreciador :org_CCDR-Alg ;
 	:temParticipanteApreciador :org_DGADR ;
 	:temDono :org_TP ;
 	:temDono :org_AL ;
@@ -439,15 +447,15 @@ Inclui realização de vistoria, definição da capacidade máxima de utilizador
 Inicia com o pedido e termina com a comunicação da decisão ao interessado e às forças de segurança e de inspeção competentes.
 Inclui análise preliminar, validação e verificação de qualificações profissionais, vistoria (quando devido)  a instalações e meios materiais a utilizar na atividade, consulta de entidades, submissão para decisão ao membro do governo competente, decisão, cálculo do valor da taxa devida e entrega do comprovativo do seu pagamento, emissão de cartões de vigilante, renovação de documentos.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.066_2
-:na_c450.10.066_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Permissão para realizar ações tendentes à alteração do revestimento vegetal e do relevo natural do solo arável".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.066_1
 :na_c450.10.066_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Permissão para atividades de aquicultura e de pesca".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.066_2
+:na_c450.10.066_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Permissão para realizar ações tendentes à alteração do revestimento vegetal e do relevo natural do solo arável".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.066_3
 :na_c450.10.066_3 rdf:type owl:NamedIndividual ,
@@ -481,11 +489,19 @@ Inclui análise preliminar, validação e verificação de qualificações profi
 	:temPai :c450.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteApreciador :org_CCDR ;
+	:temParticipanteApreciador :org_CCDR-N ;
+	:temParticipanteApreciador :org_CCDR-C ;
+	:temParticipanteApreciador :org_CCDR-LVT ;
+	:temParticipanteApreciador :org_CCDR-Aln ;
+	:temParticipanteApreciador :org_CCDR-Alg ;
 	:temParticipanteApreciador :org_APA ;
 	:temParticipanteApreciador :org_AL ;
 	:temParticipanteApreciador :org_CPL ;
-	:temDono :org_DRAP ;
+	:temDono :org_DRAP-N ;
+	:temDono :org_DRAP-C ;
+	:temDono :org_DRAP-LVT ;
+	:temDono :org_DRAP-Aln ;
+	:temDono :org_DRAP-Alg ;
 	:temDono :org_ICNF ;
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c450.10.066_1 ;
@@ -521,15 +537,15 @@ Inclui análise preliminar, validação e verificação de qualificações profi
 Inicia com a formulação do pedido e termina com a emissão da licença.
 Inclui análise preliminar, verificação da conformidade com planos de ordenamento aplicáveis, consulta e concertação de entidades, vistoria, quando aplicável, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.068_2
-:na_c450.10.068_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Gestão de todo o tipo de resíduos, incluindo os resíduos radioactivos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.068_1
 :na_c450.10.068_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Operações de imersão e aterro de resíduos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.068_2
+:na_c450.10.068_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Gestão de todo o tipo de resíduos, incluindo os resíduos radioactivos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.068_3
 :na_c450.10.068_3 rdf:type owl:NamedIndividual ,
@@ -552,10 +568,18 @@ Inclui análise preliminar, verificação da conformidade com planos de ordename
 	:temParticipanteApreciador :org_APA ;
 	:temParticipanteApreciador :org_IST ;
 	:temParticipanteApreciador :org_IMT ;
-	:temParticipanteApreciador :org_CCDR ;
+	:temParticipanteApreciador :org_CCDR-N ;
+	:temParticipanteApreciador :org_CCDR-C ;
+	:temParticipanteApreciador :org_CCDR-LVT ;
+	:temParticipanteApreciador :org_CCDR-Aln ;
+	:temParticipanteApreciador :org_CCDR-Alg ;
 	:temDono :org_DGS ;
 	:temDono :org_APA ;
-	:temDono :org_CCDR ;
+	:temDono :org_CCDR-N ;
+	:temDono :org_CCDR-C ;
+	:temDono :org_CCDR-LVT ;
+	:temDono :org_CCDR-Aln ;
+	:temDono :org_CCDR-Alg ;
 	:temNotaAplicacao :na_c450.10.068_1 ;
 	:temNotaAplicacao :na_c450.10.068_2 ;
 	:temNotaAplicacao :na_c450.10.068_3 ;
@@ -649,7 +673,11 @@ Inclui análise preliminar, consulta a entidades, avaliação do projeto de exec
 	:temParticipanteApreciador :org_AL ;
 	:temParticipanteApreciador :org_ANPC ;
 	:temParticipanteApreciador :org_ACT ;
-	:temParticipanteApreciador :org_CCDR ;
+	:temParticipanteApreciador :org_CCDR-N ;
+	:temParticipanteApreciador :org_CCDR-C ;
+	:temParticipanteApreciador :org_CCDR-LVT ;
+	:temParticipanteApreciador :org_CCDR-Aln ;
+	:temParticipanteApreciador :org_CCDR-Alg ;
 	:temParticipanteApreciador :org_DGAV ;
 	:temDono :org_AL ;
 	:temDono :org_DGAE ;
@@ -834,7 +862,11 @@ Inclui análise preliminar, validação do projeto de regulamento, consulta de e
 	:temDono :org_PSP ;
 	:temDono :org_DGV ;
 	:temDono :org_ICNF ;
-	:temDono :org_CCDR ;
+	:temDono :org_CCDR-N ;
+	:temDono :org_CCDR-C ;
+	:temDono :org_CCDR-LVT ;
+	:temDono :org_CCDR-Aln ;
+	:temDono :org_CCDR-Alg ;
 	:temDono :org_PCM ;
 	:temDono :org_IGAC ;
 	:temDono :org_APA ;
@@ -1230,9 +1262,17 @@ Inclui análise do cumprimento dos requisitos e critérios de seleção, fundame
 	:temParticipanteApreciador :org_IPQ ;
 	:temParticipanteApreciador :org_ANPC ;
 	:temParticipanteApreciador :org_CNPRP ;
-	:temParticipanteApreciador :org_ARS ;
+	:temParticipanteApreciador :org_ARS-N ;
+	:temParticipanteApreciador :org_ARS-C ;
+	:temParticipanteApreciador :org_ARS-LVT ;
+	:temParticipanteApreciador :org_ARS-Aln ;
+	:temParticipanteApreciador :org_ARS-Alg ;
 	:temParticipanteApreciador :org_AL ;
-	:temParticipanteApreciador :org_DRS ;
+	:temParticipanteApreciador :org_DRS-N ;
+	:temParticipanteApreciador :org_DRS-C ;
+	:temParticipanteApreciador :org_DRS-LVT ;
+	:temParticipanteApreciador :org_DRS-Aln ;
+	:temParticipanteApreciador :org_DRS-Alg ;
 	:temParticipanteApreciador :org_ACT ;
 	:temDono :org_DGS ;
 	:temDono :org_INEM ;
@@ -1261,15 +1301,15 @@ Inclui análise do cumprimento dos requisitos e critérios de seleção, fundame
 	:descricao "Permissão para o desenvolvimento de atividades  de prestação de serviços na área da saúde humana.
 Inicia com o pedido ou com a submissão eletrónica da declaração de responsabilidade e termina com a emissão da licença.
 Inclui análise do pedido, consulta de entidades, realização de vistoria, fundamentação para a decisão, cálculo do valor da taxa e comprovativo do seu pagamento.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_2
-:na_c450.10.078_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Atividades de tratamento veterinário".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_1
 :na_c450.10.078_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Atividades de prevenção e diagnóstico veterinário".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_2
+:na_c450.10.078_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atividades de tratamento veterinário".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.078_3
 :na_c450.10.078_3 rdf:type owl:NamedIndividual ,
@@ -1402,15 +1442,15 @@ Inclui análise do pedido, cálculo da taxa devida e comprovativo do seu pagamen
 de compra e venda, bem como de arrendamento e exploração de bens imobiliários nomeadamente, edifícios residenciais, não residenciais e de terrenos.
 Inicia com o pedido e termina com a emissão de título habilitante.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.200_1
-:na_c450.10.200_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Informação prévia para instalação de farmácia".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.200_2
 :na_c450.10.200_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Informação prévia de operações urbanísticas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.200_1
+:na_c450.10.200_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Informação prévia para instalação de farmácia".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.200_3
 :na_c450.10.200_3 rdf:type owl:NamedIndividual ,
@@ -1524,11 +1564,19 @@ Inclui consulta de entidades, disponibilização de informação sobre o procedi
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_AL ;
-	:temParticipanteApreciador :org_CCDR ;
+	:temParticipanteApreciador :org_CCDR-N ;
+	:temParticipanteApreciador :org_CCDR-C ;
+	:temParticipanteApreciador :org_CCDR-LVT ;
+	:temParticipanteApreciador :org_CCDR-Aln ;
+	:temParticipanteApreciador :org_CCDR-Alg ;
 	:temParticipanteApreciador :org_APA ;
 	:temParticipanteApreciador :org_DGT ;
 	:temDono :org_AL ;
-	:temDono :org_CCDR ;
+	:temDono :org_CCDR-N ;
+	:temDono :org_CCDR-C ;
+	:temDono :org_CCDR-LVT ;
+	:temDono :org_CCDR-Aln ;
+	:temDono :org_CCDR-Alg ;
 	:temNotaAplicacao :na_c450.10.201_1 ;
 	:temNotaExclusao :ne_c450.10.201_1 ;
 	:eSintetizadoPor :c150.20.300 ;
@@ -1550,15 +1598,15 @@ Inclui consulta de entidades, disponibilização de informação sobre o procedi
 	:descricao "Controlo prévio de operações de constituição de lotes destinados à edificação urbana e que resultem da divisão de um ou vários prédios, ou do seu reparcelamento.
 Inicia com o pedido ou a apresentação da comunicação prévia e termina com a emissão da licença ou a  deliberação final referente à comunicação prévia.
 Inclui apreciação liminar do pedido, apreciação de projeto, consulta de entidades, definição da área de construção e de implantação,  definição de áreas a afetar a espaço público, discussão pública, cálculo da taxa devida e comprovativo do seu pagamento".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.202_1
-:ne_c450.10.202_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A autorização para intervenção nos terrenos no âmbito arqueológico deve ser considerada em PN 450.10.230 – Autorização de trabalhos arqueológicos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.202_1
 :na_c450.10.202_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Modalidades de licença e admissão de comunicação prévia".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.202_1
+:ne_c450.10.202_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A autorização para intervenção nos terrenos no âmbito arqueológico deve ser considerada em PN 450.10.230 – Autorização de trabalhos arqueológicos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.202
 :c450.10.202 rdf:type owl:NamedIndividual ,
@@ -1568,7 +1616,11 @@ Inclui apreciação liminar do pedido, apreciação de projeto, consulta de enti
 	:temPai :c450.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteApreciador :org_CCDR ;
+	:temParticipanteApreciador :org_CCDR-N ;
+	:temParticipanteApreciador :org_CCDR-C ;
+	:temParticipanteApreciador :org_CCDR-LVT ;
+	:temParticipanteApreciador :org_CCDR-Aln ;
+	:temParticipanteApreciador :org_CCDR-Alg ;
 	:temParticipanteApreciador :org_APA ;
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c450.10.202_1 ;
@@ -1594,15 +1646,15 @@ Inclui apreciação liminar do pedido, consulta de entidades, discussão públic
 	:NotaAplicacao ;
 	:conteudo "Criação de espaços verdes e outros espaços de utilização coletiva".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.203_2
-:na_c450.10.203_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Criação de infraestruturas de arruamentos viários e pedonais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.203_3
 :na_c450.10.203_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Criação de infraestruturas de eletricidade, gás e telecomunicações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.203_2
+:na_c450.10.203_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Criação de infraestruturas de arruamentos viários e pedonais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.203_4
 :na_c450.10.203_4 rdf:type owl:NamedIndividual ,
@@ -1622,11 +1674,19 @@ Inclui apreciação liminar do pedido, consulta de entidades, discussão públic
 	:temPai :c450.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteApreciador :org_CCDR ;
+	:temParticipanteApreciador :org_CCDR-N ;
+	:temParticipanteApreciador :org_CCDR-C ;
+	:temParticipanteApreciador :org_CCDR-LVT ;
+	:temParticipanteApreciador :org_CCDR-Aln ;
+	:temParticipanteApreciador :org_CCDR-Alg ;
 	:temParticipanteApreciador :org_APA ;
 	:temParticipanteApreciador :org_DGT ;
 	:temDono :org_AL ;
-	:temDono :org_CCDR ;
+	:temDono :org_CCDR-N ;
+	:temDono :org_CCDR-C ;
+	:temDono :org_CCDR-LVT ;
+	:temDono :org_CCDR-Aln ;
+	:temDono :org_CCDR-Alg ;
 	:temNotaAplicacao :na_c450.10.203_1 ;
 	:temNotaAplicacao :na_c450.10.203_2 ;
 	:temNotaAplicacao :na_c450.10.203_3 ;
@@ -1702,7 +1762,11 @@ Inclui apresentação do projeto e respetivo termo de responsabilidade, aprecia�
 	:temPai :c450.10 ;
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
-	:temParticipanteApreciador :org_CCDR ;
+	:temParticipanteApreciador :org_CCDR-N ;
+	:temParticipanteApreciador :org_CCDR-C ;
+	:temParticipanteApreciador :org_CCDR-LVT ;
+	:temParticipanteApreciador :org_CCDR-Aln ;
+	:temParticipanteApreciador :org_CCDR-Alg ;
 	:temParticipanteApreciador :org_APA ;
 	:temParticipanteApreciador :org_DGPC ;
 	:temParticipanteIniciador :org_AP ;
@@ -1850,15 +1914,15 @@ Inclui apresentação do termo de responsabilidade, ou na sua falta, realizaçã
 	:NotaExclusao ;
 	:conteudo "A autorização para desenvolver atividades de exploração pecuária extensiva e de pastoreio devem ser consideradas em 450.10.066 – Licenciamento ou autorização de atividades agrícolas, pecuárias, florestais, de caça e de pesca".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.207_2
-:ne_c450.10.207_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A fiscalização deve ser considerada em 500.10.301 – Realização de fiscalização".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.207_3
 :ne_c450.10.207_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O pagamento da taxa devida deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.207_2
+:ne_c450.10.207_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A fiscalização deve ser considerada em 500.10.301 – Realização de fiscalização".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.207_4
 :ne_c450.10.207_4 rdf:type owl:NamedIndividual ,
@@ -1884,12 +1948,24 @@ Inclui apresentação do termo de responsabilidade, ou na sua falta, realizaçã
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_APA ;
-	:temParticipanteApreciador :org_CCDR ;
+	:temParticipanteApreciador :org_CCDR-N ;
+	:temParticipanteApreciador :org_CCDR-C ;
+	:temParticipanteApreciador :org_CCDR-LVT ;
+	:temParticipanteApreciador :org_CCDR-Aln ;
+	:temParticipanteApreciador :org_CCDR-Alg ;
 	:temParticipanteApreciador :org_AL ;
 	:temParticipanteApreciador :org_ICNF ;
-	:temParticipanteApreciador :org_ARS ;
+	:temParticipanteApreciador :org_ARS-N ;
+	:temParticipanteApreciador :org_ARS-C ;
+	:temParticipanteApreciador :org_ARS-LVT ;
+	:temParticipanteApreciador :org_ARS-Aln ;
+	:temParticipanteApreciador :org_ARS-Alg ;
 	:temParticipanteApreciador :org_ACT ;
-	:temDono :org_DRAP ;
+	:temDono :org_DRAP-N ;
+	:temDono :org_DRAP-C ;
+	:temDono :org_DRAP-LVT ;
+	:temDono :org_DRAP-Aln ;
+	:temDono :org_DRAP-Alg ;
 	:temNotaAplicacao :na_c450.10.207_1 ;
 	:temNotaAplicacao :na_c450.10.207_2 ;
 	:temNotaAplicacao :na_c450.10.207_3 ;
@@ -1978,15 +2054,15 @@ Inclui  apreciação de pedido, consulta e concertação de entidades, comunica�
 	:NotaExclusao ;
 	:conteudo "O pagamento da taxa devida deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.208_4
-:ne_c450.10.208_4 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Avaliação ambiental deve ser em 450.10.229 – Procedimento de avaliação de impactos ambientais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.208_5
 :ne_c450.10.208_5 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A construção das instalações pecuárias deve ser considerada em 450.10.204 – Licenciamento ou autorização de edificações".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.208_4
+:ne_c450.10.208_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Avaliação ambiental deve ser em 450.10.229 – Procedimento de avaliação de impactos ambientais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.208_6
 :ne_c450.10.208_6 rdf:type owl:NamedIndividual ,
@@ -2007,14 +2083,22 @@ Inclui  apreciação de pedido, consulta e concertação de entidades, comunica�
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_APA ;
-	:temParticipanteApreciador :org_CCDR ;
+	:temParticipanteApreciador :org_CCDR-N ;
+	:temParticipanteApreciador :org_CCDR-C ;
+	:temParticipanteApreciador :org_CCDR-LVT ;
+	:temParticipanteApreciador :org_CCDR-Aln ;
+	:temParticipanteApreciador :org_CCDR-Alg ;
 	:temParticipanteApreciador :org_AL ;
 	:temParticipanteApreciador :org_ACT ;
 	:temParticipanteApreciador :org_DGS ;
 	:temParticipanteApreciador :org_INFARMED ;
 	:temParticipanteApreciador :org_ICNF ;
 	:temParticipanteApreciador :org_DGEG ;
-	:temParticipanteApreciador :org_DRAP ;
+	:temParticipanteApreciador :org_DRAP-N ;
+	:temParticipanteApreciador :org_DRAP-C ;
+	:temParticipanteApreciador :org_DRAP-LVT ;
+	:temParticipanteApreciador :org_DRAP-Aln ;
+	:temParticipanteApreciador :org_DRAP-Alg ;
 	:temDono :org_IAPMEI ;
 	:temNotaAplicacao :na_c450.10.208_1 ;
 	:temNotaAplicacao :na_c450.10.208_2 ;
@@ -2116,6 +2200,11 @@ Inclui apreciação liminar do pedido, consulta de entidades, definição de con
 	:NotaExclusao ;
 	:conteudo "A análise  aos afluentes deve ser considerada em 800.10.601 – Realização de ensaios laboratoriais".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.212_1
+:na_c450.10.212_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Intervenções em redes subterrâneas de abastecimento de água".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.210
 :c450.10.210 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -2151,11 +2240,6 @@ Inicia com o pedido e termina com a autorização.
 inclui apresentação de resultado de análises, definição de programas de autocontrolo da qualidade de águas residuais e de medidas preventivas, consulta de entidades, quando devido, cálculo da taxa devida e apresentação do comprovativo do seu pagamento.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.212_1
-:na_c450.10.212_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Intervenções em redes subterrâneas de abastecimento de água".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.212_2
 :na_c450.10.212_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -2166,11 +2250,6 @@ inclui apresentação de resultado de análises, definição de programas de aut
 	:NotaAplicacao ;
 	:conteudo "Intervenções em redes elétricas subterrâneas".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.212_4
-:na_c450.10.212_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Intervenções em redes eletrónicas subterrâneas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.212_5
 :na_c450.10.212_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -2180,6 +2259,11 @@ inclui apresentação de resultado de análises, definição de programas de aut
 :na_c450.10.212_6 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Intervenções na rede de saneamento básico".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.212_4
+:na_c450.10.212_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Intervenções em redes eletrónicas subterrâneas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.212_1
 :ne_c450.10.212_1 rdf:type owl:NamedIndividual ,
@@ -2382,7 +2466,6 @@ Inclui análise do projeto, consulta de entidades, cálculo do valor da taxa dev
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_DGPC ;
-	:temParticipanteApreciador :org_IP, SA ;
 	:temParticipanteApreciador :org_IMT ;
 	:temParticipanteApreciador :org_TP ;
 	:temParticipanteApreciador :org_ICNF ;
@@ -2477,7 +2560,11 @@ Inclui indicação da localização da atividade ruidosa e do período de ativid
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_AL ;
-	:temParticipanteApreciador :org_ARS ;
+	:temParticipanteApreciador :org_ARS-N ;
+	:temParticipanteApreciador :org_ARS-C ;
+	:temParticipanteApreciador :org_ARS-LVT ;
+	:temParticipanteApreciador :org_ARS-Aln ;
+	:temParticipanteApreciador :org_ARS-Alg ;
 	:temDono :org_INFARMED ;
 	:temNotaAplicacao :na_c450.10.216_1 ;
 	:temNotaAplicacao :na_c450.10.216_2 ;
@@ -2699,7 +2786,11 @@ Inclui análise técnica, condicionantes de natureza ambiental e de conservaçã
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_EGAG ;
 	:temDono :org_APA ;
-	:temDono :org_DRAP ;
+	:temDono :org_DRAP-N ;
+	:temDono :org_DRAP-C ;
+	:temDono :org_DRAP-LVT ;
+	:temDono :org_DRAP-Aln ;
+	:temDono :org_DRAP-Alg ;
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c450.10.223_1 ;
 	:temNotaExclusao :ne_c450.10.223_1 ;
@@ -2752,15 +2843,15 @@ Inclui análise técnica, consulta de entidades, cálculo da taxa devida e apres
 	:NotaAplicacao ;
 	:conteudo "Pedidos de registo dos locais de venda de medicamentos não sujeitos a receita médica para dispensarem medicamentos ao domicílio e aceitarem pedidos feitos através da Internet".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.227_1
-:ne_c450.10.227_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O Pagamento da taxa deve ser classificado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.227_2
 :ne_c450.10.227_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A aplicação da medida de suspensão do alvará de funcionamento deve ser classificada em 500.30.002 – Aplicação de sanções".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.227_1
+:ne_c450.10.227_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O Pagamento da taxa deve ser classificado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.227
 :c450.10.227 rdf:type owl:NamedIndividual ,
@@ -2805,15 +2896,15 @@ Inclui validação da documentação necessária à instrução dos processos, f
 	:NotaAplicacao ;
 	:conteudo "Armazém de exportação".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.228_4
-:na_c450.10.228_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Armazém de domiciliação".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.228_5
 :na_c450.10.228_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Entreposto fiscal de produção e de armazenagem".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.228_4
+:na_c450.10.228_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Armazém de domiciliação".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.228_1
 :ne_c450.10.228_1 rdf:type owl:NamedIndividual ,
@@ -2860,10 +2951,10 @@ Inclui análise do pedido, verificação do cumprimento de requisitos, realizaç
 	:NotaAplicacao ;
 	:conteudo "Projetos públicos e privados suscetíveis de produzirem efeitos significativos no ambiente, de acordo com a legislação em vigor".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.229_2
-:na_c450.10.229_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Avaliação do impacto ambiental".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.229_2
+:ne_c450.10.229_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A Pós-Avaliação de impacto e de Incidências Ambientais deve ser considerada em 500.10.600 – Monitorização sistemática de conformidade".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.229_3
 :na_c450.10.229_3 rdf:type owl:NamedIndividual ,
@@ -2875,15 +2966,15 @@ Inclui análise do pedido, verificação do cumprimento de requisitos, realizaç
 	:NotaExclusao ;
 	:conteudo "O pagamento da taxa deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.229_2
-:ne_c450.10.229_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A Pós-Avaliação de impacto e de Incidências Ambientais deve ser considerada em 500.10.600 – Monitorização sistemática de conformidade".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.229_3
 :ne_c450.10.229_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O procedimento sancionatório na sequência do reconhecimento de acto ilícito e censurável que implique pagamento de coima deve ser considerado em 500.30.001 – Aplicação de contraordenações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.229_2
+:na_c450.10.229_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Avaliação do impacto ambiental".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.229_4
 :ne_c450.10.229_4 rdf:type owl:NamedIndividual ,
@@ -2899,16 +2990,28 @@ Inclui análise do pedido, verificação do cumprimento de requisitos, realizaç
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_APA ;
-	:temParticipanteApreciador :org_CCDR ;
+	:temParticipanteApreciador :org_CCDR-N ;
+	:temParticipanteApreciador :org_CCDR-C ;
+	:temParticipanteApreciador :org_CCDR-LVT ;
+	:temParticipanteApreciador :org_CCDR-Aln ;
+	:temParticipanteApreciador :org_CCDR-Alg ;
 	:temParticipanteApreciador :org_ICNF ;
 	:temParticipanteApreciador :org_AL ;
 	:temParticipanteApreciador :org_DGS ;
-	:temParticipanteApreciador :org_DRAP ;
+	:temParticipanteApreciador :org_DRAP-N ;
+	:temParticipanteApreciador :org_DRAP-C ;
+	:temParticipanteApreciador :org_DRAP-LVT ;
+	:temParticipanteApreciador :org_DRAP-Aln ;
+	:temParticipanteApreciador :org_DRAP-Alg ;
 	:temParticipanteApreciador :org_IAPMEI ;
 	:temParticipanteApreciador :org_DGPC ;
 	:temParticipanteApreciador :org_DGRM ;
 	:temDono :org_APA ;
-	:temDono :org_CCDR ;
+	:temDono :org_CCDR-N ;
+	:temDono :org_CCDR-C ;
+	:temDono :org_CCDR-LVT ;
+	:temDono :org_CCDR-Aln ;
+	:temDono :org_CCDR-Alg ;
 	:temDono :org_DGEG ;
 	:temNotaAplicacao :na_c450.10.229_1 ;
 	:temNotaAplicacao :na_c450.10.229_2 ;
@@ -2954,6 +3057,11 @@ Inclui a verificação e análise das caraterísticas impactantes, consulta de e
 	:classeStatus "A" ;
 	:descricao "Desenvolvimento de todas as fases de avaliação de impactos ambientais, com exceção da elaboração do relatório final e emissão do título.
 Inclui a entrega do projeto, verificação e análise das caraterísticas impactantes, consulta de entidades e consulta pública.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_1
+:na_c450.10.230_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ações de emergência a realizar em sítios arqueológicos que, por efeitos de ação humana ou ação natural, se encontrem em perigo iminente de destruição parcial ou total".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.229.02
 :c450.10.229.02 rdf:type owl:NamedIndividual ,
 	:Classe_N4;
@@ -2962,20 +3070,15 @@ Inclui a entrega do projeto, verificação e análise das caraterísticas impact
 	:temPai :c450.10.229 ;
 	:classeStatus "A" ;
 	:descricao "Elaboração do relatório final e título. O projeto faz parte integrante do relatório final.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_3
-:na_c450.10.230_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Investigação programada em sítios arqueológicos".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_1
-:na_c450.10.230_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Ações de emergência a realizar em sítios arqueológicos que, por efeitos de ação humana ou ação natural, se encontrem em perigo iminente de destruição parcial ou total".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_2
 :na_c450.10.230_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Ações preventivas a realizar no âmbito de trabalhos de minimização de impactos devido a empreendimentos públicos ou privados, em meio rural, urbano ou subaquático".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_3
+:na_c450.10.230_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Investigação programada em sítios arqueológicos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.230_4
 :na_c450.10.230_4 rdf:type owl:NamedIndividual ,
@@ -2992,7 +3095,11 @@ Inclui a entrega do projeto, verificação e análise das caraterísticas impact
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_AL ;
 	:temParticipanteApreciador :org_IES ;
-	:temParticipanteApreciador :org_CCDR ;
+	:temParticipanteApreciador :org_CCDR-N ;
+	:temParticipanteApreciador :org_CCDR-C ;
+	:temParticipanteApreciador :org_CCDR-LVT ;
+	:temParticipanteApreciador :org_CCDR-Aln ;
+	:temParticipanteApreciador :org_CCDR-Alg ;
 	:temParticipanteApreciador :org_APA ;
 	:temParticipanteApreciador :org_DGT ;
 	:temDono :org_DGPC ;
@@ -3022,15 +3129,15 @@ Inclui a entrega do projeto, verificação e análise das caraterísticas impact
 Inicia com o pedido e termina com a notificação da autorização.
 Inclui apreciação do curriculum vitae do arqueólogo responsável, análise do plano de trabalhos a realizar, definição de condicionalismos, quando devido, e decisão.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.231_1
-:na_c450.10.231_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Feiras grossistas e retalhistas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.231_2
 :na_c450.10.231_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Feiras ocasionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.231_1
+:na_c450.10.231_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Feiras grossistas e retalhistas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.231_1
 :ne_c450.10.231_1 rdf:type owl:NamedIndividual ,
@@ -3070,15 +3177,15 @@ Inclui apreciação do curriculum vitae do arqueólogo responsável, análise do
 	:descricao "Permissão para a realização periódica da atividade de comércio não sedentário, exercida por feirantes e vendedores ambulantes, em recintos públicos ou privados onde se concentra grande quantidade de produtos.
 Inicia com o pedido e termina com a autorização.
 Inclui consulta de entidades, apresentação da proposta de regulamento por parte do proponente e atribuição de lugar por sorteio.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.232_1
-:na_c450.10.232_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Pesquisa e captação de águas subterrâneas (PN 450.10.025)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.232_2
 :na_c450.10.232_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Captação de água para consumo humano (PN 450.10.015)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.232_1
+:na_c450.10.232_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Pesquisa e captação de águas subterrâneas (PN 450.10.025)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.232_3
 :na_c450.10.232_3 rdf:type owl:NamedIndividual ,
@@ -3105,11 +3212,6 @@ Inclui consulta de entidades, apresentação da proposta de regulamento por part
 	:NotaAplicacao ;
 	:conteudo "Captação de água para atividades de lazer".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.232_8
-:na_c450.10.232_8 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Desactivação de captação de água subterrânea".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.232_9
 :na_c450.10.232_9 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -3120,15 +3222,20 @@ Inclui consulta de entidades, apresentação da proposta de regulamento por part
 	:NotaAplicacao ;
 	:conteudo "Captação de água para rega de espaços públicos".
 
+###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.232_1
+:ne_c450.10.232_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O licenciamento de empresas de sondagem deve ser considerado em 450.10.444 – Reconhecimento de requisitos e competência técnica a entidades".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.232_11
 :na_c450.10.232_11 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Captação para produção de energia hidroeléctrica".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.232_1
-:ne_c450.10.232_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O licenciamento de empresas de sondagem deve ser considerado em 450.10.444 – Reconhecimento de requisitos e competência técnica a entidades".
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.232_8
+:na_c450.10.232_8 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Desactivação de captação de água subterrânea".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.232
 :c450.10.232 rdf:type owl:NamedIndividual ,
@@ -3140,7 +3247,11 @@ Inclui consulta de entidades, apresentação da proposta de regulamento por part
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_AL ;
-	:temParticipanteApreciador :org_CCDR ;
+	:temParticipanteApreciador :org_CCDR-N ;
+	:temParticipanteApreciador :org_CCDR-C ;
+	:temParticipanteApreciador :org_CCDR-LVT ;
+	:temParticipanteApreciador :org_CCDR-Aln ;
+	:temParticipanteApreciador :org_CCDR-Alg ;
 	:temParticipanteApreciador :org_ICNF ;
 	:temParticipanteIniciador :org_CPL ;
 	:temDono :org_APA ;
@@ -3198,7 +3309,6 @@ Inclui memória descritiva, avaliação técnica do pedido, consulta de entidade
 	:temPai :c450.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteIniciador :org_AL ;
 	:temParticipanteApreciador :org_AL ;
 	:temDono :org_APA ;
 	:temNotaAplicacao :na_c450.10.233_1 ;
@@ -3293,6 +3403,11 @@ Inclui verificação da conformidade do pedido, consulta de entidades, validaç�
 	:NotaAplicacao ;
 	:conteudo "Constituição ou alteração de propriedade horizontal".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.236_1
+:na_c450.10.236_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Instalação de cartório notarial".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.235
 :c450.10.235 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -3324,11 +3439,6 @@ Inclui verificação da conformidade do pedido, consulta de entidades, validaç�
 	:descricao "Reconhecimento das condições que permitem a divisão de um edifício em frações autónomas, passíveis de se constituírem como unidades independentes pertencentes a proprietários diversos que partilham a propriedade das partes comuns do edifício.
 Inicia com o pedido e termina com a certificação das condições de propriedade horizontal.
 Inclui vistoria ao edifício ou validação da memória descritiva, quando devido, identificação das unidades independentes e das partes comuns do edifício, definição do fim a que se destinam, cálculo da taxa devida e comprovativo do seu pagamento.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.236_1
-:na_c450.10.236_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Instalação de cartório notarial".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.236
 :c450.10.236 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -3382,7 +3492,6 @@ Inclui a elaboração da lista de licenças a concurso, instrução do concurso,
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_AL ;
 	:temParticipanteDecisor :org_IMT ;
-	:temDono :org_IP, SA ;
 	:temDono :org_AL ;
 	:temNotaAplicacao :na_c450.10.237_1 ;
 	:temNotaAplicacao :na_c450.10.237_2 ;
@@ -4019,15 +4128,15 @@ Inclui  consulta de entidades, quando devido, decisão e comprovativo do pagamen
 	:NotaAplicacao ;
 	:conteudo "Reconhecimento de entidades prestadoras do serviço de aconselhamento agrícola e/ou florestal".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.445_6
-:na_c450.10.445_6 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Certificação de entidades gestoras de plataformas eletrónicas de contratação pública (Anterior PN 450.10.411)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.445_5
 :na_c450.10.445_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reconhecimento de organismos  privados de controlo e certificação (OC) de regimes de Modo de Produção Biológico (MPB), Denominação de Origem Protegida (DOP), Indicação Geográfica Protegida (IGP), Especialidade Tradicional Garantida (ETG), Produção Integrada (PRODI) e rotulagem facultativa".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.445_6
+:na_c450.10.445_6 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Certificação de entidades gestoras de plataformas eletrónicas de contratação pública (Anterior PN 450.10.411)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.445_7
 :na_c450.10.445_7 rdf:type owl:NamedIndividual ,
@@ -4258,6 +4367,11 @@ Inclui admissão de documento comprovativo de acreditação, se aplicável.".
 Inicia com o pedido de reconhecimento e termina com o envio para publicação.
 Inclui instrução do pedido, identificação dos objetivos da fundação, identificação dos bens necessários para a prossecução dos objetivos, verificação dos estatutos, decisão e respetiva notificação.
 ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.447_3
+:na_c450.10.447_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reconhecimento de associações de imigrantes (Anterior PN 450.10.419)".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.447_1
 :na_c450.10.447_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -4267,11 +4381,6 @@ Inclui instrução do pedido, identificação dos objetivos da fundação, ident
 :na_c450.10.447_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reconhecimento de associações de estudantes (Anterior PN 450.10.406)".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.447_3
-:na_c450.10.447_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Reconhecimento de associações de imigrantes (Anterior PN 450.10.419)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.447_4
 :na_c450.10.447_4 rdf:type owl:NamedIndividual ,
@@ -4313,11 +4422,6 @@ Inclui instrução do pedido, identificação dos objetivos da fundação, ident
 	:NotaAplicacao ;
 	:conteudo "Registo de associações de pais e encarregados de educação".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.447_12
-:na_c450.10.447_12 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Reconhecimento como sociedade de agricultura de grupo ou outras formas congéneres".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.447_13
 :na_c450.10.447_13 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -4328,10 +4432,20 @@ Inclui instrução do pedido, identificação dos objetivos da fundação, ident
 	:NotaExclusao ;
 	:conteudo "A atribuição do estatuto de utilidade pública deve ser considerado em 450.20.001 – Reconhecimento de pessoas coletivas de utilidade pública".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.447_12
+:na_c450.10.447_12 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reconhecimento como sociedade de agricultura de grupo ou outras formas congéneres".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.10.447_2
 :ne_c450.10.447_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A publicação de lista de títulos de reconhecimento atribuídos deve ser considerada em 900.20.201 – Edição e publicação de conteúdos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.448_1
+:na_c450.10.448_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Credenciação dos pontos de presença do sistema europeu de georreferenciação".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.447
 :c450.10.447 rdf:type owl:NamedIndividual ,
@@ -4384,14 +4498,9 @@ Inclui instrução do pedido, identificação dos objetivos da fundação, ident
 	:processoDimQual "Média" ;
 	:processoUniform "S" ;
 	:descricao "Identificação da natureza jurídica, do âmbito de atuação e do carater representativo a entidades.
-Inicia com a apresentação do pedido e termina com a emissão ou retirada do respetivo título de reconhecimento e de utilização de denominação ou com o registo, quando devido.
+Inicia com a apresentação do pedido e termina com a emissão ou retirada do respetivo título de reconhecimento e de utilização de denominação , quando aplicável.
 Inclui  a análise do pedido, eventual pedido de novos elementos ou confirmação de informação, consulta de entidades, emissão de parecer, despacho de decisão, notificação da decisão ao interessado, período de contraditório, caso seja necessário, e comprovativo de pagamento do montante devido.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.448_1
-:na_c450.10.448_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Credenciação dos pontos de presença do sistema europeu de georreferenciação".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.448_2
 :na_c450.10.448_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -4407,15 +4516,15 @@ Inclui  a análise do pedido, eventual pedido de novos elementos ou confirmaçã
 	:NotaAplicacao ;
 	:conteudo "Credenciação de segurança a entidades para o exercício de atividades industriais, tecnológicas e de investigação Ex (PN 450.10.415)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.448_5
-:na_c450.10.448_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Credenciação de segurança de pessoas singulares ou coletivas para administração de informação classificada (Anterior PN 450.10.416)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.448_6
 :na_c450.10.448_6 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Processamento de dados para credenciar os pontos de contacto nacionais no âmbito da componente de segurança".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.448_5
+:na_c450.10.448_5 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Credenciação de segurança de pessoas singulares ou coletivas para administração de informação classificada (Anterior PN 450.10.416)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.448_7
 :na_c450.10.448_7 rdf:type owl:NamedIndividual ,
@@ -4502,15 +4611,15 @@ Inclui análise do pedido, decisão e emissão do certificado de credenciação 
 	:NotaAplicacao ;
 	:conteudo "Autorização de introdução no mercado (AIM) por procedimento descentralizado (Anterior PN 450.10.623)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.640_4
-:na_c450.10.640_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Autorização de introdução no mercado (AIM) de medicamentos por procedimento centralizado (Anterior PN 450.10.624)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.640_5
 :na_c450.10.640_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Autorização de colocação no mercado de produtos biocidas (Anterior PN 450.10.633)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.640_4
+:na_c450.10.640_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Autorização de introdução no mercado (AIM) de medicamentos por procedimento centralizado (Anterior PN 450.10.624)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.640_6
 :na_c450.10.640_6 rdf:type owl:NamedIndividual ,
@@ -4827,15 +4936,15 @@ Inclui a instrução do processo, análise dos requisitos exigidos, peritagem ou
 	:NotaAplicacao ;
 	:conteudo "Avaliação prévia de tecnologias de saúde para utilização nos estabelecimentos do Serviço Nacional de Saúde".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.645_2
-:na_c450.10.645_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Autorização de utilização de medicamentos pelos hospitais do Serviço Nacional de Saúde (Anterior PN 450.10.625)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.645_3
 :na_c450.10.645_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Autorização para utilização terapêutica de substâncias proibidas (Anterior PN 450.10.612)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.645_2
+:na_c450.10.645_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Autorização de utilização de medicamentos pelos hospitais do Serviço Nacional de Saúde (Anterior PN 450.10.625)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.645_4
 :na_c450.10.645_4 rdf:type owl:NamedIndividual ,
@@ -5000,15 +5109,15 @@ Inclui a análise técnica, consulta de entidades quando devido, fundamentação
 	:NotaAplicacao ;
 	:conteudo "Certificação da qualidade dos serviços (Anterior PN 450.10.600)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_2
-:na_c450.10.648_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Certificação de produtos com denominação de origem e indicação geográfica (Anterior PN 450.10.604)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_3
 :na_c450.10.648_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Acreditação de ações de formação (Anterior PN 450.10.605)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_2
+:na_c450.10.648_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Certificação de produtos com denominação de origem e indicação geográfica (Anterior PN 450.10.604)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_4
 :na_c450.10.648_4 rdf:type owl:NamedIndividual ,
@@ -5025,25 +5134,25 @@ Inclui a análise técnica, consulta de entidades quando devido, fundamentação
 	:NotaAplicacao ;
 	:conteudo "Autenticação de obras e de conteúdos culturais (Anterior PN 450.10.608)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_8
-:na_c450.10.648_8 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Reconhecimento de sistema de formação de mergulho (Anterior PN 450.10.616)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_7
 :na_c450.10.648_7 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Certificação de segurança a produtos e sistemas de comunicações, de informática e de tecnologias de informação classificada (Anterior PN 450.10.613)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_9
-:na_c450.10.648_9 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_8
+:na_c450.10.648_8 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Autorização de uso de marca de conformidade europeia (CE) (Anterior PN 450.10.619)".
+	:conteudo "Reconhecimento de sistema de formação de mergulho (Anterior PN 450.10.616)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_10
 :na_c450.10.648_10 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reconhecimento de indicações terapêuticas da água termal (Anterior PN 450.10.632)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_9
+:na_c450.10.648_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Autorização de uso de marca de conformidade europeia (CE) (Anterior PN 450.10.619)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.648_11
 :na_c450.10.648_11 rdf:type owl:NamedIndividual ,
@@ -5174,15 +5283,15 @@ Inclui análise técnica do produto ou serviço a reconhecer, identificação de
 	:classeStatus "A" ;
 	:descricao "Inicia com a decisão sobre o reconhecimento da qualidade e das características e termina com o registo do reconhecimento e sua publicitação.
 Inclui emissão de certificado de conformidade e entrega de marca ou selo de entidade, quando devido.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.649_2
-:na_c450.10.649_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Classificação de temas de jogos para máquinas de diversão (Anterior PN 450.10.602)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.649_1
 :na_c450.10.649_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Classificação de empreendimentos turísticos (Anterior PN 450.10.601)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.649_2
+:na_c450.10.649_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Classificação de temas de jogos para máquinas de diversão (Anterior PN 450.10.602)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.649_3
 :na_c450.10.649_3 rdf:type owl:NamedIndividual ,
@@ -5243,15 +5352,15 @@ Inicia com o pedido e termina com comunicação da decisão ou com atribuição 
 Inclui análise do pedido, avaliação do bem ou produto, articulação entre entidades quando devido, aplicação de critérios de categorização e decisão.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.650_2
-:na_c450.10.650_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Aperfeiçoamento ativo".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.650_1
 :na_c450.10.650_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Entreposto aduaneiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.650_2
+:na_c450.10.650_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Aperfeiçoamento ativo".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.650_3
 :na_c450.10.650_3 rdf:type owl:NamedIndividual ,
@@ -5282,11 +5391,6 @@ Inclui análise do pedido, avaliação do bem ou produto, articulação entre en
 :ne_c450.10.650_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A autorização de entreposto aduaneiro, enquanto estatuto atribuído a um local para armazenamento de mercadorias, deve ser considerada em 450.10.228 – Autorização de locais para depósito de mercadorias".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.651_1
-:na_c450.10.651_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Cursos conferentes de grau".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c450.10.650
 :c450.10.650 rdf:type owl:NamedIndividual ,
@@ -5323,6 +5427,11 @@ Inclui análise do pedido, avaliação do bem ou produto, articulação entre en
 Inicia com o pedido de atribuição de regime aduaneiro, previamente à entrega da declaração aduaneira, e termina com a comunicação da decisão.
 Inclui análise do pedido, verificação do cumprimento de requisitos, o exercício do direito de audição prévia, quando aplicável, bem como a prestação de garantia, quando aplicável.
 ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.651_1
+:na_c450.10.651_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Cursos conferentes de grau".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.10.651_2
 :na_c450.10.651_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -6010,15 +6119,15 @@ Inclui análise preliminar e decisão.".
 	:NotaAplicacao ;
 	:conteudo "Reconhecimento de estatuto a projeto ou programa".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.003_3
-:na_c450.20.003_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Verificação de determinados requisitos para enquadramento geral da atividade e/ou da idoneidade da entidade ou programa/projeto".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.003_2
 :na_c450.20.003_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reconhecimento de estatuto a entidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.003_3
+:na_c450.20.003_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Verificação de determinados requisitos para enquadramento geral da atividade e/ou da idoneidade da entidade ou programa/projeto".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.003_4
 :na_c450.20.003_4 rdf:type owl:NamedIndividual ,
@@ -6040,20 +6149,20 @@ Inclui análise preliminar e decisão.".
 	:NotaExclusao ;
 	:conteudo "01 – Reconhecimento de pessoas coletivas de utilidade pública".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450.20.003_3
-:ne_c450.20.003_3 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#ne_c450.20.003_5
+:ne_c450.20.003_5 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
-	:conteudo " verificação das condições".
+	:conteudo "10 – Atribuição e controlo de financiamentos e de ajudas diretas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.20.003_4
 :ne_c450.20.003_4 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "As candidaturas a programas de apoio devem ser consideradas em 850".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c450.20.003_5
-:ne_c450.20.003_5 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#ne_c450.20.003_3
+:ne_c450.20.003_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
-	:conteudo "10 – Atribuição e controlo de financiamentos e de ajudas diretas".
+	:conteudo " verificação das condições".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c450.20.003
 :c450.20.003 rdf:type owl:NamedIndividual ,
@@ -6104,15 +6213,15 @@ Inclui a análise do pedido, as diligências e a emissão de parecer.".
 	:NotaAplicacao ;
 	:conteudo "Bens culturais de propriedade pública ou particular".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.503_3
-:na_c450.20.503_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Bens que se encontrem em vias de classificação, independentemente do desfecho do procedimento".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.20.503_1
 :ne_c450.20.503_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O inventário, enquanto registo operacional de gestão de bens públicos referentes ao património cultural, deve ser considerado em 300.30.002 – Inventariação de bens móveis culturais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.503_3
+:na_c450.20.503_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Bens que se encontrem em vias de classificação, independentemente do desfecho do procedimento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c450.20.503
 :c450.20.503 rdf:type owl:NamedIndividual ,
@@ -6192,15 +6301,15 @@ Inclui a análise do pedido de reconhecimento e a vistoria aos parques e reserva
 	:NotaAplicacao ;
 	:conteudo "Classificação de áreas protegidas (Anterior PN 450.10.500)".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.505_2
-:na_c450.20.505_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Classificação de bens e sítios culturais (Anterior PN 450.10.501)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.505_3
 :na_c450.20.505_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reconhecimento de região vinícola portuguesa,\" Denominação de Origem Controlada\" (DOC) desde a entrada de Portugal na Comunidade Europeia em 1986, substituindo a anterior expressão \"Região Demarcada\" (que se mantêm para o Douro, Dão e Vinhos Verdes)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.505_2
+:na_c450.20.505_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Classificação de bens e sítios culturais (Anterior PN 450.10.501)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.505_4
 :na_c450.20.505_4 rdf:type owl:NamedIndividual ,
@@ -6237,15 +6346,15 @@ Inclui a análise do pedido de reconhecimento e a vistoria aos parques e reserva
 	:NotaAplicacao ;
 	:conteudo "Definição zona de proteção de bens classificados".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.505_11
-:na_c450.20.505_11 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Desclassificação de bens".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.505_12
 :na_c450.20.505_12 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reconhecimento da qualidade das praias, através da atribuição de bandeira azul".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.20.505_11
+:na_c450.20.505_11 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Desclassificação de bens".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c450.20.505_1
 :ne_c450.20.505_1 rdf:type owl:NamedIndividual ,
@@ -6458,11 +6567,6 @@ Inclui consulta e sistematização de dados, eventual cálculo do montante a pag
 	:descricao "Emissão de documento com especial valor de prova relativa a factos ou atos com base em informação detida pela Administração.
 Inicia com o pedido e termina com a emissão da certidão.
 Inclui consulta de documentos originais, transcrição integral ou parcial, cálculo da taxa a pagar e apresentação do comprovativo do seu pagamento.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.30.500_1
-:na_c450.30.500_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Certificação de acidente em serviço".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.30.500_2
 :na_c450.30.500_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -6473,15 +6577,20 @@ Inclui consulta de documentos originais, transcrição integral ou parcial, cál
 	:NotaAplicacao ;
 	:conteudo "Certificação de doença natural prolongada".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c450.30.500_4
-:na_c450.30.500_4 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.30.500_1
+:na_c450.30.500_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Qualificação como deficiente das Forças Armadas".
+	:conteudo "Certificação de acidente em serviço".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.30.500_5
 :na_c450.30.500_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo " Reconhecimento de vítima de stress pós-traumático".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c450.30.500_4
+:na_c450.30.500_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Qualificação como deficiente das Forças Armadas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c450.30.500_6
 :na_c450.30.500_6 rdf:type owl:NamedIndividual ,
@@ -6501,7 +6610,11 @@ Inclui consulta de documentos originais, transcrição integral ou parcial, cál
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_AP ;
 	:temDono :org_DGS ;
-	:temDono :org_ARS ;
+	:temDono :org_ARS-N ;
+	:temDono :org_ARS-C ;
+	:temDono :org_ARS-LVT ;
+	:temDono :org_ARS-Aln ;
+	:temDono :org_ARS-Alg ;
 	:temDono :org_ADSE ;
 	:temDono :org_IASFA ;
 	:temNotaAplicacao :na_c450.30.500_1 ;

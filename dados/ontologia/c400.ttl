@@ -238,15 +238,15 @@ de títulos de identificação. Os processos podem ser de iniciativa dos serviç
 	:NotaExclusao ;
 	:conteudo "O apuramento emolumentar devido pela prática do ato por parte da Administração, bem como a cobrança coerciva da conta do ato (certificado de conta), não voluntariamente liquidada deve ser considerada em 350.30.001 – Cobrança de receitas e pagamento de despesas".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.001_2
-:ne_c400.10.001_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "instrumentos públicos, de registos ou de outros documentos arquivados deve ser considerada em 450.30.503 – Confirmação, conferência ou emissão de cópias não certificadas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.001_3
 :ne_c400.10.001_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A emissão de certidões de instrumentos públicos, de registos ou de outros documentos arquivados deve ser considerada em 450.30.003 – Emissão de certidões".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.001_2
+:ne_c400.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "instrumentos públicos, de registos ou de outros documentos arquivados deve ser considerada em 450.30.503 – Confirmação, conferência ou emissão de cópias não certificadas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.001_4
 :ne_c400.10.001_4 rdf:type owl:NamedIndividual ,
@@ -487,7 +487,7 @@ Inclui análise das condições do requerente, nomeadamente verificação do doc
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Emissão de documento que assegura a prestação de cuidados de saúde a beneficiários de um sistema de segurança social de um dos Estados da União Europeia, Espaço Económico Europeu ou Suíça quando se desloca temporariamente a esses Estados.
-Inicia com o pedido e termina com a emissão de cartão ou com a atualização dos dados.
+Inicia com o pedido e termina com a emissão de cartão.
 Inclui apresentação de documento comprovativo de beneficiário de subsistema de saúde público ou particular.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.007_1
@@ -513,12 +513,13 @@ Inclui apresentação de documento comprovativo de beneficiário de subsistema d
 	:temNotaAplicacao :na_c400.10.007_1 ;
 	:temNotaAplicacao :na_c400.10.007_2 ;
 	:eAntecessorDe :c400.10.611 ;
-	:temLegislacao :leg_45 ;
+	:temLegislacao :leg_46 ;
 	:classeStatus "A" ;
 	:processoDimQual "Reduzida" ;
 	:processoUniform "S" ;
 	:descricao "Inscrição de entidades depositantes no sistema de depósito legal.
-Inicia com o pré-registo de inscrição de novas entidades depositantes e termina com a validação dos dados.
+Inicia com o pré-registo de inscrição de novas entidades depositantes e termina com a cessação da inscrição da entidade no registo.
+Inclui a validação dos dados e a notificação de que nada produziram no ano anterior sujeito a depósito legal.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.009_1
 :na_c400.10.009_1 rdf:type owl:NamedIndividual ,
@@ -669,7 +670,7 @@ Inicia com o pré-registo de inscrição de novas entidades depositantes e termi
 	:descricao "Registo e identificação de pessoas coletivas e entidades equiparadas mediante a inscrição no Ficheiro Central de Pessoas Coletivas (FCPC).
 No caso de pessoas coletivas (não sujeitas a registo comercial):
 Inicia com o pedido de certificado de admissibilidade de firma ou denominação e termina com a inscrição no FCPC e consequente emissão de cartão eletrónico de pessoa coletiva.
-Inclui a instrução do processo, apreciação e decisão sobre a confundibilidade e verdade da firma ou denominação da mesma, emissão do certificado de admissibilidade e atribuição do número provisório de identificação.
+Inclui a instrução do processo, apreciação e decisão sobre a confundibilidade e verdade da firma ou denominação da mesma, emissão do certificado de admissibilidade e atribuição do número provisório de identificação ou com eventuais atualizações.
 No caso de pessoa coletiva sujeita a registo comercial:
 O pedido de certificado inicia-se com o pedido, e termina com a inscrição no FCPC.
 A inscrição ocorre oficiosamente e de forma automática no FCPC na sequência da confirmação de ato de registo comercial.
@@ -701,7 +702,7 @@ Inclui a instrução do processo, apreciação e decisão de inscrição e emiss
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Reinscrição ou atualização de dados no sistema da Caixa Geral de Aposentações.
-Inicia com o envio dos dados e termina com o registo.
+Inicia com o envio dos dados e termina com o registo ou com eventuais atualizações.
 Inclui validação dos dados.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.011_1
 :na_c400.10.011_1 rdf:type owl:NamedIndividual ,
@@ -732,7 +733,7 @@ Inclui validação dos dados.".
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Inscrição ou atualização dos dados do trabalhador no sistema da Segurança Social.
-Inicia com o envio dos dados e termina com a inscrição ou atualização dos mesmos.
+Inicia com o envio dos dados e termina com a inscrição  ou com eventuais atualizações ou com eventuais atualizações.
 Inclui validação da entidade empregadora e, quando aplicável, a atribuição do número de utente.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.012_1
 :na_c400.10.012_1 rdf:type owl:NamedIndividual ,
@@ -854,7 +855,7 @@ Inclui a análise, a alteração, a validação da proposta e a comunicação ao
 	:processoDimQual "Reduzida" ;
 	:processoUniform "S" ;
 	:descricao "Identificação de órgãos de comunicação social para assegurar a proteção legal da denominação dos operadores de rádio e de televisão e dos serviços de programas radiofónicos e televisivos.
-Inicia com a solicitação do pedido de inscrição ou com a comunicação de início de atividade e termina com o registo da informação.
+Inicia com a solicitação do pedido de inscrição ou com a comunicação de início de atividade e termina com a cessação da inscrição da entidade no registo.
 Inclui a análise do pedido e a sua validação.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_1
@@ -887,15 +888,20 @@ Inclui a análise do pedido e a sua validação.
 	:NotaAplicacao ;
 	:conteudo "Menor nascido em Portugal, estrangeiro, caso aqui tenha concluído o 1º ciclo do ensino básico ou um dos progenitores aqui resida legalmente há 5 anos".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_9
-:na_c400.10.025_9 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_7
+:na_c400.10.025_7 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Nascido em Portugal que tenha aqui tenha permanecido nos 10 anos imediatamente anteriores ao pedido".
+	:conteudo "Indivíduos que tenham tido a nacionalidade portuguesa e que nunca tenham adquirido outra".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_8
 :na_c400.10.025_8 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Nascido no estrangeiro com um ascendente do 2.º grau da linha reta que não tenha perdido a nacionalidade portuguesa".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_9
+:na_c400.10.025_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Nascido em Portugal que tenha aqui tenha permanecido nos 10 anos imediatamente anteriores ao pedido".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_10
 :na_c400.10.025_10 rdf:type owl:NamedIndividual ,
@@ -906,11 +912,6 @@ Inclui a análise do pedido e a sua validação.
 :na_c400.10.025_11 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Indivíduos que não sejam apátridas (casos especiais)".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_7
-:na_c400.10.025_7 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Indivíduos que tenham tido a nacionalidade portuguesa e que nunca tenham adquirido outra".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.025_12
 :na_c400.10.025_12 rdf:type owl:NamedIndividual ,
@@ -947,15 +948,47 @@ Inclui a análise do pedido e a sua validação.
 	:NotaExclusao ;
 	:conteudo "A impugnação hierárquica das decisões dos conservadores, deve ser considerada em 500.40.500 – Processamento de recursos hierárquicos".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.025_6
-:ne_c400.10.025_6 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A impugnação contenciosa das decisões dos conservadores deve ser considerada em 600.30.751 – Recurso das decisões das Autoridades Administrativas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.025_7
 :ne_c400.10.025_7 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "Os pedidos de informação que não se integram em nenhum processo específico devem considerados em 900.20.604 – Processamento de pedidos de informação e de esclarecimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.026_1
+:na_c400.10.026_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Estatuto de igualdade de direitos e deveres a cidadãos de nacionalidade brasileira civilmente capazes, de acordo com a sua lei nacional, que tenham residência habitual em território português".
+
+###  http://jcr.di.uminho.pt/m51-clav#c400.10.026
+:c400.10.026 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "400.10.026";
+	:titulo "Atribuição e registo de estatuto de igualdade";
+	:temPai :c400.10 ;
+	:processoTipo "PE" ;
+	:processoTransversal "S" ;
+	:temParticipanteApreciador :org_IRN ;
+	:temDono :org_SEF ;
+	:temNotaAplicacao :na_c400.10.026_1 ;
+	:temNotaExclusao :ne_c400.10.026_1 ;
+	:eSucessorDe :c350.10.100 ;
+	:eCruzadoCom :c400.10.041 ;
+	:eAntecessorDe :c450.30.003 ;
+	:eAntecessorDe :c500.40.500 ;
+	:eSucessorDe :c550.10.303 ;
+	:temLegislacao :leg_294 ;
+	:temLegislacao :leg_322 ;
+	:temLegislacao :leg_398 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Concessão  e registo do estatuto de igualdade de direitos e deveres e do reconhecimento de direitos políticos, apresentados por cidadãos brasileiros ao abrigo do Tratado de Amizade, Cooperação e Consulta entre a República Portuguesa e a República Federativa do Brasil.
+Inicia com requerimento do interessado e termina com a caducidade ou cancelamento da autorização de residência em território nacional ou quando o beneficiário perca a nacionalidade brasileira.
+Inclui a concessão ou recusa de estatuto, a assinatura do assento de estatuto de igualdade, a publicação em jornal oficial, a notificação à Conservatória de Registo dos Registos Centrais.
+".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.026_1
+:ne_c400.10.026_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A aquisição de nacionalidade portuguesa deve ser considerada em 400.10.025 – Aquisição de nacionalidade".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c400.10.025
 :c400.10.025 rdf:type owl:NamedIndividual ,
@@ -967,7 +1000,7 @@ Inclui a análise do pedido e a sua validação.
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_SEF ;
 	:temParticipanteAssessor :org_PJ ;
-	:temParticipanteDecisor :org_GMG ;
+	:temParticipanteDecisor :org_GMG-MJ ;
 	:temParticipanteIniciador :org_Cns ;
 	:temDono :org_IRN ;
 	:temNotaAplicacao :na_c400.10.025_1 ;
@@ -1010,52 +1043,15 @@ Inicia com o requerimento/declaração do interessado e termina com a notificaç
 Inclui análise sumária do processo que pode resultar em indeferimento liminar nos casos previstos na lei e notificação ao requerente para que se pronuncie, instrução do processo caso não ocorra indeferimento liminar, com consultas a outras entidades, e emissão de decisão de deferimento ou indeferimento do pedido e, nalguns casos previstos na lei, emissão de parecer e remessa do processo para decisão ao Ministro da Justiça.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.026_1
-:na_c400.10.026_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Estatuto de igualdade de direitos e deveres a cidadãos de nacionalidade brasileira civilmente capazes, de acordo com a sua lei nacional, que tenham residência habitual em território português".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.026_1
-:ne_c400.10.026_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A aquisição de nacionalidade portuguesa deve ser considerada em 400.10.025 – Aquisição de nacionalidade".
-
-###  http://jcr.di.uminho.pt/m51-clav#c400.10.026
-:c400.10.026 rdf:type owl:NamedIndividual ,
-	:Classe_N3;
-	:codigo "400.10.026";
-	:titulo "Atribuição e registo de estatuto de igualdade";
-	:temPai :c400.10 ;
-	:processoTipo "PE" ;
-	:processoTransversal "S" ;
-	:temParticipanteApreciador :org_IRN ;
-	:temDono :org_SEF ;
-	:temNotaAplicacao :na_c400.10.026_1 ;
-	:temNotaExclusao :ne_c400.10.026_1 ;
-	:eSucessorDe :c350.10.100 ;
-	:eCruzadoCom :c400.10.041 ;
-	:eAntecessorDe :c450.30.003 ;
-	:eAntecessorDe :c500.40.500 ;
-	:eSucessorDe :c550.10.303 ;
-	:temLegislacao :leg_294 ;
-	:temLegislacao :leg_322 ;
-	:temLegislacao :leg_398 ;
-	:classeStatus "A" ;
-	:processoDimQual "Média" ;
-	:processoUniform "S" ;
-	:descricao "Concessão  e registo do estatuto de igualdade de direitos e deveres e do reconhecimento de direitos políticos, apresentados por cidadãos brasileiros ao abrigo do Tratado de Amizade, Cooperação e Consulta entre a República Portuguesa e a República Federativa do Brasil.
-Inicia com requerimento do interessado e termina  com a assinatura do assento de estatuto de igualdade.
-Inclui a concessão ou recusa de estatuto, a publicação em jornal oficial, a notificação à Conservatória de Registo dos Registos Centrais.
-".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.027_1
 :na_c400.10.027_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Emissão de documentos de viagem de cidadãos nacionais".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.027_1
-:ne_c400.10.027_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.025_6
+:ne_c400.10.025_6 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
-	:conteudo "A emissão de documentos de viagem emitidos em favor de cidadãos estrangeiros, nomeadamente o passaporte para estrangeiros, o título de viagem para refugiados, o salvo-conduto, o documento de viagem para afastamento coercivo ou expulsão judicial de cidadãos nacionais de Estados terceiros, a lista de viagem para estudantes, deve ser considerada em 400.10.028 – Emissão de documentos de viagem a estrangeiros".
+	:conteudo "A impugnação contenciosa das decisões dos conservadores deve ser considerada em 600.30.751 – Recurso das decisões das Autoridades Administrativas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c400.10.027
 :c400.10.027 rdf:type owl:NamedIndividual ,
@@ -1065,11 +1061,12 @@ Inclui a concessão ou recusa de estatuto, a publicação em jornal oficial, a n
 	:temPai :c400.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteComunicador :org_GMG ;
+	:temParticipanteComunicador :org_GMG-MJ ;
 	:temParticipanteAssessor :org_IRN ;
 	:temParticipanteIniciador :org_Cns ;
 	:temDono :org_SEF ;
-	:temDono :org_RA ;
+	:temDono :org_RA-A ;
+	:temDono :org_RA-M ;
 	:temNotaAplicacao :na_c400.10.027_1 ;
 	:temNotaExclusao :ne_c400.10.027_1 ;
 	:eCruzadoCom :c350.10.001 ;
@@ -1097,15 +1094,20 @@ Inclui a concessão ou recusa de estatuto, a publicação em jornal oficial, a n
 Inicia com o pedido do requerente e termina com a última emissão de passaporte.
 Inclui a recolha de dados biométricos do titular, instrução do processo, análise dos elementos de identificação, consulta às  competentes bases de dados, designadamente do registo civil, da identificação civil e de segurança interna e indicação à Imprensa Nacional-Casa da Moeda  (INCM) para a respetiva emissão do documento.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_2
-:na_c400.10.028_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Documento de viagem para afastamento coercivo ou expulsão judicial de cidadãos nacionais de Estados-terceiros".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.027_1
+:ne_c400.10.027_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A emissão de documentos de viagem emitidos em favor de cidadãos estrangeiros, nomeadamente o passaporte para estrangeiros, o título de viagem para refugiados, o salvo-conduto, o documento de viagem para afastamento coercivo ou expulsão judicial de cidadãos nacionais de Estados terceiros, a lista de viagem para estudantes, deve ser considerada em 400.10.028 – Emissão de documentos de viagem a estrangeiros".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_1
 :na_c400.10.028_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Documentos de viagem emitidos pelas autoridades portuguesas a favor de cidadãos estrangeiros".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_2
+:na_c400.10.028_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Documento de viagem para afastamento coercivo ou expulsão judicial de cidadãos nacionais de Estados-terceiros".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.028_3
 :na_c400.10.028_3 rdf:type owl:NamedIndividual ,
@@ -1240,7 +1242,7 @@ Inclui, ainda, a renovação do título.
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Inscrição do cidadão para o exercício do direito de voto, com base na informação pertinente proveniente do sistema de informação da identificação civil e militar relativamente aos cidadãos nacionais e do sistema integrado de informação do Serviço de Estrangeiros e Fronteiras (SEF), quanto aos cidadãos estrangeiros residentes em Portugal.
-Inicia com a recolha de informação e termina com o registo.
+Inicia com a recolha de informação e termina com o registo ou eventuais atualizações.
 Inclui a atualização de dados individuais e manutenção da informação, bem como a correção de erros e omissões.
 
 
@@ -1304,7 +1306,7 @@ Inclui confirmação da identificação e cargo dos eleitos.
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Processamento de dados de Recenseamento Nacional dos Bombeiros Portugueses (RNBP), que permite a gestão dos efetivos dos vários quadros dos bombeiros, e a gestão da sua atividade operacional.
-Inicia com a recolha da informação e termina com o registo.
+Inicia com a recolha da informação e termina com a cessação do vínculo aos quadros de comando.
 Inclui o registo das entidades responsáveis pelo envio e atualização da informação.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.034_1
@@ -1393,7 +1395,7 @@ Inclui o preenchimento de questionário e realização de testes.
 	:processoDimQual "Elevada" ;
 	:processoUniform "N" ;
 	:descricao "Inscrição ou atualização de dados de identificação da condição de dador benévolo de sangue.
-Inicia com a manifestação de vontade do cidadão e termina com o registo de dádivas.
+Inicia com a manifestação de vontade do cidadão e termina com a cessação da inscrição do dador no registo.
 Incluí a atribuição do cartão de dador benévolo de sangue processado pela entidade nacional competente.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#c400.10.038
@@ -1419,11 +1421,6 @@ Incluí a atribuição do cartão de dador benévolo de sangue processado pela e
 Inicia com o preenchimento online do formulário e termina com a inserção dos dados do cidadão no  registo  nacional.
 Inclui a emissão de cartão individual de não dador.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.040_1
-:ne_c400.10.040_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O registo dos utentes de um serviço de saúde do trabalho, serviço de saúde de entidades privadas devem ser considerados em 700.10.004 – Registo de utilizadores de unidades de saúde".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c400.10.039
 :c400.10.039 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1449,6 +1446,11 @@ Inclui a emissão de cartão individual de não dador.
 Inicia com  o preenchimento do modelo aprovado legalmente e termina com a informação ao outorgante e ao seu procurador de cuidados de saúde da conclusão do processo de registo da diretiva.
 Inclui a entrega no agrupamento de centros de saúde, ou na unidade local de saúde, da área de residência do cidadão, validação dos dados e verificação da sua conformidade com os requisitos constantes na lei e aditamentos ou correções.
 ".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.040_1
+:ne_c400.10.040_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O registo dos utentes de um serviço de saúde do trabalho, serviço de saúde de entidades privadas devem ser considerados em 700.10.004 – Registo de utilizadores de unidades de saúde".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c400.10.040
 :c400.10.040 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1459,7 +1461,11 @@ Inclui a entrega no agrupamento de centros de saúde, ou na unidade local de sa�
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_HH ;
 	:temParticipanteIniciador :org_CS ;
-	:temParticipanteApreciador :org_ARS ;
+	:temParticipanteApreciador :org_ARS-N ;
+	:temParticipanteApreciador :org_ARS-C ;
+	:temParticipanteApreciador :org_ARS-LVT ;
+	:temParticipanteApreciador :org_ARS-Aln ;
+	:temParticipanteApreciador :org_ARS-Alg ;
 	:temDono :org_ACSS ;
 	:temDono :org_SPMS ;
 	:temNotaExclusao :ne_c400.10.040_1 ;
@@ -1487,32 +1493,32 @@ Inclui a entrega no agrupamento de centros de saúde, ou na unidade local de sa�
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Identificação dos utentes do Serviço Nacional de Saúde.
-Inicia com o pedido do utente ou notícia do nascimento,  e termina com a atribuição do número de utente.
+Inicia com o pedido do utente ou notícia do nascimento,  e termina com a atribuição do número de utente ou eventuais atualizações.
 Inclui o registo dos seus elementos de identificação, do médico de família e a Unidade de Saúde em que está registado, de  informação sobre a entidade financeira responsável pelo pagamento dos cuidados de saúde do utente, dos benefícios financeiros especiais que tenha direito. ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_1
-:na_c400.10.041_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Pedido inicial de Cartão de Cidadão".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_2
 :na_c400.10.041_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Renovação de cartão do cidadão".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_3
-:na_c400.10.041_3 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_4
+:na_c400.10.041_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Não entrega do cartão do cidadão".
+	:conteudo "Cancelamento do cartão de cidadão".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_1
+:na_c400.10.041_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Pedido inicial de Cartão de Cidadão".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_5
 :na_c400.10.041_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Alteração de morada do cidadão".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_4
-:na_c400.10.041_4 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.041_3
+:na_c400.10.041_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Cancelamento do cartão de cidadão".
+	:conteudo "Não entrega do cartão do cidadão".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.041_1
 :ne_c400.10.041_1 rdf:type owl:NamedIndividual ,
@@ -1663,7 +1669,7 @@ Inclui a atualização da situação.".
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Recolha, o tratamento e conservação de extratos de decisões judiciais e demais elementos a elas respeitantes sujeitos a inscrição no registo criminal, no registo de contumazes, no registo de identificação criminal de condenados pela prática de crimes contra a autodeterminação sexual e a liberdade sexual de menor e no registo de decisões estrangeiras, promovendo a identificação dos titulares dessa informação, a fim de permitir o conhecimento dos antecedentes criminais das pessoas condenadas e das decisões de contumácia vigentes.
-Inicia com a comunicação do tribunal, através de boletim do registo criminal ou de contumácia, aos serviços competentes e termina com o cancelamento definitivo do registo criminal ou de contumácia.
+Inicia com a comunicação do tribunal, através de boletim do registo criminal ou de contumácia, aos serviços competentes e termina com a cessação da vigência das decisões nos termos da lei.
 Inclui a constituição e gestão do ficheiro dactiloscópico (impressões digitais dos arguidos, registadas no boletim de registo criminal) e a emissão do recibo de receção dos boletins. Inclui, ainda, a eventual devolução dos boletins incompletos ou incorretos e a análise e decisão sobre reclamações respeitantes ao acesso à informação em matéria de identificação criminal e seu conteúdo.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.044_1
@@ -1697,7 +1703,7 @@ Inclui a constituição e gestão do ficheiro dactiloscópico (impressões digit
 	:processoDimQual "Média" ;
 	:processoUniform "S" ;
 	:descricao "Registo de medidas tutelares aplicadas pelos Tribunais competentes aos menores com idade compreendida entre os 12 e os 16 anos pela prática de facto qualificado pela lei como crime, de forma a possibilitar o seu conhecimento.
-Inicia com a comunicação do tribunal, através do boletim de registo de medidas tutelares educativas, aos serviços responsáveis pelo registo da decisão criminal condenatória, e termina com o cancelamento definitivo do registo.
+Inicia com a comunicação do tribunal, através do boletim de registo de medidas tutelares educativas, aos serviços responsáveis pelo registo da decisão criminal condenatória, e termina com o registo da cessação ou extinção da medida tutelar educativa.
 Inclui a emissão do recibo de receção dos boletins. Pode ainda incluir a devolução dos boletins incompletos ou incorretos, e a análise e decisão sobre reclamações respeitantes ao acesso à informação em matéria de identificação criminal e seu conteúdo.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.045_1
@@ -1710,15 +1716,15 @@ Inclui a emissão do recibo de receção dos boletins. Pode ainda incluir a devo
 	:NotaAplicacao ;
 	:conteudo "Inscrição de constituição".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.045_3
-:na_c400.10.045_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Registo de igrejas e demais comunidades religiosas de âmbito nacional".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.045_4
 :na_c400.10.045_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Registo de organizações representativas dos crentes residentes em território nacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.045_3
+:na_c400.10.045_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Registo de igrejas e demais comunidades religiosas de âmbito nacional".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.045_5
 :na_c400.10.045_5 rdf:type owl:NamedIndividual ,
@@ -1735,15 +1741,15 @@ Inclui a emissão do recibo de receção dos boletins. Pode ainda incluir a devo
 	:NotaExclusao ;
 	:conteudo "O apuramento emolumentar devido pela prática do ato por parte da Administração, bem como a cobrança coerciva da conta do ato (certificado de conta), não voluntariamente liquidada deve ser considerada em 350.30.001 – Cobrança de receitas e pagamento de despesas".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.045_2
-:ne_c400.10.045_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O registo de pessoas jurídicas canónicas deve ser considerado em 400.10.046 – Registo de Pessoas Jurídicas Canónicas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.045_3
 :ne_c400.10.045_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo " A emissão de cópias não certificadas de instrumentos públicos, de registos ou de outros documentos arquivados deve ser considerada em 450.30.503 – Confirmação, conferência ou emissão de cópias não certificadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.045_2
+:ne_c400.10.045_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O registo de pessoas jurídicas canónicas deve ser considerado em 400.10.046 – Registo de Pessoas Jurídicas Canónicas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.045_4
 :ne_c400.10.045_4 rdf:type owl:NamedIndividual ,
@@ -1773,7 +1779,7 @@ Inclui a emissão do recibo de receção dos boletins. Pode ainda incluir a devo
 	:temPai :c400.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteDecisor :org_GMG ;
+	:temParticipanteDecisor :org_GMG-MJ ;
 	:temDono :org_IRN ;
 	:temNotaAplicacao :na_c400.10.045_1 ;
 	:temNotaAplicacao :na_c400.10.045_2 ;
@@ -1795,7 +1801,7 @@ Inclui a emissão do recibo de receção dos boletins. Pode ainda incluir a devo
 	:processoDimQual "Média" ;
 	:processoUniform "S" ;
 	:descricao "Registo e identificação de entidades religiosas, designadamente das igrejas e demais comunidades religiosas de âmbito nacional, regional ou local ou organizações representativas dos crentes residentes em território nacional.
-Inicia com o pedido de certificado de firma ou denominação, e termina com a inscrição de constituição no Registo de Pessoas Coletivas Religiosas (RPCR) e consequente inscrição automática no Ficheiro Central de Pessoas Coletivas (FCPC).
+Inicia com o pedido de certificado de firma ou denominação, e termina com a inscrição de constituição no Registo de Pessoas Coletivas Religiosas (RPCR) e consequente inscrição automática no Ficheiro Central de Pessoas Coletivas (FCPC) ou com eventuais atualizações.
 Inclui a instrução do processo, apreciação e qualificação do ato, podendo, caso se suscitem dúvidas de admissibilidade, o RNPC solicitar parecer à Comissão da Liberdade Religiosa.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.046_1
@@ -1856,7 +1862,7 @@ Inclui a instrução do processo, apreciação e qualificação do ato, podendo,
 	:temPai :c400.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteDecisor :org_GMG ;
+	:temParticipanteDecisor :org_GMG-MJ ;
 	:temDono :org_IRN ;
 	:temNotaAplicacao :na_c400.10.046_1 ;
 	:temNotaAplicacao :na_c400.10.046_2 ;
@@ -1875,7 +1881,7 @@ Inclui a instrução do processo, apreciação e qualificação do ato, podendo,
 	:processoDimQual "Reduzida" ;
 	:processoUniform "S" ;
 	:descricao "Registo e identificação das entidades canónicas, designadamente aos institutos de vida consagrada, sociedade de vida apostólica e restantes pessoas jurídicas canónicas reconhecidas como tal pela autoridade eclesiástica competente e à publicitação da sua situação jurídica.
-Inicia com o pedido de certificado de firma ou denominação, e termina com a inscrição no RPJC e consequente inscrição automática no FCPC.
+Inicia com o pedido de certificado de firma ou denominação, e termina com a inscrição no RPJC e consequente inscrição automática no FCPC ou com eventuais atualizações.
 Inclui a instrução do processo, apreciação e qualificação do ato e termina com o registo de inscrição ou recusa no RPJC.
 Inclui a formalização por escrito do processo, pela autoridade eclesiástica competente.
 O pedido é instruído com documento autêntico que comprove a constituição da pessoa jurídica canónica, a denominação, a sede, os fins, os órgãos representativos e suas respetivas competências, bem como a indicação da autoridade eclesiástica proponente.  
@@ -1884,16 +1890,6 @@ O pedido é instruído com documento autêntico que comprove a constituição da
 :na_c400.10.047_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Entidades sujeitas a inscrição no ficheiro central de pessoas coletivas (FCPC), com sede em Portugal".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.047_2
-:na_c400.10.047_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "    Fundos, identificados nos termos da alínea b) do n.º 2 do art.º 11.º do DL 14/2013, cuja sociedade gestora ou outro representante legal, nos termos aplicáveis, estejal sediados em Portugal".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.047_3
-:na_c400.10.047_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "                                                                                        Entidades com sede no estrangeiro, legal ou regularmente obrigadas à utilização do identificador LEI".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.047_1
 :ne_c400.10.047_1 rdf:type owl:NamedIndividual ,
@@ -1915,15 +1911,25 @@ O pedido é instruído com documento autêntico que comprove a constituição da
 	:NotaExclusao ;
 	:conteudo "A emissão de certidões de instrumentos públicos, de registos ou de outros documentos arquivados deve ser considerada em 450.30.003 – Emissão de certidões".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.047_5
-:ne_c400.10.047_5 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A impugnação hierárquica das decisões dos conservadores, deve ser considerada em 500.40.500 – Processamento de recursos hierárquicos".
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.047_2
+:na_c400.10.047_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "    Fundos, identificados nos termos da alínea b) do n.º 2 do art.º 11.º do DL 14/2013, cuja sociedade gestora ou outro representante legal, nos termos aplicáveis, estejal sediados em Portugal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.047_3
+:na_c400.10.047_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "                                                                                        Entidades com sede no estrangeiro, legal ou regularmente obrigadas à utilização do identificador LEI".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.047_6
 :ne_c400.10.047_6 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A impugnação contenciosa das decisões dos conservadores deve ser considerada em 600.30.751 – Recurso das decisões das Autoridades Administrativas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.047_5
+:ne_c400.10.047_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A impugnação hierárquica das decisões dos conservadores, deve ser considerada em 500.40.500 – Processamento de recursos hierárquicos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.10.047_7
 :ne_c400.10.047_7 rdf:type owl:NamedIndividual ,
@@ -2036,9 +2042,9 @@ Inclui a inserção, comunicação, interconexão e acesso aos dados existentes 
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Inscrição ou atualização dos dados em serviços sociais da Administração Pública.
-Inicia com o envio do pedido e termina com a emissão do cartão ou com a atualização dos dados.
+Inicia com o envio do pedido e termina com a desativação de registo do trabalhador.
 Inclui a apresentação de documentos comprovativos e validação dos dados de registo.
-A participação do Ministério da Justiça ocorre na fase do envio do pedido ou atualização dos dados do trabalhador para a entidade competente.
+A participação do Ministério da Justiça ocorre na fase do envio do pedido ou atualização dos dados do trabalhador para a entidade competente, a emissão do cartão, atualização dos dados.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.050_1
 :na_c400.10.050_1 rdf:type owl:NamedIndividual ,
@@ -2123,8 +2129,8 @@ A participação do Ministério da Justiça ocorre na fase do envio do pedido ou
 	:processoDimQual "Média" ;
 	:processoUniform "S" ;
 	:descricao "Identificação, inscrição e atualização de entidade como operador económico em áreas específicas.
-Inicia com o pedido de inscrição, quando aplicável, e termina com o registo.
-Inclui a validação dos dados, o acompanhamento, a atualização e o cancelamento do registo.
+Inicia com o pedido de inscrição, quando aplicável, e termina  com a desativação de registo do trabalhador.
+Inclui a validação dos dados, o acompanhamento, a atualização.
 
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.051_1
@@ -2175,25 +2181,25 @@ Inclui a validação dos dados, o acompanhamento, a atualização e o cancelamen
 Inicia com a solicitação de inscrição e termina com a inativação do registo (por iniciativa específica, por extinção da entidade ou decorrente de aplicação de condição ou disposição legal).
 Inclui a recolha centralizada, registo, atribuição de número, atualização, validação dos dados.
 O registo pode ser inativado na sequência de procedimento estabelecido na lei (como é caso do DL 23/2014, art.º 3º, em que estabelece que o registo é válido por tempo indeterminado, caducando se a IGAC verificar a inatividade durante um período consecutivo de dois anos). Na ausência de dispositivo legal deve ser considerado um prazo de vida ativa do trabalhador de 50 anos.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.052_1
-:na_c400.10.052_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Empresário em nome individual".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.052_2
 :na_c400.10.052_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Sociedade unipessoal por quotas".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.052_3
-:na_c400.10.052_3 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.052_1
+:na_c400.10.052_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Estabelecimento individual de responsabilidade limitada".
+	:conteudo "Empresário em nome individual".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.052_4
 :na_c400.10.052_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Sociedade por quotas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.052_3
+:na_c400.10.052_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Estabelecimento individual de responsabilidade limitada".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.052_5
 :na_c400.10.052_5 rdf:type owl:NamedIndividual ,
@@ -2271,7 +2277,7 @@ O registo pode ser inativado na sequência de procedimento estabelecido na lei (
 	:processoDimQual "Média" ;
 	:processoUniform "S" ;
 	:descricao "Identificação de entidades de natureza empresarial, por organismo de responsabilidade setorial, para efeitos de publicitação.    
-Inicia com a solicitação do pedido de inscrição e termina com o registo da informação.
+Inicia com a solicitação do pedido de inscrição e termina com a inativação do registo.
 Inclui a análise do pedido e a sua validação.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.053_1
 :na_c400.10.053_1 rdf:type owl:NamedIndividual ,
@@ -2367,7 +2373,7 @@ Inclui a análise do pedido e a sua validação.".
 	:processoDimQual "Reduzida" ;
 	:processoUniform "S" ;
 	:descricao "Identificação de entidades de direito privado e fins públicos, por organismo de responsabilidade setorial, para efeitos de publicitação.    
-Inicia com a solicitação do pedido de inscrição e termina com o registo da informação.
+Inicia com a solicitação do pedido de inscrição e termina com a inativação do registo.
 Inclui a análise do pedido e a sua validação.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.054_1
 :na_c400.10.054_1 rdf:type owl:NamedIndividual ,
@@ -2397,7 +2403,7 @@ Inclui a análise do pedido e a sua validação.".
 	:processoDimQual "Média" ;
 	:processoUniform "S" ;
 	:descricao "Inscrição dos dados de identificação dos dadores e recetores em sistema de informação único e integrado no domínio da colheita e transplantação.
-Inicia com o pedido de inscrição e termina com o registo da informação.
+Inicia com o pedido de inscrição e termina com o registo da dádiva.
 Inclui a análise do pedido e a sua autorização.
 
 ".
@@ -2859,15 +2865,15 @@ Inclui o pedido, a apresentação do pedido, a qualificação e a execução mat
 Inicia com o pedido de registo e termina com a comunicação da morte dos animais ou cancelamento do registo.
 Inclui processamento dos dados de identificação do animal ou do conjunto de animais e respetivo detentor, emissão de um documento de identificação, sinalização e regulação de ocorrências, quando devido, atribuição à exploração de marca oficial e aplicação de marca auricular oficial e/ou identificação eletrónica.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.402_1
-:na_c400.10.402_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Registo animal em livro genealógico de espécie autóctone bovina, ovina, caprina, suína, equídea".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.402_2
 :na_c400.10.402_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Registo em Livro de Nascimento, em Livro de Reprodutores e em Livro de Mérito".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.402_1
+:na_c400.10.402_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Registo animal em livro genealógico de espécie autóctone bovina, ovina, caprina, suína, equídea".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c400.10.402
 :c400.10.402 rdf:type owl:NamedIndividual ,
@@ -2888,7 +2894,7 @@ Inclui processamento dos dados de identificação do animal ou do conjunto de an
 	:processoDimQual "Média" ;
 	:processoUniform "S" ;
 	:descricao "Identificação de animais para assegurar a preservação e o aperfeiçoamento zooténico de raça, constituindo uma linhagem pura e controlada, concorrendo para o seu progresso genético e favorecendo a criação e difusão de bons reprodutores.
-Inicia com o pedido e termina com o envio de comprovativo da inscrição.
+Inicia com o pedido e termina com o envio de comprovativo da inscrição ou com eventuais atualizações.
 Inclui controlo de requisitos prévios, processamento dos dados de identificação e caracterização do animal, verificação de requisitos para a inscrição, apresentação do comprovativo de pagamento, exame ao animal e envio do exame ao detentor, quando devido.".
 ###  http://jcr.di.uminho.pt/m51-clav#c400.10.403
 :c400.10.403 rdf:type owl:NamedIndividual ,
@@ -2907,20 +2913,20 @@ Inclui controlo de requisitos prévios, processamento dos dados de identificaç�
 	:descricao "Registo de depósito da ficha técnica de habitação.
 Inicia com o pedido de depósito da ficha técnica de habitação e termina com a notícia da demolição do imóvel.
 Inclui a validação dos dados relativamente ao respetivo processo de licenciamento.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_3
-:na_c400.10.404_3 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_1
+:na_c400.10.404_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "  Registo de bens classificados como de interesse nacional".
+	:conteudo "Atualização de dados do registo".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_2
 :na_c400.10.404_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Registo de bens móveis, imóveis e imateriais".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_1
-:na_c400.10.404_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_3
+:na_c400.10.404_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Atualização de dados do registo".
+	:conteudo "  Registo de bens classificados como de interesse nacional".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.404_4
 :na_c400.10.404_4 rdf:type owl:NamedIndividual ,
@@ -3041,11 +3047,6 @@ Inclui validação e atualização de dados.".
 	:NotaAplicacao ;
 	:conteudo "Usufruto".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.406_5
-:na_c400.10.406_5 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Hipoteca".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.406_6
 :na_c400.10.406_6 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -3061,15 +3062,20 @@ Inclui validação e atualização de dados.".
 	:NotaAplicacao ;
 	:conteudo "Ações e suas decisões".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.406_9
-:na_c400.10.406_9 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.406_5
+:na_c400.10.406_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Justificação para primeira inscrição".
+	:conteudo "Hipoteca".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.406_10
 :na_c400.10.406_10 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Justificação para estabelecimento de novo trato sucessivo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.406_9
+:na_c400.10.406_9 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Justificação para primeira inscrição".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.406_11
 :na_c400.10.406_11 rdf:type owl:NamedIndividual ,
@@ -3209,7 +3215,7 @@ Inclui validação e atualização de dados.".
 	:processoDimQual "Média" ;
 	:processoUniform "S" ;
 	:descricao "Publicitação da situação juridica dos imóveis, relativamente a um conjunto de factos a ele sujeito, tendo em vista a segurança do comércio juridico e imobiliário.
-Inicia com o pedido ou por iniciativa do conservador, nos casos previstos na lei e termina com a feitura e a assinatura do registo.
+Inicia com o pedido ou por iniciativa do conservador, nos casos previstos na lei, e termina com a assinatura do registo ou com eventuais atualizações.
 Inclui o pedido, a apresentação do pedido, a instrução, a qualificação e a execução material do registo.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.407_1
 :na_c400.10.407_1 rdf:type owl:NamedIndividual ,
@@ -3539,7 +3545,6 @@ Inclui eventual exame do pedido e a publicação do mesmo.
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_EE ;
-	:temDono :org_ISAN Portugal ;
 	:temNotaAplicacao :na_c400.10.601_1 ;
 	:classeStatus "A" ;
 	:processoDimQual "Reduzida" ;
@@ -3799,15 +3804,15 @@ Inicia com  a submissão do pedido e termina com a publicação do despacho no B
 	:NotaAplicacao ;
 	:conteudo "Pedidos de renovação do registo".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.610_2
-:na_c400.10.610_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Pedidos de segunda via do título de registo".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.610_3
 :na_c400.10.610_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Registo de livros, folhetos, revistas, jornais e outros escritos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.610_2
+:na_c400.10.610_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Pedidos de segunda via do título de registo".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.610_4
 :na_c400.10.610_4 rdf:type owl:NamedIndividual ,
@@ -4165,7 +4170,7 @@ Inclui retificações de dados inexatos ou incompletos.
 	:processoDimQual "Média" ;
 	:processoUniform "S" ;
 	:descricao "Identificação das publicações periódicas dos órgãos de comunicação social para assegurar a proteção legal dos títulos.
-Inicia com um pedido e termina com o envio do primeiro exemplar publicado para a entidade reguladora.
+Inicia com um pedido e termina com o envio do último exemplar publicado para a entidade reguladora.
 Inclui a verificação do pedido e a inscrição no registo.
 ".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c400.10.616_1
@@ -4224,7 +4229,11 @@ Inclui a identificação para cada qualificação de um perfil profissional, de 
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_DGADR ;
-	:temParticipanteAssessor :org_DRAP ;
+	:temParticipanteAssessor :org_DRAP-N ;
+	:temParticipanteAssessor :org_DRAP-C ;
+	:temParticipanteAssessor :org_DRAP-LVT ;
+	:temParticipanteAssessor :org_DRAP-Aln ;
+	:temParticipanteAssessor :org_DRAP-Alg ;
 	:temParticipanteAssessor :org_IVV ;
 	:temParticipanteAssessor :org_IVDP ;
 	:temParticipanteAssessor :org_IAMA ;
@@ -4666,15 +4675,15 @@ Inicia com o pedido de registo e termina com a emissão do comprovativo do regis
 Inclui a associação, registo e depósito de eventual prova documental que altere, retifique, revogue ou extinga documento previamente registado.
 Inclui, ainda, a organização e manutenção da base de dados de procurações.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c400.30.601_2
-:ne_c400.30.601_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "Os pedidos de informação que não se integram em nenhum processo específico devem considerados em 900.20.604 – Processamento de pedidos de informação e de esclarecimento".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c400.30.601_1
 :ne_c400.30.601_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O apuramento emolumentar devido pela prática do ato por parte da Administração, bem como a cobrança coerciva da conta do ato (certificado de conta), não voluntariamente liquidada deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c400.30.601_2
+:ne_c400.30.601_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "Os pedidos de informação que não se integram em nenhum processo específico devem considerados em 900.20.604 – Processamento de pedidos de informação e de esclarecimento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c400.30.601
 :c400.30.601 rdf:type owl:NamedIndividual ,

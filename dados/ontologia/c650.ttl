@@ -1,9 +1,4 @@
 ### Classe650
-###  http://jcr.di.uminho.pt/m51-clav#na_c650_3
-:na_c650_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Integração no mercado de trabalho".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650_1
 :na_c650_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -13,6 +8,11 @@
 :na_c650_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Processamento de apoios na área da ação social (e ação social complementar para os trabalhadores da administração pública)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650_3
+:na_c650_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Integração no mercado de trabalho".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650_4
 :na_c650_4 rdf:type owl:NamedIndividual ,
@@ -275,11 +275,6 @@ Inicia com o processamento do pedido e termina com a comunicação do montante a
 Inclui análise da situação mediante os comprovativos apresentados e decisão sobre o montante a atribuir.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.005_1
-:na_c650.10.005_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Doença".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.005_2
 :na_c650.10.005_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -294,6 +289,11 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 :na_c650.10.005_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Subsídio parental inicial exclusivo do pai".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.005_1
+:na_c650.10.005_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Doença".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.005_5
 :na_c650.10.005_5 rdf:type owl:NamedIndividual ,
@@ -1201,6 +1201,11 @@ Inclui análise do processo.
 	:NotaExclusao ;
 	:conteudo "Os pedidos de apoio psicossocial de iniciativa privada ou sinalizados por terceiros devem ser considerados em 650.20.304 – Apoio psicossocial".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.110_1
+:na_c650.10.110_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Pedidos de comparticipação de medicamentos, dispositivos médicos ou outras tecnologias de saúde".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c650.10.109
 :c650.10.109 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1235,11 +1240,6 @@ Inclui análise do processo.
 	:descricao "Atribuição de indemnização social atribuída, quer à vítima de violência doméstica que se encontram numa situação de grave carência económica, na sequência da rutura familiar, quer à vítima - direta ou indireta - de crime violento, desde que tenham sofrido por causa do crime uma incapacidade superior a 30 dias, tenham sofrido uma perturbação considerável do seu nível e da sua qualidade de vida, e não tenham obtido nenhum tipo de reparação em sede de execução de sentença condenatória.
 Inicia com a notificação emitida pela entidade competente para atribuição do adiantamento da indemnização termina com a atribuição da indemnização
 Inclui instrução do pedido.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.110_1
-:na_c650.10.110_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Pedidos de comparticipação de medicamentos, dispositivos médicos ou outras tecnologias de saúde".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.110_2
 :na_c650.10.110_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1550,11 +1550,6 @@ Inclui análise da situação mediante os comprovativos apresentados, celebraç�
 	:descricao "Atribuição de prestação pecuniária mensal aos candidatos a adotantes, que não estejam a contribuir para a Segurança Social ou não tenham o período de contribuições necessário para acesso ao subsídio por adoção e estejam em situação de carência económica.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
 Inclui análise da situação mediante os comprovativos apresentados e decisão sobre o montante a atribuir.".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c650.10.207_1
-:ne_c650.10.207_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O fluxo financeiro deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c650.10.207
 :c650.10.207 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1584,6 +1579,11 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:descricao "Atribuição de prestação pecuniária mensal ao beneficiário desempregado, para compensar a falta de remuneração motivada pela perda involuntária de emprego, quando este não reúna as condições para receber o subsídio de desemprego ou já tenha recebido a totalidade do subsídio de desemprego a que tinha direito.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
 Inclui análise da situação mediante os comprovativos apresentados e decisão sobre o montante a atribuir.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c650.10.207_1
+:ne_c650.10.207_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O fluxo financeiro deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c650.10.208_1
 :ne_c650.10.208_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -1717,11 +1717,6 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:descricao "Atribuição de uma prestação monetária mensal à trabalhadora grávida, puérpera e lactante que, na sua atividade profissional, desempenhe trabalho noturno ou se encontre exposta a riscos específicos que prejudiquem a sua segurança e saúde, desde que o empregador não lhe possa distribuir outras tarefas. A trabalhadora é abrangida por regime de proteção social obrigatório ou pelo regime do seguro social voluntário, cujo esquema de proteção social integre a eventualidade de maternidade, paternidade e adoção, sem direito ao subsídio por riscos específicos.
 Inicia com o processamento do pedido e termina com a comunicação do montante a atribuir.
 Inclui análise da situação mediante os comprovativos apresentados e decisão sobre o montante a atribuir.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.300_1
-:na_c650.10.300_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Abono de família para crianças e jovens".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.300_2
 :na_c650.10.300_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1731,6 +1726,11 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 :na_c650.10.300_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Majoração de abono para famílias com duas ou mais crianças".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.300_1
+:na_c650.10.300_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Abono de família para crianças e jovens".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.300_4
 :na_c650.10.300_4 rdf:type owl:NamedIndividual ,
@@ -1814,15 +1814,15 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:NotaAplicacao ;
 	:conteudo "Beneficiários não pensionistas, em situação de incapacidade de locomoção originada por doença".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.302_2
-:na_c650.10.302_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Pensionistas de invalidez, de velhice e de sobrevivência do regime geral de Segurança Social e pensionistas do regime não contributivo e equiparados".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c650.10.302_1
 :ne_c650.10.302_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O fluxo financeiro deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.10.302_2
+:na_c650.10.302_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Pensionistas de invalidez, de velhice e de sobrevivência do regime geral de Segurança Social e pensionistas do regime não contributivo e equiparados".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c650.10.302
 :c650.10.302 rdf:type owl:NamedIndividual ,
@@ -2212,11 +2212,6 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:NotaAplicacao ;
 	:conteudo "Processos relativos à garantia de acesso ao direito, designadamente nos domínios da informação e consulta jurídica e do apoio judiciário prestados ao cidadão.".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c650.20_1
-:ne_c650.20_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O encaminhamento de alunos no quadro das estruturas de ensino deve ser considerado em “Prestação de serviços de ensino e formação/ Gestão do aluno/formando” (750.10)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c650.20
 :c650.20 rdf:type owl:NamedIndividual ,
 	:Classe_N2;
@@ -2229,6 +2224,11 @@ Inclui análise da situação mediante os comprovativos apresentados e decisão 
 	:descricao "Compreende os processos relativos à prestação de serviços de informação e consulta para corrigir ou minimizar situações de vulnerabilidade social, no que se inclui o apoio à integração no mercado de trabalho.
 Compreende, igualmente, os processos de atendimento de emergência e acolhimento de pessoas em risco de exclusão social (crianças, jovens, idosos, portadores de deficiência, vítimas de violência, etc.), bem como o atendimento, encaminhamento e acolhimento regular em estruturas de apoio social e psicossocial.
 Compreende, ainda, os processos de acesso e usufruto de equipamentos de apoio à inclusão social (infraestruturas de acolhimento, de convívio, de lazer, ou outras).".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c650.20_1
+:ne_c650.20_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O encaminhamento de alunos no quadro das estruturas de ensino deve ser considerado em “Prestação de serviços de ensino e formação/ Gestão do aluno/formando” (750.10)".
+
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.001_1
 :na_c650.20.001_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -2253,7 +2253,7 @@ Compreende, ainda, os processos de acesso e usufruto de equipamentos de apoio à
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_UPCS ;
-	:temParticipanteIniciador :org_FS ;
+	:temParticipanteIniciador :org_FSS ;
 	:temParticipanteIniciador :org_MP ;
 	:temParticipanteIniciador :org_SEF ;
 	:temParticipanteIniciador :org_IPSS ;
@@ -2336,6 +2336,11 @@ Inclui comprovativos da situação, análise do caso apresentado, estudo de solu
 	:NotaAplicacao ;
 	:conteudo " ".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.302_1
+:na_c650.20.302_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acompanhamento personalizado dos desempregados em fase de inserção ou reinserção profissional".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c650.20.301
 :c650.20.301 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -2364,25 +2369,20 @@ Inclui comprovativos da situação, análise do caso apresentado, estudo de solu
 	:descricao "Prestação de cuidados e serviços a famílias ou pessoas que se encontrem no seu domicílio, em situação de dependência física e ou psíquica e que não possam assegurar, temporária ou permanentemente, a satisfação das suas necessidades básicas e ou a realização das atividades instrumentais da vida diária, nem disponham de apoio familiar para o efeito.
 Inicia com o pedido de apoio e termina com a prestação do serviço solicitado.
 Inclui análise da situação, verificação do tipo de apoio necessário e disponibilização de meios para o apoio.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.302_1
-:na_c650.20.302_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Acompanhamento personalizado dos desempregados em fase de inserção ou reinserção profissional".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.302_2
 :na_c650.20.302_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Apoio na procura ativa de emprego".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.302_3
-:na_c650.20.302_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Disponibilização de informação profissional para jovens e adultos desempregados".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.302_4
 :na_c650.20.302_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Encaminhamento para ofertas de qualificação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.302_3
+:na_c650.20.302_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Disponibilização de informação profissional para jovens e adultos desempregados".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.302_5
 :na_c650.20.302_5 rdf:type owl:NamedIndividual ,
@@ -2460,6 +2460,11 @@ Inclui definição de perfil e auxílio para elaboração de currículos, divulg
 	:NotaAplicacao ;
 	:conteudo "Apoio psicossocial e emocional prestado aos vários tipos de pessoas ou famílias em situação de risco ou vulnerabilidade, entre outras, imigrantes, vítimas de crimes, vítimas de exclusão social de uma forma genérica".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.306_1
+:na_c650.20.306_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Prestação de cuidados de alimentação a pessoas institucionalizadas".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c650.20.304
 :c650.20.304 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -2498,11 +2503,6 @@ Inclui definição de perfil e auxílio para elaboração de currículos, divulg
 	:processoUniform "N" ;
 	:descricao "Prestação de apoio e acompanhamento às famílias e indivíduos com dificuldades na prevenção ou resolução de problemas a nível psicossocial, nomeadamente na prevenção, e acompanhamento de potenciais situações de disfunção, ruturas ou pré-rupturas ou no contexto social e laboral.
 Inicia com o pedido do interessado ou com a identificação da necessidade por terceiros e termina com a satisfação da necessidade ou suspensão do processo, por ausência do interessado. Inclui diagnóstico de situação, definição de objetivos, incentivando o indivíduo/família à participação ativa no seu próprio processo de mudança/resolução dos seus problemas e articulação com outros serviços para evitar fragmentação das respostas e insucesso na intervenção psicossocial.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.306_1
-:na_c650.20.306_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Prestação de cuidados de alimentação a pessoas institucionalizadas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.306_2
 :na_c650.20.306_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -2667,15 +2667,15 @@ Inclui seleção e articulação da admissão, formalização da receção do in
 	:NotaAplicacao ;
 	:conteudo "Acolhimento de pessoas portadoras de deficiência".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.601_4
-:na_c650.20.601_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Acolhimento de mães adolescentes".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.601_3
 :na_c650.20.601_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Acolhimento de idosos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.601_4
+:na_c650.20.601_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Acolhimento de mães adolescentes".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.601_5
 :na_c650.20.601_5 rdf:type owl:NamedIndividual ,
@@ -2697,25 +2697,25 @@ Inclui seleção e articulação da admissão, formalização da receção do in
 	:NotaAplicacao ;
 	:conteudo "Resposta social em apartamento de autonomização".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.601_9
-:na_c650.20.601_9 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Resposta social em frações autónomas para idosos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.601_10
 :na_c650.20.601_10 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Resposta social em lares de idosos".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.601_11
-:na_c650.20.601_11 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.601_9
+:na_c650.20.601_9 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Resposta social em lares de infância e juventude".
+	:conteudo "Resposta social em frações autónomas para idosos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.601_12
 :na_c650.20.601_12 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Resposta social em residências de acolhimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.601_11
+:na_c650.20.601_11 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Resposta social em lares de infância e juventude".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.601_13
 :na_c650.20.601_13 rdf:type owl:NamedIndividual ,
@@ -2826,6 +2826,11 @@ Inclui candidatura e seleção, nas situações que o prevejam,  acolhimento e i
 	:NotaExclusao ;
 	:conteudo "A inscrição de alunos no ensino pré-escolar deve ser considerada 750.10.002 – Processamento de matrículas ou inscrições no ensino ou em formação".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.603_1
+:na_c650.20.603_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Utilização  de residências de acolhimento".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c650.20.602
 :c650.20.602 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -2861,11 +2866,6 @@ Inclui candidatura e seleção, nas situações que o prevejam,  acolhimento e i
 	:descricao "Admissão a equipamentos de caráter social que visam satisfazer as necessidades básicas quotidianas e melhorar a vida das populações.
 Inicia com o pedido de acesso ao equipamento e termina com a recusa ou satisfação da necessidade.
 Inclui verificação da situação económica e da existência de equipamentos adequados à situação, elaboração e avaliação do plano de desenvolvimento individual, quando haja lugar.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.603_1
-:na_c650.20.603_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Utilização  de residências de acolhimento".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c650.20.603_2
 :na_c650.20.603_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;

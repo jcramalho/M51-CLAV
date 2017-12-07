@@ -1,18 +1,23 @@
 ### Classe750
-###  http://jcr.di.uminho.pt/m51-clav#na_c750_1
-:na_c750_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Inclui as ações de formação para a qualificação dos recursos humanos da administração pública, bem como a realização de estágios.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750_2
 :na_c750_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Aplicável tanto às entidades que prestam os serviços referidos como às que solicitam a prestação dos mesmos.".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c750_1
+:na_c750_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Inclui as ações de formação para a qualificação dos recursos humanos da administração pública, bem como a realização de estágios.".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c750_1
 :ne_c750_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "As ações de sensibilização, congressos, seminários e outros encontros científicos ou profissionais, devem ser considerados em \"Dinamização e comunicação  institucional/ Execução de atividades de dinamização da sociedade\" (900.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.10_1
+:na_c750.10_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Quando aplicável, estas atividades incidem igualmente sobre estagiários.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c750
 :c750 rdf:type owl:NamedIndividual ,
@@ -27,11 +32,6 @@
 	:descricao "Relativo à prestação de serviços no domínio da educação/ensino/qualificação da população, independentemente da idade ou do contexto (escolar, académico, profissional ou outro) - inclui a educação pré-escolar, o ensino básico e secundário, o ensino superior, a educação extraescolar e todos os cursos de formação, de
 qualificação profissional e valorização permanente, em qualquer área do conhecimento.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.10_1
-:na_c750.10_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Quando aplicável, estas atividades incidem igualmente sobre estagiários.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c750.10
 :c750.10 rdf:type owl:NamedIndividual ,
 	:Classe_N2;
@@ -46,25 +46,25 @@ qualificação profissional e valorização permanente, em qualquer área do con
 	:NotaAplicacao ;
 	:conteudo "Candidatos selecionados ou encaminhados para a formação profissional".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_4
-:na_c750.10.001_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Seriação dos candidatos ao curso Curso de Estudos Avançados em Gestão Pública (CEAGP)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_2
 :na_c750.10.001_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Candidatos ao ingresso no âmbito da escolaridade obrigatória e do ensino regular profissional".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_3
-:na_c750.10.001_3 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_4
+:na_c750.10.001_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Concursos especiais (maiores de 23 anos)".
+	:conteudo "Seriação dos candidatos ao curso Curso de Estudos Avançados em Gestão Pública (CEAGP)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_5
 :na_c750.10.001_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Bolseiro dos Países Africanos de Língua Oficial Portuguesa (PALOP) e Comunidade dos Países de Língua Portuguesa (CPLP)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_3
+:na_c750.10.001_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Concursos especiais (maiores de 23 anos)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.001_6
 :na_c750.10.001_6 rdf:type owl:NamedIndividual ,
@@ -343,20 +343,25 @@ Termina com a publicitação.
 	:NotaExclusao ;
 	:conteudo "O pagamento de propinas deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c750.10.002_3
-:ne_c750.10.002_3 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A emissão de certificados ou diplomas de escolaridade deve ser considerada em 450.30.002 – Certificação de habilitações ou qualificações".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c750.10.002_4
 :ne_c750.10.002_4 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A ação disciplinar em contexto escolar ou formativo deve ser considerada em 500.20.300 – Procedimento disciplinar".
 
+###  http://jcr.di.uminho.pt/m51-clav#ne_c750.10.002_3
+:ne_c750.10.002_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A emissão de certificados ou diplomas de escolaridade deve ser considerada em 450.30.002 – Certificação de habilitações ou qualificações".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c750.10.002_5
 :ne_c750.10.002_5 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A aplicação de métodos de seleção, designadamente concursos, provas de ingresso e a satisfação de pré-requisitos (realização de provas de aptidão física, funcional ou vocacional) devem ser considerados em 750.10.001 – Seleção e seriação para ingresso no ensino ou formação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.300_2
+:na_c750.10.300_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Processamento de dados relativos à transferência de estabelecimento de ensino".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c750.10.002
 :c750.10.002 rdf:type owl:NamedIndividual ,
@@ -422,11 +427,6 @@ Inclui verificação de dados de identificação e validação da existência do
 :na_c750.10.300_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Processamento de dados cadastrais dos alunos ou formandos de todos os graus e modalidades de ensino ou formação".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.300_2
-:na_c750.10.300_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Processamento de dados relativos à transferência de estabelecimento de ensino".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.300_3
 :na_c750.10.300_3 rdf:type owl:NamedIndividual ,
@@ -530,7 +530,9 @@ Inclui justificação de faltas e notificação dos interessados.".
 	:temPai :c750.10.600 ;
 	:temNotaAplicacao :na_c750.10.600.01_1 ;
 	:classeStatus "A" ;
-	:descricao "Verificação do cumprimento do dever do aluno ou formando de frequentar as atividades letivas, escolares ou formativas em cursos ou ações de formação financiados.Inicia com o registo de faltas do aluno ou formando e termina com a síntese de ocorrências relativas à assiduidade e pontualidade do mesmo.Inclui justificação de faltas e notificação dos interessados.".
+	:descricao "Verificação do cumprimento do dever do aluno ou formando de frequentar as atividades letivas, escolares ou formativas em cursos ou ações de formação financiados.
+Inicia com o registo de faltas do aluno ou formando e termina com a síntese de ocorrências relativas à assiduidade e pontualidade do mesmo no encerramento do curso, ação ou ano letivo.
+Inclui justificação de faltas e notificação dos interessados.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.600.02_1
 :na_c750.10.600.02_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -544,7 +546,9 @@ Inclui justificação de faltas e notificação dos interessados.".
 	:temPai :c750.10.600 ;
 	:temNotaAplicacao :na_c750.10.600.02_1 ;
 	:classeStatus "A" ;
-	:descricao "Verificação do cumprimento do dever do aluno ou formando de frequentar as atividades letivas, escolares ou formativas em cursos ou ações de formação não financiados.Inicia com o registo de faltas do aluno ou formando e termina com a síntese de ocorrências relativas à assiduidade e pontualidade do mesmo.Inclui justificação de faltas e notificação dos interessados.".
+	:descricao "Verificação do cumprimento do dever do aluno ou formando de frequentar as atividades letivas, escolares ou formativas em cursos ou ações de formação financiados.
+Inicia com o registo de faltas do aluno ou formando e termina com a síntese de ocorrências relativas à assiduidade e pontualidade do mesmo no encerramento do curso, ação ou ano letivo.
+Inclui justificação de faltas e notificação dos interessados.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.601_1
 :na_c750.10.601_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -643,8 +647,8 @@ Inclui justificação de faltas e notificação dos interessados.".
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Realização das atividades inerentes à inscrição para prestação de provas de avaliação de conhecimentos.
-Inicia com a inscrição e termina com a atribuição do número interno de identificação, nos casos previstos legalmente.
-Inclui, conforme o grau de ensino, ciclo de estudos ou formação em apreço, proposição de realização de prova ou de defesa, entrega de termo de aceitação ou parecer do orientador, de declaração do departamento e de autorização de depósito no repositório bem como dos comprovativos da inscrição e frequência.".
+Inicia com a inscrição e termina com a publicitação das pautas finais.
+Inclui, conforme o grau de ensino, ciclo de estudos ou formação em apreço, proposição de realização de prova ou de defesa, entrega de termo de aceitação ou parecer do orientador, de declaração do departamento e de autorização de depósito no repositório bem como dos comprovativos da inscrição e frequência e aatribuição do número interno de identificação, nos casos previstos legalmente.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.10.602_1
 :na_c750.10.602_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -713,25 +717,25 @@ Inclui, conforme o grau de ensino, ciclo de estudos ou formação em apreço, pr
 	:descricao "Acolhimento e disponibilização de recursos educativos adequados a cada caso, durante o percurso escolar ou formativo, de forma a facilitar o desenvolvimento académico, pessoal e sócio-emocional do estudante ou formando, com vista à sua integração e participação em todas as esferas da sociedade.
 Inicia com a manifestação expressa da necessidade ou sinalização de acompanhamento especial e termina com a satisfação da necessidade ou com a conclusão do grau de ensino ou da formação.
 Inclui procedimentos de referenciação e avaliação, a proposta de adoção de medidas e soluções apropriadas à necessidade expressa, através de programa/plano educativo individual e seu acompanhamento.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.20_1
-:na_c750.20_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Aplicável a todos os patamares da gestão formativa e curricular desde a definição das disciplinas de um curso, dos conteúdos programáticos das disciplinas e das aulas/sessões de formação, até à organização de turmas ou à seleção de materiais pedagógicos.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c750.20_1
 :ne_c750.20_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A homologação de cursos deve ser considerada em \"Reconhecimentos e permissões/ Licenciamentos, certificações e outras autorizações\" (450.10).".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c750.20_2
-:ne_c750.20_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O diagnóstico de necessidades deve ser considerado em \"Planeamento e gestão estratégica/ Planeamento, avaliação e melhoria dos serviços\" (150.20).".
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.20_1
+:na_c750.20_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Aplicável a todos os patamares da gestão formativa e curricular desde a definição das disciplinas de um curso, dos conteúdos programáticos das disciplinas e das aulas/sessões de formação, até à organização de turmas ou à seleção de materiais pedagógicos.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c750.20_3
 :ne_c750.20_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "As operações estatísticas devem ser consideradas em \"Planeamento e gestão estratégica/ Produção de informação estatística\" (150.40).".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c750.20_2
+:ne_c750.20_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O diagnóstico de necessidades deve ser considerado em \"Planeamento e gestão estratégica/ Planeamento, avaliação e melhoria dos serviços\" (150.20).".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c750.20
 :c750.20 rdf:type owl:NamedIndividual ,
@@ -961,15 +965,15 @@ Inclui elaboração ou seleção de fontes de informação e aplicação de crit
 	:descricao "Organização do ano letivo em qualquer nível de ensino, bem como à organização da formação.
 Inicia com a listagem dos alunos ou formandos inscritos e termina com a divulgação dos horários e das turmas, turnos ou grupos.
 Inclui constituição das turmas, turnos ou grupos.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.20.600_1
-:na_c750.20.600_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Atividades de enriquecimento curricular".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.20.600_2
 :na_c750.20.600_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Atividades extra curriculares".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.20.600_1
+:na_c750.20.600_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Atividades de enriquecimento curricular".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.20.600_3
 :na_c750.20.600_3 rdf:type owl:NamedIndividual ,
@@ -1066,7 +1070,7 @@ Inclui constituição das turmas, turnos ou grupos.".
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Concretização de atividades formativas, letivas e extra curriculares.
-Inicia com a análise do programa de curso ou formação e termina com a concretização das atividades curriculares letivas e formativas.
+Inicia com a análise do programa de curso ou formação e termina com a apresentação do relatório sobre a concretização das atividades curriculares letivas e formativas no encerramento da ação ou do ano letivo.
 Inclui elaboração de plano de aula ou plano de formação, implementação de estratégias técnico-pedagógicas, definição de planos de recuperação, de acompanhamento ou desenvolvimento, produção de sumários, elaboração de relatórios periódicos das aulas, apresentação de propostas de atividades, monitorização do desenvolvimento das aprendizagens e interação entre docentes ou formadores e alunos ou formandos.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.20.601_1
 :na_c750.20.601_1 rdf:type owl:NamedIndividual ,
@@ -1101,7 +1105,7 @@ Inclui elaboração de plano de aula ou plano de formação, implementação de 
 	:temPai :c750.20 ;
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
-	:temDono :org_FS ;
+	:temDono :org_FSS ;
 	:temDono :org_FA ;
 	:temDono :org_EC ;
 	:temDono :org_CMil ;
@@ -1128,15 +1132,15 @@ Inclui elaboração de plano de aula ou plano de formação, implementação de 
 Inicia com a definição do programa de formação adaptado a cada caso, e termina com a concretização das atividades.
 Inclui elaboração de plano de aula, a avaliação do desenvolvimento animal, relativos a graus de dificuldade ou capacidades desenvolvidas.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.30_2
-:na_c750.30_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Relatórios de estágio".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.30_1
 :na_c750.30_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Exames".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.30_2
+:na_c750.30_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Relatórios de estágio".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.30_3
 :na_c750.30_3 rdf:type owl:NamedIndividual ,
@@ -1385,15 +1389,15 @@ Inclui elaboração da lista dos alunos que realizam a prova (pautas de chamada)
 	:descricao "Lançamento e publicitação dos resultados da avaliação das aprendizagens.
 Inicia com a análise de grelhas de classificação e pautas provisórias e termina com o lançamento de resultados definitivos e a sua publicitação.
 Inclui reapreciação da avaliação da prova sempre que solicitado e o registo dos resultados definitivos.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c750.30.602_1
-:na_c750.30.602_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Reconhecimento académico pelo qual uma qualificação académica estrangeira é comparada a uma qualificação portuguesa relativamente ao nível, duração e conteúdo programático".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.30.602_2
 :na_c750.30.602_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reconhecimento a indivíduos que não obtiveram qualificação escolar, académica, profissional pela via formal e pretendam ver confirmado os seus conhecimentos e competências".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c750.30.602_1
+:na_c750.30.602_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Reconhecimento académico pelo qual uma qualificação académica estrangeira é comparada a uma qualificação portuguesa relativamente ao nível, duração e conteúdo programático".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c750.30.602_3
 :na_c750.30.602_3 rdf:type owl:NamedIndividual ,

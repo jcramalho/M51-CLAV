@@ -71,15 +71,15 @@ Relativo, ainda, à definição e acompanhamento da execução de acordos, proto
 	:classeStatus "A" ;
 	:descricao "Compreende as atividades que consubstanciam a participação na negociação, preparação e fixação de instrumentos reguladores das relações internacionais, de decisões tomadas no âmbito da cooperação intergovernamental da União Europeia, bem como de instrumentos de regulação comunitária.
 Compreende, igualmente, a participação na elaboração de normas técnicas europeias e internacionais.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.001_1
-:na_c200.10.001_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Relações bilaterais ou multilaterais (com países de fora da União Europeia ou com Estados-Membros da União Europeia)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.001_2
 :na_c200.10.001_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Elaboração de contributos para as cimeiras internacionais e reuniões ministeriais no quadro internacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.001_1
+:na_c200.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Relações bilaterais ou multilaterais (com países de fora da União Europeia ou com Estados-Membros da União Europeia)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c200.10.001_3
 :na_c200.10.001_3 rdf:type owl:NamedIndividual ,
@@ -104,57 +104,57 @@ Compreende, igualmente, a participação na elaboração de normas técnicas eur
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_4
 :exna_c200.10.001_4 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
-	:conteudo "Relações bilaterais / multilaterais em matéria de justiçar".
+	:conteudo "Relações bilaterais / multilaterais em matéria de justiça".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_5
 :exna_c200.10.001_5 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
-	:conteudo "Relações bilaterais / multilaterais em matéria de culturar".
+	:conteudo "Relações bilaterais / multilaterais em matéria de cultura".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_6
 :exna_c200.10.001_6 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
-	:conteudo "Relações bilaterais / multilaterais em matéria de saúder".
+	:conteudo "Relações bilaterais / multilaterais em matéria de saúde".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_7
 :exna_c200.10.001_7 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
-	:conteudo "Relações bilaterais / multilaterais em matéria de segurançar".
+	:conteudo "Relações bilaterais / multilaterais em matéria de segurança".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_8
 :exna_c200.10.001_8 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
-	:conteudo "Relações bilaterais / multilaterais em matéria de defesar".
+	:conteudo "Relações bilaterais / multilaterais em matéria de defesa".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_9
 :exna_c200.10.001_9 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
-	:conteudo "Relações bilaterais / multilaterais em matéria de económicar".
+	:conteudo "Relações bilaterais / multilaterais em matéria de económica".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_10
 :exna_c200.10.001_10 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
-	:conteudo "Relações bilaterais / multilaterais em matéria de empregor".
+	:conteudo "Relações bilaterais / multilaterais em matéria de emprego".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_11
 :exna_c200.10.001_11 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
-	:conteudo "Relações bilaterais / multilaterais em matéria de formação profissionar".
+	:conteudo "Relações bilaterais / multilaterais em matéria de formação profissional".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.001_12
 :exna_c200.10.001_12 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Relações bilaterais / multilaterais em matéria de relações e condições de trabalho, incluindo a segurança e saúde no trabalho".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.001_1
-:ne_c200.10.001_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A definição de políticas nacionais setoriais deve ser considerada em 150.10.100 – Definição de políticas setoriais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.001_2
 :ne_c200.10.001_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A definição de posições nacionais e de tomada de posição conjunta no âmbito da União Europeia devem ser classificadas em 200.10.400 – Definição conjunta das opções estratégicas da União Europeia e em 200.10.501 – Definição e coordenação das políticas setoriais pelos Estados Membros da União Europeia, respetivamente".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c200.10.001_1
+:ne_c200.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A definição de políticas nacionais setoriais deve ser considerada em 150.10.100 – Definição de políticas setoriais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c200.10.001
 :c200.10.001 rdf:type owl:NamedIndividual ,
@@ -189,14 +189,14 @@ Compreende, igualmente, a participação na elaboração de normas técnicas eur
 	:exemploNA "Relações bilaterais / multilaterais  em matéria consular" ;
 	:exemploNA "Relações bilaterais / multilaterais em matéria de ambiente" ;
 	:exemploNA "Relações bilaterais / multilaterais em matéria de educaçãor" ;
-	:exemploNA "Relações bilaterais / multilaterais em matéria de justiçar" ;
-	:exemploNA "Relações bilaterais / multilaterais em matéria de culturar" ;
-	:exemploNA "Relações bilaterais / multilaterais em matéria de saúder" ;
-	:exemploNA "Relações bilaterais / multilaterais em matéria de segurançar" ;
-	:exemploNA "Relações bilaterais / multilaterais em matéria de defesar" ;
-	:exemploNA "Relações bilaterais / multilaterais em matéria de económicar" ;
-	:exemploNA "Relações bilaterais / multilaterais em matéria de empregor" ;
-	:exemploNA "Relações bilaterais / multilaterais em matéria de formação profissionar" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de justiça" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de cultura" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de saúde" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de segurança" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de defesa" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de económica" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de emprego" ;
+	:exemploNA "Relações bilaterais / multilaterais em matéria de formação profissional" ;
 	:exemploNA "Relações bilaterais / multilaterais em matéria de relações e condições de trabalho, incluindo a segurança e saúde no trabalho" ;
 	:processoDimQual "Média" ;
 	:processoUniform "N" ;
@@ -208,15 +208,15 @@ Inclui os contributos de embaixadas e de ministérios setoriais, demonstrativos 
 	:NotaAplicacao ;
 	:conteudo "Participação de entidades da administração central (direta e indireta), local e do setor empresarial em reuniões que envolvam organismos e instituições internacionais congéneres".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.002_1
-:exna_c200.10.002_1 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Elaboração de contributos para as estruturas da Organização das Nações Unidas (ONU)".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.002_2
 :exna_c200.10.002_2 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Elaboração de contributos para as estruturas da Organização do Tratatdo do Atlântico Norte (NATO)".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.002_1
+:exna_c200.10.002_1 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Elaboração de contributos para as estruturas da Organização das Nações Unidas (ONU)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.10.002_3
 :exna_c200.10.002_3 rdf:type owl:NamedIndividual ,
@@ -508,7 +508,7 @@ Inclui negociação e elaboração do protocolo ou acordo.".
 	:processoTransversal "N" ;
 	:temDono :org_Emb ;
 	:temDono :org_DGACCP ;
-	:temDono :org_DGAE ;
+	:temDono :org_DGAEu ;
 	:temDono :org_DGPE ;
 	:temNotaAplicacao :na_c200.20.001_1 ;
 	:temNotaExclusao :ne_c200.20.001_1 ;
@@ -625,25 +625,25 @@ Inclui preparação de deslocações, recolha de informação, programação e c
 	:descricao "Preparação de deslocações e visitas de Chefes de Estado e de governo, membros de governo ou equiparados, representantes e dirigentes de organizações internacionais e Presidentes de Câmara ou altos representantes da Administração Central, Local ou Regional.
 Inicia com convite e termina com elaboração de relatório final.
 Inclui identificação do país visitado ou visitante, do objeto da visita e das respetivas delegações, realização de pontos de situação relativos ao objeto da visita e sistematização de toda a informação pertinente e disponível sobre o âmbito da visita, complilação da informação trocada com as entidades envolvidas, elaboração das versões provisórias e finais do programa e da lista de participantes, compilação dos relatos das reuniões realizadas com diferentes entidades, a recolha de dados e elementos informativos necessários à realização da visita e à sua organização técnica e logística.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c200.30_1
-:na_c200.30_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Os projetos de execução da política externa podem manifestar-se através de relações de cooperação interinstitucional mas são, por princípio, politicamente enquadrados por acordos de Estado.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_1
 :exna_c200.30_1 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Projetos de ajuda pública ao desenvolvimento (também designados de cooperação para o desenvolvimento)".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_2
-:exna_c200.30_2 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Missões de ajuda humanitária no estrangeiro".
+###  http://jcr.di.uminho.pt/m51-clav#na_c200.30_1
+:na_c200.30_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Os projetos de execução da política externa podem manifestar-se através de relações de cooperação interinstitucional mas são, por princípio, politicamente enquadrados por acordos de Estado.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_3
 :exna_c200.30_3 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Missões de observação eleitoral no estrangeiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_2
+:exna_c200.30_2 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Missões de ajuda humanitária no estrangeiro".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_4
 :exna_c200.30_4 rdf:type owl:NamedIndividual ,
@@ -655,15 +655,15 @@ Inclui identificação do país visitado ou visitante, do objeto da visita e das
 	:ExemploNotaAplicacao ;
 	:conteudo "Homenagens atribuídas a representantes de outros Estados ou de entidades externas, ou recebidas por entidades portuguesas, enquanto atos de política externa".
 
-###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_7
-:exna_c200.30_7 rdf:type owl:NamedIndividual ,
-	:ExemploNotaAplicacao ;
-	:conteudo "Apoio logístico à internacionalização das empresas e dos agentes culturais portugueses".
-
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_6
 :exna_c200.30_6 rdf:type owl:NamedIndividual ,
 	:ExemploNotaAplicacao ;
 	:conteudo "Ações de promoção do país no estrangeiro, de caráter geral ou específico (com incidência comercial, cultural ou outra), no que se inclui a organização da representação nacional em feiras e outros eventos internacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_7
+:exna_c200.30_7 rdf:type owl:NamedIndividual ,
+	:ExemploNotaAplicacao ;
+	:conteudo "Apoio logístico à internacionalização das empresas e dos agentes culturais portugueses".
 
 ###  http://jcr.di.uminho.pt/m51-clav#exna_c200.30_8
 :exna_c200.30_8 rdf:type owl:NamedIndividual ,
@@ -776,7 +776,7 @@ Consideram-se projetos de execução da política externa aqueles que cumprem ob
 	:processoTransversal "S" ;
 	:temParticipanteAssessor :org_ANPC ;
 	:temParticipanteAssessor :org_FA ;
-	:temParticipanteAssessor :org_FS ;
+	:temParticipanteAssessor :org_FSS ;
 	:temParticipanteAssessor :org_INMLCF ;
 	:temParticipanteAssessor :org_PJ ;
 	:temParticipanteAssessor :org_Camões ;

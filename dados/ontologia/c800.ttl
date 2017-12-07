@@ -1,13 +1,13 @@
 ### Classe800
-###  http://jcr.di.uminho.pt/m51-clav#na_c800_1
-:na_c800_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Aplicável tanto às entidades que prestam os serviços referidos como aos que solicitam a prestação dos mesmos.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c800_1
 :ne_c800_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A prestação de serviços de ensino/formação deve ser considerada em \"Prestação de serviços de ensino e formação\" (750).A prestação de cuidados de saúde deve ser considerada em \"Prestação de cuidados de saúde\" (700).Os processos de investigação criminal devem ser considerados em \"Administração da justiça/ Prevenção e investigação criminal\" (600.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800_1
+:na_c800_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Aplicável tanto às entidades que prestam os serviços referidos como aos que solicitam a prestação dos mesmos.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c800
 :c800 rdf:type owl:NamedIndividual ,
@@ -146,15 +146,15 @@ Inclui execução de levantamentos diretos com base em GNSS e Topografia, levant
 	:descricao "Levantamento e processamento de dados geodésicos para constituição de repositórios de dados, com vista à determinação de sistemas geográficos de referência, data altimétricos e planimétricos e parâmetros de transformação. Processo essencial de suporte a toda a produção de cartografia de base. 
 Inicia com a aquisição de dados e termina com a produção da informação. 
 Inclui levantamentos geodésicos no local, monitorização/aferição de equipamentos, validação, cálculo e processamento dos dados.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_2
-:na_c800.10.300_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Controlo ambiental em contexto de higiene e saúde no trabalho".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_1
 :na_c800.10.300_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Identificação de microorganismos em equipamentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_2
+:na_c800.10.300_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Controlo ambiental em contexto de higiene e saúde no trabalho".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_3
 :na_c800.10.300_3 rdf:type owl:NamedIndividual ,
@@ -300,15 +300,15 @@ Inclui registo de valores.
 	:NotaExclusao ;
 	:conteudo "Os avisos e alertas de segurança devem ser considerados em 550.20.001 – Emissão de avisos e declaração de alertas".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.301_4
-:ne_c800.10.301_4 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A qualidade da água da rede de distribuição pública deve ser considerada em 800.10.303 – Monitorização do abastecimento e distribuição de água e do saneamento de águas residuais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.301_3
 :ne_c800.10.301_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A vigilância no âmbito da segurança deve ser considerada em 550.20.002 – Ação de vigilância".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.301_4
+:ne_c800.10.301_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A qualidade da água da rede de distribuição pública deve ser considerada em 800.10.303 – Monitorização do abastecimento e distribuição de água e do saneamento de águas residuais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c800.10.301
 :c800.10.301 rdf:type owl:NamedIndividual ,
@@ -322,15 +322,27 @@ Inclui registo de valores.
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
 	:temDono :org_APA ;
-	:temDono :org_CCDR ;
-	:temDono :org_DRAP ;
+	:temDono :org_CCDR-N ;
+	:temDono :org_CCDR-C ;
+	:temDono :org_CCDR-LVT ;
+	:temDono :org_CCDR-Aln ;
+	:temDono :org_CCDR-Alg ;
+	:temDono :org_DRAP-N ;
+	:temDono :org_DRAP-C ;
+	:temDono :org_DRAP-LVT ;
+	:temDono :org_DRAP-Aln ;
+	:temDono :org_DRAP-Alg ;
 	:temDono :org_IPMA ;
 	:temDono :org_DGADR ;
 	:temDono :org_AL ;
 	:temDono :org_ACES ;
 	:temDono :org_IST ;
 	:temDono :org_DGRM ;
-	:temDono :org_ARS ;
+	:temDono :org_ARS-N ;
+	:temDono :org_ARS-C ;
+	:temDono :org_ARS-LVT ;
+	:temDono :org_ARS-Aln ;
+	:temDono :org_ARS-Alg ;
 	:temDono :org_INSA ;
 	:temDono :org_DGS ;
 	:temNotaAplicacao :na_c800.10.301_1 ;
@@ -640,25 +652,25 @@ Inclui avaliação científica, ponderação das medidas de segurança adequadas
 
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.305_1
-:ne_c800.10.305_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A autorização para a realização dos ensaios clínicos deve ser classificada em 450.10.073 – Licenciamento ou autorização de atividades de investigação científica e de desenvolvimento".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.305_1
 :na_c800.10.305_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Avaliação das notificações de suspeitas de reações Adversas graves e inesperadas (SUSAR)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.305_2
+:na_c800.10.305_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Avaliação de relatórios anuais de segurança de medicamentos experimentais (DSUR)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.305_3
 :na_c800.10.305_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Avaliação de outra informação de segurança notificada durante a realização do ensaio clínico".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.305_2
-:na_c800.10.305_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Avaliação de relatórios anuais de segurança de medicamentos experimentais (DSUR)".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.305_1
+:ne_c800.10.305_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A autorização para a realização dos ensaios clínicos deve ser classificada em 450.10.073 – Licenciamento ou autorização de atividades de investigação científica e de desenvolvimento".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c800.10.305
 :c800.10.305 rdf:type owl:NamedIndividual ,
@@ -1060,20 +1072,20 @@ Inclui a pesquisa, a recolha, o tratamento, o acondicionamento, a selagem, a rec
 	:descricao "Transposição de conteúdos de uma língua para outra. Interpretação do significado de um texto em determinada língua (fonte original) para produção de um novo texto, fiel ao original, noutra língua.
 Inicia com um pedido ou por inicativa de uma entidade e termina com a entrega do trabalho.
 Inclui os estudos de contextualização histórica, técnica e estilística do autor e do texto, a redação na língua de destino e a elaboração de notas de tradução.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_2
-:na_c800.10.605_2 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_1
+:na_c800.10.605_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Transcrição de documentos, indepentemente do suporte e antiguidade".
+	:conteudo "Arranjo musical de uma obra, para um instrumento para o qual não foi originalmente escrita".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_3
 :na_c800.10.605_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Transcrição fonética".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_1
-:na_c800.10.605_1 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_2
+:na_c800.10.605_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Arranjo musical de uma obra, para um instrumento para o qual não foi originalmente escrita".
+	:conteudo "Transcrição de documentos, indepentemente do suporte e antiguidade".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.605_1
 :ne_c800.10.605_1 rdf:type owl:NamedIndividual ,
@@ -1127,15 +1139,15 @@ Inclui os estudos de contextualização histórica, técnica e estilística do a
 	:descricao "Representação ou reprodução gráfica de conteúdos preexistentes (sons, textos, informação genética, etc.) em novo contexto, com vista a torná-los acessíveis e utilizáveis.
 Inicia com  um pedido e termina com a entrega do trabalho.
 Inclui a interpretação dos dados e a sua reprodução.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_2
-:na_c800.10.606_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Averiguação do mercado".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_1
 :na_c800.10.606_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Processo de acompanhamento da rotura de stocks com impacto para o utente, nomeadamente".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_2
+:na_c800.10.606_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Averiguação do mercado".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_3
 :na_c800.10.606_3 rdf:type owl:NamedIndividual ,
@@ -1245,7 +1257,11 @@ As medidas de minimização do impacto podem consistir numa alteração regulame
 	:temPai :c800.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteIniciador :org_ARS ;
+	:temParticipanteIniciador :org_ARS-N ;
+	:temParticipanteIniciador :org_ARS-C ;
+	:temParticipanteIniciador :org_ARS-LVT ;
+	:temParticipanteIniciador :org_ARS-Aln ;
+	:temParticipanteIniciador :org_ARS-Alg ;
 	:temParticipanteComunicador :org_ACES ;
 	:temParticipanteComunicador :org_INMLCF ;
 	:temDono :org_INSA ;
@@ -1330,11 +1346,6 @@ Incluí a investigação desenvolvida.
 	:NotaAplicacao ;
 	:conteudo "Embalsamamento para transladação".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.609_2
-:na_c800.10.609_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Formolização (formol) de órgão para estudo".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.609_3
 :na_c800.10.609_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1344,6 +1355,11 @@ Incluí a investigação desenvolvida.
 :na_c800.10.609_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Criopreservação ou crioconservação de células estaminais do cordão umbilical".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.609_2
+:na_c800.10.609_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Formolização (formol) de órgão para estudo".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.609_5
 :na_c800.10.609_5 rdf:type owl:NamedIndividual ,
@@ -1417,11 +1433,6 @@ Incluí a investigação desenvolvida.
 	:descricao "Utilização de técnicas específicas de conservação de células, órgãos ou cadáveres de seres humanos, animais ou vegetais para fins de ensino, investigação ou tratamento.
 Inicia com a solicitação ou a determinação do ato de preservação e termina com o atestado de criopreservação, embalsamamento ou com a preparação da peça anatómica para fins científicos, pedagógicos ou museológicos.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.20_3
-:na_c800.20_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Desenvolvimento de produtos, processos, serviços, tecnologias ou ideias que estão prontamente disponíveis para os mercados, governos e sociedade,  incluindo o desenvolvimento de sistemas de informação para a Administração Pública.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.20_1
 :na_c800.20_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1431,6 +1442,11 @@ Inicia com a solicitação ou a determinação do ato de preservação e termina
 :na_c800.20_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Desenvolvimento de protótipos e outras formas de mostrar uma ideia, o desempenho de um método, ou as características de um produto.".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20_3
+:na_c800.20_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Desenvolvimento de produtos, processos, serviços, tecnologias ou ideias que estão prontamente disponíveis para os mercados, governos e sociedade,  incluindo o desenvolvimento de sistemas de informação para a Administração Pública.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c800.20_1
 :ne_c800.20_1 rdf:type owl:NamedIndividual ,
@@ -1576,25 +1592,25 @@ Inclui apresentação de relatórios de progresso e final.".
 	:NotaAplicacao ;
 	:conteudo "Estudo de fenómenos biológicos".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.002_3
-:na_c800.20.002_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Estudo de fenómenos naturais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.002_4
 :na_c800.20.002_4 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Estudo de fenómenos sociais".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c800.20.002_1
-:ne_c800.20.002_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O registo de patentes e modelos de utilidade devem ser considerados em 400.10.609 – Registo de patentes e modelos de utilidade".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c800.20.002_2
 :ne_c800.20.002_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A investigação criminal deve ser considerada em \"Administração da justiça\" (600)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.002_3
+:na_c800.20.002_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Estudo de fenómenos naturais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.20.002_1
+:ne_c800.20.002_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O registo de patentes e modelos de utilidade devem ser considerados em 400.10.609 – Registo de patentes e modelos de utilidade".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c800.20.002
 :c800.20.002 rdf:type owl:NamedIndividual ,

@@ -55,15 +55,15 @@ Relativo, ainda, à captação de apoios de entidades privadas e serviços públ
 	:descricao "Compreende as atividades relacionadas com a gestão e acesso aos programas que disponibilizam apoio financeiro ou outras ajudas diretas às entidades beneficiárias, destinatárias ou elegíveis em cada medida de apoio, bem como as atividades de acompanhamento e controlo de projetos apoiados.
 Compreende, igualmente, as ações que revestem a forma de apoios diretos eventuais não submetidos a concurso, bem como de atribuição de prémios com ou sem expressão financeira, sujeitos ou não a concurso, instituídos por entidades nacionais, regionais ou locais, públicas ou privadas.
 Compreende, ainda, as atividades de captação de mecenas e gestão de apoios mecenáticos, bem como o processamento de pedidos de patrocínio.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.001_1
-:na_c850.10.001_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Pedidos de pagamento de subsídios de exploração e indemnizações compensatórias".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.001_1
 :ne_c850.10.001_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O valor e a periodicidade dos pagamentos devem ser considerados em 150.20.202 – Preparação do orçamento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.001_1
+:na_c850.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Pedidos de pagamento de subsídios de exploração e indemnizações compensatórias".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.001_2
 :ne_c850.10.001_2 rdf:type owl:NamedIndividual ,
@@ -126,15 +126,15 @@ Inclui demonstração dos valores das transferências efetuadas ou a efetuar.
 	:NotaExclusao ;
 	:conteudo "A definição dos programas operacionais e outros programas de apoio deve ser considerada em 150.10.200 – Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito nacional".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.002_2
-:ne_c850.10.002_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A monitorização e avaliação dos programas operacionais e outros programas de apoio devem ser consideradas em 150.10.600 – Avaliação de políticas e instrumentos de operacionalização".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.002_3
 :ne_c850.10.002_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A contratação de serviços ou aquisição de bens deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.002_2
+:ne_c850.10.002_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A monitorização e avaliação dos programas operacionais e outros programas de apoio devem ser consideradas em 150.10.600 – Avaliação de políticas e instrumentos de operacionalização".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.002_4
 :ne_c850.10.002_4 rdf:type owl:NamedIndividual ,
@@ -214,7 +214,7 @@ Inclui demonstração dos valores das transferências efetuadas ou a efetuar.
 	:processoDimQual "Elevada" ;
 	:processoUniform "N" ;
 	:descricao "Atribuição de estímulos no âmbito de programas e acompanhamento da execução dos projetos ou ações financiadas.
-Inicia com a submissão da candidatura e termina com a análise e avaliação do relatório final de execução da operação ou projeto apoiado, elaborado aquando do fim do programa de apoio.
+Inicia com a submissão da candidatura e termina com a elaboração do relatório final de execução da operação ou projeto apoiado, elaborado aquando do fim do programa de apoio.
 Inclui instrução da candidatura, decisão, comunicação da atribuição do apoio, contratualização, acompanhamento e controlo da execução do projeto ou operação, apresentação de comprovativos de despesa, reajustamentos ao programa e elaboração de relatórios intercalares e relatório final, análise e avaliação dos relatórios, aprovação do encerramento do processo de apoio.
 Inclui ainda a eventual suspensão ou rescisão do contrato de apoio.
 
@@ -321,7 +321,7 @@ Inclui solicitação de pagamento, com os respetivos documentos comprovativos,  
 	:processoDimQual "Elevada" ;
 	:processoUniform "N" ;
 	:descricao "Atribuição e acompanhamento de estímulos ou compensações a projetos ou situações não enquadráveis num plano de continuidade.
-Inicia com a submissão da candidatura e termina com a análise e avaliação do relatório final de execução da operação ou projeto apoiado, elaborado aquando do fim do programa de apoio.
+Inicia com a submissão da candidatura e termina com a elaboração do relatório final de execução da operação ou projeto apoiado, elaborado aquando do fim do programa de apoio.
 Inclui preparação e apresentação do pedido formal de apoio ou da candidatura, decisão, eventual contratualização, comunicação da atribuição do apoio e eventual apresentação de comprovativos de despesa.".
 ###  http://jcr.di.uminho.pt/m51-clav#c850.10.003.01
 :c850.10.003.01 rdf:type owl:NamedIndividual ,
@@ -358,7 +358,11 @@ Inclui solicitação de pagamento, com os respetivos documentos comprovativos,  
 	:temPai :c850.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "S" ;
-	:temParticipanteAssessor :org_DRAP ;
+	:temParticipanteAssessor :org_DRAP-N ;
+	:temParticipanteAssessor :org_DRAP-C ;
+	:temParticipanteAssessor :org_DRAP-LVT ;
+	:temParticipanteAssessor :org_DRAP-Aln ;
+	:temParticipanteAssessor :org_DRAP-Alg ;
 	:temDono :org_IFAP ;
 	:temNotaAplicacao :na_c850.10.005_1 ;
 	:eSucessorDe :c150.10.100 ;
@@ -385,7 +389,7 @@ Inclui solicitação de pagamento, com os respetivos documentos comprovativos,  
 	:processoDimQual "Elevada" ;
 	:processoUniform "S" ;
 	:descricao "Atribuição de ajudas diretas como forma de garantir a estabilidade nos rendimentos, no âmbito de programas financiados.
-Inicia com a submissão da candidatura e termina com decisão de concessão do apoio.
+Inicia com a submissão da candidatura e termina com a elaboração do relatório final de execução da operação ou projeto apoiado, elaborado aquando do fim do programa de apoio.
 Inclui a instrução da candidatura, decisão, comunicação da atribuição do apoio, contratualização e controlo.".
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c850.10.500_1
 :ne_c850.10.500_1 rdf:type owl:NamedIndividual ,
@@ -446,15 +450,15 @@ Inclui avaliação e seleção de trabalhos, ações, projetos e desempenhos pas
 	:NotaAplicacao ;
 	:conteudo "Patrocínio a atividades artística".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.600_2
-:na_c850.10.600_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Patrocínio a atividades culturais".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.600_3
 :na_c850.10.600_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Patrocínio a atividades desportivas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.600_2
+:na_c850.10.600_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Patrocínio a atividades culturais".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c850.10.600_4
 :na_c850.10.600_4 rdf:type owl:NamedIndividual ,
@@ -565,6 +569,11 @@ Inclui análise do pedido e negociação entre patrocinador e beneficiário, con
 	:NotaExclusao ;
 	:conteudo "O fluxo financeiro relativo ao apoio de mecenato deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c850.30_1
+:na_c850.30_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Bonificação de juros no crédito à habitação".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c850.10.601
 :c850.10.601 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -612,11 +621,6 @@ Inicia com pedido e termina com a concessão do apoio.
 Inclui análise do pedido, negociação entre o mecenas e o beneficiário.
 
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c850.30_1
-:na_c850.30_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Bonificação de juros no crédito à habitação".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c850.30_2
 :na_c850.30_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -896,7 +900,6 @@ Inclui a análise dos mapas de valores a pagar por classificação económica, d
 	:processoTransversal "S" ;
 	:temParticipanteApreciador :org_IGCP ;
 	:temParticipanteAssessor :org_BdP ;
-	:temParticipanteDecisor :org_SEATF ;
 	:temDono :org_DGTF ;
 	:temNotaExclusao :ne_c850.40.001_1 ;
 	:temNotaExclusao :ne_c850.40.001_2 ;

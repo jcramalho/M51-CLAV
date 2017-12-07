@@ -12,15 +12,15 @@
 	:NotaAplicacao ;
 	:conteudo "Todo o processo técnico e protocolar de organização (planeamento operacional, ações comuns de divulgação, processamento de inscrições, etc.), bem como eventuais registos dos eventos (comunicações e discursos, registos sonoros, audiovisuais).".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c900.10_2
-:na_c900.10_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Eventos e cerimónias desportivas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c900.10_3
 :na_c900.10_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Cerimónias de entrega de prémios ou distinções honoríficas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c900.10_2
+:na_c900.10_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Eventos e cerimónias desportivas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c900.10_4
 :na_c900.10_4 rdf:type owl:NamedIndividual ,
@@ -79,11 +79,6 @@
 	:NotaExclusao ;
 	:conteudo "A aquisição de bens ou serviços deve ser considerado em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c900.10.001_2
-:ne_c900.10.001_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O processamento de despesas e receitas deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c900.10.001_3
 :ne_c900.10.001_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -93,6 +88,11 @@
 :ne_c900.10.001_4 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A divulgação deve ser considerada em 900.20.201 - Edição e publicação de conteúdos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c900.10.001_2
+:ne_c900.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O processamento de despesas e receitas deve ser considerado em 350.30.001 – Cobrança de receitas e pagamento de despesas".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c900.10.001
 :c900.10.001 rdf:type owl:NamedIndividual ,
@@ -148,15 +148,15 @@ Inclui o desenvolvimento do conceito ou ideia, planeamento, estudo de viabilidad
 	:NotaAplicacao ;
 	:conteudo "Maquetes de cenografia".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c900.10.001.01_2
-:na_c900.10.001.01_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Esboços e / ou desenhos de figurinos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c900.10.001.01_3
 :na_c900.10.001.01_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Memórias descritivas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c900.10.001.01_2
+:na_c900.10.001.01_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Esboços e / ou desenhos de figurinos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c900.10.001.01_4
 :na_c900.10.001.01_4 rdf:type owl:NamedIndividual ,
@@ -329,15 +329,15 @@ Inclui, entre outras, o planeamento, a logística e organização do espaço ou 
 	:NotaExclusao ;
 	:conteudo "A divulgação da cerimónia deve ser considerada em 900.20.201 - Edição e publicação de conteúdos".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c900.10.500_5
-:ne_c900.10.500_5 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "As questões de segurança devem ser consideradas em 550".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c900.10.500_6
 :ne_c900.10.500_6 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "10 - Segurança pública".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c900.10.500_5
+:ne_c900.10.500_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As questões de segurança devem ser consideradas em 550".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c900.10.500
 :c900.10.500 rdf:type owl:NamedIndividual ,
@@ -584,6 +584,11 @@ Inclui, entre outras, o planeamento, a seleção dos participantes, articulaçã
 	:NotaExclusao ;
 	:conteudo "A divulgação de atividades ou serviços de terceiros que envolva participação ativa da administração deve ser considerada em 900.10.503 – Organização e participação em iniciativas de promoção ou divulgação de produtos e serviços".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c900.10.505_1
+:na_c900.10.505_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Organização das celebrações espirituais e religiosas em estabelecimento prisional".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c900.10.504
 :c900.10.504 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -609,11 +614,6 @@ Inclui, entre outras, o planeamento, a seleção dos participantes, articulaçã
 	:descricao "Divulgação de iniciativas e atividades de outras entidades.
 Inicia com o pedido de publicitação e termina com a decisão sobre a  publicitação.
 Inclui  a análise do pedido.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c900.10.505_1
-:na_c900.10.505_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Organização das celebrações espirituais e religiosas em estabelecimento prisional".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c900.10.505_2
 :na_c900.10.505_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -647,11 +647,10 @@ Inclui  a análise do pedido.".
 	:temPai :c900.10 ;
 	:processoTipo "PE" ;
 	:processoTransversal "N" ;
-	:temDono :org_EP ;
-	:temDono :org_CE ;
+	:temDono :org_DGRSP ;
 	:temDono :org_HH ;
 	:temDono :org_FA ;
-	:temDono :org_FS ;
+	:temDono :org_FSS ;
 	:temDono :org_IES ;
 	:temNotaAplicacao :na_c900.10.505_1 ;
 	:temNotaAplicacao :na_c900.10.505_2 ;
@@ -780,6 +779,11 @@ Compreende, ainda, o processamento de pedidos de informação/esclarecimento dir
 	:NotaExclusao ;
 	:conteudo "A aquisição de serviços e produtos deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
 
+###  http://jcr.di.uminho.pt/m51-clav#ne_c900.20.002_1
+:ne_c900.20.002_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "A aquisição de serviços deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
 ###  http://jcr.di.uminho.pt/m51-clav#c900.20.001
 :c900.20.001 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -804,11 +808,6 @@ Compreende, ainda, o processamento de pedidos de informação/esclarecimento dir
 	:descricao "Conceção e consolidação da imagem gráfica uniformizada a utilizar por uma instituição, de modo a permitir o seu reconhecimento.
 Inicia com a decisão de criar ou de mudar a imagem e termina com a divulgação oficial dos objetos gráficos concebidos.
 Inclui criação e apresentação de propostas de imagem gráfica e a seleção do objeto gráfico.".
-###  http://jcr.di.uminho.pt/m51-clav#ne_c900.20.002_1
-:ne_c900.20.002_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "A aquisição de serviços deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
-
 ###  http://jcr.di.uminho.pt/m51-clav#c900.20.002
 :c900.20.002 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
@@ -1122,7 +1121,7 @@ Inclui consulta e seleção de notícias ou artigos de opinião e análise dos s
 	:processoDimQual "Média" ;
 	:processoUniform "N" ;
 	:descricao "Criação e atualização de listagens, bases de dados ou outra agregação de contactos singulares ou coletivos que interagem ou são destinatários de produtos ou serviços institucionais.
-Inicia com a identificação dos potenciais interlocutores ou destinatários de interesse para o desenvolvimento das atividades organizacionais e termina com a criação ou atualização do contacto.
+Inicia com a identificação dos potenciais interlocutores ou destinatários de interesse para o desenvolvimento das atividades organizacionais e termina com a manifestação de ausência de interesse na manutenção do contacto.
 Inclui sistematização da informação dos contactos e respetivo registo.".
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c900.20.601_1
 :ne_c900.20.601_1 rdf:type owl:NamedIndividual ,
@@ -1164,16 +1163,6 @@ Inclui sistematização da informação dos contactos e respetivo registo.".
 	:descricao "Preparação e realização de atos solenes que assinalam o início do exercício de um cargo ou função ou o estabelecimento de uma relação de colaboração.
 Inicia com a comunicação do órgão ou serviço competente e termina com a realização da cerimónia.
 Inclui, entre outras, a logística e organização dos espaços, de acordo com as regras do protocolo, e dos meios de divulgação.".
-###  http://jcr.di.uminho.pt/m51-clav#c900.20.601.01
-:c900.20.601.01 rdf:type owl:NamedIndividual ,
-	:Classe_N4;
-	:codigo "900.20.601.01";
-	:titulo "Organização de cerimónias de tomada de posse e assinatura de documentos: preparação";
-	:temPai :c900.20.601 ;
-	:classeStatus "A" ;
-	:descricao "Sucessão de atos preparativos das cerimónias.
-Inicia com a comunicação do órgão ou serviço competente e termina com o esboço da cerimonia.
-Inclui a escolha do espaço e dos recursos humanos e materiais a afetar, previsão de encargos, lista de intervenientes e de entidades convidadas.".
 ###  http://jcr.di.uminho.pt/m51-clav#c900.20.601.02
 :c900.20.601.02 rdf:type owl:NamedIndividual ,
 	:Classe_N4;
@@ -1184,15 +1173,20 @@ Inclui a escolha do espaço e dos recursos humanos e materiais a afetar, previs�
 	:descricao "Execução da cerimónia.
 Inicia com a organização do espaço de acordo com as regras de protocolo e termina com a concretização da cerimónia.
 Inclui o registo documental (em imagem, som ou texto).".
+###  http://jcr.di.uminho.pt/m51-clav#c900.20.601.01
+:c900.20.601.01 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "900.20.601.01";
+	:titulo "Organização de cerimónias de tomada de posse e assinatura de documentos: preparação";
+	:temPai :c900.20.601 ;
+	:classeStatus "A" ;
+	:descricao "Sucessão de atos preparativos das cerimónias.
+Inicia com a comunicação do órgão ou serviço competente e termina com o esboço da cerimonia.
+Inclui a escolha do espaço e dos recursos humanos e materiais a afetar, previsão de encargos, lista de intervenientes e de entidades convidadas.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c900.20.602_1
 :na_c900.20.602_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Receção de entidades".
-
-###  http://jcr.di.uminho.pt/m51-clav#na_c900.20.602_2
-:na_c900.20.602_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Participação em visitas a outras entidades".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c900.20.602_1
 :ne_c900.20.602_1 rdf:type owl:NamedIndividual ,
@@ -1203,6 +1197,11 @@ Inclui o registo documental (em imagem, som ou texto).".
 :ne_c900.20.602_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A aquisição de serviços deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c900.20.602_2
+:na_c900.20.602_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Participação em visitas a outras entidades".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c900.20.602_3
 :ne_c900.20.602_3 rdf:type owl:NamedIndividual ,

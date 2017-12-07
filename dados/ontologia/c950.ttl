@@ -84,7 +84,8 @@
 	:temDono :org_PR ;
 	:temDono :org_Gov ;
 	:temDono :org_AL ;
-	:temDono :org_GovReg ;
+	:temDono :org_GovReg-A ;
+	:temDono :org_GovReg-M ;
 	:temNotaAplicacao :na_c950.10.001_1 ;
 	:temNotaAplicacao :na_c950.10.001_2 ;
 	:temNotaAplicacao :na_c950.10.001_3 ;
@@ -186,10 +187,10 @@ Inclui ainda o sorteio das listas apresentadas a constar nos boletins de voto.".
 	:processoTransversal "S" ;
 	:temParticipanteComunicador :org_PR ;
 	:temParticipanteIniciador :org_AR ;
-	:temParticipanteIniciador :org_ALR ;
+	:temParticipanteIniciador :org_ALRAA ;
+	:temParticipanteIniciador :org_ALRAM ;
 	:temParticipanteIniciador :org_AM ;
 	:temParticipanteIniciador :org_AF ;
-	:temParticipanteIniciador :org_CM ;
 	:temDono :org_TC ;
 	:temNotaAplicacao :na_c950.10.201_1 ;
 	:temNotaAplicacao :na_c950.10.201_2 ;
@@ -488,16 +489,6 @@ Inclui verificação do número total de eleitores inscritos e de votantes, veri
 	:descricao "Verificação, contagem de votos e distribuição de mandatos.
 Inicia com a receção da documentação enviada pelas assembleias de voto e termina com a indicação dos candidatos eleitos por cada lista
 Inclui verificação do número total de eleitores inscritos e de votantes, verificação do número total de votos em branco e votos nulos, verificação dos números totais de votos obtidos por cada lista, distribuição dos mandatos pelas diversas listas, decisão sobre as reclamações e protestos.".
-###  http://jcr.di.uminho.pt/m51-clav#c950.10.602.02
-:c950.10.602.02 rdf:type owl:NamedIndividual ,
-	:Classe_N4;
-	:codigo "950.10.602.02";
-	:titulo "Apuramento geral de resultados: publicitação";
-	:temPai :c950.10.602 ;
-	:classeStatus "A" ;
-	:descricao "Proclamação dos resultados obtidos em atos eleitorais e referendários.
-Inicia com a elaboração da ata do apuramento geral e termina com o envio dos resultados oficiais para publicação em Diário da República.
-Inclui o envio de exemplares da ata à entidade competente, elaboração do mapa dos resultados oficiais das eleições.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.20_1
 :na_c950.20_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -508,6 +499,16 @@ Inclui o envio de exemplares da ata à entidade competente, elaboração do mapa
 	:NotaAplicacao ;
 	:conteudo "Opiniões expressas em \"livro de agradecimentos\";".
 
+###  http://jcr.di.uminho.pt/m51-clav#c950.10.602.02
+:c950.10.602.02 rdf:type owl:NamedIndividual ,
+	:Classe_N4;
+	:codigo "950.10.602.02";
+	:titulo "Apuramento geral de resultados: publicitação";
+	:temPai :c950.10.602 ;
+	:classeStatus "A" ;
+	:descricao "Proclamação dos resultados obtidos em atos eleitorais e referendários.
+Inicia com a elaboração da ata do apuramento geral e termina com o envio dos resultados oficiais para publicação em Diário da República.
+Inclui o envio de exemplares da ata à entidade competente, elaboração do mapa dos resultados oficiais das eleições.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.20_3
 :na_c950.20_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -518,15 +519,15 @@ Inclui o envio de exemplares da ata à entidade competente, elaboração do mapa
 	:NotaExclusao ;
 	:conteudo "As denúncias, notícias ou queixas de crime apresentadas aos órgãos de polícia criminal ou comunicadas ao Ministério Público devem ser consideradas em \"Administração da justiça/ Prevenção e investigação criminal\" (600.10).".
 
-###  http://jcr.di.uminho.pt/m51-clav#ne_c950.20_2
-:ne_c950.20_2 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "As reclamações que ocorram no quadro de um determinado procedimento administrativo devem ser consideradas no processo em causa (por exemplo, reclamação da avaliação do desempenho individual deve ser considerada em \"Administração de relações de trabalho/ Gestão de relações individuais de trabalho\" (250.20).".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c950.20_3
 :ne_c950.20_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "As iniciativas legislativas de grupos de cidadãos devem ser consideradas em \"Ordenamento jurídico e normativo/ Elaboração de diplomas jurídico-normativos e de normas técnicas\" (100.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c950.20_2
+:ne_c950.20_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As reclamações que ocorram no quadro de um determinado procedimento administrativo devem ser consideradas no processo em causa (por exemplo, reclamação da avaliação do desempenho individual deve ser considerada em \"Administração de relações de trabalho/ Gestão de relações individuais de trabalho\" (250.20).".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c950.20
 :c950.20 rdf:type owl:NamedIndividual ,
@@ -557,15 +558,15 @@ Inclui o envio de exemplares da ata à entidade competente, elaboração do mapa
 	:NotaAplicacao ;
 	:conteudo "Queixas ou denúncias".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_4
-:na_c950.20.001_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Sugestões e opiniões".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_5
 :na_c950.20.001_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Reclamações setoriais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c950.20.001_4
+:na_c950.20.001_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Sugestões e opiniões".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c950.20.001_1
 :ne_c950.20.001_1 rdf:type owl:NamedIndividual ,
@@ -669,7 +670,7 @@ Inclui a análise da situação exposta e articulação com os responsáveis dos
 	:processoTipo "PC" ;
 	:processoTransversal "S" ;
 	:temParticipanteIniciador :org_AP ;
-	:temDono :org_FS ;
+	:temDono :org_FSS ;
 	:temDono :org_AL ;
 	:temNotaExclusao :ne_c950.20.600_1 ;
 	:eSintetizadoPor :c150.20.300 ;
@@ -762,7 +763,7 @@ Inclui análise do pedido.".
 	:temDono :org_PR ;
 	:temDono :org_AL ;
 	:temDono :org_FA ;
-	:temDono :org_FS ;
+	:temDono :org_FSS ;
 	:temDono :org_IPDJ ;
 	:temDono :org_GEPAC ;
 	:temNotaAplicacao :na_c950.30.001_1 ;
