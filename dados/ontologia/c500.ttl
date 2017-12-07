@@ -1,18 +1,18 @@
 ### Classe500
-###  http://jcr.di.uminho.pt/m51-clav#ne_c500_1
-:ne_c500_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O controlo da execução de políticas, programas ou planos de atividades deve ser considerado em \"Planeamento e gestão estratégica\" (150).".
+###  http://jcr.di.uminho.pt/m51-clav#na_c500_1
+:na_c500_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Todos os domínios".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c500_2
 :na_c500_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Operações de fiscalização levadas a cabo pelas forças segurança".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c500_1
-:na_c500_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Todos os domínios".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c500_1
+:ne_c500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O controlo da execução de políticas, programas ou planos de atividades deve ser considerado em \"Planeamento e gestão estratégica\" (150).".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c500
 :c500 rdf:type owl:NamedIndividual ,
@@ -40,15 +40,15 @@
 	:NotaAplicacao ;
 	:conteudo "Processos de auditoria (interna ou externa) ou de averiguação".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c500.10_4
-:na_c500.10_4 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Ações de vigilância ou monitorizaçãoProcessamento de comunicações obrigatórias efetuadas no cumprimento de funções de supervisão e controlo da legalidade ou de normativos adotados.Acompanhamento aos processos conduzidos por entidades externas, europeias ou internacionais.".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c500.10_1
 :ne_c500.10_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "Quando haja lugar a operações ou ações que careçam de autorização prévia ou ratificação do Ministério Público (ilícitos criminais) deverá ser iniciado processo em \"Administração da justiça/ Prevenção e investigação criminal\" (600.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c500.10_4
+:na_c500.10_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Ações de vigilância ou monitorizaçãoProcessamento de comunicações obrigatórias efetuadas no cumprimento de funções de supervisão e controlo da legalidade ou de normativos adotados.Acompanhamento aos processos conduzidos por entidades externas, europeias ou internacionais.".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c500.10
 :c500.10 rdf:type owl:NamedIndividual ,
@@ -64,15 +64,15 @@
 	:classeStatus "A" ;
 	:descricao "Compreende os processos de verificação da conformidade legal, regulamentar e/ou normativa dos atos, produtos ou serviços de uma qualquer entidade singular ou coletiva, pública ou privada. Abrange processos de controlo prévio, de controlo concomitante e de controlo sucessivo.
 Inclui o processamento das comunicações obrigatórias que a lei prevê que sejam feitas às autoridades de supervisão e controlo.".
-###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.001_1
-:na_c500.10.001_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Auditoria ao funcionamento de organismos públicos".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.001_2
 :na_c500.10.001_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Auditoria a entidades privadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.001_1
+:na_c500.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Auditoria ao funcionamento de organismos públicos".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.001_3
 :na_c500.10.001_3 rdf:type owl:NamedIndividual ,
@@ -408,11 +408,6 @@ Inclui o planeamento da inspeção, a comunicação ao inspecionado, a recolha d
 	:NotaAplicacao ;
 	:conteudo "Fiscalização associada aos recintos de espetáculos de natureza artística".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.301_31
-:na_c500.10.301_31 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Fiscalização do cumprimento das obrigações legais e dos requisitos de licenciamento das empresas gestoras".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.301_32
 :na_c500.10.301_32 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -422,6 +417,11 @@ Inclui o planeamento da inspeção, a comunicação ao inspecionado, a recolha d
 :na_c500.10.301_33 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Guarda-noturno (Anterior PN 500.10.407 – Fiscalização de atividades de guarda-noturno)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.301_31
+:na_c500.10.301_31 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Fiscalização do cumprimento das obrigações legais e dos requisitos de licenciamento das empresas gestoras".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.301_34
 :na_c500.10.301_34 rdf:type owl:NamedIndividual ,
@@ -533,6 +533,11 @@ Inclui o planeamento da inspeção, a comunicação ao inspecionado, a recolha d
 	:NotaExclusao ;
 	:conteudo "O procedimento sancionatório na sequência do reconhecimento de ato ilícito e censurável que implique pagamento de coima deve ser considerado em 500.30.001 – Processamento de contraordenações".
 
+###  http://jcr.di.uminho.pt/m51-clav#ne_c500.10.301_4
+:ne_c500.10.301_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "O procedimento de monitorização deve ser considerado em 500.10.600 – Monitorização sistemática da conformidade".
+
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c500.10.301_2
 :ne_c500.10.301_2 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
@@ -542,11 +547,6 @@ Inclui o planeamento da inspeção, a comunicação ao inspecionado, a recolha d
 :ne_c500.10.301_3 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O procedimento de inspeção deve ser considerado em 500.10.300 – Realização de inspeção".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c500.10.301_4
-:ne_c500.10.301_4 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "O procedimento de monitorização deve ser considerado em 500.10.600 – Monitorização sistemática da conformidade".
 
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c500.10.301_5
 :ne_c500.10.301_5 rdf:type owl:NamedIndividual ,
@@ -709,25 +709,25 @@ Inclui a decisão de efetuar a visita, agendamento da visita e a análise ao cum
 	:NotaAplicacao ;
 	:conteudo "Comunicações obrigatórias por lei das entidades empregadoras".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.600_2
-:na_c500.10.600_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Relatórios de autocontrolo".
-
 ###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.600_3
 :na_c500.10.600_3 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Relatórios efetuados por força legal".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.600_4
-:na_c500.10.600_4 rdf:type owl:NamedIndividual ,
+###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.600_2
+:na_c500.10.600_2 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
-	:conteudo "Relatórios de acompanhamento realizados no âmbito de processos inspetivos (não inclui o acompanhamento de recomendações efetuado até ao encerramento dos processos inspetivos originais)".
+	:conteudo "Relatórios de autocontrolo".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.600_5
 :na_c500.10.600_5 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
 	:conteudo "Descarga de efluentes e de rejeição de águas residuais (Anterior PN 500.10.409 Fiscalização  de descargas de efluentes e de rejeição de águas residuais)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.600_4
+:na_c500.10.600_4 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Relatórios de acompanhamento realizados no âmbito de processos inspetivos (não inclui o acompanhamento de recomendações efetuado até ao encerramento dos processos inspetivos originais)".
 
 ###  http://jcr.di.uminho.pt/m51-clav#na_c500.10.600_6
 :na_c500.10.600_6 rdf:type owl:NamedIndividual ,
@@ -1091,15 +1091,15 @@ Inclui designação de instrutor, notificação do arguido, audição de testemu
 Inicia com o pedido do interessado, ou do seu representante, e termina com a decisão.
 Inclui apresentação de meios de prova.
 ".
-###  http://jcr.di.uminho.pt/m51-clav#na_c500.30_1
-:na_c500.30_1 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Instrução de processos de embargo administrativo e de contraordenações (decididas por autoridades administrativas) ou de outras sanções administrativas, como seja a decisão de retenção de fundos por incumprimento ou falta de informação".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c500.30_1
 :ne_c500.30_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "O processamento de penas e de medidas cautelares decididas por autoridades judiciais deve ser considerado em \"Administração da justiça/ Execução de penas, medidas e títulos executivos\" (600.40).".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c500.30_1
+:na_c500.30_1 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Instrução de processos de embargo administrativo e de contraordenações (decididas por autoridades administrativas) ou de outras sanções administrativas, como seja a decisão de retenção de fundos por incumprimento ou falta de informação".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c500.30
 :c500.30 rdf:type owl:NamedIndividual ,
@@ -1394,15 +1394,15 @@ Inclui apreciação da situação do visado e emissão de uma notificação para
 	:NotaAplicacao ;
 	:conteudo "Afastamento coercivo de nacionais de Estado terceiro do território nacional".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c500.30.006_2
-:na_c500.30.006_2 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Readmissão ativa por parte de um Estado com o qual haja um acordo ou convenção internacional de readmissão".
-
 ###  http://jcr.di.uminho.pt/m51-clav#ne_c500.30.006_1
 :ne_c500.30.006_1 rdf:type owl:NamedIndividual ,
 	:NotaExclusao ;
 	:conteudo "A expulsão judicial deve ser considerada em 600.40.300 – Expulsão judicial".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c500.30.006_2
+:na_c500.30.006_2 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Readmissão ativa por parte de um Estado com o qual haja um acordo ou convenção internacional de readmissão".
 
 ###  http://jcr.di.uminho.pt/m51-clav#c500.30.006
 :c500.30.006 rdf:type owl:NamedIndividual ,
@@ -1555,28 +1555,6 @@ Inclui análise da situação e definição da medida cautelar a aplicar.".
 	:NotaAplicacao ;
 	:conteudo "Requerimentos apresentados por funcionários".
 
-###  http://jcr.di.uminho.pt/m51-clav#na_c500.40_3
-:na_c500.40_3 rdf:type owl:NamedIndividual ,
-	:NotaAplicacao ;
-	:conteudo "Requerimentos apresentados por cidadãos ou empresas que sejam parte interessada num qualquer processo".
-
-###  http://jcr.di.uminho.pt/m51-clav#ne_c500.40_1
-:ne_c500.40_1 rdf:type owl:NamedIndividual ,
-	:NotaExclusao ;
-	:conteudo "As reclamações apresentadas no chamado \"livro amarelo\" devem ser consideradas em \"Administração da participação cívica/ Processamento de ações peticionárias, reclamações e manifestações de congratulação (950.20);A \"pronúncia\" em sede de audiência prévia que faz parte do procedimento de aquisição deve ser considerada em \"Administração de direitos, bens e serviços/ Aquisição, venda, abate ou permuta\" (300.10);Nos casos em que venha a verificar-se posterior evolução do caso para Tribunal (impugnação judicial de decisão administrativa), novo processo deve ser aberto em \"Administração da Justiça/ Produção de prova e decisão judicial\" (600.30).".
-
-###  http://jcr.di.uminho.pt/m51-clav#c500.40
-:c500.40 rdf:type owl:NamedIndividual ,
-	:Classe_N2;
-	:codigo "500.40";
-	:titulo "Impugnação administrativa";
-	:temPai :c500 ;
-	:temNotaAplicacao :na_c500.40_1 ;
-	:temNotaAplicacao :na_c500.40_2 ;
-	:temNotaAplicacao :na_c500.40_3 ;
-	:temNotaExclusao :ne_c500.40_1 ;
-	:classeStatus "A" ;
-	:descricao "Compreende as atividades de processamento das iniciativas de impugnação de atos da Administração, quando tais impugnações sejam apresentadas aos próprios serviços da Administração, sob a forma de recurso hierárquico e recurso tutelar.".
 ###  http://jcr.di.uminho.pt/m51-clav#na_c500.40.001_1
 :na_c500.40.001_1 rdf:type owl:NamedIndividual ,
 	:NotaAplicacao ;
@@ -1602,6 +1580,28 @@ Inclui análise da situação e definição da medida cautelar a aplicar.".
 	:NotaExclusao ;
 	:conteudo "A produção de novos registos resultantes do processo de reclamação deve ser considerada nos respetivos processos".
 
+###  http://jcr.di.uminho.pt/m51-clav#na_c500.40_3
+:na_c500.40_3 rdf:type owl:NamedIndividual ,
+	:NotaAplicacao ;
+	:conteudo "Requerimentos apresentados por cidadãos ou empresas que sejam parte interessada num qualquer processo".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c500.40_1
+:ne_c500.40_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:conteudo "As reclamações apresentadas no chamado \"livro amarelo\" devem ser consideradas em \"Administração da participação cívica/ Processamento de ações peticionárias, reclamações e manifestações de congratulação (950.20);A \"pronúncia\" em sede de audiência prévia que faz parte do procedimento de aquisição deve ser considerada em \"Administração de direitos, bens e serviços/ Aquisição, venda, abate ou permuta\" (300.10);Nos casos em que venha a verificar-se posterior evolução do caso para Tribunal (impugnação judicial de decisão administrativa), novo processo deve ser aberto em \"Administração da Justiça/ Produção de prova e decisão judicial\" (600.30).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c500.40
+:c500.40 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "500.40";
+	:titulo "Impugnação administrativa";
+	:temPai :c500 ;
+	:temNotaAplicacao :na_c500.40_1 ;
+	:temNotaAplicacao :na_c500.40_2 ;
+	:temNotaAplicacao :na_c500.40_3 ;
+	:temNotaExclusao :ne_c500.40_1 ;
+	:classeStatus "A" ;
+	:descricao "Compreende as atividades de processamento das iniciativas de impugnação de atos da Administração, quando tais impugnações sejam apresentadas aos próprios serviços da Administração, sob a forma de recurso hierárquico e recurso tutelar.".
 ###  http://jcr.di.uminho.pt/m51-clav#c500.40.001
 :c500.40.001 rdf:type owl:NamedIndividual ,
 	:Classe_N3;
