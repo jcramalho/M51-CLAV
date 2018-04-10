@@ -1,0 +1,561 @@
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.10.001
+:pca_c700.10.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c700.10.001 :temPCA :pca_c700.10.001.
+:pca_c700.10.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.10.001
+:just_pca_c700.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.10.001 :temJustificacao :just_pca_c700.10.001.
+:crit_just_pca_c700.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27).".
+:just_pca_c700.10.001 :temCriterio :crit_just_pca_c700.10.001_1.
+:crit_just_pca_c700.10.001_1 :temLegislacao :leg_47.
+:crit_just_pca_c700.10.001_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.301 (Realização de fiscalização).".
+:just_pca_c700.10.001 :temCriterio :crit_just_pca_c700.10.001_2.
+:crit_just_pca_c700.10.001_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.10.002
+:pca_c700.10.002 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c700.10.002 :temPCA :pca_c700.10.002.
+:pca_c700.10.002 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.10.002
+:just_pca_c700.10.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.10.002 :temJustificacao :just_pca_c700.10.002.
+:crit_just_pca_c700.10.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27).".
+:just_pca_c700.10.002 :temCriterio :crit_just_pca_c700.10.002_1.
+:crit_just_pca_c700.10.002_1 :temLegislacao :leg_47.
+:crit_just_pca_c700.10.002_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.301 (Realização de fiscalização).".
+:just_pca_c700.10.002 :temCriterio :crit_just_pca_c700.10.002_2.
+:crit_just_pca_c700.10.002_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.10.003
+:pca_c700.10.003 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c700.10.003 :temPCA :pca_c700.10.003.
+:pca_c700.10.003 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.10.003
+:just_pca_c700.10.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.10.003 :temJustificacao :just_pca_c700.10.003.
+:crit_just_pca_c700.10.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27).".
+:just_pca_c700.10.003 :temCriterio :crit_just_pca_c700.10.003_1.
+:crit_just_pca_c700.10.003_1 :temLegislacao :leg_47.
+:crit_just_pca_c700.10.003_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.301 (Realização de fiscalização).".
+:just_pca_c700.10.003 :temCriterio :crit_just_pca_c700.10.003_2.
+:crit_just_pca_c700.10.003_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.10.004
+:pca_c700.10.004 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c700.10.004 :temPCA :pca_c700.10.004.
+:pca_c700.10.004 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.10.004
+:just_pca_c700.10.004 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.10.004 :temJustificacao :just_pca_c700.10.004.
+:crit_just_pca_c700.10.004_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27).".
+:just_pca_c700.10.004 :temCriterio :crit_just_pca_c700.10.004_1.
+:crit_just_pca_c700.10.004_1 :temLegislacao :leg_47.
+:crit_just_pca_c700.10.004_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.301 (Realização de fiscalização).".
+:just_pca_c700.10.004 :temCriterio :crit_just_pca_c700.10.004_2.
+:crit_just_pca_c700.10.004_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.10.005
+:pca_c700.10.005 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 40.
+:c700.10.005 :temPCA :pca_c700.10.005.
+:pca_c700.10.005 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.10.005
+:just_pca_c700.10.005 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.10.005 :temJustificacao :just_pca_c700.10.005.
+:crit_just_pca_c700.10.005_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Diretiva (CE) 2000/54/CE] e [DL 84/97], Proteção da segurança e da saúde dos trabalhadores contra os riscos da exposição a agentes biológicos, art. 19.º, n.º 4, \"O prazo de conservação dos registos é de 40 anos nos casos de exposições de que possam resultar infecções causadas por agentes biológicos susceptíveis de produzir infecções persistentes ou latentes, ou que, de acordo com os conhecimentos actuais, só sejam diagnosticáveis muitos anos depois com o aparecimento da doença, ou que tenham periodos de incubação muito longos, ou que provoquem doenças com crises de recrudescências, apesar do tratamento, ou com graves sequelas a longo prazo.\"".
+:just_pca_c700.10.005 :temCriterio :crit_just_pca_c700.10.005_1.
+:crit_just_pca_c700.10.005_1 :temLegislacao :leg_193.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.10.006
+:pca_c700.10.006 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c700.10.006 :temPCA :pca_c700.10.006.
+:pca_c700.10.006 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.10.006
+:just_pca_c700.10.006 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.10.006 :temJustificacao :just_pca_c700.10.006.
+:crit_just_pca_c700.10.006_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27).".
+:just_pca_c700.10.006 :temCriterio :crit_just_pca_c700.10.006_1.
+:crit_just_pca_c700.10.006_1 :temLegislacao :leg_47.
+:crit_just_pca_c700.10.006_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.001 (Realização de auditorias).".
+:just_pca_c700.10.006 :temCriterio :crit_just_pca_c700.10.006_2.
+:crit_just_pca_c700.10.006_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.10.500
+:pca_c700.10.500 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c700.10.500 :temPCA :pca_c700.10.500.
+:pca_c700.10.500 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.10.501
+:pca_c700.10.501 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c700.10.501 :temPCA :pca_c700.10.501.
+:pca_c700.10.501 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.10.501
+:just_pca_c700.10.501 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.10.501 :temJustificacao :just_pca_c700.10.501.
+:crit_just_pca_c700.10.501_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27).".
+:just_pca_c700.10.501 :temCriterio :crit_just_pca_c700.10.501_1.
+:crit_just_pca_c700.10.501_1 :temLegislacao :leg_47.
+:crit_just_pca_c700.10.501_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.301 (Realização de fiscalização).".
+:just_pca_c700.10.501 :temCriterio :crit_just_pca_c700.10.501_2.
+:crit_just_pca_c700.10.501_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.001
+:pca_c700.20.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c700.20.001 :temPCA :pca_c700.20.001.
+:pca_c700.20.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.001
+:just_pca_c700.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.001 :temJustificacao :just_pca_c700.20.001.
+:crit_just_pca_c700.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27).".
+:just_pca_c700.20.001 :temCriterio :crit_just_pca_c700.20.001_1.
+:crit_just_pca_c700.20.001_1 :temLegislacao :leg_47.
+:crit_just_pca_c700.20.001_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.301 (Realização de fiscalização).".
+:just_pca_c700.20.001 :temCriterio :crit_just_pca_c700.20.001_2.
+:crit_just_pca_c700.20.001_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.100
+:pca_c700.20.100 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c700.20.100 :temPCA :pca_c700.20.100.
+:pca_c700.20.100 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.100
+:just_pca_c700.20.100 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.100 :temJustificacao :just_pca_c700.20.100.
+:crit_just_pca_c700.20.100_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27).".
+:just_pca_c700.20.100 :temCriterio :crit_just_pca_c700.20.100_1.
+:crit_just_pca_c700.20.100_1 :temLegislacao :leg_47.
+:crit_just_pca_c700.20.100_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.301 (Realização de fiscalização).".
+:just_pca_c700.20.100 :temCriterio :crit_just_pca_c700.20.100_2.
+:crit_just_pca_c700.20.100_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.101
+:pca_c700.20.101 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c700.20.101 :temPCA :pca_c700.20.101.
+:pca_c700.20.101 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.101
+:just_pca_c700.20.101 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.101 :temJustificacao :just_pca_c700.20.101.
+:crit_just_pca_c700.20.101_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27).".
+:just_pca_c700.20.101 :temCriterio :crit_just_pca_c700.20.101_1.
+:crit_just_pca_c700.20.101_1 :temLegislacao :leg_47.
+:crit_just_pca_c700.20.101_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.301 (Realização de fiscalização).".
+:just_pca_c700.20.101 :temCriterio :crit_just_pca_c700.20.101_2.
+:crit_just_pca_c700.20.101_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.102
+:pca_c700.20.102 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c700.20.102 :temPCA :pca_c700.20.102.
+:pca_c700.20.102 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.102
+:just_pca_c700.20.102 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.102 :temJustificacao :just_pca_c700.20.102.
+:crit_just_pca_c700.20.102_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27).".
+:just_pca_c700.20.102 :temCriterio :crit_just_pca_c700.20.102_1.
+:crit_just_pca_c700.20.102_1 :temLegislacao :leg_47.
+:crit_just_pca_c700.20.102_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.301 (Realização de fiscalização).".
+:just_pca_c700.20.102 :temCriterio :crit_just_pca_c700.20.102_2.
+:crit_just_pca_c700.20.102_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.200
+:pca_c700.20.200 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15
+
+
+
+
+
+
+.
+:c700.20.200 :temPCA :pca_c700.20.200.
+:pca_c700.20.200 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.200
+:just_pca_c700.20.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.200 :temJustificacao :just_pca_c700.20.200.
+:crit_just_pca_c700.20.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Penal, [DL 48/95], artº 118 - Prazo máximo de prescrição do procedimento criminal.".
+:just_pca_c700.20.200 :temCriterio :crit_just_pca_c700.20.200_1.
+:crit_just_pca_c700.20.200_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.300
+:pca_c700.20.300 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15
+
+
+
+
+
+
+.
+:c700.20.300 :temPCA :pca_c700.20.300.
+:pca_c700.20.300 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.300
+:just_pca_c700.20.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.300 :temJustificacao :just_pca_c700.20.300.
+:crit_just_pca_c700.20.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Penal, [DL 48/95], artº 118 - Prazo máximo de prescrição do procedimento criminal.".
+:just_pca_c700.20.300 :temCriterio :crit_just_pca_c700.20.300_1.
+:crit_just_pca_c700.20.300_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.400
+:pca_c700.20.400 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15
+
+
+
+
+
+
+.
+:c700.20.400 :temPCA :pca_c700.20.400.
+:pca_c700.20.400 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.400
+:just_pca_c700.20.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.400 :temJustificacao :just_pca_c700.20.400.
+:crit_just_pca_c700.20.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Penal, [DL 48/95], artº 118 - Prazo máximo de prescrição do procedimento criminal.".
+:just_pca_c700.20.400 :temCriterio :crit_just_pca_c700.20.400_1.
+:crit_just_pca_c700.20.400_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.401
+:pca_c700.20.401 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15
+
+
+
+
+
+
+.
+:c700.20.401 :temPCA :pca_c700.20.401.
+:pca_c700.20.401 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.401
+:just_pca_c700.20.401 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.401 :temJustificacao :just_pca_c700.20.401.
+:crit_just_pca_c700.20.401_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Penal, [DL 48/95], artº 118 - Prazo máximo de prescrição do procedimento criminal.".
+:just_pca_c700.20.401 :temCriterio :crit_just_pca_c700.20.401_1.
+:crit_just_pca_c700.20.401_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.402
+:pca_c700.20.402 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15
+
+
+
+
+
+
+.
+:c700.20.402 :temPCA :pca_c700.20.402.
+:pca_c700.20.402 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.402
+:just_pca_c700.20.402 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.402 :temJustificacao :just_pca_c700.20.402.
+:crit_just_pca_c700.20.402_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Penal, [DL 48/95], artº 118 - Prazo máximo de prescrição do procedimento criminal.".
+:just_pca_c700.20.402 :temCriterio :crit_just_pca_c700.20.402_1.
+:crit_just_pca_c700.20.402_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.403
+:pca_c700.20.403 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15
+
+
+
+
+
+
+.
+:c700.20.403 :temPCA :pca_c700.20.403.
+:pca_c700.20.403 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.403
+:just_pca_c700.20.403 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.403 :temJustificacao :just_pca_c700.20.403.
+:crit_just_pca_c700.20.403_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Penal, [DL 48/95], artº 118 - Prazo máximo de prescrição do procedimento criminal.".
+:just_pca_c700.20.403 :temCriterio :crit_just_pca_c700.20.403_1.
+:crit_just_pca_c700.20.403_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.404
+:pca_c700.20.404 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15
+
+
+
+
+
+
+.
+:c700.20.404 :temPCA :pca_c700.20.404.
+:pca_c700.20.404 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.404
+:just_pca_c700.20.404 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.404 :temJustificacao :just_pca_c700.20.404.
+:crit_just_pca_c700.20.404_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Penal, [DL 48/95], artº 118 - Prazo máximo de prescrição do procedimento criminal.".
+:just_pca_c700.20.404 :temCriterio :crit_just_pca_c700.20.404_1.
+:crit_just_pca_c700.20.404_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.405
+:pca_c700.20.405 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15
+
+
+
+
+
+
+.
+:c700.20.405 :temPCA :pca_c700.20.405.
+:pca_c700.20.405 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.405
+:just_pca_c700.20.405 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.405 :temJustificacao :just_pca_c700.20.405.
+:crit_just_pca_c700.20.405_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Penal, [DL 48/95], artº 118 - Prazo máximo de prescrição do procedimento criminal.".
+:just_pca_c700.20.405 :temCriterio :crit_just_pca_c700.20.405_1.
+:crit_just_pca_c700.20.405_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.406
+:pca_c700.20.406 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15
+
+
+
+
+
+
+.
+:c700.20.406 :temPCA :pca_c700.20.406.
+:pca_c700.20.406 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.406
+:just_pca_c700.20.406 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.406 :temJustificacao :just_pca_c700.20.406.
+:crit_just_pca_c700.20.406_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Penal, [DL 48/95], artº 118 - Prazo máximo de prescrição do procedimento criminal.".
+:just_pca_c700.20.406 :temCriterio :crit_just_pca_c700.20.406_1.
+:crit_just_pca_c700.20.406_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.407
+:pca_c700.20.407 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15
+
+
+
+
+
+
+.
+:c700.20.407 :temPCA :pca_c700.20.407.
+:pca_c700.20.407 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.407
+:just_pca_c700.20.407 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.407 :temJustificacao :just_pca_c700.20.407.
+:crit_just_pca_c700.20.407_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Penal, [DL 48/95], artº 118 - Prazo máximo de prescrição do procedimento criminal.".
+:just_pca_c700.20.407 :temCriterio :crit_just_pca_c700.20.407_1.
+:crit_just_pca_c700.20.407_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.500
+:pca_c700.20.500 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15
+
+
+
+
+
+
+.
+:c700.20.500 :temPCA :pca_c700.20.500.
+:pca_c700.20.500 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.500
+:just_pca_c700.20.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.500 :temJustificacao :just_pca_c700.20.500.
+:crit_just_pca_c700.20.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Penal, [DL 48/95], artº 118 - Prazo máximo de prescrição do procedimento criminal.".
+:just_pca_c700.20.500 :temCriterio :crit_just_pca_c700.20.500_1.
+:crit_just_pca_c700.20.500_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.600
+:pca_c700.20.600 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15
+
+
+
+
+
+
+.
+:c700.20.600 :temPCA :pca_c700.20.600.
+:pca_c700.20.600 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.600
+:just_pca_c700.20.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.600 :temJustificacao :just_pca_c700.20.600.
+:crit_just_pca_c700.20.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Penal, [DL 48/95], artº 118 - Prazo máximo de prescrição do procedimento criminal.".
+:just_pca_c700.20.600 :temCriterio :crit_just_pca_c700.20.600_1.
+:crit_just_pca_c700.20.600_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.700
+:pca_c700.20.700 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c700.20.700 :temPCA :pca_c700.20.700.
+:pca_c700.20.700 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.700
+:just_pca_c700.20.700 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.700 :temJustificacao :just_pca_c700.20.700.
+:crit_just_pca_c700.20.700_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Portaria 264/2013], Normas técnicas de execução regulamentar do Programa Nacional de Luta e Vigilância Epidemiológica da Raiva Animal e Outras Zoonoses, artº 2, nº 1 (validade do boletim de sanidade (boletim de saúde animal)).".
+:just_pca_c700.20.700 :temCriterio :crit_just_pca_c700.20.700_1.
+:crit_just_pca_c700.20.700_1 :temLegislacao :leg_1182.
+:crit_just_pca_c700.20.700_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Processamento do registo da vacinação no boletim.".
+:just_pca_c700.20.700 :temCriterio :crit_just_pca_c700.20.700_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.701
+:pca_c700.20.701 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c700.20.701 :temPCA :pca_c700.20.701.
+:pca_c700.20.701 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.701
+:just_pca_c700.20.701 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.701 :temJustificacao :just_pca_c700.20.701.
+:crit_just_pca_c700.20.701_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Portaria 264/2013], Normas técnicas de execução regulamentar do Programa Nacional de Luta e Vigilância Epidemiológica da Raiva Animal e Outras Zoonoses, artº 2, nº 1 (validade do boletim de sanidade (boletim de saúde animal)).".
+:just_pca_c700.20.701 :temCriterio :crit_just_pca_c700.20.701_1.
+:crit_just_pca_c700.20.701_1 :temLegislacao :leg_1182.
+:crit_just_pca_c700.20.701_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Processamento do registo de sequestro no boletim.".
+:just_pca_c700.20.701 :temCriterio :crit_just_pca_c700.20.701_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.800
+:pca_c700.20.800 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c700.20.800 :temPCA :pca_c700.20.800.
+:pca_c700.20.800 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.800
+:just_pca_c700.20.800 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.800 :temJustificacao :just_pca_c700.20.800.
+:crit_just_pca_c700.20.800_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Portaria 264/2013], Normas técnicas de execução regulamentar do Programa Nacional de Luta e Vigilância Epidemiológica da Raiva Animal e Outras Zoonoses, artº 2, nº 1 (validade do boletim de sanidade (boletim de saúde animal)).".
+:just_pca_c700.20.800 :temCriterio :crit_just_pca_c700.20.800_1.
+:crit_just_pca_c700.20.800_1 :temLegislacao :leg_1182.
+:crit_just_pca_c700.20.800_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Processamento do registo da prestação de cuidados curativos no boletim.".
+:just_pca_c700.20.800 :temCriterio :crit_just_pca_c700.20.800_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c700.20.901
+:pca_c700.20.901 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c700.20.901 :temPCA :pca_c700.20.901.
+:pca_c700.20.901 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c700.20.901
+:just_pca_c700.20.901 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c700.20.901 :temJustificacao :just_pca_c700.20.901.
+:crit_just_pca_c700.20.901_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Portaria 264/2013], Normas técnicas de execução regulamentar do Programa Nacional de Luta e Vigilância Epidemiológica da Raiva Animal e Outras Zoonoses, artº 2, nº 1 (validade do boletim de sanidade (boletim de saúde animal)).".
+:just_pca_c700.20.901 :temCriterio :crit_just_pca_c700.20.901_1.
+:crit_just_pca_c700.20.901_1 :temLegislacao :leg_1182.
+:crit_just_pca_c700.20.901_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Processamento do registo da eutanásia no boletim.".
+:just_pca_c700.20.901 :temCriterio :crit_just_pca_c700.20.901_2.

@@ -1,0 +1,316 @@
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.10.001
+:pca_c200.10.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c200.10.001 :temPCA :pca_c200.10.001.
+:pca_c200.10.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.10.001
+:just_pca_c200.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.10.001 :temJustificacao :just_pca_c200.10.001.
+:crit_just_pca_c200.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela negociação e definição de posições nacionais, decorrente de escrutínio público (eleições) ou da não recondução no mandato.Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.".
+:just_pca_c200.10.001 :temCriterio :crit_just_pca_c200.10.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.10.002.01
+:pca_c200.10.002.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c200.10.002.01 :temPCA :pca_c200.10.002.01.
+:pca_c200.10.002.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.10.002.01
+:just_pca_c200.10.002.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.10.002.01 :temJustificacao :just_pca_c200.10.002.01.
+:crit_just_pca_c200.10.002.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).".
+:just_pca_c200.10.002.01 :temCriterio :crit_just_pca_c200.10.002.01_1.
+:crit_just_pca_c200.10.002.01_1 :temLegislacao :leg_203.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.10.200
+:pca_c200.10.200 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c200.10.200 :temPCA :pca_c200.10.200.
+:pca_c200.10.200 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.10.200
+:just_pca_c200.10.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.10.200 :temJustificacao :just_pca_c200.10.200.
+:crit_just_pca_c200.10.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela negociação e definição de posições nacionais, decorrente de escrutínio público (eleições) ou da não recondução no mandato.Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.".
+:just_pca_c200.10.200 :temCriterio :crit_just_pca_c200.10.200_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.10.201
+:pca_c200.10.201 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c200.10.201 :temPCA :pca_c200.10.201.
+:pca_c200.10.201 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.10.201
+:just_pca_c200.10.201 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.10.201 :temJustificacao :just_pca_c200.10.201.
+:crit_just_pca_c200.10.201_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela negociação e definição de posições nacionais, decorrente de escrutínio público (eleições) ou da não recondução no mandato.Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.".
+:just_pca_c200.10.201 :temCriterio :crit_just_pca_c200.10.201_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.10.300
+:pca_c200.10.300 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c200.10.300 :temPCA :pca_c200.10.300.
+:pca_c200.10.300 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.10.300
+:just_pca_c200.10.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.10.300 :temJustificacao :just_pca_c200.10.300.
+:crit_just_pca_c200.10.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1)".
+:just_pca_c200.10.300 :temCriterio :crit_just_pca_c200.10.300_1.
+:crit_just_pca_c200.10.300_1 :temLegislacao :leg_203.
+:crit_just_pca_c200.10.300_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c200.10.300 :temCriterio :crit_just_pca_c200.10.300_2.
+:crit_just_pca_c200.10.300_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.10.400
+:pca_c200.10.400 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c200.10.400 :temPCA :pca_c200.10.400.
+:pca_c200.10.400 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.10.400
+:just_pca_c200.10.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.10.400 :temJustificacao :just_pca_c200.10.400.
+:crit_just_pca_c200.10.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela negociação e definição de posições nacionais, decorrente de escrutínio público (eleições) ou da não recondução no mandato.Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.".
+:just_pca_c200.10.400 :temCriterio :crit_just_pca_c200.10.400_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.10.501
+:pca_c200.10.501 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c200.10.501 :temPCA :pca_c200.10.501.
+:pca_c200.10.501 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.10.501
+:just_pca_c200.10.501 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.10.501 :temJustificacao :just_pca_c200.10.501.
+:crit_just_pca_c200.10.501_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela negociação e definição de posições nacionais, decorrente de escrutínio público (eleições) ou da não recondução no mandato.Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.".
+:just_pca_c200.10.501 :temCriterio :crit_just_pca_c200.10.501_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.10.600
+:pca_c200.10.600 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c200.10.600 :temPCA :pca_c200.10.600.
+:pca_c200.10.600 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.10.600
+:just_pca_c200.10.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.10.600 :temJustificacao :just_pca_c200.10.600.
+:crit_just_pca_c200.10.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela negociação e definição de posições nacionais, decorrente de escrutínio público (eleições) ou da não recondução no mandato.Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.".
+:just_pca_c200.10.600 :temCriterio :crit_just_pca_c200.10.600_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.10.700
+:pca_c200.10.700 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c200.10.700 :temPCA :pca_c200.10.700.
+:pca_c200.10.700 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.10.700
+:just_pca_c200.10.700 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.10.700 :temJustificacao :just_pca_c200.10.700.
+:crit_just_pca_c200.10.700_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela negociação e definição de posições nacionais, decorrente de escrutínio público (eleições) ou da não recondução no mandato.Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.".
+:just_pca_c200.10.700 :temCriterio :crit_just_pca_c200.10.700_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.10.800
+:pca_c200.10.800 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c200.10.800 :temPCA :pca_c200.10.800.
+:pca_c200.10.800 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.10.800
+:just_pca_c200.10.800 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.10.800 :temJustificacao :just_pca_c200.10.800.
+:crit_just_pca_c200.10.800_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1);".
+:just_pca_c200.10.800 :temCriterio :crit_just_pca_c200.10.800_1.
+:crit_just_pca_c200.10.800_1 :temLegislacao :leg_203.
+:crit_just_pca_c200.10.800_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c200.10.800 :temCriterio :crit_just_pca_c200.10.800_2.
+:crit_just_pca_c200.10.800_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.20.001
+:pca_c200.20.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c200.20.001 :temPCA :pca_c200.20.001.
+:pca_c200.20.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.20.001
+:just_pca_c200.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.20.001 :temJustificacao :just_pca_c200.20.001.
+:crit_just_pca_c200.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela gestão, decorrente de escrutínio público (eleições) ou da não recondução no mandato.Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.".
+:just_pca_c200.20.001 :temCriterio :crit_just_pca_c200.20.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.20.002
+:pca_c200.20.002 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c200.20.002 :temPCA :pca_c200.20.002.
+:pca_c200.20.002 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.20.002
+:just_pca_c200.20.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.20.002 :temJustificacao :just_pca_c200.20.002.
+:crit_just_pca_c200.20.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).".
+:just_pca_c200.20.002 :temCriterio :crit_just_pca_c200.20.002_1.
+:crit_just_pca_c200.20.002_1 :temLegislacao :leg_203.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.20.500
+:pca_c200.20.500 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c200.20.500 :temPCA :pca_c200.20.500.
+:pca_c200.20.500 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.20.500
+:just_pca_c200.20.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.20.500 :temJustificacao :just_pca_c200.20.500.
+:crit_just_pca_c200.20.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).".
+:just_pca_c200.20.500 :temCriterio :crit_just_pca_c200.20.500_1.
+:crit_just_pca_c200.20.500_1 :temLegislacao :leg_203.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.20.501
+:pca_c200.20.501 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c200.20.501 :temPCA :pca_c200.20.501.
+:pca_c200.20.501 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.20.501
+:just_pca_c200.20.501 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.20.501 :temJustificacao :just_pca_c200.20.501.
+:crit_just_pca_c200.20.501_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela gestão, decorrente de escrutínio público (eleições) ou da não recondução no mandato.Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.".
+:just_pca_c200.20.501 :temCriterio :crit_just_pca_c200.20.501_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.20.502
+:pca_c200.20.502 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c200.20.502 :temPCA :pca_c200.20.502.
+:pca_c200.20.502 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.20.502
+:just_pca_c200.20.502 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.20.502 :temJustificacao :just_pca_c200.20.502.
+:crit_just_pca_c200.20.502_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Por analogia com a emissão de passaportes -[DL 86/2000], artº 12 \"Os dados pessoais são conservados até 10 anos após a última emissão do passaporte do seu titular\"".
+:just_pca_c200.20.502 :temCriterio :crit_just_pca_c200.20.502_1.
+:crit_just_pca_c200.20.502_1 :temLegislacao :leg_302.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.30.001.01
+:pca_c200.30.001.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c200.30.001.01 :temPCA :pca_c200.30.001.01.
+:pca_c200.30.001.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.30.001.01
+:just_pca_c200.30.001.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.30.001.01 :temJustificacao :just_pca_c200.30.001.01.
+:crit_just_pca_c200.30.001.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).".
+:just_pca_c200.30.001.01 :temCriterio :crit_just_pca_c200.30.001.01_1.
+:crit_just_pca_c200.30.001.01_1 :temLegislacao :leg_203.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.30.300
+:pca_c200.30.300 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c200.30.300 :temPCA :pca_c200.30.300.
+:pca_c200.30.300 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.30.300
+:just_pca_c200.30.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.30.300 :temJustificacao :just_pca_c200.30.300.
+:crit_just_pca_c200.30.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).".
+:just_pca_c200.30.300 :temCriterio :crit_just_pca_c200.30.300_1.
+:crit_just_pca_c200.30.300_1 :temLegislacao :leg_203.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.30.301
+:pca_c200.30.301 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c200.30.301 :temPCA :pca_c200.30.301.
+:pca_c200.30.301 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.30.301
+:just_pca_c200.30.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.30.301 :temJustificacao :just_pca_c200.30.301.
+:crit_just_pca_c200.30.301_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).".
+:just_pca_c200.30.301 :temCriterio :crit_just_pca_c200.30.301_1.
+:crit_just_pca_c200.30.301_1 :temLegislacao :leg_203.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.30.302
+:pca_c200.30.302 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c200.30.302 :temPCA :pca_c200.30.302.
+:pca_c200.30.302 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.30.302
+:just_pca_c200.30.302 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.30.302 :temJustificacao :just_pca_c200.30.302.
+:crit_just_pca_c200.30.302_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).".
+:just_pca_c200.30.302 :temCriterio :crit_just_pca_c200.30.302_1.
+:crit_just_pca_c200.30.302_1 :temLegislacao :leg_203.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.30.303
+:pca_c200.30.303 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c200.30.303 :temPCA :pca_c200.30.303.
+:pca_c200.30.303 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.30.303
+:just_pca_c200.30.303 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.30.303 :temJustificacao :just_pca_c200.30.303.
+:crit_just_pca_c200.30.303_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).".
+:just_pca_c200.30.303 :temCriterio :crit_just_pca_c200.30.303_1.
+:crit_just_pca_c200.30.303_1 :temLegislacao :leg_203.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c200.30.600
+:pca_c200.30.600 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c200.30.600 :temPCA :pca_c200.30.600.
+:pca_c200.30.600 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c200.30.600
+:just_pca_c200.30.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c200.30.600 :temJustificacao :just_pca_c200.30.600.
+:crit_just_pca_c200.30.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).".
+:just_pca_c200.30.600 :temCriterio :crit_just_pca_c200.30.600_1.
+:crit_just_pca_c200.30.600_1 :temLegislacao :leg_203.

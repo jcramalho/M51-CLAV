@@ -1,0 +1,433 @@
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.001
+:pca_c800.10.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 3.
+:c800.10.001 :temPCA :pca_c800.10.001.
+:pca_c800.10.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.001
+:just_pca_c800.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.001 :temJustificacao :just_pca_c800.10.001.
+:crit_just_pca_c800.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 180/2009], artº 24, \"3 — O IGP compila e envia à Comissão Europeia um relatório, de três em três anos\".".
+:just_pca_c800.10.001 :temCriterio :crit_just_pca_c800.10.001_1.
+:crit_just_pca_c800.10.001_1 :temLegislacao :leg_889.
+:crit_just_pca_c800.10.001_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo para processamento do PN 150.10.600 - Avaliação de políticas e instrumentos de operacionalização.".
+:just_pca_c800.10.001 :temCriterio :crit_just_pca_c800.10.001_2.
+:crit_just_pca_c800.10.001_2 :temProcessoRelacionado :c150.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.002
+:pca_c800.10.002 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 3.
+:c800.10.002 :temPCA :pca_c800.10.002.
+:pca_c800.10.002 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.002
+:just_pca_c800.10.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.002 :temJustificacao :just_pca_c800.10.002.
+:crit_just_pca_c800.10.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 180/2009], artº 24, \"3 — O IGP compila e envia à Comissão Europeia um relatório, de três em três anos.\"".
+:just_pca_c800.10.002 :temCriterio :crit_just_pca_c800.10.002_1.
+:crit_just_pca_c800.10.002_1 :temLegislacao :leg_889.
+:crit_just_pca_c800.10.002_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo para processamento do PN 150.10.600 - Avaliação de políticas e instrumentos de operacionalização.".
+:just_pca_c800.10.002 :temCriterio :crit_just_pca_c800.10.002_2.
+:crit_just_pca_c800.10.002_2 :temProcessoRelacionado :c150.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.300
+:pca_c800.10.300 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c800.10.300 :temPCA :pca_c800.10.300.
+:pca_c800.10.300 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.300
+:just_pca_c800.10.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.300 :temJustificacao :just_pca_c800.10.300.
+:crit_just_pca_c800.10.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27; [Lei 50/2006] - Lei quadro das contraordenações ambientais, artº 40).".
+:just_pca_c800.10.300 :temCriterio :crit_just_pca_c800.10.300_1.
+:crit_just_pca_c800.10.300_1 :temLegislacao :leg_47.
+:crit_just_pca_c800.10.300_1 :temLegislacao :leg_553.
+:crit_just_pca_c800.10.300_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade em sede de PN 500.10.301 - Realização de fiscalização.".
+:just_pca_c800.10.300 :temCriterio :crit_just_pca_c800.10.300_2.
+:crit_just_pca_c800.10.300_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.301
+:pca_c800.10.301 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c800.10.301 :temPCA :pca_c800.10.301.
+:pca_c800.10.301 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.301
+:just_pca_c800.10.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.301 :temJustificacao :just_pca_c800.10.301.
+:crit_just_pca_c800.10.301_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27; [Lei 50/2006] - Lei quadro das contraordenações ambientais, artº 40).".
+:just_pca_c800.10.301 :temCriterio :crit_just_pca_c800.10.301_1.
+:crit_just_pca_c800.10.301_1 :temLegislacao :leg_47.
+:crit_just_pca_c800.10.301_1 :temLegislacao :leg_553.
+:crit_just_pca_c800.10.301_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade em sede de PN 500.10.301 - Realização de fiscalização".
+:just_pca_c800.10.301 :temCriterio :crit_just_pca_c800.10.301_2.
+:crit_just_pca_c800.10.301_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.302
+:pca_c800.10.302 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c800.10.302 :temPCA :pca_c800.10.302.
+:pca_c800.10.302 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.302
+:just_pca_c800.10.302 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.302 :temJustificacao :just_pca_c800.10.302.
+:crit_just_pca_c800.10.302_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27; [Lei 50/2006] - Lei quadro das contraordenações ambientais, artº 40).".
+:just_pca_c800.10.302 :temCriterio :crit_just_pca_c800.10.302_1.
+:crit_just_pca_c800.10.302_1 :temLegislacao :leg_47.
+:crit_just_pca_c800.10.302_1 :temLegislacao :leg_553.
+:crit_just_pca_c800.10.302_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade em sede de PN 500.10.301 - Realização de fiscalização".
+:just_pca_c800.10.302 :temCriterio :crit_just_pca_c800.10.302_2.
+:crit_just_pca_c800.10.302_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.303
+:pca_c800.10.303 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c800.10.303 :temPCA :pca_c800.10.303.
+:pca_c800.10.303 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.303
+:just_pca_c800.10.303 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.303 :temJustificacao :just_pca_c800.10.303.
+:crit_just_pca_c800.10.303_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1) – 10 anos.".
+:just_pca_c800.10.303 :temCriterio :crit_just_pca_c800.10.303_1.
+:crit_just_pca_c800.10.303_1 :temLegislacao :leg_203.
+:crit_just_pca_c800.10.303_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de  consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c800.10.303 :temCriterio :crit_just_pca_c800.10.303_2.
+:crit_just_pca_c800.10.303_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.304
+:pca_c800.10.304 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c800.10.304 :temPCA :pca_c800.10.304.
+:pca_c800.10.304 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c800.10.304 :pcaSubformaContagem :vc_pcaSubformaContagem_5 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.304
+:just_pca_c800.10.304 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.304 :temJustificacao :just_pca_c800.10.304.
+:crit_just_pca_c800.10.304_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Regulamento de Execução (UE) 520/2012] da Comissão, artº 12 -2 -\" Os dados e documentos de farmacovigilância relativos a cada medicamento autorizado devem ser conservados enquanto o medicamento for autorizado e durante pelo menos 10 anos depois de a autorização de introdução no mercado ter deixado de existir.(...)\"".
+:just_pca_c800.10.304 :temCriterio :crit_just_pca_c800.10.304_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.305
+:pca_c800.10.305 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 30.
+:c800.10.305 :temPCA :pca_c800.10.305.
+:pca_c800.10.305 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.305
+:just_pca_c800.10.305 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.305 :temJustificacao :just_pca_c800.10.305.
+:crit_just_pca_c800.10.305_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Suplemento à Diretiva 2005/28/CE, datado de 03/12/2009 - Detailed guidelines on good clinical practice specific to advanced therapy medicinal products, 7.3 e Annex - Traceability records.".
+:just_pca_c800.10.305 :temCriterio :crit_just_pca_c800.10.305_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.306
+:pca_c800.10.306 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 80.
+:c800.10.306 :temPCA :pca_c800.10.306.
+:pca_c800.10.306 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.306
+:just_pca_c800.10.306 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.306 :temJustificacao :just_pca_c800.10.306.
+:crit_just_pca_c800.10.306_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Regulamento de Execução (UE) 520/2012] da Comissão, artº 12 - Os dados e documentos de farmacovigilância relativos a cadamedicamento autorizado devem ser conservados enquanto o medicamento for autorizado e durante pelo menos 10 anos depois de a autorização de introdução no mercado ter deixado de existir.".
+:just_pca_c800.10.306 :temCriterio :crit_just_pca_c800.10.306_1.
+:crit_just_pca_c800.10.306_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Período durante o qual a administração pode exercer a sua atividade de controlo ao que acresce um perído cautelar dadas as implicações na saúde pública considerando a esperança média de vida à nascença (80 anos, fonte INE).".
+:just_pca_c800.10.306 :temCriterio :crit_just_pca_c800.10.306_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.600
+:pca_c800.10.600 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 25.
+:c800.10.600 :temPCA :pca_c800.10.600.
+:pca_c800.10.600 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.600
+:just_pca_c800.10.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.600 :temJustificacao :just_pca_c800.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.601
+:pca_c800.10.601 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c800.10.601 :temPCA :pca_c800.10.601.
+:pca_c800.10.601 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.601
+:just_pca_c800.10.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.601 :temJustificacao :just_pca_c800.10.601.
+:crit_just_pca_c800.10.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo consignado no [Despacho 399/2009] \"nº 2.8.1 — Os laboratórios devem conservar, por qualquer processo, pelo menos durante cinco anos, sem prejuízo de outros prazos que venham a ser estabelecidos (...)\".".
+:just_pca_c800.10.601 :temCriterio :crit_just_pca_c800.10.601_1.
+:crit_just_pca_c800.10.601_1 :temLegislacao :leg_774.
+:crit_just_pca_c800.10.601_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Rastreabilidade, consulta e análise o PN 500.10.301 - Realização de fiscalização.".
+:just_pca_c800.10.601 :temCriterio :crit_just_pca_c800.10.601_2.
+:crit_just_pca_c800.10.601_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.602
+:pca_c800.10.602 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c800.10.602 :temPCA :pca_c800.10.602.
+:pca_c800.10.602 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.602
+:just_pca_c800.10.602 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.602 :temJustificacao :just_pca_c800.10.602.
+:crit_just_pca_c800.10.602_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1) – 10 anos.".
+:just_pca_c800.10.602 :temCriterio :crit_just_pca_c800.10.602_1.
+:crit_just_pca_c800.10.602_1 :temLegislacao :leg_203.
+:crit_just_pca_c800.10.602_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de fiscalização (no que diz respeito à atuação da Administração) e dos PN  500.10.301 (no que diz respeito à sua fiscalização).".
+:just_pca_c800.10.602 :temCriterio :crit_just_pca_c800.10.602_2.
+:crit_just_pca_c800.10.602_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c800.10.602_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.603
+:pca_c800.10.603 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15;
+	:pcaNota "Nos crimes contra a liberdade e autodeterminação sexual de menores, bem como no crime de  mutilação genital feminina sendo a vítima menor, o procedimento criminal não se extingue, por efeito da prescrição, antes de o ofendido perfazer 23 anos” - artigo 118 do Código penal".
+
+:c800.10.603 :temPCA :pca_c800.10.603.
+:pca_c800.10.603 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.603
+:just_pca_c800.10.603 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.603 :temJustificacao :just_pca_c800.10.603.
+:crit_just_pca_c800.10.603_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118): determinante para o enquadramento da prescrição do crime.".
+:just_pca_c800.10.603 :temCriterio :crit_just_pca_c800.10.603_1.
+:crit_just_pca_c800.10.603_1 :temLegislacao :leg_164.
+:crit_just_pca_c800.10.603_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Cobertura dos prazos necessários para a investigação e para a prescrição (artº 118 do Código Penal, [DL 48/95], de 15 de março) dos crimes tipicamente associados a esta ação.".
+:just_pca_c800.10.603 :temCriterio :crit_just_pca_c800.10.603_2.
+:crit_just_pca_c800.10.603_2 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.604
+:pca_c800.10.604 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c800.10.604 :temPCA :pca_c800.10.604.
+:pca_c800.10.604 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.604
+:just_pca_c800.10.604 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.604 :temJustificacao :just_pca_c800.10.604.
+:crit_just_pca_c800.10.604_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1) – 10 anos.".
+:just_pca_c800.10.604 :temCriterio :crit_just_pca_c800.10.604_1.
+:crit_just_pca_c800.10.604_1 :temLegislacao :leg_203.
+:crit_just_pca_c800.10.604_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN  500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).".
+:just_pca_c800.10.604 :temCriterio :crit_just_pca_c800.10.604_2.
+:crit_just_pca_c800.10.604_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c800.10.604_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.605
+:pca_c800.10.605 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c800.10.605 :temPCA :pca_c800.10.605.
+:pca_c800.10.605 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.605
+:just_pca_c800.10.605 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.605 :temJustificacao :just_pca_c800.10.605.
+:crit_just_pca_c800.10.605_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1) – 10 anos.".
+:just_pca_c800.10.605 :temCriterio :crit_just_pca_c800.10.605_1.
+:crit_just_pca_c800.10.605_1 :temLegislacao :leg_203.
+:crit_just_pca_c800.10.605_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 (no que diz respeito à atuação da Administração) e dos PN  500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).".
+:just_pca_c800.10.605 :temCriterio :crit_just_pca_c800.10.605_2.
+:crit_just_pca_c800.10.605_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c800.10.605_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.606
+:pca_c800.10.606 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c800.10.606 :temPCA :pca_c800.10.606.
+:pca_c800.10.606 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.606
+:just_pca_c800.10.606 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.606 :temJustificacao :just_pca_c800.10.606.
+:crit_just_pca_c800.10.606_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1) – 10 anos[DL 176/2006], artº 181,  nº 2 - i ) \" O incumprimento das obrigações que antecedem constitui outras tantas contraordenações previstas e puníveis com coima...( ).".
+:just_pca_c800.10.606 :temCriterio :crit_just_pca_c800.10.606_1.
+:crit_just_pca_c800.10.606_1 :temLegislacao :leg_203.
+:crit_just_pca_c800.10.606_1 :temLegislacao :leg_531.
+:crit_just_pca_c800.10.606_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN  500.10.301 - Realização de inspeção (no que diz respeito à sua fiscalização).".
+:just_pca_c800.10.606 :temCriterio :crit_just_pca_c800.10.606_2.
+:crit_just_pca_c800.10.606_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c800.10.606_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.607
+:pca_c800.10.607 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c800.10.607 :temPCA :pca_c800.10.607.
+:pca_c800.10.607 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.607
+:just_pca_c800.10.607 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.607 :temJustificacao :just_pca_c800.10.607.
+:crit_just_pca_c800.10.607_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Portaria 248/2013], artº 5 - 2) \"Relativamente aos dados pessoais constantes dos formulários a notificar às autoridades de saúde de âmbito regional e à Direção-Geral da Saúde, podem ser conservados até 10 anos desde que estejam em causa situações de morbilidade.\"".
+:just_pca_c800.10.607 :temCriterio :crit_just_pca_c800.10.607_1.
+:crit_just_pca_c800.10.607_1 :temLegislacao :leg_1171.
+:crit_just_pca_c800.10.607_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN  500.10.301 - Realização de inspeção (no que diz respeito à sua fiscalização)".
+:just_pca_c800.10.607 :temCriterio :crit_just_pca_c800.10.607_2.
+:crit_just_pca_c800.10.607_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c800.10.607_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.608
+:pca_c800.10.608 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c800.10.608 :temPCA :pca_c800.10.608.
+:pca_c800.10.608 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoEntidade .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.608
+:just_pca_c800.10.608 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.608 :temJustificacao :just_pca_c800.10.608.
+:crit_just_pca_c800.10.608_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Portaria 248/2013], artº 5 - 2) \"Relativamente aos dados pessoais constantes dos formulários a notificar às autoridades de saúde de âmbito regional e à Direção-Geral da Saúde, podem ser conservados até 10 anos desde que estejam em causa situações de morbilidade.\"".
+:just_pca_c800.10.608 :temCriterio :crit_just_pca_c800.10.608_1.
+:crit_just_pca_c800.10.608_1 :temLegislacao :leg_1171.
+:crit_just_pca_c800.10.608_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN  500.10.301 - Realização de inspeção (no que diz respeito à sua fiscalização).".
+:just_pca_c800.10.608 :temCriterio :crit_just_pca_c800.10.608_2.
+:crit_just_pca_c800.10.608_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c800.10.608_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.10.609
+:pca_c800.10.609 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c800.10.609 :temPCA :pca_c800.10.609.
+:pca_c800.10.609 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.10.609
+:just_pca_c800.10.609 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.10.609 :temJustificacao :just_pca_c800.10.609.
+:crit_just_pca_c800.10.609_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Portaria 248/2013], artº 5 - 2) \"Relativamente aos dados pessoais constantes dos formulários a notificar às autoridades de saúde de âmbito regional e à Direção-Geral da Saúde, podem ser conservados até 10 anos desde que estejam em causa situações de morbilidade.\"".
+:just_pca_c800.10.609 :temCriterio :crit_just_pca_c800.10.609_1.
+:crit_just_pca_c800.10.609_1 :temLegislacao :leg_1171.
+:crit_just_pca_c800.10.609_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN  500.10.301 - Realização de inspeção (no que diz respeito à sua fiscalização).".
+:just_pca_c800.10.609 :temCriterio :crit_just_pca_c800.10.609_2.
+:crit_just_pca_c800.10.609_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c800.10.609_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.20.001
+:pca_c800.20.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c800.20.001 :temPCA :pca_c800.20.001.
+:pca_c800.20.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.20.001
+:just_pca_c800.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.20.001 :temJustificacao :just_pca_c800.20.001.
+:crit_just_pca_c800.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1) – 10 anos.".
+:just_pca_c800.20.001 :temCriterio :crit_just_pca_c800.20.001_1.
+:crit_just_pca_c800.20.001_1 :temLegislacao :leg_203.
+:crit_just_pca_c800.20.001_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 -Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN  500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).".
+:just_pca_c800.20.001 :temCriterio :crit_just_pca_c800.20.001_2.
+:crit_just_pca_c800.20.001_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c800.20.001_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.20.002
+:pca_c800.20.002 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c800.20.002 :temPCA :pca_c800.20.002.
+:pca_c800.20.002 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.20.002
+:just_pca_c800.20.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.20.002 :temJustificacao :just_pca_c800.20.002.
+:crit_just_pca_c800.20.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1) – 10 anos.".
+:just_pca_c800.20.002 :temCriterio :crit_just_pca_c800.20.002_1.
+:crit_just_pca_c800.20.002_1 :temLegislacao :leg_203.
+:crit_just_pca_c800.20.002_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN  500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).".
+:just_pca_c800.20.002 :temCriterio :crit_just_pca_c800.20.002_2.
+:crit_just_pca_c800.20.002_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c800.20.002_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c800.20.500
+:pca_c800.20.500 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c800.20.500 :temPCA :pca_c800.20.500.
+:pca_c800.20.500 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c800.20.500
+:just_pca_c800.20.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c800.20.500 :temJustificacao :just_pca_c800.20.500.
+:crit_just_pca_c800.20.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1) – 10 anos.".
+:just_pca_c800.20.500 :temCriterio :crit_just_pca_c800.20.500_1.
+:crit_just_pca_c800.20.500_1 :temLegislacao :leg_203.
+:crit_just_pca_c800.20.500_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN  500.10.301 - Realização de fiscalização (no que diz respeito à sua fiscalização).".
+:just_pca_c800.20.500 :temCriterio :crit_just_pca_c800.20.500_2.
+:crit_just_pca_c800.20.500_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c800.20.500_2 :temProcessoRelacionado :c500.10.301.

@@ -1,0 +1,1613 @@
+### Organizações
+###  http://jcr.di.uminho.pt/m51-clav#org_A3ES
+:org_A3ES rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "A3ES";
+	:orgNome "Agência de Avaliação e Acreditação do Ensino Superior".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_AAC
+:conj_org_AAC rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "AAC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridades Administrativas Civis".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_AADR
+:conj_org_AADR rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "AADR";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Assembleias de apuramento distrital de resultados".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_AAGR
+:conj_org_AAGR rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "AAGR";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Assembleias de apuramento geral dos resultados".
+###  http://jcr.di.uminho.pt/m51-clav#org_AAN
+:org_AAN rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "AAN";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridade Aeronáutica Nacional".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_ACE
+:conj_org_ACE rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "ACE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Administração Central do Estado".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_ACES
+:conj_org_ACES rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "ACES";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Agrupamentos de Centros de Saúde".
+###  http://jcr.di.uminho.pt/m51-clav#org_ACSS
+:org_ACSS rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ACSS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Administração Central do Sistema de Saúde, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_ACT
+:org_ACT rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ACT";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridade para as Condições de Trabalho".
+###  http://jcr.di.uminho.pt/m51-clav#org_ADSE
+:org_ADSE rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ADSE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral de Proteção Social aos Trabalhadores em Funções Públicas".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_AF
+:conj_org_AF rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "AF";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Assembleias de Freguesia".
+###  http://jcr.di.uminho.pt/m51-clav#org_AICEP
+:org_AICEP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "AICEP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Agência para o Investimento e Comércio Externo de Portugal".
+###  http://jcr.di.uminho.pt/m51-clav#org_AISAN
+:org_AISAN rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "AISAN";
+	:orgNome "Agência ISAN Portugal".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_AJ
+:conj_org_AJ rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "AJ";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridades judiciárias".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_AL
+:conj_org_AL rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "AL";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autarquias Locais".
+###  http://jcr.di.uminho.pt/m51-clav#org_ALRAA
+:org_ALRAA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ALRAA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Assembleia Legislativa da Região Autónoma dos Açores".
+###  http://jcr.di.uminho.pt/m51-clav#org_ALRAM
+:org_ALRAM rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ALRAM";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Assembleia Legislativa da Região Autónoma da Madeira".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_AM
+:conj_org_AM rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "AM";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Assembleias Municipais".
+###  http://jcr.di.uminho.pt/m51-clav#org_AMN
+:org_AMN rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "AMN";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridade Marítima Nacional".
+###  http://jcr.di.uminho.pt/m51-clav#org_ANA
+:org_ANA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ANA";
+	:orgNome "ANA - Aeroportos de Portugal".
+###  http://jcr.di.uminho.pt/m51-clav#org_ANAC
+:org_ANAC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ANAC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridade Nacional da Aviação Civil".
+###  http://jcr.di.uminho.pt/m51-clav#org_ANACOM
+:org_ANACOM rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ANACOM";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridade Nacional de Comunicações".
+###  http://jcr.di.uminho.pt/m51-clav#org_ANCP
+:org_ANCP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ANCP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Agência Nacional de Compras Públicas".
+###  http://jcr.di.uminho.pt/m51-clav#org_ANMP
+:org_ANMP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ANMP";
+	:orgNome "Associação Nacional de Municípios Portugueses".
+###  http://jcr.di.uminho.pt/m51-clav#org_ANPC
+:org_ANPC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ANPC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridade Nacional de Proteção Civil".
+###  http://jcr.di.uminho.pt/m51-clav#org_ANQEP
+:org_ANQEP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ANQEP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Agência Nacional para a Qualificação e o Ensino Profissional, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_ANS
+:org_ANS rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ANS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridade Nacional de Segurança".
+###  http://jcr.di.uminho.pt/m51-clav#org_ANSR
+:org_ANSR rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ANSR";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridade Nacional de Segurança Rodoviária".
+###  http://jcr.di.uminho.pt/m51-clav#org_ANTRAL
+:org_ANTRAL rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ANTRAL";
+	:orgNome "Associação Nacional dos Transportes Rodoviários em Automóveis Ligeiros".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_AP
+:conj_org_AP rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "AP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Administração Pública".
+###  http://jcr.di.uminho.pt/m51-clav#org_APA
+:org_APA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "APA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Agência Portuguesa do Ambiente, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_APAV
+:org_APAV rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "APAV";
+	:orgNome "Associação Portuguesa de Apoio à Vítima".
+###  http://jcr.di.uminho.pt/m51-clav#org_APEL
+:org_APEL rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "APEL";
+	:orgNome "Associação Portuguesa de Editores e Livreiros".
+###  http://jcr.di.uminho.pt/m51-clav#org_AR
+:org_AR rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "AR";
+	:orgNome "Assembleia da República".
+###  http://jcr.di.uminho.pt/m51-clav#org_ARS-Alg
+:org_ARS-Alg rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ARS-Alg";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Administração Regional de Saúde do Algarve".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_AS
+:tipol_org_AS rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "AS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridades de Saúde".
+###  http://jcr.di.uminho.pt/m51-clav#org_ARS-Aln
+:org_ARS-Aln rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ARS-Aln";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Administração Regional de Saúde do Alentejo".
+###  http://jcr.di.uminho.pt/m51-clav#org_ARS-C
+:org_ARS-C rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ARS-C";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Administração Regional de Saúde do Centro".
+###  http://jcr.di.uminho.pt/m51-clav#org_ARS-LVT
+:org_ARS-LVT rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ARS-LVT";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Administração Regional de Saúde de Lisboa e Vale do Tejo".
+###  http://jcr.di.uminho.pt/m51-clav#org_ARS-N
+:org_ARS-N rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ARS-N";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Administração Regional de Saúde do Norte".
+###  http://jcr.di.uminho.pt/m51-clav#org_ASAE
+:org_ASAE rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ASAE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridade de Segurança Alimentar e Económica".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_ASF
+:tipol_org_ASF rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "ASF";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridades de supervisão e fiscalização".
+###  http://jcr.di.uminho.pt/m51-clav#org_AT
+:org_AT rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "AT";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridade Tributária e Aduaneira".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_AV
+:conj_org_AV rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "AV";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Assembleias de voto".
+###  http://jcr.di.uminho.pt/m51-clav#org_BdP
+:org_BdP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "BdP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Banco de Portugal".
+###  http://jcr.di.uminho.pt/m51-clav#org_BNA
+:org_BNA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "BNA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Balcão Nacional de Arrendamento".
+###  http://jcr.di.uminho.pt/m51-clav#org_BNI
+:org_BNI rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "BNI";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Balcão Nacional de Injunções".
+###  http://jcr.di.uminho.pt/m51-clav#org_BNP
+:org_BNP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "BNP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Biblioteca Nacional de Portugal".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_CA
+:conj_org_CA rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "CA";
+	:orgNome "Centros de Arbitragem".
+###  http://jcr.di.uminho.pt/m51-clav#org_CADA
+:org_CADA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CADA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Comissão de Acesso aos Documentos Administrativos".
+###  http://jcr.di.uminho.pt/m51-clav#org_Camões
+:org_Camões rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "Camões";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Camões - Instituto da Cooperação e da Língua, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_CCDR-Alg
+:org_CCDR-Alg rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CCDR-Alg";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Comissão de Coordenação do Desenvolvimento Regional do Algarve".
+###  http://jcr.di.uminho.pt/m51-clav#org_CCDR-Aln
+:org_CCDR-Aln rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CCDR-Aln";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Comissão de Coordenação do Desenvolvimento Regional do Alentejo".
+###  http://jcr.di.uminho.pt/m51-clav#org_CCDR-C
+:org_CCDR-C rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CCDR-C";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Comissão de Coordenação do Desenvolvimento Regional do Centro".
+###  http://jcr.di.uminho.pt/m51-clav#org_CCDR-LVT
+:org_CCDR-LVT rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CCDR-LVT";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Comissão de Coordenação do Desenvolvimento Regional de Lisboa e Vale do Tejo".
+###  http://jcr.di.uminho.pt/m51-clav#org_CCDR-N
+:org_CCDR-N rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CCDR-N";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Comissão de Coordenação do Desenvolvimento Regional do Norte".
+###  http://jcr.di.uminho.pt/m51-clav#org_CCPFC
+:org_CCPFC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CCPFC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Conselho Científico-Pedagógico da Formação Contínua".
+###  http://jcr.di.uminho.pt/m51-clav#org_CEGER
+:org_CEGER rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CEGER";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Centro de Gestão da Rede Informática do Governo".
+###  http://jcr.di.uminho.pt/m51-clav#org_CEIC
+:org_CEIC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CEIC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Comissão de Ética para a Investigação Clínica".
+###  http://jcr.di.uminho.pt/m51-clav#org_CEJ
+:org_CEJ rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CEJ";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Centro de Estudos Judiciários".
+###  http://jcr.di.uminho.pt/m51-clav#org_CEJUR
+:org_CEJUR rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CEJUR";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Centro Jurídico (PCM)".
+###  http://jcr.di.uminho.pt/m51-clav#org_CEMFA
+:org_CEMFA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CEMFA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Chefe do Estado-Maior da Força Aérea".
+###  http://jcr.di.uminho.pt/m51-clav#org_CES
+:org_CES rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CES";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Conselho Económico e Social".
+###  http://jcr.di.uminho.pt/m51-clav#org_CGA
+:org_CGA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CGA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Caixa Geral de Aposentações, IP".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_CH
+:conj_org_CH rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "CH";
+	:orgNome "Comissões de Heráldica".
+###  http://jcr.di.uminho.pt/m51-clav#org_Cinemateca
+:org_Cinemateca rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "Cinemateca";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Cinemateca Portuguesa-Museu do Cinema, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_CISAC
+:org_CISAC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CISAC";
+	:orgNome "International Confederation of Societies of Authors and Composers".
+###  http://jcr.di.uminho.pt/m51-clav#org_CM
+:org_CM rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CM";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Conselho de Ministros".
+###  http://jcr.di.uminho.pt/m51-clav#org_CMil
+:org_CMil rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CMil";
+	:orgNome "Colégio Militar".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_CN
+:conj_org_CN rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "CN";
+	:orgNome "Cartórios Notariais".
+###  http://jcr.di.uminho.pt/m51-clav#org_CNCS
+:org_CNCS rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CNCS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Centro Nacional de Cibersegurança".
+###  http://jcr.di.uminho.pt/m51-clav#org_CNE
+:org_CNE rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CNE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Conselho Nacional de Educação".
+###  http://jcr.di.uminho.pt/m51-clav#org_CNOC
+:org_CNOC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CNOC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Comissão Nacional de Objecção de Consciência".
+###  http://jcr.di.uminho.pt/m51-clav#org_CNPCJ
+:org_CNPCJ rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CNPCJ";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Comissão Nacional de Proteção das Crianças e Jovens em Risco".
+###  http://jcr.di.uminho.pt/m51-clav#org_CNPD
+:org_CNPD rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CNPD";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Comissão Nacional de Proteção de Dados".
+###  http://jcr.di.uminho.pt/m51-clav#org_CNPRP
+:org_CNPRP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CNPRP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Centro Nacional de Proteção contra os Riscos Profissionais".
+###  http://jcr.di.uminho.pt/m51-clav#org_CNPV
+:org_CNPV rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CNPV";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Conselho Nacional para a Promoção do Voluntariado".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_Cns
+:conj_org_Cns rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "Cns";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Consulados".
+###  http://jcr.di.uminho.pt/m51-clav#org_CP
+:org_CP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CP";
+	:orgNome "Comboios de Portugal".
+###  http://jcr.di.uminho.pt/m51-clav#org_CPCJ
+:org_CPCJ rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CPCJ";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Comissão de Proteção de Crianças e Jovens".
+###  http://jcr.di.uminho.pt/m51-clav#org_CPES
+:org_CPES rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CPES";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Comissão de Programas Especiais de Segurança".
+###  http://jcr.di.uminho.pt/m51-clav#org_CPL
+:org_CPL rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CPL";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Casa Pia de Lisboa, I.P.".
+###  http://jcr.di.uminho.pt/m51-clav#org_CPVC
+:org_CPVC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CPVC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Comissão de Proteção às Vítimas de Crimes".
+###  http://jcr.di.uminho.pt/m51-clav#org_CRESAP
+:org_CRESAP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CRESAP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Comissão de Recrutamento e Seleção para a Administração Pública".
+###  http://jcr.di.uminho.pt/m51-clav#org_CS
+:org_CS rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CS";
+	:orgNome "Câmara dos Solicitadores".
+###  http://jcr.di.uminho.pt/m51-clav#org_CSM
+:org_CSM rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "CSM";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Conselho Superior de Magistratura".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_CT
+:conj_org_CT rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "CT";
+	:orgNome "Comissões Técnicas de Normalização".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGACCP
+:org_DGACCP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGACCP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral dos Assuntos Consulares e das Comunidades Portuguesas".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGADR
+:org_DGADR rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGADR";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral de Agricultura e Desenvolvimento Rural".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGAE
+:org_DGAE rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGAE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral das Atividades Económicas".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGAEP
+:org_DGAEP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGAEP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral da Administração e do Emprego Público".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGAEu
+:org_DGAEu rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGAEu";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral dos Assuntos Europeus".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGAJ
+:org_DGAJ rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGAJ";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral da Administração da Justiça".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGAL
+:org_DGAL rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGAL";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral das Autarquias Locais".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGAM
+:org_DGAM rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGAM";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral da Autoridade Marítima".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGAV
+:org_DGAV rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGAV";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral de Alimentação e Veterinária".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGC
+:org_DGC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral do Consumidor".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGE
+:org_DGE rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral da Educação".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGEEC
+:org_DGEEC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGEEC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral de Estatísticas da Educação e Ciência".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGEG
+:org_DGEG rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGEG";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral de Energia e Geologia".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGERT
+:org_DGERT rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGERT";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral do Emprego e das Relações de Trabalho".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGES
+:org_DGES rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGES";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral do Ensino Superior".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGEstE
+:org_DGEstE rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGEstE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral dos Estabelecimentos Escolares".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGLAB
+:org_DGLAB rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGLAB";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral do Livro, dos Arquivos e das Bibliotecas".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGO
+:org_DGO rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGO";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral do Orçamento".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGPC
+:org_DGPC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGPC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral do Património Cultural".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGPDN
+:org_DGPDN rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGPDN";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral de Política de Defesa Nacional".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGPE
+:org_DGPE rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGPE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral de Política Externa".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGPJ
+:org_DGPJ rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGPJ";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral da Política de Justiça".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGRDN
+:org_DGRDN rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGRDN";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral de Recursos da Defesa Nacional".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGRM
+:org_DGRM rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGRM";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGRSP
+:org_DGRSP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGRSP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral de Reinserção e Serviços Prisionais".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGS
+:org_DGS rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral de Saúde".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGSS
+:org_DGSS rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGSS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral da Segurança Social".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGT
+:org_DGT rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGT";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral do Território".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGTF
+:org_DGTF rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGTF";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral do Tesouro e Finanças".
+###  http://jcr.di.uminho.pt/m51-clav#org_DGV
+:org_DGV rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DGV";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral de Alimentação e Veterinária".
+###  http://jcr.di.uminho.pt/m51-clav#org_DNS_PT
+:org_DNS_PT rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DNS_PT";
+	:orgNome "Associação DNS.PT".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRADR-Alg
+:org_DRADR-Alg rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRADR-Alg";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção Regional de Agricultura e Desenvolvimento Rural do Algarve".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRADR-Aln
+:org_DRADR-Aln rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRADR-Aln";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção Regional de Agricultura e Desenvolvimento Rural do Alentejo".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRADR-C
+:org_DRADR-C rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRADR-C";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção Regional de Agricultura e Desenvolvimento Rural do Centro".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRADR-LVT
+:org_DRADR-LVT rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRADR-LVT";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção Regional de Agricultura e Desenvolvimento Rural de LVT".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRADR-N
+:org_DRADR-N rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRADR-N";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção Regional de Agricultura e Desenvolvimento Rural do Norte".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRAP-Alg
+:org_DRAP-Alg rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRAP-Alg";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção Regional de Agricultura e Pescas do Algarve".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRAP-Aln
+:org_DRAP-Aln rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRAP-Aln";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção Regional de Agricultura e Pescas do Alentejo".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRAP-C
+:org_DRAP-C rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRAP-C";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção Regional de Agricultura e Pescas do Centro".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRAP-LVT
+:org_DRAP-LVT rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRAP-LVT";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção Regional de Agricultura e Pescas de LVT".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRAP-N
+:org_DRAP-N rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRAP-N";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção Regional de Agricultura e Pescas do Norte".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRS-Alg
+:org_DRS-Alg rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRS-Alg";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Delegado Regional de Saúde do Algarve".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRS-Aln
+:org_DRS-Aln rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRS-Aln";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Delegado Regional de Saúde do Alentejo".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRS-C
+:org_DRS-C rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRS-C";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Delegado Regional de Saúde do Centro".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRS-LVT
+:org_DRS-LVT rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRS-LVT";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Delegado Regional de Saúde de Lisboa e Vale do Tejo".
+###  http://jcr.di.uminho.pt/m51-clav#org_DRS-N
+:org_DRS-N rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "DRS-N";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Delegado Regional de Saúde do Norte".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_EAARPNC
+:tipol_org_EAARPNC rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "EAARPNC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades com autonomia administrativa e receitas próprias não consignadas".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_EC
+:conj_org_EC rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "EC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Equipas cinotécnicas".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_ECA
+:tipol_org_ECA rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "ECA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades com competência de auditoria".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_ECP
+:tipol_org_ECP rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "ECP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades com capacidade pericial".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_ECF
+:tipol_org_ECF rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "ECF";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades com competência de fiscalização".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_EFD
+:tipol_org_EFD rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "EFD";
+	:orgNome "Entidades com funções delegadas".
+###  http://jcr.di.uminho.pt/m51-clav#org_ECFP
+:org_ECFP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ECFP";
+	:orgNome "Entidade das Contas e Financiamentos Políticos (Tribunal Constitucional)".
+###  http://jcr.di.uminho.pt/m51-clav#org_ECHA
+:org_ECHA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ECHA";
+	:orgNome "Agência Europeia dos Produtos Químicos".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_ECI
+:tipol_org_ECI rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "ECI";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades com competência de inspeção".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_ECM
+:tipol_org_ECM rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "ECM";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades com competência de monitorização".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_ECS
+:tipol_org_ECS rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "ECS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades com competência sancionatória".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_ECV
+:tipol_org_ECV rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "ECV";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades com competência de visita".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_ED
+:tipol_org_ED rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "ED";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades depositantes".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_EDA
+:tipol_org_EDA rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "EDA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades detentoras de animais".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_EDIE
+:tipol_org_EDIE rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "EDIE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades detentoras de infrestruturas estratégicas".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_EE
+:tipol_org_EE rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "EE";
+	:orgNome "Entidades editoriais".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_EGAG
+:tipol_org_EGAG rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "EGAG";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades gestoras de água".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_EGAP
+:tipol_org_EGAP rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "EGAP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades gestoras de apoios".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_Emb
+:conj_org_Emb rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "Emb";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Embaixadas".
+###  http://jcr.di.uminho.pt/m51-clav#org_EMGFA
+:org_EMGFA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "EMGFA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Estado-Maior General das Forças Armadas".
+###  http://jcr.di.uminho.pt/m51-clav#org_ENMC
+:org_ENMC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ENMC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidade Nacional para o Mercado de Combustíveis, EPE".
+###  http://jcr.di.uminho.pt/m51-clav#org_EPAE
+:org_EPAE rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "EPAE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Escola Portuguesa de Arte Equestre".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_ER
+:tipol_org_ER rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "ER";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades reguladoras".
+###  http://jcr.di.uminho.pt/m51-clav#org_ERC
+:org_ERC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ERC";
+	:orgNome "Entidade Reguladora para a Comunicação Social".
+###  http://jcr.di.uminho.pt/m51-clav#org_ERS
+:org_ERS rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ERS";
+	:orgNome "Entidade Reguladora da Saúde".
+###  http://jcr.di.uminho.pt/m51-clav#org_ERSAR
+:org_ERSAR rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ERSAR";
+	:orgNome "Entidade Reguladora dos Serviços de Águas e Resíduos".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_ES
+:conj_org_ES rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "ES";
+	:orgNome "Estabelecimentos de ensino (EstE + IES)".
+###  http://jcr.di.uminho.pt/m51-clav#org_ESPAP
+:org_ESPAP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ESPAP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidade de Serviços Partilhados da Administração Pública".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_ESPS
+:conj_org_ESPS rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "ESPS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Entidades do sistema de proteção na saúde".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_EstE
+:conj_org_EstE rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "EstE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Estabelecimentos escolares".
+###  http://jcr.di.uminho.pt/m51-clav#org_FA
+:org_FA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "FA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Forças Armadas".
+###  http://jcr.di.uminho.pt/m51-clav#org_FAP
+:org_FAP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "FAP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Força Aérea Portuguesa".
+###  http://jcr.di.uminho.pt/m51-clav#org_FPT
+:org_FPT rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "FPT";
+	:orgNome "Federação Portuguesa de Táxis".
+###  http://jcr.di.uminho.pt/m51-clav#org_GAMA
+:org_GAMA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "GAMA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Gabinete  de Investigação de Acidentes Marítimos e da Autoridade para a  Meteorologia Aeronáutica".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_FSS
+:conj_org_FSS rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "FSS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Forças e serviços de segurança".
+###  http://jcr.di.uminho.pt/m51-clav#org_GEE
+:org_GEE rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "GEE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Gabinete de Estratégia e Estudos".
+###  http://jcr.di.uminho.pt/m51-clav#org_GEPAC
+:org_GEPAC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "GEPAC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Gabinete de Estratégia, Planeamento e Avaliação Culturais".
+###  http://jcr.di.uminho.pt/m51-clav#org_GMG-MJ
+:org_GMG-MJ rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "GMG-MJ";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Gabinete de Membro do Governo - Ministro da Justiça".
+###  http://jcr.di.uminho.pt/m51-clav#org_GNR
+:org_GNR rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "GNR";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Guarda Nacional Repúblicana".
+###  http://jcr.di.uminho.pt/m51-clav#org_GNS
+:org_GNS rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "GNS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Gabinete Nacional de Segurança".
+###  http://jcr.di.uminho.pt/m51-clav#org_GovReg-A
+:org_GovReg-A rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "GovReg-A";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Governo Regional dos Açores".
+###  http://jcr.di.uminho.pt/m51-clav#org_Gov
+:org_Gov rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "Gov";
+	:orgNome "Governo".
+###  http://jcr.di.uminho.pt/m51-clav#org_GovReg-M
+:org_GovReg-M rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "GovReg-M";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Governo Regional da Madeira".
+###  http://jcr.di.uminho.pt/m51-clav#org_GPIAAF
+:org_GPIAAF rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "GPIAAF";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Gabinete de Prevenção e Investigação de Acidentes com Aeronaves e Acidentes Ferroviários".
+###  http://jcr.di.uminho.pt/m51-clav#org_HH
+:org_HH rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "HH";
+	:orgNome "Hospitais".
+###  http://jcr.di.uminho.pt/m51-clav#org_IAMA
+:org_IAMA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IAMA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto de Alimentação e Mercados Agrícolas".
+###  http://jcr.di.uminho.pt/m51-clav#org_IAPMEI
+:org_IAPMEI rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IAPMEI";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Agência para a Competitividade e Inovação, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_IASFA
+:org_IASFA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IASFA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto de Ação Social das Forças Armadas, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_ICA
+:org_ICA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ICA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto do Cinema e do Audiovisual, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_ICNF
+:org_ICNF rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ICNF";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto da Conservação da Natureza e das Florestas, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_IDC
+:org_IDC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IDC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Inspeção Diplomática e Consular".
+###  http://jcr.di.uminho.pt/m51-clav#org_IEFP
+:org_IEFP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IEFP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto do Emprego e Formação Profissional, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_IFAP
+:org_IFAP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IFAP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto de Financiamento da Agricultura e Pescas, IP".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_IES
+:conj_org_IES rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "IES";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituições do Ensino Superior".
+###  http://jcr.di.uminho.pt/m51-clav#org_IGAC
+:org_IGAC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IGAC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Inspeção-Geral das Atividades Culturais".
+###  http://jcr.di.uminho.pt/m51-clav#org_IGAI
+:org_IGAI rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IGAI";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Inspeção-Geral da Administração Interna".
+###  http://jcr.di.uminho.pt/m51-clav#org_IGAS
+:org_IGAS rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IGAS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Inspeção-Geral das Atividades em Saúde".
+###  http://jcr.di.uminho.pt/m51-clav#org_IGCP
+:org_IGCP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IGCP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Agência de Gestão da Tesouraria e da Dívida Pública - IGCP, EPE".
+###  http://jcr.di.uminho.pt/m51-clav#org_IGFEJ
+:org_IGFEJ rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IGFEJ";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto de Gestão Financeira e Equipamentos da Justiça, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_IGFSS
+:org_IGFSS rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IGFSS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto de Gestão de Fundos de Capitalização da Segurança Social, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_IH
+:org_IH rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IH";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto Hidrográfico, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_IMPIC
+:org_IMPIC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IMPIC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto dos Mercados Públicos, do Imobiliário e da Construção, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_IMT
+:org_IMT rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IMT";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto de Mobilidade e dos Transportes, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_INA
+:org_INA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "INA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Direção-Geral da Qualificação dos Trabalhadores em Funções Públicas".
+###  http://jcr.di.uminho.pt/m51-clav#org_INCM
+:org_INCM rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "INCM";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Imprensa Nacional-Casa da Moeda, SA".
+###  http://jcr.di.uminho.pt/m51-clav#org_INE
+:org_INE rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "INE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto Nacional de Estatística, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_INEM
+:org_INEM rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "INEM";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto Nacional de Emergência Médica, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_INFARMED
+:org_INFARMED rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "INFARMED";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Autoridade Nacional do Medicamento e Produtos de Saúde, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_INIAV
+:org_INIAV rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "INIAV";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto Nacional de Investigação Agrária e Veterinária, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_INMLCF
+:org_INMLCF rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "INMLCF";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto Nacional de Medicina Legal e Ciências Forenses, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_INPI
+:org_INPI rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "INPI";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto Nacional da Propriedade Industrial, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_INR
+:org_INR rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "INR";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto Nacional para a Reabilitação, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_INSA
+:org_INSA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "INSA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto Nacional de Saúde Doutor Ricardo Jorge, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_IP__SA
+:org_IP__SA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IP__SA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Infraestruturas de Portugal, SA".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_I_P_
+:conj_org_I_P_ rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "I_P_";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Institutos Públicos".
+###  http://jcr.di.uminho.pt/m51-clav#org_IPAC
+:org_IPAC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IPAC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto Português de Acreditação, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_IPDJ
+:org_IPDJ rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IPDJ";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto Português do Desporto e Juventude, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_IPMA
+:org_IPMA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IPMA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto Português do Mar e da Atmosfera, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_IPQ
+:org_IPQ rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IPQ";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto Português da Qualidade, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_IPST
+:org_IPST rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IPST";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto Português do Sangue e da Transplantação, I.P.".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_IPSS
+:conj_org_IPSS rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "IPSS";
+	:orgNome "Instituições Particulares de Solidariedade Social".
+###  http://jcr.di.uminho.pt/m51-clav#org_IRN
+:org_IRN rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IRN";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto dos Registos e do Notariado, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_ISAN_Portugal
+:org_ISAN_Portugal rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ISAN_Portugal";
+	:orgNome "International Standard Audiovisual Number Portugal".
+###  http://jcr.di.uminho.pt/m51-clav#org_ISS
+:org_ISS rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ISS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto da Segurança Social, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_ISSA
+:org_ISSA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ISSA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto da Segurança Social dos Açores, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_ISSM
+:org_ISSM rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "ISSM";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto da Segurança Social da Madeira, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_IST
+:org_IST rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IST";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto Superior Técnico".
+###  http://jcr.di.uminho.pt/m51-clav#org_IVDP
+:org_IVDP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IVDP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto dos Vinhos do Douro e do Porto, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_IVV
+:org_IVV rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "IVV";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Instituto da Vinha e do Vinho, IP".
+###  http://jcr.di.uminho.pt/m51-clav#org_LNEG
+:org_LNEG rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "LNEG";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Laboratório Nacional de Energia e Geologia".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_LL
+:tipol_org_LL rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "LL";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Laboratórios locais".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_JP
+:conj_org_JP rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "JP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Julgados de Paz".
+###  http://jcr.di.uminho.pt/m51-clav#org_Marinha
+:org_Marinha rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "Marinha";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Marinha Portuguesa".
+###  http://jcr.di.uminho.pt/m51-clav#org_MP
+:org_MP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "MP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Ministério Público".
+###  http://jcr.di.uminho.pt/m51-clav#org_OP
+:org_OP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "OP";
+	:orgNome "Ordens Profissionais".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_Museus
+:tipol_org_Museus rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "Museus";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Museus".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_OACDOP
+:tipol_org_OACDOP rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "OACDOP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Organizações da Administração com competências delegadas em ordens profissionais".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_OGCT
+:tipol_org_OGCT rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "OGCT";
+	:orgNome "Organizações gestores de Comissão Técnica".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_ONS
+:tipol_org_ONS rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "ONS";
+	:orgNome "Organizações de normalização setorial".
+###  http://jcr.di.uminho.pt/m51-clav#org_OPC
+:org_OPC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "OPC";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Órgãos de Polícia Criminal".
+###  http://jcr.di.uminho.pt/m51-clav#org_PCM
+:org_PCM rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "PCM";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Presidência do Conselho de Ministros".
+###  http://jcr.di.uminho.pt/m51-clav#org_PGR
+:org_PGR rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "PGR";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Procuradoria-Geral da República".
+###  http://jcr.di.uminho.pt/m51-clav#org_PJ
+:org_PJ rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "PJ";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Polícia Judiciária".
+###  http://jcr.di.uminho.pt/m51-clav#org_PM
+:org_PM rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "PM";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Primeiro-Ministro".
+###  http://jcr.di.uminho.pt/m51-clav#org_PMar
+:org_PMar rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "PMar";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Polícia Marítima".
+###  http://jcr.di.uminho.pt/m51-clav#org_PR
+:org_PR rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "PR";
+	:orgNome "Presidente da República".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_PMun
+:conj_org_PMun rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "PMun";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Polícias Municipais".
+###  http://jcr.di.uminho.pt/m51-clav#org_PSP
+:org_PSP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "PSP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Polícia de Segurança Pública".
+###  http://jcr.di.uminho.pt/m51-clav#org_PSP
+:org_PSP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "PSP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Polícia de Segurança Pública".
+###  http://jcr.di.uminho.pt/m51-clav#org_RA-A
+:org_RA-A rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "RA-A";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Região Autónoma dos Açores".
+###  http://jcr.di.uminho.pt/m51-clav#org_RA-M
+:org_RA-M rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "RA-M";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Região Autónoma da Madeira".
+###  http://jcr.di.uminho.pt/m51-clav#org_SCML
+:org_SCML rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SCML";
+	:orgNome "Santa Casa da Misericórdia de Lisboa".
+###  http://jcr.di.uminho.pt/m51-clav#org_SEAL
+:org_SEAL rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SEAL";
+	:orgNome "Secretário de Estado das Autarquias Locais".
+###  http://jcr.di.uminho.pt/m51-clav#org_SEF
+:org_SEF rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SEF";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Serviço de Estrangeiros e Fronteiras".
+###  http://jcr.di.uminho.pt/m51-clav#org_SEN
+:org_SEN rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SEN";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Sistema Estatístico Nacional".
+###  http://jcr.di.uminho.pt/m51-clav#org_SEPNA
+:org_SEPNA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SEPNA";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Serviço de Proteção da Natureza e Ambiente".
+###  http://jcr.di.uminho.pt/m51-clav#org_MF
+:org_MF rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "MF";
+	:orgNome "Ministro das Finanças".
+###  http://jcr.di.uminho.pt/m51-clav#org_SGMAI
+:org_SGMAI rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SGMAI";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Secretaria Geral do Ministério da Administração Interna".
+###  http://jcr.di.uminho.pt/m51-clav#org_SGMF
+:org_SGMF rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SGMF";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Secretaria Geral do Ministério das Finanças".
+###  http://jcr.di.uminho.pt/m51-clav#org_SGMJ
+:org_SGMJ rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SGMJ";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Secretaria Geral do Ministério da Justiça".
+###  http://jcr.di.uminho.pt/m51-clav#org_SGMNE
+:org_SGMNE rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SGMNE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Secretaria Geral do Ministério dos Negócios Estrangeiros".
+###  http://jcr.di.uminho.pt/m51-clav#org_SGPCM
+:org_SGPCM rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SGPCM";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Secretaria Geral da Presidência do Conselho de Ministros".
+###  http://jcr.di.uminho.pt/m51-clav#org_SICAD
+:org_SICAD rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SICAD";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Serviço de Intervenção nos Comportamentos Aditivos e nas Dependências".
+###  http://jcr.di.uminho.pt/m51-clav#org_SIRP
+:org_SIRP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SIRP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Sistema de Informações da República Portuguesa".
+###  http://jcr.di.uminho.pt/m51-clav#org_SIS
+:org_SIS rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SIS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Serviço de Informações e Segurança".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_SMT
+:conj_org_SMT rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "SMT";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Serviços de Medicina do Trabalho".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_SPE
+:conj_org_SPE rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "SPE";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Setor Público Empresarial".
+###  http://jcr.di.uminho.pt/m51-clav#org_SPMS
+:org_SPMS rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SPMS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Serviços Partilhados do Ministério da Saúde, EPE".
+###  http://jcr.di.uminho.pt/m51-clav#org_SSAP
+:org_SSAP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "SSAP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Serviços Sociais da Administração Pública".
+###  http://jcr.di.uminho.pt/m51-clav#org_STA
+:org_STA rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "STA";
+	:orgNome "Supremo Tribunal Administrativo".
+###  http://jcr.di.uminho.pt/m51-clav#org_STJ
+:org_STJ rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "STJ";
+	:orgNome "Supremo Tribunal de Justiça".
+###  http://jcr.di.uminho.pt/m51-clav#org_TC
+:org_TC rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "TC";
+	:orgNome "Tribunal Constitucional".
+###  http://jcr.di.uminho.pt/m51-clav#org_TContas
+:org_TContas rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "TContas";
+	:orgNome "Tribunal de Contas".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_TEP
+:conj_org_TEP rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "TEP";
+	:orgNome "Tribunais de Execução de Penas".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_TFM
+:conj_org_TFM rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "TFM";
+	:orgNome "Tribunais de Família e Menores".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_TIC
+:conj_org_TIC rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "TIC";
+	:orgNome "Tribunais de Instrução Criminal".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_TComarca
+:conj_org_TComarca rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "TComarca";
+	:orgNome "Tribunais de Comarca".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_TR
+:conj_org_TR rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "TR";
+	:orgNome "Tribunais da Relação".
+###  http://jcr.di.uminho.pt/m51-clav#conj_org_Trb
+:conj_org_Trb rdf:type owl:NamedIndividual ,
+	:ConjuntoOrganizacoes ;
+	:orgSigla "Trb";
+	:orgNome "Tribunais".
+###  http://jcr.di.uminho.pt/m51-clav#org_TP
+:org_TP rdf:type owl:NamedIndividual ,
+	:Organizacao ;
+	:orgSigla "TP";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Turismo de Portugal, IP".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_UI
+:tipol_org_UI rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "UI";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Unidades de Investigação".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_UL
+:tipol_org_UL rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "UL";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Unidades Laboratoriais".
+###  http://jcr.di.uminho.pt/m51-clav#tipol_org_UPCS
+:tipol_org_UPCS rdf:type owl:NamedIndividual ,
+	:TipologiaOrganizacao ;
+	:orgSigla "UPCS";
+	:pertenceConjOrg :conj_org_AP;
+	:orgNome "Unidades Prestadoras de Cuidados de Saúde".
+
+### Organizações terminam aqui.
+

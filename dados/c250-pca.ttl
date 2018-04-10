@@ -1,0 +1,701 @@
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.001
+:pca_c250.10.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1.
+:c250.10.001 :temPCA :pca_c250.10.001.
+:pca_c250.10.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.001
+:just_pca_c250.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.001 :temJustificacao :just_pca_c250.10.001.
+:crit_just_pca_c250.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 4/2015], CPA, artº.s 82 e 86, relativos à obrigatoriedade de resposta por parte da Administração e aos prazos previstos para a mesma;\"Artigo 82.º Direito dos interessados à informação: 1 - Os interessados têm o direito de ser informados pelo responsável pela direção do procedimento, sempre que o requeiram, sobre o andamento dos procedimentos que lhes digam diretamente respeito, bem como o direito de conhecer as resoluções definitivas que sobre eles forem tomadas;2 - As informações a prestar abrangem a indicação do serviço onde o procedimento se encontra, os atos e diligências praticados, as deficiências a suprir pelos interessados, as decisões adotadas e quaisquer outros elementos solicitados;3 - As informações solicitadas ao abrigo do presente artigo são fornecidas no prazo máximo de 10 dias;Artigo 86.º Prazo geral:1 - Exceto quanto ao prazo de decisão do procedimento e na falta de disposição especial ou de fixação pela Administração, o prazo para os atos a praticar pelos órgãos administrativos é de 10 dias;2 - É igualmente de 10 dias o prazo para os interessados requererem ou praticarem quaisquer atos, promoverem diligências, responderem sobre os assuntos acerca dos quais se devam pronunciar ou exercerem outros poderes no procedimento\";".
+:just_pca_c250.10.001 :temCriterio :crit_just_pca_c250.10.001_1.
+:crit_just_pca_c250.10.001_1 :temLegislacao :leg_1326.
+:crit_just_pca_c250.10.001_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Utilização para processamento do PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão.Não existe responsabilidade sobre o acto, uma vez que as candidaturas são apresentadas fora do âmbito de um procedimento concursal.".
+:just_pca_c250.10.001 :temCriterio :crit_just_pca_c250.10.001_2.
+:crit_just_pca_c250.10.001_2 :temProcessoRelacionado :c150.40.500.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.100
+:pca_c250.10.100 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c250.10.100 :temPCA :pca_c250.10.100.
+:pca_c250.10.100 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.100
+:just_pca_c250.10.100 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.100 :temJustificacao :just_pca_c250.10.100.
+:crit_just_pca_c250.10.100_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1);Nota: A prescrição do procedimento interrompe-se com a citação do demandado em processo jurisdicional;".
+:just_pca_c250.10.100 :temCriterio :crit_just_pca_c250.10.100_1.
+:crit_just_pca_c250.10.100_1 :temLegislacao :leg_203.
+:crit_just_pca_c250.10.100_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.10.100 :temCriterio :crit_just_pca_c250.10.100_2.
+:crit_just_pca_c250.10.100_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.101
+:pca_c250.10.101 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c250.10.101 :temPCA :pca_c250.10.101.
+:pca_c250.10.101 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.101
+:just_pca_c250.10.101 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.101 :temJustificacao :just_pca_c250.10.101.
+:crit_just_pca_c250.10.101_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1);Nota: A prescrição do procedimento interrompe-se com a citação do demandado em processo jurisdicional;".
+:just_pca_c250.10.101 :temCriterio :crit_just_pca_c250.10.101_1.
+:crit_just_pca_c250.10.101_1 :temLegislacao :leg_203.
+:crit_just_pca_c250.10.101_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.10.101 :temCriterio :crit_just_pca_c250.10.101_2.
+:crit_just_pca_c250.10.101_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.103
+:pca_c250.10.103 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c250.10.103 :temPCA :pca_c250.10.103.
+:pca_c250.10.103 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.103
+:just_pca_c250.10.103 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.103 :temJustificacao :just_pca_c250.10.103.
+:crit_just_pca_c250.10.103_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1);Nota: A prescrição do procedimento interrompe-se com a citação do demandado em processo jurisdicional;".
+:just_pca_c250.10.103 :temCriterio :crit_just_pca_c250.10.103_1.
+:crit_just_pca_c250.10.103_1 :temLegislacao :leg_203.
+:crit_just_pca_c250.10.103_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.10.103 :temCriterio :crit_just_pca_c250.10.103_2.
+:crit_just_pca_c250.10.103_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.200
+:pca_c250.10.200 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c250.10.200 :temPCA :pca_c250.10.200.
+:pca_c250.10.200 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.200
+:just_pca_c250.10.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.200 :temJustificacao :just_pca_c250.10.200.
+:crit_just_pca_c250.10.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1);Nota: A prescrição do procedimento interrompe-se com a citação do demandado em processo jurisdicional;".
+:just_pca_c250.10.200 :temCriterio :crit_just_pca_c250.10.200_1.
+:crit_just_pca_c250.10.200_1 :temLegislacao :leg_203.
+:crit_just_pca_c250.10.200_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.10.200 :temCriterio :crit_just_pca_c250.10.200_2.
+:crit_just_pca_c250.10.200_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.300
+:pca_c250.10.300 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c250.10.300 :temPCA :pca_c250.10.300.
+:pca_c250.10.300 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.300
+:just_pca_c250.10.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.300 :temJustificacao :just_pca_c250.10.300.
+:crit_just_pca_c250.10.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1);Nota: A prescrição do procedimento interrompe-se com a citação do demandado em processo jurisdicional;".
+:just_pca_c250.10.300 :temCriterio :crit_just_pca_c250.10.300_1.
+:crit_just_pca_c250.10.300_1 :temLegislacao :leg_203.
+:crit_just_pca_c250.10.300_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.10.300 :temCriterio :crit_just_pca_c250.10.300_2.
+:crit_just_pca_c250.10.300_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.301
+:pca_c250.10.301 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.10.301 :temPCA :pca_c250.10.301.
+:pca_c250.10.301 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.301
+:just_pca_c250.10.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.301 :temJustificacao :just_pca_c250.10.301.
+:crit_just_pca_c250.10.301_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.10.301 :temCriterio :crit_just_pca_c250.10.301_1.
+:crit_just_pca_c250.10.301_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.10.301_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.10.301 :temCriterio :crit_just_pca_c250.10.301_2.
+:crit_just_pca_c250.10.301_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.400
+:pca_c250.10.400 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c250.10.400 :temPCA :pca_c250.10.400.
+:pca_c250.10.400 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.400
+:just_pca_c250.10.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.400 :temJustificacao :just_pca_c250.10.400.
+:crit_just_pca_c250.10.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Garantia de direitos e deveres adquiridos com esta formalização e que podem produzir efeitos durante a vida ativa como trabalhador (mesmo após a cessação);".
+:just_pca_c250.10.400 :temCriterio :crit_just_pca_c250.10.400_1.
+:crit_just_pca_c250.10.400_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Definição de um prazo máximo de vida ativa do trabalhador de 55 anos para processamento de PN decorrentes dos direitos e deveres adquiridos com a nomeação.".
+:just_pca_c250.10.400 :temCriterio :crit_just_pca_c250.10.400_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.401
+:pca_c250.10.401 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c250.10.401 :temPCA :pca_c250.10.401.
+:pca_c250.10.401 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.401
+:just_pca_c250.10.401 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.401 :temJustificacao :just_pca_c250.10.401.
+:crit_just_pca_c250.10.401_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Garantia de direitos e deveres dos trabalhadores durante a sua vida ativa e que são adquiridos com esta formalização;".
+:just_pca_c250.10.401 :temCriterio :crit_just_pca_c250.10.401_1.
+:crit_just_pca_c250.10.401_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Definição de um prazo máximo de vida ativa do trabalhador de 55 anos para processamento de PN decorrentes dos direitos e deveres adquiridos com a nomeação.".
+:just_pca_c250.10.401 :temCriterio :crit_just_pca_c250.10.401_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.500
+:pca_c250.10.500 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c250.10.500 :temPCA :pca_c250.10.500.
+:pca_c250.10.500 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.500
+:just_pca_c250.10.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.500 :temJustificacao :just_pca_c250.10.500.
+:crit_just_pca_c250.10.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Garantia de direitos e deveres adquiridos com esta formalização e que podem produzir efeitos durante a vida ativa como trabalhador (mesmo após a cessação);".
+:just_pca_c250.10.500 :temCriterio :crit_just_pca_c250.10.500_1.
+:crit_just_pca_c250.10.500_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Definição de um prazo máximo de vida ativa do trabalhador de 55 anos para processamento de PN decorrentes dos direitos e deveres adquiridos com a nomeação.".
+:just_pca_c250.10.500 :temCriterio :crit_just_pca_c250.10.500_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.501
+:pca_c250.10.501 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c250.10.501 :temPCA :pca_c250.10.501.
+:pca_c250.10.501 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.501
+:just_pca_c250.10.501 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.501 :temJustificacao :just_pca_c250.10.501.
+:crit_just_pca_c250.10.501_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Garantia de direitos e deveres adquiridos com esta formalização e que podem produzir efeitos durante a vida ativa como trabalhador (mesmo após a cessação);".
+:just_pca_c250.10.501 :temCriterio :crit_just_pca_c250.10.501_1.
+:crit_just_pca_c250.10.501_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Definição de um prazo máximo de vida ativa do trabalhador de 55 anos para processamento de PN decorrentes dos direitos e deveres adquiridos com a nomeação.".
+:just_pca_c250.10.501 :temCriterio :crit_just_pca_c250.10.501_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.600
+:pca_c250.10.600 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c250.10.600 :temPCA :pca_c250.10.600.
+:pca_c250.10.600 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.600
+:just_pca_c250.10.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.600 :temJustificacao :just_pca_c250.10.600.
+:crit_just_pca_c250.10.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Garantia de direitos e deveres dos trabalhadores durante a sua vida ativa e que são adquiridos com esta formalização;".
+:just_pca_c250.10.600 :temCriterio :crit_just_pca_c250.10.600_1.
+:crit_just_pca_c250.10.600_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Definição de um prazo máximo de vida ativa do trabalhador de 55 anos para processamento de PN decorrentes dos direitos e deveres adquiridos com a nomeação.".
+:just_pca_c250.10.600 :temCriterio :crit_just_pca_c250.10.600_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.601
+:pca_c250.10.601 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c250.10.601 :temPCA :pca_c250.10.601.
+:pca_c250.10.601 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.601
+:just_pca_c250.10.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.601 :temJustificacao :just_pca_c250.10.601.
+:crit_just_pca_c250.10.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Garantia de direitos e deveres adquiridos com esta formalização e que podem produzir efeitos durante a vida ativa como trabalhador (mesmo após a cessação);".
+:just_pca_c250.10.601 :temCriterio :crit_just_pca_c250.10.601_1.
+:crit_just_pca_c250.10.601_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Definição de um prazo máximo de vida ativa do trabalhador de 55 anos para processamento de PN decorrentes dos direitos e deveres adquiridos com a nomeação.(como a emissão de certificados de estágios profissionais)".
+:just_pca_c250.10.601 :temCriterio :crit_just_pca_c250.10.601_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.700
+:pca_c250.10.700 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c250.10.700 :temPCA :pca_c250.10.700.
+:pca_c250.10.700 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.700
+:just_pca_c250.10.700 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.700 :temJustificacao :just_pca_c250.10.700.
+:crit_just_pca_c250.10.700_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Garantia de direitos e deveres adquiridos com esta formalização e que podem produzir efeitos durante a vida ativa como trabalhador (mesmo após a cessação);".
+:just_pca_c250.10.700 :temCriterio :crit_just_pca_c250.10.700_1.
+:crit_just_pca_c250.10.700_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Definição de um prazo máximo de vida ativa do trabalhador de 55 anos para processamento de PN decorrentes dos direitos e deveres adquiridos com o provimento.".
+:just_pca_c250.10.700 :temCriterio :crit_just_pca_c250.10.700_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.10.800
+:pca_c250.10.800 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c250.10.800 :temPCA :pca_c250.10.800.
+:pca_c250.10.800 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.10.800
+:just_pca_c250.10.800 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.10.800 :temJustificacao :just_pca_c250.10.800.
+:crit_just_pca_c250.10.800_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " Conjugação do determinado nas [Lei 35/2014], art.º 290, e [Lei 7/2009], art.º 341, relativo à obrigação de entrega ao trabalhador de um certificado de trabalho, indicando as datas de admissão e de saída, bem como o cargo ou cargos que desempenhou, após a extinção do vínculo; com a responsabilização prevista na [Lei 98/97], artº 70, nº 1.".
+:just_pca_c250.10.800 :temCriterio :crit_just_pca_c250.10.800_1.
+:crit_just_pca_c250.10.800_1 :temLegislacao :leg_1269.
+:crit_just_pca_c250.10.800_1 :temLegislacao :leg_827.
+:crit_just_pca_c250.10.800_1 :temLegislacao :leg_203.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.001
+:pca_c250.20.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c250.20.001 :temPCA :pca_c250.20.001.
+:pca_c250.20.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_inicioProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.001
+:just_pca_c250.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.001 :temJustificacao :just_pca_c250.20.001.
+:crit_just_pca_c250.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Garantia de direitos e deveres adquiridos com a formalização da relação e que podem produzir efeitos durante a vida ativa como trabalhador;".
+:just_pca_c250.20.001 :temCriterio :crit_just_pca_c250.20.001_1.
+:crit_just_pca_c250.20.001_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Definição de um prazo de vida ativa do trabalhador de 55 anos para processamento de PN decorrentes dos direitos e deveres adquiridos com o provimento.Este prazo atende ao facto da cessação da relação da júridica poder ocorrer em momento inicial da vida ativa do trabalhador.".
+:just_pca_c250.20.001 :temCriterio :crit_just_pca_c250.20.001_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.200
+:pca_c250.20.200 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.20.200 :temPCA :pca_c250.20.200.
+:pca_c250.20.200 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.200
+:just_pca_c250.20.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.200 :temJustificacao :just_pca_c250.20.200.
+:crit_just_pca_c250.20.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.20.200 :temCriterio :crit_just_pca_c250.20.200_1.
+:crit_just_pca_c250.20.200_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.20.200_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.200 :temCriterio :crit_just_pca_c250.20.200_2.
+:crit_just_pca_c250.20.200_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.201
+:pca_c250.20.201 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.20.201 :temPCA :pca_c250.20.201.
+:pca_c250.20.201 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.201
+:just_pca_c250.20.201 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.201 :temJustificacao :just_pca_c250.20.201.
+:crit_just_pca_c250.20.201_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;Prazo previsto no artº 121, nº 1, da [Lei 35/2014];Prazo previsto no artº 231º. nº 8 da [Lei 7/2009];".
+:just_pca_c250.20.201 :temCriterio :crit_just_pca_c250.20.201_1.
+:crit_just_pca_c250.20.201_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.20.201_1 :temLegislacao :leg_1269.
+:crit_just_pca_c250.20.201_1 :temLegislacao :leg_827.
+:crit_just_pca_c250.20.201_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.201 :temCriterio :crit_just_pca_c250.20.201_2.
+:crit_just_pca_c250.20.201_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.400
+:pca_c250.20.400 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.20.400 :temPCA :pca_c250.20.400.
+:pca_c250.20.400 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.400
+:just_pca_c250.20.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.400 :temJustificacao :just_pca_c250.20.400.
+:crit_just_pca_c250.20.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 7/2009], artº 202, n.º 4 e 5:\"4 - O empregador deve manter o registo dos tempos de trabalho, bem como a declaração a que se refere o artigo 257.º e o acordo a que se refere a alínea f) do n.º 3 do artigo 226.º, durante cinco anos; 5 - Constitui contra-ordenação grave a violação do disposto neste artigo\";Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.20.400 :temCriterio :crit_just_pca_c250.20.400_1.
+:crit_just_pca_c250.20.400_1 :temLegislacao :leg_827.
+:crit_just_pca_c250.20.400_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.20.400_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.400 :temCriterio :crit_just_pca_c250.20.400_2.
+:crit_just_pca_c250.20.400_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.401
+:pca_c250.20.401 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c250.20.401 :temPCA :pca_c250.20.401.
+:pca_c250.20.401 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.401
+:just_pca_c250.20.401 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.401 :temJustificacao :just_pca_c250.20.401.
+:crit_just_pca_c250.20.401_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1).".
+:just_pca_c250.20.401 :temCriterio :crit_just_pca_c250.20.401_1.
+:crit_just_pca_c250.20.401_1 :temLegislacao :leg_203.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.402
+:pca_c250.20.402 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.20.402 :temPCA :pca_c250.20.402.
+:pca_c250.20.402 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.402
+:just_pca_c250.20.402 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.402 :temJustificacao :just_pca_c250.20.402.
+:crit_just_pca_c250.20.402_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.20.402 :temCriterio :crit_just_pca_c250.20.402_1.
+:crit_just_pca_c250.20.402_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.20.402_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 (no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.402 :temCriterio :crit_just_pca_c250.20.402_2.
+:crit_just_pca_c250.20.402_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.403
+:pca_c250.20.403 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.20.403 :temPCA :pca_c250.20.403.
+:pca_c250.20.403 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.403
+:just_pca_c250.20.403 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.403 :temJustificacao :just_pca_c250.20.403.
+:crit_just_pca_c250.20.403_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.20.403 :temCriterio :crit_just_pca_c250.20.403_1.
+:crit_just_pca_c250.20.403_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.20.403_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.403 :temCriterio :crit_just_pca_c250.20.403_2.
+:crit_just_pca_c250.20.403_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.404
+:pca_c250.20.404 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.20.404 :temPCA :pca_c250.20.404.
+:pca_c250.20.404 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.404
+:just_pca_c250.20.404 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.404 :temJustificacao :just_pca_c250.20.404.
+:crit_just_pca_c250.20.404_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.20.404 :temCriterio :crit_just_pca_c250.20.404_1.
+:crit_just_pca_c250.20.404_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.20.404_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.404 :temCriterio :crit_just_pca_c250.20.404_2.
+:crit_just_pca_c250.20.404_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.600
+:pca_c250.20.600 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.20.600 :temPCA :pca_c250.20.600.
+:pca_c250.20.600 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.600
+:just_pca_c250.20.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.600 :temJustificacao :just_pca_c250.20.600.
+:crit_just_pca_c250.20.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.20.600 :temCriterio :crit_just_pca_c250.20.600_1.
+:crit_just_pca_c250.20.600_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.20.600_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.600 :temCriterio :crit_just_pca_c250.20.600_2.
+:crit_just_pca_c250.20.600_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.601
+:pca_c250.20.601 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c250.20.601 :temPCA :pca_c250.20.601.
+:pca_c250.20.601 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.601
+:just_pca_c250.20.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.601 :temJustificacao :just_pca_c250.20.601.
+:crit_just_pca_c250.20.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1);".
+:just_pca_c250.20.601 :temCriterio :crit_just_pca_c250.20.601_1.
+:crit_just_pca_c250.20.601_1 :temLegislacao :leg_203.
+:crit_just_pca_c250.20.601_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.601 :temCriterio :crit_just_pca_c250.20.601_2.
+:crit_just_pca_c250.20.601_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.602
+:pca_c250.20.602 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.20.602 :temPCA :pca_c250.20.602.
+:pca_c250.20.602 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.602
+:just_pca_c250.20.602 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.602 :temJustificacao :just_pca_c250.20.602.
+:crit_just_pca_c250.20.602_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.20.602 :temCriterio :crit_just_pca_c250.20.602_1.
+:crit_just_pca_c250.20.602_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.20.602_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.602 :temCriterio :crit_just_pca_c250.20.602_2.
+:crit_just_pca_c250.20.602_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.603
+:pca_c250.20.603 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.20.603 :temPCA :pca_c250.20.603.
+:pca_c250.20.603 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.603
+:just_pca_c250.20.603 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.603 :temJustificacao :just_pca_c250.20.603.
+:crit_just_pca_c250.20.603_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.20.603 :temCriterio :crit_just_pca_c250.20.603_1.
+:crit_just_pca_c250.20.603_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.20.603_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.603 :temCriterio :crit_just_pca_c250.20.603_2.
+:crit_just_pca_c250.20.603_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.604
+:pca_c250.20.604 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.20.604 :temPCA :pca_c250.20.604.
+:pca_c250.20.604 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.604
+:just_pca_c250.20.604 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.604 :temJustificacao :just_pca_c250.20.604.
+:crit_just_pca_c250.20.604_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.20.604 :temCriterio :crit_just_pca_c250.20.604_1.
+:crit_just_pca_c250.20.604_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.20.604_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias(no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.604 :temCriterio :crit_just_pca_c250.20.604_2.
+:crit_just_pca_c250.20.604_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.605
+:pca_c250.20.605 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.20.605 :temPCA :pca_c250.20.605.
+:pca_c250.20.605 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.605
+:just_pca_c250.20.605 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.605 :temJustificacao :just_pca_c250.20.605.
+:crit_just_pca_c250.20.605_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.20.605 :temCriterio :crit_just_pca_c250.20.605_1.
+:crit_just_pca_c250.20.605_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.20.605_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.605 :temCriterio :crit_just_pca_c250.20.605_2.
+:crit_just_pca_c250.20.605_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.800
+:pca_c250.20.800 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c250.20.800 :temPCA :pca_c250.20.800.
+:pca_c250.20.800 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.800
+:just_pca_c250.20.800 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.800 :temJustificacao :just_pca_c250.20.800.
+:crit_just_pca_c250.20.800_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 66-B/2007], art. 52, n.º 1 \"e) Alteração de posicionamento remuneratório na carreira do trabalhador e atribuição de prémios de desempenho,\" conjugado com a LTFP, [Lei 35/2014], art. 156 \"7 - Há lugar a alteração obrigatória para a posição remuneratória imediatamente seguinte àquela em que o trabalhador se encontra, quando a haja, independentemente dos universos definidos nos termos do artigo 158.º, quando aquele, na falta de lei especial em contrário, tenha acumulado 10 pontos\";".
+:just_pca_c250.20.800 :temCriterio :crit_just_pca_c250.20.800_1.
+:crit_just_pca_c250.20.800_1 :temLegislacao :leg_637.
+:crit_just_pca_c250.20.800_1 :temLegislacao :leg_1269.
+:crit_just_pca_c250.20.800_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para efeitos do PN 250.20.601 - Alteração de posicionamento remuneratório.".
+:just_pca_c250.20.800 :temCriterio :crit_just_pca_c250.20.800_2.
+:crit_just_pca_c250.20.800_2 :temProcessoRelacionado :c250.20.601.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.801
+:pca_c250.20.801 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.20.801 :temPCA :pca_c250.20.801.
+:pca_c250.20.801 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.801
+:just_pca_c250.20.801 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.801 :temJustificacao :just_pca_c250.20.801.
+:crit_just_pca_c250.20.801_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.20.801 :temCriterio :crit_just_pca_c250.20.801_1.
+:crit_just_pca_c250.20.801_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.20.801_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.801 :temCriterio :crit_just_pca_c250.20.801_2.
+:crit_just_pca_c250.20.801_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.802
+:pca_c250.20.802 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.20.802 :temPCA :pca_c250.20.802.
+:pca_c250.20.802 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.802
+:just_pca_c250.20.802 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.802 :temJustificacao :just_pca_c250.20.802.
+:crit_just_pca_c250.20.802_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27;".
+:just_pca_c250.20.802 :temCriterio :crit_just_pca_c250.20.802_1.
+:crit_just_pca_c250.20.802_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.20.802_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.802 :temCriterio :crit_just_pca_c250.20.802_2.
+:crit_just_pca_c250.20.802_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.20.803
+:pca_c250.20.803 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c250.20.803 :temPCA :pca_c250.20.803.
+:pca_c250.20.803 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.20.803
+:just_pca_c250.20.803 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.20.803 :temJustificacao :just_pca_c250.20.803.
+:crit_just_pca_c250.20.803_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1);".
+:just_pca_c250.20.803 :temCriterio :crit_just_pca_c250.20.803_1.
+:crit_just_pca_c250.20.803_1 :temLegislacao :leg_203.
+:crit_just_pca_c250.20.803_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.20.803 :temCriterio :crit_just_pca_c250.20.803_2.
+:crit_just_pca_c250.20.803_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.30.001
+:pca_c250.30.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.30.001 :temPCA :pca_c250.30.001.
+:pca_c250.30.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.30.001
+:just_pca_c250.30.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.30.001 :temJustificacao :just_pca_c250.30.001.
+:crit_just_pca_c250.30.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Os instrumentos de regulamentação coletiva são depositados na DGAEP, uma vez que esteja verificada a reunião dos requisitos legais previstos no artigo 368.º da LTFP, [Lei 35/2014], posteriormente publicados na 2.ª série do Diário da República (n.º 1 do artigo 356.º da LTFP), também por iniciativa da DGAEP;Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.30.001 :temCriterio :crit_just_pca_c250.30.001_1.
+:crit_just_pca_c250.30.001_1 :temLegislacao :leg_1269.
+:crit_just_pca_c250.30.001_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.30.001_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.30.001 :temCriterio :crit_just_pca_c250.30.001_2.
+:crit_just_pca_c250.30.001_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.30.300
+:pca_c250.30.300 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.30.300 :temPCA :pca_c250.30.300.
+:pca_c250.30.300 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.30.300
+:just_pca_c250.30.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.30.300 :temJustificacao :just_pca_c250.30.300.
+:crit_just_pca_c250.30.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.30.300 :temCriterio :crit_just_pca_c250.30.300_1.
+:crit_just_pca_c250.30.300_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.30.300_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.30.300 :temCriterio :crit_just_pca_c250.30.300_2.
+:crit_just_pca_c250.30.300_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c250.30.600
+:pca_c250.30.600 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c250.30.600 :temPCA :pca_c250.30.600.
+:pca_c250.30.600 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c250.30.600
+:just_pca_c250.30.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c250.30.600 :temJustificacao :just_pca_c250.30.600.
+:crit_just_pca_c250.30.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27;".
+:just_pca_c250.30.600 :temCriterio :crit_just_pca_c250.30.600_1.
+:crit_just_pca_c250.30.600_1 :temLegislacao :leg_47.
+:crit_just_pca_c250.30.600_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c250.30.600 :temCriterio :crit_just_pca_c250.30.600_2.
+:crit_just_pca_c250.30.600_2 :temProcessoRelacionado :c500.10.001.

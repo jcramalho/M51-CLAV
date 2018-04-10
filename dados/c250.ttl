@@ -1,0 +1,2471 @@
+### Classe250
+###  http://jcr.di.uminho.pt/m51-clav#na_c250_1
+:na_c250_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "As relações individuais de trabalho aqui consideradas abrangem todos aqueles que exercem um mandato, cargo, emprego ou função pública (em sentido lato) por eleição, nomeação, designação, contratação ou qualquer outra forma de investidura, vinculo ou acordo. As relações de trabalho podem, pois, ter configurações diversas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250_2
+:na_c250_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "A negociação coletiva respeita às relações de cada entidade com as respetivas comissões de trabalhadores, sindicatos ou outras entidades representativas de trabalhadores".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250_1
+:ne_c250_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Excluídas as relações de trabalho decorrentes de contratos de aquisição de serviços, cujo estabelecimento e gestão deve ser considerado em \"Administração de direitos, bens e serviços / Aquisição, venda, abate ou permuta\" (300.10);A formação de recursos humanos / qualificação do mercado de trabalho deve ser considerada em \"Prestação de serviços de ensino e formação\" (750);O apoio psicossocial orientado à integração social ou profissional do trabalhador deve ser considerado em \"Prestação de serviços de proteção e inclusão social/ Serviços e equipamentos sociais (650.20);As consultas ou outros atos clínicos realizados no quadro da medicina no trabalho devem ser considerados em \"Prestação de cuidados de saúde/ Serviços clínicos\" (700.20).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250
+:c250 rdf:type owl:NamedIndividual ,
+	:Classe_N1;
+	:codigo "250";
+	:titulo "ADMINISTRAÇÃO DE RELAÇÕES DE TRABALHO";
+	:pertenceLC :lc1 ;
+	:temNotaAplicacao :na_c250_1 ;
+	:temNotaAplicacao :na_c250_2 ;
+	:temNotaExclusao :ne_c250_1 ;
+	:classeStatus "A" ;
+	:descricao "Relativo às atividades de estabelecimento e gestão de relações individuais de trabalho nos órgãos e serviços públicos, de caráter permanente, transitório ou eventual, subordinado ou autónomo, remunerado ou não.Relativo, ainda, às atividades de gestão da relação coletiva de trabalho, no que se inclui a negociação e a contratação coletiva.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10_1
+:na_c250.10_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Os procedimentos de seleção podem revestir a forma de convite, proposta, concurso, eleição ou outros".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10_2
+:na_c250.10_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "O provimento pode revestir a forma de contrato de trabalho, de despacho ou de decreto de nomeação/recondução, podendo ser ou não objeto de publicação em Diário da República".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10_3
+:na_c250.10_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "A cessação de uma determinada relação de trabalho pode corresponder ao fim da relação jurídica de emprego ao fim do desempenho de uma função ou cargo determinado, ou ao fim da realização de trabalho voluntário".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10_1
+:ne_c250.10_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os processos de eleição por sufrágio universal devem ser considerados em \" Administração da participação cívica/ Administração eleitoral\" (950.10) - concretamente, as eleições para a Presidência da República, Assembleia da República, Assembleias Legislativas das Regiões Autónomas, Autarquias Locais e Parlamento Europeu.".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10
+:c250.10 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "250.10";
+	:titulo "Estabelecimento e cessação de relações de trabalho";
+	:temPai :c250 ;
+	:temNotaAplicacao :na_c250.10_1 ;
+	:temNotaAplicacao :na_c250.10_2 ;
+	:temNotaAplicacao :na_c250.10_3 ;
+	:temNotaExclusao :ne_c250.10_1 ;
+	:classeStatus "A" ;
+	:descricao "Compreende as atividades de processamento administrativo do recrutamento/seleção e do provimento de pessoas no desempenho de funções e de cargos públicos (trabalhadores, funcionários públicos, dirigentes, membros do Governo e outros titulares de cargos políticos não eleitos por sufrágio universal), bem como os atos de posse no cargo ou função, quando haja lugar aos mesmos (no que se inclui a posse de titulares de cargos políticos eleitos por sufrágio universal). Inclui a designação de individualidades ou representantes institucionais para conselhos, comissões, grupos de trabalho ou missões específicas, remunerados ou não.Inclui, igualmente, o recrutamento de voluntários e a definição dos termos da realização do trabalho voluntário (não obstante o voluntário nunca ocupar um designado posto de trabalho).Compreende, ainda, os procedimentos de cessação da relação de trabalho, independentemente de ter sido estabelecida por nomeação, contrato, ou outra forma de acordo entre as partes.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.001_1
+:na_c250.10.001_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Todas as candidaturas genéricas de procura ativa de trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.001_1
+:ne_c250.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A candidatura a postos de trabalho colocados a concurso deve ser considerada em 250.10.101 – Procedimento para preenchimento de postos de trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.001_2
+:ne_c250.10.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A candidatura para trabalho em regime de voluntariado, deve ser considerada em 250.10.301 – Seleção de cidadãos para trabalho voluntário".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.001
+:c250.10.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.001";
+	:titulo "Candidatura espontânea a trabalho";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.10.001_1 ;
+	:temNotaExclusao :ne_c250.10.001_1 ;
+	:temNotaExclusao :ne_c250.10.001_2 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:temLegislacao :leg_1326 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Análise de candidaturas a trabalho na Administração, fora do âmbito de um procedimento concursal.Inicia com receção da candidatura e termina com resposta ao candidato.Inclui avaliação ao curriculo do candidato e verificação da eventual necessidade de trabalho na área proposta.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.100_1
+:na_c250.10.100_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Cargos de direção superior".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.100_2
+:na_c250.10.100_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Cargos de direção intermédia".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.100_1
+:ne_c250.10.100_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "As designações devem ser consideradas em 250.10.501 - Designação para cargos de direção, coordenação e controlo".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.100_2
+:ne_c250.10.100_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O cargo de chefe de equipa multidisciplinar deve ser considerado em 250.10.500 – Designação para cargos ou funções de confiança ou de interesse público".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.100
+:c250.10.100 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.100";
+	:titulo "Procedimento concursal para preenchimento de cargos de direção, coordenação e controlo";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_CRESAP ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.10.100_1 ;
+	:temNotaAplicacao :na_c250.10.100_2 ;
+	:temNotaExclusao :ne_c250.10.100_1 ;
+	:temNotaExclusao :ne_c250.10.100_2 ;
+	:eSucessorDe :c150.20.200 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.403 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c250.10.501 ;
+	:eAntecessorDe :c250.10.401 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eCruzadoCom :c500.40.500 ;
+	:temLegislacao :leg_1012 ;
+	:temLegislacao :leg_980 ;
+	:temLegislacao :leg_984 ;
+	:temLegislacao :leg_578 ;
+	:temLegislacao :leg_552 ;
+	:temLegislacao :leg_431 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Seleção de candidatos para satisfação de necessidades de recrutamento de cargos de direção superior e intermédia.Inicia com a proposta de abertura de concurso e termina com a indicação do nome do(s) candidato(s) selecionado(s9 ou com a proposta de designação.Inclui definição dos requisitos de candidatura e métodos de seleção, elaboração do aviso de abertura de concurso, publicitação do concurso, receção e apreciação de candidaturas, audiência de interessados, aplicação dos métodos de seleção, apuramento e ordenação dos candidatos.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.101_1
+:na_c250.10.101_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Procedimento concursal ou outros tipos de seleção para posto de trabalho, entre outras, nas seguintes carreiras: regime especial; regime geral; não revistas; subsistentes do regime geral, especial e de corpos especiais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.101_1
+:ne_c250.10.101_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O procedimento concursal para preenchimento de cargos de direção superior e intermédia e gestor público deve ser considerado em 250.10.100 – Procedimento concursal para preenchimento de cargos de direção, coordenação e controlo".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.101_2
+:ne_c250.10.101_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O contrato de trabalhadores em funções públicas deve ser considerado em 250.10.600 – Contratação de trabalhadores".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.103_1
+:na_c250.10.103_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Instrumentos de promoção da empregabilidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.101
+:c250.10.101 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.101";
+	:titulo "Procedimento para preenchimento de postos de trabalho";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_INA ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.10.101_1 ;
+	:temNotaExclusao :ne_c250.10.101_1 ;
+	:temNotaExclusao :ne_c250.10.101_2 ;
+	:eSucessorDe :c150.20.200 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eAntecessorDe :c250.10.401 ;
+	:eSintetizadoPor :c150.20.403 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSucessorDe :c250.10.600 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c250.20.605 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eCruzadoCom :c500.40.500 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_990 ;
+	:temLegislacao :leg_924 ;
+	:temLegislacao :leg_805 ;
+	:temLegislacao :leg_850 ;
+	:temLegislacao :leg_804 ;
+	:temLegislacao :leg_552 ;
+	:temLegislacao :leg_327 ;
+	:temLegislacao :leg_325 ;
+	:temLegislacao :leg_41 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Seleção de candidatos para ocupação imediata de posto de trabalho ou para constituição de reservas de recrutamento previstas no quadro ou mapa de pessoal e para mudança de nível.Inicia com a proposta de abertura de concurso devidamente cabimentada e respetivo despacho ou procedimento interno de recrutamento e termina com a homologação da lista de classificação final ou indicação do nome dos candidatos selecionados.Inclui definição dos requisitos de candidatura e métodos de seleção, elaboração do aviso de abertura de concurso, publicitação do concurso, receção e apreciação de candidaturas, audiência de interessados, aplicação dos métodos de seleção, publicitação dos resultados dos métodos de seleção intercalares, ordenação final dos candidatos, audiência de interessados e ordem de recrutamento.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.103_4
+:na_c250.10.103_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Seleção de candidatos a programas ocupacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.103_3
+:na_c250.10.103_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Seleção de candidatos a estágios dirigidos a jovens recém formados".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.103_2
+:na_c250.10.103_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Seleção de candidatos a estágios dirigidos a trabalhadores desempregados".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.103_1
+:ne_c250.10.103_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A formalização dos estágios profissionais devem ser considerados em 250.10.601 – Formalização de estágios profissionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.103_2
+:ne_c250.10.103_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os estágios curriculares devem ser considerados em 750.20.600 – Realização de atividades de ensino ou formação".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.103
+:c250.10.103 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.103";
+	:titulo "Seleção de candidatos para frequência de estágios profissionais e programas ocupacionais";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :conj_org_AP ;
+	:temDono :org_INA ;
+	:temDono :org_IEFP ;
+	:temNotaAplicacao :na_c250.10.103_1 ;
+	:temNotaAplicacao :na_c250.10.103_2 ;
+	:temNotaAplicacao :na_c250.10.103_3 ;
+	:temNotaAplicacao :na_c250.10.103_4 ;
+	:temNotaExclusao :ne_c250.10.103_1 ;
+	:temNotaExclusao :ne_c250.10.103_2 ;
+	:eSucessorDe :c150.20.200 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c250.10.601 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.40.001 ;
+	:eSucessorDe :c650.20.302 ;
+	:eAntecessorDe :c850.10.003 ;
+	:temLegislacao :leg_1042 ;
+	:temLegislacao :leg_1291 ;
+	:temLegislacao :leg_1292 ;
+	:temLegislacao :leg_1303 ;
+	:temLegislacao :leg_1224 ;
+	:temLegislacao :leg_1222 ;
+	:temLegislacao :leg_1193 ;
+	:temLegislacao :leg_1192 ;
+	:temLegislacao :leg_1177 ;
+	:temLegislacao :leg_991 ;
+	:temLegislacao :leg_934 ;
+	:temLegislacao :leg_902 ;
+	:temLegislacao :leg_851 ;
+	:temLegislacao :leg_1254 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Aplicação de critérios para escolha de candidatos a estágios que proporcionam uma experiência prática e formativa em contexto real de trabalho.Inicia com a definição e publicação do período para apresentação de candidaturas e termina com a comunicação da seleção dos candidatos.Inclui formalização da candidatura por parte do interessado, recrutamento e seleção.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.200_1
+:na_c250.10.200_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Eleição de gestor público".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.200_2
+:na_c250.10.200_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Eleição de órgãos sociais de serviços personalizados do Estado".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.200_3
+:na_c250.10.200_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Eleição do diretor escolar".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.200_4
+:na_c250.10.200_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Eleição de reitor".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.200_5
+:na_c250.10.200_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Eleição de representantes de trabalhadores em Comissões Paritárias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.200_6
+:na_c250.10.200_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Eleição dos membros de órgãos sociais de IPSS’s ou Pessoa Coletivade Utilidade Pública".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.200_7
+:na_c250.10.200_7 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Eleição dos membros de Conselhos Superiores".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.200_2
+:ne_c250.10.200_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O ato eleitoral por sufrágio universal deve ser considerado em “Administração da participação cívica/ Administração eleitoral” (950.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.200_1
+:ne_c250.10.200_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A designação para a comissão paritária por parte da Administração deve ser considerada em 250.10.500 – Designação para cargos ou funções de confiança ou de interesse público".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.200_8
+:na_c250.10.200_8 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Eleição dos representantes dos alunos ou formandos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.200
+:c250.10.200 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.200";
+	:titulo "Eleição para cargos em órgãos sociais e estruturas internas";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :conj_org_AP ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.10.200_1 ;
+	:temNotaAplicacao :na_c250.10.200_2 ;
+	:temNotaAplicacao :na_c250.10.200_3 ;
+	:temNotaAplicacao :na_c250.10.200_4 ;
+	:temNotaAplicacao :na_c250.10.200_5 ;
+	:temNotaAplicacao :na_c250.10.200_6 ;
+	:temNotaAplicacao :na_c250.10.200_7 ;
+	:temNotaAplicacao :na_c250.10.200_8 ;
+	:temNotaExclusao :ne_c250.10.200_1 ;
+	:temNotaExclusao :ne_c250.10.200_2 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eAntecessorDe :c150.40.500 ;
+	:eAntecessorDe :c250.10.700 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_1074 ;
+	:temLegislacao :leg_1012 ;
+	:temLegislacao :leg_931 ;
+	:temLegislacao :leg_734 ;
+	:temLegislacao :leg_578 ;
+	:temLegislacao :leg_637 ;
+	:temLegislacao :leg_632 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Escolha, por via eleitoral, de titulares de órgãos de gestão, consultivos e estruturas internas.Inicia com despacho determinando a organização do processo eleitoral e termina com a publicitação do resultado do ato eleitoral e conversão dos votos em mandatos.Inclui criação de listas, elaboração de cadernos eleitorais, elaboração de boletins de voto, designação dos membros das mesas das assembleias eleitorais, redação das atas da sessão da assembleia eleitoral.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.300_2
+:na_c250.10.300_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Ecolha de jurados para tribunais de júri".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.300_1
+:na_c250.10.300_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de juízes sociais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.300
+:c250.10.300 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.300";
+	:titulo "Seleção de cidadãos para a administração da justiça";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteApreciador :org_CNPCJ ;
+	:temParticipanteComunicador :org_CSM ;
+	:temParticipanteComunicador :conj_org_TFM ;
+	:temParticipanteComunicador :conj_org_AL ;
+	:temDono :conj_org_Trb ;
+	:temNotaAplicacao :na_c250.10.300_1 ;
+	:temNotaAplicacao :na_c250.10.300_2 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c250.10.500 ;
+	:eAntecessorDe :c400.10.031 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSucessorDe :c600.20 ;
+	:eSucessorDe :c600.30 ;
+	:temLegislacao :leg_285 ;
+	:temLegislacao :leg_281 ;
+	:temLegislacao :leg_74 ;
+	:temLegislacao :leg_23 ;
+	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
+	:descricao "Angariação de candidatos com vista à participação popular na administração da justiça.Inicia com requerimento de uma das partes (Ministério Público, assistente ou arguido, no caso dos jurados) ou com a elaboração das listas (juízes sociais) e termina com o apuramento dos resultados e publicação da lista de candidatos.Inclui organização do recrutamento e seleção, aprovação das listas pela entidade competente e sorteio.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.301_1
+:na_c250.10.301_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Seleção de voluntários para ações de proteção civil".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.301_2
+:na_c250.10.301_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Seleção de voluntários para a área do ambiente".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.301_3
+:na_c250.10.301_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Seleção de voluntários para a área da cidadania e direitos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.301_4
+:na_c250.10.301_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Seleção de voluntários para a área de cultura e artes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.301_5
+:na_c250.10.301_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Seleção de voluntários para a área de desporto e lazer".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.301_6
+:na_c250.10.301_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Seleção de voluntários para a área de educação e novas tecnologias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.301_7
+:na_c250.10.301_7 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Seleção de voluntários para a área de saúde e solidariedade social".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.301_8
+:na_c250.10.301_8 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Seleção de voluntários para missões de associações ou instituições humanitárias sem fins lucrativos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.301
+:c250.10.301 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.301";
+	:titulo "Seleção de cidadãos para trabalho voluntário";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_CNPV ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.10.301_1 ;
+	:temNotaAplicacao :na_c250.10.301_2 ;
+	:temNotaAplicacao :na_c250.10.301_3 ;
+	:temNotaAplicacao :na_c250.10.301_4 ;
+	:temNotaAplicacao :na_c250.10.301_5 ;
+	:temNotaAplicacao :na_c250.10.301_6 ;
+	:temNotaAplicacao :na_c250.10.301_7 ;
+	:temNotaAplicacao :na_c250.10.301_8 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eAntecessorDe :c400.10.033 ;
+	:eSintetizadoPor :c450.30.502 ;
+	:temLegislacao :leg_262 ;
+	:temLegislacao :leg_235 ;
+	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
+	:descricao "Escolha de elementos da população para participação no desenvolvimento de ações de interesse social, cultural e comunitário em prol da sociedade.Inicia com campanha de angariação de voluntários ou com consulta às bolsas de voluntariado e termina com assinatura do programa de voluntariado.Inclui formalização da candidatura, análise de perfil dos candidatos, aprovação e escolha dos candidatos.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.400_1
+:na_c250.10.400_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Nomeação de militares para o exercício de funções de comando, direção ou chefia".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.400_1
+:ne_c250.10.400_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A organização de cerimónias de tomada de posse deve ser considerada em 900.20.601 – Organização de cerimónias de tomada de posse e assinatura de documentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.400
+:c250.10.400 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.400";
+	:titulo "Nomeação para comando, direção ou chefia";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.10.400_1 ;
+	:temNotaExclusao :ne_c250.10.400_1 ;
+	:eSucessorDe :c250.10.100 ;
+	:eAntecessorDe :c250.10.800 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.800 ;
+	:eAntecessorDe :c350.10.509 ;
+	:eAntecessorDe :c400.10.011 ;
+	:eAntecessorDe :c400.10.012 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_1340 ;
+	:temLegislacao :leg_1443 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Formalização ou provimento de cargos de direção, comando ou chefia.Inicia com a indicação de designação e termina com a aceitação. Inclui designação por competência própria ou por delegação, comunicação superior do termo da respetiva comissão de serviço, análise do relatório dos resultados obtidos durante o mandato, nos casos de recondução, e declaração de regime de exclusividade, se aplicável. ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.401_1
+:na_c250.10.401_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Nomeação dos trabalhadores a quem compete, em função da sua integração nas carreiras adequadas para o efeito, o cumprimento ou a execução de atribuições".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.401_2
+:na_c250.10.401_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Nomeação definitiva de trabalhadores das carreiras de Bombeiro Sapador e Municipal e da Polícia Municipal".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.401_1
+:ne_c250.10.401_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A formalização da relação jurídica de emprego público por contrato de trabalho em funções públicas deve ser considerada em 250.10.600 – Contratação de trabalhadores".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.401_2
+:ne_c250.10.401_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A organização de cerimónias de tomada de posse deve ser considerada em 900.20.601 – Organização de cerimónias de tomada de posse e assinatura de documentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.401
+:c250.10.401 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.401";
+	:titulo "Nomeação para postos de trabalho";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.10.401_1 ;
+	:temNotaAplicacao :na_c250.10.401_2 ;
+	:temNotaExclusao :ne_c250.10.401_1 ;
+	:temNotaExclusao :ne_c250.10.401_2 ;
+	:eSucessorDe :c250.10.100 ;
+	:eSucessorDe :c250.10.101 ;
+	:eAntecessorDe :c250.10.800 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.600 ;
+	:eAntecessorDe :c250.20.604 ;
+	:eAntecessorDe :c250.20.800 ;
+	:eAntecessorDe :c350.10.509 ;
+	:eAntecessorDe :c400.10.011 ;
+	:eAntecessorDe :c400.10.012 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_1340 ;
+	:temLegislacao :leg_1443 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Formalização e constituição do vínculo laboral sob a forma de nomeação definitiva ou provisória.Inicia com a proposta de nomeação do candidato ou oferecimento do candidato e termina com a assinatura do termo de posse ou aceitação.Inclui eventual negociação da posição remuneratória, termo de aceitação assinado pelas partes, designação do júri de estágio, análise do relatório e avaliação final do período experimental, proposta de conversão da nomeação e averbamento no respetivo termo de posse.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_2
+:na_c250.10.500_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de adjunto de secretário-geral".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_1
+:na_c250.10.500_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de adjunto".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_3
+:na_c250.10.500_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de capelão-chefe".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_4
+:na_c250.10.500_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de chefe de consulado-geral".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_5
+:na_c250.10.500_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de chefe de divisão".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_6
+:na_c250.10.500_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de chefe de equipa multidisciplinar".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_7
+:na_c250.10.500_7 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de chefe de gabinete".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_8
+:na_c250.10.500_8 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de chefe de missão diplomática".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_9
+:na_c250.10.500_9 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de chefe de representação permanente".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_10
+:na_c250.10.500_10 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de coordenador".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_11
+:na_c250.10.500_11 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de diretor adjunto".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_12
+:na_c250.10.500_12 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de diretor de departamento".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_13
+:na_c250.10.500_13 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de diretor-geral".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_14
+:na_c250.10.500_14 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de diretor municipal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_15
+:na_c250.10.500_15 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de diretor de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_16
+:na_c250.10.500_16 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de encarregado geral operacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_17
+:na_c250.10.500_17 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de encarregado operacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_18
+:na_c250.10.500_18 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de gestor público".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_19
+:na_c250.10.500_19 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de inspetor-geral".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_21
+:na_c250.10.500_21 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de membro da administração na comissão paritária".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_20
+:na_c250.10.500_20 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de inspetor-geral adjunto".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_22
+:na_c250.10.500_22 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de membro da comissão executiva".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_23
+:na_c250.10.500_23 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de membro de grupo de trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_24
+:na_c250.10.500_24 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de militar para comissão especial por interesse nacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_25
+:na_c250.10.500_25 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de pessoal de apoio técnico administrativo e auxiliar em gabinete de membro do Governo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_26
+:na_c250.10.500_26 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de secretário-geral".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_27
+:na_c250.10.500_27 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de secretário-geral adjunto".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_28
+:na_c250.10.500_28 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de secretário pessoal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_29
+:na_c250.10.500_29 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de subdiretor-geral".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_30
+:na_c250.10.500_30 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de técnico especialista em gabinete de membro do Governo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_31
+:na_c250.10.500_31 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de vogal da comissão de fiscalização".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_32
+:na_c250.10.500_32 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de vogal do conselho de administração".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_33
+:na_c250.10.500_33 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de vogal do conselho de administração executivo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_34
+:na_c250.10.500_34 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de vogal do conselho geral e de supervisão".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_35
+:na_c250.10.500_35 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Escolha de vogal da mesa da assembleia geral".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.500_36
+:na_c250.10.500_36 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Nomeação de Juízes sociais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.500
+:c250.10.500 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.500";
+	:titulo "Designação para cargos ou funções de confiança ou de interesse público";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.10.500_1 ;
+	:temNotaAplicacao :na_c250.10.500_2 ;
+	:temNotaAplicacao :na_c250.10.500_3 ;
+	:temNotaAplicacao :na_c250.10.500_4 ;
+	:temNotaAplicacao :na_c250.10.500_5 ;
+	:temNotaAplicacao :na_c250.10.500_6 ;
+	:temNotaAplicacao :na_c250.10.500_7 ;
+	:temNotaAplicacao :na_c250.10.500_8 ;
+	:temNotaAplicacao :na_c250.10.500_9 ;
+	:temNotaAplicacao :na_c250.10.500_10 ;
+	:temNotaAplicacao :na_c250.10.500_11 ;
+	:temNotaAplicacao :na_c250.10.500_12 ;
+	:temNotaAplicacao :na_c250.10.500_13 ;
+	:temNotaAplicacao :na_c250.10.500_14 ;
+	:temNotaAplicacao :na_c250.10.500_15 ;
+	:temNotaAplicacao :na_c250.10.500_16 ;
+	:temNotaAplicacao :na_c250.10.500_17 ;
+	:temNotaAplicacao :na_c250.10.500_18 ;
+	:temNotaAplicacao :na_c250.10.500_19 ;
+	:temNotaAplicacao :na_c250.10.500_20 ;
+	:temNotaAplicacao :na_c250.10.500_21 ;
+	:temNotaAplicacao :na_c250.10.500_22 ;
+	:temNotaAplicacao :na_c250.10.500_23 ;
+	:temNotaAplicacao :na_c250.10.500_24 ;
+	:temNotaAplicacao :na_c250.10.500_25 ;
+	:temNotaAplicacao :na_c250.10.500_26 ;
+	:temNotaAplicacao :na_c250.10.500_27 ;
+	:temNotaAplicacao :na_c250.10.500_28 ;
+	:temNotaAplicacao :na_c250.10.500_29 ;
+	:temNotaAplicacao :na_c250.10.500_30 ;
+	:temNotaAplicacao :na_c250.10.500_31 ;
+	:temNotaAplicacao :na_c250.10.500_32 ;
+	:temNotaAplicacao :na_c250.10.500_33 ;
+	:temNotaAplicacao :na_c250.10.500_34 ;
+	:temNotaAplicacao :na_c250.10.500_35 ;
+	:temNotaAplicacao :na_c250.10.500_36 ;
+	:eSucessorDe :c250.10.300 ;
+	:eAntecessorDe :c250.10.800 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.800 ;
+	:eAntecessorDe :c350.10.509 ;
+	:eAntecessorDe :c400.10.011 ;
+	:eAntecessorDe :c400.10.012 ;
+	:eAntecessorDe :c900.20.601 ;
+	:temLegislacao :leg_943 ;
+	:temLegislacao :leg_632 ;
+	:temLegislacao :leg_286 ;
+	:temLegislacao :leg_827 ;
+	:temLegislacao :leg_1438 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Escolha de elementos para desempenharem funções em lugares de confiança ou assumirem funções de interesse público.Inicia com o despacho de designação da individualidade e termina com a publicitação ou empossamento do titular.Inclui eventual negociação da posição remuneratória.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.501_1
+:na_c250.10.501_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Designação para cargos de direção superior".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.501_2
+:na_c250.10.501_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Designação para cargos de direção intermédia".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.501_3
+:na_c250.10.501_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Designação para cargos de coordenação ou controlo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.501_4
+:na_c250.10.501_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Renovação da comissão de serviço ou de mandato".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.501_1
+:ne_c250.10.501_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os procedimentos concursais para cargos de direção intermédia e superior devem ser considerados em 250.10.100 – Procedimento concursal para preenchimento de cargos de direção, coordenação e controlo".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.501_2
+:ne_c250.10.501_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A organização de cerimónias de tomada de posse deve ser considerada em 900.20.601 – Organização de cerimónias de tomada de posse e assinatura de documentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.501
+:c250.10.501 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.501";
+	:titulo "Designação para cargos de direção, coordenação e controlo";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.10.501_1 ;
+	:temNotaAplicacao :na_c250.10.501_2 ;
+	:temNotaAplicacao :na_c250.10.501_3 ;
+	:temNotaAplicacao :na_c250.10.501_4 ;
+	:temNotaExclusao :ne_c250.10.501_1 ;
+	:temNotaExclusao :ne_c250.10.501_2 ;
+	:eSucessorDe :c250.10.100 ;
+	:eAntecessorDe :c250.10.800 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.800 ;
+	:eAntecessorDe :c350.10.509 ;
+	:eAntecessorDe :c400.10.011 ;
+	:eAntecessorDe :c400.10.012 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_1068 ;
+	:temLegislacao :leg_1439 ;
+	:temLegislacao :leg_447 ;
+	:temLegislacao :leg_1378 ;
+	:temLegislacao :leg_827 ;
+	:temLegislacao :leg_1438 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Formalização ou provimento de cargos de direção intermédia e superior, por via concursal, em regime de comissão de serviço ou de mandato.Inicia com a indicação de designação e termina com a aceitação. Inclui designação por competência própria ou por delegação, comunicação superior do termo da respetiva comissão de serviço, análise do relatório dos resultados obtidos durante o mandato, nos casos de recondução, e declaração de regime de exclusividade, se aplicável. ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.600_1
+:na_c250.10.600_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Aditamento ou adenda ao contrato".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.600_2
+:na_c250.10.600_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Contratos com mediadores socioculturais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.600_3
+:na_c250.10.600_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Contratos no âmbito da esfera empresarial do Estado".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.600_4
+:na_c250.10.600_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Consolidação de mobilidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.600_5
+:na_c250.10.600_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Renovação de contrato de trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.600_6
+:na_c250.10.600_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Suspensão de contrato de trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.600_7
+:na_c250.10.600_7 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Transmissão de contrato".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.600_1
+:ne_c250.10.600_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O procedimento concursal para a contratação de trabalhadores deve ser considerado em 250.10.101 – Procedimento para preenchimento de postos de trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.600_2
+:ne_c250.10.600_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A cessação do contrato deve ser considerada em 250.10.800 – Cessação da relação jurídica de emprego ou de funções".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.600_3
+:ne_c250.10.600_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A contratação sob a forma de contrato de prestação de serviços deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.600
+:c250.10.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.600";
+	:titulo "Contratação de trabalhadores";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.10.600_1 ;
+	:temNotaAplicacao :na_c250.10.600_2 ;
+	:temNotaAplicacao :na_c250.10.600_3 ;
+	:temNotaAplicacao :na_c250.10.600_4 ;
+	:temNotaAplicacao :na_c250.10.600_5 ;
+	:temNotaAplicacao :na_c250.10.600_6 ;
+	:temNotaAplicacao :na_c250.10.600_7 ;
+	:temNotaExclusao :ne_c250.10.600_1 ;
+	:temNotaExclusao :ne_c250.10.600_2 ;
+	:temNotaExclusao :ne_c250.10.600_3 ;
+	:eSintetizadoPor :c150.20.403 ;
+	:eAntecessorDe :c250.10.101 ;
+	:eAntecessorDe :c250.10.800 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.800 ;
+	:eAntecessorDe :c350.10.509 ;
+	:eAntecessorDe :c400.10.011 ;
+	:eAntecessorDe :c400.10.012 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_827 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Formalização e constituição da relação jurídica de emprego sob a forma de contrato de trabalho.Inicia com a notificação do trabalhador a contratar e termina com homologação da deliberação do júri que determina a conclusão do período experimental.Inclui eventual negociação da posição remuneratória, outorga do contrato, análise do relatório do período experimental, redação das atas do júri de estágio e deliberação final sobre a avaliação do período experimental.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.601_1
+:na_c250.10.601_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Valorização de competências e aos instrumentos de promoção da empregabilidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.601_1
+:ne_c250.10.601_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A seleção de estagiários deve ser considerada no PN 250.10.103 – Seleção de candidatos para frequência de estágios profissionais e programas ocupacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.601_2
+:ne_c250.10.601_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A contratualização de estágios profissionais decorrentes de medidas ou programas co-financiados deve ser considerada no PN 850.10.002 Formalização de candidaturas e acompanhamento de apoios regulares".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.601
+:c250.10.601 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.601";
+	:titulo "Formalização de estágios profissionais";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :conj_org_AP ;
+	:temDono :org_IEFP ;
+	:temDono :org_INA ;
+	:temNotaAplicacao :na_c250.10.601_1 ;
+	:temNotaExclusao :ne_c250.10.601_1 ;
+	:temNotaExclusao :ne_c250.10.601_2 ;
+	:eSucessorDe :c150.20.200 ;
+	:eAntecessorDe :c250.10.103 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.400 ;
+	:eAntecessorDe :c350.10.509 ;
+	:eSucessorDe :c450.30.002 ;
+	:temLegislacao :leg_1042 ;
+	:temLegislacao :leg_1291 ;
+	:temLegislacao :leg_1292 ;
+	:temLegislacao :leg_1303 ;
+	:temLegislacao :leg_1224 ;
+	:temLegislacao :leg_1222 ;
+	:temLegislacao :leg_1193 ;
+	:temLegislacao :leg_1192 ;
+	:temLegislacao :leg_1177 ;
+	:temLegislacao :leg_991 ;
+	:temLegislacao :leg_934 ;
+	:temLegislacao :leg_902 ;
+	:temLegislacao :leg_851 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Formalização e constituição da relação jurídica de estágio sob a forma de contrato de estágio.Inicia com a celebração do contrato de estágio e termina com a conclusão do estágio.Inclui o reconhecimento, validação e certificação de competências adquiridas, elaboração de programa de estágio, análise e aprovação do estágio pela entidade gestora e aceitação da decisão de aprovação por parte da entidade promotora.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.700_1
+:na_c250.10.700_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Tomada de posse ou indigitação de eleitos para órgãos autárquicos e outros órgãos colegiais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.700_2
+:na_c250.10.700_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Tomada de posse ou indigitação dos eleitos para órgãos de soberania".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.700_3
+:na_c250.10.700_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Tomada de posse ou indigitação de gestores públicos de empresas do setor empresarial do Estado e local".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.700_4
+:na_c250.10.700_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Tomada de posse ou indigitação de titulares eleitos para órgãos de gestão de empresas públicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.700_5
+:na_c250.10.700_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Provimento dos representantes de trabalhadores na Comissão Paritária".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.10.700_1
+:ne_c250.10.700_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A organização de cerimónias de tomada de posse deve ser considerada em 900.20.601 – Organização de cerimónias de tomada de posse e assinatura de documentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.700
+:c250.10.700 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.700";
+	:titulo "Provimento por eleição em cargos ou funções";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.10.700_1 ;
+	:temNotaAplicacao :na_c250.10.700_2 ;
+	:temNotaAplicacao :na_c250.10.700_3 ;
+	:temNotaAplicacao :na_c250.10.700_4 ;
+	:temNotaAplicacao :na_c250.10.700_5 ;
+	:temNotaExclusao :ne_c250.10.700_1 ;
+	:eSucessorDe :c250.10.200 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c900.20.601 ;
+	:temLegislacao :leg_1074 ;
+	:temLegislacao :leg_1012 ;
+	:temLegislacao :leg_931 ;
+	:temLegislacao :leg_632 ;
+	:temLegislacao :leg_637 ;
+	:temLegislacao :leg_286 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Formalização ou provimento de titulares eleitos para órgãos de gestão ou para cargos de representação.Inicia com a designação ou com o despacho de nomeação e termina com a publicitação ou com o empossamento do titular.Inclui a designação por competência própria ou por delegação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.800_1
+:na_c250.10.800_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Cessação de contrato".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.800_2
+:na_c250.10.800_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Cessação de designação para cargo ou função".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.800_3
+:na_c250.10.800_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Cessação por desligação do serviço para efeitos de aposentação, reforma ou jubilato".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.800_4
+:na_c250.10.800_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Cessação ou exoneração de comissão de serviço".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.10.800_5
+:na_c250.10.800_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Cessação de nomeação definitiva".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.10.800
+:c250.10.800 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.10.800";
+	:titulo "Cessação da relação jurídica de emprego ou de funções";
+	:temPai :c250.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :conj_org_AP ;
+	:temDono :org_CGA ;
+	:temDono :org_ISS ;
+	:temDono :org_INA ;
+	:temNotaAplicacao :na_c250.10.800_1 ;
+	:temNotaAplicacao :na_c250.10.800_2 ;
+	:temNotaAplicacao :na_c250.10.800_3 ;
+	:temNotaAplicacao :na_c250.10.800_4 ;
+	:temNotaAplicacao :na_c250.10.800_5 ;
+	:eSuplementoPara :c150.20.200 ;
+	:eSintetizadoPor :c150.20.403 ;
+	:eSucessorDe :c250.10.501 ;
+	:eSucessorDe :c250.10.401 ;
+	:eSucessorDe :c250.10.500 ;
+	:eSucessorDe :c250.10.600 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.603 ;
+	:eAntecessorDe :c250.20.605 ;
+	:eSucessorDe :c350.10.508 ;
+	:eAntecessorDe :c400.10.010 ;
+	:eAntecessorDe :c400.10.012 ;
+	:eAntecessorDe :c500.30.004 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_827 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Formalização do pedido ou proposta de cessação de funções ou de vínculo de trabalho.Inicia com o pedido do trabalhador ou por iniciativa da entidade empregadora e termina com a formalização da cessaçãode funções ou da relação jurídica de emprego.Inclui notificação prévia (quando devido), negociação e acordo das condições da cessação de funções ou da relação jurídica de emprego.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20_1
+:na_c250.20_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Atribuição de cartões e outros meios de identificação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20_2
+:na_c250.20_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Registo biográfico de trabalhadores".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20_3
+:na_c250.20_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Processos de afetação transitória a postos de trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20_4
+:na_c250.20_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Processos de requalificação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20_5
+:na_c250.20_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Processos de progressão".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20_6
+:na_c250.20_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Processos de controlo de assiduidade/ ausências ao serviço;Processos de marcação de férias;Processos de acidente em trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20_7
+:na_c250.20_7 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Processos de reuniões do Conselho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20_8
+:na_c250.20_8 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Atribuição de prémios de desempenho, de louvores ou medalhas no exercício de funções".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20_1
+:ne_c250.20_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "As leis, normas, instruções e outras disposições regulamentares sobre gestão de recursos humanos, devem ser consideradas em \"Ordenamento jurídico e normativo/Elaboração de diplomas jurídico-normativos e de normas técnicas\" (100.10);O processamento de remunerações, abonos e descontos deve ser considerado em \"Administração financeira/Execução orçamental\" (350.10);A ação disciplinar, bem como os recursos hierárquicos e tutelares interpostos por trabalhadores, devem ser considerados em \"Supervisão, controlo e responsabilização\" (500);Os pedidos de inscrições e alteração de dados de beneficiários da CGA, Segurança Social, ADSE e entidades similares, devem ser considerados em \"Prestação de serviços de identificação e registo /Registo de dados de identificação e caracterização de entidades ou atos\" (400.10);Os pedidos de atribuição de prestações sociais devem ser considerados em \"Prestação de serviços de proteção e inclusão social/Atribuição de prestações sociais e auxílios económicos\" (650.10);Os processos de organização e de inscrição em ações de formação devem ser considerados em \"Prestação de serviços de ensino e formação\" (750).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20
+:c250.20 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "250.20";
+	:titulo "Gestão de relações individuais de trabalho";
+	:temPai :c250 ;
+	:temNotaAplicacao :na_c250.20_1 ;
+	:temNotaAplicacao :na_c250.20_2 ;
+	:temNotaAplicacao :na_c250.20_3 ;
+	:temNotaAplicacao :na_c250.20_4 ;
+	:temNotaAplicacao :na_c250.20_5 ;
+	:temNotaAplicacao :na_c250.20_6 ;
+	:temNotaAplicacao :na_c250.20_7 ;
+	:temNotaAplicacao :na_c250.20_8 ;
+	:temNotaExclusao :ne_c250.20_1 ;
+	:classeStatus "A" ;
+	:descricao "Compreende as atividades de gestão da relação laboral estabelecida com cada trabalhador, funcionário público ou dirigente, no que se inclui, quando aplicável, os processos de progressão na carreia, de mobilidade, de suspensão temporária da relação laboral, de controlo de assiduidade, de autorizações para ausência ao serviço e para deslocações, de avaliação do desempenho individual, de atribuição de distinções pelo desempenho no exercício de funções - entre outros processos que possam ocorrer no quadro de cada relação individual de trabalho.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.001_1
+:na_c250.20.001_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Registo biográfico de trabalhadores em regime de estágio".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.001_2
+:na_c250.20.001_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Registo biográfico de trabalhadores em regime de voluntariado".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.001_3
+:na_c250.20.001_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Regime biográfico de trabalhadores com contrato a termo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.001_4
+:na_c250.20.001_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Regime biográfico de trabalhadores do quadro".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.001
+:c250.20.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.001";
+	:titulo "Registo biográfico de trabalhadores";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.20.001_1 ;
+	:temNotaAplicacao :na_c250.20.001_2 ;
+	:temNotaAplicacao :na_c250.20.001_3 ;
+	:temNotaAplicacao :na_c250.20.001_4 ;
+	:eSintetizadoPor :c150.20.403 ;
+	:eSinteseDe :c250.10.301 ;
+	:eSinteseDe :c250.10.501 ;
+	:eSinteseDe :c250.10.401 ;
+	:eSinteseDe :c250.10.500 ;
+	:eSinteseDe :c250.10.600 ;
+	:eSinteseDe :c250.10.601 ;
+	:eSinteseDe :c250.10.700 ;
+	:eSinteseDe :c250.10.800 ;
+	:eSinteseDe :c250.20.200 ;
+	:eSinteseDe :c250.20.201 ;
+	:eSinteseDe :c250.20.403 ;
+	:eSinteseDe :c250.20.404 ;
+	:eSinteseDe :c250.20.600 ;
+	:eSinteseDe :c250.20.601 ;
+	:eSinteseDe :c250.20.602 ;
+	:eSinteseDe :c250.20.603 ;
+	:eSinteseDe :c250.20.604 ;
+	:eSinteseDe :c250.20.605 ;
+	:eSinteseDe :c250.20.800 ;
+	:eAntecessorDe :c250.20.801 ;
+	:eSinteseDe :c250.20.803 ;
+	:eCruzadoCom :c350.10.503 ;
+	:eSinteseDe :c450.30.500 ;
+	:eSinteseDe :c500.20.300 ;
+	:eSinteseDe :c500.20.600 ;
+	:eSinteseDe :c500.30.004 ;
+	:eSinteseDe :c750.20.600 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_827 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Inscrição de todas as referências de identificação, de natureza jurídico-funcional, estatutária e disciplinar do trabalhador.Inicia com o registo dos dados relativos à admissão do trabalhador e termina com o registo da cessação da relação de trabalho.Inclui atualização de todos os dados relativos à carreira profissional do trabalhador, com verificação após a passagem à aposentação de modo a conservar a última atualização de: identificação, habilitações literárias, formação profissional, avaliação de desempenho, louvores, registo disciplinar, contagem de tempo de serviço, nota biográfica, certificado de trabalho. ".
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.200
+:c250.20.200 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.200";
+	:titulo "Processamento de pedidos de horário de trabalho especial";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSucessorDe :c250.20.400 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_1436 ;
+	:temLegislacao :leg_1386 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_827 ;
+	:temLegislacao :leg_552 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Autorização para o cumprimento da jornada de trabalho em horário diferente do regime padrão em uso na organização.Inicia com pedido do trabalhador e termina com comunicação da decisão ao interessado.Inclui análise fundamentada do pedido, recolha de pareceres intermédios (quando devido) e decisão.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.201_1
+:ne_c250.20.201_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O processamento do trabalho extraordinário deve ser considerado em 350.10.509 – Processamento de remunerações".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.201
+:c250.20.201 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.201";
+	:titulo "Processamento de pedidos de trabalho extraordinário";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaExclusao :ne_c250.20.201_1 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c250.20.400 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_1361 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_858 ;
+	:temLegislacao :leg_827 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Autorização para a prestação de trabalho fora do horário estabelecido.Inicia com o pedido de autorização e termina com a comunicação da decisão.Inclui análise da justificação ou fundamentação do pedido.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.400_1
+:na_c250.20.400_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Deslocações em serviço".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.400_2
+:na_c250.20.400_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Missões ao e no estrangeiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.400_3
+:na_c250.20.400_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Serviço externo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.400_4
+:na_c250.20.400_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Justificação da falta ou ausência".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.400
+:c250.20.400 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.400";
+	:titulo "Controlo de assiduidade e pontualidade";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.20.400_1 ;
+	:temNotaAplicacao :na_c250.20.400_2 ;
+	:temNotaAplicacao :na_c250.20.400_3 ;
+	:temNotaAplicacao :na_c250.20.400_4 ;
+	:eSucessorDe :c250.10.601 ;
+	:eSinteseDe :c250.20.200 ;
+	:eSinteseDe :c250.20.201 ;
+	:eSinteseDe :c250.20.401 ;
+	:eSinteseDe :c250.20.402 ;
+	:eSinteseDe :c250.20.403 ;
+	:eSinteseDe :c250.20.404 ;
+	:eSinteseDe :c250.30.300 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eCruzadoCom :c400.10.033 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_827 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Verificação do cumprimento do dever de assiduidade e pontualidade por parte do trabalhador.Inicia com o registo de presença por parte do trabalhador e termina com a síntese de ocorrências relativas à assiduidade e pontualidade do trabalhador.Inclui participação e justificação da falta ou ausência, despacho superior e apuramento do número de horas de trabalho prestadas pelo trabalhador.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.401_1
+:ne_c250.20.401_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O processamento de indemnização por acidente de trabalho pago por apólice de seguro deve ser considerado em 300.10.005 – Transação e transmissão de bens móveis não culturais e contratação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.401_2
+:ne_c250.20.401_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O processamento de despesa com acidente de trabalho deve ser considerado em 350.10.503 – Liquidação de despesas decorrentes de acidentes e doenças de trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.401_3
+:ne_c250.20.401_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O processamento de despesa com indemnização decorrente de acidente de trabalho deve ser considerado em 350.10.508 – Processamento de indemnizações e injunções".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.401_4
+:ne_c250.20.401_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A certificação de doença profissional deve ser considerada em 450.30.500 – Certificação de doença, aptidão ou incapacidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.401_5
+:ne_c250.20.401_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O processamento da prestação social por doença deve ser considerado em 650.10.010 – Concessão de subsídios de doença".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.401_6
+:ne_c250.20.401_6 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O processamento da prestação social por invalidez considerar em 650.10.001 – Concessão de pensões de invalidez".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.401
+:c250.20.401 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.401";
+	:titulo "Participação de acidentes de trabalho ou de doenças profissionais";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaExclusao :ne_c250.20.401_1 ;
+	:temNotaExclusao :ne_c250.20.401_2 ;
+	:temNotaExclusao :ne_c250.20.401_3 ;
+	:temNotaExclusao :ne_c250.20.401_4 ;
+	:temNotaExclusao :ne_c250.20.401_5 ;
+	:temNotaExclusao :ne_c250.20.401_6 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c250.20.400 ;
+	:eSucessorDe :c350.10.503 ;
+	:eSucessorDe :c350.10.508 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eCruzadoCom :c400.10.033 ;
+	:eAntecessorDe :c450.30.500 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_266 ;
+	:temLegislacao :leg_840 ;
+	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
+	:descricao "Comunicação para reconhecimento do direito à reparação dos danos emergentes resultantes dos riscos profissionais, associados à caracterização de acidente de trabalho ou de doença profissional.Inicia com a participação e termina com a notificação das entidades competentes.Inclui a qualificação como acidente de trabalho ou como doença profissional.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.402_1
+:na_c250.20.402_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Pedidos de alteração ao mapa de férias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.402_2
+:na_c250.20.402_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Pedido de acumulação de férias".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.402
+:c250.20.402 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.402";
+	:titulo "Processamento de férias";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.20.402_1 ;
+	:temNotaAplicacao :na_c250.20.402_2 ;
+	:eSintetizadoPor :c250.20.400 ;
+	:eCruzadoCom :c250.20.605 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_827 ;
+	:temLegislacao :leg_1269 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Marcação do número de dias de férias a que o trabalhador tem direito no ano civil a que respeita.Inicia com a marcação dos períodos de férias a que tem direito e termina com a divulgação do mapa de férias aprovado superiormente ou comunicação da decisão ao trabalhador.Inclui a verificação de inexistência de prejuízo para o serviço e autorização.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.403_2
+:na_c250.20.403_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Renovação da licença".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.403_1
+:na_c250.20.403_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Licenças sem vencimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.403_1
+:ne_c250.20.403_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A licença extraordinária (mobilidade especial) deve ser considerada em 250.20.603 – Colocação de trabalhadores em situação de requalificação".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.403
+:c250.20.403 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.403";
+	:titulo "Processamento de licenças de ausência ao serviço";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.20.403_1 ;
+	:temNotaAplicacao :na_c250.20.403_2 ;
+	:temNotaExclusao :ne_c250.20.403_1 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c250.20.400 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_827 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Autorização de ausência do serviço por tempo determinado, com ou sem retribuição.Inicia com o pedido de licença e termina com a comunicação da decisão ao trabalhador.Inclui análise fundamentada do pedido, recolha de eventuais pareceres e decisão.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.404_2
+:na_c250.20.404_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Equiparação a bolseiro, em Portugal e no estrangeiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.404_1
+:na_c250.20.404_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Bolseiro de investigação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.404_3
+:na_c250.20.404_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Frequência de estágio em Portugal e no estrangeiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.404_4
+:na_c250.20.404_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Renovação de estatuto de bolseiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.404_6
+:na_c250.20.404_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Situação de equiparação a bolseiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.404_1
+:ne_c250.20.404_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A atribuição de bolsa de ação social escolar deve ser considerada em 650.10.100 – Concessão de auxílios económicos a estudante e formando".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.404_5
+:na_c250.20.404_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Revogação de estatuto de bolseiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.404
+:c250.20.404 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.404";
+	:titulo "Processamento de pedidos de estatuto de bolseiro";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.20.404_1 ;
+	:temNotaAplicacao :na_c250.20.404_2 ;
+	:temNotaAplicacao :na_c250.20.404_3 ;
+	:temNotaAplicacao :na_c250.20.404_4 ;
+	:temNotaAplicacao :na_c250.20.404_5 ;
+	:temNotaAplicacao :na_c250.20.404_6 ;
+	:temNotaExclusao :ne_c250.20.404_1 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c250.20.400 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_30 ;
+	:temLegislacao :leg_41 ;
+	:temLegislacao :leg_83 ;
+	:temLegislacao :leg_95 ;
+	:temLegislacao :leg_457 ;
+	:temLegislacao :leg_1038 ;
+	:temLegislacao :leg_1120 ;
+	:temLegislacao :leg_1046 ;
+	:temLegislacao :leg_1140 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Autorização para dispensa total ou parcial do exercício de funções para realizar programas de trabalho e estudo.Inicia com o pedido fundamentado do estatuto de bolseiro ou de equiparação a bolseiro e termina com comunicação da decisão ao trabalhador.Inclui recolha de pareceres intermédios, análise fundamentada do pedido e decisão.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.600_1
+:na_c250.20.600_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Trabalhadores com relação jurídica de emprego público, quando a mobilidade seja de entidade pública para entidade privada ou entidade pública não abrangida pela Lei sobre regimes de vinculação carreiras e remunerações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.600_3
+:na_c250.20.600_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Trabalhadores em mobilidade voluntária por extinção de orgão ou serviço".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.600_2
+:na_c250.20.600_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Trabalhadores sem relação jurídica de emprego público de entidade privada para entidade pública".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.600_5
+:na_c250.20.600_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Reafetação de trabalhadores vítima de acidente de trabalho ou doença profissional, em que o grau de incapacidade e de desvalorização implicam reajustamento ou alteração das funções do trabalhador".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.600_4
+:na_c250.20.600_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Reafetação funcional de trabalhador".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.600_6
+:na_c250.20.600_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Graduação de militar em posto superior".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.600
+:c250.20.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.600";
+	:titulo "Afetação transitória a postos de trabalho";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteApreciador :conj_org_AP ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.20.600_1 ;
+	:temNotaAplicacao :na_c250.20.600_2 ;
+	:temNotaAplicacao :na_c250.20.600_3 ;
+	:temNotaAplicacao :na_c250.20.600_4 ;
+	:temNotaAplicacao :na_c250.20.600_5 ;
+	:temNotaAplicacao :na_c250.20.600_6 ;
+	:eSucessorDe :c250.10.401 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSucessorDe :c250.20.603 ;
+	:eAntecessorDe :c250.20.605 ;
+	:eSucessorDe :c250.30.001 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_1269 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Ocupação transitória de posto de trabalho na mesma situação funcional em diferente órgão ou serviço ou em diferente situação funcional no mesmo ou em diferente órgão ou serviço.Inicia com o pedido do trabalhador ou por iniciativa da administração e termina com a comunicação da decisão ao trabalhador.Inclui negociação de um acordo tripartido entre o trabalhador e os órgãos ou serviços de origem e destino.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.601_2
+:na_c250.20.601_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Alteração do posicionamento remuneratório resultante de opção gestionária".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.601_1
+:na_c250.20.601_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Alteração do posicionamento remuneratório resultante de regime de exceção".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.601_3
+:na_c250.20.601_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Alteração do posicionamento remuneratório resultante do regime regra".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.601_5
+:na_c250.20.601_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Promoção por distinção a título excecional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.601_4
+:na_c250.20.601_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Promoção por antiguidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.601_6
+:na_c250.20.601_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Promoção por diuturnidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.601_7
+:na_c250.20.601_7 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Promoção por escolha".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.601_8
+:na_c250.20.601_8 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Promoção por habilitação com curso específico (militar)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.601_1
+:ne_c250.20.601_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O processamento de remuneração deve ser considerado em 350.10.509 – Processamento de remunerações".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.601
+:c250.20.601 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.601";
+	:titulo "Alteração de posicionamento remuneratório";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.20.601_1 ;
+	:temNotaAplicacao :na_c250.20.601_2 ;
+	:temNotaAplicacao :na_c250.20.601_3 ;
+	:temNotaAplicacao :na_c250.20.601_4 ;
+	:temNotaAplicacao :na_c250.20.601_5 ;
+	:temNotaAplicacao :na_c250.20.601_6 ;
+	:temNotaAplicacao :na_c250.20.601_7 ;
+	:temNotaAplicacao :na_c250.20.601_8 ;
+	:temNotaExclusao :ne_c250.20.601_1 ;
+	:eCruzadoCom :c150.20.202 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eAntecessorDe :c250.20.800 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eCruzadoCom :c400.10.033 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_1269 ;
+	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
+	:descricao "Mudança para posição remuneratória superior dentro da mesma carreira ou posto.Inicia com a proposta de atribuição de promoção ou progressão e termina com a formalização da aceitação.Inclui proposta de atribuição e respetiva fundamentação, recolha de eventuais pareceres intermédios.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.602_2
+:na_c250.20.602_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Exercício de funções públicas em acumulação com o de outras funções privadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.602_1
+:na_c250.20.602_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Exercício de funções públicas em acumulação com o de outras funções públicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.602
+:c250.20.602 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.602";
+	:titulo "Autorização para o exercício de funções públicas em acumulação";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.20.602_1 ;
+	:temNotaAplicacao :na_c250.20.602_2 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_1269 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Permissão para acumulação de funções públicas ou privadas.Inicia com o requerimento do trabalhador e termina com a comunicação da decisão ao interessado.Inclui análise fundamentada do pedido, recolha de eventuais pareceres intermédios e decisão.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.603_1
+:na_c250.20.603_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Extinção ou fusão de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.603_2
+:na_c250.20.603_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Racionalização de efetivos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.603_4
+:na_c250.20.603_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Registo na Bolsa de Emprego Público".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.603_1
+:ne_c250.20.603_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A cessação do vínculo de trabalho deve ser considerada em 250.10.800 – Cessação da relação jurídica de emprego público".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.603_3
+:na_c250.20.603_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Reestruturação de órgãos e serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.603
+:c250.20.603 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.603";
+	:titulo "Colocação de trabalhadores em situação de requalificação";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.20.603_1 ;
+	:temNotaAplicacao :na_c250.20.603_2 ;
+	:temNotaAplicacao :na_c250.20.603_3 ;
+	:temNotaAplicacao :na_c250.20.603_4 ;
+	:temNotaExclusao :ne_c250.20.603_1 ;
+	:eAntecessorDe :c150.20.200 ;
+	:eSintetizadoPor :c250.10.800 ;
+	:eSucessorDe :c250.20.001 ;
+	:eSucessorDe :c250.20.600 ;
+	:eSucessorDe :c250.20.605 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_1161 ;
+	:temLegislacao :leg_985 ;
+	:temLegislacao :leg_993 ;
+	:temLegislacao :leg_775 ;
+	:temLegislacao :leg_806 ;
+	:temLegislacao :leg_736 ;
+	:temLegislacao :leg_715 ;
+	:temLegislacao :leg_536 ;
+	:temLegislacao :leg_452 ;
+	:temLegislacao :leg_1444 ;
+	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
+	:descricao "Integração em mapa de pessoal próprio de trabalhador não necessário ao desenvolvimento das atividades do órgão ou serviço, em resultado de processos de reorganização de serviços ou de racionalização de efetivos e, no caso de militares, por falta de vacatura no seu posto.Inicia com a seleção do trabalhador e termina com a publicitação de lista nominativa de colocação em situação de requalificação.Inclui as fases de transição, requalificação e compensação e registo da Bolsa de Emprego Público. ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.604_1
+:na_c250.20.604_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Carreira militar, aos polícias e aos bombeiros".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.604
+:c250.20.604 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.604";
+	:titulo "Processamento de pedidos de reclassificação profissional";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.20.604_1 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSucessorDe :c250.10.401 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Atribuição de diferente classe ou especialidade, mediante a obtenção de formação adequada.Inicia com o pedido de autorização e termina com a comunicação da decisão ao interessado.Inclui apresentação de prova de habilitação para o exercício de novas funções, recolha de eventuais pareceres intermédios.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.605_1
+:na_c250.20.605_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Requalificação de trabalhadores da Administração direta e indireta do Estado".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.605_2
+:na_c250.20.605_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Requalificação de trabalhadores das instituições de ensino superior públicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.605_1
+:ne_c250.20.605_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O processamento de remunerações deve ser considerado em 350.10.509 – Processamento de remunerações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.605_3
+:na_c250.20.605_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Requalificação de trabalhadores da Administração regional mediante adaptação por diploma próprio".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.605_2
+:ne_c250.20.605_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os estudos de avaliação das necessidades de recursos humanos da Administração Pública devem ser considerados em 150.20 – Planeamento, avaliação e melhoria de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.605_3
+:ne_c250.20.605_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A formação profissional deve ser considerada em 750.20.600 – Realização de atividades de ensino ou formação".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.605_4
+:ne_c250.20.605_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A cessação do vínculo de trabalho deve ser considerada em 250.10.800 – Cessação da relação jurídica de emprego público".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.605
+:c250.20.605 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.605";
+	:titulo "Acompanhamento dos trabalhadores em situação de requalificação";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :conj_org_AP ;
+	:temDono :org_INA ;
+	:temNotaAplicacao :na_c250.20.605_1 ;
+	:temNotaAplicacao :na_c250.20.605_2 ;
+	:temNotaAplicacao :na_c250.20.605_3 ;
+	:temNotaExclusao :ne_c250.20.605_1 ;
+	:temNotaExclusao :ne_c250.20.605_2 ;
+	:temNotaExclusao :ne_c250.20.605_3 ;
+	:temNotaExclusao :ne_c250.20.605_4 ;
+	:eAntecessorDe :c150.20.200 ;
+	:eSucessorDe :c250.10.101 ;
+	:eSucessorDe :c250.10.800 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eCruzadoCom :c250.20.402 ;
+	:eSucessorDe :c250.20.600 ;
+	:eAntecessorDe :c250.20.603 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSucessorDe :c750.20.600 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_1296 ;
+	:temLegislacao :leg_1103 ;
+	:temLegislacao :leg_1161 ;
+	:temLegislacao :leg_1008 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Promoção da reintegração do trabalhador colocado em situação de inatividade.           Inicia com a informação da colocação do trabalhador em situação de requalificação e termina com o reinício de funções ou com a cessação das mesmas a título transitório. Inclui o processamento das solicitações dos organismos para preenchimento de posto de trabalho, informação aos trabalhadores dos procedimentos de seleção abertos, promoção e encaminhamento para a requalificação por via da formação profissional, atualização dos dados relativos aos trabalhadores.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.800_2
+:na_c250.20.800_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Carreira diplomática".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.800_1
+:na_c250.20.800_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Carreiras Gerais e especiais da AP".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.800_4
+:na_c250.20.800_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Carreiras das forças armadas ou militarizadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.800_3
+:na_c250.20.800_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Carreira docente".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.800_5
+:na_c250.20.800_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Desempenho dos Dirigentes da Administração Pública (SIADAP 2)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.800_6
+:na_c250.20.800_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Desempenho dos Trabalhadores da Administração Pública (SIADAP 3)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.800_1
+:ne_c250.20.800_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A reclamação da avaliação de desempenho (pós homologação) deve ser considerada em 500.40.001 – Processamento de reclamações em atos administrativos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.800_2
+:ne_c250.20.800_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A impugnação administrativa, por recurso hierárquico deve ser considerada em 500.40.500 – Processamento de recursos hierárquicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.800_3
+:ne_c250.20.800_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A impugnação administrativa, por recurso tutelar deve ser considerada em 500.40.501 – Processamento de recursos tutelares".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.800_4
+:ne_c250.20.800_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A impugnação judicial deve ser considerada em 600.30.001 – Comum com intervenção de tribunal coletivo ou de júri".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.800
+:c250.20.800 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.800";
+	:titulo "Avaliação individual do desempenho";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.20.800_1 ;
+	:temNotaAplicacao :na_c250.20.800_2 ;
+	:temNotaAplicacao :na_c250.20.800_3 ;
+	:temNotaAplicacao :na_c250.20.800_4 ;
+	:temNotaAplicacao :na_c250.20.800_5 ;
+	:temNotaAplicacao :na_c250.20.800_6 ;
+	:temNotaExclusao :ne_c250.20.800_1 ;
+	:temNotaExclusao :ne_c250.20.800_2 ;
+	:temNotaExclusao :ne_c250.20.800_3 ;
+	:temNotaExclusao :ne_c250.20.800_4 ;
+	:eCruzadoCom :c150.20.100 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSucessorDe :c250.10.501 ;
+	:eSucessorDe :c250.10.401 ;
+	:eSucessorDe :c250.10.500 ;
+	:eSucessorDe :c250.10.600 ;
+	:eSintetizadoPor :c250.20.601 ;
+	:eSucessorDe :c250.20.801 ;
+	:eSucessorDe :c250.20.802 ;
+	:eSucessorDe :c250.20.803 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSucessorDe :c500.20.001 ;
+	:eSinteseDe :c950.20.300 ;
+	:eCruzadoCom :c950.30.001 ;
+	:temLegislacao :leg_637 ;
+	:temLegislacao :leg_931 ;
+	:temLegislacao :leg_1074 ;
+	:temLegislacao :leg_1269 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Definição de competências ou objetivos para trabalhadores, dirigentes superiores e intermédios ou equiparados, de acordo com o ciclo de gestão.Inicia com o acordo relativo aos objetivos, indicadores de medida, valores e respetiva ponderação e termina com a tomada de conhecimento da homologação da avaliação efetuada pela entidade competente.Inclui contratualização das competências e objetivos, compromisso de gestão em Carta de Missão, quando devido, assinatura de contrato por parte do avaliador e do avaliado, eventual revisão dos objetivos, preenchimento da ficha de Autoavaliação ou de Relatório, no caso da avaliação de dirigentes superiores, monitorização intercalar do desempenho pela verificação das respetivas evidências e avaliação prévia do trabalhador ou dirigente pelo superior hierárquico, resposta da Comissão Paritária a eventual pedido de apreciação da avaliação do desempenho do trabalhador e resultado da harmonização em Conselho Coordenador da Avaliação.".
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.801
+:c250.20.801 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.801";
+	:titulo "Harmonização e validação de avaliações de desempenho";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:eSintetizadoPor :c150.10.702 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSucessorDe :c250.20.800 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_637 ;
+	:temLegislacao :leg_931 ;
+	:temLegislacao :leg_1074 ;
+	:temLegislacao :leg_1269 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Estabelecimento de diretrizes para aplicação objetiva e harmónica do sistema de avaliação do desempenho.Inicia com a aprovação das quotas de diferenciação e aprovação dos critérios de harmonização da avaliação de desempenho e termina com a validação das propostas finais de avaliação de desempenho Relevante e de desempenho Inadequado, bem como o reconhecimento de desempenho Excelente.Inclui convocatórias das reuniões, elaboração de listas de presenças, análise e apreciação das propostas de avaliação de desempenho de mérito e excelência e elaboração de ata.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.802_1
+:ne_c250.20.802_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "As reuniões da Comissão Paritária deve ser considerada em 150.10.702 – Reunião de órgãos e estruturas operacionais e de aconselhamento".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.802
+:c250.20.802 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.802";
+	:titulo "Apreciação das propostas de avaliação de desempenho";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaExclusao :ne_c250.20.802_1 ;
+	:eSintetizadoPor :c150.10.702 ;
+	:eSintetizadoPor :c250.20.800 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_637 ;
+	:temLegislacao :leg_931 ;
+	:temLegislacao :leg_1074 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Análise dos processos de avaliação individual de desempenho solicitados à Comissão Paritária pelos avaliados, em fase anterior ao ato de homologação da avaliação.Inicia com a receção pela Comissão Paritária do requerimento do avaliado e termina com a proposta de decisão sobre a avaliação de desempenho do interessado.Inclui convocatórias das reuniões, elaboração de listas de presenças, audição de avaliador e avaliado ou, sendo o caso, ao conselho coordenador da avaliação e redação da ata.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.803_1
+:na_c250.20.803_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Atribuição de medalha e placa de mérito".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.803_2
+:na_c250.20.803_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Atribuição de público louvor".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.803_3
+:na_c250.20.803_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Atribuição de medalhas de assiduidade e comportamento exemplar".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.20.803_4
+:na_c250.20.803_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Concessão de prémios de desempenho".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.803_1
+:ne_c250.20.803_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A cerimónia de entrega de prémios deve ser considerada em 900.10.500 – Organização e participação em homenagens e cerimónias comemorativas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.20.803_2
+:ne_c250.20.803_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "As insígnias honoríficas devem ser consideradas em 950.30.001 – Reconhecimento por mérito e serviços prestados".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.20.803
+:c250.20.803 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.20.803";
+	:titulo "Atribuição de prémios de desempenho, louvores ou medalhas";
+	:temPai :c250.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c250.20.803_1 ;
+	:temNotaAplicacao :na_c250.20.803_2 ;
+	:temNotaAplicacao :na_c250.20.803_3 ;
+	:temNotaAplicacao :na_c250.20.803_4 ;
+	:temNotaExclusao :ne_c250.20.803_1 ;
+	:temNotaExclusao :ne_c250.20.803_2 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSucessorDe :c250.20.800 ;
+	:eSintetizadoPor :c350.10.509 ;
+	:eCruzadoCom :c400.10.033 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_637 ;
+	:temLegislacao :leg_931 ;
+	:temLegislacao :leg_1074 ;
+	:temLegislacao :leg_280 ;
+	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
+	:descricao "Reconhecimento de trabalhadores que se distinguiram por serviços relevantes ou atos notáveis de qualquer natureza.Inicia com a proposta de atribuição da distinção e termina com a comunicação da decisão ao interessado ou publicitação da mesma.Inclui análise da proposta e da respetiva fundamentação e recolha de eventuais pareceres intermédios.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.30_1
+:na_c250.30_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Convenções coletivas de trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.30_3
+:na_c250.30_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Comunicação de avisos de greve".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.30_2
+:na_c250.30_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Resolução de conflitos de trabalho através da negociação direta entre as partes".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.30_1
+:ne_c250.30_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os processos de negociação no quadro da concertação social devem ser considerados em “Planeamento e gestão estratégica / Definição e avaliação de políticas” (150.10);Quando a resolução de conflitos de trabalho envolva a intervenção de terceiros, pode assumir variações. Assim:- pela via da mediação, conciliação ou arbitragem deve ser considerada em “Administração da justiça / Resolução alternativa de litígios” (600.20);- pela via do recurso dos Tribunais, considerar em “Administração da justiça / Produção de prova e decisão judicial” (600.30).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.30
+:c250.30 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "250.30";
+	:titulo "Gestão e acompanhamento de relações coletivas de trabalho";
+	:temPai :c250 ;
+	:temNotaAplicacao :na_c250.30_1 ;
+	:temNotaAplicacao :na_c250.30_2 ;
+	:temNotaAplicacao :na_c250.30_3 ;
+	:temNotaExclusao :ne_c250.30_1 ;
+	:classeStatus "A" ;
+	:descricao "Compreende os processos de negociação e celebração de convenções coletivas de trabalho em organismos de setor público, bem como o eventual acompanhamento de idênticas convenções estabelecidos no setor privado. Inclui o depósito de convenções coletivas nos organismos competentes, bem como os avisos de cessação de vigência. Compreende, igualmente, a gestão das relações dos organismos públicos com comissões de trabalhadores, comissões paritárias ligadas à negociação coletiva, associações profissionais, sindicatos e outras entidades representativas dos trabalhadores, quando estabelecidas fora do quadro da concertação social. Inclui negociações no âmbito do despedimento coletivo.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.30.001_1
+:na_c250.30.001_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Instrumentos de regulação coletiva de trabalho negociais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.30.001_1
+:ne_c250.30.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os instrumentos de regulamentação coletiva de trabalho não negociais (por ex".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.30.001_4
+:ne_c250.30.001_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O controlo da assiduidade e pontualidade do trabalhador deve ser considerado em 250.20.400 – Controlo de assiduidade e pontualidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.30.001_2
+:ne_c250.30.001_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo " portaria de extensão, portaria de condições de trabalho, decisão de arbitragem obrigatória ou necessária) devem ser considerados em “Ordenamento jurídico e normativo/ Elaboração de diplomas jurídico-normativos e de normas técnicas” (100.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.30.001_5
+:ne_c250.30.001_5 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A resolução de conflitos que envolva terceiros deve ser considerada em 600.20.301 Ação em sistema de mediação laboral (mediação) ou em 600.30.700 – Fiscalização preventiva da constitucionalidade (recurso aos tribunais)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.30.001_3
+:ne_c250.30.001_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os processos de negociação no quadro da concertação social devem ser considerados em 150.10.501 – Negociação e celebração de acordos de concertação social".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.30.001
+:c250.30.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.30.001";
+	:titulo "Negociação de convenções coletivas de trabalho";
+	:temPai :c250.30 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :conj_org_AP ;
+	:temDono :org_DGAEP ;
+	:temDono :org_DGERT ;
+	:temDono :conj_org_AL ;
+	:temNotaAplicacao :na_c250.30.001_1 ;
+	:temNotaExclusao :ne_c250.30.001_1 ;
+	:temNotaExclusao :ne_c250.30.001_2 ;
+	:temNotaExclusao :ne_c250.30.001_3 ;
+	:temNotaExclusao :ne_c250.30.001_4 ;
+	:temNotaExclusao :ne_c250.30.001_5 ;
+	:eComplementarDe :c100.10.200 ;
+	:eComplementarDe :c100.10.600 ;
+	:eAntecessorDe :c250.20.600 ;
+	:eSuplementoPara :c500.10.001 ;
+	:temLegislacao :leg_827 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_496 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Intervenção na vida da organização, através da participação na criação de instrumentos de enquadramento das condições de trabalho aplicáveis às relações individuais e coletivas de trabalho, no âmbito das respetivas representações.Inicia com a apresentação de propostas ou reivindicações pelas estruturas de representação coletiva dos trabalhadores e termina com o depósito do instrumento de regulamentação coletiva de trabalho, no serviço competente.Inclui conversação entre as partes, apoio técnico da Administração, celebração do acordo.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.30.300_1
+:na_c250.30.300_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Registo de avisos prévios de greve".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.30.300_2
+:na_c250.30.300_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Negociação dos serviços mínimos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.30.300_3
+:na_c250.30.300_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "DGAEP (trabalhadores com contrato em funções públicas)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.30.300_4
+:na_c250.30.300_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "DGERT (trabalhadores com contrato individual de trabalho)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.30.300_1
+:ne_c250.30.300_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O controlo da assiduidade e pontualidade do trabalhador deve ser considerado em 250.20.400 – Controlo de assiduidade e pontualidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.30.300_2
+:ne_c250.30.300_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A regulação coletiva de trabalho deve ser considerada em 250.20.001 – Negociação de convenções coletivas de trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.30.300
+:c250.30.300 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.30.300";
+	:titulo "Ações coletivas de defesa e promoção de interesses socioprofissionais";
+	:temPai :c250.30 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :conj_org_AP ;
+	:temDono :org_DGAEP ;
+	:temDono :org_DGERT ;
+	:temDono :conj_org_AL ;
+	:temNotaAplicacao :na_c250.30.300_1 ;
+	:temNotaAplicacao :na_c250.30.300_2 ;
+	:temNotaAplicacao :na_c250.30.300_3 ;
+	:temNotaAplicacao :na_c250.30.300_4 ;
+	:temNotaExclusao :ne_c250.30.300_1 ;
+	:temNotaExclusao :ne_c250.30.300_2 ;
+	:eSintetizadoPor :c150.20.403 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c250.20.400 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eAntecessorDe :c600.20.600 ;
+	:temLegislacao :leg_1361 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_827 ;
+	:temLegislacao :leg_1006 ;
+	:temLegislacao :leg_496 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Pressão exercida junto da organização no sentido da satisfação de interesses comuns de trabalhadores ou associados.Inicia com a realização de reuniões gerais de trabalhadores nos locais de trabalho durante o horário de prestação de serviço e termina com o apuramento do crédito anual de horas ou com o apuramento e comunicação dos resultados do impacto da suspensão coletiva, total ou parcial, concertada e voluntária de prestação de trabalho, por motivo de greve.Inclui comunicação de reunião de trabalhadores, entrega de aviso prévio de greve. Pode determinar a negociação e definição de serviços mínimos indispensáveis à satisfação de necessidades sociais impreteriveis e dos meios necessários para os assegurar.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.30.600_1
+:na_c250.30.600_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Prevenção de conflitos coletivos de trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c250.30.600_2
+:na_c250.30.600_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "DGERT (relações coletivas de trabalho)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.30.600_1
+:ne_c250.30.600_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A resolução de conflitos que envolva terceiros deve ser considerada em 600.20.301 – Ação em sistema de mediação laboral (mediação) ou em 600.30.700 – Fiscalização preventiva da constitucionalidade (recurso aos tribunais)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c250.30.600_2
+:ne_c250.30.600_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "As reuniões da comissão de trabalhadores devem ser consideradas em 150.10.702 – Reunião de órgãos e estruturas operacionais e de aconselhamento".
+
+###  http://jcr.di.uminho.pt/m51-clav#c250.30.600
+:c250.30.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "250.30.600";
+	:titulo "Prevenção e resolução de conflitos laborais";
+	:temPai :c250.30 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temDono :org_DGERT ;
+	:temNotaAplicacao :na_c250.30.600_1 ;
+	:temNotaAplicacao :na_c250.30.600_2 ;
+	:temNotaExclusao :ne_c250.30.600_1 ;
+	:temNotaExclusao :ne_c250.30.600_2 ;
+	:eSintetizadoPor :c150.10.702 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSucessorDe :c600.20.301 ;
+	:eSucessorDe :c600.30.300 ;
+	:eCruzadoCom :c800.10.300 ;
+	:temLegislacao :leg_1269 ;
+	:temLegislacao :leg_827 ;
+	:temLegislacao :leg_496 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Participação efetiva dos trabalhadores ou associados na gestão da organização em defesa dos direitos ou interesses laborais dos seus representados.Inicia com o registo da ocorrência e termina com o resultado da intervenção da estrutura representativa dos trabalhadores.Inclui articulação entre interessados, elaboração ou recolha de relatórios de avaliação.".
+
+### Classes250 termina aqui.
+

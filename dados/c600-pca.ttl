@@ -1,0 +1,2618 @@
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.001
+:pca_c600.10.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.10.001 :temPCA :pca_c600.10.001.
+:pca_c600.10.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_inicioProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.001
+:just_pca_c600.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.001 :temJustificacao :just_pca_c600.10.001.
+:crit_just_pca_c600.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118.".
+:just_pca_c600.10.001 :temCriterio :crit_just_pca_c600.10.001_1.
+:crit_just_pca_c600.10.001_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.002
+:pca_c600.10.002 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.10.002 :temPCA :pca_c600.10.002.
+:pca_c600.10.002 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_inicioProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.002
+:just_pca_c600.10.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.002 :temJustificacao :just_pca_c600.10.002.
+:crit_just_pca_c600.10.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118).Considerou-se o prazo de prescrição do crime de branqueamento e financiamento do terrorismo, atendendo à utilidade deste tipo de informação nos crimes considerados.Nota: As entidades que remetem à PJ/PGR a informação financeira proveniente de transações suspeitas são obrigadas a conservar os registos pelos prazos previstos, respetivamente, nos n.os 1 e 2 do artigo 14º da [Lei 25/2008]: \"Dever de conservação - 1 — As cópias ou referências aos documentos comprovativos do cumprimento do dever de identificação e de diligência devem ser conservadas por um período de sete anos após o momento em que a identificação se processou ou, no caso das relações de negócio, após o termo das mesmas. 2 — Os originais, cópias, referências ou quaisquer suportes duradouros, com idêntica força probatória, dos documentos comprovativos e dos registos das operações devem ser sempre conservados, de molde a permitir a reconstituição da operação, durante um período de sete anos a contar da sua execução, ainda que, no caso de se inserir numa relação de negócio, esta última já tenha terminado\".".
+:just_pca_c600.10.002 :temCriterio :crit_just_pca_c600.10.002_1.
+:crit_just_pca_c600.10.002_1 :temLegislacao :leg_164.
+:crit_just_pca_c600.10.002_1 :temLegislacao :leg_723.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.003
+:pca_c600.10.003 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c600.10.003 :temPCA :pca_c600.10.003.
+:pca_c600.10.003 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.003
+:just_pca_c600.10.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.003 :temJustificacao :just_pca_c600.10.003.
+:crit_just_pca_c600.10.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118).Caducidade de direitos de ação por eventual responsabilidade tipicamente associados a esta ação.".
+:just_pca_c600.10.003 :temCriterio :crit_just_pca_c600.10.003_1.
+:crit_just_pca_c600.10.003_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.004
+:pca_c600.10.004 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.10.004 :temPCA :pca_c600.10.004.
+:pca_c600.10.004 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.004
+:just_pca_c600.10.004 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.004 :temJustificacao :just_pca_c600.10.004.
+:crit_just_pca_c600.10.004_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " Prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118), pelo eventual apoio informacional a um processo no PN 600.10.500 (Processamento de inquérito-crime).Paralelamente, cobrem-se os prazos necessários para o desencadeamento e processamento de outro processo judicial que resulte da identificação do cadáver (ex.: morte presumida judicialmente declarada - artº 114º do Código Civil, [DL 47344/66]), bem como para os averbamentos (e posterior processamento) no PN 400.10.001 - Registo Civil (ex.: artºs 69º e 70º do Código do Registo Civil, [DL n.º 131/95]).".
+:just_pca_c600.10.004 :temCriterio :crit_just_pca_c600.10.004_1.
+:crit_just_pca_c600.10.004_1 :temLegislacao :leg_164.
+:crit_just_pca_c600.10.004_1 :temProcessoRelacionado :c600.10.500.
+:crit_just_pca_c600.10.004_1 :temLegislacao :leg_6.
+:crit_just_pca_c600.10.004_1 :temProcessoRelacionado :c400.10.001.
+:crit_just_pca_c600.10.004_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Pela possibilidade de confrontação com os elementos do PN 600.10.006 - Averiguação e localização de pessoas desaparecidas.".
+:just_pca_c600.10.004 :temCriterio :crit_just_pca_c600.10.004_2.
+:crit_just_pca_c600.10.004_2 :temProcessoRelacionado :c600.10.006.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.005
+:pca_c600.10.005 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c600.10.005 :temPCA :pca_c600.10.005.
+:pca_c600.10.005 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.005
+:just_pca_c600.10.005 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.005 :temJustificacao :just_pca_c600.10.005.
+:crit_just_pca_c600.10.005_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " Prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118) - Determinante para o enquadramento da prescrição do crime.".
+:just_pca_c600.10.005 :temCriterio :crit_just_pca_c600.10.005_1.
+:crit_just_pca_c600.10.005_1 :temLegislacao :leg_164.
+:crit_just_pca_c600.10.005_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Cobertura dos prazos necessários para a investigação e para a prescrição ([DL 48/95], Código Penal, artº 118) dos crimes tipicamente associados (ex. furto) a esta ação.".
+:just_pca_c600.10.005 :temCriterio :crit_just_pca_c600.10.005_2.
+:crit_just_pca_c600.10.005_2 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.006
+:pca_c600.10.006 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c600.10.006 :temPCA :pca_c600.10.006.
+:pca_c600.10.006 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.006
+:just_pca_c600.10.006 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.006 :temJustificacao :just_pca_c600.10.006.
+:crit_just_pca_c600.10.006_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 47344/66], Código Civil, artº 114 - (Morte presumida)\"1. Decorridos dez anos sobre a data das últimas notícias, ou passados cinco anos, se entretanto o ausente houver completado oitenta anos de idade, podem os interessados a que se refere o artigo 100º requerer a declaração de morte presumida.2. A declaração de morte presumida não será proferida antes de haverem decorrido cinco anos sobre a data em que o ausente, se fosse vivo, atingiria a maioridade.3. A declaração de morte presumida do ausente não depende de prévia instalação da curadoria provisória ou definitiva e referir-se-á ao fim do dia das últimas notícias que dele houve.\"".
+:just_pca_c600.10.006 :temCriterio :crit_just_pca_c600.10.006_1.
+:crit_just_pca_c600.10.006_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.007
+:pca_c600.10.007 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.10.007 :temPCA :pca_c600.10.007.
+:pca_c600.10.007 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.007
+:just_pca_c600.10.007 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.007 :temJustificacao :just_pca_c600.10.007.
+:crit_just_pca_c600.10.007_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " Prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118).".
+:just_pca_c600.10.007 :temCriterio :crit_just_pca_c600.10.007_1.
+:crit_just_pca_c600.10.007_1 :temLegislacao :leg_164.
+:crit_just_pca_c600.10.007_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Tempo requerido para que nos PN relacionados seja verificada a informação criminal existente, atendendo aos prazos de prescrição do procedimento criminal (ver PN relacionados); Amplitude temporal necessária para a constituição de amostras padrão (dada a diversidade dos crimes investigados, alguns com reduzidas ocorrências/ano) que permitam a realização de estudos de reincidência e análise criminal de padrões de comportamento.".
+:just_pca_c600.10.007 :temCriterio :crit_just_pca_c600.10.007_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.008
+:pca_c600.10.008 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.10.008 :temPCA :pca_c600.10.008.
+:pca_c600.10.008 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.008
+:just_pca_c600.10.008 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.008 :temJustificacao :just_pca_c600.10.008.
+:crit_just_pca_c600.10.008_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27)Prazo prescricional do procedimento disciplinar das Forças de segurança ([Lei 66/2014], artº 46, nº 1; [Lei 7/90], artº 55, nº 1 )Prazo que cobre um eventual procedimento disciplinar com consequente aplicação contraordenacional (por não cumprimento da comunicação)".
+:just_pca_c600.10.008 :temCriterio :crit_just_pca_c600.10.008_1.
+:crit_just_pca_c600.10.008_1 :temLegislacao :leg_47.
+:crit_just_pca_c600.10.008_1 :temLegislacao :leg_1277.
+:crit_just_pca_c600.10.008_1 :temLegislacao :leg_107.
+:crit_just_pca_c600.10.008_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Tempo necessário para que o inquérito decorra no OPC de origem.".
+:just_pca_c600.10.008 :temCriterio :crit_just_pca_c600.10.008_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.500
+:pca_c600.10.500 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1;
+	:pcaNota "Para os inquéritos arquivados nos termos do disposto no nº2, do artº 277º do CPP, do nº 3 do artigo 282º do CPP e do nº 1 do artigo 277º do CPP, no caso de inquéritos arquivados com fundamento na recolha de \"prova bastante de se não ter verificado o crime\", ou \"de o arguido não o ter praticado a qualquer título\", a eliminação só terá lugar após o decurso do prazo do procedimento criminal. Para os inquéritos arquivados nos termos do disposto no nºa, do artigo 277º com fundamento na inadmissibilidade do procedimento ou outro, e do nº 1 do artigo 280º, o prazo de conservação administrativa deverá ser de 1 ano.".
+
+:c600.10.500 :temPCA :pca_c600.10.500.
+:pca_c600.10.500 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.10.500 :pcaSubformaContagem :vc_pcaSubformaContagem_6 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.500
+:just_pca_c600.10.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.500 :temJustificacao :just_pca_c600.10.500.
+:crit_just_pca_c600.10.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " Prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118): determinante para a forma de contagem do prazo.".
+:just_pca_c600.10.500 :temCriterio :crit_just_pca_c600.10.500_1.
+:crit_just_pca_c600.10.500_1 :temLegislacao :leg_164.
+:crit_just_pca_c600.10.500_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Tempo necessário para dar sequência ao PN 300.10.302 - Eliminação de documentos e informação, em que se procede à sua eliminação".
+:just_pca_c600.10.500 :temCriterio :crit_just_pca_c600.10.500_2.
+:crit_just_pca_c600.10.500_2 :temProcessoRelacionado :c300.10.302.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.501
+:pca_c600.10.501 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.10.501 :temPCA :pca_c600.10.501.
+:pca_c600.10.501 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.10.501 :pcaSubformaContagem :vc_pcaSubformaContagem_7 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.501
+:just_pca_c600.10.501 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.501 :temJustificacao :just_pca_c600.10.501.
+:crit_just_pca_c600.10.501_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Analogia com o artº 5º da Lei Tutelar Educativa anexa à [Lei 166/99], associado ao artº 132, nº 5, da mesma Lei, no qual se estabelece que os dossiers relativos aos menores \"são obrigatoriamente destruídos decorridos cinco anos sobre a data em que os jovens a que respeitam completarem 21 anos\".".
+:just_pca_c600.10.501 :temCriterio :crit_just_pca_c600.10.501_1.
+:crit_just_pca_c600.10.501_1 :temLegislacao :leg_285.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.502
+:pca_c600.10.502 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1;
+	:pcaNota "Os prazos tem, necessariamente, de ser os mesmos do inquérito. Estamos perante expediente que termina como arquivado ou como acusado. Se for acusado, perde autonomia; se for arquivado, deve ser tratado como um inquérito arquivado que pode ser reaberto (exceto se o arquivamento se dever a cumprimento de injunção no âmbito da suspensão provisória). Remete-se, por isso, para os fundamentos e notas do 600.10.500.".
+
+:c600.10.502 :temPCA :pca_c600.10.502.
+:pca_c600.10.502 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.10.502 :pcaSubformaContagem :vc_pcaSubformaContagem_6 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.502
+:just_pca_c600.10.502 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.502 :temJustificacao :just_pca_c600.10.502.
+:crit_just_pca_c600.10.502_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " Prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118): determinante para a forma de contagem do prazo.".
+:just_pca_c600.10.502 :temCriterio :crit_just_pca_c600.10.502_1.
+:crit_just_pca_c600.10.502_1 :temLegislacao :leg_164.
+:crit_just_pca_c600.10.502_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Tempo necessário para dar sequência ao PN 300.10.302 Eliminação de documentos e informação, em que se procede à sua eliminação".
+:just_pca_c600.10.502 :temCriterio :crit_just_pca_c600.10.502_2.
+:crit_just_pca_c600.10.502_2 :temProcessoRelacionado :c300.10.302.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.503
+:pca_c600.10.503 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1.
+:c600.10.503 :temPCA :pca_c600.10.503.
+:pca_c600.10.503 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.10.503 :pcaSubformaContagem :vc_pcaSubformaContagem_8 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.503
+:just_pca_c600.10.503 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.503 :temJustificacao :just_pca_c600.10.503.
+:crit_just_pca_c600.10.503_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " Prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118): determinante para a forma de contagem do prazo.".
+:just_pca_c600.10.503 :temCriterio :crit_just_pca_c600.10.503_1.
+:crit_just_pca_c600.10.503_1 :temLegislacao :leg_164.
+:crit_just_pca_c600.10.503_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Tempo necessário para dar sequência ao PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão e ao PN 300.10.302 - Eliminação de documentos e informação, em que se procede à eliminação do processo".
+:just_pca_c600.10.503 :temCriterio :crit_just_pca_c600.10.503_2.
+:crit_just_pca_c600.10.503_2 :temProcessoRelacionado :c150.40.500.
+:crit_just_pca_c600.10.503_2 :temProcessoRelacionado :c300.10.302.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.504
+:pca_c600.10.504 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.10.504 :temPCA :pca_c600.10.504.
+:pca_c600.10.504 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.504
+:just_pca_c600.10.504 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.504 :temJustificacao :just_pca_c600.10.504.
+:crit_just_pca_c600.10.504_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118).".
+:just_pca_c600.10.504 :temCriterio :crit_just_pca_c600.10.504_1.
+:crit_just_pca_c600.10.504_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.505
+:pca_c600.10.505 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.10.505 :temPCA :pca_c600.10.505.
+:pca_c600.10.505 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.505
+:just_pca_c600.10.505 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.505 :temJustificacao :just_pca_c600.10.505.
+:crit_just_pca_c600.10.505_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118).".
+:just_pca_c600.10.505 :temCriterio :crit_just_pca_c600.10.505_1.
+:crit_just_pca_c600.10.505_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.506.01
+:pca_c600.10.506.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 0.
+:c600.10.506.01 :temPCA :pca_c600.10.506.01.
+:pca_c600.10.506.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.506.01
+:just_pca_c600.10.506.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.506.01 :temJustificacao :just_pca_c600.10.506.01.
+:crit_just_pca_c600.10.506.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 190/2003] - em que se estipula que finda a vigência da medida pontual de segurança, a autoridade judiciária determina a destruição imediata dos documentos e do envelope fechado, sendo apenas conservado o auto de destruição e o despacho fundamentado da autoridade judiciária que ordenou aquele acto.".
+:just_pca_c600.10.506.01 :temCriterio :crit_just_pca_c600.10.506.01_1.
+:crit_just_pca_c600.10.506.01_1 :temLegislacao :leg_400.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.507
+:pca_c600.10.507 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.10.507 :temPCA :pca_c600.10.507.
+:pca_c600.10.507 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.507
+:just_pca_c600.10.507 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.507 :temJustificacao :just_pca_c600.10.507.
+:crit_just_pca_c600.10.507_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Conjugada a alínea a) do artº 14, da [Lei 144/99], que prevê a indemnização devida por detenção ou prisão ilegal ou injustificada ou por outros danos sofridos pelo suspeito e pelo arguido, com o nº 1, do artº 498 do Código Civil, [DL 47344/66], que prevê a prescrição do direito de indemnização no prazo de 3 anos, com o subsequente direito de regresso aos agentes / funcionários, e o prazo de prescrição do procedimento contraordenacional de 5 anos ([DL 433/82], Ilícito de mera ordenação social – artº 27º) considera-se o prazo de 5 anos para efeitos de reposição e garantia do exercício de direitos relacionados com procedimentos civis ou criminais ligados à atividade de cooperação desenvolvida.".
+:just_pca_c600.10.507 :temCriterio :crit_just_pca_c600.10.507_1.
+:crit_just_pca_c600.10.507_1 :temLegislacao :leg_279.
+:crit_just_pca_c600.10.507_1 :temLegislacao :leg_6.
+:crit_just_pca_c600.10.507_1 :temLegislacao :leg_47.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.508
+:pca_c600.10.508 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.10.508 :temPCA :pca_c600.10.508.
+:pca_c600.10.508 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_inicioProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.508
+:just_pca_c600.10.508 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.508 :temJustificacao :just_pca_c600.10.508.
+:crit_just_pca_c600.10.508_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Tempo necessário para a transposição da informação para o PN 600.10.007 - Processamento de informação criminal; para processamento do PN 600.10.500 - Processamento de inquérito-crime.".
+:just_pca_c600.10.508 :temCriterio :crit_just_pca_c600.10.508_1.
+:crit_just_pca_c600.10.508_1 :temProcessoRelacionado :c600.10.007.
+:crit_just_pca_c600.10.508_1 :temProcessoRelacionado :c600.10.500.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.509
+:pca_c600.10.509 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c600.10.509 :temPCA :pca_c600.10.509.
+:pca_c600.10.509 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_inicioProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.509
+:just_pca_c600.10.509 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.509 :temJustificacao :just_pca_c600.10.509.
+:crit_just_pca_c600.10.509_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Tempo necessário para o controlo e validação dos dados relativos ao tráfico e consumo de droga e envio de informação para o PN 150.40.500.".
+:just_pca_c600.10.509 :temCriterio :crit_just_pca_c600.10.509_1.
+:crit_just_pca_c600.10.509_1 :temProcessoRelacionado :c150.40.500.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.510
+:pca_c600.10.510 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.10.510 :temPCA :pca_c600.10.510.
+:pca_c600.10.510 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.510
+:just_pca_c600.10.510 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.510 :temJustificacao :just_pca_c600.10.510.
+:crit_just_pca_c600.10.510_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " [DL 48/95], Código Penal, artº 118 - prazo de prescrição do procedimento criminal;[DL 78/87], CPP, artº 188, em que se estabelece a utilização das escutas em caso de recurso (\"13 - Após o trânsito em julgado previsto no número anterior, os suportes técnicos que não forem destruídos são guardados em envelope lacrado, junto ao processo, e só podem ser utilizados em caso de interposição de recurso extraordinário.\")".
+:just_pca_c600.10.510 :temCriterio :crit_just_pca_c600.10.510_1.
+:crit_just_pca_c600.10.510_1 :temLegislacao :leg_164.
+:crit_just_pca_c600.10.510_1 :temLegislacao :leg_73.
+:crit_just_pca_c600.10.510_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Conservação dos registos administrativos que comprovem a entrega das escutas, considerado o prazo de prescrição e o prazo para interposição de recurso.".
+:just_pca_c600.10.510 :temCriterio :crit_just_pca_c600.10.510_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.511
+:pca_c600.10.511 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.10.511 :temPCA :pca_c600.10.511.
+:pca_c600.10.511 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.511
+:just_pca_c600.10.511 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.511 :temJustificacao :just_pca_c600.10.511.
+:crit_just_pca_c600.10.511_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " Prazo prescricional contraordenacional ([DL 433/82], artº 27, a))".
+:just_pca_c600.10.511 :temCriterio :crit_just_pca_c600.10.511_1.
+:crit_just_pca_c600.10.511_1 :temLegislacao :leg_47.
+:crit_just_pca_c600.10.511_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede de ação disciplinar (PN 500.20.002, 500.20.003, 500.20.300) e inspetiva (500.10.300).".
+:just_pca_c600.10.511 :temCriterio :crit_just_pca_c600.10.511_2.
+:crit_just_pca_c600.10.511_2 :temProcessoRelacionado :c500.20.002.
+:crit_just_pca_c600.10.511_2 :temProcessoRelacionado :c500.20.003.
+:crit_just_pca_c600.10.511_2 :temProcessoRelacionado :c500.20.300.
+:crit_just_pca_c600.10.511_2 :temProcessoRelacionado :c500.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.10.512
+:pca_c600.10.512 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.10.512 :temPCA :pca_c600.10.512.
+:pca_c600.10.512 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.10.512
+:just_pca_c600.10.512 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.10.512 :temJustificacao :just_pca_c600.10.512.
+:crit_just_pca_c600.10.512_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " Prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118).".
+:just_pca_c600.10.512 :temCriterio :crit_just_pca_c600.10.512_1.
+:crit_just_pca_c600.10.512_1 :temLegislacao :leg_164.
+:crit_just_pca_c600.10.512_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Conservação de autos de notícia sem queixa (semi-públicos) cujos crimes associados possam conter prazos de prescrição de 15 anos.".
+:just_pca_c600.10.512 :temCriterio :crit_just_pca_c600.10.512_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.20.001.01
+:pca_c600.20.001.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.20.001.01 :temPCA :pca_c600.20.001.01.
+:pca_c600.20.001.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.20.001.01 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.20.001.01
+:just_pca_c600.20.001.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.20.001.01 :temJustificacao :just_pca_c600.20.001.01.
+:crit_just_pca_c600.20.001.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309) - Por conter ações em matéria civel.".
+:just_pca_c600.20.001.01 :temCriterio :crit_just_pca_c600.20.001.01_1.
+:crit_just_pca_c600.20.001.01_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.20.300
+:pca_c600.20.300 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.20.300 :temPCA :pca_c600.20.300.
+:pca_c600.20.300 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.20.300 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.20.300
+:just_pca_c600.20.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.20.300 :temJustificacao :just_pca_c600.20.300.
+:crit_just_pca_c600.20.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309) - Por conter ações em matéria familiar.".
+:just_pca_c600.20.300 :temCriterio :crit_just_pca_c600.20.300_1.
+:crit_just_pca_c600.20.300_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.20.301
+:pca_c600.20.301 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.20.301 :temPCA :pca_c600.20.301.
+:pca_c600.20.301 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.20.301 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.20.301
+:just_pca_c600.20.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.20.301 :temJustificacao :just_pca_c600.20.301.
+:crit_just_pca_c600.20.301_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309) - Por conter ações em matéria laboral.".
+:just_pca_c600.20.301 :temCriterio :crit_just_pca_c600.20.301_1.
+:crit_just_pca_c600.20.301_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.20.302
+:pca_c600.20.302 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c600.20.302 :temPCA :pca_c600.20.302.
+:pca_c600.20.302 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.20.302 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.20.302
+:just_pca_c600.20.302 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.20.302 :temJustificacao :just_pca_c600.20.302.
+:crit_just_pca_c600.20.302_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118) - atento o tipo de crime.".
+:just_pca_c600.20.302 :temCriterio :crit_just_pca_c600.20.302_1.
+:crit_just_pca_c600.20.302_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.20.303
+:pca_c600.20.303 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.20.303 :temPCA :pca_c600.20.303.
+:pca_c600.20.303 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.20.303 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.20.303
+:just_pca_c600.20.303 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.20.303 :temJustificacao :just_pca_c600.20.303.
+:crit_just_pca_c600.20.303_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309) - Por conter ações em matéria civel.".
+:just_pca_c600.20.303 :temCriterio :crit_just_pca_c600.20.303_1.
+:crit_just_pca_c600.20.303_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.20.304
+:pca_c600.20.304 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.20.304 :temPCA :pca_c600.20.304.
+:pca_c600.20.304 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.20.304
+:just_pca_c600.20.304 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.20.304 :temJustificacao :just_pca_c600.20.304.
+:crit_just_pca_c600.20.304_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.20.304 :temCriterio :crit_just_pca_c600.20.304_1.
+:crit_just_pca_c600.20.304_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.20.600.01
+:pca_c600.20.600.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.20.600.01 :temPCA :pca_c600.20.600.01.
+:pca_c600.20.600.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.20.600.01 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.20.600.01
+:just_pca_c600.20.600.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.20.600.01 :temJustificacao :just_pca_c600.20.600.01.
+:crit_just_pca_c600.20.600.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309) - Por conter ações em matéria civel.".
+:just_pca_c600.20.600.01 :temCriterio :crit_just_pca_c600.20.600.01_1.
+:crit_just_pca_c600.20.600.01_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.001
+:pca_c600.30.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.30.001 :temPCA :pca_c600.30.001.
+:pca_c600.30.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.001 :pcaSubformaContagem :vc_pcaSubformaContagem_1 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.001
+:just_pca_c600.30.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.001 :temJustificacao :just_pca_c600.30.001.
+:crit_just_pca_c600.30.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo máximo de prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118).".
+:just_pca_c600.30.001 :temCriterio :crit_just_pca_c600.30.001_1.
+:crit_just_pca_c600.30.001_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.002
+:pca_c600.30.002 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.30.002 :temPCA :pca_c600.30.002.
+:pca_c600.30.002 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.002 :pcaSubformaContagem :vc_pcaSubformaContagem_1 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.002
+:just_pca_c600.30.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.002 :temJustificacao :just_pca_c600.30.002.
+:crit_just_pca_c600.30.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo máximo de prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118).".
+:just_pca_c600.30.002 :temCriterio :crit_just_pca_c600.30.002_1.
+:crit_just_pca_c600.30.002_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.050
+:pca_c600.30.050 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.30.050 :temPCA :pca_c600.30.050.
+:pca_c600.30.050 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.050 :pcaSubformaContagem :vc_pcaSubformaContagem_1 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.050
+:just_pca_c600.30.050 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.050 :temJustificacao :just_pca_c600.30.050.
+:crit_just_pca_c600.30.050_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo máximo de prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118).".
+:just_pca_c600.30.050 :temCriterio :crit_just_pca_c600.30.050_1.
+:crit_just_pca_c600.30.050_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.051
+:pca_c600.30.051 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.30.051 :temPCA :pca_c600.30.051.
+:pca_c600.30.051 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.051 :pcaSubformaContagem :vc_pcaSubformaContagem_1 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.051
+:just_pca_c600.30.051 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.051 :temJustificacao :just_pca_c600.30.051.
+:crit_just_pca_c600.30.051_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo máximo de prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118).".
+:just_pca_c600.30.051 :temCriterio :crit_just_pca_c600.30.051_1.
+:crit_just_pca_c600.30.051_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.052
+:pca_c600.30.052 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.052 :temPCA :pca_c600.30.052.
+:pca_c600.30.052 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.052 :pcaSubformaContagem :vc_pcaSubformaContagem_1 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.052
+:just_pca_c600.30.052 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.052 :temJustificacao :just_pca_c600.30.052.
+:crit_just_pca_c600.30.052_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo de prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118).".
+:just_pca_c600.30.052 :temCriterio :crit_just_pca_c600.30.052_1.
+:crit_just_pca_c600.30.052_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.101
+:pca_c600.30.101 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.101 :temPCA :pca_c600.30.101.
+:pca_c600.30.101 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.101 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.101
+:just_pca_c600.30.101 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.101 :temJustificacao :just_pca_c600.30.101.
+:crit_just_pca_c600.30.101_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.101 :temCriterio :crit_just_pca_c600.30.101_1.
+:crit_just_pca_c600.30.101_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.150
+:pca_c600.30.150 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.150 :temPCA :pca_c600.30.150.
+:pca_c600.30.150 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.150 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.150
+:just_pca_c600.30.150 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.150 :temJustificacao :just_pca_c600.30.150.
+:crit_just_pca_c600.30.150_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.150 :temCriterio :crit_just_pca_c600.30.150_1.
+:crit_just_pca_c600.30.150_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.150_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.151
+:pca_c600.30.151 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.151 :temPCA :pca_c600.30.151.
+:pca_c600.30.151 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.151 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.151
+:just_pca_c600.30.151 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.151 :temJustificacao :just_pca_c600.30.151.
+:crit_just_pca_c600.30.151_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.151 :temCriterio :crit_just_pca_c600.30.151_1.
+:crit_just_pca_c600.30.151_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.151_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.152
+:pca_c600.30.152 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.30.152 :temPCA :pca_c600.30.152.
+:pca_c600.30.152 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.152 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.152
+:just_pca_c600.30.152 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.152 :temJustificacao :just_pca_c600.30.152.
+:crit_just_pca_c600.30.152_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo máximo de prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118).".
+:just_pca_c600.30.152 :temCriterio :crit_just_pca_c600.30.152_1.
+:crit_just_pca_c600.30.152_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.153
+:pca_c600.30.153 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.30.153 :temPCA :pca_c600.30.153.
+:pca_c600.30.153 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.153 :pcaSubformaContagem :vc_pcaSubformaContagem_1 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.153
+:just_pca_c600.30.153 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.153 :temJustificacao :just_pca_c600.30.153.
+:crit_just_pca_c600.30.153_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo máximo de prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118).".
+:just_pca_c600.30.153 :temCriterio :crit_just_pca_c600.30.153_1.
+:crit_just_pca_c600.30.153_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.154
+:pca_c600.30.154 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 15.
+:c600.30.154 :temPCA :pca_c600.30.154.
+:pca_c600.30.154 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.154 :pcaSubformaContagem :vc_pcaSubformaContagem_1 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.154
+:just_pca_c600.30.154 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.154 :temJustificacao :just_pca_c600.30.154.
+:crit_just_pca_c600.30.154_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo máximo de prescrição do procedimento criminal ([DL 48/95], Código Penal, artº 118).".
+:just_pca_c600.30.154 :temCriterio :crit_just_pca_c600.30.154_1.
+:crit_just_pca_c600.30.154_1 :temLegislacao :leg_164.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.156
+:pca_c600.30.156 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.156 :temPCA :pca_c600.30.156.
+:pca_c600.30.156 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.156 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.156
+:just_pca_c600.30.156 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.156 :temJustificacao :just_pca_c600.30.156.
+:crit_just_pca_c600.30.156_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.156 :temCriterio :crit_just_pca_c600.30.156_1.
+:crit_just_pca_c600.30.156_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.156_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.157
+:pca_c600.30.157 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.157 :temPCA :pca_c600.30.157.
+:pca_c600.30.157 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.157 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.157
+:just_pca_c600.30.157 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.157 :temJustificacao :just_pca_c600.30.157.
+:crit_just_pca_c600.30.157_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.157 :temCriterio :crit_just_pca_c600.30.157_1.
+:crit_just_pca_c600.30.157_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.157_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.200.01
+:pca_c600.30.200.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.200.01 :temPCA :pca_c600.30.200.01.
+:pca_c600.30.200.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.200.01 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.200.01
+:just_pca_c600.30.200.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.200.01 :temJustificacao :just_pca_c600.30.200.01.
+:crit_just_pca_c600.30.200.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.200.01 :temCriterio :crit_just_pca_c600.30.200.01_1.
+:crit_just_pca_c600.30.200.01_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.250.01
+:pca_c600.30.250.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.250.01 :temPCA :pca_c600.30.250.01.
+:pca_c600.30.250.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.250.01 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.250.01
+:just_pca_c600.30.250.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.250.01 :temJustificacao :just_pca_c600.30.250.01.
+:crit_just_pca_c600.30.250.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.250.01 :temCriterio :crit_just_pca_c600.30.250.01_1.
+:crit_just_pca_c600.30.250.01_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.251
+:pca_c600.30.251 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.251 :temPCA :pca_c600.30.251.
+:pca_c600.30.251 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.251 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.251
+:just_pca_c600.30.251 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.251 :temJustificacao :just_pca_c600.30.251.
+:crit_just_pca_c600.30.251_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.251 :temCriterio :crit_just_pca_c600.30.251_1.
+:crit_just_pca_c600.30.251_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.252
+:pca_c600.30.252 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.252 :temPCA :pca_c600.30.252.
+:pca_c600.30.252 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.252 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.252
+:just_pca_c600.30.252 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.252 :temJustificacao :just_pca_c600.30.252.
+:crit_just_pca_c600.30.252_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.252 :temCriterio :crit_just_pca_c600.30.252_1.
+:crit_just_pca_c600.30.252_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.253
+:pca_c600.30.253 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.253 :temPCA :pca_c600.30.253.
+:pca_c600.30.253 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.253 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.253
+:just_pca_c600.30.253 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.253 :temJustificacao :just_pca_c600.30.253.
+:crit_just_pca_c600.30.253_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.253 :temCriterio :crit_just_pca_c600.30.253_1.
+:crit_just_pca_c600.30.253_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.254
+:pca_c600.30.254 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.254 :temPCA :pca_c600.30.254.
+:pca_c600.30.254 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.254 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.254
+:just_pca_c600.30.254 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.254 :temJustificacao :just_pca_c600.30.254.
+:crit_just_pca_c600.30.254_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.254 :temCriterio :crit_just_pca_c600.30.254_1.
+:crit_just_pca_c600.30.254_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.255
+:pca_c600.30.255 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.255 :temPCA :pca_c600.30.255.
+:pca_c600.30.255 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.255 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.255
+:just_pca_c600.30.255 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.255 :temJustificacao :just_pca_c600.30.255.
+:crit_just_pca_c600.30.255_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.255 :temCriterio :crit_just_pca_c600.30.255_1.
+:crit_just_pca_c600.30.255_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.256.01
+:pca_c600.30.256.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.256.01 :temPCA :pca_c600.30.256.01.
+:pca_c600.30.256.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.256.01 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.256.01
+:just_pca_c600.30.256.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.256.01 :temJustificacao :just_pca_c600.30.256.01.
+:crit_just_pca_c600.30.256.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.256.01 :temCriterio :crit_just_pca_c600.30.256.01_1.
+:crit_just_pca_c600.30.256.01_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.257
+:pca_c600.30.257 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.257 :temPCA :pca_c600.30.257.
+:pca_c600.30.257 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.257 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.257
+:just_pca_c600.30.257 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.257 :temJustificacao :just_pca_c600.30.257.
+:crit_just_pca_c600.30.257_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.257 :temCriterio :crit_just_pca_c600.30.257_1.
+:crit_just_pca_c600.30.257_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.258
+:pca_c600.30.258 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.258 :temPCA :pca_c600.30.258.
+:pca_c600.30.258 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.258 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.258
+:just_pca_c600.30.258 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.258 :temJustificacao :just_pca_c600.30.258.
+:crit_just_pca_c600.30.258_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.258 :temCriterio :crit_just_pca_c600.30.258_1.
+:crit_just_pca_c600.30.258_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.260
+:pca_c600.30.260 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.260 :temPCA :pca_c600.30.260.
+:pca_c600.30.260 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.260 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.260
+:just_pca_c600.30.260 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.260 :temJustificacao :just_pca_c600.30.260.
+:crit_just_pca_c600.30.260_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.260 :temCriterio :crit_just_pca_c600.30.260_1.
+:crit_just_pca_c600.30.260_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.262
+:pca_c600.30.262 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.262 :temPCA :pca_c600.30.262.
+:pca_c600.30.262 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.262 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.262
+:just_pca_c600.30.262 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.262 :temJustificacao :just_pca_c600.30.262.
+:crit_just_pca_c600.30.262_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.262 :temCriterio :crit_just_pca_c600.30.262_1.
+:crit_just_pca_c600.30.262_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.263
+:pca_c600.30.263 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.263 :temPCA :pca_c600.30.263.
+:pca_c600.30.263 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.263 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.263
+:just_pca_c600.30.263 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.263 :temJustificacao :just_pca_c600.30.263.
+:crit_just_pca_c600.30.263_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.263 :temCriterio :crit_just_pca_c600.30.263_1.
+:crit_just_pca_c600.30.263_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.264
+:pca_c600.30.264 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.264 :temPCA :pca_c600.30.264.
+:pca_c600.30.264 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.264 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.264
+:just_pca_c600.30.264 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.264 :temJustificacao :just_pca_c600.30.264.
+:crit_just_pca_c600.30.264_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.264 :temCriterio :crit_just_pca_c600.30.264_1.
+:crit_just_pca_c600.30.264_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.265
+:pca_c600.30.265 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.265 :temPCA :pca_c600.30.265.
+:pca_c600.30.265 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.265 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.265
+:just_pca_c600.30.265 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.265 :temJustificacao :just_pca_c600.30.265.
+:crit_just_pca_c600.30.265_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.265 :temCriterio :crit_just_pca_c600.30.265_1.
+:crit_just_pca_c600.30.265_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.266
+:pca_c600.30.266 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.266 :temPCA :pca_c600.30.266.
+:pca_c600.30.266 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.266 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.266
+:just_pca_c600.30.266 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.266 :temJustificacao :just_pca_c600.30.266.
+:crit_just_pca_c600.30.266_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.266 :temCriterio :crit_just_pca_c600.30.266_1.
+:crit_just_pca_c600.30.266_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.267.01
+:pca_c600.30.267.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.267.01 :temPCA :pca_c600.30.267.01.
+:pca_c600.30.267.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.267.01 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.267.01
+:just_pca_c600.30.267.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.267.01 :temJustificacao :just_pca_c600.30.267.01.
+:crit_just_pca_c600.30.267.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.267.01 :temCriterio :crit_just_pca_c600.30.267.01_1.
+:crit_just_pca_c600.30.267.01_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.268
+:pca_c600.30.268 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.268 :temPCA :pca_c600.30.268.
+:pca_c600.30.268 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.268 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.268
+:just_pca_c600.30.268 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.268 :temJustificacao :just_pca_c600.30.268.
+:crit_just_pca_c600.30.268_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.268 :temCriterio :crit_just_pca_c600.30.268_1.
+:crit_just_pca_c600.30.268_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.269
+:pca_c600.30.269 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.269 :temPCA :pca_c600.30.269.
+:pca_c600.30.269 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.269 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.269
+:just_pca_c600.30.269 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.269 :temJustificacao :just_pca_c600.30.269.
+:crit_just_pca_c600.30.269_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.269 :temCriterio :crit_just_pca_c600.30.269_1.
+:crit_just_pca_c600.30.269_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.270
+:pca_c600.30.270 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.270 :temPCA :pca_c600.30.270.
+:pca_c600.30.270 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.270 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.270
+:just_pca_c600.30.270 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.270 :temJustificacao :just_pca_c600.30.270.
+:crit_just_pca_c600.30.270_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.270 :temCriterio :crit_just_pca_c600.30.270_1.
+:crit_just_pca_c600.30.270_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.271
+:pca_c600.30.271 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.271 :temPCA :pca_c600.30.271.
+:pca_c600.30.271 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.271 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.271
+:just_pca_c600.30.271 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.271 :temJustificacao :just_pca_c600.30.271.
+:crit_just_pca_c600.30.271_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.271 :temCriterio :crit_just_pca_c600.30.271_1.
+:crit_just_pca_c600.30.271_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.272
+:pca_c600.30.272 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.272 :temPCA :pca_c600.30.272.
+:pca_c600.30.272 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.272 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.272
+:just_pca_c600.30.272 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.272 :temJustificacao :just_pca_c600.30.272.
+:crit_just_pca_c600.30.272_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.272 :temCriterio :crit_just_pca_c600.30.272_1.
+:crit_just_pca_c600.30.272_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.273
+:pca_c600.30.273 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.273 :temPCA :pca_c600.30.273.
+:pca_c600.30.273 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.273 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.273
+:just_pca_c600.30.273 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.273 :temJustificacao :just_pca_c600.30.273.
+:crit_just_pca_c600.30.273_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.273 :temCriterio :crit_just_pca_c600.30.273_1.
+:crit_just_pca_c600.30.273_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.274
+:pca_c600.30.274 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.274 :temPCA :pca_c600.30.274.
+:pca_c600.30.274 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.274 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.274
+:just_pca_c600.30.274 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.274 :temJustificacao :just_pca_c600.30.274.
+:crit_just_pca_c600.30.274_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.274 :temCriterio :crit_just_pca_c600.30.274_1.
+:crit_just_pca_c600.30.274_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.275
+:pca_c600.30.275 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.275 :temPCA :pca_c600.30.275.
+:pca_c600.30.275 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.275 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.275
+:just_pca_c600.30.275 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.275 :temJustificacao :just_pca_c600.30.275.
+:crit_just_pca_c600.30.275_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.275 :temCriterio :crit_just_pca_c600.30.275_1.
+:crit_just_pca_c600.30.275_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.276
+:pca_c600.30.276 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.276 :temPCA :pca_c600.30.276.
+:pca_c600.30.276 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.276 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.276
+:just_pca_c600.30.276 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.276 :temJustificacao :just_pca_c600.30.276.
+:crit_just_pca_c600.30.276_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.276 :temCriterio :crit_just_pca_c600.30.276_1.
+:crit_just_pca_c600.30.276_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.277
+:pca_c600.30.277 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.277 :temPCA :pca_c600.30.277.
+:pca_c600.30.277 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.277 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.277
+:just_pca_c600.30.277 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.277 :temJustificacao :just_pca_c600.30.277.
+:crit_just_pca_c600.30.277_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.277 :temCriterio :crit_just_pca_c600.30.277_1.
+:crit_just_pca_c600.30.277_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.278
+:pca_c600.30.278 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.278 :temPCA :pca_c600.30.278.
+:pca_c600.30.278 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.278 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.278
+:just_pca_c600.30.278 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.278 :temJustificacao :just_pca_c600.30.278.
+:crit_just_pca_c600.30.278_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.278 :temCriterio :crit_just_pca_c600.30.278_1.
+:crit_just_pca_c600.30.278_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.279.01
+:pca_c600.30.279.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.279.01 :temPCA :pca_c600.30.279.01.
+:pca_c600.30.279.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.279.01 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.279.01
+:just_pca_c600.30.279.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.279.01 :temJustificacao :just_pca_c600.30.279.01.
+:crit_just_pca_c600.30.279.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.279.01 :temCriterio :crit_just_pca_c600.30.279.01_1.
+:crit_just_pca_c600.30.279.01_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.280
+:pca_c600.30.280 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.280 :temPCA :pca_c600.30.280.
+:pca_c600.30.280 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.280 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.280
+:just_pca_c600.30.280 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.280 :temJustificacao :just_pca_c600.30.280.
+:crit_just_pca_c600.30.280_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.280 :temCriterio :crit_just_pca_c600.30.280_1.
+:crit_just_pca_c600.30.280_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.281
+:pca_c600.30.281 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.281 :temPCA :pca_c600.30.281.
+:pca_c600.30.281 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.281 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.281
+:just_pca_c600.30.281 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.281 :temJustificacao :just_pca_c600.30.281.
+:crit_just_pca_c600.30.281_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.281 :temCriterio :crit_just_pca_c600.30.281_1.
+:crit_just_pca_c600.30.281_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.282.01
+:pca_c600.30.282.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.282.01 :temPCA :pca_c600.30.282.01.
+:pca_c600.30.282.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.282.01 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.282.01
+:just_pca_c600.30.282.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.282.01 :temJustificacao :just_pca_c600.30.282.01.
+:crit_just_pca_c600.30.282.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.282.01 :temCriterio :crit_just_pca_c600.30.282.01_1.
+:crit_just_pca_c600.30.282.01_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.283
+:pca_c600.30.283 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.283 :temPCA :pca_c600.30.283.
+:pca_c600.30.283 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.283
+:just_pca_c600.30.283 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.283 :temJustificacao :just_pca_c600.30.283.
+:crit_just_pca_c600.30.283_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.283 :temCriterio :crit_just_pca_c600.30.283_1.
+:crit_just_pca_c600.30.283_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.283_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.285
+:pca_c600.30.285 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.285 :temPCA :pca_c600.30.285.
+:pca_c600.30.285 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.285 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.285
+:just_pca_c600.30.285 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.285 :temJustificacao :just_pca_c600.30.285.
+:crit_just_pca_c600.30.285_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.285 :temCriterio :crit_just_pca_c600.30.285_1.
+:crit_just_pca_c600.30.285_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.285_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.286
+:pca_c600.30.286 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.286 :temPCA :pca_c600.30.286.
+:pca_c600.30.286 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.286 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.286
+:just_pca_c600.30.286 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.286 :temJustificacao :just_pca_c600.30.286.
+:crit_just_pca_c600.30.286_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.286 :temCriterio :crit_just_pca_c600.30.286_1.
+:crit_just_pca_c600.30.286_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.287
+:pca_c600.30.287 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.287 :temPCA :pca_c600.30.287.
+:pca_c600.30.287 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.287 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.287
+:just_pca_c600.30.287 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.287 :temJustificacao :just_pca_c600.30.287.
+:crit_just_pca_c600.30.287_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.287 :temCriterio :crit_just_pca_c600.30.287_1.
+:crit_just_pca_c600.30.287_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.288
+:pca_c600.30.288 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.288 :temPCA :pca_c600.30.288.
+:pca_c600.30.288 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.288 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.288
+:just_pca_c600.30.288 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.288 :temJustificacao :just_pca_c600.30.288.
+:crit_just_pca_c600.30.288_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.288 :temCriterio :crit_just_pca_c600.30.288_1.
+:crit_just_pca_c600.30.288_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.289
+:pca_c600.30.289 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.289 :temPCA :pca_c600.30.289.
+:pca_c600.30.289 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.289 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.289
+:just_pca_c600.30.289 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.289 :temJustificacao :just_pca_c600.30.289.
+:crit_just_pca_c600.30.289_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.289 :temCriterio :crit_just_pca_c600.30.289_1.
+:crit_just_pca_c600.30.289_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.290
+:pca_c600.30.290 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.290 :temPCA :pca_c600.30.290.
+:pca_c600.30.290 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.290 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.290
+:just_pca_c600.30.290 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.290 :temJustificacao :just_pca_c600.30.290.
+:crit_just_pca_c600.30.290_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.290 :temCriterio :crit_just_pca_c600.30.290_1.
+:crit_just_pca_c600.30.290_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.291
+:pca_c600.30.291 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.291 :temPCA :pca_c600.30.291.
+:pca_c600.30.291 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.291 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.291
+:just_pca_c600.30.291 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.291 :temJustificacao :just_pca_c600.30.291.
+:crit_just_pca_c600.30.291_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.291 :temCriterio :crit_just_pca_c600.30.291_1.
+:crit_just_pca_c600.30.291_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.292
+:pca_c600.30.292 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.292 :temPCA :pca_c600.30.292.
+:pca_c600.30.292 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.292
+:just_pca_c600.30.292 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.292 :temJustificacao :just_pca_c600.30.292.
+:crit_just_pca_c600.30.292_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.292 :temCriterio :crit_just_pca_c600.30.292_1.
+:crit_just_pca_c600.30.292_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.292_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.293
+:pca_c600.30.293 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.293 :temPCA :pca_c600.30.293.
+:pca_c600.30.293 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.293 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.293
+:just_pca_c600.30.293 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.293 :temJustificacao :just_pca_c600.30.293.
+:crit_just_pca_c600.30.293_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.293 :temCriterio :crit_just_pca_c600.30.293_1.
+:crit_just_pca_c600.30.293_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.293_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.300
+:pca_c600.30.300 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.300 :temPCA :pca_c600.30.300.
+:pca_c600.30.300 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.300 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.300
+:just_pca_c600.30.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.300 :temJustificacao :just_pca_c600.30.300.
+:crit_just_pca_c600.30.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.300 :temCriterio :crit_just_pca_c600.30.300_1.
+:crit_just_pca_c600.30.300_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.301
+:pca_c600.30.301 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.301 :temPCA :pca_c600.30.301.
+:pca_c600.30.301 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.301 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.301
+:just_pca_c600.30.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.301 :temJustificacao :just_pca_c600.30.301.
+:crit_just_pca_c600.30.301_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.301 :temCriterio :crit_just_pca_c600.30.301_1.
+:crit_just_pca_c600.30.301_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.302
+:pca_c600.30.302 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 40.
+:c600.30.302 :temPCA :pca_c600.30.302.
+:pca_c600.30.302 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.302
+:just_pca_c600.30.302 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.302 :temJustificacao :just_pca_c600.30.302.
+:crit_just_pca_c600.30.302_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " [DL 503/99], artº 24 (Após 10 anos da data da alta o processo não pode ser reaberto por recidiva, agravamento ou recaída) e artº 29- 2º (O processo pode ser reaberto enquanto doença profissional de caráter evolutivo, resultante do acidente de trabalho).Por o [DL 503/99] não indicar um prazo para a reabertura do processo, tomou-se em consideração por analogia o [DL 84/97] (transposição da [Diretiva (CE) 2000/54/CE]), artº 19, nº 4 (prazo de conservação dos registos nos casos de exposição a agentes biológicos).".
+:just_pca_c600.30.302 :temCriterio :crit_just_pca_c600.30.302_1.
+:crit_just_pca_c600.30.302_1 :temLegislacao :leg_266.
+:crit_just_pca_c600.30.302_1 :temLegislacao :leg_266.
+:crit_just_pca_c600.30.302_1 :temLegislacao :leg_193.
+:crit_just_pca_c600.30.302_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Tempo para a reabertura do processo.".
+:just_pca_c600.30.302 :temCriterio :crit_just_pca_c600.30.302_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.303
+:pca_c600.30.303 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.303 :temPCA :pca_c600.30.303.
+:pca_c600.30.303 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.303 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.303
+:just_pca_c600.30.303 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.303 :temJustificacao :just_pca_c600.30.303.
+:crit_just_pca_c600.30.303_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.303 :temCriterio :crit_just_pca_c600.30.303_1.
+:crit_just_pca_c600.30.303_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.304
+:pca_c600.30.304 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.304 :temPCA :pca_c600.30.304.
+:pca_c600.30.304 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.304 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.304
+:just_pca_c600.30.304 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.304 :temJustificacao :just_pca_c600.30.304.
+:crit_just_pca_c600.30.304_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.304 :temCriterio :crit_just_pca_c600.30.304_1.
+:crit_just_pca_c600.30.304_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.305
+:pca_c600.30.305 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.305 :temPCA :pca_c600.30.305.
+:pca_c600.30.305 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.305 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.305
+:just_pca_c600.30.305 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.305 :temJustificacao :just_pca_c600.30.305.
+:crit_just_pca_c600.30.305_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.305 :temCriterio :crit_just_pca_c600.30.305_1.
+:crit_just_pca_c600.30.305_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.306
+:pca_c600.30.306 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.306 :temPCA :pca_c600.30.306.
+:pca_c600.30.306 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.306 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.306
+:just_pca_c600.30.306 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.306 :temJustificacao :just_pca_c600.30.306.
+:crit_just_pca_c600.30.306_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.306 :temCriterio :crit_just_pca_c600.30.306_1.
+:crit_just_pca_c600.30.306_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.307
+:pca_c600.30.307 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.307 :temPCA :pca_c600.30.307.
+:pca_c600.30.307 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.307 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.307
+:just_pca_c600.30.307 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.307 :temJustificacao :just_pca_c600.30.307.
+:crit_just_pca_c600.30.307_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.307 :temCriterio :crit_just_pca_c600.30.307_1.
+:crit_just_pca_c600.30.307_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.308
+:pca_c600.30.308 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.308 :temPCA :pca_c600.30.308.
+:pca_c600.30.308 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.308 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.308
+:just_pca_c600.30.308 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.308 :temJustificacao :just_pca_c600.30.308.
+:crit_just_pca_c600.30.308_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.308 :temCriterio :crit_just_pca_c600.30.308_1.
+:crit_just_pca_c600.30.308_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.350
+:pca_c600.30.350 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.350 :temPCA :pca_c600.30.350.
+:pca_c600.30.350 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.350 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.350
+:just_pca_c600.30.350 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.350 :temJustificacao :just_pca_c600.30.350.
+:crit_just_pca_c600.30.350_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.350 :temCriterio :crit_just_pca_c600.30.350_1.
+:crit_just_pca_c600.30.350_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.351
+:pca_c600.30.351 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.351 :temPCA :pca_c600.30.351.
+:pca_c600.30.351 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.351 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.351
+:just_pca_c600.30.351 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.351 :temJustificacao :just_pca_c600.30.351.
+:crit_just_pca_c600.30.351_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.351 :temCriterio :crit_just_pca_c600.30.351_1.
+:crit_just_pca_c600.30.351_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.352
+:pca_c600.30.352 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.352 :temPCA :pca_c600.30.352.
+:pca_c600.30.352 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.352 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.352
+:just_pca_c600.30.352 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.352 :temJustificacao :just_pca_c600.30.352.
+:crit_just_pca_c600.30.352_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.352 :temCriterio :crit_just_pca_c600.30.352_1.
+:crit_just_pca_c600.30.352_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.353.01
+:pca_c600.30.353.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.353.01 :temPCA :pca_c600.30.353.01.
+:pca_c600.30.353.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.353.01 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.353.01
+:just_pca_c600.30.353.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.353.01 :temJustificacao :just_pca_c600.30.353.01.
+:crit_just_pca_c600.30.353.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.353.01 :temCriterio :crit_just_pca_c600.30.353.01_1.
+:crit_just_pca_c600.30.353.01_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.354.01
+:pca_c600.30.354.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.354.01 :temPCA :pca_c600.30.354.01.
+:pca_c600.30.354.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.354.01 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.354.01
+:just_pca_c600.30.354.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.354.01 :temJustificacao :just_pca_c600.30.354.01.
+:crit_just_pca_c600.30.354.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.354.01 :temCriterio :crit_just_pca_c600.30.354.01_1.
+:crit_just_pca_c600.30.354.01_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.355
+:pca_c600.30.355 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.355 :temPCA :pca_c600.30.355.
+:pca_c600.30.355 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.355 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.355
+:just_pca_c600.30.355 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.355 :temJustificacao :just_pca_c600.30.355.
+:crit_just_pca_c600.30.355_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.355 :temCriterio :crit_just_pca_c600.30.355_1.
+:crit_just_pca_c600.30.355_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.356
+:pca_c600.30.356 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.356 :temPCA :pca_c600.30.356.
+:pca_c600.30.356 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.356 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.356
+:just_pca_c600.30.356 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.356 :temJustificacao :just_pca_c600.30.356.
+:crit_just_pca_c600.30.356_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.356 :temCriterio :crit_just_pca_c600.30.356_1.
+:crit_just_pca_c600.30.356_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.357
+:pca_c600.30.357 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.357 :temPCA :pca_c600.30.357.
+:pca_c600.30.357 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.357 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.357
+:just_pca_c600.30.357 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.357 :temJustificacao :just_pca_c600.30.357.
+:crit_just_pca_c600.30.357_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.357 :temCriterio :crit_just_pca_c600.30.357_1.
+:crit_just_pca_c600.30.357_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.358
+:pca_c600.30.358 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.358 :temPCA :pca_c600.30.358.
+:pca_c600.30.358 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.358 :pcaSubformaContagem :vc_pcaSubformaContagem_1 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.358
+:just_pca_c600.30.358 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.358 :temJustificacao :just_pca_c600.30.358.
+:crit_just_pca_c600.30.358_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.358 :temCriterio :crit_just_pca_c600.30.358_1.
+:crit_just_pca_c600.30.358_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.358_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.359
+:pca_c600.30.359 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.359 :temPCA :pca_c600.30.359.
+:pca_c600.30.359 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.359 :pcaSubformaContagem :vc_pcaSubformaContagem_1 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.359
+:just_pca_c600.30.359 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.359 :temJustificacao :just_pca_c600.30.359.
+:crit_just_pca_c600.30.359_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.359 :temCriterio :crit_just_pca_c600.30.359_1.
+:crit_just_pca_c600.30.359_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.359_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.360
+:pca_c600.30.360 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.360 :temPCA :pca_c600.30.360.
+:pca_c600.30.360 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.360 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.360
+:just_pca_c600.30.360 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.360 :temJustificacao :just_pca_c600.30.360.
+:crit_just_pca_c600.30.360_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.360 :temCriterio :crit_just_pca_c600.30.360_1.
+:crit_just_pca_c600.30.360_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.360_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.361
+:pca_c600.30.361 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 80.
+:c600.30.361 :temPCA :pca_c600.30.361.
+:pca_c600.30.361 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.361 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.361
+:just_pca_c600.30.361 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.361 :temJustificacao :just_pca_c600.30.361.
+:crit_just_pca_c600.30.361_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Para efeitos de responsabilização e considerando que a ação pode ser relativa a pessoas ininputáveis tomou-se por base a esperança média de vida à nascença (80 anos, fonte INE).".
+:just_pca_c600.30.361 :temCriterio :crit_just_pca_c600.30.361_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.362
+:pca_c600.30.362 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 60.
+:c600.30.362 :temPCA :pca_c600.30.362.
+:pca_c600.30.362 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.362 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.362
+:just_pca_c600.30.362 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.362 :temJustificacao :just_pca_c600.30.362.
+:crit_just_pca_c600.30.362_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Para efeitos de responsabilização e considerando que a ação pode ser relativa a filhos ininputáveis tomou-se por base a esperança média de vida à nascença (80 anos, fonte INE), descontados a idade dos progenitores.".
+:just_pca_c600.30.362 :temCriterio :crit_just_pca_c600.30.362_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.363
+:pca_c600.30.363 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.363 :temPCA :pca_c600.30.363.
+:pca_c600.30.363 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.363 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.363
+:just_pca_c600.30.363 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.363 :temJustificacao :just_pca_c600.30.363.
+:crit_just_pca_c600.30.363_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.363 :temCriterio :crit_just_pca_c600.30.363_1.
+:crit_just_pca_c600.30.363_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.363_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.364
+:pca_c600.30.364 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.364 :temPCA :pca_c600.30.364.
+:pca_c600.30.364 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.364 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.364
+:just_pca_c600.30.364 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.364 :temJustificacao :just_pca_c600.30.364.
+:crit_just_pca_c600.30.364_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.364 :temCriterio :crit_just_pca_c600.30.364_1.
+:crit_just_pca_c600.30.364_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.364_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.365
+:pca_c600.30.365 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.365 :temPCA :pca_c600.30.365.
+:pca_c600.30.365 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.365 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.365
+:just_pca_c600.30.365 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.365 :temJustificacao :just_pca_c600.30.365.
+:crit_just_pca_c600.30.365_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.365 :temCriterio :crit_just_pca_c600.30.365_1.
+:crit_just_pca_c600.30.365_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.365_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.366
+:pca_c600.30.366 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.366 :temPCA :pca_c600.30.366.
+:pca_c600.30.366 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.366 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.366
+:just_pca_c600.30.366 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.366 :temJustificacao :just_pca_c600.30.366.
+:crit_just_pca_c600.30.366_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.366 :temCriterio :crit_just_pca_c600.30.366_1.
+:crit_just_pca_c600.30.366_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.366_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.367
+:pca_c600.30.367 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 60.
+:c600.30.367 :temPCA :pca_c600.30.367.
+:pca_c600.30.367 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.367 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.367
+:just_pca_c600.30.367 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.367 :temJustificacao :just_pca_c600.30.367.
+:crit_just_pca_c600.30.367_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Para efeitos de responsabilização e considerando que a ação pode ser relativa a filhos ininputáveis tomou-se por base a esperança média de vida à nascença (80 anos, fonte INE), descontados a idade dos progenitores.".
+:just_pca_c600.30.367 :temCriterio :crit_just_pca_c600.30.367_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.368
+:pca_c600.30.368 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.368 :temPCA :pca_c600.30.368.
+:pca_c600.30.368 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.368 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.368
+:just_pca_c600.30.368 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.368 :temJustificacao :just_pca_c600.30.368.
+:crit_just_pca_c600.30.368_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.368 :temCriterio :crit_just_pca_c600.30.368_1.
+:crit_just_pca_c600.30.368_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.368_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.369
+:pca_c600.30.369 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.369 :temPCA :pca_c600.30.369.
+:pca_c600.30.369 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.369 :pcaSubformaContagem :vc_pcaSubformaContagem_7 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.369
+:just_pca_c600.30.369 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.369 :temJustificacao :just_pca_c600.30.369.
+:crit_just_pca_c600.30.369_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.369 :temCriterio :crit_just_pca_c600.30.369_1.
+:crit_just_pca_c600.30.369_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.369_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.370
+:pca_c600.30.370 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.370 :temPCA :pca_c600.30.370.
+:pca_c600.30.370 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.370
+:just_pca_c600.30.370 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.370 :temJustificacao :just_pca_c600.30.370.
+:crit_just_pca_c600.30.370_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.370 :temCriterio :crit_just_pca_c600.30.370_1.
+:crit_just_pca_c600.30.370_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.370_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.371
+:pca_c600.30.371 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.371 :temPCA :pca_c600.30.371.
+:pca_c600.30.371 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.371 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.371
+:just_pca_c600.30.371 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.371 :temJustificacao :just_pca_c600.30.371.
+:crit_just_pca_c600.30.371_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.371 :temCriterio :crit_just_pca_c600.30.371_1.
+:crit_just_pca_c600.30.371_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.371_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.372
+:pca_c600.30.372 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.372 :temPCA :pca_c600.30.372.
+:pca_c600.30.372 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.372 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.372
+:just_pca_c600.30.372 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.372 :temJustificacao :just_pca_c600.30.372.
+:crit_just_pca_c600.30.372_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.372 :temCriterio :crit_just_pca_c600.30.372_1.
+:crit_just_pca_c600.30.372_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.372_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.373
+:pca_c600.30.373 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.373 :temPCA :pca_c600.30.373.
+:pca_c600.30.373 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.373 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.373
+:just_pca_c600.30.373 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.373 :temJustificacao :just_pca_c600.30.373.
+:crit_just_pca_c600.30.373_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.373 :temCriterio :crit_just_pca_c600.30.373_1.
+:crit_just_pca_c600.30.373_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.373_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.374
+:pca_c600.30.374 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.374 :temPCA :pca_c600.30.374.
+:pca_c600.30.374 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.374 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.374
+:just_pca_c600.30.374 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.374 :temJustificacao :just_pca_c600.30.374.
+:crit_just_pca_c600.30.374_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.374 :temCriterio :crit_just_pca_c600.30.374_1.
+:crit_just_pca_c600.30.374_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.375
+:pca_c600.30.375 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.375 :temPCA :pca_c600.30.375.
+:pca_c600.30.375 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.375 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.375
+:just_pca_c600.30.375 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.375 :temJustificacao :just_pca_c600.30.375.
+:crit_just_pca_c600.30.375_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.375 :temCriterio :crit_just_pca_c600.30.375_1.
+:crit_just_pca_c600.30.375_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.376
+:pca_c600.30.376 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.376 :temPCA :pca_c600.30.376.
+:pca_c600.30.376 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.376 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.376
+:just_pca_c600.30.376 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.376 :temJustificacao :just_pca_c600.30.376.
+:crit_just_pca_c600.30.376_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.376 :temCriterio :crit_just_pca_c600.30.376_1.
+:crit_just_pca_c600.30.376_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.377
+:pca_c600.30.377 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.377 :temPCA :pca_c600.30.377.
+:pca_c600.30.377 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.377 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.377
+:just_pca_c600.30.377 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.377 :temJustificacao :just_pca_c600.30.377.
+:crit_just_pca_c600.30.377_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.377 :temCriterio :crit_just_pca_c600.30.377_1.
+:crit_just_pca_c600.30.377_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.400
+:pca_c600.30.400 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.400 :temPCA :pca_c600.30.400.
+:pca_c600.30.400 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.400 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.400
+:just_pca_c600.30.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.400 :temJustificacao :just_pca_c600.30.400.
+:crit_just_pca_c600.30.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.400 :temCriterio :crit_just_pca_c600.30.400_1.
+:crit_just_pca_c600.30.400_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.401
+:pca_c600.30.401 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.401 :temPCA :pca_c600.30.401.
+:pca_c600.30.401 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.401 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.401
+:just_pca_c600.30.401 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.401 :temJustificacao :just_pca_c600.30.401.
+:crit_just_pca_c600.30.401_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.401 :temCriterio :crit_just_pca_c600.30.401_1.
+:crit_just_pca_c600.30.401_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.450
+:pca_c600.30.450 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.450 :temPCA :pca_c600.30.450.
+:pca_c600.30.450 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.450 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.450
+:just_pca_c600.30.450 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.450 :temJustificacao :just_pca_c600.30.450.
+:crit_just_pca_c600.30.450_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.450 :temCriterio :crit_just_pca_c600.30.450_1.
+:crit_just_pca_c600.30.450_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.450_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.500
+:pca_c600.30.500 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.500 :temPCA :pca_c600.30.500.
+:pca_c600.30.500 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.500 :pcaSubformaContagem :vc_pcaSubformaContagem_7 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.500
+:just_pca_c600.30.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.500 :temJustificacao :just_pca_c600.30.500.
+:crit_just_pca_c600.30.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.500 :temCriterio :crit_just_pca_c600.30.500_1.
+:crit_just_pca_c600.30.500_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.500_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.501
+:pca_c600.30.501 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.501 :temPCA :pca_c600.30.501.
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.501
+:just_pca_c600.30.501 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.501 :temJustificacao :just_pca_c600.30.501.
+:crit_just_pca_c600.30.501_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.501 :temCriterio :crit_just_pca_c600.30.501_1.
+:crit_just_pca_c600.30.501_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.501_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.550
+:pca_c600.30.550 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.550 :temPCA :pca_c600.30.550.
+:pca_c600.30.550 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.550 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.550
+:just_pca_c600.30.550 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.550 :temJustificacao :just_pca_c600.30.550.
+:crit_just_pca_c600.30.550_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.550 :temCriterio :crit_just_pca_c600.30.550_1.
+:crit_just_pca_c600.30.550_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.551
+:pca_c600.30.551 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c600.30.551 :temPCA :pca_c600.30.551.
+:pca_c600.30.551 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.551 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.551
+:just_pca_c600.30.551 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.551 :temJustificacao :just_pca_c600.30.551.
+:crit_just_pca_c600.30.551_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "CPPT, [DL 433/99], artº 27, nº 2 \"Os arquivos são obrigatoriamente mantidos durante os 10 anos seguintes à decisão dos procedimentos ou ao trânsito em julgado das decisões judiciais.\"".
+:just_pca_c600.30.551 :temCriterio :crit_just_pca_c600.30.551_1.
+:crit_just_pca_c600.30.551_1 :temLegislacao :leg_263.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.552
+:pca_c600.30.552 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c600.30.552 :temPCA :pca_c600.30.552.
+:pca_c600.30.552 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.552 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.552
+:just_pca_c600.30.552 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.552 :temJustificacao :just_pca_c600.30.552.
+:crit_just_pca_c600.30.552_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "CPPT, [DL 433/99], artº 27, nº 2 \"Os arquivos são obrigatoriamente mantidos durante os 10 anos seguintes à decisão dos procedimentos ou ao trânsito em julgado das decisões judiciais.\"".
+:just_pca_c600.30.552 :temCriterio :crit_just_pca_c600.30.552_1.
+:crit_just_pca_c600.30.552_1 :temLegislacao :leg_263.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.553.01
+:pca_c600.30.553.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.553.01 :temPCA :pca_c600.30.553.01.
+:pca_c600.30.553.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.553.01 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.553.01
+:just_pca_c600.30.553.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.553.01 :temJustificacao :just_pca_c600.30.553.01.
+:crit_just_pca_c600.30.553.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.553.01 :temCriterio :crit_just_pca_c600.30.553.01_1.
+:crit_just_pca_c600.30.553.01_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.554
+:pca_c600.30.554 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.554 :temPCA :pca_c600.30.554.
+:pca_c600.30.554 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.554 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.554
+:just_pca_c600.30.554 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.554 :temJustificacao :just_pca_c600.30.554.
+:crit_just_pca_c600.30.554_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.554 :temCriterio :crit_just_pca_c600.30.554_1.
+:crit_just_pca_c600.30.554_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.555
+:pca_c600.30.555 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.555 :temPCA :pca_c600.30.555.
+:pca_c600.30.555 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.555 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.555
+:just_pca_c600.30.555 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.555 :temJustificacao :just_pca_c600.30.555.
+:crit_just_pca_c600.30.555_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.555 :temCriterio :crit_just_pca_c600.30.555_1.
+:crit_just_pca_c600.30.555_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.556
+:pca_c600.30.556 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.556 :temPCA :pca_c600.30.556.
+:pca_c600.30.556 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.556 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.556
+:just_pca_c600.30.556 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.556 :temJustificacao :just_pca_c600.30.556.
+:crit_just_pca_c600.30.556_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.556 :temCriterio :crit_just_pca_c600.30.556_1.
+:crit_just_pca_c600.30.556_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.556_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.557.01
+:pca_c600.30.557.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.557.01 :temPCA :pca_c600.30.557.01.
+:pca_c600.30.557.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.557.01 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.557.01
+:just_pca_c600.30.557.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.557.01 :temJustificacao :just_pca_c600.30.557.01.
+:crit_just_pca_c600.30.557.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.557.01 :temCriterio :crit_just_pca_c600.30.557.01_1.
+:crit_just_pca_c600.30.557.01_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.558
+:pca_c600.30.558 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c600.30.558 :temPCA :pca_c600.30.558.
+:pca_c600.30.558 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.558 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.558
+:just_pca_c600.30.558 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.558 :temJustificacao :just_pca_c600.30.558.
+:crit_just_pca_c600.30.558_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "CPPT, [DL 433/99], artº 27, nº 2 \"Os arquivos são obrigatoriamente mantidos durante os 10 anos seguintes à decisão dos procedimentos ou ao trânsito em julgado das decisões judiciais.\"".
+:just_pca_c600.30.558 :temCriterio :crit_just_pca_c600.30.558_1.
+:crit_just_pca_c600.30.558_1 :temLegislacao :leg_263.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.559
+:pca_c600.30.559 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c600.30.559 :temPCA :pca_c600.30.559.
+:pca_c600.30.559 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.559 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.559
+:just_pca_c600.30.559 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.559 :temJustificacao :just_pca_c600.30.559.
+:crit_just_pca_c600.30.559_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "CPPT, [DL 433/99], artº 27, nº 2 \"Os arquivos são obrigatoriamente mantidos durante os 10 anos seguintes à decisão dos procedimentos ou ao trânsito em julgado das decisões judiciais.\"".
+:just_pca_c600.30.559 :temCriterio :crit_just_pca_c600.30.559_1.
+:crit_just_pca_c600.30.559_1 :temLegislacao :leg_263.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.560
+:pca_c600.30.560 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c600.30.560 :temPCA :pca_c600.30.560.
+:pca_c600.30.560 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.560 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.560
+:just_pca_c600.30.560 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.560 :temJustificacao :just_pca_c600.30.560.
+:crit_just_pca_c600.30.560_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "CPPT, [DL 433/99], artº 27, nº 2 \"Os arquivos são obrigatoriamente mantidos durante os 10 anos seguintes à decisão dos procedimentos ou ao trânsito em julgado das decisões judiciais.\"".
+:just_pca_c600.30.560 :temCriterio :crit_just_pca_c600.30.560_1.
+:crit_just_pca_c600.30.560_1 :temLegislacao :leg_263.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.561
+:pca_c600.30.561 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c600.30.561 :temPCA :pca_c600.30.561.
+:pca_c600.30.561 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.561 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.561
+:just_pca_c600.30.561 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.561 :temJustificacao :just_pca_c600.30.561.
+:crit_just_pca_c600.30.561_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "CPPT, [DL 433/99], artº 27, nº 2 \"Os arquivos são obrigatoriamente mantidos durante os 10 anos seguintes à decisão dos procedimentos ou ao trânsito em julgado das decisões judiciais.\"".
+:just_pca_c600.30.561 :temCriterio :crit_just_pca_c600.30.561_1.
+:crit_just_pca_c600.30.561_1 :temLegislacao :leg_263.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.562
+:pca_c600.30.562 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.562 :temPCA :pca_c600.30.562.
+:pca_c600.30.562 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.562 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.562
+:just_pca_c600.30.562 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.562 :temJustificacao :just_pca_c600.30.562.
+:crit_just_pca_c600.30.562_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.562 :temCriterio :crit_just_pca_c600.30.562_1.
+:crit_just_pca_c600.30.562_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.750
+:pca_c600.30.750 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.750 :temPCA :pca_c600.30.750.
+:pca_c600.30.750 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.750 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.750
+:just_pca_c600.30.750 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.750 :temJustificacao :just_pca_c600.30.750.
+:crit_just_pca_c600.30.750_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Caso seja tramitado numa ação pendente o prazo de conservação será o da ação respetiva. Se não houver qualquer ação pendente, o prazo de conservação será de um ano após a decisão, por ocorrer a caducidade do direito à proteção jurídica ([Lei 34/2004], artº 11)".
+:just_pca_c600.30.750 :temCriterio :crit_just_pca_c600.30.750_1.
+:crit_just_pca_c600.30.750_1 :temLegislacao :leg_455.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.751
+:pca_c600.30.751 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.751 :temPCA :pca_c600.30.751.
+:pca_c600.30.751 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.751 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.751
+:just_pca_c600.30.751 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.751 :temJustificacao :just_pca_c600.30.751.
+:crit_just_pca_c600.30.751_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.751 :temCriterio :crit_just_pca_c600.30.751_1.
+:crit_just_pca_c600.30.751_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.751_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.752
+:pca_c600.30.752 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.752 :temPCA :pca_c600.30.752.
+:pca_c600.30.752 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.752 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.752
+:just_pca_c600.30.752 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.752 :temJustificacao :just_pca_c600.30.752.
+:crit_just_pca_c600.30.752_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.752 :temCriterio :crit_just_pca_c600.30.752_1.
+:crit_just_pca_c600.30.752_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.752_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.753
+:pca_c600.30.753 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.753 :temPCA :pca_c600.30.753.
+:pca_c600.30.753 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.753 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.753
+:just_pca_c600.30.753 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.753 :temJustificacao :just_pca_c600.30.753.
+:crit_just_pca_c600.30.753_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.753 :temCriterio :crit_just_pca_c600.30.753_1.
+:crit_just_pca_c600.30.753_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.753_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.800
+:pca_c600.30.800 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.30.800 :temPCA :pca_c600.30.800.
+:pca_c600.30.800 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.800 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.800
+:just_pca_c600.30.800 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.800 :temJustificacao :just_pca_c600.30.800.
+:crit_just_pca_c600.30.800_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.30.800 :temCriterio :crit_just_pca_c600.30.800_1.
+:crit_just_pca_c600.30.800_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.30.801
+:pca_c600.30.801 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.30.801 :temPCA :pca_c600.30.801.
+:pca_c600.30.801 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.30.801 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.30.801
+:just_pca_c600.30.801 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.30.801 :temJustificacao :just_pca_c600.30.801.
+:crit_just_pca_c600.30.801_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.30.801 :temCriterio :crit_just_pca_c600.30.801_1.
+:crit_just_pca_c600.30.801_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.30.801_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.40.001
+:pca_c600.40.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 3.
+:c600.40.001 :temPCA :pca_c600.40.001.
+:pca_c600.40.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.40.001 :pcaSubformaContagem :vc_pcaSubformaContagem_1 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.40.001
+:just_pca_c600.40.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.40.001 :temJustificacao :just_pca_c600.40.001.
+:crit_just_pca_c600.40.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 37/2015], artº 11, nº 6 - Registo Criminal - \"As decisões cuja vigência haja cessado são mantidas em ficheiro informático próprio durante um período máximo de 3 anos, o qual apenas pode ser acedido pelos serviços de identificação criminal para efeito de reposição de registo indevidamente cancelado ou retirado, e findo aquele prazo máximo são canceladas de forma irrevogável.\"".
+:just_pca_c600.40.001 :temCriterio :crit_just_pca_c600.40.001_1.
+:crit_just_pca_c600.40.001_1 :temLegislacao :leg_1368.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.40.002.01
+:pca_c600.40.002.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c600.40.002.01 :temPCA :pca_c600.40.002.01.
+:pca_c600.40.002.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.40.002.01
+:just_pca_c600.40.002.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.40.002.01 :temJustificacao :just_pca_c600.40.002.01.
+:crit_just_pca_c600.40.002.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 144/2001], artº 9 \"O prazo de conservação dos dados pessoais é de 10 anos a contar da data da extinção da execução da pena ou medida de privação de liberdade. A contagem do prazo interrompe-se se durante o seu decurso ocorrer a execução de outra pena ou medida de privação de liberdade, correndo novo prazo de 10 anos, nos termos previstos no número anterior\"".
+:just_pca_c600.40.002.01 :temCriterio :crit_just_pca_c600.40.002.01_1.
+:crit_just_pca_c600.40.002.01_1 :temLegislacao :leg_328.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.40.003
+:pca_c600.40.003 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1.
+:c600.40.003 :temPCA :pca_c600.40.003.
+:pca_c600.40.003 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.40.003
+:just_pca_c600.40.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.40.003 :temJustificacao :just_pca_c600.40.003.
+:crit_just_pca_c600.40.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo para dar sequência à execução da pena e medida, sendo que a finalidade esgota-se na tomada de decisão, a qual não é impugnável.".
+:just_pca_c600.40.003 :temCriterio :crit_just_pca_c600.40.003_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.40.100
+:pca_c600.40.100 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.40.100 :temPCA :pca_c600.40.100.
+:pca_c600.40.100 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.40.100 :pcaSubformaContagem :vc_pcaSubformaContagem_7 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.40.100
+:just_pca_c600.40.100 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.40.100 :temJustificacao :just_pca_c600.40.100.
+:crit_just_pca_c600.40.100_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 166/99], artº 132, nº 5 (Lei tutelar educativa), \"os dossiers individuais são obrigatoriamente destruidos decorridos 5 anos sobre a data em que o jovem completa 21 anos\".".
+:just_pca_c600.40.100 :temCriterio :crit_just_pca_c600.40.100_1.
+:crit_just_pca_c600.40.100_1 :temLegislacao :leg_285.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.40.200
+:pca_c600.40.200 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 3.
+:c600.40.200 :temPCA :pca_c600.40.200.
+:pca_c600.40.200 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.40.200
+:just_pca_c600.40.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.40.200 :temJustificacao :just_pca_c600.40.200.
+:crit_just_pca_c600.40.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 33/2010], artº 32 e 33 (Regula a utilização de meios técnicos de controlo à distância), conservação de dados \"1 - Os dados referidos no artigo 29º são conservados durante a execução das penas e medidas com vigilância electrónica e até 18 meses após o seu termo. 2 - Findo o prazo referido no número anterior, os dados são retirados do sistema informático e conservados em suporte adequado em arquivo próprio dos serviços de reinserção social. Destruição de dados \"Os dados referentes aos vigiados sujeitos a vigilância electrónica conservados em suporte fora do sistema informático são destruídos três anos após a extinção da pena ou o fim da medida com vigilância electrónica.".
+:just_pca_c600.40.200 :temCriterio :crit_just_pca_c600.40.200_1.
+:crit_just_pca_c600.40.200_1 :temLegislacao :leg_927.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.40.300
+:pca_c600.40.300 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.40.300 :temPCA :pca_c600.40.300.
+:pca_c600.40.300 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.40.300
+:just_pca_c600.40.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.40.300 :temJustificacao :just_pca_c600.40.300.
+:crit_just_pca_c600.40.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 23/2007] Entrada, permanência, saída e afastamento de estrangeiros do território nacional.".
+:just_pca_c600.40.300 :temCriterio :crit_just_pca_c600.40.300_1.
+:crit_just_pca_c600.40.300_1 :temLegislacao :leg_619.
+:crit_just_pca_c600.40.300_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Relevância para apreciação de eventuais pedidos de visto ou autorização de residência, necessidade para controlo de fronteira e relação com medidas de interdição de entrada (a sua violação é criminalizada, prescrevendo a prática deste crime ao fim de cinco anos).".
+:just_pca_c600.40.300 :temCriterio :crit_just_pca_c600.40.300_2.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.40.301
+:pca_c600.40.301 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1.
+:c600.40.301 :temPCA :pca_c600.40.301.
+:pca_c600.40.301 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.40.301 :pcaSubformaContagem :vc_pcaSubformaContagem_1 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.40.301
+:just_pca_c600.40.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.40.301 :temJustificacao :just_pca_c600.40.301.
+:crit_just_pca_c600.40.301_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " Maior de idade: [Lei 37/2015], artº 11;Menor de idade: [Lei 4/2015], artº 220.".
+:just_pca_c600.40.301 :temCriterio :crit_just_pca_c600.40.301_1.
+:crit_just_pca_c600.40.301_1 :temLegislacao :leg_1368.
+:crit_just_pca_c600.40.301_1 :temLegislacao :leg_1358.
+:crit_just_pca_c600.40.301_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Tempo necessário para dar sequência ao PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão e ao PN 300.10.302 - Eliminação de documentos e informação, em que se procede à eliminação do processo.".
+:just_pca_c600.40.301 :temCriterio :crit_just_pca_c600.40.301_2.
+:crit_just_pca_c600.40.301_2 :temProcessoRelacionado :c150.40.500.
+:crit_just_pca_c600.40.301_2 :temProcessoRelacionado :c300.10.302.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.40.302
+:pca_c600.40.302 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1.
+:c600.40.302 :temPCA :pca_c600.40.302.
+:pca_c600.40.302 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.40.302
+:just_pca_c600.40.302 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.40.302 :temJustificacao :just_pca_c600.40.302.
+:crit_just_pca_c600.40.302_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " [Lei 37/2015], artº 11.".
+:just_pca_c600.40.302 :temCriterio :crit_just_pca_c600.40.302_1.
+:crit_just_pca_c600.40.302_1 :temLegislacao :leg_1368.
+:crit_just_pca_c600.40.302_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Tempo necessário para dar sequência ao PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão e ao PN 300.10.302 - Eliminação de documentos e informação, em que se procede à eliminação do processo.".
+:just_pca_c600.40.302 :temCriterio :crit_just_pca_c600.40.302_2.
+:crit_just_pca_c600.40.302_2 :temProcessoRelacionado :c150.40.500.
+:crit_just_pca_c600.40.302_2 :temProcessoRelacionado :c300.10.302.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.40.303
+:pca_c600.40.303 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1.
+:c600.40.303 :temPCA :pca_c600.40.303.
+:pca_c600.40.303 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.40.303 :pcaSubformaContagem :vc_pcaSubformaContagem_7 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.40.303
+:just_pca_c600.40.303 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.40.303 :temJustificacao :just_pca_c600.40.303.
+:crit_just_pca_c600.40.303_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo " [Lei 4/2015], artº 220".
+:just_pca_c600.40.303 :temCriterio :crit_just_pca_c600.40.303_1.
+:crit_just_pca_c600.40.303_1 :temLegislacao :leg_1358.
+:crit_just_pca_c600.40.303_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Tempo necessário para dar sequência ao PN 300.10.302 - Eliminação de documentos e informação, em que se procede à eliminação do processo.".
+:just_pca_c600.40.303 :temCriterio :crit_just_pca_c600.40.303_2.
+:crit_just_pca_c600.40.303_2 :temProcessoRelacionado :c300.10.302.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.40.400
+:pca_c600.40.400 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c600.40.400 :temPCA :pca_c600.40.400.
+:pca_c600.40.400 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.40.400 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.40.400
+:just_pca_c600.40.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.40.400 :temJustificacao :just_pca_c600.40.400.
+:crit_just_pca_c600.40.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo ordinário de prescrição ([DL 47344/66], Código Civil, artº 309).".
+:just_pca_c600.40.400 :temCriterio :crit_just_pca_c600.40.400_1.
+:crit_just_pca_c600.40.400_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.40.500.01
+:pca_c600.40.500.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.40.500.01 :temPCA :pca_c600.40.500.01.
+:pca_c600.40.500.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.40.500.01 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.40.500.01
+:just_pca_c600.40.500.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.40.500.01 :temJustificacao :just_pca_c600.40.500.01.
+:crit_just_pca_c600.40.500.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.40.500.01 :temCriterio :crit_just_pca_c600.40.500.01_1.
+:crit_just_pca_c600.40.500.01_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.40.500.01_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.40.600.01
+:pca_c600.40.600.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c600.40.600.01 :temPCA :pca_c600.40.600.01.
+:pca_c600.40.600.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.40.600.01 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.40.600.01
+:just_pca_c600.40.600.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.40.600.01 :temJustificacao :just_pca_c600.40.600.01.
+:crit_just_pca_c600.40.600.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo previsto para a realização de inspeções aos tribunais, aos magistrados e aos oficiais de justiça - Regulamentos das inspeções Judiciais, [Deliberação do Conselho Superior de Magistratura 1868/2012], artº  5º; Regulamento das inspeções do Ministério Público, [Regulamento 17/2002], artº  7º; Regulamento das inspeções dos Tribunais Administrativos e Fiscais, [Deliberação do Conselho Superior dos Tribunais Administrativos e Fiscais 825/2005], artº 4º; Estatuto dos Funcionários de Justiça, [DL 343/99], artº 71º .".
+:just_pca_c600.40.600.01 :temCriterio :crit_just_pca_c600.40.600.01_1.
+:crit_just_pca_c600.40.600.01_1 :temLegislacao :leg_354.
+:crit_just_pca_c600.40.600.01_1 :temLegislacao :leg_259.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.40.700
+:pca_c600.40.700 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c600.40.700 :temPCA :pca_c600.40.700.
+:pca_c600.40.700 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.40.700 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.40.700
+:just_pca_c600.40.700 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.40.700 :temJustificacao :just_pca_c600.40.700.
+:crit_just_pca_c600.40.700_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "CPPT, [DL 433/99], artº 27, nº 2 \"Os arquivos são obrigatoriamente mantidos durante os 10 anos seguintes à decisão dos procedimentos ou ao trânsito em julgado das decisões judiciais.\"".
+:just_pca_c600.40.700 :temCriterio :crit_just_pca_c600.40.700_1.
+:crit_just_pca_c600.40.700_1 :temLegislacao :leg_263.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c600.40.900
+:pca_c600.40.900 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c600.40.900 :temPCA :pca_c600.40.900.
+:pca_c600.40.900 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_disposicaoLegal .
+:pca_c600.40.900 :pcaSubformaContagem :vc_pcaSubformaContagem_9 .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c600.40.900
+:just_pca_c600.40.900 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c600.40.900 :temJustificacao :just_pca_c600.40.900.
+:crit_just_pca_c600.40.900_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "CPPT, [DL 433/99], artº 27, nº 2 \"Os arquivos são obrigatoriamente mantidos durante os 10 anos seguintes à decisão dos procedimentos ou ao trânsito em julgado das decisões judiciais.\"".
+:just_pca_c600.40.900 :temCriterio :crit_just_pca_c600.40.900_1.
+:crit_just_pca_c600.40.900_1 :temLegislacao :leg_263.

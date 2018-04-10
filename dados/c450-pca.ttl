@@ -1,0 +1,1859 @@
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.062
+:pca_c450.10.062 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.062 :temPCA :pca_c450.10.062.
+:pca_c450.10.062 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.062
+:just_pca_c450.10.062 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.062 :temJustificacao :just_pca_c450.10.062.
+:crit_just_pca_c450.10.062_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;[DL 433/99], CPPT, artº 27, nº 2 - \"Os arquivos [procedimentos administrativos e processos judiciais tributários instaurados] são obrigatoriamente mantidos durante 10 anos(..)\";".
+:just_pca_c450.10.062 :temCriterio :crit_just_pca_c450.10.062_1.
+:crit_just_pca_c450.10.062_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.062_1 :temLegislacao :leg_263.
+:crit_just_pca_c450.10.062_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.062 :temCriterio :crit_just_pca_c450.10.062_2.
+:crit_just_pca_c450.10.062_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.062_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.062_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.063
+:pca_c450.10.063 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.063 :temPCA :pca_c450.10.063.
+:pca_c450.10.063 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.063
+:just_pca_c450.10.063 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.063 :temJustificacao :just_pca_c450.10.063.
+:crit_just_pca_c450.10.063_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.063 :temCriterio :crit_just_pca_c450.10.063_1.
+:crit_just_pca_c450.10.063_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.063_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.063 :temCriterio :crit_just_pca_c450.10.063_2.
+:crit_just_pca_c450.10.063_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.063_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.063_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.064
+:pca_c450.10.064 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.064 :temPCA :pca_c450.10.064.
+:pca_c450.10.064 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.064
+:just_pca_c450.10.064 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.064 :temJustificacao :just_pca_c450.10.064.
+:crit_just_pca_c450.10.064_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.064 :temCriterio :crit_just_pca_c450.10.064_1.
+:crit_just_pca_c450.10.064_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.064_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.064 :temCriterio :crit_just_pca_c450.10.064_2.
+:crit_just_pca_c450.10.064_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.064_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.064_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.065
+:pca_c450.10.065 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.065 :temPCA :pca_c450.10.065.
+:pca_c450.10.065 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.065
+:just_pca_c450.10.065 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.065 :temJustificacao :just_pca_c450.10.065.
+:crit_just_pca_c450.10.065_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.065 :temCriterio :crit_just_pca_c450.10.065_1.
+:crit_just_pca_c450.10.065_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.065_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.065 :temCriterio :crit_just_pca_c450.10.065_2.
+:crit_just_pca_c450.10.065_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.065_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.065_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.066
+:pca_c450.10.066 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.066 :temPCA :pca_c450.10.066.
+:pca_c450.10.066 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.066
+:just_pca_c450.10.066 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.066 :temJustificacao :just_pca_c450.10.066.
+:crit_just_pca_c450.10.066_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.066 :temCriterio :crit_just_pca_c450.10.066_1.
+:crit_just_pca_c450.10.066_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.066_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.066 :temCriterio :crit_just_pca_c450.10.066_2.
+:crit_just_pca_c450.10.066_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.066_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.066_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.068
+:pca_c450.10.068 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.068 :temPCA :pca_c450.10.068.
+:pca_c450.10.068 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.068
+:just_pca_c450.10.068 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.068 :temJustificacao :just_pca_c450.10.068.
+:crit_just_pca_c450.10.068_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.068 :temCriterio :crit_just_pca_c450.10.068_1.
+:crit_just_pca_c450.10.068_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.068_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.068 :temCriterio :crit_just_pca_c450.10.068_2.
+:crit_just_pca_c450.10.068_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.068_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.068_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.070
+:pca_c450.10.070 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 30.
+:c450.10.070 :temPCA :pca_c450.10.070.
+:pca_c450.10.070 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.070
+:just_pca_c450.10.070 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.070 :temJustificacao :just_pca_c450.10.070.
+:crit_just_pca_c450.10.070_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade por danos ambientais;[DL 147/2008], artº 33 - \"Consideram-se prescritos os danos causados por quaisquer emissões, acontecimentos ou incidentes que hajam decorrido há mais de 30 anos sobre a efectivação do mesmo.\"".
+:just_pca_c450.10.070 :temCriterio :crit_just_pca_c450.10.070_1.
+:crit_just_pca_c450.10.070_1 :temLegislacao :leg_699.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.071
+:pca_c450.10.071 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.071 :temPCA :pca_c450.10.071.
+:pca_c450.10.071 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.071
+:just_pca_c450.10.071 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.071 :temJustificacao :just_pca_c450.10.071.
+:crit_just_pca_c450.10.071_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.071 :temCriterio :crit_just_pca_c450.10.071_1.
+:crit_just_pca_c450.10.071_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.071_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.071 :temCriterio :crit_just_pca_c450.10.071_2.
+:crit_just_pca_c450.10.071_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.071_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.071_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.072
+:pca_c450.10.072 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.072 :temPCA :pca_c450.10.072.
+:pca_c450.10.072 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.072
+:just_pca_c450.10.072 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.072 :temJustificacao :just_pca_c450.10.072.
+:crit_just_pca_c450.10.072_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.072 :temCriterio :crit_just_pca_c450.10.072_1.
+:crit_just_pca_c450.10.072_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.072_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.072 :temCriterio :crit_just_pca_c450.10.072_2.
+:crit_just_pca_c450.10.072_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.072_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.072_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.073
+:pca_c450.10.073 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.073 :temPCA :pca_c450.10.073.
+:pca_c450.10.073 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.073
+:just_pca_c450.10.073 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.073 :temJustificacao :just_pca_c450.10.073.
+:crit_just_pca_c450.10.073_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.073 :temCriterio :crit_just_pca_c450.10.073_1.
+:crit_just_pca_c450.10.073_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.073_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.073 :temCriterio :crit_just_pca_c450.10.073_2.
+:crit_just_pca_c450.10.073_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.073_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.073_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.074
+:pca_c450.10.074 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.074 :temPCA :pca_c450.10.074.
+:pca_c450.10.074 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.074
+:just_pca_c450.10.074 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.074 :temJustificacao :just_pca_c450.10.074.
+:crit_just_pca_c450.10.074_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.074 :temCriterio :crit_just_pca_c450.10.074_1.
+:crit_just_pca_c450.10.074_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.074_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.074 :temCriterio :crit_just_pca_c450.10.074_2.
+:crit_just_pca_c450.10.074_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.074_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.074_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.075
+:pca_c450.10.075 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.075 :temPCA :pca_c450.10.075.
+:pca_c450.10.075 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.075
+:just_pca_c450.10.075 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.075 :temJustificacao :just_pca_c450.10.075.
+:crit_just_pca_c450.10.075_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.075 :temCriterio :crit_just_pca_c450.10.075_1.
+:crit_just_pca_c450.10.075_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.075_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.075 :temCriterio :crit_just_pca_c450.10.075_2.
+:crit_just_pca_c450.10.075_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.075_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.075_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.076
+:pca_c450.10.076 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.076 :temPCA :pca_c450.10.076.
+:pca_c450.10.076 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.076
+:just_pca_c450.10.076 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.076 :temJustificacao :just_pca_c450.10.076.
+:crit_just_pca_c450.10.076_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.076 :temCriterio :crit_just_pca_c450.10.076_1.
+:crit_just_pca_c450.10.076_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.076_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.076 :temCriterio :crit_just_pca_c450.10.076_2.
+:crit_just_pca_c450.10.076_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.076_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.076_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.077
+:pca_c450.10.077 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.077 :temPCA :pca_c450.10.077.
+:pca_c450.10.077 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.077
+:just_pca_c450.10.077 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.077 :temJustificacao :just_pca_c450.10.077.
+:crit_just_pca_c450.10.077_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.077 :temCriterio :crit_just_pca_c450.10.077_1.
+:crit_just_pca_c450.10.077_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.077_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.077 :temCriterio :crit_just_pca_c450.10.077_2.
+:crit_just_pca_c450.10.077_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.077_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.077_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.078
+:pca_c450.10.078 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.078 :temPCA :pca_c450.10.078.
+:pca_c450.10.078 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.078
+:just_pca_c450.10.078 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.078 :temJustificacao :just_pca_c450.10.078.
+:crit_just_pca_c450.10.078_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.078 :temCriterio :crit_just_pca_c450.10.078_1.
+:crit_just_pca_c450.10.078_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.078_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.078 :temCriterio :crit_just_pca_c450.10.078_2.
+:crit_just_pca_c450.10.078_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.078_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.078_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.079
+:pca_c450.10.079 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.079 :temPCA :pca_c450.10.079.
+:pca_c450.10.079 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.079
+:just_pca_c450.10.079 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.079 :temJustificacao :just_pca_c450.10.079.
+:crit_just_pca_c450.10.079_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.079 :temCriterio :crit_just_pca_c450.10.079_1.
+:crit_just_pca_c450.10.079_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.079_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.079 :temCriterio :crit_just_pca_c450.10.079_2.
+:crit_just_pca_c450.10.079_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.079_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.079_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.080
+:pca_c450.10.080 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.080 :temPCA :pca_c450.10.080.
+:pca_c450.10.080 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.080
+:just_pca_c450.10.080 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.080 :temJustificacao :just_pca_c450.10.080.
+:crit_just_pca_c450.10.080_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.080 :temCriterio :crit_just_pca_c450.10.080_1.
+:crit_just_pca_c450.10.080_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.080_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.080 :temCriterio :crit_just_pca_c450.10.080_2.
+:crit_just_pca_c450.10.080_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.080_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.080_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.200
+:pca_c450.10.200 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.200 :temPCA :pca_c450.10.200.
+:pca_c450.10.200 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.200
+:just_pca_c450.10.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.200 :temJustificacao :just_pca_c450.10.200.
+:crit_just_pca_c450.10.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.200 :temCriterio :crit_just_pca_c450.10.200_1.
+:crit_just_pca_c450.10.200_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.200_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e do  500.10.301 - Realização de fiscalização(no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.200 :temCriterio :crit_just_pca_c450.10.200_2.
+:crit_just_pca_c450.10.200_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.200_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.201
+:pca_c450.10.201 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.201 :temPCA :pca_c450.10.201.
+:pca_c450.10.201 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.201
+:just_pca_c450.10.201 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.201 :temJustificacao :just_pca_c450.10.201.
+:crit_just_pca_c450.10.201_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.201 :temCriterio :crit_just_pca_c450.10.201_1.
+:crit_just_pca_c450.10.201_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.201_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.201 :temCriterio :crit_just_pca_c450.10.201_2.
+:crit_just_pca_c450.10.201_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.201_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.201_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.202
+:pca_c450.10.202 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.202 :temPCA :pca_c450.10.202.
+:pca_c450.10.202 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.202
+:just_pca_c450.10.202 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.202 :temJustificacao :just_pca_c450.10.202.
+:crit_just_pca_c450.10.202_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.202 :temCriterio :crit_just_pca_c450.10.202_1.
+:crit_just_pca_c450.10.202_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.202_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.202 :temCriterio :crit_just_pca_c450.10.202_2.
+:crit_just_pca_c450.10.202_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.202_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.202_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.203
+:pca_c450.10.203 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.203 :temPCA :pca_c450.10.203.
+:pca_c450.10.203 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.203
+:just_pca_c450.10.203 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.203 :temJustificacao :just_pca_c450.10.203.
+:crit_just_pca_c450.10.203_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.203 :temCriterio :crit_just_pca_c450.10.203_1.
+:crit_just_pca_c450.10.203_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.203_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.203 :temCriterio :crit_just_pca_c450.10.203_2.
+:crit_just_pca_c450.10.203_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.203_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.203_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.204
+:pca_c450.10.204 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.204 :temPCA :pca_c450.10.204.
+:pca_c450.10.204 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.204
+:just_pca_c450.10.204 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.204 :temJustificacao :just_pca_c450.10.204.
+:crit_just_pca_c450.10.204_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.204 :temCriterio :crit_just_pca_c450.10.204_1.
+:crit_just_pca_c450.10.204_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.204_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.204 :temCriterio :crit_just_pca_c450.10.204_2.
+:crit_just_pca_c450.10.204_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.204_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.204_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.205
+:pca_c450.10.205 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.205 :temPCA :pca_c450.10.205.
+:pca_c450.10.205 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.205
+:just_pca_c450.10.205 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.205 :temJustificacao :just_pca_c450.10.205.
+:crit_just_pca_c450.10.205_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.205 :temCriterio :crit_just_pca_c450.10.205_1.
+:crit_just_pca_c450.10.205_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.205_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.205 :temCriterio :crit_just_pca_c450.10.205_2.
+:crit_just_pca_c450.10.205_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.205_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.205_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.207
+:pca_c450.10.207 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 30.
+:c450.10.207 :temPCA :pca_c450.10.207.
+:pca_c450.10.207 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.207
+:just_pca_c450.10.207 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.207 :temJustificacao :just_pca_c450.10.207.
+:crit_just_pca_c450.10.207_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade por danos ambientais;[DL 147/2008], artº 33 - \"Consideram-se prescritos os danos causados por quaisquer emissões, acontecimentos ou incidentes que hajam decorrido há mais de 30 anos sobre a efectivação do mesmo.\"".
+:just_pca_c450.10.207 :temCriterio :crit_just_pca_c450.10.207_1.
+:crit_just_pca_c450.10.207_1 :temLegislacao :leg_699.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.208
+:pca_c450.10.208 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 30.
+:c450.10.208 :temPCA :pca_c450.10.208.
+:pca_c450.10.208 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.208
+:just_pca_c450.10.208 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.208 :temJustificacao :just_pca_c450.10.208.
+:crit_just_pca_c450.10.208_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade por danos ambientais[DL 147/2008], artº 33 - \"Consideram-se prescritos os danos causados por quaisquer emissões, acontecimentos ou incidentes que hajam decorrido há mais de 30 anos sobre a efectivação do mesmo.\"".
+:just_pca_c450.10.208 :temCriterio :crit_just_pca_c450.10.208_1.
+:crit_just_pca_c450.10.208_1 :temLegislacao :leg_699.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.209
+:pca_c450.10.209 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.209 :temPCA :pca_c450.10.209.
+:pca_c450.10.209 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.209
+:just_pca_c450.10.209 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.209 :temJustificacao :just_pca_c450.10.209.
+:crit_just_pca_c450.10.209_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.209 :temCriterio :crit_just_pca_c450.10.209_1.
+:crit_just_pca_c450.10.209_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.209_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 (no que diz respeito à atuação da Administração) e dos PN 500.10.300 e  500.10.301 (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.209 :temCriterio :crit_just_pca_c450.10.209_2.
+:crit_just_pca_c450.10.209_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.209_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.209_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.210
+:pca_c450.10.210 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.210 :temPCA :pca_c450.10.210.
+:pca_c450.10.210 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.210
+:just_pca_c450.10.210 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.210 :temJustificacao :just_pca_c450.10.210.
+:crit_just_pca_c450.10.210_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.210 :temCriterio :crit_just_pca_c450.10.210_1.
+:crit_just_pca_c450.10.210_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.210_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.210 :temCriterio :crit_just_pca_c450.10.210_2.
+:crit_just_pca_c450.10.210_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.210_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.210_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.212
+:pca_c450.10.212 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.212 :temPCA :pca_c450.10.212.
+:pca_c450.10.212 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.212
+:just_pca_c450.10.212 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.212 :temJustificacao :just_pca_c450.10.212.
+:crit_just_pca_c450.10.212_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.212 :temCriterio :crit_just_pca_c450.10.212_1.
+:crit_just_pca_c450.10.212_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.212_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.212 :temCriterio :crit_just_pca_c450.10.212_2.
+:crit_just_pca_c450.10.212_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.212_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.212_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.213
+:pca_c450.10.213 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.213 :temPCA :pca_c450.10.213.
+:pca_c450.10.213 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.213
+:just_pca_c450.10.213 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.213 :temJustificacao :just_pca_c450.10.213.
+:crit_just_pca_c450.10.213_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.213 :temCriterio :crit_just_pca_c450.10.213_1.
+:crit_just_pca_c450.10.213_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.213_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.213 :temCriterio :crit_just_pca_c450.10.213_2.
+:crit_just_pca_c450.10.213_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.213_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.213_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.214
+:pca_c450.10.214 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.214 :temPCA :pca_c450.10.214.
+:pca_c450.10.214 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.214
+:just_pca_c450.10.214 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.214 :temJustificacao :just_pca_c450.10.214.
+:crit_just_pca_c450.10.214_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.214 :temCriterio :crit_just_pca_c450.10.214_1.
+:crit_just_pca_c450.10.214_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.214_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e  500.10.301 - Realização de fiscalização(no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.214 :temCriterio :crit_just_pca_c450.10.214_2.
+:crit_just_pca_c450.10.214_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.214_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.214_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.215
+:pca_c450.10.215 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.215 :temPCA :pca_c450.10.215.
+:pca_c450.10.215 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.215
+:just_pca_c450.10.215 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.215 :temJustificacao :just_pca_c450.10.215.
+:crit_just_pca_c450.10.215_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.215 :temCriterio :crit_just_pca_c450.10.215_1.
+:crit_just_pca_c450.10.215_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.215_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.215 :temCriterio :crit_just_pca_c450.10.215_2.
+:crit_just_pca_c450.10.215_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.215_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.215_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.216
+:pca_c450.10.216 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.216 :temPCA :pca_c450.10.216.
+:pca_c450.10.216 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.216
+:just_pca_c450.10.216 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.216 :temJustificacao :just_pca_c450.10.216.
+:crit_just_pca_c450.10.216_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.216 :temCriterio :crit_just_pca_c450.10.216_1.
+:crit_just_pca_c450.10.216_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.216_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.216 :temCriterio :crit_just_pca_c450.10.216_2.
+:crit_just_pca_c450.10.216_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.216_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.216_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.219
+:pca_c450.10.219 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.219 :temPCA :pca_c450.10.219.
+:pca_c450.10.219 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.219
+:just_pca_c450.10.219 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.219 :temJustificacao :just_pca_c450.10.219.
+:crit_just_pca_c450.10.219_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.219 :temCriterio :crit_just_pca_c450.10.219_1.
+:crit_just_pca_c450.10.219_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.219_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.219 :temCriterio :crit_just_pca_c450.10.219_2.
+:crit_just_pca_c450.10.219_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.219_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.219_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.220
+:pca_c450.10.220 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.220 :temPCA :pca_c450.10.220.
+:pca_c450.10.220 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.220
+:just_pca_c450.10.220 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.220 :temJustificacao :just_pca_c450.10.220.
+:crit_just_pca_c450.10.220_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.220 :temCriterio :crit_just_pca_c450.10.220_1.
+:crit_just_pca_c450.10.220_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.220_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 (no que diz respeito à atuação da Administração) e dos PN 500.10.300 e  500.10.301 (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.220 :temCriterio :crit_just_pca_c450.10.220_2.
+:crit_just_pca_c450.10.220_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.220_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.220_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.221
+:pca_c450.10.221 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.221 :temPCA :pca_c450.10.221.
+:pca_c450.10.221 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.221
+:just_pca_c450.10.221 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.221 :temJustificacao :just_pca_c450.10.221.
+:crit_just_pca_c450.10.221_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.221 :temCriterio :crit_just_pca_c450.10.221_1.
+:crit_just_pca_c450.10.221_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.221_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.221 :temCriterio :crit_just_pca_c450.10.221_2.
+:crit_just_pca_c450.10.221_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.221_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.221_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.222
+:pca_c450.10.222 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.222 :temPCA :pca_c450.10.222.
+:pca_c450.10.222 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.222
+:just_pca_c450.10.222 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.222 :temJustificacao :just_pca_c450.10.222.
+:crit_just_pca_c450.10.222_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade criminal - [DL 48/95] Código Penal, artº 8 a artº 21);Prazo prescricional do procedimento contraordenacional ambiental [Lei 50/2006], artº 61 - Prescrição do crédito de custas \"O crédito de custas prescreve no prazo de cinco anos.".
+:just_pca_c450.10.222 :temCriterio :crit_just_pca_c450.10.222_1.
+:crit_just_pca_c450.10.222_1 :temLegislacao :leg_164.
+:crit_just_pca_c450.10.222_1 :temLegislacao :leg_553.
+:crit_just_pca_c450.10.222_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.222 :temCriterio :crit_just_pca_c450.10.222_2.
+:crit_just_pca_c450.10.222_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.222_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.222_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.223
+:pca_c450.10.223 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 30.
+:c450.10.223 :temPCA :pca_c450.10.223.
+:pca_c450.10.223 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.223
+:just_pca_c450.10.223 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.223 :temJustificacao :just_pca_c450.10.223.
+:crit_just_pca_c450.10.223_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade por danos ambientais [DL 147/2008], artº 33 - \"Consideram-se prescritos os danos causados por quaisquer emissões, acontecimentos ou incidentes que hajam decorrido há mais de 30 anos sobre a efectivação do mesmo.\"".
+:just_pca_c450.10.223 :temCriterio :crit_just_pca_c450.10.223_1.
+:crit_just_pca_c450.10.223_1 :temLegislacao :leg_699.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.224
+:pca_c450.10.224 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.224 :temPCA :pca_c450.10.224.
+:pca_c450.10.224 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.224
+:just_pca_c450.10.224 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.224 :temJustificacao :just_pca_c450.10.224.
+:crit_just_pca_c450.10.224_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.224 :temCriterio :crit_just_pca_c450.10.224_1.
+:crit_just_pca_c450.10.224_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.224_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.224 :temCriterio :crit_just_pca_c450.10.224_2.
+:crit_just_pca_c450.10.224_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.224_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.224_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.227
+:pca_c450.10.227 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.227 :temPCA :pca_c450.10.227.
+:pca_c450.10.227 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.227
+:just_pca_c450.10.227 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.227 :temJustificacao :just_pca_c450.10.227.
+:crit_just_pca_c450.10.227_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.227 :temCriterio :crit_just_pca_c450.10.227_1.
+:crit_just_pca_c450.10.227_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.227_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.227 :temCriterio :crit_just_pca_c450.10.227_2.
+:crit_just_pca_c450.10.227_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.227_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.227_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.228
+:pca_c450.10.228 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10
+.
+:c450.10.228 :temPCA :pca_c450.10.228.
+:pca_c450.10.228 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.228
+:just_pca_c450.10.228 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.228 :temJustificacao :just_pca_c450.10.228.
+:crit_just_pca_c450.10.228_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 433/99], CPPT, artº 27, nº 2 - \"Os arquivos [procedimentos administrativos e processos judiciais tributários instaurados] são obrigatoriamente mantidos durante 10 anos(..)\".".
+:just_pca_c450.10.228 :temCriterio :crit_just_pca_c450.10.228_1.
+:crit_just_pca_c450.10.228_1 :temLegislacao :leg_263.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.229.01
+:pca_c450.10.229.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 30.
+:c450.10.229.01 :temPCA :pca_c450.10.229.01.
+:pca_c450.10.229.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.229.01
+:just_pca_c450.10.229.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.229.01 :temJustificacao :just_pca_c450.10.229.01.
+:crit_just_pca_c450.10.229.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade por danos ambientais [DL 147/2008], artº 33 - \"Consideram-se prescritos os danos causados por quaisquer emissões, acontecimentos ou incidentes que hajam decorrido há mais de 30 anos sobre a efectivação do mesmo.\"".
+:just_pca_c450.10.229.01 :temCriterio :crit_just_pca_c450.10.229.01_1.
+:crit_just_pca_c450.10.229.01_1 :temLegislacao :leg_699.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.230
+:pca_c450.10.230 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.230 :temPCA :pca_c450.10.230.
+:pca_c450.10.230 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.230
+:just_pca_c450.10.230 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.230 :temJustificacao :just_pca_c450.10.230.
+:crit_just_pca_c450.10.230_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.230 :temCriterio :crit_just_pca_c450.10.230_1.
+:crit_just_pca_c450.10.230_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.230_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.230 :temCriterio :crit_just_pca_c450.10.230_2.
+:crit_just_pca_c450.10.230_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.230_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.230_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.231
+:pca_c450.10.231 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.231 :temPCA :pca_c450.10.231.
+:pca_c450.10.231 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.231
+:just_pca_c450.10.231 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.231 :temJustificacao :just_pca_c450.10.231.
+:crit_just_pca_c450.10.231_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.231 :temCriterio :crit_just_pca_c450.10.231_1.
+:crit_just_pca_c450.10.231_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.231_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.231 :temCriterio :crit_just_pca_c450.10.231_2.
+:crit_just_pca_c450.10.231_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.231_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.231_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.232
+:pca_c450.10.232 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.232 :temPCA :pca_c450.10.232.
+:pca_c450.10.232 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.232
+:just_pca_c450.10.232 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.232 :temJustificacao :just_pca_c450.10.232.
+:crit_just_pca_c450.10.232_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.232 :temCriterio :crit_just_pca_c450.10.232_1.
+:crit_just_pca_c450.10.232_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.232_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.232 :temCriterio :crit_just_pca_c450.10.232_2.
+:crit_just_pca_c450.10.232_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.232_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.232_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.233
+:pca_c450.10.233 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.233 :temPCA :pca_c450.10.233.
+:pca_c450.10.233 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.233
+:just_pca_c450.10.233 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.233 :temJustificacao :just_pca_c450.10.233.
+:crit_just_pca_c450.10.233_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.233 :temCriterio :crit_just_pca_c450.10.233_1.
+:crit_just_pca_c450.10.233_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.233_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.233 :temCriterio :crit_just_pca_c450.10.233_2.
+:crit_just_pca_c450.10.233_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.233_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.233_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.234
+:pca_c450.10.234 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.234 :temPCA :pca_c450.10.234.
+:pca_c450.10.234 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.234
+:just_pca_c450.10.234 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.234 :temJustificacao :just_pca_c450.10.234.
+:crit_just_pca_c450.10.234_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.234 :temCriterio :crit_just_pca_c450.10.234_1.
+:crit_just_pca_c450.10.234_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.234_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.234 :temCriterio :crit_just_pca_c450.10.234_2.
+:crit_just_pca_c450.10.234_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.234_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.234_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.235
+:pca_c450.10.235 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.235 :temPCA :pca_c450.10.235.
+:pca_c450.10.235 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.235
+:just_pca_c450.10.235 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.235 :temJustificacao :just_pca_c450.10.235.
+:crit_just_pca_c450.10.235_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.235 :temCriterio :crit_just_pca_c450.10.235_1.
+:crit_just_pca_c450.10.235_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.235_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 (no que diz respeito à atuação da Administração) e dos PN 500.10.300 e  500.10.301 (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.235 :temCriterio :crit_just_pca_c450.10.235_2.
+:crit_just_pca_c450.10.235_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.235_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.235_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.236
+:pca_c450.10.236 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.236 :temPCA :pca_c450.10.236.
+:pca_c450.10.236 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.236
+:just_pca_c450.10.236 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.236 :temJustificacao :just_pca_c450.10.236.
+:crit_just_pca_c450.10.236_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.236 :temCriterio :crit_just_pca_c450.10.236_1.
+:crit_just_pca_c450.10.236_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.236_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias .".
+:just_pca_c450.10.236 :temCriterio :crit_just_pca_c450.10.236_2.
+:crit_just_pca_c450.10.236_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.237
+:pca_c450.10.237 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.237 :temPCA :pca_c450.10.237.
+:pca_c450.10.237 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.237
+:just_pca_c450.10.237 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.237 :temJustificacao :just_pca_c450.10.237.
+:crit_just_pca_c450.10.237_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;[DL 433/99], CPPT, artº 27, nº 2 - \"Os arquivos [procedimentos administrativos e processos judiciais tributários instaurados] são obrigatoriamente mantidos durante 10 anos(..)\".".
+:just_pca_c450.10.237 :temCriterio :crit_just_pca_c450.10.237_1.
+:crit_just_pca_c450.10.237_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.237_1 :temLegislacao :leg_263.
+:crit_just_pca_c450.10.237_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.237 :temCriterio :crit_just_pca_c450.10.237_2.
+:crit_just_pca_c450.10.237_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.237_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.237_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.440.01
+:pca_c450.10.440.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c450.10.440.01 :temPCA :pca_c450.10.440.01.
+:pca_c450.10.440.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_emissaoTitulo .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.440.01
+:just_pca_c450.10.440.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.440.01 :temJustificacao :just_pca_c450.10.440.01.
+:crit_just_pca_c450.10.440.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Aplicação do procedimento contraordenacional, nos termos da [Lei 37/2015], artº 13 (em que define que caso os regimes setoriais não estabeleçam regras aplicáveis à responsabilidade contraordenacional, é aplicável o regime geral das contraordenações laborais previsto nos artigos 548.º a 566.º do Código do Trabalho, [Lei 7/2009],  em que constituem contraordenações graves: o exercício de profissão regulamentada ou a prática de atos abrangidos por reservas de atividade por pessoa que não cumpra os requisitos profissionais; a celebração de contrato de trabalho com pessoa que não cumpra os requisitos profissionais exigidos para o exercício de profissão regulamentada ou a prática de atos abrangidos por reservas de atividade).".
+:just_pca_c450.10.440.01 :temCriterio :crit_just_pca_c450.10.440.01_1.
+:crit_just_pca_c450.10.440.01_1 :temLegislacao :leg_1368.
+:crit_just_pca_c450.10.440.01_1 :temLegislacao :leg_827.
+:crit_just_pca_c450.10.440.01_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Necessidade de consulta para apuramento da responsabilidade contraordenacional em sede de PN  500.10.301 - Realização de fiscalização.Prazo correspondente ao tempo médio de vida ativa do profissional, a sua aplicação deriva da conjugação dos critérios.".
+:just_pca_c450.10.440.01 :temCriterio :crit_just_pca_c450.10.440.01_2.
+:crit_just_pca_c450.10.440.01_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.441.01
+:pca_c450.10.441.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c450.10.441.01 :temPCA :pca_c450.10.441.01.
+:pca_c450.10.441.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_emissaoTitulo .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.441.01
+:just_pca_c450.10.441.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.441.01 :temJustificacao :just_pca_c450.10.441.01.
+:crit_just_pca_c450.10.441.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 433/99], CPPT, artº 27, nº 2 - \"Os arquivos [procedimentos administrativos e processos judiciais tributários instaurados] são obrigatoriamente mantidos durante 10 anos(..)\".Aplicação do procedimento contraordenacional, nos termos da [Lei 37/2015], artº 13 (em que define que caso os regimes setoriais não estabeleçam regras aplicáveis à responsabilidade contraordenacional, é aplicável o regime geral das contraordenações laborais previsto nos artigos 548.º a 566.º do Código do Trabalho, [Lei 7/2009] em que constituem contraordenações graves: o exercício de profissão regulamentada ou a prática de atos abrangidos por reservas de atividade por pessoa que não cumpra os requisitos profissionais; a celebração de contrato de trabalho com pessoa que não cumpra os requisitos profissionais exigidos para o exercício de profissão regulamentada ou a prática de atos abrangidos por reservas de atividade).".
+:just_pca_c450.10.441.01 :temCriterio :crit_just_pca_c450.10.441.01_1.
+:crit_just_pca_c450.10.441.01_1 :temLegislacao :leg_263.
+:crit_just_pca_c450.10.441.01_1 :temLegislacao :leg_1368.
+:crit_just_pca_c450.10.441.01_1 :temLegislacao :leg_827.
+:crit_just_pca_c450.10.441.01_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Necessidade de consulta para apuramento da responsabilidade contraordenacional em sede de PN  500.10.301 - Realização de fiscalização.Prazo correspondente ao tempo médio de vida ativa do profissional, a sua aplicação deriva da conjugação dos critérios".
+:just_pca_c450.10.441.01 :temCriterio :crit_just_pca_c450.10.441.01_2.
+:crit_just_pca_c450.10.441.01_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.442.01
+:pca_c450.10.442.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c450.10.442.01 :temPCA :pca_c450.10.442.01.
+:pca_c450.10.442.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_emissaoTitulo .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.442.01
+:just_pca_c450.10.442.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.442.01 :temJustificacao :just_pca_c450.10.442.01.
+:crit_just_pca_c450.10.442.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação do profissional reconhecido);Tomou-se como referência o tempo de vida ativa do profissional.".
+:just_pca_c450.10.442.01 :temCriterio :crit_just_pca_c450.10.442.01_1.
+:crit_just_pca_c450.10.442.01_1 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.442.01_1 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.442.01_1 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.443
+:pca_c450.10.443 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c450.10.443 :temPCA :pca_c450.10.443.
+:pca_c450.10.443 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_emissaoTitulo .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.443
+:just_pca_c450.10.443 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.443 :temJustificacao :just_pca_c450.10.443.
+:crit_just_pca_c450.10.443_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e do 500.10.301 (no que diz respeito à atuação do profissional)Tomou-se como referência o tempo de vida ativa do profissional.".
+:just_pca_c450.10.443 :temCriterio :crit_just_pca_c450.10.443_1.
+:crit_just_pca_c450.10.443_1 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.443_1 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.444.01
+:pca_c450.10.444.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.444.01 :temPCA :pca_c450.10.444.01.
+:pca_c450.10.444.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.444.01
+:just_pca_c450.10.444.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.444.01 :temJustificacao :just_pca_c450.10.444.01.
+:crit_just_pca_c450.10.444.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;[DL 433/99], CPPT, artº 27, nº 2 - \"Os arquivos [procedimentos administrativos e processos judiciais tributários instaurados] são obrigatoriamente mantidos durante 10 anos(..)\".".
+:just_pca_c450.10.444.01 :temCriterio :crit_just_pca_c450.10.444.01_1.
+:crit_just_pca_c450.10.444.01_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.444.01_1 :temLegislacao :leg_263.
+:crit_just_pca_c450.10.444.01_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.444.01 :temCriterio :crit_just_pca_c450.10.444.01_2.
+:crit_just_pca_c450.10.444.01_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.444.01_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.444.01_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.445.01
+:pca_c450.10.445.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.445.01 :temPCA :pca_c450.10.445.01.
+:pca_c450.10.445.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.445.01
+:just_pca_c450.10.445.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.445.01 :temJustificacao :just_pca_c450.10.445.01.
+:crit_just_pca_c450.10.445.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;[DL 433/99], CPPT, artº 27, nº 2 - \"Os arquivos [procedimentos administrativos e processos judiciais tributários instaurados] são obrigatoriamente mantidos durante 10 anos(..)\".".
+:just_pca_c450.10.445.01 :temCriterio :crit_just_pca_c450.10.445.01_1.
+:crit_just_pca_c450.10.445.01_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.445.01_1 :temLegislacao :leg_263.
+:crit_just_pca_c450.10.445.01_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade acreditada).".
+:just_pca_c450.10.445.01 :temCriterio :crit_just_pca_c450.10.445.01_2.
+:crit_just_pca_c450.10.445.01_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.445.01_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.445.01_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.446
+:pca_c450.10.446 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.446 :temPCA :pca_c450.10.446.
+:pca_c450.10.446 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.446
+:just_pca_c450.10.446 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.446 :temJustificacao :just_pca_c450.10.446.
+:crit_just_pca_c450.10.446_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.446 :temCriterio :crit_just_pca_c450.10.446_1.
+:crit_just_pca_c450.10.446_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.446_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade acreditada)".
+:just_pca_c450.10.446 :temCriterio :crit_just_pca_c450.10.446_2.
+:crit_just_pca_c450.10.446_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.446_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.446_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.447
+:pca_c450.10.447 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.447 :temPCA :pca_c450.10.447.
+:pca_c450.10.447 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.447
+:just_pca_c450.10.447 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.447 :temJustificacao :just_pca_c450.10.447.
+:crit_just_pca_c450.10.447_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.447 :temCriterio :crit_just_pca_c450.10.447_1.
+:crit_just_pca_c450.10.447_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.447_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade acreditada).".
+:just_pca_c450.10.447 :temCriterio :crit_just_pca_c450.10.447_2.
+:crit_just_pca_c450.10.447_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.447_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.447_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.448
+:pca_c450.10.448 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.448 :temPCA :pca_c450.10.448.
+:pca_c450.10.448 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.448
+:just_pca_c450.10.448 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.448 :temJustificacao :just_pca_c450.10.448.
+:crit_just_pca_c450.10.448_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.448 :temCriterio :crit_just_pca_c450.10.448_1.
+:crit_just_pca_c450.10.448_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.448_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à ao produto).".
+:just_pca_c450.10.448 :temCriterio :crit_just_pca_c450.10.448_2.
+:crit_just_pca_c450.10.448_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.448_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.448_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.640
+:pca_c450.10.640 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.640 :temPCA :pca_c450.10.640.
+:pca_c450.10.640 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.640
+:just_pca_c450.10.640 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.640 :temJustificacao :just_pca_c450.10.640.
+:crit_just_pca_c450.10.640_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;[DL 433/99], CPPT, artº 27, nº 2 - \"Os arquivos [procedimentos administrativos e processos judiciais tributários instaurados] são obrigatoriamente mantidos durante 10 anos(..)\". ".
+:just_pca_c450.10.640 :temCriterio :crit_just_pca_c450.10.640_1.
+:crit_just_pca_c450.10.640_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.640_1 :temLegislacao :leg_263.
+:crit_just_pca_c450.10.640_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à ao produto).".
+:just_pca_c450.10.640 :temCriterio :crit_just_pca_c450.10.640_2.
+:crit_just_pca_c450.10.640_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.640_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.640_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.641
+:pca_c450.10.641 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.641 :temPCA :pca_c450.10.641.
+:pca_c450.10.641 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.641
+:just_pca_c450.10.641 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.641 :temJustificacao :just_pca_c450.10.641.
+:crit_just_pca_c450.10.641_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.641 :temCriterio :crit_just_pca_c450.10.641_1.
+:crit_just_pca_c450.10.641_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.641_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito ao produto).".
+:just_pca_c450.10.641 :temCriterio :crit_just_pca_c450.10.641_2.
+:crit_just_pca_c450.10.641_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.641_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.641_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.643
+:pca_c450.10.643 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.643 :temPCA :pca_c450.10.643.
+:pca_c450.10.643 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.643
+:just_pca_c450.10.643 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.643 :temJustificacao :just_pca_c450.10.643.
+:crit_just_pca_c450.10.643_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.643 :temCriterio :crit_just_pca_c450.10.643_1.
+:crit_just_pca_c450.10.643_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.643_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito ao produto).".
+:just_pca_c450.10.643 :temCriterio :crit_just_pca_c450.10.643_2.
+:crit_just_pca_c450.10.643_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.643_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.643_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.644
+:pca_c450.10.644 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.644 :temPCA :pca_c450.10.644.
+:pca_c450.10.644 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.644
+:just_pca_c450.10.644 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.644 :temJustificacao :just_pca_c450.10.644.
+:crit_just_pca_c450.10.644_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.644 :temCriterio :crit_just_pca_c450.10.644_1.
+:crit_just_pca_c450.10.644_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.644_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito ao produto).".
+:just_pca_c450.10.644 :temCriterio :crit_just_pca_c450.10.644_2.
+:crit_just_pca_c450.10.644_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.644_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.644_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.645
+:pca_c450.10.645 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.645 :temPCA :pca_c450.10.645.
+:pca_c450.10.645 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.645
+:just_pca_c450.10.645 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.645 :temJustificacao :just_pca_c450.10.645.
+:crit_just_pca_c450.10.645_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.645 :temCriterio :crit_just_pca_c450.10.645_1.
+:crit_just_pca_c450.10.645_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.645_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito ao produto).".
+:just_pca_c450.10.645 :temCriterio :crit_just_pca_c450.10.645_2.
+:crit_just_pca_c450.10.645_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.645_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.645_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.646
+:pca_c450.10.646 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.646 :temPCA :pca_c450.10.646.
+:pca_c450.10.646 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.646
+:just_pca_c450.10.646 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.646 :temJustificacao :just_pca_c450.10.646.
+:crit_just_pca_c450.10.646_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.646 :temCriterio :crit_just_pca_c450.10.646_1.
+:crit_just_pca_c450.10.646_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.646_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito ao produto).".
+:just_pca_c450.10.646 :temCriterio :crit_just_pca_c450.10.646_2.
+:crit_just_pca_c450.10.646_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.646_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.646_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.647
+:pca_c450.10.647 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.647 :temPCA :pca_c450.10.647.
+:pca_c450.10.647 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.647
+:just_pca_c450.10.647 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.647 :temJustificacao :just_pca_c450.10.647.
+:crit_just_pca_c450.10.647_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.647 :temCriterio :crit_just_pca_c450.10.647_1.
+:crit_just_pca_c450.10.647_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.647_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito ao produto).".
+:just_pca_c450.10.647 :temCriterio :crit_just_pca_c450.10.647_2.
+:crit_just_pca_c450.10.647_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.647_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.647_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.648.01
+:pca_c450.10.648.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.648.01 :temPCA :pca_c450.10.648.01.
+:pca_c450.10.648.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.648.01
+:just_pca_c450.10.648.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.648.01 :temJustificacao :just_pca_c450.10.648.01.
+:crit_just_pca_c450.10.648.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;[DL 433/99], CPPT, artº 27, nº 2 - \"Os arquivos [procedimentos administrativos e processos judiciais tributários instaurados] são obrigatoriamente mantidos durante 10 anos(..)\".".
+:just_pca_c450.10.648.01 :temCriterio :crit_just_pca_c450.10.648.01_1.
+:crit_just_pca_c450.10.648.01_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.648.01_1 :temLegislacao :leg_263.
+:crit_just_pca_c450.10.648.01_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito ao produto).".
+:just_pca_c450.10.648.01 :temCriterio :crit_just_pca_c450.10.648.01_2.
+:crit_just_pca_c450.10.648.01_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.648.01_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.648.01_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.649
+:pca_c450.10.649 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.649 :temPCA :pca_c450.10.649.
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.649
+:just_pca_c450.10.649 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.649 :temJustificacao :just_pca_c450.10.649.
+:crit_just_pca_c450.10.649_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.649 :temCriterio :crit_just_pca_c450.10.649_1.
+:crit_just_pca_c450.10.649_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.649_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito ao produto).".
+:just_pca_c450.10.649 :temCriterio :crit_just_pca_c450.10.649_2.
+:crit_just_pca_c450.10.649_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.649_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.649_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.650
+:pca_c450.10.650 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.650 :temPCA :pca_c450.10.650.
+:pca_c450.10.650 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.650
+:just_pca_c450.10.650 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.650 :temJustificacao :just_pca_c450.10.650.
+:crit_just_pca_c450.10.650_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 433/99], CPPT, artº 27, nº 2 - \"Os arquivos [procedimentos administrativos e processos judiciais tributários instaurados] são obrigatoriamente mantidos durante 10 anos(..)\".".
+:just_pca_c450.10.650 :temCriterio :crit_just_pca_c450.10.650_1.
+:crit_just_pca_c450.10.650_1 :temLegislacao :leg_263.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.651
+:pca_c450.10.651 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c450.10.651 :temPCA :pca_c450.10.651.
+:pca_c450.10.651 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.651
+:just_pca_c450.10.651 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.651 :temJustificacao :just_pca_c450.10.651.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.800
+:pca_c450.10.800 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.800 :temPCA :pca_c450.10.800.
+:pca_c450.10.800 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.800
+:just_pca_c450.10.800 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.800 :temJustificacao :just_pca_c450.10.800.
+:crit_just_pca_c450.10.800_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.800 :temCriterio :crit_just_pca_c450.10.800_1.
+:crit_just_pca_c450.10.800_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.800_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.800 :temCriterio :crit_just_pca_c450.10.800_2.
+:crit_just_pca_c450.10.800_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.800_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.800_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.801
+:pca_c450.10.801 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 60.
+:c450.10.801 :temPCA :pca_c450.10.801.
+:pca_c450.10.801 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_emissaoTitulo .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.801
+:just_pca_c450.10.801 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.801 :temJustificacao :just_pca_c450.10.801.
+:crit_just_pca_c450.10.801_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e do 500.10.301 (no que diz respeito à atuação do condutor).Tomou-se por base a esperança média de vida à nascença (80 anos, fonte INE).".
+:just_pca_c450.10.801 :temCriterio :crit_just_pca_c450.10.801_1.
+:crit_just_pca_c450.10.801_1 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.801_1 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.802
+:pca_c450.10.802 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 60.
+:c450.10.802 :temPCA :pca_c450.10.802.
+:pca_c450.10.802 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_emissaoTitulo .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.802
+:just_pca_c450.10.802 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.802 :temJustificacao :just_pca_c450.10.802.
+:crit_just_pca_c450.10.802_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e do 500.10.301 (no que diz respeito à atuação do caçador).Tomou-se por base a esperança média de vida à nascença (80 anos, fonte INE).".
+:just_pca_c450.10.802 :temCriterio :crit_just_pca_c450.10.802_1.
+:crit_just_pca_c450.10.802_1 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.802_1 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.803.01
+:pca_c450.10.803.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.803.01 :temPCA :pca_c450.10.803.01.
+:pca_c450.10.803.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.803.01
+:just_pca_c450.10.803.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.803.01 :temJustificacao :just_pca_c450.10.803.01.
+:crit_just_pca_c450.10.803.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.803.01 :temCriterio :crit_just_pca_c450.10.803.01_1.
+:crit_just_pca_c450.10.803.01_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.803.01_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.803.01 :temCriterio :crit_just_pca_c450.10.803.01_2.
+:crit_just_pca_c450.10.803.01_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.803.01_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.803.01_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.804
+:pca_c450.10.804 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.804 :temPCA :pca_c450.10.804.
+:pca_c450.10.804 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.804
+:just_pca_c450.10.804 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.804 :temJustificacao :just_pca_c450.10.804.
+:crit_just_pca_c450.10.804_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.804 :temCriterio :crit_just_pca_c450.10.804_1.
+:crit_just_pca_c450.10.804_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.804_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.804 :temCriterio :crit_just_pca_c450.10.804_2.
+:crit_just_pca_c450.10.804_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.804_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.804_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.805
+:pca_c450.10.805 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.805 :temPCA :pca_c450.10.805.
+:pca_c450.10.805 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.805
+:just_pca_c450.10.805 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.805 :temJustificacao :just_pca_c450.10.805.
+:crit_just_pca_c450.10.805_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.805 :temCriterio :crit_just_pca_c450.10.805_1.
+:crit_just_pca_c450.10.805_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.805_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.805 :temCriterio :crit_just_pca_c450.10.805_2.
+:crit_just_pca_c450.10.805_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.805_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.805_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.806
+:pca_c450.10.806 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.806 :temPCA :pca_c450.10.806.
+:pca_c450.10.806 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.806
+:just_pca_c450.10.806 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.806 :temJustificacao :just_pca_c450.10.806.
+:crit_just_pca_c450.10.806_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.10.806 :temCriterio :crit_just_pca_c450.10.806_1.
+:crit_just_pca_c450.10.806_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.10.806_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e dos PN 500.10.300 - Realização de inspeção e 500.10.301 - Realização de fiscalização (no que diz respeito à atuação da entidade licenciada).".
+:just_pca_c450.10.806 :temCriterio :crit_just_pca_c450.10.806_2.
+:crit_just_pca_c450.10.806_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.10.806_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.10.806_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.807
+:pca_c450.10.807 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.807 :temPCA :pca_c450.10.807.
+:pca_c450.10.807 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.807
+:just_pca_c450.10.807 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.807 :temJustificacao :just_pca_c450.10.807.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.808
+:pca_c450.10.808 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.10.808 :temPCA :pca_c450.10.808.
+:pca_c450.10.808 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.808
+:just_pca_c450.10.808 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.808 :temJustificacao :just_pca_c450.10.808.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.10.810
+:pca_c450.10.810 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 100.
+:c450.10.810 :temPCA :pca_c450.10.810.
+:pca_c450.10.810 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.10.810
+:just_pca_c450.10.810 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.10.810 :temJustificacao :just_pca_c450.10.810.
+:crit_just_pca_c450.10.810_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 324/2007], artº 151 - Os livros cujos registos tenham sido objeto de informatização são transferidos para a entidade responsável pelos arquivos nacionais;2 - O disposto no número anterior é aplicável aos livros de registo relativamente aos quais tenha decorrido, à data do último assento:a) Mais de 100 anos, quanto aos restantes livros de assentos;3 - O disposto no número anterior é aplicável aos documentos que tenham servido de base aos assentos nele referidos;(Tem por base o tempo médio de vida da pessoa, visa a utilidade gestionária esgotando quase na totalidade as necessidades administrativas de consulta);(Por analogia ao PN 400.10.001 – Registo civil)".
+:just_pca_c450.10.810 :temCriterio :crit_just_pca_c450.10.810_1.
+:crit_just_pca_c450.10.810_1 :temLegislacao :leg_600.
+:crit_just_pca_c450.10.810_1 :temProcessoRelacionado :c400.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.20.001.01
+:pca_c450.20.001.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.20.001.01 :temPCA :pca_c450.20.001.01.
+:pca_c450.20.001.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.20.001.01
+:just_pca_c450.20.001.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.20.001.01 :temJustificacao :just_pca_c450.20.001.01.
+:crit_just_pca_c450.20.001.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.20.001.01 :temCriterio :crit_just_pca_c450.20.001.01_1.
+:crit_just_pca_c450.20.001.01_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.20.001.01_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração) e em sede dos PN 500.10.300 e 500.10.301 (no que diz respeito à atuação da entidade).".
+:just_pca_c450.20.001.01 :temCriterio :crit_just_pca_c450.20.001.01_2.
+:crit_just_pca_c450.20.001.01_2 :temProcessoRelacionado :c500.10.001.
+:crit_just_pca_c450.20.001.01_2 :temProcessoRelacionado :c500.10.300.
+:crit_just_pca_c450.20.001.01_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.20.002
+:pca_c450.20.002 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.20.002 :temPCA :pca_c450.20.002.
+:pca_c450.20.002 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_extincaoDireito .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.20.002
+:just_pca_c450.20.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.20.002 :temJustificacao :just_pca_c450.20.002.
+:crit_just_pca_c450.20.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.20.002 :temCriterio :crit_just_pca_c450.20.002_1.
+:crit_just_pca_c450.20.002_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.20.002_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c450.20.002 :temCriterio :crit_just_pca_c450.20.002_2.
+:crit_just_pca_c450.20.002_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.20.003
+:pca_c450.20.003 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.20.003 :temPCA :pca_c450.20.003.
+:pca_c450.20.003 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_cessacaoVigencia .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.20.003
+:just_pca_c450.20.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.20.003 :temJustificacao :just_pca_c450.20.003.
+:crit_just_pca_c450.20.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.20.003 :temCriterio :crit_just_pca_c450.20.003_1.
+:crit_just_pca_c450.20.003_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.20.003_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c450.20.003 :temCriterio :crit_just_pca_c450.20.003_2.
+:crit_just_pca_c450.20.003_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.20.503
+:pca_c450.20.503 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.20.503 :temPCA :pca_c450.20.503.
+:pca_c450.20.503 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.20.503
+:just_pca_c450.20.503 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.20.503 :temJustificacao :just_pca_c450.20.503.
+:crit_just_pca_c450.20.503_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.20.503 :temCriterio :crit_just_pca_c450.20.503_1.
+:crit_just_pca_c450.20.503_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.20.503_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c450.20.503 :temCriterio :crit_just_pca_c450.20.503_2.
+:crit_just_pca_c450.20.503_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.20.504
+:pca_c450.20.504 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.20.504 :temPCA :pca_c450.20.504.
+:pca_c450.20.504 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.20.504
+:just_pca_c450.20.504 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.20.504 :temJustificacao :just_pca_c450.20.504.
+:crit_just_pca_c450.20.504_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.20.504 :temCriterio :crit_just_pca_c450.20.504_1.
+:crit_just_pca_c450.20.504_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.20.504_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c450.20.504 :temCriterio :crit_just_pca_c450.20.504_2.
+:crit_just_pca_c450.20.504_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.20.505
+:pca_c450.20.505 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.20.505 :temPCA :pca_c450.20.505.
+:pca_c450.20.505 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.20.505
+:just_pca_c450.20.505 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.20.505 :temJustificacao :just_pca_c450.20.505.
+:crit_just_pca_c450.20.505_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.20.505 :temCriterio :crit_just_pca_c450.20.505_1.
+:crit_just_pca_c450.20.505_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.20.505_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c450.20.505 :temCriterio :crit_just_pca_c450.20.505_2.
+:crit_just_pca_c450.20.505_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.30.002
+:pca_c450.30.002 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.30.002 :temPCA :pca_c450.30.002.
+:pca_c450.30.002 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.30.002
+:just_pca_c450.30.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.30.002 :temJustificacao :just_pca_c450.30.002.
+:crit_just_pca_c450.30.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.30.002 :temCriterio :crit_just_pca_c450.30.002_1.
+:crit_just_pca_c450.30.002_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.30.002_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c450.30.002 :temCriterio :crit_just_pca_c450.30.002_2.
+:crit_just_pca_c450.30.002_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.30.003
+:pca_c450.30.003 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.30.003 :temPCA :pca_c450.30.003.
+:pca_c450.30.003 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.30.003
+:just_pca_c450.30.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.30.003 :temJustificacao :just_pca_c450.30.003.
+:crit_just_pca_c450.30.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.30.003 :temCriterio :crit_just_pca_c450.30.003_1.
+:crit_just_pca_c450.30.003_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.30.003_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c450.30.003 :temCriterio :crit_just_pca_c450.30.003_2.
+:crit_just_pca_c450.30.003_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.30.500
+:pca_c450.30.500 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c450.30.500 :temPCA :pca_c450.30.500.
+:pca_c450.30.500 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.30.500
+:just_pca_c450.30.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.30.500 :temJustificacao :just_pca_c450.30.500.
+:crit_just_pca_c450.30.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração)Tomou-se como referência o tempo de vida ativa do profissional.".
+:just_pca_c450.30.500 :temCriterio :crit_just_pca_c450.30.500_1.
+:crit_just_pca_c450.30.500_1 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.30.502
+:pca_c450.30.502 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.30.502 :temPCA :pca_c450.30.502.
+:pca_c450.30.502 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.30.502
+:just_pca_c450.30.502 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.30.502 :temJustificacao :just_pca_c450.30.502.
+:crit_just_pca_c450.30.502_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.30.502 :temCriterio :crit_just_pca_c450.30.502_1.
+:crit_just_pca_c450.30.502_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.30.502_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c450.30.502 :temCriterio :crit_just_pca_c450.30.502_2.
+:crit_just_pca_c450.30.502_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.30.503
+:pca_c450.30.503 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c450.30.503 :temPCA :pca_c450.30.503.
+:pca_c450.30.503 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.30.503
+:just_pca_c450.30.503 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.30.503 :temJustificacao :just_pca_c450.30.503.
+:crit_just_pca_c450.30.503_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória [Lei 98/97], artº 70, nº 1 - Prazo prescricional do procedimento contraordenacional;".
+:just_pca_c450.30.503 :temCriterio :crit_just_pca_c450.30.503_1.
+:crit_just_pca_c450.30.503_1 :temLegislacao :leg_203.
+:crit_just_pca_c450.30.503_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.001 - Realização de auditorias (no que diz respeito à atuação da Administração).".
+:just_pca_c450.30.503 :temCriterio :crit_just_pca_c450.30.503_2.
+:crit_just_pca_c450.30.503_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c450.30.504
+:pca_c450.30.504 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 20.
+:c450.30.504 :temPCA :pca_c450.30.504.
+:pca_c450.30.504 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c450.30.504
+:just_pca_c450.30.504 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c450.30.504 :temJustificacao :just_pca_c450.30.504.
+:crit_just_pca_c450.30.504_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 15/2012], artº 10, nº 3 - O prazo máximo de conservação dos dados recolhidos é de 20 anos, ficando registadas as pesquisas efetuadas pelos médicos e pelas entidades com acesso ao SICO para efeitos de  controlo do cumprimento do previstono número anterior.".
+:just_pca_c450.30.504 :temCriterio :crit_just_pca_c450.30.504_1.
+:crit_just_pca_c450.30.504_1 :temLegislacao :leg_1056.

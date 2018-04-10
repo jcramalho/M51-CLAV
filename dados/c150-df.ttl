@@ -1,0 +1,524 @@
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.10.001
+:df_c150.10.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.10.001 :temDF :df_c150.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.10.001
+:just_df_c150.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.10.001 :temJustificacao :just_df_c150.10.001.
+:crit_just_df_c150.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.10.100 - Definição de políticas setoriais;PN 150.10.200 - Elaboração de instrumentos de ordenamento territorial e de promoção do desenvolvimento de âmbito nacional;PN 150.10.300 - Elaboração de instrumentos de ordenamento territorial e de promoção do desenvolvimento de âmbito regional;PN 150.10.400 - Elaboração de instrumentos de ordenamento territorial e de promoção do desenvolvimento de âmbito municipal.Sendo necessária uma visão do conjunto para o entendimento global da definição das políticas  e respetivos instrumentos de operacionalização, bem como das suas interações.".
+:just_df_c150.10.001 :temCriterio :crit_just_df_c150.10.001_1.
+:crit_just_df_c150.10.001_1 :eComplementarDe :c150.10.100.
+:crit_just_df_c150.10.001_1 :eComplementarDe :c150.10.200.
+:crit_just_df_c150.10.001_1 :eComplementarDe :c150.10.300.
+:crit_just_df_c150.10.001_1 :eComplementarDe :c150.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.10.100
+:df_c150.10.100 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.10.100 :temDF :df_c150.10.100.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.10.100
+:just_df_c150.10.100 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.10.100 :temJustificacao :just_df_c150.10.100.
+:crit_just_df_c150.10.100_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.10.001 - Definição de políticas globais;PN 150.10.200 - Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito nacional;PN 150.10.300 - Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito regional;PN 150.10.400 - Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito municipal e intermunicipal;Sendo necessário a visão do todo para perceber a eficácia das políticas setoriais e respetivos instrumentos de operacionalização.".
+:just_df_c150.10.100 :temCriterio :crit_just_df_c150.10.100_1.
+:crit_just_df_c150.10.100_1 :eComplementarDe :c150.10.001.
+:crit_just_df_c150.10.100_1 :eComplementarDe :c150.10.200.
+:crit_just_df_c150.10.100_1 :eComplementarDe :c150.10.300.
+:crit_just_df_c150.10.100_1 :eComplementarDe :c150.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.10.200
+:df_c150.10.200 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.10.200 :temDF :df_c150.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.10.200
+:just_df_c150.10.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.10.200 :temJustificacao :just_df_c150.10.200.
+:crit_just_df_c150.10.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.10.001 - Definição de políticas globais;PN 150.10.100 - Definição de políticas setoriais;PN 150.10.300 - Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito regional;PN 150.10.400 - Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito municipal e intermunicipal.Sendo necessário a visão do todo para perceber a eficácia das políticas setoriais e respetivos instrumentos de operacionalização.".
+:just_df_c150.10.200 :temCriterio :crit_just_df_c150.10.200_1.
+:crit_just_df_c150.10.200_1 :eComplementarDe :c150.10.001.
+:crit_just_df_c150.10.200_1 :eComplementarDe :c150.10.100.
+:crit_just_df_c150.10.200_1 :eComplementarDe :c150.10.300.
+:crit_just_df_c150.10.200_1 :eComplementarDe :c150.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.10.300
+:df_c150.10.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.10.300 :temDF :df_c150.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.10.300
+:just_df_c150.10.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.10.300 :temJustificacao :just_df_c150.10.300.
+:crit_just_df_c150.10.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.10.001 - Definição de políticas globais;PN 150.10.100 -Definição de políticas setoriais;PN 150.10.200 - Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito nacional;PN 150.10.400 - Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito municipal e intermunicipal.Sendo necessário a visão do todo para perceber a eficácia das políticas setoriais e respetivos instrumentos de operacionalização.".
+:just_df_c150.10.300 :temCriterio :crit_just_df_c150.10.300_1.
+:crit_just_df_c150.10.300_1 :eComplementarDe :c150.10.001.
+:crit_just_df_c150.10.300_1 :eComplementarDe :c150.10.100.
+:crit_just_df_c150.10.300_1 :eComplementarDe :c150.10.200.
+:crit_just_df_c150.10.300_1 :eComplementarDe :c150.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.10.400
+:df_c150.10.400 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.10.400 :temDF :df_c150.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.10.400
+:just_df_c150.10.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.10.400 :temJustificacao :just_df_c150.10.400.
+:crit_just_df_c150.10.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.10.001 - Definição de políticas globais;PN 150.10.100 - Definição de políticas setoriais;PN 150.10.200 - Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito nacional;PN 150.10.300 - Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito regional.Sendo necessário a visão do todo para perceber a eficácia das políticas setoriais e respetivos instrumentos de operacionalização.".
+:just_df_c150.10.400 :temCriterio :crit_just_df_c150.10.400_1.
+:crit_just_df_c150.10.400_1 :eComplementarDe :c150.10.001.
+:crit_just_df_c150.10.400_1 :eComplementarDe :c150.10.100.
+:crit_just_df_c150.10.400_1 :eComplementarDe :c150.10.200.
+:crit_just_df_c150.10.400_1 :eComplementarDe :c150.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.10.500
+:df_c150.10.500 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.10.500 :temDF :df_c150.10.500.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.10.500
+:just_df_c150.10.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.10.500 :temJustificacao :just_df_c150.10.500.
+:crit_just_df_c150.10.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar doPN  150.10.100 - Definição de políticas setoriais.Na medida em que podem dar corpo e concretizar essas políticas.".
+:just_df_c150.10.500 :temCriterio :crit_just_df_c150.10.500_1.
+:crit_just_df_c150.10.500_1 :eComplementarDe :c150.10.100.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.10.501
+:df_c150.10.501 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.10.501 :temDF :df_c150.10.501.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.10.501
+:just_df_c150.10.501 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.10.501 :temJustificacao :just_df_c150.10.501.
+:crit_just_df_c150.10.501_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.10.100 - Definição de políticas setoriais;PN 150.10.200 - Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito nacional.Sendo necessária a visão de conjunto destes PN para o entendimemento contextual da negociação.".
+:just_df_c150.10.501 :temCriterio :crit_just_df_c150.10.501_1.
+:crit_just_df_c150.10.501_1 :eComplementarDe :c150.10.100.
+:crit_just_df_c150.10.501_1 :eComplementarDe :c150.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.10.600
+:df_c150.10.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.10.600 :temDF :df_c150.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.10.600
+:just_df_c150.10.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.10.600 :temJustificacao :just_df_c150.10.600.
+:crit_just_df_c150.10.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.10.100 - Definição de políticas setoriais;PN 150.10.200 - Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito nacional;PN 150.10.300 - Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito regional;PN 150.10.400 - Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito municipal e intermunicipal.".
+:just_df_c150.10.600 :temCriterio :crit_just_df_c150.10.600_1.
+:crit_just_df_c150.10.600_1 :eComplementarDe :c150.10.100.
+:crit_just_df_c150.10.600_1 :eComplementarDe :c150.10.200.
+:crit_just_df_c150.10.600_1 :eComplementarDe :c150.10.300.
+:crit_just_df_c150.10.600_1 :eComplementarDe :c150.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.10.601
+:df_c150.10.601 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.10.601 :temDF :df_c150.10.601.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.10.601
+:just_df_c150.10.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.10.601 :temJustificacao :just_df_c150.10.601.
+:crit_just_df_c150.10.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Ausência de PN relacionados. Informação não recuperável noutro PN.".
+:just_df_c150.10.601 :temCriterio :crit_just_df_c150.10.601_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.10.700.01
+:df_c150.10.700.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c150.10.700.01 :temDF :df_c150.10.700.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.10.700.01
+:just_df_c150.10.700.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.10.700.01 :temJustificacao :just_df_c150.10.700.01.
+:crit_just_df_c150.10.700.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada emPN 150.10.700.02 - Reunião de órgãos deliberativos: realização.".
+:just_df_c150.10.700.01 :temCriterio :crit_just_df_c150.10.700.01_1.
+:crit_just_df_c150.10.700.01_1 :temProcessoRelacionado :c150.10.700.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.10.701.01
+:df_c150.10.701.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c150.10.701.01 :temDF :df_c150.10.701.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.10.701.01
+:just_df_c150.10.701.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.10.701.01 :temJustificacao :just_df_c150.10.701.01.
+:crit_just_df_c150.10.701.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação que se encontra sintetizada e é recuperável emPN 150.10.701.02 - Reunião de órgãos executivos: realização.Que corresponde à última etapa do PN.".
+:just_df_c150.10.701.01 :temCriterio :crit_just_df_c150.10.701.01_1.
+:crit_just_df_c150.10.701.01_1 :temProcessoRelacionado :c150.10.701.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.10.702.01
+:df_c150.10.702.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c150.10.702.01 :temDF :df_c150.10.702.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.10.702.01
+:just_df_c150.10.702.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.10.702.01 :temJustificacao :just_df_c150.10.702.01.
+:crit_just_df_c150.10.702.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação que se encontra sintetizada e é recuperável emPN 150.10.702.02 - Reunião de órgãos e estruturas operacionais e de aconselhamento: realizaçãoQue corresponde à última etapa do PN.".
+:just_df_c150.10.702.01 :temCriterio :crit_just_df_c150.10.702.01_1.
+:crit_just_df_c150.10.702.01_1 :temProcessoRelacionado :c150.10.702.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.001
+:df_c150.20.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c150.20.001 :temDF :df_c150.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.001
+:just_df_c150.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.001 :temJustificacao :just_df_c150.20.001.
+:crit_just_df_c150.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada e recuperável nosPN 100.10.600 - Produção e comunicação de regras institucionais;PN 150.10.700 -Reunião de órgãos deliberativos;PN 150.10.701 - Reunião de órgãos executivos.".
+:just_df_c150.20.001 :temCriterio :crit_just_df_c150.20.001_1.
+:crit_just_df_c150.20.001_1 :temProcessoRelacionado :c100.10.600.
+:crit_just_df_c150.20.001_1 :temProcessoRelacionado :c150.10.700.
+:crit_just_df_c150.20.001_1 :temProcessoRelacionado :c150.10.701.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.100
+:df_c150.20.100 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.20.100 :temDF :df_c150.20.100.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.100
+:just_df_c150.20.100 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.100 :temJustificacao :just_df_c150.20.100.
+:crit_just_df_c150.20.100_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.10.100 - Definição de políticas setoriais;PN 150.20.101 - Planeamento estratégico de atividades;PN 150.20.300 - Avaliação de atividades;PN 150.20.202 - Preparação do orçamento;PN 150.20.500 - Análise e melhoria de processos.".
+:just_df_c150.20.100 :temCriterio :crit_just_df_c150.20.100_1.
+:crit_just_df_c150.20.100_1 :eComplementarDe :c150.10.100.
+:crit_just_df_c150.20.100_1 :eComplementarDe :c150.20.101.
+:crit_just_df_c150.20.100_1 :eComplementarDe :c150.20.300.
+:crit_just_df_c150.20.100_1 :eComplementarDe :c150.20.202.
+:crit_just_df_c150.20.100_1 :eComplementarDe :c150.20.500.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.101
+:df_c150.20.101 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.20.101 :temDF :df_c150.20.101.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.101
+:just_df_c150.20.101 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.101 :temJustificacao :just_df_c150.20.101.
+:crit_just_df_c150.20.101_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.20.100 - Definição de metas e objetivos organizacionais;PN 150.20.202 - Preparação do orçamento;PN 150.20.300 - Avaliação de atividades.".
+:just_df_c150.20.101 :temCriterio :crit_just_df_c150.20.101_1.
+:crit_just_df_c150.20.101_1 :eComplementarDe :c150.20.100.
+:crit_just_df_c150.20.101_1 :eComplementarDe :c150.20.202.
+:crit_just_df_c150.20.101_1 :eComplementarDe :c150.20.300.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.102
+:df_c150.20.102 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.20.102 :temDF :df_c150.20.102.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.102
+:just_df_c150.20.102 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.102 :temJustificacao :just_df_c150.20.102.
+:crit_just_df_c150.20.102_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.20.302 - Avaliação de sistemas;PN 150.20.500 - Análise e melhoria de processos;PN 300.40.508 - Implementação de redes e sistemas tecnológicos.".
+:just_df_c150.20.102 :temCriterio :crit_just_df_c150.20.102_1.
+:crit_just_df_c150.20.102_1 :eComplementarDe :c150.20.302.
+:crit_just_df_c150.20.102_1 :eComplementarDe :c150.20.500.
+:crit_just_df_c150.20.102_1 :eComplementarDe :c300.40.508.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.103
+:df_c150.20.103 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c150.20.103 :temDF :df_c150.20.103.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.103
+:just_df_c150.20.103 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.103 :temJustificacao :just_df_c150.20.103.
+:crit_just_df_c150.20.103_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada noPN 150.20.300 - Avaliação de atividades.".
+:just_df_c150.20.103 :temCriterio :crit_just_df_c150.20.103_1.
+:crit_just_df_c150.20.103_1 :temProcessoRelacionado :c150.20.300.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.200
+:df_c150.20.200 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.20.200 :temDF :df_c150.20.200.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.200
+:just_df_c150.20.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.200 :temJustificacao :just_df_c150.20.200.
+:crit_just_df_c150.20.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.20.202 - Preparação do orçamento;PN 150.20.403 - Caracterização de recursos humanos.".
+:just_df_c150.20.200 :temCriterio :crit_just_df_c150.20.200_1.
+:crit_just_df_c150.20.200_1 :eComplementarDe :c150.20.202.
+:crit_just_df_c150.20.200_1 :eComplementarDe :c150.20.403.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.201
+:df_c150.20.201 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c150.20.201 :temDF :df_c150.20.201.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.201
+:just_df_c150.20.201 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.201 :temJustificacao :just_df_c150.20.201.
+:crit_just_df_c150.20.201_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "A informação encontra-se sintetizada emPN 150.20.202 - Preparação do orçamento;PN 150.20.300 - Avaliação de atividades.".
+:just_df_c150.20.201 :temCriterio :crit_just_df_c150.20.201_1.
+:crit_just_df_c150.20.201_1 :temProcessoRelacionado :c150.20.202.
+:crit_just_df_c150.20.201_1 :temProcessoRelacionado :c150.20.300.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.202
+:df_c150.20.202 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.20.202 :temDF :df_c150.20.202.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.202
+:just_df_c150.20.202 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.202 :temJustificacao :just_df_c150.20.202.
+:crit_just_df_c150.20.202_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.20.100 - Definição de metas e objetivos organizacionais;PN 150.20.101 - Planeamento estratégico de atividades;PN 150.20.200 - Planeamento de necessidades de recursos humanos;PN 150.20.404 - Prestação de contas.".
+:just_df_c150.20.202 :temCriterio :crit_just_df_c150.20.202_1.
+:crit_just_df_c150.20.202_1 :eComplementarDe :c150.20.100.
+:crit_just_df_c150.20.202_1 :eComplementarDe :c150.20.101.
+:crit_just_df_c150.20.202_1 :eComplementarDe :c150.20.200.
+:crit_just_df_c150.20.202_1 :eComplementarDe :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.203
+:df_c150.20.203 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.20.203 :temDF :df_c150.20.203.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.203
+:just_df_c150.20.203 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.203 :temJustificacao :just_df_c150.20.203.
+:crit_just_df_c150.20.203_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.20.401 - Acompanhamento de liquidação de entidadesPN 150.20.100 Definição de metas e objetivos organizacionais".
+:just_df_c150.20.203 :temCriterio :crit_just_df_c150.20.203_1.
+:crit_just_df_c150.20.203_1 :eComplementarDe :c150.20.401.
+:crit_just_df_c150.20.203_1 :eComplementarDe :c150.20.100.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.300
+:df_c150.20.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.20.300 :temDF :df_c150.20.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.300
+:just_df_c150.20.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.300 :temJustificacao :just_df_c150.20.300.
+:crit_just_df_c150.20.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.20.100 - Definição de metas e objetivos organizacionais;PN 150.20.101 - Planeamento estratégico de atividades.".
+:just_df_c150.20.300 :temCriterio :crit_just_df_c150.20.300_1.
+:crit_just_df_c150.20.300_1 :eComplementarDe :c150.20.100.
+:crit_just_df_c150.20.300_1 :eComplementarDe :c150.20.101.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.301
+:df_c150.20.301 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.20.301 :temDF :df_c150.20.301.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.301
+:just_df_c150.20.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.301 :temJustificacao :just_df_c150.20.301.
+:crit_just_df_c150.20.301_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 150.20.101 - Planeamento estratégico de atividades;PN 150.20.202 - Preparação do orçamento;PN 150.20.300 - Avaliação de atividades;PN 150.20.404 - Prestação de contas).".
+:just_df_c150.20.301 :temCriterio :crit_just_df_c150.20.301_1.
+:crit_just_df_c150.20.301_1 :eComplementarDe :c150.20.101.
+:crit_just_df_c150.20.301_1 :eComplementarDe :c150.20.202.
+:crit_just_df_c150.20.301_1 :eComplementarDe :c150.20.300.
+:crit_just_df_c150.20.301_1 :eComplementarDe :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.302
+:df_c150.20.302 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.20.302 :temDF :df_c150.20.302.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.302
+:just_df_c150.20.302 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.302 :temJustificacao :just_df_c150.20.302.
+:crit_just_df_c150.20.302_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar doPN 150.20.102 - Planeamento de sistemas.".
+:just_df_c150.20.302 :temCriterio :crit_just_df_c150.20.302_1.
+:crit_just_df_c150.20.302_1 :eComplementarDe :c150.20.102.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.303
+:df_c150.20.303 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c150.20.303 :temDF :df_c150.20.303.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.303
+:just_df_c150.20.303 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.303 :temJustificacao :just_df_c150.20.303.
+:crit_just_df_c150.20.303_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada e recuperável noPN 150.20.300 - Avaliação de atividades".
+:just_df_c150.20.303 :temCriterio :crit_just_df_c150.20.303_1.
+:crit_just_df_c150.20.303_1 :temProcessoRelacionado :c150.20.300.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.400
+:df_c150.20.400 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c150.20.400 :temDF :df_c150.20.400.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.400
+:just_df_c150.20.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.400 :temJustificacao :just_df_c150.20.400.
+:crit_just_df_c150.20.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada e recuperável noPN 150.20.404 - Prestação de contas.".
+:just_df_c150.20.400 :temCriterio :crit_just_df_c150.20.400_1.
+:crit_just_df_c150.20.400_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.401
+:df_c150.20.401 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.20.401 :temDF :df_c150.20.401.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.401
+:just_df_c150.20.401 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.401 :temJustificacao :just_df_c150.20.401.
+:crit_just_df_c150.20.401_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar doPN 350.40.602 - Liquidação de entidades.".
+:just_df_c150.20.401 :temCriterio :crit_just_df_c150.20.401_1.
+:crit_just_df_c150.20.401_1 :eComplementarDe :c350.40.602.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.403
+:df_c150.20.403 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.20.403 :temDF :df_c150.20.403.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.403
+:just_df_c150.20.403 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.403 :temJustificacao :just_df_c150.20.403.
+:crit_just_df_c150.20.403_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar doPN 150.20.200 - Planeamento de necessidades de recursos humanos.".
+:just_df_c150.20.403 :temCriterio :crit_just_df_c150.20.403_1.
+:crit_just_df_c150.20.403_1 :eComplementarDe :c150.20.200.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.404
+:df_c150.20.404 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.20.404 :temDF :df_c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.404
+:just_df_c150.20.404 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.404 :temJustificacao :just_df_c150.20.404.
+:crit_just_df_c150.20.404_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 100.10.600 - Produção e comunicação de regras institucionais;PN 150.20.202 - Preparação do orçamento;PN 350.30.500 - Aplicação de excedentes de tesouraria.".
+:just_df_c150.20.404 :temCriterio :crit_just_df_c150.20.404_1.
+:crit_just_df_c150.20.404_1 :eComplementarDe :c100.10.600.
+:crit_just_df_c150.20.404_1 :eComplementarDe :c150.20.202.
+:crit_just_df_c150.20.404_1 :eComplementarDe :c350.30.500.
+:crit_just_df_c150.20.404_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo " sintetiza informação do PN 150.20.400 - Acompanhamento da execução orçamental.".
+:just_df_c150.20.404 :temCriterio :crit_just_df_c150.20.404_2.
+:crit_just_df_c150.20.404_2 :temProcessoRelacionado :c150.20.400.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.500
+:df_c150.20.500 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c150.20.500 :temDF :df_c150.20.500.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.500
+:just_df_c150.20.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.500 :temJustificacao :just_df_c150.20.500.
+:crit_just_df_c150.20.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "A informação encontra-se sintetizada e é recuperável noPN 100.10.600 - Produção e comunicação de regras institucionais.PN 150.20.001 - Preparação de regras e orientações internas.PN 150.20.301 - Avaliação do desempenho das organizações.".
+:just_df_c150.20.500 :temCriterio :crit_just_df_c150.20.500_1.
+:crit_just_df_c150.20.500_1 :temProcessoRelacionado :c100.10.600.
+:crit_just_df_c150.20.500_1 :temProcessoRelacionado :c150.20.001.
+:crit_just_df_c150.20.500_1 :temProcessoRelacionado :c150.20.301.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.20.501
+:df_c150.20.501 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.20.501 :temDF :df_c150.20.501.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.20.501
+:just_df_c150.20.501 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.20.501 :temJustificacao :just_df_c150.20.501.
+:crit_just_df_c150.20.501_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 100.10.001 - Produção e comunicação de atos legislativo;PN 100.10.600 - Produção e comunicação de regras institucionais.".
+:just_df_c150.20.501 :temCriterio :crit_just_df_c150.20.501_1.
+:crit_just_df_c150.20.501_1 :eComplementarDe :c100.10.001.
+:crit_just_df_c150.20.501_1 :eComplementarDe :c100.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.30.001
+:df_c150.30.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.30.001 :temDF :df_c150.30.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.30.001
+:just_df_c150.30.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.30.001 :temJustificacao :just_df_c150.30.001.
+:crit_just_df_c150.30.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Ausência de relações de síntese pertinentes. Informação não recuperável noutro PN.".
+:just_df_c150.30.001 :temCriterio :crit_just_df_c150.30.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.40.001.01
+:df_c150.40.001.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c150.40.001.01 :temDF :df_c150.40.001.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.40.001.01
+:just_df_c150.40.001.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.40.001.01 :temJustificacao :just_df_c150.40.001.01.
+:crit_just_df_c150.40.001.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c150.40.001.01 :temCriterio :crit_just_df_c150.40.001.01_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c150.40.500.01
+:df_c150.40.500.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c150.40.500.01 :temDF :df_c150.40.500.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c150.40.500.01
+:just_df_c150.40.500.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c150.40.500.01 :temJustificacao :just_df_c150.40.500.01.
+:crit_just_df_c150.40.500.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação que se encontra sintetizada e é recuperável em:PN 150.40.500.02 - Recolha e tratamento dos dados estatísticos de apoio à gestão: apuramento e apresentação dos dados;PN 150.20.300 - Avaliação de atividades;PN 150.20.301 - Avaliação do desempenho das organizações.".
+:just_df_c150.40.500.01 :temCriterio :crit_just_df_c150.40.500.01_1.
+:crit_just_df_c150.40.500.01_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c150.40.500.01_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c150.40.500.01_1 :temProcessoRelacionado :c150.20.301.

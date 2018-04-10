@@ -1,0 +1,1414 @@
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.062
+:df_c450.10.062 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.062 :temDF :df_c450.10.062.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.062
+:just_df_c450.10.062 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.062 :temJustificacao :just_df_c450.10.062.
+:crit_just_df_c450.10.062_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);PN 400.10.200 - Registo comercial (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal).".
+:just_df_c450.10.062 :temCriterio :crit_just_df_c450.10.062_1.
+:crit_just_df_c450.10.062_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.062_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.062_1 :temProcessoRelacionado :c400.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.063
+:df_c450.10.063 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.063 :temDF :df_c450.10.063.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.063
+:just_df_c450.10.063 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.063 :temJustificacao :just_df_c450.10.063.
+:crit_just_df_c450.10.063_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);PN 400.10.009 - Registo nacional de pessoas coletivas (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal).".
+:just_df_c450.10.063 :temCriterio :crit_just_df_c450.10.063_1.
+:crit_just_df_c450.10.063_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.063_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.063_1 :temProcessoRelacionado :c400.10.009.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.064
+:df_c450.10.064 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.064 :temDF :df_c450.10.064.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.064
+:just_df_c450.10.064 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.064 :temJustificacao :just_df_c450.10.064.
+:crit_just_df_c450.10.064_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);PN 400.10.009 - Registo nacional de pessoas coletivas (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal).".
+:just_df_c450.10.064 :temCriterio :crit_just_df_c450.10.064_1.
+:crit_just_df_c450.10.064_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.064_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.064_1 :temProcessoRelacionado :c400.10.009.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.065
+:df_c450.10.065 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.065 :temDF :df_c450.10.065.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.065
+:just_df_c450.10.065 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.065 :temJustificacao :just_df_c450.10.065.
+:crit_just_df_c450.10.065_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre a atividade da entidade licenciada, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.065 :temCriterio :crit_just_df_c450.10.065_1.
+:crit_just_df_c450.10.065_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.065_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.066
+:df_c450.10.066 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.066 :temDF :df_c450.10.066.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.066
+:just_df_c450.10.066 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.066 :temJustificacao :just_df_c450.10.066.
+:crit_just_df_c450.10.066_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);PN 400.10.200 - Registo comercial (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal).".
+:just_df_c450.10.066 :temCriterio :crit_just_df_c450.10.066_1.
+:crit_just_df_c450.10.066_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.066_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.066_1 :temProcessoRelacionado :c400.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.068
+:df_c450.10.068 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.068 :temDF :df_c450.10.068.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.068
+:just_df_c450.10.068 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.068 :temJustificacao :just_df_c450.10.068.
+:crit_just_df_c450.10.068_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados).".
+:just_df_c450.10.068 :temCriterio :crit_just_df_c450.10.068_1.
+:crit_just_df_c450.10.068_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.068_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.070
+:df_c450.10.070 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.070 :temDF :df_c450.10.070.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.070
+:just_df_c450.10.070 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.070 :temJustificacao :just_df_c450.10.070.
+:crit_just_df_c450.10.070_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre a atividade da entidade licenciada, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.070 :temCriterio :crit_just_df_c450.10.070_1.
+:crit_just_df_c450.10.070_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.070_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.071
+:df_c450.10.071 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.071 :temDF :df_c450.10.071.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.071
+:just_df_c450.10.071 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.071 :temJustificacao :just_df_c450.10.071.
+:crit_just_df_c450.10.071_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);e no Registo de instituições Particulares de Solidariedade social (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal).".
+:just_df_c450.10.071 :temCriterio :crit_just_df_c450.10.071_1.
+:crit_just_df_c450.10.071_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.071_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.072
+:df_c450.10.072 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.072 :temDF :df_c450.10.072.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.072
+:just_df_c450.10.072 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.072 :temJustificacao :just_df_c450.10.072.
+:crit_just_df_c450.10.072_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 59/2003], artº 7 - Registo nacionalA DGV procede ao registo dos parques zoológicos da seguinte forma:a) Atribui um número nacional de identificação e registo, o qual constará obrigatoriamente da licença;b) O número referido na alínea anterior constitui-se como marca de identificação e registo do parque zoológico;[DL 304/2003], artº 8 - O IPJ deve organizar e manter actualizado um registo das entidades licenciadas para a organização de campos de férias.2 - No registo devem constar os seguintes elementos: (...) Os documentos que integram o pedido de licença.".
+:just_df_c450.10.072 :temCriterio :crit_just_df_c450.10.072_1.
+:crit_just_df_c450.10.072_1 :temLegislacao :leg_393.
+:crit_just_df_c450.10.072_1 :temLegislacao :leg_404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.073
+:df_c450.10.073 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.073 :temDF :df_c450.10.073.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.073
+:just_df_c450.10.073 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.073 :temJustificacao :just_df_c450.10.073.
+:crit_just_df_c450.10.073_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre a atividade da entidade licenciada, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.073 :temCriterio :crit_just_df_c450.10.073_1.
+:crit_just_df_c450.10.073_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.073_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.074
+:df_c450.10.074 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.074 :temDF :df_c450.10.074.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.074
+:just_df_c450.10.074 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.074 :temJustificacao :just_df_c450.10.074.
+:crit_just_df_c450.10.074_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre a atividade da entidade licenciada, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.074 :temCriterio :crit_just_df_c450.10.074_1.
+:crit_just_df_c450.10.074_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.074_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.075
+:df_c450.10.075 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.075 :temDF :df_c450.10.075.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.075
+:just_df_c450.10.075 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.075 :temJustificacao :just_df_c450.10.075.
+:crit_just_df_c450.10.075_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);PN 400.10.200 - Registo comercial (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal).".
+:just_df_c450.10.075 :temCriterio :crit_just_df_c450.10.075_1.
+:crit_just_df_c450.10.075_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.075_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.075_1 :temProcessoRelacionado :c400.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.076
+:df_c450.10.076 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.076 :temDF :df_c450.10.076.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.076
+:just_df_c450.10.076 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.076 :temJustificacao :just_df_c450.10.076.
+:crit_just_df_c450.10.076_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);PN 400.10.200 - Registo comercial.".
+:just_df_c450.10.076 :temCriterio :crit_just_df_c450.10.076_1.
+:crit_just_df_c450.10.076_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.076_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.076_1 :temProcessoRelacionado :c400.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.077
+:df_c450.10.077 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.077 :temDF :df_c450.10.077.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.077
+:just_df_c450.10.077 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.077 :temJustificacao :just_df_c450.10.077.
+:crit_just_df_c450.10.077_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre a atividade da entidade licenciada, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.077 :temCriterio :crit_just_df_c450.10.077_1.
+:crit_just_df_c450.10.077_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.077_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.078
+:df_c450.10.078 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.078 :temDF :df_c450.10.078.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.078
+:just_df_c450.10.078 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.078 :temJustificacao :just_df_c450.10.078.
+:crit_just_df_c450.10.078_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre a atividade da entidade licenciada, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.078 :temCriterio :crit_just_df_c450.10.078_1.
+:crit_just_df_c450.10.078_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.078_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.079
+:df_c450.10.079 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.079 :temDF :df_c450.10.079.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.079
+:just_df_c450.10.079 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.079 :temJustificacao :just_df_c450.10.079.
+:crit_just_df_c450.10.079_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);PN 400.10.200 - Registo comercial (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal):".
+:just_df_c450.10.079 :temCriterio :crit_just_df_c450.10.079_1.
+:crit_just_df_c450.10.079_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.079_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.079_1 :temProcessoRelacionado :c400.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.080
+:df_c450.10.080 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.080 :temDF :df_c450.10.080.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.080
+:just_df_c450.10.080 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.080 :temJustificacao :just_df_c450.10.080.
+:crit_just_df_c450.10.080_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);PN 400.10.200 - Registo comercial (situação jurídica da entidade licenciada: início, alteração e cessação da actividade; modificações do seu estado civil e regime de bens; mudança de estabelecimento principal).".
+:just_df_c450.10.080 :temCriterio :crit_just_df_c450.10.080_1.
+:crit_just_df_c450.10.080_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.080_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.080_1 :temProcessoRelacionado :c400.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.200
+:df_c450.10.200 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.200 :temDF :df_c450.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.200
+:just_df_c450.10.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.200 :temJustificacao :just_df_c450.10.200.
+:crit_just_df_c450.10.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados).Informação recuperável nosPN 450.10.201 - Licenciamento ou autorização de loteamento;PN 450.10.203 - Licenciamento ou autorização de urbanização;PN 450.10.204 - Licenciamento ou autorização de edificações;PN 450.10.216 - Licenciamento de farmácias.".
+:just_df_c450.10.200 :temCriterio :crit_just_df_c450.10.200_1.
+:crit_just_df_c450.10.200_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.200_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.200_1 :temProcessoRelacionado :c450.10.201.
+:crit_just_df_c450.10.200_1 :temProcessoRelacionado :c450.10.203.
+:crit_just_df_c450.10.200_1 :temProcessoRelacionado :c450.10.204.
+:crit_just_df_c450.10.200_1 :temProcessoRelacionado :c450.10.216.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.201
+:df_c450.10.201 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.201 :temDF :df_c450.10.201.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.201
+:just_df_c450.10.201 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.201 :temJustificacao :just_df_c450.10.201.
+:crit_just_df_c450.10.201_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não se encontra integralmente sintetizada, nomeadamente nomeadamente para as parcelas de terreno que fiquem afetas ao domínio público.".
+:just_df_c450.10.201 :temCriterio :crit_just_df_c450.10.201_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.202
+:df_c450.10.202 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.202 :temDF :df_c450.10.202.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.202
+:just_df_c450.10.202 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.202 :temJustificacao :just_df_c450.10.202.
+:crit_just_df_c450.10.202_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre o impacto da remodelação de terrenos, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.202 :temCriterio :crit_just_df_c450.10.202_1.
+:crit_just_df_c450.10.202_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.202_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.203
+:df_c450.10.203 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.203 :temDF :df_c450.10.203.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.203
+:just_df_c450.10.203 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.203 :temJustificacao :just_df_c450.10.203.
+:crit_just_df_c450.10.203_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre os projetos de urbanização, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.203 :temCriterio :crit_just_df_c450.10.203_1.
+:crit_just_df_c450.10.203_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.203_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.204
+:df_c450.10.204 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.204 :temDF :df_c450.10.204.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.204
+:just_df_c450.10.204 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.204 :temJustificacao :just_df_c450.10.204.
+:crit_just_df_c450.10.204_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre os projetos de edificação, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.204 :temCriterio :crit_just_df_c450.10.204_1.
+:crit_just_df_c450.10.204_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.204_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.205
+:df_c450.10.205 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.205 :temDF :df_c450.10.205.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.205
+:just_df_c450.10.205 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.205 :temJustificacao :just_df_c450.10.205.
+:crit_just_df_c450.10.205_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividade;PN 300.30.008 - Registo de documentos, não se dispõe de PN sintetizador sobre o tipo de utilização licenciada e suas condições, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.205 :temCriterio :crit_just_df_c450.10.205_1.
+:crit_just_df_c450.10.205_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.205_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.207
+:df_c450.10.207 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.207 :temDF :df_c450.10.207.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.207
+:just_df_c450.10.207 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.207 :temJustificacao :just_df_c450.10.207.
+:crit_just_df_c450.10.207_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada e recuperável complementarmente em:PN 150.20.300 - Avaliação de atividades,PN 300.30.001 - Compilação técnica de obraPN 300.30.008 - Registo de documentos,PN 450.10.204 - Licenciamento ou autorização de edificações,PN 450.10.223 - Licenciamento para a rejeição de águas residuais,PN 450.10.229 - Procedimentos de avaliação de impactos ambientais,PN 500.10.600 - Monitorização sistemática da conformidade.".
+:just_df_c450.10.207 :temCriterio :crit_just_df_c450.10.207_1.
+:crit_just_df_c450.10.207_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.207_1 :temProcessoRelacionado :c300.30.001.
+:crit_just_df_c450.10.207_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.207_1 :temProcessoRelacionado :c450.10.204.
+:crit_just_df_c450.10.207_1 :temProcessoRelacionado :c450.10.223.
+:crit_just_df_c450.10.207_1 :temProcessoRelacionado :c450.10.229.
+:crit_just_df_c450.10.207_1 :temProcessoRelacionado :c500.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.208
+:df_c450.10.208 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.208 :temDF :df_c450.10.208.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.208
+:just_df_c450.10.208 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.208 :temJustificacao :just_df_c450.10.208.
+:crit_just_df_c450.10.208_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada e recuperável complementarmente em:PN 150.20.300 - Avaliação de atividades,PN 300.30.001 - Compilação técnica de obraPN 300.30.008 - Registo de documentos,PN 450.10.204 - Licenciamento ou autorização de edificações,PN 450.10.223 - Licenciamento para a rejeição de águas residuais,PN 450.10.229 - Procedimentos de avaliação de impactos ambientais,PN 500.20.600 - Monitorização sistemática da conformidade.".
+:just_df_c450.10.208 :temCriterio :crit_just_df_c450.10.208_1.
+:crit_just_df_c450.10.208_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.208_1 :temProcessoRelacionado :c300.30.001.
+:crit_just_df_c450.10.208_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.208_1 :temProcessoRelacionado :c450.10.204.
+:crit_just_df_c450.10.208_1 :temProcessoRelacionado :c450.10.223.
+:crit_just_df_c450.10.208_1 :temProcessoRelacionado :c450.10.229.
+:crit_just_df_c450.10.208_1 :temProcessoRelacionado :c500.20.600.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.209
+:df_c450.10.209 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.209 :temDF :df_c450.10.209.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.209
+:just_df_c450.10.209 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.209 :temJustificacao :just_df_c450.10.209.
+:crit_just_df_c450.10.209_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos, não se dispõe de PN sintetizador sobre o uso da instalação  licenciada e suas condições, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.209 :temCriterio :crit_just_df_c450.10.209_1.
+:crit_just_df_c450.10.209_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.209_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.210
+:df_c450.10.210 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.210 :temDF :df_c450.10.210.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.210
+:just_df_c450.10.210 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.210 :temJustificacao :just_df_c450.10.210.
+:crit_just_df_c450.10.210_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados).".
+:just_df_c450.10.210 :temCriterio :crit_just_df_c450.10.210_1.
+:crit_just_df_c450.10.210_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.210_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.212
+:df_c450.10.212 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.212 :temDF :df_c450.10.212.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.212
+:just_df_c450.10.212 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.212 :temJustificacao :just_df_c450.10.212.
+:crit_just_df_c450.10.212_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 150.40.500 - Recolha e tratamento de dados estatísticos para apoio à decisão;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre o tipo de utilização licenciada e suas condições, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.212 :temCriterio :crit_just_df_c450.10.212_1.
+:crit_just_df_c450.10.212_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.212_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c450.10.212_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.213
+:df_c450.10.213 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c450.10.213 :temDF :df_c450.10.213.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.213
+:just_df_c450.10.213 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.213 :temJustificacao :just_df_c450.10.213.
+:crit_just_df_c450.10.213_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não se dispõe de PN sintetizador sobre o tipo de utilização licenciada e suas condições. A enumeração e tipificação dos casos é recuperável através das estatísticas.Esta síntese não permite recuperar o particular e individual, mas apenas o geral.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.".
+:just_df_c450.10.213 :temCriterio :crit_just_df_c450.10.213_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.214
+:df_c450.10.214 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c450.10.214 :temDF :df_c450.10.214.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.214
+:just_df_c450.10.214 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.214 :temJustificacao :just_df_c450.10.214.
+:crit_just_df_c450.10.214_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não se dispõe de PN sintetizador sobre o tipo de utilização licenciada e suas condições. A enumeração e tipificação dos casos é recuperável através das estatísticas.Esta síntese não permite recuperar o particular e individual, mas apenas o geral.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.".
+:just_df_c450.10.214 :temCriterio :crit_just_df_c450.10.214_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.215
+:df_c450.10.215 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c450.10.215 :temDF :df_c450.10.215.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.215
+:just_df_c450.10.215 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.215 :temJustificacao :just_df_c450.10.215.
+:crit_just_df_c450.10.215_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não se dispõe de PN sintetizador sobre o tipo de utilização licenciada e suas condições. A enumeração e tipificação dos casos é recuperável através das estatísticas.Esta síntese não permite recuperar o particular e individual, mas apenas o geral.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.".
+:just_df_c450.10.215 :temCriterio :crit_just_df_c450.10.215_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.216
+:df_c450.10.216 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.216 :temDF :df_c450.10.216.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.216
+:just_df_c450.10.216 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.216 :temJustificacao :just_df_c450.10.216.
+:crit_just_df_c450.10.216_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);Registo de farmácias (atividade da farmácia).".
+:just_df_c450.10.216 :temCriterio :crit_just_df_c450.10.216_1.
+:crit_just_df_c450.10.216_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.216_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.219
+:df_c450.10.219 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.219 :temDF :df_c450.10.219.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.219
+:just_df_c450.10.219 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.219 :temJustificacao :just_df_c450.10.219.
+:crit_just_df_c450.10.219_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 150.40.500 - Recolha e tratamento de dados estatísticos para apoio à decisão;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre o projeto licenciado, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.219 :temCriterio :crit_just_df_c450.10.219_1.
+:crit_just_df_c450.10.219_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.219_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c450.10.219_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.220
+:df_c450.10.220 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.220 :temDF :df_c450.10.220.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.220
+:just_df_c450.10.220 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.220 :temJustificacao :just_df_c450.10.220.
+:crit_just_df_c450.10.220_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora) e em PN 300.30.008 - Registo de documentos (casos licenciados).".
+:just_df_c450.10.220 :temCriterio :crit_just_df_c450.10.220_1.
+:crit_just_df_c450.10.220_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.220_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.221
+:df_c450.10.221 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c450.10.221 :temDF :df_c450.10.221.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.221
+:just_df_c450.10.221 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.221 :temJustificacao :just_df_c450.10.221.
+:crit_just_df_c450.10.221_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não se dispõe de PN sintetizador sobre o tipo de utilização licenciada e suas condições. A enumeração e tipificação dos casos é recuperável através das estatísticas.Esta síntese não permite recuperar o particular e individual, mas apenas o geral.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.".
+:just_df_c450.10.221 :temCriterio :crit_just_df_c450.10.221_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.222
+:df_c450.10.222 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.222 :temDF :df_c450.10.222.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.222
+:just_df_c450.10.222 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.222 :temJustificacao :just_df_c450.10.222.
+:crit_just_df_c450.10.222_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável em 300.30.001 - Compilação técnica de obra e em 450.10.229 - Procedimento de avaliação de impactos ambientais.".
+:just_df_c450.10.222 :temCriterio :crit_just_df_c450.10.222_1.
+:crit_just_df_c450.10.222_1 :temProcessoRelacionado :c300.30.001.
+:crit_just_df_c450.10.222_1 :temProcessoRelacionado :c450.10.229.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.223
+:df_c450.10.223 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.223 :temDF :df_c450.10.223.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.223
+:just_df_c450.10.223 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.223 :temJustificacao :just_df_c450.10.223.
+:crit_just_df_c450.10.223_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 150.40.500 - Recolha e tratamento de dados estatísticos para apoio à decisão;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre as águas rejeitadas, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.223 :temCriterio :crit_just_df_c450.10.223_1.
+:crit_just_df_c450.10.223_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.223_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c450.10.223_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.224
+:df_c450.10.224 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.224 :temDF :df_c450.10.224.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.224
+:just_df_c450.10.224 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.224 :temJustificacao :just_df_c450.10.224.
+:crit_just_df_c450.10.224_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável no PN 300.30.001 Compilação técnica da obra.".
+:just_df_c450.10.224 :temCriterio :crit_just_df_c450.10.224_1.
+:crit_just_df_c450.10.224_1 :temProcessoRelacionado :c300.30.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.227
+:df_c450.10.227 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.227 :temDF :df_c450.10.227.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.227
+:just_df_c450.10.227 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.227 :temJustificacao :just_df_c450.10.227.
+:crit_just_df_c450.10.227_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);Registo de farmácias (atividade da farmácia).".
+:just_df_c450.10.227 :temCriterio :crit_just_df_c450.10.227_1.
+:crit_just_df_c450.10.227_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.227_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.228
+:df_c450.10.228 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.228 :temDF :df_c450.10.228.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.228
+:just_df_c450.10.228 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.228 :temJustificacao :just_df_c450.10.228.
+:crit_just_df_c450.10.228_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);PN 400.10.200 - Registo comercial.".
+:just_df_c450.10.228 :temCriterio :crit_just_df_c450.10.228_1.
+:crit_just_df_c450.10.228_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.228_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.228_1 :temProcessoRelacionado :c400.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.229.01
+:df_c450.10.229.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.229.01 :temDF :df_c450.10.229.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.229.01
+:just_df_c450.10.229.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.229.01 :temJustificacao :just_df_c450.10.229.01.
+:crit_just_df_c450.10.229.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada emPN 450.10.229.02 -Procedimentos de avaliação de impactos ambientais: elaboração do relatório final e emissão de título.".
+:just_df_c450.10.229.01 :temCriterio :crit_just_df_c450.10.229.01_1.
+:crit_just_df_c450.10.229.01_1 :temProcessoRelacionado :c450.10.229.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.230
+:df_c450.10.230 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.230 :temDF :df_c450.10.230.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.230
+:just_df_c450.10.230 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.230 :temJustificacao :just_df_c450.10.230.
+:crit_just_df_c450.10.230_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 150.40.500 - Recolha e tratamento de dados estatísticos para apoio à decisão;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador dos trabalhos arqueológidos realizados, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.230 :temCriterio :crit_just_df_c450.10.230_1.
+:crit_just_df_c450.10.230_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.230_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c450.10.230_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.231
+:df_c450.10.231 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c450.10.231 :temDF :df_c450.10.231.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.231
+:just_df_c450.10.231 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.231 :temJustificacao :just_df_c450.10.231.
+:crit_just_df_c450.10.231_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não se dispõe de PN sintetizador sobre o tipo de utilização licenciada e suas condições. A enumeração e tipificação dos casos é recuperável através das estatísticas.Esta síntese não permite recuperar o particular e individual, mas apenas o geral.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.".
+:just_df_c450.10.231 :temCriterio :crit_just_df_c450.10.231_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.232
+:df_c450.10.232 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.232 :temDF :df_c450.10.232.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.232
+:just_df_c450.10.232 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.232 :temJustificacao :just_df_c450.10.232.
+:crit_just_df_c450.10.232_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre os projetos de captação de água e suas consequências, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.232 :temCriterio :crit_just_df_c450.10.232_1.
+:crit_just_df_c450.10.232_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.232_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.233
+:df_c450.10.233 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.233 :temDF :df_c450.10.233.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.233
+:just_df_c450.10.233 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.233 :temJustificacao :just_df_c450.10.233.
+:crit_just_df_c450.10.233_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada e recuperável complementarmente em:PN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos;PN 300.40.003 - Edificação de iniciativa pública;PN 450.10.204 - Licenciamento ou autorização de edificações.".
+:just_df_c450.10.233 :temCriterio :crit_just_df_c450.10.233_1.
+:crit_just_df_c450.10.233_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.233_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.233_1 :temProcessoRelacionado :c300.40.003.
+:crit_just_df_c450.10.233_1 :temProcessoRelacionado :c450.10.204.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.234
+:df_c450.10.234 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.234 :temDF :df_c450.10.234.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.234
+:just_df_c450.10.234 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.234 :temJustificacao :just_df_c450.10.234.
+:crit_just_df_c450.10.234_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre o uso da instalação licenciada e suas condições, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.234 :temCriterio :crit_just_df_c450.10.234_1.
+:crit_just_df_c450.10.234_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.234_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.235
+:df_c450.10.235 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.235 :temDF :df_c450.10.235.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.235
+:just_df_c450.10.235 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.235 :temJustificacao :just_df_c450.10.235.
+:crit_just_df_c450.10.235_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora) e emPN 300.30.008 - Registo de documentos (casos licenciados).Informação recuperável nos PN de 400.10.406 - Registo predial e 400.30.001 - Celebração de contratos e escrituras.".
+:just_df_c450.10.235 :temCriterio :crit_just_df_c450.10.235_1.
+:crit_just_df_c450.10.235_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.235_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.235_1 :temProcessoRelacionado :c400.10.406.
+:crit_just_df_c450.10.235_1 :temProcessoRelacionado :c400.30.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.236
+:df_c450.10.236 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.236 :temDF :df_c450.10.236.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.236
+:just_df_c450.10.236 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.236 :temJustificacao :just_df_c450.10.236.
+:crit_just_df_c450.10.236_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos autorizados).".
+:just_df_c450.10.236 :temCriterio :crit_just_df_c450.10.236_1.
+:crit_just_df_c450.10.236_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.236_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.237
+:df_c450.10.237 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.237 :temDF :df_c450.10.237.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.237
+:just_df_c450.10.237 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.237 :temJustificacao :just_df_c450.10.237.
+:crit_just_df_c450.10.237_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre os projetos de licenciamento de acessos, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.237 :temCriterio :crit_just_df_c450.10.237_1.
+:crit_just_df_c450.10.237_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.237_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.440.01
+:df_c450.10.440.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.440.01 :temDF :df_c450.10.440.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.440.01
+:just_df_c450.10.440.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.440.01 :temJustificacao :just_df_c450.10.440.01.
+:crit_just_df_c450.10.440.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 450.10.440.02 - Reconhecimento de títulos de profissões reguladas: emissão de título.".
+:just_df_c450.10.440.01 :temCriterio :crit_just_df_c450.10.440.01_1.
+:crit_just_df_c450.10.440.01_1 :temProcessoRelacionado :c450.10.440.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.441.01
+:df_c450.10.441.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.441.01 :temDF :df_c450.10.441.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.441.01
+:just_df_c450.10.441.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.441.01 :temJustificacao :just_df_c450.10.441.01.
+:crit_just_df_c450.10.441.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 450.10.441.02 - Reconhecimento de títulos de profissões regulamentadas: emissão de título.".
+:just_df_c450.10.441.01 :temCriterio :crit_just_df_c450.10.441.01_1.
+:crit_just_df_c450.10.441.01_1 :temProcessoRelacionado :c450.10.441.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.442.01
+:df_c450.10.442.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.442.01 :temDF :df_c450.10.442.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.442.01
+:just_df_c450.10.442.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.442.01 :temJustificacao :just_df_c450.10.442.01.
+:crit_just_df_c450.10.442.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 450.10.442.02 - Reconhecimento de títulos profissionais obtidos no estrangeiro: emissão de título.".
+:just_df_c450.10.442.01 :temCriterio :crit_just_df_c450.10.442.01_1.
+:crit_just_df_c450.10.442.01_1 :temProcessoRelacionado :c450.10.442.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.443
+:df_c450.10.443 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.443 :temDF :df_c450.10.443.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.443
+:just_df_c450.10.443 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.443 :temJustificacao :just_df_c450.10.443.
+:crit_just_df_c450.10.443_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre o uso da instalação licenciada e suas condições, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.443 :temCriterio :crit_just_df_c450.10.443_1.
+:crit_just_df_c450.10.443_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.443_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.444.01
+:df_c450.10.444.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.444.01 :temDF :df_c450.10.444.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.444.01
+:just_df_c450.10.444.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.444.01 :temJustificacao :just_df_c450.10.444.01.
+:crit_just_df_c450.10.444.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 450.10.444.02 -Reconhecimento de requisitos e competência técnica a entidades: emissão de título.".
+:just_df_c450.10.444.01 :temCriterio :crit_just_df_c450.10.444.01_1.
+:crit_just_df_c450.10.444.01_1 :temProcessoRelacionado :c450.10.444.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.445.01
+:df_c450.10.445.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.445.01 :temDF :df_c450.10.445.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.445.01
+:just_df_c450.10.445.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.445.01 :temJustificacao :just_df_c450.10.445.01.
+:crit_just_df_c450.10.445.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 450.10.445.02 - Acreditação de entidade para prestação de serviços de avaliação de conformidade: emissão de título.".
+:just_df_c450.10.445.01 :temCriterio :crit_just_df_c450.10.445.01_1.
+:crit_just_df_c450.10.445.01_1 :temProcessoRelacionado :c450.10.445.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.446
+:df_c450.10.446 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.446 :temDF :df_c450.10.446.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.446
+:just_df_c450.10.446 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.446 :temJustificacao :just_df_c450.10.446.
+:crit_just_df_c450.10.446_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação que se encontra sintetizada emPN 150.20.300 - Avaliação de atividades;PN 150.40.500 - Recolha e tratamento de dados estatísticos para apoio à decisão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.009 - Registo nacional de pessoas coletivas;PN 400.10.200 - Registo comercial;Informação recuperável emPN 400.30.001 - Celebração de contratos, escrituras, títulos equivalentes e testamentos;PN 900.20.201- Edição e publicação de conteúdos.".
+:just_df_c450.10.446 :temCriterio :crit_just_df_c450.10.446_1.
+:crit_just_df_c450.10.446_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.446_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c450.10.446_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.446_1 :temProcessoRelacionado :c400.10.009.
+:crit_just_df_c450.10.446_1 :temProcessoRelacionado :c400.10.200.
+:crit_just_df_c450.10.446_1 :temProcessoRelacionado :c400.30.001.
+:crit_just_df_c450.10.446_1 :temProcessoRelacionado :c900.20.201.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.447
+:df_c450.10.447 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.447 :temDF :df_c450.10.447.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.447
+:just_df_c450.10.447 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.447 :temJustificacao :just_df_c450.10.447.
+:crit_just_df_c450.10.447_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação que se encontra sintetizada emPN 150.20.300 - Avaliação de atividades;PN 150.40.500 - Recolha e tratamento de dados estatísticos para apoio à decisão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.009 - Registo nacional de pessoas coletivas;PN 400.10.200 - Registo comercial;Informação recuperável emPN 400.30.001 - Celebração de contratos, escrituras, títulos equivalentes e testamentos;PN 900.20.201 - Edição e publicação de conteúdos.".
+:just_df_c450.10.447 :temCriterio :crit_just_df_c450.10.447_1.
+:crit_just_df_c450.10.447_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.447_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c450.10.447_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.447_1 :temProcessoRelacionado :c400.10.009.
+:crit_just_df_c450.10.447_1 :temProcessoRelacionado :c400.10.200.
+:crit_just_df_c450.10.447_1 :temProcessoRelacionado :c400.30.001.
+:crit_just_df_c450.10.447_1 :temProcessoRelacionado :c900.20.201.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.448
+:df_c450.10.448 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.448 :temDF :df_c450.10.448.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.448
+:just_df_c450.10.448 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.448 :temJustificacao :just_df_c450.10.448.
+:crit_just_df_c450.10.448_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c450.10.448 :temCriterio :crit_just_df_c450.10.448_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.640
+:df_c450.10.640 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.640 :temDF :df_c450.10.640.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.640
+:just_df_c450.10.640 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.640 :temJustificacao :just_df_c450.10.640.
+:crit_just_df_c450.10.640_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);PN 400.10.411 - Registo de Drug Master Files.".
+:just_df_c450.10.640 :temCriterio :crit_just_df_c450.10.640_1.
+:crit_just_df_c450.10.640_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.640_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.640_1 :temProcessoRelacionado :c400.10.411.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.641
+:df_c450.10.641 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.641 :temDF :df_c450.10.641.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.641
+:just_df_c450.10.641 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.641 :temJustificacao :just_df_c450.10.641.
+:crit_just_df_c450.10.641_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação se encontre sintetizada emPN 150.20.300 - Avaliação de atividades e PN 300.30.008 - Registo de documentos, não se dispõe de PN sintetizador sobre o argumentário utilizado, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.10.641 :temCriterio :crit_just_df_c450.10.641_1.
+:crit_just_df_c450.10.641_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.641_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.643
+:df_c450.10.643 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.643 :temDF :df_c450.10.643.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.643
+:just_df_c450.10.643 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.643 :temJustificacao :just_df_c450.10.643.
+:crit_just_df_c450.10.643_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação que se encontra sintetizada emPN 150.20.300 - Avaliação de atividades;PN 150.40.500 - Recolha e tratamento de dados estatísticos para apoio à decisão;PN 300.30.008 - Registo de documentos e informação.".
+:just_df_c450.10.643 :temCriterio :crit_just_df_c450.10.643_1.
+:crit_just_df_c450.10.643_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.643_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c450.10.643_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.644
+:df_c450.10.644 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.644 :temDF :df_c450.10.644.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.644
+:just_df_c450.10.644 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.644 :temJustificacao :just_df_c450.10.644.
+:crit_just_df_c450.10.644_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);E recuperável emPN 400.10.410 - Registo de armas e munições;  PN 400.10.411 - Registo de Drug Master Files;PN 450.20.503 - Inventariação de património cultural.".
+:just_df_c450.10.644 :temCriterio :crit_just_df_c450.10.644_1.
+:crit_just_df_c450.10.644_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.644_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.644_1 :temProcessoRelacionado :c400.10.410.
+:crit_just_df_c450.10.644_1 :temProcessoRelacionado :c400.10.411.
+:crit_just_df_c450.10.644_1 :temProcessoRelacionado :c450.20.503.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.645
+:df_c450.10.645 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c450.10.645 :temDF :df_c450.10.645.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.645
+:just_df_c450.10.645 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.645 :temJustificacao :just_df_c450.10.645.
+:crit_just_df_c450.10.645_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não se dispõe de PN sintetizador sobre o tipo de utilização licenciada e suas condições. A enumeração e tipificação dos casos é recuperável através das estatísticas.Esta síntese não permite recuperar o particular e individual, mas apenas o geral.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.".
+:just_df_c450.10.645 :temCriterio :crit_just_df_c450.10.645_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.646
+:df_c450.10.646 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.646 :temDF :df_c450.10.646.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.646
+:just_df_c450.10.646 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.646 :temJustificacao :just_df_c450.10.646.
+:crit_just_df_c450.10.646_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);E recuperável emPN 400.10.410 - Registo de armas e munições;  PN 450.20.503 - Inventariação de património cultural.".
+:just_df_c450.10.646 :temCriterio :crit_just_df_c450.10.646_1.
+:crit_just_df_c450.10.646_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.646_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.646_1 :temProcessoRelacionado :c400.10.410.
+:crit_just_df_c450.10.646_1 :temProcessoRelacionado :c450.20.503.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.647
+:df_c450.10.647 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.647 :temDF :df_c450.10.647.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.647
+:just_df_c450.10.647 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.647 :temJustificacao :just_df_c450.10.647.
+:crit_just_df_c450.10.647_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados).O controlo da execução das alterações autorizadas é recuperável emPN 500.10.001 - Realização de auditoras;PN 500.10.300 - Realização de inspeção.".
+:just_df_c450.10.647 :temCriterio :crit_just_df_c450.10.647_1.
+:crit_just_df_c450.10.647_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.647_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.647_1 :temProcessoRelacionado :c500.10.001.
+:crit_just_df_c450.10.647_1 :temProcessoRelacionado :c500.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.648.01
+:df_c450.10.648.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.648.01 :temDF :df_c450.10.648.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.648.01
+:just_df_c450.10.648.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.648.01 :temJustificacao :just_df_c450.10.648.01.
+:crit_just_df_c450.10.648.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada em 450.10.648.02 - Reconhecimento das  características e origem de bens, produtos e serviços: emissão do título.".
+:just_df_c450.10.648.01 :temCriterio :crit_just_df_c450.10.648.01_1.
+:crit_just_df_c450.10.648.01_1 :temProcessoRelacionado :c450.10.648.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.649
+:df_c450.10.649 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.649 :temDF :df_c450.10.649.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.649
+:just_df_c450.10.649 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.649 :temJustificacao :just_df_c450.10.649.
+:crit_just_df_c450.10.649_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados).O controlo dos bens ou produtos classificados  é recuperável emPN 500.10.300 - Realização de inspeção;PN 500.10.301 - Realização de fiscalização.".
+:just_df_c450.10.649 :temCriterio :crit_just_df_c450.10.649_1.
+:crit_just_df_c450.10.649_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.649_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.649_1 :temProcessoRelacionado :c500.10.300.
+:crit_just_df_c450.10.649_1 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.650
+:df_c450.10.650 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.650 :temDF :df_c450.10.650.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.650
+:just_df_c450.10.650 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.650 :temJustificacao :just_df_c450.10.650.
+:crit_just_df_c450.10.650_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados).O controlo dos bens ou produtos  é recuperável emPN 500.10.300 - Realização de inspeção;PN 500.10.301 - Realização de fiscalização.".
+:just_df_c450.10.650 :temCriterio :crit_just_df_c450.10.650_1.
+:crit_just_df_c450.10.650_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.650_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.650_1 :temProcessoRelacionado :c500.10.300.
+:crit_just_df_c450.10.650_1 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.651
+:df_c450.10.651 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.651 :temDF :df_c450.10.651.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.651
+:just_df_c450.10.651 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.651 :temJustificacao :just_df_c450.10.651.
+:crit_just_df_c450.10.651_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dePN 750.20.001 - Conceção, revisão e extinção de currículos e planos de estudos.".
+:just_df_c450.10.651 :temCriterio :crit_just_df_c450.10.651_1.
+:crit_just_df_c450.10.651_1 :eComplementarDe :c750.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.800
+:df_c450.10.800 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.800 :temDF :df_c450.10.800.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.800
+:just_df_c450.10.800 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.800 :temJustificacao :just_df_c450.10.800.
+:crit_just_df_c450.10.800_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);PN 400.10.400 - Registo de animais de companhia (situação dos animais licenciados).".
+:just_df_c450.10.800 :temCriterio :crit_just_df_c450.10.800_1.
+:crit_just_df_c450.10.800_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.800_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.800_1 :temProcessoRelacionado :c400.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.801
+:df_c450.10.801 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.801 :temDF :df_c450.10.801.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.801
+:just_df_c450.10.801 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.801 :temJustificacao :just_df_c450.10.801.
+:crit_just_df_c450.10.801_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados);PN 400.10.034 - Registo de infrações do condutor (situação dos condutores).".
+:just_df_c450.10.801 :temCriterio :crit_just_df_c450.10.801_1.
+:crit_just_df_c450.10.801_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.801_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.801_1 :temProcessoRelacionado :c400.10.034.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.802
+:df_c450.10.802 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.802 :temDF :df_c450.10.802.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.802
+:just_df_c450.10.802 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.802 :temJustificacao :just_df_c450.10.802.
+:crit_just_df_c450.10.802_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados).O controlo da atividade de caça é recuperável em PN 500.10.301 - Realização de fiscalização.".
+:just_df_c450.10.802 :temCriterio :crit_just_df_c450.10.802_1.
+:crit_just_df_c450.10.802_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.802_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.802_1 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.803.01
+:df_c450.10.803.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.803.01 :temDF :df_c450.10.803.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.803.01
+:just_df_c450.10.803.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.803.01 :temJustificacao :just_df_c450.10.803.01.
+:crit_just_df_c450.10.803.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "informação sintetizada emPN 450.10.803.02 - Autorização para angariação de receitas: comunicação da receita angariada.".
+:just_df_c450.10.803.01 :temCriterio :crit_just_df_c450.10.803.01_1.
+:crit_just_df_c450.10.803.01_1 :temProcessoRelacionado :c450.10.803.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.804
+:df_c450.10.804 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.804 :temDF :df_c450.10.804.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.804
+:just_df_c450.10.804 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.804 :temJustificacao :just_df_c450.10.804.
+:crit_just_df_c450.10.804_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados).O controlo da  dispensa de serviço interno de saúde do trabalho é recuperável noPN 500.10.301 - Realização de fiscalização.".
+:just_df_c450.10.804 :temCriterio :crit_just_df_c450.10.804_1.
+:crit_just_df_c450.10.804_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.804_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.804_1 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.805
+:df_c450.10.805 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.805 :temDF :df_c450.10.805.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.805
+:just_df_c450.10.805 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.805 :temJustificacao :just_df_c450.10.805.
+:crit_just_df_c450.10.805_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos autorizados).O resultado da autorização concedida é recuperável nosPN 300.10.001 - Contratação de empreitadas de obras púplicas;PN 300.10.002 - Contratação de fornecimento de bens publicos essenciais;PN 300.10.005 - Transação e transmissão de bens móveis não culturais e contratação de serviços.".
+:just_df_c450.10.805 :temCriterio :crit_just_df_c450.10.805_1.
+:crit_just_df_c450.10.805_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.805_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.805_1 :temProcessoRelacionado :c300.10.001.
+:crit_just_df_c450.10.805_1 :temProcessoRelacionado :c300.10.002.
+:crit_just_df_c450.10.805_1 :temProcessoRelacionado :c300.10.005.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.806
+:df_c450.10.806 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.806 :temDF :df_c450.10.806.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.806
+:just_df_c450.10.806 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.806 :temJustificacao :just_df_c450.10.806.
+:crit_just_df_c450.10.806_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados).O controlo da atividade é recuperável em no PN 500.10.301 - Realização de fiscalização.".
+:just_df_c450.10.806 :temCriterio :crit_just_df_c450.10.806_1.
+:crit_just_df_c450.10.806_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.806_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.806_1 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.807
+:df_c450.10.807 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.807 :temDF :df_c450.10.807.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.807
+:just_df_c450.10.807 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.807 :temJustificacao :just_df_c450.10.807.
+:crit_just_df_c450.10.807_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados).O controlo da atividade é recuperável em no PN 500.10.301 - Realização de fiscalização.".
+:just_df_c450.10.807 :temCriterio :crit_just_df_c450.10.807_1.
+:crit_just_df_c450.10.807_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.807_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.807_1 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.808
+:df_c450.10.808 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.10.808 :temDF :df_c450.10.808.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.808
+:just_df_c450.10.808 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.808 :temJustificacao :just_df_c450.10.808.
+:crit_just_df_c450.10.808_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade licenciadora);PN 300.30.008 - Registo de documentos (casos licenciados).O controlo da atividade é recuperável em no PN 500.10.301 - Realização de fiscalização.".
+:just_df_c450.10.808 :temCriterio :crit_just_df_c450.10.808_1.
+:crit_just_df_c450.10.808_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.10.808_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.10.808_1 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.10.810
+:df_c450.10.810 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.10.810 :temDF :df_c450.10.810.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.10.810
+:just_df_c450.10.810 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.10.810 :temJustificacao :just_df_c450.10.810.
+:crit_just_df_c450.10.810_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Civil, [DL 47344/66]: conservação para garante do exercício dos direitos de personalidade. Consagram direitos que não prescrevem no tempo.(Por analogia ao PN 400.10.001 – Registo civil)".
+:just_df_c450.10.810 :temCriterio :crit_just_df_c450.10.810_1.
+:crit_just_df_c450.10.810_1 :temLegislacao :leg_6.
+:crit_just_df_c450.10.810_1 :temProcessoRelacionado :c400.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.20.001.01
+:df_c450.20.001.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.20.001.01 :temDF :df_c450.20.001.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.20.001.01
+:just_df_c450.20.001.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.20.001.01 :temJustificacao :just_df_c450.20.001.01.
+:crit_just_df_c450.20.001.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada emPN 450.20.001.02 - Reconhecimento de pessoas coletivas de utilidade pública: emissão de declaração e registo.".
+:just_df_c450.20.001.01 :temCriterio :crit_just_df_c450.20.001.01_1.
+:crit_just_df_c450.20.001.01_1 :temProcessoRelacionado :c450.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.20.002
+:df_c450.20.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.20.002 :temDF :df_c450.20.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.20.002
+:just_df_c450.20.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.20.002 :temJustificacao :just_df_c450.20.002.
+:crit_just_df_c450.20.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 300.10.003 - Transação e transmissão de bens imóveisPN 150.20.300 - Avaliação de atividades (atuação da Administração);PN 300.30.008 - Registo de documentos (utilidade pública reconhecida).E recuperável nosPN 100.10.001 - Produção e comunicação de atos legislativos;PN 150.10.700 - Reunião de órgãos deliberativos;PN 150.10.701 - Reunião de órgãos executivos.".
+:just_df_c450.20.002 :temCriterio :crit_just_df_c450.20.002_1.
+:crit_just_df_c450.20.002_1 :temProcessoRelacionado :c300.10.003.
+:crit_just_df_c450.20.002_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.20.002_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.20.002_1 :temProcessoRelacionado :c100.10.001.
+:crit_just_df_c450.20.002_1 :temProcessoRelacionado :c150.10.700.
+:crit_just_df_c450.20.002_1 :temProcessoRelacionado :c150.10.701.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.20.003
+:df_c450.20.003 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.20.003 :temDF :df_c450.20.003.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.20.003
+:just_df_c450.20.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.20.003 :temJustificacao :just_df_c450.20.003.
+:crit_just_df_c450.20.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestãoPN 150.20.300 - Avaliação de atividades (atuação da Administração)PN 300.30.008 - Registo de documentos (projetos reconhecidos) e recuperável nos;PN 150.10.700 - Reunião de órgãos deliberativos;PN 150.10.701 - Reunião de órgãos executivos;PN 900.20.201 - Edição e publicação de conteúdos.".
+:just_df_c450.20.003 :temCriterio :crit_just_df_c450.20.003_1.
+:crit_just_df_c450.20.003_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c450.20.003_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.20.003_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.20.003_1 :temProcessoRelacionado :c150.10.700.
+:crit_just_df_c450.20.003_1 :temProcessoRelacionado :c150.10.701.
+:crit_just_df_c450.20.003_1 :temProcessoRelacionado :c900.20.201.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.20.503
+:df_c450.20.503 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.20.503 :temDF :df_c450.20.503.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.20.503
+:just_df_c450.20.503 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.20.503 :temJustificacao :just_df_c450.20.503.
+:crit_just_df_c450.20.503_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre o património inventariado, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.20.503 :temCriterio :crit_just_df_c450.20.503_1.
+:crit_just_df_c450.20.503_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.20.503_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.20.504
+:df_c450.20.504 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.20.504 :temDF :df_c450.20.504.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.20.504
+:just_df_c450.20.504 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.20.504 :temJustificacao :just_df_c450.20.504.
+:crit_just_df_c450.20.504_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da entidade licenciadora e aos casos licenciados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos.Não se dispõe de PN sintetizador sobre a reserva arqueológica, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.20.504 :temCriterio :crit_just_df_c450.20.504_1.
+:crit_just_df_c450.20.504_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.20.504_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.20.505
+:df_c450.20.505 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c450.20.505 :temDF :df_c450.20.505.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.20.505
+:just_df_c450.20.505 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.20.505 :temJustificacao :just_df_c450.20.505.
+:crit_just_df_c450.20.505_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Embora a informação relativa à atuação da administração e aos casos classificados se encontre sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos, não se dispõe de PN sintetizador sobre o património inventariado, pelo que aplicando a escala de risco se opta pela conservação.".
+:just_df_c450.20.505 :temCriterio :crit_just_df_c450.20.505_1.
+:crit_just_df_c450.20.505_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.20.505_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.30.002
+:df_c450.30.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.30.002 :temDF :df_c450.30.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.30.002
+:just_df_c450.30.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.30.002 :temJustificacao :just_df_c450.30.002.
+:crit_just_df_c450.30.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade responsável pelo PN);PN 300.30.008 - Registo de documentos (cópias autenticadas).Informação recuperável nosPN 450.10.441 - Reconhecimento de títulos de profissões regulamentadas;PN 750.30.601 - Processamento e comunicação de resultados da avaliação;PN 750.30.602 - Reconhecimento, creditação evalidação de competências e qualificações.".
+:just_df_c450.30.002 :temCriterio :crit_just_df_c450.30.002_1.
+:crit_just_df_c450.30.002_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.30.002_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c450.30.002_1 :temProcessoRelacionado :c450.10.441.
+:crit_just_df_c450.30.002_1 :temProcessoRelacionado :c750.30.601.
+:crit_just_df_c450.30.002_1 :temProcessoRelacionado :c750.30.602.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.30.003
+:df_c450.30.003 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.30.003 :temDF :df_c450.30.003.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.30.003
+:just_df_c450.30.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.30.003 :temJustificacao :just_df_c450.30.003.
+:crit_just_df_c450.30.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade responsável pelo PN);PN 300.30.008 - Registo de documentos (certidões emitidas).".
+:just_df_c450.30.003 :temCriterio :crit_just_df_c450.30.003_1.
+:crit_just_df_c450.30.003_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.30.003_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.30.500
+:df_c450.30.500 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.30.500 :temDF :df_c450.30.500.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.30.500
+:just_df_c450.30.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.30.500 :temJustificacao :just_df_c450.30.500.
+:crit_just_df_c450.30.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade responsável pelo PN);PN 250.20.001 - Registo biográfico de trabalhadores; PN 300.30.008 - Registo de documentos e informação (certificações emitidas).".
+:just_df_c450.30.500 :temCriterio :crit_just_df_c450.30.500_1.
+:crit_just_df_c450.30.500_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.30.500_1 :temProcessoRelacionado :c250.20.001.
+:crit_just_df_c450.30.500_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.30.502
+:df_c450.30.502 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.30.502 :temDF :df_c450.30.502.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.30.502
+:just_df_c450.30.502 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.30.502 :temJustificacao :just_df_c450.30.502.
+:crit_just_df_c450.30.502_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade responsável pelo PN);PN 300.30.008 - Registo de documentos (declarações emitidas).".
+:just_df_c450.30.502 :temCriterio :crit_just_df_c450.30.502_1.
+:crit_just_df_c450.30.502_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.30.502_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.30.503
+:df_c450.30.503 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.30.503 :temDF :df_c450.30.503.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.30.503
+:just_df_c450.30.503 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.30.503 :temJustificacao :just_df_c450.30.503.
+:crit_just_df_c450.30.503_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade responsável pelo PN);PN 300.30.008 - Registo de documentos (cópias autenticadas).".
+:just_df_c450.30.503 :temCriterio :crit_just_df_c450.30.503_1.
+:crit_just_df_c450.30.503_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.30.503_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c450.30.504
+:df_c450.30.504 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c450.30.504 :temDF :df_c450.30.504.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c450.30.504
+:just_df_c450.30.504 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c450.30.504 :temJustificacao :just_df_c450.30.504.
+:crit_just_df_c450.30.504_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade responsável pelo PN);PN 300.30.008 - Registo de documentos e informação (certificados emitidos).".
+:just_df_c450.30.504 :temCriterio :crit_just_df_c450.30.504_1.
+:crit_just_df_c450.30.504_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c450.30.504_1 :temProcessoRelacionado :c300.30.008.

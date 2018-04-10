@@ -1,0 +1,215 @@
+###  http://jcr.di.uminho.pt/m51-clav#df_c850.10.001
+:df_c850.10.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c850.10.001 :temDF :df_c850.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c850.10.001
+:just_df_c850.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c850.10.001 :temJustificacao :just_df_c850.10.001.
+:crit_just_df_c850.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c850.10.001 :temCriterio :crit_just_df_c850.10.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c850.10.002.01
+:df_c850.10.002.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c850.10.002.01 :temDF :df_c850.10.002.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c850.10.002.01
+:just_df_c850.10.002.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c850.10.002.01 :temJustificacao :just_df_c850.10.002.01.
+:crit_just_df_c850.10.002.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não recuperável noutro processo com nível de detalhe para documentar a atividade.Síntese doPN 850.10.002.02 - Formalização de candidaturas e acompanhamento de apoios regulares: controlo de informação financeira.".
+:just_df_c850.10.002.01 :temCriterio :crit_just_df_c850.10.002.01_1.
+:crit_just_df_c850.10.002.01_1 :temProcessoRelacionado :c850.10.002.
+###  http://jcr.di.uminho.pt/m51-clav#df_c850.10.003.01
+:df_c850.10.003.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c850.10.003.01 :temDF :df_c850.10.003.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c850.10.003.01
+:just_df_c850.10.003.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c850.10.003.01 :temJustificacao :just_df_c850.10.003.01.
+:crit_just_df_c850.10.003.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não recuperável noutro processo com nível de detalhe para documentar a atividade.Síntese doPN 850.10.003.02 - Formalização de candidaturas e acompanhamento de apoios pontuais: informação financeira.".
+:just_df_c850.10.003.01 :temCriterio :crit_just_df_c850.10.003.01_1.
+:crit_just_df_c850.10.003.01_1 :temProcessoRelacionado :c850.10.003.
+###  http://jcr.di.uminho.pt/m51-clav#df_c850.10.005
+:df_c850.10.005 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c850.10.005 :temDF :df_c850.10.005.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c850.10.005
+:just_df_c850.10.005 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c850.10.005 :temJustificacao :just_df_c850.10.005.
+:crit_just_df_c850.10.005_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.20.404 - Prestação de contas (síntese da informação orçamental e patrimonial);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos);PN 300.30.008 - Registo de documentos e informação (identificação e caracterização).".
+:just_df_c850.10.005 :temCriterio :crit_just_df_c850.10.005_1.
+:crit_just_df_c850.10.005_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c850.10.005_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c850.10.005_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c850.10.005_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c850.10.500
+:df_c850.10.500 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c850.10.500 :temDF :df_c850.10.500.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c850.10.500
+:just_df_c850.10.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c850.10.500 :temJustificacao :just_df_c850.10.500.
+:crit_just_df_c850.10.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c850.10.500 :temCriterio :crit_just_df_c850.10.500_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c850.10.600
+:df_c850.10.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c850.10.600 :temDF :df_c850.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c850.10.600
+:just_df_c850.10.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c850.10.600 :temJustificacao :just_df_c850.10.600.
+:crit_just_df_c850.10.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.20.404 - Prestação de contas (síntese da informação orçamental e patrimonial);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos);PN 300.30.008 - Registo de documentos e informação (identificação e caracterização).".
+:just_df_c850.10.600 :temCriterio :crit_just_df_c850.10.600_1.
+:crit_just_df_c850.10.600_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c850.10.600_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c850.10.600_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c850.10.600_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c850.10.601
+:df_c850.10.601 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c850.10.601 :temDF :df_c850.10.601.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c850.10.601
+:just_df_c850.10.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c850.10.601 :temJustificacao :just_df_c850.10.601.
+:crit_just_df_c850.10.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.20.404 - Prestação de contas (síntese da informação orçamental e patrimonial);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos);PN 300.30.008 - Registo de documentos e informação (identificação e caracterização).".
+:just_df_c850.10.601 :temCriterio :crit_just_df_c850.10.601_1.
+:crit_just_df_c850.10.601_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c850.10.601_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c850.10.601_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c850.10.601_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c850.30.001
+:df_c850.30.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c850.30.001 :temDF :df_c850.30.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c850.30.001
+:just_df_c850.30.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c850.30.001 :temJustificacao :just_df_c850.30.001.
+:crit_just_df_c850.30.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.20.404 - Prestação de contas (síntese da informação orçamental e patrimonial);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos);PN 300.30.008 - Registo de documentos e informação (identificação e caracterização).".
+:just_df_c850.30.001 :temCriterio :crit_just_df_c850.30.001_1.
+:crit_just_df_c850.30.001_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c850.30.001_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c850.30.001_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c850.30.001_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c850.30.002
+:df_c850.30.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c850.30.002 :temDF :df_c850.30.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c850.30.002
+:just_df_c850.30.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c850.30.002 :temJustificacao :just_df_c850.30.002.
+:crit_just_df_c850.30.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.20.404 - Prestação de contas (síntese da informação orçamental e patrimonial);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos);PN 300.30.008 - Registo de documentos e informação (identificação e caracterização).".
+:just_df_c850.30.002 :temCriterio :crit_just_df_c850.30.002_1.
+:crit_just_df_c850.30.002_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c850.30.002_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c850.30.002_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c850.30.002_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c850.30.003
+:df_c850.30.003 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c850.30.003 :temDF :df_c850.30.003.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c850.30.003
+:just_df_c850.30.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c850.30.003 :temJustificacao :just_df_c850.30.003.
+:crit_just_df_c850.30.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.20.404 - Prestação de contas (síntese da informação orçamental e patrimonial);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos);PN 300.30.008 - Registo de documentos e informação (identificação e caracterização).".
+:just_df_c850.30.003 :temCriterio :crit_just_df_c850.30.003_1.
+:crit_just_df_c850.30.003_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c850.30.003_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c850.30.003_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c850.30.003_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c850.30.004
+:df_c850.30.004 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c850.30.004 :temDF :df_c850.30.004.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c850.30.004
+:just_df_c850.30.004 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c850.30.004 :temJustificacao :just_df_c850.30.004.
+:crit_just_df_c850.30.004_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.20.404 - Prestação de contas (síntese da informação orçamental e patrimonial);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos);PN 300.30.008 - Registo de documentos e informação (identificação e caracterização).".
+:just_df_c850.30.004 :temCriterio :crit_just_df_c850.30.004_1.
+:crit_just_df_c850.30.004_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c850.30.004_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c850.30.004_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c850.30.004_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c850.30.500
+:df_c850.30.500 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c850.30.500 :temDF :df_c850.30.500.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c850.30.500
+:just_df_c850.30.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c850.30.500 :temJustificacao :just_df_c850.30.500.
+:crit_just_df_c850.30.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade)PN 150.20.404 - Prestação de contas (síntese da informação orçamental e patrimonial)PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos).".
+:just_df_c850.30.500 :temCriterio :crit_just_df_c850.30.500_1.
+:crit_just_df_c850.30.500_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c850.30.500_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c850.30.500_1 :temProcessoRelacionado :c150.40.500.
+###  http://jcr.di.uminho.pt/m51-clav#df_c850.40.001
+:df_c850.40.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c850.40.001 :temDF :df_c850.40.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c850.40.001
+:just_df_c850.40.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c850.40.001 :temJustificacao :just_df_c850.40.001.
+:crit_just_df_c850.40.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c850.40.001 :temCriterio :crit_just_df_c850.40.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c850.40.500
+:df_c850.40.500 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c850.40.500 :temDF :df_c850.40.500.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c850.40.500
+:just_df_c850.40.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c850.40.500 :temJustificacao :just_df_c850.40.500.
+:crit_just_df_c850.40.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c850.40.500 :temCriterio :crit_just_df_c850.40.500_1.

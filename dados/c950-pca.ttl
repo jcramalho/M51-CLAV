@@ -1,0 +1,216 @@
+###  http://jcr.di.uminho.pt/m51-clav#pca_c950.10.001
+:pca_c950.10.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c950.10.001 :temPCA :pca_c950.10.001.
+:pca_c950.10.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c950.10.001
+:just_pca_c950.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c950.10.001 :temJustificacao :just_pca_c950.10.001.
+:crit_just_pca_c950.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela gestão estratégica, decorrente de escrutínio público (eleições) ou da não recondução no mandato.Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.".
+:just_pca_c950.10.001 :temCriterio :crit_just_pca_c950.10.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c950.10.200.01
+:pca_c950.10.200.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c950.10.200.01 :temPCA :pca_c950.10.200.01.
+:pca_c950.10.200.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c950.10.200.01
+:just_pca_c950.10.200.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c950.10.200.01 :temJustificacao :just_pca_c950.10.200.01.
+:crit_just_pca_c950.10.200.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 319-A/76], de 3 de maio, artº 159 C “ Toda a documentação relativa à apresentação de candidaturas será conservada durante o prazo de cinco anos a contar da data de tomada de posse do candidato eleito.”[Lei 14/87] de 29 de abril, artº 17 \"A documentação relativa à apresentação de candidaturas será conservada pelo Tribunal Constitucional durante o prazo de cinco anos a contar da data da proclamação dos resultados.\"Extensão desta disposição aos demais atos eleitorais e referendários.".
+:just_pca_c950.10.200.01 :temCriterio :crit_just_pca_c950.10.200.01_1.
+:crit_just_pca_c950.10.200.01_1 :temLegislacao :leg_17.
+:crit_just_pca_c950.10.200.01_1 :temLegislacao :leg_78.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c950.10.201
+:pca_c950.10.201 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c950.10.201 :temPCA :pca_c950.10.201.
+:pca_c950.10.201 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c950.10.201
+:just_pca_c950.10.201 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c950.10.201 :temJustificacao :just_pca_c950.10.201.
+:crit_just_pca_c950.10.201_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 14/87] de 29 de abril, artº 17 \"A documentação relativa à apresentação de candidaturas será conservada pelo Tribunal Constitucional durante o prazo de cinco anos a contar da data da proclamação dos resultados.\"Extensão desta disposição aos demais atos eleitorais e referendários.".
+:just_pca_c950.10.201 :temCriterio :crit_just_pca_c950.10.201_1.
+:crit_just_pca_c950.10.201_1 :temLegislacao :leg_78.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c950.10.400
+:pca_c950.10.400 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c950.10.400 :temPCA :pca_c950.10.400.
+:pca_c950.10.400 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c950.10.400
+:just_pca_c950.10.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c950.10.400 :temJustificacao :just_pca_c950.10.400.
+:crit_just_pca_c950.10.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional da responsabilidade financeira reintegratória ([Lei 98/97], artº 70, nº 1)".
+:just_pca_c950.10.400 :temCriterio :crit_just_pca_c950.10.400_1.
+:crit_just_pca_c950.10.400_1 :temLegislacao :leg_203.
+:crit_just_pca_c950.10.400_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta deste PN para apuramento de responsabilidade em sede do PN 500.10.001 (no que diz respeito à atuação da Administração).".
+:just_pca_c950.10.400 :temCriterio :crit_just_pca_c950.10.400_2.
+:crit_just_pca_c950.10.400_2 :temProcessoRelacionado :c500.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c950.10.401
+:pca_c950.10.401 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1.
+:c950.10.401 :temPCA :pca_c950.10.401.
+:pca_c950.10.401 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c950.10.401
+:just_pca_c950.10.401 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c950.10.401 :temJustificacao :just_pca_c950.10.401.
+:crit_just_pca_c950.10.401_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 1/2001], artº 152, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal da comarca com jurisdição na sede do distrito ou Região autónoma procede à destruição de todos os documentos, com exceção das atas das assembleias de voto, da ata da assembleia de apuramento geral e de uma das cópias dos cadernos eleitorais\"[Lei 15-A/98], artº 161, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal procede à destruição de todos os documentos, com excepção das actas das assembleias de voto e das actas das assembleias de apuramento.Extensão destas disposições aos demais atos eleitorais e referendários.".
+:just_pca_c950.10.401 :temCriterio :crit_just_pca_c950.10.401_1.
+:crit_just_pca_c950.10.401_1 :temLegislacao :leg_339.
+:crit_just_pca_c950.10.401_1 :temLegislacao :leg_228.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c950.10.402
+:pca_c950.10.402 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c950.10.402 :temPCA :pca_c950.10.402.
+:pca_c950.10.402 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c950.10.402
+:just_pca_c950.10.402 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c950.10.402 :temJustificacao :just_pca_c950.10.402.
+:crit_just_pca_c950.10.402_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social - artº 27).Nota: As ocorrências que revelem indícios de ilicito criminal são encaminhadas para investigação criminal, sendo suspensa a contagem do Prazo de conservação administrativa.".
+:just_pca_c950.10.402 :temCriterio :crit_just_pca_c950.10.402_1.
+:crit_just_pca_c950.10.402_1 :temLegislacao :leg_47.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c950.10.600.01
+:pca_c950.10.600.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1.
+:c950.10.600.01 :temPCA :pca_c950.10.600.01.
+:pca_c950.10.600.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c950.10.600.01
+:just_pca_c950.10.600.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c950.10.600.01 :temJustificacao :just_pca_c950.10.600.01.
+:crit_just_pca_c950.10.600.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 1/2001], artº 152, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal da comarca com jurisdição na sede do distrito ou Região autónoma procede à destruição de todos os documentos, com exceção das atas das assembleias de voto, da ata da assembleia de apuramento geral e de uma das cópias dos cadernos eleitorais\"[Lei 15-A/98], artº 161, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal procede à destruição de todos os documentos, com excepção das actas das assembleias de voto e das actas das assembleias de apuramento.Extensão destas disposições aos demais atos eleitorais e referendários.".
+:just_pca_c950.10.600.01 :temCriterio :crit_just_pca_c950.10.600.01_1.
+:crit_just_pca_c950.10.600.01_1 :temLegislacao :leg_339.
+:crit_just_pca_c950.10.600.01_1 :temLegislacao :leg_228.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c950.10.601
+:pca_c950.10.601 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1.
+:c950.10.601 :temPCA :pca_c950.10.601.
+:pca_c950.10.601 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c950.10.601
+:just_pca_c950.10.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c950.10.601 :temJustificacao :just_pca_c950.10.601.
+:crit_just_pca_c950.10.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "\"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal da comarca com jurisdição na sede do distrito ou Região autónoma procede à destruição de todos os documentos, com exceção das atas das assembleias de voto, da ata da assembleia de apuramento geral e de uma das cópias dos cadernos eleitorais\"[Lei 15-A/98], artº 161, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal procede à destruição de todos os documentos, com excepção das actas das assembleias de voto e das actas das assembleias de apuramento.Extensão destas disposições aos demais atos eleitorais e referendários.".
+:just_pca_c950.10.601 :temCriterio :crit_just_pca_c950.10.601_1.
+:crit_just_pca_c950.10.601_1 :temLegislacao :leg_228.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c950.10.602.01
+:pca_c950.10.602.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1.
+:c950.10.602.01 :temPCA :pca_c950.10.602.01.
+:pca_c950.10.602.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c950.10.602.01
+:just_pca_c950.10.602.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c950.10.602.01 :temJustificacao :just_pca_c950.10.602.01.
+:crit_just_pca_c950.10.602.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 1/2001], artº 152, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal da comarca com jurisdição na sede do distrito ou Região autónoma procede à destruição de todos os documentos, com exceção das atas das assembleias de voto, da ata da assembleia de apuramento geral e de uma das cópias dos cadernos eleitorais\"[Lei 15-A/98], artº 161, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal procede à destruição de todos os documentos, com excepção das actas das assembleias de voto e das actas das assembleias de apuramento.Extensão destas disposições aos demais atos eleitorais e referendários.".
+:just_pca_c950.10.602.01 :temCriterio :crit_just_pca_c950.10.602.01_1.
+:crit_just_pca_c950.10.602.01_1 :temLegislacao :leg_339.
+:crit_just_pca_c950.10.602.01_1 :temLegislacao :leg_228.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c950.20.001
+:pca_c950.20.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c950.20.001 :temPCA :pca_c950.20.001.
+:pca_c950.20.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c950.20.001
+:just_pca_c950.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c950.20.001 :temJustificacao :just_pca_c950.20.001.
+:crit_just_pca_c950.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional [DL 433/82], artº 27;[DL 156/2005], artº 3, alínea d) Manter, por um período mínimo de três anos, um arquivo organizado dos livros de reclamações que tenha encerrado.".
+:just_pca_c950.20.001 :temCriterio :crit_just_pca_c950.20.001_1.
+:crit_just_pca_c950.20.001_1 :temLegislacao :leg_47.
+:crit_just_pca_c950.20.001_1 :temLegislacao :leg_481.
+:crit_just_pca_c950.20.001_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.301 - Realização de fiscalização.".
+:just_pca_c950.20.001 :temCriterio :crit_just_pca_c950.20.001_2.
+:crit_just_pca_c950.20.001_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c950.20.300
+:pca_c950.20.300 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c950.20.300 :temPCA :pca_c950.20.300.
+:pca_c950.20.300 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c950.20.300
+:just_pca_c950.20.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c950.20.300 :temJustificacao :just_pca_c950.20.300.
+:crit_just_pca_c950.20.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para processamento dePN 150.20.301 Avaliação do desempenho das organizaçõesPN 250.20.800 - Avaliação individual do desempenhoConsiderou-se o prazo de um mandato.".
+:just_pca_c950.20.300 :temCriterio :crit_just_pca_c950.20.300_1.
+:crit_just_pca_c950.20.300_1 :temProcessoRelacionado :c150.20.301.
+:crit_just_pca_c950.20.300_1 :temProcessoRelacionado :c250.20.800.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c950.20.600
+:pca_c950.20.600 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c950.20.600 :temPCA :pca_c950.20.600.
+:pca_c950.20.600 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c950.20.600
+:just_pca_c950.20.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c950.20.600 :temJustificacao :just_pca_c950.20.600.
+:crit_just_pca_c950.20.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional [DL 433/82], artº 27".
+:just_pca_c950.20.600 :temCriterio :crit_just_pca_c950.20.600_1.
+:crit_just_pca_c950.20.600_1 :temLegislacao :leg_47.
+:crit_just_pca_c950.20.600_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para apuramento da responsabilidade em sede de PN 500.10.301 - Realização de fiscalização.".
+:just_pca_c950.20.600 :temCriterio :crit_just_pca_c950.20.600_2.
+:crit_just_pca_c950.20.600_2 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c950.30.001
+:pca_c950.30.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c950.30.001 :temPCA :pca_c950.30.001.
+:pca_c950.30.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c950.30.001
+:just_pca_c950.30.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c950.30.001 :temJustificacao :just_pca_c950.30.001.
+:crit_just_pca_c950.30.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Prazo decorrente da necessidade de consulta para processamento dePN 150.20.301 Avaliação do desempenho das organizaçõesPN 250.20.800 - Avaliação individual do desempenhoConsiderou-se o prazo de um mandato.".
+:just_pca_c950.30.001 :temCriterio :crit_just_pca_c950.30.001_1.
+:crit_just_pca_c950.30.001_1 :temProcessoRelacionado :c150.20.301.
+:crit_just_pca_c950.30.001_1 :temProcessoRelacionado :c250.20.800.

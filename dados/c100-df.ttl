@@ -1,0 +1,155 @@
+###  http://jcr.di.uminho.pt/m51-clav#df_c100.10.001
+:df_c100.10.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c100.10.001 :temDF :df_c100.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c100.10.001
+:just_df_c100.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c100.10.001 :temJustificacao :just_df_c100.10.001.
+:crit_just_df_c100.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 100.10.200 - Produção e comunicação de atos regulamentares geraisPN 100.10.400 - Produção e comunicação de atos regulamentares locaisPN 100.10.600 - Produção e comunicação de regras institucionaisO texto final é publicitado no Dário da República.".
+:just_df_c100.10.001 :temCriterio :crit_just_df_c100.10.001_1.
+:crit_just_df_c100.10.001_1 :eComplementarDe :c100.10.200.
+:crit_just_df_c100.10.001_1 :eComplementarDe :c100.10.400.
+:crit_just_df_c100.10.001_1 :eComplementarDe :c100.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#df_c100.10.002
+:df_c100.10.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c100.10.002 :temDF :df_c100.10.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c100.10.002
+:just_df_c100.10.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c100.10.002 :temJustificacao :just_df_c100.10.002.
+:crit_just_df_c100.10.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " processo de aprovação não é recuperável noutro PN.O texto final é publicitado no Dário da República.".
+:just_df_c100.10.002 :temCriterio :crit_just_df_c100.10.002_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c100.10.003
+:df_c100.10.003 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c100.10.003 :temDF :df_c100.10.003.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c100.10.003
+:just_df_c100.10.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c100.10.003 :temJustificacao :just_df_c100.10.003.
+:crit_just_df_c100.10.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Sintetiza informação constante nos PN de fiscalização da constitucionalidade, no que diz respeito às decisões de inconstitucionalidade.".
+:just_df_c100.10.003 :temCriterio :crit_just_df_c100.10.003_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c100.10.200
+:df_c100.10.200 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c100.10.200 :temDF :df_c100.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c100.10.200
+:just_df_c100.10.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c100.10.200 :temJustificacao :just_df_c100.10.200.
+:crit_just_df_c100.10.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 100.10.001 - Produção e comunicação de atos legislativosPN 100.10.400 - Produção e comunicação de atos regulamentares locaisPN 100.10.600 - Produção e comunicação de regras institucionaisPN 's  de 150.10O texto final é publicitado no Dário da República.".
+:just_df_c100.10.200 :temCriterio :crit_just_df_c100.10.200_1.
+:crit_just_df_c100.10.200_1 :eComplementarDe :c100.10.001.
+:crit_just_df_c100.10.200_1 :eComplementarDe :c100.10.400.
+:crit_just_df_c100.10.200_1 :eComplementarDe :c100.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#df_c100.10.400
+:df_c100.10.400 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c100.10.400 :temDF :df_c100.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c100.10.400
+:just_df_c100.10.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c100.10.400 :temJustificacao :just_df_c100.10.400.
+:crit_just_df_c100.10.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 100.10.001 - Produção e comunicação de atos legislativosPN 100.10.200 - Produção e comunicação de atos regulamentares geraisPN 100.10.600 - Produção e comunicação de regras institucionaisPN 's  de 150.10O texto final é publicitado no Diário da República.".
+:just_df_c100.10.400 :temCriterio :crit_just_df_c100.10.400_1.
+:crit_just_df_c100.10.400_1 :eComplementarDe :c100.10.001.
+:crit_just_df_c100.10.400_1 :eComplementarDe :c100.10.200.
+:crit_just_df_c100.10.400_1 :eComplementarDe :c100.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#df_c100.10.600
+:df_c100.10.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c100.10.600 :temDF :df_c100.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c100.10.600
+:just_df_c100.10.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c100.10.600 :temJustificacao :just_df_c100.10.600.
+:crit_just_df_c100.10.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dosPN 100.10.001 - Produção e comunicação de atos legislativosPN 100.10.200 - Produção e comunicação de atos regulamentares geraisComplementaridade informacional:PN 100.10.400 - Produção e comunicação de atos regulamentares locaisO texto final é publicitado.".
+:just_df_c100.10.600 :temCriterio :crit_just_df_c100.10.600_1.
+:crit_just_df_c100.10.600_1 :eComplementarDe :c100.10.001.
+:crit_just_df_c100.10.600_1 :eComplementarDe :c100.10.200.
+:crit_just_df_c100.10.600_1 :eComplementarDe :c100.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#df_c100.10.800
+:df_c100.10.800 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c100.10.800 :temDF :df_c100.10.800.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c100.10.800
+:just_df_c100.10.800 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c100.10.800 :temJustificacao :just_df_c100.10.800.
+:crit_just_df_c100.10.800_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.O texto final é publicitado.".
+:just_df_c100.10.800 :temCriterio :crit_just_df_c100.10.800_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c100.20.001
+:df_c100.20.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c100.20.001 :temDF :df_c100.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c100.20.001
+:just_df_c100.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c100.20.001 :temJustificacao :just_df_c100.20.001.
+:crit_just_df_c100.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar do PN 100.10 que visa esclarecer.".
+:just_df_c100.20.001 :temCriterio :crit_just_df_c100.20.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c100.20.200
+:df_c100.20.200 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c100.20.200 :temDF :df_c100.20.200.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c100.20.200
+:just_df_c100.20.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c100.20.200 :temJustificacao :just_df_c100.20.200.
+:crit_just_df_c100.20.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar do PN 100.10 que visa esclarecer.".
+:just_df_c100.20.200 :temCriterio :crit_just_df_c100.20.200_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c100.20.400
+:df_c100.20.400 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c100.20.400 :temDF :df_c100.20.400.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c100.20.400
+:just_df_c100.20.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c100.20.400 :temJustificacao :just_df_c100.20.400.
+:crit_just_df_c100.20.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar do PN 100.10 que visa esclarecer.".
+:just_df_c100.20.400 :temCriterio :crit_just_df_c100.20.400_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c100.20.600
+:df_c100.20.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c100.20.600 :temDF :df_c100.20.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c100.20.600
+:just_df_c100.20.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c100.20.600 :temJustificacao :just_df_c100.20.600.
+:crit_just_df_c100.20.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN".
+:just_df_c100.20.600 :temCriterio :crit_just_df_c100.20.600_1.

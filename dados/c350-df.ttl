@@ -1,0 +1,773 @@
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.001
+:df_c350.10.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.001 :temDF :df_c350.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.001
+:just_df_c350.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.001 :temJustificacao :just_df_c350.10.001.
+:crit_just_df_c350.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.001 :temCriterio :crit_just_df_c350.10.001_1.
+:crit_just_df_c350.10.001_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.002
+:df_c350.10.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.002 :temDF :df_c350.10.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.002
+:just_df_c350.10.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.002 :temJustificacao :just_df_c350.10.002.
+:crit_just_df_c350.10.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.002 :temCriterio :crit_just_df_c350.10.002_1.
+:crit_just_df_c350.10.002_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.100
+:df_c350.10.100 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.100 :temDF :df_c350.10.100.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.100
+:just_df_c350.10.100 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.100 :temJustificacao :just_df_c350.10.100.
+:crit_just_df_c350.10.100_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.100 :temCriterio :crit_just_df_c350.10.100_1.
+:crit_just_df_c350.10.100_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.101
+:df_c350.10.101 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.101 :temDF :df_c350.10.101.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.101
+:just_df_c350.10.101 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.101 :temJustificacao :just_df_c350.10.101.
+:crit_just_df_c350.10.101_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.101 :temCriterio :crit_just_df_c350.10.101_1.
+:crit_just_df_c350.10.101_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.102
+:df_c350.10.102 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.102 :temDF :df_c350.10.102.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.102
+:just_df_c350.10.102 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.102 :temJustificacao :just_df_c350.10.102.
+:crit_just_df_c350.10.102_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável em350.10.100 - Liquidação de Imposto Sobre o Rendimento de Pessoas Singulares (IRS);350.10.101 - Liquidação de Imposto Sobre o Rendimento de Pessoas Coletivas (IRC)São sintetizados em150.20.404 - Prestação de contas.".
+:just_df_c350.10.102 :temCriterio :crit_just_df_c350.10.102_1.
+:crit_just_df_c350.10.102_1 :temProcessoRelacionado :c350.10.100.
+:crit_just_df_c350.10.102_1 :temProcessoRelacionado :c350.10.101.
+:crit_just_df_c350.10.102_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.200
+:df_c350.10.200 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.200 :temDF :df_c350.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.200
+:just_df_c350.10.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.200 :temJustificacao :just_df_c350.10.200.
+:crit_just_df_c350.10.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.200 :temCriterio :crit_just_df_c350.10.200_1.
+:crit_just_df_c350.10.200_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.201
+:df_c350.10.201 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c350.10.201 :temDF :df_c350.10.201.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.201
+:just_df_c350.10.201 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.201 :temJustificacao :just_df_c350.10.201.
+:crit_just_df_c350.10.201_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação que comprova direitos reais que não prescrevem com o tempo, implicando a conservação de toda a informação do processo e não apenas uma síntese da liquidação noutro processo de negócio;".
+:just_df_c350.10.201 :temCriterio :crit_just_df_c350.10.201_1.
+:crit_just_df_c350.10.201_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "(ver direitos reais do Código Civil)Constitui prova das transmissões de bens com tradição/posse.".
+:just_df_c350.10.201 :temCriterio :crit_just_df_c350.10.201_2.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.202
+:df_c350.10.202 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.202 :temDF :df_c350.10.202.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.202
+:just_df_c350.10.202 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.202 :temJustificacao :just_df_c350.10.202.
+:crit_just_df_c350.10.202_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.202 :temCriterio :crit_just_df_c350.10.202_1.
+:crit_just_df_c350.10.202_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.203
+:df_c350.10.203 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.203 :temDF :df_c350.10.203.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.203
+:just_df_c350.10.203 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.203 :temJustificacao :just_df_c350.10.203.
+:crit_just_df_c350.10.203_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.203 :temCriterio :crit_just_df_c350.10.203_1.
+:crit_just_df_c350.10.203_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.204
+:df_c350.10.204 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.204 :temDF :df_c350.10.204.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.204
+:just_df_c350.10.204 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.204 :temJustificacao :just_df_c350.10.204.
+:crit_just_df_c350.10.204_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.204 :temCriterio :crit_just_df_c350.10.204_1.
+:crit_just_df_c350.10.204_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.205
+:df_c350.10.205 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.205 :temDF :df_c350.10.205.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.205
+:just_df_c350.10.205 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.205 :temJustificacao :just_df_c350.10.205.
+:crit_just_df_c350.10.205_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.205 :temCriterio :crit_just_df_c350.10.205_1.
+:crit_just_df_c350.10.205_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.206
+:df_c350.10.206 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c350.10.206 :temDF :df_c350.10.206.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.206
+:just_df_c350.10.206 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.206 :temJustificacao :just_df_c350.10.206.
+:crit_just_df_c350.10.206_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 47344/66] - Código Civil.Informação que comprova direitos reais que não prescrevem com o tempo, implicando a conservação de toda a informação do processo e não apenas uma síntese da liquidação noutro processo de negócio;Constitui prova das transmissões de bens com tradição/posse.".
+:just_df_c350.10.206 :temCriterio :crit_just_df_c350.10.206_1.
+:crit_just_df_c350.10.206_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.300
+:df_c350.10.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.300 :temDF :df_c350.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.300
+:just_df_c350.10.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.300 :temJustificacao :just_df_c350.10.300.
+:crit_just_df_c350.10.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.300 :temCriterio :crit_just_df_c350.10.300_1.
+:crit_just_df_c350.10.300_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.301
+:df_c350.10.301 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.301 :temDF :df_c350.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.301
+:just_df_c350.10.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.301 :temJustificacao :just_df_c350.10.301.
+:crit_just_df_c350.10.301_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.301 :temCriterio :crit_just_df_c350.10.301_1.
+:crit_just_df_c350.10.301_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.400
+:df_c350.10.400 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.400 :temDF :df_c350.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.400
+:just_df_c350.10.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.400 :temJustificacao :just_df_c350.10.400.
+:crit_just_df_c350.10.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.400 :temCriterio :crit_just_df_c350.10.400_1.
+:crit_just_df_c350.10.400_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.500
+:df_c350.10.500 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.500 :temDF :df_c350.10.500.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.500
+:just_df_c350.10.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.500 :temJustificacao :just_df_c350.10.500.
+:crit_just_df_c350.10.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.500 :temCriterio :crit_just_df_c350.10.500_1.
+:crit_just_df_c350.10.500_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.501
+:df_c350.10.501 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.501 :temDF :df_c350.10.501.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.501
+:just_df_c350.10.501 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.501 :temJustificacao :just_df_c350.10.501.
+:crit_just_df_c350.10.501_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.501 :temCriterio :crit_just_df_c350.10.501_1.
+:crit_just_df_c350.10.501_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.502
+:df_c350.10.502 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.502 :temDF :df_c350.10.502.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.502
+:just_df_c350.10.502 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.502 :temJustificacao :just_df_c350.10.502.
+:crit_just_df_c350.10.502_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.502 :temCriterio :crit_just_df_c350.10.502_1.
+:crit_just_df_c350.10.502_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.503
+:df_c350.10.503 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.503 :temDF :df_c350.10.503.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.503
+:just_df_c350.10.503 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.503 :temJustificacao :just_df_c350.10.503.
+:crit_just_df_c350.10.503_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.503 :temCriterio :crit_just_df_c350.10.503_1.
+:crit_just_df_c350.10.503_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.504
+:df_c350.10.504 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.504 :temDF :df_c350.10.504.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.504
+:just_df_c350.10.504 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.504 :temJustificacao :just_df_c350.10.504.
+:crit_just_df_c350.10.504_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.504 :temCriterio :crit_just_df_c350.10.504_1.
+:crit_just_df_c350.10.504_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.505
+:df_c350.10.505 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.505 :temDF :df_c350.10.505.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.505
+:just_df_c350.10.505 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.505 :temJustificacao :just_df_c350.10.505.
+:crit_just_df_c350.10.505_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.505 :temCriterio :crit_just_df_c350.10.505_1.
+:crit_just_df_c350.10.505_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.506
+:df_c350.10.506 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.506 :temDF :df_c350.10.506.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.506
+:just_df_c350.10.506 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.506 :temJustificacao :just_df_c350.10.506.
+:crit_just_df_c350.10.506_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.506 :temCriterio :crit_just_df_c350.10.506_1.
+:crit_just_df_c350.10.506_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.507
+:df_c350.10.507 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.507 :temDF :df_c350.10.507.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.507
+:just_df_c350.10.507 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.507 :temJustificacao :just_df_c350.10.507.
+:crit_just_df_c350.10.507_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.507 :temCriterio :crit_just_df_c350.10.507_1.
+:crit_just_df_c350.10.507_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.508
+:df_c350.10.508 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.508 :temDF :df_c350.10.508.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.508
+:just_df_c350.10.508 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.508 :temJustificacao :just_df_c350.10.508.
+:crit_just_df_c350.10.508_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.508 :temCriterio :crit_just_df_c350.10.508_1.
+:crit_just_df_c350.10.508_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.509
+:df_c350.10.509 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.509 :temDF :df_c350.10.509.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.509
+:just_df_c350.10.509 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.509 :temJustificacao :just_df_c350.10.509.
+:crit_just_df_c350.10.509_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.509 :temCriterio :crit_just_df_c350.10.509_1.
+:crit_just_df_c350.10.509_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.510
+:df_c350.10.510 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.510 :temDF :df_c350.10.510.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.510
+:just_df_c350.10.510 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.510 :temJustificacao :just_df_c350.10.510.
+:crit_just_df_c350.10.510_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.510 :temCriterio :crit_just_df_c350.10.510_1.
+:crit_just_df_c350.10.510_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.511
+:df_c350.10.511 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.511 :temDF :df_c350.10.511.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.511
+:just_df_c350.10.511 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.511 :temJustificacao :just_df_c350.10.511.
+:crit_just_df_c350.10.511_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.511 :temCriterio :crit_just_df_c350.10.511_1.
+:crit_just_df_c350.10.511_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.513
+:df_c350.10.513 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.513 :temDF :df_c350.10.513.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.513
+:just_df_c350.10.513 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.513 :temJustificacao :just_df_c350.10.513.
+:crit_just_df_c350.10.513_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.513 :temCriterio :crit_just_df_c350.10.513_1.
+:crit_just_df_c350.10.513_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.514
+:df_c350.10.514 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.514 :temDF :df_c350.10.514.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.514
+:just_df_c350.10.514 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.514 :temJustificacao :just_df_c350.10.514.
+:crit_just_df_c350.10.514_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.514 :temCriterio :crit_just_df_c350.10.514_1.
+:crit_just_df_c350.10.514_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.515
+:df_c350.10.515 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.515 :temDF :df_c350.10.515.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.515
+:just_df_c350.10.515 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.515 :temJustificacao :just_df_c350.10.515.
+:crit_just_df_c350.10.515_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.515 :temCriterio :crit_just_df_c350.10.515_1.
+:crit_just_df_c350.10.515_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.516
+:df_c350.10.516 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.516 :temDF :df_c350.10.516.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.516
+:just_df_c350.10.516 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.516 :temJustificacao :just_df_c350.10.516.
+:crit_just_df_c350.10.516_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.516 :temCriterio :crit_just_df_c350.10.516_1.
+:crit_just_df_c350.10.516_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.517
+:df_c350.10.517 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.517 :temDF :df_c350.10.517.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.517
+:just_df_c350.10.517 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.517 :temJustificacao :just_df_c350.10.517.
+:crit_just_df_c350.10.517_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.517 :temCriterio :crit_just_df_c350.10.517_1.
+:crit_just_df_c350.10.517_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.600
+:df_c350.10.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.600 :temDF :df_c350.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.600
+:just_df_c350.10.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.600 :temJustificacao :just_df_c350.10.600.
+:crit_just_df_c350.10.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.600 :temCriterio :crit_just_df_c350.10.600_1.
+:crit_just_df_c350.10.600_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.10.700
+:df_c350.10.700 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.10.700 :temDF :df_c350.10.700.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.10.700
+:just_df_c350.10.700 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.10.700 :temJustificacao :just_df_c350.10.700.
+:crit_just_df_c350.10.700_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.10.700 :temCriterio :crit_just_df_c350.10.700_1.
+:crit_just_df_c350.10.700_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.30.001
+:df_c350.30.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.30.001 :temDF :df_c350.30.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.30.001
+:just_df_c350.30.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.30.001 :temJustificacao :just_df_c350.30.001.
+:crit_just_df_c350.30.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.30.001 :temCriterio :crit_just_df_c350.30.001_1.
+:crit_just_df_c350.30.001_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.30.002
+:df_c350.30.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.30.002 :temDF :df_c350.30.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.30.002
+:just_df_c350.30.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.30.002 :temJustificacao :just_df_c350.30.002.
+:crit_just_df_c350.30.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.30.002 :temCriterio :crit_just_df_c350.30.002_1.
+:crit_just_df_c350.30.002_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.30.003
+:df_c350.30.003 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.30.003 :temDF :df_c350.30.003.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.30.003
+:just_df_c350.30.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.30.003 :temJustificacao :just_df_c350.30.003.
+:crit_just_df_c350.30.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.30.003 :temCriterio :crit_just_df_c350.30.003_1.
+:crit_just_df_c350.30.003_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.30.004
+:df_c350.30.004 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.30.004 :temDF :df_c350.30.004.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.30.004
+:just_df_c350.30.004 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.30.004 :temJustificacao :just_df_c350.30.004.
+:crit_just_df_c350.30.004_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.30.004 :temCriterio :crit_just_df_c350.30.004_1.
+:crit_just_df_c350.30.004_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.30.005
+:df_c350.30.005 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.30.005 :temDF :df_c350.30.005.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.30.005
+:just_df_c350.30.005 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.30.005 :temJustificacao :just_df_c350.30.005.
+:crit_just_df_c350.30.005_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.30.005 :temCriterio :crit_just_df_c350.30.005_1.
+:crit_just_df_c350.30.005_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.30.006
+:df_c350.30.006 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.30.006 :temDF :df_c350.30.006.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.30.006
+:just_df_c350.30.006 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.30.006 :temJustificacao :just_df_c350.30.006.
+:crit_just_df_c350.30.006_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 600.40.002 - Execução de pena e medida privativa da liberdade em meio prisional.".
+:just_df_c350.30.006 :temCriterio :crit_just_df_c350.30.006_1.
+:crit_just_df_c350.30.006_1 :temProcessoRelacionado :c600.40.002.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.30.500
+:df_c350.30.500 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.30.500 :temDF :df_c350.30.500.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.30.500
+:just_df_c350.30.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.30.500 :temJustificacao :just_df_c350.30.500.
+:crit_just_df_c350.30.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.30.500 :temCriterio :crit_just_df_c350.30.500_1.
+:crit_just_df_c350.30.500_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.40.001
+:df_c350.40.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c350.40.001 :temDF :df_c350.40.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.40.001
+:just_df_c350.40.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.40.001 :temJustificacao :just_df_c350.40.001.
+:crit_just_df_c350.40.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação detalhada não recuperável noutros PN.".
+:just_df_c350.40.001 :temCriterio :crit_just_df_c350.40.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.40.002
+:df_c350.40.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.40.002 :temDF :df_c350.40.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.40.002
+:just_df_c350.40.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.40.002 :temJustificacao :just_df_c350.40.002.
+:crit_just_df_c350.40.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.40.002 :temCriterio :crit_just_df_c350.40.002_1.
+:crit_just_df_c350.40.002_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.40.003
+:df_c350.40.003 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c350.40.003 :temDF :df_c350.40.003.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.40.003
+:just_df_c350.40.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.40.003 :temJustificacao :just_df_c350.40.003.
+:crit_just_df_c350.40.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação detalhada não recuperável noutros PN.".
+:just_df_c350.40.003 :temCriterio :crit_just_df_c350.40.003_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.40.200
+:df_c350.40.200 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.40.200 :temDF :df_c350.40.200.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.40.200
+:just_df_c350.40.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.40.200 :temJustificacao :just_df_c350.40.200.
+:crit_just_df_c350.40.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.40.200 :temCriterio :crit_just_df_c350.40.200_1.
+:crit_just_df_c350.40.200_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.40.201
+:df_c350.40.201 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.40.201 :temDF :df_c350.40.201.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.40.201
+:just_df_c350.40.201 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.40.201 :temJustificacao :just_df_c350.40.201.
+:crit_just_df_c350.40.201_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.40.201 :temCriterio :crit_just_df_c350.40.201_1.
+:crit_just_df_c350.40.201_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.40.202
+:df_c350.40.202 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.40.202 :temDF :df_c350.40.202.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.40.202
+:just_df_c350.40.202 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.40.202 :temJustificacao :just_df_c350.40.202.
+:crit_just_df_c350.40.202_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.40.202 :temCriterio :crit_just_df_c350.40.202_1.
+:crit_just_df_c350.40.202_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.40.203
+:df_c350.40.203 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.40.203 :temDF :df_c350.40.203.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.40.203
+:just_df_c350.40.203 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.40.203 :temJustificacao :just_df_c350.40.203.
+:crit_just_df_c350.40.203_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.40.203 :temCriterio :crit_just_df_c350.40.203_1.
+:crit_just_df_c350.40.203_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.40.204
+:df_c350.40.204 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.40.204 :temDF :df_c350.40.204.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.40.204
+:just_df_c350.40.204 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.40.204 :temJustificacao :just_df_c350.40.204.
+:crit_just_df_c350.40.204_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.40.204 :temCriterio :crit_just_df_c350.40.204_1.
+:crit_just_df_c350.40.204_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.40.400
+:df_c350.40.400 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.40.400 :temDF :df_c350.40.400.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.40.400
+:just_df_c350.40.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.40.400 :temJustificacao :just_df_c350.40.400.
+:crit_just_df_c350.40.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.40.400 :temCriterio :crit_just_df_c350.40.400_1.
+:crit_just_df_c350.40.400_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.40.401
+:df_c350.40.401 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c350.40.401 :temDF :df_c350.40.401.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.40.401
+:just_df_c350.40.401 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.40.401 :temJustificacao :just_df_c350.40.401.
+:crit_just_df_c350.40.401_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação detalhada não recuperável noutros PN.".
+:just_df_c350.40.401 :temCriterio :crit_just_df_c350.40.401_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.40.600
+:df_c350.40.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.40.600 :temDF :df_c350.40.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.40.600
+:just_df_c350.40.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.40.600 :temJustificacao :just_df_c350.40.600.
+:crit_just_df_c350.40.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.40.600 :temCriterio :crit_just_df_c350.40.600_1.
+:crit_just_df_c350.40.600_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.40.601
+:df_c350.40.601 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.40.601 :temDF :df_c350.40.601.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.40.601
+:just_df_c350.40.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.40.601 :temJustificacao :just_df_c350.40.601.
+:crit_just_df_c350.40.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.40.601 :temCriterio :crit_just_df_c350.40.601_1.
+:crit_just_df_c350.40.601_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.40.602
+:df_c350.40.602 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.40.602 :temDF :df_c350.40.602.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.40.602
+:just_df_c350.40.602 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.40.602 :temJustificacao :just_df_c350.40.602.
+:crit_just_df_c350.40.602_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.401 - Acompanhamento de liquidação de entidades; PN 150.20.404 - Prestação de contas.".
+:just_df_c350.40.602 :temCriterio :crit_just_df_c350.40.602_1.
+:crit_just_df_c350.40.602_1 :temProcessoRelacionado :c150.20.401.
+:crit_just_df_c350.40.602_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c350.40.603
+:df_c350.40.603 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c350.40.603 :temDF :df_c350.40.603.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c350.40.603
+:just_df_c350.40.603 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c350.40.603 :temJustificacao :just_df_c350.40.603.
+:crit_just_df_c350.40.603_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada no PN 150.20.404 - Prestação de contas.".
+:just_df_c350.40.603 :temCriterio :crit_just_df_c350.40.603_1.
+:crit_just_df_c350.40.603_1 :temProcessoRelacionado :c150.20.404.

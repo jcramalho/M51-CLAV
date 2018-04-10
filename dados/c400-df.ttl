@@ -1,0 +1,1058 @@
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.001
+:df_c400.10.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.001 :temDF :df_c400.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.001
+:just_df_c400.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.001 :temJustificacao :just_df_c400.10.001.
+:crit_just_df_c400.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Civil, [DL 47344/66] (conservação para garante do exercício dos direitos de personalidade. Consagram direitos que não prescrevem no tempo).".
+:just_df_c400.10.001 :temCriterio :crit_just_df_c400.10.001_1.
+:crit_just_df_c400.10.001_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.002
+:df_c400.10.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.002 :temDF :df_c400.10.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.002
+:just_df_c400.10.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.002 :temJustificacao :just_df_c400.10.002.
+:crit_just_df_c400.10.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro processo de negócio (PN).".
+:just_df_c400.10.002 :temCriterio :crit_just_df_c400.10.002_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.003
+:df_c400.10.003 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.003 :temDF :df_c400.10.003.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.003
+:just_df_c400.10.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.003 :temJustificacao :just_df_c400.10.003.
+:crit_just_df_c400.10.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada noPN 400.10.09 - Registo Nacional de Pessoas Coletivas.".
+:just_df_c400.10.003 :temCriterio :crit_just_df_c400.10.003_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.004
+:df_c400.10.004 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.004 :temDF :df_c400.10.004.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.004
+:just_df_c400.10.004 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.004 :temJustificacao :just_df_c400.10.004.
+:crit_just_df_c400.10.004_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "A informação não recuperável noutro PN.".
+:just_df_c400.10.004 :temCriterio :crit_just_df_c400.10.004_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.005
+:df_c400.10.005 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.005 :temDF :df_c400.10.005.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.005
+:just_df_c400.10.005 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.005 :temJustificacao :just_df_c400.10.005.
+:crit_just_df_c400.10.005_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável complementarmente emPN 400.10.011 Registo de trabalhadores no sistema da Segurança Social;PN 400.10.012 Registo de trabalhadores em subsistemas de saúde públicos.".
+:just_df_c400.10.005 :temCriterio :crit_just_df_c400.10.005_1.
+:crit_just_df_c400.10.005_1 :temProcessoRelacionado :c400.10.011.
+:crit_just_df_c400.10.005_1 :temProcessoRelacionado :c400.10.012.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.007
+:df_c400.10.007 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.007 :temDF :df_c400.10.007.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.007
+:just_df_c400.10.007 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.007 :temJustificacao :just_df_c400.10.007.
+:crit_just_df_c400.10.007_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo "egisto de Depósito Legal. ".
+:just_df_c400.10.007 :temCriterio :crit_just_df_c400.10.007_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.009
+:df_c400.10.009 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.009 :temDF :df_c400.10.009.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.009
+:just_df_c400.10.009 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.009 :temJustificacao :just_df_c400.10.009.
+:crit_just_df_c400.10.009_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.009 :temCriterio :crit_just_df_c400.10.009_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.010
+:df_c400.10.010 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.010 :temDF :df_c400.10.010.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.010
+:just_df_c400.10.010 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.010 :temJustificacao :just_df_c400.10.010.
+:crit_just_df_c400.10.010_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.010 :temCriterio :crit_just_df_c400.10.010_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.011
+:df_c400.10.011 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.011 :temDF :df_c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.011
+:just_df_c400.10.011 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.011 :temJustificacao :just_df_c400.10.011.
+:crit_just_df_c400.10.011_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.011 :temCriterio :crit_just_df_c400.10.011_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.012
+:df_c400.10.012 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.012 :temDF :df_c400.10.012.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.012
+:just_df_c400.10.012 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.012 :temJustificacao :just_df_c400.10.012.
+:crit_just_df_c400.10.012_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.012 :temCriterio :crit_just_df_c400.10.012_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.018
+:df_c400.10.018 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.018 :temDF :df_c400.10.018.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.018
+:just_df_c400.10.018 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.018 :temJustificacao :just_df_c400.10.018.
+:crit_just_df_c400.10.018_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.018 :temCriterio :crit_just_df_c400.10.018_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.023
+:df_c400.10.023 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.023 :temDF :df_c400.10.023.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.023
+:just_df_c400.10.023 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.023 :temJustificacao :just_df_c400.10.023.
+:crit_just_df_c400.10.023_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.023 :temCriterio :crit_just_df_c400.10.023_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.025
+:df_c400.10.025 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.025 :temDF :df_c400.10.025.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.025
+:just_df_c400.10.025 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.025 :temJustificacao :just_df_c400.10.025.
+:crit_just_df_c400.10.025_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.025 :temCriterio :crit_just_df_c400.10.025_1.
+:crit_just_df_c400.10.025_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Código Civil, [DL 47344/66]: conservação para garante do exercício dos direitos de personalidade. Consagram direitos que não prescrevem no tempo.".
+:just_df_c400.10.025 :temCriterio :crit_just_df_c400.10.025_2.
+:crit_just_df_c400.10.025_2 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.026
+:df_c400.10.026 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.026 :temDF :df_c400.10.026.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.026
+:just_df_c400.10.026 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.026 :temJustificacao :just_df_c400.10.026.
+:crit_just_df_c400.10.026_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.(Este registo tem o valor de registo civil, sendo-lhe subsidiariamente aplicáveis, com as necessárias adaptações, as normas respeitantes a este último. A informação não é recuperável em nenhum outro PN em Portugal.)".
+:just_df_c400.10.026 :temCriterio :crit_just_df_c400.10.026_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.027
+:df_c400.10.027 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.027 :temDF :df_c400.10.027.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.027
+:just_df_c400.10.027 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.027 :temJustificacao :just_df_c400.10.027.
+:crit_just_df_c400.10.027_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "A informação relativa à identidade da pessoa, garante de direitos, é recuperável no PN 400.10.001- Registo civil;A informação relativa ao passaportes emitidos é recuperável em PN 300.30.008 - Registo de documentos;".
+:just_df_c400.10.027 :temCriterio :crit_just_df_c400.10.027_1.
+:crit_just_df_c400.10.027_1 :temProcessoRelacionado :c400.10.001.
+:crit_just_df_c400.10.027_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c400.10.027_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 86/2000], artº 12.".
+:just_df_c400.10.027 :temCriterio :crit_just_df_c400.10.027_2.
+:crit_just_df_c400.10.027_2 :temLegislacao :leg_302.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.028
+:df_c400.10.028 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.028 :temDF :df_c400.10.028.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.028
+:just_df_c400.10.028 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.028 :temJustificacao :just_df_c400.10.028.
+:crit_just_df_c400.10.028_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Artigo 12.º do [DL 86/2000], alterado pelo [DL 139/2006].Por analogia com a emissão de passaportes.".
+:just_df_c400.10.028 :temCriterio :crit_just_df_c400.10.028_1.
+:crit_just_df_c400.10.028_1 :temLegislacao :leg_302.
+:crit_just_df_c400.10.028_1 :temLegislacao :leg_527.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.029
+:df_c400.10.029 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.029 :temDF :df_c400.10.029.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.029
+:just_df_c400.10.029 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.029 :temJustificacao :just_df_c400.10.029.
+:crit_just_df_c400.10.029_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "A informação é sintetizada noPN 400.10.042 - Identificação de estrangeiros.".
+:just_df_c400.10.029 :temCriterio :crit_just_df_c400.10.029_1.
+:crit_just_df_c400.10.029_1 :temProcessoRelacionado :c400.10.042.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.031
+:df_c400.10.031 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.031 :temDF :df_c400.10.031.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.031
+:just_df_c400.10.031 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.031 :temJustificacao :just_df_c400.10.031.
+:crit_just_df_c400.10.031_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada emPN 400.10.001 - Registo civil;PN 400.10.041 - Identificação civil.".
+:just_df_c400.10.031 :temCriterio :crit_just_df_c400.10.031_1.
+:crit_just_df_c400.10.031_1 :temProcessoRelacionado :c400.10.001.
+:crit_just_df_c400.10.031_1 :temProcessoRelacionado :c400.10.041.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.032
+:df_c400.10.032 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.032 :temDF :df_c400.10.032.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.032
+:just_df_c400.10.032 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.032 :temJustificacao :just_df_c400.10.032.
+:crit_just_df_c400.10.032_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada noPN 950.10.602 - Apuramento geral de resultados.".
+:just_df_c400.10.032 :temCriterio :crit_just_df_c400.10.032_1.
+:crit_just_df_c400.10.032_1 :temProcessoRelacionado :c950.10.602.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.033
+:df_c400.10.033 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.033 :temDF :df_c400.10.033.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.033
+:just_df_c400.10.033 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.033 :temJustificacao :just_df_c400.10.033.
+:crit_just_df_c400.10.033_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 49/2008], artº 10 - Conservação e destruição \"Os ficheiros que integram o RNBP, que contenham dados pessoais, são conservados enquanto existir vínculo aos quadros de comando, activo, de reserva ou de honra, e até 10 anos após a cessação daquele, período após o qual só podem ser conservados em arquivo histórico.\"".
+:just_df_c400.10.033 :temCriterio :crit_just_df_c400.10.033_1.
+:crit_just_df_c400.10.033_1 :temLegislacao :leg_688.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.034
+:df_c400.10.034 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.034 :temDF :df_c400.10.034.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.034
+:just_df_c400.10.034 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.034 :temJustificacao :just_df_c400.10.034.
+:crit_just_df_c400.10.034_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 317/94], artº 10, Conservação dos dados \"Os dados inseridos no RIC são conservados pelo prazo dos cinco anos subsequentes à decisão se tornar definitiva ou ao trânsito em julgado da sentença, findo o qual são eliminados de imediato\".".
+:just_df_c400.10.034 :temCriterio :crit_just_df_c400.10.034_1.
+:crit_just_df_c400.10.034_1 :temLegislacao :leg_152.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.036
+:df_c400.10.036 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.036 :temDF :df_c400.10.036.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.036
+:just_df_c400.10.036 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.036 :temJustificacao :just_df_c400.10.036.
+:crit_just_df_c400.10.036_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 12/2009] de 26 de Março, nº 3 do artigo 10º - Conservação de registos“Os registos referidos nos números anteriores devem ser conservados por um período mínimo de 30 anos e destruídos logo que não sejam necessários para efeitos de rastreabilidade”".
+:just_df_c400.10.036 :temCriterio :crit_just_df_c400.10.036_1.
+:crit_just_df_c400.10.036_1 :temLegislacao :leg_831.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.037
+:df_c400.10.037 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.037 :temDF :df_c400.10.037.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.037
+:just_df_c400.10.037 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.037 :temJustificacao :just_df_c400.10.037.
+:crit_just_df_c400.10.037_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 267/2007], artº 26, Proteção de dados e confidencialidade;[Lei 67/98], artº 5, nº 1 \"Os dados pessoais devem ser: (…) e) Conservados de forma a permitir a identificação dos seus titulares apenas durante o período necessário para a prossecução das finalidades da recolha ou do tratamento posterior. \"".
+:just_df_c400.10.037 :temCriterio :crit_just_df_c400.10.037_1.
+:crit_just_df_c400.10.037_1 :temLegislacao :leg_591.
+:crit_just_df_c400.10.037_1 :temLegislacao :leg_234.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.038
+:df_c400.10.038 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.038 :temDF :df_c400.10.038.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.038
+:just_df_c400.10.038 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.038 :temJustificacao :just_df_c400.10.038.
+:crit_just_df_c400.10.038_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 244/94], artº 9, Conservação dos dados\"Os dados pessoais são conservados durante os 10 anos subsequentes ao falecimento do titular do registo\".".
+:just_df_c400.10.038 :temCriterio :crit_just_df_c400.10.038_1.
+:crit_just_df_c400.10.038_1 :temLegislacao :leg_147.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.039
+:df_c400.10.039 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.039 :temDF :df_c400.10.039.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.039
+:just_df_c400.10.039 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.039 :temJustificacao :just_df_c400.10.039.
+:crit_just_df_c400.10.039_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 67/98], artº 5, nº 1 \"Os dados pessoais devem ser: (…) e) Conservados de forma a permitir a identificação dos seus titulares apenas durante o período necessário para a prossecução das finalidades da recolha ou do tratamento posterior. \"".
+:just_df_c400.10.039 :temCriterio :crit_just_df_c400.10.039_1.
+:crit_just_df_c400.10.039_1 :temLegislacao :leg_234.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.040
+:df_c400.10.040 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.040 :temDF :df_c400.10.040.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.040
+:just_df_c400.10.040 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.040 :temJustificacao :just_df_c400.10.040.
+:crit_just_df_c400.10.040_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.síntese de PN da classe 700.Complementaridade informacional com o PN 400.10.041 - Identificação civil.".
+:just_df_c400.10.040 :temCriterio :crit_just_df_c400.10.040_1.
+:crit_just_df_c400.10.040_1 :temProcessoRelacionado :c400.10.041.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.041
+:df_c400.10.041 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.041 :temDF :df_c400.10.041.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.041
+:just_df_c400.10.041 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.041 :temJustificacao :just_df_c400.10.041.
+:crit_just_df_c400.10.041_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN, nomeadamente a informação relativa às impressões digitais e fotografia.Complementaridade informacional comPN 400.10.001 - Registo de contribuintes;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;PN 400.10.040 Registo nacional de utentes.".
+:just_df_c400.10.041 :temCriterio :crit_just_df_c400.10.041_1.
+:crit_just_df_c400.10.041_1 :temProcessoRelacionado :c400.10.001.
+:crit_just_df_c400.10.041_1 :temProcessoRelacionado :c400.10.011.
+:crit_just_df_c400.10.041_1 :temProcessoRelacionado :c400.10.040.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.042
+:df_c400.10.042 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.042 :temDF :df_c400.10.042.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.042
+:just_df_c400.10.042 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.042 :temJustificacao :just_df_c400.10.042.
+:crit_just_df_c400.10.042_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Garante de direitos - A eliminação dos registos de dados pessoais pode implicar que cidadãos estrangeiros e seus descendentes não consigam prova irrefutável da permanência legal em território nacional.Código Civil, [DL 47344/66]: conservação para garante do exercício dos direitos de personalidade. Consagram direitos que não prescrevem no tempo.".
+:just_df_c400.10.042 :temCriterio :crit_just_df_c400.10.042_1.
+:crit_just_df_c400.10.042_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.043
+:df_c400.10.043 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.043 :temDF :df_c400.10.043.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.043
+:just_df_c400.10.043 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.043 :temJustificacao :just_df_c400.10.043.
+:crit_just_df_c400.10.043_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 37/2015], artº 11, nº 6 - \"As decisões cuja vigência haja cessado são mantidas em ficheiro informático próprio durante um período máximo de 3 anos, o qual apenas pode ser acedido pelos serviços de identificação criminal para efeito de reposição de registo indevidamente cancelado ou retirado, e findo aquele prazo máximo são canceladas de forma irrevogável.\"".
+:just_df_c400.10.043 :temCriterio :crit_just_df_c400.10.043_1.
+:crit_just_df_c400.10.043_1 :temLegislacao :leg_1368.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.044
+:df_c400.10.044 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.044 :temDF :df_c400.10.044.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.044
+:just_df_c400.10.044 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.044 :temJustificacao :just_df_c400.10.044.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.045
+:df_c400.10.045 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.045 :temDF :df_c400.10.045.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.045
+:just_df_c400.10.045 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.045 :temJustificacao :just_df_c400.10.045.
+:crit_just_df_c400.10.045_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.045 :temCriterio :crit_just_df_c400.10.045_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.046
+:df_c400.10.046 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.046 :temDF :df_c400.10.046.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.046
+:just_df_c400.10.046 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.046 :temJustificacao :just_df_c400.10.046.
+:crit_just_df_c400.10.046_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.046 :temCriterio :crit_just_df_c400.10.046_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.047
+:df_c400.10.047 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.047 :temDF :df_c400.10.047.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.047
+:just_df_c400.10.047 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.047 :temJustificacao :just_df_c400.10.047.
+:crit_just_df_c400.10.047_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.047 :temCriterio :crit_just_df_c400.10.047_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.048
+:df_c400.10.048 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.048 :temDF :df_c400.10.048.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.048
+:just_df_c400.10.048 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.048 :temJustificacao :just_df_c400.10.048.
+:crit_just_df_c400.10.048_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Disposto no artº 26 da [Lei 5/2008]".
+:just_df_c400.10.048 :temCriterio :crit_just_df_c400.10.048_1.
+:crit_just_df_c400.10.048_1 :temLegislacao :leg_714.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.049
+:df_c400.10.049 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.049 :temDF :df_c400.10.049.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.049
+:just_df_c400.10.049 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.049 :temJustificacao :just_df_c400.10.049.
+:crit_just_df_c400.10.049_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.049 :temCriterio :crit_just_df_c400.10.049_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.050
+:df_c400.10.050 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.050 :temDF :df_c400.10.050.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.050
+:just_df_c400.10.050 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.050 :temJustificacao :just_df_c400.10.050.
+:crit_just_df_c400.10.050_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada emPN 400.10.002 - Identificação fiscal;PN 400.10.009 - Registo Nacional de Pessoas Coletivas.".
+:just_df_c400.10.050 :temCriterio :crit_just_df_c400.10.050_1.
+:crit_just_df_c400.10.050_1 :temProcessoRelacionado :c400.10.002.
+:crit_just_df_c400.10.050_1 :temProcessoRelacionado :c400.10.009.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.051
+:df_c400.10.051 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.051 :temDF :df_c400.10.051.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.051
+:just_df_c400.10.051 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.051 :temJustificacao :just_df_c400.10.051.
+:crit_just_df_c400.10.051_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.051 :temCriterio :crit_just_df_c400.10.051_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.052
+:df_c400.10.052 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.052 :temDF :df_c400.10.052.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.052
+:just_df_c400.10.052 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.052 :temJustificacao :just_df_c400.10.052.
+:crit_just_df_c400.10.052_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada noPN 400.10.200 - Registo comercial.".
+:just_df_c400.10.052 :temCriterio :crit_just_df_c400.10.052_1.
+:crit_just_df_c400.10.052_1 :temProcessoRelacionado :c400.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.053
+:df_c400.10.053 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.053 :temDF :df_c400.10.053.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.053
+:just_df_c400.10.053 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.053 :temJustificacao :just_df_c400.10.053.
+:crit_just_df_c400.10.053_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.053 :temCriterio :crit_just_df_c400.10.053_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.054
+:df_c400.10.054 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.054 :temDF :df_c400.10.054.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.054
+:just_df_c400.10.054 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.054 :temJustificacao :just_df_c400.10.054.
+:crit_just_df_c400.10.054_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 12/2009], artº 10 - Conservação de registos, nº 3 - “Os registos referidos nos números anteriores devem ser conservados por um período mínimo de 30 anos e destruídos logo que não sejam necessários para efeitos de rastreabilidade.”[Lei 36/2013], artº 13 - Rastreabilidade, nº 4 - “Os dados necessários para assegurar a rastreabilidade são conservados durante pelo menos 30 anos após a dádiva, independentemente do tipo de suporte e desde que salvaguarda a respetiva confidencialidade e destruídos logo que não sejam necessários para o efeito.”".
+:just_df_c400.10.054 :temCriterio :crit_just_df_c400.10.054_1.
+:crit_just_df_c400.10.054_1 :temLegislacao :leg_831.
+:crit_just_df_c400.10.054_1 :temLegislacao :leg_1147.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.200
+:df_c400.10.200 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.200 :temDF :df_c400.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.200
+:just_df_c400.10.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.200 :temJustificacao :just_df_c400.10.200.
+:crit_just_df_c400.10.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.200 :temCriterio :crit_just_df_c400.10.200_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.201
+:df_c400.10.201 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.201 :temDF :df_c400.10.201.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.201
+:just_df_c400.10.201 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.201 :temJustificacao :just_df_c400.10.201.
+:crit_just_df_c400.10.201_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.201 :temCriterio :crit_just_df_c400.10.201_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.400
+:df_c400.10.400 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.400 :temDF :df_c400.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.400
+:just_df_c400.10.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.400 :temJustificacao :just_df_c400.10.400.
+:crit_just_df_c400.10.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades;PN150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão.".
+:just_df_c400.10.400 :temCriterio :crit_just_df_c400.10.400_1.
+:crit_just_df_c400.10.400_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c400.10.400_1 :temProcessoRelacionado :c150.40.500.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.402
+:df_c400.10.402 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.402 :temDF :df_c400.10.402.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.402
+:just_df_c400.10.402 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.402 :temJustificacao :just_df_c400.10.402.
+:crit_just_df_c400.10.402_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.402 :temCriterio :crit_just_df_c400.10.402_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.403
+:df_c400.10.403 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.403 :temDF :df_c400.10.403.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.403
+:just_df_c400.10.403 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.403 :temJustificacao :just_df_c400.10.403.
+:crit_just_df_c400.10.403_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada noPN 300.30.001 - Compilação técnica de obra.".
+:just_df_c400.10.403 :temCriterio :crit_just_df_c400.10.403_1.
+:crit_just_df_c400.10.403_1 :temProcessoRelacionado :c300.30.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.404
+:df_c400.10.404 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.404 :temDF :df_c400.10.404.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.404
+:just_df_c400.10.404 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.404 :temJustificacao :just_df_c400.10.404.
+:crit_just_df_c400.10.404_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo "nformação complementar do PN 450.20.505 - Classificação de bens, sítios e áreas.".
+:just_df_c400.10.404 :temCriterio :crit_just_df_c400.10.404_1.
+:crit_just_df_c400.10.404_1 :eComplementarDe :c450.20.505.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.405
+:df_c400.10.405 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.405 :temDF :df_c400.10.405.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.405
+:just_df_c400.10.405 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.405 :temJustificacao :just_df_c400.10.405.
+:crit_just_df_c400.10.405_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo "nformação complementar do PN 450.20.503 - Inventariação de património cultural.".
+:just_df_c400.10.405 :temCriterio :crit_just_df_c400.10.405_1.
+:crit_just_df_c400.10.405_1 :eComplementarDe :c450.20.503.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.406
+:df_c400.10.406 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.406 :temDF :df_c400.10.406.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.406
+:just_df_c400.10.406 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.406 :temJustificacao :just_df_c400.10.406.
+:crit_just_df_c400.10.406_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Conservação para garante do exercício de direitos reais de propriedade.Código Civil: [DL 47344/66].".
+:just_df_c400.10.406 :temCriterio :crit_just_df_c400.10.406_1.
+:crit_just_df_c400.10.406_1 :temLegislacao :leg_6.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.407
+:df_c400.10.407 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.407 :temDF :df_c400.10.407.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.407
+:just_df_c400.10.407 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.407 :temJustificacao :just_df_c400.10.407.
+:crit_just_df_c400.10.407_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Conservação para garante do exercício de direitos reais de propriedade: Código Civil, [DL 47344/66].".
+:just_df_c400.10.407 :temCriterio :crit_just_df_c400.10.407_1.
+:crit_just_df_c400.10.407_1 :temLegislacao :leg_6.
+:crit_just_df_c400.10.407_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.407 :temCriterio :crit_just_df_c400.10.407_2.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.409
+:df_c400.10.409 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.409 :temDF :df_c400.10.409.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.409
+:just_df_c400.10.409 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.409 :temJustificacao :just_df_c400.10.409.
+:crit_just_df_c400.10.409_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.409 :temCriterio :crit_just_df_c400.10.409_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.410
+:df_c400.10.410 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.410 :temDF :df_c400.10.410.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.410
+:just_df_c400.10.410 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.410 :temJustificacao :just_df_c400.10.410.
+:crit_just_df_c400.10.410_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.410 :temCriterio :crit_just_df_c400.10.410_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.411
+:df_c400.10.411 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.411 :temDF :df_c400.10.411.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.411
+:just_df_c400.10.411 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.411 :temJustificacao :just_df_c400.10.411.
+:crit_just_df_c400.10.411_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.411 :temCriterio :crit_just_df_c400.10.411_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.600
+:df_c400.10.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.600 :temDF :df_c400.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.600
+:just_df_c400.10.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.600 :temJustificacao :just_df_c400.10.600.
+:crit_just_df_c400.10.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.600 :temCriterio :crit_just_df_c400.10.600_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.601
+:df_c400.10.601 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.601 :temDF :df_c400.10.601.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.601
+:just_df_c400.10.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.601 :temJustificacao :just_df_c400.10.601.
+:crit_just_df_c400.10.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.601 :temCriterio :crit_just_df_c400.10.601_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.602
+:df_c400.10.602 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.602 :temDF :df_c400.10.602.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.602
+:just_df_c400.10.602 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.602 :temJustificacao :just_df_c400.10.602.
+:crit_just_df_c400.10.602_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.602 :temCriterio :crit_just_df_c400.10.602_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.603
+:df_c400.10.603 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.603 :temDF :df_c400.10.603.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.603
+:just_df_c400.10.603 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.603 :temJustificacao :just_df_c400.10.603.
+:crit_just_df_c400.10.603_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.603 :temCriterio :crit_just_df_c400.10.603_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.604
+:df_c400.10.604 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.604 :temDF :df_c400.10.604.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.604
+:just_df_c400.10.604 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.604 :temJustificacao :just_df_c400.10.604.
+:crit_just_df_c400.10.604_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.604 :temCriterio :crit_just_df_c400.10.604_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.605
+:df_c400.10.605 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.605 :temDF :df_c400.10.605.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.605
+:just_df_c400.10.605 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.605 :temJustificacao :just_df_c400.10.605.
+:crit_just_df_c400.10.605_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.605 :temCriterio :crit_just_df_c400.10.605_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.606
+:df_c400.10.606 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.606 :temDF :df_c400.10.606.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.606
+:just_df_c400.10.606 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.606 :temJustificacao :just_df_c400.10.606.
+:crit_just_df_c400.10.606_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.606 :temCriterio :crit_just_df_c400.10.606_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.607
+:df_c400.10.607 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.607 :temDF :df_c400.10.607.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.607
+:just_df_c400.10.607 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.607 :temJustificacao :just_df_c400.10.607.
+:crit_just_df_c400.10.607_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.607 :temCriterio :crit_just_df_c400.10.607_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.608
+:df_c400.10.608 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.608 :temDF :df_c400.10.608.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.608
+:just_df_c400.10.608 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.608 :temJustificacao :just_df_c400.10.608.
+:crit_just_df_c400.10.608_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável noPN 400.10.406 - Registo predial.".
+:just_df_c400.10.608 :temCriterio :crit_just_df_c400.10.608_1.
+:crit_just_df_c400.10.608_1 :temProcessoRelacionado :c400.10.406.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.609
+:df_c400.10.609 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.609 :temDF :df_c400.10.609.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.609
+:just_df_c400.10.609 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.609 :temJustificacao :just_df_c400.10.609.
+:crit_just_df_c400.10.609_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.609 :temCriterio :crit_just_df_c400.10.609_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.610
+:df_c400.10.610 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.610 :temDF :df_c400.10.610.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.610
+:just_df_c400.10.610 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.610 :temJustificacao :just_df_c400.10.610.
+:crit_just_df_c400.10.610_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.610 :temCriterio :crit_just_df_c400.10.610_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.611
+:df_c400.10.611 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.611 :temDF :df_c400.10.611.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.611
+:just_df_c400.10.611 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.611 :temJustificacao :just_df_c400.10.611.
+:crit_just_df_c400.10.611_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.611 :temCriterio :crit_just_df_c400.10.611_1.
+:crit_just_df_c400.10.611_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo "omplementaridade informacional com o Registo de entidades no sistema de Depósito Legal.".
+:just_df_c400.10.611 :temCriterio :crit_just_df_c400.10.611_2.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.612
+:df_c400.10.612 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.612 :temDF :df_c400.10.612.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.612
+:just_df_c400.10.612 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.612 :temJustificacao :just_df_c400.10.612.
+:crit_just_df_c400.10.612_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.612 :temCriterio :crit_just_df_c400.10.612_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.613
+:df_c400.10.613 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.613 :temDF :df_c400.10.613.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.613
+:just_df_c400.10.613 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.613 :temJustificacao :just_df_c400.10.613.
+:crit_just_df_c400.10.613_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.(Informação útil para se compreender a fundamentação de base à atribuição do topónimo).".
+:just_df_c400.10.613 :temCriterio :crit_just_df_c400.10.613_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.614
+:df_c400.10.614 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.10.614 :temDF :df_c400.10.614.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.614
+:just_df_c400.10.614 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.614 :temJustificacao :just_df_c400.10.614.
+:crit_just_df_c400.10.614_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperada complementarmente:PN 150.40.500 Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos (casos tratados).".
+:just_df_c400.10.614 :temCriterio :crit_just_df_c400.10.614_1.
+:crit_just_df_c400.10.614_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c400.10.614_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.615
+:df_c400.10.615 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.615 :temDF :df_c400.10.615.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.615
+:just_df_c400.10.615 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.615 :temJustificacao :just_df_c400.10.615.
+:crit_just_df_c400.10.615_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.615 :temCriterio :crit_just_df_c400.10.615_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.616
+:df_c400.10.616 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.616 :temDF :df_c400.10.616.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.616
+:just_df_c400.10.616 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.616 :temJustificacao :just_df_c400.10.616.
+:crit_just_df_c400.10.616_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.616 :temCriterio :crit_just_df_c400.10.616_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.617
+:df_c400.10.617 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.617 :temDF :df_c400.10.617.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.617
+:just_df_c400.10.617 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.617 :temJustificacao :just_df_c400.10.617.
+:crit_just_df_c400.10.617_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.617 :temCriterio :crit_just_df_c400.10.617_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.619
+:df_c400.10.619 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.619 :temDF :df_c400.10.619.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.619
+:just_df_c400.10.619 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.619 :temJustificacao :just_df_c400.10.619.
+:crit_just_df_c400.10.619_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.619 :temCriterio :crit_just_df_c400.10.619_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.10.620
+:df_c400.10.620 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.10.620 :temDF :df_c400.10.620.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.10.620
+:just_df_c400.10.620 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.10.620 :temJustificacao :just_df_c400.10.620.
+:crit_just_df_c400.10.620_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.10.620 :temCriterio :crit_just_df_c400.10.620_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.30.001
+:df_c400.30.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.30.001 :temDF :df_c400.30.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.30.001
+:just_df_c400.30.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.30.001 :temJustificacao :just_df_c400.30.001.
+:crit_just_df_c400.30.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.".
+:just_df_c400.30.001 :temCriterio :crit_just_df_c400.30.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.30.402
+:df_c400.30.402 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.30.402 :temDF :df_c400.30.402.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.30.402
+:just_df_c400.30.402 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.30.402 :temJustificacao :just_df_c400.30.402.
+:crit_just_df_c400.30.402_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Para salvaguarda de direitos imprescritíveis decorrentes dos documentos assinados electronicamente.Analogia com o destino final dos Livros de Sinais previsto na 1ª versão do Código do Notariado [DL 207/95], entretanto revogado.".
+:just_df_c400.30.402 :temCriterio :crit_just_df_c400.30.402_1.
+:crit_just_df_c400.30.402_1 :temLegislacao :leg_171.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.30.600
+:df_c400.30.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.30.600 :temDF :df_c400.30.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.30.600
+:just_df_c400.30.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.30.600 :temJustificacao :just_df_c400.30.600.
+:crit_just_df_c400.30.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Decreto Regulamentar 3/2009], artº 13, nº 1 - \"Os dados recolhidos são eliminados consoante o facto que ocorrer em primeiro lugar;- a) com o registo da extinção da procuração a que digam respeito;- b) Decorridos 15 anos a contar da data da outorga da procuração;- c) Logo que deixem de ser estritamente necessários para os fins para que foram recolhidos.\"".
+:just_df_c400.30.600 :temCriterio :crit_just_df_c400.30.600_1.
+:crit_just_df_c400.30.600_1 :temLegislacao :leg_770.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.30.601
+:df_c400.30.601 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c400.30.601 :temDF :df_c400.30.601.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.30.601
+:just_df_c400.30.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.30.601 :temJustificacao :just_df_c400.30.601.
+:crit_just_df_c400.30.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Não é recuperável noutro PN.Forma de acesso aos testamentos e escrituras.".
+:just_df_c400.30.601 :temCriterio :crit_just_df_c400.30.601_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c400.30.602.01
+:df_c400.30.602.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c400.30.602.01 :temDF :df_c400.30.602.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c400.30.602.01
+:just_df_c400.30.602.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c400.30.602.01 :temJustificacao :just_df_c400.30.602.01.
+:crit_just_df_c400.30.602.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "A informação pode ser recuperada noPN 400.30.602.02 - Registo das cláusulas contratuais abusivas: inscrição.".
+:just_df_c400.30.602.01 :temCriterio :crit_just_df_c400.30.602.01_1.
+:crit_just_df_c400.30.602.01_1 :temProcessoRelacionado :c400.30.602.

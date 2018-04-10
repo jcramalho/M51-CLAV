@@ -1,0 +1,1688 @@
+### Classe700
+###  http://jcr.di.uminho.pt/m51-clav#na_c700_1
+:na_c700_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Atos clínicos realizados no quadro da promoção da saúde  (rastreio, vacinação, consulta do viajante, etc.).".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700_1
+:ne_c700_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A constituição de redes de referenciação dos serviços e unidades de prestação de serviços de saúde (primária e secundária) deve ser considerada em \"Planeamento e gestão estratégica/ Planeamento, avaliação e melhoria de serviços\" (150.20);".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700_3
+:ne_c700_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os estudos científicos e técnico-científicos no domínio da saúde devem ser considerados em \"Prestação de serviços técnicos e científicos, investigação e desenvolvimento\" (800);".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700_2
+:ne_c700_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "As ações de promoção da saúde e/ou prevenção de doenças que se revistam da forma de campanhas de divulgação e informação, devem ser consideradas em \"Dinamização e comunicação institucional/ Execução de atividades de dinamização da sociedade\" (900.10);".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700_4
+:ne_c700_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os serviços de assistência religiosa e/ou de assistência social ou psicossocial orientados à (re)integração social do utente dos serviços de saúde devem ser considerados em \"Prestação de serviços de proteção e inclusão social/ Serviços e equipamentos sociais\" (650.20).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700
+:c700 rdf:type owl:NamedIndividual ,
+	:Classe_N1;
+	:codigo "700";
+	:titulo "PRESTAÇÃO DE CUIDADOS DE SAÚDE";
+	:pertenceLC :lc1 ;
+	:temNotaAplicacao :na_c700_1 ;
+	:temNotaExclusao :ne_c700_1 ;
+	:temNotaExclusao :ne_c700_2 ;
+	:temNotaExclusao :ne_c700_3 ;
+	:temNotaExclusao :ne_c700_4 ;
+	:classeStatus "A" ;
+	:descricao "Relativo à prestação de cuidados preventivos, curativos ou continuados, assegurada em unidades do Serviço Nacional de Saúde, em contexto laboral (saúde ocupacional), em clinicas, nas escolas, em prisões ou em qualquer outro contexto onde sejam praticados atos clínicos para humanos ou animais.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_1
+:na_c700.10_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Referenciação dos doentes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_2
+:na_c700.10_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Organização do transporte de doentes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_3
+:na_c700.10_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Referenciação de colheitas e transplantes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10_4
+:na_c700.10_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Gestão de inscritos para consultas, para cirurgia e para outros atos clínicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.10_1
+:ne_c700.10_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O registo nacional de \"utente de saúde\" deve ser considerado em \"Prestação de serviços de identificação e registo/ Registo de dados de identificação e caracterização de entidades ou atos\" (400.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.10
+:c700.10 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "700.10";
+	:titulo "Gestão de utentes";
+	:temPai :c700 ;
+	:temNotaAplicacao :na_c700.10_1 ;
+	:temNotaAplicacao :na_c700.10_2 ;
+	:temNotaAplicacao :na_c700.10_3 ;
+	:temNotaAplicacao :na_c700.10_4 ;
+	:temNotaExclusao :ne_c700.10_1 ;
+	:classeStatus "A" ;
+	:descricao "Compreende as atividades de gestão do atendimento, admissão e encaminhamento de utentes dos serviços de saúde, no que se inclui os serviços de emergência médica.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10.001_1
+:na_c700.10.001_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Encaminhamento de utentes para referenciação em consultas de especialidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10.001_3
+:na_c700.10.001_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Marcação de atos clínicos médicos e de enfermagem nas unidades de saúde dos Serviços Sociais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10.001_2
+:na_c700.10.001_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Marcação, alteração e cancelamento de atos clínicos médicos e de enfermagem no âmbito da Medicina do Trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10.001_5
+:na_c700.10.001_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Referenciação para realizar MCDT (meios complementares de Diagnóstico e Terapêutica)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10.001_4
+:na_c700.10.001_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Referenciação de utentes para consultas em unidades de saúde públicas ou privadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.10.001
+:c700.10.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.10.001";
+	:titulo "Referenciação de utentes para consultas";
+	:temPai :c700.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
+	:temParticipanteComunicador :org_ACSS ;
+	:temParticipanteComunicador :conj_org_AL ;
+	:temParticipanteComunicador :conj_org_ACES ;
+	:temParticipanteComunicador :conj_org_SMT ;
+	:temParticipanteComunicador :org_HH ;
+	:temDono :tipol_org_UPCS ;
+	:temDono :conj_org_AL ;
+	:temNotaAplicacao :na_c700.10.001_1 ;
+	:temNotaAplicacao :na_c700.10.001_2 ;
+	:temNotaAplicacao :na_c700.10.001_3 ;
+	:temNotaAplicacao :na_c700.10.001_4 ;
+	:temNotaAplicacao :na_c700.10.001_5 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.501 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c300.10.008 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eSintetizadoPor :c700.20.200 ;
+	:eSintetizadoPor :c700.20.402 ;
+	:eSintetizadoPor :c700.20.404 ;
+	:eAntecessorDe :c800.10.300 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_1173 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_234 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Inscrição e monitorização das inscrições de utentes que aguardam a realização de consulta numa unidade de saúde.Inicia com a inscrição na consulta e termina com a confirmação da realização da consulta ou cancelamento do registo.Inclui identificação do utente, avaliação clinica da necessidade da consulta, verificação de disponibilidade e marcação de consulta, notificação ao utente do agendamento da consulta.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.10.002_1
+:ne_c700.10.002_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os internamentos hospitalares devem ser considerados em 700.20.400 – Internamento de doentes agudos e crónicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.10.002
+:c700.10.002 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.10.002";
+	:titulo "Referenciação de utentes para a rede de cuidados continuados integrados";
+	:temPai :c700.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_ARS-N ;
+	:temParticipanteComunicador :org_ARS-C ;
+	:temParticipanteComunicador :org_ARS-LVT ;
+	:temParticipanteComunicador :org_ARS-Aln ;
+	:temParticipanteComunicador :org_ARS-Alg ;
+	:temParticipanteDecisor :conj_org_ACES ;
+	:temDono :tipol_org_UPCS ;
+	:temNotaExclusao :ne_c700.10.002_1 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.501 ;
+	:eSintetizadoPor :c150.40.001 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eSintetizadoPor :c700.20.200 ;
+	:eSintetizadoPor :c700.20.300 ;
+	:eSintetizadoPor :c700.20.400 ;
+	:eSintetizadoPor :c700.20.402 ;
+	:eSintetizadoPor :c700.20.404 ;
+	:eSintetizadoPor :c700.20.407 ;
+	:eSintetizadoPor :c700.20.500 ;
+	:eSintetizadoPor :c700.20.600 ;
+	:temLegislacao :leg_520 ;
+	:temLegislacao :leg_1307 ;
+	:temLegislacao :leg_674 ;
+	:temLegislacao :leg_675 ;
+	:temLegislacao :leg_1009 ;
+	:temLegislacao :leg_1010 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_234 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Informação decorrente de um conjunto de intervenções sequenciais integradas de saúde e apoio social em sequência de uma avaliação conjunta que visa promover a autonomia melhorando a funcionalidade do utente em situação de dependência, através da sua reabilitação, readaptação e reinserção familiar e social.Inicia com a avaliação da necessidade de cuidados continuados e preparação da alta hospitalar em articulação com outros serviços e termina com a confirmação do ingresso ou a anulação do registo.Inclui as atividades necessárias à execução do processo de referenciação de acordo com os interesses dos utentes e os recursos disponíveis na comunidade, nomeadamente, a nota de alta, os pareceres das equipas de gestão de altas, o envio dos processos de ingresso e de admissão para as unidades prestadoras. Inclui ainda, o consentimento informado e o termo de aceitação de internamento.".
+###  http://jcr.di.uminho.pt/m51-clav#c700.10.003
+:c700.10.003 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.10.003";
+	:titulo "Referenciação de utentes para cirurgias";
+	:temPai :c700.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_ARS-N ;
+	:temParticipanteComunicador :org_ARS-C ;
+	:temParticipanteComunicador :org_ARS-LVT ;
+	:temParticipanteComunicador :org_ARS-Aln ;
+	:temParticipanteComunicador :org_ARS-Alg ;
+	:temParticipanteDecisor :org_ACSS ;
+	:temParticipanteComunicador :org_HH ;
+	:temDono :tipol_org_UPCS ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.501 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eSintetizadoPor :c700.20.200 ;
+	:eAntecessorDe :c700.20.300 ;
+	:eSintetizadoPor :c700.20.400 ;
+	:eSintetizadoPor :c700.20.401 ;
+	:eSintetizadoPor :c700.20.402 ;
+	:temLegislacao :leg_737 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_234 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Informação decorrente de um conjunto de procedimentos de encaminhamento de utentes para realização de cirurgias.Inicia com a referenciação do médico de familia que encaminha o utente para consulta de especialidade ou na sequência de atendimemnto de urgencia na unidade hospitalar e termina com a confirmação da realização da cirurgia ou cancelamento do registo. Incluí inscrição dos utentes através da plataforma para a gestão de inscritos para cirurgia e referenciação para outras unidades do setor público ou setor privado ou social através da emissão de um cheque cirúrgico.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.10.004_1
+:ne_c700.10.004_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O registo nacional de utente de saúde deve ser considerado em “Prestação de serviços de identificação e registo / Registo de dados de identificação e caracterização de entidades ou atos” (400.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10.004_1
+:na_c700.10.004_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Atualização de dados para registo".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.10.004
+:c700.10.004 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.10.004";
+	:titulo "Registo de utilizadores de unidades de saúde";
+	:temPai :c700.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :conj_org_ACES ;
+	:temParticipanteIniciador :conj_org_AL ;
+	:temDono :tipol_org_UPCS ;
+	:temDono :org_INSA ;
+	:temDono :conj_org_SMT ;
+	:temDono :org_HH ;
+	:temNotaAplicacao :na_c700.10.004_1 ;
+	:temNotaExclusao :ne_c700.10.004_1 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c400.10.040 ;
+	:eCruzadoCom :c450.30.500 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c700.10.001 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.10.002 ;
+	:eCruzadoCom :c700.10.003 ;
+	:temLegislacao :leg_841 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
+	:descricao "Inscrição de utilizadores de unidades de saúde privadas ou de caráter social.Inicia com a manifestação do interesse ou necessidade de utilização de uma unidade de saúde e termina com o fim do interesse ou necessidade.Inclui identificação de utilizador, verificação do sistema de apoio à doença utilizado e registo de dados.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10.005_1
+:na_c700.10.005_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Registos efetuados por entidades empregadoras que tenham trabalhadores que possam estar expostos a agentes suscetíveis de implicar riscos para o património genético".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10.005_2
+:na_c700.10.005_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Referenciação de trabalhadores que lidam com materiais insalubres e com agentes biológicos nocivos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10.005_3
+:na_c700.10.005_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " ".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.10.005_1
+:ne_c700.10.005_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O registo nacional de utente de saúde deve ser considerado em “Prestação de serviços de identificação e registo / Registo de dados de identificação e caracterização de entidades ou atos” (400.10)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.10.005
+:c700.10.005 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.10.005";
+	:titulo "Referenciação de utilizadores expostos a agentes biológicos perigosos";
+	:temPai :c700.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :conj_org_AP ;
+	:temParticipanteAssessor :tipol_org_UPCS ;
+	:temDono :org_ACT ;
+	:temNotaAplicacao :na_c700.10.005_1 ;
+	:temNotaAplicacao :na_c700.10.005_2 ;
+	:temNotaAplicacao :na_c700.10.005_3 ;
+	:temNotaExclusao :ne_c700.10.005_1 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSintetizadoPor :c250.20.001 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:temLegislacao :leg_295 ;
+	:temLegislacao :leg_193 ;
+	:temLegislacao :leg_841 ;
+	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "N" ;
+	:descricao "A identificação dos trabalhadores expostos a agentes biológicos perigosos, com a indicação da natureza e, se possível, do agente e do grau de exposição.Inicia com a inscrição do trabalhador e termina com o registo exposição a agentes biológicos.Inclui os resultados da vigilância da saúde de cada trabalhador com referência ao respetivo posto de trabalho ou função e o registo de acidentes ou incidentes.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10.006_1
+:na_c700.10.006_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Registo da prestação de cuidados de saúde por parte de entidades públicas e privadas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10.006_2
+:na_c700.10.006_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " ".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.10.006_1
+:ne_c700.10.006_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O registo de utentes no serviço nacional de saúde deve ser considerado em 400.10.040 – Registo nacional de utentes".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.10.006_2
+:ne_c700.10.006_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo " O registo de utentes em unidades de súde deve ser considerado em 700.10.004 – Registo de utilizadores de unidades de saúde".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.10.006
+:c700.10.006 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.10.006";
+	:titulo "Registo clínico de utentes";
+	:temPai :c700.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_SPMS ;
+	:temDono :tipol_org_UPCS ;
+	:temDono :org_HH ;
+	:temNotaAplicacao :na_c700.10.006_1 ;
+	:temNotaAplicacao :na_c700.10.006_2 ;
+	:temNotaExclusao :ne_c700.10.006_1 ;
+	:temNotaExclusao :ne_c700.10.006_2 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c450.10.073 ;
+	:eSuplementoPara :c150.20.303 ;
+	:eCruzadoCom :c800.10.001 ;
+	:eCruzadoCom :c800.10.002 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.501 ;
+	:temLegislacao :leg_47 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Inscrição de dados relativos à prestação de cuidados de saúde a utentes, relevantes para o conhecimento do seu quadro clinico. Inicia com o registo da inscrição do utente e termina com a informação relativa ao seu óbito.Inclui integração de informação clinica, resumo médico com os dados clínicos mais importantes relativos aos medicamentos prescritos, às diferentes intervenções clinicas e cirúrgicas, bem como aos meios complementares de diagnóstico e terapêutica.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.10.500_1
+:ne_c700.10.500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O registo de animais deve ser considerado em 400.10.400 – Registo animal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.10.500_1
+:na_c700.10.500_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Atualização dos dados de registo".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.10.500_2
+:ne_c700.10.500_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo " ".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.10.500
+:c700.10.500 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.10.500";
+	:titulo "Registo de utilizadores em unidades de saúde animal";
+	:temPai :c700.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AL ;
+	:temDono :org_GNR ;
+	:temDono :org_PSP ;
+	:temNotaAplicacao :na_c700.10.500_1 ;
+	:temNotaExclusao :ne_c700.10.500_1 ;
+	:temNotaExclusao :ne_c700.10.500_2 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c700.10.501 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Inscrição de animais em hospitais e clinicas veterinárias. Inicia com a manifestação do interesse ou necessidade de utilização de uma unidade de saúde veterinária e termina com o fim do interesse ou necessidade.Inclui identificação do animal e registo de dados.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.10.501_1
+:ne_c700.10.501_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A prestação de cuidados veterinários deve ser considerada em 700.20.800 – Prestação de cuidados curativos veterinários".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.10.501_2
+:ne_c700.10.501_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo " A vacinação de animais deve ser considerada em 700.20.700 – Vacinação de animais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.10.501
+:c700.10.501 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.10.501";
+	:titulo "Referenciação de animais para consultas";
+	:temPai :c700.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AL ;
+	:temDono :org_GNR ;
+	:temDono :org_PSP ;
+	:temNotaExclusao :ne_c700.10.501_1 ;
+	:temNotaExclusao :ne_c700.10.501_2 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSuplementoPara :c700.10.500 ;
+	:eSucessorDe :c700.20.700 ;
+	:eSucessorDe :c700.20.800 ;
+	:temLegislacao :leg_47 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Inscrição de animais para consultas e e outros cuidados de saúde. Inicia com a inscrição e temina com a notificação do agendamento do cuidado de saúde pretendido. Inclui identificação do animal, avaliação clinica da necessidade da consulta, verificação de disponibilidade e marcação de consulta.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20_1
+:na_c700.20_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Inclui os atos clínicos realizados em contexto de emergência médica pré-hospitalar ou de urgência hospitalar, em regime de internamento ou de ambulatório".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20_2
+:na_c700.20_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Eventuais atos clínicos praticados fora das instituições de saúde (locais de trabalho, escolas, prisões, entre outros).".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20_3
+:na_c700.20_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Aplica-se não apenas aos atos médicos e de enfermagem, mas também aos realizados por outros profissionais de saúde quando intervenham no diagnóstico, tratamento e reabilitação de doentes.".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20_1
+:ne_c700.20_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A intervenção médica em processos de avaliação e certificação de saúde ou incapacidade (por exemplo, juntas médicas para declaração de incapacidade, certificados médicos para pilotos e controladores de tráfego aéreo, entre outros) deve ser considerada em \"Reconhecimentos e permissões/ Emissão de comprovativos de factos ou atos\" (450.30).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20
+:c700.20 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "700.20";
+	:titulo "Serviços clínicos";
+	:temPai :c700 ;
+	:temNotaAplicacao :na_c700.20_1 ;
+	:temNotaAplicacao :na_c700.20_2 ;
+	:temNotaAplicacao :na_c700.20_3 ;
+	:temNotaExclusao :ne_c700.20_1 ;
+	:classeStatus "A" ;
+	:descricao "Compreende as atividades relacionadas com o diagnóstico, o tratamento, a reabilitação e o acompanhamento clínico do doente, no quadro da prestação de cuidados de saúde primários, secundários ou terciários.Compreende, igualmente, os atos clínicos de caráter preventivo (consultas, rastreio, vacinação), bem como as dádivas de sangue e as colheitas de órgãos, tecidos e células.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.001_1
+:na_c700.20.001_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Administração de vacinas contempladas no Plano Nacional de Vacinação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.001_2
+:na_c700.20.001_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Administração de vacinas a imunodeprimidos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.001_4
+:na_c700.20.001_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Administração de vacinas a viajantes para áreas endémicas ou outras".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.001_3
+:na_c700.20.001_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Administração de vacinas a profissionais de risco".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.001_1
+:ne_c700.20.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A elaboração do Plano Nacional de Vacinação deve ser considerada em 150.10.100 – Definição de políticas setoriais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.001
+:c700.20.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.001";
+	:titulo "Imunização";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :conj_org_ACES ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
+	:temParticipanteDecisor :org_DGS ;
+	:temDono :org_HH ;
+	:temDono :tipol_org_UPCS ;
+	:temDono :conj_org_SMT ;
+	:temNotaAplicacao :na_c700.20.001_1 ;
+	:temNotaAplicacao :na_c700.20.001_2 ;
+	:temNotaAplicacao :na_c700.20.001_3 ;
+	:temNotaAplicacao :na_c700.20.001_4 ;
+	:temNotaExclusao :ne_c700.20.001_1 ;
+	:eSucessorDe :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eSintetizadoPor :c700.20.200 ;
+	:eSintetizadoPor :c700.20.300 ;
+	:eSintetizadoPor :c700.20.403 ;
+	:eCruzadoCom :c800.10.607 ;
+	:temLegislacao :leg_1227 ;
+	:temLegislacao :leg_951 ;
+	:temLegislacao :leg_385 ;
+	:temLegislacao :leg_469 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_1377 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Prestação de cuidados de prevenção de saúde primária através de ações pelas quais se confere imunidade recorrendo a meios artificiais para prevenir doenças.Inicia com o pedido ou com a verificação da necessidade de vacina e termina com a administração da mesma.Inclui consulta do Plano Nacional de Vacinação, verificação das vacinas em falta ou necessárias e registo da imunização administrada.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.100_1
+:na_c700.20.100_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Todo o tipo de rastreios".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.100_2
+:na_c700.20.100_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Programas de saúde de base comunitária e populacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.100_1
+:ne_c700.20.100_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os estudos epidemiológicos ou programas de controlo de qualidade/ganhos em saúde e os os Registos Oncológicos Regionais (ROR) devem ser considerados em 800.10.607 – Realização de ações de Observação em saúde e Vigilância Epidemiologica".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.100
+:c700.20.100 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.100";
+	:titulo "Rastreio";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteApreciador :conj_org_ACES ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
+	:temDono :tipol_org_UPCS ;
+	:temDono :org_HH ;
+	:temNotaAplicacao :na_c700.20.100_1 ;
+	:temNotaAplicacao :na_c700.20.100_2 ;
+	:temNotaExclusao :ne_c700.20.100_1 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.501 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSintetizadoPor :c700.20.200 ;
+	:eCruzadoCom :c800.10.300 ;
+	:eCruzadoCom :c800.10.600 ;
+	:eCruzadoCom :c800.10.601 ;
+	:eCruzadoCom :c800.10.607 ;
+	:temLegislacao :leg_424 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_234 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Prestação de cuidados de prevenção de saúde secundária praticados através de um conjunto de ações ou atividades de base comunitária e populacional programado em articulação com diversas autoridades de saúde e destinadas a detetar ou identificar precocemente doenças específicas junto de determinados grupos de população alvo.Inicia com a informação da realização do rastreio e termina com a avaliação do mesmo.Inclui realização de testes de saúde, análise dos resultados e eventual encaminhamento para consulta.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.101_1
+:na_c700.20.101_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Projetos ou ações de promoção da saúde não integrados em Programas Nacionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.101_2
+:na_c700.20.101_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Ações de sensibilização e educação para a saúde tais como nutrição de grávidas e idosos ou Dia da alimentação Férias em saúde".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.101_3
+:na_c700.20.101_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Ações de sensibilização para a parentalidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.101_4
+:na_c700.20.101_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Ações de intervenção comunitária (tais como".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.101_5
+:na_c700.20.101_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " centro de recuperação de jovens)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.101_6
+:na_c700.20.101_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Todas as campanhas de promoção da saúde que envolvam atos clínicos (exames médicos, vigilância de níveis, entre outros)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.101_1
+:ne_c700.20.101_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "As ações integradas nos Programas nacionais do Plano nacional de Saúde devem ser consideradas em 150.10.200 – Elaboração de instrumentos de ordenamento territorial e da promoção do desenvolvimento de âmbito nacional".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.101_2
+:ne_c700.20.101_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo " Os Rastreios devem ser considerados em 700.20.100 – Rastreios".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.101_3
+:ne_c700.20.101_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "As campanhas baseadas em instrumentos de comunicação devem ser consideradas em 900.10.502 – Organização e participação em iniciativas de prevenção e sensibilização".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.101_4
+:ne_c700.20.101_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os instrumentos promocionais das campanhas devem ser considerados em 900.20.002 – Criação de produtos e artigos promocionais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.101
+:c700.20.101 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.101";
+	:titulo "Realização de ações de  saúde em campanha";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteApreciador :conj_org_ACES ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
+	:temDono :tipol_org_UPCS ;
+	:temNotaAplicacao :na_c700.20.101_1 ;
+	:temNotaAplicacao :na_c700.20.101_2 ;
+	:temNotaAplicacao :na_c700.20.101_3 ;
+	:temNotaAplicacao :na_c700.20.101_4 ;
+	:temNotaAplicacao :na_c700.20.101_5 ;
+	:temNotaAplicacao :na_c700.20.101_6 ;
+	:temNotaExclusao :ne_c700.20.101_1 ;
+	:temNotaExclusao :ne_c700.20.101_2 ;
+	:temNotaExclusao :ne_c700.20.101_3 ;
+	:temNotaExclusao :ne_c700.20.101_4 ;
+	:eSucessorDe :c150.10.200 ;
+	:eSucessorDe :c150.10.300 ;
+	:eSucessorDe :c150.10.400 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.20.501 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:temLegislacao :leg_252 ;
+	:temLegislacao :leg_576 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Cuidados de prevenção secundária de saúde através da realização de atos clínicos envolvendo os cidadãos no sentido de os consciencializar e responsabilizar pelas suas próprias escolhas em matéria de saúde e bem-estar.Inicia com o diagnóstico de necessidades de formação/informação em matéria de saúde e termina com a realização da ação de promoção.Inclui desenvolvimento de atos clínicos e orientação dos utentes em relação a matérias de saúde e bem-estar.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.102_1
+:na_c700.20.102_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Atividades das autoridades de saúde e coordenação do funcionamento global em rede dessas autoridades".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.102_2
+:na_c700.20.102_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Intervenção em situações de grave risco para a saúde pública".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.102_3
+:na_c700.20.102_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Limitação da realização de viagens, em especial para zonas com identificação de casos de doença, suspeitos ou confirmados, após a avaliação do risco potencial associado à sua realização".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.102_5
+:na_c700.20.102_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Adoção de ações de proteção aos agentes funerários e outros intervenientes nas atividades de remoção, transporte e inumação de cadáveres, em que a morte foi provocada pela crise pandémica, designadamente nas situações de excesso".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.102_4
+:na_c700.20.102_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Encerramento de escolas, locais de trabalho, centros de dia ou outras instituições, após avaliação do risco potencial associado à sua manutenção em atividade".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.102
+:c700.20.102 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.102";
+	:titulo "Prevenção de crises pandémicas e situações de emergência sanitária ou de saúde pública";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_HH ;
+	:temParticipanteAssessor :org_INEM ;
+	:temParticipanteAssessor :org_PSP ;
+	:temParticipanteAssessor :org_ANPC ;
+	:temDono :tipol_org_AS ;
+	:temDono :org_DGS ;
+	:temDono :org_ARS-N ;
+	:temDono :org_ARS-C ;
+	:temDono :org_ARS-LVT ;
+	:temDono :org_ARS-Aln ;
+	:temDono :org_ARS-Alg ;
+	:temDono :tipol_org_UPCS ;
+	:temDono :org_HH ;
+	:temNotaAplicacao :na_c700.20.102_1 ;
+	:temNotaAplicacao :na_c700.20.102_2 ;
+	:temNotaAplicacao :na_c700.20.102_3 ;
+	:temNotaAplicacao :na_c700.20.102_4 ;
+	:temNotaAplicacao :na_c700.20.102_5 ;
+	:eSucessorDe :c150.10.200 ;
+	:eSucessorDe :c150.10.300 ;
+	:eSucessorDe :c150.10.400 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c550.20.006 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.403 ;
+	:temLegislacao :leg_837 ;
+	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
+	:descricao "Cuidados de prevenção secundária de saúde através da realização de atos de assistência médica no âmbito das competências profissionais do médico de saúde pública.Inicia com a intervenção das autoridades de saúde, sempre que instadas e/ou alertadas para situações potencialmente criticas de saúde pública e termina com relatório onde se elabora o diagnóstico e propõe medidas.Inclui ativação de meios de prevenção e relato de resultados. ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.200_1
+:na_c700.20.200_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Acompanhamento clínico em ambiente prisional".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.200_2
+:na_c700.20.200_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Acompanhamento dos utentes da instituição nas entidades com serviços clínicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.200_3
+:na_c700.20.200_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Acompanhamento de toxicodependentes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.200_4
+:na_c700.20.200_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Apoio domiciliário de saúde".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.200_5
+:na_c700.20.200_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Intervenção personalizada com envolvente familiar".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.200_6
+:na_c700.20.200_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Planeamento familiar".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.200_7
+:na_c700.20.200_7 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Vigilância da saúde infantil".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.200_1
+:ne_c700.20.200_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A certificação de incapacidade permanente, de doença profissional ou de acidente de trabalho deve ser considerada em 450.30.500 – Certificação de doença, aptidão ou incapacidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.300_1
+:na_c700.20.300_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Apoio a traumáticos em situação de crise".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.300_2
+:na_c700.20.300_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Atos praticados por pessoal médico e de enfermagem em atendimento telefónico".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.200
+:c700.20.200 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.200";
+	:titulo "Prestação de cuidados de saúde personalizados";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_HH ;
+	:temParticipanteComunicador :conj_org_ACES ;
+	:temDono :tipol_org_UPCS ;
+	:temDono :conj_org_AL ;
+	:temNotaAplicacao :na_c700.20.200_1 ;
+	:temNotaAplicacao :na_c700.20.200_2 ;
+	:temNotaAplicacao :na_c700.20.200_3 ;
+	:temNotaAplicacao :na_c700.20.200_4 ;
+	:temNotaAplicacao :na_c700.20.200_5 ;
+	:temNotaAplicacao :na_c700.20.200_6 ;
+	:temNotaAplicacao :na_c700.20.200_7 ;
+	:temNotaExclusao :ne_c700.20.200_1 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.20.501 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c400.10.036 ;
+	:eCruzadoCom :c400.10.037 ;
+	:eCruzadoCom :c400.10.038 ;
+	:eCruzadoCom :c400.10.039 ;
+	:eComplementarDe :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.001 ;
+	:eSinteseDe :c700.10.002 ;
+	:eSinteseDe :c700.10.003 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eSinteseDe :c700.20.001 ;
+	:eSinteseDe :c700.20.100 ;
+	:eCruzadoCom :c700.20.404 ;
+	:eCruzadoCom :c700.20.406 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eCruzadoCom :c700.20.500 ;
+	:eCruzadoCom :c700.20.600 ;
+	:temLegislacao :leg_109 ;
+	:temLegislacao :leg_378 ;
+	:temLegislacao :leg_109 ;
+	:temLegislacao :leg_252 ;
+	:temLegislacao :leg_681 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1262 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Prestação continuada de assistência médica e de cuidados de saúde por médico de medicina geral e familiar.Inicia com a realização de consulta e termina com a avaliação de resultados.Inclui elaboração de diagnóstico, aplicação de fármacos, registo dos atos médicos praticados e acompanhamento do utente.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.300_3
+:na_c700.20.300_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Informação e encaminhamento do Centro de Informação Antivenenos (CIAV)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.300_1
+:ne_c700.20.300_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O transporte de doentes e sinistrados que não envolva assistência médica deve ser considerado em 550.20.500 – Ação de proteção e socorro".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.300
+:c700.20.300 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.300";
+	:titulo "Prestação de cuidados de emergência médica";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_HH ;
+	:temDono :org_INEM ;
+	:temNotaAplicacao :na_c700.20.300_1 ;
+	:temNotaAplicacao :na_c700.20.300_2 ;
+	:temNotaAplicacao :na_c700.20.300_3 ;
+	:temNotaExclusao :ne_c700.20.300_1 ;
+	:eCruzadoCom :c400.10.036 ;
+	:eCruzadoCom :c400.10.037 ;
+	:eCruzadoCom :c400.10.038 ;
+	:eCruzadoCom :c400.10.039 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c550.20.500 ;
+	:eCruzadoCom :c700.10.002 ;
+	:eSinteseDe :c700.10.003 ;
+	:eSinteseDe :c700.20.001 ;
+	:eSucessorDe :c700.20.102 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eSinteseDe :c700.20.406 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eCruzadoCom :c700.20.500 ;
+	:eCruzadoCom :c700.20.600 ;
+	:temLegislacao :leg_1005 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1262 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Prestação de assistência médica a vítimas de acidente ou de doença súbita.Inicia com o pedido de assistência e termina com a estabilização do utente pela equipa de emergência médica ou com o encaminhamento do sinistrado para unidade de saúde adequada.Inclui registo sonoro do pedido e respetivo atendimento, eventual reencaminhamento da chamada, encaminhamento de meios de assistência médica e aplicação de cuidados médicos e de enfermagem adequados à situação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.400_2
+:na_c700.20.400_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Internamento compulsivo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.400_1
+:na_c700.20.400_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Internamento forense (doentes inimputáveis)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.400
+:c700.20.400 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.400";
+	:titulo "Internamento de doentes agudos e crónicos";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :tipol_org_UPCS ;
+	:temDono :org_HH ;
+	:temNotaAplicacao :na_c700.20.400_1 ;
+	:temNotaAplicacao :na_c700.20.400_2 ;
+	:eCruzadoCom :c400.10.036 ;
+	:eCruzadoCom :c400.10.037 ;
+	:eCruzadoCom :c400.10.038 ;
+	:eCruzadoCom :c400.10.036 ;
+	:eCruzadoCom :c400.10.037 ;
+	:eComplementarDe :c400.10.038 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.002 ;
+	:eCruzadoCom :c700.10.003 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eCruzadoCom :c700.20.404 ;
+	:eCruzadoCom :c700.20.405 ;
+	:eSinteseDe :c700.20.406 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eCruzadoCom :c700.20.500 ;
+	:eCruzadoCom :c700.20.600 ;
+	:temLegislacao :leg_665 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_831 ;
+	:temLegislacao :leg_1356 ;
+	:temLegislacao :leg_1147 ;
+	:temLegislacao :leg_1357 ;
+	:temLegislacao :leg_1262 ;
+	:temLegislacao :leg_591 ;
+	:temLegislacao :leg_1348 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Acolhimento em unidade hospitalar para tratamento de episódio agudo ou acompanhamento de doença crónica. Inicia com o internamento numa unidade de especialidade Hospitalar e termina com a estabilização dos sintomas revelados, emitindo-se uma nota de alta hospitalar. Inclui o diagnóstico, prescrição e monitorização da evolução da doença (consultas subsequentes). Inclui ainda, actos das várias especialidades clinicas e administração de fármacos hospitalares para doenças específicas, bem como o registo dos actos praticados no sistema de informação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.401_1
+:na_c700.20.401_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Cirurgias em que a admissão, intervenção cirúrgica e alta hospitalar para o domicílio ou para unidade não abrangida pelos serviços de saúde, não requerem que o doente pernoite no hospital".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.401_2
+:na_c700.20.401_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Cedência de medicação a utentes em ambulatório".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.401_1
+:ne_c700.20.401_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os procedimentos relacionados com a gestão do Sistema Integrado de Gestão de Inscritos para Cirurgia (SIGIC) devem ser considerados em 700.10.003 – Referenciação de utentes para cirurgia".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.401
+:c700.20.401 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.401";
+	:titulo "Realização de cirurgias de ambulatório";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :tipol_org_UPCS ;
+	:temDono :org_HH ;
+	:temNotaAplicacao :na_c700.20.401_1 ;
+	:temNotaAplicacao :na_c700.20.401_2 ;
+	:temNotaExclusao :ne_c700.20.401_1 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.003 ;
+	:eSinteseDe :c700.10.006 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eCruzadoCom :c700.20.404 ;
+	:eCruzadoCom :c700.20.405 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eCruzadoCom :c700.20.500 ;
+	:eCruzadoCom :c700.20.600 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1262 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Acolhimento em unidade hospitalar para realização de cirurgia ambulatória.Inicia com a consulta pré-operatória e termina com a emissão da alta hospitalar.Incluí todos os actos praticados no âmbito da atividade no hospital e o registo dos actos praticados no sistema de informação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_1
+:na_c700.20.402_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Consultas subsequentes, teleconsultas e consultas domiciliárias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_2
+:na_c700.20.402_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Consultas de medicina do trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_3
+:na_c700.20.402_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Consultas externas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.402_4
+:na_c700.20.402_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " ".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.402
+:c700.20.402 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.402";
+	:titulo "Realização de consultas de especialidade";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :tipol_org_UPCS ;
+	:temDono :org_HH ;
+	:temDono :conj_org_SMT ;
+	:temNotaAplicacao :na_c700.20.402_1 ;
+	:temNotaAplicacao :na_c700.20.402_2 ;
+	:temNotaAplicacao :na_c700.20.402_3 ;
+	:temNotaAplicacao :na_c700.20.402_4 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.001 ;
+	:eCruzadoCom :c700.10.002 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.10.003 ;
+	:eCruzadoCom :c700.10.004 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eCruzadoCom :c700.20.404 ;
+	:eCruzadoCom :c700.20.405 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eCruzadoCom :c700.20.500 ;
+	:eCruzadoCom :c700.20.600 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1262 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Cuidados de saúde que envolvem diagnóstico, prescrição e monitorização da evolução da doença realizada por especialidade médica.Inicia-se com a referenciação do médico dos cuidados de saúde primários (no médico de família ou no médico assistente, fora do Serviço Nacional de Saúde -SNS) ou por solicitação de médico de uma outra especialidade hospitalar para uma unidade de referência e termina com a estabilização dos sintomas revelados mediante a frequência de consultas de especialidade.Inclui o registo dos atos praticados no sistema de informação.".
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.403
+:c700.20.403 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.403";
+	:titulo "Atendimentos urgentes";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :tipol_org_UPCS ;
+	:temDono :org_HH ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c400.10.036 ;
+	:eCruzadoCom :c400.10.037 ;
+	:eCruzadoCom :c400.10.038 ;
+	:eCruzadoCom :c400.10.039 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eSinteseDe :c700.20.001 ;
+	:eSinteseDe :c700.20.102 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.404 ;
+	:eSinteseDe :c700.20.406 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eCruzadoCom :c700.20.500 ;
+	:eCruzadoCom :c700.20.600 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1262 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Atendimento de episódios agudos de doença ou emergências.Inicia com o registo do doente no serviço de urgência e termina com a emissão de nota de alta ou transferência para internamento.  Inclui o registo dos actos praticados no sistema de informação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.404_1
+:na_c700.20.404_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Sessões de radioterapia".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.404_2
+:na_c700.20.404_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Sessões de psiquiatria".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.404_3
+:na_c700.20.404_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Sessões de Hematologia/ Imunohemoterapia".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.404_4
+:na_c700.20.404_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Cedência de medicação a utentes em ambulatório".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.404_1
+:ne_c700.20.404_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "As cirurgias em ambulatório devem ser consideradas em 700.20.401 – Realização de cirurgias de ambulatório".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.404
+:c700.20.404 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.404";
+	:titulo "Realização de cuidados de saúde de ambulatório médico";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :tipol_org_UPCS ;
+	:temDono :org_HH ;
+	:temNotaAplicacao :na_c700.20.404_1 ;
+	:temNotaAplicacao :na_c700.20.404_2 ;
+	:temNotaAplicacao :na_c700.20.404_3 ;
+	:temNotaAplicacao :na_c700.20.404_4 ;
+	:temNotaExclusao :ne_c700.20.404_1 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.001 ;
+	:eCruzadoCom :c700.10.002 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eCruzadoCom :c700.20.407 ;
+	:eCruzadoCom :c700.20.500 ;
+	:eCruzadoCom :c700.20.600 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1262 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Intervenção terapêutica em ambiente hospitalar.Inicia com o encaminhamento do utente para as sessões e termina com a alta, ou seja, com o fim do episódio de tratamento em hospital de dia, tendo sido realizadas todas as sessões de hospital de dia prescritas.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.406_2
+:na_c700.20.406_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Execução de atividades incluidas no Contrato-Programa".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.405
+:c700.20.405 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.405";
+	:titulo "Prestação de assistência médica no estrangeiro";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteApreciador :org_ACSS ;
+	:temParticipanteComunicador :org_ARS-N ;
+	:temParticipanteComunicador :org_ARS-C ;
+	:temParticipanteComunicador :org_ARS-LVT ;
+	:temParticipanteComunicador :org_ARS-Aln ;
+	:temParticipanteComunicador :org_ARS-Alg ;
+	:temDono :org_HH ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.402 ;
+	:temLegislacao :leg_128 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Cuidados de saúde hospitalares especializados prestados no estrangeiro que, por falta de meios técnicos ou humanos, não possam ser prestados em Portugal.Inicia com a assunção de que o país não dispõe de condições para tratar o doente e que o mesmo pode ser referenciado para outro país e termina com o regresso do utente ao país.Inclui os procedimentos específicos definidos na lei, nomeadamente, o relatório clínico, o parecer da Comissão de Assessoria Técnica e a decisão final da autoridade de saúde competente.  ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.406_1
+:na_c700.20.406_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Execução de programas verticais Hospitalares".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.406
+:c700.20.406 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.406";
+	:titulo "Apoio ao diagnóstico e terapêutica";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_ACSS ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
+	:temDono :org_HH ;
+	:temNotaAplicacao :na_c700.20.406_1 ;
+	:temNotaAplicacao :na_c700.20.406_2 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eSintetizadoPor :c700.20.300 ;
+	:eSintetizadoPor :c700.20.400 ;
+	:eSintetizadoPor :c700.20.403 ;
+	:temLegislacao :leg_767 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1262 ;
+	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
+	:descricao "Atividades que concorrem para o apoio à realização do diagnóstico, tratamento e acompanhamento de doenças no âmbito de Programas Verticais.Inicia com a inclusão do utente no programa e termina com a cessação da prestação de cuidados que lhe deu origem.Incluí todos os atos necessários ao tratamento.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.407_1
+:ne_c700.20.407_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os cuidados de reabilitação deve ser considerados em 700.20.500 – Prestação de cuidados de reabilitação".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.407
+:c700.20.407 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.407";
+	:titulo "Prestação de cuidados de convalescença";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
+	:temParticipanteApreciador :conj_org_ACES ;
+	:temParticipanteDecisor :org_ACSS ;
+	:temDono :tipol_org_UPCS ;
+	:temNotaExclusao :ne_c700.20.407_1 ;
+	:eCruzadoCom :c650.20.306 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.002 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eCruzadoCom :c700.20.404 ;
+	:temLegislacao :leg_520 ;
+	:temLegislacao :leg_1342 ;
+	:temLegislacao :leg_1307 ;
+	:temLegislacao :leg_1412 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1262 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Internamento para utentes com necessidade de cuidados clinicos de reabilitação, em unidades específica e por um período de tempo inferior a trinta (30) dias articulado com Hospital.Inicia com o tratamento e supervisão clínica, continuada e intensiva na sequência de internamento hospitalar e termina preferencialmente com a recuperação global do utente e nota de alta.Inclui o diagnóstico e todos os atos necessários ao tratamento.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.500_1
+:ne_c700.20.500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os cuidados de convalescença devem ser considerados em 700.20.407 – Prestação de cuidados de convalescença".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.500
+:c700.20.500 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.500";
+	:titulo "Prestação de cuidados de reabilitação";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
+	:temParticipanteApreciador :conj_org_ACES ;
+	:temParticipanteDecisor :org_ACSS ;
+	:temDono :tipol_org_UPCS ;
+	:temNotaExclusao :ne_c700.20.500_1 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.002 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eCruzadoCom :c700.20.404 ;
+	:temLegislacao :leg_520 ;
+	:temLegislacao :leg_1342 ;
+	:temLegislacao :leg_1307 ;
+	:temLegislacao :leg_1412 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1262 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Cuidados de saúde prestados a doentes em unidades de internamento de caracter temporário para prestar apoio social e cuidados de saúde de manutenção a pessoas que previnam ou retardem o agravamento da situação de dependência, favorecendo o conforto e a qualidade.Inicia com o internamento e termina com a alta e a recuperação global do utente.Inclui, o diagnóstico e definição das diferentes patologias, a identificação de deficiências e incapacidades existentes, a definição do prognóstico e avaliação do potencial de reabilitação, o planeamento e prescrição do tratamento.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.600_2
+:na_c700.20.600_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Situações de internamento nas unidades da rede de cuidados continuados integrados e abrange, sempre que for entendido necessário, o apoio domiciliário e o apoio à família".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.600_1
+:na_c700.20.600_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Situações de internamento nas unidades hospitalares específicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.600
+:c700.20.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.600";
+	:titulo "Prestação de cuidados paliativos";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteDecisor :org_ARS-N ;
+	:temParticipanteDecisor :org_ARS-C ;
+	:temParticipanteDecisor :org_ARS-LVT ;
+	:temParticipanteDecisor :org_ARS-Aln ;
+	:temParticipanteDecisor :org_ARS-Alg ;
+	:temParticipanteApreciador :conj_org_ACES ;
+	:temParticipanteDecisor :org_ACSS ;
+	:temDono :tipol_org_UPCS ;
+	:temNotaAplicacao :na_c700.20.600_1 ;
+	:temNotaAplicacao :na_c700.20.600_2 ;
+	:eCruzadoCom :c400.10.040 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSinteseDe :c700.10.002 ;
+	:eSintetizadoPor :c700.10.006 ;
+	:eCruzadoCom :c700.20.200 ;
+	:eCruzadoCom :c700.20.300 ;
+	:eCruzadoCom :c700.20.400 ;
+	:eCruzadoCom :c700.20.401 ;
+	:eCruzadoCom :c700.20.402 ;
+	:eCruzadoCom :c700.20.403 ;
+	:eCruzadoCom :c700.20.404 ;
+	:temLegislacao :leg_520 ;
+	:temLegislacao :leg_1307 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_1437 ;
+	:temLegislacao :leg_234 ;
+	:temLegislacao :leg_277 ;
+	:temLegislacao :leg_1262 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Prestação de cuidados de saúde especializados dirigidos a pessoas com doenças incuráveis em fase avançada e/ou terminal, com intenção de melhorar a qualidade de vida dos doentes e suas famílias através do alívio do sofrimento decorrente dos sintomas físicos, mas também de problemas psicológicos, sociais e espirituais.Inicia com a referenciação à unidade e termina quando a equipa finaliza o acompanhamento.Inclui o diagnóstico e todos os atos necessários ao tratamento.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_3
+:na_c700.20.700_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Vacinação de animais de exploração pecuária".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_1
+:na_c700.20.700_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Vacinação de animais em Centros de Recuperação de Animais Selvagens não abertos ao público".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_4
+:na_c700.20.700_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Vacinação de animais selvagens em cativeiro".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.700_2
+:na_c700.20.700_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Vacinação de animais domésticos ou de companhia".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.700
+:c700.20.700 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.700";
+	:titulo "Vacinação de animais";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :tipol_org_EDA ;
+	:temDono :conj_org_AL ;
+	:temDono :org_GNR ;
+	:temDono :org_PSP ;
+	:temNotaAplicacao :na_c700.20.700_1 ;
+	:temNotaAplicacao :na_c700.20.700_2 ;
+	:temNotaAplicacao :na_c700.20.700_3 ;
+	:temNotaAplicacao :na_c700.20.700_4 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.400 ;
+	:eSintetizadoPor :c400.10.402 ;
+	:eSuplementoPara :c500.10.301 ;
+	:temLegislacao :leg_1182 ;
+	:temLegislacao :leg_407 ;
+	:temLegislacao :leg_422 ;
+	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
+	:descricao "Cuidados de prevenção primária de saúde praticados em espécies animais ao longo da sua vida com o objetivo de imunização.Inicia com o pedido ou com a verificação da necessidade de vacina e termina com a administração da mesma.Inclui verificação das vacinas em falta ou necessárias e registo da vacina administrada.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.701_2
+:na_c700.20.701_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Recolha de animais com dono com suspeita de raiva ou com doença terminal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.701_1
+:na_c700.20.701_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Recolha de animais vadios com suspeita de raiva ou com doença terminal".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.701_1
+:ne_c700.20.701_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O abate ou occisão de animais devem ser considerados em 700.20.901 – Eutanásia de animais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c700.20.701_2
+:ne_c700.20.701_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A incineração ou outra forma adequada de destruição de cadáveres de animais devem ser consideradas em 710.10.002 – Recolha de resíduos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.701
+:c700.20.701 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.701";
+	:titulo "Sequestro sanitário de animais";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :tipol_org_EDA ;
+	:temDono :conj_org_AL ;
+	:temDono :org_GNR ;
+	:temDono :org_PSP ;
+	:temNotaAplicacao :na_c700.20.701_1 ;
+	:temNotaAplicacao :na_c700.20.701_2 ;
+	:temNotaExclusao :ne_c700.20.701_1 ;
+	:temNotaExclusao :ne_c700.20.701_2 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.400 ;
+	:eSintetizadoPor :c400.10.402 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c700.20.901 ;
+	:eCruzadoCom :c710.10.300 ;
+	:temLegislacao :leg_1422 ;
+	:temLegislacao :leg_1182 ;
+	:temLegislacao :leg_407 ;
+	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
+	:descricao "Aplicação compulsiva de medidas de caráter sanitário a animais suspeitos de serem portadores de zoonoses.Inicia com o pedido de sequestro e termina com a morte natural do animal ou com o envio para adoção, restituição ou eutanásia.Inclui notificação às entidades competentes e ao proprietário, recolha do animal, quarentena sob vigilância veterinária, elaboração de informação sobre o estado de saúde do animal, comprovativo do pagamento de taxas, quando devido, e articulação com o laboratório competente para isolamento do agente patogénico, em caso de morte do animal.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.800_2
+:na_c700.20.800_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Prestação de cuidados curativos a todas as espécies animais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.800_1
+:na_c700.20.800_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Implantação de micro-chips para identificação do animal".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.800_3
+:na_c700.20.800_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Recolha domiciliária de animais com doença terminal e respetivos abate e occisão".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.800
+:c700.20.800 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.800";
+	:titulo "Prestação de cuidados curativos veterinários";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :tipol_org_EDA ;
+	:temDono :conj_org_AL ;
+	:temDono :org_GNR ;
+	:temDono :org_PSP ;
+	:temNotaAplicacao :na_c700.20.800_1 ;
+	:temNotaAplicacao :na_c700.20.800_2 ;
+	:temNotaAplicacao :na_c700.20.800_3 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSintetizadoPor :c400.10.400 ;
+	:eSintetizadoPor :c400.10.402 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSucessorDe :c700.20.901 ;
+	:temLegislacao :leg_132 ;
+	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
+	:descricao "Cuidados de saúde animal praticados por veterinário.Inicia com a identificação da necessidade de intervenção e termina com a eliminação ou atenuação do problema.Inclui elaboração de diagnóstico, aplicação de fármacos, intervenção cirúrgica, registo de ato médico veterinário praticado e acompanhamento do animal.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.901_2
+:na_c700.20.901_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Eutanásia a animais externos enfermos, incuráveis e em sofrimento, que solicitem a intervenção de veterinário".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c700.20.901_1
+:na_c700.20.901_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Eutanásia a animais  alojados em canis e gatis".
+
+###  http://jcr.di.uminho.pt/m51-clav#c700.20.901
+:c700.20.901 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "700.20.901";
+	:titulo "Eutanásia de animais";
+	:temPai :c700.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :tipol_org_EDA ;
+	:temDono :conj_org_AL ;
+	:temDono :org_GNR ;
+	:temDono :org_PSP ;
+	:temNotaAplicacao :na_c700.20.901_1 ;
+	:temNotaAplicacao :na_c700.20.901_2 ;
+	:eSintetizadoPor :c150.20.300 ;
+	:eSucessorDe :c300.30.008 ;
+	:eSucessorDe :c400.10.400 ;
+	:eSucessorDe :c400.10.402 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eAntecessorDe :c700.20.701 ;
+	:eAntecessorDe :c700.20.800 ;
+	:temLegislacao :leg_1182 ;
+	:classeStatus "A" ;
+	:processoDimQual "Reduzida" ;
+	:processoUniform "S" ;
+	:descricao "Abreviamento da vida de um animal enfermo incurável em sofrimento, de maneira controlada e assistida, por um especialista.Inicia com a solicitação ou decisão de eutanásia e termina com a morte do animal.Inclui diagnóstico.".
+
+### Classes700 termina aqui.
+

@@ -1,0 +1,189 @@
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.10.001
+:df_c200.10.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.10.001 :temDF :df_c200.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.10.001
+:just_df_c200.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.10.001 :temJustificacao :just_df_c200.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.10.002.01
+:df_c200.10.002.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c200.10.002.01 :temDF :df_c200.10.002.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.10.002.01
+:just_df_c200.10.002.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.10.002.01 :temJustificacao :just_df_c200.10.002.01.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.10.200
+:df_c200.10.200 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.10.200 :temDF :df_c200.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.10.200
+:just_df_c200.10.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.10.200 :temJustificacao :just_df_c200.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.10.201
+:df_c200.10.201 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.10.201 :temDF :df_c200.10.201.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.10.201
+:just_df_c200.10.201 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.10.201 :temJustificacao :just_df_c200.10.201.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.10.300
+:df_c200.10.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c200.10.300 :temDF :df_c200.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.10.300
+:just_df_c200.10.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.10.300 :temJustificacao :just_df_c200.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.10.400
+:df_c200.10.400 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.10.400 :temDF :df_c200.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.10.400
+:just_df_c200.10.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.10.400 :temJustificacao :just_df_c200.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.10.501
+:df_c200.10.501 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.10.501 :temDF :df_c200.10.501.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.10.501
+:just_df_c200.10.501 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.10.501 :temJustificacao :just_df_c200.10.501.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.10.600
+:df_c200.10.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.10.600 :temDF :df_c200.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.10.600
+:just_df_c200.10.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.10.600 :temJustificacao :just_df_c200.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.10.700
+:df_c200.10.700 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.10.700 :temDF :df_c200.10.700.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.10.700
+:just_df_c200.10.700 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.10.700 :temJustificacao :just_df_c200.10.700.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.10.800
+:df_c200.10.800 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.10.800 :temDF :df_c200.10.800.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.10.800
+:just_df_c200.10.800 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.10.800 :temJustificacao :just_df_c200.10.800.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.20.001
+:df_c200.20.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c200.20.001 :temDF :df_c200.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.20.001
+:just_df_c200.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.20.001 :temJustificacao :just_df_c200.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.20.002
+:df_c200.20.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.20.002 :temDF :df_c200.20.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.20.002
+:just_df_c200.20.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.20.002 :temJustificacao :just_df_c200.20.002.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.20.500
+:df_c200.20.500 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.20.500 :temDF :df_c200.20.500.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.20.500
+:just_df_c200.20.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.20.500 :temJustificacao :just_df_c200.20.500.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.20.501
+:df_c200.20.501 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.20.501 :temDF :df_c200.20.501.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.20.501
+:just_df_c200.20.501 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.20.501 :temJustificacao :just_df_c200.20.501.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.20.502
+:df_c200.20.502 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.20.502 :temDF :df_c200.20.502.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.20.502
+:just_df_c200.20.502 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.20.502 :temJustificacao :just_df_c200.20.502.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.30.001.01
+:df_c200.30.001.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.30.001.01 :temDF :df_c200.30.001.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.30.001.01
+:just_df_c200.30.001.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.30.001.01 :temJustificacao :just_df_c200.30.001.01.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.30.300
+:df_c200.30.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.30.300 :temDF :df_c200.30.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.30.300
+:just_df_c200.30.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.30.300 :temJustificacao :just_df_c200.30.300.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.30.301
+:df_c200.30.301 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.30.301 :temDF :df_c200.30.301.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.30.301
+:just_df_c200.30.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.30.301 :temJustificacao :just_df_c200.30.301.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.30.302
+:df_c200.30.302 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c200.30.302 :temDF :df_c200.30.302.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.30.302
+:just_df_c200.30.302 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.30.302 :temJustificacao :just_df_c200.30.302.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.30.303
+:df_c200.30.303 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c200.30.303 :temDF :df_c200.30.303.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.30.303
+:just_df_c200.30.303 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.30.303 :temJustificacao :just_df_c200.30.303.
+###  http://jcr.di.uminho.pt/m51-clav#df_c200.30.600
+:df_c200.30.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c200.30.600 :temDF :df_c200.30.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c200.30.600
+:just_df_c200.30.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c200.30.600 :temJustificacao :just_df_c200.30.600.

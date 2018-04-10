@@ -1,0 +1,192 @@
+###  http://jcr.di.uminho.pt/m51-clav#df_c950.10.001
+:df_c950.10.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c950.10.001 :temDF :df_c950.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c950.10.001
+:just_df_c950.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c950.10.001 :temJustificacao :just_df_c950.10.001.
+:crit_just_df_c950.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação constante do PN 950.10.600 - Controlo de operações de votação nas assembleias e mesas de voto.".
+:just_df_c950.10.001 :temCriterio :crit_just_df_c950.10.001_1.
+:crit_just_df_c950.10.001_1 :temProcessoRelacionado :c950.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#df_c950.10.200.01
+:df_c950.10.200.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c950.10.200.01 :temDF :df_c950.10.200.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c950.10.200.01
+:just_df_c950.10.200.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c950.10.200.01 :temJustificacao :just_df_c950.10.200.01.
+:crit_just_df_c950.10.200.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada emPN 950.10.200.02 - Apreciação e admissão de candidaturas a atos eleitorais: apreciação e decisão de candidaturas.".
+:just_df_c950.10.200.01 :temCriterio :crit_just_df_c950.10.200.01_1.
+:crit_just_df_c950.10.200.01_1 :temProcessoRelacionado :c950.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#df_c950.10.201
+:df_c950.10.201 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c950.10.201 :temDF :df_c950.10.201.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c950.10.201
+:just_df_c950.10.201 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c950.10.201 :temJustificacao :just_df_c950.10.201.
+:crit_just_df_c950.10.201_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.A informação sobre as candidaturas rejeitadas apenas é recuperável neste PN.".
+:just_df_c950.10.201 :temCriterio :crit_just_df_c950.10.201_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c950.10.400
+:df_c950.10.400 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c950.10.400 :temDF :df_c950.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c950.10.400
+:just_df_c950.10.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c950.10.400 :temJustificacao :just_df_c950.10.400.
+:crit_just_df_c950.10.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente em:PN 150.20.300 - Avaliação de atividades (atuação da entidade)PN 950.10.602 - Apuramento geral de resultados eleitorais (nas atas do ato eleitoral).".
+:just_df_c950.10.400 :temCriterio :crit_just_df_c950.10.400_1.
+:crit_just_df_c950.10.400_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c950.10.400_1 :temProcessoRelacionado :c950.10.602.
+###  http://jcr.di.uminho.pt/m51-clav#df_c950.10.401
+:df_c950.10.401 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c950.10.401 :temDF :df_c950.10.401.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c950.10.401
+:just_df_c950.10.401 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c950.10.401 :temJustificacao :just_df_c950.10.401.
+:crit_just_df_c950.10.401_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 1/2001], artº 152, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal da comarca com jurisdição na sede do distrito ou Região autónoma procede à destruição de todos os documentos, com exceção das atas das assembleias de voto, da ata da assembleia de apuramento geral e de uma das cópias dos cadernos eleitorais\"[Lei 15-A/98], artº 161, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal procede à destruição de todos os documentos, com excepção das actas das assembleias de voto e das actas das assembleias de apuramento.Extensão destsa disposiçõeso aos demais atos eleitorais e referendários.".
+:just_df_c950.10.401 :temCriterio :crit_just_df_c950.10.401_1.
+:crit_just_df_c950.10.401_1 :temLegislacao :leg_339.
+:crit_just_df_c950.10.401_1 :temLegislacao :leg_228.
+###  http://jcr.di.uminho.pt/m51-clav#df_c950.10.402
+:df_c950.10.402 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c950.10.402 :temDF :df_c950.10.402.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c950.10.402
+:just_df_c950.10.402 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c950.10.402 :temJustificacao :just_df_c950.10.402.
+:crit_just_df_c950.10.402_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 1/2001], artº 152, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal da comarca com jurisdição na sede do distrito ou Região autónoma procede à destruição de todos os documentos, com exceção das atas das assembleias de voto, da ata da assembleia de apuramento geral e de uma das cópias dos cadernos eleitorais\"[Lei 15-A/98], artº 161, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal procede à destruição de todos os documentos, com excepção das actas das assembleias de voto e das actas das assembleias de apuramento.Extensão destas disposições aos demais atos eleitorais e referendários.".
+:just_df_c950.10.402 :temCriterio :crit_just_df_c950.10.402_1.
+:crit_just_df_c950.10.402_1 :temLegislacao :leg_339.
+:crit_just_df_c950.10.402_1 :temLegislacao :leg_228.
+###  http://jcr.di.uminho.pt/m51-clav#df_c950.10.600.01
+:df_c950.10.600.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c950.10.600.01 :temDF :df_c950.10.600.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c950.10.600.01
+:just_df_c950.10.600.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c950.10.600.01 :temJustificacao :just_df_c950.10.600.01.
+:crit_just_df_c950.10.600.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 1/2001], artº 152, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal da comarca com jurisdição na sede do distrito ou Região autónoma procede à destruição de todos os documentos, com exceção das atas das assembleias de voto, da ata da assembleia de apuramento geral e de uma das cópias dos cadernos eleitorais\"[Lei 15-A/98], artº 161, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal procede à destruição de todos os documentos, com excepção das actas das assembleias de voto e das actas das assembleias de apuramento.Extensão destas disposições aos demais atos eleitorais e referendários.".
+:just_df_c950.10.600.01 :temCriterio :crit_just_df_c950.10.600.01_1.
+:crit_just_df_c950.10.600.01_1 :temLegislacao :leg_339.
+:crit_just_df_c950.10.600.01_1 :temLegislacao :leg_228.
+###  http://jcr.di.uminho.pt/m51-clav#df_c950.10.601
+:df_c950.10.601 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c950.10.601 :temDF :df_c950.10.601.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c950.10.601
+:just_df_c950.10.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c950.10.601 :temJustificacao :just_df_c950.10.601.
+:crit_just_df_c950.10.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 1/2001], artº 152, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal da comarca com jurisdição na sede do distrito ou Região autónoma procede à destruição de todos os documentos, com exceção das atas das assembleias de voto, da ata da assembleia de apuramento geral e de uma das cópias dos cadernos eleitorais\"[Lei 15-A/98], artº 161, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal procede à destruição de todos os documentos, com excepção das actas das assembleias de voto e das actas das assembleias de apuramento\".Extensão destas disposições aos demais atos eleitorais e referendários.".
+:just_df_c950.10.601 :temCriterio :crit_just_df_c950.10.601_1.
+:crit_just_df_c950.10.601_1 :temLegislacao :leg_339.
+:crit_just_df_c950.10.601_1 :temLegislacao :leg_228.
+###  http://jcr.di.uminho.pt/m51-clav#df_c950.10.602.01
+:df_c950.10.602.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c950.10.602.01 :temDF :df_c950.10.602.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c950.10.602.01
+:just_df_c950.10.602.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c950.10.602.01 :temJustificacao :just_df_c950.10.602.01.
+:crit_just_df_c950.10.602.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 1/2001], artº 152, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal da comarca com jurisdição na sede do distrito ou Região autónoma procede à destruição de todos os documentos, com exceção das atas das assembleias de voto, da ata da assembleia de apuramento geral e de uma das cópias dos cadernos eleitorais\"[Lei 15-A/98], artº 161, nº 2 \"Terminado o prazo de recurso contencioso ou decididos os recursos que tenham sido apresentados, o tribunal procede à destruição de todos os documentos, com excepção das actas das assembleias de voto e das actas das assembleias de apuramento.Extensão destas disposições aos demais atos eleitorais e referendários.".
+:just_df_c950.10.602.01 :temCriterio :crit_just_df_c950.10.602.01_1.
+:crit_just_df_c950.10.602.01_1 :temLegislacao :leg_339.
+:crit_just_df_c950.10.602.01_1 :temLegislacao :leg_228.
+###  http://jcr.di.uminho.pt/m51-clav#df_c950.20.001
+:df_c950.20.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c950.20.001 :temDF :df_c950.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c950.20.001
+:just_df_c950.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c950.20.001 :temJustificacao :just_df_c950.20.001.
+:crit_just_df_c950.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente em:PN 150.20.300 - Avaliação de atividades (atuação da entidade)PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestãoPN 300.30.008 - Registo de documentos (casos tratados)".
+:just_df_c950.20.001 :temCriterio :crit_just_df_c950.20.001_1.
+:crit_just_df_c950.20.001_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c950.20.001_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c950.20.001_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c950.20.300
+:df_c950.20.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c950.20.300 :temDF :df_c950.20.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c950.20.300
+:just_df_c950.20.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c950.20.300 :temJustificacao :just_df_c950.20.300.
+:crit_just_df_c950.20.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente em:PN 150.20.300 - Avaliação de atividades (atuação da entidade)150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestãoPN 300.30.008 - Registo de documentos (casos tratados)".
+:just_df_c950.20.300 :temCriterio :crit_just_df_c950.20.300_1.
+:crit_just_df_c950.20.300_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c950.20.300_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c950.20.300_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c950.20.600
+:df_c950.20.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c950.20.600 :temDF :df_c950.20.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c950.20.600
+:just_df_c950.20.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c950.20.600 :temJustificacao :just_df_c950.20.600.
+:crit_just_df_c950.20.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente em:PN 150.20.300 - Avaliação de atividades (atuação da entidade)150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestãoPN 300.30.008 - Registo de documentos (casos tratados)".
+:just_df_c950.20.600 :temCriterio :crit_just_df_c950.20.600_1.
+:crit_just_df_c950.20.600_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c950.20.600_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c950.20.600_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c950.30.001
+:df_c950.30.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c950.30.001 :temDF :df_c950.30.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c950.30.001
+:just_df_c950.30.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c950.30.001 :temJustificacao :just_df_c950.30.001.
+:crit_just_df_c950.30.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Inexistência de relação pertinente  entre PN de modo a permitir a recuperação de informação necessária às condições para reconhecimento de mérito.".
+:just_df_c950.30.001 :temCriterio :crit_just_df_c950.30.001_1.

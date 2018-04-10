@@ -1,0 +1,359 @@
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.10.001.01
+:pca_c500.10.001.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c500.10.001.01 :temPCA :pca_c500.10.001.01.
+:pca_c500.10.001.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.10.001.01
+:just_pca_c500.10.001.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.10.001.01 :temJustificacao :just_pca_c500.10.001.01.
+:crit_just_pca_c500.10.001.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 98/97], artº 70 - Prazo prescricional  da responsabilidade financeira reintegratória.Nota: A prescrição do procedimento interrompe-se com a citação do demandado em processo judicial.".
+:just_pca_c500.10.001.01 :temCriterio :crit_just_pca_c500.10.001.01_1.
+:crit_just_pca_c500.10.001.01_1 :temLegislacao :leg_203.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.10.002
+:pca_c500.10.002 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c500.10.002 :temPCA :pca_c500.10.002.
+:pca_c500.10.002 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.10.002
+:just_pca_c500.10.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.10.002 :temJustificacao :just_pca_c500.10.002.
+:crit_just_pca_c500.10.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 98/97], artº 70 - Prazo prescricional  da responsabilidade financeira sancionatória.Nota: A prescrição do procedimento interrompe-se com a citação do demandado em processo judicial.".
+:just_pca_c500.10.002 :temCriterio :crit_just_pca_c500.10.002_1.
+:crit_just_pca_c500.10.002_1 :temLegislacao :leg_203.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.10.300.01
+:pca_c500.10.300.01 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c500.10.300.01 :temPCA :pca_c500.10.300.01.
+:pca_c500.10.300.01 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.10.300.01
+:just_pca_c500.10.300.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.10.300.01 :temJustificacao :just_pca_c500.10.300.01.
+:crit_just_pca_c500.10.300.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 98/97], artº 70 - Prazo prescricional  da responsabilidade financeira reintegratória.Nota: A prescrição do procedimento interrompe-se com a citação do demandado em processo jurisdicional.Aplica-se complementarmente para os processos tributários - Critério legal - [DL 433/99], artº 27, nº 2.".
+:just_pca_c500.10.300.01 :temCriterio :crit_just_pca_c500.10.300.01_1.
+:crit_just_pca_c500.10.300.01_1 :temLegislacao :leg_203.
+:crit_just_pca_c500.10.300.01_1 :temLegislacao :leg_263.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.10.301
+:pca_c500.10.301 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c500.10.301 :temPCA :pca_c500.10.301.
+:pca_c500.10.301 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.10.301
+:just_pca_c500.10.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.10.301 :temJustificacao :just_pca_c500.10.301.
+:crit_just_pca_c500.10.301_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 98/97], artº 70 - Prazo prescricional  da responsabilidade financeira reintegratória.Nota: A prescrição do procedimento interrompe-se com a citação do demandado em processo jurisdicional.Aplica-se complementarmente para os processos tributários - Critério legal - [DL 433/99], artº 27, nº 2.Critério legal: [DL 433/99], CPPT, art 27º, n.º 2 \"Os arquivos [procedimentos administrativos e processos judiciais tributários instaurados] são obrigatoriamente mantidos durante 10 anos(...)\".".
+:just_pca_c500.10.301 :temCriterio :crit_just_pca_c500.10.301_1.
+:crit_just_pca_c500.10.301_1 :temLegislacao :leg_203.
+:crit_just_pca_c500.10.301_1 :temLegislacao :leg_263.
+:crit_just_pca_c500.10.301_1 :temLegislacao :leg_263.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.10.302
+:pca_c500.10.302 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c500.10.302 :temPCA :pca_c500.10.302.
+:pca_c500.10.302 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.10.302
+:just_pca_c500.10.302 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.10.302 :temJustificacao :just_pca_c500.10.302.
+:crit_just_pca_c500.10.302_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27;[Lei 50/2006] - Lei quadro das contraordenações ambientais, artº 40).Nota: As occorrências que revelem inconformidades ou ilicitos são objeto de sanção administrativa ou de encaminhamento para investigação criminal, sendo suspensa a contagem do Prazo de conservação administrativa.".
+:just_pca_c500.10.302 :temCriterio :crit_just_pca_c500.10.302_1.
+:crit_just_pca_c500.10.302_1 :temLegislacao :leg_47.
+:crit_just_pca_c500.10.302_1 :temLegislacao :leg_553.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.10.600
+:pca_c500.10.600 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c500.10.600 :temPCA :pca_c500.10.600.
+:pca_c500.10.600 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.10.600
+:just_pca_c500.10.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.10.600 :temJustificacao :just_pca_c500.10.600.
+:crit_just_pca_c500.10.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27;[Lei 50/2006] - Lei quadro das contraordenações ambientais, artº 40).Nota: As occorrências que revelem inconformidades ou ilicitos são objeto de sanção administrativa ou de encaminhamento para investigação criminal, sendo suspensa a contagem do prazo de conservação administrativa.".
+:just_pca_c500.10.600 :temCriterio :crit_just_pca_c500.10.600_1.
+:crit_just_pca_c500.10.600_1 :temLegislacao :leg_47.
+:crit_just_pca_c500.10.600_1 :temLegislacao :leg_553.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.20.001
+:pca_c500.20.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1.
+:c500.20.001 :temPCA :pca_c500.20.001.
+:pca_c500.20.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.20.001
+:just_pca_c500.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.20.001 :temJustificacao :just_pca_c500.20.001.
+:crit_just_pca_c500.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 35/2014], artº 232\"5 - O procedimento de averiguações prescreve decorridos três meses, contados da data em que foi instaurado quando, nesse prazo, não tenha tido lugar a receção do relatório final pela entidade competente.6 - Quando, no processo de averiguações, sejam detetados indícios de violação de outros deveres funcionais por parte de quaisquer intervenientes nos processos de avaliação do desempenho, o instrutor participa-os ao dirigente máximo do órgão ou serviço, para efeitos de eventual instauração do correspondente procedimento de inquérito ou disciplinar.\"Se houver matéria de facto dá origem a procedimento disciplinar.".
+:just_pca_c500.20.001 :temCriterio :crit_just_pca_c500.20.001_1.
+:crit_just_pca_c500.20.001_1 :temLegislacao :leg_1269.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.20.002
+:pca_c500.20.002 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1.
+:c500.20.002 :temPCA :pca_c500.20.002.
+:pca_c500.20.002 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.20.002
+:just_pca_c500.20.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.20.002 :temJustificacao :just_pca_c500.20.002.
+:crit_just_pca_c500.20.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 35/2014], artº 231Relatório e trâmites ulteriores\"1 - Concluída a instrução, o inquiridor ou sindicante elabora, no prazo de 10 dias, o seu relatório, que remete imediatamente à entidade que mandou instaurar o procedimento.\"Se houver matéria de facto dá origem a procedimento disciplinar.".
+:just_pca_c500.20.002 :temCriterio :crit_just_pca_c500.20.002_1.
+:crit_just_pca_c500.20.002_1 :temLegislacao :leg_1269.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.20.003
+:pca_c500.20.003 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c500.20.003 :temPCA :pca_c500.20.003.
+:pca_c500.20.003 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.20.003
+:just_pca_c500.20.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.20.003 :temJustificacao :just_pca_c500.20.003.
+:crit_just_pca_c500.20.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27;[Lei 50/2006] - Lei quadro das contraordenações ambientais, artº 40).Nota: As occorrências que revelem inconformidades ou ilicitos são objeto de sanção administrativa ou de encaminhamento para investigação criminal, sendo suspensa a contagem do Prazo de conservação administrativa.".
+:just_pca_c500.20.003 :temCriterio :crit_just_pca_c500.20.003_1.
+:crit_just_pca_c500.20.003_1 :temLegislacao :leg_47.
+:crit_just_pca_c500.20.003_1 :temLegislacao :leg_553.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.20.300
+:pca_c500.20.300 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c500.20.300 :temPCA :pca_c500.20.300.
+:pca_c500.20.300 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.20.300
+:just_pca_c500.20.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.20.300 :temJustificacao :just_pca_c500.20.300.
+:crit_just_pca_c500.20.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 35/2014], Lei Geral do Trabalho em Funções Públicas, artº 235 - Requisitos da revisão1 - A revisão do procedimento disciplinar é admitida, a todo o tempo, quando se verifiquem circunstâncias ou meios de prova suscetíveis de demonstrar a inexistência dos factos que determinaram a condenação, desde que não pudessem ter sido utilizados pelo trabalhador no procedimento disciplinar.Conjugado com o critério de utilidade administrativa em que se estabeleceu 55 anos como prazo máximo de vida ativa do trabalhador.".
+:just_pca_c500.20.300 :temCriterio :crit_just_pca_c500.20.300_1.
+:crit_just_pca_c500.20.300_1 :temLegislacao :leg_1269.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.20.600
+:pca_c500.20.600 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 1.
+:c500.20.600 :temPCA :pca_c500.20.600.
+:pca_c500.20.600 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.20.600
+:just_pca_c500.20.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.20.600 :temJustificacao :just_pca_c500.20.600.
+:crit_just_pca_c500.20.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 35/2014], artº 240 - \"4 - A reabilitação faz cessar as incapacidades e demais efeitos da condenação ainda subsistentes, sendo registada no processo individual do trabalhador.\"".
+:just_pca_c500.20.600 :temCriterio :crit_just_pca_c500.20.600_1.
+:crit_just_pca_c500.20.600_1 :temLegislacao :leg_1269.
+:crit_just_pca_c500.20.600_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "- Prazo para registo no PN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_pca_c500.20.600 :temCriterio :crit_just_pca_c500.20.600_2.
+:crit_just_pca_c500.20.600_2 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.30.001
+:pca_c500.30.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c500.30.001 :temPCA :pca_c500.30.001.
+:pca_c500.30.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.30.001
+:just_pca_c500.30.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.30.001 :temJustificacao :just_pca_c500.30.001.
+:crit_just_pca_c500.30.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27;[Lei 50/2006] - Lei quadro das contraordenações ambientais, artº 40).Nota: As ocorrências que revelem inconformidades ou ilícitos são objeto de sanção administrativa ou de encaminhamento para investigação criminal, sendo suspensa a contagem do prazo de conservação administrativa.".
+:just_pca_c500.30.001 :temCriterio :crit_just_pca_c500.30.001_1.
+:crit_just_pca_c500.30.001_1 :temLegislacao :leg_47.
+:crit_just_pca_c500.30.001_1 :temLegislacao :leg_553.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.30.002
+:pca_c500.30.002 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c500.30.002 :temPCA :pca_c500.30.002.
+:pca_c500.30.002 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.30.002
+:just_pca_c500.30.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.30.002 :temJustificacao :just_pca_c500.30.002.
+:crit_just_pca_c500.30.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27;[Lei 50/2006] - Lei quadro das contraordenações ambientais, artº 40).Nota: As ocorrências que revelem inconformidades ou ilícitos são objeto de sanção administrativa ou de encaminhamento para investigação criminal, sendo suspensa a contagem do prazo de conservação administrativa.".
+:just_pca_c500.30.002 :temCriterio :crit_just_pca_c500.30.002_1.
+:crit_just_pca_c500.30.002_1 :temLegislacao :leg_47.
+:crit_just_pca_c500.30.002_1 :temLegislacao :leg_553.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.30.003
+:pca_c500.30.003 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c500.30.003 :temPCA :pca_c500.30.003.
+:pca_c500.30.003 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.30.003
+:just_pca_c500.30.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.30.003 :temJustificacao :just_pca_c500.30.003.
+:crit_just_pca_c500.30.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 109/2001], artº único, que altera o [DL 433/82].Considerou-se o prazo maior para a prescrição da contraordenação.".
+:just_pca_c500.30.003 :temCriterio :crit_just_pca_c500.30.003_1.
+:crit_just_pca_c500.30.003_1 :temLegislacao :leg_348.
+:crit_just_pca_c500.30.003_1 :temLegislacao :leg_47.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.30.004
+:pca_c500.30.004 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 55.
+:c500.30.004 :temPCA :pca_c500.30.004.
+:pca_c500.30.004 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.30.004
+:just_pca_c500.30.004 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.30.004 :temJustificacao :just_pca_c500.30.004.
+:crit_just_pca_c500.30.004_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 35/2014], Lei Geral do Trabalho em Funções Públicas, artº 235 - Requisitos da revisão1 - A revisão do procedimento disciplinar é admitida, a todo o tempo, quando se verifiquem circunstâncias ou meios de prova suscetíveis de demonstrar a inexistência dos factos que determinaram a condenação, desde que não pudessem ter sido utilizados pelo trabalhador no procedimento disciplinar.Conjugado com o critério de utilidade administrativa em que se estabeleceu 55 anos como prazo máximo de vida ativa do trabalhador.".
+:just_pca_c500.30.004 :temCriterio :crit_just_pca_c500.30.004_1.
+:crit_just_pca_c500.30.004_1 :temLegislacao :leg_1269.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.30.005
+:pca_c500.30.005 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c500.30.005 :temPCA :pca_c500.30.005.
+:pca_c500.30.005 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.30.005
+:just_pca_c500.30.005 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.30.005 :temJustificacao :just_pca_c500.30.005.
+:crit_just_pca_c500.30.005_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 23/2007], artº 144, Prazo de interdição de entrada \"Ao cidadão estrangeiro sujeito a decisão de afastamento é vedada a entrada em território nacional por período até cinco anos (...)\".".
+:just_pca_c500.30.005 :temCriterio :crit_just_pca_c500.30.005_1.
+:crit_just_pca_c500.30.005_1 :temLegislacao :leg_619.
+:crit_just_pca_c500.30.005_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Necessidade para controlo de fronteira e controlo de medidas de interdição de entrada (a sua violação é criminalizada, prescrevendo a prática deste crime ao fim de cinco anos) PN 550.10.008 - Controlo de fronteiras;Necessidade para apreciação de pedidos de visto PN 550.10.301 - Emissão de vistos;Necessidade para processamento de autorização de residência PN 550.10.303 - Autorização de residência.".
+:just_pca_c500.30.005 :temCriterio :crit_just_pca_c500.30.005_2.
+:crit_just_pca_c500.30.005_2 :temProcessoRelacionado :c550.10.008.
+:crit_just_pca_c500.30.005_2 :temProcessoRelacionado :c550.10.301.
+:crit_just_pca_c500.30.005_2 :temProcessoRelacionado :c550.10.303.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.30.006
+:pca_c500.30.006 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c500.30.006 :temPCA :pca_c500.30.006.
+:pca_c500.30.006 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.30.006
+:just_pca_c500.30.006 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.30.006 :temJustificacao :just_pca_c500.30.006.
+:crit_just_pca_c500.30.006_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 23/2007], artº 144, Prazo de interdição de entrada \"Ao cidadão estrangeiro sujeito a decisão de afastamento é vedada a entrada em território nacional por período até cinco anos (...)\".".
+:just_pca_c500.30.006 :temCriterio :crit_just_pca_c500.30.006_1.
+:crit_just_pca_c500.30.006_1 :temLegislacao :leg_619.
+:crit_just_pca_c500.30.006_2 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoUtilidadeAdministrativa;
+	:conteudo "Necessidade para controlo de fronteira e controlo de medidas de interdição de entrada (a sua violação é criminalizada, prescrevendo a prática deste crime ao fim de cinco anos) PN 550.10.008 - Controlo de fronteiras;Necessidade para apreciação de pedidos de visto PN 550.10.301 - Emissão de vistos;Necessidade para processamento de autorização de residência PN 550.10.303 - Autorização de residência.".
+:just_pca_c500.30.006 :temCriterio :crit_just_pca_c500.30.006_2.
+:crit_just_pca_c500.30.006_2 :temProcessoRelacionado :c550.10.008.
+:crit_just_pca_c500.30.006_2 :temProcessoRelacionado :c550.10.301.
+:crit_just_pca_c500.30.006_2 :temProcessoRelacionado :c550.10.303.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.30.007
+:pca_c500.30.007 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c500.30.007 :temPCA :pca_c500.30.007.
+:pca_c500.30.007 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.30.007
+:just_pca_c500.30.007 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.30.007 :temJustificacao :just_pca_c500.30.007.
+:crit_just_pca_c500.30.007_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 23/2007], artº 144, Prazo de interdição de entrada \"Ao cidadão estrangeiro sujeito a decisão de afastamento é vedada a entrada em território nacional por período até cinco anos (...)\"Necessidade para controlo de fronteira e controlo de medidas de interdição de entrada  (a sua violação é criminalizada, prescrevendo a prática deste crime ao fim de cinco anos), relevante também para apreciação de eventuais pedidos de visto ou autorização de residência.".
+:just_pca_c500.30.007 :temCriterio :crit_just_pca_c500.30.007_1.
+:crit_just_pca_c500.30.007_1 :temLegislacao :leg_619.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.30.500
+:pca_c500.30.500 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c500.30.500 :temPCA :pca_c500.30.500.
+:pca_c500.30.500 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.30.500
+:just_pca_c500.30.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.30.500 :temJustificacao :just_pca_c500.30.500.
+:crit_just_pca_c500.30.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 109/2001], artº único, que altera o [DL 433/82].Considerou-se o prazo maior para a prescrição da contraordenação.".
+:just_pca_c500.30.500 :temCriterio :crit_just_pca_c500.30.500_1.
+:crit_just_pca_c500.30.500_1 :temLegislacao :leg_348.
+:crit_just_pca_c500.30.500_1 :temLegislacao :leg_47.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.40.001
+:pca_c500.40.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c500.40.001 :temPCA :pca_c500.40.001.
+:pca_c500.40.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.40.001
+:just_pca_c500.40.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.40.001 :temJustificacao :just_pca_c500.40.001.
+:crit_just_pca_c500.40.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 98/97, artº 70]Prazo prescricional  da responsabilidade financeira reintegratória.Nota: O prazo de conservação adminsitrativa suspende-se, caso existam processos contenciosos subsequentes, até à data de trânsito em julgado.Aplica-se complementarmente para os processos tributários o [DL 433/99], artº 27, nº 2.".
+:just_pca_c500.40.001 :temCriterio :crit_just_pca_c500.40.001_1.
+:crit_just_pca_c500.40.001_1 :temLegislacao :leg_263.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.40.500
+:pca_c500.40.500 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c500.40.500 :temPCA :pca_c500.40.500.
+:pca_c500.40.500 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.40.500
+:just_pca_c500.40.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.40.500 :temJustificacao :just_pca_c500.40.500.
+:crit_just_pca_c500.40.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 98/97, artº 70] - Prazo prescricional  da responsabilidade financeira reintegratória.Nota: O prazo de conservação adminsitrativa suspende-se, caso existam processos contenciosos subsequentes, até à data de trânsito em julgado.Aplica-se complementarmente para os processos tributários o [DL 433/99], artº 27, nº 2.".
+:just_pca_c500.40.500 :temCriterio :crit_just_pca_c500.40.500_1.
+:crit_just_pca_c500.40.500_1 :temLegislacao :leg_263.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c500.40.501
+:pca_c500.40.501 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 10.
+:c500.40.501 :temPCA :pca_c500.40.501.
+:pca_c500.40.501 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c500.40.501
+:just_pca_c500.40.501 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c500.40.501 :temJustificacao :just_pca_c500.40.501.
+:crit_just_pca_c500.40.501_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 98/97, artº 70]Prazo prescricional  da responsabilidade financeira reintegratória.Nota: O prazo de conservação adminsitrativa suspende-se, caso existam processos contenciosos subsequentes, até à data de trânsito em julgado.Aplica-se complementarmente para os processos tributários o [DL 433/99], artº 27, nº 2.".
+:just_pca_c500.40.501 :temCriterio :crit_just_pca_c500.40.501_1.
+:crit_just_pca_c500.40.501_1 :temLegislacao :leg_263.

@@ -1,0 +1,237 @@
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.10.001.01
+:df_c750.10.001.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c750.10.001.01 :temDF :df_c750.10.001.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.10.001.01
+:just_df_c750.10.001.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.10.001.01 :temJustificacao :just_df_c750.10.001.01.
+:crit_just_df_c750.10.001.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável noPN  750.10.001.02- Seleção e seriação para ingresso no ensino ou formação: seriação;E sintetizada noPN  150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão.".
+:just_df_c750.10.001.01 :temCriterio :crit_just_df_c750.10.001.01_1.
+:crit_just_df_c750.10.001.01_1 :temProcessoRelacionado :c750.10.001.
+:crit_just_df_c750.10.001.01_1 :temProcessoRelacionado :c150.40.500.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.10.002
+:df_c750.10.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c750.10.002 :temDF :df_c750.10.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.10.002
+:just_df_c750.10.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.10.002 :temJustificacao :just_df_c750.10.002.
+:crit_just_df_c750.10.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável nosPN 750.10.300 - Processamento de dados cadastrais de alunos ou formandos;PN 750.20.600 - Realização de atividades de ensino ou formação.".
+:just_df_c750.10.002 :temCriterio :crit_just_df_c750.10.002_1.
+:crit_just_df_c750.10.002_1 :temProcessoRelacionado :c750.10.300.
+:crit_just_df_c750.10.002_1 :temProcessoRelacionado :c750.20.600.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.10.300
+:df_c750.10.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c750.10.300 :temDF :df_c750.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.10.300
+:just_df_c750.10.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.10.300 :temJustificacao :just_df_c750.10.300.
+:crit_just_df_c750.10.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "O PN contém informação quantitativa e qualitativa de síntese de outros processos.".
+:just_df_c750.10.300 :temCriterio :crit_just_df_c750.10.300_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.10.600.01
+:df_c750.10.600.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c750.10.600.01 :temDF :df_c750.10.600.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.10.600.01
+:just_df_c750.10.600.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.10.600.01 :temJustificacao :just_df_c750.10.600.01.
+:crit_just_df_c750.10.600.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável noPN 750.10.300 - Processamento dos dados cadastrais de alunos ou formandos".
+:just_df_c750.10.600.01 :temCriterio :crit_just_df_c750.10.600.01_1.
+:crit_just_df_c750.10.600.01_1 :temProcessoRelacionado :c750.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.10.601
+:df_c750.10.601 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c750.10.601 :temDF :df_c750.10.601.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.10.601
+:just_df_c750.10.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.10.601 :temJustificacao :just_df_c750.10.601.
+:crit_just_df_c750.10.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação de síntese recuperável noPN 750.30.601 - Processamento e comunicação dos resultadosde avaliação.".
+:just_df_c750.10.601 :temCriterio :crit_just_df_c750.10.601_1.
+:crit_just_df_c750.10.601_1 :temProcessoRelacionado :c750.30.601.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.10.602
+:df_c750.10.602 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c750.10.602 :temDF :df_c750.10.602.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.10.602
+:just_df_c750.10.602 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.10.602 :temJustificacao :just_df_c750.10.602.
+:crit_just_df_c750.10.602_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável noPN 750.10.300 - Processamento dos dados cadastrais de alunos ou formandos".
+:just_df_c750.10.602 :temCriterio :crit_just_df_c750.10.602_1.
+:crit_just_df_c750.10.602_1 :temProcessoRelacionado :c750.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.20.001
+:df_c750.20.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c750.20.001 :temDF :df_c750.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.20.001
+:just_df_c750.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.20.001 :temJustificacao :just_df_c750.20.001.
+:crit_just_df_c750.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar dePN 450.10.651 - Acreditação de ciclos de estudos ".
+:just_df_c750.20.001 :temCriterio :crit_just_df_c750.20.001_1.
+:crit_just_df_c750.20.001_1 :eComplementarDe :c450.10.651.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.20.002.01
+:df_c750.20.002.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c750.20.002.01 :temDF :df_c750.20.002.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.20.002.01
+:just_df_c750.20.002.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.20.002.01 :temJustificacao :just_df_c750.20.002.01.
+:crit_just_df_c750.20.002.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada emPN 750.20.002.02 - Conceção, revisão e extinção de planos de ações de formação: aprovação;PN 150.20.300 - Avaliação de atividades;Ou, em caso específico noPN 750.30.601 - Processamento e comunicação de resultados de avaliação.".
+:just_df_c750.20.002.01 :temCriterio :crit_just_df_c750.20.002.01_1.
+:crit_just_df_c750.20.002.01_1 :temProcessoRelacionado :c750.20.002.
+:crit_just_df_c750.20.002.01_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c750.20.002.01_1 :temProcessoRelacionado :c750.30.601.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.20.300
+:df_c750.20.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c750.20.300 :temDF :df_c750.20.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.20.300
+:just_df_c750.20.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.20.300 :temJustificacao :just_df_c750.20.300.
+:crit_just_df_c750.20.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN".
+:just_df_c750.20.300 :temCriterio :crit_just_df_c750.20.300_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.20.301
+:df_c750.20.301 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c750.20.301 :temDF :df_c750.20.301.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.20.301
+:just_df_c750.20.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.20.301 :temJustificacao :just_df_c750.20.301.
+:crit_just_df_c750.20.301_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN".
+:just_df_c750.20.301 :temCriterio :crit_just_df_c750.20.301_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.20.600
+:df_c750.20.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c750.20.600 :temDF :df_c750.20.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.20.600
+:just_df_c750.20.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.20.600 :temJustificacao :just_df_c750.20.600.
+:crit_just_df_c750.20.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "A informação encontra-se  sintetizada nosPN 750.10.300 - Processamento dos dados cadastrais de alunos ou formandos;PN 750.30.601 - Processamento e comunicação de resultados de avaliação;PN 750.20.301 - Distribuição de atividades de ensino ou formação.".
+:just_df_c750.20.600 :temCriterio :crit_just_df_c750.20.600_1.
+:crit_just_df_c750.20.600_1 :temProcessoRelacionado :c750.10.300.
+:crit_just_df_c750.20.600_1 :temProcessoRelacionado :c750.30.601.
+:crit_just_df_c750.20.600_1 :temProcessoRelacionado :c750.20.301.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.20.601
+:df_c750.20.601 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c750.20.601 :temDF :df_c750.20.601.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.20.601
+:just_df_c750.20.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.20.601 :temJustificacao :just_df_c750.20.601.
+:crit_just_df_c750.20.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada noPN 150.20.300 - Avaliação de atividade;Ou, em caso específico noPN 750.30.601 - Processamento e comunicação de resultados de avaliação.".
+:just_df_c750.20.601 :temCriterio :crit_just_df_c750.20.601_1.
+:crit_just_df_c750.20.601_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c750.20.601_1 :temProcessoRelacionado :c750.30.601.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.30.001
+:df_c750.30.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c750.30.001 :temDF :df_c750.30.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.30.001
+:just_df_c750.30.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.30.001 :temJustificacao :just_df_c750.30.001.
+:crit_just_df_c750.30.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação qualitativa não recuperável noutro PN".
+:just_df_c750.30.001 :temCriterio :crit_just_df_c750.30.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.30.300
+:df_c750.30.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c750.30.300 :temDF :df_c750.30.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.30.300
+:just_df_c750.30.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.30.300 :temJustificacao :just_df_c750.30.300.
+:crit_just_df_c750.30.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN".
+:just_df_c750.30.300 :temCriterio :crit_just_df_c750.30.300_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.30.600
+:df_c750.30.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c750.30.600 :temDF :df_c750.30.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.30.600
+:just_df_c750.30.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.30.600 :temJustificacao :just_df_c750.30.600.
+:crit_just_df_c750.30.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Enumeração e tipificação dos casos recuperável através das estatísticas.Esta síntese não permite recuperar o particular e individual, mas apenas o geral.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área e a impossibilidade atual de conservar toda a produção.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.Extra amostra poderão ser conservadas os fat files ou os processos referentes a casos com maior impacto social.".
+:just_df_c750.30.600 :temCriterio :crit_just_df_c750.30.600_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.30.601
+:df_c750.30.601 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c750.30.601 :temDF :df_c750.30.601.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.30.601
+:just_df_c750.30.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.30.601 :temJustificacao :just_df_c750.30.601.
+:crit_just_df_c750.30.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN;Fonte primária para emissão de certificados de habilitações ou de qualificações.".
+:just_df_c750.30.601 :temCriterio :crit_just_df_c750.30.601_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c750.30.602.01
+:df_c750.30.602.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c750.30.602.01 :temDF :df_c750.30.602.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c750.30.602.01
+:just_df_c750.30.602.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c750.30.602.01 :temJustificacao :just_df_c750.30.602.01.
+:crit_just_df_c750.30.602.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Enumeração e tipificação dos casos recuperável através das estatísticas.Esta síntese não permite recuperar o particular e individual, mas apenas o geral.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área e a impossibilidade atual de conservar toda a produção.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.Extra amostra poderão ser conservadas os fat files ou os processos referentes a casos com maior impacto social.".
+:just_df_c750.30.602.01 :temCriterio :crit_just_df_c750.30.602.01_1.

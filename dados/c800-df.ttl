@@ -1,0 +1,299 @@
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.001
+:df_c800.10.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c800.10.001 :temDF :df_c800.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.001
+:just_df_c800.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.001 :temJustificacao :just_df_c800.10.001.
+:crit_just_df_c800.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c800.10.001 :temCriterio :crit_just_df_c800.10.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.002
+:df_c800.10.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c800.10.002 :temDF :df_c800.10.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.002
+:just_df_c800.10.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.002 :temJustificacao :just_df_c800.10.002.
+:crit_just_df_c800.10.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c800.10.002 :temCriterio :crit_just_df_c800.10.002_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.300
+:df_c800.10.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c800.10.300 :temDF :df_c800.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.300
+:just_df_c800.10.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.300 :temJustificacao :just_df_c800.10.300.
+:crit_just_df_c800.10.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável noPN  150.40.500 -Recolha e tratamento de dados estatísticos de apoio à gestão:E caso tenha existido um incidente a informação é recuperável nosPN  300.40.506 - Implementação de ações para cumprimento de parâmetros ambientais;PN 300.40. 507 - Implementação de planos de contingência.".
+:just_df_c800.10.300 :temCriterio :crit_just_df_c800.10.300_1.
+:crit_just_df_c800.10.300_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c800.10.300_1 :temProcessoRelacionado :c300.40.506.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.301
+:df_c800.10.301 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c800.10.301 :temDF :df_c800.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.301
+:just_df_c800.10.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.301 :temJustificacao :just_df_c800.10.301.
+:crit_just_df_c800.10.301_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c800.10.301 :temCriterio :crit_just_df_c800.10.301_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.302
+:df_c800.10.302 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c800.10.302 :temDF :df_c800.10.302.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.302
+:just_df_c800.10.302 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.302 :temJustificacao :just_df_c800.10.302.
+:crit_just_df_c800.10.302_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c800.10.302 :temCriterio :crit_just_df_c800.10.302_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.303
+:df_c800.10.303 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c800.10.303 :temDF :df_c800.10.303.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.303
+:just_df_c800.10.303 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.303 :temJustificacao :just_df_c800.10.303.
+:crit_just_df_c800.10.303_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação/tipificação dos casos);PN 300.30.008 - Registo de documentos e informação (casos tratados).".
+:just_df_c800.10.303 :temCriterio :crit_just_df_c800.10.303_1.
+:crit_just_df_c800.10.303_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c800.10.303_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.304
+:df_c800.10.304 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c800.10.304 :temDF :df_c800.10.304.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.304
+:just_df_c800.10.304 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.304 :temJustificacao :just_df_c800.10.304.
+:crit_just_df_c800.10.304_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável noPN 550.20.001 - Emissão de avisos e declaração de alertas.".
+:just_df_c800.10.304 :temCriterio :crit_just_df_c800.10.304_1.
+:crit_just_df_c800.10.304_1 :temProcessoRelacionado :c550.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.305
+:df_c800.10.305 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c800.10.305 :temDF :df_c800.10.305.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.305
+:just_df_c800.10.305 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.305 :temJustificacao :just_df_c800.10.305.
+:crit_just_df_c800.10.305_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável noPN 800.10.600 - Realização de ensaios clínicos.".
+:just_df_c800.10.305 :temCriterio :crit_just_df_c800.10.305_1.
+:crit_just_df_c800.10.305_1 :temProcessoRelacionado :c800.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.306
+:df_c800.10.306 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c800.10.306 :temDF :df_c800.10.306.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.306
+:just_df_c800.10.306 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.306 :temJustificacao :just_df_c800.10.306.
+:crit_just_df_c800.10.306_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável noPN 550.20.001 - Emissão de avisos e declaração de alertas.".
+:just_df_c800.10.306 :temCriterio :crit_just_df_c800.10.306_1.
+:crit_just_df_c800.10.306_1 :temProcessoRelacionado :c550.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.600
+:df_c800.10.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c800.10.600 :temDF :df_c800.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.600
+:just_df_c800.10.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.600 :temJustificacao :just_df_c800.10.600.
+:crit_just_df_c800.10.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação qualitativa e quantitativa não recuperável noutro PN.".
+:just_df_c800.10.600 :temCriterio :crit_just_df_c800.10.600_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.601
+:df_c800.10.601 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c800.10.601 :temDF :df_c800.10.601.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.601
+:just_df_c800.10.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.601 :temJustificacao :just_df_c800.10.601.
+:crit_just_df_c800.10.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável noPN de 700.20, bem como em;PN 450.10.640 - Autorização de introdução de produtos e substâncias no mercado;PN 500.10.301 - Realização de fiscalização".
+:just_df_c800.10.601 :temCriterio :crit_just_df_c800.10.601_1.
+:crit_just_df_c800.10.601_1 :temProcessoRelacionado :c450.10.640.
+:crit_just_df_c800.10.601_1 :temProcessoRelacionado :c500.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.602
+:df_c800.10.602 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c800.10.602 :temDF :df_c800.10.602.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.602
+:just_df_c800.10.602 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.602 :temJustificacao :just_df_c800.10.602.
+:crit_just_df_c800.10.602_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação qualitativa e quantitativa não recuperável noutro PN.".
+:just_df_c800.10.602 :temCriterio :crit_just_df_c800.10.602_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.603
+:df_c800.10.603 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c800.10.603 :temDF :df_c800.10.603.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.603
+:just_df_c800.10.603 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.603 :temJustificacao :just_df_c800.10.603.
+:crit_just_df_c800.10.603_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Enumeração e tipificação dos casos recuperável através das estatísticas.Esta síntese não permite recuperar o particular e individual, mas apenas o geral.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área e a impossibilidade atual de conservar toda a produção.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.Extra amostra poderão ser conservadas os fat files ou os processos referentes a casos com maior impacto social.".
+:just_df_c800.10.603 :temCriterio :crit_just_df_c800.10.603_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.604
+:df_c800.10.604 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c800.10.604 :temDF :df_c800.10.604.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.604
+:just_df_c800.10.604 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.604 :temJustificacao :just_df_c800.10.604.
+:crit_just_df_c800.10.604_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável no processo que lhe deu origem, no caso de resultar num serviço de apoio, ou na publicação, em caso de edição.".
+:just_df_c800.10.604 :temCriterio :crit_just_df_c800.10.604_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.605
+:df_c800.10.605 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c800.10.605 :temDF :df_c800.10.605.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.605
+:just_df_c800.10.605 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.605 :temJustificacao :just_df_c800.10.605.
+:crit_just_df_c800.10.605_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável no processo que lhe deu origem, no caso de resultar num serviço de apoio, ou na publicação, em caso de edição.".
+:just_df_c800.10.605 :temCriterio :crit_just_df_c800.10.605_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.606
+:df_c800.10.606 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c800.10.606 :temDF :df_c800.10.606.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.606
+:just_df_c800.10.606 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.606 :temJustificacao :just_df_c800.10.606.
+:crit_just_df_c800.10.606_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável nosPN 450.10.018 - Licenciamento de indústrias;PN 450.10.054 - Autorização de comercialização de medicamentos;PN 800.10.304 - Monitorização de segurança de medicamentos após autorização de introdução no mercado (AIM).".
+:just_df_c800.10.606 :temCriterio :crit_just_df_c800.10.606_1.
+:crit_just_df_c800.10.606_1 :temProcessoRelacionado :c450.10.018.
+:crit_just_df_c800.10.606_1 :temProcessoRelacionado :c450.10.054.
+:crit_just_df_c800.10.606_1 :temProcessoRelacionado :c800.10.304.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.607
+:df_c800.10.607 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c800.10.607 :temDF :df_c800.10.607.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.607
+:just_df_c800.10.607 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.607 :temJustificacao :just_df_c800.10.607.
+:crit_just_df_c800.10.607_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Portaria 248/2013], artº 5 - 2) \"Relativamente aos dados pessoais constantes dos formulários a notificar às autoridades de saúde de âmbito regional e à Direção-Geral da Saúde, podem ser conservados até 10 anos desde que estejam em causa situações de morbilidade.\"".
+:just_df_c800.10.607 :temCriterio :crit_just_df_c800.10.607_1.
+:crit_just_df_c800.10.607_1 :temLegislacao :leg_1171.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.608
+:df_c800.10.608 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c800.10.608 :temDF :df_c800.10.608.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.608
+:just_df_c800.10.608 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.608 :temJustificacao :just_df_c800.10.608.
+:crit_just_df_c800.10.608_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c800.10.608 :temCriterio :crit_just_df_c800.10.608_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.10.609
+:df_c800.10.609 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c800.10.609 :temDF :df_c800.10.609.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.10.609
+:just_df_c800.10.609 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.10.609 :temJustificacao :just_df_c800.10.609.
+:crit_just_df_c800.10.609_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c800.10.609 :temCriterio :crit_just_df_c800.10.609_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.20.001
+:df_c800.20.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c800.20.001 :temDF :df_c800.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.20.001
+:just_df_c800.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.20.001 :temJustificacao :just_df_c800.20.001.
+:crit_just_df_c800.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c800.20.001 :temCriterio :crit_just_df_c800.20.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.20.002
+:df_c800.20.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c800.20.002 :temDF :df_c800.20.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.20.002
+:just_df_c800.20.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.20.002 :temJustificacao :just_df_c800.20.002.
+:crit_just_df_c800.20.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c800.20.002 :temCriterio :crit_just_df_c800.20.002_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c800.20.500
+:df_c800.20.500 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c800.20.500 :temDF :df_c800.20.500.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c800.20.500
+:just_df_c800.20.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c800.20.500 :temJustificacao :just_df_c800.20.500.
+:crit_just_df_c800.20.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c800.20.500 :temCriterio :crit_just_df_c800.20.500_1.

@@ -1,0 +1,159 @@
+###  http://jcr.di.uminho.pt/m51-clav#pca_c100.10.001
+:pca_c100.10.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c100.10.001 :temPCA :pca_c100.10.001.
+:pca_c100.10.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c100.10.001
+:just_pca_c100.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c100.10.001 :temJustificacao :just_pca_c100.10.001.
+:crit_just_pca_c100.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela gestão estratégica, decorrente de escrutínio público (eleições).Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos (Presidente da República).".
+:just_pca_c100.10.001 :temCriterio :crit_just_pca_c100.10.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c100.10.002
+:pca_c100.10.002 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c100.10.002 :temPCA :pca_c100.10.002.
+:pca_c100.10.002 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c100.10.002
+:just_pca_c100.10.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c100.10.002 :temJustificacao :just_pca_c100.10.002.
+:crit_just_pca_c100.10.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela gestão estratégica, decorrente de escrutínio público (eleições).Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos (Presidente da República).".
+:just_pca_c100.10.002 :temCriterio :crit_just_pca_c100.10.002_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c100.10.003
+:pca_c100.10.003 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c100.10.003 :temPCA :pca_c100.10.003.
+:pca_c100.10.003 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c100.10.003
+:just_pca_c100.10.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c100.10.003 :temJustificacao :just_pca_c100.10.003.
+:crit_just_pca_c100.10.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela gestão estratégica, decorrente de escrutínio público (eleições).Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.".
+:just_pca_c100.10.003 :temCriterio :crit_just_pca_c100.10.003_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c100.10.200
+:pca_c100.10.200 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c100.10.200 :temPCA :pca_c100.10.200.
+:pca_c100.10.200 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c100.10.200
+:just_pca_c100.10.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c100.10.200 :temJustificacao :just_pca_c100.10.200.
+:crit_just_pca_c100.10.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela gestão estratégica, decorrente de escrutínio público (eleições).Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.".
+:just_pca_c100.10.200 :temCriterio :crit_just_pca_c100.10.200_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c100.10.400
+:pca_c100.10.400 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c100.10.400 :temPCA :pca_c100.10.400.
+:pca_c100.10.400 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c100.10.400
+:just_pca_c100.10.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c100.10.400 :temJustificacao :just_pca_c100.10.400.
+:crit_just_pca_c100.10.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela gestão estratégica, decorrente de escrutínio público (eleições).Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.".
+:just_pca_c100.10.400 :temCriterio :crit_just_pca_c100.10.400_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c100.10.600
+:pca_c100.10.600 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c100.10.600 :temPCA :pca_c100.10.600.
+:pca_c100.10.600 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c100.10.600
+:just_pca_c100.10.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c100.10.600 :temJustificacao :just_pca_c100.10.600.
+:crit_just_pca_c100.10.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoGestionario;
+	:conteudo "Prazo para imputação de responsabilidade pela gestão estratégica, decorrente de escrutínio público (eleições).Considerou-se para a definição do prazo o tempo do mandato de maior duração: 5 anos.".
+:just_pca_c100.10.600 :temCriterio :crit_just_pca_c100.10.600_1.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c100.10.800
+:pca_c100.10.800 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c100.10.800 :temPCA :pca_c100.10.800.
+:pca_c100.10.800 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c100.10.800
+:just_pca_c100.10.800 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c100.10.800 :temJustificacao :just_pca_c100.10.800.
+:crit_just_pca_c100.10.800_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27)Os intervenientes na elaboração da norma podem ser objeto de sanções, caso este apresente incorreções que ponham em causa a sua boa aplicação.".
+:just_pca_c100.10.800 :temCriterio :crit_just_pca_c100.10.800_1.
+:crit_just_pca_c100.10.800_1 :temLegislacao :leg_47.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c100.20.001
+:pca_c100.20.001 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c100.20.001 :temPCA :pca_c100.20.001.
+:pca_c100.20.001 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c100.20.001
+:just_pca_c100.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c100.20.001 :temJustificacao :just_pca_c100.20.001.
+:crit_just_pca_c100.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27)Os intervenientes na elaboração do parecer podem ser objeto de sanções, caso este apresente incorreções que ponham em causa a boa aplicação da norma.".
+:just_pca_c100.20.001 :temCriterio :crit_just_pca_c100.20.001_1.
+:crit_just_pca_c100.20.001_1 :temLegislacao :leg_47.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c100.20.200
+:pca_c100.20.200 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c100.20.200 :temPCA :pca_c100.20.200.
+:pca_c100.20.200 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c100.20.200
+:just_pca_c100.20.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c100.20.200 :temJustificacao :just_pca_c100.20.200.
+:crit_just_pca_c100.20.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27)Os intervenientes na elaboração do parecer podem ser objeto de sanções, caso este apresente incorreções que ponham em causa a boa aplicação da norma.".
+:just_pca_c100.20.200 :temCriterio :crit_just_pca_c100.20.200_1.
+:crit_just_pca_c100.20.200_1 :temLegislacao :leg_47.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c100.20.400
+:pca_c100.20.400 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 5.
+:c100.20.400 :temPCA :pca_c100.20.400.
+:pca_c100.20.400 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c100.20.400
+:just_pca_c100.20.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c100.20.400 :temJustificacao :just_pca_c100.20.400.
+:crit_just_pca_c100.20.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "Prazo prescricional do procedimento contraordenacional ([DL 433/82], Ilícito de mera ordenação social, artº 27)Os intervenientes na elaboração do parecer podem ser objeto de sanções, caso este apresente incorreções que ponham em causa a boa aplicação da norma.".
+:just_pca_c100.20.400 :temCriterio :crit_just_pca_c100.20.400_1.
+:crit_just_pca_c100.20.400_1 :temLegislacao :leg_47.
+###  http://jcr.di.uminho.pt/m51-clav#pca_c100.20.600
+:pca_c100.20.600 rdf:type owl:NamedIndividual ,
+	:PCA ;
+	:pcaValor 4.
+:c100.20.600 :temPCA :pca_c100.20.600.
+:pca_c100.20.600 :pcaFormaContagemNormalizada :vc_pcaFormaContagem_conclusaoProcedimento .
+###  http://jcr.di.uminho.pt/m51-clav#just_pca_c100.20.600
+:just_pca_c100.20.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoPCA.
+:pca_c100.20.600 :temJustificacao :just_pca_c100.20.600.
+:crit_just_pca_c100.20.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[Lei 21/85], Estatuto dos Magistrados Judiciais, artº 36, nº 1[Deliberação do Conselho Superior de Magistratura 55/2003], Regulamento das Inspecções Judiciais, artº 5, revista pela [Deliberação do Conselho Superior de Magistratura 1868/2012].Periodicidade das inspeções.".
+:just_pca_c100.20.600 :temCriterio :crit_just_pca_c100.20.600_1.
+:crit_just_pca_c100.20.600_1 :temLegislacao :leg_62.

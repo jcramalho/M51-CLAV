@@ -1,0 +1,537 @@
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.001
+:df_c250.10.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.001 :temDF :df_c250.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.001
+:just_df_c250.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.001 :temJustificacao :just_df_c250.10.001.
+:crit_just_df_c250.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação / tipificação dos casos);PN 300.30.008 - Registo de documentos e informação (casos tratados - proponente, data da candidatura).".
+:just_df_c250.10.001 :temCriterio :crit_just_df_c250.10.001_1.
+:crit_just_df_c250.10.001_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c250.10.001_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c250.10.001_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.100
+:df_c250.10.100 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.100 :temDF :df_c250.10.100.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.100
+:just_df_c250.10.100 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.100 :temJustificacao :just_df_c250.10.100.
+:crit_just_df_c250.10.100_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação / tipificação dos casos);250.10.501 - Designação para cargos de direção, coordenação e controlo (resultado do procedimento concursal);250.20.001 - Registo biográfico de trabalhadores (resultado do procedimento concursal);PN 300.30.008 - Registo de documentos e informação (candidaturas entregues).".
+:just_df_c250.10.100 :temCriterio :crit_just_df_c250.10.100_1.
+:crit_just_df_c250.10.100_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c250.10.100_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c250.10.100_1 :temProcessoRelacionado :c250.10.501.
+:crit_just_df_c250.10.100_1 :temProcessoRelacionado :c250.20.001.
+:crit_just_df_c250.10.100_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.101
+:df_c250.10.101 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.101 :temDF :df_c250.10.101.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.101
+:just_df_c250.10.101 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.101 :temJustificacao :just_df_c250.10.101.
+:crit_just_df_c250.10.101_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação / tipificação dos casos);PN 250.10.600 - Contratação de trabalhadores (resultado do procedimento concursal);PN 300.30.008 - Registo de documentos e informação (candidaturas entregues).".
+:just_df_c250.10.101 :temCriterio :crit_just_df_c250.10.101_1.
+:crit_just_df_c250.10.101_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c250.10.101_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c250.10.101_1 :temProcessoRelacionado :c250.10.600.
+:crit_just_df_c250.10.101_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.103
+:df_c250.10.103 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.103 :temDF :df_c250.10.103.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.103
+:just_df_c250.10.103 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.103 :temJustificacao :just_df_c250.10.103.
+:crit_just_df_c250.10.103_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação / tipificação dos casos);PN 250.20.001 - Registo biográfico de trabalhadores (inclui registo dos estagiários);PN 300.30.008 - Registo de documentos e informação (candidaturas entregues).".
+:just_df_c250.10.103 :temCriterio :crit_just_df_c250.10.103_1.
+:crit_just_df_c250.10.103_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c250.10.103_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c250.10.103_1 :temProcessoRelacionado :c250.20.001.
+:crit_just_df_c250.10.103_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.200
+:df_c250.10.200 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.200 :temDF :df_c250.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.200
+:just_df_c250.10.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.200 :temJustificacao :just_df_c250.10.200.
+:crit_just_df_c250.10.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação / tipificação dos casos);PN 250.10.700 - Provimento por eleição em cargos ou funções (resultado do procedimento);PN 300.30.008 - Registo de documentos e informação (candidaturas entregues).".
+:just_df_c250.10.200 :temCriterio :crit_just_df_c250.10.200_1.
+:crit_just_df_c250.10.200_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c250.10.200_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c250.10.200_1 :temProcessoRelacionado :c250.10.700.
+:crit_just_df_c250.10.200_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.300
+:df_c250.10.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.300 :temDF :df_c250.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.300
+:just_df_c250.10.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.300 :temJustificacao :just_df_c250.10.300.
+:crit_just_df_c250.10.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação / tipificação dos casos);PN 250.10.500 - Designação para cargos ou funções de confiança ou de interesse público (resultado do procedimento);PN 300.30.008 - Registo de documentos e informação (candidaturas entregues).".
+:just_df_c250.10.300 :temCriterio :crit_just_df_c250.10.300_1.
+:crit_just_df_c250.10.300_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c250.10.300_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c250.10.300_1 :temProcessoRelacionado :c250.10.500.
+:crit_just_df_c250.10.300_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.301
+:df_c250.10.301 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.301 :temDF :df_c250.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.301
+:just_df_c250.10.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.301 :temJustificacao :just_df_c250.10.301.
+:crit_just_df_c250.10.301_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão (quantificação / tipificação dos casos);PN 250.20.001 - Registo biográfico de trabalhadores (inclui registo dos voluntários);PN 300.30.008 - Registo de documentos e informação (candidaturas entregues).".
+:just_df_c250.10.301 :temCriterio :crit_just_df_c250.10.301_1.
+:crit_just_df_c250.10.301_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c250.10.301_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c250.10.301_1 :temProcessoRelacionado :c250.20.001.
+:crit_just_df_c250.10.301_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.400
+:df_c250.10.400 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.400 :temDF :df_c250.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.400
+:just_df_c250.10.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.400 :temJustificacao :just_df_c250.10.400.
+:crit_just_df_c250.10.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.10.400 :temCriterio :crit_just_df_c250.10.400_1.
+:crit_just_df_c250.10.400_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.401
+:df_c250.10.401 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.401 :temDF :df_c250.10.401.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.401
+:just_df_c250.10.401 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.401 :temJustificacao :just_df_c250.10.401.
+:crit_just_df_c250.10.401_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.10.401 :temCriterio :crit_just_df_c250.10.401_1.
+:crit_just_df_c250.10.401_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.500
+:df_c250.10.500 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.500 :temDF :df_c250.10.500.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.500
+:just_df_c250.10.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.500 :temJustificacao :just_df_c250.10.500.
+:crit_just_df_c250.10.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.10.500 :temCriterio :crit_just_df_c250.10.500_1.
+:crit_just_df_c250.10.500_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.501
+:df_c250.10.501 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.501 :temDF :df_c250.10.501.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.501
+:just_df_c250.10.501 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.501 :temJustificacao :just_df_c250.10.501.
+:crit_just_df_c250.10.501_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.10.501 :temCriterio :crit_just_df_c250.10.501_1.
+:crit_just_df_c250.10.501_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.600
+:df_c250.10.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.600 :temDF :df_c250.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.600
+:just_df_c250.10.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.600 :temJustificacao :just_df_c250.10.600.
+:crit_just_df_c250.10.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável emPN 150.20.403 - Caracterização de recursos humanos;PN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.10.600 :temCriterio :crit_just_df_c250.10.600_1.
+:crit_just_df_c250.10.600_1 :temProcessoRelacionado :c150.20.403.
+:crit_just_df_c250.10.600_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.601
+:df_c250.10.601 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.601 :temDF :df_c250.10.601.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.601
+:just_df_c250.10.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.601 :temJustificacao :just_df_c250.10.601.
+:crit_just_df_c250.10.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.10.601 :temCriterio :crit_just_df_c250.10.601_1.
+:crit_just_df_c250.10.601_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.700
+:df_c250.10.700 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.700 :temDF :df_c250.10.700.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.700
+:just_df_c250.10.700 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.700 :temJustificacao :just_df_c250.10.700.
+:crit_just_df_c250.10.700_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.10.700 :temCriterio :crit_just_df_c250.10.700_1.
+:crit_just_df_c250.10.700_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.10.800
+:df_c250.10.800 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.10.800 :temDF :df_c250.10.800.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.10.800
+:just_df_c250.10.800 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.10.800 :temJustificacao :just_df_c250.10.800.
+:crit_just_df_c250.10.800_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável emPN 150.20.403 - Caracterização de recursos humanos;PN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.10.800 :temCriterio :crit_just_df_c250.10.800_1.
+:crit_just_df_c250.10.800_1 :temProcessoRelacionado :c150.20.403.
+:crit_just_df_c250.10.800_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.001
+:df_c250.20.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c250.20.001 :temDF :df_c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.001
+:just_df_c250.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.001 :temJustificacao :just_df_c250.20.001.
+:crit_just_df_c250.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Sintetiza informação emPN 250.10.501 - Designação para cargos de direção, coordenação e controlo;PN 250.10.401 - Nomeação para postos de trabalho;PN 250.10.500 - Designação para cargos ou funções de confiança ou de interesse público;PN 250.10.600 - Contratação de trabalhadores;PN 250.10.700 - Provimento por eleição em cargos ou funções;PN 250.10.800 -Cessação da relação jurídica de emprego público;PN 250.20.200 - Processamento de pedidos de horário de trabalho especial;PN 250.20.403 - Processamento de licenças de ausência ao serviço;PN 250.20.601 - Alteração de posicionamento remuneratório;PN 500.20.300 - Procedimento disciplinar;PN 500.30.004 - Aplicação de sanções disciplinares;PN 750.20.600 - Realização de atividades de ensino ou formação.".
+:just_df_c250.20.001 :temCriterio :crit_just_df_c250.20.001_1.
+:crit_just_df_c250.20.001_1 :temProcessoRelacionado :c250.10.501.
+:crit_just_df_c250.20.001_1 :temProcessoRelacionado :c250.10.401.
+:crit_just_df_c250.20.001_1 :temProcessoRelacionado :c250.10.500.
+:crit_just_df_c250.20.001_1 :temProcessoRelacionado :c250.10.600.
+:crit_just_df_c250.20.001_1 :temProcessoRelacionado :c250.10.700.
+:crit_just_df_c250.20.001_1 :temProcessoRelacionado :c250.10.800.
+:crit_just_df_c250.20.001_1 :temProcessoRelacionado :c250.20.200.
+:crit_just_df_c250.20.001_1 :temProcessoRelacionado :c250.20.403.
+:crit_just_df_c250.20.001_1 :temProcessoRelacionado :c250.20.601.
+:crit_just_df_c250.20.001_1 :temProcessoRelacionado :c500.20.300.
+:crit_just_df_c250.20.001_1 :temProcessoRelacionado :c500.30.004.
+:crit_just_df_c250.20.001_1 :temProcessoRelacionado :c750.20.600.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.200
+:df_c250.20.200 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.200 :temDF :df_c250.20.200.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.200
+:just_df_c250.20.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.200 :temJustificacao :just_df_c250.20.200.
+:crit_just_df_c250.20.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.20.200 :temCriterio :crit_just_df_c250.20.200_1.
+:crit_just_df_c250.20.200_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.201
+:df_c250.20.201 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.201 :temDF :df_c250.20.201.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.201
+:just_df_c250.20.201 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.201 :temJustificacao :just_df_c250.20.201.
+:crit_just_df_c250.20.201_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.20.201 :temCriterio :crit_just_df_c250.20.201_1.
+:crit_just_df_c250.20.201_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.400
+:df_c250.20.400 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.400 :temDF :df_c250.20.400.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.400
+:just_df_c250.20.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.400 :temJustificacao :just_df_c250.20.400.
+:crit_just_df_c250.20.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 350.10.509 - Processamento de remunerações.".
+:just_df_c250.20.400 :temCriterio :crit_just_df_c250.20.400_1.
+:crit_just_df_c250.20.400_1 :temProcessoRelacionado :c350.10.509.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.401
+:df_c250.20.401 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.401 :temDF :df_c250.20.401.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.401
+:just_df_c250.20.401 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.401 :temJustificacao :just_df_c250.20.401.
+:crit_just_df_c250.20.401_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.20.401 :temCriterio :crit_just_df_c250.20.401_1.
+:crit_just_df_c250.20.401_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.402
+:df_c250.20.402 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.402 :temDF :df_c250.20.402.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.402
+:just_df_c250.20.402 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.402 :temJustificacao :just_df_c250.20.402.
+:crit_just_df_c250.20.402_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 350.10.509 - Processamento de remunerações.".
+:just_df_c250.20.402 :temCriterio :crit_just_df_c250.20.402_1.
+:crit_just_df_c250.20.402_1 :temProcessoRelacionado :c350.10.509.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.403
+:df_c250.20.403 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.403 :temDF :df_c250.20.403.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.403
+:just_df_c250.20.403 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.403 :temJustificacao :just_df_c250.20.403.
+:crit_just_df_c250.20.403_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável emPN 250.20.001 - Registo biográfico de trabalhadores;PN 350.10.509 - Processamento de remunerações.".
+:just_df_c250.20.403 :temCriterio :crit_just_df_c250.20.403_1.
+:crit_just_df_c250.20.403_1 :temProcessoRelacionado :c250.20.001.
+:crit_just_df_c250.20.403_1 :temProcessoRelacionado :c350.10.509.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.404
+:df_c250.20.404 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.404 :temDF :df_c250.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.404
+:just_df_c250.20.404 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.404 :temJustificacao :just_df_c250.20.404.
+:crit_just_df_c250.20.404_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.20.404 :temCriterio :crit_just_df_c250.20.404_1.
+:crit_just_df_c250.20.404_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.600
+:df_c250.20.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.600 :temDF :df_c250.20.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.600
+:just_df_c250.20.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.600 :temJustificacao :just_df_c250.20.600.
+:crit_just_df_c250.20.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.20.600 :temCriterio :crit_just_df_c250.20.600_1.
+:crit_just_df_c250.20.600_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.601
+:df_c250.20.601 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.601 :temDF :df_c250.20.601.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.601
+:just_df_c250.20.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.601 :temJustificacao :just_df_c250.20.601.
+:crit_just_df_c250.20.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável emPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.20.601 :temCriterio :crit_just_df_c250.20.601_1.
+:crit_just_df_c250.20.601_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.602
+:df_c250.20.602 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.602 :temDF :df_c250.20.602.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.602
+:just_df_c250.20.602 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.602 :temJustificacao :just_df_c250.20.602.
+:crit_just_df_c250.20.602_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.20.602 :temCriterio :crit_just_df_c250.20.602_1.
+:crit_just_df_c250.20.602_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.603
+:df_c250.20.603 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.603 :temDF :df_c250.20.603.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.603
+:just_df_c250.20.603 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.603 :temJustificacao :just_df_c250.20.603.
+:crit_just_df_c250.20.603_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.20.603 :temCriterio :crit_just_df_c250.20.603_1.
+:crit_just_df_c250.20.603_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.604
+:df_c250.20.604 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.604 :temDF :df_c250.20.604.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.604
+:just_df_c250.20.604 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.604 :temJustificacao :just_df_c250.20.604.
+:crit_just_df_c250.20.604_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.20.604 :temCriterio :crit_just_df_c250.20.604_1.
+:crit_just_df_c250.20.604_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.605
+:df_c250.20.605 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.605 :temDF :df_c250.20.605.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.605
+:just_df_c250.20.605 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.605 :temJustificacao :just_df_c250.20.605.
+:crit_just_df_c250.20.605_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.20.605 :temCriterio :crit_just_df_c250.20.605_1.
+:crit_just_df_c250.20.605_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.800
+:df_c250.20.800 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.800 :temDF :df_c250.20.800.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.800
+:just_df_c250.20.800 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.800 :temJustificacao :just_df_c250.20.800.
+:crit_just_df_c250.20.800_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.20.800 :temCriterio :crit_just_df_c250.20.800_1.
+:crit_just_df_c250.20.800_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.801
+:df_c250.20.801 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.801 :temDF :df_c250.20.801.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.801
+:just_df_c250.20.801 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.801 :temJustificacao :just_df_c250.20.801.
+:crit_just_df_c250.20.801_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "informação recuperável emPN 250.20.001 - Registo Biográfico de trabalhadores;PN 150.10.702 - Reunião de órgãos e estruturas operacionais e de aconselhamento.".
+:just_df_c250.20.801 :temCriterio :crit_just_df_c250.20.801_1.
+:crit_just_df_c250.20.801_1 :temProcessoRelacionado :c250.20.001.
+:crit_just_df_c250.20.801_1 :temProcessoRelacionado :c150.10.702.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.802
+:df_c250.20.802 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.802 :temDF :df_c250.20.802.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.802
+:just_df_c250.20.802 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.802 :temJustificacao :just_df_c250.20.802.
+:crit_just_df_c250.20.802_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "A informação síntese consta noPN 150.10.702 - Reunião de órgãos e estruturas operacionais e de aconselhamento.".
+:just_df_c250.20.802 :temCriterio :crit_just_df_c250.20.802_1.
+:crit_just_df_c250.20.802_1 :temProcessoRelacionado :c150.10.702.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.20.803
+:df_c250.20.803 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.20.803 :temDF :df_c250.20.803.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.20.803
+:just_df_c250.20.803 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.20.803 :temJustificacao :just_df_c250.20.803.
+:crit_just_df_c250.20.803_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável noPN 250.20.001 - Registo biográfico de trabalhadores.".
+:just_df_c250.20.803 :temCriterio :crit_just_df_c250.20.803_1.
+:crit_just_df_c250.20.803_1 :temProcessoRelacionado :c250.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.30.001
+:df_c250.30.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c250.30.001 :temDF :df_c250.30.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.30.001
+:just_df_c250.30.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.30.001 :temJustificacao :just_df_c250.30.001.
+:crit_just_df_c250.30.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoComplementaridadeInfo;
+	:conteudo " complementar emPN 100.10.600 - Produção e comunicação de regras institucionais;PN 100.10.200 - Produção e comunicação de atos regulamentares gerais;Sendo necessário uma visão do conjunto para o entendimento global dos PN em causa.".
+:just_df_c250.30.001 :temCriterio :crit_just_df_c250.30.001_1.
+:crit_just_df_c250.30.001_1 :eComplementarDe :c100.10.600.
+:crit_just_df_c250.30.001_1 :eComplementarDe :c100.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.30.300
+:df_c250.30.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.30.300 :temDF :df_c250.30.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.30.300
+:just_df_c250.30.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.30.300 :temJustificacao :just_df_c250.30.300.
+:crit_just_df_c250.30.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação síntese recuperável emPN 150.20.403 - Caracterização de recursos humanos;PN 150.40.001 - Realização de operações estatísticas oficiais.".
+:just_df_c250.30.300 :temCriterio :crit_just_df_c250.30.300_1.
+:crit_just_df_c250.30.300_1 :temProcessoRelacionado :c150.20.403.
+:crit_just_df_c250.30.300_1 :temProcessoRelacionado :c150.40.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c250.30.600
+:df_c250.30.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c250.30.600 :temDF :df_c250.30.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c250.30.600
+:just_df_c250.30.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c250.30.600 :temJustificacao :just_df_c250.30.600.

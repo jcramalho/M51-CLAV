@@ -1,0 +1,274 @@
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.10.001.01
+:df_c900.10.001.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c900.10.001.01 :temDF :df_c900.10.001.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.10.001.01
+:just_df_c900.10.001.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.10.001.01 :temJustificacao :just_df_c900.10.001.01.
+:crit_just_df_c900.10.001.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c900.10.001.01 :temCriterio :crit_just_df_c900.10.001.01_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.10.002.01
+:df_c900.10.002.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c900.10.002.01 :temDF :df_c900.10.002.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.10.002.01
+:just_df_c900.10.002.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.10.002.01 :temJustificacao :just_df_c900.10.002.01.
+:crit_just_df_c900.10.002.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c900.10.002.01 :temCriterio :crit_just_df_c900.10.002.01_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.10.500.01
+:df_c900.10.500.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c900.10.500.01 :temDF :df_c900.10.500.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.10.500.01
+:just_df_c900.10.500.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.10.500.01 :temJustificacao :just_df_c900.10.500.01.
+:crit_just_df_c900.10.500.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c900.10.500.01 :temCriterio :crit_just_df_c900.10.500.01_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.10.501.01
+:df_c900.10.501.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c900.10.501.01 :temDF :df_c900.10.501.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.10.501.01
+:just_df_c900.10.501.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.10.501.01 :temJustificacao :just_df_c900.10.501.01.
+:crit_just_df_c900.10.501.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c900.10.501.01 :temCriterio :crit_just_df_c900.10.501.01_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.10.502
+:df_c900.10.502 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c900.10.502 :temDF :df_c900.10.502.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.10.502
+:just_df_c900.10.502 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.10.502 :temJustificacao :just_df_c900.10.502.
+:crit_just_df_c900.10.502_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos e informação.".
+:just_df_c900.10.502 :temCriterio :crit_just_df_c900.10.502_1.
+:crit_just_df_c900.10.502_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c900.10.502_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.10.503
+:df_c900.10.503 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c900.10.503 :temDF :df_c900.10.503.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.10.503
+:just_df_c900.10.503 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.10.503 :temJustificacao :just_df_c900.10.503.
+:crit_just_df_c900.10.503_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos e informação.".
+:just_df_c900.10.503 :temCriterio :crit_just_df_c900.10.503_1.
+:crit_just_df_c900.10.503_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c900.10.503_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.10.504
+:df_c900.10.504 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c900.10.504 :temDF :df_c900.10.504.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.10.504
+:just_df_c900.10.504 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.10.504 :temJustificacao :just_df_c900.10.504.
+:crit_just_df_c900.10.504_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividadesPN 300.30.008 - Registo de documentos e informação".
+:just_df_c900.10.504 :temCriterio :crit_just_df_c900.10.504_1.
+:crit_just_df_c900.10.504_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c900.10.504_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.10.505
+:df_c900.10.505 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c900.10.505 :temDF :df_c900.10.505.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.10.505
+:just_df_c900.10.505 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.10.505 :temJustificacao :just_df_c900.10.505.
+:crit_just_df_c900.10.505_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada noPN 150.20. 300 - Avaliação de atividades.".
+:just_df_c900.10.505 :temCriterio :crit_just_df_c900.10.505_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.20.001
+:df_c900.20.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c900.20.001 :temDF :df_c900.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.20.001
+:just_df_c900.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.20.001 :temJustificacao :just_df_c900.20.001.
+:crit_just_df_c900.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c900.20.001 :temCriterio :crit_just_df_c900.20.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.20.002
+:df_c900.20.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c900.20.002 :temDF :df_c900.20.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.20.002
+:just_df_c900.20.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.20.002 :temJustificacao :just_df_c900.20.002.
+:crit_just_df_c900.20.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c900.20.002 :temCriterio :crit_just_df_c900.20.002_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.20.200
+:df_c900.20.200 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c900.20.200 :temDF :df_c900.20.200.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.20.200
+:just_df_c900.20.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.20.200 :temJustificacao :just_df_c900.20.200.
+:crit_just_df_c900.20.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c900.20.200 :temCriterio :crit_just_df_c900.20.200_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.20.201
+:df_c900.20.201 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c900.20.201 :temDF :df_c900.20.201.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.20.201
+:just_df_c900.20.201 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.20.201 :temJustificacao :just_df_c900.20.201.
+:crit_just_df_c900.20.201_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "O conteúdo é recuperável noPN 900.20.200 - Conceção de conteúdos institucionais para divulgação".
+:just_df_c900.20.201 :temCriterio :crit_just_df_c900.20.201_1.
+:crit_just_df_c900.20.201_1 :temProcessoRelacionado :c900.20.200.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.20.400
+:df_c900.20.400 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c900.20.400 :temDF :df_c900.20.400.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.20.400
+:just_df_c900.20.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.20.400 :temJustificacao :just_df_c900.20.400.
+:crit_just_df_c900.20.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c900.20.400 :temCriterio :crit_just_df_c900.20.400_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.20.401
+:df_c900.20.401 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c900.20.401 :temDF :df_c900.20.401.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.20.401
+:just_df_c900.20.401 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.20.401 :temJustificacao :just_df_c900.20.401.
+:crit_just_df_c900.20.401_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c900.20.401 :temCriterio :crit_just_df_c900.20.401_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.20.402
+:df_c900.20.402 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c900.20.402 :temDF :df_c900.20.402.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.20.402
+:just_df_c900.20.402 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.20.402 :temJustificacao :just_df_c900.20.402.
+:crit_just_df_c900.20.402_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação recuperável nos meios de comunicação.".
+:just_df_c900.20.402 :temCriterio :crit_just_df_c900.20.402_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.20.600
+:df_c900.20.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c900.20.600 :temDF :df_c900.20.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.20.600
+:just_df_c900.20.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.20.600 :temJustificacao :just_df_c900.20.600.
+:crit_just_df_c900.20.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação relativa à interação com os contactos institucionais recuperável noPN 300.30.008 - Registo de documentos e informação".
+:just_df_c900.20.600 :temCriterio :crit_just_df_c900.20.600_1.
+:crit_just_df_c900.20.600_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.20.601.01
+:df_c900.20.601.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c900.20.601.01 :temDF :df_c900.20.601.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.20.601.01
+:just_df_c900.20.601.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.20.601.01 :temJustificacao :just_df_c900.20.601.01.
+:crit_just_df_c900.20.601.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada noPN 900.20.601.02 - Organização de cerimónias de tomada de posse e assinatura de documentos: realização".
+:just_df_c900.20.601.01 :temCriterio :crit_just_df_c900.20.601.01_1.
+:crit_just_df_c900.20.601.01_1 :temProcessoRelacionado :c900.20.601.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.20.602.01
+:df_c900.20.602.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c900.20.602.01 :temDF :df_c900.20.602.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.20.602.01
+:just_df_c900.20.602.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.20.602.01 :temJustificacao :just_df_c900.20.602.01.
+:crit_just_df_c900.20.602.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada noPN 900.20.602.02 - Organização de visitas institucionais: realização".
+:just_df_c900.20.602.01 :temCriterio :crit_just_df_c900.20.602.01_1.
+:crit_just_df_c900.20.602.01_1 :temProcessoRelacionado :c900.20.602.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.20.603
+:df_c900.20.603 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c900.20.603 :temDF :df_c900.20.603.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.20.603
+:just_df_c900.20.603 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.20.603 :temJustificacao :just_df_c900.20.603.
+:crit_just_df_c900.20.603_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos e informação.".
+:just_df_c900.20.603 :temCriterio :crit_just_df_c900.20.603_1.
+:crit_just_df_c900.20.603_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c900.20.603_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c900.20.604
+:df_c900.20.604 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c900.20.604 :temDF :df_c900.20.604.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c900.20.604
+:just_df_c900.20.604 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c900.20.604 :temJustificacao :just_df_c900.20.604.
+:crit_just_df_c900.20.604_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos e informação.".
+:just_df_c900.20.604 :temCriterio :crit_just_df_c900.20.604_1.
+:crit_just_df_c900.20.604_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c900.20.604_1 :temProcessoRelacionado :c300.30.008.

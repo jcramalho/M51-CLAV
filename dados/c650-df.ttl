@@ -1,0 +1,975 @@
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.001
+:df_c650.10.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.001 :temDF :df_c650.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.001
+:just_df_c650.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.001 :temJustificacao :just_df_c650.10.001.
+:crit_just_df_c650.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.001 :temCriterio :crit_just_df_c650.10.001_1.
+:crit_just_df_c650.10.001_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.001_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.001_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.001_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.001_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.002
+:df_c650.10.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.002 :temDF :df_c650.10.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.002
+:just_df_c650.10.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.002 :temJustificacao :just_df_c650.10.002.
+:crit_just_df_c650.10.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.002 :temCriterio :crit_just_df_c650.10.002_1.
+:crit_just_df_c650.10.002_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.002_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.002_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.002_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.002_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.003
+:df_c650.10.003 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.003 :temDF :df_c650.10.003.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.003
+:just_df_c650.10.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.003 :temJustificacao :just_df_c650.10.003.
+:crit_just_df_c650.10.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.003 :temCriterio :crit_just_df_c650.10.003_1.
+:crit_just_df_c650.10.003_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.003_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.003_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.003_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.003_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.004
+:df_c650.10.004 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.004 :temDF :df_c650.10.004.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.004
+:just_df_c650.10.004 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.004 :temJustificacao :just_df_c650.10.004.
+:crit_just_df_c650.10.004_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.004 :temCriterio :crit_just_df_c650.10.004_1.
+:crit_just_df_c650.10.004_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.004_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.004_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.004_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.004_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.005
+:df_c650.10.005 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.005 :temDF :df_c650.10.005.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.005
+:just_df_c650.10.005 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.005 :temJustificacao :just_df_c650.10.005.
+:crit_just_df_c650.10.005_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.005 :temCriterio :crit_just_df_c650.10.005_1.
+:crit_just_df_c650.10.005_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.005_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.005_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.005_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.005_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.006
+:df_c650.10.006 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.006 :temDF :df_c650.10.006.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.006
+:just_df_c650.10.006 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.006 :temJustificacao :just_df_c650.10.006.
+:crit_just_df_c650.10.006_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.006 :temCriterio :crit_just_df_c650.10.006_1.
+:crit_just_df_c650.10.006_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.006_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.006_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.006_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.006_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.007
+:df_c650.10.007 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.007 :temDF :df_c650.10.007.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.007
+:just_df_c650.10.007 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.007 :temJustificacao :just_df_c650.10.007.
+:crit_just_df_c650.10.007_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.007 :temCriterio :crit_just_df_c650.10.007_1.
+:crit_just_df_c650.10.007_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.007_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.007_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.007_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.007_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.008
+:df_c650.10.008 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.008 :temDF :df_c650.10.008.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.008
+:just_df_c650.10.008 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.008 :temJustificacao :just_df_c650.10.008.
+:crit_just_df_c650.10.008_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.008 :temCriterio :crit_just_df_c650.10.008_1.
+:crit_just_df_c650.10.008_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.008_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.008_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.008_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.008_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.009
+:df_c650.10.009 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.009 :temDF :df_c650.10.009.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.009
+:just_df_c650.10.009 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.009 :temJustificacao :just_df_c650.10.009.
+:crit_just_df_c650.10.009_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.009 :temCriterio :crit_just_df_c650.10.009_1.
+:crit_just_df_c650.10.009_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.009_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.009_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.009_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.009_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.010
+:df_c650.10.010 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.010 :temDF :df_c650.10.010.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.010
+:just_df_c650.10.010 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.010 :temJustificacao :just_df_c650.10.010.
+:crit_just_df_c650.10.010_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.010 :temCriterio :crit_just_df_c650.10.010_1.
+:crit_just_df_c650.10.010_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.010_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.010_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.010_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.010_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.011
+:df_c650.10.011 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.011 :temDF :df_c650.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.011
+:just_df_c650.10.011 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.011 :temJustificacao :just_df_c650.10.011.
+:crit_just_df_c650.10.011_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.011 :temCriterio :crit_just_df_c650.10.011_1.
+:crit_just_df_c650.10.011_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.011_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.011_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.011_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.011_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.012
+:df_c650.10.012 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.012 :temDF :df_c650.10.012.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.012
+:just_df_c650.10.012 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.012 :temJustificacao :just_df_c650.10.012.
+:crit_just_df_c650.10.012_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.012 :temCriterio :crit_just_df_c650.10.012_1.
+:crit_just_df_c650.10.012_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.012_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.012_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.012_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.012_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.013
+:df_c650.10.013 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.013 :temDF :df_c650.10.013.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.013
+:just_df_c650.10.013 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.013 :temJustificacao :just_df_c650.10.013.
+:crit_just_df_c650.10.013_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.013 :temCriterio :crit_just_df_c650.10.013_1.
+:crit_just_df_c650.10.013_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.013_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.013_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.013_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.013_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.100
+:df_c650.10.100 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c650.10.100 :temDF :df_c650.10.100.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.100
+:just_df_c650.10.100 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.100 :temJustificacao :just_df_c650.10.100.
+:crit_just_df_c650.10.100_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Enumeração e tipificação dos casos recuperável através das estatísticas.Esta síntese não permite recuperar a atuação em particular da Administração, numa área em que a aplicação de regras pode ser mais flexivel.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área e a impossibilidade atual de conservar toda a produção.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.".
+:just_df_c650.10.100 :temCriterio :crit_just_df_c650.10.100_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.101
+:df_c650.10.101 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c650.10.101 :temDF :df_c650.10.101.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.101
+:just_df_c650.10.101 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.101 :temJustificacao :just_df_c650.10.101.
+:crit_just_df_c650.10.101_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Enumeração e tipificação dos casos recuperável através das estatísticas.Esta síntese não permite recuperar a atuação em particular da Administração, numa área em que a aplicação de regras pode ser mais flexivel.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área e a impossibilidade atual de conservar toda a produção.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.".
+:just_df_c650.10.101 :temCriterio :crit_just_df_c650.10.101_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.102
+:df_c650.10.102 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c650.10.102 :temDF :df_c650.10.102.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.102
+:just_df_c650.10.102 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.102 :temJustificacao :just_df_c650.10.102.
+:crit_just_df_c650.10.102_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Enumeração e tipificação dos casos recuperável através das estatísticas.Esta síntese não permite recuperar a atuação em particular da Administração, numa área em que a aplicação de regras pode ser mais flexivel.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área e a impossibilidade atual de conservar toda a produção.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.".
+:just_df_c650.10.102 :temCriterio :crit_just_df_c650.10.102_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.103
+:df_c650.10.103 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c650.10.103 :temDF :df_c650.10.103.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.103
+:just_df_c650.10.103 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.103 :temJustificacao :just_df_c650.10.103.
+:crit_just_df_c650.10.103_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Enumeração e tipificação dos casos recuperável através das estatísticas.Esta síntese não permite recuperar a atuação em particular da Administração, numa área em que a aplicação de regras pode ser mais flexivel.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área e a impossibilidade atual de conservar toda a produção.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.".
+:just_df_c650.10.103 :temCriterio :crit_just_df_c650.10.103_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.104
+:df_c650.10.104 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c650.10.104 :temDF :df_c650.10.104.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.104
+:just_df_c650.10.104 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.104 :temJustificacao :just_df_c650.10.104.
+:crit_just_df_c650.10.104_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Enumeração e tipificação dos casos recuperável através das estatísticas.Esta síntese não permite recuperar a atuação em particular da Administração, numa área em que a aplicação de regras pode ser mais flexivel.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área e a impossibilidade atual de conservar toda a produção.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.".
+:just_df_c650.10.104 :temCriterio :crit_just_df_c650.10.104_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.105
+:df_c650.10.105 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c650.10.105 :temDF :df_c650.10.105.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.105
+:just_df_c650.10.105 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.105 :temJustificacao :just_df_c650.10.105.
+:crit_just_df_c650.10.105_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Enumeração e tipificação dos casos recuperável através das estatísticas.Esta síntese não permite recuperar a atuação em particular da Administração, numa área em que a aplicação de regras pode ser mais flexivel.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área e a impossibilidade atual de conservar toda a produção.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.".
+:just_df_c650.10.105 :temCriterio :crit_just_df_c650.10.105_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.107
+:df_c650.10.107 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "CP".
+:c650.10.107 :temDF :df_c650.10.107.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.107
+:just_df_c650.10.107 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.107 :temJustificacao :just_df_c650.10.107.
+:crit_just_df_c650.10.107_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Enumeração e tipificação dos casos recuperável através das estatísticas.Esta síntese não permite recuperar a atuação em particular da Administração, numa área em que a aplicação de regras pode ser mais flexivel.A aplicação de um critério de amostragem aleatória sobre este PN permitirá conhecer em detalhe alguns casos e obter um subconjunto representativo de todas as características da população-alvo.Toma ainda como base o facto da imprevisibilidade dos estudos nesta área e a impossibilidade atual de conservar toda a produção.A constituição de uma amostra significativa do universo de onde é retirada, mediante a aplicação de métodos estatísticos com uma margem de erro controlada, será suficiente para representar o universo.A grelha para seleção da amostragem encontra-se no final desta página.".
+:just_df_c650.10.107 :temCriterio :crit_just_df_c650.10.107_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.109
+:df_c650.10.109 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c650.10.109 :temDF :df_c650.10.109.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.109
+:just_df_c650.10.109 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.109 :temJustificacao :just_df_c650.10.109.
+:crit_just_df_c650.10.109_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não recuperável noutro PN.".
+:just_df_c650.10.109 :temCriterio :crit_just_df_c650.10.109_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.110
+:df_c650.10.110 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.110 :temDF :df_c650.10.110.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.110
+:just_df_c650.10.110 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.110 :temJustificacao :just_df_c650.10.110.
+:crit_just_df_c650.10.110_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação.".
+:just_df_c650.10.110 :temCriterio :crit_just_df_c650.10.110_1.
+:crit_just_df_c650.10.110_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c650.10.110_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.110_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.200
+:df_c650.10.200 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.200 :temDF :df_c650.10.200.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.200
+:just_df_c650.10.200 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.200 :temJustificacao :just_df_c650.10.200.
+:crit_just_df_c650.10.200_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.200 :temCriterio :crit_just_df_c650.10.200_1.
+:crit_just_df_c650.10.200_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.200_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.200_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.200_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.200_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.201
+:df_c650.10.201 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.201 :temDF :df_c650.10.201.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.201
+:just_df_c650.10.201 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.201 :temJustificacao :just_df_c650.10.201.
+:crit_just_df_c650.10.201_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.201 :temCriterio :crit_just_df_c650.10.201_1.
+:crit_just_df_c650.10.201_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.201_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.201_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.201_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.201_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.202
+:df_c650.10.202 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.202 :temDF :df_c650.10.202.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.202
+:just_df_c650.10.202 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.202 :temJustificacao :just_df_c650.10.202.
+:crit_just_df_c650.10.202_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.202 :temCriterio :crit_just_df_c650.10.202_1.
+:crit_just_df_c650.10.202_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.202_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.202_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.202_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.202_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.203
+:df_c650.10.203 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.203 :temDF :df_c650.10.203.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.203
+:just_df_c650.10.203 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.203 :temJustificacao :just_df_c650.10.203.
+:crit_just_df_c650.10.203_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.203 :temCriterio :crit_just_df_c650.10.203_1.
+:crit_just_df_c650.10.203_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.203_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.203_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.203_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.203_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.204
+:df_c650.10.204 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.204 :temDF :df_c650.10.204.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.204
+:just_df_c650.10.204 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.204 :temJustificacao :just_df_c650.10.204.
+:crit_just_df_c650.10.204_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.204 :temCriterio :crit_just_df_c650.10.204_1.
+:crit_just_df_c650.10.204_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.204_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.204_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.204_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.204_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.205
+:df_c650.10.205 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.205 :temDF :df_c650.10.205.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.205
+:just_df_c650.10.205 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.205 :temJustificacao :just_df_c650.10.205.
+:crit_just_df_c650.10.205_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.205 :temCriterio :crit_just_df_c650.10.205_1.
+:crit_just_df_c650.10.205_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.205_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.205_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.205_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.205_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.206
+:df_c650.10.206 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.206 :temDF :df_c650.10.206.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.206
+:just_df_c650.10.206 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.206 :temJustificacao :just_df_c650.10.206.
+:crit_just_df_c650.10.206_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.206 :temCriterio :crit_just_df_c650.10.206_1.
+:crit_just_df_c650.10.206_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.206_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.206_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.206_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.206_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.207
+:df_c650.10.207 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.207 :temDF :df_c650.10.207.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.207
+:just_df_c650.10.207 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.207 :temJustificacao :just_df_c650.10.207.
+:crit_just_df_c650.10.207_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.207 :temCriterio :crit_just_df_c650.10.207_1.
+:crit_just_df_c650.10.207_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.207_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.207_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.207_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.207_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.208
+:df_c650.10.208 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.208 :temDF :df_c650.10.208.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.208
+:just_df_c650.10.208 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.208 :temJustificacao :just_df_c650.10.208.
+:crit_just_df_c650.10.208_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.208 :temCriterio :crit_just_df_c650.10.208_1.
+:crit_just_df_c650.10.208_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.208_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.208_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.208_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.208_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.209
+:df_c650.10.209 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.209 :temDF :df_c650.10.209.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.209
+:just_df_c650.10.209 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.209 :temJustificacao :just_df_c650.10.209.
+:crit_just_df_c650.10.209_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.209 :temCriterio :crit_just_df_c650.10.209_1.
+:crit_just_df_c650.10.209_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.209_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.209_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.209_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.209_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.210
+:df_c650.10.210 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.210 :temDF :df_c650.10.210.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.210
+:just_df_c650.10.210 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.210 :temJustificacao :just_df_c650.10.210.
+:crit_just_df_c650.10.210_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.210 :temCriterio :crit_just_df_c650.10.210_1.
+:crit_just_df_c650.10.210_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.210_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.210_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.210_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.210_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.211
+:df_c650.10.211 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.211 :temDF :df_c650.10.211.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.211
+:just_df_c650.10.211 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.211 :temJustificacao :just_df_c650.10.211.
+:crit_just_df_c650.10.211_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.211 :temCriterio :crit_just_df_c650.10.211_1.
+:crit_just_df_c650.10.211_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.211_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.211_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.211_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.211_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.300
+:df_c650.10.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.300 :temDF :df_c650.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.300
+:just_df_c650.10.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.300 :temJustificacao :just_df_c650.10.300.
+:crit_just_df_c650.10.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.300 :temCriterio :crit_just_df_c650.10.300_1.
+:crit_just_df_c650.10.300_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.300_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.300_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.300_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.300_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.301
+:df_c650.10.301 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.301 :temDF :df_c650.10.301.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.301
+:just_df_c650.10.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.301 :temJustificacao :just_df_c650.10.301.
+:crit_just_df_c650.10.301_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.301 :temCriterio :crit_just_df_c650.10.301_1.
+:crit_just_df_c650.10.301_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.301_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.301_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.301_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.301_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.302
+:df_c650.10.302 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.302 :temDF :df_c650.10.302.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.302
+:just_df_c650.10.302 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.302 :temJustificacao :just_df_c650.10.302.
+:crit_just_df_c650.10.302_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.302 :temCriterio :crit_just_df_c650.10.302_1.
+:crit_just_df_c650.10.302_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.302_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.302_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.302_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.302_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.303
+:df_c650.10.303 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.303 :temDF :df_c650.10.303.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.303
+:just_df_c650.10.303 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.303 :temJustificacao :just_df_c650.10.303.
+:crit_just_df_c650.10.303_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.303 :temCriterio :crit_just_df_c650.10.303_1.
+:crit_just_df_c650.10.303_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.303_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.303_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.303_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.303_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.304
+:df_c650.10.304 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.304 :temDF :df_c650.10.304.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.304
+:just_df_c650.10.304 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.304 :temJustificacao :just_df_c650.10.304.
+:crit_just_df_c650.10.304_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.304 :temCriterio :crit_just_df_c650.10.304_1.
+:crit_just_df_c650.10.304_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.304_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.304_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.304_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.304_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.305
+:df_c650.10.305 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.305 :temDF :df_c650.10.305.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.305
+:just_df_c650.10.305 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.305 :temJustificacao :just_df_c650.10.305.
+:crit_just_df_c650.10.305_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.305 :temCriterio :crit_just_df_c650.10.305_1.
+:crit_just_df_c650.10.305_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.305_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.305_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.305_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.305_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.306
+:df_c650.10.306 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.306 :temDF :df_c650.10.306.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.306
+:just_df_c650.10.306 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.306 :temJustificacao :just_df_c650.10.306.
+:crit_just_df_c650.10.306_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.306 :temCriterio :crit_just_df_c650.10.306_1.
+:crit_just_df_c650.10.306_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.306_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.306_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.306_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.306_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.307
+:df_c650.10.307 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.307 :temDF :df_c650.10.307.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.307
+:just_df_c650.10.307 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.307 :temJustificacao :just_df_c650.10.307.
+:crit_just_df_c650.10.307_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.307 :temCriterio :crit_just_df_c650.10.307_1.
+:crit_just_df_c650.10.307_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.307_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.307_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.307_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.307_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.308
+:df_c650.10.308 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.308 :temDF :df_c650.10.308.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.308
+:just_df_c650.10.308 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.308 :temJustificacao :just_df_c650.10.308.
+:crit_just_df_c650.10.308_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.308 :temCriterio :crit_just_df_c650.10.308_1.
+:crit_just_df_c650.10.308_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.308_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.308_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.308_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.308_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.309
+:df_c650.10.309 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.10.309 :temDF :df_c650.10.309.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.309
+:just_df_c650.10.309 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.309 :temJustificacao :just_df_c650.10.309.
+:crit_just_df_c650.10.309_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.404 - Prestação de contas;PN 150.40.001 - Realização de operações estatísticas oficiais;PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação;PN 400.10.011 - Registo de trabalhadores no sistema da Segurança Social;A aplicação de regras para a determinação da prestação a atribuir encontra-se sujeita a condições formais rigorosas de controlo acentuado, sendo essas regras presevadas em 100.10.".
+:just_df_c650.10.309 :temCriterio :crit_just_df_c650.10.309_1.
+:crit_just_df_c650.10.309_1 :temProcessoRelacionado :c150.20.404.
+:crit_just_df_c650.10.309_1 :temProcessoRelacionado :c150.40.001.
+:crit_just_df_c650.10.309_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.10.309_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.10.309_1 :temProcessoRelacionado :c400.10.011.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.400
+:df_c650.10.400 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c650.10.400 :temDF :df_c650.10.400.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.400
+:just_df_c650.10.400 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.400 :temJustificacao :just_df_c650.10.400.
+:crit_just_df_c650.10.400_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Os compromissos e protocolos estabelecidos ao nível ministerial ou globais encontram-se noPN 150.10.500 - Elaboração de instrumentos de cooperação interinstitucionalOs montantes globais relativos a comparticipações noPN 150.20.404 - Prestação de contasTodavia esta síntese não permite recuperar a atuação em particular da Administração, nomeadamente a especificidade das comparticipações.".
+:just_df_c650.10.400 :temCriterio :crit_just_df_c650.10.400_1.
+:crit_just_df_c650.10.400_1 :temProcessoRelacionado :c150.10.500.
+:crit_just_df_c650.10.400_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.401
+:df_c650.10.401 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c650.10.401 :temDF :df_c650.10.401.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.401
+:just_df_c650.10.401 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.401 :temJustificacao :just_df_c650.10.401.
+:crit_just_df_c650.10.401_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Os compromissos e protocolos estabelecidos ao nível ministerial ou globais encontram-se noPN 150.10.500 - Elaboração de instrumentos de cooperação interinstitucionalOs montantes globais relativos a comparticipações noPN 150.20.404 - Prestação de contasTodavia esta síntese não permite recuperar a atuação em particular da Administração, nomeadamente a especificidade das comparticipações.".
+:just_df_c650.10.401 :temCriterio :crit_just_df_c650.10.401_1.
+:crit_just_df_c650.10.401_1 :temProcessoRelacionado :c150.10.500.
+:crit_just_df_c650.10.401_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.10.500
+:df_c650.10.500 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c650.10.500 :temDF :df_c650.10.500.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.10.500
+:just_df_c650.10.500 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.10.500 :temJustificacao :just_df_c650.10.500.
+:crit_just_df_c650.10.500_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Os compromissos e protocolos estabelecidos ao nível ministerial ou globais encontram-se noPN 150.10.500 - Elaboração de instrumentos de cooperação interinstitucionalOs montantes globais relativos a comparticipações noPN 150.20.404 - Prestação de contasTodavia esta síntese não permite recuperar a atuação em particular da Administração, nomeadamente a especificidade das comparticipações.".
+:just_df_c650.10.500 :temCriterio :crit_just_df_c650.10.500_1.
+:crit_just_df_c650.10.500_1 :temProcessoRelacionado :c150.10.500.
+:crit_just_df_c650.10.500_1 :temProcessoRelacionado :c150.20.404.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.20.001
+:df_c650.20.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c650.20.001 :temDF :df_c650.20.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.20.001
+:just_df_c650.20.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.20.001 :temJustificacao :just_df_c650.20.001.
+:crit_just_df_c650.20.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação não sintetizada, porque dela decorre um conjunto de outros PN.Através deste PN têm-se conhecimento global das situações de vulnerabilidade e das soluções propostas pela Administração. Os resultados sintetizados da ação da Administração são obtidos pelos relatórios (atuação global) e pelos dados cadastrais (identificação dos individuos apoiados).".
+:just_df_c650.20.001 :temCriterio :crit_just_df_c650.20.001_1.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.20.300
+:df_c650.20.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.20.300 :temDF :df_c650.20.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.20.300
+:just_df_c650.20.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.20.300 :temJustificacao :just_df_c650.20.300.
+:crit_just_df_c650.20.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação (casos tratados).".
+:just_df_c650.20.300 :temCriterio :crit_just_df_c650.20.300_1.
+:crit_just_df_c650.20.300_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c650.20.300_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.20.300_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.20.301
+:df_c650.20.301 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.20.301 :temDF :df_c650.20.301.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.20.301
+:just_df_c650.20.301 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.20.301 :temJustificacao :just_df_c650.20.301.
+:crit_just_df_c650.20.301_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação (casos tratados).".
+:just_df_c650.20.301 :temCriterio :crit_just_df_c650.20.301_1.
+:crit_just_df_c650.20.301_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c650.20.301_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.20.301_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.20.302
+:df_c650.20.302 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.20.302 :temDF :df_c650.20.302.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.20.302
+:just_df_c650.20.302 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.20.302 :temJustificacao :just_df_c650.20.302.
+:crit_just_df_c650.20.302_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação (casos tratados).".
+:just_df_c650.20.302 :temCriterio :crit_just_df_c650.20.302_1.
+:crit_just_df_c650.20.302_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c650.20.302_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.20.302_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.20.304
+:df_c650.20.304 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.20.304 :temDF :df_c650.20.304.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.20.304
+:just_df_c650.20.304 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.20.304 :temJustificacao :just_df_c650.20.304.
+:crit_just_df_c650.20.304_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação (casos tratados);PN 650.20.604 - Processamento dos dados cadastrais de utentes em respostas sociais de acolhimento;PN 750.10.300 - Processamento de dados cadastrais de alunos ou formandos.".
+:just_df_c650.20.304 :temCriterio :crit_just_df_c650.20.304_1.
+:crit_just_df_c650.20.304_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c650.20.304_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.20.304_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.20.304_1 :temProcessoRelacionado :c650.20.604.
+:crit_just_df_c650.20.304_1 :temProcessoRelacionado :c750.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.20.306
+:df_c650.20.306 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.20.306 :temDF :df_c650.20.306.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.20.306
+:just_df_c650.20.306 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.20.306 :temJustificacao :just_df_c650.20.306.
+:crit_just_df_c650.20.306_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "A informação encontra-se sintetizada e é recuperável emPN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos e informação.".
+:just_df_c650.20.306 :temCriterio :crit_just_df_c650.20.306_1.
+:crit_just_df_c650.20.306_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c650.20.306_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.20.600
+:df_c650.20.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.20.600 :temDF :df_c650.20.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.20.600
+:just_df_c650.20.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.20.600 :temJustificacao :just_df_c650.20.600.
+:crit_just_df_c650.20.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.10.600 - Avaliação de políticas e instrumentos de operacionalização;PN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação (casos tratados);PN 650.20.604 - Processamento dos dados cadastrais de utentes em respostas sociais de acolhimento.".
+:just_df_c650.20.600 :temCriterio :crit_just_df_c650.20.600_1.
+:crit_just_df_c650.20.600_1 :temProcessoRelacionado :c150.10.600.
+:crit_just_df_c650.20.600_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c650.20.600_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.20.600_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.20.600_1 :temProcessoRelacionado :c650.20.604.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.20.601
+:df_c650.20.601 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.20.601 :temDF :df_c650.20.601.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.20.601
+:just_df_c650.20.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.20.601 :temJustificacao :just_df_c650.20.601.
+:crit_just_df_c650.20.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.10.600 - Avaliação de políticas e instrumentos de operacionalização;PN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestão;PN 300.30.008 - Registo de documentos e informação (casos tratados);PN 650.20.604 - Processamento dos dados cadastrais de utentes em respostas sociais de acolhimento.".
+:just_df_c650.20.601 :temCriterio :crit_just_df_c650.20.601_1.
+:crit_just_df_c650.20.601_1 :temProcessoRelacionado :c150.10.600.
+:crit_just_df_c650.20.601_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c650.20.601_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.20.601_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.20.601_1 :temProcessoRelacionado :c650.20.604.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.20.602
+:df_c650.20.602 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.20.602 :temDF :df_c650.20.602.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.20.602
+:just_df_c650.20.602 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.20.602 :temJustificacao :just_df_c650.20.602.
+:crit_just_df_c650.20.602_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade)PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestãoPN 300.30.008 - Registo de documentos e informação (casos tratados)PN 650.20.604 - Processamento dos dados cadastrais de utentes em respostas sociais de acolhimento".
+:just_df_c650.20.602 :temCriterio :crit_just_df_c650.20.602_1.
+:crit_just_df_c650.20.602_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c650.20.602_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.20.602_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.20.602_1 :temProcessoRelacionado :c650.20.604.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.20.603
+:df_c650.20.603 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c650.20.603 :temDF :df_c650.20.603.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.20.603
+:just_df_c650.20.603 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.20.603 :temJustificacao :just_df_c650.20.603.
+:crit_just_df_c650.20.603_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade)PN 150.40.500 - Recolha e tratamento de dados estatísticos de apoio à gestãoPN 300.30.008 - Registo de documentos e informação (casos tratados)PN 650.20.604 - Processamento dos dados cadastrais de utentes em respostas sociais de acolhimento".
+:just_df_c650.20.603 :temCriterio :crit_just_df_c650.20.603_1.
+:crit_just_df_c650.20.603_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c650.20.603_1 :temProcessoRelacionado :c150.40.500.
+:crit_just_df_c650.20.603_1 :temProcessoRelacionado :c300.30.008.
+:crit_just_df_c650.20.603_1 :temProcessoRelacionado :c650.20.604.
+###  http://jcr.di.uminho.pt/m51-clav#df_c650.20.604
+:df_c650.20.604 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c650.20.604 :temDF :df_c650.20.604.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c650.20.604
+:just_df_c650.20.604 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c650.20.604 :temJustificacao :just_df_c650.20.604.
+:crit_just_df_c650.20.604_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Síntetiza osPN  650.20.304 - Apoio psicossocial;PN 650.20.601 - Admissão e desenvolvimento em instituições sociais residenciais ou estruturas de alojamento;PN 650.20.603 - Utilização de equipamentos de apoio social residenciais e não residenciais.".
+:just_df_c650.20.604 :temCriterio :crit_just_df_c650.20.604_1.
+:crit_just_df_c650.20.604_1 :temProcessoRelacionado :c650.20.304.
+:crit_just_df_c650.20.604_1 :temProcessoRelacionado :c650.20.601.
+:crit_just_df_c650.20.604_1 :temProcessoRelacionado :c650.20.603.

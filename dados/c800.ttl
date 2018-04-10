@@ -1,0 +1,1854 @@
+### Classe800
+###  http://jcr.di.uminho.pt/m51-clav#na_c800_1
+:na_c800_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Aplicável tanto às entidades que prestam os serviços referidos como aos que solicitam a prestação dos mesmos.".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800_1
+:ne_c800_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A prestação de serviços de ensino/formação deve ser considerada em \"Prestação de serviços de ensino e formação\" (750).A prestação de cuidados de saúde deve ser considerada em \"Prestação de cuidados de saúde\" (700).Os processos de investigação criminal devem ser considerados em \"Administração da justiça/ Prevenção e investigação criminal\" (600.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800
+:c800 rdf:type owl:NamedIndividual ,
+	:Classe_N1;
+	:codigo "800";
+	:titulo "PRESTAÇÃO DE SERVIÇOS TÉCNICOS E CIENTÍFICOS, INVESTIGAÇÃO E DESENVOLVIMENTO";
+	:pertenceLC :lc1 ;
+	:temNotaAplicacao :na_c800_1 ;
+	:temNotaExclusao :ne_c800_1 ;
+	:classeStatus "A" ;
+	:descricao "Relativo a atividades de investigação científica em qualquer domínio do conhecimento, a atividades de desenvolvimento técnico e tecnológico, de transferência de tecnologia e inovação, bem como a outras atividades que utilizam métodos científicos para a produção de conhecimento ou resolução de problemas.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10_1
+:na_c800.10_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Exemplos de aplicação:- Processos de recolha e processamento de informação geodésica e georreferenciada para caracterização topográfica e topo-hidrográfica, administrativa, geológica, biológica, ou outra;- Processos de monitorização e vigilância sísmica, climática, sanitária, epidemiológica;- Produção de cartografia de base ou temática;- Realização de análises laboratoriais;- Realização de peritagens;- Elaboração de estudos de impacto ambiental.".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10_1
+:ne_c800.10_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "De notar que os resultados (relatórios finais) das atividades técnico-científicas constituem-se, por vezes, em inputs de outros processos (por exemplo, o resultado de um estudo de impacto ambiental pode vir a integrar um processo de planeamento, o resultado do processamento de análises laboratoriais pode vir a integrar um processo de investigação criminal, etc.).Os relatórios de estudos de impacto ambiental, ou outros, entregues para fundamentação ou apreciação associada a um processo de decisão (de planeamento, de licenciamento ou outro) devem ser considerados no âmbito do processo em causa.A produção estatística deve ser considerada em \"Planeamento e gestão estratégica/ Produção de informação estatística\" (150.40).A contratualização e a gestão de contratos de qualquer serviço prestado pelos organismos da Administração devem ser consideradas em \"Administração de direitos, bens e serviços/ Aquisição, venda, abate ou permuta\" (300.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10
+:c800.10 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "800.10";
+	:titulo "Execução de serviços científicos e técnicos";
+	:temPai :c800 ;
+	:temNotaAplicacao :na_c800.10_1 ;
+	:temNotaExclusao :ne_c800.10_1 ;
+	:classeStatus "A" ;
+	:descricao "Compreende os serviços de assistência técnica por emissão de relatórios ou pareceres técnicos especializados com base em instrumentos de referência e/ou no conhecimento científico, e/ou serviços de assistência técnica no campo (ex. exploração de recursos naturais) ou laboratorial (ex. desenvolvimento de novos métodos analíticos ou aplicação de metodologias conhecidas a pedido de clientes).Compreende também o levantamento de dados e constituição de repositórios ou bancos de dados de reconhecimento ou monitorização de parâmetros em qualquer domínio científico e para qualquer finalidade, a produção de cartografia digital ou analógica, a realização de trabalhos laboratoriais, de exames periciais, de estudos de impacto ou outros trabalhos de apoio e consultoria técnico-científica.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.001_1
+:na_c800.10.001_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Produção de cartografia de base (topográfica e topográfica de imagem, vulgarmente conhecida por ortofotomapas)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.001_2
+:na_c800.10.001_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Produção de cartografia hidrográfica".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.001_3
+:na_c800.10.001_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Produção de cartografia temática".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.001_4
+:na_c800.10.001_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Produção de cartografia derivada".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.001_1
+:ne_c800.10.001_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A contratualização de serviços no âmbito da recolha ou produção de informação geográfica deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis e prestação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.001
+:c800.10.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.001";
+	:titulo "Produção de informação georreferenciada";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AL ;
+	:temDono :org_DGT ;
+	:temNotaAplicacao :na_c800.10.001_1 ;
+	:temNotaAplicacao :na_c800.10.001_2 ;
+	:temNotaAplicacao :na_c800.10.001_3 ;
+	:temNotaAplicacao :na_c800.10.001_4 ;
+	:temNotaExclusao :ne_c800.10.001_1 ;
+	:eCruzadoCom :c150.10.600 ;
+	:eSinteseDe :c710.10.003 ;
+	:eSinteseDe :c710.10.004 ;
+	:eSinteseDe :c710.10.005 ;
+	:eComplementarDe :c800.10.002 ;
+	:eSucessorDe :c800.10.302 ;
+	:temLegislacao :leg_771 ;
+	:temLegislacao :leg_889 ;
+	:temLegislacao :leg_584 ;
+	:temLegislacao :leg_169 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Aquisição e processamento de informação geográfica e alfanumérica.Inicia com recolha de informação geodésica, topográfica e fotogramétrica e de informação temática, organizada ou não sob a forma de bases de dados digitais, e termina com a obtenção de cartografia de base, de cartografia temática e de conjuntos de dados geográficos, de acordo com as solicitações dos utilizadoresInclui execução de levantamentos diretos com base em GNSS e Topografia, levantamentos fotogramétricos com base em imagens aéreas ou orbitais, recolha de dados cartográficos já existentes, fotointerpretação de imagens, generalização cartográfica, criação de Modelos Digitais do Terreno e de Superfície. ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.002_1
+:na_c800.10.002_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Constituição de sistemas geodésicos de referência".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.002_2
+:na_c800.10.002_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Determinação de coordenadas e altitudes de vértices geodésicos para controlo posicional e levantamentos topográficos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.002_3
+:na_c800.10.002_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Determinação de altitudes de alta precisão, para cartografia e projetos de apoio à construção de obras de arte".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.002_4
+:na_c800.10.002_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Determinação de valores de aceleração da gravidade para a exploração mineira, entre outras".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.002_5
+:na_c800.10.002_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Disponibilização de registos maregráficos para elaboração de tabelas de maré, apoio a levantamentos hidrográficos e controlo de zonas costeiras".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.002
+:c800.10.002 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.002";
+	:titulo "Produção de informação geodésica";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "N" ;
+	:temDono :org_DGT ;
+	:temNotaAplicacao :na_c800.10.002_1 ;
+	:temNotaAplicacao :na_c800.10.002_2 ;
+	:temNotaAplicacao :na_c800.10.002_3 ;
+	:temNotaAplicacao :na_c800.10.002_4 ;
+	:temNotaAplicacao :na_c800.10.002_5 ;
+	:eCruzadoCom :c150.10.600 ;
+	:eComplementarDe :c800.10.001 ;
+	:temLegislacao :leg_1344 ;
+	:temLegislacao :leg_1410 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Levantamento e processamento de dados geodésicos para constituição de repositórios de dados, com vista à determinação de sistemas geográficos de referência, data altimétricos e planimétricos e parâmetros de transformação. Processo essencial de suporte a toda a produção de cartografia de base. Inicia com a aquisição de dados e termina com a produção da informação. Inclui levantamentos geodésicos no local, monitorização/aferição de equipamentos, validação, cálculo e processamento dos dados.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_2
+:na_c800.10.300_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Controlo ambiental em contexto de higiene e saúde no trabalho".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_3
+:na_c800.10.300_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização e controlo ambiental de instalações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_1
+:na_c800.10.300_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Identificação de microorganismos em equipamentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_4
+:na_c800.10.300_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Verificação e controlo microbiológico de instrumentos e mecanismos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_5
+:na_c800.10.300_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Controlo da temperatura e da humidade em equipamentos, instrumentos e mecanismos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_6
+:na_c800.10.300_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Controlo ambiental de infraestruturas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.300_7
+:na_c800.10.300_7 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Controlo ambiental de laboratórios".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.300_1
+:ne_c800.10.300_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O combate a fatores de risco ambientais deve ser considerado em 300.40.506 – Implementação de ações para cumprimento de parâmetros ambientais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.300_2
+:ne_c800.10.300_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Combate às pragas deverá ser considerado no 710.10.600 – Controlo de pragas e infestantes".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.300
+:c800.10.300 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.300";
+	:titulo "Controlo ambiental de infraestruturas e equipamentos";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c800.10.300_1 ;
+	:temNotaAplicacao :na_c800.10.300_2 ;
+	:temNotaAplicacao :na_c800.10.300_3 ;
+	:temNotaAplicacao :na_c800.10.300_4 ;
+	:temNotaAplicacao :na_c800.10.300_5 ;
+	:temNotaAplicacao :na_c800.10.300_6 ;
+	:temNotaAplicacao :na_c800.10.300_7 ;
+	:temNotaExclusao :ne_c800.10.300_1 ;
+	:temNotaExclusao :ne_c800.10.300_2 ;
+	:eCruzadoCom :c150.10.200 ;
+	:eAntecessorDe :c150.40.500 ;
+	:eCruzadoCom :c250.30.600 ;
+	:eCruzadoCom :c300.10.005 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c300.40.503 ;
+	:eCruzadoCom :c300.40.505 ;
+	:eCruzadoCom :c300.40.506 ;
+	:eCruzadoCom :c300.40.507 ;
+	:eCruzadoCom :c300.40.509 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eAntecessorDe :c500.30.500 ;
+	:eAntecessorDe :c550.20.001 ;
+	:eCruzadoCom :c700.10.001 ;
+	:eCruzadoCom :c700.20.100 ;
+	:eCruzadoCom :c710.10.600 ;
+	:eCruzadoCom :c800.10.601 ;
+	:temLegislacao :leg_1191 ;
+	:temLegislacao :leg_1126 ;
+	:temLegislacao :leg_841 ;
+	:temLegislacao :leg_884 ;
+	:temLegislacao :leg_683 ;
+	:temLegislacao :leg_650 ;
+	:temLegislacao :leg_516 ;
+	:temLegislacao :leg_517 ;
+	:temLegislacao :leg_479 ;
+	:temLegislacao :leg_473 ;
+	:temLegislacao :leg_827 ;
+	:temLegislacao :leg_116 ;
+	:temLegislacao :leg_65 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
+	:descricao "Recolha contínua ou pontual de informação ou dados, quantitativos ou qualitativos, de modo a garantir o controlo ambiental tendo por base valores de referência.Inicia com a observação ou medição de informação e termina com a identificação de fatores críticos ou a validação de agentes padrão.Inclui registo de valores.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_1
+:na_c800.10.301_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização de índices de qualidade das massas de água".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_2
+:na_c800.10.301_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização das águas balneares costeiras e fluviais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_3
+:na_c800.10.301_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização microbiológica das areias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_4
+:na_c800.10.301_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização de índices de qualidade do ar".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_5
+:na_c800.10.301_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização de índices de poluição do solo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_6
+:na_c800.10.301_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização de índices de ruído".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_7
+:na_c800.10.301_7 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização de índices radiológicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.301_1
+:ne_c800.10.301_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os índices de poluição em ambiente de trabalho devem ser considerados em 800.10.300 – Controlo ambiental de infraestruturas e equipamentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.301_8
+:na_c800.10.301_8 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " ".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.301_2
+:ne_c800.10.301_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os avisos e alertas de segurança devem ser considerados em 550.20.001 – Emissão de avisos e declaração de alertas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.301_3
+:ne_c800.10.301_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A vigilância no âmbito da segurança deve ser considerada em 550.20.002 – Ação de vigilância".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.301_4
+:ne_c800.10.301_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A qualidade da água da rede de distribuição pública deve ser considerada em 800.10.303 – Monitorização do abastecimento e distribuição de água e do saneamento de águas residuais".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.301
+:c800.10.301 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.301";
+	:titulo "Monitorização de índices da qualidade ambiental";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "N" ;
+	:temDono :org_APA ;
+	:temDono :org_CCDR-N ;
+	:temDono :org_CCDR-C ;
+	:temDono :org_CCDR-LVT ;
+	:temDono :org_CCDR-Aln ;
+	:temDono :org_CCDR-Alg ;
+	:temDono :org_DRAP-N ;
+	:temDono :org_DRAP-C ;
+	:temDono :org_DRAP-LVT ;
+	:temDono :org_DRAP-Aln ;
+	:temDono :org_DRAP-Alg ;
+	:temDono :org_IPMA ;
+	:temDono :org_DGADR ;
+	:temDono :conj_org_AL ;
+	:temDono :conj_org_ACES ;
+	:temDono :org_IST ;
+	:temDono :org_DGRM ;
+	:temDono :org_ARS-N ;
+	:temDono :org_ARS-C ;
+	:temDono :org_ARS-LVT ;
+	:temDono :org_ARS-Aln ;
+	:temDono :org_ARS-Alg ;
+	:temDono :org_INSA ;
+	:temDono :org_DGS ;
+	:temNotaAplicacao :na_c800.10.301_1 ;
+	:temNotaAplicacao :na_c800.10.301_2 ;
+	:temNotaAplicacao :na_c800.10.301_3 ;
+	:temNotaAplicacao :na_c800.10.301_4 ;
+	:temNotaAplicacao :na_c800.10.301_5 ;
+	:temNotaAplicacao :na_c800.10.301_6 ;
+	:temNotaAplicacao :na_c800.10.301_7 ;
+	:temNotaAplicacao :na_c800.10.301_8 ;
+	:temNotaExclusao :ne_c800.10.301_1 ;
+	:temNotaExclusao :ne_c800.10.301_2 ;
+	:temNotaExclusao :ne_c800.10.301_3 ;
+	:temNotaExclusao :ne_c800.10.301_4 ;
+	:eCruzadoCom :c150.10.100 ;
+	:eCruzadoCom :c150.10.200 ;
+	:eSucessorDe :c150.10.600 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eCruzadoCom :c200.10.001 ;
+	:eCruzadoCom :c200.10.800 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c300.40.502 ;
+	:eCruzadoCom :c300.40.506 ;
+	:eAntecessorDe :c300.50.601 ;
+	:eCruzadoCom :c450.10.066 ;
+	:eCruzadoCom :c450.10.068 ;
+	:eCruzadoCom :c450.10.070 ;
+	:eCruzadoCom :c450.10.072 ;
+	:eCruzadoCom :c450.10.207 ;
+	:eCruzadoCom :c450.10.208 ;
+	:eCruzadoCom :c450.10.215 ;
+	:eCruzadoCom :c450.10.223 ;
+	:eCruzadoCom :c450.10.232 ;
+	:eCruzadoCom :c450.10.234 ;
+	:eCruzadoCom :c450.10.640 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c500.30.001 ;
+	:eAntecessorDe :c550.20.001 ;
+	:eAntecessorDe :c550.20.002 ;
+	:eCruzadoCom :c800.10.601 ;
+	:eCruzadoCom :c800.10.602 ;
+	:temLegislacao :leg_1266 ;
+	:temLegislacao :leg_1129 ;
+	:temLegislacao :leg_1113 ;
+	:temLegislacao :leg_910 ;
+	:temLegislacao :leg_867 ;
+	:temLegislacao :leg_866 ;
+	:temLegislacao :leg_703 ;
+	:temLegislacao :leg_593 ;
+	:temLegislacao :leg_585 ;
+	:temLegislacao :leg_574 ;
+	:temLegislacao :leg_539 ;
+	:temLegislacao :leg_529 ;
+	:temLegislacao :leg_534 ;
+	:temLegislacao :leg_500 ;
+	:temLegislacao :leg_495 ;
+	:temLegislacao :leg_464 ;
+	:temLegislacao :leg_439 ;
+	:temLegislacao :leg_419 ;
+	:temLegislacao :leg_406 ;
+	:temLegislacao :leg_401 ;
+	:temLegislacao :leg_399 ;
+	:temLegislacao :leg_362 ;
+	:temLegislacao :leg_335 ;
+	:temLegislacao :leg_257 ;
+	:temLegislacao :leg_140 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Recolha  contínua ou pontual de informação sobre níveis de ruído, da qualidade da água, do ar e de  toxicidade do solo.Inicia com a verificação  de acordo com um plano de monitorização previamente estabelecido e termina com o relatório de apuramento de valores e sua comparação com os indicadores de referência.Inclui a identificação das fontes de emissão, do tipo poluentes e a evolução das concentrações médias anuais.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.302_1
+:na_c800.10.302_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização de áreas protegidas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.302_2
+:na_c800.10.302_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização de elementos geológicos, geomorfológicos e hidrográficos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.302_3
+:na_c800.10.302_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização de fauna e flora em vias de extinção".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.302_4
+:na_c800.10.302_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização de habitats naturais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.302_5
+:na_c800.10.302_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização de geomonumentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.302_6
+:na_c800.10.302_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Monitorização de parques naturais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.302_7
+:na_c800.10.302_7 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização de reservas ecológicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.302_8
+:na_c800.10.302_8 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Monitorização dos aspetos hidrográficos / hidromorfológicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.302_1
+:ne_c800.10.302_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A conservação e proteção de recursos naturais, espécies e paisagens deve ser considerada em 300.40.502 – Conservação e proteção de recursos naturais, espécies e paisagens".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.302_2
+:ne_c800.10.302_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A classificação de áreas protegidas deve ser considerada em 450.20.505 – Classificação de bens sítios e áreas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.302_3
+:ne_c800.10.302_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os avisos e alertas de segurança devem ser considerados em 550.20.001 – Emissão de avisos e declaração de alertas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.302_4
+:ne_c800.10.302_4 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A vigilância no âmbito da segurança deve ser considerada em 550.20.002 – Ação de vigilância".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.302
+:c800.10.302 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.302";
+	:titulo "Monitorização de recursos naturais, espécies e paisagens";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "N" ;
+	:temDono :org_APA ;
+	:temDono :org_DGADR ;
+	:temDono :org_DGRM ;
+	:temDono :org_ICNF ;
+	:temNotaAplicacao :na_c800.10.302_1 ;
+	:temNotaAplicacao :na_c800.10.302_2 ;
+	:temNotaAplicacao :na_c800.10.302_3 ;
+	:temNotaAplicacao :na_c800.10.302_4 ;
+	:temNotaAplicacao :na_c800.10.302_5 ;
+	:temNotaAplicacao :na_c800.10.302_6 ;
+	:temNotaAplicacao :na_c800.10.302_7 ;
+	:temNotaAplicacao :na_c800.10.302_8 ;
+	:temNotaExclusao :ne_c800.10.302_1 ;
+	:temNotaExclusao :ne_c800.10.302_2 ;
+	:temNotaExclusao :ne_c800.10.302_3 ;
+	:temNotaExclusao :ne_c800.10.302_4 ;
+	:eAntecessorDe :c150.10.100 ;
+	:eAntecessorDe :c150.10.200 ;
+	:eAntecessorDe :c150.10.300 ;
+	:eAntecessorDe :c150.10.500 ;
+	:eAntecessorDe :c150.20.101 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eAntecessorDe :c200.10.800 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c300.40.004 ;
+	:eCruzadoCom :c300.40.502 ;
+	:eCruzadoCom :c300.40.506 ;
+	:eCruzadoCom :c300.50.601 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c550.10.300 ;
+	:eAntecessorDe :c550.20.001 ;
+	:eCruzadoCom :c550.20.002 ;
+	:eAntecessorDe :c800.10.001 ;
+	:eCruzadoCom :c800.10.601 ;
+	:eCruzadoCom :c800.10.602 ;
+	:eCruzadoCom :c800.10.608 ;
+	:eCruzadoCom :c800.20.001 ;
+	:eCruzadoCom :c800.20.002 ;
+	:eCruzadoCom :c800.20.500 ;
+	:eAntecessorDe :c850.10.003 ;
+	:temLegislacao :leg_1352 ;
+	:temLegislacao :leg_1334 ;
+	:temLegislacao :leg_1260 ;
+	:temLegislacao :leg_1318 ;
+	:temLegislacao :leg_1039 ;
+	:temLegislacao :leg_697 ;
+	:temLegislacao :leg_601 ;
+	:temLegislacao :leg_533 ;
+	:temLegislacao :leg_244 ;
+	:temLegislacao :leg_187 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
+	:descricao "Recolha sistemática ou pontual de dados sobre recursos zoológicos, marinhos, minerais e botânicos, por forma a controlar os respetivos níveis de perenidade e sustentabilidade.Inicia com a verificação ou medição de dados e termina com a emissão de relatórios.Inclui registo de dados recolhidos.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.303_1
+:ne_c800.10.303_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os avisos e alertas de segurança devem ser considerados em 550.20.001 – Emissão de avisos e declaração de alertas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.303_2
+:ne_c800.10.303_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A vigilância no âmbito da segurança deve ser considerada em 550.20.002 – Ação de vigilância".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.303
+:c800.10.303 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.303";
+	:titulo "Monitorização do abastecimento e distribuição de água e do saneamento de águas residuais";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AL ;
+	:temNotaExclusao :ne_c800.10.303_1 ;
+	:temNotaExclusao :ne_c800.10.303_2 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c300.40.504 ;
+	:eCruzadoCom :c300.40.505 ;
+	:eAntecessorDe :c300.40.506 ;
+	:eAntecessorDe :c300.50.601 ;
+	:eSucessorDe :c450.10.069 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eAntecessorDe :c550.20.001 ;
+	:eCruzadoCom :c800.10.601 ;
+	:temLegislacao :leg_1259 ;
+	:temLegislacao :leg_515 ;
+	:temLegislacao :leg_495 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
+	:descricao "Recolha contínua, pontual ou aleatória de informação ou dados, quantitativos ou qualitativos, de modo a identificar ocorrências anómalas através da constante comparação entre os valores de referência e as medidas apuradas.Inicia com a verificação ou medição de dados e termina com a validação de dados indicadores ou obrigatórios.Inclui medição de pressão de água, medição de caudais de água, medição de cloro, nível de água em reservatório e volume de água consumida, reconhecimento de valores críticos.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.304_1
+:na_c800.10.304_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Gestão de sinal de segurança".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.304_2
+:na_c800.10.304_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Processamento e Avaliação de notificações de Reações Adversas a Medicamentos (RAM)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.304_3
+:na_c800.10.304_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Processamento e Avaliação de Relatórios Periódicos de Segurança (RPS)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.304_4
+:na_c800.10.304_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Processamento e Avaliação de Planos de Gestão do Risco (PGR)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.304_5
+:na_c800.10.304_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Processamento e Avaliação dos Estudos de Segurança (PASS) ou de Eficácia (PAES) Pós-Autorização".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.304_6
+:na_c800.10.304_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Troca de informação de segurança de medicamentos entre as Autoridades congéneres nos Estados-membros, a Agência Europeia do Medicamento (EMA) e a Comissão Europeia (NUI - Non Urgent Information e RA - Rapid Alerts)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.304_1
+:ne_c800.10.304_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A divulgação de alertas de segurança deve ser classificada em 550.20.001 – Emissão de avisos e declaração de alertas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.304
+:c800.10.304 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.304";
+	:titulo "Monitorização de segurança de medicamentos após autorização de introdução no mercado (AIM)";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_DGS ;
+	:temParticipanteComunicador :org_SICAD ;
+	:temDono :org_INFARMED ;
+	:temNotaAplicacao :na_c800.10.304_1 ;
+	:temNotaAplicacao :na_c800.10.304_2 ;
+	:temNotaAplicacao :na_c800.10.304_3 ;
+	:temNotaAplicacao :na_c800.10.304_4 ;
+	:temNotaAplicacao :na_c800.10.304_5 ;
+	:temNotaAplicacao :na_c800.10.304_6 ;
+	:temNotaExclusao :ne_c800.10.304_1 ;
+	:eSinteseDe :c300.30.008 ;
+	:eSucessorDe :c450.10.640 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eCruzadoCom :c550.10.307 ;
+	:eAntecessorDe :c550.20.001 ;
+	:eAntecessorDe :c800.10.606 ;
+	:temLegislacao :leg_1091 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
+	:descricao "Deteção, registo e avaliação das reações adversas, com o objectivo de determinar a incidência, gravidade e nexo de causalidade com os medicamentos, baseadas no estudo sistemático e multidisciplinar dos efeitos dos medicamentos.Inicia com a comunicação de reações adversas ou com a recolha sistemática de informações sobre os riscos de medicamentos para os doentes ou para a saúde pública e termina com a comunicação da proposta de medida de segurança ou regulamentar.  Inclui avaliação científica, ponderação das medidas de segurança adequadas à prevenção ou minimização dos riscos, proposta de adoção das medidas regulamentares necessárias feitas com base nos relatórios periódicos remetidos.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.305_1
+:na_c800.10.305_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Avaliação das notificações de suspeitas de reações Adversas graves e inesperadas (SUSAR)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.305_2
+:na_c800.10.305_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Avaliação de relatórios anuais de segurança de medicamentos experimentais (DSUR)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.305_3
+:na_c800.10.305_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Avaliação de outra informação de segurança notificada durante a realização do ensaio clínico".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.305_1
+:ne_c800.10.305_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A autorização para a realização dos ensaios clínicos deve ser classificada em 450.10.073 – Licenciamento ou autorização de atividades de investigação científica e de desenvolvimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.305
+:c800.10.305 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.305";
+	:titulo "Monitorização de segurança de ensaios clínicos";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "N" ;
+	:temDono :org_INFARMED ;
+	:temNotaAplicacao :na_c800.10.305_1 ;
+	:temNotaAplicacao :na_c800.10.305_2 ;
+	:temNotaAplicacao :na_c800.10.305_3 ;
+	:temNotaExclusao :ne_c800.10.305_1 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSucessorDe :c450.10.073 ;
+	:eAntecessorDe :c550.20.001 ;
+	:eSucessorDe :c800.10.600 ;
+	:temLegislacao :leg_1262 ;
+	:temLegislacao :leg_1372 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
+	:descricao "Verificação da segurança na utilização experimental de medicamentos, de forma a permitir a avaliação permanente da relação benefício-risco em que se baseou a autorização dos ensaios clínicos em curso.Inicia com o processamento das notificações de realização do ensaio clínico e termina com a informação de conclusão do ensaio ou com a comunicação da suspensão.Inclui análise e avaliação de toda a informação com potencial impacto na realização do ensaio (segurança dos participantes e credibilidade dos dados/resultados) e, quando aplicável, suspensão ou revogação da autorização do ensaio.      ".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.306_1
+:na_c800.10.306_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Avaliação de relatórios de outras Autoridades Competentes relativos a questões de vigilância com dispositivos médicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.306
+:c800.10.306 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.306";
+	:titulo "Monitorização da segurança de produtos de saúde";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteComunicador :org_DGS ;
+	:temParticipanteComunicador :org_IGAS ;
+	:temParticipanteComunicador :org_ERS ;
+	:temParticipanteComunicador :org_HH ;
+	:temDono :org_INFARMED ;
+	:temNotaAplicacao :na_c800.10.306_1 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eSucessorDe :c450.10.073 ;
+	:eSucessorDe :c450.10.640 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c550.10.307 ;
+	:eSucessorDe :c550.20.001 ;
+	:temLegislacao :leg_800 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
+	:descricao "Deteção, registo, avaliação e prevenção de incidentes com dispositivos médicos e dos efeitos indesejáveis em produtos cosméticos ou quaisquer outros problemas associados a produtos de saúde tendo em vista a salvaguarda da saúde pública.Inicia com a comunicação e recolha de informação sobreocorrências adversas ou incidentes ocorridos e termina com a comunicação da decisão (implementação de ações corretivas quando aplicável).Inclui análise e avaliação de toda a informação recolhida, a ponderação das medidas de segurança adequadas à prevenção ou minimização do risco e proposta de adoção das medidas corretivas e de segurança a implementar.".
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.600_2
+:ne_c800.10.600_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A monitorização da segurança da realização de ensaios clínicos deve ser classificado em 800.10.305 – Monitorização da segurança de ensaios clínicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.600_1
+:ne_c800.10.600_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A Autorização de ensaios clínicos e respetivas alterações ao pedido devem ser consideradas em 450.10.073 – Licenciamento ou autorização de atividades de investigação científica e de desenvolvimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.600
+:c800.10.600 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.600";
+	:titulo "Realização de ensaios clínicos";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "N" ;
+	:temDono :org_INFARMED ;
+	:temNotaExclusao :ne_c800.10.600_1 ;
+	:temNotaExclusao :ne_c800.10.600_2 ;
+	:eSucessorDe :c450.10.073 ;
+	:eSucessorDe :c450.10.444 ;
+	:eSucessorDe :c450.10.445 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c700.20.100 ;
+	:eAntecessorDe :c800.10.305 ;
+	:temLegislacao :leg_1262 ;
+	:temLegislacao :leg_1317 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Exames realizados no ser humano, destinados a descobrir ou a verificar os efeitos clínicos, farmacológicos ou outros efeitos farmacodinâmicos de medicamentos experimentais, ou a identificar os seus efeitos indesejáveis ou ainda a analisar a absorção, a distribuição, o metabolismo e a eliminação de um ou mais medicamentos experimentais, a fim de apurar a respetiva segurança ou eficácia.Inicia com a preparação do estudo para realizar o ensaio clínico e termina com a finalização do estudo.Incluí todos os atos necessários à conclusão do estudo.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.601_1
+:na_c800.10.601_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Realização de análises laboratoriais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.601_2
+:na_c800.10.601_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Comprovação da qualidade dos ensaios laboratoriais".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.601_1
+:ne_c800.10.601_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os testes realizados no âmbito de perícias devem ser considerados em 800.10.603 – Realização de perícias".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.601
+:c800.10.601 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.601";
+	:titulo "Realização de ensaios laboratoriais";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :conj_org_AP ;
+	:temDono :tipol_org_UL ;
+	:temNotaAplicacao :na_c800.10.601_1 ;
+	:temNotaAplicacao :na_c800.10.601_2 ;
+	:temNotaExclusao :ne_c800.10.601_1 ;
+	:eSintetizadoPor :c150.40.500 ;
+	:eSucessorDe :c300.10.002 ;
+	:eSintetizadoPor :c300.30.008 ;
+	:eCruzadoCom :c300.40.502 ;
+	:eCruzadoCom :c300.40.503 ;
+	:eCruzadoCom :c300.40.506 ;
+	:eCruzadoCom :c300.40.507 ;
+	:eCruzadoCom :c450.10.229 ;
+	:eCruzadoCom :c450.10.232 ;
+	:eSucessorDe :c450.10.445 ;
+	:eCruzadoCom :c450.10.640 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c450.10.640 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c700.20.100 ;
+	:eCruzadoCom :c800.10.300 ;
+	:eCruzadoCom :c800.10.301 ;
+	:eCruzadoCom :c800.10.302 ;
+	:eCruzadoCom :c800.10.303 ;
+	:eCruzadoCom :c800.10.610 ;
+	:temLegislacao :leg_1397 ;
+	:temLegislacao :leg_798 ;
+	:temLegislacao :leg_595 ;
+	:temLegislacao :leg_216 ;
+	:temLegislacao :leg_191 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Exames que avaliam, diagnosticam ou confirmam a qualidade e/ou a composição de determinados constituintes ou amostras em matrizes diferentes.Inicia por solicitação da entidade responsável pela análise e termina com a divulgação do boletim analítico.Inclui a recolha da amostra, amostra-controle, identificação, acondicionamento, conservação, transporte, registo, procedimento ensaístico e relatório de ensaio.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.602_2
+:na_c800.10.602_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Criação e desenvolvimeno de indicadores (quantitativos e qualitativos) de apoio às políticas públicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.602_1
+:na_c800.10.602_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Análise de causalidade (verificar se a causa de um determinado acontecimento público se deveu a uma determinada política em concreto)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.602_3
+:na_c800.10.602_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Estudos de cenarização".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.602_4
+:na_c800.10.602_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Estudos de consultadoria".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.602_5
+:na_c800.10.602_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Estudos de impacto".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.602_6
+:na_c800.10.602_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Estudos de mercado (mercado de trabalho, saúde, educação, meio empresarial)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.602_7
+:na_c800.10.602_7 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Estudos de viabilidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.602_8
+:na_c800.10.602_8 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "São exemplos de aplicação os estudos sobre emprego, formação profissional, certificação das entidades formadoras, relações e condições de trabalho, e relações profissionais, despedimentos coletivos, prevenção de conflitos, conciliação, mediação, greves e serviços mínimos, regulamentação coletiva".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.602_1
+:ne_c800.10.602_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A aquisição de serviços no âmbito de estudos técnicos e científicos deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis não culturais e prestação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.602
+:c800.10.602 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.602";
+	:titulo "Realização de estudos científicos e técnicos de apoio a políticas públicas";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "N" ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c800.10.602_1 ;
+	:temNotaAplicacao :na_c800.10.602_2 ;
+	:temNotaAplicacao :na_c800.10.602_3 ;
+	:temNotaAplicacao :na_c800.10.602_4 ;
+	:temNotaAplicacao :na_c800.10.602_5 ;
+	:temNotaAplicacao :na_c800.10.602_6 ;
+	:temNotaAplicacao :na_c800.10.602_7 ;
+	:temNotaAplicacao :na_c800.10.602_8 ;
+	:temNotaExclusao :ne_c800.10.602_1 ;
+	:eSucessorDe :c150.10.001 ;
+	:eSucessorDe :c150.10.100 ;
+	:eSucessorDe :c150.20.101 ;
+	:eSucessorDe :c150.40.500 ;
+	:eCruzadoCom :c300.40.004 ;
+	:eCruzadoCom :c300.40.500 ;
+	:eCruzadoCom :c300.40.502 ;
+	:eSucessorDe :c300.50.601 ;
+	:eCruzadoCom :c450.10.229 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c550.10.009 ;
+	:eSuplementoPara :c550.30.004 ;
+	:eSinteseDe :c550.30.200 ;
+	:eSinteseDe :c550.30.400 ;
+	:eSinteseDe :c550.30.600 ;
+	:eCruzadoCom :c800.10.301 ;
+	:eCruzadoCom :c800.10.302 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
+	:descricao "Procedimento científico e técnico de análise e cálculo com o objetivo de promover uma avaliação do impacto e de gerar medidas ou recomendações técnicas sobre um determinado universo. Inicia com um pedido e termina com a emissão de um relatório.Inclui a recolha de dados, aferição e análise de características da população ou de amostras, criação de indicadores quantitativos e qualitativos, produção de relatórios técnicos, avaliação deimpacto, apuramento de resultados ou recomendações e/ou medições.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.603_2
+:na_c800.10.603_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Processos de monitorização e vigilância sísmica".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.603_1
+:na_c800.10.603_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Processos de recolha e processamento de informação geodésica e georreferenciada para caracterização topográfica e topo-hidrográfica, administrativa, geológica, biológica, ou outra".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.603_1
+:ne_c800.10.603_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A aquisição de serviços periciais deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis e prestação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.603
+:c800.10.603 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.603";
+	:titulo "Realização de perícias";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :conj_org_AP ;
+	:temDono :tipol_org_ECP ;
+	:temNotaAplicacao :na_c800.10.603_1 ;
+	:temNotaAplicacao :na_c800.10.603_2 ;
+	:temNotaExclusao :ne_c800.10.603_1 ;
+	:eCruzadoCom :c400.10.410 ;
+	:eCruzadoCom :c450.30.504 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eCruzadoCom :c600.10.004 ;
+	:eCruzadoCom :c600.10.006 ;
+	:eCruzadoCom :c600.10.007 ;
+	:eCruzadoCom :c600.10.500 ;
+	:eCruzadoCom :c600.10.501 ;
+	:eCruzadoCom :c600.10.502 ;
+	:eCruzadoCom :c600.10.503 ;
+	:eCruzadoCom :c600.30.001 ;
+	:eCruzadoCom :c600.30.002 ;
+	:eCruzadoCom :c600.30.050 ;
+	:eCruzadoCom :c600.30.051 ;
+	:eCruzadoCom :c600.30.052 ;
+	:eCruzadoCom :c600.30.101 ;
+	:eCruzadoCom :c710.20.300 ;
+	:eCruzadoCom :c800.10.609 ;
+	:eCruzadoCom :c800.10.610 ;
+	:temLegislacao :leg_1358 ;
+	:temLegislacao :leg_1149 ;
+	:temLegislacao :leg_1168 ;
+	:temLegislacao :leg_992 ;
+	:temLegislacao :leg_827 ;
+	:temLegislacao :leg_726 ;
+	:temLegislacao :leg_714 ;
+	:temLegislacao :leg_616 ;
+	:temLegislacao :leg_459 ;
+	:temLegislacao :leg_412 ;
+	:temLegislacao :leg_1117 ;
+	:temLegislacao :leg_786 ;
+	:temLegislacao :leg_604 ;
+	:temLegislacao :leg_260 ;
+	:temLegislacao :leg_285 ;
+	:temLegislacao :leg_281 ;
+	:temLegislacao :leg_164 ;
+	:temLegislacao :leg_146 ;
+	:temLegislacao :leg_135 ;
+	:temLegislacao :leg_73 ;
+	:temLegislacao :leg_6 ;
+	:temLegislacao :leg_1096 ;
+	:temLegislacao :leg_1218 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
+	:descricao "Atividade realizada por profissional especialista dotado de especiais conhecimentos técnicos, científicos ou artísticos com vista à descrição, interpretação e obtenção de conclusões com eventual valor probatório.Inicia com um pedido e termina com a produção do relatório final.Inclui a pesquisa, a recolha, o tratamento, o acondicionamento, a selagem, a receção e o registo de amostras, vestígios ou dados, a aplicação de teste psicológico a pessoa e a avaliação do mesmo, a observação de caraterísticas ou lesões psíquicas e físicas em pessoas, a cadáveres ou  a restos cadavéricos e exames complementares ao diagnóstico, se aplicável, e fundamentação de trabalho pericial.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.604_1
+:na_c800.10.604_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Realização de retroversões".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.604_3
+:na_c800.10.604_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Realização de traduções literárias".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.604_2
+:na_c800.10.604_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Realização de revisões de traduções".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.604_4
+:na_c800.10.604_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Realização de traduções oficiais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.604_5
+:na_c800.10.604_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Realização de traduções técnicas e científicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.604_1
+:ne_c800.10.604_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A aquisição de serviços de tradução deve ser considerada em 300.10.005 – Transação e transmissão de bens móveis e prestação de serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.604_2
+:ne_c800.10.604_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A tradução que resulte em obra nova deve ser considerada em 400.10.610 – Registo de obras científicas, literárias e artísticas ou 400.10.611 – Registo de publicações no sistema de Depósito Legal".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.604
+:c800.10.604 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.604";
+	:titulo "Realização de traduções";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :conj_org_AP ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c800.10.604_1 ;
+	:temNotaAplicacao :na_c800.10.604_2 ;
+	:temNotaAplicacao :na_c800.10.604_3 ;
+	:temNotaAplicacao :na_c800.10.604_4 ;
+	:temNotaAplicacao :na_c800.10.604_5 ;
+	:temNotaExclusao :ne_c800.10.604_1 ;
+	:temNotaExclusao :ne_c800.10.604_2 ;
+	:eCruzadoCom :c300.40.501 ;
+	:eCruzadoCom :c300.50.400 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eCruzadoCom :c450.20.503 ;
+	:eCruzadoCom :c450.30.503 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c750.20.600 ;
+	:eCruzadoCom :c800.20.001 ;
+	:eCruzadoCom :c900.10.001 ;
+	:eAntecessorDe :c900.20.201 ;
+	:temLegislacao :leg_1370 ;
+	:temLegislacao :leg_334 ;
+	:temLegislacao :leg_242 ;
+	:temLegislacao :leg_171 ;
+	:temLegislacao :leg_232 ;
+	:temLegislacao :leg_123 ;
+	:temLegislacao :leg_60 ;
+	:temLegislacao :leg_21 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Transposição de conteúdos de uma língua para outra. Interpretação do significado de um texto em determinada língua (fonte original) para produção de um novo texto, fiel ao original, noutra língua.Inicia com um pedido ou por inicativa de uma entidade e termina com a entrega do trabalho.Inclui os estudos de contextualização histórica, técnica e estilística do autor e do texto, a redação na língua de destino e a elaboração de notas de tradução.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_1
+:na_c800.10.605_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Arranjo musical de uma obra, para um instrumento para o qual não foi originalmente escrita".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_2
+:na_c800.10.605_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Transcrição de documentos, indepentemente do suporte e antiguidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.605_3
+:na_c800.10.605_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Transcrição fonética".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.605_1
+:ne_c800.10.605_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A emissão de comprovativos de factos ou atos deve ser considerada em \"Reconhecimentos e permissões/ Emissão de comprovativos de factos ou atos\" (450.30)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.605_2
+:ne_c800.10.605_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A transcrição que resulte em obra nova deve ser considerada em 400.10.610 – Registo de obras científicas, literárias e artísticas".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.605_3
+:ne_c800.10.605_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "As transcrições para fins judiciais ou oficiais devem ser consideradas nos  respetivos PN".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.605
+:c800.10.605 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.605";
+	:titulo "Realização de transcrições";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :conj_org_AP ;
+	:temDono :conj_org_AP ;
+	:temNotaAplicacao :na_c800.10.605_1 ;
+	:temNotaAplicacao :na_c800.10.605_2 ;
+	:temNotaAplicacao :na_c800.10.605_3 ;
+	:temNotaExclusao :ne_c800.10.605_1 ;
+	:temNotaExclusao :ne_c800.10.605_2 ;
+	:temNotaExclusao :ne_c800.10.605_3 ;
+	:eCruzadoCom :c300.40.501 ;
+	:eCruzadoCom :c300.50.400 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eSucessorDe :c450.20.503 ;
+	:eSuplementoPara :c450.30.503 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c750.20.600 ;
+	:eCruzadoCom :c800.20.001 ;
+	:eCruzadoCom :c900.10.001 ;
+	:eAntecessorDe :c900.20.201 ;
+	:temLegislacao :leg_777 ;
+	:temLegislacao :leg_73 ;
+	:temLegislacao :leg_68 ;
+	:temLegislacao :leg_60 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Representação ou reprodução gráfica de conteúdos preexistentes (sons, textos, informação genética, etc.) em novo contexto, com vista a torná-los acessíveis e utilizáveis.Inicia com  um pedido e termina com a entrega do trabalho.Inclui a interpretação dos dados e a sua reprodução.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_1
+:na_c800.10.606_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Processo de acompanhamento da rotura de stocks com impacto para o utente, nomeadamente".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_2
+:na_c800.10.606_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Averiguação do mercado".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_3
+:na_c800.10.606_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Análise das alternativas no mercado".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_4
+:na_c800.10.606_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Parecer clínico".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.606_5
+:na_c800.10.606_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Medidas de minimização do impacto, AUE, alteração regulamentar (libertação de lote; alteração de fabricante)".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.606_1
+:ne_c800.10.606_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "Os pedidos de informação que não se relacionam com nenhum processo concreto devem ser classificados em 900.20.604 – Processamento de pedidos de informação e de esclarecimento".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.606_2
+:ne_c800.10.606_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A entrega da password para acesso à base de dados para registo 300.50.802 – Registo e identificação de utilizadores de serviços e de sistemas de informação".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.10.606_3
+:ne_c800.10.606_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A avaliação de alternativas terapêuticas e relatórios dos peritos deve ser classificada em 800.10.602 – Realização de estudos científicos e técnicos de apoio a políticas públicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.606
+:c800.10.606 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.606";
+	:titulo "Avaliação da rutura de stocks de medicamentos";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :org_DGS ;
+	:temParticipanteAssessor :org_SPMS ;
+	:temDono :org_INFARMED ;
+	:temNotaAplicacao :na_c800.10.606_1 ;
+	:temNotaAplicacao :na_c800.10.606_2 ;
+	:temNotaAplicacao :na_c800.10.606_3 ;
+	:temNotaAplicacao :na_c800.10.606_4 ;
+	:temNotaAplicacao :na_c800.10.606_5 ;
+	:temNotaExclusao :ne_c800.10.606_1 ;
+	:temNotaExclusao :ne_c800.10.606_2 ;
+	:temNotaExclusao :ne_c800.10.606_3 ;
+	:eCruzadoCom :c450.10.062 ;
+	:eCruzadoCom :c450.10.070 ;
+	:eCruzadoCom :c450.10.216 ;
+	:eSucessorDe :c450.10.640 ;
+	:eSucessorDe :c450.10.644 ;
+	:eCruzadoCom :c450.10.808 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c550.10.307 ;
+	:eSuplementoPara :c800.10.304 ;
+	:temLegislacao :leg_531 ;
+	:temLegislacao :leg_905 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Acompanhamento de rutura de stocks de medicamentos, ainda que meramente transitórias, de fabrico e ou fornecimento de um medicamento, bem como qualquer perturbação ao normal abastecimento do mercado, nos casos, termos, forma e prazo fixados pela Autoridade Competente.Inicia com a notificação da rutura na plataforma GAM - Gestão de Acessibilidade ao Medicamento, pelo titular da autorização e termina com a proposta de minimização do impacto.Inclui validação da identificação do titular, pedidos de informação pelos profissionais de saúde e utentes sobre rotura de stocks, avaliação da situação e a consulta de peritos ou a agências congéneres.As medidas de minimização do impacto podem consistir numa alteração regulamentar (alteração do fabricante, libertação de lote) ou pela Autorização de Utilização Excecional.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.607_1
+:na_c800.10.607_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Produção de coleções de estirpes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.607_2
+:na_c800.10.607_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Estudos de vigilância epidemiológica".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.607_3
+:na_c800.10.607_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Recolha e análise de dados de observação para apoio à decisão relativos a doenças e seus determinantes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.607_4
+:na_c800.10.607_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Desenvolvimento e gestão de redes de vigilância e de instrumentos de observação em saúde".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.607_5
+:na_c800.10.607_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Ações de vigilância de vetores".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.607_6
+:na_c800.10.607_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Vigilância epidemiológica animal".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.607
+:c800.10.607 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.607";
+	:titulo "Realização de ações de observação em saúde e vigilância epidemiológica";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :org_ARS-N ;
+	:temParticipanteIniciador :org_ARS-C ;
+	:temParticipanteIniciador :org_ARS-LVT ;
+	:temParticipanteIniciador :org_ARS-Aln ;
+	:temParticipanteIniciador :org_ARS-Alg ;
+	:temParticipanteComunicador :conj_org_ACES ;
+	:temParticipanteComunicador :org_INMLCF ;
+	:temDono :org_INSA ;
+	:temDono :tipol_org_AS ;
+	:temNotaAplicacao :na_c800.10.607_1 ;
+	:temNotaAplicacao :na_c800.10.607_2 ;
+	:temNotaAplicacao :na_c800.10.607_3 ;
+	:temNotaAplicacao :na_c800.10.607_4 ;
+	:temNotaAplicacao :na_c800.10.607_5 ;
+	:temNotaAplicacao :na_c800.10.607_6 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eCruzadoCom :c700.20.001 ;
+	:eCruzadoCom :c700.20.100 ;
+	:eCruzadoCom :c800.10.608 ;
+	:eCruzadoCom :c800.20.002 ;
+	:temLegislacao :leg_1226 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "N" ;
+	:descricao "Ações que visam contribuir para o conhecimento da saúde e doenças da população, os fatores que as influenciam, a decisão e a intervenção em Saúde Pública, assim como a avaliação do seu impacto na população portuguesa.Inicia com a identificação de necessidade para realizar a ação ou estudo e termina com a elaboração do relatório ou estudo final.Inclui diagnóstico de necessidade de investigação, os estudos, a monitorização e a avaliação.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.608_1
+:na_c800.10.608_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Inventariação de estirpes".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.608_2
+:na_c800.10.608_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Banco de amostras biológicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.608_3
+:na_c800.10.608_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Banco de DNA".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.608_4
+:na_c800.10.608_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Bases de dados genéticos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.608_5
+:na_c800.10.608_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Biobancos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.608
+:c800.10.608 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.608";
+	:titulo "Produção de repositórios de amostras biológicas e seus derivados";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "N" ;
+	:temDono :org_INSA ;
+	:temDono :org_DGAV ;
+	:temNotaAplicacao :na_c800.10.608_1 ;
+	:temNotaAplicacao :na_c800.10.608_2 ;
+	:temNotaAplicacao :na_c800.10.608_3 ;
+	:temNotaAplicacao :na_c800.10.608_4 ;
+	:temNotaAplicacao :na_c800.10.608_5 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c800.10.302 ;
+	:eCruzadoCom :c800.10.607 ;
+	:eCruzadoCom :c800.20.001 ;
+	:eCruzadoCom :c800.20.002 ;
+	:temLegislacao :leg_488 ;
+	:temLegislacao :leg_714 ;
+	:classeStatus "A" ;
+	:processoDimQual "Elevada" ;
+	:processoUniform "S" ;
+	:descricao "Constituição de bancos de produtos biológicos ou qualquer repositório de amostras biológicas ou seus derivados, com ou sem tempo delimitado de armazenamento e que inclua amostras que sejam identificadas, identificáveis, anonimizadas ou anónimas.Inicia com a colheita prospetiva ou material previamente colhido e termina com a sua inclusão no banco de produtos.Incluí a investigação desenvolvida.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.609_2
+:na_c800.10.609_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Formolização (formol) de órgão para estudo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.609_4
+:na_c800.10.609_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Criopreservação ou crioconservação de células estaminais do cordão umbilical".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.609_1
+:na_c800.10.609_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Embalsamamento para transladação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.609_3
+:na_c800.10.609_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Criopreservação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.609_5
+:na_c800.10.609_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Impregnação de órgãos ou tecidos biológicos com produtos conservantes, no âmbito científico, museulógico ou pedagógico".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.609_6
+:na_c800.10.609_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Preservação de células".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.609_7
+:na_c800.10.609_7 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Taxidermia".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.609_8
+:na_c800.10.609_8 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Tanatopraxia reconstrução, conservação e preparação de cadáveres".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.609_9
+:na_c800.10.609_9 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Tanatoconservação".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.10.609_10
+:na_c800.10.609_10 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Tanatologia forense".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.10.609
+:c800.10.609 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.10.609";
+	:titulo "Realização de técnicas de conservação artificial";
+	:temPai :c800.10 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteIniciador :conj_org_Cns ;
+	:temParticipanteDecisor :conj_org_AJ ;
+	:temDono :org_INMLCF ;
+	:temDono :conj_org_IES ;
+	:temDono :tipol_org_Museus ;
+	:temNotaAplicacao :na_c800.10.609_1 ;
+	:temNotaAplicacao :na_c800.10.609_2 ;
+	:temNotaAplicacao :na_c800.10.609_3 ;
+	:temNotaAplicacao :na_c800.10.609_4 ;
+	:temNotaAplicacao :na_c800.10.609_5 ;
+	:temNotaAplicacao :na_c800.10.609_6 ;
+	:temNotaAplicacao :na_c800.10.609_7 ;
+	:temNotaAplicacao :na_c800.10.609_8 ;
+	:temNotaAplicacao :na_c800.10.609_9 ;
+	:temNotaAplicacao :na_c800.10.609_10 ;
+	:eCruzadoCom :c400.10.609 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.300 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eCruzadoCom :c710.20.003 ;
+	:eCruzadoCom :c710.20.300 ;
+	:eCruzadoCom :c710.20.601 ;
+	:eCruzadoCom :c800.10.603 ;
+	:eCruzadoCom :c800.20.002 ;
+	:eCruzadoCom :c800.20.500 ;
+	:temLegislacao :leg_1168 ;
+	:temLegislacao :leg_472 ;
+	:temLegislacao :leg_807 ;
+	:temLegislacao :leg_1417 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "S" ;
+	:descricao "Utilização de técnicas específicas de conservação de células, órgãos ou cadáveres de seres humanos, animais ou vegetais para fins de ensino, investigação ou tratamento.Inicia com a solicitação ou a determinação do ato de preservação e termina com o atestado de criopreservação, embalsamamento ou com a preparação da peça anatómica para fins científicos, pedagógicos ou museológicos.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20_1
+:na_c800.20_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Projetos de investigação científica ou de investigação e desenvolvimento de produtos e processos com base experimental.".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20_3
+:na_c800.20_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Desenvolvimento de produtos, processos, serviços, tecnologias ou ideias que estão prontamente disponíveis para os mercados, governos e sociedade,  incluindo o desenvolvimento de sistemas de informação para a Administração Pública.".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20_2
+:na_c800.20_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Desenvolvimento de protótipos e outras formas de mostrar uma ideia, o desempenho de um método, ou as características de um produto.".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.20_1
+:ne_c800.20_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "As candidaturas a programas de apoio financeiro à investigação devem ser consideradas em \"Execução de programas e de ações de incentivo/ Atribuição e controlo de financiamentos e de ajudas diretas\" (850.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.20_2
+:ne_c800.20_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A publicação de trabalhos de investigação científica deve ser considerada em \"Dinamização e comunicação institucional/ Execução de atividades de dinamização da sociedade\" (900.10).".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.20_3
+:ne_c800.20_3 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A reengenharia de processos de trabalho da Administração deve ser considerada em “Planeamento e gestão estratégica/ Planeamento, avaliação e melhoria de serviços” (150.20).".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.20
+:c800.20 rdf:type owl:NamedIndividual ,
+	:Classe_N2;
+	:codigo "800.20";
+	:titulo "Execução de projetos de investigação e desenvolvimento";
+	:temPai :c800 ;
+	:temNotaAplicacao :na_c800.20_1 ;
+	:temNotaAplicacao :na_c800.20_2 ;
+	:temNotaAplicacao :na_c800.20_3 ;
+	:temNotaExclusao :ne_c800.20_1 ;
+	:temNotaExclusao :ne_c800.20_2 ;
+	:temNotaExclusao :ne_c800.20_3 ;
+	:classeStatus "A" ;
+	:descricao "Compreende os processos de conceção e de realização de projetos de investigação científica fundamental e aplicada e de desenvolvimento técnico e tecnológico, no que se inclui a conceção e o desenvolvimento de sistemas de informação. Inclui a pesquisa e o desenvolvimento experimental, a demonstração tecnológica e a transferência de conhecimento para inovação do setor produtivo, desenvolvidos no quadro das instituições académicas, dos centros de investigação, dos observatórios, dos laboratórios ou mesmo no quadro da Administração.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_3
+:na_c800.20.001_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Estudos de fenómenos naturais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_1
+:na_c800.20.001_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "A investigação básica, destina-se à progressão do conhecimento, não visa a obtenção de vantagens económicas ou sociais (produção de novas leis científicas e novos modelos)".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_5
+:na_c800.20.001_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Produção de novas leis científicas".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_4
+:na_c800.20.001_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Estudos de fenómenos sociais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_2
+:na_c800.20.001_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Estudos de fenómenos biológicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_6
+:na_c800.20.001_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Produção de novos modelos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.001_7
+:na_c800.20.001_7 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Progressão de conhecimentos".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.20.001
+:c800.20.001 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.20.001";
+	:titulo "Realização de estudos de investigação básica";
+	:temPai :c800.20 ;
+	:processoTipoVC :vc_processoTipo_pe ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :conj_org_IES ;
+	:temParticipanteAssessor :tipol_org_UI ;
+	:temParticipanteAssessor :tipol_org_UL ;
+	:temParticipanteAssessor :org_INMLCF ;
+	:temDono :conj_org_IES ;
+	:temDono :tipol_org_UI ;
+	:temDono :tipol_org_UL ;
+	:temDono :org_INMLCF ;
+	:temNotaAplicacao :na_c800.20.001_1 ;
+	:temNotaAplicacao :na_c800.20.001_2 ;
+	:temNotaAplicacao :na_c800.20.001_3 ;
+	:temNotaAplicacao :na_c800.20.001_4 ;
+	:temNotaAplicacao :na_c800.20.001_5 ;
+	:temNotaAplicacao :na_c800.20.001_6 ;
+	:temNotaAplicacao :na_c800.20.001_7 ;
+	:eCruzadoCom :c150.10.500 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eAntecessorDe :c400.10.609 ;
+	:eAntecessorDe :c400.10.610 ;
+	:eSucessorDe :c400.10.614 ;
+	:eCruzadoCom :c450.10.230 ;
+	:eAntecessorDe :c450.30.002 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c750.10.002 ;
+	:eAntecessorDe :c750.10.601 ;
+	:eAntecessorDe :c750.20.001 ;
+	:eAntecessorDe :c750.20.300 ;
+	:eAntecessorDe :c750.30.001 ;
+	:eCruzadoCom :c800.10.302 ;
+	:eCruzadoCom :c800.10.608 ;
+	:eSucessorDe :c850.10.002 ;
+	:eSucessorDe :c850.10.003 ;
+	:eCruzadoCom :c850.10.004 ;
+	:eCruzadoCom :c850.10.005 ;
+	:eCruzadoCom :c850.10.500 ;
+	:eSucessorDe :c850.10.600 ;
+	:eCruzadoCom :c850.10.601 ;
+	:eCruzadoCom :c900.10.501 ;
+	:eAntecessorDe :c900.20.201 ;
+	:eComplementarDe :c800.10.610 ;
+	:temLegislacao :leg_1125 ;
+	:temLegislacao :leg_925 ;
+	:temLegislacao :leg_924 ;
+	:temLegislacao :leg_805 ;
+	:temLegislacao :leg_804 ;
+	:temLegislacao :leg_838 ;
+	:temLegislacao :leg_513 ;
+	:temLegislacao :leg_282 ;
+	:temLegislacao :leg_247 ;
+	:temLegislacao :leg_77 ;
+	:temLegislacao :leg_71 ;
+	:temLegislacao :leg_41 ;
+	:temLegislacao :leg_30 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
+	:descricao "Contempla um processo de pesquisa vocacionado para responder a hipóteses de investigação a fim de produzir conhecimento original puro ou orientado a uma estratégia, identificada na sequência do conhecimento puro.Criação de um processo de pesquisa orientado para a obtenção de conhecimentos fundamentais para um produto ou objetivo prático específico. Inicia com a apresentação de uma candidatura ou de um projeto de investigação e termina com a divulgação do resultado.Inclui apresentação de relatórios de progresso e final.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.002_3
+:na_c800.20.002_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Estudo de fenómenos naturais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.002_1
+:na_c800.20.002_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "A investigação aplicada visa obter vantagens económicas ou sociais, tendendo a otimizar algo concreto".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.002_4
+:na_c800.20.002_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Estudo de fenómenos sociais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.002_2
+:na_c800.20.002_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Estudo de fenómenos biológicos".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.20.002_1
+:ne_c800.20.002_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O registo de patentes e modelos de utilidade devem ser considerados em 400.10.609 – Registo de patentes e modelos de utilidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.20.002_2
+:ne_c800.20.002_2 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "A investigação criminal deve ser considerada em \"Administração da justiça\" (600)".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.20.002
+:c800.20.002 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.20.002";
+	:titulo "Execução de projetos de investigação aplicada";
+	:temPai :c800.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :conj_org_IES ;
+	:temParticipanteAssessor :tipol_org_UI ;
+	:temParticipanteAssessor :tipol_org_UL ;
+	:temParticipanteAssessor :conj_org_AP ;
+	:temDono :conj_org_IES ;
+	:temDono :tipol_org_UI ;
+	:temDono :tipol_org_UL ;
+	:temNotaAplicacao :na_c800.20.002_1 ;
+	:temNotaAplicacao :na_c800.20.002_2 ;
+	:temNotaAplicacao :na_c800.20.002_3 ;
+	:temNotaAplicacao :na_c800.20.002_4 ;
+	:temNotaExclusao :ne_c800.20.002_1 ;
+	:temNotaExclusao :ne_c800.20.002_2 ;
+	:eCruzadoCom :c150.10.500 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eCruzadoCom :c400.10.609 ;
+	:eAntecessorDe :c400.10.610 ;
+	:eSucessorDe :c400.10.614 ;
+	:eAntecessorDe :c450.30.002 ;
+	:eSuplementoPara :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSucessorDe :c750.10.002 ;
+	:eAntecessorDe :c750.10.601 ;
+	:eAntecessorDe :c750.20.001 ;
+	:eAntecessorDe :c750.20.300 ;
+	:eAntecessorDe :c750.30.001 ;
+	:eCruzadoCom :c800.10.302 ;
+	:eCruzadoCom :c800.10.607 ;
+	:eCruzadoCom :c800.10.608 ;
+	:eCruzadoCom :c800.10.609 ;
+	:eCruzadoCom :c850.10.002 ;
+	:eCruzadoCom :c850.10.003 ;
+	:eCruzadoCom :c850.10.004 ;
+	:eCruzadoCom :c850.10.005 ;
+	:eAntecessorDe :c850.10.500 ;
+	:eCruzadoCom :c850.10.500 ;
+	:eCruzadoCom :c850.10.600 ;
+	:eCruzadoCom :c850.10.601 ;
+	:eCruzadoCom :c900.10.501 ;
+	:eComplementarDe :c800.10.610 ;
+	:temLegislacao :leg_1038 ;
+	:temLegislacao :leg_805 ;
+	:temLegislacao :leg_248 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
+	:descricao "Otimização de um produto ou de um objetivo prático específico, anteriormente estudado, assente nos pressupostos teóricos da investigação básica. Inicia com a seleção de um objeto de investigação e termina com a divulgação do resultado.Inclui apresentação de relatórios de progresso e final.".
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_3
+:na_c800.20.500_3 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Desenvolvimento de instrumentação nuclear".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_1
+:na_c800.20.500_1 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "O desenvolvimento experimental visa obter vantagens económicas ou sociais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_4
+:na_c800.20.500_4 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Desenvolvimento de novos materiais".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_2
+:na_c800.20.500_2 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Desenvolvimento de aplicações".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_5
+:na_c800.20.500_5 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Desenvolvimento de novos padrões de medida e de controlo".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_6
+:na_c800.20.500_6 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo " Desenvolvimento de novos produtos".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_7
+:na_c800.20.500_7 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Desenvolvimento de novos serviços".
+
+###  http://jcr.di.uminho.pt/m51-clav#na_c800.20.500_8
+:na_c800.20.500_8 rdf:type owl:NamedIndividual ,
+		:NotaAplicacao ;
+	:rdfs:label "Nota de Aplicação";
+	:conteudo "Desenvolvimento de sistemas de informação".
+
+###  http://jcr.di.uminho.pt/m51-clav#ne_c800.20.500_1
+:ne_c800.20.500_1 rdf:type owl:NamedIndividual ,
+	:NotaExclusao ;
+	:rdfs:label "Nota de Exclusão";
+	:conteudo "O registo de patentes e modelos de utilidade devem ser considerados em 400.10.609 – Registo de patentes e modelos de utilidade".
+
+###  http://jcr.di.uminho.pt/m51-clav#c800.20.500
+:c800.20.500 rdf:type owl:NamedIndividual ,
+	:Classe_N3;
+	:codigo "800.20.500";
+	:titulo "Desenvolvimento experimental e aplicacional";
+	:temPai :c800.20 ;
+	:processoTipoVC :vc_processoTipo_pc ;
+	:processoTransversal "S" ;
+	:temParticipanteAssessor :conj_org_IES ;
+	:temParticipanteAssessor :tipol_org_UI ;
+	:temParticipanteAssessor :tipol_org_UL ;
+	:temParticipanteAssessor :conj_org_AP ;
+	:temDono :conj_org_IES ;
+	:temDono :tipol_org_UI ;
+	:temDono :tipol_org_UL ;
+	:temNotaAplicacao :na_c800.20.500_1 ;
+	:temNotaAplicacao :na_c800.20.500_2 ;
+	:temNotaAplicacao :na_c800.20.500_3 ;
+	:temNotaAplicacao :na_c800.20.500_4 ;
+	:temNotaAplicacao :na_c800.20.500_5 ;
+	:temNotaAplicacao :na_c800.20.500_6 ;
+	:temNotaAplicacao :na_c800.20.500_7 ;
+	:temNotaAplicacao :na_c800.20.500_8 ;
+	:temNotaExclusao :ne_c800.20.500_1 ;
+	:eCruzadoCom :c150.10.500 ;
+	:eSintetizadoPor :c150.10.600 ;
+	:eCruzadoCom :c150.20.102 ;
+	:eCruzadoCom :c300.40.508 ;
+	:eSucessorDe :c300.40.510 ;
+	:eCruzadoCom :c350.30.001 ;
+	:eCruzadoCom :c400.10.609 ;
+	:eAntecessorDe :c400.10.610 ;
+	:eCruzadoCom :c400.10.614 ;
+	:eSucessorDe :c450.30.002 ;
+	:eAntecessorDe :c500.10.001 ;
+	:eSuplementoPara :c500.10.301 ;
+	:eSuplementoPara :c750.10.002 ;
+	:eSucessorDe :c750.10.601 ;
+	:eSucessorDe :c750.20.001 ;
+	:eAntecessorDe :c750.20.300 ;
+	:eAntecessorDe :c750.30.001 ;
+	:eAntecessorDe :c800.10.302 ;
+	:eAntecessorDe :c800.10.609 ;
+	:eComplementarDe :c850.10.002 ;
+	:eCruzadoCom :c850.10.003 ;
+	:eCruzadoCom :c850.10.005 ;
+	:eCruzadoCom :c850.10.500 ;
+	:eCruzadoCom :c850.10.600 ;
+	:eCruzadoCom :c850.10.601 ;
+	:eCruzadoCom :c900.10.501 ;
+	:temLegislacao :leg_1038 ;
+	:temLegislacao :leg_805 ;
+	:temLegislacao :leg_248 ;
+	:classeStatus "A" ;
+	:processoDimQual "Média" ;
+	:processoUniform "N" ;
+	:descricao "Replicação do conhecimento obtido na investigação realizada e na experiência prática (prova de conceito), visando melhorar substancialmente ou desenvolver produtos, modelos, programas, métodos, procedimentos e serviços, novos ou existentes.Inicia com a apresentação de um projeto de desenvolvimento e termina com a conclusão do desenvolvimento.Inclui a definição de uma metodologia, requisitos, parâmetros ou processos e a sua validação, prototipagem.".
+
+### Classes800 termina aqui.
+

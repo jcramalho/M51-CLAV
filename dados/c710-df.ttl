@@ -1,0 +1,209 @@
+###  http://jcr.di.uminho.pt/m51-clav#df_c710.10.001
+:df_c710.10.001 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c710.10.001 :temDF :df_c710.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c710.10.001
+:just_df_c710.10.001 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c710.10.001 :temJustificacao :just_df_c710.10.001.
+:crit_just_df_c710.10.001_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade)PN 300.30.008 - Registo de documentos e informação (casos tratados).".
+:just_df_c710.10.001 :temCriterio :crit_just_df_c710.10.001_1.
+:crit_just_df_c710.10.001_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c710.10.001_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c710.10.002
+:df_c710.10.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c710.10.002 :temDF :df_c710.10.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c710.10.002
+:just_df_c710.10.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c710.10.002 :temJustificacao :just_df_c710.10.002.
+:crit_just_df_c710.10.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade)PN 300.30.008 - Registo de documentos e informação (casos tratados).".
+:just_df_c710.10.002 :temCriterio :crit_just_df_c710.10.002_1.
+:crit_just_df_c710.10.002_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c710.10.002_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c710.10.003
+:df_c710.10.003 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c710.10.003 :temDF :df_c710.10.003.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c710.10.003
+:just_df_c710.10.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c710.10.003 :temJustificacao :just_df_c710.10.003.
+:crit_just_df_c710.10.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades,PN 800.10.001 - Produção de informação georreferenciada.".
+:just_df_c710.10.003 :temCriterio :crit_just_df_c710.10.003_1.
+:crit_just_df_c710.10.003_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c710.10.003_1 :temProcessoRelacionado :c800.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c710.10.004
+:df_c710.10.004 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c710.10.004 :temDF :df_c710.10.004.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c710.10.004
+:just_df_c710.10.004 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c710.10.004 :temJustificacao :just_df_c710.10.004.
+:crit_just_df_c710.10.004_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades,PN 800.10.001 - Produção de informação georreferenciada.".
+:just_df_c710.10.004 :temCriterio :crit_just_df_c710.10.004_1.
+:crit_just_df_c710.10.004_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c710.10.004_1 :temProcessoRelacionado :c800.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c710.10.005
+:df_c710.10.005 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c710.10.005 :temDF :df_c710.10.005.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c710.10.005
+:just_df_c710.10.005 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c710.10.005 :temJustificacao :just_df_c710.10.005.
+:crit_just_df_c710.10.005_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades,PN 800.10.001 - Produção de informação georreferenciada.".
+:just_df_c710.10.005 :temCriterio :crit_just_df_c710.10.005_1.
+:crit_just_df_c710.10.005_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c710.10.005_1 :temProcessoRelacionado :c800.10.001.
+###  http://jcr.di.uminho.pt/m51-clav#df_c710.10.300
+:df_c710.10.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c710.10.300 :temDF :df_c710.10.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c710.10.300
+:just_df_c710.10.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c710.10.300 :temJustificacao :just_df_c710.10.300.
+:crit_just_df_c710.10.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente em PN 150.20.300 - Avaliação de atividades;PN 300.30.008 - Registo de documentos e informação.".
+:just_df_c710.10.300 :temCriterio :crit_just_df_c710.10.300_1.
+:crit_just_df_c710.10.300_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c710.10.300_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c710.10.600
+:df_c710.10.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c710.10.600 :temDF :df_c710.10.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c710.10.600
+:just_df_c710.10.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c710.10.600 :temJustificacao :just_df_c710.10.600.
+:crit_just_df_c710.10.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 300.30.008 - Registo de documentos (casos tratados).".
+:just_df_c710.10.600 :temCriterio :crit_just_df_c710.10.600_1.
+:crit_just_df_c710.10.600_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c710.10.600_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c710.20.001.01
+:df_c710.20.001.01 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "C".
+:c710.20.001.01 :temDF :df_c710.20.001.01.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c710.20.001.01
+:just_df_c710.20.001.01 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c710.20.001.01 :temJustificacao :just_df_c710.20.001.01.
+:crit_just_df_c710.20.001.01_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoLegal;
+	:conteudo "[DL 411/98], art.º 9, n.º 7 \"...entidade responsável pela administração do cemitério procede ao arquivamento do boletim de óbito\"".
+:just_df_c710.20.001.01 :temCriterio :crit_just_df_c710.20.001.01_1.
+:crit_just_df_c710.20.001.01_1 :temLegislacao :leg_224.
+###  http://jcr.di.uminho.pt/m51-clav#df_c710.20.002
+:df_c710.20.002 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c710.20.002 :temDF :df_c710.20.002.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c710.20.002
+:just_df_c710.20.002 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c710.20.002 :temJustificacao :just_df_c710.20.002.
+:crit_just_df_c710.20.002_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 300.30.008 - Registo de documentos (registo dos casos tratados, intervenientes e etapas).".
+:just_df_c710.20.002 :temCriterio :crit_just_df_c710.20.002_1.
+:crit_just_df_c710.20.002_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c710.20.002_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c710.20.003
+:df_c710.20.003 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c710.20.003 :temDF :df_c710.20.003.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c710.20.003
+:just_df_c710.20.003 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c710.20.003 :temJustificacao :just_df_c710.20.003.
+:crit_just_df_c710.20.003_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 300.30.008 - Registo de documentos (registo dos casos tratados, intervenientes e etapas).".
+:just_df_c710.20.003 :temCriterio :crit_just_df_c710.20.003_1.
+:crit_just_df_c710.20.003_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c710.20.003_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c710.20.004
+:df_c710.20.004 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c710.20.004 :temDF :df_c710.20.004.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c710.20.004
+:just_df_c710.20.004 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c710.20.004 :temJustificacao :just_df_c710.20.004.
+:crit_just_df_c710.20.004_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 300.30.008 - Registo de documentos (registo dos casos tratados, intervenientes e etapas).".
+:just_df_c710.20.004 :temCriterio :crit_just_df_c710.20.004_1.
+:crit_just_df_c710.20.004_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c710.20.004_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c710.20.300
+:df_c710.20.300 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c710.20.300 :temDF :df_c710.20.300.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c710.20.300
+:just_df_c710.20.300 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c710.20.300 :temJustificacao :just_df_c710.20.300.
+:crit_just_df_c710.20.300_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 300.30.008 - Registo de documentos (registo dos casos tratados, intervenientes e etapas).".
+:just_df_c710.20.300 :temCriterio :crit_just_df_c710.20.300_1.
+:crit_just_df_c710.20.300_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c710.20.300_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c710.20.600
+:df_c710.20.600 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c710.20.600 :temDF :df_c710.20.600.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c710.20.600
+:just_df_c710.20.600 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c710.20.600 :temJustificacao :just_df_c710.20.600.
+:crit_just_df_c710.20.600_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 300.30.008 - Registo de documentos (registo dos casos tratados, intervenientes e etapas).".
+:just_df_c710.20.600 :temCriterio :crit_just_df_c710.20.600_1.
+:crit_just_df_c710.20.600_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c710.20.600_1 :temProcessoRelacionado :c300.30.008.
+###  http://jcr.di.uminho.pt/m51-clav#df_c710.20.601
+:df_c710.20.601 rdf:type owl:NamedIndividual ,
+	:DestinoFinal ;
+	:dfValor "E".
+:c710.20.601 :temDF :df_c710.20.601.
+###  http://jcr.di.uminho.pt/m51-clav#just_df_c710.20.601
+:just_df_c710.20.601 rdf:type owl:NamedIndividual ,
+	:JustificacaoDF.
+:df_c710.20.601 :temJustificacao :just_df_c710.20.601.
+:crit_just_df_c710.20.601_1 rdf:type owl:NamedIndividual ,
+	:CriterioJustificacaoDensidadeInfo;
+	:conteudo "Informação sintetizada complementarmente emPN 150.20.300 - Avaliação de atividades (atuação da entidade);PN 300.30.008 - Registo de documentos (registo dos casos tratados, intervenientes e etapas).".
+:just_df_c710.20.601 :temCriterio :crit_just_df_c710.20.601_1.
+:crit_just_df_c710.20.601_1 :temProcessoRelacionado :c150.20.300.
+:crit_just_df_c710.20.601_1 :temProcessoRelacionado :c300.30.008.
